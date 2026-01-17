@@ -1,0 +1,29 @@
+- name: "Core Development"
+  slug: "core-development"
+  description: "Essential development skills for building software"
+  icon: "code"
+
+- name: "Language Specialists"
+  slug: "language-specialists"
+  description: "Language-specific expertise and best practices"
+  icon: "translate"
+
+- name: "Infrastructure"
+  slug: "infrastructure"
+  description: "DevOps, cloud, and infrastructure automation"
+  icon: "server"
+
+- name: "Quality & Security"
+  slug: "quality-security"
+  description: "Testing, code review, and security analysis"
+  icon: "shield"
+
+- name: "Data & Analytics"
+  slug: "data-analytics"
+  description: "Data processing, analysis, and visualization"
+  icon: "chart"
+
+- name: "Documentation"
+  slug: "documentation"
+  description: "Technical writing and documentation generation"
+  icon: "book"
