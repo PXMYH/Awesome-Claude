@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class="category-page">
+  <header class="category-header">
+    <nav class="breadcrumb">
+      <a href="{{ '/' | relative_url }}">Home</a> &raquo;
+      <a href="{{ '/categories/' | relative_url }}">Categories</a> &raquo;
+      <span>{{ page.title }}</span>
+    </nav>
+
+    <h1>{{ page.title }}</h1>
+    <p class="category-description">{{ page.description }}</p>
+
+    {% assign category_skills = site.skills | where: "category", page.category_slug %}
+    <p class="skill-count">{{ category_skills.size }} skills in this category</p>
+  </header>
+
+  <section class="filters">
+    <div class="filter-group">
+      <label for="rating-filter">Min Rating:</label>
+      <select id="rating-filter">
+        <option value="">Any</option>
+        <option value="4.5">4.5+</option>
+        <option value="4.0">4.0+</option>
+        <option value="3.5">3.5+</option>
+        <option value="3.0">3.0+</option>
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <label for="sort-by">Sort by:</label>
+      <select id="sort-by">
+        <option value="rating">Rating</option>
+        <option value="name">Name</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="skills-grid" id="skills-grid">
+    {% assign sorted_skills = category_skills | sort: "evaluation.overall_rating" | reverse %}
+    {% for skill in sorted_skills %}
+      {% include skill-card.html skill=skill %}
+    {% endfor %}
+  </section>
+
+  {{ content }}
+</div>

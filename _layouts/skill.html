@@ -1,0 +1,97 @@
+---
+layout: default
+---
+
+<article class="skill-detail">
+  <header class="skill-header">
+    <nav class="breadcrumb">
+      <a href="{{ '/' | relative_url }}">Home</a> &raquo;
+      <a href="{{ '/categories/' | relative_url }}{{ page.category }}/">{{ page.category_display }}</a> &raquo;
+      <span>{{ page.name }}</span>
+    </nav>
+
+    <h1>{{ page.name }}</h1>
+    <p class="skill-description">{{ page.description }}</p>
+
+    <div class="skill-meta">
+      <span class="category-badge">{{ page.category_display }}</span>
+      <a href="{{ page.source_url }}" class="source-link" target="_blank" rel="noopener">
+        View Source &rarr;
+      </a>
+    </div>
+  </header>
+
+  <div class="skill-content">
+    <div class="main-content">
+      <section class="evaluation-section">
+        <h2>LLM Evaluation</h2>
+        <p class="evaluation-model">Evaluated by: {{ page.evaluation.model }}</p>
+        <p class="evaluation-date">Last evaluated: {{ page.evaluation.evaluated_at | date: "%B %d, %Y" }}</p>
+
+        <div class="rating-cards">
+          <div class="rating-card">
+            <h3>Prompt Quality</h3>
+            <div class="rating-score">
+              {% include rating-badge.html score=page.evaluation.prompt_quality.score %}
+            </div>
+            <p class="rating-reasoning">{{ page.evaluation.prompt_quality.reasoning }}</p>
+          </div>
+
+          <div class="rating-card">
+            <h3>Usefulness</h3>
+            <div class="rating-score">
+              {% include rating-badge.html score=page.evaluation.usefulness.score %}
+            </div>
+            <p class="rating-reasoning">{{ page.evaluation.usefulness.reasoning }}</p>
+          </div>
+        </div>
+
+        <div class="overall-rating">
+          <h3>Overall Rating</h3>
+          {% include rating-badge.html score=page.evaluation.overall_rating size="large" %}
+          <p class="evaluation-summary">{{ page.evaluation.summary }}</p>
+        </div>
+      </section>
+
+      <section class="prompt-section">
+        <h2>Prompt Preview</h2>
+        <div class="prompt-preview">
+          <pre><code>{{ page.prompt_preview | escape }}</code></pre>
+        </div>
+        <p class="prompt-length">Full prompt length: {{ page.full_prompt_length }} characters</p>
+      </section>
+
+      {% if page.tools_mentioned and page.tools_mentioned.size > 0 %}
+      <section class="tools-section">
+        <h2>Tools & Technologies</h2>
+        <ul class="tools-list">
+          {% for tool in page.tools_mentioned %}
+          <li class="tool-tag">{{ tool }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+      {% endif %}
+    </div>
+
+    <aside class="sidebar">
+      <section class="github-metrics-section">
+        <h3>GitHub Metrics</h3>
+        {% include github-metrics.html metrics=page.github_metrics %}
+        <p class="metrics-date">Updated: {{ page.github_metrics.fetched_at | date: "%B %d, %Y" }}</p>
+      </section>
+
+      <section class="source-section">
+        <h3>Source</h3>
+        <p><strong>Repository:</strong> {{ page.source_repo }}</p>
+        <p><strong>Path:</strong> {{ page.source_path }}</p>
+        <a href="{{ page.source_url }}" class="btn btn-primary" target="_blank" rel="noopener">
+          View on GitHub
+        </a>
+      </section>
+
+      <section class="indexed-section">
+        <p class="indexed-date">Indexed: {{ page.indexed_at | date: "%B %d, %Y" }}</p>
+      </section>
+    </aside>
+  </div>
+</article>

@@ -1,0 +1,17 @@
+{% assign score = include.score | plus: 0 %}
+{% assign size = include.size | default: "medium" %}
+
+{% if score >= 4.5 %}
+  {% assign rating_class = "rating-excellent" %}
+{% elsif score >= 4.0 %}
+  {% assign rating_class = "rating-good" %}
+{% elsif score >= 3.0 %}
+  {% assign rating_class = "rating-average" %}
+{% else %}
+  {% assign rating_class = "rating-poor" %}
+{% endif %}
+
+<span class="rating-badge {{ rating_class }} rating-{{ size }}">
+  <span class="rating-value">{{ score | round: 1 }}</span>
+  <span class="rating-max">/5</span>
+</span>

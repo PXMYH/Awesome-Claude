@@ -1,0 +1,54 @@
+# Site settings
+title: Claude Skills Directory
+description: Discover, evaluate, and compare Claude skills, agents, and subagents
+baseurl: "/Awesome-Claude"
+url: "https://atlantis.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Theme
+remote_theme: pages-themes/minimal@v0.2.0
+
+# Collections
+collections:
+  skills:
+    output: true
+    permalink: /skills/:slug/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "skills"
+    values:
+      layout: "skill"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Exclude from build
+exclude:
+  - scripts/
+  - docs/
+  - README.md
+  - Gemfile.lock
+  - node_modules/
+  - tests/
+  - "*.py"
+  - "*.pyc"
+  - __pycache__/
+  - .github/
+  - decisions.md
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Data directory
+data_dir: _data

@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+<div class="home">
+  <section class="hero">
+    <h1>{{ page.title | default: "Claude Skills Directory" }}</h1>
+    <p class="hero-subtitle">{{ page.description | default: "Discover, evaluate, and compare Claude skills, agents, and subagents" }}</p>
+
+    <div class="search-box">
+      <input type="text" id="skill-search" placeholder="Search skills..." aria-label="Search skills">
+    </div>
+  </section>
+
+  <section class="filters">
+    <div class="filter-group">
+      <label for="category-filter">Category:</label>
+      <select id="category-filter">
+        <option value="">All Categories</option>
+        {% for category in site.data.categories %}
+        <option value="{{ category.slug }}">{{ category.name }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <label for="rating-filter">Min Rating:</label>
+      <select id="rating-filter">
+        <option value="">Any</option>
+        <option value="4.5">4.5+</option>
+        <option value="4.0">4.0+</option>
+        <option value="3.5">3.5+</option>
+        <option value="3.0">3.0+</option>
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <label for="sort-by">Sort by:</label>
+      <select id="sort-by">
+        <option value="rating">Rating</option>
+        <option value="name">Name</option>
+        <option value="recent">Recently Updated</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="stat-item">
+      <span class="stat-number">{{ site.data.site_meta.total_skills | default: 0 }}</span>
+      <span class="stat-label">Skills</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">{{ site.data.categories | size }}</span>
+      <span class="stat-label">Categories</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">{{ site.data.site_meta.avg_rating | default: "N/A" }}</span>
+      <span class="stat-label">Avg Rating</span>
+    </div>
+  </section>
+
+  <section class="skills-grid" id="skills-grid">
+    {% assign sorted_skills = site.skills | sort: "evaluation.overall_rating" | reverse %}
+    {% for skill in sorted_skills %}
+      {% include skill-card.html skill=skill %}
+    {% endfor %}
+  </section>
+
+  {{ content }}
+</div>
