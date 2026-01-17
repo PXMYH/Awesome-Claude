@@ -9,8 +9,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# Theme
-remote_theme: pages-themes/minimal@v0.2.0
+# Theme (no remote theme for local development)
 
 # Collections
 collections:
