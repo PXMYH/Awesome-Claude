@@ -28,11 +28,15 @@ uv sync
 # Run tests
 uv run pytest tests/ -v
 
-# Fetch and evaluate skills (requires API keys)
-export GITHUB_TOKEN=your_token
-export OPENROUTER_API_KEY=your_key
-uv run python scripts/fetch_skills.py
-uv run python scripts/evaluate_skills.py
+# Set up environment variables
+cp .env.example .env
+# Edit .env with your API keys (see Configuration section below)
+
+# Discover and fetch skills
+uv run python scripts/discover_skills.py  # Find skill repos (weekly)
+uv run python scripts/fetch_skills.py     # Fetch skills from repos
+uv run python scripts/fetch_github_metrics.py
+uv run python scripts/evaluate_skills.py  # LLM evaluation (requires OPENROUTER_API_KEY)
 uv run python scripts/generate_site_data.py
 
 # Build Jekyll site (requires Ruby)
@@ -50,10 +54,13 @@ bundle exec jekyll serve
 ├── _includes/           # Reusable components
 ├── assets/              # CSS, JS
 ├── scripts/             # Python data pipeline
-│   ├── fetch_skills.py
-│   ├── evaluate_skills.py
+│   ├── discover_skills.py    # Auto-discover skill repos
+│   ├── fetch_skills.py       # Fetch skills from repos
+│   ├── fetch_github_metrics.py
+│   ├── evaluate_skills.py    # LLM evaluation
 │   └── generate_site_data.py
 ├── tests/               # Unit tests
+├── .env.example         # Environment variable template
 └── .github/workflows/   # CI/CD
 ```
 
@@ -77,10 +84,18 @@ GitHub metrics (stars, forks, issues) are displayed separately.
 
 ### Environment Variables
 
-| Variable | Description |
-|----------|-------------|
-| `GITHUB_TOKEN` | GitHub API access (auto-provided in Actions) |
-| `OPENROUTER_API_KEY` | LLM evaluation via OpenRouter |
+Copy `.env.example` to `.env` and fill in your API keys:
+
+```bash
+cp .env.example .env
+```
+
+| Variable | Description | Required |
+|----------|-------------|----------|
+| `GITHUB_TOKEN` | GitHub API access for higher rate limits (5000/hr vs 60/hr). [Create token](https://github.com/settings/tokens) | Recommended |
+| `OPENROUTER_API_KEY` | LLM evaluation via [OpenRouter](https://openrouter.ai/keys) | For evaluation |
+
+In GitHub Actions, these are configured as repository secrets.
 
 ### Adding New Skill Sources
 
