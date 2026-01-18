@@ -10,6 +10,12 @@ ENV/
 .eggs/
 *.egg-info/
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Cache
+**/cache/
+*.cache
 
 # IDE
 .idea/
@@ -30,3 +36,4 @@ _site/
 # Project specific
 scripts/data/
 *.log
+.env # Local environment variables

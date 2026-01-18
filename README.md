@@ -1,7 +1,7 @@
 # Claude Skills Directory
 
-[![Deploy to GitHub Pages](https://github.com/atlantis/Awesome-Claude/actions/workflows/deploy.yml/badge.svg)](https://github.com/atlantis/Awesome-Claude/actions/workflows/deploy.yml)
-[![Tests](https://github.com/atlantis/Awesome-Claude/actions/workflows/update-data.yml/badge.svg)](https://github.com/atlantis/Awesome-Claude/actions/workflows/update-data.yml)
+[![Deploy to GitHub Pages](https://github.com/PXMYH/Awesome-Claude/actions/workflows/deploy.yml/badge.svg)](https://github.com/PXMYH/Awesome-Claude/actions/workflows/deploy.yml)
+[![Update Skills Data](https://github.com/PXMYH/Awesome-Claude/actions/workflows/update-data.yml/badge.svg)](https://github.com/PXMYH/Awesome-Claude/actions/workflows/update-data.yml)
 
 A curated directory that aggregates, evaluates, and ranks Claude skills, agents, and subagents using LLM-as-judge evaluation.
 
@@ -15,15 +15,11 @@ A curated directory that aggregates, evaluates, and ranks Claude skills, agents,
 
 ## Quick Start
 
-### View the Directory
-
-Visit [https://atlantis.github.io/Awesome-Claude](https://atlantis.github.io/Awesome-Claude)
-
 ### Local Development
 
 ```bash
 # Clone the repository
-git clone https://github.com/atlantis/Awesome-Claude.git
+git clone https://github.com/PXMYH/Awesome-Claude.git
 cd Awesome-Claude
 
 # Install Python dependencies with uv
@@ -65,6 +61,8 @@ bundle exec jekyll serve
 
 Currently indexing from:
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) - 100+ specialized subagents
+- [anthropics/skills](https://github.com/anthropics/skills) - Official Anthropic skills (pdf, docx, xlsx, etc.)
+- [obra/superpowers](https://github.com/obra/superpowers) - Community skills library (TDD, debugging, planning)
 
 ## Evaluation Criteria
 
@@ -84,21 +82,62 @@ GitHub metrics (stars, forks, issues) are displayed separately.
 | `GITHUB_TOKEN` | GitHub API access (auto-provided in Actions) |
 | `OPENROUTER_API_KEY` | LLM evaluation via OpenRouter |
 
-### Adding New Sources
+### Adding New Skill Sources
 
-Edit `scripts/config.py` to add new repositories:
+Edit `scripts/config.py` to add new repositories. Two repo formats are supported:
+
+#### Format 1: Category-based (`categories`)
+
+For repos with structure: `categories/<category-folder>/<skill>.md`
 
 ```python
-SOURCE_REPOS = [
-    {
-        "owner": "VoltAgent",
-        "repo": "awesome-claude-code-subagents",
-        "branch": "main",
-        "categories_path": "categories",
-        "enabled": True
-    },
-    # Add more repos here
-]
+{
+    "owner": "VoltAgent",
+    "repo": "awesome-claude-code-subagents",
+    "branch": "main",
+    "path": "categories",
+    "format": "categories",
+    "enabled": True
+}
+```
+
+#### Format 2: Skill folders (`skill_folders`)
+
+For repos with structure: `skills/<skill-folder>/SKILL.md`
+
+```python
+{
+    "owner": "anthropics",
+    "repo": "skills",
+    "branch": "main",
+    "path": "skills",
+    "format": "skill_folders",
+    "default_category": "official",  # Category slug for all skills in this repo
+    "enabled": True
+}
+```
+
+#### Configuration Options
+
+| Field | Required | Description |
+|-------|----------|-------------|
+| `owner` | Yes | GitHub username or organization |
+| `repo` | Yes | Repository name |
+| `branch` | Yes | Branch to fetch from (usually `main`) |
+| `path` | Yes | Path to skills directory in repo |
+| `format` | Yes | `categories` or `skill_folders` |
+| `default_category` | No | Category slug for skill_folders format |
+| `enabled` | No | Set `False` to skip this repo |
+
+#### Adding New Categories
+
+If using a new `default_category`, add it to `CATEGORY_MAP` in `config.py`:
+
+```python
+CATEGORY_MAP = {
+    # ... existing categories ...
+    "my-category": {"slug": "my-category", "name": "My Category"},
+}
 ```
 
 ## Contributing
@@ -115,4 +154,6 @@ MIT
 
 - [awesome-claude](https://github.com/tonysurfly/awesome-claude) - Original awesome list aggregation
 - [VoltAgent](https://github.com/VoltAgent) - Subagents collection
+- [anthropics/skills](https://github.com/anthropics/skills) - Official Anthropic skills
+- [obra/superpowers](https://github.com/obra/superpowers) - Community skills library
 - [OpenRouter](https://openrouter.ai) - LLM API access

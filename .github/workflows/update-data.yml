@@ -2,16 +2,21 @@ name: Update Skills Data
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # Daily at 2 AM UTC
+    - cron: '0 2 * * 1-6'  # Daily at 2 AM UTC (Mon-Sat) - fetch only
+    - cron: '0 2 * * 0'    # Weekly on Sunday at 2 AM UTC - full discovery
   workflow_dispatch:
     inputs:
       force_reevaluate:
         description: 'Force re-evaluation of all skills'
         type: boolean
         default: false
+      force_rediscover:
+        description: 'Force re-discovery of skill repos'
+        type: boolean
+        default: false
 
 env:
-  PYTHON_VERSION: '3.11'
+  PYTHON_VERSION: '3.12'
 
 jobs:
   update-data:
@@ -21,16 +26,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
+          version: "latest"
 
-      - name: Cache pip dependencies
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: pip-${{ hashFiles('scripts/requirements.txt') }}
+      - name: Set up Python
+        run: uv python install ${{ env.PYTHON_VERSION }}
 
       - name: Cache evaluation results
         uses: actions/cache@v4
@@ -40,33 +42,48 @@ jobs:
           restore-keys: evaluations-
 
       - name: Install dependencies
-        run: pip install -r scripts/requirements.txt
+        run: uv sync
+
+      - name: Check if Sunday (discovery day)
+        id: check-day
+        run: |
+          if [ "$(date -u +%u)" = "7" ]; then
+            echo "is_sunday=true" >> $GITHUB_OUTPUT
+          else
+            echo "is_sunday=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Discover skill repos (weekly on Sunday or on demand)
+        if: steps.check-day.outputs.is_sunday == 'true' || inputs.force_rediscover == true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: uv run python scripts/discover_skills.py
 
       - name: Fetch skills from source repos
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/fetch_skills.py
+        run: uv run python scripts/fetch_skills.py
 
       - name: Fetch GitHub metrics
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/fetch_github_metrics.py
+        run: uv run python scripts/fetch_github_metrics.py
 
       - name: Evaluate skills with LLM
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           FORCE_REEVALUATE: ${{ inputs.force_reevaluate }}
-        run: python scripts/evaluate_skills.py
+        run: uv run python scripts/evaluate_skills.py
         continue-on-error: true  # Don't fail if OpenRouter is unavailable
 
       - name: Generate Jekyll data files
-        run: python scripts/generate_site_data.py
+        run: uv run python scripts/generate_site_data.py
 
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _data/ _skills/ assets/js/search-index.json
+          git add _data/ _skills/ assets/js/search-index.json scripts/data/
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
