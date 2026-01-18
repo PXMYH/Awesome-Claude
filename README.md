@@ -160,15 +160,3 @@ CATEGORY_MAP = {
 1. **Add a skill source**: Submit a PR adding a new repo to `SOURCE_REPOS`
 2. **Improve evaluation**: Enhance the LLM prompt in `evaluate_skills.py`
 3. **UI improvements**: Modify layouts in `_layouts/` and CSS in `assets/css/`
-
-## License
-
-MIT
-
-## Acknowledgments
-
-- [awesome-claude](https://github.com/tonysurfly/awesome-claude) - Original awesome list aggregation
-- [VoltAgent](https://github.com/VoltAgent) - Subagents collection
-- [anthropics/skills](https://github.com/anthropics/skills) - Official Anthropic skills
-- [obra/superpowers](https://github.com/obra/superpowers) - Community skills library
-- [OpenRouter](https://openrouter.ai) - LLM API access
