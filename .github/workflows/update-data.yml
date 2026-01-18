@@ -83,7 +83,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _data/ _skills/ assets/js/search-index.json scripts/data/
+          git add _data/ _skills/ assets/js/search-index.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
