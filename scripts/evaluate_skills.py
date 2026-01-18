@@ -17,7 +17,7 @@ from config import (
     OPENROUTER_MODEL,
     OPENROUTER_API_KEY,
     EVALUATION_CACHE_DAYS,
-    SKIP_CACHED_EVALUATIONS,
+    FORCE_REEVALUATE,
 )
 
 
@@ -57,7 +57,7 @@ def is_cache_valid(cache_path: Path) -> bool:
     """Check if cached evaluation is still valid."""
     if not cache_path.exists():
         return False
-    if not SKIP_CACHED_EVALUATIONS:
+    if FORCE_REEVALUATE:
         return False
 
     with open(cache_path) as f:
@@ -186,18 +186,36 @@ def main():
         skills = json.load(f)
 
     print(f"Evaluating {len(skills)} skills...")
+    if FORCE_REEVALUATE:
+        print("  FORCE_REEVALUATE=true - ignoring cache")
+    else:
+        print(f"  Using cached evaluations (valid for {EVALUATION_CACHE_DAYS} days)")
 
     evaluations = {}
+    cached_count = 0
+    new_count = 0
+
     for skill in skills:
+        cache_path = get_cache_path(skill["id"])
+        was_cached = is_cache_valid(cache_path)
+
         evaluation = evaluate_skill(skill)
         evaluations[skill["id"]] = evaluation
+
+        if was_cached:
+            cached_count += 1
+        else:
+            new_count += 1
 
     # Save evaluations
     output_file = DATA_DIR / "evaluations.json"
     with open(output_file, "w") as f:
         json.dump(evaluations, f, indent=2)
 
-    print(f"\nSaved evaluations to {output_file}")
+    print(f"\nEvaluation complete:")
+    print(f"  - Cached: {cached_count}")
+    print(f"  - New: {new_count}")
+    print(f"Saved to {output_file}")
 
 
 if __name__ == "__main__":

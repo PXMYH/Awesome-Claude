@@ -67,8 +67,8 @@ OPENROUTER_RPM = 10  # requests per minute
 GITHUB_RPM = 30
 
 # Evaluation Settings
-SKIP_CACHED_EVALUATIONS = True
-EVALUATION_CACHE_DAYS = 7  # Re-evaluate after 7 days
+FORCE_REEVALUATE = os.environ.get("FORCE_REEVALUATE", "").lower() == "true"
+EVALUATION_CACHE_DAYS = 30  # Re-evaluate after 30 days
 
 # Category mappings from folder names to display names
 CATEGORY_MAP = {
