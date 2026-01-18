@@ -148,10 +148,50 @@ def guess_category(owner: str, repo: str, topics: list = None) -> str:
     return "community"
 
 
+def find_skill_files_recursive(owner: str, repo: str, branch: str, path: str = "", depth: int = 0, max_depth: int = 3) -> list:
+    """
+    Recursively search for SKILL.md files up to max_depth levels.
+    Returns list of paths where SKILL.md files were found.
+    """
+    if depth > max_depth:
+        return []
+
+    contents = fetch_repo_contents(owner, repo, path, branch)
+    if not contents:
+        return []
+
+    found_paths = []
+    skip_dirs = {".github", ".git", "docs", "examples", "tests", "test", "scripts", "assets", "images",
+                 ".claude-plugin", "node_modules", "__pycache__", "venv", ".venv", "dist", "build"}
+
+    # Check for SKILL.md in current directory
+    for item in contents:
+        if item["type"] == "file" and item["name"].upper() == "SKILL.MD":
+            found_paths.append(path if path else ".")
+            break
+
+    # Recurse into subdirectories
+    if depth < max_depth:
+        for item in contents:
+            if item["type"] != "dir":
+                continue
+            dir_name = item["name"]
+            if dir_name.startswith(".") or dir_name.lower() in skip_dirs:
+                continue
+            subpath = f"{path}/{dir_name}" if path else dir_name
+            found_paths.extend(find_skill_files_recursive(owner, repo, branch, subpath, depth + 1, max_depth))
+            time.sleep(0.02)  # Rate limit protection
+
+    return found_paths
+
+
 def detect_skill_format(owner: str, repo: str, branch: str = None, topics: list = None, stars: int = 0) -> dict | None:
     """
     Detect what format of skills a repo contains.
     Returns a config dict if skills found, None otherwise.
+
+    Uses recursive search for SKILL.md files up to 3 levels deep,
+    then analyzes the paths to determine the format.
     """
     if branch is None:
         branch = get_default_branch(owner, repo)
@@ -163,7 +203,7 @@ def detect_skill_format(owner: str, repo: str, branch: str = None, topics: list 
     dir_names = {item["name"]: item for item in contents if item["type"] == "dir"}
     file_names = {item["name"].upper(): item for item in contents if item["type"] == "file"}
 
-    # Check for SKILL.md at root
+    # Check for SKILL.md at root first (most common case)
     if "SKILL.MD" in file_names:
         return {
             "owner": owner,
@@ -175,50 +215,7 @@ def detect_skill_format(owner: str, repo: str, branch: str = None, topics: list 
             "stars": stars,
         }
 
-    # Check for skills/ directory
-    if "skills" in dir_names:
-        skills_contents = fetch_repo_contents(owner, repo, "skills", branch)
-        if skills_contents:
-            for item in skills_contents[:5]:
-                if item["type"] == "dir":
-                    subfolder = fetch_repo_contents(owner, repo, f"skills/{item['name']}", branch)
-                    if subfolder:
-                        for f in subfolder:
-                            if f["name"].upper() == "SKILL.MD":
-                                return {
-                                    "owner": owner,
-                                    "repo": repo,
-                                    "branch": branch,
-                                    "path": "skills",
-                                    "format": "skill_folders",
-                                    "default_category": guess_category(owner, repo, topics),
-                                    "stars": stars,
-                                }
-            for item in skills_contents:
-                if item["name"].endswith(".md") and item["name"].lower() != "readme.md":
-                    return {
-                        "owner": owner,
-                        "repo": repo,
-                        "branch": branch,
-                        "path": "skills",
-                        "format": "flat_md",
-                        "default_category": guess_category(owner, repo, topics),
-                        "stars": stars,
-                    }
-
-    # Check for scientific-skills/ directory
-    if "scientific-skills" in dir_names:
-        return {
-            "owner": owner,
-            "repo": repo,
-            "branch": branch,
-            "path": "scientific-skills",
-            "format": "skill_folders",
-            "default_category": "scientific",
-            "stars": stars,
-        }
-
-    # Check for categories/ directory
+    # Check for categories/ directory (special format)
     if "categories" in dir_names:
         return {
             "owner": owner,
@@ -230,7 +227,7 @@ def detect_skill_format(owner: str, repo: str, branch: str = None, topics: list 
             "stars": stars,
         }
 
-    # Check for plugins/ directory
+    # Check for plugins/ directory (special format)
     if "plugins" in dir_names:
         plugins_contents = fetch_repo_contents(owner, repo, "plugins", branch)
         if plugins_contents:
@@ -248,22 +245,92 @@ def detect_skill_format(owner: str, repo: str, branch: str = None, topics: list 
                             "stars": stars,
                         }
 
-    # Check for skill folders at root level (e.g., ComposioHQ format)
-    # Look for directories with SKILL.md inside them at root
-    skill_folders_at_root = []
-    for name, item in list(dir_names.items())[:10]:  # Check first 10 dirs
-        if name.startswith(".") or name.lower() in ("docs", "examples", "tests", "scripts", "assets", "images"):
-            continue
-        subfolder = fetch_repo_contents(owner, repo, name, branch)
-        if subfolder:
-            for f in subfolder:
-                if f["name"].upper() == "SKILL.MD":
-                    skill_folders_at_root.append(name)
-                    break
-        if len(skill_folders_at_root) >= 2:  # Found at least 2 skill folders
-            break
+    # Recursive search for SKILL.md files up to 3 levels deep
+    skill_paths = find_skill_files_recursive(owner, repo, branch, "", 0, 3)
 
-    if len(skill_folders_at_root) >= 2:
+    if not skill_paths:
+        # Fallback: check for flat .md files in skills/ directory
+        if "skills" in dir_names:
+            skills_contents = fetch_repo_contents(owner, repo, "skills", branch)
+            if skills_contents:
+                for item in skills_contents:
+                    if item["name"].endswith(".md") and item["name"].lower() != "readme.md":
+                        return {
+                            "owner": owner,
+                            "repo": repo,
+                            "branch": branch,
+                            "path": "skills",
+                            "format": "flat_md",
+                            "default_category": guess_category(owner, repo, topics),
+                            "stars": stars,
+                        }
+        return None
+
+    # Analyze paths to determine format
+    # Extract the common parent directory pattern
+    if len(skill_paths) == 1 and skill_paths[0] == ".":
+        # Single SKILL.md at root (already handled above, but just in case)
+        return {
+            "owner": owner,
+            "repo": repo,
+            "branch": branch,
+            "path": "",
+            "format": "root_skill",
+            "default_category": guess_category(owner, repo, topics),
+            "stars": stars,
+        }
+
+    # Check if all skills are under a common parent directory
+    common_parents = set()
+    for p in skill_paths:
+        parts = p.split("/")
+        if len(parts) >= 1 and parts[0] != ".":
+            common_parents.add(parts[0])
+
+    # Single skill in a subdirectory (e.g., linear/SKILL.md or ios-simulator-skill/SKILL.md)
+    if len(skill_paths) == 1:
+        skill_path = skill_paths[0]
+        parts = skill_path.split("/")
+        if len(parts) == 1:
+            # Skill is one level deep (e.g., "linear" or "ios-simulator-skill")
+            return {
+                "owner": owner,
+                "repo": repo,
+                "branch": branch,
+                "path": skill_path,
+                "format": "single_subfolder",
+                "default_category": guess_category(owner, repo, topics),
+                "stars": stars,
+            }
+        else:
+            # Skill is deeper (e.g., "skills/my-skill")
+            parent = "/".join(parts[:-1])
+            return {
+                "owner": owner,
+                "repo": repo,
+                "branch": branch,
+                "path": parent,
+                "format": "skill_folders",
+                "default_category": guess_category(owner, repo, topics),
+                "stars": stars,
+            }
+
+    # Multiple skills found
+    if len(common_parents) == 1:
+        # All skills under one directory (e.g., skills/, scientific-skills/)
+        parent = list(common_parents)[0]
+        category = "scientific" if "scientific" in parent.lower() else guess_category(owner, repo, topics)
+        return {
+            "owner": owner,
+            "repo": repo,
+            "branch": branch,
+            "path": parent,
+            "format": "skill_folders",
+            "default_category": category,
+            "stars": stars,
+        }
+    else:
+        # Skills in multiple root-level directories (ComposioHQ format)
         return {
             "owner": owner,
             "repo": repo,
@@ -273,8 +340,6 @@ def detect_skill_format(owner: str, repo: str, branch: str = None, topics: list 
             "default_category": guess_category(owner, repo, topics),
             "stars": stars,
         }
-
-    return None
 
 
 def parse_skill_markdown(content: str, filename: str) -> dict:
@@ -348,6 +413,18 @@ def fetch_skills_from_config(config: dict) -> list:
         if content:
             skill_data = parse_skill_markdown(content, f"{repo}.md")
             skills.append(make_skill(skill_data, slugify(repo), default_category, "SKILL.md"))
+
+    elif format_type == "single_subfolder":
+        # Single skill in a subdirectory (e.g., linear/SKILL.md)
+        for skill_filename in ["SKILL.md", "skill.md", "Skill.md"]:
+            try_path = f"{path}/{skill_filename}"
+            content = fetch_file_content(owner, repo, try_path, branch)
+            if content:
+                # Use folder name for skill ID, but could also use repo name
+                folder_name = path.split("/")[-1] if "/" in path else path
+                skill_data = parse_skill_markdown(content, f"{folder_name}.md")
+                skills.append(make_skill(skill_data, slugify(folder_name), default_category, try_path))
+                break
 
     elif format_type == "skill_folders":
         contents = fetch_repo_contents(owner, repo, path, branch)

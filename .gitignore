@@ -36,4 +36,4 @@ _site/
 # Project specific
 scripts/data/
 *.log
-.env # Local environment variables
+.env
