@@ -29,8 +29,8 @@ packages = ["scripts"]
 testpaths = ["tests"]
 pythonpath = ["scripts"]
 
-[tool.uv]
-dev-dependencies = [
+[dependency-groups]
+dev = [
     "pytest>=7.4.0",
     "pytest-cov>=4.1.0",
 ]
