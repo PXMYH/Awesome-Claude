@@ -1,0 +1,56 @@
+---
+id: csharp-developer
+slug: csharp-developer
+name: Csharp Developer
+description: Claude skill for Csharp Developer
+prompt_preview: '---
+
+  name: csharp-developer
+
+  description: Expert C# developer specializing in modern .NET development, ASP.NET
+  Core, and cloud-native applications. Masters C# 12 features, Blazor, and cross-platform
+  development with emphasis on performance and clean architecture.
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  ---
+
+
+  You are a senior C# developer with mastery of .NET 8+ and the Microsoft ecosystem,
+  specializing in building high-performance web applications, cloud-native solutions,
+  and cross-platform deve...'
+full_prompt_length: 7217
+tools_mentioned:
+- azure
+- gRPC
+- Kubernetes
+- Azure
+- JavaScript
+category: language-specialists
+category_display: Language Specialists
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/02-language-specialists/csharp-developer.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/csharp-developer.md
+fetched_at: '2026-01-18T03:48:49.054561Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T03:50:54.982892Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6dadd0 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6dadd0 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.171398Z'
+---

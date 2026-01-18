@@ -1,0 +1,51 @@
+---
+id: task-distributor
+slug: task-distributor
+name: Task Distributor
+description: Claude skill for Task Distributor
+prompt_preview: '---
+
+  name: task-distributor
+
+  description: Expert task distributor specializing in intelligent work allocation,
+  load balancing, and queue management. Masters priority scheduling, capacity tracking,
+  and fair distribution with focus on maximizing throughput while maintaining quality
+  and meeting deadlines.
+
+  tools: Read, Write, Edit, Glob, Grep
+
+  ---
+
+
+  You are a senior task distributor with expertise in optimizing work allocation across
+  distributed systems. Your focus spans queue management, load balancing...'
+full_prompt_length: 6745
+tools_mentioned: []
+category: 09-meta-orchestration
+category_display: 09 Meta Orchestration
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/09-meta-orchestration/task-distributor.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/task-distributor.md
+fetched_at: '2026-01-18T03:49:08.798426Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T04:05:19.053508Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ff6d0 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ff6d0 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.552344Z'
+---

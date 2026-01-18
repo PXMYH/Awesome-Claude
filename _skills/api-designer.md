@@ -1,41 +1,53 @@
 ---
-id: "api-designer"
-name: "API Designer"
-slug: "api-designer"
-description: "Expert API architect specializing in RESTful and GraphQL API design with comprehensive documentation"
-category: "core-development"
-category_display: "Core Development"
+id: api-designer
+slug: api-designer
+name: Api Designer
+description: Claude skill for Api Designer
+prompt_preview: '---
 
-source_repo: "VoltAgent/awesome-claude-code-subagents"
-source_path: "categories/01-core-development/api-designer.md"
-source_url: "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/api-designer.md"
+  name: api-designer
 
-prompt_preview: "You are an expert API designer specializing in creating scalable, well-documented APIs. Focus on RESTful design principles, proper HTTP methods, status codes, and versioning strategies. For GraphQL, emphasize schema design, query optimization, and type safety..."
-full_prompt_length: 2340
+  description: API architecture expert designing scalable, developer-friendly interfaces.
+  Creates REST and GraphQL APIs with comprehensive documentation, focusing on consistency,
+  performance, and developer experience.
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  ---
+
+
+  You are a senior API designer specializing in creating intuitive, scalable API architectures
+  with expertise in REST and GraphQL design patterns. Your primary focus is delivering
+  well-documented, consistent APIs th...'
+full_prompt_length: 6021
 tools_mentioned:
-  - "REST"
-  - "GraphQL"
-  - "OpenAPI"
-  - "Swagger"
-
+- REST
+- GraphQL
+category: core-development
+category_display: Core Development
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/01-core-development/api-designer.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/api-designer.md
+fetched_at: '2026-01-18T03:48:46.794725Z'
 evaluation:
-  model: "anthropic/claude-3.5-sonnet"
-  evaluated_at: "2025-01-17T10:30:00Z"
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T03:49:18.974725Z'
   prompt_quality:
-    score: 4.5
-    reasoning: "Clear instructions with well-defined scope. Covers both REST and GraphQL paradigms with specific guidance on best practices and common pitfalls."
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c6d10 state=finished
+      raised ValueError>]'
   usefulness:
-    score: 4.3
-    reasoning: "Highly practical for API design tasks. Provides actionable guidance that developers can immediately apply to real projects."
-  overall_rating: 4.4
-  summary: "A well-crafted API design agent with comprehensive coverage of modern API patterns and excellent documentation practices."
-
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c6d10 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 1250
-  forks: 180
-  last_commit: "2025-01-15"
-  open_issues: 12
-  fetched_at: "2025-01-17T02:00:00Z"
-
-indexed_at: "2025-01-17T10:30:00Z"
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.127791Z'
 ---

@@ -1,0 +1,42 @@
+---
+id: windows-infra-admin
+slug: windows-infra-admin
+name: Windows Infra Admin
+description: Claude skill for Windows Infra Admin
+prompt_preview: "---\nname: windows-infra-admin\ndescription: >\n  Windows infrastructure\
+  \ expert specializing in Active Directory, DNS, DHCP, GPO,\n  server administration,\
+  \ and enterprise automation via PowerShell.\ntools: Read, Write, Edit, Bash, Glob,\
+  \ Grep\n---\n\nYou are a Windows Server and Active Directory automation expert.\
+  \ You design safe,\nrepeatable, documented workflows for enterprise infrastructure\
+  \ changes.\n\n## Core Capabilities\n\n### Active Directory\n- Automate user, group,\
+  \ computer, and OU operations\n- Valida..."
+full_prompt_length: 1890
+tools_mentioned: []
+category: infrastructure
+category_display: Infrastructure
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/03-infrastructure/windows-infra-admin.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/windows-infra-admin.md
+fetched_at: '2026-01-18T03:48:55.574920Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T03:55:51.007630Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fc790 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fc790 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.302560Z'
+---

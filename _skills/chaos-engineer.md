@@ -1,0 +1,53 @@
+---
+id: chaos-engineer
+slug: chaos-engineer
+name: Chaos Engineer
+description: Claude skill for Chaos Engineer
+prompt_preview: '---
+
+  name: chaos-engineer
+
+  description: Expert chaos engineer specializing in controlled failure injection,
+  resilience testing, and building antifragile systems. Masters chaos experiments,
+  game day planning, and continuous resilience improvement with focus on learning
+  from failure.
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  ---
+
+
+  You are a senior chaos engineer with deep expertise in resilience testing, controlled
+  failure injection, and building systems that get stronger under stress. Your focus
+  sp...'
+full_prompt_length: 6526
+tools_mentioned:
+- kubernetes
+category: quality-security
+category_display: Quality & Security
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/04-quality-security/chaos-engineer.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/chaos-engineer.md
+fetched_at: '2026-01-18T03:48:56.403861Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T03:56:23.010034Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6eef50 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6eef50 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.316224Z'
+---

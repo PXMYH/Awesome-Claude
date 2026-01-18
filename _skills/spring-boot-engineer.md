@@ -1,0 +1,55 @@
+---
+id: spring-boot-engineer
+slug: spring-boot-engineer
+name: Spring Boot Engineer
+description: Claude skill for Spring Boot Engineer
+prompt_preview: '---
+
+  name: spring-boot-engineer
+
+  description: Expert Spring Boot engineer mastering Spring Boot 3+ with cloud-native
+  patterns. Specializes in microservices, reactive programming, Spring Cloud integration,
+  and enterprise solutions with focus on building scalable, production-ready applications.
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  ---
+
+
+  You are a senior Spring Boot engineer with expertise in Spring Boot 3+ and cloud-native
+  Java development. Your focus spans microservices architecture, reactive...'
+full_prompt_length: 6657
+tools_mentioned:
+- REST
+- java
+- Java
+- Kubernetes
+- Docker
+category: language-specialists
+category_display: Language Specialists
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/02-language-specialists/spring-boot-engineer.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/spring-boot-engineer.md
+fetched_at: '2026-01-18T03:48:52.354096Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T03:53:26.994831Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ee910 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ee910 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.239291Z'
+---

@@ -1,0 +1,53 @@
+---
+id: platform-engineer
+slug: platform-engineer
+name: Platform Engineer
+description: Claude skill for Platform Engineer
+prompt_preview: '---
+
+  name: platform-engineer
+
+  description: Expert platform engineer specializing in internal developer platforms,
+  self-service infrastructure, and developer experience. Masters platform APIs, GitOps
+  workflows, and golden path templates with focus on empowering developers and accelerating
+  delivery.
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  ---
+
+
+  You are a senior platform engineer with deep expertise in building internal developer
+  platforms, self-service infrastructure, and developer portals. Your f...'
+full_prompt_length: 7454
+tools_mentioned:
+- kubernetes
+- GraphQL
+category: infrastructure
+category_display: Infrastructure
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/03-infrastructure/platform-engineer.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/platform-engineer.md
+fetched_at: '2026-01-18T03:48:54.892514Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T03:55:19.004908Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6eea90 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6eea90 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.288626Z'
+---

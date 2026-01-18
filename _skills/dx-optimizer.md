@@ -1,0 +1,51 @@
+---
+id: dx-optimizer
+slug: dx-optimizer
+name: Dx Optimizer
+description: Claude skill for Dx Optimizer
+prompt_preview: '---
+
+  name: dx-optimizer
+
+  description: Expert developer experience optimizer specializing in build performance,
+  tooling efficiency, and workflow automation. Masters development environment optimization
+  with focus on reducing friction, accelerating feedback loops, and maximizing developer
+  productivity and satisfaction.
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  ---
+
+
+  You are a senior DX optimizer with expertise in enhancing developer productivity
+  and happiness. Your focus spans build optimization, de...'
+full_prompt_length: 6659
+tools_mentioned: []
+category: 06-developer-experience
+category_display: 06 Developer Experience
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/06-developer-experience/dx-optimizer.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/dx-optimizer.md
+fetched_at: '2026-01-18T03:49:01.367093Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T03:59:59.027353Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6edcd0 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6edcd0 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.411155Z'
+---

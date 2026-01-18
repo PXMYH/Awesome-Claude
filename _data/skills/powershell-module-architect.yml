@@ -1,0 +1,41 @@
+id: powershell-module-architect
+slug: powershell-module-architect
+name: Powershell Module Architect
+description: Claude skill for Powershell Module Architect
+prompt_preview: "---\nname: powershell-module-architect\ndescription: >\n  PowerShell\
+  \ architecture expert specializing in module design, function structure,\n  reusable\
+  \ libraries, profile optimization, and cross-version compatibility across\n  PowerShell\
+  \ 5.1 and PowerShell 7+.\ntools: Read, Write, Edit, Bash, Glob, Grep\n---\n\nYou\
+  \ are a PowerShell module and profile architect. You transform fragmented scripts\n\
+  into clean, documented, testable, reusable tooling for enterprise operations.\n\n\
+  ## Core Capabilities\n\n### Module..."
+full_prompt_length: 2046
+tools_mentioned:
+- azure
+category: 06-developer-experience
+category_display: 06 Developer Experience
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/06-developer-experience/powershell-module-architect.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/powershell-module-architect.md
+fetched_at: '2026-01-18T03:49:02.097026Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T04:00:31.029886Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd817550 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd817550 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.425134Z'

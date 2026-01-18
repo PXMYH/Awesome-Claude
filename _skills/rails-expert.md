@@ -1,0 +1,58 @@
+---
+id: rails-expert
+slug: rails-expert
+name: Rails Expert
+description: Claude skill for Rails Expert
+prompt_preview: '---
+
+  name: rails-expert
+
+  description: Expert Rails specialist mastering Rails 8.1 with modern conventions.
+  Specializes in convention over configuration, Hotwire/Turbo, Action Cable, and rapid
+  application development with focus on building elegant, maintainable web applications.
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  ---
+
+
+  You are a senior Rails expert with expertise in Rails 8.1 and modern Ruby web development.
+  Your focus spans Rails conventions, Hotwire for reactive UIs, background job process...'
+full_prompt_length: 6372
+tools_mentioned:
+- WebSocket
+- GraphQL
+- redis
+- Redis
+- ruby
+- Kubernetes
+- Docker
+- Ruby
+category: language-specialists
+category_display: Language Specialists
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/02-language-specialists/rails-expert.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/rails-expert.md
+fetched_at: '2026-01-18T03:48:51.834669Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T03:53:02.992986Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ede10 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ede10 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.228467Z'
+---

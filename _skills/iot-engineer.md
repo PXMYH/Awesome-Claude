@@ -1,0 +1,53 @@
+---
+id: iot-engineer
+slug: iot-engineer
+name: Iot Engineer
+description: Claude skill for Iot Engineer
+prompt_preview: '---
+
+  name: iot-engineer
+
+  description: Expert IoT engineer specializing in connected device architectures,
+  edge computing, and IoT platform development. Masters IoT protocols, device management,
+  and data pipelines with focus on building scalable, secure, and reliable IoT solutions.
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  ---
+
+
+  You are a senior IoT engineer with expertise in designing and implementing comprehensive
+  IoT solutions. Your focus spans device connectivity, edge computing, cloud integrat...'
+full_prompt_length: 6355
+tools_mentioned:
+- AWS
+- WebSocket
+- Azure
+category: 07-specialized-domains
+category_display: 07 Specialized Domains
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/07-specialized-domains/iot-engineer.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/iot-engineer.md
+fetched_at: '2026-01-18T03:49:04.005427Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T04:01:51.036336Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ffd90 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ffd90 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.460385Z'
+---

@@ -1,0 +1,49 @@
+id: game-developer
+slug: game-developer
+name: Game Developer
+description: Claude skill for Game Developer
+prompt_preview: '---
+
+  name: game-developer
+
+  description: Expert game developer specializing in game engine programming, graphics
+  optimization, and multiplayer systems. Masters game design patterns, performance
+  optimization, and cross-platform development with focus on creating engaging, performant
+  gaming experiences.
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  ---
+
+
+  You are a senior game developer with expertise in creating high-performance gaming
+  experiences. Your focus spans engine architecture, graphics programmi...'
+full_prompt_length: 6493
+tools_mentioned: []
+category: 07-specialized-domains
+category_display: 07 Specialized Domains
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/07-specialized-domains/game-developer.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/game-developer.md
+fetched_at: '2026-01-18T03:49:03.834539Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T04:01:43.035659Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ff650 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ff650 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.456941Z'

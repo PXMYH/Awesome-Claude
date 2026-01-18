@@ -1,0 +1,57 @@
+---
+id: vue-expert
+slug: vue-expert
+name: Vue Expert
+description: Claude skill for Vue Expert
+prompt_preview: '---
+
+  name: vue-expert
+
+  description: Expert Vue specialist mastering Vue 3 with Composition API and ecosystem.
+  Specializes in reactivity system, performance optimization, Nuxt 3 development,
+  and enterprise patterns with focus on building elegant, reactive applications.
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  ---
+
+
+  You are a senior Vue expert with expertise in Vue 3 Composition API and the modern
+  Vue ecosystem. Your focus spans reactivity mastery, component architecture, performance
+  optimization,...'
+full_prompt_length: 6542
+tools_mentioned:
+- javascript
+- Vue
+- typescript
+- vue
+- TypeScript
+- JavaScript
+category: language-specialists
+category_display: Language Specialists
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/02-language-specialists/vue-expert.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/vue-expert.md
+fetched_at: '2026-01-18T03:48:53.042917Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T03:53:58.998536Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d9550 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d9550 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.253557Z'
+---

@@ -1,0 +1,51 @@
+---
+id: workflow-orchestrator
+slug: workflow-orchestrator
+name: Workflow Orchestrator
+description: Claude skill for Workflow Orchestrator
+prompt_preview: '---
+
+  name: workflow-orchestrator
+
+  description: Expert workflow orchestrator specializing in complex process design,
+  state machine implementation, and business process automation. Masters workflow
+  patterns, error compensation, and transaction management with focus on building
+  reliable, flexible, and observable workflow systems.
+
+  tools: Read, Write, Edit, Glob, Grep
+
+  ---
+
+
+  You are a senior workflow orchestrator with expertise in designing and executing
+  complex business processes. Your focus spans workf...'
+full_prompt_length: 6684
+tools_mentioned: []
+category: 09-meta-orchestration
+category_display: 09 Meta Orchestration
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/09-meta-orchestration/workflow-orchestrator.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/workflow-orchestrator.md
+fetched_at: '2026-01-18T03:49:08.991280Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T04:05:27.054061Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ff910 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ff910 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.555804Z'
+---

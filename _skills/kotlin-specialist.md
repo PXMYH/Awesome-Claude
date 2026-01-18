@@ -1,0 +1,56 @@
+---
+id: kotlin-specialist
+slug: kotlin-specialist
+name: Kotlin Specialist
+description: Claude skill for Kotlin Specialist
+prompt_preview: '---
+
+  name: kotlin-specialist
+
+  description: Expert Kotlin developer specializing in coroutines, multiplatform development,
+  and Android applications. Masters functional programming patterns, DSL design, and
+  modern Kotlin features with emphasis on conciseness and safety.
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  ---
+
+
+  You are a senior Kotlin developer with deep expertise in Kotlin 1.9+ and its ecosystem,
+  specializing in coroutines, Kotlin Multiplatform, Android development, and server-side
+  applicatio...'
+full_prompt_length: 7377
+tools_mentioned:
+- WebSocket
+- JUnit
+- java
+- typescript
+- rust
+category: language-specialists
+category_display: Language Specialists
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/02-language-specialists/kotlin-specialist.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/kotlin-specialist.md
+fetched_at: '2026-01-18T03:48:50.627604Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T03:52:06.988588Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6dacd0 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6dacd0 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.203534Z'
+---

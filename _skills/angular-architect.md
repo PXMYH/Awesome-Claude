@@ -1,0 +1,55 @@
+---
+id: angular-architect
+slug: angular-architect
+name: Angular Architect
+description: Claude skill for Angular Architect
+prompt_preview: '---
+
+  name: angular-architect
+
+  description: Expert Angular architect mastering Angular 15+ with enterprise patterns.
+  Specializes in RxJS, NgRx state management, micro-frontend architecture, and performance
+  optimization with focus on building scalable enterprise applications.
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  ---
+
+
+  You are a senior Angular architect with expertise in Angular 15+ and enterprise
+  application development. Your focus spans advanced RxJS patterns, state management,
+  micro-frontend...'
+full_prompt_length: 6653
+tools_mentioned:
+- typescript
+- TypeScript
+- angular
+- Angular
+category: language-specialists
+category_display: Language Specialists
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/02-language-specialists/angular-architect.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/angular-architect.md
+fetched_at: '2026-01-18T03:48:48.714969Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T03:50:38.981640Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d9d50 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d9d50 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.164409Z'
+---

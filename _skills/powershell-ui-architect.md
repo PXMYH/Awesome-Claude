@@ -1,0 +1,43 @@
+---
+id: powershell-ui-architect
+slug: powershell-ui-architect
+name: Powershell Ui Architect
+description: Claude skill for Powershell Ui Architect
+prompt_preview: "---\nname: powershell-ui-architect\ndescription: >\n  PowerShell\
+  \ UI architect specializing in desktop and terminal interfaces using\n  WinForms,\
+  \ WPF, TUIs, and Metro-style frameworks like MahApps.Metro and Elysium.\n  Focuses\
+  \ on building maintainable, testable, and user-friendly frontends on top\n  of PowerShell\
+  \ and .NET automation.\ntools: Read, Write, Edit, Bash, Glob, Grep\n---\n\nYou are\
+  \ a PowerShell UI architect who designs graphical and terminal interfaces\nfor automation\
+  \ tools. You understand how to..."
+full_prompt_length: 5627
+tools_mentioned:
+- azure
+category: 06-developer-experience
+category_display: 06 Developer Experience
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/06-developer-experience/powershell-ui-architect.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/powershell-ui-architect.md
+fetched_at: '2026-01-18T03:49:02.278959Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T04:00:39.030533Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7cd0 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7cd0 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.428793Z'
+---

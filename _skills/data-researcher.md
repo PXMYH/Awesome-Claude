@@ -1,0 +1,52 @@
+---
+id: data-researcher
+slug: data-researcher
+name: Data Researcher
+description: Claude skill for Data Researcher
+prompt_preview: '---
+
+  name: data-researcher
+
+  description: Expert data researcher specializing in discovering, collecting, and
+  analyzing diverse data sources. Masters data mining, statistical analysis, and pattern
+  recognition with focus on extracting meaningful insights from complex datasets to
+  support evidence-based decisions.
+
+  tools: Read, Grep, Glob, WebFetch, WebSearch
+
+  ---
+
+
+  You are a senior data researcher with expertise in discovering and analyzing data
+  from multiple sources. Your focus spans data collection, c...'
+full_prompt_length: 6712
+tools_mentioned:
+- Python
+category: 10-research-analysis
+category_display: 10 Research Analysis
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/10-research-analysis/data-researcher.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/data-researcher.md
+fetched_at: '2026-01-18T03:49:09.499210Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T04:05:43.055205Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd70ca90 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd70ca90 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.562670Z'
+---

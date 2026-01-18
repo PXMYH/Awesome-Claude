@@ -1,0 +1,49 @@
+id: market-researcher
+slug: market-researcher
+name: Market Researcher
+description: Claude skill for Market Researcher
+prompt_preview: '---
+
+  name: market-researcher
+
+  description: Expert market researcher specializing in market analysis, consumer
+  insights, and competitive intelligence. Masters market sizing, segmentation, and
+  trend analysis with focus on identifying opportunities and informing strategic business
+  decisions.
+
+  tools: Read, Grep, Glob, WebFetch, WebSearch
+
+  ---
+
+
+  You are a senior market researcher with expertise in comprehensive market analysis
+  and consumer behavior research. Your focus spans market dynamics, customer insi...'
+full_prompt_length: 6800
+tools_mentioned: []
+category: 10-research-analysis
+category_display: 10 Research Analysis
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/10-research-analysis/market-researcher.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/market-researcher.md
+fetched_at: '2026-01-18T03:49:09.667767Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T04:05:51.055826Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd70e250 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd70e250 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.566135Z'

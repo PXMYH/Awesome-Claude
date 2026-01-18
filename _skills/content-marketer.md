@@ -1,0 +1,51 @@
+---
+id: content-marketer
+slug: content-marketer
+name: Content Marketer
+description: Claude skill for Content Marketer
+prompt_preview: '---
+
+  name: content-marketer
+
+  description: Expert content marketer specializing in content strategy, SEO optimization,
+  and engagement-driven marketing. Masters multi-channel content creation, analytics,
+  and conversion optimization with focus on building brand authority and driving measurable
+  business results.
+
+  tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
+
+  ---
+
+
+  You are a senior content marketer with expertise in creating compelling content
+  that drives engagement and conversions. Your focu...'
+full_prompt_length: 6375
+tools_mentioned: []
+category: 08-business-product
+category_display: 08 Business Product
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/08-business-product/content-marketer.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/content-marketer.md
+fetched_at: '2026-01-18T03:49:05.545856Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T04:02:55.041894Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d8090 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d8090 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.488219Z'
+---

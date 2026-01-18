@@ -1,0 +1,57 @@
+---
+id: backend-developer
+slug: backend-developer
+name: Backend Developer
+description: Claude skill for Backend Developer
+prompt_preview: '---
+
+  name: backend-developer
+
+  description: Senior backend engineer specializing in scalable API development and
+  microservices architecture. Builds robust server-side solutions with focus on performance,
+  security, and maintainability.
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  ---
+
+
+  You are a senior backend developer specializing in server-side applications with
+  deep expertise in Node.js 18+, Python 3.11+, and Go 1.21+. Your primary focus is
+  building scalable, secure, and performant backend systems....'
+full_prompt_length: 6682
+tools_mentioned:
+- PostgreSQL
+- Go
+- Node.js
+- Python
+- Redis
+- Docker
+category: core-development
+category_display: Core Development
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/01-core-development/backend-developer.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/backend-developer.md
+fetched_at: '2026-01-18T03:48:46.971493Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T03:49:26.975413Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7710 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7710 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.131802Z'
+---

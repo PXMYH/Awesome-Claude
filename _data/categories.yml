@@ -1,29 +1,40 @@
-- name: "Core Development"
-  slug: "core-development"
-  description: "Essential development skills for building software"
-  icon: "code"
-
-- name: "Language Specialists"
-  slug: "language-specialists"
-  description: "Language-specific expertise and best practices"
-  icon: "translate"
-
-- name: "Infrastructure"
-  slug: "infrastructure"
-  description: "DevOps, cloud, and infrastructure automation"
-  icon: "server"
-
-- name: "Quality & Security"
-  slug: "quality-security"
-  description: "Testing, code review, and security analysis"
-  icon: "shield"
-
-- name: "Data & Analytics"
-  slug: "data-analytics"
-  description: "Data processing, analysis, and visualization"
-  icon: "chart"
-
-- name: "Documentation"
-  slug: "documentation"
-  description: "Technical writing and documentation generation"
-  icon: "book"
+- slug: 05-data-ai
+  name: 05 Data Ai
+  count: 12
+  avg_rating: 3.0
+- slug: 06-developer-experience
+  name: 06 Developer Experience
+  count: 13
+  avg_rating: 3.0
+- slug: 07-specialized-domains
+  name: 07 Specialized Domains
+  count: 12
+  avg_rating: 3.0
+- slug: 08-business-product
+  name: 08 Business Product
+  count: 11
+  avg_rating: 3.0
+- slug: 09-meta-orchestration
+  name: 09 Meta Orchestration
+  count: 10
+  avg_rating: 3.0
+- slug: 10-research-analysis
+  name: 10 Research Analysis
+  count: 6
+  avg_rating: 3.0
+- slug: core-development
+  name: Core Development
+  count: 10
+  avg_rating: 3.0
+- slug: infrastructure
+  name: Infrastructure
+  count: 14
+  avg_rating: 3.0
+- slug: language-specialists
+  name: Language Specialists
+  count: 26
+  avg_rating: 3.0
+- slug: quality-security
+  name: Quality & Security
+  count: 14
+  avg_rating: 3.0

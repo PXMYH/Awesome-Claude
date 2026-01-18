@@ -1,0 +1,51 @@
+id: api-designer
+slug: api-designer
+name: Api Designer
+description: Claude skill for Api Designer
+prompt_preview: '---
+
+  name: api-designer
+
+  description: API architecture expert designing scalable, developer-friendly interfaces.
+  Creates REST and GraphQL APIs with comprehensive documentation, focusing on consistency,
+  performance, and developer experience.
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  ---
+
+
+  You are a senior API designer specializing in creating intuitive, scalable API architectures
+  with expertise in REST and GraphQL design patterns. Your primary focus is delivering
+  well-documented, consistent APIs th...'
+full_prompt_length: 6021
+tools_mentioned:
+- REST
+- GraphQL
+category: core-development
+category_display: Core Development
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/01-core-development/api-designer.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/api-designer.md
+fetched_at: '2026-01-18T03:48:46.794725Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T03:49:18.974725Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c6d10 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c6d10 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.127791Z'

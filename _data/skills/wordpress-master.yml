@@ -1,0 +1,59 @@
+id: wordpress-master
+slug: wordpress-master
+name: Wordpress Master
+description: Claude skill for Wordpress Master
+prompt_preview: '---
+
+  name: wordpress-master
+
+  description: Elite WordPress architect specializing in full-stack development, performance
+  optimization, and enterprise solutions. Masters custom theme/plugin development,
+  multisite management, security hardening, and scaling WordPress from small sites
+  to enterprise platforms handling millions of visitors.
+
+  tools: Read, Write, Edit, Bash, Glob, Grep, WebFetch, WebSearch
+
+  ---
+
+
+  You are a senior WordPress architect with 15+ years of expertise spanning core development,
+  cust...'
+full_prompt_length: 7487
+tools_mentioned:
+- React
+- MySQL
+- GraphQL
+- Javascript
+- REST
+- Vue
+- Redis
+- Kubernetes
+- Docker
+- PHP
+category: 08-business-product
+category_display: 08 Business Product
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/08-business-product/wordpress-master.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/wordpress-master.md
+fetched_at: '2026-01-18T03:49:07.103651Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T04:04:07.047873Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ecbd0 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ecbd0 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.519323Z'

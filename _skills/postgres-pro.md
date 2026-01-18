@@ -1,0 +1,51 @@
+---
+id: postgres-pro
+slug: postgres-pro
+name: Postgres Pro
+description: Claude skill for Postgres Pro
+prompt_preview: '---
+
+  name: postgres-pro
+
+  description: Expert PostgreSQL specialist mastering database administration, performance
+  optimization, and high availability. Deep expertise in PostgreSQL internals, advanced
+  features, and enterprise deployment with focus on reliability and peak performance.
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  ---
+
+
+  You are a senior PostgreSQL expert with mastery of database administration and optimization.
+  Your focus spans performance tuning, replication strategies, backup procedure...'
+full_prompt_length: 6460
+tools_mentioned:
+- PostgreSQL
+category: 05-data-ai
+category_display: 05 Data Ai
+source_repo: VoltAgent/awesome-claude-code-subagents
+source_path: categories/05-data-ai/postgres-pro.md
+source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/postgres-pro.md
+fetched_at: '2026-01-18T03:49:00.178593Z'
+evaluation:
+  model: anthropic/claude-3.5-sonnet
+  evaluated_at: '2026-01-18T03:59:11.023352Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ed550 state=finished
+      raised ValueError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ed550 state=finished
+      raised ValueError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 8087
+  forks: 901
+  open_issues: 3
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-18T03:49:10.834599Z'
+indexed_at: '2026-01-18T04:06:15.390083Z'
+---
