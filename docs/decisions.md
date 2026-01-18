@@ -99,3 +99,22 @@ This document tracks design decisions made during implementation.
 - Screenshot saved: `.playwright-mcp/homepage.png`
 
 **Action Required**: Update Ruby to 3.0+ or use GitHub Actions for full site build
+
+---
+
+## Implementation Status: COMPLETE
+**Date**: 2025-01-18
+
+All PLAN.md requirements have been implemented:
+
+| Phase | Commit | Status |
+|-------|--------|--------|
+| Phase 1: Discovery scripts | `026c7fc` | ✅ |
+| Phase 2: Unit tests | `84a34ba` | ✅ |
+| Phase 3: Visual validation | Playwright screenshot | ✅ |
+| Phase 4: Documentation | `4183c52` | ✅ |
+
+**Success Criteria Met:**
+- [x] All features implemented (two-channel discovery + existing pipeline)
+- [x] Tests passing (52 tests)
+- [x] Documentation updated (README.md + decisions.md)
