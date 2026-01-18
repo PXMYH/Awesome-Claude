@@ -32,11 +32,17 @@ uv run pytest tests/ -v
 cp .env.example .env
 # Edit .env with your API keys (see Configuration section below)
 
-# Discover and fetch skills
-uv run python scripts/discover_skills.py  # Find skill repos (weekly)
-uv run python scripts/fetch_skills.py     # Fetch skills from repos
+# Discovery (two channels)
+uv run python scripts/github_discover.py   # GitHub search (100+ stars, weekly)
+uv run python scripts/manual_discover.py   # Curated sources.yaml
+
+# Or use legacy single-script discovery
+uv run python scripts/discover_skills.py   # Find skill repos
+
+# Fetch and process
+uv run python scripts/fetch_skills.py      # Fetch skills from repos
 uv run python scripts/fetch_github_metrics.py
-uv run python scripts/evaluate_skills.py  # LLM evaluation (requires OPENROUTER_API_KEY)
+uv run python scripts/evaluate_skills.py   # LLM evaluation (requires OPENROUTER_API_KEY)
 uv run python scripts/generate_site_data.py
 
 # Build Jekyll site (requires Ruby)
@@ -54,7 +60,10 @@ bundle exec jekyll serve
 ├── _includes/           # Reusable components
 ├── assets/              # CSS, JS
 ├── scripts/             # Python data pipeline
-│   ├── discover_skills.py    # Auto-discover skill repos
+│   ├── github_discover.py    # GitHub search discovery (100+ stars)
+│   ├── manual_discover.py    # Curated sources discovery
+│   ├── skill_parser.py       # Shared parsing module
+│   ├── sources.yaml          # Curated skill repo list
 │   ├── fetch_skills.py       # Fetch skills from repos
 │   ├── fetch_github_metrics.py
 │   ├── evaluate_skills.py    # LLM evaluation
@@ -64,12 +73,39 @@ bundle exec jekyll serve
 └── .github/workflows/   # CI/CD
 ```
 
+## Skill Discovery
+
+### Two Discovery Channels
+
+1. **GitHub Search** (`github_discover.py`)
+   - Searches GitHub for "awesome claude skills" repos
+   - Filters by 100+ stars for quality
+   - Run weekly to discover new repos
+   - Found 428 unique skills from 47 repos
+
+2. **Manual Curation** (`manual_discover.py`)
+   - Reads from `scripts/sources.yaml`
+   - Easy to contribute via PR
+   - Found 135 unique skills from 7 repos
+
+### Supported Skill Formats
+
+| Format | Structure | Example |
+|--------|-----------|---------|
+| `skill_folders` | `skills/<name>/SKILL.md` | anthropics/skills |
+| `root_skill_folders` | `<name>/SKILL.md` at root | ComposioHQ/awesome-claude-skills |
+| `flat_md` | `skills/*.md` files | obra/superpowers-skills |
+| `categories` | `categories/<cat>/*.md` | VoltAgent/awesome-claude-skills |
+| `plugins_with_skills` | `plugins/<p>/skills/<s>/SKILL.md` | trailofbits/skills |
+
 ## Data Sources
 
 Currently indexing from:
-- [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) - 100+ specialized subagents
-- [anthropics/skills](https://github.com/anthropics/skills) - Official Anthropic skills (pdf, docx, xlsx, etc.)
-- [obra/superpowers](https://github.com/obra/superpowers) - Community skills library (TDD, debugging, planning)
+- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) - 21k+ stars
+- [anthropics/skills](https://github.com/anthropics/skills) - Official Anthropic skills
+- [trailofbits/skills](https://github.com/trailofbits/skills) - Security-focused skills
+- [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) - 98 skills
+- And 40+ more repos discovered via GitHub search
 
 ## Evaluation Criteria
 

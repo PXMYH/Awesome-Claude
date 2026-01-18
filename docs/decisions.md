@@ -81,3 +81,21 @@ This document tracks design decisions made during implementation.
 3. Manual trigger only initially
 
 **Current Choice**: Option 3 initially, then move to Option 2 once validated
+
+---
+
+## Decision 6: Visual Validation Approach
+**Date**: 2025-01-18
+**Context**: Need to validate site visually but Jekyll build fails due to Ruby version (2.6.10 vs required 3.0+)
+**Decision**:
+- Validated existing _site/index.html using Python http.server + Playwright
+- Homepage renders correctly with skill cards, search, filters, ratings
+- Detail pages not available (requires full Jekyll build)
+
+**Visual Validation Results**:
+- Homepage: PASSED - Shows skill cards with ratings, search, category filters
+- Navigation: PASSED - Header links visible
+- Skill cards: PASSED - Quality/Usefulness ratings, GitHub stars displayed
+- Screenshot saved: `.playwright-mcp/homepage.png`
+
+**Action Required**: Update Ruby to 3.0+ or use GitHub Actions for full site build
