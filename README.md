@@ -157,6 +157,4 @@ CATEGORY_MAP = {
 
 ## Contributing
 
-1. **Add a skill source**: Submit a PR adding a new repo to `SOURCE_REPOS`
-2. **Improve evaluation**: Enhance the LLM prompt in `evaluate_skills.py`
-3. **UI improvements**: Modify layouts in `_layouts/` and CSS in `assets/css/`
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
