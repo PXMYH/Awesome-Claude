@@ -55,7 +55,7 @@ SOURCE_REPOS = [
 
 # API Configuration
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
-OPENROUTER_MODEL = "anthropic/claude-3.5-sonnet"
+OPENROUTER_MODEL = "xiaomi/mimo-v2-flash:free"
 GITHUB_API_BASE = "https://api.github.com"
 
 # API Keys (from environment)
