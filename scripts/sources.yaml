@@ -1,0 +1,56 @@
+# Curated skill sources for manual discovery
+# Add your repo here via PR to include it in the directory
+#
+# Format:
+#   - repo: owner/repo-name
+#     category: optional-category  # Override auto-detected category
+#     description: Brief description
+#
+# Categories: official, community, scientific, security, infrastructure,
+#             data-analytics, documentation, quality-security, marketing, legal
+
+repos:
+  # Official sources
+  - repo: anthropics/skills
+    category: official
+    description: Official Anthropic skills
+
+  # Major community collections (100+ stars)
+  - repo: ComposioHQ/awesome-claude-skills
+    description: Composio's curated skills collection
+
+  - repo: hesreallyhim/awesome-claude-code
+    description: Awesome Claude Code - skills, hooks, and tools
+
+  - repo: travisvn/awesome-claude-skills
+    description: Travis VN's curated skills
+
+  - repo: BehiSecc/awesome-claude-skills
+    description: BehiSecc's skills collection
+
+  - repo: VoltAgent/awesome-claude-skills
+    description: VoltAgent's categorized skills
+
+  - repo: heilcheng/awesome-agent-skills
+    description: Multi-agent skills collection
+
+  - repo: Prat011/awesome-llm-skills
+    description: LLM skills for multiple agents
+
+  # Specialized collections
+  - repo: sickn33/antigravity-awesome-skills
+    description: Antigravity/Cursor compatible skills
+
+  - repo: JayZeeDesign/awesome-claude-skills
+    description: JayZee's skills collection
+
+  - repo: fleurytian/awesome-claude-skills
+    category: productivity
+    description: Brain-worker productivity skills
+
+  - repo: aaron-he-zhu/seo-geo-claude-skills
+    category: marketing
+    description: SEO and GEO optimization skills
+
+  - repo: littleben/awesomeAgentskills
+    description: Agent skills collection (EN/CN)
