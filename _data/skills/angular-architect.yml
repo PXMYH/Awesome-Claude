@@ -20,34 +20,49 @@ prompt_preview: '---
   micro-frontend...'
 full_prompt_length: 6653
 tools_mentioned:
-- typescript
-- TypeScript
 - angular
 - Angular
+- typescript
+- TypeScript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/angular-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/angular-architect.md
-fetched_at: '2026-01-18T03:48:48.714969Z'
+fetched_at: '2026-01-19T00:19:32.410375+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:50:38.981640Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:49:36.488898Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d9d50 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections for
+      architecture, RxJS, state management, and enterprise patterns. It follows best
+      practices by defining a specific role, tools, and a systematic workflow. However,
+      it lacks explicit instructions for handling edge cases like missing project
+      context or conflicting requirements, and the workflow is incomplete (cuts off
+      mid-sentence).
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d9d50 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: This prompt provides high real-world value for enterprise Angular development,
+      covering comprehensive topics from architecture to micro-frontends and Nx monorepos.
+      It's actionable for experienced developers but may be overwhelming for beginners.
+      The checklist format is practical for ensuring quality, though the incomplete
+      workflow reduces immediate usability.
+  overall_rating: 4.25
+  summary: A robust, expert-level Angular architect prompt with excellent structure
+    and comprehensive coverage of enterprise patterns, though it suffers from an incomplete
+    workflow section and could benefit from more explicit edge-case handling.
+  tags_suggested:
+  - Angular
+  - Enterprise Architecture
+  - RxJS
+  - NgRx
+  - Micro-frontends
+  - Performance Optimization
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.164409Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.130190Z'

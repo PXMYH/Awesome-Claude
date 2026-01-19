@@ -30,35 +30,48 @@ prompt_preview: '---
   2. List agents within a categor...'
 full_prompt_length: 3573
 tools_mentioned:
-- python
-- typescript
-- PHP
 - php
-category: 09-meta-orchestration
-category_display: 09 Meta Orchestration
+- python
+- PHP
+- typescript
+category: meta-orchestration
+category_display: Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/agent-installer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/agent-installer.md
-fetched_at: '2026-01-18T03:49:07.406123Z'
+fetched_at: '2026-01-19T00:19:52.835165+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T04:04:15.048486Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:09:47.144426Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ef310 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is highly clear and specific, defining exact GitHub API
+      endpoints, directory paths, and workflow steps. It includes practical examples
+      and covers core operations like listing, searching, and installing agents. However,
+      it lacks explicit handling for edge cases like network failures, invalid agent
+      names, or permission issues during installation.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ef310 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 5.0
+    reasoning: This skill provides immediate practical value for developers wanting
+      to extend Claude Code with community agents, covering the full lifecycle from
+      discovery to installation. It addresses a real need for ecosystem expansion
+      and follows actionable workflows that users can immediately apply to enhance
+      their development environment.
+  overall_rating: 4.75
+  summary: A well-structured, highly practical prompt that effectively enables users
+    to browse and install community Claude agents, with strong clarity and real-world
+    utility for ecosystem management.
+  tags_suggested:
+  - meta-orchestration
+  - agent-management
+  - github-integration
+  - community-tools
+  - installation
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.523207Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.510768Z'
 ---

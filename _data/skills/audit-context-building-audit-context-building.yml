@@ -1,0 +1,69 @@
+id: audit-context-building-audit-context-building
+slug: audit-context-building-audit-context-building
+name: Deep Context Builder Skill (Ultra-Granular Pure Context Mode)
+description: This is **pure context building** only.
+prompt_preview: '---
+
+  name: audit-context-building
+
+  description: Enables ultra-granular, line-by-line code analysis to build deep architectural
+  context before vulnerability or bug finding.
+
+  ---
+
+
+  # Deep Context Builder Skill (Ultra-Granular Pure Context Mode)
+
+
+  ## 1. Purpose
+
+
+  This skill governs **how Claude thinks** during the context-building phase of an
+  audit.
+
+
+  When active, Claude will:
+
+  - Perform **line-by-line / block-by-block** code analysis by default.
+
+  - Apply **First Principles**, **5 Whys**, and **5 Hows** at...'
+full_prompt_length: 9533
+tools_mentioned: []
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/audit-context-building/skills/audit-context-building/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/audit-context-building/skills/audit-context-building/SKILL.md
+fetched_at: '2026-01-19T00:20:14.086063+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:22:10.725901Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear phases, specific
+      methodologies (First Principles, 5 Whys/Hows), and explicit rationalizations
+      that prevent common AI pitfalls. It defines precise scope and behavior, though
+      the incomplete section at the end slightly reduces clarity.
+  usefulness:
+    score: 4.0
+    reasoning: This provides significant real-world value for security auditing by
+      enforcing systematic, bottom-up analysis that reduces hallucinations and context
+      loss. It's highly actionable for developers and auditors, though the ultra-granular
+      approach may be overly time-intensive for simpler codebases.
+  overall_rating: 4.25
+  summary: A sophisticated, well-engineered prompt that establishes rigorous context-building
+    protocols for security analysis, though its incomplete final section and potentially
+    excessive granularity for some use cases prevent a perfect score.
+  tags_suggested:
+  - security-audit
+  - code-analysis
+  - context-building
+  - systematic-reasoning
+  - vulnerability-prevention
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.743482Z'
+indexed_at: '2026-01-19T01:30:36.743490Z'

@@ -21,33 +21,44 @@ prompt_preview: '---
   Your focus spans...'
 full_prompt_length: 6981
 tools_mentioned:
-- kubernetes
 - Azure
+- kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/deployment-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/deployment-engineer.md
-fetched_at: '2026-01-18T03:48:53.851973Z'
+fetched_at: '2026-01-19T00:19:37.942664+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:54:31.001057Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:54:59.163865Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6db350 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt is well-structured with clear sections and a comprehensive
+      checklist, but it is incomplete and abruptly ends mid-sentence. It lacks specific
+      instructions on how to execute the workflow phases and does not define clear
+      boundaries for tool usage or response formats, which could lead to ambiguous
+      behavior.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6db350 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The skill provides a valuable framework for deployment engineering
+      with detailed checklists and strategy coverage, making it highly relevant for
+      real-world CI/CD tasks. However, the incomplete nature limits immediate actionability,
+      as users may not know how to proceed after the initial analysis phase.
+  overall_rating: 3.75
+  summary: A robust but unfinished prompt that outlines deployment engineering best
+    practices effectively but requires completion to be fully operational.
+  tags_suggested:
+  - deployment
+  - CI/CD
+  - DevOps
+  - automation
+  - release-management
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.267814Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.237012Z'
 ---

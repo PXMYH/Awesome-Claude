@@ -21,31 +21,44 @@ prompt_preview: '---
 full_prompt_length: 6959
 tools_mentioned:
 - Python
-category: 05-data-ai
-category_display: 05 Data Ai
+category: data-ai
+category_display: Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/data-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/data-analyst.md
-fetched_at: '2026-01-18T03:48:58.617338Z'
+fetched_at: '2026-01-19T00:19:43.211828+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:57:59.017855Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:00:14.927726Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d8690 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt is highly structured and specific, with clear sections for
+      different data analysis domains and a defined communication protocol. However,
+      it is incomplete (cut off mid-sentence in the 'Requirements Analysis' section)
+      and lacks explicit instructions for handling edge cases or fallback scenarios,
+      which limits its robustness.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d8690 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt provides a comprehensive framework for data analysis tasks,
+      covering essential areas like SQL optimization, dashboard development, and stakeholder
+      communication, making it highly practical for real-world business intelligence
+      work. The inclusion of specific tools and methodologies adds immediate value
+      for users seeking structured guidance.
+  overall_rating: 3.75
+  summary: This is a well-structured but incomplete data analyst prompt that offers
+    strong practical value for business intelligence tasks, though it needs completion
+    and edge-case handling to reach its full potential.
+  tags_suggested:
+  - data-analysis
+  - business-intelligence
+  - SQL
+  - dashboard-development
+  - stakeholder-communication
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.358989Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.333451Z'
 ---

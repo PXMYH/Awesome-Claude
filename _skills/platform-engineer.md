@@ -21,33 +21,45 @@ prompt_preview: '---
   platforms, self-service infrastructure, and developer portals. Your f...'
 full_prompt_length: 7454
 tools_mentioned:
-- kubernetes
 - GraphQL
+- kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/platform-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/platform-engineer.md
-fetched_at: '2026-01-18T03:48:54.892514Z'
+fetched_at: '2026-01-19T00:19:39.073432+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:55:19.004908Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:56:12.668664Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6eea90 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt is well-structured with clear sections and specific technical
+      domains, but it's incomplete - it cuts off mid-sentence in the 'Developer Needs
+      Analysis' section. The checklist and architecture sections provide good specificity,
+      but the lack of completion and missing edge case handling reduces the overall
+      quality.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6eea90 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt provides comprehensive coverage of platform engineering
+      concepts including GitOps, golden paths, service catalogs, and developer experience
+      optimization. It offers practical frameworks and metrics that would be valuable
+      for real platform engineering tasks, though the incomplete nature limits immediate
+      actionability.
+  overall_rating: 3.75
+  summary: A comprehensive but incomplete platform engineering prompt that covers
+    key concepts well but needs completion to be fully functional.
+  tags_suggested:
+  - platform-engineering
+  - devops
+  - gitops
+  - developer-experience
+  - infrastructure
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.288626Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.258970Z'
 ---

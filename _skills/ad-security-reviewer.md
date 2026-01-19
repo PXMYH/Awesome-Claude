@@ -13,30 +13,45 @@ prompt_preview: "---\nname: ad-security-reviewer\ndescription: >\n  Active Direc
 full_prompt_length: 2362
 tools_mentioned: []
 category: quality-security
-category_display: Quality & Security
+category_display: Quality Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/ad-security-reviewer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ad-security-reviewer.md
-fetched_at: '2026-01-18T03:48:56.049836Z'
+fetched_at: '2026-01-19T00:19:40.417323+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:56:07.008843Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:57:20.965321Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ed550 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections for
+      capabilities, checklists, and integration. It uses specific Active Directory
+      terminology and defines a comprehensive scope. However, it lacks explicit handling
+      of edge cases like multi-forest environments or hybrid cloud scenarios, and
+      doesn't provide fallback guidance for when certain tools or data sources might
+      be unavailable.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ed550 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 5.0
+    reasoning: This prompt delivers high real-world value by addressing critical AD
+      security concerns with actionable checklists and deliverables. It comprehensively
+      covers identity attack paths, privilege escalation, and domain hardening with
+      specific technical areas like LDAP signing, GPO security, and attack surface
+      reduction. The integration section with other agents shows practical workflow
+      planning for enterprise security operations.
+  overall_rating: 4.75
+  summary: This is a highly effective security specialist prompt with excellent structure,
+    comprehensive coverage of AD security domains, and practical deliverables that
+    would immediately benefit security professionals conducting enterprise AD assessments.
+  tags_suggested:
+  - Active Directory
+  - Security Hardening
+  - Identity Management
+  - Enterprise Security
+  - Privilege Escalation
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.309391Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.281949Z'
 ---

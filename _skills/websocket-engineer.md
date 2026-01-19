@@ -22,37 +22,51 @@ prompt_preview: '---
 full_prompt_length: 4333
 tools_mentioned:
 - WebSocket
+- Redis
+- Angular
+- websocket
+- TypeScript
 - React
 - Vue
-- Redis
-- TypeScript
-- websocket
-- Angular
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/websocket-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/websocket-engineer.md
-fetched_at: '2026-01-18T03:48:48.367110Z'
+fetched_at: '2026-01-19T00:19:31.999922+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:50:30.980965Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:49:26.168614Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d9590 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt is well-structured with clear sections and specific technical
+      requirements, but it contains an incomplete sentence at the end ('Coordinate
+      with devops-engineer on deplo') which indicates a copy-paste error. The workflow
+      is logical and comprehensive, though the 'Communication Protocol' section with
+      JSON requests feels overly formal and potentially confusing for a skill prompt.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d9590 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt provides excellent real-world value with comprehensive coverage
+      of WebSocket architecture, from design through production optimization. It includes
+      specific metrics, technologies, and integration patterns that would directly
+      help developers building scalable real-time systems. The inclusion of monitoring,
+      testing, and production considerations makes it highly actionable for actual
+      development tasks.
+  overall_rating: 3.75
+  summary: A strong, practical prompt for WebSocket engineering with comprehensive
+    coverage of real-time system development, though it suffers from minor formatting
+    issues and an incomplete sentence that slightly reduce its polish.
+  tags_suggested:
+  - websocket
+  - real-time
+  - scalability
+  - socket-io
+  - production-ready
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.160765Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.126393Z'
 ---

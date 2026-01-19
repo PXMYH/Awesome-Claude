@@ -21,36 +21,53 @@ prompt_preview: '---
   and cross-platform deve...'
 full_prompt_length: 7217
 tools_mentioned:
-- azure
-- gRPC
 - Kubernetes
-- Azure
 - JavaScript
+- azure
+- Azure
+- gRPC
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/csharp-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/csharp-developer.md
-fetched_at: '2026-01-18T03:48:49.054561Z'
+fetched_at: '2026-01-19T00:19:32.762647+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:50:54.982892Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:50:03.449439Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6dadd0 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt is highly specific and well-structured with comprehensive
+      checklists and patterns, but it's incomplete - it cuts off mid-sentence at 'Solution
+      A' and lacks a clear completion instruction. The technical depth is excellent,
+      but the abrupt ending undermines clarity and prevents the agent from knowing
+      what to do after the assessment phase.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6dadd0 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.5
+    reasoning: Extremely practical for real-world C# development with detailed coverage
+      of modern .NET ecosystem, best practices, and architectural patterns. The comprehensive
+      checklists and specific tooling recommendations provide immediate value for
+      developers working on enterprise applications, though the incomplete workflow
+      limits immediate actionability.
+  overall_rating: 4.0
+  summary: A technically excellent and comprehensive C# development prompt that demonstrates
+    deep expertise in modern .NET, but is critically incomplete - it cuts off mid-sentence
+    before providing actual development instructions, which significantly impacts
+    its usability despite strong technical content.
+  tags_suggested:
+  - C#
+  - .NET
+  - ASP.NET Core
+  - Blazor
+  - Entity Framework
+  - Cloud Native
+  - Clean Architecture
+  - Performance Optimization
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.171398Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.137639Z'
 ---

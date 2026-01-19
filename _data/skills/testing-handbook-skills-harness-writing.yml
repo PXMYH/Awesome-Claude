@@ -1,0 +1,57 @@
+id: testing-handbook-skills-harness-writing
+slug: testing-handbook-skills-harness-writing
+name: Writing Fuzzing Harnesses
+description: '- [Effective File Format Fuzzing](https://www.youtube.com/watch?v=qTTwqFRD1H8)
+  - Conference talk on writing harnesses for file format parsers'
+prompt_preview: "---\nname: harness-writing\ntype: technique\ndescription: >\n  Techniques\
+  \ for writing effective fuzzing harnesses across languages.\n  Use when creating\
+  \ new fuzz targets or improving existing harness code.\n---\n\n# Writing Fuzzing\
+  \ Harnesses\n\nA fuzzing harness is the entrypoint function that receives random\
+  \ data from the fuzzer and routes it to your system under test (SUT). The quality\
+  \ of your harness directly determines which code paths get exercised and whether\
+  \ critical bugs are found. A poorly writte..."
+full_prompt_length: 20943
+tools_mentioned:
+- Python
+- go
+- rust
+- Rust
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/testing-handbook-skills/skills/harness-writing/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/harness-writing/SKILL.md
+fetched_at: '2026-01-19T00:20:22.575206+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:26:53.773231Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is highly structured with clear sections, tables, and code
+      examples that follow good prompt engineering practices. It defines key concepts,
+      provides a quick reference, and offers step-by-step guidance. However, it is
+      incomplete (cuts off mid-sentence in Step 3), which slightly impacts clarity
+      and completeness.
+  usefulness:
+    score: 4.0
+    reasoning: The skill provides practical, actionable guidance for writing fuzzing
+      harnesses, covering common languages (C++, Rust) and real-world scenarios like
+      input validation and target selection. It would be valuable for developers starting
+      with fuzzing or improving coverage, though the incomplete step reduces its immediate
+      usability.
+  overall_rating: 4.25
+  summary: A well-structured and practical guide for writing fuzzing harnesses, but
+    the incomplete content limits its full potential as a ready-to-use skill.
+  tags_suggested:
+  - fuzzing
+  - security
+  - testing
+  - C++
+  - Rust
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.836471Z'
+indexed_at: '2026-01-19T01:30:36.836476Z'

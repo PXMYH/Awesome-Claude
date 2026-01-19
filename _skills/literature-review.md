@@ -1,0 +1,60 @@
+---
+id: literature-review
+slug: literature-review
+name: Literature Review
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: '---
+
+  name: literature-review
+
+  description: Conduct comprehensive, systematic literature reviews using multiple
+  academic databases (PubMed, arXiv, bioRxiv, Semantic Scholar, etc.). This skill
+  should be used when conducting systematic literature reviews, meta-analyses, research
+  synthesis, or comprehensive literature searches across biomedical, scientific, and
+  technical domains. Creates professionally formatted markdown documents and PDFs
+  with verified citations in multiple citation styles (APA, Natu...'
+full_prompt_length: 24589
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/literature-review/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/literature-review/SKILL.md
+fetched_at: '2026-01-19T00:19:14.912579+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:32:50.485182Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: The prompt has clear structure and defines a comprehensive workflow,
+      but contains critical flaws. It references non-existent tools (scientific-schematics,
+      gget, bioservices, datacommons-client) and provides incomplete instructions
+      (Phase 1 cuts off mid-sentence). The mandatory figure requirement is problematic
+      as it depends on unavailable functionality.
+  usefulness:
+    score: 2.5
+    reasoning: While systematic literature reviews are valuable, this prompt is impractical
+      due to its dependency on unavailable tools and incomplete workflow. The concept
+      is sound but execution is flawed, making it difficult for users to implement
+      without significant modification or additional tool integration.
+  overall_rating: 2.75
+  summary: A well-intentioned but flawed prompt that outlines a comprehensive literature
+    review workflow but fails due to incomplete instructions and references to non-existent
+    tools and capabilities.
+  tags_suggested:
+  - systematic-review
+  - literature-search
+  - academic-research
+  - incomplete-prompt
+  - tool-dependency
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.803124Z'
+indexed_at: '2026-01-19T01:30:35.803130Z'
+---

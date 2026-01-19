@@ -22,30 +22,43 @@ full_prompt_length: 6721
 tools_mentioned:
 - typescript
 - TypeScript
-category: 06-developer-experience
-category_display: 06 Developer Experience
+category: developer-experience
+category_display: Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/slack-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/slack-expert.md
-fetched_at: '2026-01-18T03:49:02.622157Z'
+fetched_at: '2026-01-19T00:19:47.385895+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T04:00:55.031793Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:04:52.774239Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6daa10 state=finished
-      raised ValueError>]'
+    score: 4.0
+    reasoning: The prompt is highly specific and well-structured with clear expertise
+      areas and checklists. However, it's incomplete - the Development Workflow section
+      cuts off mid-sentence during the Analysis Phase, which creates ambiguity about
+      the full process. The core instructions are clear but the abrupt ending undermines
+      completeness.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6daa10 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.5
+    reasoning: This is extremely practical for Slack development with comprehensive
+      coverage of modern APIs, security practices, and architecture patterns. The
+      checklists and specific technical guidance provide immediate value for developers
+      building Slack apps. The only limitation is the incomplete workflow section.
+  overall_rating: 4.25
+  summary: A highly valuable Slack development skill with excellent technical depth
+    and practical guidance, though the prompt is incomplete and cuts off during the
+    workflow description.
+  tags_suggested:
+  - slack
+  - slack-api
+  - slack-bolt
+  - block-kit
+  - developer-tools
+  - api-integration
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.435878Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.414230Z'

@@ -1,0 +1,64 @@
+id: hypothesis-generation
+slug: hypothesis-generation
+name: Scientific Hypothesis Generation
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: '---
+
+  name: hypothesis-generation
+
+  description: Structured hypothesis formulation from observations. Use when you have
+  experimental observations or data and need to formulate testable hypotheses with
+  predictions, propose mechanisms, and design experiments to test them. Follows scientific
+  method framework. For open-ended ideation use scientific-brainstorming; for automated
+  LLM-driven hypothesis testing on datasets use hypogenic.
+
+  allowed-tools: [Read, Write, Edit, Bash]
+
+  license: MIT license
+
+  metadata:...'
+full_prompt_length: 14663
+tools_mentioned:
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/hypothesis-generation/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/hypothesis-generation/SKILL.md
+fetched_at: '2026-01-19T00:19:13.665904+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:31:33.375184Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: 'The prompt demonstrates strong clarity and specificity with a well-structured
+      workflow and clear constraints. However, it contains a significant inconsistency:
+      it references a ''scientific-schematics'' skill and a ''Nano Banana Pro'' system
+      that are not defined in the allowed-tools list, creating ambiguity about execution.
+      The workflow is comprehensive but the literature search section is incomplete,
+      cutting off mid-sentence.'
+  usefulness:
+    score: 4.0
+    reasoning: The skill addresses a genuine scientific need for structured hypothesis
+      generation with practical workflow steps. The mandatory visualization requirement
+      enhances real-world value for scientific communication. However, the incomplete
+      literature search section and undefined external dependencies reduce immediate
+      actionability for users.
+  overall_rating: 4.25
+  summary: A well-structured scientific hypothesis generation skill with strong workflow
+    design, but undermined by incomplete sections and references to undefined external
+    systems, requiring refinement for full practicality.
+  tags_suggested:
+  - scientific-method
+  - hypothesis-generation
+  - experimental-design
+  - literature-review
+  - visualization
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.762219Z'
+indexed_at: '2026-01-19T01:30:35.762228Z'

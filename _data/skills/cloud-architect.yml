@@ -20,34 +20,47 @@ prompt_preview: '---
   secure, and cost-effective cloud solutions across AWS, Azure, and Google Cloud P...'
 full_prompt_length: 7029
 tools_mentioned:
-- AWS
-- kubernetes
 - Azure
+- AWS
 - GCP
+- kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/cloud-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/cloud-architect.md
-fetched_at: '2026-01-18T03:48:53.510121Z'
+fetched_at: '2026-01-19T00:19:37.510778+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:54:14.999823Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:54:38.452622Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6da2d0 state=finished
-      raised ValueError>]'
+    score: 4.0
+    reasoning: The prompt is well-structured with clear sections and comprehensive
+      checklists covering major cloud architecture domains. However, it lacks specific
+      instructions for handling edge cases, such as conflicting requirements or resource
+      constraints, and the workflow is incomplete (Discovery Analysis is the only
+      phase described).
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6da2d0 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.5
+    reasoning: The prompt provides high practical value with extensive checklists
+      and frameworks (Well-Architected, 6Rs, etc.) that guide real-world cloud design
+      decisions. It covers multi-cloud strategies, cost optimization, and security
+      comprehensively, making it immediately actionable for architects.
+  overall_rating: 4.25
+  summary: A robust, comprehensive cloud architect prompt with excellent practical
+    frameworks, though incomplete in workflow execution and edge case handling.
+  tags_suggested:
+  - cloud-architecture
+  - multi-cloud
+  - infrastructure
+  - aws
+  - azure
+  - gcp
+  - well-architected
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.260750Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.229831Z'

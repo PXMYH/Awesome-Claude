@@ -1,0 +1,56 @@
+---
+id: cobrapy
+slug: cobrapy
+name: COBRApy - Constraint-Based Reconstruction and Analysis
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: cobrapy\ndescription: Constraint-based metabolic modeling\
+  \ (COBRA). FBA, FVA, gene knockouts, flux sampling, SBML models, for systems biology\
+  \ and metabolic engineering analysis.\nlicense: GPL-2.0 license\nmetadata:\n   \
+  \ skill-author: K-Dense Inc.\n---\n\n# COBRApy - Constraint-Based Reconstruction\
+  \ and Analysis\n\n## Overview\n\nCOBRApy is a Python library for constraint-based\
+  \ reconstruction and analysis (COBRA) of metabolic models, essential for systems\
+  \ biology research. Work with genome-scale met..."
+full_prompt_length: 13269
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/cobrapy/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/cobrapy/SKILL.md
+fetched_at: '2026-01-19T00:19:07.078348+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:25:04.435694Z'
+  prompt_quality:
+    score: 3.5
+    reasoning: 'The prompt provides clear, well-structured examples for core COBRApy
+      functionality, but has a critical flaw: it''s incomplete, ending abruptly mid-sentence
+      in the ''Manual knockout using context manager'' section. While the existing
+      content is specific and follows good practices, the incomplete nature undermines
+      reliability and creates ambiguity about the skill''s full capabilities.'
+  usefulness:
+    score: 4.0
+    reasoning: Despite the incomplete ending, the prompt covers essential COBRApy
+      workflows for metabolic modeling including model loading, FBA, FVA, and gene
+      knockouts, which are highly valuable for systems biology research. The practical
+      examples enable immediate implementation for common metabolic engineering tasks.
+  overall_rating: 3.75
+  summary: A useful but incomplete COBRApy prompt with solid core content that needs
+    completion to be fully reliable for scientific applications.
+  tags_suggested:
+  - systems_biology
+  - metabolic_modeling
+  - constraint_based_analysis
+  - fba
+  - fva
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.625322Z'
+indexed_at: '2026-01-19T01:30:35.625327Z'
+---

@@ -17,26 +17,40 @@ category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/powershell-5.1-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/powershell-5.1-expert.md
-fetched_at: '2026-01-18T03:48:51.317893Z'
+fetched_at: '2026-01-19T00:19:35.114441+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:52:38.991107Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:52:24.374459Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d9090 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is highly clear and specific, with well-defined core capabilities,
+      checklists, and example use cases that provide concrete guidance. It follows
+      good prompt engineering practices by structuring information logically and setting
+      clear constraints for Windows PowerShell 5.1 compatibility, though it could
+      benefit from more explicit edge-case handling for module availability failures
+      or permission issues.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d9090 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 5.0
+    reasoning: This skill has exceptional real-world value for enterprise IT professionals
+      managing legacy Windows environments, covering critical automation scenarios
+      like AD, DNS, DHCP, and GPO operations. The checklists and integration suggestions
+      make it immediately actionable for safe, production-ready scripting in mixed-version
+      environments.
+  overall_rating: 4.75
+  summary: A well-crafted, highly practical skill prompt that excels at defining a
+    specialized PowerShell 5.1 expert role with clear boundaries, safety checklists,
+    and enterprise-focused use cases for legacy Windows infrastructure automation.
+  tags_suggested:
+  - powershell
+  - windows-automation
+  - enterprise-it
+  - legacy-systems
+  - active-directory
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.217592Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.185185Z'
 ---

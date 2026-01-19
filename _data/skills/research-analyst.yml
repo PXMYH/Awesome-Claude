@@ -20,30 +20,43 @@ prompt_preview: '---
   across diverse domains. Your focus spans information discovery,...'
 full_prompt_length: 6826
 tools_mentioned: []
-category: 10-research-analysis
-category_display: 10 Research Analysis
+category: research-analysis
+category_display: Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/research-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/research-analyst.md
-fetched_at: '2026-01-18T03:49:09.843913Z'
+fetched_at: '2026-01-19T00:19:55.460752+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T04:05:59.056456Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:12:10.616108Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd70e990 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt demonstrates strong structural organization with clear sections
+      for methodology, techniques, and quality assurance. However, it lacks specific
+      instructions for tool usage (Read, Grep, Glob, WebFetch, WebSearch) and has
+      incomplete sections (e.g., 'Create ti' is truncated). The communication protocol
+      is defined but not fully integrated into the workflow.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd70e990 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt provides a comprehensive framework for research analysis
+      with valuable checklists and methodologies that could guide systematic research.
+      It covers multiple domains and quality assurance processes that are practical
+      for real-world research tasks. However, the incomplete development workflow
+      and lack of explicit tool integration reduce immediate actionability.
+  overall_rating: 3.75
+  summary: A well-structured research analyst prompt with strong methodological foundations
+    but needs completion of truncated sections and clearer tool integration to reach
+    full potential.
+  tags_suggested:
+  - research
+  - analysis
+  - methodology
+  - quality-assurance
+  - information-gathering
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.569563Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.559578Z'

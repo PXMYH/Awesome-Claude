@@ -13,31 +13,44 @@ prompt_preview: "---\nname: powershell-ui-architect\ndescription: >\n  PowerShel
 full_prompt_length: 5627
 tools_mentioned:
 - azure
-category: 06-developer-experience
-category_display: 06 Developer Experience
+category: developer-experience
+category_display: Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/powershell-ui-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/powershell-ui-architect.md
-fetched_at: '2026-01-18T03:49:02.278959Z'
+fetched_at: '2026-01-19T00:19:47.035042+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T04:00:39.030533Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:04:28.987147Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7cd0 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is highly structured with clear sections and specific technical
+      guidance. It defines scope, constraints, and architecture patterns effectively.
+      The only minor weakness is the incomplete sentence at the end ('Get-* and Set-*
+      com'), which slightly impacts completeness.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7cd0 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 5.0
+    reasoning: This prompt provides exceptional real-world value for PowerShell developers
+      building UIs. It covers comprehensive scenarios from WinForms to WPF/Metro and
+      TUIs, with practical architecture guidance. The actionable patterns and technology
+      recommendations would immediately help developers create maintainable UI tools.
+  overall_rating: 4.75
+  summary: An excellent, well-structured prompt that provides comprehensive guidance
+    for PowerShell UI development across multiple frameworks with strong architectural
+    principles.
+  tags_suggested:
+  - powershell
+  - ui-design
+  - winforms
+  - wpf
+  - tui
+  - developer-tools
+  - automation
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.428793Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.406121Z'
 ---

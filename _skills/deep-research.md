@@ -1,0 +1,73 @@
+---
+id: deep-research
+slug: deep-research
+name: Gemini Deep Research Skill
+description: '- **0**: Success'
+prompt_preview: '---
+
+  name: deep-research
+
+  description: "Execute autonomous multi-step research using Google Gemini Deep Research
+  Agent. Use for: market analysis, competitive landscaping, literature reviews, technical
+  research, due diligence. Takes 2-10 minutes but produces detailed, cited reports.
+  Costs $2-5 per task."
+
+  ---
+
+
+  # Gemini Deep Research Skill
+
+
+  Run autonomous research tasks that plan, search, read, and synthesize information
+  into comprehensive reports.
+
+
+  ## Requirements
+
+
+  - Python 3.8+
+
+  - httpx: `pip instal...'
+full_prompt_length: 2664
+tools_mentioned:
+- Python
+- Kubernetes
+category: community
+category_display: Community
+source_repo: sanjay3290/ai-skills
+source_path: skills/deep-research/SKILL.md
+source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/deep-research/SKILL.md
+fetched_at: '2026-01-19T00:20:12.077827+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:21:31.048367Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and specific, providing precise CLI
+      commands, setup instructions, and expected outcomes. It effectively defines
+      the skill's scope, constraints (time/cost), and workflow, though it lacks explicit
+      error handling guidance for API failures or network issues.
+  usefulness:
+    score: 4.5
+    reasoning: This skill offers high real-world value for autonomous research tasks
+      like market analysis and technical reviews, with clear actionable steps. It's
+      comprehensive for its niche, though the cost and time estimates may limit frequent
+      use for casual users.
+  overall_rating: 4.5
+  summary: A well-structured, practical skill for automated research with clear instructions
+    and realistic expectations, though it could benefit from more robust error handling
+    documentation.
+  tags_suggested:
+  - automation
+  - research
+  - market-analysis
+  - technical-research
+  - gemini-api
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.728963Z'
+indexed_at: '2026-01-19T01:30:36.728969Z'
+---

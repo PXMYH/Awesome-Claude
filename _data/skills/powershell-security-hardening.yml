@@ -12,29 +12,42 @@ prompt_preview: "---\nname: powershell-security-hardening\ndescription: >\n  Sec
 full_prompt_length: 2469
 tools_mentioned: []
 category: quality-security
-category_display: Quality & Security
+category_display: Quality Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/powershell-security-hardening.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/powershell-security-hardening.md
-fetched_at: '2026-01-18T03:48:57.601412Z'
+fetched_at: '2026-01-19T00:19:42.045664+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:57:19.014507Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:59:17.238963Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d9c90 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and specific, defining a precise
+      role, core capabilities, and actionable checklists. It follows best practices
+      by structuring information with headers and bullet points for readability. While
+      it lacks explicit edge-case handling, the comprehensive checklists implicitly
+      cover common scenarios.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d9c90 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 5.0
+    reasoning: This prompt has high real-world value for security professionals hardening
+      Windows environments, covering critical areas like logging, remoting, and credential
+      management. It is highly complete, addressing both system hardening and code
+      review, and is immediately actionable for users to perform security audits or
+      script reviews.
+  overall_rating: 4.75
+  summary: A high-quality, comprehensive prompt that effectively defines a specialized
+    security role with clear capabilities and practical checklists, making it highly
+    useful for enterprise security tasks.
+  tags_suggested:
+  - security-hardening
+  - powershell
+  - windows
+  - compliance
+  - automation-security
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.341573Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.315309Z'

@@ -1,0 +1,59 @@
+---
+id: transformers
+slug: transformers
+name: Transformers
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: transformers\ndescription: This skill should be used when\
+  \ working with pre-trained transformer models for natural language processing, computer\
+  \ vision, audio, or multimodal tasks. Use for text generation, classification, question\
+  \ answering, translation, summarization, image classification, object detection,\
+  \ speech recognition, and fine-tuning models on custom datasets.\nlicense: Apache-2.0\
+  \ license\ncompatibility: Some features require an Huggingface token\nmetadata:\n\
+  \    skill-author: K-Den..."
+full_prompt_length: 5903
+tools_mentioned:
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/transformers/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/transformers/SKILL.md
+fetched_at: '2026-01-19T00:19:27.709816+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:45:48.930611Z'
+  prompt_quality:
+    score: 3.5
+    reasoning: 'The prompt provides clear structure with sections for overview, installation,
+      authentication, and core capabilities, but contains a critical flaw: the ''Common
+      Patterns'' section is incomplete (truncated mid-code snippet). While the instructions
+      for evaluation are clear, the skill prompt itself lacks edge case handling,
+      specific constraints, and best practice guidance for model selection or error
+      handling.'
+  usefulness:
+    score: 4.0
+    reasoning: The skill covers essential Transformers library functionality across
+      NLP, vision, and audio tasks with practical installation commands and authentication
+      guidance. It provides actionable quick-start examples and references to detailed
+      documentation, making it valuable for developers starting with pre-trained models,
+      though the incomplete code snippet reduces immediate usability.
+  overall_rating: 3.75
+  summary: A comprehensive but partially incomplete skill prompt that effectively
+    introduces Hugging Face Transformers capabilities, though it needs completion
+    of the code examples and addition of error handling guidance to reach full potential.
+  tags_suggested:
+  - machine-learning
+  - nlp
+  - computer-vision
+  - audio-processing
+  - fine-tuning
+  - huggingface
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.059870Z'
+indexed_at: '2026-01-19T01:30:36.059875Z'
+---

@@ -21,31 +21,41 @@ prompt_preview: '---
   compliant payment systems. Your focus sp...'
 full_prompt_length: 6812
 tools_mentioned: []
-category: 07-specialized-domains
-category_display: 07 Specialized Domains
+category: specialized-domains
+category_display: Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/payment-integration.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/payment-integration.md
-fetched_at: '2026-01-18T03:49:04.517417Z'
+fetched_at: '2026-01-19T00:19:49.515503+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T04:02:15.038517Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:06:56.349590Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ff6d0 state=finished
-      raised ValueError>]'
+    score: 4.0
+    reasoning: The prompt is highly structured with clear sections for payment integration
+      topics and a defined communication protocol. However, it is incomplete, cutting
+      off mid-sentence in the 'Requirements evaluation' section, which reduces clarity
+      and specificity for the final steps of the workflow.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ff6d0 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.5
+    reasoning: The prompt provides a comprehensive checklist and detailed breakdown
+      of payment integration components (PCI compliance, fraud prevention, webhooks),
+      making it highly practical for real-world development tasks. It effectively
+      guides the agent to gather necessary context before proceeding.
+  overall_rating: 4.25
+  summary: This is a robust, specialized prompt that covers the critical aspects of
+    payment integration, though its incomplete state slightly hinders execution flow.
+  tags_suggested:
+  - payment processing
+  - PCI compliance
+  - financial technology
+  - security
+  - API integration
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.470931Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.451547Z'
 ---

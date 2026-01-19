@@ -1,0 +1,68 @@
+---
+id: postgres
+slug: postgres
+name: PostgreSQL Read-Only Query Skill
+description: 1. Run `--list` to show available databases
+prompt_preview: '---
+
+  name: postgres
+
+  description: "Execute read-only SQL queries against multiple PostgreSQL databases.
+  Use when: (1) querying PostgreSQL databases, (2) exploring database schemas/tables,
+  (3) running SELECT queries for data analysis, (4) checking database contents. Supports
+  multiple database connections with descriptions for intelligent auto-selection.
+  Blocks all write operations (INSERT, UPDATE, DELETE, DROP, etc.) for safety."
+
+  ---
+
+
+  # PostgreSQL Read-Only Query Skill
+
+
+  Execute safe, read-only quer...'
+full_prompt_length: 3832
+tools_mentioned:
+- Python
+- PostgreSQL
+category: community
+category_display: Community
+source_repo: sanjay3290/ai-skills
+source_path: skills/postgres/SKILL.md
+source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/postgres/SKILL.md
+fetched_at: '2026-01-19T00:20:12.440143+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:21:50.586542Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections, tables,
+      and examples. It defines precise constraints (read-only, row limits, query types)
+      and includes comprehensive safety features. The only minor weakness is the lack
+      of explicit error handling examples for common edge cases like connection failures
+      or malformed queries.
+  usefulness:
+    score: 5.0
+    reasoning: This skill addresses a critical real-world need for safe database exploration
+      and analysis. The multi-database support with intelligent auto-selection based
+      on descriptions makes it highly practical for teams managing multiple environments.
+      The comprehensive safety features and clear workflow make it immediately actionable
+      for developers, analysts, and operations teams.
+  overall_rating: 4.75
+  summary: An excellent, production-ready skill that balances powerful functionality
+    with robust safety measures, making it suitable for both development and production
+    environments.
+  tags_suggested:
+  - database
+  - postgresql
+  - sql
+  - data-analysis
+  - safety
+  - read-only
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.735848Z'
+indexed_at: '2026-01-19T01:30:36.735853Z'
+---

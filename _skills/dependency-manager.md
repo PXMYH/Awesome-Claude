@@ -21,34 +21,48 @@ prompt_preview: '---
   ecosystems. Your focus spans securi...'
 full_prompt_length: 6984
 tools_mentioned:
+- Python
 - PHP
 - Go
-- Python
-category: 06-developer-experience
-category_display: 06 Developer Experience
+category: developer-experience
+category_display: Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/dependency-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/dependency-manager.md
-fetched_at: '2026-01-18T03:49:01.015834Z'
+fetched_at: '2026-01-19T00:19:45.815260+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:59:43.025868Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:03:00.611639Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fe450 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt is highly structured with clear categories and checklists,
+      demonstrating strong specificity in scope definition. However, it's incomplete—the
+      development workflow section cuts off mid-sentence, and the communication protocol
+      lacks implementation details for the context query. While the content is comprehensive,
+      the abrupt ending and missing sections reduce clarity and completeness.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fe450 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt provides exceptional real-world value with detailed checklists
+      covering security, compliance, optimization, and multi-ecosystem support. It
+      addresses critical developer pain points like vulnerability management and version
+      conflicts. The actionable frameworks and systematic approach would immediately
+      benefit teams managing complex dependency trees, though the incomplete workflow
+      limits immediate implementation.
+  overall_rating: 3.75
+  summary: A well-structured but incomplete prompt that excels in comprehensive scope
+    definition and practical frameworks, though execution guidance is truncated and
+    requires completion for full utility.
+  tags_suggested:
+  - dependency-management
+  - security-auditing
+  - package-manager
+  - developer-tools
+  - multi-ecosystem
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.404081Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.380866Z'
 ---

@@ -1,0 +1,60 @@
+---
+id: aws-agentic-ai-aws-agentic-ai
+slug: aws-agentic-ai-aws-agentic-ai
+name: AWS Bedrock AgentCore
+description: '- **AWS Documentation**: [Amazon Bedrock AgentCore](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/what-is-bedrock-agentcore.html)'
+prompt_preview: "---\nname: aws-agentic-ai\naliases:\n  - bedrock-agentcore\n  - aws-agentic-ai\n\
+  description: AWS Bedrock AgentCore comprehensive expert for deploying and managing\
+  \ all AgentCore services. Use when working with Gateway, Runtime, Memory, Identity,\
+  \ or any AgentCore component. Covers MCP target deployment, credential management,\
+  \ schema optimization, runtime configuration, memory management, and identity services.\n\
+  context: fork\nmodel: sonnet\nskills:\n  - aws-mcp-setup\nallowed-tools:\n  - mcp__aws-mcp__*\n\
+  \  -..."
+full_prompt_length: 6627
+tools_mentioned:
+- Python
+- aws
+- AWS
+- REST
+category: infrastructure
+category_display: Infrastructure
+source_repo: zxkane/aws-skills
+source_path: plugins/aws-agentic-ai/skills/aws-agentic-ai/SKILL.md
+source_url: https://github.com/zxkane/aws-skills/blob/main/plugins/aws-agentic-ai/skills/aws-agentic-ai/SKILL.md
+fetched_at: '2026-01-19T00:20:28.090549+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:29:38.533411Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is well-structured with clear sections, specific service
+      definitions, and actionable workflows. It includes critical AWS documentation
+      requirements and handles tool availability scenarios. However, it lacks explicit
+      error handling for common deployment failures and doesn't define success criteria
+      for verification steps.
+  usefulness:
+    score: 4.0
+    reasoning: This skill provides practical value for AWS Bedrock AgentCore users
+      by consolidating seven core services into a single expert guide. It covers real-world
+      deployment patterns and includes credential management workflows. The usefulness
+      is slightly limited by its dependency on AWS MCP tools, which may not be available
+      in all environments.
+  overall_rating: 4.25
+  summary: A well-structured AWS Bedrock AgentCore skill that provides comprehensive
+    guidance for deploying and managing AI agent services, though it could benefit
+    from more robust error handling and fallback procedures.
+  tags_suggested:
+  - aws
+  - bedrock
+  - agentcore
+  - infrastructure
+  - deployment
+  - mcp
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.879849Z'
+indexed_at: '2026-01-19T01:30:36.879854Z'
+---

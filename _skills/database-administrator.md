@@ -22,35 +22,48 @@ prompt_preview: '---
 full_prompt_length: 7364
 tools_mentioned:
 - PostgreSQL
-- MySQL
 - Redis
-- rest
+- MySQL
 - MongoDB
+- rest
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/database-administrator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/database-administrator.md
-fetched_at: '2026-01-18T03:48:53.683225Z'
+fetched_at: '2026-01-19T00:19:37.713837+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:54:23.000435Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:54:49.645780Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6dab10 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt is well-structured with clear sections and a comprehensive
+      checklist, but it is incomplete and cuts off mid-sentence in the Development
+      Workflow section. While the defined scope and technical depth are strong, the
+      abrupt ending creates ambiguity about the expected execution flow and limits
+      the prompt's completeness.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6dab10 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt outlines a robust framework for database administration
+      with specific, actionable checklists and technical areas (e.g., HA patterns,
+      backup strategies). It would be highly valuable for guiding systematic database
+      management tasks, though the incomplete workflow section reduces immediate practicality
+      for end-to-end execution.
+  overall_rating: 3.75
+  summary: A technically strong and detailed prompt for database administration that
+    is hampered by an incomplete workflow section, limiting its full operational utility.
+  tags_suggested:
+  - database
+  - infrastructure
+  - postgresql
+  - mysql
+  - high-availability
+  - performance-optimization
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.264227Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.233359Z'
 ---

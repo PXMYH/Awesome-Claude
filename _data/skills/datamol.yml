@@ -1,0 +1,58 @@
+id: datamol
+slug: datamol
+name: Datamol Cheminformatics Skill
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: datamol\ndescription: Pythonic wrapper around RDKit with\
+  \ simplified interface and sensible defaults. Preferred for standard drug discovery\
+  \ including SMILES parsing, standardization, descriptors, fingerprints, clustering,\
+  \ 3D conformers, parallel processing. Returns native rdkit.Chem.Mol objects. For\
+  \ advanced control or custom parameters, use rdkit directly.\nlicense: Apache-2.0\
+  \ license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# Datamol Cheminformatics\
+  \ Skill\n\n## Overview\n\nDatamol is a..."
+full_prompt_length: 19680
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/datamol/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/datamol/SKILL.md
+fetched_at: '2026-01-19T00:19:07.850437+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:25:47.915821Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections, comprehensive
+      code examples, and logical workflow organization. It follows best practices
+      by including installation instructions, import conventions, and practical examples
+      for common tasks. However, it contains incomplete code snippets (e.g., truncated
+      descriptor output) and references external documentation files that may not
+      be available to the user.
+  usefulness:
+    score: 5.0
+    reasoning: This is highly practical for real-world drug discovery workflows, covering
+      essential cheminformatics tasks from molecule parsing to file I/O and descriptor
+      calculation. The examples are immediately actionable and demonstrate best practices
+      like standardization and error handling. The skill bridges RDKit's complexity
+      with a more accessible interface, making it valuable for both beginners and
+      experienced practitioners.
+  overall_rating: 4.75
+  summary: A comprehensive, well-organized cheminformatics skill prompt that provides
+    excellent practical value for drug discovery tasks, though slightly marred by
+    incomplete code examples and external references.
+  tags_suggested:
+  - cheminformatics
+  - drug-discovery
+  - rdkit
+  - molecular-modeling
+  - scientific-computing
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.640048Z'
+indexed_at: '2026-01-19T01:30:35.640053Z'

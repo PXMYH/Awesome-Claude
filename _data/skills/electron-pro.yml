@@ -25,25 +25,39 @@ category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/electron-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/electron-pro.md
-fetched_at: '2026-01-18T03:48:47.147921Z'
+fetched_at: '2026-01-19T00:19:30.715529+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:49:34.976163Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:47:54.103709Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7f10 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections for
+      architecture, security, and implementation workflows. It provides specific technical
+      checklists and best practices for Electron development. The communication protocol
+      and environment discovery mechanism add professional structure, though the prompt
+      could benefit from more explicit error handling guidance.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7f10 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 5.0
+    reasoning: This prompt delivers comprehensive real-world value for Electron development,
+      covering critical aspects like security hardening, performance optimization,
+      and cross-platform considerations. The detailed checklists and structured workflows
+      make it immediately actionable for developers building production desktop applications.
+      The focus on modern Electron 27+ features and security best practices addresses
+      current industry standards.
+  overall_rating: 4.75
+  summary: An excellent, production-ready prompt that provides comprehensive guidance
+    for secure Electron development with strong emphasis on security, performance,
+    and cross-platform compatibility.
+  tags_suggested:
+  - electron
+  - desktop-app
+  - security
+  - cross-platform
+  - performance
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.135528Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.100300Z'

@@ -1,0 +1,57 @@
+id: biopython
+slug: biopython
+name: 'Biopython: Computational Molecular Biology in Python'
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: biopython\ndescription: Comprehensive molecular biology\
+  \ toolkit. Use for sequence manipulation, file parsing (FASTA/GenBank/PDB), phylogenetics,\
+  \ and programmatic NCBI/PubMed access (Bio.Entrez). Best for batch processing, custom\
+  \ bioinformatics pipelines, BLAST automation. For quick lookups use gget; for multi-service\
+  \ integration use bioservices.\nlicense: Unknown\nmetadata:\n    skill-author: K-Dense\
+  \ Inc.\n---\n\n# Biopython: Computational Molecular Biology in Python\n\n## Overview\n\
+  \nBiopython i..."
+full_prompt_length: 14647
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/biopython/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/biopython/SKILL.md
+fetched_at: '2026-01-19T00:19:04.761460+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:22:28.854206Z'
+  prompt_quality:
+    score: 4.0
+    reasoning: 'The prompt is well-structured with clear sections for overview, capabilities,
+      installation, and usage examples. However, it contains a critical flaw: the
+      alignment example is incomplete (ends with ''ali'' without code completion),
+      and the metadata shows an impossible release date (Biopython 1.85 in January
+      2025, when the knowledge cutoff is December 2024). The prompt also lacks explicit
+      error handling guidance for common bioinformatics tasks.'
+  usefulness:
+    score: 4.5
+    reasoning: This is highly practical for bioinformatics work, covering essential
+      tasks like sequence manipulation, file parsing, database access, and BLAST automation.
+      The modular organization by sub-packages helps users quickly find relevant functionality.
+      The inclusion of specific version requirements and setup instructions makes
+      it immediately actionable for real-world computational biology pipelines.
+  overall_rating: 4.25
+  summary: A comprehensive and well-organized bioinformatics skill prompt with strong
+    practical value, though it contains minor technical inaccuracies and an incomplete
+    code example that slightly undermine its reliability.
+  tags_suggested:
+  - bioinformatics
+  - molecular-biology
+  - sequence-analysis
+  - scientific-computing
+  - ncbi-databases
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.576243Z'
+indexed_at: '2026-01-19T01:30:35.576249Z'

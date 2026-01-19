@@ -1,0 +1,68 @@
+---
+id: algorithmic-art
+slug: algorithmic-art
+name: Algorithmic Art
+description: Claude skill for Algorithmic Art
+prompt_preview: '---
+
+  name: algorithmic-art
+
+  description: Creating algorithmic art using p5.js with seeded randomness and interactive
+  parameter exploration. Use this when users request creating art using code, generative
+  art, algorithmic art, flow fields, or particle systems. Create original algorithmic
+  art rather than copying existing artists'' work to avoid copyright violations.
+
+  license: Complete terms in LICENSE.txt
+
+  ---
+
+
+  Algorithmic philosophies are computational aesthetic movements that are then expressed
+  throu...'
+full_prompt_length: 19735
+tools_mentioned:
+- Go
+- javascript
+category: official
+category_display: Official
+source_repo: anthropics/skills
+source_path: skills/algorithmic-art/SKILL.md
+source_url: https://github.com/anthropics/skills/blob/main/skills/algorithmic-art/SKILL.md
+fetched_at: '2026-01-19T00:19:57.643839+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:12:55.754856Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and specific, with well-defined two-step
+      processes and concrete deliverables (.md, .html, .js files). It provides strong
+      creative constraints (avoiding copyright, emphasizing algorithmic expression)
+      and includes detailed guidance on philosophy creation. However, it lacks explicit
+      edge case handling for user inputs that don't fit the generative art paradigm,
+      and the 'craftsmanship' emphasis, while clear, could be seen as overly prescriptive
+      rather than a best practice.
+  usefulness:
+    score: 4.0
+    reasoning: This skill has high real-world value for creating original algorithmic
+      art, which is a common creative coding task. It comprehensively covers the generative
+      art creation pipeline from concept to implementation. The actionable output
+      format (interactive viewer + code) provides immediate utility for developers
+      and artists, though the scope is somewhat niche compared to broader coding tasks.
+  overall_rating: 4.25
+  summary: A well-structured, highly specific prompt that effectively guides the creation
+    of original algorithmic art through a philosophy-to-code pipeline, though it could
+    benefit from more flexible handling of diverse user inputs.
+  tags_suggested:
+  - generative-art
+  - creative-coding
+  - p5js
+  - algorithmic-design
+  - interactive-art
+github_metrics:
+  stars: 44557
+  forks: 4148
+  open_issues: 166
+  last_commit: '2025-12-20'
+  fetched_at: '2026-01-19T00:20:32.039127Z'
+indexed_at: '2026-01-19T01:30:36.574478Z'
+---

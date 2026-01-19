@@ -24,31 +24,45 @@ full_prompt_length: 6523
 tools_mentioned:
 - REST
 - gRPC
-category: 05-data-ai
-category_display: 05 Data Ai
+category: data-ai
+category_display: Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/ml-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/ml-engineer.md
-fetched_at: '2026-01-18T03:48:59.653982Z'
+fetched_at: '2026-01-19T00:19:44.315502+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:58:47.021497Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:01:31.864384Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd817690 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt has a clear structure with defined sections and a comprehensive
+      checklist, but it's incomplete - the 'Implementation Phase' section cuts off
+      mid-sentence. While the technical content is specific and well-organized, the
+      abrupt ending creates ambiguity about the full workflow. The communication protocol
+      is well-defined but the incomplete implementation guidance limits clarity.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd817690 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt provides substantial real-world value with detailed ML engineering
+      checklists covering production deployment, monitoring, and optimization. It
+      comprehensively addresses the ML lifecycle from data validation to production
+      patterns. The actionable checklists and tooling ecosystem references would help
+      users implement robust ML systems, though the incomplete workflow reduces practical
+      utility.
+  overall_rating: 3.75
+  summary: A technically comprehensive ML engineering prompt with excellent production-focused
+    checklists and tooling references, but significantly undermined by an incomplete
+    implementation section that cuts off mid-sentence, reducing its practical usability.
+  tags_suggested:
+  - machine-learning
+  - ml-engineering
+  - production-deployment
+  - mlops
+  - model-monitoring
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.379707Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.355278Z'
 ---

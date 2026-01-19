@@ -22,31 +22,44 @@ prompt_preview: '---
 full_prompt_length: 6690
 tools_mentioned:
 - React
-category: 07-specialized-domains
-category_display: 07 Specialized Domains
+category: specialized-domains
+category_display: Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/mobile-app-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/mobile-app-developer.md
-fetched_at: '2026-01-18T03:49:04.348709Z'
+fetched_at: '2026-01-19T00:19:49.329369+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T04:02:07.037847Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:06:43.330246Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ffe10 state=finished
-      raised ValueError>]'
+    score: 4.0
+    reasoning: The prompt is highly specific and well-structured with clear technical
+      requirements, checklists, and domain-specific knowledge. However, it's incomplete
+      - the workflow section cuts off mid-sentence and lacks a complete development
+      process. The communication protocol is defined but not fully integrated into
+      the instructions.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ffe10 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.5
+    reasoning: This provides exceptional real-world value for mobile development with
+      comprehensive coverage of native iOS/Android, cross-platform frameworks, performance
+      metrics, and security considerations. The detailed checklists and technical
+      specifications make it immediately actionable for developers. The only limitation
+      is the incomplete workflow section.
+  overall_rating: 4.25
+  summary: A comprehensive and technically detailed mobile development prompt with
+    excellent domain coverage and practical specifications, though it suffers from
+    an incomplete workflow section that limits its full operational potential.
+  tags_suggested:
+  - mobile development
+  - iOS
+  - Android
+  - cross-platform
+  - performance optimization
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.467360Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.447888Z'
 ---

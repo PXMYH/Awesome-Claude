@@ -23,31 +23,46 @@ full_prompt_length: 6785
 tools_mentioned:
 - REST
 - gRPC
-category: 05-data-ai
-category_display: 05 Data Ai
+category: data-ai
+category_display: Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/ai-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/ai-engineer.md
-fetched_at: '2026-01-18T03:48:58.442190Z'
+fetched_at: '2026-01-19T00:19:43.040560+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:57:51.016992Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:00:03.100081Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fdc10 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt is highly structured with clear categories and checklists,
+      providing excellent specificity on AI engineering domains. However, it lacks
+      clarity on execution flow—specifically, how the agent should integrate the listed
+      frameworks, tools, and deployment patterns into actionable steps. The communication
+      protocol is incomplete, and the development workflow is cut off mid-sentence,
+      creating ambiguity in actual implementation.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fdc10 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt offers substantial real-world value by comprehensively covering
+      AI system design, from model selection to ethical governance and multi-modal
+      deployment. It provides a robust checklist and framework references that guide
+      practical development. However, its usefulness is limited by the incomplete
+      workflow and unclear integration of tools, which may hinder immediate actionability
+      without additional context.
+  overall_rating: 3.75
+  summary: A well-structured and comprehensive prompt that excels in breadth and specificity
+    for AI engineering but suffers from incomplete sections and unclear execution
+    guidance, reducing its immediate practicality.
+  tags_suggested:
+  - AI Engineering
+  - System Design
+  - Model Deployment
+  - Ethical AI
+  - Production Scaling
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.355537Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.329660Z'
 ---

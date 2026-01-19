@@ -20,34 +20,47 @@ prompt_preview: '---
   and performance optimization. Your primary focus is creating e...'
 full_prompt_length: 6540
 tools_mentioned:
-- REST
 - WebSocket
-- graphql
 - GraphQL
+- REST
+- graphql
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/graphql-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/graphql-architect.md
-fetched_at: '2026-01-18T03:48:47.658297Z'
+fetched_at: '2026-01-19T00:19:31.267784+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:49:58.978413Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:48:38.749765Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7b50 state=finished
-      raised ValueError>]'
+    score: 4.0
+    reasoning: The prompt demonstrates strong technical specificity with comprehensive
+      checklists covering GraphQL best practices, federation, and optimization strategies.
+      However, it's incomplete (cut off mid-sentence in the implementation section)
+      and lacks clear action instructions for the agent to execute, making it more
+      of a reference guide than an operational prompt.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7b50 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.5
+    reasoning: The prompt provides exceptional real-world value for GraphQL architecture
+      with detailed coverage of federation, subscriptions, and performance optimization.
+      It's highly actionable for developers designing distributed GraphQL systems,
+      though the incomplete structure limits immediate execution without additional
+      context or completion.
+  overall_rating: 4.25
+  summary: A technically excellent but incomplete GraphQL architecture prompt that
+    provides comprehensive best practices and checklists, though it needs completion
+    and clearer execution instructions to be fully operational.
+  tags_suggested:
+  - GraphQL
+  - API Design
+  - Federation
+  - Schema Architecture
+  - Performance Optimization
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.146388Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.111419Z'

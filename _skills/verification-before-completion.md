@@ -1,0 +1,74 @@
+---
+id: verification-before-completion
+slug: verification-before-completion
+name: Verification Before Completion
+description: This is non-negotiable.
+prompt_preview: '---
+
+  name: verification-before-completion
+
+  description: Use when about to claim work is complete, fixed, or passing, before
+  committing or creating PRs - requires running verification commands and confirming
+  output before making any success claims; evidence before assertions always
+
+  ---
+
+
+  # Verification Before Completion
+
+
+  ## Overview
+
+
+  Claiming work is complete without verification is dishonesty, not efficiency.
+
+
+  **Core principle:** Evidence before claims, always.
+
+
+  **Violating the letter of this rule...'
+full_prompt_length: 4149
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: obra/superpowers
+source_path: skills/verification-before-completion/SKILL.md
+source_url: https://github.com/obra/superpowers/blob/main/skills/verification-before-completion/SKILL.md
+fetched_at: '2026-01-19T00:20:06.925054+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:19:27.162921Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and specific, with a strong, unambiguous
+      core principle and a well-structured gate function. It effectively handles common
+      failure modes and rationalizations through tables and red flags, providing robust
+      guidance for edge cases. The only minor weakness is the slightly repetitive
+      structure in the 'When To Apply' section, but overall it follows excellent prompt
+      engineering practices.
+  usefulness:
+    score: 5.0
+    reasoning: 'This skill has immense real-world value, directly addressing a critical
+      failure mode in AI-assisted development: false confidence and premature completion
+      claims. It is comprehensive, covering tests, builds, requirements, and agent
+      delegation, and is highly actionable, providing a clear, step-by-step verification
+      protocol that users can immediately implement to prevent costly errors and build
+      trust.'
+  overall_rating: 4.75
+  summary: An outstanding, high-impact skill that enforces rigorous verification before
+    any completion claim, directly combating a common and costly failure mode in development
+    workflows.
+  tags_suggested:
+  - verification
+  - quality assurance
+  - test-driven development
+  - pre-commit checks
+  - honesty
+github_metrics:
+  stars: 28406
+  forks: 2141
+  open_issues: 82
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-19T00:20:32.692534Z'
+indexed_at: '2026-01-19T01:30:36.696024Z'
+---

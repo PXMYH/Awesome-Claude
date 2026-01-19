@@ -24,25 +24,41 @@ category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/dotnet-framework-4.8-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/dotnet-framework-4.8-expert.md
-fetched_at: '2026-01-18T03:48:49.582828Z'
+fetched_at: '2026-01-19T00:19:33.299778+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:51:18.984737Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:50:36.358757Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ec6d0 state=finished
-      raised ValueError>]'
+    score: 2.5
+    reasoning: 'The prompt is highly specific about .NET Framework 4.8 technologies
+      and includes comprehensive checklists for various components like Web Forms,
+      WCF, and Windows services. However, it contains a critical flaw: the communication
+      protocol section is incomplete and cuts off mid-sentence, which would cause
+      execution failures. The prompt also lacks clear instructions on how to handle
+      the context manager query or what to do when project context is unavailable.'
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ec6d0 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt demonstrates deep domain knowledge of legacy enterprise
+      .NET development with detailed coverage of Web Forms, WCF services, Entity Framework
+      6, and enterprise patterns. It provides practical value for maintaining and
+      modernizing legacy systems, which is a common enterprise need. The comprehensive
+      checklists and feature lists would help developers ensure they're using appropriate
+      patterns and avoiding common pitfalls in legacy codebases.
+  overall_rating: 3.25
+  summary: A technically strong prompt with excellent domain expertise in legacy .NET
+    Framework development, but severely undermined by an incomplete communication
+    protocol section that would prevent proper execution.
+  tags_suggested:
+  - legacy-systems
+  - enterprise-development
+  - .net-framework
+  - web-forms
+  - wcf-services
+  - windows-services
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.182294Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.148702Z'

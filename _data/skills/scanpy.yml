@@ -1,0 +1,54 @@
+id: scanpy
+slug: scanpy
+name: 'Scanpy: Single-Cell Analysis'
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: scanpy\ndescription: Standard single-cell RNA-seq analysis\
+  \ pipeline. Use for QC, normalization, dimensionality reduction (PCA/UMAP/t-SNE),\
+  \ clustering, differential expression, and visualization. Best for exploratory scRNA-seq\
+  \ analysis with established workflows. For deep learning models use scvi-tools;\
+  \ for data format questions use anndata.\nlicense: SD-3-Clause license\nmetadata:\n\
+  \    skill-author: K-Dense Inc.\n---\n\n# Scanpy: Single-Cell Analysis\n\n## Overview\n\
+  \nScanpy is a scalable Python..."
+full_prompt_length: 12141
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/scanpy/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scanpy/SKILL.md
+fetched_at: '2026-01-19T00:19:23.645253+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:42:02.385133Z'
+  prompt_quality:
+    score: 4.0
+    reasoning: 'The prompt provides clear, structured instructions with well-organized
+      sections and practical code examples. However, it has some issues: the clustering
+      section is incomplete (cut off mid-code block), and it lacks error handling
+      guidance or edge case considerations for common scRNA-seq analysis problems.'
+  usefulness:
+    score: 4.5
+    reasoning: This is highly practical for real-world single-cell RNA-seq analysis,
+      covering the complete standard workflow from QC to visualization. The code examples
+      are immediately actionable and follow established best practices, though the
+      incomplete clustering section reduces immediate usability.
+  overall_rating: 4.25
+  summary: A solid, practical skill for scRNA-seq analysis with comprehensive workflow
+    coverage, but needs completion of the clustering section and addition of error
+    handling guidance to reach full potential.
+  tags_suggested:
+  - single-cell RNA-seq
+  - scanpy
+  - bioinformatics
+  - data analysis
+  - visualization
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.980103Z'
+indexed_at: '2026-01-19T01:30:35.980109Z'

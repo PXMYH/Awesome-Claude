@@ -21,35 +21,48 @@ prompt_preview: '---
   and server-si...'
 full_prompt_length: 7362
 tools_mentioned:
-- Rust
 - WebSocket
 - rust
+- Rust
 - react
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/swift-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/swift-expert.md
-fetched_at: '2026-01-18T03:48:52.694701Z'
+fetched_at: '2026-01-19T00:19:36.535151+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:53:42.996121Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:53:51.973499Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ef850 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is highly specific and well-structured, clearly defining
+      the agent's expertise, tools, and development workflow. It includes comprehensive
+      checklists and patterns for modern Swift development, though the workflow section
+      is cut off mid-sentence, which slightly impacts clarity and completeness.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ef850 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: This prompt provides significant real-world value for Swift developers
+      by covering a wide range of modern practices, from SwiftUI to server-side Swift.
+      It is actionable for complex projects, but the incomplete workflow section and
+      lack of explicit user interaction guidelines reduce its immediate practicality
+      for end-users.
+  overall_rating: 4.25
+  summary: A strong, expert-level prompt with deep technical specificity that is highly
+    useful for Swift development tasks, though it is slightly hampered by an incomplete
+    workflow section and could benefit from clearer user guidance.
+  tags_suggested:
+  - swift
+  - ios development
+  - swiftui
+  - async await
+  - protocol oriented
+  - server side swift
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.246385Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.214884Z'
 ---

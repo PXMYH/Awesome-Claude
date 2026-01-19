@@ -1,0 +1,58 @@
+---
+id: pysam
+slug: pysam
+name: Pysam
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: pysam\ndescription: Genomic file toolkit. Read/write SAM/BAM/CRAM\
+  \ alignments, VCF/BCF variants, FASTA/FASTQ sequences, extract regions, calculate\
+  \ coverage, for NGS data processing pipelines.\nlicense: MIT license\nmetadata:\n\
+  \    skill-author: K-Dense Inc.\n---\n\n# Pysam\n\n## Overview\n\nPysam is a Python\
+  \ module for reading, manipulating, and writing genomic datasets. Read/write SAM/BAM/CRAM\
+  \ alignment files, VCF/BCF variant files, and FASTA/FASTQ sequences with a Pythonic\
+  \ interface to htslib. Qu..."
+full_prompt_length: 10802
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/pysam/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pysam/SKILL.md
+fetched_at: '2026-01-19T00:19:21.885541+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:40:00.108991Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections for
+      overview, usage scenarios, installation, and examples. It follows prompt engineering
+      best practices by providing concrete code snippets and defining scope precisely.
+      The only minor limitation is that it references external documentation files
+      that may not be accessible to the AI agent.
+  usefulness:
+    score: 5.0
+    reasoning: This skill has high real-world value for bioinformatics and genomic
+      data processing tasks. It covers the most common use cases comprehensively with
+      practical code examples that users can immediately adapt. The inclusion of installation
+      instructions and specific file format support makes it highly actionable for
+      NGS pipeline development.
+  overall_rating: 4.75
+  summary: An excellent, production-ready skill prompt that provides comprehensive
+    coverage of genomic file operations with clear examples and practical guidance
+    for bioinformatics workflows.
+  tags_suggested:
+  - bioinformatics
+  - genomics
+  - NGS
+  - data processing
+  - scientific computing
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.943783Z'
+indexed_at: '2026-01-19T01:30:35.943788Z'
+---

@@ -20,36 +20,47 @@ prompt_preview: '---
   Java development. Your focus spans microservices architecture, reactive...'
 full_prompt_length: 6657
 tools_mentioned:
+- Kubernetes
 - REST
 - java
 - Java
-- Kubernetes
 - Docker
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/spring-boot-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/spring-boot-engineer.md
-fetched_at: '2026-01-18T03:48:52.354096Z'
+fetched_at: '2026-01-19T00:19:36.167265+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:53:26.994831Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:53:22.804125Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ee910 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt has strong structure with clear categories and technical
+      depth, but suffers from incomplete sections and abrupt termination. The checklist
+      and feature lists are comprehensive, but the development workflow section cuts
+      off mid-sentence, creating ambiguity about expected execution flow.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ee910 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: Highly practical for Spring Boot development with extensive coverage
+      of modern features, microservices patterns, and enterprise requirements. The
+      comprehensive checklists and feature lists provide concrete guidance, though
+      the incomplete workflow section reduces immediate actionability.
+  overall_rating: 3.75
+  summary: A technically robust Spring Boot engineer prompt with excellent domain
+    coverage, but needs completion of the truncated workflow section and refinement
+    of ambiguous instructions to reach full potential.
+  tags_suggested:
+  - spring-boot
+  - microservices
+  - cloud-native
+  - enterprise
+  - java
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.239291Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.207449Z'
 ---

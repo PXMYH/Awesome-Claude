@@ -21,41 +21,54 @@ prompt_preview: '---
   spans microservices architecture, CLI tools, syste...'
 full_prompt_length: 7865
 tools_mentioned:
+- Kubernetes
+- kubernetes
 - Go
 - python
-- REST
-- java
-- gRPC
-- kubernetes
-- Kubernetes
-- Docker
 - rust
 - go
+- Docker
+- java
+- REST
+- gRPC
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/golang-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/golang-pro.md
-fetched_at: '2026-01-18T03:48:50.105502Z'
+fetched_at: '2026-01-19T00:19:33.859646+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:51:42.986593Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:51:10.588340Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6edf90 state=finished
-      raised ValueError>]'
+    score: 4.0
+    reasoning: The prompt is highly specific and comprehensive, covering Go development
+      best practices across multiple domains. However, it contains a truncated JSON
+      example in the 'Project context query' section which creates ambiguity about
+      the expected format. The checklist and patterns sections are well-structured
+      but could benefit from clearer hierarchical organization.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6edf90 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.5
+    reasoning: This prompt provides exceptional real-world value for Go development
+      tasks, covering everything from microservices to performance optimization. The
+      comprehensive checklists and patterns serve as excellent reference material
+      for developers. The only limitation is the incomplete JSON example which might
+      cause confusion during initial invocation.
+  overall_rating: 4.25
+  summary: A highly comprehensive and practical Go development skill prompt that excels
+    in covering idiomatic patterns and best practices, though it suffers from minor
+    formatting issues in the communication protocol section.
+  tags_suggested:
+  - Go
+  - Microservices
+  - Performance
+  - Concurrency
+  - Cloud-Native
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.192762Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.160086Z'
 ---

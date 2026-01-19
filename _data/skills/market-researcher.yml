@@ -20,30 +20,43 @@ prompt_preview: '---
   and consumer behavior research. Your focus spans market dynamics, customer insi...'
 full_prompt_length: 6800
 tools_mentioned: []
-category: 10-research-analysis
-category_display: 10 Research Analysis
+category: research-analysis
+category_display: Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/market-researcher.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/market-researcher.md
-fetched_at: '2026-01-18T03:49:09.667767Z'
+fetched_at: '2026-01-19T00:19:55.295053+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T04:05:51.055826Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:12:00.522922Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd70e250 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt is well-structured with clear sections for market analysis,
+      consumer research, and competitive intelligence, providing a comprehensive checklist
+      of deliverables. However, it lacks specific instructions for handling edge cases
+      like missing data or conflicting sources, and the workflow section is incomplete,
+      which reduces clarity and specificity.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd70e250 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The skill offers high practical value for real-world market research
+      tasks, covering essential methodologies, data collection techniques, and strategic
+      insights that can directly inform business decisions. It is actionable for users
+      needing structured market analysis, though the incomplete workflow may require
+      additional guidance for full implementation.
+  overall_rating: 3.75
+  summary: This market researcher prompt is a robust framework for comprehensive market
+    analysis with strong practical utility, but it needs refinement in edge case handling
+    and workflow completion to achieve optimal clarity.
+  tags_suggested:
+  - market research
+  - competitive intelligence
+  - strategic analysis
+  - consumer insights
+  - business intelligence
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.566135Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.555880Z'

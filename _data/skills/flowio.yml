@@ -1,0 +1,56 @@
+id: flowio
+slug: flowio
+name: 'FlowIO: Flow Cytometry Standard File Handler'
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: flowio\ndescription: Parse FCS (Flow Cytometry Standard)\
+  \ files v2.0-3.1. Extract events as NumPy arrays, read metadata/channels, convert\
+  \ to CSV/DataFrame, for flow cytometry data preprocessing.\nlicense: BSD-3-Clause\
+  \ license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# FlowIO: Flow Cytometry\
+  \ Standard File Handler\n\n## Overview\n\nFlowIO is a lightweight Python library\
+  \ for reading and writing Flow Cytometry Standard (FCS) files. Parse FCS metadata,\
+  \ extract event data, and create new FCS f..."
+full_prompt_length: 17591
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/flowio/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/flowio/SKILL.md
+fetched_at: '2026-01-19T00:19:11.115970+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:28:27.026252Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections for
+      overview, installation, quick start, and core workflows. It provides specific
+      code examples for common use cases and handles edge cases like problematic files.
+      However, the prompt is incomplete (cuts off mid-sentence in the metadata section),
+      which prevents a perfect score.
+  usefulness:
+    score: 5.0
+    reasoning: This is highly practical for scientific computing, providing immediate
+      value for flow cytometry data processing. It covers essential workflows like
+      reading FCS files, extracting metadata, handling edge cases, and creating new
+      files. The inclusion of memory-efficient reading and error handling makes it
+      production-ready for real-world applications.
+  overall_rating: 4.75
+  summary: A comprehensive and well-designed skill prompt for flow cytometry file
+    handling that provides clear, actionable guidance for scientific data processing,
+    though it appears to be truncated in the final section.
+  tags_suggested:
+  - scientific
+  - data-processing
+  - flow-cytometry
+  - bioinformatics
+  - file-parsing
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.688615Z'
+indexed_at: '2026-01-19T01:30:35.688620Z'

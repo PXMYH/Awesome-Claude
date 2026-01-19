@@ -1,0 +1,57 @@
+id: deepchem
+slug: deepchem
+name: DeepChem
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: deepchem\ndescription: Molecular ML with diverse featurizers\
+  \ and pre-built datasets. Use for property prediction (ADMET, toxicity) with traditional\
+  \ ML or GNNs when you want extensive featurization options and MoleculeNet benchmarks.\
+  \ Best for quick experiments with pre-trained models, diverse molecular representations.\
+  \ For graph-first PyTorch workflows use torchdrug; for benchmark datasets use pytdc.\n\
+  license: MIT license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# DeepChem\n\
+  \n## Overvi..."
+full_prompt_length: 18491
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/deepchem/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/deepchem/SKILL.md
+fetched_at: '2026-01-19T00:19:08.024472+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:26:02.311816Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and well-structured with a logical
+      flow from overview to specific capabilities. It provides concrete code examples
+      and a decision tree for featurizer selection, making it highly actionable. However,
+      it lacks explicit edge case handling (e.g., invalid SMILES, missing data) and
+      doesn't define failure modes or error handling guidance.
+  usefulness:
+    score: 4.5
+    reasoning: This skill offers high practical value for cheminformatics and drug
+      discovery workflows, covering essential tasks like data loading, featurization,
+      and model selection. The inclusion of specific library references (MoleculeNet,
+      ChemBERTa) and benchmark datasets makes it immediately useful for real projects.
+      The decision tree for featurizer selection is particularly valuable for practitioners
+      navigating complex ML pipelines.
+  overall_rating: 4.5
+  summary: A well-crafted, practical skill prompt that effectively guides users through
+    DeepChem's core capabilities for molecular ML, though it could benefit from more
+    explicit error handling and edge case guidance.
+  tags_suggested:
+  - cheminformatics
+  - drug discovery
+  - molecular ML
+  - featurization
+  - graph neural networks
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.643795Z'
+indexed_at: '2026-01-19T01:30:35.643800Z'

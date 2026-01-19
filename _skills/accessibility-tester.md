@@ -23,30 +23,44 @@ prompt_preview: '---
 full_prompt_length: 7151
 tools_mentioned: []
 category: quality-security
-category_display: Quality & Security
+category_display: Quality Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/accessibility-tester.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/accessibility-tester.md
-fetched_at: '2026-01-18T03:48:55.876647Z'
+fetched_at: '2026-01-19T00:19:40.237248+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:55:59.008222Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:57:10.292975Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6efed0 state=finished
-      raised ValueError>]'
+    score: 4.0
+    reasoning: 'The prompt is highly specific and well-structured with comprehensive
+      checklists covering WCAG standards, screen readers, keyboard navigation, and
+      various accessibility domains. However, it''s incomplete - the development workflow
+      section cuts off mid-sentence (''Evaluation methodology: - Ru''), and the communication
+      protocol mentions a context manager that isn''t defined or integrated into the
+      actual execution flow.'
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6efed0 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.5
+    reasoning: This provides exceptional real-world value for accessibility testing
+      with detailed, actionable checklists covering all major WCAG success criteria
+      and assistive technologies. The structured approach with specific testing methodologies
+      (automated scanning, manual verification, user testing) makes it immediately
+      practical for developers and QA teams working on inclusive design compliance.
+  overall_rating: 4.25
+  summary: A comprehensive and highly practical accessibility testing prompt with
+    excellent domain coverage, though it suffers from incomplete sections that limit
+    its immediate usability without additional context or completion.
+  tags_suggested:
+  - accessibility
+  - wcag-compliance
+  - inclusive-design
+  - quality-assurance
+  - assistive-technology
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.306003Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.278190Z'
 ---

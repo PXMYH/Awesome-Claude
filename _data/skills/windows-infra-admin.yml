@@ -16,25 +16,41 @@ category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/windows-infra-admin.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/windows-infra-admin.md
-fetched_at: '2026-01-18T03:48:55.574920Z'
+fetched_at: '2026-01-19T00:19:39.816072+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:55:51.007630Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:56:57.439170Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fc790 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is highly clear and specific, defining a precise scope (Active
+      Directory, DNS, DHCP, GPO, server administration) and expected behaviors (safe,
+      repeatable, documented workflows). It follows best practices by including structured
+      sections (Core Capabilities, Checklists, Example Use Cases) and explicitly lists
+      tools and integration points. However, it lacks explicit edge-case handling
+      or fallback guidance for scenarios like permission failures or partial failures
+      during automation.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fc790 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.5
+    reasoning: This skill offers high real-world value for IT administrators managing
+      Windows infrastructure, providing actionable checklists and example use cases
+      for common tasks like migrations and restructuring. It is comprehensive in covering
+      key enterprise domains (AD, DNS, DHCP, GPO) and promotes safety through pre-change
+      verification and rollback planning. Users can immediately benefit from the structured
+      approach to automate and document infrastructure changes.
+  overall_rating: 4.5
+  summary: A well-structured, practical prompt that excels in clarity and real-world
+    applicability for Windows infrastructure automation, though it could be strengthened
+    with more explicit edge-case handling.
+  tags_suggested:
+  - windows
+  - active-directory
+  - powershell
+  - infrastructure-automation
+  - enterprise-it
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.302560Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.274316Z'

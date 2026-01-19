@@ -21,31 +21,46 @@ prompt_preview: '---
   language model systems. Your focus spans architecture design, fine-tuning strategies,...'
 full_prompt_length: 6574
 tools_mentioned: []
-category: 05-data-ai
-category_display: 05 Data Ai
+category: data-ai
+category_display: Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/llm-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/llm-architect.md
-fetched_at: '2026-01-18T03:48:59.317407Z'
+fetched_at: '2026-01-19T00:19:43.958760+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:58:31.020284Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:00:57.825344Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7310 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: 'The prompt demonstrates strong clarity and specificity with well-structured
+      sections covering LLM architecture, fine-tuning, RAG, and serving patterns.
+      It follows best practices by including checklists and systematic workflows.
+      However, it has a significant gap: the workflow section is incomplete (ends
+      abruptly at ''Implementation''), and the communication protocol references a
+      context manager that isn''t defined or implemented in the prompt.'
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7310 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt provides comprehensive coverage of LLM system design topics
+      with practical checklists and architectural patterns that would benefit developers
+      building production LLM applications. It offers real-world value through structured
+      approaches to optimization, safety, and deployment. The main limitation is the
+      incomplete workflow, which reduces immediate actionability for users expecting
+      a complete implementation guide.
+  overall_rating: 4.25
+  summary: A well-structured but incomplete LLM architect prompt that excels in technical
+    depth and organization but needs completion of the workflow section and clarification
+    of the communication protocol to be fully actionable.
+  tags_suggested:
+  - llm-architecture
+  - system-design
+  - production-deployment
+  - optimization
+  - rag-systems
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.372809Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.347871Z'
 ---

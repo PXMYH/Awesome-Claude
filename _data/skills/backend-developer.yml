@@ -20,36 +20,49 @@ prompt_preview: '---
   building scalable, secure, and performant backend systems....'
 full_prompt_length: 6682
 tools_mentioned:
-- PostgreSQL
-- Go
-- Node.js
 - Python
+- PostgreSQL
+- Node.js
 - Redis
+- Go
 - Docker
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/backend-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/backend-developer.md
-fetched_at: '2026-01-18T03:48:46.971493Z'
+fetched_at: '2026-01-19T00:19:30.522452+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:49:26.975413Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:47:38.208757Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7710 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt is highly specific and structured with clear sections for
+      different backend development aspects, following good prompt engineering practices.
+      However, it is incomplete—the Development Workflow section cuts off mid-sentence
+      ('Security b'), and the Communication Protocol section lacks a clear mechanism
+      for the agent to actually execute the context query or receive the response.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7710 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt provides comprehensive, real-world backend development guidelines
+      covering API design, database architecture, security, performance, and microservices
+      patterns, making it highly practical for senior-level tasks. The detailed checklists
+      and standards offer immediate actionable value for developers building scalable
+      systems, though the incomplete workflow reduces immediate usability.
+  overall_rating: 3.75
+  summary: A well-structured and detailed backend development prompt with strong practical
+    value, but it is critically incomplete, lacking a defined execution flow and a
+    complete workflow section.
+  tags_suggested:
+  - backend-development
+  - api-design
+  - microservices
+  - security
+  - performance-optimization
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.131802Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.096510Z'

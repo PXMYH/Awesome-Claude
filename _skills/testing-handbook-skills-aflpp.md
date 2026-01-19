@@ -1,0 +1,60 @@
+---
+id: testing-handbook-skills-aflpp
+slug: testing-handbook-skills-aflpp
+name: AFL++
+description: '- [Fuzzing cURL](https://blog.trailofbits.com/2023/02/14/curl-audit-fuzzing-libcurl-command-line-interface/)
+  - Trail of Bits blog post on using AFL++ argument fuzzing for cURL'
+prompt_preview: "---\nname: aflpp\ntype: fuzzer\ndescription: >\n  AFL++ is a fork\
+  \ of AFL with better fuzzing performance and advanced features.\n  Use for multi-core\
+  \ fuzzing of C/C++ projects.\n---\n\n# AFL++\n\nAFL++ is a fork of the original\
+  \ AFL fuzzer that offers better fuzzing performance and more advanced features while\
+  \ maintaining stability. A major benefit over libFuzzer is that AFL++ has stable\
+  \ support for running fuzzing campaigns on multiple cores, making it ideal for large-scale\
+  \ fuzzing efforts.\n\n## When to Us..."
+full_prompt_length: 20236
+tools_mentioned:
+- Python
+- docker
+- Rust
+- rest
+- Docker
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/testing-handbook-skills/skills/aflpp/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/aflpp/SKILL.md
+fetched_at: '2026-01-19T00:20:20.849554+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:25:11.837983Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections, tables
+      for comparison, and practical code examples. Instructions are specific and actionable,
+      covering installation, usage, and security warnings. The only minor issue is
+      the incomplete command in the System Configuration section (missing closing
+      backtick).
+  usefulness:
+    score: 5.0
+    reasoning: This prompt provides comprehensive, real-world guidance for using AFL++
+      effectively. It covers installation methods, usage patterns, and critical security
+      considerations. The comparison table helps users choose the right fuzzer, and
+      the wrapper script is immediately usable for practical fuzzing campaigns.
+  overall_rating: 4.75
+  summary: An excellent, production-ready prompt that balances technical depth with
+    practical usability, providing everything needed to start fuzzing with AFL++ while
+    emphasizing important security considerations.
+  tags_suggested:
+  - fuzzing
+  - security-testing
+  - afl++
+  - c++
+  - vulnerability-discovery
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.804067Z'
+indexed_at: '2026-01-19T01:30:36.804072Z'
+---

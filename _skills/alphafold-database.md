@@ -1,0 +1,59 @@
+---
+id: alphafold-database
+slug: alphafold-database
+name: AlphaFold Database
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: alphafold-database\ndescription: Access AlphaFold 200M+\
+  \ AI-predicted protein structures. Retrieve structures by UniProt ID, download PDB/mmCIF\
+  \ files, analyze confidence metrics (pLDDT, PAE), for drug discovery and structural\
+  \ biology.\nlicense: Unknown\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n\
+  # AlphaFold Database\n\n## Overview\n\nAlphaFold DB is a public repository of AI-predicted\
+  \ 3D protein structures for over 200 million proteins, maintained by DeepMind and\
+  \ EMBL-EBI. Access structure..."
+full_prompt_length: 17208
+tools_mentioned:
+- Python
+- python
+- go
+- REST
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/alphafold-database/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/alphafold-database/SKILL.md
+fetched_at: '2026-01-19T00:19:03.729080+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:21:18.628424Z'
+  prompt_quality:
+    score: 3.5
+    reasoning: 'The prompt provides clear structure and practical code examples for
+      accessing AlphaFold data, covering multiple methods (Biopython, direct API,
+      UniProt integration). However, it has a critical flaw: the Biopython code examples
+      use a non-existent `alphafold_db` module that doesn''t exist in standard Biopython
+      distributions, which could mislead users. The prompt also lacks error handling
+      examples and doesn''t address rate limiting or API constraints.'
+  usefulness:
+    score: 4.0
+    reasoning: The skill addresses a genuine need in structural biology and drug discovery
+      by providing concrete methods to access AlphaFold's 200M+ protein structures.
+      The examples are practical and cover common workflows like retrieving predictions
+      by UniProt ID and downloading files. The inclusion of confidence metrics analysis
+      is particularly valuable for assessing prediction reliability in research contexts.
+  overall_rating: 3.75
+  summary: A useful but flawed prompt that provides practical AlphaFold database access
+    guidance but contains misleading Biopython examples and lacks error handling considerations.
+  tags_suggested:
+  - structural-biology
+  - protein-structures
+  - drug-discovery
+  - bioinformatics
+  - alphafold
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.553321Z'
+indexed_at: '2026-01-19T01:30:35.553326Z'
+---

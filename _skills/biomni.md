@@ -1,0 +1,69 @@
+---
+id: biomni
+slug: biomni
+name: Biomni
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: '---
+
+  name: biomni
+
+  description: Autonomous biomedical AI agent framework for executing complex research
+  tasks across genomics, drug discovery, molecular biology, and clinical analysis.
+  Use this skill when conducting multi-step biomedical research including CRISPR screening
+  design, single-cell RNA-seq analysis, ADMET prediction, GWAS interpretation, rare
+  disease diagnosis, or lab protocol optimization. Leverages LLM reasoning with code
+  execution and integrated biomedical databases.
+
+  license: Apache-...'
+full_prompt_length: 10664
+tools_mentioned:
+- GO
+- python
+- go
+- AWS
+- Azure
+- Docker
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/biomni/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/biomni/SKILL.md
+fetched_at: '2026-01-19T00:19:04.595043+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:22:18.327730Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt demonstrates excellent clarity and specificity, providing
+      comprehensive installation instructions, configuration examples, and clear usage
+      patterns. It follows best practices by including metadata, license information,
+      and structured sections. However, the prompt is truncated mid-sentence in the
+      task execution example, which introduces ambiguity about the complete workflow.
+  usefulness:
+    score: 5.0
+    reasoning: This skill offers exceptional real-world value for biomedical researchers
+      by providing an autonomous agent framework that integrates code execution with
+      extensive biomedical databases. It covers a wide range of practical applications
+      from CRISPR screening to rare disease diagnosis, making it immediately actionable
+      for complex research tasks. The comprehensive coverage of multiple biomedical
+      domains and supported LLM providers enhances its practical utility.
+  overall_rating: 4.75
+  summary: Biomni is a highly capable and well-structured biomedical AI agent skill
+    that provides comprehensive autonomous research capabilities across genomics,
+    drug discovery, and clinical analysis, though the truncated example slightly impacts
+    completeness.
+  tags_suggested:
+  - biomedical
+  - autonomous-agent
+  - genomics
+  - drug-discovery
+  - clinical-analysis
+  - research-automation
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.572356Z'
+indexed_at: '2026-01-19T01:30:35.572361Z'
+---

@@ -21,31 +21,42 @@ prompt_preview: '---
   poorly structured code into clean, maintainable s...'
 full_prompt_length: 7050
 tools_mentioned: []
-category: 06-developer-experience
-category_display: 06 Developer Experience
+category: developer-experience
+category_display: Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/refactoring-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/refactoring-specialist.md
-fetched_at: '2026-01-18T03:49:02.451314Z'
+fetched_at: '2026-01-19T00:19:47.206391+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T04:00:47.031136Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:04:38.783261Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7350 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is highly structured with clear sections for code smells,
+      refactoring patterns, and safety practices, providing excellent specificity.
+      It follows prompt engineering best practices by defining a role, workflow, and
+      checklist, though the workflow section is cut off mid-sentence, slightly reducing
+      clarity.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7350 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: This skill offers high real-world value for developers tackling legacy
+      code or complexity, with comprehensive coverage of refactoring techniques and
+      safety measures. However, the abrupt end to the workflow section limits immediate
+      actionability, as users may lack guidance on executing the final steps.
+  overall_rating: 4.25
+  summary: A robust, expert-level refactoring prompt with strong structure and practical
+    depth, though incomplete workflow guidance slightly hampers usability.
+  tags_suggested:
+  - code-refactoring
+  - developer-tools
+  - code-quality
+  - legacy-code
+  - test-driven-development
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.432384Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.409675Z'
 ---

@@ -1,0 +1,59 @@
+---
+id: chembl-database
+slug: chembl-database
+name: ChEMBL Database
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: chembl-database\ndescription: Query ChEMBL bioactive molecules\
+  \ and drug discovery data. Search compounds by structure/properties, retrieve bioactivity\
+  \ data (IC50, Ki), find inhibitors, perform SAR studies, for medicinal chemistry.\n\
+  license: Unknown\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# ChEMBL Database\n\
+  \n## Overview\n\nChEMBL is a manually curated database of bioactive molecules maintained\
+  \ by the European Bioinformatics Institute (EBI), containing over 2 million compounds,\
+  \ 19 milli..."
+full_prompt_length: 11069
+tools_mentioned:
+- Python
+- python
+- go
+- Django
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/chembl-database/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/chembl-database/SKILL.md
+fetched_at: '2026-01-19T00:19:05.638926+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:23:26.674046Z'
+  prompt_quality:
+    score: 4.0
+    reasoning: The prompt is well-structured with clear sections and provides specific
+      code examples for common use cases. However, it contains a critical flaw in
+      the 'Query Workflow' section where the code snippet is incomplete (ends abruptly
+      with 'targets'), and lacks error handling, rate limiting guidance, or fallback
+      strategies for API failures.
+  usefulness:
+    score: 4.5
+    reasoning: The skill provides high practical value for medicinal chemistry and
+      drug discovery research, covering essential queries like compound searches,
+      bioactivity data retrieval, and structure-based searches. The comprehensive
+      examples and real-world use cases make it immediately actionable for researchers
+      working with ChEMBL data.
+  overall_rating: 4.25
+  summary: A highly useful scientific skill for drug discovery with strong practical
+    examples, but needs completion of the workflow section and addition of error handling
+    to reach full quality.
+  tags_suggested:
+  - scientific
+  - drug-discovery
+  - cheminformatics
+  - bioinformatics
+  - medicinal-chemistry
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.595269Z'
+indexed_at: '2026-01-19T01:30:35.595274Z'
+---

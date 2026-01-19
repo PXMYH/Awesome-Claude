@@ -1,0 +1,62 @@
+---
+id: static-analysis-semgrep
+slug: static-analysis-semgrep
+name: Semgrep Static Analysis
+description: '- Registry: https://semgrep.dev/explore'
+prompt_preview: "---\nname: semgrep\ndescription: Run Semgrep static analysis for\
+  \ fast security scanning and pattern matching. Use when asked to scan code with\
+  \ Semgrep, write custom YAML rules, find vulnerabilities quickly, use taint mode,\
+  \ or set up Semgrep in CI/CD pipelines.\nallowed-tools:\n  - Bash\n  - Read\n  -\
+  \ Glob\n  - Grep\n---\n\n# Semgrep Static Analysis\n\n## When to Use Semgrep\n\n\
+  **Ideal scenarios:**\n- Quick security scans (minutes, not hours)\n- Pattern-based\
+  \ bug detection\n- Enforcing coding standards and best p..."
+full_prompt_length: 8601
+tools_mentioned:
+- Python
+- Go
+- python
+- JavaScript
+- flask
+- docker
+- javascript
+- Docker
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/static-analysis/skills/semgrep/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/semgrep/SKILL.md
+fetched_at: '2026-01-19T00:20:20.282003+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:24:50.034044Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections, tables,
+      and code examples. It provides specific guidance on when to use/not use Semgrep,
+      installation methods, and practical workflows. The only minor weakness is the
+      incomplete custom rule example (ends abruptly with 're'), but the overall clarity
+      and specificity are excellent.
+  usefulness:
+    score: 5.0
+    reasoning: This is highly practical for real-world security scanning tasks. It
+      covers the complete workflow from installation to custom rule writing, includes
+      specific ruleset recommendations, and addresses common scenarios like CI/CD
+      integration. The comparison with CodeQL helps users make informed tool choices.
+  overall_rating: 4.75
+  summary: An outstanding security skill prompt that balances comprehensive technical
+    detail with practical guidance, making it immediately actionable for developers
+    and security engineers.
+  tags_suggested:
+  - security
+  - static-analysis
+  - semgrep
+  - code-scanning
+  - vulnerability-detection
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.797015Z'
+indexed_at: '2026-01-19T01:30:36.797020Z'
+---

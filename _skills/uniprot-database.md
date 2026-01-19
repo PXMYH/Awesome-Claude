@@ -1,0 +1,62 @@
+---
+id: uniprot-database
+slug: uniprot-database
+name: UniProt Database
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: uniprot-database\ndescription: Direct REST API access\
+  \ to UniProt. Protein searches, FASTA retrieval, ID mapping, Swiss-Prot/TrEMBL.\
+  \ For Python workflows with multiple databases, prefer bioservices (unified interface\
+  \ to 40+ services). Use this for direct HTTP/REST work or UniProt-specific control.\n\
+  license: Unknown\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# UniProt Database\n\
+  \n## Overview\n\nUniProt is the world's leading comprehensive protein sequence and\
+  \ functional information resource..."
+full_prompt_length: 7607
+tools_mentioned:
+- Python
+- GO
+- python
+- go
+- rest
+- REST
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/uniprot-database/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/uniprot-database/SKILL.md
+fetched_at: '2026-01-19T00:19:28.282513+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:46:19.849034Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and well-structured, with specific
+      API endpoints, query syntax examples, and practical use cases. It follows excellent
+      prompt engineering practices by providing concrete examples and covering core
+      capabilities comprehensively. The only minor limitation is that it cuts off
+      mid-sentence in the 'Customizing Retrieved Fields' section, which slightly impacts
+      completeness.
+  usefulness:
+    score: 5.0
+    reasoning: This skill provides immediate, real-world value for bioinformatics
+      and protein research workflows. It covers essential UniProt operations including
+      searching, retrieval, ID mapping, and batch processing with practical examples.
+      The guidance on when to use this skill versus bioservices is particularly valuable
+      for developers making architectural decisions.
+  overall_rating: 4.75
+  summary: A high-quality, practical skill prompt that provides comprehensive UniProt
+    API access with clear examples and appropriate guidance for both direct REST usage
+    and alternative library recommendations.
+  tags_suggested:
+  - bioinformatics
+  - protein-database
+  - rest-api
+  - scientific-computing
+  - data-retrieval
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.071023Z'
+indexed_at: '2026-01-19T01:30:36.071028Z'
+---

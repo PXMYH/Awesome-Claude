@@ -20,37 +20,49 @@ prompt_preview: '---
   automated infrastructure and deployment pipelines. Your focus spans the ent...'
 full_prompt_length: 6967
 tools_mentioned:
+- Kubernetes
 - GCP
 - AWS
-- kubernetes
-- Kubernetes
-- Docker
 - Azure
+- Docker
+- kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/devops-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/devops-engineer.md
-fetched_at: '2026-01-18T03:48:54.020697Z'
+fetched_at: '2026-01-19T00:19:38.127006+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:54:39.001663Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:55:12.031201Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6dbb90 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt is well-structured with clear sections and a comprehensive
+      checklist covering key DevOps domains, providing good specificity. However,
+      it is incomplete (cutting off mid-sentence in the 'Development Workflow' section)
+      and lacks explicit instructions on how to use the tools or handle edge cases,
+      which limits its clarity and completeness.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6dbb90 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt offers high practical value by outlining a systematic approach
+      to DevOps transformation, including maturity analysis and actionable checklists
+      for infrastructure, CI/CD, and monitoring. It is comprehensive for real-world
+      tasks like assessing and improving automation, though the incomplete workflow
+      section reduces immediate actionability for users.
+  overall_rating: 3.75
+  summary: This is a strong, domain-specific prompt with valuable DevOps frameworks,
+    but its incomplete state and lack of tool usage guidance prevent it from being
+    fully polished.
+  tags_suggested:
+  - DevOps
+  - Infrastructure Automation
+  - CI/CD
+  - Maturity Assessment
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.271304Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.240515Z'
 ---

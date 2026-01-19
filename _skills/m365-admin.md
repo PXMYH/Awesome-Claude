@@ -13,31 +13,47 @@ prompt_preview: "---\nname: m365-admin\ndescription: >\n  Microsoft 365 administ
 full_prompt_length: 1722
 tools_mentioned:
 - azure
-category: 07-specialized-domains
-category_display: 07 Specialized Domains
+category: specialized-domains
+category_display: Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/m365-admin.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/m365-admin.md
-fetched_at: '2026-01-18T03:49:04.174317Z'
+fetched_at: '2026-01-19T00:19:49.122955+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T04:01:59.037214Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:06:24.144579Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd70c550 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is well-structured with clear sections and specific capabilities
+      listed. It follows good prompt engineering practices by defining scope, tools,
+      and integration points. However, it lacks explicit instructions on how to handle
+      authentication, error handling, or specific constraints for M365 operations,
+      which could lead to ambiguity in complex scenarios.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd70c550 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The skill provides practical value for M365 administrators by covering
+      major workloads and common automation tasks. The inclusion of checklists and
+      example use cases makes it actionable for real-world scenarios. However, it
+      could be more useful if it included more specific guidance on Graph API endpoints,
+      PowerShell cmdlets, or security best practices for automation.
+  overall_rating: 4.25
+  summary: A solid M365 administration skill with clear structure and practical focus,
+    though it could benefit from more technical depth and explicit handling of authentication/edge
+    cases.
+  tags_suggested:
+  - m365
+  - exchange-online
+  - teams
+  - sharepoint
+  - graph-api
+  - powershell
+  - automation
+  - licensing
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.463856Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.444166Z'
 ---

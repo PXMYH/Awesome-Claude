@@ -1,0 +1,59 @@
+---
+id: cellxgene-census
+slug: cellxgene-census
+name: CZ CELLxGENE Census
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: cellxgene-census\ndescription: Query the CELLxGENE Census\
+  \ (61M+ cells) programmatically. Use when you need expression data across tissues,\
+  \ diseases, or cell types from the largest curated single-cell atlas. Best for population-scale\
+  \ queries, reference atlas comparisons. For analyzing your own data use scanpy or\
+  \ scvi-tools.\nlicense: Unknown\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\
+  \n# CZ CELLxGENE Census\n\n## Overview\n\nThe CZ CELLxGENE Census provides programmatic\
+  \ access to a comprehen..."
+full_prompt_length: 16258
+tools_mentioned:
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/cellxgene-census/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/cellxgene-census/SKILL.md
+fetched_at: '2026-01-19T00:19:05.451918+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:23:16.429230Z'
+  prompt_quality:
+    score: 3.5
+    reasoning: 'The prompt provides clear structure with sections for overview, usage,
+      installation, and workflow patterns. However, it has a critical flaw: the code
+      example in section 3 is incomplete (cuts off mid-function call), which undermines
+      clarity. The instructions are generally specific about when to use the skill
+      and best practices like using context managers, but the incomplete example creates
+      ambiguity about proper usage.'
+  usefulness:
+    score: 4.0
+    reasoning: This is highly practical for real-world single-cell genomics tasks,
+      covering population-scale queries, dataset exploration, and integration with
+      common tools like scanpy. The workflow patterns address actual development needs,
+      though the incomplete code example reduces immediate actionability. The skill
+      targets a specific, valuable scientific domain with comprehensive metadata and
+      expression data access.
+  overall_rating: 3.75
+  summary: A well-structured prompt for a valuable scientific skill that provides
+    practical single-cell data access, but is undermined by an incomplete code example
+    that reduces clarity and immediate usability.
+  tags_suggested:
+  - single-cell genomics
+  - bioinformatics
+  - data query
+  - scientific computing
+  - gene expression
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.591475Z'
+indexed_at: '2026-01-19T01:30:35.591480Z'
+---

@@ -1,0 +1,58 @@
+---
+id: testing-handbook-skills-coverage-analysis
+slug: testing-handbook-skills-coverage-analysis
+name: Coverage Analysis
+description: Not applicable - coverage analysis is primarily a tooling and workflow
+  topic best learned through documentation and hands-on practice.
+prompt_preview: "---\nname: coverage-analysis\ntype: technique\ndescription: >\n \
+  \ Coverage analysis measures code exercised during fuzzing.\n  Use when assessing\
+  \ harness effectiveness or identifying fuzzing blockers.\n---\n\n# Coverage Analysis\n\
+  \nCoverage analysis is essential for understanding which parts of your code are\
+  \ exercised during fuzzing. It helps identify fuzzing blockers like magic value\
+  \ checks and tracks the effectiveness of harness improvements over time.\n\n## Overview\n\
+  \nCode coverage during fuzzing serves tw..."
+full_prompt_length: 20696
+tools_mentioned:
+- Rust
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/testing-handbook-skills/skills/coverage-analysis/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/coverage-analysis/SKILL.md
+fetched_at: '2026-01-19T00:20:22.038113+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:26:22.824611Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections, tables,
+      and code examples. It follows best practices by providing context, when-to-apply
+      guidance, and a workflow diagram. The only minor issue is that the prompt is
+      cut off mid-sentence in Step 1, which slightly impacts completeness.
+  usefulness:
+    score: 5.0
+    reasoning: This is highly practical for security professionals conducting fuzzing
+      campaigns. It provides concrete commands for multiple toolchains (LLVM, GCC,
+      Rust) and actionable workflows. The coverage analysis technique is essential
+      for identifying fuzzing blockers and measuring harness effectiveness in real-world
+      security testing.
+  overall_rating: 4.75
+  summary: An excellent, production-ready security skill prompt that provides comprehensive
+    coverage analysis guidance with practical commands and workflows, though slightly
+    incomplete in the final section.
+  tags_suggested:
+  - fuzzing
+  - security
+  - code coverage
+  - testing
+  - LLVM
+  - GCC
+  - Rust
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.825840Z'
+indexed_at: '2026-01-19T01:30:36.825845Z'
+---

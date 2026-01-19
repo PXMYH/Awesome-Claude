@@ -1,0 +1,61 @@
+---
+id: clinpgx-database
+slug: clinpgx-database
+name: ClinPGx Database
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: clinpgx-database\ndescription: Access ClinPGx pharmacogenomics\
+  \ data (successor to PharmGKB). Query gene-drug interactions, CPIC guidelines, allele\
+  \ functions, for precision medicine and genotype-guided dosing decisions.\nlicense:\
+  \ Unknown\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# ClinPGx Database\n\
+  \n## Overview\n\nClinPGx (Clinical Pharmacogenomics Database) is a comprehensive\
+  \ resource for clinical pharmacogenomics information, successor to PharmGKB. It\
+  \ consolidates data from PharmGKB, C..."
+full_prompt_length: 21767
+tools_mentioned:
+- Python
+- python
+- go
+- REST
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/clinpgx-database/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/clinpgx-database/SKILL.md
+fetched_at: '2026-01-19T00:19:06.707634+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:24:34.310238Z'
+  prompt_quality:
+    score: 3.5
+    reasoning: 'The prompt provides clear structure and good overview of the ClinPGx
+      database, with specific use cases and API examples. However, it has significant
+      issues: the API endpoint examples are incomplete (truncated code snippet for
+      gene-drug pairs), the rate limit section is contradictory (states 2 requests/second
+      but doesn''t mention how to handle this in code), and there''s no error handling
+      guidance or fallback behavior defined for when the API is unavailable.'
+  usefulness:
+    score: 4.0
+    reasoning: This skill has high practical value for precision medicine and pharmacogenomics
+      applications, covering key use cases like gene-drug interactions, CPIC guidelines,
+      and clinical decision support. The API examples are concrete and actionable,
+      though the incomplete code snippet reduces immediate usability. The real-world
+      applications in clinical pharmacology and personalized dosing make it highly
+      relevant for healthcare and pharmaceutical development tasks.
+  overall_rating: 3.75
+  summary: A well-intentioned pharmacogenomics database skill with strong real-world
+    applicability, but hampered by incomplete code examples and missing error handling
+    guidance that would be crucial for production use.
+  tags_suggested:
+  - pharmacogenomics
+  - precision-medicine
+  - clinical-decision-support
+  - bioinformatics
+  - healthcare-api
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.617712Z'
+indexed_at: '2026-01-19T01:30:35.617717Z'
+---

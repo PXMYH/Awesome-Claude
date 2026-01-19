@@ -1,0 +1,59 @@
+id: testing-handbook-skills-burp-suite
+slug: testing-handbook-skills-burp-suite
+name: Burp Suite Professional
+description: '- [@MasteringBurp on X](https://twitter.com/MasteringBurp): Tips and
+  tricks for Burp Suite Pro'
+prompt_preview: "---\nname: burp-suite\ntype: tool\ndescription: >\n  Burp Suite Professional\
+  \ is an HTTP interception proxy with numerous security testing features.\n  Use\
+  \ when testing web applications for security vulnerabilities.\n---\n\n# Burp Suite\
+  \ Professional\n\nBurp Suite Professional is an HTTP interception proxy with numerous\
+  \ security testing features. It allows you to view and manipulate the HTTP requests\
+  \ and responses flowing between a client (usually a web application loaded in a\
+  \ browser) and a server.\n\nWith t..."
+full_prompt_length: 27002
+tools_mentioned:
+- Python
+- Go
+- go
+- JavaScript
+- docker
+- Java
+- Docker
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/testing-handbook-skills/skills/burp-suite/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/burp-suite/SKILL.md
+fetched_at: '2026-01-19T00:20:21.221328+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:25:31.714429Z'
+  prompt_quality:
+    score: 4.0
+    reasoning: The prompt is well-structured with clear sections for description,
+      when to use, quick reference, and core features. It provides specific actionable
+      steps and follows good prompt engineering practices by defining scope and constraints.
+      However, it is incomplete (cuts off mid-sentence in the Core Workflow section)
+      and lacks edge case handling or fallback guidance for common issues.
+  usefulness:
+    score: 4.5
+    reasoning: This prompt offers high real-world value for security professionals
+      testing web applications, covering essential features like Proxy, Scanner, Repeater,
+      and Intruder. It is comprehensive for introductory to intermediate use cases
+      and highly actionable with quick reference tables and installation steps. The
+      inclusion of alternatives (e.g., OWASP ZAP) adds practical decision-making context.
+  overall_rating: 4.25
+  summary: A strong, practical prompt for Burp Suite Professional that excels in clarity
+    and real-world applicability but is limited by its incomplete workflow section.
+  tags_suggested:
+  - security testing
+  - web application security
+  - HTTP proxy
+  - vulnerability assessment
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.811338Z'
+indexed_at: '2026-01-19T01:30:36.811343Z'

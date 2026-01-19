@@ -1,0 +1,59 @@
+---
+id: pylabrobot
+slug: pylabrobot
+name: PyLabRobot
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: pylabrobot\ndescription: Vendor-agnostic lab automation\
+  \ framework. Use when controlling multiple equipment types (Hamilton, Tecan, Opentrons,\
+  \ plate readers, pumps) or needing unified programming across different vendors.\
+  \ Best for complex workflows, multi-vendor setups, simulation. For Opentrons-only\
+  \ protocols with official API, opentrons-integration may be simpler.\nlicense: MIT\
+  \ license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# PyLabRobot\n\n##\
+  \ Overview\n\nPyLabRobot is a hardware-agno..."
+full_prompt_length: 9013
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/pylabrobot/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pylabrobot/SKILL.md
+fetched_at: '2026-01-19T00:19:21.023302+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:39:08.185675Z'
+  prompt_quality:
+    score: 4.0
+    reasoning: The prompt is well-structured with clear sections for overview, usage
+      guidelines, and core capabilities. It provides specific hardware examples and
+      use cases, making the scope explicit. However, it lacks detailed edge case handling
+      (e.g., error scenarios, hardware compatibility limitations) and fallback guidance
+      for unsupported equipment.
+  usefulness:
+    score: 4.5
+    reasoning: This skill offers high practical value for lab automation professionals
+      working with multi-vendor equipment, providing a unified Python interface that
+      reduces vendor lock-in. The comprehensive coverage of liquid handling, resource
+      management, and hardware backends addresses real-world workflow complexity.
+      The simulation capability and cross-platform support enhance its immediate applicability
+      for protocol development and testing.
+  overall_rating: 4.25
+  summary: A robust, well-organized skill for laboratory automation that excels in
+    vendor-agnostic control and workflow management, though it could benefit from
+    more detailed error handling and edge case documentation.
+  tags_suggested:
+  - laboratory-automation
+  - liquid-handling
+  - multi-vendor
+  - python-sdk
+  - scientific-computing
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.925937Z'
+indexed_at: '2026-01-19T01:30:35.925943Z'
+---

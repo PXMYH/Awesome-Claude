@@ -1,0 +1,65 @@
+---
+id: markitdown
+slug: markitdown
+name: MarkItDown - File to Markdown Conversion
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: markitdown\ndescription: Convert files and office documents\
+  \ to Markdown. Supports PDF, DOCX, PPTX, XLSX, images (with OCR), audio (with transcription),\
+  \ HTML, CSV, JSON, XML, ZIP, YouTube URLs, EPubs and more.\nallowed-tools: [Read,\
+  \ Write, Edit, Bash]\nlicense: MIT license\nmetadata:\n    skill-author: K-Dense\
+  \ Inc.\n---\n\n# MarkItDown - File to Markdown Conversion\n\n## Overview\n\nMarkItDown\
+  \ is a Python tool developed by Microsoft for converting various file formats to\
+  \ Markdown. It's particularly..."
+full_prompt_length: 13458
+tools_mentioned:
+- Python
+- python
+- go
+- docker
+- Azure
+- Docker
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/markitdown/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/markitdown/SKILL.md
+fetched_at: '2026-01-19T00:19:15.295610+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:33:15.122430Z'
+  prompt_quality:
+    score: 2.5
+    reasoning: 'The prompt is clear about the tool''s capabilities and provides good
+      technical documentation, but it contains a significant flaw: it incorrectly
+      attributes MarkItDown to Microsoft (it''s actually developed by Microsoft, but
+      the prompt states ''developed by Microsoft'' which is accurate, but the overall
+      structure is confusing). More critically, it inappropriately mixes tool documentation
+      with unsolicited instructions to use a separate ''scientific-schematics'' skill,
+      creating scope creep and potential confusion about the tool''s actual purpose.'
+  usefulness:
+    score: 3.0
+    reasoning: The core documentation for MarkItDown is practical and valuable for
+      users needing file format conversion, with comprehensive format support and
+      clear usage examples. However, the usefulness is diminished by the irrelevant
+      and potentially misleading instructions about generating scientific schematics,
+      which distracts from the primary task of file conversion and may lead users
+      to expect features not present in the actual tool.
+  overall_rating: 2.75
+  summary: This prompt provides technically accurate documentation for MarkItDown
+    but is compromised by inappropriate scope expansion and confusing instructions
+    about unrelated schematic generation, reducing its overall effectiveness as a
+    skill prompt.
+  tags_suggested:
+  - file-conversion
+  - markdown
+  - document-processing
+  - technical-documentation
+  - scope-creep
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.810394Z'
+indexed_at: '2026-01-19T01:30:35.810399Z'
+---

@@ -20,33 +20,47 @@ prompt_preview: '---
   distributed workflows. Your focus spans inter-agent communi...'
 full_prompt_length: 6895
 tools_mentioned:
-- REST
 - WebSocket
 - GraphQL
-category: 09-meta-orchestration
-category_display: 09 Meta Orchestration
+- REST
+category: meta-orchestration
+category_display: Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/multi-agent-coordinator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/multi-agent-coordinator.md
-fetched_at: '2026-01-18T03:49:08.454481Z'
+fetched_at: '2026-01-19T00:19:53.961151+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T04:05:03.052327Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:10:49.698381Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fea50 state=finished
-      raised ValueError>]'
+    score: 2.0
+    reasoning: The prompt is highly ambiguous and incomplete, with the workflow analysis
+      section abruptly cutting off mid-sentence ('Analyze'). While it attempts to
+      be comprehensive with extensive checklists and categories, the instructions
+      lack concrete action steps and clear execution guidance. The coordination context
+      query is defined but not integrated into a coherent workflow, making it unclear
+      how the agent should actually proceed.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fea50 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 1.5
+    reasoning: The prompt has limited practical value due to its incomplete nature
+      and lack of actionable implementation details. While the concepts covered (coordination
+      patterns, fault tolerance, etc.) are theoretically valuable for multi-agent
+      systems, the prompt doesn't provide usable guidance for actual development tasks.
+      The abrupt ending and vague instructions make it difficult for users to benefit
+      immediately.
+  overall_rating: 1.75
+  summary: This prompt appears to be a work-in-progress draft that lists important
+    multi-agent coordination concepts but fails to provide a complete, actionable
+    framework for execution.
+  tags_suggested:
+  - meta-orchestration
+  - multi-agent-systems
+  - workflow-orchestration
+  - distributed-systems
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.544990Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.533226Z'

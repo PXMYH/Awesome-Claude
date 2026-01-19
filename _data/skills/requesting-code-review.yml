@@ -1,0 +1,80 @@
+id: requesting-code-review
+slug: requesting-code-review
+name: Requesting Code Review
+description: 'See template at: requesting-code-review/code-reviewer.md'
+prompt_preview: '---
+
+  name: requesting-code-review
+
+  description: Use when completing tasks, implementing major features, or before merging
+  to verify work meets requirements
+
+  ---
+
+
+  # Requesting Code Review
+
+
+  Dispatch superpowers:code-reviewer subagent to catch issues before they cascade.
+
+
+  **Core principle:** Review early, review often.
+
+
+  ## When to Request Review
+
+
+  **Mandatory:**
+
+  - After each task in subagent-driven development
+
+  - After completing major feature
+
+  - Before merge to main
+
+
+  **Optional but valuable:**
+
+  - When st...'
+full_prompt_length: 2700
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: obra/superpowers
+source_path: skills/requesting-code-review/SKILL.md
+source_url: https://github.com/obra/superpowers/blob/main/skills/requesting-code-review/SKILL.md
+fetched_at: '2026-01-19T00:20:05.921884+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:18:18.254041Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is highly structured with clear sections, specific commands,
+      and a concrete example. It defines mandatory vs. optional review triggers and
+      provides actionable steps. The only minor weakness is the reference to an external
+      template file that isn't included in the prompt itself, which could create a
+      dependency issue.
+  usefulness:
+    score: 5.0
+    reasoning: This prompt provides exceptional real-world value by integrating code
+      review into the development workflow at critical points. It's immediately actionable
+      with specific git commands and subagent dispatch instructions. The guidance
+      on handling feedback and red flags makes it practical for preventing bugs and
+      maintaining code quality.
+  overall_rating: 4.75
+  summary: An excellent, production-ready prompt that effectively institutionalizes
+    code review as a mandatory part of the development workflow with clear triggers,
+    actions, and quality gates.
+  tags_suggested:
+  - code-review
+  - quality-assurance
+  - development-workflow
+  - best-practices
+  - subagent-orchestration
+github_metrics:
+  stars: 28406
+  forks: 2141
+  open_issues: 82
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-19T00:20:32.692534Z'
+indexed_at: '2026-01-19T01:30:36.674444Z'

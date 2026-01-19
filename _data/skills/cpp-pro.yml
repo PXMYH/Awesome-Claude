@@ -20,33 +20,48 @@ prompt_preview: '---
   and low-level opt...'
 full_prompt_length: 7528
 tools_mentioned:
+- java
 - python
 - rust
-- java
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/cpp-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/cpp-pro.md
-fetched_at: '2026-01-18T03:48:48.887523Z'
+fetched_at: '2026-01-19T00:19:32.585611+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:50:46.982302Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:49:51.460300Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6da590 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt demonstrates strong clarity and specificity with well-structured
+      sections covering C++ expertise domains, development workflows, and technical
+      checklists. It follows good prompt engineering practices by defining clear roles,
+      tools, and systematic phases. However, it's incomplete (cuts off mid-sentence
+      in 'Architecture Analysis') and lacks explicit edge case handling or fallback
+      guidance for ambiguous scenarios.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6da590 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: This skill provides high real-world value for C++ development tasks,
+      offering comprehensive coverage of modern C++ features, performance optimization,
+      and systems programming patterns. The detailed checklists and workflow phases
+      make it immediately actionable for developers working on high-performance applications.
+      The main limitation is the incomplete prompt structure, which may cause confusion
+      during execution.
+  overall_rating: 4.25
+  summary: A well-structured but incomplete C++ development skill with strong technical
+    depth and practical value, though the truncated prompt reduces its reliability
+    in production use.
+  tags_suggested:
+  - C++
+  - systems-programming
+  - performance-optimization
+  - modern-cpp
+  - template-metaprogramming
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.167943Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.133954Z'

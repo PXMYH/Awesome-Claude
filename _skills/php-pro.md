@@ -24,35 +24,47 @@ tools_mentioned:
 - WebSocket
 - GraphQL
 - mysql
+- php
 - redis
 - docker
 - PHP
-- php
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/php-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/php-pro.md
-fetched_at: '2026-01-18T03:48:51.146816Z'
+fetched_at: '2026-01-19T00:19:34.941162+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:52:30.990498Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:52:14.461728Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d86d0 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is highly structured with clear sections for expertise areas
+      and a defined workflow, demonstrating strong prompt engineering. However, it
+      is incomplete (cut off mid-sentence in the Architecture Analysis section), which
+      introduces ambiguity about the full intended workflow and limits its clarity.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d86d0 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt provides comprehensive coverage of modern PHP development
+      practices, frameworks, and tools, making it highly valuable for enterprise-level
+      PHP tasks. It is actionable for developers seeking expert guidance, though the
+      incomplete workflow reduces immediate practicality for the full development
+      lifecycle.
+  overall_rating: 4.25
+  summary: A robust and well-organized PHP expert prompt that excels in specificity
+    and coverage of modern PHP ecosystem, but is hampered by an incomplete structure
+    that limits its full utility.
+  tags_suggested:
+  - PHP
+  - Laravel
+  - Symfony
+  - Enterprise Development
+  - Code Quality
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.214082Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.181589Z'
 ---

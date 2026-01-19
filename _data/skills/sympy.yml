@@ -1,0 +1,62 @@
+id: sympy
+slug: sympy
+name: SymPy - Symbolic Mathematics in Python
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: '---
+
+  name: sympy
+
+  description: Use this skill when working with symbolic mathematics in Python. This
+  skill should be used for symbolic computation tasks including solving equations
+  algebraically, performing calculus operations (derivatives, integrals, limits),
+  manipulating algebraic expressions, working with matrices symbolically, physics
+  calculations, number theory problems, geometry computations, and generating executable
+  code from mathematical expressions. Apply this skill when the user needs e...'
+full_prompt_length: 14286
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/sympy/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/sympy/SKILL.md
+fetched_at: '2026-01-19T00:19:27.146837+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:45:17.004663Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections, comprehensive
+      coverage of SymPy's capabilities, and practical code examples. It follows excellent
+      prompt engineering practices by defining when to use the skill, providing core
+      capabilities with examples, and referencing detailed documentation. The only
+      minor issue is that the 'Matrices and Linear Algebra' section appears incomplete
+      (cuts off mid-sentence), which slightly impacts completeness.
+  usefulness:
+    score: 5.0
+    reasoning: This prompt provides immediate practical value for anyone working with
+      symbolic mathematics in Python. It covers a comprehensive range of real-world
+      applications including calculus, equation solving, physics calculations, and
+      code generation. The inclusion of specific code examples and references to detailed
+      documentation makes it highly actionable for both beginners and experienced
+      users.
+  overall_rating: 4.75
+  summary: An excellent, comprehensive prompt that effectively guides users through
+    SymPy's symbolic mathematics capabilities with clear structure, practical examples,
+    and appropriate scope for scientific computing tasks.
+  tags_suggested:
+  - symbolic-mathematics
+  - python-library
+  - scientific-computing
+  - calculus
+  - equation-solving
+  - code-generation
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.049011Z'
+indexed_at: '2026-01-19T01:30:36.049017Z'

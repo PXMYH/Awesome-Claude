@@ -21,31 +21,44 @@ prompt_preview: '---
   trends across industries and domains. Your focus spans pattern recognitio...'
 full_prompt_length: 6784
 tools_mentioned: []
-category: 10-research-analysis
-category_display: 10 Research Analysis
+category: research-analysis
+category_display: Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/trend-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/trend-analyst.md
-fetched_at: '2026-01-18T03:49:10.254822Z'
+fetched_at: '2026-01-19T00:19:55.866288+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T04:06:15.057970Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:12:34.648650Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ff710 state=finished
-      raised ValueError>]'
+    score: 4.0
+    reasoning: The prompt is well-structured with clear sections and comprehensive
+      coverage of trend analysis concepts. However, it lacks specific instructions
+      for handling edge cases like conflicting data sources or ambiguous signals,
+      and the workflow section is incomplete with a dangling header. The communication
+      protocol is well-defined but could benefit from more concrete examples.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ff710 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.5
+    reasoning: This prompt provides exceptional real-world value for strategic planning
+      and foresight tasks, covering all major aspects of trend analysis from detection
+      to communication. The comprehensive checklists and methodologies make it immediately
+      actionable for business analysts, strategists, and researchers. The inclusion
+      of specific data sources and analysis techniques adds practical depth.
+  overall_rating: 4.25
+  summary: A robust and comprehensive trend analysis prompt that excels in coverage
+    and practical application, though it needs minor refinements to handle edge cases
+    and complete its workflow documentation.
+  tags_suggested:
+  - strategic foresight
+  - trend analysis
+  - business intelligence
+  - scenario planning
+  - research methodology
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.576378Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.567010Z'
 ---

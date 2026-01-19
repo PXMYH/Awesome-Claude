@@ -1,0 +1,73 @@
+---
+id: finishing-a-development-branch
+slug: finishing-a-development-branch
+name: Finishing a Development Branch
+description: '**Pairs with:**'
+prompt_preview: '---
+
+  name: finishing-a-development-branch
+
+  description: Use when implementation is complete, all tests pass, and you need to
+  decide how to integrate the work - guides completion of development work by presenting
+  structured options for merge, PR, or cleanup
+
+  ---
+
+
+  # Finishing a Development Branch
+
+
+  ## Overview
+
+
+  Guide completion of development work by presenting clear options and handling chosen
+  workflow.
+
+
+  **Core principle:** Verify tests → Present options → Execute choice → Clean up.
+
+
+  **Announce at st...'
+full_prompt_length: 4230
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: obra/superpowers
+source_path: skills/finishing-a-development-branch/SKILL.md
+source_url: https://github.com/obra/superpowers/blob/main/skills/finishing-a-development-branch/SKILL.md
+fetched_at: '2026-01-19T00:20:05.563361+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:17:41.659445Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is highly structured with clear steps, specific commands,
+      and excellent handling of edge cases like test failures and confirmation requirements.
+      It follows strong prompt engineering practices with explicit verification steps
+      and decision trees. The only minor weakness is the incomplete 'Integration'
+      section at the end, which feels like a placeholder.
+  usefulness:
+    score: 5.0
+    reasoning: This skill addresses a real, common pain point in development workflows
+      - the uncertainty of what to do when a feature branch is complete. It provides
+      immediate, actionable value by guiding users through a structured process with
+      concrete commands and clear options. The inclusion of test verification, PR
+      creation, and cleanup makes it comprehensive for actual development tasks.
+  overall_rating: 4.75
+  summary: An excellent, production-ready skill that provides clear, actionable guidance
+    for completing development work with strong safety mechanisms and real-world applicability.
+  tags_suggested:
+  - git
+  - development workflow
+  - branch management
+  - testing
+  - PR creation
+github_metrics:
+  stars: 28406
+  forks: 2141
+  open_issues: 82
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-19T00:20:32.692534Z'
+indexed_at: '2026-01-19T01:30:36.667360Z'
+---

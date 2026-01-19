@@ -1,0 +1,61 @@
+---
+id: adaptyv
+slug: adaptyv
+name: Adaptyv
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: '---
+
+  name: adaptyv
+
+  description: Cloud laboratory platform for automated protein testing and validation.
+  Use when designing proteins and needing experimental validation including binding
+  assays, expression testing, thermostability measurements, enzyme activity assays,
+  or protein sequence optimization. Also use for submitting experiments via API, tracking
+  experiment status, downloading results, optimizing protein sequences for better
+  expression using computational tools (NetSolP, SoluProt, SolubleM...'
+full_prompt_length: 4561
+tools_mentioned:
+- python
+- go
+- aws
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/adaptyv/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/adaptyv/SKILL.md
+fetched_at: '2026-01-19T00:19:03.385392+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:20:52.474645Z'
+  prompt_quality:
+    score: 4.0
+    reasoning: The prompt is clear and well-structured, providing specific instructions
+      for authentication, installation, and basic usage with concrete code examples.
+      It defines the scope well by listing available experiment types and optimization
+      tools, though it lacks detailed edge case handling for API failures or authentication
+      issues.
+  usefulness:
+    score: 4.5
+    reasoning: This skill offers high practical value for protein design workflows
+      by connecting AI-driven design with wet-lab validation, covering key steps from
+      sequence optimization to experimental submission. The inclusion of specific
+      computational tools (NetSolP, SoluProt, etc.) and API integration makes it immediately
+      actionable for researchers and developers.
+  overall_rating: 4.25
+  summary: A well-crafted skill prompt that effectively bridges computational protein
+    design with experimental validation, offering clear guidance for integration into
+    automated workflows.
+  tags_suggested:
+  - protein-design
+  - wet-lab-validation
+  - api-integration
+  - bioinformatics
+  - automated-experiments
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.546110Z'
+indexed_at: '2026-01-19T01:30:35.546116Z'
+---

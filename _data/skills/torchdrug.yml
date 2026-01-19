@@ -1,0 +1,54 @@
+id: torchdrug
+slug: torchdrug
+name: TorchDrug
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: torchdrug\ndescription: PyTorch-native graph neural networks\
+  \ for molecules and proteins. Use when building custom GNN architectures for drug\
+  \ discovery, protein modeling, or knowledge graph reasoning. Best for custom model\
+  \ development, protein property prediction, retrosynthesis. For pre-trained models\
+  \ and diverse featurizers use deepchem; for benchmark datasets use pytdc.\nlicense:\
+  \ Apache-2.0 license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# TorchDrug\n\
+  \n## Overview\n\nTorchDrug is a c..."
+full_prompt_length: 14823
+tools_mentioned:
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/torchdrug/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/torchdrug/SKILL.md
+fetched_at: '2026-01-19T00:19:27.527332+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:45:37.136419Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections, specific
+      installation instructions, and practical code examples. It defines scope through
+      explicit 'When to Use' criteria and provides concrete use cases. The only minor
+      limitation is that some reference sections are truncated, which could be more
+      complete.
+  usefulness:
+    score: 5.0
+    reasoning: This prompt provides immediate practical value with working code examples,
+      installation commands, and clear guidance on when to use TorchDrug versus alternatives
+      like DeepChem. It covers real-world drug discovery tasks comprehensively and
+      enables users to start development immediately.
+  overall_rating: 4.75
+  summary: An excellent, production-ready prompt that balances technical depth with
+    accessibility, providing clear guidance for both beginners and experienced practitioners
+    in drug discovery ML.
+  tags_suggested:
+  - drug-discovery
+  - graph-neural-networks
+  - molecular-modeling
+  - protein-modeling
+  - pytorch
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.056433Z'
+indexed_at: '2026-01-19T01:30:36.056439Z'

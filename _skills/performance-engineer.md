@@ -23,30 +23,42 @@ full_prompt_length: 6942
 tools_mentioned:
 - Redis
 category: quality-security
-category_display: Quality & Security
+category_display: Quality Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/performance-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/performance-engineer.md
-fetched_at: '2026-01-18T03:48:57.427247Z'
+fetched_at: '2026-01-19T00:19:41.862996+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:57:11.013909Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:59:07.700687Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6dac50 state=finished
-      raised ValueError>]'
+    reasoning: The prompt provides a comprehensive framework with clear categories
+      and checklists, but it's incomplete and ends abruptly in the middle of a section.
+      While the structure is logical and the content is specific, the abrupt termination
+      creates ambiguity about the complete workflow and expected outputs.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6dac50 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 3.5
+    reasoning: The prompt offers practical value with detailed performance engineering
+      checklists covering testing, profiling, optimization, and monitoring. However,
+      the incomplete nature limits its immediate actionability, and the lack of concrete
+      examples or step-by-step procedures makes it more of a reference guide than
+      a fully operational skill.
+  overall_rating: 3.25
+  summary: A well-structured but incomplete performance engineering prompt that provides
+    valuable frameworks and checklists but needs completion and more actionable guidance
+    to be fully effective.
+  tags_suggested:
+  - performance-engineering
+  - system-optimization
+  - load-testing
+  - bottleneck-analysis
+  - scalability
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.338010Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.311713Z'
 ---

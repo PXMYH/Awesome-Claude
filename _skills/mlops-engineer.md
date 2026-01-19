@@ -21,31 +21,45 @@ prompt_preview: '---
 full_prompt_length: 6592
 tools_mentioned:
 - Kubernetes
-category: 05-data-ai
-category_display: 05 Data Ai
+category: data-ai
+category_display: Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/mlops-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/mlops-engineer.md
-fetched_at: '2026-01-18T03:48:59.838463Z'
+fetched_at: '2026-01-19T00:19:44.514192+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:58:55.022098Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:01:42.106305Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ef7d0 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt is highly structured with clear categories and checklists,
+      demonstrating strong organization. However, it contains significant incompleteness
+      (e.g., 'Implementation app' is cut off) and lacks specific instructions for
+      the agent's actual execution flow, making it ambiguous how to proceed after
+      the initial context query. The communication protocol is defined but not integrated
+      into the workflow, creating a disconnect.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ef7d0 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt provides comprehensive MLOps coverage with detailed checklists
+      and architectural considerations that are valuable for real-world ML platform
+      design. It offers practical frameworks for infrastructure, CI/CD, and monitoring
+      that would help users systematically address MLOps challenges. The structured
+      approach enables actionable planning and gap analysis for ML teams.
+  overall_rating: 3.75
+  summary: A well-organized but incomplete MLOps prompt with strong conceptual coverage
+    that lacks execution instructions, making it more suitable as a reference framework
+    than a directly executable agent.
+  tags_suggested:
+  - mlops
+  - ml-platform
+  - infrastructure
+  - ci-cd
+  - ml-operations
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.383165Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.358977Z'
 ---

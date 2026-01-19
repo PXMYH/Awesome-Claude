@@ -22,31 +22,45 @@ prompt_preview: '---
 full_prompt_length: 6712
 tools_mentioned:
 - Python
-category: 10-research-analysis
-category_display: 10 Research Analysis
+category: research-analysis
+category_display: Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/data-researcher.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/data-researcher.md
-fetched_at: '2026-01-18T03:49:09.499210Z'
+fetched_at: '2026-01-19T00:19:55.127094+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T04:05:43.055205Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:11:49.256224Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd70ca90 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt is highly structured and specific, providing a comprehensive
+      checklist and workflow phases that demonstrate clear intent. However, it suffers
+      from significant ambiguity in the 'Communication Protocol' section, which references
+      a JSON query to a 'context manager' without defining what this entity is or
+      how the agent should interact with it, creating a potential execution failure
+      point.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd70ca90 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt offers high practical value by outlining a complete data
+      research lifecycle from discovery to insight generation, covering essential
+      methodologies and quality checks. It serves as a robust template for complex
+      research tasks, though its utility depends on the user having access to the
+      specific tools listed and the undefined context manager.
+  overall_rating: 3.75
+  summary: A comprehensive and well-structured prompt for data research that excels
+    in scope definition but is hindered by an ambiguous communication protocol referencing
+    an undefined system component.
+  tags_suggested:
+  - data-analysis
+  - research-methodology
+  - workflow-automation
+  - data-quality
+  - statistical-analysis
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.562670Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.552141Z'
 ---

@@ -1,0 +1,56 @@
+id: gget
+slug: gget
+name: gget
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: gget\ndescription: \"Fast CLI/Python queries to 20+ bioinformatics\
+  \ databases. Use for quick lookups: gene info, BLAST searches, AlphaFold structures,\
+  \ enrichment analysis. Best for interactive exploration, simple queries. For batch\
+  \ processing or advanced BLAST use biopython; for multi-database Python workflows\
+  \ use bioservices.\"\nlicense: BSD-2-Clause license\nmetadata:\n    skill-author:\
+  \ K-Dense Inc.\n---\n\n# gget\n\n## Overview\n\ngget is a command-line bioinformatics\
+  \ tool and Python package prov..."
+full_prompt_length: 25898
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/gget/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/gget/SKILL.md
+fetched_at: '2026-01-19T00:19:12.563946+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:30:03.128196Z'
+  prompt_quality:
+    score: 3.5
+    reasoning: The prompt provides clear structure with categories and examples, but
+      has significant gaps in completeness. The 'gget info' section is incomplete
+      (cut off mid-example), and some modules are mentioned in the overview without
+      detailed documentation. The installation instructions are specific but may be
+      confusing for users unfamiliar with 'uv'.
+  usefulness:
+    score: 4.0
+    reasoning: High practical value for bioinformatics workflows, covering 20+ databases
+      with consistent CLI/Python interfaces. The quick start and module categories
+      help users quickly find relevant tools for gene info, BLAST, structures, and
+      enrichment analysis. The distinction between gget and alternatives like biopython/bioservices
+      is helpful for decision-making.
+  overall_rating: 3.75
+  summary: A well-structured but incomplete bioinformatics skill prompt with strong
+    practical utility, though documentation gaps and some unclear installation guidance
+    reduce its effectiveness.
+  tags_suggested:
+  - bioinformatics
+  - cli-tool
+  - python-package
+  - genomics
+  - data-retrieval
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.721907Z'
+indexed_at: '2026-01-19T01:30:35.721915Z'

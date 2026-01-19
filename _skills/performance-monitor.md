@@ -21,31 +21,44 @@ prompt_preview: '---
   metrics analysis, and system optimization. Your focus spans real-...'
 full_prompt_length: 6896
 tools_mentioned: []
-category: 09-meta-orchestration
-category_display: 09 Meta Orchestration
+category: meta-orchestration
+category_display: Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/performance-monitor.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/performance-monitor.md
-fetched_at: '2026-01-18T03:49:08.628121Z'
+fetched_at: '2026-01-19T00:19:54.145983+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T04:05:11.052905Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:11:04.430489Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fce90 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is highly structured and clear, with a well-defined role,
+      toolset, and systematic workflow. It follows best practices by providing extensive
+      checklists and categories for comprehensive coverage. However, it lacks explicit
+      handling of edge cases (e.g., what to do if monitoring data is unavailable)
+      and could be more concise to avoid overwhelming the AI with redundant lists.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fce90 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: This skill offers high real-world value for system administrators or
+      developers managing distributed agent systems, providing actionable frameworks
+      for monitoring, anomaly detection, and optimization. It is comprehensive in
+      covering key performance areas, though the lack of specific implementation examples
+      or integration steps may limit immediate actionability for beginners.
+  overall_rating: 4.25
+  summary: A robust, well-structured prompt for performance monitoring in multi-agent
+    systems, excelling in clarity and scope but slightly hindered by verbosity and
+    missing edge-case guidance.
+  tags_suggested:
+  - observability
+  - system monitoring
+  - performance optimization
+  - metrics analysis
+  - anomaly detection
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.548549Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.537048Z'
 ---

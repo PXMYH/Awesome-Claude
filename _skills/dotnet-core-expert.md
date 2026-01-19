@@ -21,8 +21,8 @@ prompt_preview: '---
   and cro...'
 full_prompt_length: 6443
 tools_mentioned:
-- GraphQL
 - Kubernetes
+- GraphQL
 - Docker
 - gRPC
 category: language-specialists
@@ -30,26 +30,37 @@ category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/dotnet-core-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/dotnet-core-expert.md
-fetched_at: '2026-01-18T03:48:49.410642Z'
+fetched_at: '2026-01-19T00:19:33.103646+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:51:10.984088Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:50:23.726214Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6dbe50 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt is well-structured with clear sections and specific technical
+      requirements, but it lacks complete implementation details in the workflow section.
+      The checklist and feature lists are comprehensive, but the actual execution
+      instructions are incomplete, which reduces clarity for the AI agent.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6dbe50 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt provides excellent technical coverage of modern .NET development
+      with comprehensive checklists for quality assurance. It would be highly valuable
+      for developers working on enterprise .NET applications, though the incomplete
+      workflow section limits immediate actionability.
+  overall_rating: 3.75
+  summary: A technically comprehensive .NET expert prompt with strong architectural
+    guidance and quality checklists, but needs completion of the implementation workflow
+    section to reach full effectiveness.
+  tags_suggested:
+  - dotnet
+  - csharp
+  - microservices
+  - cloud-native
+  - performance
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.178666Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.145181Z'
 ---

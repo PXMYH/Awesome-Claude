@@ -1,0 +1,78 @@
+---
+id: mcp-cli
+slug: mcp-cli
+name: 'MCP CLI: On-Demand MCP Server Usage'
+description: '### Permission denied'
+prompt_preview: '---
+
+  name: mcp-cli
+
+  description: Use MCP servers on-demand via the mcp CLI tool - discover tools, resources,
+  and prompts without polluting context with pre-loaded MCP integrations
+
+  ---
+
+
+  # MCP CLI: On-Demand MCP Server Usage
+
+
+  Use the `mcp` CLI tool to dynamically discover and invoke MCP server capabilities
+  without pre-configuring them as permanent integrations.
+
+
+  ## When to Use This Skill
+
+
+  Use this skill when you need to:
+
+  - Explore an MCP server''s capabilities before deciding to use it
+
+  - Make one-off...'
+full_prompt_length: 9217
+tools_mentioned:
+- Docker
+- docker
+- go
+- TypeScript
+category: community
+category_display: Community
+source_repo: obra/superpowers-lab
+source_path: skills/mcp-cli/SKILL.md
+source_url: https://github.com/obra/superpowers-lab/blob/main/skills/mcp-cli/SKILL.md
+fetched_at: '2026-01-19T00:20:08.461816+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:20:17.096926Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and well-structured with a logical
+      workflow (discovery → execution). It provides specific, copy-pasteable commands
+      with diverse examples covering filesystem, memory, and GitHub servers. The inclusion
+      of prerequisites and installation instructions is comprehensive, though it lacks
+      explicit error handling guidance for when the CLI fails or servers are unavailable.
+  usefulness:
+    score: 5.0
+    reasoning: 'This skill addresses a critical need in the MCP ecosystem: avoiding
+      context pollution while exploring server capabilities. It enables practical
+      one-off tasks like testing servers, debugging, or making temporary integrations
+      without permanent configuration. The workflow is immediately actionable for
+      developers working with multiple MCP servers, saving significant setup time
+      and reducing context window bloat.'
+  overall_rating: 4.75
+  summary: An excellent, production-ready skill that provides a clean solution to
+    MCP server management, with strong practical value for developers needing flexible,
+    on-demand server access.
+  tags_suggested:
+  - mcp
+  - cli
+  - server-discovery
+  - development-tools
+  - context-management
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.710780Z'
+indexed_at: '2026-01-19T01:30:36.710786Z'
+---

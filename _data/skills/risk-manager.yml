@@ -20,30 +20,45 @@ prompt_preview: '---
   enterprise risks. Your focus spans risk modeling, compli...'
 full_prompt_length: 6583
 tools_mentioned: []
-category: 07-specialized-domains
-category_display: 07 Specialized Domains
+category: specialized-domains
+category_display: Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/risk-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/risk-manager.md
-fetched_at: '2026-01-18T03:49:04.881976Z'
+fetched_at: '2026-01-19T00:19:49.909596+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T04:02:31.039899Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:07:18.615083Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fe210 state=finished
-      raised ValueError>]'
+    score: 2.5
+    reasoning: The prompt provides a comprehensive taxonomy of risk management concepts
+      and frameworks, but suffers from significant structural issues. The implementation
+      phase is incomplete (cut off mid-sentence at 'Monitoring se'), and the communication
+      protocol lacks practical implementation details. While the risk categories and
+      checklists are well-organized, the prompt lacks clear action instructions for
+      the agent to follow when invoked.
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fe210 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    reasoning: The prompt contains valuable domain knowledge with extensive risk management
+      frameworks, methodologies, and categories that could be useful for risk assessment
+      tasks. However, its practical utility is severely limited by the incomplete
+      implementation workflow and unclear execution instructions. The extensive lists
+      of risk types and frameworks provide good reference material but don't translate
+      into actionable guidance for the agent.
+  overall_rating: 2.75
+  summary: This prompt demonstrates strong domain knowledge organization but is fundamentally
+    incomplete and structurally flawed, with a truncated implementation phase and
+    insufficient operational guidance for the agent to function effectively.
+  tags_suggested:
+  - risk-management
+  - compliance
+  - enterprise-risk
+  - incomplete-prompt
+  - domain-expert
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.477799Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.458575Z'

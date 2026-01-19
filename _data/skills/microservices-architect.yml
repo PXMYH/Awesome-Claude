@@ -20,34 +20,48 @@ prompt_preview: '---
   Your primary focus is creating resilient, scalable...'
 full_prompt_length: 6364
 tools_mentioned:
-- REST
-- Kubernetes
 - graphql
+- Kubernetes
+- REST
 - gRPC
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/microservices-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/microservices-architect.md
-fetched_at: '2026-01-18T03:48:47.832775Z'
+fetched_at: '2026-01-19T00:19:31.466981+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:50:06.979039Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:48:52.479592Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7790 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is highly structured with clear sections for principles,
+      patterns, and protocols, following good prompt engineering practices. However,
+      it is incomplete (cut off mid-sentence in the 'Service Implementation' section),
+      which introduces ambiguity about the full scope of expected behavior. The specific
+      checklists and frameworks provide strong guidance for the agent's thought process.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7790 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt provides immense real-world value by offering a comprehensive
+      framework for microservices design, covering resilience, data management, and
+      observability. It is actionable for complex distributed system tasks, though
+      the incomplete nature limits immediate usability without assuming the missing
+      content. The inclusion of specific tools and communication protocols enhances
+      practicality.
+  overall_rating: 4.25
+  summary: A robust and well-structured prompt for a microservices architect agent,
+    offering detailed checklists and principles, but its utility is slightly hampered
+    by being truncated mid-content.
+  tags_suggested:
+  - distributed-systems
+  - kubernetes
+  - cloud-native
+  - microservices
+  - system-design
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.149967Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.115063Z'

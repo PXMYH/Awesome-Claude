@@ -20,30 +20,42 @@ prompt_preview: '---
   financial models and trading strategies. Your focus spa...'
 full_prompt_length: 6732
 tools_mentioned: []
-category: 07-specialized-domains
-category_display: 07 Specialized Domains
+category: specialized-domains
+category_display: Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/quant-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/quant-analyst.md
-fetched_at: '2026-01-18T03:49:04.697066Z'
+fetched_at: '2026-01-19T00:19:49.706171+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T04:02:23.039179Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:07:06.264089Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fd8d0 state=finished
-      raised ValueError>]'
+    reasoning: The prompt is highly specific and structured with clear categories,
+      but it lacks practical instructions for actual execution. It reads more like
+      a knowledge base or checklist than an actionable agent prompt, with incomplete
+      sections and no clear workflow for the agent to follow when responding to user
+      queries.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fd8d0 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 2.5
+    reasoning: While the prompt covers extensive quantitative finance concepts, it
+      provides limited practical value for real development tasks. The agent lacks
+      clear guidance on how to process user requests, and the incomplete development
+      workflow section makes it difficult for users to benefit from the skill in actual
+      scenarios.
+  overall_rating: 2.75
+  summary: This prompt functions better as a reference document than an actionable
+    agent skill, with comprehensive domain knowledge but insufficient operational
+    instructions for practical use.
+  tags_suggested:
+  - quantitative-finance
+  - trading-strategies
+  - risk-management
+  - incomplete-prompt
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.474424Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.455032Z'

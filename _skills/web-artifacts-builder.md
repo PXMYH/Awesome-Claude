@@ -1,0 +1,73 @@
+---
+id: web-artifacts-builder
+slug: web-artifacts-builder
+name: Web Artifacts Builder
+description: '- **shadcn/ui components**: https://ui.shadcn.com/docs/components'
+prompt_preview: '---
+
+  name: web-artifacts-builder
+
+  description: Suite of tools for creating elaborate, multi-component claude.ai HTML
+  artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui).
+  Use for complex artifacts requiring state management, routing, or shadcn/ui components
+  - not for simple single-file HTML/JSX artifacts.
+
+  license: Complete terms in LICENSE.txt
+
+  ---
+
+
+  # Web Artifacts Builder
+
+
+  To build powerful frontend claude.ai artifacts, follow these steps:
+
+  1. Initialize the frontend re...'
+full_prompt_length: 3073
+tools_mentioned:
+- React
+- TypeScript
+- JavaScript
+category: official
+category_display: Official
+source_repo: anthropics/skills
+source_path: skills/web-artifacts-builder/SKILL.md
+source_url: https://github.com/anthropics/skills/blob/main/skills/web-artifacts-builder/SKILL.md
+fetched_at: '2026-01-19T00:19:58.909328+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:15:22.670390Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is highly structured and specific, providing clear step-by-step
+      instructions, a defined tech stack, and explicit design guidelines to avoid
+      common pitfalls. It includes actionable commands and explains what each script
+      does, which reduces ambiguity. However, it assumes the existence of specific
+      scripts and a pre-configured environment without detailing how those are created
+      or what to do if they fail.
+  usefulness:
+    score: 4.0
+    reasoning: This skill is highly practical for developers needing to create complex,
+      stateful web artifacts within Claude, leveraging modern frameworks like React
+      and shadcn/ui. It streamlines the process from initialization to bundling, making
+      it immediately actionable for building sophisticated UIs. Its usefulness is
+      limited to users who need multi-component artifacts, as it explicitly advises
+      against using it for simple single-file HTML.
+  overall_rating: 4.25
+  summary: A well-structured and practical skill for building complex web artifacts
+    with modern frontend tools, though it relies on assumed pre-existing scripts and
+    environment setup.
+  tags_suggested:
+  - frontend
+  - react
+  - artifact
+  - shadcn-ui
+  - bundling
+github_metrics:
+  stars: 44557
+  forks: 4148
+  open_issues: 166
+  last_commit: '2025-12-20'
+  fetched_at: '2026-01-19T00:20:32.039127Z'
+indexed_at: '2026-01-19T01:30:36.621560Z'
+---

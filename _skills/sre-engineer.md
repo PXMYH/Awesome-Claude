@@ -21,35 +21,45 @@ prompt_preview: '---
   highly reliable, scalable systems. Your focus spans SLI/SLO management,...'
 full_prompt_length: 6870
 tools_mentioned:
-- kubernetes
-- Kubernetes
-- Go
 - Python
+- Kubernetes
+- kubernetes
+- Go
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/sre-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/sre-engineer.md
-fetched_at: '2026-01-18T03:48:55.234196Z'
+fetched_at: '2026-01-19T00:19:39.443792+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:55:35.006183Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:56:37.285476Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ecbd0 state=finished
-      raised ValueError>]'
+    score: 2.5
+    reasoning: The prompt is highly structured with clear categories and checklists,
+      but it is incomplete and cuts off mid-sentence in the Development Workflow section.
+      This lack of completion creates ambiguity about the full instructions and expected
+      behavior, violating best practices for prompt completeness.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ecbd0 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt provides a comprehensive framework for SRE tasks with detailed
+      checklists and protocols, offering real-world value for reliability engineering.
+      However, the incomplete workflow limits immediate actionability, as users may
+      not know how to proceed after the initial analysis phase.
   overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+  summary: A well-structured but incomplete SRE prompt that offers strong conceptual
+    coverage but lacks full execution guidance, reducing its practical utility.
+  tags_suggested:
+  - site-reliability-engineering
+  - infrastructure
+  - slo-management
+  - automation
+  - chaos-engineering
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.295574Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.267028Z'
 ---

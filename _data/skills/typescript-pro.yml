@@ -21,39 +21,54 @@ prompt_preview: '---
 full_prompt_length: 7421
 tools_mentioned:
 - WebSocket
-- javascript
-- React
 - GraphQL
-- react
 - Node.js
-- Vue
+- rust
+- JavaScript
+- Angular
 - typescript
 - TypeScript
-- rust
+- javascript
+- React
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/typescript-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/typescript-pro.md
-fetched_at: '2026-01-18T03:48:52.866859Z'
+fetched_at: '2026-01-19T00:19:36.714799+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:53:50.997866Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:54:04.362599Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d90d0 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is highly structured and specific, clearly defining the
+      agent's expertise, tools, and development workflow. It includes comprehensive
+      checklists and patterns that guide the agent toward high-quality TypeScript
+      development. However, the prompt is incomplete, ending abruptly mid-sentence
+      in the 'Development Workflow' section, which introduces ambiguity about the
+      full intended process.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d90d0 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt is very practical for real-world TypeScript development,
+      covering advanced type systems, full-stack safety, and modern tooling that directly
+      benefit developers. It provides actionable checklists and patterns that can
+      be immediately applied to improve code quality and maintainability. The incompleteness
+      slightly reduces its immediate usability, but the existing content is highly
+      valuable.
+  overall_rating: 4.25
+  summary: A well-structured and expert-level TypeScript prompt with comprehensive
+    coverage of advanced patterns and best practices, though it is incomplete and
+    cuts off during the workflow description.
+  tags_suggested:
+  - TypeScript
+  - Full-Stack Development
+  - Type Safety
+  - Build Optimization
+  - Developer Experience
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.249900Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.218529Z'

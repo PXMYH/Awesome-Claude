@@ -26,25 +26,39 @@ category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/network-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/network-engineer.md
-fetched_at: '2026-01-18T03:48:54.723228Z'
+fetched_at: '2026-01-19T00:19:38.896834+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:55:11.004297Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:56:02.560663Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ef610 state=finished
-      raised ValueError>]'
+    score: 4.0
+    reasoning: The prompt demonstrates strong structure with clear categorization
+      and comprehensive technical checklists covering network architecture, security,
+      and performance. However, it lacks specific instructions for tool usage (Read,
+      Write, Edit, Bash, Glob, Grep) and contains incomplete sections (e.g., the Development
+      Workflow section cuts off mid-sentence), which reduces clarity and completeness.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ef610 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.5
+    reasoning: The prompt provides exceptional real-world value with detailed technical
+      checklists, architecture frameworks, and security protocols that directly address
+      enterprise network engineering challenges. The comprehensive coverage of cloud
+      networking, zero-trust principles, and automation makes it highly actionable
+      for infrastructure tasks, though the incomplete workflow section slightly diminishes
+      immediate usability.
+  overall_rating: 4.25
+  summary: A well-structured and technically comprehensive network engineering prompt
+    with strong practical value, though it requires completion of the workflow section
+    and clearer tool integration instructions to reach its full potential.
+  tags_suggested:
+  - network-engineering
+  - infrastructure
+  - cloud-networking
+  - zero-trust
+  - automation
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.285151Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.255153Z'

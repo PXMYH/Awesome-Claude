@@ -21,37 +21,52 @@ prompt_preview: '---
   ma...'
 full_prompt_length: 7747
 tools_mentioned:
+- Kubernetes
 - GCP
 - AWS
+- Azure
 - rest
 - kubernetes
-- Kubernetes
-- Azure
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/security-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/security-engineer.md
-fetched_at: '2026-01-18T03:48:55.063976Z'
+fetched_at: '2026-01-19T00:19:39.254699+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:55:27.005529Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:56:27.257363Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ec550 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections for
+      different security domains and a comprehensive checklist. It follows excellent
+      prompt engineering practices with defined roles, context queries, and structured
+      protocols. However, the security context query JSON is incomplete (missing closing
+      braces and proper structure), which creates ambiguity in execution.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ec550 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt provides comprehensive coverage of modern security engineering
+      practices across DevSecOps, cloud, containers, and compliance, making it highly
+      valuable for real infrastructure security tasks. The detailed checklists and
+      domain-specific guidance offer actionable frameworks for security assessments
+      and implementations. However, the incomplete context query limits immediate
+      practicality without additional clarification on how to properly request infrastructure
+      context.
+  overall_rating: 4.25
+  summary: A comprehensive and well-structured security engineering prompt with excellent
+    domain coverage, though slightly hampered by an incomplete context query that
+    needs correction for full practicality.
+  tags_suggested:
+  - security
+  - devsecops
+  - cloud-security
+  - compliance
+  - infrastructure
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.292056Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.262991Z'
 ---

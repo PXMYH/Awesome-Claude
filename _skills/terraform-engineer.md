@@ -21,36 +21,49 @@ prompt_preview: '---
   de...'
 full_prompt_length: 6948
 tools_mentioned:
+- Kubernetes
 - GCP
 - AWS
-- kubernetes
-- Kubernetes
 - Azure
+- kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/terraform-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/terraform-engineer.md
-fetched_at: '2026-01-18T03:48:55.407146Z'
+fetched_at: '2026-01-19T00:19:39.627780+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:55:43.006827Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:56:47.163664Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ee010 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt provides a comprehensive structure with clear categories
+      and checklists for Terraform engineering, but it's incomplete and ends abruptly
+      mid-sentence. While the framework is well-organized and specific about Terraform
+      best practices, the lack of completion and the abrupt ending reduce clarity
+      and make it difficult to evaluate the full scope of instructions.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ee010 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt offers high practical value for Terraform development with
+      detailed checklists covering module development, state management, security,
+      and enterprise patterns. The structured approach with specific metrics (like
+      80% reusability) and comprehensive coverage of multi-cloud scenarios makes it
+      immediately actionable for infrastructure engineering tasks.
+  overall_rating: 3.75
+  summary: A well-structured but incomplete Terraform engineering prompt that provides
+    excellent practical frameworks and checklists, though its abrupt ending and lack
+    of completion limit its full effectiveness.
+  tags_suggested:
+  - infrastructure
+  - terraform
+  - iac
+  - multi-cloud
+  - enterprise
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.299034Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.270582Z'
 ---

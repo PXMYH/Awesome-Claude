@@ -21,31 +21,42 @@ prompt_preview: '---
   development. Your focus spans smart contract creation, DeFi protoc...'
 full_prompt_length: 6429
 tools_mentioned: []
-category: 07-specialized-domains
-category_display: 07 Specialized Domains
+category: specialized-domains
+category_display: Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/blockchain-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/blockchain-developer.md
-fetched_at: '2026-01-18T03:49:03.311979Z'
+fetched_at: '2026-01-19T00:19:48.197067+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T04:01:19.033652Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:05:31.470551Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fe6d0 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt is highly specific and structured with clear sections for
+      blockchain domains, but it lacks a complete implementation workflow and has
+      abrupt endings. It follows best practices with checklists and structured protocols,
+      though the incomplete workflow reduces clarity and actionability.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fe6d0 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt provides comprehensive coverage of blockchain development
+      domains, security patterns, and optimization techniques, making it highly valuable
+      for real-world development tasks. It includes practical checklists and architecture
+      guidance that developers can immediately apply to projects.
+  overall_rating: 3.75
+  summary: A well-structured blockchain developer prompt with extensive domain coverage
+    and security focus, though incomplete implementation guidance limits its immediate
+    usability.
+  tags_suggested:
+  - blockchain
+  - smart-contracts
+  - security
+  - defi
+  - solidity
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.446484Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.425561Z'
 ---

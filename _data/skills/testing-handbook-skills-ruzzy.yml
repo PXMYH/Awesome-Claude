@@ -1,0 +1,54 @@
+id: testing-handbook-skills-ruzzy
+slug: testing-handbook-skills-ruzzy
+name: Ruzzy
+description: '**[Fuzzing pure Ruby code](https://github.com/trailofbits/ruzzy#fuzzing-pure-ruby-code)**'
+prompt_preview: "---\nname: ruzzy\ntype: fuzzer\ndescription: >\n  Ruzzy is a coverage-guided\
+  \ Ruby fuzzer by Trail of Bits.\n  Use for fuzzing pure Ruby code and Ruby C extensions.\n\
+  ---\n\n# Ruzzy\n\nRuzzy is a coverage-guided fuzzer for Ruby built on libFuzzer.\
+  \ It enables fuzzing both pure Ruby code and Ruby C extensions with sanitizer support\
+  \ for detecting memory corruption and undefined behavior.\n\n## When to Use\n\n\
+  Ruzzy is currently the only production-ready coverage-guided fuzzer for Ruby.\n\n\
+  **Choose Ruzzy when:**\n- Fuz..."
+full_prompt_length: 11936
+tools_mentioned:
+- ruby
+- Ruby
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/testing-handbook-skills/skills/ruzzy/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/ruzzy/SKILL.md
+fetched_at: '2026-01-19T00:20:23.331722+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:27:40.403255Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and well-structured, with logical
+      sections for installation, usage, and troubleshooting. It provides specific
+      commands, environment variables, and code examples that are unambiguous. The
+      only minor limitation is the abrupt ending that cuts off the 'See Also' section,
+      which slightly impacts completeness.
+  usefulness:
+    score: 5.0
+    reasoning: This is highly practical for security professionals working with Ruby
+      code, providing immediate value for fuzzing both pure Ruby and C extensions.
+      The prompt covers real-world scenarios, includes verification steps, and addresses
+      common installation issues with detailed troubleshooting guidance.
+  overall_rating: 4.75
+  summary: An excellent, production-ready prompt that provides comprehensive coverage
+    for using Ruzzy fuzzer with clear instructions, practical examples, and robust
+    troubleshooting guidance for Ruby security testing.
+  tags_suggested:
+  - security
+  - fuzzing
+  - ruby
+  - testing
+  - vulnerability-detection
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.850711Z'
+indexed_at: '2026-01-19T01:30:36.850716Z'

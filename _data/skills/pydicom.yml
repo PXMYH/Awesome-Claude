@@ -1,0 +1,61 @@
+id: pydicom
+slug: pydicom
+name: Pydicom
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: '---
+
+  name: pydicom
+
+  description: Python library for working with DICOM (Digital Imaging and Communications
+  in Medicine) files. Use this skill when reading, writing, or modifying medical imaging
+  data in DICOM format, extracting pixel data from medical images (CT, MRI, X-ray,
+  ultrasound), anonymizing DICOM files, working with DICOM metadata and tags, converting
+  DICOM images to other formats, handling compressed DICOM data, or processing medical
+  imaging datasets. Applies to tasks involving medical im...'
+full_prompt_length: 14008
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/pydicom/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pydicom/SKILL.md
+fetched_at: '2026-01-19T00:19:20.665166+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:38:45.329716Z'
+  prompt_quality:
+    score: 4.0
+    reasoning: 'The prompt is generally clear and well-structured with good sections
+      for installation, workflows, and examples. However, it has a significant issue:
+      the ''Multi-frame images'' section is incomplete with a truncated comment ''#
+      For mu''. This creates ambiguity and breaks the flow. The examples are practical
+      and follow good coding practices, but the incomplete section reduces overall
+      clarity.'
+  usefulness:
+    score: 4.5
+    reasoning: The skill is highly practical for medical imaging tasks, covering essential
+      operations like reading DICOM files, extracting pixel data, windowing for display,
+      and handling color images. The inclusion of installation commands for common
+      dependencies and compression libraries adds real-world value. The examples are
+      actionable and relevant to actual development scenarios in healthcare imaging.
+  overall_rating: 4.25
+  summary: A well-structured and practical skill for working with DICOM medical imaging
+    files, though it suffers from an incomplete section that needs correction to reach
+    its full potential.
+  tags_suggested:
+  - medical imaging
+  - DICOM
+  - pydicom
+  - healthcare
+  - radiology
+  - pixel data
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.918851Z'
+indexed_at: '2026-01-19T01:30:35.918856Z'

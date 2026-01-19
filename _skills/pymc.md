@@ -1,0 +1,58 @@
+---
+id: pymc
+slug: pymc
+name: PyMC Bayesian Modeling
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: pymc-bayesian-modeling\ndescription: Bayesian modeling\
+  \ with PyMC. Build hierarchical models, MCMC (NUTS), variational inference, LOO/WAIC\
+  \ comparison, posterior checks, for probabilistic programming and inference.\nlicense:\
+  \ Apache License, Version 2.0\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n\
+  # PyMC Bayesian Modeling\n\n## Overview\n\nPyMC is a Python library for Bayesian\
+  \ modeling and probabilistic programming. Build, fit, validate, and compare Bayesian\
+  \ models using PyMC's modern API (ver..."
+full_prompt_length: 16593
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/pymc/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pymc/SKILL.md
+fetched_at: '2026-01-19T00:19:21.369548+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:39:28.286357Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and well-structured, following a
+      logical Bayesian workflow from data preparation through diagnostics. It provides
+      specific code examples and parameter recommendations, though it references a
+      custom diagnostic script that may not exist in the user's environment, which
+      could cause confusion.
+  usefulness:
+    score: 5.0
+    reasoning: This is highly practical for real-world Bayesian modeling tasks, covering
+      the complete workflow from model building to validation and comparison. It provides
+      actionable code snippets for each step, addresses common pitfalls like standardizing
+      predictors, and includes modern PyMC 5.x+ features like named dimensions and
+      variational inference.
+  overall_rating: 4.75
+  summary: An excellent, production-ready skill prompt that provides comprehensive
+    guidance for Bayesian modeling with PyMC, though it should clarify the custom
+    diagnostic script dependency.
+  tags_suggested:
+  - bayesian-statistics
+  - pymc
+  - mcmc
+  - probabilistic-programming
+  - model-validation
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.933170Z'
+indexed_at: '2026-01-19T01:30:35.933176Z'
+---

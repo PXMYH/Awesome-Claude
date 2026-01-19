@@ -26,26 +26,41 @@ category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/incident-responder.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/incident-responder.md
-fetched_at: '2026-01-18T03:48:54.361372Z'
+fetched_at: '2026-01-19T00:19:38.495879+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:54:55.002943Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:55:33.398305Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c6c90 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections, comprehensive
+      checklists, and detailed procedures. It follows best practices by defining specific
+      tools, workflows, and communication protocols. However, it has some ambiguity
+      in the 'When invoked' section where it references querying a 'context manager'
+      without defining how this interaction occurs, which could create confusion about
+      execution flow.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c6c90 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt provides substantial real-world value with detailed incident
+      response frameworks covering security breaches, service outages, and operational
+      incidents. It includes actionable checklists, classification systems, and procedures
+      that would benefit actual incident management. The main limitation is that it's
+      more of a reference guide than a focused operational skill, potentially overwhelming
+      users with comprehensive but broad guidance.
+  overall_rating: 4.25
+  summary: A comprehensive and well-structured incident response prompt with excellent
+    procedural detail and best practices, though slightly hampered by ambiguous context
+    manager references and broad scope that may reduce immediate actionability.
+  tags_suggested:
+  - incident-response
+  - security
+  - operations
+  - forensics
+  - compliance
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.278299Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.247718Z'
 ---

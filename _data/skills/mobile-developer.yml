@@ -11,37 +11,49 @@ prompt_preview: "---\nname: mobile-developer\ndescription: Cross-platform mobile
   \ experiences while maximizing..."
 full_prompt_length: 10961
 tools_mentioned:
-- Jest
-- React
 - GraphQL
-- REST
 - SQLite
-- rest
 - TypeScript
+- React
+- rest
+- REST
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/mobile-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/mobile-developer.md
-fetched_at: '2026-01-18T03:48:48.013911Z'
+fetched_at: '2026-01-19T00:19:31.652901+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:50:14.979685Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:49:02.535915Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c6b90 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is highly structured and specific, providing a comprehensive
+      checklist and standards for mobile development. It clearly defines the agent's
+      role, tools, and expected behaviors. However, it lacks explicit instructions
+      on how to handle conflicting requirements or edge cases in real-world scenarios,
+      and the deployment pipeline section is incomplete.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c6b90 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 5.0
+    reasoning: This prompt offers immense practical value by providing a detailed
+      framework for cross-platform mobile development, covering architecture, performance,
+      testing, and deployment. It is immediately actionable for developers seeking
+      to build high-quality mobile apps with best practices, though it assumes familiarity
+      with the mentioned tools and platforms.
+  overall_rating: 4.75
+  summary: A robust and highly detailed prompt that excels in specificity and practical
+    guidance for mobile development, though it could benefit from more explicit edge-case
+    handling and completion of the deployment section.
+  tags_suggested:
+  - mobile development
+  - cross-platform
+  - React Native
+  - Flutter
+  - performance optimization
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.153549Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.118798Z'

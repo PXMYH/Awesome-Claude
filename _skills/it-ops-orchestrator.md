@@ -13,31 +13,44 @@ full_prompt_length: 2543
 tools_mentioned:
 - Azure
 - azure
-category: 09-meta-orchestration
-category_display: 09 Meta Orchestration
+category: meta-orchestration
+category_display: Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/it-ops-orchestrator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/it-ops-orchestrator.md
-fetched_at: '2026-01-18T03:49:08.098034Z'
+fetched_at: '2026-01-19T00:19:53.596937+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T04:04:47.051070Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:10:27.683485Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6da290 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and specific, defining a precise
+      role, routing logic, and integration points with other agents. It follows best
+      practices by providing concrete examples and a structured format. However, it
+      lacks explicit fallback guidance for truly ambiguous or out-of-scope tasks,
+      which is a minor edge case omission.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6da290 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.5
+    reasoning: This skill has high real-world value for IT operations teams managing
+      hybrid environments, as it streamlines complex, multi-domain task routing. It
+      is comprehensive for its defined scope and actionable for users needing to delegate
+      specialized subtasks. Its utility is slightly limited by the assumption of a
+      pre-existing ecosystem of specialized agents.
+  overall_rating: 4.5
+  summary: A well-structured and highly practical meta-orchestration prompt that excels
+    in clarity and real-world applicability for IT operations, with minor room for
+    improvement in handling edge cases.
+  tags_suggested:
+  - meta-orchestration
+  - IT-operations
+  - task-routing
+  - PowerShell
+  - Azure
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.537806Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.525543Z'
 ---

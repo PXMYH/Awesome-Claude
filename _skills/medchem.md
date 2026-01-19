@@ -1,0 +1,60 @@
+---
+id: medchem
+slug: medchem
+name: Medchem
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: medchem\ndescription: Medicinal chemistry filters. Apply\
+  \ drug-likeness rules (Lipinski, Veber), PAINS filters, structural alerts, complexity\
+  \ metrics, for compound prioritization and library filtering.\nlicense: Apache-2.0\
+  \ license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# Medchem\n\n## Overview\n\
+  \nMedchem is a Python library for molecular filtering and prioritization in drug\
+  \ discovery workflows. Apply hundreds of well-established and novel molecular filters,\
+  \ structural alerts, and medic..."
+full_prompt_length: 10966
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/medchem/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/medchem/SKILL.md
+fetched_at: '2026-01-19T00:19:16.023047+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:33:57.496257Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections for
+      overview, usage, installation, and core capabilities. It provides specific,
+      executable code examples for each major feature (rules, structural alerts, functional
+      API) and includes practical details like parallelization and progress bars.
+      The only minor weakness is that it doesn't explicitly address error handling
+      or edge cases for invalid SMILES strings.
+  usefulness:
+    score: 5.0
+    reasoning: This skill addresses a critical need in drug discovery workflows with
+      comprehensive, production-ready functionality. It covers the full spectrum of
+      medicinal chemistry filtering from established rules (Lipinski, Veber) to advanced
+      structural alerts (NIBR, Lilly) and includes practical features like parallel
+      processing. The examples are immediately actionable for real compound library
+      triage and prioritization tasks.
+  overall_rating: 4.75
+  summary: An excellent, production-ready medicinal chemistry skill that provides
+    comprehensive molecular filtering capabilities with clear documentation and practical
+    examples for drug discovery workflows.
+  tags_suggested:
+  - medicinal chemistry
+  - drug discovery
+  - molecular filtering
+  - cheminformatics
+  - compound prioritization
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.825433Z'
+indexed_at: '2026-01-19T01:30:35.825438Z'
+---

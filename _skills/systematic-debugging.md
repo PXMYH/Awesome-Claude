@@ -1,0 +1,81 @@
+---
+id: systematic-debugging
+slug: systematic-debugging
+name: Systematic Debugging
+description: 'From debugging sessions:'
+prompt_preview: '---
+
+  name: systematic-debugging
+
+  description: Use when encountering any bug, test failure, or unexpected behavior,
+  before proposing fixes
+
+  ---
+
+
+  # Systematic Debugging
+
+
+  ## Overview
+
+
+  Random fixes waste time and create new bugs. Quick patches mask underlying issues.
+
+
+  **Core principle:** ALWAYS find root cause before attempting fixes. Symptom fixes
+  are failure.
+
+
+  **Violating the letter of this process is violating the spirit of debugging.**
+
+
+  ## The Iron Law
+
+
+  ```
+
+  NO FIXES WITHOUT ROOT CAUSE INVESTIGATION...'
+full_prompt_length: 9860
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: obra/superpowers
+source_path: skills/systematic-debugging/SKILL.md
+source_url: https://github.com/obra/superpowers/blob/main/skills/systematic-debugging/SKILL.md
+fetched_at: '2026-01-19T00:20:06.257785+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:18:38.329882Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and well-structured with a strong
+      logical flow from principles to actionable phases. It provides specific, concrete
+      examples (like the multi-layer system debugging) and handles edge cases by explicitly
+      stating when to use it (especially under pressure). The only minor weakness
+      is that Phase 2 appears incomplete in the provided content, which slightly impacts
+      completeness.
+  usefulness:
+    score: 5.0
+    reasoning: This is highly practical for real-world development, offering a systematic
+      framework that prevents common debugging pitfalls like premature fixes. The
+      emphasis on root cause analysis before solutions is universally valuable, and
+      the concrete examples (like tracing data flow) make it immediately actionable
+      for developers at any level.
+  overall_rating: 4.75
+  summary: An excellent, comprehensive debugging prompt that enforces disciplined
+    problem-solving with clear phases and practical examples, though Phase 2 appears
+    truncated in the provided content.
+  tags_suggested:
+  - debugging
+  - root-cause-analysis
+  - systematic-troubleshooting
+  - best-practices
+  - developer-tools
+github_metrics:
+  stars: 28406
+  forks: 2141
+  open_issues: 82
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-19T00:20:32.692534Z'
+indexed_at: '2026-01-19T01:30:36.681501Z'
+---

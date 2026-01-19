@@ -20,30 +20,43 @@ prompt_preview: '---
   mo...'
 full_prompt_length: 6637
 tools_mentioned: []
-category: 05-data-ai
-category_display: 05 Data Ai
+category: data-ai
+category_display: Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/nlp-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/nlp-engineer.md
-fetched_at: '2026-01-18T03:49:00.008801Z'
+fetched_at: '2026-01-19T00:19:44.688408+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:59:03.022734Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:01:54.387875Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ec3d0 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections for
+      context, checklists, and workflows. It follows best practices by defining specific
+      technical requirements (F1 > 0.85, latency < 100ms) and comprehensive task categories.
+      The only minor issue is the incomplete 'Technical evaluation' section at the
+      end, which cuts off abruptly.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ec3d0 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: This prompt provides substantial real-world value for NLP engineering
+      tasks, covering major domains like NER, classification, translation, and conversational
+      AI. The systematic workflow and checklists make it actionable for production
+      systems. However, the utility is slightly limited by the incomplete final section
+      and the lack of concrete implementation examples.
+  overall_rating: 4.25
+  summary: A comprehensive, well-structured NLP engineering prompt that excels in
+    organization and technical specificity, though slightly hampered by an incomplete
+    section and missing practical examples.
+  tags_suggested:
+  - nlp
+  - production-systems
+  - multilingual
+  - transformer-models
+  - text-processing
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.386578Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.362641Z'

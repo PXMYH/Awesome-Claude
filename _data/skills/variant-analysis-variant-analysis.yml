@@ -1,0 +1,76 @@
+id: variant-analysis-variant-analysis
+slug: variant-analysis-variant-analysis
+name: Variant Analysis
+description: '**Report**: `resources/variant-report-template.md`'
+prompt_preview: '---
+
+  name: variant-analysis
+
+  description: Find similar vulnerabilities and bugs across codebases using pattern-based
+  analysis. Use when hunting bug variants, building CodeQL/Semgrep queries, analyzing
+  security vulnerabilities, or performing systematic code audits after finding an
+  initial issue.
+
+  ---
+
+
+  # Variant Analysis
+
+
+  You are a variant analysis expert. Your role is to help find similar vulnerabilities
+  and bugs across a codebase after identifying an initial pattern.
+
+
+  ## When to Use
+
+
+  Use this skill...'
+full_prompt_length: 5636
+tools_mentioned:
+- java
+- python
+- go
+- javascript
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/variant-analysis/skills/variant-analysis/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/variant-analysis/skills/variant-analysis/SKILL.md
+fetched_at: '2026-01-19T00:20:24.301695+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:28:59.399065Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections, a
+      defined five-step process, and specific tool recommendations. It follows prompt
+      engineering best practices by providing explicit when-to-use/when-not-to-use
+      guidance and structured decision matrices. However, it's slightly incomplete
+      as the 'Critical Pitfalls to Avoid' section cuts off mid-sentence, which slightly
+      impacts clarity.
+  usefulness:
+    score: 5.0
+    reasoning: This skill provides immense real-world value for security professionals
+      conducting systematic code audits and vulnerability hunting. It offers a complete,
+      actionable methodology that can be immediately applied to find bug variants
+      across codebases, with practical guidance on tool selection and triage. The
+      structured approach helps analysts avoid common pitfalls like narrow search
+      scope.
+  overall_rating: 4.75
+  summary: An excellent, highly practical security skill that provides a comprehensive
+    methodology for variant analysis with clear steps, tool guidance, and actionable
+    principles for finding similar vulnerabilities across codebases.
+  tags_suggested:
+  - security
+  - code-audit
+  - vulnerability-hunting
+  - static-analysis
+  - codeql
+  - semgrep
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.865454Z'
+indexed_at: '2026-01-19T01:30:36.865459Z'

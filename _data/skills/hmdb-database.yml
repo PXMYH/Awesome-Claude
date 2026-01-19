@@ -1,0 +1,60 @@
+id: hmdb-database
+slug: hmdb-database
+name: HMDB Database
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: '---
+
+  name: hmdb-database
+
+  description: Access Human Metabolome Database (220K+ metabolites). Search by name/ID/structure,
+  retrieve chemical properties, biomarker data, NMR/MS spectra, pathways, for metabolomics
+  and identification.
+
+  license: HMDB is offered to the public as a freely available resource. Use and re-distribution
+  of the data, in whole or in part, for commercial purposes requires explicit permission
+  of the authors and explicit acknowledgment of the source material (HMDB) and the
+  original...'
+full_prompt_length: 8825
+tools_mentioned:
+- go
+- REST
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/hmdb-database/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/hmdb-database/SKILL.md
+fetched_at: '2026-01-19T00:19:13.300197+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:30:58.358348Z'
+  prompt_quality:
+    score: 4.0
+    reasoning: The prompt is well-structured with clear sections for overview, capabilities,
+      and usage guidelines. It provides specific examples and actionable instructions
+      for different search types. However, it is incomplete (cut off mid-sentence)
+      and lacks explicit error handling or fallback strategies for failed searches.
+  usefulness:
+    score: 4.5
+    reasoning: This skill offers high practical value for metabolomics researchers,
+      clinicians, and bioinformaticians by providing direct access to a comprehensive
+      metabolite database. It covers diverse use cases from identification to biomarker
+      discovery with specific search methodologies. The inclusion of licensing terms
+      and download options enhances real-world applicability for academic and commercial
+      users.
+  overall_rating: 4.25
+  summary: A robust, well-documented skill for metabolomics research that provides
+    clear access to HMDB's extensive metabolite data, though it is incomplete and
+    could benefit from error-handling guidance.
+  tags_suggested:
+  - metabolomics
+  - bioinformatics
+  - clinical chemistry
+  - database search
+  - spectral analysis
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.748977Z'
+indexed_at: '2026-01-19T01:30:35.748985Z'

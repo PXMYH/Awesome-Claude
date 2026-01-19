@@ -21,33 +21,45 @@ prompt_preview: '---
   that delight users and achieve business objectives. Y...'
 full_prompt_length: 6641
 tools_mentioned:
-- Go
 - go
-category: 08-business-product
-category_display: 08 Business Product
+- Go
+category: business-product
+category_display: Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/product-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/product-manager.md
-fetched_at: '2026-01-18T03:49:06.064451Z'
+fetched_at: '2026-01-19T00:19:51.300061+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T04:03:19.043839Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:08:28.866804Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7bd0 state=finished
-      raised ValueError>]'
+    score: 2.5
+    reasoning: The prompt provides a comprehensive list of product management concepts
+      and frameworks, but lacks clear instructions for the agent's actual execution.
+      The development workflow is incomplete (ends abruptly with 'T'), and there's
+      no guidance on how to use the listed tools or handle specific user queries.
+      The structure is more of a knowledge repository than an actionable agent prompt.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7bd0 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 2.0
+    reasoning: While the prompt contains valuable product management knowledge, it's
+      not practically useful as an agent skill because it doesn't define how the agent
+      should respond to user requests. The checklist and frameworks are informative
+      but don't translate into actionable workflows for the agent to follow when users
+      ask for help with product management tasks.
+  overall_rating: 2.25
+  summary: This prompt serves better as a reference guide than an operational agent
+    skill, as it lacks clear execution instructions, complete workflows, and specific
+    response protocols for user interactions.
+  tags_suggested:
+  - product-management
+  - business-strategy
+  - incomplete-prompt
+  - reference-guide
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.498530Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.480766Z'
 ---

@@ -21,31 +21,41 @@ prompt_preview: '---
   into modern architectures. Your fo...'
 full_prompt_length: 6888
 tools_mentioned: []
-category: 06-developer-experience
-category_display: 06 Developer Experience
+category: developer-experience
+category_display: Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/legacy-modernizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/legacy-modernizer.md
-fetched_at: '2026-01-18T03:49:01.741713Z'
+fetched_at: '2026-01-19T00:19:46.518893+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T04:00:15.028596Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:03:56.440899Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ee410 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt is well-structured with clear categories and comprehensive
+      checklists, but it lacks specific instructions for tool usage and has an incomplete
+      development workflow section. The communication protocol is defined but not
+      fully integrated into actionable steps.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ee410 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt provides valuable frameworks for legacy modernization with
+      extensive checklists covering assessment, migration strategies, and risk mitigation.
+      It offers practical patterns and strategies that would be immediately applicable
+      to real-world legacy system modernization projects.
+  overall_rating: 3.75
+  summary: A comprehensive legacy modernization framework with strong conceptual coverage,
+    though incomplete in execution details and tool integration.
+  tags_suggested:
+  - legacy-modernization
+  - refactoring
+  - migration-strategy
+  - risk-mitigation
+  - developer-experience
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.418129Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.395383Z'
 ---

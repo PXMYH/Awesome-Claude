@@ -21,34 +21,45 @@ prompt_preview: '---
   ecosystem, and enterprise featu...'
 full_prompt_length: 6193
 tools_mentioned:
+- php
 - PHP
 - redis
-- php
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/laravel-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/laravel-specialist.md
-fetched_at: '2026-01-18T03:48:50.803446Z'
+fetched_at: '2026-01-19T00:19:34.590833+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:52:14.989211Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:51:55.144644Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6da490 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is highly structured with clear sections and specific technical
+      requirements, following good prompt engineering practices. It provides comprehensive
+      checklists and patterns, though the 'Communication Protocol' section introduces
+      a context manager query that may not be standard in all agent systems.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6da490 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt offers substantial real-world value for Laravel development
+      with extensive coverage of modern features, patterns, and enterprise considerations.
+      It's actionable for developers but assumes specific tool availability and may
+      be overwhelming for beginners due to its comprehensive scope.
+  overall_rating: 4.25
+  summary: A well-structured, comprehensive Laravel specialist prompt that excels
+    in technical depth and organization, though it may benefit from simplification
+    for broader accessibility and clearer tool integration.
+  tags_suggested:
+  - Laravel
+  - PHP
+  - Web Development
+  - API Design
+  - Enterprise Architecture
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.207073Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.174505Z'
 ---

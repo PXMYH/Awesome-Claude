@@ -1,0 +1,59 @@
+id: drugbank-database
+slug: drugbank-database
+name: DrugBank Database
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: '---
+
+  name: drugbank-database
+
+  description: Access and analyze comprehensive drug information from the DrugBank
+  database including drug properties, interactions, targets, pathways, chemical structures,
+  and pharmacology data. This skill should be used when working with pharmaceutical
+  data, drug discovery research, pharmacology studies, drug-drug interaction analysis,
+  target identification, chemical similarity searches, ADMET predictions, or any task
+  requiring detailed drug and drug target informatio...'
+full_prompt_length: 10217
+tools_mentioned:
+- Python
+- python
+- go
+- GO
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/drugbank-database/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/drugbank-database/SKILL.md
+fetched_at: '2026-01-19T00:19:09.772024+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:27:05.339648Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is well-structured with clear sections and specific capabilities,
+      but it's incomplete (cuts off mid-sentence in the 'Drug Targets and Pathways'
+      section). The instructions are specific about use cases and reference documentation,
+      though the actual implementation details are missing, which limits clarity on
+      what the skill will actually do.
+  usefulness:
+    score: 4.0
+    reasoning: The skill addresses a real need in pharmaceutical research and drug
+      discovery, covering comprehensive data access and analysis. However, the incomplete
+      nature and lack of actual implementation code or specific function definitions
+      reduce immediate practicality for users.
+  overall_rating: 4.25
+  summary: A well-structured but incomplete skill prompt that outlines valuable pharmaceutical
+    data analysis capabilities, though it lacks implementation details and is cut
+    off mid-documentation.
+  tags_suggested:
+  - pharmaceutical
+  - drug-discovery
+  - bioinformatics
+  - cheminformatics
+  - pharmacology
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.662651Z'
+indexed_at: '2026-01-19T01:30:35.662656Z'

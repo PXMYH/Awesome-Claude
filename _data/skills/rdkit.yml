@@ -1,0 +1,57 @@
+id: rdkit
+slug: rdkit
+name: RDKit Cheminformatics Toolkit
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: rdkit\ndescription: Cheminformatics toolkit for fine-grained\
+  \ molecular control. SMILES/SDF parsing, descriptors (MW, LogP, TPSA), fingerprints,\
+  \ substructure search, 2D/3D generation, similarity, reactions. For standard workflows\
+  \ with simpler interface, use datamol (wrapper around RDKit). Use rdkit for advanced\
+  \ control, custom sanitization, specialized algorithms.\nlicense: BSD-3-Clause license\n\
+  metadata:\n    skill-author: K-Dense Inc.\n---\n\n# RDKit Cheminformatics Toolkit\n\
+  \n## Overview\n\nRDK..."
+full_prompt_length: 20788
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/rdkit/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/rdkit/SKILL.md
+fetched_at: '2026-01-19T00:19:22.755376+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:40:53.495302Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections, comprehensive
+      code examples, and practical notes on error handling. It follows best practices
+      by including important warnings about None returns and sanitization behavior.
+      The only minor limitation is that it doesn't explicitly address version compatibility
+      or environment setup, which could be relevant for users.
+  usefulness:
+    score: 5.0
+    reasoning: This prompt provides immediate, actionable value for cheminformatics
+      tasks with production-ready code examples covering the most common workflows.
+      It thoughtfully distinguishes between simple use cases (recommending datamol)
+      and advanced control (using RDKit directly), demonstrating deep domain knowledge.
+      The inclusion of batch processing, error handling, and performance considerations
+      makes it highly practical for real research and development tasks.
+  overall_rating: 4.75
+  summary: An outstanding cheminformatics skill prompt that balances comprehensive
+    technical coverage with practical guidance, making it immediately useful for both
+    beginners and experienced practitioners in drug discovery and computational chemistry.
+  tags_suggested:
+  - cheminformatics
+  - drug-discovery
+  - molecular-modeling
+  - scientific-computing
+  - RDKit
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.961824Z'
+indexed_at: '2026-01-19T01:30:35.961829Z'

@@ -1,0 +1,57 @@
+id: exploratory-data-analysis
+slug: exploratory-data-analysis
+name: Exploratory Data Analysis
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: '---
+
+  name: exploratory-data-analysis
+
+  description: Perform comprehensive exploratory data analysis on scientific data
+  files across 200+ file formats. This skill should be used when analyzing any scientific
+  data file to understand its structure, content, quality, and characteristics. Automatically
+  detects file type and generates detailed markdown reports with format-specific analysis,
+  quality metrics, and downstream analysis recommendations. Covers chemistry, bioinformatics,
+  microscopy, spectroscop...'
+full_prompt_length: 15121
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/exploratory-data-analysis/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/exploratory-data-analysis/SKILL.md
+fetched_at: '2026-01-19T00:19:10.693278+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:28:07.518452Z'
+  prompt_quality:
+    score: 1.5
+    reasoning: The prompt is extremely vague and incomplete, ending abruptly in the
+      middle of a section without providing any actual instructions, workflow, or
+      analysis steps. It lacks specificity, edge case handling, and best practices,
+      making it impossible for an AI to execute the described task.
+  usefulness:
+    score: 1.0
+    reasoning: The prompt is practically useless as it contains no actionable instructions
+      for performing exploratory data analysis. While the concept is valuable, the
+      prompt fails to provide any guidance on how to detect file types, extract metadata,
+      assess quality, or generate reports, rendering it non-functional.
+  overall_rating: 1.25
+  summary: This is a severely incomplete and poorly structured prompt that fails to
+    provide any executable instructions, making it ineffective for its intended purpose
+    despite a promising concept.
+  tags_suggested:
+  - incomplete
+  - vague
+  - poorly-structured
+  - unactionable
+  - needs-completion
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.681555Z'
+indexed_at: '2026-01-19T01:30:35.681560Z'

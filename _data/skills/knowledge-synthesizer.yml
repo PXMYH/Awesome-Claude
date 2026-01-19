@@ -20,30 +20,45 @@ prompt_preview: '---
   and distributing insights across multi-agent sy...'
 full_prompt_length: 7117
 tools_mentioned: []
-category: 09-meta-orchestration
-category_display: 09 Meta Orchestration
+category: meta-orchestration
+category_display: Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/knowledge-synthesizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/knowledge-synthesizer.md
-fetched_at: '2026-01-18T03:49:08.281181Z'
+fetched_at: '2026-01-19T00:19:53.775798+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T04:04:55.051707Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:10:39.124678Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d9cd0 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt demonstrates strong structural organization with clear sections
+      and a detailed checklist system, but suffers from significant incompleteness.
+      The development workflow section is abruptly cut off mid-sentence, and several
+      key areas lack concrete implementation details. While the knowledge extraction
+      pipelines and pattern recognition systems are well-defined, the prompt doesn't
+      provide specific tool usage instructions or clear execution steps.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d9cd0 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The concept addresses a valuable need for multi-agent system orchestration
+      and knowledge management, with comprehensive coverage of synthesis areas. The
+      detailed checklists and categorization provide a solid framework for systematic
+      knowledge extraction and improvement tracking. However, the incomplete prompt
+      structure limits immediate practical application, requiring users to fill in
+      significant gaps before deployment.
+  overall_rating: 3.75
+  summary: A well-conceptualized but incomplete knowledge synthesis framework that
+    shows promise for multi-agent system improvement but requires completion and more
+    concrete implementation guidance to be fully operational.
+  tags_suggested:
+  - multi-agent
+  - knowledge-management
+  - pattern-recognition
+  - system-optimization
+  - meta-orchestration
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.541536Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.529273Z'

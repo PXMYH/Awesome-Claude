@@ -25,26 +25,38 @@ category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/devops-incident-responder.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/devops-incident-responder.md
-fetched_at: '2026-01-18T03:48:54.191303Z'
+fetched_at: '2026-01-19T00:19:38.319978+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:54:47.002321Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:55:23.023436Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7650 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt is well-structured with clear sections and specific metrics,
+      but it's incomplete and ends abruptly during the 'Preparedness Analysis' section.
+      While the content is specific and follows good prompt engineering practices
+      with structured checklists and protocols, the incomplete nature reduces clarity
+      and leaves critical gaps in the workflow.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6c7650 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt provides comprehensive real-world value with detailed incident
+      response frameworks, measurable targets (MTTD/MTTA/MTTR), and systematic approaches
+      to DevOps incidents. It covers detection, diagnosis, response coordination,
+      and postmortem processes that would immediately benefit teams handling production
+      incidents.
+  overall_rating: 3.75
+  summary: A valuable but incomplete DevOps incident response prompt that provides
+    excellent frameworks and metrics but needs completion to be fully functional.
+  tags_suggested:
+  - incident-response
+  - devops
+  - production-support
+  - observability
+  - root-cause-analysis
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.274861Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.244168Z'
 ---

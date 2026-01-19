@@ -25,30 +25,41 @@ tools_mentioned:
 - go
 - Go
 category: quality-security
-category_display: Quality & Security
+category_display: Quality Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/qa-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/qa-expert.md
-fetched_at: '2026-01-18T03:48:57.774982Z'
+fetched_at: '2026-01-19T00:19:42.251870+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:57:27.015128Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:59:27.171570Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d86d0 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt is well-structured with clear sections and a comprehensive
+      checklist, but it lacks specificity in execution instructions. It provides good
+      frameworks and methodologies but doesn't clearly define how the agent should
+      interact with tools or handle specific scenarios, making some instructions ambiguous.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d86d0 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt provides valuable QA frameworks, checklists, and methodologies
+      that would be highly useful for quality assurance tasks. It covers comprehensive
+      testing strategies and quality metrics that align with real-world QA practices,
+      though the incomplete development workflow section limits its immediate actionability.
+  overall_rating: 3.75
+  summary: A solid QA expert prompt with strong frameworks and checklists, but needs
+    completion of the development workflow section and more specific tool interaction
+    instructions to reach its full potential.
+  tags_suggested:
+  - quality-assurance
+  - testing
+  - test-strategy
+  - quality-metrics
+  - qa-process
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.345137Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.318952Z'
 ---

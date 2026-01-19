@@ -1,0 +1,61 @@
+id: datacommons-client
+slug: datacommons-client
+name: Data Commons Client
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: '---
+
+  name: datacommons-client
+
+  description: Work with Data Commons, a platform providing programmatic access to
+  public statistical data from global sources. Use this skill when working with demographic
+  data, economic indicators, health statistics, environmental data, or any public
+  datasets available through Data Commons. Applicable for querying population statistics,
+  GDP figures, unemployment rates, disease prevalence, geographic entity resolution,
+  and exploring relationships between statistical e...'
+full_prompt_length: 8803
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/datacommons-client/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/datacommons-client/SKILL.md
+fetched_at: '2026-01-19T00:19:07.662506+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:25:37.675235Z'
+  prompt_quality:
+    score: 4.0
+    reasoning: The prompt provides clear, structured documentation with specific code
+      examples and use cases for each API endpoint. It follows good prompt engineering
+      practices by organizing information logically and providing actionable examples.
+      However, it lacks explicit edge case handling (e.g., rate limits, error handling,
+      empty results) and doesn't define constraints or fallback behaviors for failed
+      queries.
+  usefulness:
+    score: 4.5
+    reasoning: This skill offers high real-world value for developers working with
+      public statistical data, covering common tasks like demographic analysis, economic
+      indicators, and geographic queries. The comprehensive examples and workflow
+      patterns make it immediately actionable for data analysis tasks. The inclusion
+      of installation instructions and endpoint-specific documentation enhances practical
+      utility.
+  overall_rating: 4.25
+  summary: A well-structured, practical skill for accessing public statistical data
+    through Data Commons, with strong documentation and real-world applicability,
+    though it could benefit from more explicit error handling and edge case guidance.
+  tags_suggested:
+  - data-science
+  - public-data
+  - statistics
+  - geographic-analysis
+  - demographics
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.636334Z'
+indexed_at: '2026-01-19T01:30:35.636339Z'

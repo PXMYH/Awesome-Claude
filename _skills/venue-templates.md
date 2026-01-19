@@ -1,0 +1,60 @@
+---
+id: venue-templates
+slug: venue-templates
+name: Venue Templates
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: '---
+
+  name: venue-templates
+
+  description: Access comprehensive LaTeX templates, formatting requirements, and
+  submission guidelines for major scientific publication venues (Nature, Science,
+  PLOS, IEEE, ACM), academic conferences (NeurIPS, ICML, CVPR, CHI), research posters,
+  and grant proposals (NSF, NIH, DOE, DARPA). This skill should be used when preparing
+  manuscripts for journal submission, conference papers, research posters, or grant
+  proposals and need venue-specific formatting requirements and...'
+full_prompt_length: 24107
+tools_mentioned:
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/venue-templates/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/venue-templates/SKILL.md
+fetched_at: '2026-01-19T00:19:28.827505+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:46:51.363273Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is well-structured with clear sections, specific examples,
+      and actionable instructions. It follows good prompt engineering practices with
+      defined scope, allowed tools, and metadata. However, it's incomplete (cuts off
+      mid-sentence in the ACM section) and the 'scientific-schematics' skill reference
+      appears to be a hallucinated tool that doesn't exist in the allowed-tools list.
+  usefulness:
+    score: 4.0
+    reasoning: The skill addresses a genuine need for researchers preparing manuscripts
+      with venue-specific formatting requirements. It provides concrete examples of
+      journals, conferences, and grant agencies. The inclusion of LaTeX templates
+      and submission guidelines would be valuable for academic workflows, though the
+      incomplete content and questionable tool references reduce practical reliability.
+  overall_rating: 4.25
+  summary: A well-structured but incomplete skill prompt that addresses a real academic
+    need for venue-specific formatting, though it contains hallucinated tool references
+    and cuts off mid-document.
+  tags_suggested:
+  - academic-writing
+  - latex-templates
+  - manuscript-preparation
+  - scientific-publishing
+  - research-tools
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.082031Z'
+indexed_at: '2026-01-19T01:30:36.082036Z'
+---

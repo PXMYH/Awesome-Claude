@@ -1,0 +1,72 @@
+---
+id: varlock
+slug: varlock
+name: Varlock Security Skill
+description: '*Last updated: December 22, 2025*'
+prompt_preview: '---
+
+  name: varlock
+
+  description: Secure environment variable management with Varlock. Use when handling
+  secrets, API keys, credentials, or any sensitive configuration. Ensures secrets
+  are never exposed in terminals, logs, traces, or Claude''s context. Trigger phrases
+  include "environment variables", "secrets", ".env", "API key", "credentials", "sensitive",
+  "Varlock".
+
+  ---
+
+
+  # Varlock Security Skill
+
+
+  Secure-by-default environment variable management for Claude Code sessions.
+
+
+  > **Repository**: https:/...'
+full_prompt_length: 9632
+tools_mentioned:
+- aws
+- docker
+- AWS
+- Docker
+category: community
+category_display: Community
+source_repo: wrsmith108/varlock-claude-skill
+source_path: skills/varlock/SKILL.md
+source_url: https://github.com/wrsmith108/varlock-claude-skill/blob/main/skills/varlock/SKILL.md
+fetched_at: '2026-01-19T00:20:26.091076+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:29:18.967323Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear security rules,
+      specific examples of what to avoid and what to do, and comprehensive documentation.
+      The use of visual indicators (❌/✅) and code blocks makes instructions highly
+      actionable. The schema definition section is particularly thorough with detailed
+      annotation tables.
+  usefulness:
+    score: 5.0
+    reasoning: This addresses a critical security concern in AI-assisted development
+      by providing a concrete, tool-based solution for secret management. The prompt
+      includes practical installation instructions, real-world examples, and covers
+      common scenarios like API keys and database credentials. It's immediately actionable
+      for developers working with sensitive data in Claude sessions.
+  overall_rating: 4.75
+  summary: An outstanding security-focused prompt that provides a comprehensive, practical
+    solution for managing secrets in AI development workflows with clear guidelines
+    and actionable implementation steps.
+  tags_suggested:
+  - security
+  - secrets-management
+  - environment-variables
+  - devops
+  - best-practices
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.872816Z'
+indexed_at: '2026-01-19T01:30:36.872821Z'
+---

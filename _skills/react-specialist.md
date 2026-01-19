@@ -21,38 +21,52 @@ prompt_preview: '---
   ecosystem. Your focus spans advanced patterns, performance optimization, state...'
 full_prompt_length: 6769
 tools_mentioned:
-- javascript
-- React
-- Jest
-- react
+- JavaScript
 - typescript
 - TypeScript
-- JavaScript
+- javascript
+- React
+- react
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/react-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/react-specialist.md
-fetched_at: '2026-01-18T03:48:52.014001Z'
+fetched_at: '2026-01-19T00:19:35.813963+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:53:10.993598Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:53:03.543302Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ecf10 state=finished
-      raised ValueError>]'
+    score: 4.0
+    reasoning: The prompt is well-structured with clear sections and comprehensive
+      checklists covering React 18+ features, patterns, and best practices. However,
+      it contains some ambiguity in the workflow section (e.g., 'Configure build too'
+      appears incomplete) and the communication protocol references a context manager
+      that isn't clearly defined or integrated into the actual execution flow.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ecf10 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.5
+    reasoning: This prompt provides exceptional real-world value for React development,
+      covering modern patterns, performance optimization, state management, and testing
+      strategies comprehensively. The detailed checklists and pattern references serve
+      as excellent guidance for production-ready applications, though the workflow
+      execution could be more concrete for immediate actionability.
+  overall_rating: 4.25
+  summary: A highly comprehensive and well-organized React specialist prompt that
+    excels in covering modern React ecosystem and best practices, though it has minor
+    execution flow ambiguities that slightly reduce its immediate actionability.
+  tags_suggested:
+  - react
+  - react-18
+  - performance-optimization
+  - typescript
+  - testing
+  - ssr
+  - state-management
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.232106Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.199981Z'
 ---

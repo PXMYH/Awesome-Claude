@@ -1,0 +1,75 @@
+---
+id: revealjs
+slug: revealjs
+name: Reveal.js Presentations
+description: 'Required for the scripts, should be already installed:'
+prompt_preview: '---
+
+  name: revealjs
+
+  description: Create polished, professional reveal.js presentations. Use when the
+  user asks to create slides, a presentation, a deck, or a slideshow. Supports themes,
+  multi-column layouts, callout boxes, code highlighting, animations, speaker notes,
+  and custom styling. Generates HTML + CSS with no build step required.
+
+  ---
+
+
+  # Reveal.js Presentations
+
+
+  Create HTML presentations using reveal.js. No build step required - just open the
+  HTML in a browser.
+
+
+  ## What You Create
+
+
+  A reveal...'
+full_prompt_length: 18055
+tools_mentioned:
+- rest
+- rust
+- Node.js
+- javascript
+category: community
+category_display: Community
+source_repo: ryanbbrown/revealjs-skill
+source_path: skills/revealjs/SKILL.md
+source_url: https://github.com/ryanbbrown/revealjs-skill/blob/main/skills/revealjs/SKILL.md
+fetched_at: '2026-01-19T00:20:11.135015+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:21:05.307652Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and specific, with well-defined design
+      principles and constraints. It includes comprehensive guidance on color selection,
+      typography, and visual hierarchy. However, the prompt is incomplete (cuts off
+      mid-sentence in the color palette examples), which slightly impacts its completeness
+      and could cause confusion.
+  usefulness:
+    score: 5.0
+    reasoning: This skill provides immediate, practical value for creating professional
+      presentations without build tools. It covers a wide range of features (themes,
+      layouts, code highlighting, animations) that address real-world presentation
+      needs. The design-first approach ensures users create polished, context-appropriate
+      presentations rather than generic templates.
+  overall_rating: 4.75
+  summary: A highly practical and well-structured prompt for creating reveal.js presentations,
+    though it appears to be truncated in the provided content.
+  tags_suggested:
+  - presentation
+  - revealjs
+  - html
+  - css
+  - design
+  - slides
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.725304Z'
+indexed_at: '2026-01-19T01:30:36.725309Z'
+---

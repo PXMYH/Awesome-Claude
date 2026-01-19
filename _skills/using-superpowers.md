@@ -1,0 +1,71 @@
+---
+id: using-superpowers
+slug: using-superpowers
+name: Using Skills
+description: Instructions say WHAT, not HOW. "Add X" or "Fix Y" doesn't mean skip
+  workflows.
+prompt_preview: '---
+
+  name: using-superpowers
+
+  description: Use when starting any conversation - establishes how to find and use
+  skills, requiring Skill tool invocation before ANY response including clarifying
+  questions
+
+  ---
+
+
+  <EXTREMELY-IMPORTANT>
+
+  If you think there is even a 1% chance a skill might apply to what you are doing,
+  you ABSOLUTELY MUST invoke the skill.
+
+
+  IF A SKILL APPLIES TO YOUR TASK, YOU DO NOT HAVE A CHOICE. YOU MUST USE IT.
+
+
+  This is not negotiable. This is not optional. You cannot rationalize your...'
+full_prompt_length: 3788
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: obra/superpowers
+source_path: skills/using-superpowers/SKILL.md
+source_url: https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md
+fetched_at: '2026-01-19T00:20:06.755799+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:19:15.005015Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and specific, with strong visual
+      flow diagrams and explicit red flags that prevent rationalization. It defines
+      scope, constraints, and expected behavior through concrete examples and a priority
+      system. The only minor weakness is the extreme rigidity might cause issues in
+      edge cases where no skill truly applies, though the '1% chance' threshold is
+      explicitly defined.
+  usefulness:
+    score: 5.0
+    reasoning: This is highly practical for development workflows, providing immediate
+      value by enforcing systematic skill usage that prevents ad-hoc approaches. The
+      comprehensive coverage of skill types, priorities, and common rationalization
+      traps makes it immediately actionable for users. It directly addresses the common
+      problem of AI agents skipping established workflows in favor of quick fixes.
+  overall_rating: 4.75
+  summary: An excellent, highly structured prompt that enforces disciplined skill
+    usage with clear rules, visual workflows, and anti-rationalization safeguards,
+    making it extremely valuable for development tasks requiring systematic approaches.
+  tags_suggested:
+  - workflow
+  - skill-enforcement
+  - discipline
+  - development
+  - systematic
+github_metrics:
+  stars: 28406
+  forks: 2141
+  open_issues: 82
+  last_commit: '2026-01-14'
+  fetched_at: '2026-01-19T00:20:32.692534Z'
+indexed_at: '2026-01-19T01:30:36.692355Z'
+---

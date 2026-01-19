@@ -21,9 +21,8 @@ prompt_preview: '---
   applicatio...'
 full_prompt_length: 7377
 tools_mentioned:
-- WebSocket
-- JUnit
 - java
+- WebSocket
 - typescript
 - rust
 category: language-specialists
@@ -31,26 +30,37 @@ category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/kotlin-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/kotlin-specialist.md
-fetched_at: '2026-01-18T03:48:50.627604Z'
+fetched_at: '2026-01-19T00:19:34.408861+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:52:06.988588Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:51:44.705706Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6dacd0 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is highly structured and specific, with clear sections for
+      Kotlin idioms, coroutines, multiplatform, and Android development. It provides
+      a comprehensive checklist and detailed patterns, though the workflow section
+      is incomplete, which slightly impacts clarity and completeness.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6dacd0 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 5.0
+    reasoning: This prompt offers exceptional real-world value for Kotlin developers
+      by covering advanced topics like coroutines, multiplatform, and DSL design.
+      It is highly actionable, providing a detailed roadmap for code review, implementation,
+      and best practices across various domains.
+  overall_rating: 4.75
+  summary: A robust and expert-level prompt that excels in specificity and practicality
+    for Kotlin development, though it has minor structural incompleteness.
+  tags_suggested:
+  - Kotlin
+  - Coroutines
+  - Multiplatform
+  - Android
+  - DSL
+  - Functional Programming
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.203534Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.171047Z'
 ---

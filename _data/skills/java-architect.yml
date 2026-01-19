@@ -20,36 +20,48 @@ prompt_preview: '---
   S...'
 full_prompt_length: 7709
 tools_mentioned:
-- REST
-- JUnit
+- Kubernetes
 - java
 - Java
 - rest
-- Kubernetes
+- REST
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/java-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/java-architect.md
-fetched_at: '2026-01-18T03:48:50.277871Z'
+fetched_at: '2026-01-19T00:19:34.031273+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:51:50.987372Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:51:20.389279Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6dbc50 state=finished
-      raised ValueError>]'
+    score: 4.0
+    reasoning: The prompt is highly specific and well-structured with clear categories
+      covering enterprise Java development comprehensively. However, it's truncated
+      at the end (incomplete JSON query example), which creates ambiguity about the
+      communication protocol implementation. The checklist format is excellent but
+      could benefit from more explicit action instructions.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6dbc50 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.5
+    reasoning: This provides exceptional value for enterprise Java development with
+      thorough coverage of modern practices, Spring ecosystem, and microservices patterns.
+      The comprehensive checklists and patterns serve as excellent reference material
+      for real-world development tasks. The only limitation is the incomplete communication
+      protocol which may cause implementation issues.
+  overall_rating: 4.25
+  summary: A robust, enterprise-focused Java architect prompt with excellent depth
+    in modern Java practices and Spring ecosystem, though slightly hampered by incomplete
+    communication protocol specification.
+  tags_suggested:
+  - enterprise-java
+  - spring-boot
+  - microservices
+  - clean-architecture
+  - cloud-native
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.196395Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.163823Z'

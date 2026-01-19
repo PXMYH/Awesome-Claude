@@ -21,37 +21,51 @@ prompt_preview: '---
   systems. Your focus spans Phoenix web applications...'
 full_prompt_length: 8148
 tools_mentioned:
-- kubernetes
 - Kubernetes
-- Docker
-- JavaScript
 - rust
+- JavaScript
 - websocket
+- Docker
+- kubernetes
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/elixir-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/elixir-expert.md
-fetched_at: '2026-01-18T03:48:49.756724Z'
+fetched_at: '2026-01-19T00:19:33.492333+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:51:26.985407Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:50:46.714018Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ecf10 state=finished
-      raised ValueError>]'
+    score: 4.0
+    reasoning: The prompt is highly structured and comprehensive, covering Elixir
+      development from fundamentals to advanced topics. However, it lacks clear action
+      instructions for the agent to follow when invoked, and the checklist format
+      is more of a knowledge dump than actionable guidance. The prompt ends abruptly
+      with 'Code quality with ' which suggests incomplete content.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ecf10 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.5
+    reasoning: The prompt demonstrates deep Elixir expertise across all major areas
+      (OTP, Phoenix, LiveView, Ecto, testing, performance) making it extremely valuable
+      for real-world Elixir development tasks. It provides comprehensive coverage
+      of best practices, patterns, and tools that would help developers build robust,
+      concurrent systems. The structured knowledge base format allows for consistent,
+      high-quality responses across various Elixir development scenarios.
+  overall_rating: 4.25
+  summary: A comprehensive Elixir knowledge base that demonstrates expert-level understanding
+    of the BEAM ecosystem, though it would benefit from clearer action instructions
+    and completion of the truncated content.
+  tags_suggested:
+  - elixir
+  - otp
+  - phoenix
+  - concurrency
+  - fault-tolerance
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.185809Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.152592Z'
 ---

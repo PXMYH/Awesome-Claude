@@ -1,0 +1,57 @@
+id: entry-point-analyzer-entry-point-analyzer
+slug: entry-point-analyzer-entry-point-analyzer
+name: Entry Point Analyzer
+description: 'If a file cannot be parsed:'
+prompt_preview: '---
+
+  name: entry-point-analyzer
+
+  description: Analyzes smart contract codebases to identify state-changing entry
+  points for security auditing. Detects externally callable functions that modify
+  state, categorizes them by access level (public, admin, role-restricted, contract-only),
+  and generates structured audit reports. Excludes view/pure/read-only functions.
+  Use when auditing smart contracts (Solidity, Vyper, Solana/Rust, Move, TON, CosmWasm)
+  or when asked to find entry points, audit flows, exter...'
+full_prompt_length: 9459
+tools_mentioned:
+- Rust
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/entry-point-analyzer/skills/entry-point-analyzer/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/entry-point-analyzer/skills/entry-point-analyzer/SKILL.md
+fetched_at: '2026-01-19T00:20:17.028658+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:23:02.165188Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and well-structured with explicit
+      scope definitions, language-specific exclusions, and a defined workflow. It
+      follows best practices by providing concrete examples and fallback guidance
+      for when Slither is unavailable. The only minor weakness is the incomplete language
+      detection table at the end, which cuts off mid-sentence.
+  usefulness:
+    score: 5.0
+    reasoning: This skill provides high practical value for security auditors by systematically
+      mapping attack surfaces in smart contract codebases. It's immediately actionable
+      with a clear workflow and covers multiple blockchain ecosystems, making it versatile
+      for real-world auditing scenarios. The focus on state-changing functions aligns
+      perfectly with security priorities.
+  overall_rating: 4.75
+  summary: An excellent, production-ready security skill that provides clear methodology
+    for identifying critical entry points in smart contract audits across multiple
+    blockchain platforms.
+  tags_suggested:
+  - security
+  - smart-contracts
+  - auditing
+  - entry-points
+  - access-control
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.767921Z'
+indexed_at: '2026-01-19T01:30:36.767926Z'

@@ -1,0 +1,61 @@
+---
+id: polars
+slug: polars
+name: Polars
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: polars\ndescription: Fast in-memory DataFrame library\
+  \ for datasets that fit in RAM. Use when pandas is too slow but data still fits\
+  \ in memory. Lazy evaluation, parallel execution, Apache Arrow backend. Best for\
+  \ 1-100GB datasets, ETL pipelines, faster pandas replacement. For larger-than-RAM\
+  \ data use dask or vaex.\nlicense: https://github.com/pola-rs/polars/blob/main/LICENSE\n\
+  metadata:\n    skill-author: K-Dense Inc.\n---\n\n# Polars\n\n## Overview\n\nPolars\
+  \ is a lightning-fast DataFrame library fo..."
+full_prompt_length: 10250
+tools_mentioned:
+- Python
+- python
+- go
+- Rust
+- Azure
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/polars/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/polars/SKILL.md
+fetched_at: '2026-01-19T00:19:19.419113+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:37:35.272249Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and well-structured, with excellent
+      use of markdown for organization and code examples. It defines scope and constraints
+      effectively, particularly around when to use Polars vs. alternatives like dask.
+      The inclusion of core concepts and common operations provides strong guidance,
+      though the prompt is incomplete (cut off mid-sentence in the Aggregations section),
+      which slightly impacts completeness.
+  usefulness:
+    score: 5.0
+    reasoning: This is highly practical for real-world data processing tasks, offering
+      immediate value for developers migrating from pandas or optimizing data pipelines.
+      The prompt comprehensively covers installation, basic usage, core concepts,
+      and common operations with actionable code examples. Users can immediately apply
+      the provided patterns for data manipulation, filtering, and aggregation.
+  overall_rating: 4.75
+  summary: A well-crafted, highly practical skill prompt that provides excellent guidance
+    for using Polars, though it's incomplete and would benefit from finishing the
+    Aggregations section and adding error handling examples.
+  tags_suggested:
+  - data-processing
+  - pandas-migration
+  - performance-optimization
+  - data-analysis
+  - etl-pipelines
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.894499Z'
+indexed_at: '2026-01-19T01:30:35.894504Z'
+---

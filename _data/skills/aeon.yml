@@ -1,0 +1,60 @@
+id: aeon
+slug: aeon
+name: Aeon Time Series Machine Learning
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: '---
+
+  name: aeon
+
+  description: This skill should be used for time series machine learning tasks including
+  classification, regression, clustering, forecasting, anomaly detection, segmentation,
+  and similarity search. Use when working with temporal data, sequential patterns,
+  or time-indexed observations requiring specialized algorithms beyond standard ML
+  approaches. Particularly suited for univariate and multivariate time series analysis
+  with scikit-learn compatible APIs.
+
+  license: BSD-3-Clause license...'
+full_prompt_length: 11406
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/aeon/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/aeon/SKILL.md
+fetched_at: '2026-01-19T00:19:03.566910+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:21:07.865246Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is well-structured with clear sections for overview, usage,
+      and installation, and provides specific code examples for core capabilities.
+      However, it is incomplete (cut off mid-sentence in the Similarity Search section)
+      and lacks explicit edge-case handling or fallback guidance for errors like missing
+      dependencies or data format issues.
+  usefulness:
+    score: 5.0
+    reasoning: This skill offers high real-world value for time series ML tasks, covering
+      a comprehensive range of applications like classification, forecasting, and
+      anomaly detection with scikit-learn compatibility. The quick-start code snippets
+      are immediately actionable, enabling users to implement state-of-the-art algorithms
+      efficiently.
+  overall_rating: 4.75
+  summary: A highly practical and well-organized skill prompt for time series machine
+    learning, though it requires completion and minor enhancements for robustness.
+  tags_suggested:
+  - time-series
+  - machine-learning
+  - scikit-learn
+  - classification
+  - forecasting
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.549749Z'
+indexed_at: '2026-01-19T01:30:35.549754Z'

@@ -1,0 +1,89 @@
+---
+id: requests
+slug: requests
+name: Skill Requests
+description: your human partner reviews this periodically and we create skills together.
+prompt_preview: '# Skill Requests
+
+
+  Use this page to document skills you wish existed. Add requests here when you encounter
+  situations where a skill would have helped.
+
+
+  ## Format
+
+
+  ```markdown
+
+  ## [Short Descriptive Name]
+
+  **What I need:** One-line description
+
+  **When I''d use it:** Specific situations/symptoms
+
+  **Why I need this:** What makes this non-obvious or worth capturing
+
+  **Added:** YYYY-MM-DD
+
+  ```
+
+
+  ---
+
+
+  ## Current Requests
+
+
+  (None yet - add requests below as you discover needs)
+
+
+  ---
+
+
+  ## Completed Requests
+
+
+  Skills...'
+full_prompt_length: 897
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: obra/superpowers-skills
+source_path: skills/REQUESTS.md
+source_url: https://github.com/obra/superpowers-skills/blob/main/skills/REQUESTS.md
+fetched_at: '2026-01-19T00:20:09.561223+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:20:36.609190Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and well-structured with a specific
+      format template and actionable guidelines. It defines scope effectively by focusing
+      on documenting skill requests rather than executing tasks. The only minor limitation
+      is that it doesn't explicitly address edge cases like duplicate requests or
+      how to handle conflicting requests.
+  usefulness:
+    score: 4.0
+    reasoning: This provides high real-world value for teams building AI skills by
+      creating a systematic way to capture needs and avoid knowledge gaps. It's actionable
+      immediately with the provided template and guidelines. However, its usefulness
+      is somewhat limited to collaborative environments where skills are actively
+      being developed, rather than individual users.
+  overall_rating: 4.25
+  summary: A well-crafted, practical prompt that excels at creating a structured system
+    for skill request documentation, though its value is primarily for development
+    teams rather than end users.
+  tags_suggested:
+  - documentation
+  - skill-development
+  - collaboration
+  - requirements-gathering
+  - community-maintained
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.718056Z'
+indexed_at: '2026-01-19T01:30:36.718065Z'
+---

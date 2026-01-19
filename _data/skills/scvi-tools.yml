@@ -1,0 +1,57 @@
+id: scvi-tools
+slug: scvi-tools
+name: scvi-tools
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: scvi-tools\ndescription: Deep generative models for single-cell\
+  \ omics. Use when you need probabilistic batch correction (scVI), transfer learning,\
+  \ differential expression with uncertainty, or multi-modal integration (TOTALVI,\
+  \ MultiVI). Best for advanced modeling, batch effects, multimodal data. For standard\
+  \ analysis pipelines use scanpy.\nlicense: BSD-3-Clause license\nmetadata:\n   \
+  \ skill-author: K-Dense Inc.\n---\n\n# scvi-tools\n\n## Overview\n\nscvi-tools is\
+  \ a comprehensive Python framework f..."
+full_prompt_length: 8054
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/scvi-tools/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scvi-tools/SKILL.md
+fetched_at: '2026-01-19T00:19:25.615646+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:43:55.000402Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections, comprehensive
+      model categorization, and a practical workflow example. It follows best practices
+      by providing specific guidance on when to use the skill versus alternatives
+      (scanpy). The only minor weakness is the incomplete code snippet at the end,
+      which cuts off mid-line, slightly reducing clarity.
+  usefulness:
+    score: 5.0
+    reasoning: This prompt provides immediate, actionable value for single-cell genomics
+      researchers by clearly mapping scientific problems to specific models (scVI
+      for batch correction, TOTALVI for multimodal, etc.). It covers the full spectrum
+      of single-cell modalities and includes practical workflow guidance, making it
+      highly useful for both beginners and advanced users in the field.
+  overall_rating: 4.75
+  summary: An outstanding scientific skill prompt that expertly bridges technical
+    deep learning concepts with practical single-cell genomics applications, offering
+    comprehensive coverage across modalities with clear usage guidance.
+  tags_suggested:
+  - single-cell
+  - genomics
+  - deep-learning
+  - probabilistic-models
+  - batch-correction
+  - multimodal-integration
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.019462Z'
+indexed_at: '2026-01-19T01:30:36.019470Z'

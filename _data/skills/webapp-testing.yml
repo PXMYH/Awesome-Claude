@@ -1,0 +1,70 @@
+id: webapp-testing
+slug: webapp-testing
+name: Web Application Testing
+description: '- **examples/** - Examples showing common patterns:'
+prompt_preview: '---
+
+  name: webapp-testing
+
+  description: Toolkit for interacting with and testing local web applications using
+  Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing
+  browser screenshots, and viewing browser logs.
+
+  license: Complete terms in LICENSE.txt
+
+  ---
+
+
+  # Web Application Testing
+
+
+  To test local web applications, write native Python Playwright scripts.
+
+
+  **Helper Scripts Available**:
+
+  - `scripts/with_server.py` - Manages server lifecycle (supports multiple servers)...'
+full_prompt_length: 3861
+tools_mentioned:
+- Python
+- python
+category: official
+category_display: Official
+source_repo: anthropics/skills
+source_path: skills/webapp-testing/SKILL.md
+source_url: https://github.com/anthropics/skills/blob/main/skills/webapp-testing/SKILL.md
+fetched_at: '2026-01-19T00:19:59.069292+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:15:33.588061Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and well-structured, with a logical
+      decision tree, concrete examples, and specific best practices. It effectively
+      guides users through common scenarios while warning about pitfalls. The only
+      minor limitation is that it assumes the user has access to the specific helper
+      scripts mentioned, which may not always be the case.
+  usefulness:
+    score: 5.0
+    reasoning: This prompt provides immediate, practical value for testing local web
+      applications, covering the full workflow from server management to DOM inspection
+      and action execution. The inclusion of real code examples, common pitfalls,
+      and the reconnaissance-then-action pattern makes it highly actionable for developers
+      and testers working with Playwright.
+  overall_rating: 4.75
+  summary: A well-crafted, highly practical prompt that effectively guides users through
+    local web application testing with Playwright, offering clear decision trees,
+    concrete examples, and actionable best practices.
+  tags_suggested:
+  - playwright
+  - web testing
+  - automation
+  - local development
+  - testing toolkit
+github_metrics:
+  stars: 44557
+  forks: 4148
+  open_issues: 166
+  last_commit: '2025-12-20'
+  fetched_at: '2026-01-19T00:20:32.039127Z'
+indexed_at: '2026-01-19T01:30:36.625271Z'

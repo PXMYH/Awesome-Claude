@@ -1,0 +1,56 @@
+---
+id: scientific-critical-thinking
+slug: scientific-critical-thinking
+name: Scientific Critical Thinking
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: scientific-critical-thinking\ndescription: Evaluate scientific\
+  \ claims and evidence quality. Use for assessing experimental design validity, identifying\
+  \ biases and confounders, applying evidence grading frameworks (GRADE, Cochrane\
+  \ Risk of Bias), or teaching critical analysis. Best for understanding evidence\
+  \ quality, identifying flaws. For formal peer review writing use peer-review.\n\
+  allowed-tools: [Read, Write, Edit, Bash]\nlicense: MIT license\nmetadata:\n    skill-author:\
+  \ K-Dense Inc.\n---..."
+full_prompt_length: 24523
+tools_mentioned:
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/scientific-critical-thinking/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scientific-critical-thinking/SKILL.md
+fetched_at: '2026-01-19T00:19:24.167454+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:42:32.233361Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections, specific
+      evaluation frameworks, and actionable guidance. It follows best practices by
+      defining scope, providing structured evaluation criteria, and including visual
+      enhancement instructions. The only minor limitation is that the methodology
+      critique section appears truncated in the provided content.
+  usefulness:
+    score: 5.0
+    reasoning: This skill provides immense practical value for scientific analysis,
+      research evaluation, and critical thinking tasks. It covers comprehensive evaluation
+      frameworks (GRADE, Cochrane ROB), addresses real-world research scenarios, and
+      includes visual communication enhancement. The structured approach makes it
+      immediately actionable for researchers, reviewers, and educators.
+  overall_rating: 4.75
+  summary: An outstanding scientific critical thinking skill with comprehensive frameworks,
+    clear structure, and practical applications for research evaluation and analysis.
+  tags_suggested:
+  - scientific-research
+  - critical-thinking
+  - evidence-evaluation
+  - methodology-analysis
+  - research-review
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.990648Z'
+indexed_at: '2026-01-19T01:30:35.990653Z'
+---

@@ -1,0 +1,60 @@
+---
+id: ena-database
+slug: ena-database
+name: ENA Database
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: ena-database\ndescription: Access European Nucleotide\
+  \ Archive via API/FTP. Retrieve DNA/RNA sequences, raw reads (FASTQ), genome assemblies\
+  \ by accession, for genomics and bioinformatics pipelines. Supports multiple formats.\n\
+  license: Unknown\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# ENA Database\n\
+  \n## Overview\n\nThe European Nucleotide Archive (ENA) is a comprehensive public\
+  \ repository for nucleotide sequence data and associated metadata. Access and query\
+  \ DNA/RNA sequences, raw reads,..."
+full_prompt_length: 7853
+tools_mentioned:
+- python
+- rest
+- go
+- REST
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/ena-database/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/ena-database/SKILL.md
+fetched_at: '2026-01-19T00:19:09.971289+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:27:15.923947Z'
+  prompt_quality:
+    score: 2.5
+    reasoning: The prompt provides good structural organization and clear categorization
+      of ENA data types, but lacks critical implementation details. It references
+      external documentation files that don't exist in the prompt context, creating
+      dependency issues. The example API query is incomplete and cuts off mid-sentence,
+      which significantly undermines clarity and usability.
+  usefulness:
+    score: 3.0
+    reasoning: The skill addresses a genuine need in bioinformatics for accessing
+      public nucleotide sequence data, which has real-world value for research and
+      pipeline development. However, the incomplete API examples and missing practical
+      code snippets reduce immediate actionability. The comprehensive overview of
+      ENA's data hierarchy and access methods provides a solid foundation for users
+      familiar with programmatic data retrieval.
+  overall_rating: 2.75
+  summary: This is a well-structured but incomplete skill prompt that provides valuable
+    conceptual framework for ENA database access but fails to deliver practical implementation
+    guidance due to missing code examples and external references.
+  tags_suggested:
+  - bioinformatics
+  - genomics
+  - data-retrieval
+  - scientific-database
+  - sequence-analysis
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.666201Z'
+indexed_at: '2026-01-19T01:30:35.666206Z'
+---

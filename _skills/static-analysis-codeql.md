@@ -1,0 +1,65 @@
+---
+id: static-analysis-codeql
+slug: static-analysis-codeql
+name: CodeQL Static Analysis
+description: '- Docs: https://codeql.github.com/docs/'
+prompt_preview: "---\nname: codeql\ndescription: Run CodeQL static analysis for security\
+  \ vulnerability detection, taint tracking, and data flow analysis. Use when asked\
+  \ to analyze code with CodeQL, create CodeQL databases, write custom QL queries,\
+  \ perform security audits, or set up CodeQL in CI/CD pipelines.\nallowed-tools:\n\
+  \  - Bash\n  - Read\n  - Glob\n  - Grep\n---\n\n# CodeQL Static Analysis\n\n## When\
+  \ to Use CodeQL\n\n**Ideal scenarios:**\n- Source code access with ability to build\
+  \ (for compiled languages)\n- Open-source p..."
+full_prompt_length: 8680
+tools_mentioned:
+- Python
+- Go
+- python
+- go
+- rust
+- JavaScript
+- java
+- ruby
+- TypeScript
+- javascript
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/static-analysis/skills/codeql/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/codeql/SKILL.md
+fetched_at: '2026-01-19T00:20:19.835188+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:24:29.914230Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections for
+      when to use/not use CodeQL, installation steps, and core workflows. It provides
+      specific commands and a helpful comparison table for different languages. However,
+      the custom query section is incomplete (ends abruptly), which slightly reduces
+      clarity and completeness.
+  usefulness:
+    score: 5.0
+    reasoning: This is highly practical for real-world security auditing tasks, covering
+      the complete workflow from installation to analysis. The inclusion of Trail
+      of Bits queries and SARIF/CSV output options adds significant value for professional
+      security work. The interprocedural analysis explanation effectively communicates
+      CodeQL's unique value proposition compared to simpler tools.
+  overall_rating: 4.75
+  summary: An excellent, production-ready security skill prompt that comprehensively
+    covers CodeQL usage with practical commands and clear guidance, though it needs
+    completion of the custom query section.
+  tags_suggested:
+  - security
+  - static-analysis
+  - codeql
+  - vulnerability-detection
+  - data-flow-analysis
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.789698Z'
+indexed_at: '2026-01-19T01:30:36.789703Z'
+---

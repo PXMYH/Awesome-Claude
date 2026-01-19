@@ -1,0 +1,69 @@
+---
+id: finding-duplicate-functions
+slug: finding-duplicate-functions
+name: Finding Duplicate-Intent Functions
+description: '**Consolidating without tests**: Before deleting duplicates, ensure
+  the survivor has tests covering all use cases of the deleted functions.'
+prompt_preview: '---
+
+  name: finding-duplicate-functions
+
+  description: Use when auditing a codebase for semantic duplication - functions that
+  do the same thing but have different names or implementations. Especially useful
+  for LLM-generated codebases where new functions are often created rather than reusing
+  existing ones.
+
+  ---
+
+
+  # Finding Duplicate-Intent Functions
+
+
+  ## Overview
+
+
+  LLM-generated codebases accumulate semantic duplicates: functions that serve the
+  same purpose but were implemented independently. Classical...'
+full_prompt_length: 4794
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: obra/superpowers-lab
+source_path: skills/finding-duplicate-functions/SKILL.md
+source_url: https://github.com/obra/superpowers-lab/blob/main/skills/finding-duplicate-functions/SKILL.md
+fetched_at: '2026-01-19T00:20:08.263161+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:20:06.178361Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear phases, specific
+      tool references, and a visual workflow diagram. It provides concrete commands,
+      options, and expected outputs. However, it's incomplete (cuts off mid-sentence
+      in the High-Risk Duplicate Zones table) and assumes external scripts exist without
+      providing their implementation details.
+  usefulness:
+    score: 5.0
+    reasoning: This addresses a real and painful problem in LLM-generated codebases
+      where semantic duplicates proliferate. The two-phase approach (classical + LLM
+      intent analysis) is sophisticated and practical. The workflow is actionable
+      with clear steps, and the focus on high-risk zones provides targeted value for
+      developers.
+  overall_rating: 4.75
+  summary: A highly practical and well-designed skill for detecting semantic duplicates
+    in codebases, particularly valuable for LLM-generated code, though the prompt
+    itself is incomplete and relies on external scripts.
+  tags_suggested:
+  - code-analysis
+  - refactoring
+  - duplicate-detection
+  - LLM-generated-code
+  - code-audit
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.707110Z'
+indexed_at: '2026-01-19T01:30:36.707115Z'
+---

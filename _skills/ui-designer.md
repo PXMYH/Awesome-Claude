@@ -26,26 +26,43 @@ category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/ui-designer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/ui-designer.md
-fetched_at: '2026-01-18T03:48:48.185315Z'
+fetched_at: '2026-01-19T00:19:31.832724+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:50:22.980333Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:49:13.015302Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d8890 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt demonstrates strong clarity and specificity with a well-structured
+      execution flow, mandatory context gathering protocol, and detailed coverage
+      of design considerations like accessibility, performance, and cross-platform
+      consistency. However, it contains some redundancy (e.g., listing 'Design critique
+      process' and 'Performance considerations' as separate sections when they're
+      already covered in the execution flow) and could benefit from more explicit
+      edge case handling for scenarios where design context is unavailable or incomplete.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d8890 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: This prompt provides high real-world value for UI/UX design tasks,
+      offering a comprehensive framework that covers the entire design lifecycle from
+      context gathering to handoff. The inclusion of specific protocols for communication
+      with context-manager and structured status updates makes it actionable for development
+      workflows. However, its usefulness is somewhat limited by its dependency on
+      external systems (context-manager) and the assumption of access to design tools
+      like Figma, which may not be available in all environments.
+  overall_rating: 4.25
+  summary: A well-structured, professional UI design prompt with excellent protocol
+    design and comprehensive coverage of design considerations, though slightly hampered
+    by redundancy and external system dependencies.
+  tags_suggested:
+  - ui-design
+  - design-systems
+  - accessibility
+  - design-protocol
+  - visual-design
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.157352Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.122489Z'
 ---

@@ -22,30 +22,42 @@ prompt_preview: '---
 full_prompt_length: 6759
 tools_mentioned: []
 category: quality-security
-category_display: Quality & Security
+category_display: Quality Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/security-auditor.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/security-auditor.md
-fetched_at: '2026-01-18T03:48:57.954275Z'
+fetched_at: '2026-01-19T00:19:42.421865+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:57:35.015772Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:59:42.223923Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fcc90 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt is well-structured with clear sections and comprehensive
+      checklists covering various audit domains. However, it lacks specific instructions
+      on how to use the provided tools (Read, Grep, Glob) and the workflow is incomplete,
+      stopping abruptly at 'Configure tools' without finishing the audit execution
+      phases.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fcc90 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The skill provides a valuable framework for security auditing with
+      extensive coverage of compliance frameworks, audit areas, and evidence collection.
+      It offers practical checklists and structured approaches that would help users
+      conduct thorough security assessments and identify vulnerabilities systematically.
+  overall_rating: 3.75
+  summary: A comprehensive security auditor prompt with strong domain coverage and
+    practical checklists, though it needs completion of the workflow and clearer tool
+    usage instructions to be fully operational.
+  tags_suggested:
+  - security-audit
+  - compliance
+  - risk-assessment
+  - vulnerability-assessment
+  - governance
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.348617Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.322493Z'
 ---

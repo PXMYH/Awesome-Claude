@@ -21,35 +21,48 @@ prompt_preview: '---
 full_prompt_length: 4559
 tools_mentioned:
 - WebSocket
+- Angular
+- websocket
+- TypeScript
 - React
 - Vue
-- TypeScript
-- websocket
-- Angular
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/frontend-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/frontend-developer.md
-fetched_at: '2026-01-18T03:48:47.320107Z'
+fetched_at: '2026-01-19T00:19:30.924975+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:49:42.976883Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:48:07.898876Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d8790 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is highly structured and clear, providing a mandatory context-gathering
+      step and a detailed execution flow. It specifies tools, communication protocols,
+      and deliverables, which reduces ambiguity. However, the prompt is incomplete
+      (cut off mid-sentence in the deliverables section), which slightly impacts its
+      completeness and could lead to confusion about final requirements.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d8790 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: This prompt is practical for real-world frontend development, emphasizing
+      maintainability, testing, and accessibility. It guides the agent through a logical
+      workflow from context discovery to handoff, which is valuable for complex projects.
+      However, the incomplete deliverables list and some overly specific requirements
+      (like exact TypeScript config) may limit its broad applicability without customization.
+  overall_rating: 4.25
+  summary: A well-structured and actionable prompt for frontend development tasks,
+    though its incomplete state reduces its immediate usability and requires completion
+    for full effectiveness.
+  tags_suggested:
+  - frontend
+  - react
+  - typescript
+  - development workflow
+  - accessibility
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.138996Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.103926Z'

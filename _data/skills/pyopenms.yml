@@ -1,0 +1,55 @@
+id: pyopenms
+slug: pyopenms
+name: PyOpenMS
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: pyopenms\ndescription: Complete mass spectrometry analysis\
+  \ platform. Use for proteomics workflows feature detection, peptide identification,\
+  \ protein quantification, and complex LC-MS/MS pipelines. Supports extensive file\
+  \ formats and algorithms. Best for proteomics, comprehensive MS data processing.\
+  \ For simple spectral comparison and metabolite ID use matchms.\nlicense: 3 clause\
+  \ BSD license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# PyOpenMS\n\n\
+  ## Overview\n\nPyOpenMS provides Python bin..."
+full_prompt_length: 6448
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/pyopenms/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pyopenms/SKILL.md
+fetched_at: '2026-01-19T00:19:21.710698+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:39:49.990292Z'
+  prompt_quality:
+    score: 3.5
+    reasoning: The prompt is well-structured with clear sections and provides good
+      overview of PyOpenMS capabilities. However, it contains incomplete code examples
+      (e.g., the Quick Start workflow ends abruptly with 'exp.getSpec' without completion)
+      and references external documentation files that don't exist in the prompt context,
+      which could confuse users.
+  usefulness:
+    score: 4.0
+    reasoning: The prompt provides practical value for proteomics and metabolomics
+      researchers by covering essential workflows like file I/O, feature detection,
+      and peptide identification. It includes installation instructions and core data
+      structures, making it actionable for real-world mass spectrometry analysis tasks.
+  overall_rating: 3.75
+  summary: A useful scientific skill prompt for mass spectrometry analysis that covers
+    key proteomics workflows, though it needs completion of code examples and resolution
+    of references to external documentation.
+  tags_suggested:
+  - proteomics
+  - mass-spectrometry
+  - metabolomics
+  - bioinformatics
+  - LC-MS
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.940290Z'
+indexed_at: '2026-01-19T01:30:35.940295Z'

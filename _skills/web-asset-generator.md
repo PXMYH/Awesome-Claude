@@ -1,0 +1,72 @@
+---
+id: web-asset-generator
+slug: web-asset-generator
+name: Web Asset Generator
+description: '**For emoji features**, install both:'
+prompt_preview: '---
+
+  name: web-asset-generator
+
+  description: Generate web assets including favicons, app icons (PWA), and social
+  media meta images (Open Graph) for Facebook, Twitter, WhatsApp, and LinkedIn. Use
+  when users need icons, favicons, social sharing images, or Open Graph images from
+  logos or text slogans. Handles image resizing, text-to-image generation, and provides
+  proper HTML meta tags.
+
+  ---
+
+
+  # Web Asset Generator
+
+
+  Generate professional web assets from logos or text slogans, including favicons,
+  app ico...'
+full_prompt_length: 26385
+tools_mentioned:
+- Python
+- python
+- vue
+- typescript
+- Vue
+category: community
+category_display: Community
+source_repo: alonw0/web-asset-generator
+source_path: skills/web-asset-generator/SKILL.md
+source_url: https://github.com/alonw0/web-asset-generator/blob/main/skills/web-asset-generator/SKILL.md
+fetched_at: '2026-01-19T00:19:56.761998+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:12:44.650590Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections, specific
+      tool usage instructions, and excellent question patterns for interactive clarification.
+      It follows best practices by emphasizing the AskUserQuestion tool for better
+      UX. The only minor limitation is the truncated Twitter description in the example,
+      but the core instructions remain comprehensive and unambiguous.
+  usefulness:
+    score: 5.0
+    reasoning: This addresses a common and practical web development need—generating
+      proper asset packages for modern websites and PWAs. It covers all major platforms
+      and asset types comprehensively, with clear actionable steps. The interactive
+      approach ensures users get exactly what they need without guesswork, making
+      it immediately valuable for developers and designers.
+  overall_rating: 4.75
+  summary: An excellent, production-ready prompt that demonstrates strong prompt engineering
+    with clear workflows, interactive UX patterns, and comprehensive coverage of web
+    asset generation needs.
+  tags_suggested:
+  - web development
+  - asset generation
+  - PWA
+  - Open Graph
+  - favicons
+  - interactive
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.570718Z'
+indexed_at: '2026-01-19T01:30:36.570729Z'
+---

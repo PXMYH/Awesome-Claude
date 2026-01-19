@@ -1,0 +1,63 @@
+---
+id: testing-handbook-skills-semgrep
+slug: testing-handbook-skills-semgrep
+name: Semgrep
+description: '- [Introduction to Semgrep - Trail of Bits Webinar](https://www.youtube.com/watch?v=yKQlTbVlf0Q)'
+prompt_preview: "---\nname: semgrep\ntype: tool\ndescription: >\n  Semgrep is a fast\
+  \ static analysis tool for finding bugs and enforcing code standards.\n  Use when\
+  \ scanning code for security issues or integrating into CI/CD pipelines.\n---\n\n\
+  # Semgrep\n\nSemgrep is a highly efficient static analysis tool for finding low-complexity\
+  \ bugs and locating specific code patterns. Because of its ease of use, no need\
+  \ to build the code, multiple built-in rules, and convenient creation of custom\
+  \ rules, it is usually the first tool..."
+full_prompt_length: 15795
+tools_mentioned:
+- Python
+- Go
+- python
+- go
+- JavaScript
+- docker
+- javascript
+- rest
+- Docker
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/testing-handbook-skills/skills/semgrep/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/semgrep/SKILL.md
+fetched_at: '2026-01-19T00:20:23.536486+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:27:50.346503Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections, comprehensive
+      coverage, and practical examples. It follows excellent prompt engineering practices
+      with logical flow from introduction to workflow. The only minor limitation is
+      the truncated ending, which slightly impacts completeness but doesn't diminish
+      the overall quality.
+  usefulness:
+    score: 5.0
+    reasoning: This is highly practical and immediately actionable for developers
+      and security professionals. It covers real-world scenarios, provides specific
+      commands, installation methods, and workflow guidance. The inclusion of alternatives
+      and when to use them adds significant value for decision-making.
+  overall_rating: 4.75
+  summary: An outstanding skill prompt that provides comprehensive, practical guidance
+    for using Semgrep effectively, with excellent structure, clear instructions, and
+    real-world applicability.
+  tags_suggested:
+  - security
+  - static-analysis
+  - code-scanning
+  - devops
+  - ci-cd
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.854286Z'
+indexed_at: '2026-01-19T01:30:36.854291Z'
+---

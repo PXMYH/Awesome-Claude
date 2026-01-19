@@ -1,0 +1,59 @@
+id: get-available-resources
+slug: get-available-resources
+name: Get Available Resources
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: '---
+
+  name: get-available-resources
+
+  description: This skill should be used at the start of any computationally intensive
+  scientific task to detect and report available system resources (CPU cores, GPUs,
+  memory, disk space). It creates a JSON file with resource information and strategic
+  recommendations that inform computational approach decisions such as whether to
+  use parallel processing (joblib, multiprocessing), out-of-core computing (Dask,
+  Zarr), GPU acceleration (PyTorch, JAX), or memory-effic...'
+full_prompt_length: 10648
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/get-available-resources/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/get-available-resources/SKILL.md
+fetched_at: '2026-01-19T00:19:12.381548+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:29:53.399703Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and well-structured with comprehensive
+      documentation of when and how to use the skill. It provides specific examples,
+      detailed output format, and clear scope. However, it references external scripts
+      (scripts/detect_resources.py) that aren't defined in the prompt itself, creating
+      a dependency gap that could cause implementation issues.
+  usefulness:
+    score: 5.0
+    reasoning: This skill addresses a critical need in scientific computing by proactively
+      detecting resource constraints before computationally intensive tasks. It enables
+      informed decisions about parallel processing, memory management, and hardware
+      acceleration, preventing runtime failures and optimizing performance. The strategic
+      recommendations are highly actionable for real-world development scenarios.
+  overall_rating: 4.75
+  summary: An excellent, highly practical skill that provides essential resource detection
+    for scientific computing, though it requires implementation of the referenced
+    detection script to be fully functional.
+  tags_suggested:
+  - scientific computing
+  - resource management
+  - system monitoring
+  - performance optimization
+  - hardware detection
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.715025Z'
+indexed_at: '2026-01-19T01:30:35.715033Z'

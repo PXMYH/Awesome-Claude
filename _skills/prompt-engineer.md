@@ -22,31 +22,45 @@ prompt_preview: '---
 full_prompt_length: 6532
 tools_mentioned:
 - ReAct
-category: 05-data-ai
-category_display: 05 Data Ai
+category: data-ai
+category_display: Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/prompt-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/prompt-engineer.md
-fetched_at: '2026-01-18T03:49:00.346679Z'
+fetched_at: '2026-01-19T00:19:45.046192+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:59:19.023944Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:02:21.788650Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6eff10 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt demonstrates strong clarity and specificity with well-structured
+      sections covering prompt architecture, patterns, optimization, and evaluation
+      frameworks. It follows best practices by including systematic checklists and
+      workflows. However, the implementation phase is incomplete (ends abruptly with
+      'Implementation'), which reduces completeness and could cause confusion in execution.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6eff10 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: This prompt provides substantial real-world value for prompt engineering
+      tasks, offering comprehensive frameworks for optimization, testing, and production
+      deployment. The structured approach with specific metrics and checklists makes
+      it highly actionable for developers. The incomplete implementation section slightly
+      reduces practical utility, but the overall framework remains robust for professional
+      prompt engineering workflows.
+  overall_rating: 4.25
+  summary: A well-structured prompt engineering skill with strong frameworks and best
+    practices, though incomplete in the implementation phase, making it highly useful
+    for systematic prompt development with minor execution gaps.
+  tags_suggested:
+  - prompt-engineering
+  - llm-optimization
+  - production-systems
+  - evaluation-frameworks
+  - ai-development
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.393553Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.369670Z'
 ---

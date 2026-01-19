@@ -1,0 +1,57 @@
+---
+id: deeptools
+slug: deeptools
+name: 'deepTools: NGS Data Analysis Toolkit'
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: deeptools\ndescription: NGS analysis toolkit. BAM to bigWig\
+  \ conversion, QC (correlation, PCA, fingerprints), heatmaps/profiles (TSS, peaks),\
+  \ for ChIP-seq, RNA-seq, ATAC-seq visualization.\nlicense: BSD license\nmetadata:\n\
+  \    skill-author: K-Dense Inc.\n---\n\n# deepTools: NGS Data Analysis Toolkit\n\
+  \n## Overview\n\ndeepTools is a comprehensive suite of Python command-line tools\
+  \ designed for processing and analyzing high-throughput sequencing data. Use deepTools\
+  \ to perform quality control, normal..."
+full_prompt_length: 18783
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/deeptools/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/deeptools/SKILL.md
+fetched_at: '2026-01-19T00:19:08.204348+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:26:12.505714Z'
+  prompt_quality:
+    score: 4.0
+    reasoning: The prompt is well-structured with clear sections for overview, usage
+      scenarios, and workflows. It provides specific command examples and follows
+      good prompt engineering practices with defined scope. However, it lacks explicit
+      edge case handling (e.g., missing BAM indices, large file sizes) and has incomplete
+      workflow examples that cut off mid-sentence.
+  usefulness:
+    score: 4.5
+    reasoning: This is highly practical for bioinformaticians working with NGS data,
+      covering essential tasks like BAM conversion, QC, and visualization. The workflow
+      templates and quick reference guidance provide immediate value for common ChIP-seq/ATAC-seq
+      analyses. The skill addresses real-world genomics workflows with concrete examples.
+  overall_rating: 4.25
+  summary: A well-crafted scientific skill prompt that effectively guides NGS data
+    analysis with practical workflows, though it needs completion of truncated examples
+    and more explicit error handling guidance.
+  tags_suggested:
+  - bioinformatics
+  - NGS
+  - ChIP-seq
+  - data visualization
+  - quality control
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.647503Z'
+indexed_at: '2026-01-19T01:30:35.647511Z'
+---

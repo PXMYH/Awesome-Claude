@@ -1,0 +1,56 @@
+---
+id: fix-review-fix-review
+slug: fix-review-fix-review
+name: Fix Review
+description: '- **`references/finding-matching.md`** - Strategies for matching commits
+  to findings'
+prompt_preview: "---\nname: fix-review\ndescription: >\n  Verifies that git commits\
+  \ address security audit findings without introducing bugs.\n  This skill should\
+  \ be used when the user asks to \"verify these commits fix the audit findings\"\
+  ,\n  \"check if TOB-XXX was addressed\", \"review the fix branch\", \"validate remediation\
+  \ commits\",\n  \"did these changes address the security report\", \"post-audit\
+  \ remediation review\",\n  \"compare fix commits to audit report\", or when reviewing\
+  \ commits against security audit reports.\nallow..."
+full_prompt_length: 7621
+tools_mentioned: []
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/fix-review/skills/fix-review/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/fix-review/skills/fix-review/SKILL.md
+fetched_at: '2026-01-19T00:20:17.481027+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:23:20.457120Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is highly structured with clear sections for when to use/not
+      use, rationalizations, and a detailed workflow. It provides specific input requirements
+      and status definitions. However, it is incomplete (cut off mid-sentence in Phase
+      4), which slightly impacts clarity and completeness. The rationalizations section
+      is particularly strong for preventing common evaluation errors.
+  usefulness:
+    score: 4.5
+    reasoning: 'This skill addresses a critical real-world need: verifying security
+      fixes without introducing regressions. The workflow is actionable and covers
+      key steps like report retrieval, finding extraction, and commit analysis. The
+      inclusion of specific formats (e.g., Trail of Bits) and fallback logic makes
+      it practical for diverse audit reports.'
+  overall_rating: 4.5
+  summary: A well-designed, security-focused skill that provides a systematic approach
+    to validating remediation commits, though the prompt is incomplete and would benefit
+    from finishing the workflow section.
+  tags_suggested:
+  - security
+  - audit
+  - remediation
+  - code-review
+  - git-analysis
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:36.771420Z'
+indexed_at: '2026-01-19T01:30:36.771425Z'
+---

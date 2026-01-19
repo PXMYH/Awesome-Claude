@@ -1,0 +1,59 @@
+---
+id: scientific-schematics
+slug: scientific-schematics
+name: Scientific Schematics and Diagrams
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: scientific-schematics\ndescription: Create publication-quality\
+  \ scientific diagrams using Nano Banana Pro AI with smart iterative refinement.\
+  \ Uses Gemini 3 Pro for quality review. Only regenerates if quality is below threshold\
+  \ for your document type. Specialized in neural network architectures, system diagrams,\
+  \ flowcharts, biological pathways, and complex scientific visualizations.\nallowed-tools:\
+  \ [Read, Write, Edit, Bash]\nlicense: MIT license\nmetadata:\n    skill-author:\
+  \ K-Dense Inc.\n---..."
+full_prompt_length: 24252
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/scientific-schematics/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scientific-schematics/SKILL.md
+fetched_at: '2026-01-19T00:19:24.342848+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:42:42.690597Z'
+  prompt_quality:
+    score: 3.5
+    reasoning: The prompt is well-structured with clear sections and provides specific
+      examples for different document types, which is good for clarity. However, it
+      contains significant inconsistencies and unrealistic claims, such as referencing
+      non-existent tools (Nano Banana Pro AI, Gemini 3 Pro, OpenRouter API) and a
+      script (generate_schematic.py) that likely doesn't exist in the user's environment.
+      The prompt lacks proper error handling for missing dependencies or API failures.
+  usefulness:
+    score: 2.0
+    reasoning: While the concept of generating scientific diagrams is valuable, the
+      prompt is practically unusable as described because it relies on fictional AI
+      models and tools that aren't available. The quality threshold system is conceptually
+      interesting but not implementable with the given instructions. Users would need
+      significant modification to make this work with real tools.
+  overall_rating: 2.75
+  summary: This prompt has good structural organization and clear intent but is fundamentally
+    flawed due to its reliance on non-existent AI models and tools, making it impractical
+    for real-world use without substantial modification.
+  tags_suggested:
+  - scientific-visualization
+  - diagram-generation
+  - publication-quality
+  - prompt-engineering
+  - ai-assisted
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.994312Z'
+indexed_at: '2026-01-19T01:30:35.994318Z'
+---

@@ -21,31 +21,43 @@ prompt_preview: '---
   tool confi...'
 full_prompt_length: 6948
 tools_mentioned: []
-category: 06-developer-experience
-category_display: 06 Developer Experience
+category: developer-experience
+category_display: Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/build-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/build-engineer.md
-fetched_at: '2026-01-18T03:49:00.664702Z'
+fetched_at: '2026-01-19T00:19:45.449141+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:59:27.024581Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:02:39.708160Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fd4d0 state=finished
-      raised ValueError>]'
+    score: 4.5
+    reasoning: The prompt is highly structured with clear sections and specific technical
+      categories, demonstrating strong prompt engineering practices. However, it contains
+      a truncated sentence ('Tool evalua') and lacks explicit instructions for handling
+      the communication protocol or resolving the incomplete section, which introduces
+      minor ambiguity.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fd4d0 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 5.0
+    reasoning: This prompt provides exceptional real-world value by covering comprehensive
+      build engineering topics from optimization to monorepo support, making it highly
+      actionable for developers. It includes specific metrics and checklists that
+      translate directly into measurable improvements for build systems.
+  overall_rating: 4.75
+  summary: A well-structured, highly practical prompt that excels in technical depth
+    and actionable guidance, though it requires minor fixes to address a truncated
+    section and clarify protocol execution.
+  tags_suggested:
+  - build optimization
+  - developer productivity
+  - CI/CD
+  - monorepo
+  - performance engineering
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.397020Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.373426Z'
 ---

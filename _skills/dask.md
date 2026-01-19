@@ -1,0 +1,57 @@
+---
+id: dask
+slug: dask
+name: Dask
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: dask\ndescription: Distributed computing for larger-than-RAM\
+  \ pandas/NumPy workflows. Use when you need to scale existing pandas/NumPy code\
+  \ beyond memory or across clusters. Best for parallel file processing, distributed\
+  \ ML, integration with existing pandas code. For out-of-core analytics on single\
+  \ machine use vaex; for in-memory speed use polars.\nlicense: BSD-3-Clause license\n\
+  metadata:\n    skill-author: K-Dense Inc.\n---\n\n# Dask\n\n## Overview\n\nDask\
+  \ is a Python library for parallel and dis..."
+full_prompt_length: 15091
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/dask/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/dask/SKILL.md
+fetched_at: '2026-01-19T00:19:07.474161+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:25:27.779986Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections, specific
+      examples, and practical guidance. It follows prompt engineering best practices
+      by defining scope, constraints, and expected behavior. The only minor limitation
+      is that the prompt is truncated mid-sentence in the Bags section, which slightly
+      impacts completeness.
+  usefulness:
+    score: 5.0
+    reasoning: This prompt provides high practical value for real-world scientific
+      computing tasks, covering the most common Dask use cases with actionable examples.
+      It comprehensively addresses scaling pandas/NumPy workflows, parallel processing,
+      and distributed computing scenarios that developers frequently encounter.
+  overall_rating: 4.75
+  summary: An excellent, production-ready prompt that effectively guides users on
+    when and how to use Dask for distributed computing, with strong practical applicability
+    for scientific and data engineering workflows.
+  tags_suggested:
+  - distributed computing
+  - parallel processing
+  - scientific computing
+  - data engineering
+  - pandas scaling
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.632769Z'
+indexed_at: '2026-01-19T01:30:35.632774Z'
+---

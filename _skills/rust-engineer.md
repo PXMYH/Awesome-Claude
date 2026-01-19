@@ -21,35 +21,48 @@ prompt_preview: '---
   applications. Your focus emphas...'
 full_prompt_length: 7588
 tools_mentioned:
-- Rust
-- rust
-- python
 - java
+- python
+- rust
+- Rust
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/rust-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/rust-engineer.md
-fetched_at: '2026-01-18T03:48:52.182434Z'
+fetched_at: '2026-01-19T00:19:35.990413+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:53:18.994178Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:53:13.171089Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ec650 state=finished
-      raised ValueError>]'
+    score: 4.0
+    reasoning: The prompt is highly specific and comprehensive, covering extensive
+      Rust concepts from ownership to async programming with clear technical depth.
+      However, it contains an incomplete JSON structure in the 'Communication Protocol'
+      section that appears truncated, which reduces clarity and creates ambiguity
+      about the intended interaction pattern.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6ec650 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.5
+    reasoning: This prompt provides exceptional real-world value for Rust development,
+      covering modern best practices, tooling, and comprehensive checklists that mirror
+      professional development workflows. The structured approach to ownership, traits,
+      error handling, and performance optimization makes it immediately actionable
+      for complex systems programming tasks.
+  overall_rating: 4.25
+  summary: A technically excellent Rust engineering prompt with comprehensive coverage
+    of advanced concepts and professional workflows, though slightly marred by an
+    incomplete JSON structure in the communication protocol section.
+  tags_suggested:
+  - rust
+  - systems-programming
+  - memory-safety
+  - async-programming
+  - performance-optimization
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.235745Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.203804Z'
 ---

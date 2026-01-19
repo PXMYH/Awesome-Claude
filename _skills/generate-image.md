@@ -1,0 +1,56 @@
+---
+id: generate-image
+slug: generate-image
+name: Generate Image
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: generate-image\ndescription: Generate or edit images using\
+  \ AI models (FLUX, Gemini). Use for general-purpose image generation including photos,\
+  \ illustrations, artwork, visual assets, concept art, and any image that is not\
+  \ a technical diagram or schematic. For flowcharts, circuits, pathways, and technical\
+  \ diagrams, use the scientific-schematics skill instead.\nlicense: MIT license\n\
+  compatibility: Requires an OpenRouter API key\nmetadata:\n    skill-author: K-Dense\
+  \ Inc.\n---\n\n# Generate Image..."
+full_prompt_length: 7776
+tools_mentioned:
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/generate-image/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/generate-image/SKILL.md
+fetched_at: '2026-01-19T00:19:11.641362+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:28:58.936889Z'
+  prompt_quality:
+    score: 3.5
+    reasoning: The prompt is well-structured with clear sections and practical examples,
+      but it's incomplete (cut off mid-sentence in the parameters section). It provides
+      good specificity on when to use the skill vs alternatives, and includes helpful
+      setup instructions. However, the truncation creates ambiguity about full functionality.
+  usefulness:
+    score: 4.0
+    reasoning: This is a practical image generation skill with real-world applications
+      for creating visual assets, concept art, and photo editing. It covers common
+      usage patterns comprehensively with concrete examples. The integration with
+      OpenRouter provides access to multiple high-quality models, though the dependency
+      on external API keys adds setup complexity.
+  overall_rating: 3.75
+  summary: A solid image generation skill with clear structure and practical examples,
+    but the incomplete parameter documentation reduces its effectiveness. The skill
+    is useful for general-purpose image creation and editing tasks.
+  tags_suggested:
+  - image-generation
+  - creative-tools
+  - openrouter
+  - visual-assets
+  - concept-art
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.699695Z'
+indexed_at: '2026-01-19T01:30:35.699701Z'
+---

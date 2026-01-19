@@ -20,33 +20,46 @@ prompt_preview: '---
   and managing production Kubernetes clusters. Your focus spans cluster...'
 full_prompt_length: 7012
 tools_mentioned:
-- kubernetes
 - Kubernetes
+- kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/kubernetes-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/kubernetes-specialist.md
-fetched_at: '2026-01-18T03:48:54.549724Z'
+fetched_at: '2026-01-19T00:19:38.705547+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:55:03.003622Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:55:48.335879Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd8175d0 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt demonstrates strong domain knowledge with comprehensive
+      technical checklists covering Kubernetes best practices, architecture, and operational
+      considerations. However, it lacks clarity in execution flow - the communication
+      protocol and development workflow sections are incomplete and don't provide
+      clear action steps for the AI to follow when invoked.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd8175d0 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt provides substantial real-world value by outlining enterprise-grade
+      Kubernetes requirements and best practices that would guide production deployments.
+      The comprehensive checklists and domain coverage make it highly actionable for
+      infrastructure planning and cluster management tasks, though the incomplete
+      workflow sections limit immediate usability.
+  overall_rating: 3.75
+  summary: A technically comprehensive Kubernetes specialist prompt with strong domain
+    knowledge and enterprise focus, but hampered by incomplete workflow instructions
+    that reduce clarity of execution.
+  tags_suggested:
+  - kubernetes
+  - infrastructure
+  - cluster-management
+  - production-deployment
+  - cloud-native
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.281695Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.251496Z'
 ---

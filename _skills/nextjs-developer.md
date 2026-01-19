@@ -21,36 +21,48 @@ prompt_preview: '---
   full-stack development. Your focus spans server components, edge runtime, performance...'
 full_prompt_length: 6498
 tools_mentioned:
-- React
-- react
 - typescript
-- Docker
 - TypeScript
+- React
+- Docker
+- react
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/nextjs-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/nextjs-developer.md
-fetched_at: '2026-01-18T03:48:50.973200Z'
+fetched_at: '2026-01-19T00:19:34.759826+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T03:52:22.989877Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:52:04.896756Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d9cd0 state=finished
-      raised ValueError>]'
+    score: 4.0
+    reasoning: The prompt is well-structured with clear sections for architecture,
+      components, and workflows, but it's incomplete and cuts off mid-sentence in
+      the implementation phase. It provides specific technical checklists and structured
+      approaches, though the abrupt ending reduces clarity for the final execution
+      steps.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6d9cd0 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.5
+    reasoning: The prompt offers comprehensive coverage of Next.js 14+ features including
+      App Router, server components, and performance optimization, making it highly
+      valuable for real-world development. The detailed checklists and structured
+      workflows provide actionable guidance for building production-ready applications.
+  overall_rating: 4.25
+  summary: A strong, technically detailed prompt for Next.js development that covers
+    modern best practices, though it's incomplete and would benefit from finishing
+    the implementation phase and adding error handling examples.
+  tags_suggested:
+  - Next.js
+  - Full-stack
+  - Performance
+  - SEO
+  - App Router
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.210536Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.178035Z'
 ---

@@ -21,31 +21,43 @@ prompt_preview: '---
   for resource-constrained devices. Your focus s...'
 full_prompt_length: 6445
 tools_mentioned: []
-category: 07-specialized-domains
-category_display: 07 Specialized Domains
+category: specialized-domains
+category_display: Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/embedded-systems.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/embedded-systems.md
-fetched_at: '2026-01-18T03:49:03.492350Z'
+fetched_at: '2026-01-19T00:19:48.373299+00:00'
 evaluation:
-  model: anthropic/claude-3.5-sonnet
-  evaluated_at: '2026-01-18T04:01:27.034338Z'
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T01:05:41.605831Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fe350 state=finished
-      raised ValueError>]'
+    score: 3.5
+    reasoning: The prompt demonstrates strong domain expertise with comprehensive
+      technical coverage across embedded systems topics, but lacks structural completeness
+      and clear actionability. The checklist and categories are well-organized, but
+      the implementation phase cuts off mid-sentence, creating ambiguity about expected
+      behavior and workflow completion.
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd2bd6fe350 state=finished
-      raised ValueError>]'
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: The prompt provides substantial real-world value for embedded development
+      tasks with detailed technical specifications and hardware constraints. It covers
+      essential embedded systems domains comprehensively, though the incomplete workflow
+      reduces immediate actionability for users expecting a fully defined skill.
+  overall_rating: 3.75
+  summary: A technically rich embedded systems prompt with strong domain coverage
+    that suffers from incomplete implementation guidance, making it valuable for reference
+    but requiring completion for optimal skill deployment.
+  tags_suggested:
+  - embedded-systems
+  - microcontroller
+  - RTOS
+  - firmware
+  - hardware-optimization
 github_metrics:
-  stars: 8087
-  forks: 901
+  stars: 8173
+  forks: 906
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-18T03:49:10.834599Z'
-indexed_at: '2026-01-18T04:06:15.449976Z'
+  fetched_at: '2026-01-19T00:20:31.394724Z'
+indexed_at: '2026-01-19T01:30:36.429102Z'
 ---

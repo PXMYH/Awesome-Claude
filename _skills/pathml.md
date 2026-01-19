@@ -1,0 +1,58 @@
+---
+id: pathml
+slug: pathml
+name: PathML
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: pathml\ndescription: Full-featured computational pathology\
+  \ toolkit. Use for advanced WSI analysis including multiplexed immunofluorescence\
+  \ (CODEX, Vectra), nucleus segmentation, tissue graph construction, and ML model\
+  \ training on pathology data. Supports 160+ slide formats. For simple tile extraction\
+  \ from H&E slides, histolab may be simpler.\nlicense: GPL-2.0 license\nmetadata:\n\
+  \    skill-author: K-Dense Inc.\n---\n\n# PathML\n\n## Overview\n\nPathML is a comprehensive\
+  \ Python toolkit for computat..."
+full_prompt_length: 8186
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/pathml/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pathml/SKILL.md
+fetched_at: '2026-01-19T00:19:18.346673+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-19T00:36:32.649878Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections, specific
+      capability descriptions, and organized reference links. It follows best practices
+      by defining scope, use cases, and core capabilities upfront. However, it lacks
+      explicit edge case handling (e.g., memory constraints, format compatibility
+      issues) and fallback guidance for when the skill might not be appropriate.
+  usefulness:
+    score: 5.0
+    reasoning: This is highly practical for computational pathology workflows, covering
+      real-world tasks like WSI analysis, multiplex imaging, and ML model training.
+      The comprehensive capability breakdown with specific model names (HoVer-Net,
+      HACTNet) and platform support (CODEX, Vectra) makes it immediately actionable
+      for researchers and developers in the field.
+  overall_rating: 4.75
+  summary: An outstanding, production-ready skill prompt that provides comprehensive
+    coverage of computational pathology workflows with clear structure and practical
+    guidance for advanced WSI analysis.
+  tags_suggested:
+  - computational-pathology
+  - whole-slide-imaging
+  - multiplex-imaging
+  - graph-neural-networks
+  - histopathology
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-19T01:30:35.872826Z'
+indexed_at: '2026-01-19T01:30:35.872831Z'
+---
