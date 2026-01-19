@@ -21,12 +21,12 @@ prompt_preview: '---
   into modern architectures. Your fo...'
 full_prompt_length: 6888
 tools_mentioned: []
-category: developer-experience
-category_display: Developer Experience
+category: 06-developer-experience
+category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/legacy-modernizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/legacy-modernizer.md
-fetched_at: '2026-01-19T00:19:46.518893+00:00'
+fetched_at: '2026-01-19T03:49:07.893101Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:03:56.440899Z'
@@ -52,10 +52,10 @@ evaluation:
   - risk-mitigation
   - developer-experience
 github_metrics:
-  stars: 8173
-  forks: 906
+  stars: 8184
+  forks: 908
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-19T00:20:31.394724Z'
-indexed_at: '2026-01-19T01:30:36.395383Z'
+  fetched_at: '2026-01-19T03:49:24.003810Z'
+indexed_at: '2026-01-19T03:49:25.264533Z'
 ---

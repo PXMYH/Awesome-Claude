@@ -22,12 +22,12 @@ prompt_preview: '---
 full_prompt_length: 6664
 tools_mentioned:
 - rest
-category: meta-orchestration
-category_display: Meta Orchestration
+category: 09-meta-orchestration
+category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/context-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/context-manager.md
-fetched_at: '2026-01-19T00:19:53.212083+00:00'
+fetched_at: '2026-01-19T03:49:13.019025Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:10:07.138978Z'
@@ -57,10 +57,10 @@ evaluation:
   - data architecture
   - performance optimization
 github_metrics:
-  stars: 8173
-  forks: 906
+  stars: 8184
+  forks: 908
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-19T00:20:31.394724Z'
-indexed_at: '2026-01-19T01:30:36.518138Z'
+  fetched_at: '2026-01-19T03:49:24.003810Z'
+indexed_at: '2026-01-19T03:49:25.387723Z'
 ---

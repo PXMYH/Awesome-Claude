@@ -21,12 +21,12 @@ prompt_preview: '---
   compliant payment systems. Your focus sp...'
 full_prompt_length: 6812
 tools_mentioned: []
-category: specialized-domains
-category_display: Specialized Domains
+category: 07-specialized-domains
+category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/payment-integration.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/payment-integration.md
-fetched_at: '2026-01-19T00:19:49.515503+00:00'
+fetched_at: '2026-01-19T03:49:10.263468Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:06:56.349590Z'
@@ -52,10 +52,10 @@ evaluation:
   - security
   - API integration
 github_metrics:
-  stars: 8173
-  forks: 906
+  stars: 8184
+  forks: 908
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-19T00:20:31.394724Z'
-indexed_at: '2026-01-19T01:30:36.451547Z'
+  fetched_at: '2026-01-19T03:49:24.003810Z'
+indexed_at: '2026-01-19T03:49:25.319768Z'
 ---

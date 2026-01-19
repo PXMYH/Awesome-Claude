@@ -21,16 +21,16 @@ prompt_preview: '---
   highly reliable, scalable systems. Your focus spans SLI/SLO management,...'
 full_prompt_length: 6870
 tools_mentioned:
-- Python
-- Kubernetes
-- kubernetes
 - Go
+- Python
+- kubernetes
+- Kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/sre-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/sre-engineer.md
-fetched_at: '2026-01-19T00:19:39.443792+00:00'
+fetched_at: '2026-01-19T03:49:02.254163Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:56:37.285476Z'
@@ -56,10 +56,10 @@ evaluation:
   - automation
   - chaos-engineering
 github_metrics:
-  stars: 8173
-  forks: 906
+  stars: 8184
+  forks: 908
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-19T00:20:31.394724Z'
-indexed_at: '2026-01-19T01:30:36.267028Z'
+  fetched_at: '2026-01-19T03:49:24.003810Z'
+indexed_at: '2026-01-19T03:49:25.135090Z'
 ---

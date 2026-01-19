@@ -20,12 +20,12 @@ prompt_preview: '---
 full_prompt_length: 6959
 tools_mentioned:
 - Python
-category: data-ai
-category_display: Data Ai
+category: 05-data-ai
+category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/data-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/data-analyst.md
-fetched_at: '2026-01-19T00:19:43.211828+00:00'
+fetched_at: '2026-01-19T03:49:05.249953Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:00:14.927726Z'
@@ -54,9 +54,9 @@ evaluation:
   - dashboard-development
   - stakeholder-communication
 github_metrics:
-  stars: 8173
-  forks: 906
+  stars: 8184
+  forks: 908
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-19T00:20:31.394724Z'
-indexed_at: '2026-01-19T01:30:36.333451Z'
+  fetched_at: '2026-01-19T03:49:24.003810Z'
+indexed_at: '2026-01-19T03:49:25.202075Z'

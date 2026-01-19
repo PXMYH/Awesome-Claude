@@ -21,15 +21,15 @@ prompt_preview: '---
   and low-level opt...'
 full_prompt_length: 7528
 tools_mentioned:
-- java
-- python
 - rust
+- python
+- java
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/cpp-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/cpp-pro.md
-fetched_at: '2026-01-19T00:19:32.585611+00:00'
+fetched_at: '2026-01-19T03:48:56.611985Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:49:51.460300Z'
@@ -60,10 +60,10 @@ evaluation:
   - modern-cpp
   - template-metaprogramming
 github_metrics:
-  stars: 8173
-  forks: 906
+  stars: 8184
+  forks: 908
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-19T00:20:31.394724Z'
-indexed_at: '2026-01-19T01:30:36.133954Z'
+  fetched_at: '2026-01-19T03:49:24.003810Z'
+indexed_at: '2026-01-19T03:49:24.999964Z'
 ---

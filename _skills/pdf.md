@@ -31,11 +31,11 @@ tools_mentioned:
 - python
 - JavaScript
 category: official
-category_display: Official
+category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/pdf/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md
-fetched_at: '2026-01-19T00:19:58.565948+00:00'
+fetched_at: '2026-01-19T03:49:17.607654Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:14:25.481483Z'
@@ -64,10 +64,10 @@ evaluation:
   - text-extraction
   - table-extraction
 github_metrics:
-  stars: 44557
-  forks: 4148
-  open_issues: 166
+  stars: 44822
+  forks: 4181
+  open_issues: 168
   last_commit: '2025-12-20'
-  fetched_at: '2026-01-19T00:20:32.039127Z'
-indexed_at: '2026-01-19T01:30:36.603564Z'
+  fetched_at: '2026-01-19T03:49:24.381763Z'
+indexed_at: '2026-01-19T03:49:25.469220Z'
 ---

@@ -21,21 +21,22 @@ prompt_preview: '---
   REST...'
 full_prompt_length: 6513
 tools_mentioned:
-- Python
-- WebSocket
-- GraphQL
-- Redis
+- pytest
 - python
+- Redis
+- REST
+- Python
+- redis
 - django
 - Django
-- redis
-- REST
+- WebSocket
+- GraphQL
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/django-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/django-developer.md
-fetched_at: '2026-01-19T00:19:32.932020+00:00'
+fetched_at: '2026-01-19T03:48:56.935210Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:50:13.611701Z'
@@ -63,10 +64,10 @@ evaluation:
   - security
   - performance-optimization
 github_metrics:
-  stars: 8173
-  forks: 906
+  stars: 8184
+  forks: 908
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-19T00:20:31.394724Z'
-indexed_at: '2026-01-19T01:30:36.141476Z'
+  fetched_at: '2026-01-19T03:49:24.003810Z'
+indexed_at: '2026-01-19T03:49:25.007777Z'
 ---

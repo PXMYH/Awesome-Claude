@@ -21,16 +21,16 @@ prompt_preview: '---
   and server-si...'
 full_prompt_length: 7362
 tools_mentioned:
-- WebSocket
-- rust
 - Rust
+- rust
 - react
+- WebSocket
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/swift-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/swift-expert.md
-fetched_at: '2026-01-19T00:19:36.535151+00:00'
+fetched_at: '2026-01-19T03:48:59.999826Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:53:51.973499Z'
@@ -59,10 +59,10 @@ evaluation:
   - protocol oriented
   - server side swift
 github_metrics:
-  stars: 8173
-  forks: 906
+  stars: 8184
+  forks: 908
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-19T00:20:31.394724Z'
-indexed_at: '2026-01-19T01:30:36.214884Z'
+  fetched_at: '2026-01-19T03:49:24.003810Z'
+indexed_at: '2026-01-19T03:49:25.083184Z'
 ---

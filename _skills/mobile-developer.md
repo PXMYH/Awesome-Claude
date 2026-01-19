@@ -12,18 +12,19 @@ prompt_preview: "---\nname: mobile-developer\ndescription: Cross-platform mobile
   \ experiences while maximizing..."
 full_prompt_length: 10961
 tools_mentioned:
-- GraphQL
 - SQLite
-- TypeScript
+- Jest
 - React
-- rest
 - REST
+- rest
+- TypeScript
+- GraphQL
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/mobile-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/mobile-developer.md
-fetched_at: '2026-01-19T00:19:31.652901+00:00'
+fetched_at: '2026-01-19T03:48:55.843894Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:49:02.535915Z'
@@ -52,10 +53,10 @@ evaluation:
   - Flutter
   - performance optimization
 github_metrics:
-  stars: 8173
-  forks: 906
+  stars: 8184
+  forks: 908
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-19T00:20:31.394724Z'
-indexed_at: '2026-01-19T01:30:36.118798Z'
+  fetched_at: '2026-01-19T03:49:24.003810Z'
+indexed_at: '2026-01-19T03:49:24.984037Z'
 ---

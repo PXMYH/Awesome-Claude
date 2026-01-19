@@ -20,20 +20,20 @@ prompt_preview: '---
   Your focus spans Rails conventions, Hotwire for reactive UIs, background job process...'
 full_prompt_length: 6372
 tools_mentioned:
-- WebSocket
-- Kubernetes
-- GraphQL
-- Redis
-- Ruby
-- ruby
-- redis
 - Docker
+- Redis
+- redis
+- ruby
+- Ruby
+- Kubernetes
+- WebSocket
+- GraphQL
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/rails-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/rails-expert.md
-fetched_at: '2026-01-19T00:19:35.635223+00:00'
+fetched_at: '2026-01-19T03:48:59.201587Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:52:53.236069Z'
@@ -62,10 +62,10 @@ evaluation:
   - Testing
   - Architecture
 github_metrics:
-  stars: 8173
-  forks: 906
+  stars: 8184
+  forks: 908
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-19T00:20:31.394724Z'
-indexed_at: '2026-01-19T01:30:36.196248Z'
+  fetched_at: '2026-01-19T03:49:24.003810Z'
+indexed_at: '2026-01-19T03:49:25.064064Z'
 ---
