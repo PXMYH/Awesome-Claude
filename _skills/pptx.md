@@ -28,16 +28,16 @@ prompt_preview: '---
   fi...'
 full_prompt_length: 25533
 tools_mentioned:
-- react
-- rust
 - python
 - JavaScript
+- rust
+- react
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/pptx/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/pptx/SKILL.md
-fetched_at: '2026-01-19T03:49:17.838630Z'
+fetched_at: '2026-01-20T03:43:12.813678Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:14:39.890747Z'
@@ -66,10 +66,10 @@ evaluation:
   - presentation
   - document-processing
 github_metrics:
-  stars: 44822
-  forks: 4181
-  open_issues: 168
+  stars: 45847
+  forks: 4315
+  open_issues: 169
   last_commit: '2025-12-20'
-  fetched_at: '2026-01-19T03:49:24.381763Z'
-indexed_at: '2026-01-19T03:49:25.472815Z'
+  fetched_at: '2026-01-20T03:43:25.558111Z'
+indexed_at: '2026-01-20T03:43:26.912904Z'
 ---

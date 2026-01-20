@@ -26,7 +26,7 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/llm-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/llm-architect.md
-fetched_at: '2026-01-19T03:49:05.850443Z'
+fetched_at: '2026-01-20T03:42:49.707374Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:00:57.825344Z'
@@ -57,10 +57,10 @@ evaluation:
   - optimization
   - rag-systems
 github_metrics:
-  stars: 8184
-  forks: 908
+  stars: 8286
+  forks: 917
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-19T03:49:24.003810Z'
-indexed_at: '2026-01-19T03:49:25.216763Z'
+  fetched_at: '2026-01-20T03:43:24.910508Z'
+indexed_at: '2026-01-20T03:43:26.690829Z'
 ---

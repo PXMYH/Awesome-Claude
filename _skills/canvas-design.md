@@ -27,7 +27,7 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/canvas-design/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/canvas-design/SKILL.md
-fetched_at: '2026-01-19T03:49:16.062121Z'
+fetched_at: '2026-01-20T03:43:09.191980Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:13:20.655168Z'
@@ -58,10 +58,10 @@ evaluation:
   - philosophy-driven
   - originality-focused
 github_metrics:
-  stars: 44822
-  forks: 4181
-  open_issues: 168
+  stars: 45847
+  forks: 4315
+  open_issues: 169
   last_commit: '2025-12-20'
-  fetched_at: '2026-01-19T03:49:24.381763Z'
-indexed_at: '2026-01-19T03:49:25.447248Z'
+  fetched_at: '2026-01-20T03:43:25.558111Z'
+indexed_at: '2026-01-20T03:43:26.890198Z'
 ---

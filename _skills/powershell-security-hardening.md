@@ -17,7 +17,7 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/powershell-security-hardening.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/powershell-security-hardening.md
-fetched_at: '2026-01-19T03:49:04.309093Z'
+fetched_at: '2026-01-20T03:42:46.787547Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:59:17.238963Z'
@@ -46,10 +46,10 @@ evaluation:
   - compliance
   - automation-security
 github_metrics:
-  stars: 8184
-  forks: 908
+  stars: 8286
+  forks: 917
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-19T03:49:24.003810Z'
-indexed_at: '2026-01-19T03:49:25.183298Z'
+  fetched_at: '2026-01-20T03:43:24.910508Z'
+indexed_at: '2026-01-20T03:43:26.661876Z'
 ---

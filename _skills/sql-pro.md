@@ -21,8 +21,8 @@ prompt_preview: '---
   and...'
 full_prompt_length: 7373
 tools_mentioned:
-- python
 - MySQL
+- python
 - rest
 - java
 - PostgreSQL
@@ -31,7 +31,7 @@ category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/sql-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/sql-pro.md
-fetched_at: '2026-01-19T03:48:59.852835Z'
+fetched_at: '2026-01-20T03:42:38.122330Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:53:35.767170Z'
@@ -65,10 +65,10 @@ evaluation:
   - SQL Server
   - Oracle
 github_metrics:
-  stars: 8184
-  forks: 908
+  stars: 8286
+  forks: 917
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-19T03:49:24.003810Z'
-indexed_at: '2026-01-19T03:49:25.079150Z'
+  fetched_at: '2026-01-20T03:43:24.910508Z'
+indexed_at: '2026-01-20T03:43:26.567934Z'
 ---

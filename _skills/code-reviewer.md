@@ -20,18 +20,18 @@ prompt_preview: '---
   security vulnerabilities, and optimization opportunities across multiple progra...'
 full_prompt_length: 6705
 tools_mentioned:
-- Rust
 - Java
-- JavaScript
 - Python
+- JavaScript
 - TypeScript
+- Rust
 - Go
 category: quality-security
 category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/code-reviewer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/code-reviewer.md
-fetched_at: '2026-01-19T03:49:03.414044Z'
+fetched_at: '2026-01-20T03:42:44.831136Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:57:55.920603Z'
@@ -59,10 +59,10 @@ evaluation:
   - static-analysis
   - best-practices
 github_metrics:
-  stars: 8184
-  forks: 908
+  stars: 8286
+  forks: 917
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-19T03:49:24.003810Z'
-indexed_at: '2026-01-19T03:49:25.161392Z'
+  fetched_at: '2026-01-20T03:43:24.910508Z'
+indexed_at: '2026-01-20T03:43:26.641992Z'
 ---
