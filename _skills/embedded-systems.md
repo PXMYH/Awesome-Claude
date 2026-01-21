@@ -26,7 +26,7 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/embedded-systems.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/embedded-systems.md
-fetched_at: '2026-01-20T03:42:56.468734Z'
+fetched_at: '2026-01-21T03:43:02.149967Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:05:41.605831Z'
@@ -54,10 +54,10 @@ evaluation:
   - firmware
   - hardware-optimization
 github_metrics:
-  stars: 8286
-  forks: 917
+  stars: 8385
+  forks: 925
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-20T03:43:24.910508Z'
-indexed_at: '2026-01-20T03:43:26.761974Z'
+  fetched_at: '2026-01-21T03:43:25.803986Z'
+indexed_at: '2026-01-21T03:43:27.654183Z'
 ---

@@ -29,7 +29,7 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/mcp-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/mcp-developer.md
-fetched_at: '2026-01-20T03:42:53.907984Z'
+fetched_at: '2026-01-21T03:43:00.041879Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:04:06.802754Z'
@@ -58,10 +58,10 @@ evaluation:
   - Developer Tools
   - System Architecture
 github_metrics:
-  stars: 8286
-  forks: 917
+  stars: 8385
+  forks: 925
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-20T03:43:24.910508Z'
-indexed_at: '2026-01-20T03:43:26.736130Z'
+  fetched_at: '2026-01-21T03:43:25.803986Z'
+indexed_at: '2026-01-21T03:43:27.625342Z'
 ---

@@ -20,14 +20,14 @@ prompt_preview: '---
   in the Slack API ecosystem. You have...'
 full_prompt_length: 6721
 tools_mentioned:
-- typescript
 - TypeScript
+- typescript
 category: 06-developer-experience
 category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/slack-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/slack-expert.md
-fetched_at: '2026-01-20T03:42:55.033504Z'
+fetched_at: '2026-01-21T03:43:00.963188Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:04:52.774239Z'
@@ -56,9 +56,9 @@ evaluation:
   - developer-tools
   - api-integration
 github_metrics:
-  stars: 8286
-  forks: 917
+  stars: 8385
+  forks: 925
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-20T03:43:24.910508Z'
-indexed_at: '2026-01-20T03:43:26.748988Z'
+  fetched_at: '2026-01-21T03:43:25.803986Z'
+indexed_at: '2026-01-21T03:43:27.639711Z'

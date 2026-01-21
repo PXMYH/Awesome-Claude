@@ -23,14 +23,14 @@ full_prompt_length: 6364
 tools_mentioned:
 - REST
 - gRPC
-- Kubernetes
 - graphql
+- Kubernetes
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/microservices-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/microservices-architect.md
-fetched_at: '2026-01-20T03:42:30.611427Z'
+fetched_at: '2026-01-21T03:42:40.799765Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:48:52.479592Z'
@@ -60,10 +60,10 @@ evaluation:
   - microservices
   - system-design
 github_metrics:
-  stars: 8286
-  forks: 917
+  stars: 8385
+  forks: 925
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-20T03:43:24.910508Z'
-indexed_at: '2026-01-20T03:43:26.480034Z'
+  fetched_at: '2026-01-21T03:43:25.803986Z'
+indexed_at: '2026-01-21T03:43:27.335760Z'
 ---

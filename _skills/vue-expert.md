@@ -21,18 +21,18 @@ prompt_preview: '---
   optimization,...'
 full_prompt_length: 6542
 tools_mentioned:
-- Vue
 - JavaScript
-- typescript
-- vue
-- TypeScript
+- Vue
 - javascript
+- TypeScript
+- vue
+- typescript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/vue-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/vue-expert.md
-fetched_at: '2026-01-20T03:42:38.962347Z'
+fetched_at: '2026-01-21T03:42:47.883342Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:54:14.804505Z'
@@ -64,10 +64,10 @@ evaluation:
   - frontend
   - web-development
 github_metrics:
-  stars: 8286
-  forks: 917
+  stars: 8385
+  forks: 925
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-20T03:43:24.910508Z'
-indexed_at: '2026-01-20T03:43:26.577938Z'
+  fetched_at: '2026-01-21T03:43:25.803986Z'
+indexed_at: '2026-01-21T03:43:27.451058Z'
 ---

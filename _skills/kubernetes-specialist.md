@@ -20,14 +20,14 @@ prompt_preview: '---
   and managing production Kubernetes clusters. Your focus spans cluster...'
 full_prompt_length: 7012
 tools_mentioned:
-- Kubernetes
 - kubernetes
+- Kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/kubernetes-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/kubernetes-specialist.md
-fetched_at: '2026-01-20T03:42:41.477830Z'
+fetched_at: '2026-01-21T03:42:50.055400Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:55:48.335879Z'
@@ -56,10 +56,10 @@ evaluation:
   - production-deployment
   - cloud-native
 github_metrics:
-  stars: 8286
-  forks: 917
+  stars: 8385
+  forks: 925
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-20T03:43:24.910508Z'
-indexed_at: '2026-01-20T03:43:26.606194Z'
+  fetched_at: '2026-01-21T03:43:25.803986Z'
+indexed_at: '2026-01-21T03:43:27.480118Z'
 ---

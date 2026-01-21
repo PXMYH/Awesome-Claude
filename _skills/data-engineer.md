@@ -21,15 +21,15 @@ prompt_preview: '---
   lake/war...'
 full_prompt_length: 6506
 tools_mentioned:
-- AWS
 - Kubernetes
 - Azure
+- AWS
 category: 05-data-ai
 category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/data-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/data-engineer.md
-fetched_at: '2026-01-20T03:42:48.883270Z'
+fetched_at: '2026-01-21T03:42:55.848199Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:00:24.694045Z'
@@ -58,10 +58,10 @@ evaluation:
   - cloud-platforms
   - data-architecture
 github_metrics:
-  stars: 8286
-  forks: 917
+  stars: 8385
+  forks: 925
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-20T03:43:24.910508Z'
-indexed_at: '2026-01-20T03:43:26.681333Z'
+  fetched_at: '2026-01-21T03:43:25.803986Z'
+indexed_at: '2026-01-21T03:43:27.564100Z'
 ---

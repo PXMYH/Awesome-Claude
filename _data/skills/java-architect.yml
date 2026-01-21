@@ -23,15 +23,15 @@ tools_mentioned:
 - REST
 - Java
 - rest
-- Kubernetes
 - JUnit
 - java
+- Kubernetes
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/java-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/java-architect.md
-fetched_at: '2026-01-20T03:42:34.568541Z'
+fetched_at: '2026-01-21T03:42:44.162221Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:51:20.389279Z'
@@ -60,9 +60,9 @@ evaluation:
   - clean-architecture
   - cloud-native
 github_metrics:
-  stars: 8286
-  forks: 917
+  stars: 8385
+  forks: 925
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-20T03:43:24.910508Z'
-indexed_at: '2026-01-20T03:43:26.523615Z'
+  fetched_at: '2026-01-21T03:43:25.803986Z'
+indexed_at: '2026-01-21T03:43:27.385439Z'

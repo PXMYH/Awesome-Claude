@@ -35,7 +35,7 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/brand-guidelines/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/brand-guidelines/SKILL.md
-fetched_at: '2026-01-20T03:43:08.661181Z'
+fetched_at: '2026-01-21T03:43:12.596017Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:13:10.359464Z'
@@ -64,10 +64,10 @@ evaluation:
   - corporate-identity
   - python-pptx
 github_metrics:
-  stars: 45847
-  forks: 4315
-  open_issues: 169
+  stars: 46970
+  forks: 4427
+  open_issues: 172
   last_commit: '2025-12-20'
-  fetched_at: '2026-01-20T03:43:25.558111Z'
-indexed_at: '2026-01-20T03:43:26.886581Z'
+  fetched_at: '2026-01-21T03:43:26.357155Z'
+indexed_at: '2026-01-21T03:43:27.793891Z'
 ---

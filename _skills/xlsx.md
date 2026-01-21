@@ -24,7 +24,7 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/xlsx/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/xlsx/SKILL.md
-fetched_at: '2026-01-20T03:43:16.007585Z'
+fetched_at: '2026-01-21T03:43:18.127433Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:15:44.771179Z'
@@ -53,10 +53,10 @@ evaluation:
   - data_analysis
   - formula_validation
 github_metrics:
-  stars: 45847
-  forks: 4315
-  open_issues: 169
+  stars: 46970
+  forks: 4427
+  open_issues: 172
   last_commit: '2025-12-20'
-  fetched_at: '2026-01-20T03:43:25.558111Z'
-indexed_at: '2026-01-20T03:43:26.932515Z'
+  fetched_at: '2026-01-21T03:43:26.357155Z'
+indexed_at: '2026-01-21T03:43:27.844594Z'
 ---

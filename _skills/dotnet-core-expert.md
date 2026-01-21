@@ -21,16 +21,16 @@ prompt_preview: '---
   and cro...'
 full_prompt_length: 6443
 tools_mentioned:
-- GraphQL
-- gRPC
 - Kubernetes
+- gRPC
 - Docker
+- GraphQL
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/dotnet-core-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/dotnet-core-expert.md
-fetched_at: '2026-01-20T03:42:33.104050Z'
+fetched_at: '2026-01-21T03:42:42.962217Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:50:23.726214Z'
@@ -57,10 +57,10 @@ evaluation:
   - cloud-native
   - performance
 github_metrics:
-  stars: 8286
-  forks: 917
+  stars: 8385
+  forks: 925
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-20T03:43:24.910508Z'
-indexed_at: '2026-01-20T03:43:26.507034Z'
+  fetched_at: '2026-01-21T03:43:25.803986Z'
+indexed_at: '2026-01-21T03:43:27.366821Z'
 ---

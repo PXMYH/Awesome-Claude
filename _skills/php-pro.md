@@ -22,18 +22,18 @@ prompt_preview: '---
 full_prompt_length: 6974
 tools_mentioned:
 - docker
-- mysql
-- php
-- GraphQL
 - PHP
-- WebSocket
+- php
 - redis
+- GraphQL
+- WebSocket
+- mysql
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/php-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/php-pro.md
-fetched_at: '2026-01-20T03:42:35.935488Z'
+fetched_at: '2026-01-21T03:42:45.346947Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:52:14.461728Z'
@@ -61,10 +61,10 @@ evaluation:
   - Enterprise Development
   - Code Quality
 github_metrics:
-  stars: 8286
-  forks: 917
+  stars: 8385
+  forks: 925
   open_issues: 3
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-20T03:43:24.910508Z'
-indexed_at: '2026-01-20T03:43:26.539504Z'
+  fetched_at: '2026-01-21T03:43:25.803986Z'
+indexed_at: '2026-01-21T03:43:27.403297Z'
 ---
