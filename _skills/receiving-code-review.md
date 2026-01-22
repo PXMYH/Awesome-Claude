@@ -32,7 +32,7 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/receiving-code-review/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/receiving-code-review/SKILL.md
-fetched_at: '2026-01-21T03:43:20.747854Z'
+fetched_at: '2026-01-22T03:46:56.693736Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:17:51.270571Z'
@@ -60,10 +60,10 @@ evaluation:
   - communication
   - verification
 github_metrics:
-  stars: 31177
-  forks: 2339
-  open_issues: 88
+  stars: 32519
+  forks: 2454
+  open_issues: 94
   last_commit: '2026-01-19'
-  fetched_at: '2026-01-21T03:43:27.023890Z'
-indexed_at: '2026-01-21T03:43:27.862584Z'
+  fetched_at: '2026-01-22T03:47:01.277046Z'
+indexed_at: '2026-01-22T03:47:02.128357Z'
 ---

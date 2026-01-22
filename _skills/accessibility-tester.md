@@ -27,7 +27,7 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/accessibility-tester.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/accessibility-tester.md
-fetched_at: '2026-01-21T03:42:51.938927Z'
+fetched_at: '2026-01-22T03:46:34.733424Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:57:10.292975Z'
@@ -57,10 +57,10 @@ evaluation:
   - quality-assurance
   - assistive-technology
 github_metrics:
-  stars: 8385
-  forks: 925
-  open_issues: 3
+  stars: 8479
+  forks: 932
+  open_issues: 4
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-21T03:43:25.803986Z'
-indexed_at: '2026-01-21T03:43:27.505840Z'
+  fetched_at: '2026-01-22T03:47:00.382450Z'
+indexed_at: '2026-01-22T03:47:01.767188Z'
 ---

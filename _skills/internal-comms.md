@@ -30,7 +30,7 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/internal-comms/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/internal-comms/SKILL.md
-fetched_at: '2026-01-21T03:43:14.550505Z'
+fetched_at: '2026-01-22T03:46:51.642070Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:14:02.805765Z'
@@ -59,10 +59,10 @@ evaluation:
   - workflow automation
   - content generation
 github_metrics:
-  stars: 46970
-  forks: 4427
-  open_issues: 172
+  stars: 48287
+  forks: 4573
+  open_issues: 175
   last_commit: '2025-12-20'
-  fetched_at: '2026-01-21T03:43:26.357155Z'
-indexed_at: '2026-01-21T03:43:27.811775Z'
+  fetched_at: '2026-01-22T03:47:00.855764Z'
+indexed_at: '2026-01-22T03:47:02.077347Z'
 ---

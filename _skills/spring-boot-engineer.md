@@ -20,17 +20,17 @@ prompt_preview: '---
   Java development. Your focus spans microservices architecture, reactive...'
 full_prompt_length: 6657
 tools_mentioned:
-- REST
+- Kubernetes
+- java
 - Java
 - Docker
-- java
-- Kubernetes
+- REST
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/spring-boot-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/spring-boot-engineer.md
-fetched_at: '2026-01-21T03:42:46.945649Z'
+fetched_at: '2026-01-22T03:46:30.923465Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:53:22.804125Z'
@@ -57,10 +57,10 @@ evaluation:
   - enterprise
   - java
 github_metrics:
-  stars: 8385
-  forks: 925
-  open_issues: 3
+  stars: 8479
+  forks: 932
+  open_issues: 4
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-21T03:43:25.803986Z'
-indexed_at: '2026-01-21T03:43:27.435416Z'
+  fetched_at: '2026-01-22T03:47:00.382450Z'
+indexed_at: '2026-01-22T03:47:01.697520Z'
 ---

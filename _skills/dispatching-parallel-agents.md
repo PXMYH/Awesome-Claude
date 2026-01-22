@@ -34,7 +34,7 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/dispatching-parallel-agents/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/dispatching-parallel-agents/SKILL.md
-fetched_at: '2026-01-21T03:43:19.348039Z'
+fetched_at: '2026-01-22T03:46:55.651243Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:17:20.997249Z'
@@ -62,10 +62,10 @@ evaluation:
   - agent orchestration
   - workflow optimization
 github_metrics:
-  stars: 31177
-  forks: 2339
-  open_issues: 88
+  stars: 32519
+  forks: 2454
+  open_issues: 94
   last_commit: '2026-01-19'
-  fetched_at: '2026-01-21T03:43:27.023890Z'
-indexed_at: '2026-01-21T03:43:27.851592Z'
+  fetched_at: '2026-01-22T03:47:01.277046Z'
+indexed_at: '2026-01-22T03:47:02.117583Z'
 ---
