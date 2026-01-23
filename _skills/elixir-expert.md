@@ -21,18 +21,18 @@ prompt_preview: '---
   systems. Your focus spans Phoenix web applications...'
 full_prompt_length: 8148
 tools_mentioned:
-- Kubernetes
-- kubernetes
-- JavaScript
 - rust
 - Docker
+- kubernetes
+- JavaScript
+- Kubernetes
 - websocket
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/elixir-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/elixir-expert.md
-fetched_at: '2026-01-22T03:46:28.301178Z'
+fetched_at: '2026-01-23T03:41:22.545937Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:50:46.714018Z'
@@ -62,10 +62,10 @@ evaluation:
   - concurrency
   - fault-tolerance
 github_metrics:
-  stars: 8479
-  forks: 932
+  stars: 8539
+  forks: 938
   open_issues: 4
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-22T03:47:00.382450Z'
-indexed_at: '2026-01-22T03:47:01.642681Z'
+  fetched_at: '2026-01-23T03:42:11.391211Z'
+indexed_at: '2026-01-23T03:42:12.954852Z'
 ---

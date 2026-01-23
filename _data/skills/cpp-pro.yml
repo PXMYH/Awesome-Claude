@@ -21,14 +21,14 @@ prompt_preview: '---
 full_prompt_length: 7528
 tools_mentioned:
 - java
-- rust
 - python
+- rust
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/cpp-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/cpp-pro.md
-fetched_at: '2026-01-22T03:46:27.435760Z'
+fetched_at: '2026-01-23T03:41:21.166560Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:49:51.460300Z'
@@ -59,9 +59,9 @@ evaluation:
   - modern-cpp
   - template-metaprogramming
 github_metrics:
-  stars: 8479
-  forks: 932
+  stars: 8539
+  forks: 938
   open_issues: 4
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-22T03:47:00.382450Z'
-indexed_at: '2026-01-22T03:47:01.623918Z'
+  fetched_at: '2026-01-23T03:42:11.391211Z'
+indexed_at: '2026-01-23T03:42:12.934782Z'

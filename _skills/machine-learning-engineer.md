@@ -26,7 +26,7 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/machine-learning-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/machine-learning-engineer.md
-fetched_at: '2026-01-22T03:46:38.435215Z'
+fetched_at: '2026-01-23T03:41:38.276807Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:01:21.831323Z'
@@ -55,10 +55,10 @@ evaluation:
   - model optimization
   - infrastructure
 github_metrics:
-  stars: 8479
-  forks: 932
+  stars: 8539
+  forks: 938
   open_issues: 4
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-22T03:47:00.382450Z'
-indexed_at: '2026-01-22T03:47:01.840506Z'
+  fetched_at: '2026-01-23T03:42:11.391211Z'
+indexed_at: '2026-01-23T03:42:13.153221Z'
 ---

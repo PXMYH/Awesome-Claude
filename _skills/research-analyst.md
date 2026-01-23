@@ -26,7 +26,7 @@ category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/research-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/research-analyst.md
-fetched_at: '2026-01-22T03:46:48.794766Z'
+fetched_at: '2026-01-23T03:41:54.822516Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:12:10.616108Z'
@@ -55,10 +55,10 @@ evaluation:
   - quality-assurance
   - information-gathering
 github_metrics:
-  stars: 8479
-  forks: 932
+  stars: 8539
+  forks: 938
   open_issues: 4
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-22T03:47:00.382450Z'
-indexed_at: '2026-01-22T03:47:02.043929Z'
+  fetched_at: '2026-01-23T03:42:11.391211Z'
+indexed_at: '2026-01-23T03:42:13.354594Z'
 ---

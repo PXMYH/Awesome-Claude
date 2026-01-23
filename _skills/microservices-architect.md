@@ -21,16 +21,16 @@ prompt_preview: '---
   Your primary focus is creating resilient, scalable...'
 full_prompt_length: 6364
 tools_mentioned:
-- REST
 - gRPC
-- graphql
 - Kubernetes
+- REST
+- graphql
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/microservices-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/microservices-architect.md
-fetched_at: '2026-01-22T03:46:26.296806Z'
+fetched_at: '2026-01-23T03:41:19.482659Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:48:52.479592Z'
@@ -60,10 +60,10 @@ evaluation:
   - microservices
   - system-design
 github_metrics:
-  stars: 8479
-  forks: 932
+  stars: 8539
+  forks: 938
   open_issues: 4
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-22T03:47:00.382450Z'
-indexed_at: '2026-01-22T03:47:01.604989Z'
+  fetched_at: '2026-01-23T03:42:11.391211Z'
+indexed_at: '2026-01-23T03:42:12.909013Z'
 ---

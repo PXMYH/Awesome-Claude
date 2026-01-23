@@ -35,7 +35,7 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/brainstorming/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md
-fetched_at: '2026-01-22T03:46:55.305684Z'
+fetched_at: '2026-01-23T03:42:03.691250Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:17:11.306591Z'
@@ -63,10 +63,10 @@ evaluation:
   - development
   - specification
 github_metrics:
-  stars: 32519
-  forks: 2454
-  open_issues: 94
+  stars: 33630
+  forks: 2543
+  open_issues: 74
   last_commit: '2026-01-19'
-  fetched_at: '2026-01-22T03:47:01.277046Z'
-indexed_at: '2026-01-22T03:47:02.114129Z'
+  fetched_at: '2026-01-23T03:42:12.601505Z'
+indexed_at: '2026-01-23T03:42:13.423727Z'
 ---

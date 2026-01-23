@@ -20,16 +20,16 @@ prompt_preview: '---
   multiple database systems. Your focus spans query optimization, i...'
 full_prompt_length: 6632
 tools_mentioned:
-- MySQL
 - PostgreSQL
-- Redis
+- MySQL
 - MongoDB
+- Redis
 category: 05-data-ai
 category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/database-optimizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/database-optimizer.md
-fetched_at: '2026-01-22T03:46:38.084726Z'
+fetched_at: '2026-01-23T03:41:37.590109Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:00:47.164268Z'
@@ -54,9 +54,9 @@ evaluation:
   - performance tuning
   - query analysis
 github_metrics:
-  stars: 8479
-  forks: 932
+  stars: 8539
+  forks: 938
   open_issues: 4
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-22T03:47:00.382450Z'
-indexed_at: '2026-01-22T03:47:01.833277Z'
+  fetched_at: '2026-01-23T03:42:11.391211Z'
+indexed_at: '2026-01-23T03:42:13.146011Z'
