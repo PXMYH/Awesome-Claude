@@ -25,7 +25,7 @@ category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/devops-incident-responder.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/devops-incident-responder.md
-fetched_at: '2026-01-23T03:41:29.731487Z'
+fetched_at: '2026-01-24T03:25:36.959734Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:55:23.023436Z'
@@ -53,10 +53,10 @@ evaluation:
   - observability
   - root-cause-analysis
 github_metrics:
-  stars: 8539
-  forks: 938
+  stars: 8621
+  forks: 947
   open_issues: 4
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-23T03:42:11.391211Z'
-indexed_at: '2026-01-23T03:42:13.047483Z'
+  fetched_at: '2026-01-24T03:26:17.832148Z'
+indexed_at: '2026-01-24T03:26:19.327814Z'
 ---

@@ -21,19 +21,19 @@ prompt_preview: '---
   Your primary focus is building low-laten...'
 full_prompt_length: 4333
 tools_mentioned:
-- Angular
-- Vue
-- WebSocket
-- Redis
-- websocket
 - React
 - TypeScript
+- Redis
+- websocket
+- WebSocket
+- Angular
+- Vue
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/websocket-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/websocket-engineer.md
-fetched_at: '2026-01-23T03:41:20.287728Z'
+fetched_at: '2026-01-24T03:25:28.192601Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:49:26.168614Z'
@@ -63,10 +63,10 @@ evaluation:
   - socket-io
   - production-ready
 github_metrics:
-  stars: 8539
-  forks: 938
+  stars: 8621
+  forks: 947
   open_issues: 4
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-23T03:42:11.391211Z'
-indexed_at: '2026-01-23T03:42:12.920590Z'
+  fetched_at: '2026-01-24T03:26:17.832148Z'
+indexed_at: '2026-01-24T03:26:19.210607Z'
 ---

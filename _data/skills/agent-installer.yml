@@ -29,16 +29,16 @@ prompt_preview: '---
   2. List agents within a categor...'
 full_prompt_length: 3573
 tools_mentioned:
-- php
 - typescript
-- python
 - PHP
+- php
+- python
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/agent-installer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/agent-installer.md
-fetched_at: '2026-01-23T03:41:51.041480Z'
+fetched_at: '2026-01-24T03:25:57.040635Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:09:47.144426Z'
@@ -67,9 +67,9 @@ evaluation:
   - community-tools
   - installation
 github_metrics:
-  stars: 8539
-  forks: 938
+  stars: 8621
+  forks: 947
   open_issues: 4
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-23T03:42:11.391211Z'
-indexed_at: '2026-01-23T03:42:13.306188Z'
+  fetched_at: '2026-01-24T03:26:17.832148Z'
+indexed_at: '2026-01-24T03:26:19.586501Z'

@@ -20,15 +20,15 @@ prompt_preview: '---
   IoT solutions. Your focus spans device connectivity, edge computing, cloud integrat...'
 full_prompt_length: 6355
 tools_mentioned:
-- WebSocket
 - AWS
+- WebSocket
 - Azure
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/iot-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/iot-engineer.md
-fetched_at: '2026-01-23T03:41:45.551636Z'
+fetched_at: '2026-01-24T03:25:51.597908Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:06:12.837816Z'
@@ -59,10 +59,10 @@ evaluation:
   - Device Management
   - Security
 github_metrics:
-  stars: 8539
-  forks: 938
+  stars: 8621
+  forks: 947
   open_issues: 4
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-23T03:42:11.391211Z'
-indexed_at: '2026-01-23T03:42:13.240384Z'
+  fetched_at: '2026-01-24T03:26:17.832148Z'
+indexed_at: '2026-01-24T03:26:19.521084Z'
 ---

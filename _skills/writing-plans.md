@@ -29,14 +29,14 @@ prompt_preview: '---
   Ass...'
 full_prompt_length: 3264
 tools_mentioned:
-- python
 - pytest
+- python
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/writing-plans/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/writing-plans/SKILL.md
-fetched_at: '2026-01-23T03:42:09.928480Z'
+fetched_at: '2026-01-24T03:26:16.439761Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:19:38.556178Z'
@@ -64,10 +64,10 @@ evaluation:
   - documentation
   - code-generation
 github_metrics:
-  stars: 33630
-  forks: 2543
-  open_issues: 74
-  last_commit: '2026-01-19'
-  fetched_at: '2026-01-23T03:42:12.601505Z'
-indexed_at: '2026-01-23T03:42:13.466865Z'
+  stars: 34663
+  forks: 2627
+  open_issues: 82
+  last_commit: '2026-01-23'
+  fetched_at: '2026-01-24T03:26:18.884211Z'
+indexed_at: '2026-01-24T03:26:19.747975Z'
 ---

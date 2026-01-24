@@ -27,15 +27,15 @@ prompt_preview: '---
   command-line tools. For advanced features, J...'
 full_prompt_length: 7068
 tools_mentioned:
-- python
 - JavaScript
 - Python
+- python
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/pdf/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md
-fetched_at: '2026-01-23T03:41:59.542341Z'
+fetched_at: '2026-01-24T03:26:06.360246Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:14:25.481483Z'
@@ -64,10 +64,10 @@ evaluation:
   - text-extraction
   - table-extraction
 github_metrics:
-  stars: 49819
-  forks: 4771
-  open_issues: 180
+  stars: 51084
+  forks: 4918
+  open_issues: 184
   last_commit: '2025-12-20'
-  fetched_at: '2026-01-23T03:42:11.995098Z'
-indexed_at: '2026-01-23T03:42:13.394693Z'
+  fetched_at: '2026-01-24T03:26:18.386627Z'
+indexed_at: '2026-01-24T03:26:19.674920Z'
 ---

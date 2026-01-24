@@ -31,20 +31,20 @@ prompt_preview: '---
   specia...'
 full_prompt_length: 17701
 tools_mentioned:
-- GCP
-- gcp
-- AWS
-- Azure
-- azure
 - React
+- Azure
+- GCP
+- AWS
 - aws
+- gcp
 - Python
+- azure
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/skill-creator/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md
-fetched_at: '2026-01-23T03:42:00.510727Z'
+fetched_at: '2026-01-24T03:26:07.121708Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:14:50.112847Z'
@@ -72,10 +72,10 @@ evaluation:
   - documentation
   - best-practices
 github_metrics:
-  stars: 49819
-  forks: 4771
-  open_issues: 180
+  stars: 51084
+  forks: 4918
+  open_issues: 184
   last_commit: '2025-12-20'
-  fetched_at: '2026-01-23T03:42:11.995098Z'
-indexed_at: '2026-01-23T03:42:13.401854Z'
+  fetched_at: '2026-01-24T03:26:18.386627Z'
+indexed_at: '2026-01-24T03:26:19.682263Z'
 ---

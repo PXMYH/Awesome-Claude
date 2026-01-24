@@ -21,16 +21,16 @@ prompt_preview: '---
   applications. Your focus emphas...'
 full_prompt_length: 7588
 tools_mentioned:
-- python
-- java
-- rust
 - Rust
+- java
+- python
+- rust
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/rust-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/rust-engineer.md
-fetched_at: '2026-01-23T03:41:26.367610Z'
+fetched_at: '2026-01-24T03:25:33.923480Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:53:13.171089Z'
@@ -59,10 +59,10 @@ evaluation:
   - async-programming
   - performance-optimization
 github_metrics:
-  stars: 8539
-  forks: 938
+  stars: 8621
+  forks: 947
   open_issues: 4
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-23T03:42:11.391211Z'
-indexed_at: '2026-01-23T03:42:13.006939Z'
+  fetched_at: '2026-01-24T03:26:17.832148Z'
+indexed_at: '2026-01-24T03:26:19.287745Z'
 ---
