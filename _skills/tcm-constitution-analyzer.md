@@ -1,0 +1,55 @@
+---
+id: tcm-constitution-analyzer
+slug: tcm-constitution-analyzer
+name: 中医体质辨识分析器技能
+description: '**技能版本**: v1.0'
+prompt_preview: "---\nname: tcm-constitution-analyzer\ndescription: 分析中医体质数据、识别体质类型、评估体质特征,并提供个性化养生建议。支持与营养、运动、睡眠等健康数据的关联分析。\n\
+  allowed-tools: Read, Grep, Glob, Write\n---\n\n# 中医体质辨识分析器技能\n\n分析中医体质数据,识别体质类型,评估体质特征,并提供个性化养生改善建议。\n\
+  \n## 功能\n\n### 1. 体质辨识评估\n\n基于《中医体质分类与判定》标准进行体质辨识。\n\n**评估维度**:\n- 9种体质类型评分(平和质、气虚质、阳虚质、阴虚质、痰湿质、湿热质、血瘀质、气郁质、特禀质)\n\
+  - 主体质判定\n- 兼夹体质识别\n- 体质特征分析\n\n**评估方法**:\n- 60题标准化问卷\n- 5分制评分(没有/很少/有时/经常/总是)\n\
+  - 转化分数计算(0-100分)\n\n**输出**:\n- 体质类型判定结果\n- 各体质评分\n- 体质特征描述\n- 个体化养生建议\n\n### 2.\
+  \ 体质特征分析\n\n综合评估用户的体质特征。\n\n**分析内容**:\n- **形体特征**:\n  - 体..."
+full_prompt_length: 7961
+tools_mentioned:
+- python
+category: community
+category_display: Community
+source_repo: huifer/Claude-Ally-Health
+source_path: skills/tcm-constitution-analyzer/SKILL.md
+source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/tcm-constitution-analyzer/SKILL.md
+fetched_at: '2026-01-25T03:52:15.437750+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-25T03:56:19.960957Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections, specific
+      algorithms, and detailed output formats. It follows best practices by defining
+      triggers, execution steps, and data sources. However, it lacks explicit handling
+      of edge cases like missing data files or invalid user inputs, which could be
+      improved with fallback guidance.
+  usefulness:
+    score: 4.0
+    reasoning: This skill provides high real-world value for TCM practitioners and
+      health enthusiasts, offering comprehensive analysis across multiple dimensions.
+      The inclusion of specific algorithms and data sources makes it actionable for
+      development. However, its practicality is limited by its reliance on specific
+      file structures and lack of integration with real-time data sources or APIs.
+  overall_rating: 4.25
+  summary: A well-crafted, detailed prompt for a specialized TCM analysis skill with
+    strong technical specifications, though it could benefit from more robust error
+    handling and real-world integration considerations.
+  tags_suggested:
+  - healthcare
+  - traditional-chinese-medicine
+  - wellness
+  - data-analysis
+  - personalized-recommendations
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-25T04:05:52.829625Z'
+indexed_at: '2026-01-25T04:05:52.829630Z'
+---

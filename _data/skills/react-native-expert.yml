@@ -1,0 +1,55 @@
+id: react-native-expert
+slug: react-native-expert
+name: React Native Expert
+description: '- **React Expert** - Shared React patterns'
+prompt_preview: "---\nname: react-native-expert\ndescription: Use when building cross-platform\
+  \ mobile applications with React Native or Expo. Invoke for navigation patterns,\
+  \ platform-specific code, native modules, FlatList optimization.\ntriggers:\n  -\
+  \ React Native\n  - Expo\n  - mobile app\n  - iOS\n  - Android\n  - cross-platform\n\
+  \  - native module\nrole: specialist\nscope: implementation\noutput-format: code\n\
+  ---\n\n# React Native Expert\n\nSenior mobile engineer building production-ready\
+  \ cross-platform applications with React..."
+full_prompt_length: 2960
+tools_mentioned:
+- React
+- TypeScript
+- react
+category: community
+category_display: Community
+source_repo: jeffallan/claude-skills
+source_path: skills/react-native-expert/SKILL.md
+source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/react-native-expert/SKILL.md
+fetched_at: '2026-01-25T03:52:23.914037+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-25T04:00:24.185189Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is highly structured with clear sections for role definition,
+      workflow, constraints, and references, making it easy to follow. It uses specific
+      triggers and output templates, adhering to prompt engineering best practices.
+      However, the reference guide references external files that may not be accessible,
+      which could limit clarity in some contexts.
+  usefulness:
+    score: 5.0
+    reasoning: This skill is extremely practical for real-world React Native development,
+      covering essential topics like navigation, performance optimization, and platform-specific
+      handling. It provides actionable constraints and workflows that directly address
+      common pain points in mobile app development. The inclusion of modern tools
+      like Expo SDK 50+ and React Navigation 7 ensures relevance for current projects.
+  overall_rating: 4.75
+  summary: A well-crafted, highly useful prompt that excels in specificity and practicality
+    for React Native developers, with minor limitations in reference accessibility.
+  tags_suggested:
+  - mobile development
+  - Expo
+  - React Navigation
+  - performance optimization
+  - cross-platform
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-25T04:05:52.903653Z'
+indexed_at: '2026-01-25T04:05:52.903658Z'

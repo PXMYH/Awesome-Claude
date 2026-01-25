@@ -11,14 +11,14 @@ prompt_preview: "---\nname: testing-handbook-generator\ndescription: >\n  Meta-s
   \nGenerate and maintain Claude Code skills from the Trail of Bits Testing Handbook.\n\
   \n## When to Use\n\n**Invoke this skill when:**\n- Creating new security testing\
   \ skills from handbook content\n- User..."
-full_prompt_length: 13641
+full_prompt_length: 13722
 tools_mentioned: []
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/testing-handbook-generator/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/testing-handbook-generator/SKILL.md
-fetched_at: '2026-01-19T00:20:23.700543+00:00'
+fetched_at: '2026-01-25T03:52:44.602456+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:28:00.161847Z'
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:36.857906Z'
-indexed_at: '2026-01-19T01:30:36.857911Z'
+  fetched_at: '2026-01-25T04:05:53.193546Z'
+indexed_at: '2026-01-25T04:05:53.193552Z'
 ---

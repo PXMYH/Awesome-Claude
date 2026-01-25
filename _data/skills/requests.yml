@@ -50,7 +50,7 @@ category_display: Community
 source_repo: obra/superpowers-skills
 source_path: skills/REQUESTS.md
 source_url: https://github.com/obra/superpowers-skills/blob/main/skills/REQUESTS.md
-fetched_at: '2026-01-19T00:20:09.561223+00:00'
+fetched_at: '2026-01-25T03:52:31.209911+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:20:36.609190Z'
@@ -83,5 +83,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:36.718056Z'
-indexed_at: '2026-01-19T01:30:36.718065Z'
+  fetched_at: '2026-01-25T04:05:53.004399Z'
+indexed_at: '2026-01-25T04:05:53.004405Z'

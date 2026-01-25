@@ -31,7 +31,7 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/spec-to-code-compliance/skills/spec-to-code-compliance/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/spec-to-code-compliance/skills/spec-to-code-compliance/SKILL.md
-fetched_at: '2026-01-19T00:20:19.237918+00:00'
+fetched_at: '2026-01-25T03:52:41.720877+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:24:18.783591Z'
@@ -65,6 +65,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:36.786062Z'
-indexed_at: '2026-01-19T01:30:36.786067Z'
+  fetched_at: '2026-01-25T04:05:53.123684Z'
+indexed_at: '2026-01-25T04:05:53.123690Z'
 ---

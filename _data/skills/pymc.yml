@@ -11,15 +11,15 @@ prompt_preview: "---\nname: pymc-bayesian-modeling\ndescription: Bayesian modeli
   \ models using PyMC's modern API (ver..."
 full_prompt_length: 16593
 tools_mentioned:
+- go
 - Python
 - python
-- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pymc/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pymc/SKILL.md
-fetched_at: '2026-01-19T00:19:21.369548+00:00'
+fetched_at: '2026-01-25T03:51:41.396844+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:39:28.286357Z'
@@ -52,5 +52,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.933170Z'
-indexed_at: '2026-01-19T01:30:35.933176Z'
+  fetched_at: '2026-01-25T04:05:52.069798Z'
+indexed_at: '2026-01-25T04:05:52.069803Z'

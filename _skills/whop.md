@@ -1,0 +1,58 @@
+---
+id: whop
+slug: whop
+name: Whop Platform Expert
+description: '- **Dashboard:** https://whop.com/dashboard'
+prompt_preview: "---\nname: whop\ndescription: Whop platform expert for digital products,\
+  \ memberships, and community monetization. Covers memberships API, payments, courses,\
+  \ forums, webhooks, OAuth apps, and checkout integration. Build SaaS, course platforms,\
+  \ and gated communities. Triggers on Whop, memberships, digital products, course\
+  \ platform, community monetization, Whop API, license keys.\nallowed-tools: Read,\
+  \ Write, Edit, Grep, Glob, Bash\nmodel: sonnet\nlicense: MIT\nmetadata:\n  author:\
+  \ raintree\n  version: \"1.0..."
+full_prompt_length: 9890
+tools_mentioned:
+- TypeScript
+- JavaScript
+- typescript
+category: community
+category_display: Community
+source_repo: raintree-technology/claude-starter
+source_path: skills/whop/SKILL.md
+source_url: https://github.com/raintree-technology/claude-starter/blob/main/skills/whop/SKILL.md
+fetched_at: '2026-01-25T03:52:33.148665+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-25T04:03:20.413395Z'
+  prompt_quality:
+    score: 4.0
+    reasoning: The prompt is well-structured with clear sections for authentication,
+      core operations, and membership management. It provides practical TypeScript
+      examples for key Whop API endpoints. However, the prompt is incomplete (cuts
+      off mid-example in the Courses section) and lacks error handling guidance, rate
+      limiting information, and edge case considerations.
+  usefulness:
+    score: 4.5
+    reasoning: Highly practical for developers building Whop integrations, covering
+      essential operations like product creation, checkout, membership validation,
+      and payment processing. The real-world code snippets are immediately actionable
+      for SaaS and course platform development. The incomplete courses section slightly
+      reduces completeness but doesn't diminish overall value.
+  overall_rating: 4.25
+  summary: A solid, practical prompt for Whop platform development that provides actionable
+    API examples, though it's incomplete and could benefit from error handling and
+    edge case guidance.
+  tags_suggested:
+  - API Integration
+  - E-commerce
+  - Membership Management
+  - SaaS Development
+  - Webhooks
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-25T04:05:53.025555Z'
+indexed_at: '2026-01-25T04:05:53.025561Z'
+---

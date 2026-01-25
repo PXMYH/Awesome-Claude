@@ -1,0 +1,58 @@
+---
+id: google-docs
+slug: google-docs
+name: Google Docs
+description: Access tokens are automatically refreshed when expired using Google's
+  cloud function.
+prompt_preview: "---\nname: google-docs\ndescription: |\n  Interact with Google Docs\
+  \ - create documents, search by title, read content, and edit text.\n  Use when\
+  \ user asks to: create a Google Doc, find a document, read doc content, add text\
+  \ to a doc,\n  or replace text in a document. Lightweight alternative to full Google\
+  \ Workspace MCP server with\n  standalone OAuth authentication.\n---\n\n# Google\
+  \ Docs\n\nLightweight Google Docs integration with standalone OAuth authentication.\
+  \ No MCP server required.\n\n> **⚠️ Requires G..."
+full_prompt_length: 2473
+tools_mentioned:
+- python
+category: community
+category_display: Community
+source_repo: sanjay3290/ai-skills
+source_path: skills/google-docs/SKILL.md
+source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/google-docs/SKILL.md
+fetched_at: '2026-01-25T03:52:35.279843+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-25T04:04:15.601131Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and well-structured, with explicit
+      command examples, document ID format guidance, and token management details.
+      It defines scope effectively (create, search, read, edit) and includes practical
+      constraints like the Google Workspace account requirement. However, it lacks
+      explicit error handling guidance for common issues like authentication failures
+      or API rate limits.
+  usefulness:
+    score: 4.0
+    reasoning: This provides significant real-world value for users needing lightweight
+      Google Docs integration without full MCP server complexity. The standalone OAuth
+      authentication and comprehensive command coverage make it immediately actionable
+      for document management tasks. However, usefulness is limited by the Google
+      Workspace account requirement, excluding personal Gmail users.
+  overall_rating: 4.25
+  summary: A well-crafted, practical skill prompt that delivers clear Google Docs
+    integration with robust authentication handling, though it has some user accessibility
+    limitations.
+  tags_suggested:
+  - google-docs
+  - document-management
+  - oauth-authentication
+  - productivity-tools
+  - workspace-integration
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-25T04:05:53.046683Z'
+indexed_at: '2026-01-25T04:05:53.046688Z'
+---

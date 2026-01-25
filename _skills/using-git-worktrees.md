@@ -27,18 +27,17 @@ prompt_preview: '---
   **Core principle:** Systematic directory selection + safety verification...'
 full_prompt_length: 5590
 tools_mentioned:
-- Node.js
-- Go
 - Rust
-- pytest
 - Python
+- Go
+- Node.js
 - go
 category: community
-category_display: Community Skills
+category_display: Community
 source_repo: obra/superpowers
 source_path: skills/using-git-worktrees/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/using-git-worktrees/SKILL.md
-fetched_at: '2026-01-24T03:26:15.052807Z'
+fetched_at: '2026-01-25T03:52:28.960906+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:19:04.521597Z'
@@ -69,10 +68,10 @@ evaluation:
   - automation
   - safety
 github_metrics:
-  stars: 34663
-  forks: 2627
-  open_issues: 82
+  stars: 35360
+  forks: 2693
+  open_issues: 85
   last_commit: '2026-01-23'
-  fetched_at: '2026-01-24T03:26:18.884211Z'
-indexed_at: '2026-01-24T03:26:19.736781Z'
+  fetched_at: '2026-01-25T03:52:51.962606Z'
+indexed_at: '2026-01-25T04:05:52.975035Z'
 ---

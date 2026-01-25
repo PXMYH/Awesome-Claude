@@ -11,15 +11,15 @@ prompt_preview: "---\nname: geniml\ndescription: This skill should be used when 
   \    skill-auth..."
 full_prompt_length: 10907
 tools_mentioned:
+- go
 - Python
 - python
-- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/geniml/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/geniml/SKILL.md
-fetched_at: '2026-01-19T00:19:11.815699+00:00'
+fetched_at: '2026-01-25T03:51:34.654702+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:29:09.113404Z'
@@ -53,5 +53,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.703340Z'
-indexed_at: '2026-01-19T01:30:35.703345Z'
+  fetched_at: '2026-01-25T04:05:51.863535Z'
+indexed_at: '2026-01-25T04:05:51.863541Z'

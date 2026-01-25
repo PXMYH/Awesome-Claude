@@ -21,12 +21,12 @@ prompt_preview: '---
   experiences. Your focus spans engine architecture, graphics programmi...'
 full_prompt_length: 6493
 tools_mentioned: []
-category: 07-specialized-domains
-category_display: 07 Specialized Domains
+category: specialized-domains
+category_display: Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/game-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/game-developer.md
-fetched_at: '2026-01-24T03:25:51.338612Z'
+fetched_at: '2026-01-25T03:52:01.055912+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:06:02.633654Z'
@@ -59,10 +59,10 @@ evaluation:
   - system-architecture
   - cross-platform
 github_metrics:
-  stars: 8621
-  forks: 947
-  open_issues: 4
+  stars: 8693
+  forks: 954
+  open_issues: 5
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-24T03:26:17.832148Z'
-indexed_at: '2026-01-24T03:26:19.517159Z'
+  fetched_at: '2026-01-25T03:52:51.191439Z'
+indexed_at: '2026-01-25T04:05:52.566419Z'
 ---

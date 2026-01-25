@@ -15,15 +15,15 @@ prompt_preview: '---
   expression using computational tools (NetSolP, SoluProt, SolubleM...'
 full_prompt_length: 4561
 tools_mentioned:
-- python
 - go
 - aws
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/adaptyv/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/adaptyv/SKILL.md
-fetched_at: '2026-01-19T00:19:03.385392+00:00'
+fetched_at: '2026-01-25T03:51:29.179512+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:20:52.474645Z'
@@ -56,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.546110Z'
-indexed_at: '2026-01-19T01:30:35.546116Z'
+  fetched_at: '2026-01-25T04:05:51.707120Z'
+indexed_at: '2026-01-25T04:05:51.707126Z'
 ---

@@ -11,15 +11,15 @@ prompt_preview: "---\nname: dask\ndescription: Distributed computing for larger-
   \ is a Python library for parallel and dis..."
 full_prompt_length: 15091
 tools_mentioned:
+- go
 - Python
 - python
-- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/dask/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/dask/SKILL.md
-fetched_at: '2026-01-19T00:19:07.474161+00:00'
+fetched_at: '2026-01-25T03:51:31.882943+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:25:27.779986Z'
@@ -51,5 +51,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.632769Z'
-indexed_at: '2026-01-19T01:30:35.632774Z'
+  fetched_at: '2026-01-25T04:05:51.792867Z'
+indexed_at: '2026-01-25T04:05:51.792872Z'

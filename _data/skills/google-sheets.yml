@@ -1,0 +1,56 @@
+id: google-sheets
+slug: google-sheets
+name: Google Sheets
+description: Tokens automatically refresh when expired using Google's cloud function.
+prompt_preview: "---\nname: google-sheets\ndescription: |\n  Read Google Sheets spreadsheets\
+  \ - get content, fetch specific ranges, search for spreadsheets, and view metadata.\n\
+  \  Use when user asks to: read a spreadsheet, get data from Google Sheets, find\
+  \ a spreadsheet, check sheet contents,\n  export spreadsheet data, or get cell values.\
+  \ Lightweight alternative to full Google Workspace MCP server with\n  standalone\
+  \ OAuth authentication. Read-only access.\n---\n\n# Google Sheets\n\nLightweight\
+  \ Google Sheets integration with..."
+full_prompt_length: 2974
+tools_mentioned:
+- python
+category: community
+category_display: Community
+source_repo: sanjay3290/ai-skills
+source_path: skills/google-sheets/SKILL.md
+source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/google-sheets/SKILL.md
+fetched_at: '2026-01-25T03:52:35.540135+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-25T04:04:36.528795Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and well-structured, with a concise
+      description, explicit command examples, and helpful formatting guidance. It
+      defines scope (read-only), constraints (Google Workspace account required),
+      and expected behavior (output formats) effectively. However, it lacks explicit
+      edge case handling for scenarios like invalid spreadsheet IDs, permission errors,
+      or network issues.
+  usefulness:
+    score: 4.0
+    reasoning: This skill provides high real-world value for users needing to interact
+      with Google Sheets data programmatically, especially as a lightweight alternative
+      to full Google Workspace integration. It covers core tasks comprehensively (reading,
+      searching, metadata) and offers immediate actionability through clear command
+      syntax. The limitation to read-only access and Google Workspace accounts reduces
+      its applicability for personal Gmail users, slightly impacting overall usefulness.
+  overall_rating: 4.25
+  summary: A well-crafted, practical skill prompt that excels in clarity and command
+    structure, offering solid utility for Google Sheets data retrieval while being
+    constrained by read-only access and account requirements.
+  tags_suggested:
+  - Google Sheets
+  - Data Retrieval
+  - OAuth
+  - Read-Only
+  - Spreadsheet Integration
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-25T04:05:53.053921Z'
+indexed_at: '2026-01-25T04:05:53.053926Z'

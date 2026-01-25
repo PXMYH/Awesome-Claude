@@ -12,21 +12,21 @@ prompt_preview: "---\nname: semgrep\ntype: tool\ndescription: >\n  Semgrep is a 
   \ rules, it is usually the first tool..."
 full_prompt_length: 15795
 tools_mentioned:
+- JavaScript
+- python
+- javascript
+- Docker
+- rest
 - Python
 - Go
-- python
-- go
-- JavaScript
 - docker
-- javascript
-- rest
-- Docker
+- go
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/semgrep/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/semgrep/SKILL.md
-fetched_at: '2026-01-19T00:20:23.536486+00:00'
+fetched_at: '2026-01-25T03:52:44.468602+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:27:50.346503Z'
@@ -58,6 +58,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:36.854286Z'
-indexed_at: '2026-01-19T01:30:36.854291Z'
+  fetched_at: '2026-01-25T04:05:53.189883Z'
+indexed_at: '2026-01-25T04:05:53.189889Z'
 ---

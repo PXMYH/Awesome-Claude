@@ -15,16 +15,16 @@ prompt_preview: '---
   requiring detailed drug and drug target informatio...'
 full_prompt_length: 10217
 tools_mentioned:
-- Python
-- python
 - go
+- Python
 - GO
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/drugbank-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/drugbank-database/SKILL.md
-fetched_at: '2026-01-19T00:19:09.772024+00:00'
+fetched_at: '2026-01-25T03:51:33.298829+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:27:05.339648Z'
@@ -56,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.662651Z'
-indexed_at: '2026-01-19T01:30:35.662656Z'
+  fetched_at: '2026-01-25T04:05:51.822729Z'
+indexed_at: '2026-01-25T04:05:51.822734Z'
 ---

@@ -12,14 +12,14 @@ prompt_preview: "---\nname: scientific-slides\ndescription: Build slide decks an
   \ K-Dense Inc.\n---\n\n# Scientific Slides..."
 full_prompt_length: 48062
 tools_mentioned:
-- python
 - go
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scientific-slides/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scientific-slides/SKILL.md
-fetched_at: '2026-01-19T00:19:24.535558+00:00'
+fetched_at: '2026-01-25T03:51:43.854432+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:42:52.806650Z'
@@ -55,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.998197Z'
-indexed_at: '2026-01-19T01:30:35.998203Z'
+  fetched_at: '2026-01-25T04:05:52.135117Z'
+indexed_at: '2026-01-25T04:05:52.135123Z'
 ---

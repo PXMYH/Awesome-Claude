@@ -12,15 +12,15 @@ prompt_preview: "---\nname: deeptools\ndescription: NGS analysis toolkit. BAM to
   \ to perform quality control, normal..."
 full_prompt_length: 18783
 tools_mentioned:
+- go
 - Python
 - python
-- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/deeptools/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/deeptools/SKILL.md
-fetched_at: '2026-01-19T00:19:08.204348+00:00'
+fetched_at: '2026-01-25T03:51:32.415673+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:26:12.505714Z'
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.647503Z'
-indexed_at: '2026-01-19T01:30:35.647511Z'
+  fetched_at: '2026-01-25T04:05:51.807721Z'
+indexed_at: '2026-01-25T04:05:51.807726Z'
 ---

@@ -18,7 +18,7 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/imagen/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/imagen/SKILL.md
-fetched_at: '2026-01-19T00:20:12.268880+00:00'
+fetched_at: '2026-01-25T03:52:35.926715+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:21:40.931303Z'
@@ -51,5 +51,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:36.732303Z'
-indexed_at: '2026-01-19T01:30:36.732308Z'
+  fetched_at: '2026-01-25T04:05:53.061103Z'
+indexed_at: '2026-01-25T04:05:53.061109Z'

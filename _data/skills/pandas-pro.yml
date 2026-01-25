@@ -1,0 +1,53 @@
+id: pandas-pro
+slug: pandas-pro
+name: Pandas Pro
+description: '- **Python Pro** - Type hints, testing, Python best practices'
+prompt_preview: "---\nname: pandas-pro\ndescription: Use when working with pandas\
+  \ DataFrames, data cleaning, aggregation, merging, or time series analysis. Invoke\
+  \ for data manipulation, missing value handling, groupby operations, or performance\
+  \ optimization.\ntriggers:\n  - pandas\n  - DataFrame\n  - data manipulation\n \
+  \ - data cleaning\n  - aggregation\n  - groupby\n  - merge\n  - join\n  - time series\n\
+  \  - data wrangling\n  - pivot table\n  - data transformation\nrole: expert\nscope:\
+  \ implementation\noutput-format: code\n---\n\n# P..."
+full_prompt_length: 3994
+tools_mentioned:
+- Python
+category: community
+category_display: Community
+source_repo: jeffallan/claude-skills
+source_path: skills/pandas-pro/SKILL.md
+source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/pandas-pro/SKILL.md
+fetched_at: '2026-01-25T03:52:22.742366+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-25T03:59:37.454305Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear role definition,
+      specific constraints (MUST DO/MUST NOT DO), and a comprehensive workflow. It
+      follows best practices by defining triggers, scope, and output format. The only
+      minor limitation is the reference guide pointing to external files that may
+      not exist in all contexts.
+  usefulness:
+    score: 5.0
+    reasoning: This is highly practical for real-world data engineering tasks, covering
+      essential pandas operations from loading to optimization. The constraints prevent
+      common anti-patterns like iterrows and chained indexing, making it immediately
+      actionable for production code. The performance optimization focus addresses
+      critical concerns for large datasets.
+  overall_rating: 4.75
+  summary: An expert-level pandas prompt with excellent structure, clear constraints,
+    and production-ready guidance that balances best practices with practical implementation.
+  tags_suggested:
+  - data-engineering
+  - pandas
+  - performance-optimization
+  - data-cleaning
+  - vectorization
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-25T04:05:52.889798Z'
+indexed_at: '2026-01-25T04:05:52.889803Z'

@@ -1,0 +1,86 @@
+---
+id: mental-health-analyzer
+slug: mental-health-analyzer
+name: 心理健康分析技能
+description: '**技能版本**: v1.0.0'
+prompt_preview: '---
+
+  name: mental-health-analyzer
+
+  description: 分析心理健康数据、识别心理模式、评估心理健康状况、提供个性化心理健康建议。支持与睡眠、运动、营养等其他健康数据的关联分析。
+
+  allowed-tools: Read, Grep, Glob, Write, Edit
+
+  ---
+
+
+  # 心理健康分析技能
+
+
+  ## 核心功能
+
+
+  心理健康分析技能提供全面的心理健康数据分析功能，帮助用户追踪心理状态、识别情绪模式、监测危机风险和优化应对策略。
+
+
+  **主要功能模块：**
+
+
+  1. **心理健康评估分析** - PHQ-9/GAD-7等量表评分趋势分析
+
+  2. **情绪模式识别** - 识别常见情绪、触发因素和应对方式效果
+
+  3. **心理治疗进展追踪** - 治疗目标达成和症状改善评估
+
+  4. **危机风险评估** - 多级危机风险检测（高/中/低）和预警
+
+  5. **睡眠-心理关联分析** - 睡眠质量与心理状态的关联性分析
+
+  6. **运动-情绪关联分析** - 运动与情绪改善的关系分析
+
+  7. **营养-心理关联分析** - 饮食对情绪和焦虑的影响分析
+
+  8. **慢性病-...'
+full_prompt_length: 12919
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: huifer/Claude-Ally-Health
+source_path: skills/mental-health-analyzer/SKILL.md
+source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/mental-health-analyzer/SKILL.md
+fetched_at: '2026-01-25T03:52:14.207313+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-25T03:54:49.907502Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt demonstrates excellent structure and clarity with well-defined
+      sections, specific medical safety boundaries, and detailed execution steps.
+      However, it contains an incomplete data source reference in the nutrition analysis
+      section (cut off mid-sentence), which affects completeness. The medical safety
+      protocols are comprehensive and follow best practices for mental health applications.
+  usefulness:
+    score: 4.0
+    reasoning: The skill provides practical value for mental health tracking and analysis
+      with comprehensive modules covering assessment, pattern recognition, and risk
+      evaluation. The multi-factor analysis (sleep, exercise, nutrition) adds real-world
+      relevance. However, the incomplete nutrition analysis section and lack of specific
+      data format examples reduce immediate actionability for users.
+  overall_rating: 4.25
+  summary: A well-structured mental health analysis skill with strong safety protocols
+    and comprehensive analysis modules, though it contains an incomplete section that
+    needs completion for full practicality.
+  tags_suggested:
+  - mental-health
+  - health-analytics
+  - risk-assessment
+  - wellness-tracking
+  - clinical-support
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-25T04:05:52.800116Z'
+indexed_at: '2026-01-25T04:05:52.800122Z'
+---

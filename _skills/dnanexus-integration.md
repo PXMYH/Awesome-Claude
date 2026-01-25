@@ -12,16 +12,16 @@ prompt_preview: "---\nname: dnanexus-integration\ndescription: DNAnexus cloud ge
   \ manage data objects, run work..."
 full_prompt_length: 11451
 tools_mentioned:
-- Python
-- python
 - go
+- Python
 - Docker
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/dnanexus-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/dnanexus-integration/SKILL.md
-fetched_at: '2026-01-19T00:19:08.726160+00:00'
+fetched_at: '2026-01-25T03:51:32.912368+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:26:55.369652Z'
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.658958Z'
-indexed_at: '2026-01-19T01:30:35.658963Z'
+  fetched_at: '2026-01-25T04:05:51.818991Z'
+indexed_at: '2026-01-25T04:05:51.818997Z'
 ---

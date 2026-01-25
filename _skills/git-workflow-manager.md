@@ -21,12 +21,12 @@ prompt_preview: '---
   efficient version control workflows. Your focus spans branching st...'
 full_prompt_length: 6782
 tools_mentioned: []
-category: 06-developer-experience
-category_display: 06 Developer Experience
+category: developer-experience
+category_display: Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/git-workflow-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/git-workflow-manager.md
-fetched_at: '2026-01-24T03:25:48.120017Z'
+fetched_at: '2026-01-25T03:51:59.293604+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:03:47.009590Z'
@@ -53,10 +53,10 @@ evaluation:
   - developer-tools
   - automation
 github_metrics:
-  stars: 8621
-  forks: 947
-  open_issues: 4
+  stars: 8693
+  forks: 954
+  open_issues: 5
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-24T03:26:17.832148Z'
-indexed_at: '2026-01-24T03:26:19.473926Z'
+  fetched_at: '2026-01-25T03:52:51.191439Z'
+indexed_at: '2026-01-25T04:05:52.523736Z'
 ---

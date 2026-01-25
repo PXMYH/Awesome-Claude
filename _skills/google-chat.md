@@ -1,0 +1,57 @@
+---
+id: google-chat
+slug: google-chat
+name: Google Chat
+description: Automatically refreshes expired tokens using Google's cloud function.
+prompt_preview: "---\nname: google-chat\ndescription: |\n  Interact with Google Chat\
+  \ - list spaces, send messages, read conversations, and manage DMs.\n  Use when\
+  \ user asks to: send a message on Google Chat, read chat messages, list chat spaces,\n\
+  \  find a chat room, send a DM, or create a new chat space. Lightweight alternative\
+  \ to full\n  Google Workspace MCP server with standalone OAuth authentication.\n\
+  ---\n\n# Google Chat\n\nLightweight Google Chat integration with standalone OAuth\
+  \ authentication. No MCP server required..."
+full_prompt_length: 2089
+tools_mentioned:
+- python
+category: community
+category_display: Community
+source_repo: sanjay3290/ai-skills
+source_path: skills/google-chat/SKILL.md
+source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/google-chat/SKILL.md
+fetched_at: '2026-01-25T03:52:35.141482+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-25T04:04:01.577890Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and well-structured, with explicit
+      commands, examples, and setup instructions. It defines scope (Google Chat operations)
+      and constraints (Workspace account required, personal Gmail not supported) effectively.
+      However, it lacks explicit error handling guidance or fallback strategies for
+      common issues like authentication failures or missing spaces.
+  usefulness:
+    score: 4.0
+    reasoning: This provides practical value for developers needing lightweight Google
+      Chat integration without full Google Workspace MCP complexity. The standalone
+      OAuth approach and clear command examples make it immediately actionable for
+      common tasks like sending messages and managing spaces. However, usefulness
+      is limited by requiring a Google Workspace account and not covering all Google
+      Chat API features.
+  overall_rating: 4.25
+  summary: A well-structured, practical prompt for Google Chat integration that balances
+    clarity with actionable commands, though it could benefit from more comprehensive
+    error handling and broader feature coverage.
+  tags_suggested:
+  - google-chat
+  - oauth
+  - workspace
+  - messaging
+  - automation
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-25T04:05:53.043141Z'
+indexed_at: '2026-01-25T04:05:53.043147Z'
+---

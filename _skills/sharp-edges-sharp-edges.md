@@ -12,22 +12,22 @@ prompt_preview: "---\nname: sharp-edges\ndescription: \"Identifies error-prone A
   \ Edges Analysis\n\nEvaluates wheth..."
 full_prompt_length: 11424
 tools_mentioned:
-- Python
-- Go
-- python
-- go
-- rust
+- TypeScript
+- Java
 - JavaScript
-- php
+- python
 - java
+- javascript
 - ruby
+- PHP
 - Rust
+- Go
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/sharp-edges/skills/sharp-edges/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/sharp-edges/skills/sharp-edges/SKILL.md
-fetched_at: '2026-01-19T00:20:18.825416+00:00'
+fetched_at: '2026-01-25T03:52:41.421011+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:23:57.675667Z'
@@ -61,6 +61,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:36.782310Z'
-indexed_at: '2026-01-19T01:30:36.782316Z'
+  fetched_at: '2026-01-25T04:05:53.119833Z'
+indexed_at: '2026-01-25T04:05:53.119839Z'
 ---

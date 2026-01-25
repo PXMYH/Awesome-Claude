@@ -1,0 +1,45 @@
+---
+id: django-expert
+slug: django-expert
+name: Django Expert
+description: '- **Fullstack Guardian** - Full-stack feature implementation'
+prompt_preview: "---\nname: django-expert\ndescription: Use when building Django web\
+  \ applications or REST APIs with Django REST Framework. Invoke for Django models,\
+  \ ORM optimization, DRF serializers, viewsets, authentication with JWT.\ntriggers:\n\
+  \  - Django\n  - DRF\n  - Django REST Framework\n  - Django ORM\n  - Django model\n\
+  \  - serializer\n  - viewset\n  - Python web\nrole: specialist\nscope: implementation\n\
+  output-format: code\n---\n\n# Django Expert\n\nSenior Django specialist with deep\
+  \ expertise in Django 5.0, Django REST Fr..."
+full_prompt_length: 3032
+tools_mentioned:
+- FastAPI
+- REST
+- django
+- Python
+- Django
+category: community
+category_display: Community
+source_repo: jeffallan/claude-skills
+source_path: skills/django-expert/SKILL.md
+source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/django-expert/SKILL.md
+fetched_at: '2026-01-25T03:52:19.584707+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-25T03:57:56.068431Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: Unable to evaluate
+  usefulness:
+    score: 3.0
+    reasoning: Unable to evaluate
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-25T04:05:52.862178Z'
+indexed_at: '2026-01-25T04:05:52.862183Z'
+---

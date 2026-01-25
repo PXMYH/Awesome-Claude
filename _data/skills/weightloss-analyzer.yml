@@ -1,0 +1,52 @@
+id: weightloss-analyzer
+slug: weightloss-analyzer
+name: 减肥分析技能
+description: '**技能版本**: v1.0'
+prompt_preview: "---\nname: weightloss-analyzer\ndescription: 分析减肥数据、计算代谢率、追踪能量缺口、管理减肥阶段\n\
+  ---\n\n# 减肥分析技能\n\n分析减肥数据，计算代谢率，追踪能量缺口，管理减肥阶段。\n\n## 功能\n\n### 1. 身体成分分析\n\n**BMI计算与分类**\n\
+  - BMI = 体重(kg) / 身高(m)²\n- 分类标准（WHO亚洲标准）：\n  - 偏瘦：BMI < 18.5\n  - 正常：18.5 ≤ BMI\
+  \ < 24\n  - 超重：24 ≤ BMI < 28\n  - 肥胖：BMI ≥ 28\n\n**体脂率评估**\n- 男性：15-20%（正常），20-25%（偏高），>25%（肥胖）\n\
+  - 女性：20-25%（正常），25-30%（偏高），>30%（肥胖）\n\n**围度分析**\n- 腰围评估\n  - 男性：< 90cm（正常），≥ 90cm（腹部肥胖）\n\
+  \  - 女性：< 85cm（正常），≥ 85cm（腹部肥胖）\n- 腰臀比\n  - 男性：< 0.9（正常），≥ 0.9（腹部肥胖）\n  - 女性：< 0.85（正常），≥\
+  \ 0.85（腹部肥胖）\n\n**理..."
+full_prompt_length: 4334
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: huifer/Claude-Ally-Health
+source_path: skills/weightloss-analyzer/SKILL.md
+source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/weightloss-analyzer/SKILL.md
+fetched_at: '2026-01-25T03:52:15.761166+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-25T03:56:40.003890Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally clear and specific, providing detailed
+      formulas, classification standards, and structured output formats. It follows
+      best practices by defining a clear scope, data sources, and example commands.
+      However, it lacks explicit handling of edge cases, such as missing data or invalid
+      inputs, which could be improved with fallback guidance.
+  usefulness:
+    score: 5.0
+    reasoning: This skill offers high real-world value for individuals tracking weight
+      loss, covering comprehensive metrics like BMI, metabolic rate, and energy deficits.
+      It is highly actionable, with clear commands and reports that users can immediately
+      apply to manage their health data effectively.
+  overall_rating: 4.75
+  summary: A well-structured and highly practical prompt that provides a robust framework
+    for weight loss analysis, though it could benefit from more robust error handling
+    for edge cases.
+  tags_suggested:
+  - health
+  - fitness
+  - nutrition
+  - data-analysis
+  - wellness
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-25T04:05:52.837028Z'
+indexed_at: '2026-01-25T04:05:52.837033Z'

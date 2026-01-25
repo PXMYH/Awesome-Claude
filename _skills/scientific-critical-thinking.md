@@ -12,14 +12,14 @@ prompt_preview: "---\nname: scientific-critical-thinking\ndescription: Evaluate 
   \ K-Dense Inc.\n---..."
 full_prompt_length: 24523
 tools_mentioned:
-- python
 - go
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scientific-critical-thinking/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scientific-critical-thinking/SKILL.md
-fetched_at: '2026-01-19T00:19:24.167454+00:00'
+fetched_at: '2026-01-25T03:51:43.531372+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:42:32.233361Z'
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.990648Z'
-indexed_at: '2026-01-19T01:30:35.990653Z'
+  fetched_at: '2026-01-25T04:05:52.127709Z'
+indexed_at: '2026-01-25T04:05:52.127714Z'
 ---

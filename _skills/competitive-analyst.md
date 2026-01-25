@@ -21,12 +21,12 @@ prompt_preview: '---
   intelligence. Your focus spans competitor monitoring, strategic an...'
 full_prompt_length: 6970
 tools_mentioned: []
-category: 10-research-analysis
-category_display: 10 Research Analysis
+category: research-analysis
+category_display: Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/competitive-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/competitive-analyst.md
-fetched_at: '2026-01-24T03:25:59.907620Z'
+fetched_at: '2026-01-25T03:52:05.425969+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:11:39.125984Z'
@@ -57,10 +57,10 @@ evaluation:
   - business-research
   - swot-analysis
 github_metrics:
-  stars: 8621
-  forks: 947
-  open_issues: 4
+  stars: 8693
+  forks: 954
+  open_issues: 5
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-24T03:26:17.832148Z'
-indexed_at: '2026-01-24T03:26:19.623289Z'
+  fetched_at: '2026-01-25T03:52:51.191439Z'
+indexed_at: '2026-01-25T04:05:52.671278Z'
 ---

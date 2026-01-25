@@ -12,22 +12,22 @@ prompt_preview: "---\nname: codeql\ndescription: Run CodeQL static analysis for 
   \ (for compiled languages)\n- Open-source p..."
 full_prompt_length: 8680
 tools_mentioned:
-- Python
-- Go
-- python
-- go
-- rust
+- TypeScript
 - JavaScript
+- Java
+- python
+- javascript
 - java
 - ruby
-- TypeScript
-- javascript
+- Rust
+- Python
+- Go
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/static-analysis/skills/codeql/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/codeql/SKILL.md
-fetched_at: '2026-01-19T00:20:19.835188+00:00'
+fetched_at: '2026-01-25T03:52:42.005046+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:24:29.914230Z'
@@ -60,6 +60,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:36.789698Z'
-indexed_at: '2026-01-19T01:30:36.789703Z'
+  fetched_at: '2026-01-25T04:05:53.127423Z'
+indexed_at: '2026-01-25T04:05:53.127429Z'
 ---

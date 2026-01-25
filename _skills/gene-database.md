@@ -12,15 +12,15 @@ prompt_preview: "---\nname: gene-database\ndescription: Query NCBI Gene via E-ut
   \ maps, biological pathways, g..."
 full_prompt_length: 7215
 tools_mentioned:
+- go
 - GO
 - python
-- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/gene-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/gene-database/SKILL.md
-fetched_at: '2026-01-19T00:19:11.462024+00:00'
+fetched_at: '2026-01-25T03:51:34.423905+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:28:48.738212Z'
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.695951Z'
-indexed_at: '2026-01-19T01:30:35.695957Z'
+  fetched_at: '2026-01-25T04:05:51.856185Z'
+indexed_at: '2026-01-25T04:05:51.856191Z'
 ---

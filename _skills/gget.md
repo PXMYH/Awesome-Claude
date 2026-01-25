@@ -12,15 +12,15 @@ prompt_preview: "---\nname: gget\ndescription: \"Fast CLI/Python queries to 20+ 
   \ tool and Python package prov..."
 full_prompt_length: 25898
 tools_mentioned:
+- go
 - Python
 - python
-- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/gget/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/gget/SKILL.md
-fetched_at: '2026-01-19T00:19:12.563946+00:00'
+fetched_at: '2026-01-25T03:51:35.156704+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:30:03.128196Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.721907Z'
-indexed_at: '2026-01-19T01:30:35.721915Z'
+  fetched_at: '2026-01-25T04:05:51.885672Z'
+indexed_at: '2026-01-25T04:05:51.885679Z'
 ---

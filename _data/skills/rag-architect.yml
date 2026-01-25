@@ -1,0 +1,53 @@
+id: rag-architect
+slug: rag-architect
+name: RAG Architect
+description: '- **AI Engineer** - LLM integration and prompt engineering'
+prompt_preview: "---\nname: rag-architect\ndescription: Use when building RAG systems,\
+  \ vector databases, or knowledge-grounded AI applications requiring semantic search,\
+  \ document retrieval, or context augmentation.\ntriggers:\n  - RAG\n  - retrieval-augmented\
+  \ generation\n  - vector search\n  - embeddings\n  - semantic search\n  - vector\
+  \ database\n  - document retrieval\n  - knowledge base\n  - context retrieval\n\
+  \  - similarity search\nrole: architect\nscope: system-design\noutput-format: architecture\n\
+  ---\n\n# RAG Architect\n\nSenio..."
+full_prompt_length: 4609
+tools_mentioned:
+- Python
+category: community
+category_display: Community
+source_repo: jeffallan/claude-skills
+source_path: skills/rag-architect/SKILL.md
+source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/rag-architect/SKILL.md
+fetched_at: '2026-01-25T03:52:23.511544+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-25T04:00:04.725742Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear role definition,
+      specific triggers, and a comprehensive workflow. It follows prompt engineering
+      best practices by including constraints (MUST DO/MUST NOT DO) and output templates.
+      The only minor weakness is the incomplete Knowledge Reference section at the
+      end, which appears truncated.
+  usefulness:
+    score: 5.0
+    reasoning: This skill provides immediate, actionable value for developers building
+      RAG systems. It covers the entire lifecycle from requirements analysis to evaluation,
+      with specific technical guidance on vector databases, chunking, and retrieval
+      optimization. The constraints and reference guides make it practical for real-world
+      production systems.
+  overall_rating: 4.75
+  summary: An excellent, production-ready prompt that provides comprehensive guidance
+    for RAG system design with clear constraints and actionable workflows.
+  tags_suggested:
+  - RAG
+  - vector-databases
+  - semantic-search
+  - system-design
+  - ai-architecture
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-25T04:05:52.896716Z'
+indexed_at: '2026-01-25T04:05:52.896721Z'

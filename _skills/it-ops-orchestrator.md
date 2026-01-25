@@ -13,12 +13,12 @@ full_prompt_length: 2543
 tools_mentioned:
 - Azure
 - azure
-category: 09-meta-orchestration
-category_display: 09 Meta Orchestration
+category: meta-orchestration
+category_display: Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/it-ops-orchestrator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/it-ops-orchestrator.md
-fetched_at: '2026-01-24T03:25:58.078536Z'
+fetched_at: '2026-01-25T03:52:04.451256+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:10:27.683485Z'
@@ -47,10 +47,10 @@ evaluation:
   - PowerShell
   - Azure
 github_metrics:
-  stars: 8621
-  forks: 947
-  open_issues: 4
+  stars: 8693
+  forks: 954
+  open_issues: 5
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-24T03:26:17.832148Z'
-indexed_at: '2026-01-24T03:26:19.601009Z'
+  fetched_at: '2026-01-25T03:52:51.191439Z'
+indexed_at: '2026-01-25T04:05:52.649107Z'
 ---

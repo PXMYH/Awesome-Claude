@@ -1,0 +1,84 @@
+---
+id: occupational-health-analyzer
+slug: occupational-health-analyzer
+name: 职业健康分析技能
+description: '**技能版本**: v1.0.0'
+prompt_preview: '---
+
+  name: occupational-health-analyzer
+
+  description: 分析职业健康数据、识别工作相关健康风险、评估职业健康状况、提供个性化职业健康建议。支持与睡眠、运动、心理健康等其他健康数据的关联分析。
+
+  allowed-tools: Read, Grep, Glob, Write, Edit
+
+  ---
+
+
+  # 职业健康分析技能
+
+
+  ## 核心功能
+
+
+  职业健康分析技能提供全面的职业健康数据分析功能，帮助用户追踪工作相关健康问题、识别职业健康风险、评估工作环境人机工程水平和优化职业健康。
+
+
+  **主要功能模块：**
+
+
+  1. **职业健康风险评估** - 久坐、视屏终端、倒班工作、重复性劳损、工作压力等多维度风险评估
+
+  2. **工作相关问题追踪** - 颈肩腰腿痛、眼疲劳、腕管综合征等症状监测
+
+  3. **人机工程评估** - 工作站、椅子、显示器、键盘、环境等全方位评估
+
+  4. **职业病筛查** - 基于工作类型的职业病风险评估和筛查建议
+
+  5. **趋势分析** - 症状发展、改善效果、风险变化趋势
+
+  6. **关联分析** - 与睡眠、运动、心理健康、慢性病模块的...'
+full_prompt_length: 4710
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: huifer/Claude-Ally-Health
+source_path: skills/occupational-health-analyzer/SKILL.md
+source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/occupational-health-analyzer/SKILL.md
+fetched_at: '2026-01-25T03:52:14.591346+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-25T03:55:19.366380Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt demonstrates excellent clarity and specificity with well-defined
+      scoring systems, risk categories, and structured output formats. It follows
+      strong prompt engineering practices by establishing clear boundaries (medical
+      safety disclaimers), providing comprehensive step-by-step instructions, and
+      defining specific trigger conditions. However, it lacks explicit guidance for
+      handling missing data or edge cases in the data validation step.
+  usefulness:
+    score: 4.0
+    reasoning: This skill provides practical value for occupational health monitoring
+      with actionable risk assessments and personalized recommendations. The comprehensive
+      coverage of multiple risk factors (sedentary, VDT, ergonomic) and integration
+      with other health data makes it useful for workplace wellness programs. However,
+      its utility is limited by the requirement for specific data file formats and
+      lack of real-time monitoring capabilities.
+  overall_rating: 4.25
+  summary: A well-structured occupational health analysis skill with robust scoring
+    systems and clear safety boundaries, though it could benefit from better edge
+    case handling and more flexible data input mechanisms.
+  tags_suggested:
+  - occupational_health
+  - risk_assessment
+  - ergonomics
+  - health_monitoring
+  - workplace_wellness
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-25T04:05:52.807678Z'
+indexed_at: '2026-01-25T04:05:52.807683Z'
+---

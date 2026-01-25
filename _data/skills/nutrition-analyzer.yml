@@ -1,0 +1,56 @@
+id: nutrition-analyzer
+slug: nutrition-analyzer
+name: 营养分析器技能
+description: '**技能版本**: v1.0'
+prompt_preview: "---\nname: nutrition-analyzer\ndescription: 分析营养数据、识别营养模式、评估营养状况，并提供个性化营养建议。支持与运动、睡眠、慢性病数据的关联分析。\n\
+  allowed-tools: Read, Grep, Glob, Write\n---\n\n# 营养分析器技能\n\n分析饮食和营养数据，识别营养模式，评估营养状况，并提供个性化营养改善建议。\n\
+  \n## 功能\n\n### 1. 营养趋势分析\n\n分析营养素摄入的变化趋势，识别改善或需要关注的方面。\n\n**分析维度**：\n- 宏量营养素趋势（蛋白质、碳水、脂肪、纤维、卡路里）\n\
+  - 微量营养素趋势（维生素、矿物质）\n- 热量来源分布变化\n- 餐食模式（饮食时间、频率）\n- 食物类别偏好\n\n**输出**：\n- 趋势方向（改善/稳定/下降）\n\
+  - 变化幅度和百分比\n- 趋势显著性\n- 改进建议\n\n### 2. 营养素摄入评估\n\n评估营养素摄入是否达到推荐标准（RDA/AI）。\n\n**评估内容**：\n\
+  - **宏量营养素评估**：\n  - 蛋白质摄入量和质量\n  - 碳水化合物类型分布（精制 vs 复杂碳水）\n  - 脂肪类型..."
+full_prompt_length: 13314
+tools_mentioned:
+- python
+category: community
+category_display: Community
+source_repo: huifer/Claude-Ally-Health
+source_path: skills/nutrition-analyzer/SKILL.md
+source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/nutrition-analyzer/SKILL.md
+fetched_at: '2026-01-25T03:52:14.453001+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-25T03:55:09.479773Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured and clear, following a
+      standard skill definition format with explicit sections for name, description,
+      tools, functionality, usage instructions, and output formats. It demonstrates
+      strong specificity by detailing analysis dimensions, algorithms, and data sources,
+      and includes best practices like defining trigger conditions and execution steps.
+      However, it lacks explicit handling of edge cases, such as missing data or invalid
+      inputs, which could be improved with fallback guidance.
+  usefulness:
+    score: 5.0
+    reasoning: This skill offers high real-world value by providing comprehensive
+      nutrition analysis capabilities, including trend tracking, nutrient assessment,
+      and correlation with other health metrics, which are directly applicable to
+      health and wellness applications. It is highly actionable, as users can immediately
+      benefit from the structured outputs and personalized recommendations based on
+      common data formats like JSON logs.
+  overall_rating: 4.75
+  summary: This is a robust and practical nutrition analysis skill prompt with excellent
+    structure and detailed functionality, making it highly useful for health-focused
+    AI agents, though it could be enhanced with edge case handling for data inconsistencies.
+  tags_suggested:
+  - nutrition
+  - health-analysis
+  - personalized-recommendations
+  - data-correlation
+  - wellness
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-25T04:05:52.803740Z'
+indexed_at: '2026-01-25T04:05:52.803745Z'

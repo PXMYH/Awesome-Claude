@@ -31,7 +31,7 @@ category_display: Community
 source_repo: obra/superpowers-lab
 source_path: skills/using-tmux-for-interactive-commands/SKILL.md
 source_url: https://github.com/obra/superpowers-lab/blob/main/skills/using-tmux-for-interactive-commands/SKILL.md
-fetched_at: '2026-01-19T00:20:08.650540+00:00'
+fetched_at: '2026-01-25T03:52:30.435668+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:20:26.492316Z'
@@ -62,6 +62,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:36.714541Z'
-indexed_at: '2026-01-19T01:30:36.714547Z'
+  fetched_at: '2026-01-25T04:05:53.000880Z'
+indexed_at: '2026-01-25T04:05:53.000886Z'
 ---

@@ -1,0 +1,93 @@
+id: ai-analyzer
+slug: ai-analyzer
+name: AI健康分析器
+description: '### 性能优化'
+prompt_preview: '---
+
+  name: ai-analyzer
+
+  description: AI驱动的综合健康分析系统，整合多维度健康数据、识别异常模式、预测健康风险、提供个性化建议。支持智能问答和AI健康报告生成。
+
+  allowed-tools: Read, Grep, Glob, Write
+
+  ---
+
+
+  # AI健康分析器
+
+
+  基于AI技术的综合健康分析系统，提供智能健康洞察、风险预测和个性化建议。
+
+
+  ## 核心功能
+
+
+  ### 1. 智能健康分析
+
+  - **多维度数据整合**: 整合基础指标、生活方式、心理健康、医疗历史等4类数据源
+
+  - **异常模式识别**: 使用CUSUM、Z-score等算法检测异常值和变化点
+
+  - **相关性分析**: 计算不同健康指标之间的相关性（皮尔逊、斯皮尔曼）
+
+  - **趋势预测**: 基于历史数据进行趋势分析和预测
+
+
+  ### 2. 健康风险预测
+
+  - **高血压风险**: 基于Framingham风险评分模型
+
+  - **糖尿病风险**: 基于ADA糖尿病风险评分标准
+
+  - **心血管疾病风险**: 基于ACC/AHA ASCVD指南
+
+  - **营养缺乏风险**: 基于RDA达成率和饮食模式...'
+full_prompt_length: 4114
+tools_mentioned:
+- javascript
+category: community
+category_display: Community
+source_repo: huifer/Claude-Ally-Health
+source_path: skills/ai-analyzer/SKILL.md
+source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/ai-analyzer/SKILL.md
+fetched_at: '2026-01-25T03:52:13.198698+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-25T03:53:34.573013Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: 'The prompt is exceptionally well-structured with clear sections for
+      core functions, usage instructions, execution steps, data sources, algorithms,
+      and safety guidelines. It provides specific file paths, algorithm names, and
+      risk models, making it highly specific and actionable. However, it has a minor
+      issue at the end where the ''Tools'' section is incomplete (''- **Read**: 读取JSON数据文件
+
+      - **Grep**: 搜索特定模式
+
+      - *''), which slightly impacts clarity and completeness.'
+  usefulness:
+    score: 4.0
+    reasoning: This skill provides high real-world value for health data analysis,
+      covering comprehensive features like multi-dimensional data integration, risk
+      prediction using established medical models, and report generation. It is practical
+      for users with structured health data, offering actionable insights and personalized
+      suggestions. However, its usefulness is limited by its dependency on specific
+      local file structures and the lack of actual data ingestion mechanisms, making
+      it more of a conceptual framework than a ready-to-deploy tool.
+  overall_rating: 4.25
+  summary: A well-designed and comprehensive prompt for a health analysis AI skill,
+    with strong structure and detailed specifications, though slightly hampered by
+    an incomplete tool section and practical implementation dependencies.
+  tags_suggested:
+  - healthcare
+  - data-analysis
+  - risk-prediction
+  - ai-reporting
+  - medical
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-25T04:05:52.769387Z'
+indexed_at: '2026-01-25T04:05:52.769393Z'

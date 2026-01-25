@@ -12,15 +12,15 @@ prompt_preview: "---\nname: scikit-bio\ndescription: Biological data toolkit. Se
   \ alignment, phylog..."
 full_prompt_length: 15534
 tools_mentioned:
+- go
 - Python
 - python
-- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scikit-bio/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scikit-bio/SKILL.md
-fetched_at: '2026-01-19T00:19:25.070023+00:00'
+fetched_at: '2026-01-25T03:51:44.346801+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:43:22.252345Z'
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:36.008431Z'
-indexed_at: '2026-01-19T01:30:36.008436Z'
+  fetched_at: '2026-01-25T04:05:52.146375Z'
+indexed_at: '2026-01-25T04:05:52.146380Z'
 ---

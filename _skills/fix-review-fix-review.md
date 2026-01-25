@@ -18,7 +18,7 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/fix-review/skills/fix-review/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/fix-review/skills/fix-review/SKILL.md
-fetched_at: '2026-01-19T00:20:17.481027+00:00'
+fetched_at: '2026-01-25T03:52:40.246245+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:23:20.457120Z'
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:36.771420Z'
-indexed_at: '2026-01-19T01:30:36.771425Z'
+  fetched_at: '2026-01-25T04:05:53.105016Z'
+indexed_at: '2026-01-25T04:05:53.105022Z'
 ---

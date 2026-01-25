@@ -1,0 +1,60 @@
+---
+id: vue-expert-js
+slug: vue-expert-js
+name: Vue Expert (JavaScript)
+description: '- **Vue Expert** - TypeScript-based Vue development (primary)'
+prompt_preview: "---\nname: vue-expert-js\ndescription: Use when building Vue 3 applications\
+  \ with JavaScript only (no TypeScript). Invoke for JSDoc typing, vanilla JS composables,\
+  \ .mjs modules.\ntriggers:\n  - Vue JavaScript\n  - Vue without TypeScript\n  -\
+  \ Vue JSDoc\n  - Vue JS only\n  - Vue vanilla JavaScript\n  - .mjs Vue\n  - Vue\
+  \ no TS\nrole: specialist\nscope: implementation\noutput-format: code\n---\n\n#\
+  \ Vue Expert (JavaScript)\n\nSenior Vue specialist building Vue 3 applications with\
+  \ JavaScript and JSDoc typing instead of..."
+full_prompt_length: 3132
+tools_mentioned:
+- TypeScript
+- JavaScript
+- Vue
+- vue
+category: community
+category_display: Community
+source_repo: jeffallan/claude-skills
+source_path: skills/vue-expert-js/SKILL.md
+source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/vue-expert-js/SKILL.md
+fetched_at: '2026-01-25T03:52:25.910911+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-25T04:02:12.055599Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear role definition,
+      specific constraints, and actionable workflow. It follows best practices by
+      defining triggers, scope, and output format upfront. The only minor limitation
+      is the reference system which assumes external files exist, but the core instructions
+      remain self-contained and comprehensive.
+  usefulness:
+    score: 5.0
+    reasoning: 'This skill addresses a real-world niche: teams using Vue 3 with JavaScript-only
+      setups who need type safety without TypeScript compilation. It provides immediate
+      value with concrete JSDoc patterns, clear constraints, and practical guidance
+      for migration or prototyping scenarios. The specificity makes it highly actionable
+      for developers in this exact situation.'
+  overall_rating: 4.75
+  summary: An excellent, highly specialized prompt that fills a specific gap in Vue
+    development workflows, offering clear guidance for JavaScript-only Vue 3 projects
+    with strong type safety through JSDoc.
+  tags_suggested:
+  - vue3
+  - javascript
+  - jsdoc
+  - composition-api
+  - no-typescript
+  - frontend
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-25T04:05:52.932020Z'
+indexed_at: '2026-01-25T04:05:52.932025Z'
+---

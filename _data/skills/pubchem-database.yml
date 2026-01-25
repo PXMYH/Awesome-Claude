@@ -11,17 +11,17 @@ prompt_preview: "---\nname: pubchem-database\ndescription: Query PubChem via PUG
   \ CID, or SMILES, retrieve molecular proper..."
 full_prompt_length: 17132
 tools_mentioned:
-- Python
 - python
-- go
-- rest
 - REST
+- rest
+- Python
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pubchem-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pubchem-database/SKILL.md
-fetched_at: '2026-01-19T00:19:19.943662+00:00'
+fetched_at: '2026-01-25T03:51:40.403251+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:38:05.601573Z'
@@ -53,5 +53,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.905539Z'
-indexed_at: '2026-01-19T01:30:35.905544Z'
+  fetched_at: '2026-01-25T04:05:52.040329Z'
+indexed_at: '2026-01-25T04:05:52.040335Z'

@@ -21,7 +21,7 @@ category_display: Infrastructure
 source_repo: zxkane/aws-skills
 source_path: plugins/aws-agentic-ai/skills/aws-agentic-ai/SKILL.md
 source_url: https://github.com/zxkane/aws-skills/blob/main/plugins/aws-agentic-ai/skills/aws-agentic-ai/SKILL.md
-fetched_at: '2026-01-19T00:20:28.090549+00:00'
+fetched_at: '2026-01-25T03:52:48.788574+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:29:38.533411Z'
@@ -55,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:36.879849Z'
-indexed_at: '2026-01-19T01:30:36.879854Z'
+  fetched_at: '2026-01-25T04:05:53.219376Z'
+indexed_at: '2026-01-25T04:05:53.219382Z'
 ---

@@ -21,15 +21,15 @@ prompt_preview: '---
 full_prompt_length: 21764
 tools_mentioned:
 - React
+- JavaScript
 - Vue
 - javascript
-- JavaScript
 category: community
 category_display: Community
 source_repo: chrisvoncsefalvay/claude-d3js-skill
 source_path: SKILL.md
 source_url: https://github.com/chrisvoncsefalvay/claude-d3js-skill/blob/main/SKILL.md
-fetched_at: '2026-01-19T00:20:00.606507+00:00'
+fetched_at: '2026-01-25T03:52:11.208541+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:16:19.092018Z'
@@ -60,5 +60,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:36.636178Z'
-indexed_at: '2026-01-19T01:30:36.636183Z'
+  fetched_at: '2026-01-25T04:05:52.758470Z'
+indexed_at: '2026-01-25T04:05:52.758476Z'

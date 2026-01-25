@@ -18,7 +18,7 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/libfuzzer/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/libfuzzer/SKILL.md
-fetched_at: '2026-01-19T00:20:22.953873+00:00'
+fetched_at: '2026-01-25T03:52:44.099825+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:27:13.518169Z'
@@ -51,5 +51,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:36.843467Z'
-indexed_at: '2026-01-19T01:30:36.843472Z'
+  fetched_at: '2026-01-25T04:05:53.178967Z'
+indexed_at: '2026-01-25T04:05:53.178972Z'

@@ -1,0 +1,57 @@
+---
+id: react-expert
+slug: react-expert
+name: React Expert
+description: '- **Fullstack Guardian** - Full-stack feature implementation'
+prompt_preview: "---\nname: react-expert\ndescription: Use when building React 18+\
+  \ applications requiring component architecture, hooks patterns, or state management.\
+  \ Invoke for Server Components, performance optimization, Suspense boundaries, React\
+  \ 19 features.\ntriggers:\n  - React\n  - JSX\n  - hooks\n  - useState\n  - useEffect\n\
+  \  - useContext\n  - Server Components\n  - React 19\n  - Suspense\n  - TanStack\
+  \ Query\n  - Redux\n  - Zustand\n  - component\n  - frontend\nrole: specialist\n\
+  scope: implementation\noutput-format: code\n-..."
+full_prompt_length: 3593
+tools_mentioned:
+- React
+- TypeScript
+- react
+category: community
+category_display: Community
+source_repo: jeffallan/claude-skills
+source_path: skills/react-expert/SKILL.md
+source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/react-expert/SKILL.md
+fetched_at: '2026-01-25T03:52:23.783049+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-25T04:00:14.601767Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear role definition,
+      specific constraints, and a comprehensive reference system. It follows best
+      practices by defining triggers, scope, and output format. The only minor weakness
+      is the external reference files which may not be accessible to all users, potentially
+      limiting immediate usability.
+  usefulness:
+    score: 5.0
+    reasoning: This skill provides immediate, high-value guidance for real-world React
+      development, covering modern patterns like Server Components and React 19 features.
+      The workflow is actionable and comprehensive, addressing common pain points
+      like performance optimization and state management. The constraints and templates
+      ensure production-ready output.
+  overall_rating: 4.75
+  summary: An excellent, production-ready prompt that demonstrates deep expertise
+    in modern React development with clear structure and practical guidance.
+  tags_suggested:
+  - React 19
+  - Server Components
+  - TypeScript
+  - State Management
+  - Performance Optimization
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-25T04:05:52.900163Z'
+indexed_at: '2026-01-25T04:05:52.900169Z'
+---

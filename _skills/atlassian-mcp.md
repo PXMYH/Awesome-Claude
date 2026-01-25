@@ -1,0 +1,59 @@
+---
+id: atlassian-mcp
+slug: atlassian-mcp
+name: Atlassian MCP Expert
+description: '- **MCP Developer** - Building custom MCP servers and protocol compliance'
+prompt_preview: "---\nname: atlassian-mcp\ndescription: Use when querying Jira issues,\
+  \ searching Confluence pages, creating tickets, updating documentation, or integrating\
+  \ Atlassian tools via MCP protocol.\ntriggers:\n  - Jira\n  - Confluence\n  - Atlassian\n\
+  \  - MCP\n  - tickets\n  - issues\n  - wiki\n  - JQL\n  - CQL\n  - sprint\n  - backlog\n\
+  \  - project management\nrole: expert\nscope: implementation\noutput-format: code\n\
+  ---\n\n# Atlassian MCP Expert\n\nSenior integration specialist with deep expertise\
+  \ in connecting Jira, Confluenc..."
+full_prompt_length: 4138
+tools_mentioned:
+- REST
+category: community
+category_display: Community
+source_repo: jeffallan/claude-skills
+source_path: skills/atlassian-mcp/SKILL.md
+source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/atlassian-mcp/SKILL.md
+fetched_at: '2026-01-25T03:52:18.116831+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-25T03:57:25.016974Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt demonstrates strong clarity and specificity with well-defined
+      role, workflow, and constraints. It includes comprehensive 'MUST DO' and 'MUST
+      NOT DO' sections that provide clear guardrails. The reference system is innovative
+      but relies on external files that may not exist, which could limit practical
+      implementation.
+  usefulness:
+    score: 4.0
+    reasoning: High practical value for developers working with Atlassian tools, covering
+      authentication, queries, and common workflows. The prompt is actionable with
+      specific technical details like JQL/CQL, OAuth 2.1, and rate limiting. However,
+      the dependency on external reference files reduces immediate usability without
+      access to those resources.
+  overall_rating: 4.25
+  summary: A well-structured, technically detailed prompt for Atlassian MCP integration
+    that balances comprehensive guidance with practical constraints, though its effectiveness
+    depends on access to referenced documentation files.
+  tags_suggested:
+  - atlassian
+  - jira
+  - confluence
+  - mcp
+  - integration
+  - authentication
+  - jql
+  - cql
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-25T04:05:52.851501Z'
+indexed_at: '2026-01-25T04:05:52.851507Z'
+---

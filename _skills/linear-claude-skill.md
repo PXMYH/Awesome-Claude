@@ -1,0 +1,59 @@
+---
+id: linear-claude-skill
+slug: linear-claude-skill
+name: Linear
+description: '**External:** [Linear MCP Documentation](https://linear.app/docs/mcp.md)'
+prompt_preview: "---\nname: Linear\ndescription: Managing Linear issues, projects,\
+  \ and teams. Use when working with Linear tasks, creating issues, updating status,\
+  \ querying projects, or managing team workflows.\nallowed-tools:\n  - mcp__linear\n\
+  \  - WebFetch(domain:linear.app)\n  - Bash\n---\n\n# Linear\n\nTools and workflows\
+  \ for managing issues, projects, and teams in Linear.\n\n---\n\n## ⚠️ Tool Availability\
+  \ (READ FIRST)\n\n**This skill supports multiple tool backends. Use whichever is\
+  \ available:**\n\n1. **MCP Tools (mcp__linear)..."
+full_prompt_length: 13789
+tools_mentioned:
+- TypeScript
+- Go
+- GraphQL
+- javascript
+category: community
+category_display: Community
+source_repo: wrsmith108/linear-claude-skill
+source_path: SKILL.md
+source_url: https://github.com/wrsmith108/linear-claude-skill/blob/main/SKILL.md
+fetched_at: '2026-01-25T03:52:46.291257+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-25T04:05:45.560038Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear sections, specific
+      tool availability guidance, and robust security practices. It handles edge cases
+      by providing fallback CLI commands when MCP tools are unavailable and includes
+      comprehensive setup instructions. The only minor weakness is the truncated content
+      at the end, which slightly impacts completeness.
+  usefulness:
+    score: 5.0
+    reasoning: This is highly practical for real-world Linear workflow management,
+      covering common operations like issue creation, status updates, and project
+      planning. The inclusion of both MCP and CLI backends ensures broad compatibility,
+      and the security-focused approach with Varlock integration addresses critical
+      production concerns. Users can immediately implement the provided commands and
+      scripts.
+  overall_rating: 4.75
+  summary: An excellent, production-ready skill prompt with strong security practices,
+    comprehensive tool support, and clear workflows for Linear project management.
+  tags_suggested:
+  - productivity
+  - project-management
+  - security
+  - developer-tools
+  - linear
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-25T04:05:53.208633Z'
+indexed_at: '2026-01-25T04:05:53.208638Z'
+---

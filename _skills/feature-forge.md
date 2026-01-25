@@ -1,0 +1,54 @@
+---
+id: feature-forge
+slug: feature-forge
+name: Feature Forge
+description: '- **Fullstack Guardian** - Implements the specification'
+prompt_preview: "---\nname: feature-forge\ndescription: Use when defining new features,\
+  \ gathering requirements, or writing specifications. Invoke for feature definition,\
+  \ requirements gathering, user stories, EARS format specs.\ntriggers:\n  - requirements\n\
+  \  - specification\n  - feature definition\n  - user stories\n  - EARS\n  - planning\n\
+  role: specialist\nscope: design\noutput-format: document\n---\n\n# Feature Forge\n\
+  \nRequirements specialist conducting structured workshops to define comprehensive\
+  \ feature specifications.\n\n##..."
+full_prompt_length: 2954
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: jeffallan/claude-skills
+source_path: skills/feature-forge/SKILL.md
+source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/feature-forge/SKILL.md
+fetched_at: '2026-01-25T03:52:20.099787+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-25T03:58:15.358808Z'
+  prompt_quality:
+    score: 4.5
+    reasoning: The prompt is exceptionally well-structured with clear role definition,
+      specific workflow steps, and comprehensive constraints. It follows best practices
+      by defining triggers, scope, and output format upfront. The only minor limitation
+      is the dependency on external reference files that may not exist in all contexts.
+  usefulness:
+    score: 5.0
+    reasoning: This skill provides tremendous real-world value by structuring the
+      complex process of feature definition into a systematic workflow. It covers
+      the full lifecycle from discovery to implementation planning, making it immediately
+      actionable for product teams. The dual PM/Dev perspective ensures comprehensive
+      requirements that address both user needs and technical constraints.
+  overall_rating: 4.75
+  summary: An outstanding prompt that transforms feature definition into a structured,
+    repeatable process with clear roles, workflows, and deliverables, making it highly
+    valuable for development teams.
+  tags_suggested:
+  - product-management
+  - requirements-engineering
+  - specification
+  - EARS
+  - feature-definition
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-25T04:05:52.868424Z'
+indexed_at: '2026-01-25T04:05:52.868430Z'
+---

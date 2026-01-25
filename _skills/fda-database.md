@@ -12,15 +12,15 @@ prompt_preview: "---\nname: fda-database\ndescription: Query openFDA API for dru
   \ about drugs, medical devices, foods, ani..."
 full_prompt_length: 15230
 tools_mentioned:
+- go
 - Python
 - python
-- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/fda-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/fda-database/SKILL.md
-fetched_at: '2026-01-19T00:19:10.902411+00:00'
+fetched_at: '2026-01-25T03:51:34.075546+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:28:16.910912Z'
@@ -50,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.685103Z'
-indexed_at: '2026-01-19T01:30:35.685111Z'
+  fetched_at: '2026-01-25T04:05:51.845594Z'
+indexed_at: '2026-01-25T04:05:51.845599Z'
 ---

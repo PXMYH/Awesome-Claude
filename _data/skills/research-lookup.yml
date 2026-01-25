@@ -11,14 +11,14 @@ prompt_preview: "---\nname: research-lookup\ndescription: Look up current resear
   \ Lookup\n\n## Overview\n\nThis skill..."
 full_prompt_length: 20735
 tools_mentioned:
-- python
 - go
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/research-lookup/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/research-lookup/SKILL.md
-fetched_at: '2026-01-19T00:19:23.289188+00:00'
+fetched_at: '2026-01-25T03:51:42.923553+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:41:38.983240Z'
@@ -51,5 +51,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.972703Z'
-indexed_at: '2026-01-19T01:30:35.972708Z'
+  fetched_at: '2026-01-25T04:05:52.109787Z'
+indexed_at: '2026-01-25T04:05:52.109792Z'

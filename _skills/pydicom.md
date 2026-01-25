@@ -15,15 +15,15 @@ prompt_preview: '---
   imaging datasets. Applies to tasks involving medical im...'
 full_prompt_length: 14008
 tools_mentioned:
+- go
 - Python
 - python
-- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pydicom/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pydicom/SKILL.md
-fetched_at: '2026-01-19T00:19:20.665166+00:00'
+fetched_at: '2026-01-25T03:51:40.911181+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:38:45.329716Z'
@@ -58,6 +58,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.918851Z'
-indexed_at: '2026-01-19T01:30:35.918856Z'
+  fetched_at: '2026-01-25T04:05:52.055119Z'
+indexed_at: '2026-01-25T04:05:52.055126Z'
 ---

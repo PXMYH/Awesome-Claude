@@ -12,14 +12,14 @@ prompt_preview: "---\nname: research-grants\ndescription: Write competitive rese
   \ writing is the process of developing competi..."
 full_prompt_length: 38007
 tools_mentioned:
-- python
 - go
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/research-grants/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/research-grants/SKILL.md
-fetched_at: '2026-01-19T00:19:23.117763+00:00'
+fetched_at: '2026-01-25T03:51:42.785601+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:41:14.387689Z'
@@ -50,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.969184Z'
-indexed_at: '2026-01-19T01:30:35.969189Z'
+  fetched_at: '2026-01-25T04:05:52.106287Z'
+indexed_at: '2026-01-25T04:05:52.106292Z'
 ---

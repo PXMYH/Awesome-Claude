@@ -12,14 +12,14 @@ prompt_preview: "---\nname: cargo-fuzz\ntype: fuzzer\ndescription: >\n  cargo-fu
   \ like AddressSanitizer.\n\n## When to Use\n\ncar..."
 full_prompt_length: 11488
 tools_mentioned:
-- rust
 - Rust
+- rust
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/cargo-fuzz/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/cargo-fuzz/SKILL.md
-fetched_at: '2026-01-19T00:20:21.400098+00:00'
+fetched_at: '2026-01-25T03:52:43.027119+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:25:43.161840Z'
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:36.815083Z'
-indexed_at: '2026-01-19T01:30:36.815088Z'
+  fetched_at: '2026-01-25T04:05:53.149618Z'
+indexed_at: '2026-01-25T04:05:53.149624Z'
 ---

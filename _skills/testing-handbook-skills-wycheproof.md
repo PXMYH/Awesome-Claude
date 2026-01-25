@@ -13,18 +13,18 @@ prompt_preview: "---\nname: wycheproof\ntype: domain\ndescription: >\n  Wychepro
   \ vectors for specific cryptogra..."
 full_prompt_length: 19328
 tools_mentioned:
-- Python
-- python
 - JavaScript
+- Java
 - java
 - javascript
-- Java
+- python
+- Python
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/wycheproof/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/wycheproof/SKILL.md
-fetched_at: '2026-01-19T00:20:23.877940+00:00'
+fetched_at: '2026-01-25T03:52:44.731859+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:28:14.479281Z'
@@ -59,6 +59,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:36.861542Z'
-indexed_at: '2026-01-19T01:30:36.861548Z'
+  fetched_at: '2026-01-25T04:05:53.197243Z'
+indexed_at: '2026-01-25T04:05:53.197248Z'
 ---

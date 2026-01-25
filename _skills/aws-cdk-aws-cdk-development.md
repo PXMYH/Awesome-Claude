@@ -14,22 +14,22 @@ prompt_preview: "---\nname: aws-cdk-development\ndescription: AWS Cloud Developm
   skills:\n  - aws-mcp-setup\nallowe..."
 full_prompt_length: 10343
 tools_mentioned:
+- TypeScript
+- JavaScript
+- Java
+- AWS
+- python
+- REST
 - Python
 - Go
-- python
 - aws
-- JavaScript
 - typescript
-- AWS
-- TypeScript
-- Java
-- REST
 category: infrastructure
 category_display: Infrastructure
 source_repo: zxkane/aws-skills
 source_path: plugins/aws-cdk/skills/aws-cdk-development/SKILL.md
 source_url: https://github.com/zxkane/aws-skills/blob/main/plugins/aws-cdk/skills/aws-cdk-development/SKILL.md
-fetched_at: '2026-01-19T00:20:28.644979+00:00'
+fetched_at: '2026-01-25T03:52:49.057710+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:29:48.763691Z'
@@ -66,6 +66,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:36.883499Z'
-indexed_at: '2026-01-19T01:30:36.883504Z'
+  fetched_at: '2026-01-25T04:05:53.223068Z'
+indexed_at: '2026-01-25T04:05:53.223073Z'
 ---

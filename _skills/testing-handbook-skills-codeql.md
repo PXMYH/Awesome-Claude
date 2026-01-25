@@ -12,22 +12,22 @@ prompt_preview: "---\nname: codeql\ntype: tool\ndescription: >\n  CodeQL is a st
   \ However, the learning curve f..."
 full_prompt_length: 19125
 tools_mentioned:
-- Python
-- Go
-- python
-- go
-- JavaScript
-- java
-- ruby
 - TypeScript
-- javascript
+- JavaScript
 - Java
+- java
+- javascript
+- python
+- ruby
+- Go
+- Python
+- go
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/codeql/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/codeql/SKILL.md
-fetched_at: '2026-01-19T00:20:21.619954+00:00'
+fetched_at: '2026-01-25T03:52:43.143581+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:26:03.194499Z'
@@ -59,6 +59,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:36.818583Z'
-indexed_at: '2026-01-19T01:30:36.818588Z'
+  fetched_at: '2026-01-25T04:05:53.153232Z'
+indexed_at: '2026-01-25T04:05:53.153237Z'
 ---

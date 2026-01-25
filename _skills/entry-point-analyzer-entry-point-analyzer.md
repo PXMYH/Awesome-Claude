@@ -13,7 +13,7 @@ prompt_preview: '---
   and generates structured audit reports. Excludes view/pure/read-only functions.
   Use when auditing smart contracts (Solidity, Vyper, Solana/Rust, Move, TON, CosmWasm)
   or when asked to find entry points, audit flows, exter...'
-full_prompt_length: 9459
+full_prompt_length: 9591
 tools_mentioned:
 - Rust
 category: security
@@ -21,7 +21,7 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/entry-point-analyzer/skills/entry-point-analyzer/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/entry-point-analyzer/skills/entry-point-analyzer/SKILL.md
-fetched_at: '2026-01-19T00:20:17.028658+00:00'
+fetched_at: '2026-01-25T03:52:39.622957+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:23:02.165188Z'
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:36.767921Z'
-indexed_at: '2026-01-19T01:30:36.767926Z'
+  fetched_at: '2026-01-25T04:05:53.097849Z'
+indexed_at: '2026-01-25T04:05:53.097855Z'
 ---

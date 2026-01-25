@@ -15,15 +15,15 @@ prompt_preview: '---
   (6) identifying missing documentation f...'
 full_prompt_length: 24060
 tools_mentioned:
-- python
 - go
 - Go
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/iso-13485-certification/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/iso-13485-certification/SKILL.md
-fetched_at: '2026-01-19T00:19:13.847989+00:00'
+fetched_at: '2026-01-25T03:51:36.080341+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:31:43.485595Z'
@@ -58,6 +58,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.769133Z'
-indexed_at: '2026-01-19T01:30:35.769142Z'
+  fetched_at: '2026-01-25T04:05:51.911445Z'
+indexed_at: '2026-01-25T04:05:51.911451Z'
 ---

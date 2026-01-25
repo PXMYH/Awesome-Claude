@@ -12,14 +12,14 @@ prompt_preview: "---\nname: torchdrug\ndescription: PyTorch-native graph neural 
   \n## Overview\n\nTorchDrug is a c..."
 full_prompt_length: 14823
 tools_mentioned:
-- python
 - go
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/torchdrug/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/torchdrug/SKILL.md
-fetched_at: '2026-01-19T00:19:27.527332+00:00'
+fetched_at: '2026-01-25T03:51:45.982490+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:45:37.136419Z'
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:36.056433Z'
-indexed_at: '2026-01-19T01:30:36.056439Z'
+  fetched_at: '2026-01-25T04:05:52.193875Z'
+indexed_at: '2026-01-25T04:05:52.193881Z'
 ---

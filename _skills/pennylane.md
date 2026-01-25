@@ -17,14 +17,14 @@ prompt_preview: '---
   license: Apache-2.0...'
 full_prompt_length: 8216
 tools_mentioned:
-- python
 - go
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pennylane/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pennylane/SKILL.md
-fetched_at: '2026-01-19T00:19:18.896618+00:00'
+fetched_at: '2026-01-25T03:51:39.660470+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:37:03.045687Z'
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.883602Z'
-indexed_at: '2026-01-19T01:30:35.883607Z'
+  fetched_at: '2026-01-25T04:05:52.017336Z'
+indexed_at: '2026-01-25T04:05:52.017341Z'
 ---

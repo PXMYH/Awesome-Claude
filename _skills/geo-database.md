@@ -12,15 +12,15 @@ prompt_preview: "---\nname: geo-database\ndescription: Access NCBI GEO for gene 
   \ with more than 8 mill..."
 full_prompt_length: 25348
 tools_mentioned:
+- go
 - Python
 - python
-- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/geo-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/geo-database/SKILL.md
-fetched_at: '2026-01-19T00:19:11.994227+00:00'
+fetched_at: '2026-01-25T03:51:34.793699+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:29:27.360887Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.707072Z'
-indexed_at: '2026-01-19T01:30:35.707078Z'
+  fetched_at: '2026-01-25T04:05:51.867367Z'
+indexed_at: '2026-01-25T04:05:51.867372Z'
 ---

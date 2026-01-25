@@ -11,14 +11,14 @@ prompt_preview: "---\nname: arboreto\ndescription: Infer gene regulatory network
   \nArboreto is a computational libra..."
 full_prompt_length: 7748
 tools_mentioned:
-- python
 - go
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/arboreto/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/arboreto/SKILL.md
-fetched_at: '2026-01-19T00:19:04.066267+00:00'
+fetched_at: '2026-01-25T03:51:29.673144+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:21:38.456218Z'
@@ -53,5 +53,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.560841Z'
-indexed_at: '2026-01-19T01:30:35.560846Z'
+  fetched_at: '2026-01-25T04:05:51.725376Z'
+indexed_at: '2026-01-25T04:05:51.725382Z'

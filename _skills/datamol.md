@@ -12,15 +12,15 @@ prompt_preview: "---\nname: datamol\ndescription: Pythonic wrapper around RDKit 
   \ Skill\n\n## Overview\n\nDatamol is a..."
 full_prompt_length: 19680
 tools_mentioned:
+- go
 - Python
 - python
-- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/datamol/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/datamol/SKILL.md
-fetched_at: '2026-01-19T00:19:07.850437+00:00'
+fetched_at: '2026-01-25T03:51:32.134715+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:25:47.915821Z'
@@ -55,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.640048Z'
-indexed_at: '2026-01-19T01:30:35.640053Z'
+  fetched_at: '2026-01-25T04:05:51.800219Z'
+indexed_at: '2026-01-25T04:05:51.800224Z'
 ---

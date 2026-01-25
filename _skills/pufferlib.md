@@ -12,15 +12,15 @@ prompt_preview: "---\nname: pufferlib\ndescription: High-performance reinforceme
   metadata:\n    skill-author: K-Dense..."
 full_prompt_length: 14312
 tools_mentioned:
+- go
 - Python
 - python
-- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pufferlib/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pufferlib/SKILL.md
-fetched_at: '2026-01-19T00:19:20.294768+00:00'
+fetched_at: '2026-01-25T03:51:40.662359+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:38:29.884417Z'
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.912751Z'
-indexed_at: '2026-01-19T01:30:35.912756Z'
+  fetched_at: '2026-01-25T04:05:52.047768Z'
+indexed_at: '2026-01-25T04:05:52.047774Z'
 ---

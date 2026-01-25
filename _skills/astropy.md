@@ -15,17 +15,17 @@ prompt_preview: '---
   distance calculations, time scale conversions, or astronomical dat...'
 full_prompt_length: 12353
 tools_mentioned:
-- Python
-- angular
-- python
-- go
 - Angular
+- python
+- angular
+- Python
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/astropy/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/astropy/SKILL.md
-fetched_at: '2026-01-19T00:19:04.243621+00:00'
+fetched_at: '2026-01-25T03:51:29.790877+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:21:50.440789Z'
@@ -59,6 +59,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.564692Z'
-indexed_at: '2026-01-19T01:30:35.564697Z'
+  fetched_at: '2026-01-25T04:05:51.729146Z'
+indexed_at: '2026-01-25T04:05:51.729151Z'
 ---

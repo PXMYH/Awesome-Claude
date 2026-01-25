@@ -1,0 +1,57 @@
+---
+id: helius
+slug: helius
+name: Helius Solana Infrastructure Expert
+description: '```bash'
+prompt_preview: "---\nname: helius\ndescription: Helius Solana RPC and API expert.\
+  \ High-performance infrastructure for Solana including RPC nodes, DAS API for NFTs/tokens,\
+  \ LaserStream real-time streaming, webhooks, Priority Fee API, Enhanced Transactions,\
+  \ and ZK Compression. Triggers on Helius, Solana RPC, DAS API, Digital Asset Standard,\
+  \ NFT metadata, Solana webhooks, priority fees, LaserStream, ZK compression.\nallowed-tools:\
+  \ Read, Grep, Glob, Bash\nmodel: sonnet\nlicense: MIT\nmetadata:\n  author: raintree\n\
+  \  version..."
+full_prompt_length: 9366
+tools_mentioned:
+- gRPC
+- typescript
+- javascript
+category: community
+category_display: Community
+source_repo: raintree-technology/claude-starter
+source_path: skills/helius/SKILL.md
+source_url: https://github.com/raintree-technology/claude-starter/blob/main/skills/helius/SKILL.md
+fetched_at: '2026-01-25T03:52:32.714334+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-01-25T04:02:42.933381Z'
+  prompt_quality:
+    score: 4.0
+    reasoning: The prompt is well-structured with clear sections and practical code
+      examples. However, it lacks explicit instructions on how the AI should respond
+      to user queries, edge case handling, and fallback guidance. The prompt is more
+      of a reference guide than an active instruction set for the AI agent.
+  usefulness:
+    score: 4.5
+    reasoning: High practical value for Solana developers working with Helius infrastructure.
+      Covers core services comprehensively with real code examples. The inclusion
+      of specific API methods and use cases makes it immediately actionable for developers
+      setting up RPC, querying NFTs, or optimizing transactions.
+  overall_rating: 4.25
+  summary: A solid reference guide for Helius Solana infrastructure that provides
+    high practical value but needs more explicit AI agent instructions to reach its
+    full potential as a skill.
+  tags_suggested:
+  - Solana
+  - RPC
+  - NFTs
+  - Web3
+  - Blockchain
+  - Developer Tools
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-01-25T04:05:53.015213Z'
+indexed_at: '2026-01-25T04:05:53.015218Z'
+---

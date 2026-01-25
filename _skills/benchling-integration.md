@@ -12,17 +12,17 @@ prompt_preview: "---\nname: benchling-integration\ndescription: Benchling R&D pl
   \ (DNA, proteins), inventory,..."
 full_prompt_length: 13880
 tools_mentioned:
-- Python
-- python
-- go
 - AWS
+- python
 - REST
+- Python
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/benchling-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/benchling-integration/SKILL.md
-fetched_at: '2026-01-19T00:19:04.426722+00:00'
+fetched_at: '2026-01-25T03:51:29.929203+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:22:00.883223Z'
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.568444Z'
-indexed_at: '2026-01-19T01:30:35.568449Z'
+  fetched_at: '2026-01-25T04:05:51.732830Z'
+indexed_at: '2026-01-25T04:05:51.732835Z'
 ---

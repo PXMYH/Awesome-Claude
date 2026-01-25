@@ -12,32 +12,48 @@ prompt_preview: "---\nname: pydeseq2\ndescription: Differential gene expression 
   \ result interpretation, including singl..."
 full_prompt_length: 16979
 tools_mentioned:
+- go
 - Python
 - python
-- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pydeseq2/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pydeseq2/SKILL.md
-fetched_at: '2026-01-19T00:19:20.468184+00:00'
+fetched_at: '2026-01-25T03:51:40.782541+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:38:39.721532Z'
+  evaluated_at: '2026-01-25T03:53:06.823546Z'
   prompt_quality:
-    score: 3.0
-    reasoning: 'Evaluation error: ''usefulness'''
+    score: 3.5
+    reasoning: 'The prompt is well-structured with clear sections and practical code
+      examples, but it contains a critical flaw: the ''DESeq2 Fitting'' code snippet
+      is incomplete and syntactically broken, cutting off mid-line. This undermines
+      clarity and specificity, as it provides an actionable but erroneous instruction.
+      While it includes good metadata and usage guidelines, the incomplete code prevents
+      it from being fully reliable without correction.'
   usefulness:
-    score: 3.0
-    reasoning: 'Evaluation error: ''usefulness'''
-  overall_rating: 3.0
-  summary: Evaluation failed
-  tags_suggested: []
+    score: 4.0
+    reasoning: This skill is highly practical for bioinformatics tasks, offering a
+      complete workflow from data loading to statistical testing with real-world RNA-seq
+      examples. It covers essential steps like filtering, design specification, and
+      result interpretation, making it immediately actionable for users familiar with
+      DESeq2 concepts. The inclusion of multi-factor designs and integration with
+      pandas/AnnData adds significant value for Python-based pipelines.
+  overall_rating: 3.75
+  summary: A useful and practical skill for differential expression analysis, but
+    the incomplete code snippet in the core workflow reduces prompt quality and reliability.
+  tags_suggested:
+  - bioinformatics
+  - RNA-seq
+  - differential-expression
+  - python
+  - statistics
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:35.916163Z'
-indexed_at: '2026-01-19T01:30:35.916168Z'
+  fetched_at: '2026-01-25T04:05:52.051317Z'
+indexed_at: '2026-01-25T04:05:52.051322Z'
 ---

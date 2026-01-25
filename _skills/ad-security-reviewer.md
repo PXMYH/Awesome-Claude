@@ -13,11 +13,11 @@ prompt_preview: "---\nname: ad-security-reviewer\ndescription: >\n  Active Direc
 full_prompt_length: 2362
 tools_mentioned: []
 category: quality-security
-category_display: Quality & Security
+category_display: Quality Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/ad-security-reviewer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ad-security-reviewer.md
-fetched_at: '2026-01-24T03:25:39.856659Z'
+fetched_at: '2026-01-25T03:51:55.130247+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:57:20.965321Z'
@@ -48,10 +48,10 @@ evaluation:
   - Enterprise Security
   - Privilege Escalation
 github_metrics:
-  stars: 8621
-  forks: 947
-  open_issues: 4
+  stars: 8693
+  forks: 954
+  open_issues: 5
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-24T03:26:17.832148Z'
-indexed_at: '2026-01-24T03:26:19.365231Z'
+  fetched_at: '2026-01-25T03:52:51.191439Z'
+indexed_at: '2026-01-25T04:05:52.416352Z'
 ---

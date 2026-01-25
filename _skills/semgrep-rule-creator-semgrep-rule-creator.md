@@ -10,7 +10,7 @@ prompt_preview: "---\nname: semgrep-rule-creator\ndescription: Create custom Sem
   \ detection of a specific bug pattern, vulnerability, or insecure code pattern using\
   \ Semgrep.\nallowed-tools:\n  - Bash\n  - Read\n  - Write\n  - Edit\n  - Glob\n\
   \  - Grep\n  - WebFetch\n---\n\n# Semgrep Rule Creator..."
-full_prompt_length: 10548
+full_prompt_length: 8462
 tools_mentioned:
 - python
 category: security
@@ -18,7 +18,7 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/semgrep-rule-creator/skills/semgrep-rule-creator/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/semgrep-rule-creator/skills/semgrep-rule-creator/SKILL.md
-fetched_at: '2026-01-19T00:20:18.302431+00:00'
+fetched_at: '2026-01-25T03:52:40.835666+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:23:47.720860Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:36.778527Z'
-indexed_at: '2026-01-19T01:30:36.778532Z'
+  fetched_at: '2026-01-25T04:05:53.112238Z'
+indexed_at: '2026-01-25T04:05:53.112244Z'
 ---

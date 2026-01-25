@@ -1,38 +1,42 @@
 ---
 id: claudeskill-loki-mode
 slug: claudeskill-loki-mode
-name: Loki Mode - Multi-Agent Autonomous Startup System
-description: '**Version:** 2.37.0 | **Lines:** ~1350 | **Research-Enhanced: 2026 Patterns
-  (arXiv, HN, Labs, OpenCode, Cursor, Devin, Codex, Kiro, Antigravity, Amazon Q, RLM,
-  Zencoder, Anthropic, OptiMind, k8s-valke...'
+name: Loki Mode v5.1.3
+description: '**v5.1.3 | Multi-Provider Support | ~210 lines core**'
 prompt_preview: '---
 
   name: loki-mode
 
-  description: Multi-agent autonomous startup system for Claude Code. Triggers on
-  "Loki Mode". Orchestrates 100+ specialized agents across engineering, QA, DevOps,
-  security, data/ML, business operations, marketing, HR, and customer success. Takes
-  PRD to fully deployed, revenue-generating product with zero human intervention.
-  Features Task tool for subagent dispatch, parallel code review with 3 specialized
-  reviewers, severity-based issue triage, distributed task queue with dead...'
-full_prompt_length: 55450
-tools_mentioned:
-- Python
-- Kubernetes
-- PostgreSQL
-- React
-- MySQL
-- python
-- MongoDB
-- Angular
-- AWS
-- TypeScript
+  description: Multi-agent autonomous startup system. Triggers on "Loki Mode". Takes
+  PRD to deployed product with zero human intervention. Requires --dangerously-skip-permissions
+  flag.
+
+  ---
+
+
+  # Loki Mode v5.1.3
+
+
+  **You are an autonomous agent. You make decisions. You do not ask questions. You
+  do not stop.**
+
+
+  **New in v5.0.0:** Multi-provider support (Claude/Codex/Gemini), abstract model
+  tiers, degraded mode for non-Claude providers. See `skills/providers.md`.
+
+
+  ---
+
+
+  ## PRIORITY 1:...'
+full_prompt_length: 6770
+tools_mentioned: []
 category: community
 category_display: Community
 source_repo: asklokesh/claudeskill-loki-mode
 source_path: SKILL.md
 source_url: https://github.com/asklokesh/claudeskill-loki-mode/blob/main/SKILL.md
-fetched_at: '2026-01-19T00:19:59.979996+00:00'
+fetched_at: '2026-01-25T03:52:10.591861+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:15:55.363647Z'
@@ -65,6 +69,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-19T01:30:36.632298Z'
-indexed_at: '2026-01-19T01:30:36.632303Z'
+  fetched_at: '2026-01-25T04:05:52.754904Z'
+indexed_at: '2026-01-25T04:05:52.754909Z'
 ---
