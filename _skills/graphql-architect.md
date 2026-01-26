@@ -23,14 +23,14 @@ full_prompt_length: 6540
 tools_mentioned:
 - REST
 - graphql
-- GraphQL
 - WebSocket
+- GraphQL
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/graphql-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/graphql-architect.md
-fetched_at: '2026-01-25T03:51:48.790563+00:00'
+fetched_at: '2026-01-26T03:55:53.506000Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:48:38.749765Z'
@@ -59,10 +59,10 @@ evaluation:
   - Schema Architecture
   - Performance Optimization
 github_metrics:
-  stars: 8693
-  forks: 954
+  stars: 8759
+  forks: 958
   open_issues: 5
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-25T03:52:51.191439Z'
-indexed_at: '2026-01-25T04:05:52.249282Z'
+  fetched_at: '2026-01-26T03:56:25.412385Z'
+indexed_at: '2026-01-26T03:56:26.384513Z'
 ---

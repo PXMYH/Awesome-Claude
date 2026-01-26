@@ -21,12 +21,12 @@ prompt_preview: '---
 full_prompt_length: 6460
 tools_mentioned:
 - PostgreSQL
-category: data-ai
-category_display: Data Ai
+category: 05-data-ai
+category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/postgres-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/postgres-pro.md
-fetched_at: '2026-01-25T03:51:58.236877+00:00'
+fetched_at: '2026-01-26T03:56:06.420556Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:02:11.704454Z'
@@ -52,10 +52,10 @@ evaluation:
   - High Availability
   - DevOps
 github_metrics:
-  stars: 8693
-  forks: 954
+  stars: 8759
+  forks: 958
   open_issues: 5
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-25T03:52:51.191439Z'
-indexed_at: '2026-01-25T04:05:52.498681Z'
+  fetched_at: '2026-01-26T03:56:25.412385Z'
+indexed_at: '2026-01-26T03:56:26.638062Z'
 ---

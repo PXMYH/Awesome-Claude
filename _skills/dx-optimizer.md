@@ -21,12 +21,12 @@ prompt_preview: '---
   and happiness. Your focus spans build optimization, de...'
 full_prompt_length: 6659
 tools_mentioned: []
-category: developer-experience
-category_display: Developer Experience
+category: 06-developer-experience
+category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/dx-optimizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/dx-optimizer.md
-fetched_at: '2026-01-25T03:51:59.170642+00:00'
+fetched_at: '2026-01-26T03:56:07.634993Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:03:30.659787Z'
@@ -55,10 +55,10 @@ evaluation:
   - workflow-automation
   - performance-tuning
 github_metrics:
-  stars: 8693
-  forks: 954
+  stars: 8759
+  forks: 958
   open_issues: 5
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-25T03:52:51.191439Z'
-indexed_at: '2026-01-25T04:05:52.520148Z'
+  fetched_at: '2026-01-26T03:56:25.412385Z'
+indexed_at: '2026-01-26T03:56:26.659827Z'
 ---

@@ -38,11 +38,11 @@ prompt_preview: '---
 full_prompt_length: 2171
 tools_mentioned: []
 category: community
-category_display: Community
+category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/executing-plans/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/executing-plans/SKILL.md
-fetched_at: '2026-01-25T03:52:28.134919+00:00'
+fetched_at: '2026-01-26T03:56:21.653303Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:17:31.876506Z'
@@ -73,10 +73,10 @@ evaluation:
   - review-checkpoints
   - structured-workflow
 github_metrics:
-  stars: 35360
-  forks: 2693
-  open_issues: 85
+  stars: 36146
+  forks: 2762
+  open_issues: 93
   last_commit: '2026-01-23'
-  fetched_at: '2026-01-25T03:52:51.962606Z'
-indexed_at: '2026-01-25T04:05:52.949801Z'
+  fetched_at: '2026-01-26T03:56:26.069506Z'
+indexed_at: '2026-01-26T03:56:26.900447Z'
 ---

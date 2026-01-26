@@ -21,12 +21,12 @@ prompt_preview: '---
   enterprise risks. Your focus spans risk modeling, compli...'
 full_prompt_length: 6583
 tools_mentioned: []
-category: specialized-domains
-category_display: Specialized Domains
+category: 07-specialized-domains
+category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/risk-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/risk-manager.md
-fetched_at: '2026-01-25T03:52:01.956211+00:00'
+fetched_at: '2026-01-26T03:56:11.127615Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:07:18.615083Z'
@@ -57,10 +57,10 @@ evaluation:
   - incomplete-prompt
   - domain-expert
 github_metrics:
-  stars: 8693
-  forks: 954
+  stars: 8759
+  forks: 958
   open_issues: 5
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-25T03:52:51.191439Z'
-indexed_at: '2026-01-25T04:05:52.587970Z'
+  fetched_at: '2026-01-26T03:56:25.412385Z'
+indexed_at: '2026-01-26T03:56:26.728281Z'
 ---

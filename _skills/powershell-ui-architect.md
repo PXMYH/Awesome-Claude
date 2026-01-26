@@ -13,12 +13,12 @@ prompt_preview: "---\nname: powershell-ui-architect\ndescription: >\n  PowerShel
 full_prompt_length: 5627
 tools_mentioned:
 - azure
-category: developer-experience
-category_display: Developer Experience
+category: 06-developer-experience
+category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/powershell-ui-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/powershell-ui-architect.md
-fetched_at: '2026-01-25T03:51:59.787199+00:00'
+fetched_at: '2026-01-26T03:56:08.521137Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:04:28.987147Z'
@@ -47,10 +47,10 @@ evaluation:
   - developer-tools
   - automation
 github_metrics:
-  stars: 8693
-  forks: 954
+  stars: 8759
+  forks: 958
   open_issues: 5
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-25T03:52:51.191439Z'
-indexed_at: '2026-01-25T04:05:52.537972Z'
+  fetched_at: '2026-01-26T03:56:25.412385Z'
+indexed_at: '2026-01-26T03:56:26.677566Z'
 ---

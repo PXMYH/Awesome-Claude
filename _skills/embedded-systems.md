@@ -21,12 +21,12 @@ prompt_preview: '---
   for resource-constrained devices. Your focus s...'
 full_prompt_length: 6445
 tools_mentioned: []
-category: specialized-domains
-category_display: Specialized Domains
+category: 07-specialized-domains
+category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/embedded-systems.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/embedded-systems.md
-fetched_at: '2026-01-25T03:52:00.790320+00:00'
+fetched_at: '2026-01-26T03:56:09.710830Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:05:41.605831Z'
@@ -54,10 +54,10 @@ evaluation:
   - firmware
   - hardware-optimization
 github_metrics:
-  stars: 8693
-  forks: 954
+  stars: 8759
+  forks: 958
   open_issues: 5
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-25T03:52:51.191439Z'
-indexed_at: '2026-01-25T04:05:52.559283Z'
+  fetched_at: '2026-01-26T03:56:25.412385Z'
+indexed_at: '2026-01-26T03:56:26.699033Z'
 ---

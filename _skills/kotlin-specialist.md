@@ -21,16 +21,17 @@ prompt_preview: '---
   applicatio...'
 full_prompt_length: 7377
 tools_mentioned:
-- rust
+- typescript
 - WebSocket
 - java
-- typescript
+- JUnit
+- rust
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/kotlin-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/kotlin-specialist.md
-fetched_at: '2026-01-25T03:51:51.008899+00:00'
+fetched_at: '2026-01-26T03:55:56.520250Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:51:44.705706Z'
@@ -57,10 +58,10 @@ evaluation:
   - DSL
   - Functional Programming
 github_metrics:
-  stars: 8693
-  forks: 954
+  stars: 8759
+  forks: 958
   open_issues: 5
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-25T03:52:51.191439Z'
-indexed_at: '2026-01-25T04:05:52.308467Z'
+  fetched_at: '2026-01-26T03:56:25.412385Z'
+indexed_at: '2026-01-26T03:56:26.444515Z'
 ---

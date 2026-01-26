@@ -24,11 +24,11 @@ full_prompt_length: 6526
 tools_mentioned:
 - kubernetes
 category: quality-security
-category_display: Quality Security
+category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/chaos-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/chaos-engineer.md
-fetched_at: '2026-01-25T03:51:55.383037+00:00'
+fetched_at: '2026-01-26T03:56:02.586252Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:57:42.084156Z'
@@ -57,10 +57,10 @@ evaluation:
   - system-reliability
   - game-day-planning
 github_metrics:
-  stars: 8693
-  forks: 954
+  stars: 8759
+  forks: 958
   open_issues: 5
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-25T03:52:51.191439Z'
-indexed_at: '2026-01-25T04:05:52.423685Z'
+  fetched_at: '2026-01-26T03:56:25.412385Z'
+indexed_at: '2026-01-26T03:56:26.561449Z'
 ---

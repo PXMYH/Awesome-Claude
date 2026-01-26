@@ -21,22 +21,22 @@ prompt_preview: '---
   spans web deve...'
 full_prompt_length: 8558
 tools_mentioned:
-- FastAPI
-- python
 - Docker
-- rust
 - Python
 - Django
-- Redis
-- WebSocket
+- FastAPI
+- pytest
+- python
 - typescript
-- Flask
+- WebSocket
+- Redis
+- Pytest
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/python-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/python-pro.md
-fetched_at: '2026-01-25T03:51:51.771353+00:00'
+fetched_at: '2026-01-26T03:55:57.629145Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:52:43.626198Z'
@@ -65,10 +65,10 @@ evaluation:
   - Data Science
   - Web Development
 github_metrics:
-  stars: 8693
-  forks: 954
+  stars: 8759
+  forks: 958
   open_issues: 5
   last_commit: '2026-01-14'
-  fetched_at: '2026-01-25T03:52:51.191439Z'
-indexed_at: '2026-01-25T04:05:52.329588Z'
+  fetched_at: '2026-01-26T03:56:25.412385Z'
+indexed_at: '2026-01-26T03:56:26.465780Z'
 ---
