@@ -21,19 +21,19 @@ prompt_preview: '---
   focus emphasizes strict typ...'
 full_prompt_length: 6974
 tools_mentioned:
-- GraphQL
 - PHP
 - php
-- WebSocket
-- redis
 - mysql
+- redis
+- WebSocket
 - docker
+- GraphQL
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/php-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/php-pro.md
-fetched_at: '2026-01-26T03:55:57.048924Z'
+fetched_at: '2026-01-27T03:46:47.753429Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:52:14.461728Z'
@@ -61,10 +61,10 @@ evaluation:
   - Enterprise Development
   - Code Quality
 github_metrics:
-  stars: 8759
-  forks: 958
+  stars: 8835
+  forks: 960
   open_issues: 5
-  last_commit: '2026-01-14'
-  fetched_at: '2026-01-26T03:56:25.412385Z'
-indexed_at: '2026-01-26T03:56:26.455105Z'
+  last_commit: '2026-01-26'
+  fetched_at: '2026-01-27T03:47:32.353487Z'
+indexed_at: '2026-01-27T03:47:33.843409Z'
 ---

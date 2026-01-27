@@ -21,15 +21,15 @@ prompt_preview: '---
   ecosystems. Your focus spans securi...'
 full_prompt_length: 6984
 tools_mentioned:
-- Python
-- Go
 - PHP
+- Go
+- Python
 category: 06-developer-experience
 category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/dependency-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/dependency-manager.md
-fetched_at: '2026-01-26T03:56:07.286586Z'
+fetched_at: '2026-01-27T03:47:03.010786Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:03:00.611639Z'
@@ -59,10 +59,10 @@ evaluation:
   - developer-tools
   - multi-ecosystem
 github_metrics:
-  stars: 8759
-  forks: 958
+  stars: 8835
+  forks: 960
   open_issues: 5
-  last_commit: '2026-01-14'
-  fetched_at: '2026-01-26T03:56:25.412385Z'
-indexed_at: '2026-01-26T03:56:26.652454Z'
+  last_commit: '2026-01-26'
+  fetched_at: '2026-01-27T03:47:32.353487Z'
+indexed_at: '2026-01-27T03:47:34.042536Z'
 ---

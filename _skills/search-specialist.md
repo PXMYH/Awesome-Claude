@@ -26,7 +26,7 @@ category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/search-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/search-specialist.md
-fetched_at: '2026-01-26T03:56:16.365331Z'
+fetched_at: '2026-01-27T03:47:16.594919Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:12:24.580380Z'
@@ -56,10 +56,10 @@ evaluation:
   - search_strategy
   - knowledge_discovery
 github_metrics:
-  stars: 8759
-  forks: 958
+  stars: 8835
+  forks: 960
   open_issues: 5
-  last_commit: '2026-01-14'
-  fetched_at: '2026-01-26T03:56:25.412385Z'
-indexed_at: '2026-01-26T03:56:26.828047Z'
+  last_commit: '2026-01-26'
+  fetched_at: '2026-01-27T03:47:32.353487Z'
+indexed_at: '2026-01-27T03:47:34.222335Z'
 ---

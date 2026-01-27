@@ -23,15 +23,15 @@ full_prompt_length: 7217
 tools_mentioned:
 - JavaScript
 - gRPC
+- Kubernetes
 - Azure
 - azure
-- Kubernetes
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/csharp-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/csharp-developer.md
-fetched_at: '2026-01-26T03:55:54.907842Z'
+fetched_at: '2026-01-27T03:46:44.428011Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:50:03.449439Z'
@@ -64,10 +64,10 @@ evaluation:
   - Clean Architecture
   - Performance Optimization
 github_metrics:
-  stars: 8759
-  forks: 958
+  stars: 8835
+  forks: 960
   open_issues: 5
-  last_commit: '2026-01-14'
-  fetched_at: '2026-01-26T03:56:25.412385Z'
-indexed_at: '2026-01-26T03:56:26.410983Z'
+  last_commit: '2026-01-26'
+  fetched_at: '2026-01-27T03:47:32.353487Z'
+indexed_at: '2026-01-27T03:47:33.791060Z'
 ---

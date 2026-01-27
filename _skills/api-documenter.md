@@ -21,16 +21,16 @@ prompt_preview: '---
   Your focus spans OpenAPI speci...'
 full_prompt_length: 6417
 tools_mentioned:
-- gRPC
-- REST
 - WebSocket
+- gRPC
 - GraphQL
+- REST
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/api-documenter.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/api-documenter.md
-fetched_at: '2026-01-26T03:56:09.348882Z'
+fetched_at: '2026-01-27T03:47:06.211665Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:05:17.381302Z'
@@ -62,10 +62,10 @@ evaluation:
   - documentation-automation
   - technical-writing
 github_metrics:
-  stars: 8759
-  forks: 958
+  stars: 8835
+  forks: 960
   open_issues: 5
-  last_commit: '2026-01-14'
-  fetched_at: '2026-01-26T03:56:25.412385Z'
-indexed_at: '2026-01-26T03:56:26.691607Z'
+  last_commit: '2026-01-26'
+  fetched_at: '2026-01-27T03:47:32.353487Z'
+indexed_at: '2026-01-27T03:47:34.082998Z'
 ---

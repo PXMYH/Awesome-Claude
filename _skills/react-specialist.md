@@ -21,19 +21,19 @@ prompt_preview: '---
   ecosystem. Your focus spans advanced patterns, performance optimization, state...'
 full_prompt_length: 6769
 tools_mentioned:
-- javascript
-- Jest
-- TypeScript
 - JavaScript
 - React
-- typescript
+- TypeScript
 - react
+- javascript
+- Jest
+- typescript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/react-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/react-specialist.md
-fetched_at: '2026-01-26T03:55:57.977893Z'
+fetched_at: '2026-01-27T03:46:49.242193Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:53:03.543302Z'
@@ -64,10 +64,10 @@ evaluation:
   - ssr
   - state-management
 github_metrics:
-  stars: 8759
-  forks: 958
+  stars: 8835
+  forks: 960
   open_issues: 5
-  last_commit: '2026-01-14'
-  fetched_at: '2026-01-26T03:56:25.412385Z'
-indexed_at: '2026-01-26T03:56:26.473143Z'
+  last_commit: '2026-01-26'
+  fetched_at: '2026-01-27T03:47:32.353487Z'
+indexed_at: '2026-01-27T03:47:33.862593Z'
 ---

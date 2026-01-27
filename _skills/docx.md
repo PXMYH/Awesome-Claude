@@ -24,16 +24,16 @@ prompt_preview: '---
   ## Overvi...'
 full_prompt_length: 10150
 tools_mentioned:
-- Python
-- python
 - TypeScript
+- python
 - JavaScript
+- Python
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/docx/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/docx/SKILL.md
-fetched_at: '2026-01-26T03:56:17.939145Z'
+fetched_at: '2026-01-27T03:47:19.320284Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:13:40.925713Z'
@@ -60,10 +60,10 @@ evaluation:
   - workflow-automation
   - professional-tools
 github_metrics:
-  stars: 53167
-  forks: 5177
-  open_issues: 192
+  stars: 54545
+  forks: 5323
+  open_issues: 196
   last_commit: '2025-12-20'
-  fetched_at: '2026-01-26T03:56:25.766398Z'
-indexed_at: '2026-01-26T03:56:26.850276Z'
+  fetched_at: '2026-01-27T03:47:32.920341Z'
+indexed_at: '2026-01-27T03:47:34.244714Z'
 ---

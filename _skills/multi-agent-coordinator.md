@@ -22,14 +22,14 @@ prompt_preview: '---
 full_prompt_length: 6895
 tools_mentioned:
 - GraphQL
-- REST
 - WebSocket
+- REST
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/multi-agent-coordinator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/multi-agent-coordinator.md
-fetched_at: '2026-01-26T03:56:14.822974Z'
+fetched_at: '2026-01-27T03:47:14.275224Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:10:49.698381Z'
@@ -59,10 +59,10 @@ evaluation:
   - workflow-orchestration
   - distributed-systems
 github_metrics:
-  stars: 8759
-  forks: 958
+  stars: 8835
+  forks: 960
   open_issues: 5
-  last_commit: '2026-01-14'
-  fetched_at: '2026-01-26T03:56:25.412385Z'
-indexed_at: '2026-01-26T03:56:26.798264Z'
+  last_commit: '2026-01-26'
+  fetched_at: '2026-01-27T03:47:32.353487Z'
+indexed_at: '2026-01-27T03:47:34.191150Z'
 ---

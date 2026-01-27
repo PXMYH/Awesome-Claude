@@ -21,22 +21,22 @@ prompt_preview: '---
   cust...'
 full_prompt_length: 7487
 tools_mentioned:
+- PHP
+- Redis
+- React
+- Javascript
+- REST
+- Docker
+- Kubernetes
+- MySQL
 - Vue
 - GraphQL
-- PHP
-- React
-- REST
-- MySQL
-- Redis
-- Javascript
-- Kubernetes
-- Docker
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/wordpress-master.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/wordpress-master.md
-fetched_at: '2026-01-26T03:56:13.432801Z'
+fetched_at: '2026-01-27T03:47:12.179650Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:09:37.022495Z'
@@ -65,10 +65,10 @@ evaluation:
   - Performance Optimization
   - Security
 github_metrics:
-  stars: 8759
-  forks: 958
+  stars: 8835
+  forks: 960
   open_issues: 5
-  last_commit: '2026-01-14'
-  fetched_at: '2026-01-26T03:56:25.412385Z'
-indexed_at: '2026-01-26T03:56:26.772225Z'
+  last_commit: '2026-01-26'
+  fetched_at: '2026-01-27T03:47:32.353487Z'
+indexed_at: '2026-01-27T03:47:34.165263Z'
 ---

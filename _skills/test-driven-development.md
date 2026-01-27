@@ -50,7 +50,7 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/test-driven-development/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/test-driven-development/SKILL.md
-fetched_at: '2026-01-26T03:56:23.388298Z'
+fetched_at: '2026-01-27T03:47:29.101659Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:18:54.380160Z'
@@ -77,10 +77,10 @@ evaluation:
   - best-practices
   - code-quality
 github_metrics:
-  stars: 36146
-  forks: 2762
-  open_issues: 93
+  stars: 37159
+  forks: 2848
+  open_issues: 96
   last_commit: '2026-01-23'
-  fetched_at: '2026-01-26T03:56:26.069506Z'
-indexed_at: '2026-01-26T03:56:26.921824Z'
+  fetched_at: '2026-01-27T03:47:33.453616Z'
+indexed_at: '2026-01-27T03:47:34.317112Z'
 ---
