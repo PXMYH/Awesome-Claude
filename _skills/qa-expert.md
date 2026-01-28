@@ -22,14 +22,14 @@ prompt_preview: '---
   autom...'
 full_prompt_length: 6740
 tools_mentioned:
-- go
 - Go
+- go
 category: quality-security
 category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/qa-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/qa-expert.md
-fetched_at: '2026-01-27T03:46:58.104093Z'
+fetched_at: '2026-01-28T03:44:04.620559Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:59:27.171570Z'
@@ -56,10 +56,10 @@ evaluation:
   - quality-metrics
   - qa-process
 github_metrics:
-  stars: 8835
-  forks: 960
-  open_issues: 5
+  stars: 8920
+  forks: 968
+  open_issues: 6
   last_commit: '2026-01-26'
-  fetched_at: '2026-01-27T03:47:32.353487Z'
-indexed_at: '2026-01-27T03:47:33.980411Z'
+  fetched_at: '2026-01-28T03:44:32.387645Z'
+indexed_at: '2026-01-28T03:44:33.837888Z'
 ---

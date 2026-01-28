@@ -17,14 +17,14 @@ prompt_preview: '---
   license: Proprietary. LI...'
 full_prompt_length: 10628
 tools_mentioned:
-- python
 - Python
+- python
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/xlsx/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/xlsx/SKILL.md
-fetched_at: '2026-01-27T03:47:24.703952Z'
+fetched_at: '2026-01-28T03:44:26.082269Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:15:44.771179Z'
@@ -53,10 +53,10 @@ evaluation:
   - data_analysis
   - formula_validation
 github_metrics:
-  stars: 54545
-  forks: 5323
-  open_issues: 196
+  stars: 55973
+  forks: 5466
+  open_issues: 199
   last_commit: '2025-12-20'
-  fetched_at: '2026-01-27T03:47:32.920341Z'
-indexed_at: '2026-01-27T03:47:34.284780Z'
+  fetched_at: '2026-01-28T03:44:32.847517Z'
+indexed_at: '2026-01-28T03:44:34.140920Z'
 ---

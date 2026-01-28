@@ -26,7 +26,7 @@ category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/content-marketer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/content-marketer.md
-fetched_at: '2026-01-27T03:47:09.881079Z'
+fetched_at: '2026-01-28T03:44:14.000429Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:07:49.296930Z'
@@ -55,10 +55,10 @@ evaluation:
   - business
   - marketing
 github_metrics:
-  stars: 8835
-  forks: 960
-  open_issues: 5
+  stars: 8920
+  forks: 968
+  open_issues: 6
   last_commit: '2026-01-26'
-  fetched_at: '2026-01-27T03:47:32.353487Z'
-indexed_at: '2026-01-27T03:47:34.132412Z'
+  fetched_at: '2026-01-28T03:44:32.387645Z'
+indexed_at: '2026-01-28T03:44:33.990090Z'
 ---

@@ -37,7 +37,7 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/finishing-a-development-branch/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/finishing-a-development-branch/SKILL.md
-fetched_at: '2026-01-27T03:47:26.798393Z'
+fetched_at: '2026-01-28T03:44:27.757995Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:17:41.659445Z'
@@ -65,10 +65,10 @@ evaluation:
   - testing
   - PR creation
 github_metrics:
-  stars: 37159
-  forks: 2848
-  open_issues: 96
+  stars: 38199
+  forks: 2911
+  open_issues: 103
   last_commit: '2026-01-23'
-  fetched_at: '2026-01-27T03:47:33.453616Z'
-indexed_at: '2026-01-27T03:47:34.299060Z'
+  fetched_at: '2026-01-28T03:44:33.322009Z'
+indexed_at: '2026-01-28T03:44:34.155256Z'
 ---

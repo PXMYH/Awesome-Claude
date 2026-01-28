@@ -21,18 +21,18 @@ prompt_preview: '---
   performant, accessible, and maintainable user interfac...'
 full_prompt_length: 4559
 tools_mentioned:
-- WebSocket
 - websocket
-- React
+- WebSocket
 - TypeScript
 - Angular
+- React
 - Vue
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/frontend-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/frontend-developer.md
-fetched_at: '2026-01-27T03:46:41.667685Z'
+fetched_at: '2026-01-28T03:43:51.921403Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:48:07.898876Z'
@@ -61,10 +61,10 @@ evaluation:
   - development workflow
   - accessibility
 github_metrics:
-  stars: 8835
-  forks: 960
-  open_issues: 5
+  stars: 8920
+  forks: 968
+  open_issues: 6
   last_commit: '2026-01-26'
-  fetched_at: '2026-01-27T03:47:32.353487Z'
-indexed_at: '2026-01-27T03:47:33.756795Z'
+  fetched_at: '2026-01-28T03:44:32.387645Z'
+indexed_at: '2026-01-28T03:44:33.619954Z'
 ---
