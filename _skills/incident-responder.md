@@ -26,7 +26,7 @@ category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/incident-responder.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/incident-responder.md
-fetched_at: '2026-01-28T03:44:00.535146Z'
+fetched_at: '2026-01-29T04:06:50.999308Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:55:33.398305Z'
@@ -57,10 +57,10 @@ evaluation:
   - forensics
   - compliance
 github_metrics:
-  stars: 8920
-  forks: 968
+  stars: 9014
+  forks: 974
   open_issues: 6
   last_commit: '2026-01-26'
-  fetched_at: '2026-01-28T03:44:32.387645Z'
-indexed_at: '2026-01-28T03:44:33.766979Z'
+  fetched_at: '2026-01-29T04:07:19.023018Z'
+indexed_at: '2026-01-29T04:07:20.416085Z'
 ---

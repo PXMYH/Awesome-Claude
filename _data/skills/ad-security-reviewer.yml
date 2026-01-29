@@ -16,7 +16,7 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/ad-security-reviewer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ad-security-reviewer.md
-fetched_at: '2026-01-28T03:44:02.631616Z'
+fetched_at: '2026-01-29T04:06:52.802795Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:57:20.965321Z'
@@ -47,9 +47,9 @@ evaluation:
   - Enterprise Security
   - Privilege Escalation
 github_metrics:
-  stars: 8920
-  forks: 968
+  stars: 9014
+  forks: 974
   open_issues: 6
   last_commit: '2026-01-26'
-  fetched_at: '2026-01-28T03:44:32.387645Z'
-indexed_at: '2026-01-28T03:44:33.800561Z'
+  fetched_at: '2026-01-29T04:07:19.023018Z'
+indexed_at: '2026-01-29T04:07:20.449597Z'

@@ -12,17 +12,17 @@ prompt_preview: "---\nname: writing-skills\ndescription: Use when creating new s
   \ write the skill (documentatio..."
 full_prompt_length: 22377
 tools_mentioned:
-- JavaScript
 - go
 - TypeScript
-- Python
 - React
+- JavaScript
+- Python
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/writing-skills/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/writing-skills/SKILL.md
-fetched_at: '2026-01-28T03:44:31.637599Z'
+fetched_at: '2026-01-29T04:07:18.340795Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:19:48.923043Z'
@@ -52,9 +52,9 @@ evaluation:
   - ai-agent
   - testing
 github_metrics:
-  stars: 38199
-  forks: 2911
-  open_issues: 103
+  stars: 39173
+  forks: 2978
+  open_issues: 107
   last_commit: '2026-01-23'
-  fetched_at: '2026-01-28T03:44:33.322009Z'
-indexed_at: '2026-01-28T03:44:34.191606Z'
+  fetched_at: '2026-01-29T04:07:19.961207Z'
+indexed_at: '2026-01-29T04:07:20.839600Z'

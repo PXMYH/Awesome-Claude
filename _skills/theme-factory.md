@@ -30,7 +30,7 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/theme-factory/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/theme-factory/SKILL.md
-fetched_at: '2026-01-28T03:44:24.857865Z'
+fetched_at: '2026-01-29T04:07:12.153431Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:15:12.570966Z'
@@ -60,10 +60,10 @@ evaluation:
   - presentation
   - customization
 github_metrics:
-  stars: 55973
-  forks: 5466
-  open_issues: 199
+  stars: 57260
+  forks: 5595
+  open_issues: 207
   last_commit: '2025-12-20'
-  fetched_at: '2026-01-28T03:44:32.847517Z'
-indexed_at: '2026-01-28T03:44:34.129925Z'
+  fetched_at: '2026-01-29T04:07:19.542479Z'
+indexed_at: '2026-01-29T04:07:20.778223Z'
 ---

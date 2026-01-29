@@ -21,15 +21,15 @@ prompt_preview: '---
   distributed workflows. Your focus spans inter-agent communi...'
 full_prompt_length: 6895
 tools_mentioned:
+- WebSocket
 - REST
 - GraphQL
-- WebSocket
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/multi-agent-coordinator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/multi-agent-coordinator.md
-fetched_at: '2026-01-28T03:44:17.544488Z'
+fetched_at: '2026-01-29T04:07:05.900973Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:10:49.698381Z'
@@ -59,10 +59,10 @@ evaluation:
   - workflow-orchestration
   - distributed-systems
 github_metrics:
-  stars: 8920
-  forks: 968
+  stars: 9014
+  forks: 974
   open_issues: 6
   last_commit: '2026-01-26'
-  fetched_at: '2026-01-28T03:44:32.387645Z'
-indexed_at: '2026-01-28T03:44:34.048841Z'
+  fetched_at: '2026-01-29T04:07:19.023018Z'
+indexed_at: '2026-01-29T04:07:20.696154Z'
 ---

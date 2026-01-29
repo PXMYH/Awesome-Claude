@@ -21,17 +21,17 @@ prompt_preview: '---
   full-stack development. Your focus spans server components, edge runtime, performance...'
 full_prompt_length: 6498
 tools_mentioned:
-- Docker
 - TypeScript
 - React
-- react
 - typescript
+- react
+- Docker
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/nextjs-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/nextjs-developer.md
-fetched_at: '2026-01-28T03:43:56.248296Z'
+fetched_at: '2026-01-29T04:06:47.288327Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:52:04.896756Z'
@@ -59,10 +59,10 @@ evaluation:
   - SEO
   - App Router
 github_metrics:
-  stars: 8920
-  forks: 968
+  stars: 9014
+  forks: 974
   open_issues: 6
   last_commit: '2026-01-26'
-  fetched_at: '2026-01-28T03:44:32.387645Z'
-indexed_at: '2026-01-28T03:44:33.696304Z'
+  fetched_at: '2026-01-29T04:07:19.023018Z'
+indexed_at: '2026-01-29T04:07:20.345511Z'
 ---
