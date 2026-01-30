@@ -21,14 +21,14 @@ prompt_preview: '---
   well-documented, consistent APIs th...'
 full_prompt_length: 6021
 tools_mentioned:
-- REST
 - GraphQL
+- REST
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/api-designer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/api-designer.md
-fetched_at: '2026-01-29T04:06:42.535198Z'
+fetched_at: '2026-01-30T04:08:34.291742Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:47:24.013085Z'
@@ -57,10 +57,10 @@ evaluation:
   - documentation
   - enterprise
 github_metrics:
-  stars: 9014
-  forks: 974
-  open_issues: 6
+  stars: 9096
+  forks: 986
+  open_issues: 2
   last_commit: '2026-01-26'
-  fetched_at: '2026-01-29T04:07:19.023018Z'
-indexed_at: '2026-01-29T04:07:20.258430Z'
+  fetched_at: '2026-01-30T04:09:16.735625Z'
+indexed_at: '2026-01-30T04:09:18.011668Z'
 ---

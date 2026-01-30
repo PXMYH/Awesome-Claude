@@ -21,22 +21,22 @@ prompt_preview: '---
   build to...'
 full_prompt_length: 7421
 tools_mentioned:
-- GraphQL
-- react
-- TypeScript
-- Node.js
-- React
 - typescript
-- rust
-- Vue
 - JavaScript
 - WebSocket
+- Angular
+- React
+- javascript
+- Vue
+- TypeScript
+- Node.js
+- GraphQL
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/typescript-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/typescript-pro.md
-fetched_at: '2026-01-29T04:06:49.337528Z'
+fetched_at: '2026-01-30T04:08:41.924264Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:54:04.362599Z'
@@ -67,10 +67,10 @@ evaluation:
   - Build Optimization
   - Developer Experience
 github_metrics:
-  stars: 9014
-  forks: 974
-  open_issues: 6
+  stars: 9096
+  forks: 986
+  open_issues: 2
   last_commit: '2026-01-26'
-  fetched_at: '2026-01-29T04:07:19.023018Z'
-indexed_at: '2026-01-29T04:07:20.386286Z'
+  fetched_at: '2026-01-30T04:09:16.735625Z'
+indexed_at: '2026-01-30T04:09:18.139663Z'
 ---

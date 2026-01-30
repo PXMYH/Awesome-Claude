@@ -21,18 +21,18 @@ prompt_preview: '---
   ma...'
 full_prompt_length: 7747
 tools_mentioned:
-- rest
-- AWS
-- kubernetes
-- Azure
-- Kubernetes
 - GCP
+- kubernetes
+- rest
+- Azure
+- AWS
+- Kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/security-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/security-engineer.md
-fetched_at: '2026-01-29T04:06:51.735677Z'
+fetched_at: '2026-01-30T04:08:44.894386Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:56:27.257363Z'
@@ -63,10 +63,10 @@ evaluation:
   - compliance
   - infrastructure
 github_metrics:
-  stars: 9014
-  forks: 974
-  open_issues: 6
+  stars: 9096
+  forks: 986
+  open_issues: 2
   last_commit: '2026-01-26'
-  fetched_at: '2026-01-29T04:07:19.023018Z'
-indexed_at: '2026-01-29T04:07:20.431022Z'
+  fetched_at: '2026-01-30T04:09:16.735625Z'
+indexed_at: '2026-01-30T04:09:18.184168Z'
 ---

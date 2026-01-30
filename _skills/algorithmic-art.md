@@ -21,14 +21,14 @@ prompt_preview: '---
   throu...'
 full_prompt_length: 19735
 tools_mentioned:
-- javascript
 - Go
+- javascript
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/algorithmic-art/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/algorithmic-art/SKILL.md
-fetched_at: '2026-01-29T04:07:08.186472Z'
+fetched_at: '2026-01-30T04:09:04.385823Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:12:55.754856Z'
@@ -59,10 +59,10 @@ evaluation:
   - algorithmic-design
   - interactive-art
 github_metrics:
-  stars: 57260
-  forks: 5595
-  open_issues: 207
+  stars: 58263
+  forks: 5705
+  open_issues: 211
   last_commit: '2025-12-20'
-  fetched_at: '2026-01-29T04:07:19.542479Z'
-indexed_at: '2026-01-29T04:07:20.733915Z'
+  fetched_at: '2026-01-30T04:09:17.291434Z'
+indexed_at: '2026-01-30T04:09:18.490032Z'
 ---

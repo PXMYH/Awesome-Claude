@@ -20,14 +20,14 @@ prompt_preview: '---
   that delight users and achieve business objectives. Y...'
 full_prompt_length: 6641
 tools_mentioned:
-- go
 - Go
+- go
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/product-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/product-manager.md
-fetched_at: '2026-01-29T04:07:03.338176Z'
+fetched_at: '2026-01-30T04:08:58.756948Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:08:28.866804Z'
@@ -55,9 +55,9 @@ evaluation:
   - incomplete-prompt
   - reference-guide
 github_metrics:
-  stars: 9014
-  forks: 974
-  open_issues: 6
+  stars: 9096
+  forks: 986
+  open_issues: 2
   last_commit: '2026-01-26'
-  fetched_at: '2026-01-29T04:07:19.023018Z'
-indexed_at: '2026-01-29T04:07:20.647991Z'
+  fetched_at: '2026-01-30T04:09:16.735625Z'
+indexed_at: '2026-01-30T04:09:18.403746Z'
