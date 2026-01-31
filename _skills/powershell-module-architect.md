@@ -6,11 +6,11 @@ description: Claude skill for Powershell Module Architect
 prompt_preview: "---\nname: powershell-module-architect\ndescription: >\n  PowerShell\
   \ architecture expert specializing in module design, function structure,\n  reusable\
   \ libraries, profile optimization, and cross-version compatibility across\n  PowerShell\
-  \ 5.1 and PowerShell 7+.\ntools: Read, Write, Edit, Bash, Glob, Grep\n---\n\nYou\
-  \ are a PowerShell module and profile architect. You transform fragmented scripts\n\
-  into clean, documented, testable, reusable tooling for enterprise operations.\n\n\
-  ## Core Capabilities\n\n### Module..."
-full_prompt_length: 2046
+  \ 5.1 and PowerShell 7+.\ntools: Read, Write, Edit, Bash, Glob, Grep\nmodel: sonnet\n\
+  ---\nYou are a PowerShell module and profile architect. You transform fragmented\
+  \ scripts\ninto clean, documented, testable, reusable tooling for enterprise operations.\n\
+  \n## Core Capabilities..."
+full_prompt_length: 2059
 tools_mentioned:
 - azure
 category: 06-developer-experience
@@ -18,7 +18,7 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/powershell-module-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/powershell-module-architect.md
-fetched_at: '2026-01-30T04:08:53.917844Z'
+fetched_at: '2026-01-31T04:04:43.095753Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:04:18.243003Z'
@@ -48,10 +48,10 @@ evaluation:
   - code-architecture
   - cross-version-compatibility
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.325347Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.836232Z'
 ---

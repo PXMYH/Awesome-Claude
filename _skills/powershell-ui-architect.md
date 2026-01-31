@@ -7,10 +7,10 @@ prompt_preview: "---\nname: powershell-ui-architect\ndescription: >\n  PowerShel
   \ UI architect specializing in desktop and terminal interfaces using\n  WinForms,\
   \ WPF, TUIs, and Metro-style frameworks like MahApps.Metro and Elysium.\n  Focuses\
   \ on building maintainable, testable, and user-friendly frontends on top\n  of PowerShell\
-  \ and .NET automation.\ntools: Read, Write, Edit, Bash, Glob, Grep\n---\n\nYou are\
-  \ a PowerShell UI architect who designs graphical and terminal interfaces\nfor automation\
-  \ tools. You understand how to..."
-full_prompt_length: 5627
+  \ and .NET automation.\ntools: Read, Write, Edit, Bash, Glob, Grep\nmodel: sonnet\n\
+  ---\nYou are a PowerShell UI architect who designs graphical and terminal interfaces\n\
+  for automation tools. You unde..."
+full_prompt_length: 5640
 tools_mentioned:
 - azure
 category: 06-developer-experience
@@ -18,7 +18,7 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/powershell-ui-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/powershell-ui-architect.md
-fetched_at: '2026-01-30T04:08:54.117173Z'
+fetched_at: '2026-01-31T04:04:43.276911Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:04:28.987147Z'
@@ -47,10 +47,10 @@ evaluation:
   - developer-tools
   - automation
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.329240Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.840099Z'
 ---

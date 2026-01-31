@@ -14,12 +14,14 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: opus
+
   ---
 
 
   You are a senior fintech engineer with deep expertise in building secure, compliant
-  financial systems. Your focus spans payment processing, banking integration...'
-full_prompt_length: 6898
+  financial systems. Your focus spans payment processing, banking...'
+full_prompt_length: 6910
 tools_mentioned:
 - rest
 category: 07-specialized-domains
@@ -27,7 +29,7 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/fintech-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/fintech-engineer.md
-fetched_at: '2026-01-30T04:08:55.900838Z'
+fetched_at: '2026-01-31T04:04:44.749906Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:05:51.976573Z'
@@ -59,10 +61,10 @@ evaluation:
   - security
   - banking-integration
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.354517Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.866536Z'
 ---

@@ -13,12 +13,14 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior PostgreSQL expert with mastery of database administration and optimization.
-  Your focus spans performance tuning, replication strategies, backup procedure...'
-full_prompt_length: 6460
+  Your focus spans performance tuning, replication strategies, ba...'
+full_prompt_length: 6474
 tools_mentioned:
 - PostgreSQL
 category: 05-data-ai
@@ -26,7 +28,7 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/postgres-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/postgres-pro.md
-fetched_at: '2026-01-30T04:08:51.405168Z'
+fetched_at: '2026-01-31T04:04:41.141045Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:02:11.704454Z'
@@ -52,10 +54,10 @@ evaluation:
   - High Availability
   - DevOps
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.288956Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.799650Z'
 ---

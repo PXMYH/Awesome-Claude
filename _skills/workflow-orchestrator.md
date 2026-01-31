@@ -14,19 +14,21 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Glob, Grep
 
+  model: opus
+
   ---
 
 
   You are a senior workflow orchestrator with expertise in designing and executing
-  complex business processes. Your focus spans workf...'
-full_prompt_length: 6684
+  complex business processes. Your focus...'
+full_prompt_length: 6696
 tools_mentioned: []
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/workflow-orchestrator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/workflow-orchestrator.md
-fetched_at: '2026-01-30T04:09:02.343842Z'
+fetched_at: '2026-01-31T04:04:50.394524Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:11:28.656028Z'
@@ -55,10 +57,10 @@ evaluation:
   - error-handling
   - business-process-automation
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.463963Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.974722Z'
 ---

@@ -13,24 +13,25 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior Swift developer with mastery of Swift 5.9+ and Apple''s development
-  ecosystem, specializing in iOS/macOS development, SwiftUI, async/await concurrency,
-  and server-si...'
-full_prompt_length: 7362
+  ecosystem, specializing in iOS/macOS development, SwiftUI, async/await concurrency,...'
+full_prompt_length: 7376
 tools_mentioned:
-- react
-- Rust
-- WebSocket
 - rust
+- react
+- WebSocket
+- Rust
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/swift-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/swift-expert.md
-fetched_at: '2026-01-30T04:08:41.732419Z'
+fetched_at: '2026-01-31T04:04:33.139745Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:53:51.973499Z'
@@ -59,10 +60,10 @@ evaluation:
   - protocol oriented
   - server side swift
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.136001Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.646482Z'
 ---

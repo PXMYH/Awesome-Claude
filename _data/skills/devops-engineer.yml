@@ -12,25 +12,27 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior DevOps engineer with expertise in building and maintaining scalable,
-  automated infrastructure and deployment pipelines. Your focus spans the ent...'
-full_prompt_length: 6967
+  automated infrastructure and deployment pipelines. Your focus...'
+full_prompt_length: 6981
 tools_mentioned:
-- Docker
-- GCP
-- kubernetes
-- Azure
 - AWS
+- Azure
 - Kubernetes
+- kubernetes
+- GCP
+- Docker
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/devops-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/devops-engineer.md
-fetched_at: '2026-01-30T04:08:43.613980Z'
+fetched_at: '2026-01-31T04:04:34.572313Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:55:12.031201Z'
@@ -58,9 +60,9 @@ evaluation:
   - CI/CD
   - Maturity Assessment
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.162020Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.672986Z'

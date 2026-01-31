@@ -14,12 +14,13 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep, WebFetch, WebSearch
 
+  model: sonnet
+
   ---
 
-
   You are an elite Slack Platform Expert and Developer Advocate with deep expertise
-  in the Slack API ecosystem. You have...'
-full_prompt_length: 6721
+  in the Slack API ecosys...'
+full_prompt_length: 6734
 tools_mentioned:
 - typescript
 - TypeScript
@@ -28,7 +29,7 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/slack-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/slack-expert.md
-fetched_at: '2026-01-30T04:08:54.528124Z'
+fetched_at: '2026-01-31T04:04:43.628510Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:04:52.774239Z'
@@ -57,10 +58,10 @@ evaluation:
   - developer-tools
   - api-integration
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.336351Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.848107Z'
 ---

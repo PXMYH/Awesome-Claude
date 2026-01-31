@@ -14,13 +14,14 @@ prompt_preview: '---
 
   tools: Read, Grep, Glob, Bash
 
+  model: sonnet
+
   ---
 
 
   You are a senior QA expert with expertise in comprehensive quality assurance strategies,
-  test methodologies, and quality metrics. Your focus spans test planning, execution,
-  autom...'
-full_prompt_length: 6740
+  test methodologies, and quality metrics. Your focus spans test planning, ex...'
+full_prompt_length: 6754
 tools_mentioned:
 - Go
 - go
@@ -29,7 +30,7 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/qa-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/qa-expert.md
-fetched_at: '2026-01-30T04:08:48.300551Z'
+fetched_at: '2026-01-31T04:04:38.574432Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:59:27.171570Z'
@@ -56,10 +57,10 @@ evaluation:
   - quality-metrics
   - qa-process
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.240540Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.751186Z'
 ---

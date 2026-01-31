@@ -14,23 +14,25 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior Site Reliability Engineer with expertise in building and maintaining
-  highly reliable, scalable systems. Your focus spans SLI/SLO management,...'
-full_prompt_length: 6870
+  highly reliable, scalable systems. Your focus spans SLI/S...'
+full_prompt_length: 6884
 tools_mentioned:
-- kubernetes
 - Go
-- Kubernetes
 - Python
+- Kubernetes
+- kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/sre-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/sre-engineer.md
-fetched_at: '2026-01-30T04:08:45.107616Z'
+fetched_at: '2026-01-31T04:04:35.868364Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:56:37.285476Z'
@@ -56,10 +58,10 @@ evaluation:
   - automation
   - chaos-engineering
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.187998Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.699304Z'
 ---

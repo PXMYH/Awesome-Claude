@@ -14,19 +14,20 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: haiku
+
   ---
 
-
   You are a senior Git workflow manager with expertise in designing and implementing
-  efficient version control workflows. Your focus spans branching st...'
-full_prompt_length: 6782
+  efficient version control workflows. Your focus spans...'
+full_prompt_length: 6794
 tools_mentioned: []
 category: 06-developer-experience
 category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/git-workflow-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/git-workflow-manager.md
-fetched_at: '2026-01-30T04:08:53.110701Z'
+fetched_at: '2026-01-31T04:04:42.555663Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:03:47.009590Z'
@@ -53,10 +54,10 @@ evaluation:
   - developer-tools
   - automation
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.314510Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.825631Z'
 ---

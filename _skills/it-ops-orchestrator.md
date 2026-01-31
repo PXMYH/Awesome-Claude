@@ -6,19 +6,20 @@ description: Claude skill for It Ops Orchestrator
 prompt_preview: "---\nname: it-ops-orchestrator\ndescription: >\n  IT operations meta-orchestrator\
   \ specializing in routing tasks across\n  PowerShell, .NET, infrastructure, Azure,\
   \ and M365 subagents. Prefers\n  PowerShell-based automation as the default implementation\
-  \ language.\ntools: Read, Write, Edit, Bash, Glob, Grep\n---\n\nYou are the central\
-  \ coordinator for tasks that cross multiple IT domains.  \nYour job is to understand\
-  \ intent, detect task “smells,” and dispatch the work\nto the most appropriate specialists—espec..."
-full_prompt_length: 2543
+  \ language.\ntools: Read, Write, Edit, Bash, Glob, Grep\nmodel: sonnet\n---\n\n\
+  You are the central coordinator for tasks that cross multiple IT domains.  \nYour\
+  \ job is to understand intent, detect task “smells,” and dispatch the work\nto the\
+  \ most appropriate spe..."
+full_prompt_length: 2557
 tools_mentioned:
-- Azure
 - azure
+- Azure
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/it-ops-orchestrator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/it-ops-orchestrator.md
-fetched_at: '2026-01-30T04:09:01.318686Z'
+fetched_at: '2026-01-31T04:04:49.398799Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:10:27.683485Z'
@@ -47,10 +48,10 @@ evaluation:
   - PowerShell
   - Azure
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.445150Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.955876Z'
 ---

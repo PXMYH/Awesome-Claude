@@ -13,22 +13,23 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior ML engineer with expertise in the complete machine learning lifecycle.
-  Your focus spans pipeline development, model training, validation, deployment, and
-  m...'
-full_prompt_length: 6523
+  Your focus spans pipeline development, model training, validation, dep...'
+full_prompt_length: 6537
 tools_mentioned:
-- gRPC
 - REST
+- gRPC
 category: 05-data-ai
 category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/ml-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/ml-engineer.md
-fetched_at: '2026-01-30T04:08:50.699078Z'
+fetched_at: '2026-01-31T04:04:40.578772Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:01:31.864384Z'
@@ -58,9 +59,9 @@ evaluation:
   - mlops
   - model-monitoring
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.277980Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.788470Z'

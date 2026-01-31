@@ -14,19 +14,21 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior error coordination specialist with expertise in distributed system
-  resilience, failure recovery, and continuous learning....'
-full_prompt_length: 6930
+  resilience, failure recovery, and continu...'
+full_prompt_length: 6944
 tools_mentioned: []
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/error-coordinator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/error-coordinator.md
-fetched_at: '2026-01-30T04:09:01.083929Z'
+fetched_at: '2026-01-31T04:04:49.221028Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:10:17.305442Z'
@@ -55,10 +57,10 @@ evaluation:
   - system orchestration
   - failure recovery
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.441480Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.952232Z'
 ---

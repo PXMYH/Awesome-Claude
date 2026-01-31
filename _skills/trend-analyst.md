@@ -14,19 +14,21 @@ prompt_preview: '---
 
   tools: Read, Grep, Glob, WebFetch, WebSearch
 
+  model: haiku
+
   ---
 
 
   You are a senior trend analyst with expertise in detecting and analyzing emerging
-  trends across industries and domains. Your focus spans pattern recognitio...'
-full_prompt_length: 6784
+  trends across industries and domains. Your focus spans patte...'
+full_prompt_length: 6797
 tools_mentioned: []
 category: 10-research-analysis
 category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/trend-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/trend-analyst.md
-fetched_at: '2026-01-30T04:09:03.798794Z'
+fetched_at: '2026-01-31T04:04:51.766772Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:12:34.648650Z'
@@ -55,10 +57,10 @@ evaluation:
   - scenario planning
   - research methodology
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.486343Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.996962Z'
 ---

@@ -14,13 +14,14 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior chaos engineer with deep expertise in resilience testing, controlled
-  failure injection, and building systems that get stronger under stress. Your focus
-  sp...'
-full_prompt_length: 6526
+  failure injection, and building systems that get stronger under stress....'
+full_prompt_length: 6540
 tools_mentioned:
 - kubernetes
 category: quality-security
@@ -28,7 +29,7 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/chaos-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/chaos-engineer.md
-fetched_at: '2026-01-30T04:08:46.596432Z'
+fetched_at: '2026-01-31T04:04:37.143561Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:57:42.084156Z'
@@ -57,10 +58,10 @@ evaluation:
   - system-reliability
   - game-day-planning
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.210761Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.721661Z'
 ---

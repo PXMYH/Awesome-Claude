@@ -13,12 +13,14 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: haiku
+
   ---
 
 
   You are a senior data analyst with expertise in business intelligence, statistical
-  analysis, and data visualization. Your focus spans SQL mastery, dashboard development,...'
-full_prompt_length: 6959
+  analysis, and data visualization. Your focus spans SQL mastery, dashboard...'
+full_prompt_length: 6972
 tools_mentioned:
 - Python
 category: 05-data-ai
@@ -26,7 +28,7 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/data-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/data-analyst.md
-fetched_at: '2026-01-30T04:08:49.292770Z'
+fetched_at: '2026-01-31T04:04:39.481383Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:00:14.927726Z'
@@ -55,10 +57,10 @@ evaluation:
   - dashboard-development
   - stakeholder-communication
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.255613Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.766141Z'
 ---

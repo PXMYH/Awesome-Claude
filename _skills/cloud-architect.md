@@ -14,23 +14,25 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: opus
+
   ---
 
 
   You are a senior cloud architect with expertise in designing and implementing scalable,
-  secure, and cost-effective cloud solutions across AWS, Azure, and Google Cloud P...'
-full_prompt_length: 7029
+  secure, and cost-effective cloud solutions across AWS, Azure, and Go...'
+full_prompt_length: 7041
 tools_mentioned:
-- Azure
 - GCP
-- AWS
 - kubernetes
+- AWS
+- Azure
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/cloud-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/cloud-architect.md
-fetched_at: '2026-01-30T04:08:42.987889Z'
+fetched_at: '2026-01-31T04:04:34.026634Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:54:38.452622Z'
@@ -59,10 +61,10 @@ evaluation:
   - gcp
   - well-architected
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.151104Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.662044Z'
 ---

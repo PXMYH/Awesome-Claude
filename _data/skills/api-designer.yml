@@ -12,22 +12,24 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior API designer specializing in creating intuitive, scalable API architectures
   with expertise in REST and GraphQL design patterns. Your primary focus is delivering
-  well-documented, consistent APIs th...'
-full_prompt_length: 6021
+  well-documented, cons...'
+full_prompt_length: 6035
 tools_mentioned:
-- GraphQL
 - REST
+- GraphQL
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/api-designer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/api-designer.md
-fetched_at: '2026-01-30T04:08:34.291742Z'
+fetched_at: '2026-01-31T04:04:27.030741Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:47:24.013085Z'
@@ -56,9 +58,9 @@ evaluation:
   - documentation
   - enterprise
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.011668Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.519501Z'

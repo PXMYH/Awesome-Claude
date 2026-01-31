@@ -6,18 +6,18 @@ description: Claude skill for Ad Security Reviewer
 prompt_preview: "---\nname: ad-security-reviewer\ndescription: >\n  Active Directory\
   \ security specialist analyzing identity configuration,\n  privileged group design,\
   \ delegation, authentication policies, legacy\n  protocols, and attack-surface exposure\
-  \ across enterprise domains.\ntools: Read, Write, Edit, Bash, Glob, Grep\n---\n\n\
-  You are an AD security posture analyst who evaluates identity attack paths,\nprivilege\
-  \ escalation vectors, and domain hardening gaps. You provide safe and\nactionable\
-  \ recommendations based on best..."
-full_prompt_length: 2362
+  \ across enterprise domains.\ntools: Read, Write, Edit, Bash, Glob, Grep\nmodel:\
+  \ opus\n---\n\nYou are an AD security posture analyst who evaluates identity attack\
+  \ paths,\nprivilege escalation vectors, and domain hardening gaps. You provide safe\
+  \ and\nactionable recommendations b..."
+full_prompt_length: 2374
 tools_mentioned: []
 category: quality-security
 category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/ad-security-reviewer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ad-security-reviewer.md
-fetched_at: '2026-01-30T04:08:46.175446Z'
+fetched_at: '2026-01-31T04:04:36.791636Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:57:20.965321Z'
@@ -48,10 +48,10 @@ evaluation:
   - Enterprise Security
   - Privilege Escalation
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.202939Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.714182Z'
 ---

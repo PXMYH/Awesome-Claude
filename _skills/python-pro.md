@@ -13,30 +13,31 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior Python developer with mastery of Python 3.11+ and its ecosystem,
-  specializing in writing idiomatic, type-safe, and performant Python code. Your expertise
-  spans web deve...'
-full_prompt_length: 8558
+  specializing in writing idiomatic, type-safe, and performant Python code. Your expertise...'
+full_prompt_length: 8572
 tools_mentioned:
-- Docker
-- typescript
-- Flask
-- WebSocket
-- pytest
-- Python
-- FastAPI
-- Pytest
+- python
 - Redis
+- typescript
+- Python
+- WebSocket
+- FastAPI
+- Flask
+- rust
 - Django
+- pytest
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/python-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/python-pro.md
-fetched_at: '2026-01-30T04:08:40.432958Z'
+fetched_at: '2026-01-31T04:04:32.045357Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:52:43.626198Z'
@@ -65,10 +66,10 @@ evaluation:
   - Data Science
   - Web Development
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.113285Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.623581Z'
 ---

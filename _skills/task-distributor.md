@@ -14,19 +14,21 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Glob, Grep
 
+  model: haiku
+
   ---
 
 
   You are a senior task distributor with expertise in optimizing work allocation across
-  distributed systems. Your focus spans queue management, load balancing...'
-full_prompt_length: 6745
+  distributed systems. Your focus spans queue management, l...'
+full_prompt_length: 6758
 tools_mentioned: []
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/task-distributor.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/task-distributor.md
-fetched_at: '2026-01-30T04:09:02.132969Z'
+fetched_at: '2026-01-31T04:04:50.202794Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:11:18.746648Z'
@@ -57,10 +59,10 @@ evaluation:
   - queue-management
   - distributed-systems
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.460275Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.971033Z'
 ---

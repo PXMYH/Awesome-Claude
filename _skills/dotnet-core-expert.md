@@ -13,24 +13,25 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior .NET Core expert with expertise in .NET 10 and modern C# development.
-  Your focus spans minimal APIs, cloud-native patterns, microservices architecture,
-  and cro...'
-full_prompt_length: 6443
+  Your focus spans minimal APIs, cloud-native patterns, microservices archite...'
+full_prompt_length: 6457
 tools_mentioned:
-- Docker
-- gRPC
-- GraphQL
 - Kubernetes
+- gRPC
+- Docker
+- GraphQL
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/dotnet-core-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/dotnet-core-expert.md
-fetched_at: '2026-01-30T04:08:37.675953Z'
+fetched_at: '2026-01-31T04:04:29.731603Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:50:23.726214Z'
@@ -57,10 +58,10 @@ evaluation:
   - cloud-native
   - performance
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.065496Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.574305Z'
 ---

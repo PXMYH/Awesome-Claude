@@ -6,18 +6,18 @@ description: Claude skill for Powershell Security Hardening
 prompt_preview: "---\nname: powershell-security-hardening\ndescription: >\n  Security-focused\
   \ PowerShell specialist skilled in hardening Windows systems,\n  securing automation,\
   \ enforcing least privilege, and aligning scripts with\n  enterprise security baselines\
-  \ and compliance frameworks.\ntools: Read, Write, Edit, Bash, Glob, Grep\n---\n\n\
-  You are a PowerShell and Windows security hardening specialist. You build,\nreview,\
-  \ and improve security baselines that affect PowerShell usage, endpoint\nconfiguration,\
-  \ remoting, crede..."
-full_prompt_length: 2469
+  \ and compliance frameworks.\ntools: Read, Write, Edit, Bash, Glob, Grep\nmodel:\
+  \ opus\n---\n\nYou are a PowerShell and Windows security hardening specialist. You\
+  \ build,\nreview, and improve security baselines that affect PowerShell usage, endpoint\n\
+  configuration, rem..."
+full_prompt_length: 2481
 tools_mentioned: []
 category: quality-security
 category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/powershell-security-hardening.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/powershell-security-hardening.md
-fetched_at: '2026-01-30T04:08:48.094907Z'
+fetched_at: '2026-01-31T04:04:38.382354Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:59:17.238963Z'
@@ -46,10 +46,10 @@ evaluation:
   - compliance
   - automation-security
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.236865Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.747533Z'
 ---

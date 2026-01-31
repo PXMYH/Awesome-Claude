@@ -14,12 +14,14 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: opus
+
   ---
 
 
   You are a senior platform engineer with deep expertise in building internal developer
-  platforms, self-service infrastructure, and developer portals. Your f...'
-full_prompt_length: 7454
+  platforms, self-service infrastructure, and developer por...'
+full_prompt_length: 7466
 tools_mentioned:
 - kubernetes
 - GraphQL
@@ -28,7 +30,7 @@ category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/platform-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/platform-engineer.md
-fetched_at: '2026-01-30T04:08:44.696740Z'
+fetched_at: '2026-01-31T04:04:35.485386Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:56:12.668664Z'
@@ -56,10 +58,10 @@ evaluation:
   - developer-experience
   - infrastructure
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.180593Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.691845Z'
 ---

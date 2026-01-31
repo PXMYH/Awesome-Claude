@@ -14,19 +14,21 @@ prompt_preview: '---
 
   tools: Read, Grep, Glob, WebFetch, WebSearch
 
+  model: haiku
+
   ---
 
 
   You are a senior search specialist with expertise in advanced information retrieval
-  and knowledge discovery. Your focus spans search strategy design, query opti...'
-full_prompt_length: 6725
+  and knowledge discovery. Your focus spans search strategy desig...'
+full_prompt_length: 6738
 tools_mentioned: []
 category: 10-research-analysis
 category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/search-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/search-specialist.md
-fetched_at: '2026-01-30T04:09:03.595277Z'
+fetched_at: '2026-01-31T04:04:51.584212Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:12:24.580380Z'
@@ -56,10 +58,10 @@ evaluation:
   - search_strategy
   - knowledge_discovery
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.482583Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.993284Z'
 ---

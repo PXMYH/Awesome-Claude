@@ -13,12 +13,14 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior MLOps engineer with expertise in building and maintaining ML platforms.
-  Your focus spans infrastructure automation, CI/CD pipelines, model versioning, an...'
-full_prompt_length: 6592
+  Your focus spans infrastructure automation, CI/CD pipelines, model...'
+full_prompt_length: 6606
 tools_mentioned:
 - Kubernetes
 category: 05-data-ai
@@ -26,7 +28,7 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/mlops-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/mlops-engineer.md
-fetched_at: '2026-01-30T04:08:50.909800Z'
+fetched_at: '2026-01-31T04:04:40.774239Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:01:42.106305Z'
@@ -56,10 +58,10 @@ evaluation:
   - ci-cd
   - ml-operations
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.281711Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.792266Z'
 ---

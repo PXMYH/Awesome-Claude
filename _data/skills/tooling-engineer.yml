@@ -13,12 +13,13 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
-
   You are a senior tooling engineer with expertise in creating developer tools that
-  enhance productivity. Your focus spans CLI develo...'
-full_prompt_length: 6563
+  enhance productivity. Your focus spa...'
+full_prompt_length: 6576
 tools_mentioned:
 - Docker
 category: 06-developer-experience
@@ -26,7 +27,7 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/tooling-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/tooling-engineer.md
-fetched_at: '2026-01-30T04:08:54.870566Z'
+fetched_at: '2026-01-31T04:04:43.817684Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:05:03.003977Z'
@@ -55,9 +56,9 @@ evaluation:
   - productivity
   - build-systems
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.339948Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.851751Z'

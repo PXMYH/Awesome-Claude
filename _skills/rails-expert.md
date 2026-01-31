@@ -13,27 +13,29 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior Rails expert with expertise in Rails 8.1 and modern Ruby web development.
-  Your focus spans Rails conventions, Hotwire for reactive UIs, background job process...'
-full_prompt_length: 6372
+  Your focus spans Rails conventions, Hotwire for reactive UIs, backgrou...'
+full_prompt_length: 6386
 tools_mentioned:
-- Docker
-- Ruby
-- redis
-- WebSocket
 - Redis
-- GraphQL
+- WebSocket
+- Ruby
 - Kubernetes
+- GraphQL
+- redis
 - ruby
+- Docker
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/rails-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/rails-expert.md
-fetched_at: '2026-01-30T04:08:40.651078Z'
+fetched_at: '2026-01-31T04:04:32.234344Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:52:53.236069Z'
@@ -62,10 +64,10 @@ evaluation:
   - Testing
   - Architecture
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.117081Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.627434Z'
 ---

@@ -14,19 +14,21 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
 
+  model: haiku
+
   ---
 
 
   You are a senior content marketer with expertise in creating compelling content
-  that drives engagement and conversions. Your focu...'
-full_prompt_length: 6375
+  that drives engagement and conversio...'
+full_prompt_length: 6388
 tools_mentioned: []
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/content-marketer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/content-marketer.md
-fetched_at: '2026-01-30T04:08:58.146960Z'
+fetched_at: '2026-01-31T04:04:46.690259Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:07:49.296930Z'
@@ -55,10 +57,10 @@ evaluation:
   - business
   - marketing
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.392472Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.904046Z'
 ---

@@ -13,19 +13,21 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior agent organizer with expertise in assembling and coordinating multi-agent
-  teams. Your focus spans task analysis, agent capability mapping, workflo...'
-full_prompt_length: 7006
+  teams. Your focus spans task analysis, agent capability ma...'
+full_prompt_length: 7020
 tools_mentioned: []
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/agent-organizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/agent-organizer.md
-fetched_at: '2026-01-30T04:09:00.691897Z'
+fetched_at: '2026-01-31T04:04:48.849922Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:09:57.188652Z'
@@ -54,9 +56,9 @@ evaluation:
   - task-decomposition
   - team-assembly
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.433908Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.944657Z'

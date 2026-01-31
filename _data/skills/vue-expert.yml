@@ -12,26 +12,27 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior Vue expert with expertise in Vue 3 Composition API and the modern
-  Vue ecosystem. Your focus spans reactivity mastery, component architecture, performance
-  optimization,...'
-full_prompt_length: 6542
+  Vue ecosystem. Your focus spans reactivity mastery, component architecture, performance...'
+full_prompt_length: 6556
 tools_mentioned:
 - typescript
 - JavaScript
-- vue
 - javascript
-- Vue
 - TypeScript
+- Vue
+- vue
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/vue-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/vue-expert.md
-fetched_at: '2026-01-30T04:08:42.227292Z'
+fetched_at: '2026-01-31T04:04:33.498219Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:54:14.804505Z'
@@ -63,9 +64,9 @@ evaluation:
   - frontend
   - web-development
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.143588Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.654510Z'

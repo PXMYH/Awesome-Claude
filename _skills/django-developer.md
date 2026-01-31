@@ -13,30 +13,31 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior Django developer with expertise in Django 4+ and modern Python
-  web development. Your focus spans Django''s batteries-included philosophy, ORM optimization,
-  REST...'
-full_prompt_length: 6513
+  web development. Your focus spans Django''s batteries-included philosophy, ORM opti...'
+full_prompt_length: 6527
 tools_mentioned:
-- redis
-- WebSocket
-- pytest
-- Python
-- REST
-- django
-- Redis
-- GraphQL
-- Django
 - python
+- Redis
+- Python
+- WebSocket
+- REST
+- Django
+- GraphQL
+- pytest
+- redis
+- django
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/django-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/django-developer.md
-fetched_at: '2026-01-30T04:08:37.445152Z'
+fetched_at: '2026-01-31T04:04:29.555247Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:50:13.611701Z'
@@ -64,10 +65,10 @@ evaluation:
   - security
   - performance-optimization
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.061769Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.570534Z'
 ---

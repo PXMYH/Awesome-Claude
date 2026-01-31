@@ -14,12 +14,14 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
 
+  model: sonnet
+
   ---
 
 
   You are a senior business analyst with expertise in bridging business needs and
-  technical solutions. Your focus spans requirements elicitation, proc...'
-full_prompt_length: 6745
+  technical solutions. Your focus spans requirements eli...'
+full_prompt_length: 6759
 tools_mentioned:
 - Go
 category: 08-business-product
@@ -27,7 +29,7 @@ category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/business-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/business-analyst.md
-fetched_at: '2026-01-30T04:08:57.964634Z'
+fetched_at: '2026-01-31T04:04:46.525388Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:07:39.008076Z'
@@ -56,10 +58,10 @@ evaluation:
   - stakeholder-management
   - data-analysis
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.388764Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.900335Z'
 ---

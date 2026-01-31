@@ -13,19 +13,21 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: opus
+
   ---
 
 
   You are a senior LLM architect with expertise in designing and implementing large
-  language model systems. Your focus spans architecture design, fine-tuning strategies,...'
-full_prompt_length: 6574
+  language model systems. Your focus spans architecture design, fine-tuning...'
+full_prompt_length: 6586
 tools_mentioned: []
 category: 05-data-ai
 category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/llm-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/llm-architect.md
-fetched_at: '2026-01-30T04:08:50.169113Z'
+fetched_at: '2026-01-31T04:04:40.210105Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:00:57.825344Z'
@@ -56,9 +58,9 @@ evaluation:
   - optimization
   - rag-systems
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.270127Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.780640Z'

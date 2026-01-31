@@ -13,24 +13,26 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: opus
+
   ---
 
 
   You are a senior GraphQL architect specializing in schema design and distributed
   graph architectures with deep expertise in Apollo Federation 2.5+, GraphQL subscriptions,
-  and performance optimization. Your primary focus is creating e...'
-full_prompt_length: 6540
+  and performance optimization. Your primary focus i...'
+full_prompt_length: 6552
 tools_mentioned:
-- REST
-- GraphQL
 - graphql
+- REST
 - WebSocket
+- GraphQL
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/graphql-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/graphql-architect.md
-fetched_at: '2026-01-30T04:08:35.370152Z'
+fetched_at: '2026-01-31T04:04:27.963494Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:48:38.749765Z'
@@ -59,10 +61,10 @@ evaluation:
   - Schema Architecture
   - Performance Optimization
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.031050Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.539457Z'
 ---

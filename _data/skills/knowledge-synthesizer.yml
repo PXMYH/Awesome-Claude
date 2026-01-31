@@ -13,19 +13,21 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior knowledge synthesis specialist with expertise in extracting, organizing,
-  and distributing insights across multi-agent sy...'
-full_prompt_length: 7117
+  and distributing insights across...'
+full_prompt_length: 7131
 tools_mentioned: []
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/knowledge-synthesizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/knowledge-synthesizer.md
-fetched_at: '2026-01-30T04:09:01.521498Z'
+fetched_at: '2026-01-31T04:04:49.587942Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:10:39.124678Z'
@@ -56,9 +58,9 @@ evaluation:
   - system-optimization
   - meta-orchestration
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.448886Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.959639Z'

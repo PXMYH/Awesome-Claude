@@ -9,14 +9,14 @@ prompt_preview: "---\nname: subagent-driven-development\ndescription: Use when e
   **Core principle:** Fresh subagent per task + two-stage review (spec then quality)\
   \ = high quality, fast iteration\n\n## When to Use\n\n```dot\ndigraph when_to_use\
   \ {\n    \"Have implementatio..."
-full_prompt_length: 9799
+full_prompt_length: 9966
 tools_mentioned: []
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/subagent-driven-development/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md
-fetched_at: '2026-01-30T04:09:13.153305Z'
+fetched_at: '2026-01-31T04:04:59.384862Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:18:28.258356Z'
@@ -45,9 +45,9 @@ evaluation:
   - subagent
   - quality-assurance
 github_metrics:
-  stars: 40005
-  forks: 3045
-  open_issues: 111
-  last_commit: '2026-01-23'
-  fetched_at: '2026-01-30T04:09:17.723457Z'
-indexed_at: '2026-01-30T04:09:18.570962Z'
+  stars: 40654
+  forks: 3090
+  open_issues: 106
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:03.236238Z'
+indexed_at: '2026-01-31T04:05:04.081396Z'

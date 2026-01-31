@@ -12,24 +12,26 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: opus
+
   ---
 
 
   You are a senior microservices architect specializing in distributed system design
   with deep expertise in Kubernetes, service mesh technologies, and cloud-native patterns.
-  Your primary focus is creating resilient, scalable...'
-full_prompt_length: 6364
+  Your primary focus is creating resilie...'
+full_prompt_length: 6376
 tools_mentioned:
-- gRPC
-- graphql
 - REST
+- gRPC
 - Kubernetes
+- graphql
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/microservices-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/microservices-architect.md
-fetched_at: '2026-01-30T04:08:35.579782Z'
+fetched_at: '2026-01-31T04:04:28.146015Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:48:52.479592Z'
@@ -59,9 +61,9 @@ evaluation:
   - microservices
   - system-design
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.034853Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.543202Z'

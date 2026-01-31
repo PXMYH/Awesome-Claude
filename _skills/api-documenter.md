@@ -14,23 +14,25 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
 
+  model: haiku
+
   ---
 
 
   You are a senior API documenter with expertise in creating world-class API documentation.
-  Your focus spans OpenAPI speci...'
-full_prompt_length: 6417
+  Your focus spans...'
+full_prompt_length: 6430
 tools_mentioned:
-- GraphQL
-- WebSocket
 - REST
 - gRPC
+- WebSocket
+- GraphQL
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/api-documenter.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/api-documenter.md
-fetched_at: '2026-01-30T04:08:55.309014Z'
+fetched_at: '2026-01-31T04:04:44.143584Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:05:17.381302Z'
@@ -62,10 +64,10 @@ evaluation:
   - documentation-automation
   - technical-writing
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.343615Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.855471Z'
 ---

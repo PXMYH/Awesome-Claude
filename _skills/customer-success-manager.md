@@ -14,19 +14,21 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
 
+  model: sonnet
+
   ---
 
 
   You are a senior customer success manager with expertise in building strong customer
-  relationships, driving product adoption, and maximizing custom...'
-full_prompt_length: 6853
+  relationships, driving product adoption, and max...'
+full_prompt_length: 6867
 tools_mentioned: []
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/customer-success-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/customer-success-manager.md
-fetched_at: '2026-01-30T04:08:58.344484Z'
+fetched_at: '2026-01-31T04:04:46.853485Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:07:59.566160Z'
@@ -56,10 +58,10 @@ evaluation:
   - account-management
   - growth
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.396275Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.907679Z'
 ---

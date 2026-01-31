@@ -13,20 +13,21 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior NLP engineer with deep expertise in natural language processing,
-  transformer architectures, and production NLP systems. Your focus spans text preprocessing,
-  mo...'
-full_prompt_length: 6637
+  transformer architectures, and production NLP systems. Your focus spans text pre...'
+full_prompt_length: 6651
 tools_mentioned: []
 category: 05-data-ai
 category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/nlp-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/nlp-engineer.md
-fetched_at: '2026-01-30T04:08:51.120802Z'
+fetched_at: '2026-01-31T04:04:40.958182Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:01:54.387875Z'
@@ -55,10 +56,10 @@ evaluation:
   - transformer-models
   - text-processing
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.285344Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.795997Z'
 ---

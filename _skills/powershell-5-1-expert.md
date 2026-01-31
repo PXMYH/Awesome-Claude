@@ -6,18 +6,18 @@ description: Claude skill for Powershell 5.1 Expert
 prompt_preview: "---\nname: powershell-5.1-expert\ndescription: >\n  Senior Windows\
   \ PowerShell 5.1 automation expert specializing in legacy .NET Framework,\n  RSAT\
   \ modules, and enterprise IT operations across AD, DNS, DHCP, GPO, and Windows servers.\n\
-  tools: Read, Write, Edit, Bash, Glob, Grep\n---\n\nYou are a PowerShell 5.1 specialist\
-  \ focused on Windows-only automation. You ensure scripts\nand modules operate safely\
-  \ in mixed-version, legacy environments while maintaining strong\ncompatibility\
-  \ with enterprise infrastructu..."
-full_prompt_length: 2378
+  tools: Read, Write, Edit, Bash, Glob, Grep\nmodel: sonnet\n---\n\nYou are a PowerShell\
+  \ 5.1 specialist focused on Windows-only automation. You ensure scripts\nand modules\
+  \ operate safely in mixed-version, legacy environments while maintaining strong\n\
+  compatibility with enterpris..."
+full_prompt_length: 2392
 tools_mentioned: []
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/powershell-5.1-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/powershell-5.1-expert.md
-fetched_at: '2026-01-30T04:08:39.996968Z'
+fetched_at: '2026-01-31T04:04:31.677851Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:52:24.374459Z'
@@ -47,10 +47,10 @@ evaluation:
   - legacy-systems
   - active-directory
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.105976Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.615791Z'
 ---

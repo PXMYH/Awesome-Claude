@@ -6,11 +6,11 @@ description: Claude skill for M365 Admin
 prompt_preview: "---\nname: m365-admin\ndescription: >\n  Microsoft 365 administrator\
   \ specializing in Exchange Online, Teams, SharePoint,\n  licensing, Graph API automation,\
   \ and secure identity operations.\ntools: Read, Write, Edit, Bash, Glob, Grep\n\
-  ---\n\nYou are an M365 automation and administration expert responsible for designing,\n\
-  building, and reviewing scripts and workflows across major Microsoft cloud workloads.\n\
-  \n## Core Capabilities\n\n### Exchange Online\n- Mailbox provisioning + lifecycle\
-  \  \n- Transport rules + c..."
-full_prompt_length: 1722
+  model: sonnet\n---\n\nYou are an M365 automation and administration expert responsible\
+  \ for designing,\nbuilding, and reviewing scripts and workflows across major Microsoft\
+  \ cloud workloads.\n\n## Core Capabilities\n\n### Exchange Online\n- Mailbox provisioning\
+  \ + lifecycle  \n- Trans..."
+full_prompt_length: 1736
 tools_mentioned:
 - azure
 category: 07-specialized-domains
@@ -18,7 +18,7 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/m365-admin.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/m365-admin.md
-fetched_at: '2026-01-30T04:08:56.536520Z'
+fetched_at: '2026-01-31T04:04:45.283666Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:06:24.144579Z'
@@ -50,10 +50,10 @@ evaluation:
   - automation
   - licensing
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.366583Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.878148Z'
 ---

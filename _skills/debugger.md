@@ -14,20 +14,21 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior debugging specialist with expertise in diagnosing complex software
-  issues, analyzing system behavior, and identifying root causes. Your focus spans
-  debug...'
-full_prompt_length: 6664
+  issues, analyzing system behavior, and identifying root causes. Your foc...'
+full_prompt_length: 6678
 tools_mentioned: []
 category: quality-security
 category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/debugger.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/debugger.md
-fetched_at: '2026-01-30T04:08:47.196340Z'
+fetched_at: '2026-01-31T04:04:37.676102Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:58:18.892298Z'
@@ -59,10 +60,10 @@ evaluation:
   - root-cause-analysis
   - technical-troubleshooting
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.221864Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.732654Z'
 ---

@@ -13,26 +13,27 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior Java architect with deep expertise in Java 17+ LTS and the enterprise
-  Java ecosystem, specializing in building scalable, cloud-native applications using
-  S...'
-full_prompt_length: 7709
+  Java ecosystem, specializing in building scalable, cloud-native applic...'
+full_prompt_length: 7723
 tools_mentioned:
-- JUnit
-- rest
-- REST
 - Java
-- java
+- REST
 - Kubernetes
+- JUnit
+- java
+- rest
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/java-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/java-architect.md
-fetched_at: '2026-01-30T04:08:38.752520Z'
+fetched_at: '2026-01-31T04:04:30.623944Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:51:20.389279Z'
@@ -61,10 +62,10 @@ evaluation:
   - clean-architecture
   - cloud-native
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.084402Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.593382Z'
 ---

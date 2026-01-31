@@ -2,7 +2,7 @@
 id: executing-plans
 slug: executing-plans
 name: Executing Plans
-description: '## Remember'
+description: '**Required workflow skills:**'
 prompt_preview: '---
 
   name: executing-plans
@@ -35,14 +35,14 @@ prompt_preview: '---
   ### Step 1: Load and Review Plan
 
   1. Read plan fil...'
-full_prompt_length: 2171
+full_prompt_length: 2550
 tools_mentioned: []
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/executing-plans/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/executing-plans/SKILL.md
-fetched_at: '2026-01-30T04:09:11.452547Z'
+fetched_at: '2026-01-31T04:04:58.094976Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:17:31.876506Z'
@@ -73,10 +73,10 @@ evaluation:
   - review-checkpoints
   - structured-workflow
 github_metrics:
-  stars: 40005
-  forks: 3045
-  open_issues: 111
-  last_commit: '2026-01-23'
-  fetched_at: '2026-01-30T04:09:17.723457Z'
-indexed_at: '2026-01-30T04:09:18.556448Z'
+  stars: 40654
+  forks: 3090
+  open_issues: 106
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:03.236238Z'
+indexed_at: '2026-01-31T04:05:04.066797Z'
 ---

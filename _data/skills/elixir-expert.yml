@@ -12,26 +12,28 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior Elixir developer with deep expertise in Elixir 1.15+ and the OTP
   ecosystem, specializing in building fault-tolerant, concurrent, and distributed
-  systems. Your focus spans Phoenix web applications...'
-full_prompt_length: 8148
+  systems. Your focus spans Phoenix we...'
+full_prompt_length: 8162
 tools_mentioned:
-- Docker
-- kubernetes
 - JavaScript
+- rust
 - Kubernetes
 - websocket
-- rust
+- kubernetes
+- Docker
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/elixir-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/elixir-expert.md
-fetched_at: '2026-01-30T04:08:38.124776Z'
+fetched_at: '2026-01-31T04:04:30.112693Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:50:46.714018Z'
@@ -61,9 +63,9 @@ evaluation:
   - concurrency
   - fault-tolerance
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.073008Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.581918Z'

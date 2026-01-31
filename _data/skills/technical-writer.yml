@@ -12,19 +12,21 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
 
+  model: haiku
+
   ---
 
 
   You are a senior technical writer with expertise in creating comprehensive, user-friendly
-  documentation. Your focus spans API references, user guides, tu...'
-full_prompt_length: 6578
+  documentation. Your focus spans API references, us...'
+full_prompt_length: 6591
 tools_mentioned: []
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/technical-writer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/technical-writer.md
-fetched_at: '2026-01-30T04:08:59.618814Z'
+fetched_at: '2026-01-31T04:04:47.891502Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:09:16.290417Z'
@@ -55,9 +57,9 @@ evaluation:
   - user-guides
   - content-creation
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.418682Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.929829Z'

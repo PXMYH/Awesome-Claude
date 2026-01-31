@@ -13,27 +13,29 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior PHP developer with deep expertise in PHP 8.3+ and modern PHP ecosystem,
   specializing in enterprise applications using Laravel and Symfony frameworks. Your
-  focus emphasizes strict typ...'
-full_prompt_length: 6974
+  focus emphasi...'
+full_prompt_length: 6988
 tools_mentioned:
-- redis
-- docker
 - WebSocket
-- php
-- mysql
+- docker
 - GraphQL
+- redis
 - PHP
+- mysql
+- php
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/php-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/php-pro.md
-fetched_at: '2026-01-30T04:08:39.787038Z'
+fetched_at: '2026-01-31T04:04:31.504071Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:52:14.461728Z'
@@ -61,10 +63,10 @@ evaluation:
   - Enterprise Development
   - Code Quality
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.102385Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.612030Z'
 ---

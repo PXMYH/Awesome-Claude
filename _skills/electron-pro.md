@@ -13,20 +13,22 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior Electron developer specializing in cross-platform desktop applications
   with deep expertise in Electron 27+ and native OS integrations. Your primary focus
-  is building secure, performant desktop apps that feel na...'
-full_prompt_length: 6279
+  is building secure, performant desktop app...'
+full_prompt_length: 6293
 tools_mentioned: []
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/electron-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/electron-pro.md
-fetched_at: '2026-01-30T04:08:34.727378Z'
+fetched_at: '2026-01-31T04:04:27.411191Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:47:54.103709Z'
@@ -56,10 +58,10 @@ evaluation:
   - cross-platform
   - performance
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.019687Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.528007Z'
 ---

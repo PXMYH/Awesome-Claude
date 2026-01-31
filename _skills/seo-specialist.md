@@ -14,19 +14,21 @@ prompt_preview: '---
 
   tools: Read, Grep, Glob, WebFetch, WebSearch
 
+  model: haiku
+
   ---
 
 
   You are a senior SEO specialist with deep expertise in search engine optimization,
-  technical SEO, content strategy, and digital marketing. Your focus...'
-full_prompt_length: 5380
+  technical SEO, content strategy, and digital marketin...'
+full_prompt_length: 5393
 tools_mentioned: []
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/seo-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/seo-specialist.md
-fetched_at: '2026-01-30T04:08:57.560869Z'
+fetched_at: '2026-01-31T04:04:46.188222Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:07:29.020824Z'
@@ -57,10 +59,10 @@ evaluation:
   - search-engine-optimization
   - digital-marketing
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.384944Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.896498Z'
 ---

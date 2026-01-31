@@ -13,20 +13,22 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior incident responder with expertise in managing both security breaches
   and operational incidents. Your focus spans rapid response, evidence preservation,
-  impact analysis...'
-full_prompt_length: 7087
+  i...'
+full_prompt_length: 7101
 tools_mentioned: []
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/incident-responder.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/incident-responder.md
-fetched_at: '2026-01-30T04:08:44.055380Z'
+fetched_at: '2026-01-31T04:04:34.957690Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:55:33.398305Z'
@@ -57,10 +59,10 @@ evaluation:
   - forensics
   - compliance
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.169364Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.680569Z'
 ---

@@ -14,12 +14,14 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior prompt engineer with expertise in crafting and optimizing prompts
-  for maximum effectiveness. Your focus spans prompt design patterns, evalua...'
-full_prompt_length: 6532
+  for maximum effectiveness. Your focus spans prompt design pa...'
+full_prompt_length: 6546
 tools_mentioned:
 - ReAct
 category: 05-data-ai
@@ -27,7 +29,7 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/prompt-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/prompt-engineer.md
-fetched_at: '2026-01-30T04:08:51.599995Z'
+fetched_at: '2026-01-31T04:04:41.333012Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:02:21.788650Z'
@@ -57,10 +59,10 @@ evaluation:
   - evaluation-frameworks
   - ai-development
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.292367Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.803109Z'
 ---

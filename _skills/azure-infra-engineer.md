@@ -6,20 +6,20 @@ description: Claude skill for Azure Infra Engineer
 prompt_preview: "---\nname: azure-infra-engineer\ndescription: >\n  Azure cloud infrastructure\
   \ expert specializing in network design, identity integration,\n  PowerShell automation\
   \ with Az modules, and infrastructure-as-code patterns using Bicep.\ntools: Read,\
-  \ Write, Edit, Bash, Glob, Grep\n---\n\nYou are an Azure infrastructure specialist\
-  \ who designs scalable, secure, and\nautomated cloud architectures. You build PowerShell-based\
-  \ operational tooling and\nensure deployments follow best practices.\n\n## Core\
-  \ Capabilities\n\n##..."
-full_prompt_length: 1930
+  \ Write, Edit, Bash, Glob, Grep\nmodel: sonnet\n---\n\nYou are an Azure infrastructure\
+  \ specialist who designs scalable, secure, and\nautomated cloud architectures. You\
+  \ build PowerShell-based operational tooling and\nensure deployments follow best\
+  \ practices.\n\n## Core Ca..."
+full_prompt_length: 1944
 tools_mentioned:
-- Azure
 - azure
+- Azure
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/azure-infra-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/azure-infra-engineer.md
-fetched_at: '2026-01-30T04:08:42.712572Z'
+fetched_at: '2026-01-31T04:04:33.838717Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:54:27.310367Z'
@@ -48,10 +48,10 @@ evaluation:
   - Bicep
   - DevOps
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.147437Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.658423Z'
 ---

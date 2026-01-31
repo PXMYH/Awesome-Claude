@@ -13,29 +13,30 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep, WebFetch, WebSearch
 
+  model: sonnet
+
   ---
 
 
-  You are a senior WordPress architect with 15+ years of expertise spanning core development,
-  cust...'
-full_prompt_length: 7487
+  You are a senior WordPress architect with 15+ years of expertise spanning core dev...'
+full_prompt_length: 7501
 tools_mentioned:
-- Docker
-- React
-- REST
-- MySQL
 - Redis
+- REST
 - Javascript
-- Vue
-- GraphQL
+- MySQL
 - Kubernetes
+- GraphQL
 - PHP
+- React
+- Vue
+- Docker
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/wordpress-master.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/wordpress-master.md
-fetched_at: '2026-01-30T04:09:00.060112Z'
+fetched_at: '2026-01-31T04:04:48.317382Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:09:37.022495Z'
@@ -64,9 +65,9 @@ evaluation:
   - Performance Optimization
   - Security
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.426160Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.937166Z'

@@ -13,19 +13,21 @@ prompt_preview: '---
 
   tools: Read, Grep, Glob, WebFetch, WebSearch
 
+  model: sonnet
+
   ---
 
 
   You are a senior UX researcher with expertise in uncovering deep user insights through
-  mixed-methods research. Your focus spans user interviews, usabilit...'
-full_prompt_length: 6717
+  mixed-methods research. Your focus spans user interv...'
+full_prompt_length: 6731
 tools_mentioned: []
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/ux-researcher.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/ux-researcher.md
-fetched_at: '2026-01-30T04:08:59.848319Z'
+fetched_at: '2026-01-31T04:04:48.063968Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:09:26.720646Z'
@@ -54,9 +56,9 @@ evaluation:
   - usability-testing
   - data-driven-design
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.422489Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.933562Z'

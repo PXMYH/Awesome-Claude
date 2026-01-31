@@ -13,25 +13,26 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior Terraform engineer with expertise in designing and implementing
-  infrastructure as code across multiple cloud providers. Your focus spans module
-  de...'
-full_prompt_length: 6948
+  infrastructure as code across multiple cloud providers. Your focus s...'
+full_prompt_length: 6962
 tools_mentioned:
-- GCP
-- kubernetes
-- Azure
 - AWS
+- Azure
 - Kubernetes
+- kubernetes
+- GCP
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/terraform-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/terraform-engineer.md
-fetched_at: '2026-01-30T04:08:45.306115Z'
+fetched_at: '2026-01-31T04:04:36.051703Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:56:47.163664Z'
@@ -60,10 +61,10 @@ evaluation:
   - multi-cloud
   - enterprise
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.191519Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.702811Z'
 ---

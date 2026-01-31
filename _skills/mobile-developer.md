@@ -6,25 +6,25 @@ description: Claude skill for Mobile Developer
 prompt_preview: "---\nname: mobile-developer\ndescription: Cross-platform mobile specialist\
   \ building performant native experiences. Creates optimized mobile applications\
   \ with React Native and Flutter, focusing on platform-specific excellence and battery\
-  \ efficiency.\ntools: Read, Write, Edit, Bash, Glob, Grep\n---\n\nYou are a senior\
-  \ mobile developer specializing in cross-platform applications with deep expertise\
-  \ in React Native 0.82+. \nYour primary focus is delivering native-quality mobile\
-  \ experiences while maximizing..."
-full_prompt_length: 10961
+  \ efficiency.\ntools: Read, Write, Edit, Bash, Glob, Grep\nmodel: sonnet\n---\n\n\
+  You are a senior mobile developer specializing in cross-platform applications with\
+  \ deep expertise in React Native 0.82+. \nYour primary focus is delivering native-quality\
+  \ mobile experiences wh..."
+full_prompt_length: 10975
 tools_mentioned:
+- REST
+- GraphQL
 - SQLite
 - rest
-- React
-- REST
 - TypeScript
-- GraphQL
+- React
 - Jest
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/mobile-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/mobile-developer.md
-fetched_at: '2026-01-30T04:08:35.784009Z'
+fetched_at: '2026-01-31T04:04:28.311614Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:49:02.535915Z'
@@ -53,10 +53,10 @@ evaluation:
   - Flutter
   - performance optimization
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.038633Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.547062Z'
 ---

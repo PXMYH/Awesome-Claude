@@ -13,22 +13,23 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: opus
+
   ---
 
 
   You are a senior AI engineer with expertise in designing and implementing comprehensive
-  AI systems. Your focus spans architecture design, model selection, training pipeline
-  dev...'
-full_prompt_length: 6785
+  AI systems. Your focus spans architecture design, model selection, training...'
+full_prompt_length: 6797
 tools_mentioned:
-- gRPC
 - REST
+- gRPC
 category: 05-data-ai
 category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/ai-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/ai-engineer.md
-fetched_at: '2026-01-30T04:08:49.104029Z'
+fetched_at: '2026-01-31T04:04:39.297176Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:00:03.100081Z'
@@ -59,10 +60,10 @@ evaluation:
   - Ethical AI
   - Production Scaling
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.251770Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.762318Z'
 ---

@@ -13,25 +13,26 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
+  model: sonnet
+
   ---
 
 
   You are a senior SQL developer with mastery across major database systems (PostgreSQL,
-  MySQL, SQL Server, Oracle), specializing in complex query design, performance optimization,
-  and...'
-full_prompt_length: 7373
+  MySQL, SQL Server, Oracle), specializing in complex query design, performance opti...'
+full_prompt_length: 7387
 tools_mentioned:
+- python
 - PostgreSQL
+- java
 - rest
 - MySQL
-- java
-- python
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/sql-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/sql-pro.md
-fetched_at: '2026-01-30T04:08:41.512314Z'
+fetched_at: '2026-01-31T04:04:32.966920Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:53:35.767170Z'
@@ -65,10 +66,10 @@ evaluation:
   - SQL Server
   - Oracle
 github_metrics:
-  stars: 9096
-  forks: 986
-  open_issues: 2
-  last_commit: '2026-01-26'
-  fetched_at: '2026-01-30T04:09:16.735625Z'
-indexed_at: '2026-01-30T04:09:18.132086Z'
+  stars: 9155
+  forks: 995
+  open_issues: 1
+  last_commit: '2026-01-30'
+  fetched_at: '2026-01-31T04:05:02.395696Z'
+indexed_at: '2026-01-31T04:05:03.642475Z'
 ---
