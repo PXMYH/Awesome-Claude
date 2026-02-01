@@ -12,14 +12,14 @@ prompt_preview: "---\nname: csv-data-summarizer\ndescription: Analyzes CSV files
   - Uploads or references a CSV fil..."
 full_prompt_length: 5667
 tools_mentioned:
-- Python
 - python
+- Python
 category: data-analytics
 category_display: Data Analytics
 source_repo: coffeefuelbump/csv-data-summarizer-claude-skill
 source_path: SKILL.md
 source_url: https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill/blob/main/SKILL.md
-fetched_at: '2026-01-25T03:52:11.780118+00:00'
+fetched_at: '2026-02-01T04:29:13.223377+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:16:28.991774Z'
@@ -52,5 +52,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.762017Z'
-indexed_at: '2026-01-25T04:05:52.762023Z'
+  fetched_at: '2026-02-01T04:32:50.612594Z'
+indexed_at: '2026-02-01T04:32:50.612600Z'

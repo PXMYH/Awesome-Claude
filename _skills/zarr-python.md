@@ -13,14 +13,14 @@ prompt_preview: "---\nname: zarr-python\ndescription: Chunked N-D arrays for clo
 full_prompt_length: 20830
 tools_mentioned:
 - go
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/zarr-python/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/zarr-python/SKILL.md
-fetched_at: '2026-01-25T03:51:47.037035+00:00'
+fetched_at: '2026-02-01T04:28:39.589790+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:47:01.294188Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.223650Z'
-indexed_at: '2026-01-25T04:05:52.223655Z'
+  fetched_at: '2026-02-01T04:32:50.119021Z'
+indexed_at: '2026-02-01T04:32:50.119027Z'
 ---

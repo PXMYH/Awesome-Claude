@@ -24,12 +24,12 @@ full_prompt_length: 7009
 tools_mentioned:
 - Python
 - TypeScript
-category: 06-developer-experience
-category_display: 06 Developer Experience
+category: developer-experience
+category_display: Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/mcp-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/mcp-developer.md
-fetched_at: '2026-01-31T04:04:42.919535Z'
+fetched_at: '2026-02-01T04:28:57.832691+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:04:06.802754Z'
@@ -58,10 +58,10 @@ evaluation:
   - Developer Tools
   - System Architecture
 github_metrics:
-  stars: 9155
-  forks: 995
+  stars: 9225
+  forks: 1003
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-01-31T04:05:02.395696Z'
-indexed_at: '2026-01-31T04:05:03.832605Z'
+  fetched_at: '2026-02-01T04:30:09.614951Z'
+indexed_at: '2026-02-01T04:32:50.401407Z'
 ---

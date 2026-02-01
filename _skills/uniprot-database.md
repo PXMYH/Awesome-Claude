@@ -12,18 +12,18 @@ prompt_preview: "---\nname: uniprot-database\ndescription: Direct REST API acces
   \ functional information resource..."
 full_prompt_length: 7607
 tools_mentioned:
-- python
-- REST
 - GO
+- python
 - rest
-- Python
 - go
+- REST
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/uniprot-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/uniprot-database/SKILL.md
-fetched_at: '2026-01-25T03:51:46.541599+00:00'
+fetched_at: '2026-02-01T04:28:38.902696+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:46:19.849034Z'
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.208946Z'
-indexed_at: '2026-01-25T04:05:52.208951Z'
+  fetched_at: '2026-02-01T04:32:50.105314Z'
+indexed_at: '2026-02-01T04:32:50.105320Z'
 ---

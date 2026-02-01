@@ -12,18 +12,18 @@ prompt_preview: "---\nname: markitdown\ndescription: Convert files and office do
   \ Markdown. It's particularly..."
 full_prompt_length: 13452
 tools_mentioned:
-- python
-- Docker
-- Python
-- docker
 - go
+- docker
 - Azure
+- Docker
+- python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/markitdown/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/markitdown/SKILL.md
-fetched_at: '2026-01-25T03:51:37.130056+00:00'
+fetched_at: '2026-02-01T04:28:26.360851+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:33:15.122430Z'
@@ -60,6 +60,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:51.940959Z'
-indexed_at: '2026-01-25T04:05:51.940965Z'
+  fetched_at: '2026-02-01T04:32:49.839741Z'
+indexed_at: '2026-02-01T04:32:49.839747Z'
 ---

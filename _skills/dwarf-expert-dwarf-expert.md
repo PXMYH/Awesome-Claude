@@ -17,7 +17,7 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/dwarf-expert/skills/dwarf-expert/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/dwarf-expert/skills/dwarf-expert/SKILL.md
-fetched_at: '2026-01-25T03:52:39.325607+00:00'
+fetched_at: '2026-02-01T04:29:52.121570+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:22:52.584682Z'
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.094329Z'
-indexed_at: '2026-01-25T04:05:53.094335Z'
+  fetched_at: '2026-02-01T04:32:50.952841Z'
+indexed_at: '2026-02-01T04:32:50.952846Z'
 ---

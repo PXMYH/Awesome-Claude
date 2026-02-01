@@ -11,17 +11,17 @@ prompt_preview: "---\nname: fullstack-guardian\ndescription: Use when implementi
   \  - architecture decision..."
 full_prompt_length: 3826
 tools_mentioned:
-- REST
 - websocket
-- GraphQL
-- Docker
 - go
+- Docker
+- REST
+- GraphQL
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/fullstack-guardian/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/fullstack-guardian/SKILL.md
-fetched_at: '2026-01-25T03:52:20.522929+00:00'
+fetched_at: '2026-02-01T04:29:24.457099+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:58:38.870100Z'
@@ -55,5 +55,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.875480Z'
-indexed_at: '2026-01-25T04:05:52.875486Z'
+  fetched_at: '2026-02-01T04:32:50.719557Z'
+indexed_at: '2026-02-01T04:32:50.719563Z'

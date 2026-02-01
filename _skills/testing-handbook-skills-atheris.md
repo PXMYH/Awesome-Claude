@@ -13,16 +13,16 @@ prompt_preview: "---\nname: atheris\ntype: fuzzer\ndescription: >\n  Atheris is 
   \ |\n|--------|----------|------------|\n| Atheris | Py..."
 full_prompt_length: 14423
 tools_mentioned:
+- docker
+- python
 - Python
 - Docker
-- python
-- docker
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/atheris/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/atheris/SKILL.md
-fetched_at: '2026-01-25T03:52:42.837303+00:00'
+fetched_at: '2026-02-01T04:29:58.307644+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:25:21.909454Z'
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.145985Z'
-indexed_at: '2026-01-25T04:05:53.145991Z'
+  fetched_at: '2026-02-01T04:32:51.004435Z'
+indexed_at: '2026-02-01T04:32:51.004441Z'
 ---

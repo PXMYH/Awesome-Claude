@@ -29,15 +29,15 @@ prompt_preview: '---
 full_prompt_length: 5636
 tools_mentioned:
 - go
-- java
 - python
 - javascript
+- java
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/variant-analysis/skills/variant-analysis/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/variant-analysis/skills/variant-analysis/SKILL.md
-fetched_at: '2026-01-25T03:52:45.048950+00:00'
+fetched_at: '2026-02-01T04:30:01.203217+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:28:59.399065Z'
@@ -73,6 +73,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.201268Z'
-indexed_at: '2026-01-25T04:05:53.201274Z'
+  fetched_at: '2026-02-01T04:32:51.054096Z'
+indexed_at: '2026-02-01T04:32:51.054101Z'
 ---

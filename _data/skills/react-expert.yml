@@ -12,14 +12,14 @@ prompt_preview: "---\nname: react-expert\ndescription: Use when building React 1
 full_prompt_length: 3593
 tools_mentioned:
 - React
-- TypeScript
 - react
+- TypeScript
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/react-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/react-expert/SKILL.md
-fetched_at: '2026-01-25T03:52:23.783049+00:00'
+fetched_at: '2026-02-01T04:29:29.198807+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:00:14.601767Z'
@@ -51,5 +51,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.900163Z'
-indexed_at: '2026-01-25T04:05:52.900169Z'
+  fetched_at: '2026-02-01T04:32:50.742442Z'
+indexed_at: '2026-02-01T04:32:50.742448Z'

@@ -13,14 +13,14 @@ prompt_preview: "---\nname: helius\ndescription: Helius Solana RPC and API exper
 full_prompt_length: 9366
 tools_mentioned:
 - gRPC
-- typescript
 - javascript
+- typescript
 category: community
 category_display: Community
 source_repo: raintree-technology/claude-starter
 source_path: skills/helius/SKILL.md
 source_url: https://github.com/raintree-technology/claude-starter/blob/main/skills/helius/SKILL.md
-fetched_at: '2026-01-25T03:52:32.714334+00:00'
+fetched_at: '2026-02-01T04:29:40.915437+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:02:42.933381Z'
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.015213Z'
-indexed_at: '2026-01-25T04:05:53.015218Z'
+  fetched_at: '2026-02-01T04:32:50.849951Z'
+indexed_at: '2026-02-01T04:32:50.849956Z'
 ---

@@ -24,14 +24,14 @@ full_prompt_length: 7376
 tools_mentioned:
 - rust
 - react
-- WebSocket
 - Rust
+- WebSocket
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/swift-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/swift-expert.md
-fetched_at: '2026-01-31T04:04:33.139745Z'
+fetched_at: '2026-02-01T04:28:47.329835+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:53:51.973499Z'
@@ -60,10 +60,10 @@ evaluation:
   - protocol oriented
   - server side swift
 github_metrics:
-  stars: 9155
-  forks: 995
+  stars: 9225
+  forks: 1003
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-01-31T04:05:02.395696Z'
-indexed_at: '2026-01-31T04:05:03.646482Z'
+  fetched_at: '2026-02-01T04:30:09.614951Z'
+indexed_at: '2026-02-01T04:32:50.237904Z'
 ---

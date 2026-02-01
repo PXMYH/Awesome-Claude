@@ -24,11 +24,11 @@ tools_mentioned:
 - React
 - Vue
 category: official
-category_display: Official Anthropic Skills
+category_display: Official
 source_repo: anthropics/skills
 source_path: skills/frontend-design/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md
-fetched_at: '2026-01-31T04:04:53.842268Z'
+fetched_at: '2026-02-01T04:29:09.604064+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:13:52.605378Z'
@@ -55,10 +55,10 @@ evaluation:
   - web development
   - UI/UX
 github_metrics:
-  stars: 59056
-  forks: 5773
-  open_issues: 216
+  stars: 59721
+  forks: 5839
+  open_issues: 219
   last_commit: '2025-12-20'
-  fetched_at: '2026-01-31T04:05:02.856650Z'
-indexed_at: '2026-01-31T04:05:04.019367Z'
+  fetched_at: '2026-02-01T04:30:10.245687Z'
+indexed_at: '2026-02-01T04:32:50.569933Z'
 ---

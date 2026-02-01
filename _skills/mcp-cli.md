@@ -31,15 +31,15 @@ prompt_preview: '---
 full_prompt_length: 9217
 tools_mentioned:
 - go
+- docker
 - TypeScript
 - Docker
-- docker
 category: community
 category_display: Community
 source_repo: obra/superpowers-lab
 source_path: skills/mcp-cli/SKILL.md
 source_url: https://github.com/obra/superpowers-lab/blob/main/skills/mcp-cli/SKILL.md
-fetched_at: '2026-01-25T03:52:30.302089+00:00'
+fetched_at: '2026-02-01T04:29:37.808125+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:20:17.096926Z'
@@ -73,6 +73,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.997149Z'
-indexed_at: '2026-01-25T04:05:52.997155Z'
+  fetched_at: '2026-02-01T04:32:50.830865Z'
+indexed_at: '2026-02-01T04:32:50.830870Z'
 ---

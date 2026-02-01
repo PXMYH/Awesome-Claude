@@ -13,17 +13,17 @@ prompt_preview: "---\nname: modal\ndescription: Run Python code in the cloud wit
 full_prompt_length: 11454
 tools_mentioned:
 - FastAPI
-- python
-- Docker
-- Python
-- WebSocket
 - go
+- WebSocket
+- Docker
+- python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/modal/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/modal/SKILL.md
-fetched_at: '2026-01-25T03:51:37.896719+00:00'
+fetched_at: '2026-02-01T04:28:27.382758+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:34:27.165416Z'
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:51.965119Z'
-indexed_at: '2026-01-25T04:05:51.965127Z'
+  fetched_at: '2026-02-01T04:32:49.860568Z'
+indexed_at: '2026-02-01T04:32:49.860574Z'
 ---

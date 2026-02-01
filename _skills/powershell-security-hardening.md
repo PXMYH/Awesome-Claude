@@ -13,11 +13,11 @@ prompt_preview: "---\nname: powershell-security-hardening\ndescription: >\n  Sec
 full_prompt_length: 2481
 tools_mentioned: []
 category: quality-security
-category_display: Quality & Security
+category_display: Quality Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/powershell-security-hardening.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/powershell-security-hardening.md
-fetched_at: '2026-01-31T04:04:38.382354Z'
+fetched_at: '2026-02-01T04:28:53.090959+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:59:17.238963Z'
@@ -46,10 +46,10 @@ evaluation:
   - compliance
   - automation-security
 github_metrics:
-  stars: 9155
-  forks: 995
+  stars: 9225
+  forks: 1003
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-01-31T04:05:02.395696Z'
-indexed_at: '2026-01-31T04:05:03.747533Z'
+  fetched_at: '2026-02-01T04:30:09.614951Z'
+indexed_at: '2026-02-01T04:32:50.326856Z'
 ---

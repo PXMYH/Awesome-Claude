@@ -8,7 +8,7 @@ prompt_preview: '---
 
   name: ask-questions-if-underspecified
 
-  description: Clarify requirements before implementing. Use when serious doubts araise.
+  description: Clarify requirements before implementing. Use when serious doubts arise.
 
   ---
 
@@ -33,15 +33,15 @@ prompt_preview: '---
   ## Goal
 
 
-  A...'
-full_prompt_length: 3988
+  As...'
+full_prompt_length: 3987
 tools_mentioned: []
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/ask-questions-if-underspecified/skills/ask-questions-if-underspecified/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/ask-questions-if-underspecified/skills/ask-questions-if-underspecified/SKILL.md
-fetched_at: '2026-01-25T03:52:37.226661+00:00'
+fetched_at: '2026-02-01T04:29:46.646289+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:22:00.727244Z'
@@ -76,6 +76,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.075427Z'
-indexed_at: '2026-01-25T04:05:53.075432Z'
+  fetched_at: '2026-02-01T04:32:50.905493Z'
+indexed_at: '2026-02-01T04:32:50.905498Z'
 ---

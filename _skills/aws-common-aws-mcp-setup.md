@@ -32,15 +32,15 @@ prompt_preview: '---
   | **AWS Documentation MCP*...'
 full_prompt_length: 4776
 tools_mentioned:
-- Python
 - aws
+- Python
 - AWS
 category: infrastructure
 category_display: Infrastructure
 source_repo: zxkane/aws-skills
 source_path: plugins/aws-common/skills/aws-mcp-setup/SKILL.md
 source_url: https://github.com/zxkane/aws-skills/blob/main/plugins/aws-common/skills/aws-mcp-setup/SKILL.md
-fetched_at: '2026-01-25T03:52:49.357356+00:00'
+fetched_at: '2026-02-01T04:30:07.257856+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:30:09.269633Z'
@@ -74,6 +74,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.227199Z'
-indexed_at: '2026-01-25T04:05:53.227205Z'
+  fetched_at: '2026-02-01T04:32:51.082929Z'
+indexed_at: '2026-02-01T04:32:51.082934Z'
 ---

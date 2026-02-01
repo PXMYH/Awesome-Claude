@@ -13,14 +13,14 @@ prompt_preview: "---\nname: flowio\ndescription: Parse FCS (Flow Cytometry Stand
 full_prompt_length: 17591
 tools_mentioned:
 - go
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/flowio/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/flowio/SKILL.md
-fetched_at: '2026-01-25T03:51:34.193551+00:00'
+fetched_at: '2026-02-01T04:28:22.010225+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:28:27.026252Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:51.849068Z'
-indexed_at: '2026-01-25T04:05:51.849074Z'
+  fetched_at: '2026-02-01T04:32:49.757355Z'
+indexed_at: '2026-02-01T04:32:49.757360Z'
 ---

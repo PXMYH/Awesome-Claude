@@ -28,7 +28,7 @@ category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/network-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/network-engineer.md
-fetched_at: '2026-01-31T04:04:35.300036Z'
+fetched_at: '2026-02-01T04:28:49.536021+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:56:02.560663Z'
@@ -58,10 +58,10 @@ evaluation:
   - zero-trust
   - automation
 github_metrics:
-  stars: 9155
-  forks: 995
+  stars: 9225
+  forks: 1003
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-01-31T04:05:02.395696Z'
-indexed_at: '2026-01-31T04:05:03.688050Z'
+  fetched_at: '2026-02-01T04:30:09.614951Z'
+indexed_at: '2026-02-01T04:32:50.273709Z'
 ---

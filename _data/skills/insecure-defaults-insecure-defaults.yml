@@ -1,0 +1,41 @@
+id: insecure-defaults-insecure-defaults
+slug: insecure-defaults-insecure-defaults
+name: Insecure Defaults Detection
+description: For detailed examples and counter-examples, see [examples.md](references/examples.md).
+prompt_preview: "---\nname: insecure-defaults\ndescription: \"Detects fail-open insecure\
+  \ defaults (hardcoded secrets, weak auth, permissive security) that allow apps to\
+  \ run insecurely in production. Use when auditing security, reviewing config management,\
+  \ or analyzing environment variable handling.\"\nallowed-tools:\n  - Read\n  - Grep\n\
+  \  - Glob\n  - Bash\n---\n\n# Insecure Defaults Detection\n\nFinds **fail-open**\
+  \ vulnerabilities where apps run insecurely with missing configuration. Distinguishes\
+  \ exploitable defaults from fa..."
+full_prompt_length: 5209
+tools_mentioned:
+- Docker
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/insecure-defaults/skills/insecure-defaults/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/insecure-defaults/skills/insecure-defaults/SKILL.md
+fetched_at: '2026-02-01T04:29:53.939739+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-02-01T04:32:23.639813Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f928ab11220 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f928ab11220 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-02-01T04:32:50.965875Z'
+indexed_at: '2026-02-01T04:32:50.965880Z'

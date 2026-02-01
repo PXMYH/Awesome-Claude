@@ -29,7 +29,7 @@ category_display: Community
 source_repo: ivan-magda/claude-code-plugin-template
 source_path: plugins/plugin-development/skills/plugin-authoring/SKILL.md
 source_url: https://github.com/ivan-magda/claude-code-plugin-template/blob/main/plugins/plugin-development/skills/plugin-authoring/SKILL.md
-fetched_at: '2026-01-25T03:52:16.910549+00:00'
+fetched_at: '2026-02-01T04:29:19.804705+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:16:49.033939Z'
@@ -63,5 +63,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.844177Z'
-indexed_at: '2026-01-25T04:05:52.844183Z'
+  fetched_at: '2026-02-01T04:32:50.690678Z'
+indexed_at: '2026-02-01T04:32:50.690684Z'

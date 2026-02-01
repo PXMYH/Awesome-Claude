@@ -29,11 +29,11 @@ tools_mentioned:
 - TypeScript
 - JavaScript
 category: official
-category_display: Official Anthropic Skills
+category_display: Official
 source_repo: anthropics/skills
 source_path: skills/web-artifacts-builder/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/web-artifacts-builder/SKILL.md
-fetched_at: '2026-01-31T04:04:56.344222Z'
+fetched_at: '2026-02-01T04:29:10.937386+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:15:22.670390Z'
@@ -64,10 +64,10 @@ evaluation:
   - shadcn-ui
   - bundling
 github_metrics:
-  stars: 59056
-  forks: 5773
-  open_issues: 216
+  stars: 59721
+  forks: 5839
+  open_issues: 219
   last_commit: '2025-12-20'
-  fetched_at: '2026-01-31T04:05:02.856650Z'
-indexed_at: '2026-01-31T04:05:04.048738Z'
+  fetched_at: '2026-02-01T04:30:10.245687Z'
+indexed_at: '2026-02-01T04:32:50.596251Z'
 ---

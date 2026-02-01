@@ -44,13 +44,12 @@ prompt_preview: '---
 full_prompt_length: 9857
 tools_mentioned:
 - typescript
-- jest
 category: community
-category_display: Community Skills
+category_display: Community
 source_repo: obra/superpowers
 source_path: skills/test-driven-development/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/test-driven-development/SKILL.md
-fetched_at: '2026-01-31T04:05:00.050324Z'
+fetched_at: '2026-02-01T04:29:35.857834+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:18:54.380160Z'
@@ -77,10 +76,10 @@ evaluation:
   - best-practices
   - code-quality
 github_metrics:
-  stars: 40654
-  forks: 3090
-  open_issues: 106
+  stars: 41145
+  forks: 3129
+  open_issues: 111
   last_commit: '2026-01-30'
-  fetched_at: '2026-01-31T04:05:03.236238Z'
-indexed_at: '2026-01-31T04:05:04.088633Z'
+  fetched_at: '2026-02-01T04:30:11.029444Z'
+indexed_at: '2026-02-01T04:32:50.807786Z'
 ---

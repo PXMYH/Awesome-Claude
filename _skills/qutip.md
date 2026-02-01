@@ -13,14 +13,14 @@ prompt_preview: "---\nname: qutip\ndescription: Quantum physics simulation libra
 full_prompt_length: 9841
 tools_mentioned:
 - go
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/qutip/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/qutip/SKILL.md
-fetched_at: '2026-01-25T03:51:42.364057+00:00'
+fetched_at: '2026-02-01T04:28:33.449596+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:40:43.125971Z'
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.095271Z'
-indexed_at: '2026-01-25T04:05:52.095276Z'
+  fetched_at: '2026-02-01T04:32:49.992203Z'
+indexed_at: '2026-02-01T04:32:49.992209Z'
 ---

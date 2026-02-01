@@ -13,14 +13,14 @@ prompt_preview: "---\nname: qiskit\ndescription: IBM quantum computing framework
 full_prompt_length: 9550
 tools_mentioned:
 - go
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/qiskit/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/qiskit/SKILL.md
-fetched_at: '2026-01-25T03:51:42.245840+00:00'
+fetched_at: '2026-02-01T04:28:33.264683+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:40:32.099923Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.091698Z'
-indexed_at: '2026-01-25T04:05:52.091703Z'
+  fetched_at: '2026-02-01T04:32:49.988937Z'
+indexed_at: '2026-02-01T04:32:49.988943Z'
 ---

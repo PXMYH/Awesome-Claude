@@ -28,7 +28,7 @@ category_display: Community
 source_repo: 1NickPappas/move-code-quality-skill
 source_path: SKILL.md
 source_url: https://github.com/1NickPappas/move-code-quality-skill/blob/main/SKILL.md
-fetched_at: '2026-01-25T03:51:28.392797+00:00'
+fetched_at: '2026-02-01T04:28:14.349432+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:20:37.651510Z'
@@ -60,6 +60,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:51.702601Z'
-indexed_at: '2026-01-25T04:05:51.702631Z'
+  fetched_at: '2026-02-01T04:32:49.629490Z'
+indexed_at: '2026-02-01T04:32:49.629506Z'
 ---

@@ -12,14 +12,14 @@ prompt_preview: "---\nname: salesforce-developer\ndescription: Use when developi
   \ - Sales Cloud\n  - Service Cloud\nrole:..."
 full_prompt_length: 4556
 tools_mentioned:
-- REST
 - Java
+- REST
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/salesforce-developer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/salesforce-developer/SKILL.md
-fetched_at: '2026-01-25T03:52:24.182647+00:00'
+fetched_at: '2026-02-01T04:29:29.717289+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:00:33.657423Z'
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.907258Z'
-indexed_at: '2026-01-25T04:05:52.907264Z'
+  fetched_at: '2026-02-01T04:32:50.749053Z'
+indexed_at: '2026-02-01T04:32:50.749059Z'
 ---

@@ -11,17 +11,17 @@ prompt_preview: "---\nname: address-sanitizer\ntype: technique\ndescription: >\n
   \ use-after-free errors, and other mem..."
 full_prompt_length: 11272
 tools_mentioned:
-- Java
-- Rust
-- Go
 - rust
 - go
+- Java
+- Go
+- Rust
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/address-sanitizer/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/address-sanitizer/SKILL.md
-fetched_at: '2026-01-25T03:52:42.599760+00:00'
+fetched_at: '2026-02-01T04:29:57.945162+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:25:01.463899Z'
@@ -52,5 +52,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.138678Z'
-indexed_at: '2026-01-25T04:05:53.138684Z'
+  fetched_at: '2026-02-01T04:32:50.997891Z'
+indexed_at: '2026-02-01T04:32:50.997896Z'

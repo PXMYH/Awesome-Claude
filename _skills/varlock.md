@@ -26,15 +26,15 @@ prompt_preview: '---
 full_prompt_length: 9632
 tools_mentioned:
 - aws
-- AWS
-- docker
 - Docker
+- docker
+- AWS
 category: community
 category_display: Community
 source_repo: wrsmith108/varlock-claude-skill
 source_path: skills/varlock/SKILL.md
 source_url: https://github.com/wrsmith108/varlock-claude-skill/blob/main/skills/varlock/SKILL.md
-fetched_at: '2026-01-25T03:52:47.111912+00:00'
+fetched_at: '2026-02-01T04:30:04.046994+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:29:18.967323Z'
@@ -67,6 +67,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.212227Z'
-indexed_at: '2026-01-25T04:05:53.212232Z'
+  fetched_at: '2026-02-01T04:32:51.066853Z'
+indexed_at: '2026-02-01T04:32:51.066860Z'
 ---

@@ -13,17 +13,17 @@ prompt_preview: "---\nname: clinvar-database\ndescription: Query NCBI ClinVar fo
 full_prompt_length: 14047
 tools_mentioned:
 - PostgreSQL
-- python
-- Python
-- MySQL
-- MongoDB
 - go
+- MongoDB
+- python
+- MySQL
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/clinvar-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/clinvar-database/SKILL.md
-fetched_at: '2026-01-25T03:51:31.517376+00:00'
+fetched_at: '2026-02-01T04:28:18.505750+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:24:49.343033Z'
@@ -56,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:51.781633Z'
-indexed_at: '2026-01-25T04:05:51.781639Z'
+  fetched_at: '2026-02-01T04:32:49.697480Z'
+indexed_at: '2026-02-01T04:32:49.697490Z'
 ---

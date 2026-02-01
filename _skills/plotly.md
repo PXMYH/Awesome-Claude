@@ -13,14 +13,14 @@ prompt_preview: "---\nname: plotly\ndescription: Interactive visualization libra
 full_prompt_length: 8018
 tools_mentioned:
 - go
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/plotly/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/plotly/SKILL.md
-fetched_at: '2026-01-25T03:51:39.911522+00:00'
+fetched_at: '2026-02-01T04:28:30.132340+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:37:24.719700Z'
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.024893Z'
-indexed_at: '2026-01-25T04:05:52.024898Z'
+  fetched_at: '2026-02-01T04:32:49.913648Z'
+indexed_at: '2026-02-01T04:32:49.913653Z'
 ---

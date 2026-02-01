@@ -12,14 +12,14 @@ prompt_preview: "---\nname: azure-infra-engineer\ndescription: >\n  Azure cloud 
   \ practices.\n\n## Core Ca..."
 full_prompt_length: 1944
 tools_mentioned:
-- azure
 - Azure
+- azure
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/azure-infra-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/azure-infra-engineer.md
-fetched_at: '2026-01-31T04:04:33.838717Z'
+fetched_at: '2026-02-01T04:28:48.137181+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:54:27.310367Z'
@@ -48,10 +48,10 @@ evaluation:
   - Bicep
   - DevOps
 github_metrics:
-  stars: 9155
-  forks: 995
+  stars: 9225
+  forks: 1003
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-01-31T04:05:02.395696Z'
-indexed_at: '2026-01-31T04:05:03.658423Z'
+  fetched_at: '2026-02-01T04:30:09.614951Z'
+indexed_at: '2026-02-01T04:32:50.248104Z'
 ---

@@ -13,14 +13,14 @@ prompt_preview: "---\nname: scanpy\ndescription: Standard single-cell RNA-seq an
 full_prompt_length: 12141
 tools_mentioned:
 - go
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scanpy/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scanpy/SKILL.md
-fetched_at: '2026-01-25T03:51:43.167762+00:00'
+fetched_at: '2026-02-01T04:28:34.495653+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:42:02.385133Z'
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.117184Z'
-indexed_at: '2026-01-25T04:05:52.117189Z'
+  fetched_at: '2026-02-01T04:32:50.012779Z'
+indexed_at: '2026-02-01T04:32:50.012785Z'
 ---

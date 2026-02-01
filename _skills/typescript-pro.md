@@ -22,22 +22,22 @@ prompt_preview: '---
   specializing in advanced type system features, full-stack type safety, and m...'
 full_prompt_length: 7435
 tools_mentioned:
-- typescript
-- Angular
-- WebSocket
-- react
-- JavaScript
 - rust
-- javascript
-- GraphQL
+- Angular
+- JavaScript
+- typescript
+- Vue
 - Node.js
+- WebSocket
 - TypeScript
+- react
+- GraphQL
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/typescript-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/typescript-pro.md
-fetched_at: '2026-01-31T04:04:33.317190Z'
+fetched_at: '2026-02-01T04:28:47.500515+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:54:04.362599Z'
@@ -68,10 +68,10 @@ evaluation:
   - Build Optimization
   - Developer Experience
 github_metrics:
-  stars: 9155
-  forks: 995
+  stars: 9225
+  forks: 1003
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-01-31T04:05:02.395696Z'
-indexed_at: '2026-01-31T04:05:03.650525Z'
+  fetched_at: '2026-02-01T04:30:09.614951Z'
+indexed_at: '2026-02-01T04:32:50.241209Z'
 ---

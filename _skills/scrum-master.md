@@ -22,12 +22,12 @@ prompt_preview: '---
   impediments, and driving continuous improvement. Yo...'
 full_prompt_length: 6772
 tools_mentioned: []
-category: 08-business-product
-category_display: 08 Business Product
+category: business-product
+category_display: Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/scrum-master.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/scrum-master.md
-fetched_at: '2026-01-31T04:04:47.728218Z'
+fetched_at: '2026-02-01T04:29:02.976012+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:09:03.882833Z'
@@ -54,10 +54,10 @@ evaluation:
   - team-coaching
   - process-improvement
 github_metrics:
-  stars: 9155
-  forks: 995
+  stars: 9225
+  forks: 1003
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-01-31T04:05:02.395696Z'
-indexed_at: '2026-01-31T04:05:03.926230Z'
+  fetched_at: '2026-02-01T04:30:09.614951Z'
+indexed_at: '2026-02-01T04:32:50.483523Z'
 ---

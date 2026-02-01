@@ -11,16 +11,16 @@ prompt_preview: "---\nname: architecture-designer\ndescription: Use when designi
   \nSenior software architect spe..."
 full_prompt_length: 3125
 tools_mentioned:
-- GCP
-- AWS
 - Azure
 - Kubernetes
+- GCP
+- AWS
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/architecture-designer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/architecture-designer/SKILL.md
-fetched_at: '2026-01-25T03:52:17.985056+00:00'
+fetched_at: '2026-02-01T04:29:21.095835+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:57:12.812383Z'
@@ -54,5 +54,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.847934Z'
-indexed_at: '2026-01-25T04:05:52.847940Z'
+  fetched_at: '2026-02-01T04:32:50.694088Z'
+indexed_at: '2026-02-01T04:32:50.694094Z'

@@ -13,14 +13,14 @@ prompt_preview: "---\nname: deepchem\ndescription: Molecular ML with diverse fea
 full_prompt_length: 18491
 tools_mentioned:
 - go
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/deepchem/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/deepchem/SKILL.md
-fetched_at: '2026-01-25T03:51:32.292514+00:00'
+fetched_at: '2026-02-01T04:28:19.539232+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:26:02.311816Z'
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:51.803985Z'
-indexed_at: '2026-01-25T04:05:51.803991Z'
+  fetched_at: '2026-02-01T04:32:49.717450Z'
+indexed_at: '2026-02-01T04:32:49.717455Z'
 ---

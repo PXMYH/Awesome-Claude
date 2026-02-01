@@ -10,18 +10,18 @@ prompt_preview: "---\nname: vue-expert-js\ndescription: Use when building Vue 3 
   \ no TS\nrole: specialist\nscope: implementation\noutput-format: code\n---\n\n#\
   \ Vue Expert (JavaScript)\n\nSenior Vue specialist building Vue 3 applications with\
   \ JavaScript and JSDoc typing instead of..."
-full_prompt_length: 3132
+full_prompt_length: 3495
 tools_mentioned:
-- TypeScript
-- JavaScript
 - Vue
 - vue
+- TypeScript
+- JavaScript
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/vue-expert-js/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/vue-expert-js/SKILL.md
-fetched_at: '2026-01-25T03:52:25.910911+00:00'
+fetched_at: '2026-02-01T04:29:31.994334+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:02:12.055599Z'
@@ -55,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.932020Z'
-indexed_at: '2026-01-25T04:05:52.932025Z'
+  fetched_at: '2026-02-01T04:32:50.772014Z'
+indexed_at: '2026-02-01T04:32:50.772020Z'
 ---

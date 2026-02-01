@@ -28,16 +28,16 @@ prompt_preview: '---
   A reveal...'
 full_prompt_length: 18055
 tools_mentioned:
-- rest
 - rust
 - Node.js
+- rest
 - javascript
 category: community
 category_display: Community
 source_repo: ryanbbrown/revealjs-skill
 source_path: skills/revealjs/SKILL.md
 source_url: https://github.com/ryanbbrown/revealjs-skill/blob/main/skills/revealjs/SKILL.md
-fetched_at: '2026-01-25T03:52:33.934360+00:00'
+fetched_at: '2026-02-01T04:29:42.457057+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:21:05.307652Z'
@@ -70,6 +70,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.029102Z'
-indexed_at: '2026-01-25T04:05:53.029107Z'
+  fetched_at: '2026-02-01T04:32:50.862787Z'
+indexed_at: '2026-02-01T04:32:50.862792Z'
 ---

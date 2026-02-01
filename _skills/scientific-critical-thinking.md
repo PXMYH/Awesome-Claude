@@ -19,7 +19,7 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scientific-critical-thinking/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scientific-critical-thinking/SKILL.md
-fetched_at: '2026-01-25T03:51:43.531372+00:00'
+fetched_at: '2026-02-01T04:28:35.022559+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:42:32.233361Z'
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.127709Z'
-indexed_at: '2026-01-25T04:05:52.127714Z'
+  fetched_at: '2026-02-01T04:32:50.022516Z'
+indexed_at: '2026-02-01T04:32:50.022521Z'
 ---

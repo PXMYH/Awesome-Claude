@@ -13,14 +13,14 @@ prompt_preview: "---\nname: scientific-schematics\ndescription: Create publicati
 full_prompt_length: 24252
 tools_mentioned:
 - go
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scientific-schematics/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scientific-schematics/SKILL.md
-fetched_at: '2026-01-25T03:51:43.674991+00:00'
+fetched_at: '2026-02-01T04:28:35.203649+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:42:42.690597Z'
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.131333Z'
-indexed_at: '2026-01-25T04:05:52.131338Z'
+  fetched_at: '2026-02-01T04:32:50.025846Z'
+indexed_at: '2026-02-01T04:32:50.025852Z'
 ---

@@ -1,0 +1,55 @@
+id: building-secure-contracts-guidelines-advisor
+slug: building-secure-contracts-guidelines-advisor
+name: Guidelines Advisor
+description: Let's analyze your codebase and improve it using Trail of Bits' best
+  practices!
+prompt_preview: '---
+
+  name: guidelines-advisor
+
+  description: Smart contract development advisor based on Trail of Bits'' best practices.
+  Analyzes codebase to generate documentation/specifications, review architecture,
+  check upgradeability patterns, assess implementation quality, identify pitfalls,
+  review dependencies, and evaluate testing. Provides actionable recommendations.
+
+  ---
+
+
+  # Guidelines Advisor
+
+
+  ## Purpose
+
+
+  Systematically analyzes the codebase and provides guidance based on Trail of Bits''
+  development guideli...'
+full_prompt_length: 8484
+tools_mentioned:
+- Rust
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/building-secure-contracts/skills/guidelines-advisor/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/building-secure-contracts/skills/guidelines-advisor/SKILL.md
+fetched_at: '2026-02-01T04:29:48.430971+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-02-01T04:31:25.697431Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f928b08b0b0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f928b08b0b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-02-01T04:32:50.924860Z'
+indexed_at: '2026-02-01T04:32:50.924865Z'

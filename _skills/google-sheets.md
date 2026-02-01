@@ -18,7 +18,7 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/google-sheets/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/google-sheets/SKILL.md
-fetched_at: '2026-01-25T03:52:35.540135+00:00'
+fetched_at: '2026-02-01T04:29:44.554422+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:04:36.528795Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.053921Z'
-indexed_at: '2026-01-25T04:05:53.053926Z'
+  fetched_at: '2026-02-01T04:32:50.885779Z'
+indexed_at: '2026-02-01T04:32:50.885784Z'
 ---

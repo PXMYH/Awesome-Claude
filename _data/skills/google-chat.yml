@@ -17,7 +17,7 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/google-chat/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/google-chat/SKILL.md
-fetched_at: '2026-01-25T03:52:35.141482+00:00'
+fetched_at: '2026-02-01T04:29:43.894218+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:04:01.577890Z'
@@ -51,5 +51,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.043141Z'
-indexed_at: '2026-01-25T04:05:53.043147Z'
+  fetched_at: '2026-02-01T04:32:50.875796Z'
+indexed_at: '2026-02-01T04:32:50.875801Z'

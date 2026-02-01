@@ -24,7 +24,7 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pennylane/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pennylane/SKILL.md
-fetched_at: '2026-01-25T03:51:39.660470+00:00'
+fetched_at: '2026-02-01T04:28:29.775504+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:37:03.045687Z'
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.017336Z'
-indexed_at: '2026-01-25T04:05:52.017341Z'
+  fetched_at: '2026-02-01T04:32:49.907104Z'
+indexed_at: '2026-02-01T04:32:49.907109Z'
 ---

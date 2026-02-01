@@ -15,14 +15,14 @@ prompt_preview: '---
 full_prompt_length: 24060
 tools_mentioned:
 - go
-- Go
 - python
+- Go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/iso-13485-certification/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/iso-13485-certification/SKILL.md
-fetched_at: '2026-01-25T03:51:36.080341+00:00'
+fetched_at: '2026-02-01T04:28:24.960090+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:31:43.485595Z'
@@ -57,5 +57,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:51.911445Z'
-indexed_at: '2026-01-25T04:05:51.911451Z'
+  fetched_at: '2026-02-01T04:32:49.812056Z'
+indexed_at: '2026-02-01T04:32:49.812062Z'

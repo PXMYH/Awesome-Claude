@@ -18,7 +18,7 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/coverage-analysis/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/coverage-analysis/SKILL.md
-fetched_at: '2026-01-25T03:52:43.394917+00:00'
+fetched_at: '2026-02-01T04:29:59.017110+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:26:22.824611Z'
@@ -52,5 +52,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.160685Z'
-indexed_at: '2026-01-25T04:05:53.160690Z'
+  fetched_at: '2026-02-01T04:32:51.017648Z'
+indexed_at: '2026-02-01T04:32:51.017654Z'

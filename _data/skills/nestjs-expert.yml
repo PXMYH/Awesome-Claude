@@ -11,16 +11,16 @@ prompt_preview: "---\nname: nestjs-expert\ndescription: Use when building NestJS
   ---\n\n# NestJS Expert\n\nSenior..."
 full_prompt_length: 3297
 tools_mentioned:
-- TypeScript
 - Node.js
-- GraphQL
 - REST
+- GraphQL
+- TypeScript
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/nestjs-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/nestjs-expert/SKILL.md
-fetched_at: '2026-01-25T03:52:22.378216+00:00'
+fetched_at: '2026-02-01T04:29:27.478740+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:59:24.444782Z'
@@ -53,5 +53,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.886220Z'
-indexed_at: '2026-01-25T04:05:52.886225Z'
+  fetched_at: '2026-02-01T04:32:50.729488Z'
+indexed_at: '2026-02-01T04:32:50.729494Z'

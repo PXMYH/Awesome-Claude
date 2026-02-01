@@ -16,7 +16,7 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/fine-tuning-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/fine-tuning-expert/SKILL.md
-fetched_at: '2026-01-25T03:52:20.243665+00:00'
+fetched_at: '2026-02-01T04:29:23.944362+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:58:28.838846Z'
@@ -50,5 +50,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.871878Z'
-indexed_at: '2026-01-25T04:05:52.871883Z'
+  fetched_at: '2026-02-01T04:32:50.716298Z'
+indexed_at: '2026-02-01T04:32:50.716303Z'

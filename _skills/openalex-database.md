@@ -26,7 +26,7 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/openalex-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/openalex-database/SKILL.md
-fetched_at: '2026-01-25T03:51:38.769504+00:00'
+fetched_at: '2026-02-01T04:28:28.569539+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:35:48.971705Z'
@@ -59,6 +59,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:51.991297Z'
-indexed_at: '2026-01-25T04:05:51.991303Z'
+  fetched_at: '2026-02-01T04:32:49.884191Z'
+indexed_at: '2026-02-01T04:32:49.884197Z'
 ---

@@ -1,0 +1,60 @@
+id: review-claudemd
+slug: review-claudemd
+name: Review CLAUDE.md from conversation history
+description: Present as tables or bullet points. Ask user if they want edits drafted.
+prompt_preview: '---
+
+  name: review-claudemd
+
+  description: Review recent conversations to find improvements for CLAUDE.md files.
+  (user)
+
+  ---
+
+
+  # Review CLAUDE.md from conversation history
+
+
+  Analyze recent conversations to improve both global (~/.claude/CLAUDE.md) and local
+  (project) CLAUDE.md files.
+
+
+  ## Step 1: Find conversation history
+
+
+  The project''s conversation history is in `~/.claude/projects/`. The folder name
+  is the project path with slashes replaced by dashes.
+
+
+  ```bash
+
+  # Find the project folder (replace / with...'
+full_prompt_length: 2726
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: ykdojo/claude-code-tips
+source_path: skills/review-claudemd/SKILL.md
+source_url: https://github.com/ykdojo/claude-code-tips/blob/main/skills/review-claudemd/SKILL.md
+fetched_at: '2026-02-01T04:30:05.169214+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-02-01T04:32:49.478799Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f928a7e69c0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f928a7e69c0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-02-01T04:32:51.073403Z'
+indexed_at: '2026-02-01T04:32:51.073409Z'

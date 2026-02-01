@@ -69,7 +69,7 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/travel-health-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/travel-health-analyzer/SKILL.md
-fetched_at: '2026-01-25T03:52:15.586039+00:00'
+fetched_at: '2026-02-01T04:29:17.936408+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:56:30.473068Z'
@@ -103,6 +103,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.833391Z'
-indexed_at: '2026-01-25T04:05:52.833396Z'
+  fetched_at: '2026-02-01T04:32:50.680714Z'
+indexed_at: '2026-02-01T04:32:50.680719Z'
 ---

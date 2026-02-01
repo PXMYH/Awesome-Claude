@@ -25,12 +25,12 @@ full_prompt_length: 6537
 tools_mentioned:
 - REST
 - gRPC
-category: 05-data-ai
-category_display: 05 Data Ai
+category: data-ai
+category_display: Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/ml-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/ml-engineer.md
-fetched_at: '2026-01-31T04:04:40.578772Z'
+fetched_at: '2026-02-01T04:28:55.365568+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:01:31.864384Z'
@@ -60,10 +60,10 @@ evaluation:
   - mlops
   - model-monitoring
 github_metrics:
-  stars: 9155
-  forks: 995
+  stars: 9225
+  forks: 1003
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-01-31T04:05:02.395696Z'
-indexed_at: '2026-01-31T04:05:03.788470Z'
+  fetched_at: '2026-02-01T04:30:09.614951Z'
+indexed_at: '2026-02-01T04:32:50.362465Z'
 ---

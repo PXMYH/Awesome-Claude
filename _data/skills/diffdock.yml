@@ -11,17 +11,17 @@ prompt_preview: "---\nname: diffdock\ndescription: Diffusion-based molecular doc
   \ molecule ligands to protein targets..."
 full_prompt_length: 16246
 tools_mentioned:
-- python
-- Docker
-- Python
 - docker
 - go
+- Docker
+- python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/diffdock/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/diffdock/SKILL.md
-fetched_at: '2026-01-25T03:51:32.724973+00:00'
+fetched_at: '2026-02-01T04:28:20.076175+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:26:45.348369Z'
@@ -54,5 +54,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:51.815304Z'
-indexed_at: '2026-01-25T04:05:51.815309Z'
+  fetched_at: '2026-02-01T04:32:49.727568Z'
+indexed_at: '2026-02-01T04:32:49.727573Z'

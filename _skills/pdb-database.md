@@ -12,17 +12,17 @@ prompt_preview: "---\nname: pdb-database\ndescription: Access RCSB PDB for 3D pr
   \ structure simila..."
 full_prompt_length: 10047
 tools_mentioned:
+- go
 - graphql
 - python
 - GraphQL
 - Python
-- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pdb-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pdb-database/SKILL.md
-fetched_at: '2026-01-25T03:51:39.415302+00:00'
+fetched_at: '2026-02-01T04:28:29.417558+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:36:42.541388Z'
@@ -55,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.009860Z'
-indexed_at: '2026-01-25T04:05:52.009869Z'
+  fetched_at: '2026-02-01T04:32:49.900451Z'
+indexed_at: '2026-02-01T04:32:49.900456Z'
 ---

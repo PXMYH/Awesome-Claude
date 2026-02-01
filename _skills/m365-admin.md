@@ -13,12 +13,12 @@ prompt_preview: "---\nname: m365-admin\ndescription: >\n  Microsoft 365 administ
 full_prompt_length: 1736
 tools_mentioned:
 - azure
-category: 07-specialized-domains
-category_display: 07 Specialized Domains
+category: specialized-domains
+category_display: Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/m365-admin.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/m365-admin.md
-fetched_at: '2026-01-31T04:04:45.283666Z'
+fetched_at: '2026-02-01T04:29:00.293129+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:06:24.144579Z'
@@ -50,10 +50,10 @@ evaluation:
   - automation
   - licensing
 github_metrics:
-  stars: 9155
-  forks: 995
+  stars: 9225
+  forks: 1003
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-01-31T04:05:02.395696Z'
-indexed_at: '2026-01-31T04:05:03.878148Z'
+  fetched_at: '2026-02-01T04:30:09.614951Z'
+indexed_at: '2026-02-01T04:32:50.441229Z'
 ---

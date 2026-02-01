@@ -12,19 +12,19 @@ prompt_preview: "---\nname: semgrep\ndescription: Run Semgrep static analysis fo
 full_prompt_length: 8601
 tools_mentioned:
 - JavaScript
+- docker
+- Docker
+- Go
 - python
 - javascript
-- Docker
-- Python
-- Go
-- docker
 - flask
+- Python
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/static-analysis/skills/semgrep/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/semgrep/SKILL.md
-fetched_at: '2026-01-25T03:52:42.321678+00:00'
+fetched_at: '2026-02-01T04:29:57.510410+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:24:50.034044Z'
@@ -56,5 +56,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.134986Z'
-indexed_at: '2026-01-25T04:05:53.134992Z'
+  fetched_at: '2026-02-01T04:32:50.994626Z'
+indexed_at: '2026-02-01T04:32:50.994631Z'

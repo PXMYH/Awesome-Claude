@@ -84,7 +84,7 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/food-database-query/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/food-database-query/SKILL.md
-fetched_at: '2026-01-25T03:52:13.767605+00:00'
+fetched_at: '2026-02-01T04:29:15.698720+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:54:17.944270Z'
@@ -117,6 +117,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.789190Z'
-indexed_at: '2026-01-25T04:05:52.789196Z'
+  fetched_at: '2026-02-01T04:32:50.639871Z'
+indexed_at: '2026-02-01T04:32:50.639877Z'
 ---

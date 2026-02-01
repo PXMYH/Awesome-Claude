@@ -23,14 +23,14 @@ prompt_preview: '---
   through standard bash because they require a real terminal. tmux pr...'
 full_prompt_length: 5070
 tools_mentioned:
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: obra/superpowers-lab
 source_path: skills/using-tmux-for-interactive-commands/SKILL.md
 source_url: https://github.com/obra/superpowers-lab/blob/main/skills/using-tmux-for-interactive-commands/SKILL.md
-fetched_at: '2026-01-25T03:52:30.435668+00:00'
+fetched_at: '2026-02-01T04:29:38.184906+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:20:26.492316Z'
@@ -61,5 +61,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.000880Z'
-indexed_at: '2026-01-25T04:05:53.000886Z'
+  fetched_at: '2026-02-01T04:32:50.836772Z'
+indexed_at: '2026-02-01T04:32:50.836777Z'

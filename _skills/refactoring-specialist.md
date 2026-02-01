@@ -22,12 +22,12 @@ prompt_preview: '---
   poorly structured code into clean, m...'
 full_prompt_length: 7063
 tools_mentioned: []
-category: 06-developer-experience
-category_display: 06 Developer Experience
+category: developer-experience
+category_display: Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/refactoring-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/refactoring-specialist.md
-fetched_at: '2026-01-31T04:04:43.447054Z'
+fetched_at: '2026-02-01T04:28:58.376013+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:04:38.783261Z'
@@ -54,10 +54,10 @@ evaluation:
   - legacy-code
   - test-driven-development
 github_metrics:
-  stars: 9155
-  forks: 995
+  stars: 9225
+  forks: 1003
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-01-31T04:05:02.395696Z'
-indexed_at: '2026-01-31T04:05:03.844520Z'
+  fetched_at: '2026-02-01T04:30:09.614951Z'
+indexed_at: '2026-02-01T04:32:50.411158Z'
 ---

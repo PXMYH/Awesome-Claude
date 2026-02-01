@@ -13,14 +13,14 @@ prompt_preview: "---\nname: fuzzing-dictionary\ntype: technique\ndescription: >\
 full_prompt_length: 9684
 tools_mentioned:
 - Rust
-- Go
 - go
+- Go
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/fuzzing-dictionary/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/fuzzing-dictionary/SKILL.md
-fetched_at: '2026-01-25T03:52:43.518510+00:00'
+fetched_at: '2026-02-01T04:29:59.183731+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:26:33.163730Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.164329Z'
-indexed_at: '2026-01-25T04:05:53.164334Z'
+  fetched_at: '2026-02-01T04:32:51.020902Z'
+indexed_at: '2026-02-01T04:32:51.020907Z'
 ---

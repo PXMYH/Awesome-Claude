@@ -18,7 +18,7 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/wordpress-pro/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/wordpress-pro/SKILL.md
-fetched_at: '2026-01-25T03:52:26.354786+00:00'
+fetched_at: '2026-02-01T04:29:32.663652+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:02:22.083727Z'
@@ -53,5 +53,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.935623Z'
-indexed_at: '2026-01-25T04:05:52.935628Z'
+  fetched_at: '2026-02-01T04:32:50.775344Z'
+indexed_at: '2026-02-01T04:32:50.775349Z'

@@ -16,14 +16,14 @@ prompt_preview: '---
 full_prompt_length: 13527
 tools_mentioned:
 - go
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/networkx/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/networkx/SKILL.md
-fetched_at: '2026-01-25T03:51:38.144948+00:00'
+fetched_at: '2026-02-01T04:28:27.732695+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:34:57.634806Z'
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:51.972574Z'
-indexed_at: '2026-01-25T04:05:51.972579Z'
+  fetched_at: '2026-02-01T04:32:49.867326Z'
+indexed_at: '2026-02-01T04:32:49.867332Z'
 ---

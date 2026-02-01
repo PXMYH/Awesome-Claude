@@ -10,14 +10,14 @@ prompt_preview: "---\nname: feature-forge\ndescription: Use when defining new fe
   role: specialist\nscope: design\noutput-format: document\n---\n\n# Feature Forge\n\
   \nRequirements specialist conducting structured workshops to define comprehensive\
   \ feature specifications.\n\n##..."
-full_prompt_length: 2954
+full_prompt_length: 4036
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/feature-forge/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/feature-forge/SKILL.md
-fetched_at: '2026-01-25T03:52:20.099787+00:00'
+fetched_at: '2026-02-01T04:29:23.782231+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:58:15.358808Z'
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.868424Z'
-indexed_at: '2026-01-25T04:05:52.868430Z'
+  fetched_at: '2026-02-01T04:32:50.713062Z'
+indexed_at: '2026-02-01T04:32:50.713067Z'
 ---

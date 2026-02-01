@@ -20,7 +20,7 @@ category_display: Community
 source_repo: raintree-technology/claude-starter
 source_path: skills/toon-formatter/SKILL.md
 source_url: https://github.com/raintree-technology/claude-starter/blob/main/skills/toon-formatter/SKILL.md
-fetched_at: '2026-01-25T03:52:33.008623+00:00'
+fetched_at: '2026-02-01T04:29:41.282918+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:03:03.003647Z'
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.022033Z'
-indexed_at: '2026-01-25T04:05:53.022038Z'
+  fetched_at: '2026-02-01T04:32:50.856311Z'
+indexed_at: '2026-02-01T04:32:50.856317Z'
 ---

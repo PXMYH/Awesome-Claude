@@ -13,9 +13,9 @@ prompt_preview: "---\nname: wycheproof\ntype: domain\ndescription: >\n  Wychepro
 full_prompt_length: 19328
 tools_mentioned:
 - JavaScript
-- Java
-- java
 - javascript
+- java
+- Java
 - python
 - Python
 category: security
@@ -23,7 +23,7 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/wycheproof/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/wycheproof/SKILL.md
-fetched_at: '2026-01-25T03:52:44.731859+00:00'
+fetched_at: '2026-02-01T04:30:00.764513+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:28:14.479281Z'
@@ -58,5 +58,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.197243Z'
-indexed_at: '2026-01-25T04:05:53.197248Z'
+  fetched_at: '2026-02-01T04:32:51.050520Z'
+indexed_at: '2026-02-01T04:32:51.050525Z'

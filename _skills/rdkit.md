@@ -13,14 +13,14 @@ prompt_preview: "---\nname: rdkit\ndescription: Cheminformatics toolkit for fine
 full_prompt_length: 20788
 tools_mentioned:
 - go
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/rdkit/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/rdkit/SKILL.md
-fetched_at: '2026-01-25T03:51:42.517336+00:00'
+fetched_at: '2026-02-01T04:28:33.624140+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:40:53.495302Z'
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.098972Z'
-indexed_at: '2026-01-25T04:05:52.098977Z'
+  fetched_at: '2026-02-01T04:32:49.995730Z'
+indexed_at: '2026-02-01T04:32:49.995736Z'
 ---

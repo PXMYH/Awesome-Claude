@@ -18,7 +18,7 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pptx-posters/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pptx-posters/SKILL.md
-fetched_at: '2026-01-25T03:51:40.156914+00:00'
+fetched_at: '2026-02-01T04:28:30.473228+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:37:45.519667Z'
@@ -53,5 +53,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.032810Z'
-indexed_at: '2026-01-25T04:05:52.032816Z'
+  fetched_at: '2026-02-01T04:32:49.920392Z'
+indexed_at: '2026-02-01T04:32:49.920398Z'

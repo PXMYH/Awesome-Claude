@@ -18,7 +18,7 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/differential-review/skills/differential-review/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/differential-review/skills/differential-review/SKILL.md
-fetched_at: '2026-01-25T03:52:39.030877+00:00'
+fetched_at: '2026-02-01T04:29:51.680940+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:22:42.420371Z'
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.090561Z'
-indexed_at: '2026-01-25T04:05:53.090567Z'
+  fetched_at: '2026-02-01T04:32:50.949475Z'
+indexed_at: '2026-02-01T04:32:50.949480Z'
 ---

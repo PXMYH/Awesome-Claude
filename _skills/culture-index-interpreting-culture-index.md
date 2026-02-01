@@ -22,14 +22,14 @@ prompt_preview: '---
   **Culture Index measure...'
 full_prompt_length: 11844
 tools_mentioned:
-- Go
 - python
+- Go
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/culture-index/skills/interpreting-culture-index/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/culture-index/skills/interpreting-culture-index/SKILL.md
-fetched_at: '2026-01-25T03:52:38.738682+00:00'
+fetched_at: '2026-02-01T04:29:51.243829+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:22:32.978446Z'
@@ -66,6 +66,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.086610Z'
-indexed_at: '2026-01-25T04:05:53.086615Z'
+  fetched_at: '2026-02-01T04:32:50.945889Z'
+indexed_at: '2026-02-01T04:32:50.945894Z'
 ---

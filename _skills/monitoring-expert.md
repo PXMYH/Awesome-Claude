@@ -17,7 +17,7 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/monitoring-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/monitoring-expert/SKILL.md
-fetched_at: '2026-01-25T03:52:22.254234+00:00'
+fetched_at: '2026-02-01T04:29:27.303764+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:58:59.604972Z'
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.882709Z'
-indexed_at: '2026-01-25T04:05:52.882714Z'
+  fetched_at: '2026-02-01T04:32:50.726239Z'
+indexed_at: '2026-02-01T04:32:50.726247Z'
 ---

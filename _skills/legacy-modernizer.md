@@ -22,12 +22,12 @@ prompt_preview: '---
   into modern architect...'
 full_prompt_length: 6901
 tools_mentioned: []
-category: 06-developer-experience
-category_display: 06 Developer Experience
+category: developer-experience
+category_display: Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/legacy-modernizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/legacy-modernizer.md
-fetched_at: '2026-01-31T04:04:42.736825Z'
+fetched_at: '2026-02-01T04:28:57.661809+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:03:56.440899Z'
@@ -53,10 +53,10 @@ evaluation:
   - risk-mitigation
   - developer-experience
 github_metrics:
-  stars: 9155
-  forks: 995
+  stars: 9225
+  forks: 1003
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-01-31T04:05:02.395696Z'
-indexed_at: '2026-01-31T04:05:03.829133Z'
+  fetched_at: '2026-02-01T04:30:09.614951Z'
+indexed_at: '2026-02-01T04:32:50.398391Z'
 ---

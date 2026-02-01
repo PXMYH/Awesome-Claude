@@ -12,16 +12,16 @@ prompt_preview: "---\nname: alphafold-database\ndescription: Access AlphaFold 20
   \ EMBL-EBI. Access structure..."
 full_prompt_length: 17208
 tools_mentioned:
-- go
-- Python
-- python
 - REST
+- go
+- python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/alphafold-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/alphafold-database/SKILL.md
-fetched_at: '2026-01-25T03:51:29.428819+00:00'
+fetched_at: '2026-02-01T04:28:15.575103+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:21:18.628424Z'
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:51.714342Z'
-indexed_at: '2026-01-25T04:05:51.714348Z'
+  fetched_at: '2026-02-01T04:32:49.640212Z'
+indexed_at: '2026-02-01T04:32:49.640217Z'
 ---

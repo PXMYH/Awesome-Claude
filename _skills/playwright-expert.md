@@ -18,7 +18,7 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/playwright-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/playwright-expert/SKILL.md
-fetched_at: '2026-01-25T03:52:22.982127+00:00'
+fetched_at: '2026-02-01T04:29:28.176081+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:59:55.244463Z'
@@ -50,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.893285Z'
-indexed_at: '2026-01-25T04:05:52.893290Z'
+  fetched_at: '2026-02-01T04:32:50.736040Z'
+indexed_at: '2026-02-01T04:32:50.736046Z'
 ---

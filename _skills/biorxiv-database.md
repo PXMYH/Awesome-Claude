@@ -13,14 +13,14 @@ prompt_preview: "---\nname: biorxiv-database\ndescription: Efficient database se
 full_prompt_length: 13370
 tools_mentioned:
 - go
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/biorxiv-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/biorxiv-database/SKILL.md
-fetched_at: '2026-01-25T03:51:30.174382+00:00'
+fetched_at: '2026-02-01T04:28:16.600669+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:22:39.182027Z'
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:51.740517Z'
-indexed_at: '2026-01-25T04:05:51.740522Z'
+  fetched_at: '2026-02-01T04:32:49.660531Z'
+indexed_at: '2026-02-01T04:32:49.660537Z'
 ---

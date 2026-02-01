@@ -17,7 +17,7 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/weightloss-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/weightloss-analyzer/SKILL.md
-fetched_at: '2026-01-25T03:52:15.761166+00:00'
+fetched_at: '2026-02-01T04:29:18.119601+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:56:40.003890Z'
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.837028Z'
-indexed_at: '2026-01-25T04:05:52.837033Z'
+  fetched_at: '2026-02-01T04:32:50.684084Z'
+indexed_at: '2026-02-01T04:32:50.684090Z'
 ---

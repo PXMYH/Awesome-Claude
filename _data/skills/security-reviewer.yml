@@ -11,14 +11,14 @@ prompt_preview: "---\nname: security-reviewer\ndescription: Use when conducting 
   \ audit\nrole: specialist\nscope: review\nallowed..."
 full_prompt_length: 3712
 tools_mentioned:
-- AWS
 - Kubernetes
+- AWS
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/security-reviewer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/security-reviewer/SKILL.md
-fetched_at: '2026-01-25T03:52:24.455400+00:00'
+fetched_at: '2026-02-01T04:29:30.056990+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:01:15.346389Z'
@@ -52,5 +52,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.914454Z'
-indexed_at: '2026-01-25T04:05:52.914459Z'
+  fetched_at: '2026-02-01T04:32:50.755710Z'
+indexed_at: '2026-02-01T04:32:50.755716Z'

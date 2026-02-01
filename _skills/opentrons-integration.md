@@ -13,14 +13,14 @@ prompt_preview: "---\nname: opentrons-integration\ndescription: Official Opentro
 full_prompt_length: 15534
 tools_mentioned:
 - go
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/opentrons-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/opentrons-integration/SKILL.md
-fetched_at: '2026-01-25T03:51:39.039443+00:00'
+fetched_at: '2026-02-01T04:28:28.905354+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:36:10.402126Z'
@@ -55,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:51.998550Z'
-indexed_at: '2026-01-25T04:05:51.998556Z'
+  fetched_at: '2026-02-01T04:32:49.890618Z'
+indexed_at: '2026-02-01T04:32:49.890624Z'
 ---

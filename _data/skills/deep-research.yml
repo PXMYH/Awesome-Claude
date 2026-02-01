@@ -29,14 +29,14 @@ prompt_preview: '---
   - httpx: `pip instal...'
 full_prompt_length: 2664
 tools_mentioned:
-- Python
 - Kubernetes
+- Python
 category: community
 category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/deep-research/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/deep-research/SKILL.md
-fetched_at: '2026-01-25T03:52:34.716738+00:00'
+fetched_at: '2026-02-01T04:29:43.380969+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:21:31.048367Z'
@@ -67,5 +67,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.032644Z'
-indexed_at: '2026-01-25T04:05:53.032650Z'
+  fetched_at: '2026-02-01T04:32:50.865999Z'
+indexed_at: '2026-02-01T04:32:50.866005Z'

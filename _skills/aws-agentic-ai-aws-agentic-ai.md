@@ -12,16 +12,16 @@ prompt_preview: "---\nname: aws-agentic-ai\naliases:\n  - bedrock-agentcore\n  -
   \  -..."
 full_prompt_length: 6627
 tools_mentioned:
-- Python
 - aws
-- AWS
 - REST
+- Python
+- AWS
 category: infrastructure
 category_display: Infrastructure
 source_repo: zxkane/aws-skills
 source_path: plugins/aws-agentic-ai/skills/aws-agentic-ai/SKILL.md
 source_url: https://github.com/zxkane/aws-skills/blob/main/plugins/aws-agentic-ai/skills/aws-agentic-ai/SKILL.md
-fetched_at: '2026-01-25T03:52:48.788574+00:00'
+fetched_at: '2026-02-01T04:30:06.399657+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:29:38.533411Z'
@@ -55,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.219376Z'
-indexed_at: '2026-01-25T04:05:53.219382Z'
+  fetched_at: '2026-02-01T04:32:51.075922Z'
+indexed_at: '2026-02-01T04:32:51.075928Z'
 ---

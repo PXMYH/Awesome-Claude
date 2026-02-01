@@ -1,0 +1,52 @@
+---
+id: building-secure-contracts-token-integration-analyzer
+slug: building-secure-contracts-token-integration-analyzer
+name: Token Integration Analyzer
+description: Let's analyze your token implementation or integration for security risks!
+prompt_preview: '---
+
+  name: token-integration-analyzer
+
+  description: Token integration and implementation analyzer based on Trail of Bits''
+  token integration checklist. Analyzes token implementations for ERC20/ERC721 conformity,
+  checks for 20+ weird token patterns, assesses contract composition and owner privileges,
+  performs on-chain scarcity analysis, and evaluates how protocols handle non-standard
+  tokens. Context-aware for both token implementations and token integrations.
+
+  ---
+
+
+  # Token Integration Analyzer
+
+
+  ## Pu...'
+full_prompt_length: 12461
+tools_mentioned: []
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/building-secure-contracts/skills/token-integration-analyzer/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/building-secure-contracts/skills/token-integration-analyzer/SKILL.md
+fetched_at: '2026-02-01T04:29:49.313230+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-02-01T04:31:58.906381Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f928aaa1400 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f928aaa1400 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-02-01T04:32:50.934856Z'
+indexed_at: '2026-02-01T04:32:50.934862Z'
+---

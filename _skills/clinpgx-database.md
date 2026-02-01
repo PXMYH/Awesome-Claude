@@ -12,16 +12,16 @@ prompt_preview: "---\nname: clinpgx-database\ndescription: Access ClinPGx pharma
   \ consolidates data from PharmGKB, C..."
 full_prompt_length: 21767
 tools_mentioned:
-- go
-- Python
-- python
 - REST
+- go
+- python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/clinpgx-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/clinpgx-database/SKILL.md
-fetched_at: '2026-01-25T03:51:31.380020+00:00'
+fetched_at: '2026-02-01T04:28:18.339351+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:24:34.310238Z'
@@ -56,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:51.777739Z'
-indexed_at: '2026-01-25T04:05:51.777744Z'
+  fetched_at: '2026-02-01T04:32:49.693973Z'
+indexed_at: '2026-02-01T04:32:49.693979Z'
 ---

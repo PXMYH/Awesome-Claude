@@ -22,22 +22,21 @@ prompt_preview: '---
   web development. Your focus spans Django''s batteries-included philosophy, ORM opti...'
 full_prompt_length: 6527
 tools_mentioned:
+- Django
 - python
+- django
 - Redis
-- Python
+- redis
 - WebSocket
 - REST
-- Django
 - GraphQL
-- pytest
-- redis
-- django
+- Python
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/django-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/django-developer.md
-fetched_at: '2026-01-31T04:04:29.555247Z'
+fetched_at: '2026-02-01T04:28:43.683976+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:50:13.611701Z'
@@ -65,10 +64,10 @@ evaluation:
   - security
   - performance-optimization
 github_metrics:
-  stars: 9155
-  forks: 995
+  stars: 9225
+  forks: 1003
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-01-31T04:05:02.395696Z'
-indexed_at: '2026-01-31T04:05:03.570534Z'
+  fetched_at: '2026-02-01T04:30:09.614951Z'
+indexed_at: '2026-02-01T04:32:50.171800Z'
 ---

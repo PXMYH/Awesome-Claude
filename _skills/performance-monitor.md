@@ -23,12 +23,12 @@ prompt_preview: '---
   metrics analysis, and system optimization. Your focu...'
 full_prompt_length: 6909
 tools_mentioned: []
-category: 09-meta-orchestration
-category_display: 09 Meta Orchestration
+category: meta-orchestration
+category_display: Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/performance-monitor.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/performance-monitor.md
-fetched_at: '2026-01-31T04:04:49.958534Z'
+fetched_at: '2026-02-01T04:29:05.218103+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:11:04.430489Z'
@@ -57,10 +57,10 @@ evaluation:
   - metrics analysis
   - anomaly detection
 github_metrics:
-  stars: 9155
-  forks: 995
+  stars: 9225
+  forks: 1003
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-01-31T04:05:02.395696Z'
-indexed_at: '2026-01-31T04:05:03.967304Z'
+  fetched_at: '2026-02-01T04:30:09.614951Z'
+indexed_at: '2026-02-01T04:32:50.520026Z'
 ---

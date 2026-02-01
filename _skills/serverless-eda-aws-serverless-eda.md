@@ -16,18 +16,18 @@ prompt_preview: '---
   queues, pub/sub, or wants to build scal...'
 full_prompt_length: 21786
 tools_mentioned:
-- TypeScript
+- typescript
 - AWS
+- aws
+- TypeScript
 - REST
 - Python
-- aws
-- typescript
 category: infrastructure
 category_display: Infrastructure
 source_repo: zxkane/aws-skills
 source_path: plugins/serverless-eda/skills/aws-serverless-eda/SKILL.md
 source_url: https://github.com/zxkane/aws-skills/blob/main/plugins/serverless-eda/skills/aws-serverless-eda/SKILL.md
-fetched_at: '2026-01-25T03:52:49.940022+00:00'
+fetched_at: '2026-02-01T04:30:08.132586+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:30:29.402171Z'
@@ -59,6 +59,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.234427Z'
-indexed_at: '2026-01-25T04:05:53.234433Z'
+  fetched_at: '2026-02-01T04:32:51.089355Z'
+indexed_at: '2026-02-01T04:32:51.089361Z'
 ---

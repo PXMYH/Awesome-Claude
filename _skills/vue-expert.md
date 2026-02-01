@@ -22,18 +22,18 @@ prompt_preview: '---
   Vue ecosystem. Your focus spans reactivity mastery, component architecture, performance...'
 full_prompt_length: 6556
 tools_mentioned:
-- typescript
 - JavaScript
-- javascript
-- TypeScript
+- typescript
 - Vue
 - vue
+- TypeScript
+- javascript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/vue-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/vue-expert.md
-fetched_at: '2026-01-31T04:04:33.498219Z'
+fetched_at: '2026-02-01T04:28:47.687655+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:54:14.804505Z'
@@ -65,10 +65,10 @@ evaluation:
   - frontend
   - web-development
 github_metrics:
-  stars: 9155
-  forks: 995
+  stars: 9225
+  forks: 1003
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-01-31T04:05:02.395696Z'
-indexed_at: '2026-01-31T04:05:03.654510Z'
+  fetched_at: '2026-02-01T04:30:09.614951Z'
+indexed_at: '2026-02-01T04:32:50.244687Z'
 ---

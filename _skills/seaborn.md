@@ -13,14 +13,14 @@ prompt_preview: "---\nname: seaborn\ndescription: Statistical visualization with
 full_prompt_length: 20419
 tools_mentioned:
 - go
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/seaborn/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/seaborn/SKILL.md
-fetched_at: '2026-01-25T03:51:44.852744+00:00'
+fetched_at: '2026-02-01T04:28:36.593776+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:44:05.300714Z'
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.160980Z'
-indexed_at: '2026-01-25T04:05:52.160985Z'
+  fetched_at: '2026-02-01T04:32:50.053681Z'
+indexed_at: '2026-02-01T04:32:50.053687Z'
 ---

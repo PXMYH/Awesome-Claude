@@ -12,14 +12,14 @@ prompt_preview: "---\nname: imagen\ndescription: |\n  Generate images using Goog
   \ It enables seamless image..."
 full_prompt_length: 2560
 tools_mentioned:
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/imagen/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/imagen/SKILL.md
-fetched_at: '2026-01-25T03:52:35.926715+00:00'
+fetched_at: '2026-02-01T04:29:44.883089+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:21:40.931303Z'
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.061103Z'
-indexed_at: '2026-01-25T04:05:53.061109Z'
+  fetched_at: '2026-02-01T04:32:50.892426Z'
+indexed_at: '2026-02-01T04:32:50.892432Z'
 ---

@@ -18,7 +18,7 @@ category_display: Community
 source_repo: raintree-technology/claude-starter
 source_path: skills/plaid/SKILL.md
 source_url: https://github.com/raintree-technology/claude-starter/blob/main/skills/plaid/SKILL.md
-fetched_at: '2026-01-25T03:52:32.867373+00:00'
+fetched_at: '2026-02-01T04:29:41.093809+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:02:52.688962Z'
@@ -52,5 +52,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.018554Z'
-indexed_at: '2026-01-25T04:05:53.018559Z'
+  fetched_at: '2026-02-01T04:32:50.853076Z'
+indexed_at: '2026-02-01T04:32:50.853082Z'

@@ -24,11 +24,11 @@ prompt_preview: '---
 full_prompt_length: 6578
 tools_mentioned: []
 category: quality-security
-category_display: Quality & Security
+category_display: Quality Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/test-automator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/test-automator.md
-fetched_at: '2026-01-31T04:04:38.935573Z'
+fetched_at: '2026-02-01T04:28:53.618102+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:59:52.149467Z'
@@ -57,10 +57,10 @@ evaluation:
   - framework-design
   - testing-strategy
 github_metrics:
-  stars: 9155
-  forks: 995
+  stars: 9225
+  forks: 1003
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-01-31T04:05:02.395696Z'
-indexed_at: '2026-01-31T04:05:03.758351Z'
+  fetched_at: '2026-02-01T04:30:09.614951Z'
+indexed_at: '2026-02-01T04:32:50.336570Z'
 ---

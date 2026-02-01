@@ -30,11 +30,11 @@ prompt_preview: '---
 full_prompt_length: 4149
 tools_mentioned: []
 category: community
-category_display: Community Skills
+category_display: Community
 source_repo: obra/superpowers
 source_path: skills/verification-before-completion/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/verification-before-completion/SKILL.md
-fetched_at: '2026-01-31T04:05:01.072853Z'
+fetched_at: '2026-02-01T04:29:36.343289+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:19:27.162921Z'
@@ -65,10 +65,10 @@ evaluation:
   - pre-commit checks
   - honesty
 github_metrics:
-  stars: 40654
-  forks: 3090
-  open_issues: 106
+  stars: 41145
+  forks: 3129
+  open_issues: 111
   last_commit: '2026-01-30'
-  fetched_at: '2026-01-31T04:05:03.236238Z'
-indexed_at: '2026-01-31T04:05:04.099699Z'
+  fetched_at: '2026-02-01T04:30:11.029444Z'
+indexed_at: '2026-02-01T04:32:50.817619Z'
 ---

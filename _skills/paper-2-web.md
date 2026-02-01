@@ -18,14 +18,14 @@ prompt_preview: '---
 full_prompt_length: 16975
 tools_mentioned:
 - go
-- AWS
 - python
+- AWS
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/paper-2-web/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/paper-2-web/SKILL.md
-fetched_at: '2026-01-25T03:51:39.177105+00:00'
+fetched_at: '2026-02-01T04:28:29.077860+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:36:21.544910Z'
@@ -58,6 +58,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:52.002463Z'
-indexed_at: '2026-01-25T04:05:52.002468Z'
+  fetched_at: '2026-02-01T04:32:49.893984Z'
+indexed_at: '2026-02-01T04:32:49.893990Z'
 ---

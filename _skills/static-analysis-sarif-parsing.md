@@ -13,17 +13,17 @@ prompt_preview: "---\nname: sarif-parsing\ndescription: Parse, analyze, and proc
 full_prompt_length: 15043
 tools_mentioned:
 - JavaScript
+- go
+- Node.js
+- Go
 - python
 - Python
-- Go
-- Node.js
-- go
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/static-analysis/skills/sarif-parsing/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/sarif-parsing/SKILL.md
-fetched_at: '2026-01-25T03:52:42.142176+00:00'
+fetched_at: '2026-02-01T04:29:57.331236+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:24:40.340406Z'
@@ -56,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.131212Z'
-indexed_at: '2026-01-25T04:05:53.131218Z'
+  fetched_at: '2026-02-01T04:32:50.991174Z'
+indexed_at: '2026-02-01T04:32:50.991179Z'
 ---

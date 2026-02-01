@@ -12,16 +12,16 @@ prompt_preview: "---\nname: Linear\ndescription: Managing Linear issues, project
   \ available:**\n\n1. **MCP Tools (mcp__linear)..."
 full_prompt_length: 13789
 tools_mentioned:
-- TypeScript
-- Go
 - GraphQL
 - javascript
+- TypeScript
+- Go
 category: community
 category_display: Community
 source_repo: wrsmith108/linear-claude-skill
 source_path: SKILL.md
 source_url: https://github.com/wrsmith108/linear-claude-skill/blob/main/SKILL.md
-fetched_at: '2026-01-25T03:52:46.291257+00:00'
+fetched_at: '2026-02-01T04:30:03.003339+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:05:45.560038Z'
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-01-25T04:05:53.208633Z'
-indexed_at: '2026-01-25T04:05:53.208638Z'
+  fetched_at: '2026-02-01T04:32:51.063458Z'
+indexed_at: '2026-02-01T04:32:51.063463Z'
 ---
