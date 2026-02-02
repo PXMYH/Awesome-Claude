@@ -31,11 +31,11 @@ tools_mentioned:
 - go
 - Go
 category: community
-category_display: Community
+category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/brainstorming/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md
-fetched_at: '2026-02-01T04:29:34.524203+00:00'
+fetched_at: '2026-02-02T04:24:33.359019Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:17:11.306591Z'
@@ -63,10 +63,10 @@ evaluation:
   - development
   - specification
 github_metrics:
-  stars: 41145
-  forks: 3129
-  open_issues: 111
+  stars: 41965
+  forks: 3201
+  open_issues: 115
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-01T04:30:11.029444Z'
-indexed_at: '2026-02-01T04:32:50.781920Z'
+  fetched_at: '2026-02-02T04:24:41.967659Z'
+indexed_at: '2026-02-02T04:24:42.821070Z'
 ---

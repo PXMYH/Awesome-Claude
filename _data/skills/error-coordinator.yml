@@ -22,12 +22,12 @@ prompt_preview: '---
   resilience, failure recovery, and continu...'
 full_prompt_length: 6944
 tools_mentioned: []
-category: meta-orchestration
-category_display: Meta Orchestration
+category: 09-meta-orchestration
+category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/error-coordinator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/error-coordinator.md
-fetched_at: '2026-02-01T04:29:04.491217+00:00'
+fetched_at: '2026-02-02T04:24:21.318695Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:10:17.305442Z'
@@ -56,9 +56,9 @@ evaluation:
   - system orchestration
   - failure recovery
 github_metrics:
-  stars: 9225
-  forks: 1003
+  stars: 9319
+  forks: 1007
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-01T04:30:09.614951Z'
-indexed_at: '2026-02-01T04:32:50.506389Z'
+  fetched_at: '2026-02-02T04:24:40.762213Z'
+indexed_at: '2026-02-02T04:24:42.697497Z'

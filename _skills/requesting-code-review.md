@@ -40,11 +40,11 @@ prompt_preview: '---
 full_prompt_length: 2700
 tools_mentioned: []
 category: community
-category_display: Community
+category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/requesting-code-review/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/requesting-code-review/SKILL.md
-fetched_at: '2026-02-01T04:29:35.317682+00:00'
+fetched_at: '2026-02-02T04:24:35.972243Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:18:18.254041Z'
@@ -73,10 +73,10 @@ evaluation:
   - best-practices
   - subagent-orchestration
 github_metrics:
-  stars: 41145
-  forks: 3129
-  open_issues: 111
+  stars: 41965
+  forks: 3201
+  open_issues: 115
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-01T04:30:11.029444Z'
-indexed_at: '2026-02-01T04:32:50.798081Z'
+  fetched_at: '2026-02-02T04:24:41.967659Z'
+indexed_at: '2026-02-02T04:24:42.839951Z'
 ---

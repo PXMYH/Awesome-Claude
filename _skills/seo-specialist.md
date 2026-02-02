@@ -23,12 +23,12 @@ prompt_preview: '---
   technical SEO, content strategy, and digital marketin...'
 full_prompt_length: 5393
 tools_mentioned: []
-category: specialized-domains
-category_display: Specialized Domains
+category: 07-specialized-domains
+category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/seo-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/seo-specialist.md
-fetched_at: '2026-02-01T04:29:01.203920+00:00'
+fetched_at: '2026-02-02T04:24:17.252667Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:07:29.020824Z'
@@ -59,10 +59,10 @@ evaluation:
   - search-engine-optimization
   - digital-marketing
 github_metrics:
-  stars: 9225
-  forks: 1003
+  stars: 9319
+  forks: 1007
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-01T04:30:09.614951Z'
-indexed_at: '2026-02-01T04:32:50.457279Z'
+  fetched_at: '2026-02-02T04:24:40.762213Z'
+indexed_at: '2026-02-02T04:24:42.640553Z'
 ---

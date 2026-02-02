@@ -12,14 +12,14 @@ prompt_preview: "---\nname: powershell-7-expert\ndescription: >\n  Cross-platfor
   \n## Core Capabilities\n\n### Powe..."
 full_prompt_length: 2280
 tools_mentioned:
-- Azure
 - azure
+- Azure
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/powershell-7-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/powershell-7-expert.md
-fetched_at: '2026-02-01T04:28:46.038913+00:00'
+fetched_at: '2026-02-02T04:23:58.157850Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:52:33.858952Z'
@@ -46,10 +46,10 @@ evaluation:
   - azure
   - cross-platform
 github_metrics:
-  stars: 9225
-  forks: 1003
+  stars: 9319
+  forks: 1007
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-01T04:30:09.614951Z'
-indexed_at: '2026-02-01T04:32:50.214472Z'
+  fetched_at: '2026-02-02T04:24:40.762213Z'
+indexed_at: '2026-02-02T04:24:42.363026Z'
 ---

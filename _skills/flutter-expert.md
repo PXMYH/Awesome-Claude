@@ -28,7 +28,7 @@ category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/flutter-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/flutter-expert.md
-fetched_at: '2026-02-01T04:28:44.451414+00:00'
+fetched_at: '2026-02-02T04:23:56.014664Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:51:00.295679Z'
@@ -59,10 +59,10 @@ evaluation:
   - state-management
   - performance-optimization
 github_metrics:
-  stars: 9225
-  forks: 1003
+  stars: 9319
+  forks: 1007
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-01T04:30:09.614951Z'
-indexed_at: '2026-02-01T04:32:50.185191Z'
+  fetched_at: '2026-02-02T04:24:40.762213Z'
+indexed_at: '2026-02-02T04:24:42.329526Z'
 ---

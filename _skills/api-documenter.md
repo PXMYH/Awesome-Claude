@@ -24,15 +24,15 @@ prompt_preview: '---
 full_prompt_length: 6430
 tools_mentioned:
 - REST
-- GraphQL
 - gRPC
 - WebSocket
-category: specialized-domains
-category_display: Specialized Domains
+- GraphQL
+category: 07-specialized-domains
+category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/api-documenter.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/api-documenter.md
-fetched_at: '2026-02-01T04:28:59.189493+00:00'
+fetched_at: '2026-02-02T04:24:14.646974Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:05:17.381302Z'
@@ -64,10 +64,10 @@ evaluation:
   - documentation-automation
   - technical-writing
 github_metrics:
-  stars: 9225
-  forks: 1003
+  stars: 9319
+  forks: 1007
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-01T04:30:09.614951Z'
-indexed_at: '2026-02-01T04:32:50.420668Z'
+  fetched_at: '2026-02-02T04:24:40.762213Z'
+indexed_at: '2026-02-02T04:24:42.599474Z'
 ---

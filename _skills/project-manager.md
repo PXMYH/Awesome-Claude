@@ -22,12 +22,12 @@ prompt_preview: '---
   completion. Your focus spans project planning, team...'
 full_prompt_length: 6568
 tools_mentioned: []
-category: business-product
-category_display: Business Product
+category: 08-business-product
+category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/project-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/project-manager.md
-fetched_at: '2026-02-01T04:29:02.602353+00:00'
+fetched_at: '2026-02-02T04:24:18.952317Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:08:38.962329Z'
@@ -55,10 +55,10 @@ evaluation:
   - risk-management
   - agile-methodology
 github_metrics:
-  stars: 9225
-  forks: 1003
+  stars: 9319
+  forks: 1007
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-01T04:30:09.614951Z'
-indexed_at: '2026-02-01T04:32:50.476865Z'
+  fetched_at: '2026-02-02T04:24:40.762213Z'
+indexed_at: '2026-02-02T04:24:42.663340Z'
 ---

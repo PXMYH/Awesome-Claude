@@ -22,12 +22,12 @@ prompt_preview: '---
   teams. Your focus spans task analysis, agent capability ma...'
 full_prompt_length: 7020
 tools_mentioned: []
-category: meta-orchestration
-category_display: Meta Orchestration
+category: 09-meta-orchestration
+category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/agent-organizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/agent-organizer.md
-fetched_at: '2026-02-01T04:29:04.134685+00:00'
+fetched_at: '2026-02-02T04:24:20.840548Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:09:57.188652Z'
@@ -56,9 +56,9 @@ evaluation:
   - task-decomposition
   - team-assembly
 github_metrics:
-  stars: 9225
-  forks: 1003
+  stars: 9319
+  forks: 1007
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-01T04:30:09.614951Z'
-indexed_at: '2026-02-01T04:32:50.499806Z'
+  fetched_at: '2026-02-02T04:24:40.762213Z'
+indexed_at: '2026-02-02T04:24:42.689852Z'

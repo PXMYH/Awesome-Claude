@@ -13,12 +13,12 @@ prompt_preview: "---\nname: powershell-module-architect\ndescription: >\n  Power
 full_prompt_length: 2059
 tools_mentioned:
 - azure
-category: developer-experience
-category_display: Developer Experience
+category: 06-developer-experience
+category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/powershell-module-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/powershell-module-architect.md
-fetched_at: '2026-02-01T04:28:58.015369+00:00'
+fetched_at: '2026-02-02T04:24:13.102636Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:04:18.243003Z'
@@ -48,10 +48,10 @@ evaluation:
   - code-architecture
   - cross-version-compatibility
 github_metrics:
-  stars: 9225
-  forks: 1003
+  stars: 9319
+  forks: 1007
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-01T04:30:09.614951Z'
-indexed_at: '2026-02-01T04:32:50.404617Z'
+  fetched_at: '2026-02-02T04:24:40.762213Z'
+indexed_at: '2026-02-02T04:24:42.580996Z'
 ---

@@ -23,12 +23,12 @@ prompt_preview: '---
   mixed-methods research. Your focus spans user interv...'
 full_prompt_length: 6731
 tools_mentioned: []
-category: business-product
-category_display: Business Product
+category: 08-business-product
+category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/ux-researcher.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/ux-researcher.md
-fetched_at: '2026-02-01T04:29:03.333475+00:00'
+fetched_at: '2026-02-02T04:24:19.895906Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:09:26.720646Z'
@@ -57,10 +57,10 @@ evaluation:
   - usability-testing
   - data-driven-design
 github_metrics:
-  stars: 9225
-  forks: 1003
+  stars: 9319
+  forks: 1007
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-01T04:30:09.614951Z'
-indexed_at: '2026-02-01T04:32:50.489942Z'
+  fetched_at: '2026-02-02T04:24:40.762213Z'
+indexed_at: '2026-02-02T04:24:42.678539Z'
 ---

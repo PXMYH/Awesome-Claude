@@ -23,12 +23,12 @@ prompt_preview: '---
   and customer success enablement. Your focus spans pre...'
 full_prompt_length: 7048
 tools_mentioned: []
-category: business-product
-category_display: Business Product
+category: 08-business-product
+category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/sales-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/sales-engineer.md
-fetched_at: '2026-02-01T04:29:02.792146+00:00'
+fetched_at: '2026-02-02T04:24:19.189194Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:08:53.638915Z'
@@ -59,10 +59,10 @@ evaluation:
   - solution-architecture
   - business-product
 github_metrics:
-  stars: 9225
-  forks: 1003
+  stars: 9319
+  forks: 1007
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-01T04:30:09.614951Z'
-indexed_at: '2026-02-01T04:32:50.480040Z'
+  fetched_at: '2026-02-02T04:24:40.762213Z'
+indexed_at: '2026-02-02T04:24:42.667049Z'
 ---

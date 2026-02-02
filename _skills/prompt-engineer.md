@@ -24,12 +24,12 @@ prompt_preview: '---
 full_prompt_length: 6546
 tools_mentioned:
 - ReAct
-category: data-ai
-category_display: Data Ai
+category: 05-data-ai
+category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/prompt-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/prompt-engineer.md
-fetched_at: '2026-02-01T04:28:56.114021+00:00'
+fetched_at: '2026-02-02T04:24:10.685690Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:02:21.788650Z'
@@ -59,10 +59,10 @@ evaluation:
   - evaluation-frameworks
   - ai-development
 github_metrics:
-  stars: 9225
-  forks: 1003
+  stars: 9319
+  forks: 1007
   open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-01T04:30:09.614951Z'
-indexed_at: '2026-02-01T04:32:50.375555Z'
+  fetched_at: '2026-02-02T04:24:40.762213Z'
+indexed_at: '2026-02-02T04:24:42.547191Z'
 ---
