@@ -22,17 +22,17 @@ prompt_preview: '---
   specializing in coroutines, Kotlin Multiplatform, Android development, and server-s...'
 full_prompt_length: 7391
 tools_mentioned:
+- JUnit
+- WebSocket
 - java
 - typescript
 - rust
-- WebSocket
-- JUnit
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/kotlin-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/kotlin-specialist.md
-fetched_at: '2026-02-02T04:23:56.957546Z'
+fetched_at: '2026-02-03T04:14:24.573762Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:51:44.705706Z'
@@ -59,10 +59,10 @@ evaluation:
   - DSL
   - Functional Programming
 github_metrics:
-  stars: 9319
-  forks: 1007
-  open_issues: 1
+  stars: 9412
+  forks: 1016
+  open_issues: 2
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-02T04:24:40.762213Z'
-indexed_at: '2026-02-02T04:24:42.344627Z'
+  fetched_at: '2026-02-03T04:14:50.582017Z'
+indexed_at: '2026-02-03T04:14:51.511290Z'
 ---

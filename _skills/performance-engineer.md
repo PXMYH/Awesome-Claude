@@ -29,7 +29,7 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/performance-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/performance-engineer.md
-fetched_at: '2026-02-02T04:24:06.639847Z'
+fetched_at: '2026-02-03T04:14:30.805366Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:59:07.700687Z'
@@ -57,10 +57,10 @@ evaluation:
   - bottleneck-analysis
   - scalability
 github_metrics:
-  stars: 9319
-  forks: 1007
-  open_issues: 1
+  stars: 9412
+  forks: 1016
+  open_issues: 2
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-02T04:24:40.762213Z'
-indexed_at: '2026-02-02T04:24:42.487632Z'
+  fetched_at: '2026-02-03T04:14:50.582017Z'
+indexed_at: '2026-02-03T04:14:51.656520Z'
 ---

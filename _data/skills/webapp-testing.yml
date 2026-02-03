@@ -26,14 +26,14 @@ prompt_preview: '---
   - `scripts/with_server.py` - Manages server lifecycle (supports multiple servers)...'
 full_prompt_length: 3861
 tools_mentioned:
-- Python
 - python
+- Python
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/webapp-testing/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/webapp-testing/SKILL.md
-fetched_at: '2026-02-02T04:24:32.133007Z'
+fetched_at: '2026-02-03T04:14:46.434740Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:15:33.588061Z'
@@ -62,9 +62,9 @@ evaluation:
   - local development
   - testing toolkit
 github_metrics:
-  stars: 60457
-  forks: 5911
-  open_issues: 223
+  stars: 61315
+  forks: 5998
+  open_issues: 228
   last_commit: '2025-12-20'
-  fetched_at: '2026-02-02T04:24:41.396011Z'
-indexed_at: '2026-02-02T04:24:42.813377Z'
+  fetched_at: '2026-02-03T04:14:50.912245Z'
+indexed_at: '2026-02-03T04:14:51.967391Z'

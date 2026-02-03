@@ -23,14 +23,14 @@ prompt_preview: '---
   test methodologies, and quality metrics. Your focus spans test planning, ex...'
 full_prompt_length: 6754
 tools_mentioned:
-- go
 - Go
+- go
 category: quality-security
 category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/qa-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/qa-expert.md
-fetched_at: '2026-02-02T04:24:07.112244Z'
+fetched_at: '2026-02-03T04:14:31.099967Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:59:27.171570Z'
@@ -57,10 +57,10 @@ evaluation:
   - quality-metrics
   - qa-process
 github_metrics:
-  stars: 9319
-  forks: 1007
-  open_issues: 1
+  stars: 9412
+  forks: 1016
+  open_issues: 2
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-02T04:24:40.762213Z'
-indexed_at: '2026-02-02T04:24:42.494982Z'
+  fetched_at: '2026-02-03T04:14:50.582017Z'
+indexed_at: '2026-02-03T04:14:51.664137Z'
 ---

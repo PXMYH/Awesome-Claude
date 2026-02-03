@@ -23,16 +23,16 @@ prompt_preview: '---
   secure, and cost-effective cloud solutions across AWS, Azure, and Go...'
 full_prompt_length: 7041
 tools_mentioned:
+- Azure
+- GCP
 - AWS
 - kubernetes
-- GCP
-- Azure
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/cloud-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/cloud-architect.md
-fetched_at: '2026-02-02T04:24:01.140792Z'
+fetched_at: '2026-02-03T04:14:27.194280Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:54:38.452622Z'
@@ -61,10 +61,10 @@ evaluation:
   - gcp
   - well-architected
 github_metrics:
-  stars: 9319
-  forks: 1007
-  open_issues: 1
+  stars: 9412
+  forks: 1016
+  open_issues: 2
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-02T04:24:40.762213Z'
-indexed_at: '2026-02-02T04:24:42.404745Z'
+  fetched_at: '2026-02-03T04:14:50.582017Z'
+indexed_at: '2026-02-03T04:14:51.571059Z'
 ---

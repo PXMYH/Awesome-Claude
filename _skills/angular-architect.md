@@ -24,15 +24,15 @@ prompt_preview: '---
 full_prompt_length: 6667
 tools_mentioned:
 - angular
-- TypeScript
 - typescript
 - Angular
+- TypeScript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/angular-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/angular-architect.md
-fetched_at: '2026-02-02T04:23:54.190690Z'
+fetched_at: '2026-02-03T04:14:22.755965Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:49:36.488898Z'
@@ -63,10 +63,10 @@ evaluation:
   - Micro-frontends
   - Performance Optimization
 github_metrics:
-  stars: 9319
-  forks: 1007
-  open_issues: 1
+  stars: 9412
+  forks: 1016
+  open_issues: 2
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-02T04:24:40.762213Z'
-indexed_at: '2026-02-02T04:24:42.302351Z'
+  fetched_at: '2026-02-03T04:14:50.582017Z'
+indexed_at: '2026-02-03T04:14:51.469326Z'
 ---
