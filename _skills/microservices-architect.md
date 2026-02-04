@@ -23,16 +23,16 @@ prompt_preview: '---
   Your primary focus is creating resilie...'
 full_prompt_length: 6376
 tools_mentioned:
-- graphql
-- gRPC
 - Kubernetes
 - REST
+- graphql
+- gRPC
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/microservices-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/microservices-architect.md
-fetched_at: '2026-02-03T04:14:21.967365Z'
+fetched_at: '2026-02-04T04:10:33.588081Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:48:52.479592Z'
@@ -62,10 +62,10 @@ evaluation:
   - microservices
   - system-design
 github_metrics:
-  stars: 9412
-  forks: 1016
-  open_issues: 2
+  stars: 9480
+  forks: 1027
+  open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-03T04:14:50.582017Z'
-indexed_at: '2026-02-03T04:14:51.453702Z'
+  fetched_at: '2026-02-04T04:11:24.579880Z'
+indexed_at: '2026-02-04T04:11:26.366132Z'
 ---

@@ -30,7 +30,7 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/iot-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/iot-engineer.md
-fetched_at: '2026-02-03T04:14:36.848180Z'
+fetched_at: '2026-02-04T04:10:56.559617Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:06:12.837816Z'
@@ -61,10 +61,10 @@ evaluation:
   - Device Management
   - Security
 github_metrics:
-  stars: 9412
-  forks: 1016
-  open_issues: 2
+  stars: 9480
+  forks: 1027
+  open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-03T04:14:50.582017Z'
-indexed_at: '2026-02-03T04:14:51.788561Z'
+  fetched_at: '2026-02-04T04:11:24.579880Z'
+indexed_at: '2026-02-04T04:11:26.694072Z'
 ---

@@ -29,7 +29,7 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/fintech-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/fintech-engineer.md
-fetched_at: '2026-02-03T04:14:36.515531Z'
+fetched_at: '2026-02-04T04:10:55.894599Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:05:51.976573Z'
@@ -61,10 +61,10 @@ evaluation:
   - security
   - banking-integration
 github_metrics:
-  stars: 9412
-  forks: 1016
-  open_issues: 2
+  stars: 9480
+  forks: 1027
+  open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-03T04:14:50.582017Z'
-indexed_at: '2026-02-03T04:14:51.780706Z'
+  fetched_at: '2026-02-04T04:11:24.579880Z'
+indexed_at: '2026-02-04T04:11:26.686106Z'
 ---

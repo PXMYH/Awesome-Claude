@@ -22,19 +22,19 @@ prompt_preview: '---
   Your primary focus is buil...'
 full_prompt_length: 4347
 tools_mentioned:
-- websocket
-- Vue
 - TypeScript
-- WebSocket
-- Redis
-- React
+- Vue
 - Angular
+- React
+- Redis
+- WebSocket
+- websocket
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/websocket-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/websocket-engineer.md
-fetched_at: '2026-02-03T04:14:22.446050Z'
+fetched_at: '2026-02-04T04:10:34.248742Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:49:26.168614Z'
@@ -64,9 +64,9 @@ evaluation:
   - socket-io
   - production-ready
 github_metrics:
-  stars: 9412
-  forks: 1016
-  open_issues: 2
+  stars: 9480
+  forks: 1027
+  open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-03T04:14:50.582017Z'
-indexed_at: '2026-02-03T04:14:51.465422Z'
+  fetched_at: '2026-02-04T04:11:24.579880Z'
+indexed_at: '2026-02-04T04:11:26.378230Z'

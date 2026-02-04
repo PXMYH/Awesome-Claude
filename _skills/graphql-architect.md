@@ -23,16 +23,16 @@ prompt_preview: '---
   and performance optimization. Your primary focus i...'
 full_prompt_length: 6552
 tools_mentioned:
+- REST
 - GraphQL
 - graphql
 - WebSocket
-- REST
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/graphql-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/graphql-architect.md
-fetched_at: '2026-02-03T04:14:21.815445Z'
+fetched_at: '2026-02-04T04:10:33.368345Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:48:38.749765Z'
@@ -61,10 +61,10 @@ evaluation:
   - Schema Architecture
   - Performance Optimization
 github_metrics:
-  stars: 9412
-  forks: 1016
-  open_issues: 2
+  stars: 9480
+  forks: 1027
+  open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-03T04:14:50.582017Z'
-indexed_at: '2026-02-03T04:14:51.449933Z'
+  fetched_at: '2026-02-04T04:11:24.579880Z'
+indexed_at: '2026-02-04T04:11:26.362444Z'
 ---

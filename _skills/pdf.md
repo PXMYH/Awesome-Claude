@@ -2,30 +2,20 @@
 id: pdf
 slug: pdf
 name: PDF Processing Guide
-description: '- For advanced pypdfium2 usage, see reference.md'
+description: '- For advanced pypdfium2 usage, see REFERENCE.md'
 prompt_preview: '---
 
   name: pdf
 
-  description: Comprehensive PDF manipulation toolkit for extracting text and tables,
-  creating new PDFs, merging/splitting documents, and handling forms. When Claude
-  needs to fill in a PDF form or programmatically process, generate, or analyze PDF
-  documents at scale.
+  description: Use this skill whenever the user wants to do anything with PDF files.
+  This includes reading or extracting text/tables from PDFs, combining or merging
+  multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks,
+  creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images,
+  and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file
+  or asks to produce one, use this skill.
 
-  license: Proprietary. LICENSE.txt has complete terms
-
-  ---
-
-
-  # PDF Processing Guide
-
-
-  ## Overview
-
-
-  This guide covers essential PDF processing operations using Python libraries and
-  command-line tools. For advanced features, J...'
-full_prompt_length: 7068
+  license: Proprietary. LICENSE.txt h...'
+full_prompt_length: 8035
 tools_mentioned:
 - JavaScript
 - python
@@ -35,7 +25,7 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/pdf/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md
-fetched_at: '2026-02-03T04:14:44.978746Z'
+fetched_at: '2026-02-04T04:11:10.991463Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:14:25.481483Z'
@@ -64,10 +54,10 @@ evaluation:
   - text-extraction
   - table-extraction
 github_metrics:
-  stars: 61315
-  forks: 5998
-  open_issues: 228
-  last_commit: '2025-12-20'
-  fetched_at: '2026-02-03T04:14:50.912245Z'
-indexed_at: '2026-02-03T04:14:51.945349Z'
+  stars: 62339
+  forks: 6114
+  open_issues: 229
+  last_commit: '2026-02-04'
+  fetched_at: '2026-02-04T04:11:25.310052Z'
+indexed_at: '2026-02-04T04:11:26.849408Z'
 ---

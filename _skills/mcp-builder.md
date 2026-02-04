@@ -27,16 +27,16 @@ prompt_preview: '---
   services th...'
 full_prompt_length: 9059
 tools_mentioned:
-- python
 - typescript
-- Python
 - TypeScript
+- python
+- Python
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/mcp-builder/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/mcp-builder/SKILL.md
-fetched_at: '2026-02-03T04:14:44.705843Z'
+fetched_at: '2026-02-04T04:11:10.451251Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:14:15.429649Z'
@@ -68,10 +68,10 @@ evaluation:
   - Server Development
   - LLM Tools
 github_metrics:
-  stars: 61315
-  forks: 5998
-  open_issues: 228
-  last_commit: '2025-12-20'
-  fetched_at: '2026-02-03T04:14:50.912245Z'
-indexed_at: '2026-02-03T04:14:51.941370Z'
+  stars: 62339
+  forks: 6114
+  open_issues: 229
+  last_commit: '2026-02-04'
+  fetched_at: '2026-02-04T04:11:25.310052Z'
+indexed_at: '2026-02-04T04:11:26.845532Z'
 ---

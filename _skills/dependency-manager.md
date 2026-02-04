@@ -23,14 +23,14 @@ prompt_preview: '---
 full_prompt_length: 6996
 tools_mentioned:
 - PHP
-- Python
 - Go
+- Python
 category: 06-developer-experience
 category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/dependency-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/dependency-manager.md
-fetched_at: '2026-02-03T04:14:34.142357Z'
+fetched_at: '2026-02-04T04:10:52.407693Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:03:00.611639Z'
@@ -60,10 +60,10 @@ evaluation:
   - developer-tools
   - multi-ecosystem
 github_metrics:
-  stars: 9412
-  forks: 1016
-  open_issues: 2
+  stars: 9480
+  forks: 1027
+  open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-03T04:14:50.582017Z'
-indexed_at: '2026-02-03T04:14:51.729144Z'
+  fetched_at: '2026-02-04T04:11:24.579880Z'
+indexed_at: '2026-02-04T04:11:26.635182Z'
 ---

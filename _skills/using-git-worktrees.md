@@ -28,17 +28,17 @@ prompt_preview: '---
 full_prompt_length: 5633
 tools_mentioned:
 - Go
-- Node.js
-- Python
 - Rust
-- go
+- Node.js
 - pytest
+- go
+- Python
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/using-git-worktrees/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/using-git-worktrees/SKILL.md
-fetched_at: '2026-02-03T04:14:49.137336Z'
+fetched_at: '2026-02-04T04:11:21.412819Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:19:04.521597Z'
@@ -69,10 +69,10 @@ evaluation:
   - automation
   - safety
 github_metrics:
-  stars: 42784
-  forks: 3256
-  open_issues: 116
+  stars: 43691
+  forks: 3312
+  open_issues: 125
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-03T04:14:51.136499Z'
-indexed_at: '2026-02-03T04:14:52.006967Z'
+  fetched_at: '2026-02-04T04:11:26.055056Z'
+indexed_at: '2026-02-04T04:11:26.911947Z'
 ---

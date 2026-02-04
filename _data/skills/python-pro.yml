@@ -21,22 +21,22 @@ prompt_preview: '---
   specializing in writing idiomatic, type-safe, and performant Python code. Your expertise...'
 full_prompt_length: 8572
 tools_mentioned:
-- FastAPI
-- python
-- Python
-- Pytest
 - Flask
-- WebSocket
-- Docker
+- FastAPI
 - Django
+- Pytest
+- Docker
 - Redis
+- pytest
+- WebSocket
 - typescript
+- rust
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/python-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/python-pro.md
-fetched_at: '2026-02-03T04:14:25.471726Z'
+fetched_at: '2026-02-04T04:10:38.631410Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:52:43.626198Z'
@@ -65,9 +65,9 @@ evaluation:
   - Data Science
   - Web Development
 github_metrics:
-  stars: 9412
-  forks: 1016
-  open_issues: 2
+  stars: 9480
+  forks: 1027
+  open_issues: 1
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-03T04:14:50.582017Z'
-indexed_at: '2026-02-03T04:14:51.533170Z'
+  fetched_at: '2026-02-04T04:11:24.579880Z'
+indexed_at: '2026-02-04T04:11:26.445041Z'

@@ -7,15 +7,13 @@ prompt_preview: '---
 
   name: xlsx
 
-  description: "Comprehensive spreadsheet creation, editing, and analysis with support
-  for formulas, formatting, data analysis, and visualization. When Claude needs to
-  work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets
-  with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing
-  spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets,
-  or (5) Recalculating formulas"
-
-  license: Proprietary. LI...'
-full_prompt_length: 10628
+  description: "Use this skill any time a spreadsheet file is the primary input or
+  output. This means any task where the user wants to: open, read, edit, or fix an
+  existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas,
+  formatting, charting, cleaning messy data); create a new spreadsheet from scratch
+  or from other data sources; or convert between tabular file formats. Trigger especially
+  when the user references a spreadsheet file by name or path — even c...'
+full_prompt_length: 11455
 tools_mentioned:
 - python
 - Python
@@ -24,7 +22,7 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/xlsx/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/xlsx/SKILL.md
-fetched_at: '2026-02-03T04:14:46.673819Z'
+fetched_at: '2026-02-04T04:11:15.051947Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:15:44.771179Z'
@@ -53,10 +51,10 @@ evaluation:
   - data_analysis
   - formula_validation
 github_metrics:
-  stars: 61315
-  forks: 5998
-  open_issues: 228
-  last_commit: '2025-12-20'
-  fetched_at: '2026-02-03T04:14:50.912245Z'
-indexed_at: '2026-02-03T04:14:51.971025Z'
+  stars: 62339
+  forks: 6114
+  open_issues: 229
+  last_commit: '2026-02-04'
+  fetched_at: '2026-02-04T04:11:25.310052Z'
+indexed_at: '2026-02-04T04:11:26.874942Z'
 ---

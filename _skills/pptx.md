@@ -1,43 +1,28 @@
 ---
 id: pptx
 slug: pptx
-name: PPTX creation, editing, and analysis
-description: '- **markitdown**: `pip install "markitdown[pptx]"` (for text extraction
-  from presentations)'
+name: PPTX Skill
+description: '- `pip install "markitdown[pptx]"` - text extraction'
 prompt_preview: '---
 
   name: pptx
 
-  description: "Presentation creation, editing, and analysis. When Claude needs to
-  work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying
-  or editing content, (3) Working with layouts, (4) Adding comments or speaker notes,
-  or any other presentation tasks"
-
-  license: Proprietary. LICENSE.txt has complete terms
-
-  ---
-
-
-  # PPTX creation, editing, and analysis
-
-
-  ## Overview
-
-
-  A user may ask you to create, edit, or analyze the contents of a .pptx file. A .pptx
-  fi...'
-full_prompt_length: 25533
+  description: "Use this skill any time a .pptx file is involved in any way — as input,
+  output, or both. This includes: creating slide decks, pitch decks, or presentations;
+  reading, parsing, or extracting text from any .pptx file (even if the extracted
+  content will be used elsewhere, like in an email or summary); editing, modifying,
+  or updating existing presentations; combining or splitting slide files; working
+  with templates, layouts, speaker notes, or comments. Trigger whenever th...'
+full_prompt_length: 9128
 tools_mentioned:
-- JavaScript
 - python
-- react
-- rust
+- rest
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/pptx/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/pptx/SKILL.md
-fetched_at: '2026-02-03T04:14:45.202468Z'
+fetched_at: '2026-02-04T04:11:11.551614Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:14:39.890747Z'
@@ -66,10 +51,10 @@ evaluation:
   - presentation
   - document-processing
 github_metrics:
-  stars: 61315
-  forks: 5998
-  open_issues: 228
-  last_commit: '2025-12-20'
-  fetched_at: '2026-02-03T04:14:50.912245Z'
-indexed_at: '2026-02-03T04:14:51.948940Z'
+  stars: 62339
+  forks: 6114
+  open_issues: 229
+  last_commit: '2026-02-04'
+  fetched_at: '2026-02-04T04:11:25.310052Z'
+indexed_at: '2026-02-04T04:11:26.852962Z'
 ---
