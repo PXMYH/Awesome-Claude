@@ -17,15 +17,15 @@ prompt_preview: '---
   license: Proprietary. LICENSE.txt h...'
 full_prompt_length: 8035
 tools_mentioned:
-- JavaScript
-- python
 - Python
+- python
+- JavaScript
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/pdf/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md
-fetched_at: '2026-02-04T04:11:10.991463Z'
+fetched_at: '2026-02-05T04:14:26.507030Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:14:25.481483Z'
@@ -54,10 +54,10 @@ evaluation:
   - text-extraction
   - table-extraction
 github_metrics:
-  stars: 62339
-  forks: 6114
-  open_issues: 229
+  stars: 63268
+  forks: 6229
+  open_issues: 236
   last_commit: '2026-02-04'
-  fetched_at: '2026-02-04T04:11:25.310052Z'
-indexed_at: '2026-02-04T04:11:26.849408Z'
+  fetched_at: '2026-02-05T04:14:39.842970Z'
+indexed_at: '2026-02-05T04:14:41.370383Z'
 ---

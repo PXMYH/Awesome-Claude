@@ -28,7 +28,7 @@ category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/knowledge-synthesizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/knowledge-synthesizer.md
-fetched_at: '2026-02-04T04:11:02.512598Z'
+fetched_at: '2026-02-05T04:14:18.592589Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:10:39.124678Z'
@@ -59,10 +59,10 @@ evaluation:
   - system-optimization
   - meta-orchestration
 github_metrics:
-  stars: 9480
-  forks: 1027
-  open_issues: 1
+  stars: 9546
+  forks: 1034
+  open_issues: 2
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-04T04:11:24.579880Z'
-indexed_at: '2026-02-04T04:11:26.778565Z'
+  fetched_at: '2026-02-05T04:14:39.064845Z'
+indexed_at: '2026-02-05T04:14:41.299624Z'
 ---

@@ -28,7 +28,7 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/data-scientist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/data-scientist.md
-fetched_at: '2026-02-04T04:10:49.687676Z'
+fetched_at: '2026-02-05T04:14:05.710360Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:00:34.681300Z'
@@ -57,10 +57,10 @@ evaluation:
   - business-analytics
   - incomplete-prompt
 github_metrics:
-  stars: 9480
-  forks: 1027
-  open_issues: 1
+  stars: 9546
+  forks: 1034
+  open_issues: 2
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-04T04:11:24.579880Z'
-indexed_at: '2026-02-04T04:11:26.593967Z'
+  fetched_at: '2026-02-05T04:14:39.064845Z'
+indexed_at: '2026-02-05T04:14:41.104925Z'
 ---

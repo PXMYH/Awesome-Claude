@@ -28,7 +28,7 @@ category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/competitive-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/competitive-analyst.md
-fetched_at: '2026-02-04T04:11:03.852626Z'
+fetched_at: '2026-02-05T04:14:20.336915Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:11:39.125984Z'
@@ -59,10 +59,10 @@ evaluation:
   - business-research
   - swot-analysis
 github_metrics:
-  stars: 9480
-  forks: 1027
-  open_issues: 1
+  stars: 9546
+  forks: 1034
+  open_issues: 2
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-04T04:11:24.579880Z'
-indexed_at: '2026-02-04T04:11:26.797157Z'
+  fetched_at: '2026-02-05T04:14:39.064845Z'
+indexed_at: '2026-02-05T04:14:41.318461Z'
 ---

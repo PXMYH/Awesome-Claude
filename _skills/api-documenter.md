@@ -23,16 +23,16 @@ prompt_preview: '---
   Your focus spans...'
 full_prompt_length: 6430
 tools_mentioned:
-- REST
+- WebSocket
 - GraphQL
 - gRPC
-- WebSocket
+- REST
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/api-documenter.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/api-documenter.md
-fetched_at: '2026-02-04T04:10:55.143531Z'
+fetched_at: '2026-02-05T04:14:11.493911Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:05:17.381302Z'
@@ -64,10 +64,10 @@ evaluation:
   - documentation-automation
   - technical-writing
 github_metrics:
-  stars: 9480
-  forks: 1027
-  open_issues: 1
+  stars: 9546
+  forks: 1034
+  open_issues: 2
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-04T04:11:24.579880Z'
-indexed_at: '2026-02-04T04:11:26.675171Z'
+  fetched_at: '2026-02-05T04:14:39.064845Z'
+indexed_at: '2026-02-05T04:14:41.194536Z'
 ---

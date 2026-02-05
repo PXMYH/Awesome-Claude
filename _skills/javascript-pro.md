@@ -23,19 +23,19 @@ prompt_preview: '---
   developme...'
 full_prompt_length: 7374
 tools_mentioned:
-- javascript
 - Node.js
-- Jest
-- JavaScript
+- react
 - WebSocket
 - typescript
-- react
+- Jest
+- JavaScript
+- javascript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/javascript-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/javascript-pro.md
-fetched_at: '2026-02-04T04:10:37.066619Z'
+fetched_at: '2026-02-05T04:13:53.678591Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:51:31.338156Z'
@@ -62,10 +62,10 @@ evaluation:
   - full-stack
   - performance-optimization
 github_metrics:
-  stars: 9480
-  forks: 1027
-  open_issues: 1
+  stars: 9546
+  forks: 1034
+  open_issues: 2
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-04T04:11:24.579880Z'
-indexed_at: '2026-02-04T04:11:26.419761Z'
+  fetched_at: '2026-02-05T04:14:39.064845Z'
+indexed_at: '2026-02-05T04:14:40.930351Z'
 ---

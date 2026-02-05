@@ -32,7 +32,7 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/using-superpowers/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md
-fetched_at: '2026-02-04T04:11:21.929102Z'
+fetched_at: '2026-02-05T04:14:36.500963Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:19:15.005015Z'
@@ -62,10 +62,10 @@ evaluation:
   - development
   - systematic
 github_metrics:
-  stars: 43691
-  forks: 3312
-  open_issues: 125
+  stars: 44605
+  forks: 3386
+  open_issues: 131
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-04T04:11:26.055056Z'
-indexed_at: '2026-02-04T04:11:26.915771Z'
+  fetched_at: '2026-02-05T04:14:40.551804Z'
+indexed_at: '2026-02-05T04:14:41.441707Z'
 ---

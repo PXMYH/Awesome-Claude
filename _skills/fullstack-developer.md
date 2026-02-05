@@ -23,19 +23,19 @@ prompt_preview: '---
   cohesive, end-to-end solutions that work seaml...'
 full_prompt_length: 7236
 tools_mentioned:
-- TypeScript
-- Docker
-- GraphQL
 - Node.js
-- React
-- PostgreSQL
 - WebSocket
+- Docker
+- PostgreSQL
+- GraphQL
+- React
+- TypeScript
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/fullstack-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/fullstack-developer.md
-fetched_at: '2026-02-04T04:10:33.126028Z'
+fetched_at: '2026-02-05T04:13:49.840018Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:48:24.560341Z'
@@ -64,10 +64,10 @@ evaluation:
   - frontend
   - deployment
 github_metrics:
-  stars: 9480
-  forks: 1027
-  open_issues: 1
+  stars: 9546
+  forks: 1034
+  open_issues: 2
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-04T04:11:24.579880Z'
-indexed_at: '2026-02-04T04:11:26.358696Z'
+  fetched_at: '2026-02-05T04:14:39.064845Z'
+indexed_at: '2026-02-05T04:14:40.866615Z'
 ---

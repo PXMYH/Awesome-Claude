@@ -22,18 +22,18 @@ prompt_preview: '---
   automated infrastructure and deployment pipelines. Your focus...'
 full_prompt_length: 6981
 tools_mentioned:
-- Azure
-- AWS
 - GCP
 - Docker
 - kubernetes
+- Azure
+- AWS
 - Kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/devops-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/devops-engineer.md
-fetched_at: '2026-02-04T04:10:42.103983Z'
+fetched_at: '2026-02-05T04:13:58.923685Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:55:12.031201Z'
@@ -61,10 +61,10 @@ evaluation:
   - CI/CD
   - Maturity Assessment
 github_metrics:
-  stars: 9480
-  forks: 1027
-  open_issues: 1
+  stars: 9546
+  forks: 1034
+  open_issues: 2
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-04T04:11:24.579880Z'
-indexed_at: '2026-02-04T04:11:26.493508Z'
+  fetched_at: '2026-02-05T04:14:39.064845Z'
+indexed_at: '2026-02-05T04:14:41.004247Z'
 ---

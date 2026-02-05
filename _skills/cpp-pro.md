@@ -23,15 +23,15 @@ prompt_preview: '---
   and...'
 full_prompt_length: 7542
 tools_mentioned:
+- java
 - rust
 - python
-- java
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/cpp-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/cpp-pro.md
-fetched_at: '2026-02-04T04:10:35.013393Z'
+fetched_at: '2026-02-05T04:13:51.721081Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:49:51.460300Z'
@@ -62,10 +62,10 @@ evaluation:
   - modern-cpp
   - template-metaprogramming
 github_metrics:
-  stars: 9480
-  forks: 1027
-  open_issues: 1
+  stars: 9546
+  forks: 1034
+  open_issues: 2
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-04T04:11:24.579880Z'
-indexed_at: '2026-02-04T04:11:26.385890Z'
+  fetched_at: '2026-02-05T04:14:39.064845Z'
+indexed_at: '2026-02-05T04:14:40.893627Z'
 ---

@@ -22,18 +22,18 @@ prompt_preview: '---
   Java ecosystem, specializing in building scalable, cloud-native applic...'
 full_prompt_length: 7723
 tools_mentioned:
-- Java
-- JUnit
-- java
-- rest
 - REST
+- JUnit
+- Java
+- rest
 - Kubernetes
+- java
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/java-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/java-architect.md
-fetched_at: '2026-02-04T04:10:36.836842Z'
+fetched_at: '2026-02-05T04:13:53.463425Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:51:20.389279Z'
@@ -62,10 +62,10 @@ evaluation:
   - clean-architecture
   - cloud-native
 github_metrics:
-  stars: 9480
-  forks: 1027
-  open_issues: 1
+  stars: 9546
+  forks: 1034
+  open_issues: 2
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-04T04:11:24.579880Z'
-indexed_at: '2026-02-04T04:11:26.416043Z'
+  fetched_at: '2026-02-05T04:14:39.064845Z'
+indexed_at: '2026-02-05T04:14:40.926580Z'
 ---

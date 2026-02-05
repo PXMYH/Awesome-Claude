@@ -21,17 +21,17 @@ prompt_preview: '---
   infrastructure as code across multiple cloud providers. Your focus s...'
 full_prompt_length: 6962
 tools_mentioned:
-- Azure
 - GCP
-- AWS
 - kubernetes
+- Azure
+- AWS
 - Kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/terraform-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/terraform-engineer.md
-fetched_at: '2026-02-04T04:10:44.062412Z'
+fetched_at: '2026-02-05T04:14:00.709461Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:56:47.163664Z'
@@ -60,9 +60,9 @@ evaluation:
   - multi-cloud
   - enterprise
 github_metrics:
-  stars: 9480
-  forks: 1027
-  open_issues: 1
+  stars: 9546
+  forks: 1034
+  open_issues: 2
   last_commit: '2026-01-30'
-  fetched_at: '2026-02-04T04:11:24.579880Z'
-indexed_at: '2026-02-04T04:11:26.522794Z'
+  fetched_at: '2026-02-05T04:14:39.064845Z'
+indexed_at: '2026-02-05T04:14:41.033150Z'
