@@ -17,7 +17,7 @@ category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/powershell-5.1-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/powershell-5.1-expert.md
-fetched_at: '2026-02-05T04:13:54.881403Z'
+fetched_at: '2026-02-06T04:14:24.814814Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:52:24.374459Z'
@@ -47,10 +47,10 @@ evaluation:
   - legacy-systems
   - active-directory
 github_metrics:
-  stars: 9546
-  forks: 1034
-  open_issues: 2
-  last_commit: '2026-01-30'
-  fetched_at: '2026-02-05T04:14:39.064845Z'
-indexed_at: '2026-02-05T04:14:40.948522Z'
+  stars: 9630
+  forks: 1048
+  open_issues: 4
+  last_commit: '2026-02-05'
+  fetched_at: '2026-02-06T04:15:08.864089Z'
+indexed_at: '2026-02-06T04:15:18.963054Z'
 ---

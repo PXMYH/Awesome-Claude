@@ -22,16 +22,16 @@ prompt_preview: '---
   ecosystem, specializing in iOS/macOS development, SwiftUI, async/await concurrency,...'
 full_prompt_length: 7376
 tools_mentioned:
+- rust
 - react
 - WebSocket
-- rust
 - Rust
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/swift-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/swift-expert.md
-fetched_at: '2026-02-05T04:13:56.670960Z'
+fetched_at: '2026-02-06T04:14:26.631099Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:53:51.973499Z'
@@ -60,10 +60,10 @@ evaluation:
   - protocol oriented
   - server side swift
 github_metrics:
-  stars: 9546
-  forks: 1034
-  open_issues: 2
-  last_commit: '2026-01-30'
-  fetched_at: '2026-02-05T04:14:39.064845Z'
-indexed_at: '2026-02-05T04:14:40.978529Z'
+  stars: 9630
+  forks: 1048
+  open_issues: 4
+  last_commit: '2026-02-05'
+  fetched_at: '2026-02-06T04:15:08.864089Z'
+indexed_at: '2026-02-06T04:15:18.993325Z'
 ---

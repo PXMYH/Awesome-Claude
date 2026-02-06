@@ -22,18 +22,18 @@ prompt_preview: '---
   DevSecOps practices, and cloud security architecture. Your focus spans vuln...'
 full_prompt_length: 7759
 tools_mentioned:
-- GCP
-- kubernetes
-- Azure
-- rest
 - AWS
 - Kubernetes
+- Azure
+- kubernetes
+- rest
+- GCP
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/security-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/security-engineer.md
-fetched_at: '2026-02-05T04:14:00.281273Z'
+fetched_at: '2026-02-06T04:14:30.200852Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:56:27.257363Z'
@@ -64,10 +64,10 @@ evaluation:
   - compliance
   - infrastructure
 github_metrics:
-  stars: 9546
-  forks: 1034
-  open_issues: 2
-  last_commit: '2026-01-30'
-  fetched_at: '2026-02-05T04:14:39.064845Z'
-indexed_at: '2026-02-05T04:14:41.025912Z'
+  stars: 9630
+  forks: 1048
+  open_issues: 4
+  last_commit: '2026-02-05'
+  fetched_at: '2026-02-06T04:15:08.864089Z'
+indexed_at: '2026-02-06T04:15:19.041854Z'
 ---

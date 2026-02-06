@@ -23,17 +23,17 @@ prompt_preview: '---
 full_prompt_length: 6717
 tools_mentioned:
 - Rust
+- TypeScript
 - Python
 - Java
-- Go
 - JavaScript
-- TypeScript
+- Go
 category: quality-security
 category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/code-reviewer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/code-reviewer.md
-fetched_at: '2026-02-05T04:14:02.562639Z'
+fetched_at: '2026-02-06T04:14:33.165236Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:57:55.920603Z'
@@ -61,10 +61,10 @@ evaluation:
   - static-analysis
   - best-practices
 github_metrics:
-  stars: 9546
-  forks: 1034
-  open_issues: 2
-  last_commit: '2026-01-30'
-  fetched_at: '2026-02-05T04:14:39.064845Z'
-indexed_at: '2026-02-05T04:14:41.055508Z'
+  stars: 9630
+  forks: 1048
+  open_issues: 4
+  last_commit: '2026-02-05'
+  fetched_at: '2026-02-06T04:15:08.864089Z'
+indexed_at: '2026-02-06T04:15:19.075109Z'
 ---

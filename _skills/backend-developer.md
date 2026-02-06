@@ -23,18 +23,18 @@ prompt_preview: '---
   building scalable, secure, and performant ba...'
 full_prompt_length: 6696
 tools_mentioned:
+- Redis
 - Node.js
 - Docker
-- Python
 - PostgreSQL
+- Python
 - Go
-- Redis
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/backend-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/backend-developer.md
-fetched_at: '2026-02-05T04:13:49.216928Z'
+fetched_at: '2026-02-06T04:14:18.330722Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:47:38.208757Z'
@@ -63,10 +63,10 @@ evaluation:
   - security
   - performance-optimization
 github_metrics:
-  stars: 9546
-  forks: 1034
-  open_issues: 2
-  last_commit: '2026-01-30'
-  fetched_at: '2026-02-05T04:14:39.064845Z'
-indexed_at: '2026-02-05T04:14:40.854259Z'
+  stars: 9630
+  forks: 1048
+  open_issues: 4
+  last_commit: '2026-02-05'
+  fetched_at: '2026-02-06T04:15:08.864089Z'
+indexed_at: '2026-02-06T04:15:18.871227Z'
 ---

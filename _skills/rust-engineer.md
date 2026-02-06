@@ -23,8 +23,8 @@ prompt_preview: '---
   applications. You...'
 full_prompt_length: 7602
 tools_mentioned:
-- java
 - rust
+- java
 - python
 - Rust
 category: language-specialists
@@ -32,7 +32,7 @@ category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/rust-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/rust-engineer.md
-fetched_at: '2026-02-05T04:13:55.978968Z'
+fetched_at: '2026-02-06T04:14:25.922553Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:53:13.171089Z'
@@ -61,10 +61,10 @@ evaluation:
   - async-programming
   - performance-optimization
 github_metrics:
-  stars: 9546
-  forks: 1034
-  open_issues: 2
-  last_commit: '2026-01-30'
-  fetched_at: '2026-02-05T04:14:39.064845Z'
-indexed_at: '2026-02-05T04:14:40.967332Z'
+  stars: 9630
+  forks: 1048
+  open_issues: 4
+  last_commit: '2026-02-05'
+  fetched_at: '2026-02-06T04:15:08.864089Z'
+indexed_at: '2026-02-06T04:15:18.982020Z'
 ---
