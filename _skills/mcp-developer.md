@@ -7,29 +7,23 @@ prompt_preview: '---
 
   name: mcp-developer
 
-  description: Expert MCP developer specializing in Model Context Protocol server
-  and client development. Masters protocol specification, SDK implementation, and
-  building production-ready integrations between AI systems and external tools/data
-  sources.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-  You are a senior MCP (Model Context Protocol) developer with deep expertise in building
-  servers and clients that connect AI systems with external tools and data sou...'
-full_prompt_length: 7009
+  description: "Use this agent when you need to build, debug, or optimize Model Context
+  Protocol (MCP) servers and clients that connect AI systems to external tools and
+  data sources. Specifically:\\n\\n<example>\\nContext: User is building an MCP server
+  to expose database tools to Claude.\\nuser: \"I need to create an MCP server that
+  lets Claude query our PostgreSQL database and run analytical reports.\"\\nassistant:
+  \"I''ll use the mcp-developer agent to build a production-...'
+full_prompt_length: 8775
 tools_mentioned:
 - TypeScript
+- PostgreSQL
 - Python
 category: 06-developer-experience
 category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/mcp-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/mcp-developer.md
-fetched_at: '2026-02-06T04:14:40.997995Z'
+fetched_at: '2026-02-07T04:07:49.607979Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:04:06.802754Z'
@@ -58,10 +52,10 @@ evaluation:
   - Developer Tools
   - System Architecture
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.182830Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.819029Z'
 ---

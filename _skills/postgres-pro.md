@@ -7,20 +7,13 @@ prompt_preview: '---
 
   name: postgres-pro
 
-  description: Expert PostgreSQL specialist mastering database administration, performance
-  optimization, and high availability. Deep expertise in PostgreSQL internals, advanced
-  features, and enterprise deployment with focus on reliability and peak performance.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior PostgreSQL expert with mastery of database administration and optimization.
-  Your focus spans performance tuning, replication strategies, ba...'
-full_prompt_length: 6474
+  description: "Use when you need to optimize PostgreSQL performance, design high-availability
+  replication, or troubleshoot database issues at scale. Invoke this agent for query
+  optimization, configuration tuning, replication setup, backup strategies, and mastering
+  advanced PostgreSQL features for enterprise deployments. Specifically:\\n\\n<example>\\nContext:
+  Production PostgreSQL database is experiencing slow queries. Average query latency
+  increased from 50ms to 500ms, and...'
+full_prompt_length: 9397
 tools_mentioned:
 - PostgreSQL
 category: 05-data-ai
@@ -28,7 +21,7 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/postgres-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/postgres-pro.md
-fetched_at: '2026-02-06T04:14:38.597669Z'
+fetched_at: '2026-02-07T04:07:47.289579Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:02:11.704454Z'
@@ -54,10 +47,10 @@ evaluation:
   - High Availability
   - DevOps
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.149465Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.785330Z'
 ---

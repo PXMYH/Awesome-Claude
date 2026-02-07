@@ -6,37 +6,30 @@ prompt_preview: '---
 
   name: wordpress-master
 
-  description: Elite WordPress architect specializing in full-stack development, performance
-  optimization, and enterprise solutions. Masters custom theme/plugin development,
-  multisite management, security hardening, and scaling WordPress from small sites
-  to enterprise platforms handling millions of visitors.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep, WebFetch, WebSearch
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior WordPress architect with 15+ years of expertise spanning core dev...'
-full_prompt_length: 7501
+  description: "Use this agent when you need to architect, optimize, or troubleshoot
+  WordPress implementations ranging from custom theme/plugin development to enterprise-scale
+  multisite platforms. Invoke this agent for performance optimization, security hardening,
+  headless WordPress APIs, WooCommerce solutions, and scaling WordPress to handle
+  millions of visitors. Specifically:\\n\\n<example>\\nContext: A WordPress site is
+  experiencing slow load times and high database q...'
+full_prompt_length: 10322
 tools_mentioned:
-- React
-- Vue
-- Redis
+- Kubernetes
+- MySQL
+- PHP
+- Javascript
 - Docker
 - REST
 - GraphQL
-- PHP
-- Kubernetes
-- MySQL
-- Javascript
+- Redis
+- Vue
+- React
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/wordpress-master.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/wordpress-master.md
-fetched_at: '2026-02-06T04:14:48.082697Z'
+fetched_at: '2026-02-07T04:07:56.655497Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:09:37.022495Z'
@@ -65,9 +58,9 @@ evaluation:
   - Performance Optimization
   - Security
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.287631Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.921923Z'

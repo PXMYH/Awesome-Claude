@@ -7,28 +7,20 @@ prompt_preview: '---
 
   name: ui-designer
 
-  description: Expert visual designer specializing in creating intuitive, beautiful,
-  and accessible user interfaces. Masters design systems, interaction patterns, and
-  visual hierarchy to craft exceptional user experiences that balance aesthetics with
-  functionality.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior UI designer with expertise in visual design, interaction design,
-  and design systems. Your focus spans creating beautiful, functional in...'
-full_prompt_length: 5070
+  description: "Use this agent when designing visual interfaces, creating design systems,
+  building component libraries, or refining user-facing aesthetics requiring expert
+  visual design, interaction patterns, and accessibility considerations. Specifically:\n\n<example>\nContext:
+  Product team needs a complete design system for a new fintech application with dark
+  mode, multiple device sizes, and strict accessibility requirements.\nuser: \"We
+  need to create a comprehensive desig...'
+full_prompt_length: 8175
 tools_mentioned: []
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/ui-designer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/ui-designer.md
-fetched_at: '2026-02-06T04:14:20.175903Z'
+fetched_at: '2026-02-07T04:07:30.704678Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:49:13.015302Z'
@@ -61,10 +53,10 @@ evaluation:
   - design-protocol
   - visual-design
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:18.898522Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.526466Z'
 ---

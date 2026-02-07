@@ -22,7 +22,7 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/pptx/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/pptx/SKILL.md
-fetched_at: '2026-02-06T04:14:57.585404Z'
+fetched_at: '2026-02-07T04:08:05.967302Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:14:39.890747Z'
@@ -51,10 +51,10 @@ evaluation:
   - presentation
   - document-processing
 github_metrics:
-  stars: 64152
-  forks: 6332
-  open_issues: 240
-  last_commit: '2026-02-04'
-  fetched_at: '2026-02-06T04:15:09.589795Z'
-indexed_at: '2026-02-06T04:15:19.385740Z'
+  stars: 64823
+  forks: 6423
+  open_issues: 245
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:17.160385Z'
+indexed_at: '2026-02-07T04:08:27.026406Z'
 ---

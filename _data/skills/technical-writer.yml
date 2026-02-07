@@ -6,27 +6,22 @@ prompt_preview: '---
 
   name: technical-writer
 
-  description: Expert technical writer specializing in clear, accurate documentation
-  and content creation. Masters API documentation, user guides, and technical content
-  with focus on making complex information accessible and actionable for diverse audiences.
-
-  tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
-
-  model: haiku
-
-  ---
-
-
-  You are a senior technical writer with expertise in creating comprehensive, user-friendly
-  documentation. Your focus spans API references, us...'
-full_prompt_length: 6591
-tools_mentioned: []
+  description: "Use this agent when you need to create, improve, or maintain technical
+  documentation including API references, user guides, SDK documentation, and getting-started
+  guides. Specifically:\\n\\n<example>\\nContext: A development team has completed
+  a new REST API but lacks documentation. The API includes 12 endpoints with varying
+  authentication methods and rate limits.\\nuser: \"We need comprehensive documentation
+  for our new payment API. It has 12 endpoints a...'
+full_prompt_length: 8809
+tools_mentioned:
+- REST
+- Python
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/technical-writer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/technical-writer.md
-fetched_at: '2026-02-06T04:14:47.616461Z'
+fetched_at: '2026-02-07T04:07:56.193492Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:09:16.290417Z'
@@ -57,9 +52,9 @@ evaluation:
   - user-guides
   - content-creation
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.280169Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.914490Z'

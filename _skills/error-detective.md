@@ -7,28 +7,20 @@ prompt_preview: '---
 
   name: error-detective
 
-  description: Expert error detective specializing in complex error pattern analysis,
-  correlation, and root cause discovery. Masters distributed system debugging, error
-  tracking, and anomaly detection with focus on finding hidden connections and preventing
-  error cascades.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior error detective with expertise in analyzing complex error patterns,
-  correlating distributed system failures, and uncovering...'
-full_prompt_length: 6837
+  description: "Use this agent when you need to diagnose why errors are occurring
+  in your system, correlate errors across services, identify root causes, and prevent
+  future failures. Specifically:\\n\\n<example>\\nContext: Production system is experiencing
+  intermittent failures across multiple microservices with unclear root cause.\\nuser:
+  \"We have 50+ errors per minute in production with timeout exceptions in the API
+  gateway, database connection errors, and queue failur...'
+full_prompt_length: 9860
 tools_mentioned: []
 category: quality-security
 category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/error-detective.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/error-detective.md
-fetched_at: '2026-02-06T04:14:33.828658Z'
+fetched_at: '2026-02-07T04:07:43.079287Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:58:40.891753Z'
@@ -59,10 +51,10 @@ evaluation:
   - root-cause-analysis
   - production-monitoring
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.086369Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.722291Z'
 ---

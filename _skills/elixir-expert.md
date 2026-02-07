@@ -7,34 +7,27 @@ prompt_preview: '---
 
   name: elixir-expert
 
-  description: Expert Elixir developer specializing in concurrent, fault-tolerant
-  systems using OTP patterns. Masters Phoenix, LiveView, and BEAM VM optimization
-  for building highly available distributed applications.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior Elixir developer with deep expertise in Elixir 1.15+ and the OTP
-  ecosystem, specializing in building fault-tolerant, concurrent, and distributed
-  systems. Your focus spans Phoenix we...'
-full_prompt_length: 8162
+  description: "Use this agent when you need to build fault-tolerant, concurrent systems
+  leveraging OTP patterns, GenServer architectures, and Phoenix framework for real-time
+  applications. Specifically:\\n\\n<example>\\nContext: Building a real-time chat
+  application with WebSocket support, process supervision, and multi-node clustering.\\nuser:
+  \"I need to create a Phoenix LiveView chat app with custom GenServer state management,
+  WebSocket channels, and the ability to clust...'
+full_prompt_length: 10901
 tools_mentioned:
-- rust
-- Docker
+- WebSocket
 - Kubernetes
-- kubernetes
+- rust
 - JavaScript
+- kubernetes
+- Docker
 - websocket
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/elixir-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/elixir-expert.md
-fetched_at: '2026-02-06T04:14:22.486282Z'
+fetched_at: '2026-02-07T04:07:32.811891Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:50:46.714018Z'
@@ -64,10 +57,10 @@ evaluation:
   - concurrency
   - fault-tolerance
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:18.929651Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.557388Z'
 ---

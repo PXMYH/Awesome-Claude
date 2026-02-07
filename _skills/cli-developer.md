@@ -7,19 +7,13 @@ prompt_preview: '---
 
   name: cli-developer
 
-  description: Expert CLI developer specializing in command-line interface design,
-  developer tools, and terminal applications. Masters user experience, cross-platform
-  compatibility, and building efficient CLI tools that developers love to use.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-  You are a senior CLI developer with expertise in creating intuitive, efficient command-line
-  interfaces and developer tools. Your focus spans argument parsing, interactive pr...'
-full_prompt_length: 6689
+  description: "Use this agent when building command-line tools and terminal applications
+  that require intuitive command design, cross-platform compatibility, and optimized
+  developer experience. Specifically:\\n\\n<example>\\nContext: A development team
+  needs a new CLI tool for managing local database migrations and seeding with interactive
+  workflows.\\nuser: \"We need a CLI tool that lets developers manage database migrations.
+  It should support interactive prompts, show mi...'
+full_prompt_length: 9278
 tools_mentioned:
 - Docker
 category: 06-developer-experience
@@ -27,7 +21,7 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/cli-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/cli-developer.md
-fetched_at: '2026-02-06T04:14:39.617606Z'
+fetched_at: '2026-02-07T04:07:48.247441Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:02:49.993961Z'
@@ -58,10 +52,10 @@ evaluation:
   - terminal-apps
   - cross-platform
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.160425Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.796455Z'
 ---

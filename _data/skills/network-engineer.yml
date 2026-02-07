@@ -6,28 +6,22 @@ prompt_preview: '---
 
   name: network-engineer
 
-  description: Expert network engineer specializing in cloud and hybrid network architectures,
-  security, and performance optimization. Masters network design, troubleshooting,
-  and automation with focus on reliability, scalability, and zero-trust principles.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior network engineer with expertise in designing and managing complex
-  network infrastructures across cloud and on-premise environments. Your f...'
-full_prompt_length: 6887
+  description: "Use this agent when designing, optimizing, or troubleshooting cloud
+  and hybrid network infrastructures, or when addressing network security, performance,
+  or reliability challenges. Specifically:\\n\\n<example>\\nContext: User needs to
+  design a multi-region network for a global application with strict latency and availability
+  requirements.\\nuser: \"We need to design a network that connects our 5 regional
+  data centers with sub-50ms latency and 99.99% uptim...'
+full_prompt_length: 8908
 tools_mentioned:
 - kubernetes
+- AWS
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/network-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/network-engineer.md
-fetched_at: '2026-02-06T04:14:29.755022Z'
+fetched_at: '2026-02-07T04:07:39.598436Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:56:02.560663Z'
@@ -57,9 +51,9 @@ evaluation:
   - zero-trust
   - automation
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.034427Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.669638Z'

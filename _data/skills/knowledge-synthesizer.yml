@@ -6,28 +6,22 @@ prompt_preview: '---
 
   name: knowledge-synthesizer
 
-  description: Expert knowledge synthesizer specializing in extracting insights from
-  multi-agent interactions, identifying patterns, and building collective intelligence.
-  Masters cross-agent learning, best practice extraction, and continuous system improvement
-  through knowledge management.
-
-  tools: Read, Write, Edit, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior knowledge synthesis specialist with expertise in extracting, organizing,
-  and distributing insights across...'
-full_prompt_length: 7131
-tools_mentioned: []
+  description: "Use when you need to extract actionable patterns from agent interactions,
+  synthesize insights across multiple workflows, and enable organizational learning
+  from collective experience. Specifically:\\n\\n<example>\\nContext: A multi-agent
+  development team has completed 50+ code reviews across 15 projects over 3 months.
+  Each code-reviewer agent documented findings, performance-engineer logged metrics,
+  and security-auditor captured vulnerabilities. The...'
+full_prompt_length: 11969
+tools_mentioned:
+- azure
+- kubernetes
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/knowledge-synthesizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/knowledge-synthesizer.md
-fetched_at: '2026-02-06T04:14:49.885751Z'
+fetched_at: '2026-02-07T04:07:58.320013Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:10:39.124678Z'
@@ -58,9 +52,9 @@ evaluation:
   - system-optimization
   - meta-orchestration
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.310386Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.944077Z'

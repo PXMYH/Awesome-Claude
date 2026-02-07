@@ -7,30 +7,23 @@ prompt_preview: '---
 
   name: data-engineer
 
-  description: Expert data engineer specializing in building scalable data pipelines,
-  ETL/ELT processes, and data infrastructure. Masters big data technologies and cloud
-  platforms with focus on reliable, efficient, and cost-optimized data platforms.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior data engineer with expertise in designing and implementing comprehensive
-  data platforms. Your focus spans pipeline architecture, ETL/ELT development,...'
-full_prompt_length: 6520
+  description: "Use this agent when you need to design, build, or optimize data pipelines,
+  ETL/ELT processes, and data infrastructure. Invoke when designing data platforms,
+  implementing pipeline orchestration, handling data quality issues, or optimizing
+  data processing costs. Specifically:\\n\\n<example>\\nContext: A user needs to build
+  a new data pipeline to ingest sales data from multiple sources into a data warehouse.\\nuser:
+  \"We need to create an ETL pipeline that inge...'
+full_prompt_length: 9168
 tools_mentioned:
+- Azure
 - AWS
 - Kubernetes
-- Azure
 category: 05-data-ai
 category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/data-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/data-engineer.md
-fetched_at: '2026-02-06T04:14:36.669095Z'
+fetched_at: '2026-02-07T04:07:45.438239Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:00:24.694045Z'
@@ -59,10 +52,10 @@ evaluation:
   - cloud-platforms
   - data-architecture
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.119648Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.755634Z'
 ---

@@ -7,28 +7,20 @@ prompt_preview: '---
 
   name: content-marketer
 
-  description: Expert content marketer specializing in content strategy, SEO optimization,
-  and engagement-driven marketing. Masters multi-channel content creation, analytics,
-  and conversion optimization with focus on building brand authority and driving measurable
-  business results.
-
-  tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
-
-  model: haiku
-
-  ---
-
-
-  You are a senior content marketer with expertise in creating compelling content
-  that drives engagement and conversio...'
-full_prompt_length: 6388
+  description: "Use this agent when you need to develop comprehensive content strategies,
+  create SEO-optimized marketing content, or execute multi-channel content campaigns
+  to drive engagement and conversions. Invoke this agent for content planning, content
+  creation, audience analysis, and measuring content ROI. Specifically:\\n\\n<example>\\nContext:
+  Startup has launched a new SaaS product and needs to build organic traffic through
+  content marketing with limited budget....'
+full_prompt_length: 9481
 tools_mentioned: []
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/content-marketer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/content-marketer.md
-fetched_at: '2026-02-06T04:14:46.052014Z'
+fetched_at: '2026-02-07T04:07:54.626661Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:07:49.296930Z'
@@ -57,10 +49,10 @@ evaluation:
   - business
   - marketing
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.254335Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.888949Z'
 ---

@@ -7,30 +7,25 @@ prompt_preview: '---
 
   name: dependency-manager
 
-  description: Expert dependency manager specializing in package management, security
-  auditing, and version conflict resolution across multiple ecosystems. Masters dependency
-  optimization, supply chain security, and automated updates with focus on maintaining
-  stable, secure, and efficient dependency trees.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: haiku
-
-  ---
-
-  You are a senior dependency manager with expertise in managing complex dependency
-  ecosystems. Your focus...'
-full_prompt_length: 6996
+  description: "Use this agent when you need to audit dependencies for vulnerabilities,
+  resolve version conflicts, optimize bundle sizes, or implement automated dependency
+  updates. Specifically:\\n\\n<example>\\nContext: A project has accumulated security
+  vulnerabilities in its dependency tree that need immediate remediation.\\nuser:
+  \"We have 12 high-severity CVEs in our dependencies. Can you help fix them?\"\\nassistant:
+  \"I''ll use the dependency-manager agent to sca...'
+full_prompt_length: 8787
 tools_mentioned:
-- PHP
-- Python
 - Go
+- PHP
+- JavaScript
+- Python
+- React
 category: 06-developer-experience
 category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/dependency-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/dependency-manager.md
-fetched_at: '2026-02-06T04:14:39.862789Z'
+fetched_at: '2026-02-07T04:07:48.475037Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:03:00.611639Z'
@@ -60,10 +55,10 @@ evaluation:
   - developer-tools
   - multi-ecosystem
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.164333Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.800373Z'
 ---

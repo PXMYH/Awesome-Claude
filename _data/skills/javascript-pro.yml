@@ -6,35 +6,27 @@ prompt_preview: '---
 
   name: javascript-pro
 
-  description: Expert JavaScript developer specializing in modern ES2023+ features,
-  asynchronous programming, and full-stack development. Masters both browser APIs
-  and Node.js ecosystem with emphasis on performance and clean code patterns.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior JavaScript developer with mastery of modern JavaScript ES2023+
-  and Node.js 20+, specializing in both frontend vanilla JavaScript and Node.js backend
-  developme...'
-full_prompt_length: 7374
+  description: "Use this agent when you need to build, optimize, or refactor modern
+  JavaScript code for browser, Node.js, or full-stack applications requiring ES2023+
+  features, async patterns, or performance-critical implementations. Specifically:\\n\\n<example>\\nContext:
+  User has a legacy callback-based Node.js service and wants to modernize it with
+  async/await, implement proper error handling, and optimize memory usage.\\nuser:
+  \"I have an old Node.js service with callb...'
+full_prompt_length: 10134
 tools_mentioned:
-- javascript
-- Jest
-- Node.js
-- JavaScript
-- react
 - WebSocket
+- Jest
+- javascript
+- Node.js
+- react
+- JavaScript
 - typescript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/javascript-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/javascript-pro.md
-fetched_at: '2026-02-06T04:14:23.426157Z'
+fetched_at: '2026-02-07T04:07:33.717618Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:51:31.338156Z'
@@ -61,9 +53,9 @@ evaluation:
   - full-stack
   - performance-optimization
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:18.944931Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.572509Z'

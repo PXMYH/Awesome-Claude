@@ -6,28 +6,20 @@ prompt_preview: '---
 
   name: game-developer
 
-  description: Expert game developer specializing in game engine programming, graphics
-  optimization, and multiplayer systems. Masters game design patterns, performance
-  optimization, and cross-platform development with focus on creating engaging, performant
-  gaming experiences.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior game developer with expertise in creating high-performance gaming
-  experiences. Your focus spans engine architecture, grap...'
-full_prompt_length: 6507
+  description: "Use this agent when implementing game systems, optimizing graphics
+  rendering, building multiplayer networking, or developing gameplay mechanics for
+  games targeting specific platforms. Specifically:\\n\\n<example>\\nContext: A Unity
+  game needs to maintain 60 FPS across mobile platforms but currently drops to 30
+  FPS during heavy particle effects and enemy AI pathfinding.\\nuser: \"Our game is
+  struggling with FPS on mobile. How do we optimize without cutting f...'
+full_prompt_length: 9062
 tools_mentioned: []
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/game-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/game-developer.md
-fetched_at: '2026-02-06T04:14:43.713008Z'
+fetched_at: '2026-02-07T04:07:52.148281Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:06:02.633654Z'
@@ -60,9 +52,9 @@ evaluation:
   - system-architecture
   - cross-platform
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.220261Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.855794Z'

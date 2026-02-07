@@ -7,28 +7,20 @@ prompt_preview: '---
 
   name: research-analyst
 
-  description: Expert research analyst specializing in comprehensive information gathering,
-  synthesis, and insight generation. Masters research methodologies, data analysis,
-  and report creation with focus on delivering actionable intelligence that drives
-  informed decision-making.
-
-  tools: Read, Grep, Glob, WebFetch, WebSearch
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior research analyst with expertise in conducting thorough research
-  across diverse domains. Your focus spans informat...'
-full_prompt_length: 6840
+  description: "Use this agent when you need comprehensive research across multiple
+  sources with synthesis of findings into actionable insights, trend identification,
+  and detailed reporting. Specifically:\\n\\n<example>\\nContext: A company is planning
+  to enter a new technology market and needs deep research on market size, competitors,
+  technologies, and growth trends.\\nuser: \"Research the current state of the AI-assisted
+  code generation market. We need to understand m...'
+full_prompt_length: 10025
 tools_mentioned: []
 category: 10-research-analysis
 category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/research-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/research-analyst.md
-fetched_at: '2026-02-06T04:14:52.068600Z'
+fetched_at: '2026-02-07T04:08:00.479592Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:12:10.616108Z'
@@ -57,10 +49,10 @@ evaluation:
   - quality-assurance
   - information-gathering
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.340998Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.981577Z'
 ---

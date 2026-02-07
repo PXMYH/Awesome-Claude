@@ -7,35 +7,28 @@ prompt_preview: '---
 
   name: websocket-engineer
 
-  description: Real-time communication specialist implementing scalable WebSocket
-  architectures. Masters bidirectional protocols, event-driven systems, and low-latency
-  messaging for interactive applications.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior WebSocket engineer specializing in real-time communication systems
-  with deep expertise in WebSocket protocols, Socket.IO, and scalable messaging architectures.
-  Your primary focus is buil...'
-full_prompt_length: 4347
+  description: "Use this agent when implementing real-time bidirectional communication
+  features using WebSockets, Socket.IO, or similar technologies at scale. Specifically:\\n\\n<example>\\nContext:
+  Building a collaborative editing platform that requires sub-100ms message delivery
+  to thousands of concurrent users.\\nuser: \"I need to implement a WebSocket-based
+  backend for real-time collaboration. We expect 5K concurrent connections with 100
+  messages per second across...'
+full_prompt_length: 6648
 tools_mentioned:
-- Angular
-- React
-- Vue
-- Redis
-- TypeScript
 - WebSocket
+- TypeScript
 - websocket
+- Angular
+- REST
+- Redis
+- Vue
+- React
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/websocket-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/websocket-engineer.md
-fetched_at: '2026-02-06T04:14:20.401614Z'
+fetched_at: '2026-02-07T04:07:30.950445Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:49:26.168614Z'
@@ -65,10 +58,10 @@ evaluation:
   - socket-io
   - production-ready
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:18.902574Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.530478Z'
 ---

@@ -7,20 +7,13 @@ prompt_preview: '---
 
   name: slack-expert
 
-  description: Expert Slack platform specialist for Slack app development, @slack/bolt
-  implementation, Block Kit UI, event handling, OAuth flows, and Slack API integrations.
-  Use when building Slack bots, reviewing Slack code, designing slash commands, or
-  implementing interactive components.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep, WebFetch, WebSearch
-
-  model: sonnet
-
-  ---
-
-  You are an elite Slack Platform Expert and Developer Advocate with deep expertise
-  in the Slack API ecosys...'
-full_prompt_length: 6734
+  description: "Use this agent when developing Slack applications, implementing Slack
+  API integrations, or reviewing Slack bot code for security and best practices. Specifically:\\n\\n<example>\\nContext:
+  Developer is building a new Slack bot using @slack/bolt that needs to handle app
+  mentions, respond to slash commands, and display Block Kit modals.\\nuser: \"I''m
+  building a Slack bot that handles app mentions, slash commands, and interactive
+  modals. Can you help me set it u...'
+full_prompt_length: 9642
 tools_mentioned:
 - typescript
 - TypeScript
@@ -29,7 +22,7 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/slack-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/slack-expert.md
-fetched_at: '2026-02-06T04:14:41.947722Z'
+fetched_at: '2026-02-07T04:07:50.506103Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:04:52.774239Z'
@@ -58,10 +51,10 @@ evaluation:
   - developer-tools
   - api-integration
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.197840Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.833725Z'
 ---

@@ -7,34 +7,28 @@ prompt_preview: '---
 
   name: backend-developer
 
-  description: Senior backend engineer specializing in scalable API development and
-  microservices architecture. Builds robust server-side solutions with focus on performance,
-  security, and maintainability.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior backend developer specializing in server-side applications with
-  deep expertise in Node.js 18+, Python 3.11+, and Go 1.21+. Your primary focus is
-  building scalable, secure, and performant ba...'
-full_prompt_length: 6696
+  description: "Use this agent when building server-side APIs, microservices, and
+  backend systems that require robust architecture, scalability planning, and production-ready
+  implementation. Specifically:\\n\\n<example>\\nContext: A project needs a new RESTful
+  API service with database persistence, authentication, and caching for handling
+  high-traffic requests.\\nuser: \"We need to build a user service API that handles
+  10k RPS with sub-100ms latency. It should support O...'
+full_prompt_length: 9384
 tools_mentioned:
-- Redis
+- WebSocket
+- Go
 - Node.js
 - Docker
 - PostgreSQL
+- gRPC
+- Redis
 - Python
-- Go
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/backend-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/backend-developer.md
-fetched_at: '2026-02-06T04:14:18.330722Z'
+fetched_at: '2026-02-07T04:07:28.830658Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:47:38.208757Z'
@@ -63,10 +57,10 @@ evaluation:
   - security
   - performance-optimization
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:18.871227Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.499249Z'
 ---

@@ -15,14 +15,14 @@ prompt_preview: '---
   when the user references a spreadsheet file by name or path — even c...'
 full_prompt_length: 11455
 tools_mentioned:
-- Python
 - python
+- Python
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/xlsx/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/xlsx/SKILL.md
-fetched_at: '2026-02-06T04:15:00.493639Z'
+fetched_at: '2026-02-07T04:08:08.814725Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:15:44.771179Z'
@@ -51,10 +51,10 @@ evaluation:
   - data_analysis
   - formula_validation
 github_metrics:
-  stars: 64152
-  forks: 6332
-  open_issues: 240
-  last_commit: '2026-02-04'
-  fetched_at: '2026-02-06T04:15:09.589795Z'
-indexed_at: '2026-02-06T04:15:19.408258Z'
+  stars: 64823
+  forks: 6423
+  open_issues: 245
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:17.160385Z'
+indexed_at: '2026-02-07T04:08:27.048436Z'
 ---

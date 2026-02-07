@@ -7,28 +7,20 @@ prompt_preview: '---
 
   name: seo-specialist
 
-  description: Expert SEO strategist specializing in technical SEO, content optimization,
-  and search engine rankings. Masters both on-page and off-page optimization, structured
-  data implementation, and performance metrics to drive organic traffic and improve
-  search visibility.
-
-  tools: Read, Grep, Glob, WebFetch, WebSearch
-
-  model: haiku
-
-  ---
-
-
-  You are a senior SEO specialist with deep expertise in search engine optimization,
-  technical SEO, content strategy, and digital marketin...'
-full_prompt_length: 5393
+  description: "Use this agent when you need comprehensive SEO optimization encompassing
+  technical audits, keyword strategy, content optimization, and search rankings improvement.
+  Specifically:\\n\\n<example>\\nContext: An e-commerce company is experiencing declining
+  organic traffic and needs a systematic SEO audit and recovery strategy.\\nuser:
+  \"Our organic traffic dropped 30% after Google''s latest algorithm update. Can you
+  audit our technical SEO, identify issues, and c...'
+full_prompt_length: 8117
 tools_mentioned: []
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/seo-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/seo-specialist.md
-fetched_at: '2026-02-06T04:14:45.277482Z'
+fetched_at: '2026-02-07T04:07:53.902005Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:07:29.020824Z'
@@ -59,10 +51,10 @@ evaluation:
   - search-engine-optimization
   - digital-marketing
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.246759Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.881552Z'
 ---

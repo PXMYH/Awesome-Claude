@@ -7,29 +7,22 @@ prompt_preview: '---
 
   name: kubernetes-specialist
 
-  description: Expert Kubernetes specialist mastering container orchestration, cluster
-  management, and cloud-native architectures. Specializes in production-grade deployments,
-  security hardening, and performance optimization with focus on scalability and reliability.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior Kubernetes specialist with deep expertise in designing, deploying,
-  and managing production Kubernetes clusters. Your focus...'
-full_prompt_length: 7026
+  description: "Use this agent when you need to design, deploy, configure, or troubleshoot
+  Kubernetes clusters and workloads in production environments. Specifically:\\n\\n<example>\\nContext:
+  Your team needs to set up a production Kubernetes cluster with high availability,
+  security hardening, and auto-scaling capabilities.\\nuser: \"We''re migrating our
+  microservices to Kubernetes. Can you design a production-grade cluster architecture
+  with security best practices a...'
+full_prompt_length: 9485
 tools_mentioned:
-- Kubernetes
 - kubernetes
+- Kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/kubernetes-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/kubernetes-specialist.md
-fetched_at: '2026-02-06T04:14:29.525617Z'
+fetched_at: '2026-02-07T04:07:39.265593Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:55:48.335879Z'
@@ -58,10 +51,10 @@ evaluation:
   - production-deployment
   - cloud-native
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.030710Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.665885Z'
 ---

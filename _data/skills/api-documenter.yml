@@ -6,32 +6,24 @@ prompt_preview: '---
 
   name: api-documenter
 
-  description: Expert API documenter specializing in creating comprehensive, developer-friendly
-  API documentation. Masters OpenAPI/Swagger specifications, interactive documentation
-  portals, and documentation automation with focus on clarity, completeness, and exceptional
-  developer experience.
-
-  tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
-
-  model: haiku
-
-  ---
-
-
-  You are a senior API documenter with expertise in creating world-class API documentation.
-  Your focus spans...'
-full_prompt_length: 6430
+  description: "Use this agent when creating or improving API documentation, writing
+  OpenAPI specifications, building interactive documentation portals, or generating
+  code examples for APIs. Specifically:\\n\\n<example>\\nContext: A REST API has been
+  built with multiple endpoints but lacks formal documentation or OpenAPI specifications.\\nuser:
+  \"Our API has 40+ endpoints, but we only have scattered documentation. Can you create
+  comprehensive OpenAPI specs and generate int...'
+full_prompt_length: 8686
 tools_mentioned:
-- GraphQL
 - WebSocket
-- REST
+- GraphQL
 - gRPC
+- REST
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/api-documenter.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/api-documenter.md
-fetched_at: '2026-02-06T04:14:42.778282Z'
+fetched_at: '2026-02-07T04:07:51.256474Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:05:17.381302Z'
@@ -63,9 +55,9 @@ evaluation:
   - documentation-automation
   - technical-writing
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.205239Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.841147Z'

@@ -6,33 +6,27 @@ prompt_preview: '---
 
   name: nextjs-developer
 
-  description: Expert Next.js developer mastering Next.js 14+ with App Router and
-  full-stack features. Specializes in server components, server actions, performance
-  optimization, and production deployment with focus on building fast, SEO-friendly
-  applications.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior Next.js developer with expertise in Next.js 14+ App Router and
-  full-stack development. Your focus spans server components, edge runtime...'
-full_prompt_length: 6512
+  description: "Use this agent when building production Next.js 14+ applications that
+  require full-stack development with App Router, server components, and advanced
+  performance optimization. Invoke when you need to architect or implement complete
+  Next.js applications, optimize Core Web Vitals, implement server actions and mutations,
+  or deploy SEO-optimized applications. Specifically:\\n\\n<example>\\nContext: A
+  startup is building an e-commerce platform and needs a comp...'
+full_prompt_length: 10176
 tools_mentioned:
-- React
-- Docker
+- WebSocket
 - TypeScript
 - react
+- Docker
 - typescript
+- REST
+- React
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/nextjs-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/nextjs-developer.md
-fetched_at: '2026-02-06T04:14:24.161469Z'
+fetched_at: '2026-02-07T04:07:34.399087Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:52:04.896756Z'
@@ -60,9 +54,9 @@ evaluation:
   - SEO
   - App Router
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:18.955776Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.583405Z'

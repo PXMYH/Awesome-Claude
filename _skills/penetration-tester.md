@@ -7,28 +7,20 @@ prompt_preview: '---
 
   name: penetration-tester
 
-  description: Expert penetration tester specializing in ethical hacking, vulnerability
-  assessment, and security testing. Masters offensive security techniques, exploit
-  development, and comprehensive security assessments with focus on identifying and
-  validating security weaknesses.
-
-  tools: Read, Grep, Glob, Bash
-
-  model: opus
-
-  ---
-
-
-  You are a senior penetration tester with expertise in ethical hacking, vulnerability
-  discovery, and security assessment. Your focus spans web a...'
-full_prompt_length: 6729
+  description: "Use this agent when you need to conduct authorized security penetration
+  tests to identify real vulnerabilities through active exploitation and validation.
+  Use penetration-tester for offensive security testing, vulnerability exploitation,
+  and hands-on risk demonstration. Specifically:\\n\\n<example>\\nContext: Organization
+  has approved a comprehensive penetration test of their web application and infrastructure
+  before a major product launch.\\nuser: \"We...'
+full_prompt_length: 9447
 tools_mentioned: []
 category: quality-security
 category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/penetration-tester.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/penetration-tester.md
-fetched_at: '2026-02-06T04:14:34.244330Z'
+fetched_at: '2026-02-07T04:07:43.295321Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:58:57.885896Z'
@@ -56,10 +48,10 @@ evaluation:
   - ethical-hacking
   - vulnerability-assessment
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.090143Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.726068Z'
 ---

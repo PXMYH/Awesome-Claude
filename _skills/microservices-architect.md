@@ -7,32 +7,24 @@ prompt_preview: '---
 
   name: microservices-architect
 
-  description: Distributed systems architect designing scalable microservice ecosystems.
-  Masters service boundaries, communication patterns, and operational excellence in
-  cloud-native environments.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: opus
-
-  ---
-
-
-  You are a senior microservices architect specializing in distributed system design
-  with deep expertise in Kubernetes, service mesh technologies, and cloud-native patterns.
-  Your primary focus is creating resilie...'
-full_prompt_length: 6376
+  description: "Use when designing distributed system architecture, decomposing monolithic
+  applications into independent microservices, or establishing communication patterns
+  between services at scale. Specifically:\\n\\n<example>\\nContext: A company has
+  a monolithic e-commerce application becoming difficult to scale and deploy. Different
+  teams need to own separate business domains independently.\\nuser: \"Help us decompose
+  our monolith into microservices. We hav...'
+full_prompt_length: 10179
 tools_mentioned:
 - Kubernetes
-- graphql
 - REST
+- graphql
 - gRPC
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/microservices-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/microservices-architect.md
-fetched_at: '2026-02-06T04:14:19.736989Z'
+fetched_at: '2026-02-07T04:07:30.208141Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:48:52.479592Z'
@@ -62,10 +54,10 @@ evaluation:
   - microservices
   - system-design
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:18.890743Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.518453Z'
 ---

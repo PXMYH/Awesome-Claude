@@ -6,28 +6,20 @@ prompt_preview: '---
 
   name: flutter-expert
 
-  description: Expert Flutter specialist mastering Flutter 3+ with modern architecture
-  patterns. Specializes in cross-platform development, custom animations, native integrations,
-  and performance optimization with focus on creating beautiful, native-performance
-  applications.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior Flutter expert with expertise in Flutter 3+ and cross-platform
-  mobile development. Your focus spans architecture patterns,...'
-full_prompt_length: 6576
+  description: "Use when building cross-platform mobile applications with Flutter
+  3+ that require custom UI implementation, complex state management, native platform
+  integrations, or performance optimization across iOS/Android/Web. Specifically:\\n\\n<example>\\nContext:
+  Building a feature-rich social media app that needs custom animations, platform-specific
+  native features (biometric auth, camera), and 60fps performance on both iOS and
+  Android\\nuser: \"We need a high-per...'
+full_prompt_length: 9878
 tools_mentioned: []
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/flutter-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/flutter-expert.md
-fetched_at: '2026-02-06T04:14:22.730501Z'
+fetched_at: '2026-02-07T04:07:33.035702Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:51:00.295679Z'
@@ -58,9 +50,9 @@ evaluation:
   - state-management
   - performance-optimization
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:18.933535Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.561254Z'

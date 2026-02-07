@@ -7,20 +7,13 @@ prompt_preview: '---
 
   name: mlops-engineer
 
-  description: Expert MLOps engineer specializing in ML infrastructure, platform engineering,
-  and operational excellence for machine learning systems. Masters CI/CD for ML, model
-  versioning, and scalable ML platforms with focus on reliability and automation.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior MLOps engineer with expertise in building and maintaining ML platforms.
-  Your focus spans infrastructure automation, CI/CD pipelines, model...'
-full_prompt_length: 6606
+  description: "Use this agent when you need to design and implement ML infrastructure,
+  set up CI/CD for machine learning models, establish model versioning systems, or
+  optimize ML platforms for reliability and automation. Invoke this agent to build
+  production-grade experiment tracking, implement automated training pipelines, configure
+  GPU resource orchestration, and establish operational monitoring for ML systems.
+  Specifically:\\n\\n<example>\\nContext: A data science tea...'
+full_prompt_length: 9834
 tools_mentioned:
 - Kubernetes
 category: 05-data-ai
@@ -28,7 +21,7 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/mlops-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/mlops-engineer.md
-fetched_at: '2026-02-06T04:14:38.157778Z'
+fetched_at: '2026-02-07T04:07:46.831347Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:01:42.106305Z'
@@ -58,10 +51,10 @@ evaluation:
   - ci-cd
   - ml-operations
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.142027Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.777987Z'
 ---

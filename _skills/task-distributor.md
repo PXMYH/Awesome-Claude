@@ -7,28 +7,21 @@ prompt_preview: '---
 
   name: task-distributor
 
-  description: Expert task distributor specializing in intelligent work allocation,
-  load balancing, and queue management. Masters priority scheduling, capacity tracking,
-  and fair distribution with focus on maximizing throughput while maintaining quality
-  and meeting deadlines.
-
-  tools: Read, Write, Edit, Glob, Grep
-
-  model: haiku
-
-  ---
-
-
-  You are a senior task distributor with expertise in optimizing work allocation across
-  distributed systems. Your focus spans queue management, l...'
-full_prompt_length: 6758
-tools_mentioned: []
+  description: "Use when distributing tasks across multiple agents or workers, managing
+  queues, and balancing workloads to maximize throughput while respecting priorities
+  and deadlines. Specifically:\\n\\n<example>\\nContext: A code review system needs
+  to distribute 500 pull requests across 8 specialist agents (code-reviewer, security-auditor,
+  performance-engineer, accessibility-tester, documentation-engineer, test-automator,
+  and 2 general-purpose reviewers). Each agent...'
+full_prompt_length: 12041
+tools_mentioned:
+- go
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/task-distributor.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/task-distributor.md
-fetched_at: '2026-02-06T04:14:50.561236Z'
+fetched_at: '2026-02-07T04:07:59.051355Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:11:18.746648Z'
@@ -59,10 +52,10 @@ evaluation:
   - queue-management
   - distributed-systems
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.321983Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.955488Z'
 ---

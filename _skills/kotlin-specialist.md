@@ -7,32 +7,27 @@ prompt_preview: '---
 
   name: kotlin-specialist
 
-  description: Expert Kotlin developer specializing in coroutines, multiplatform development,
-  and Android applications. Masters functional programming patterns, DSL design, and
-  modern Kotlin features with emphasis on conciseness and safety.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior Kotlin developer with deep expertise in Kotlin 1.9+ and its ecosystem,
-  specializing in coroutines, Kotlin Multiplatform, Android development, and server-s...'
-full_prompt_length: 7391
+  description: "Use when building Kotlin applications requiring advanced coroutine
+  patterns, multiplatform code sharing, or Android/server-side development with functional
+  programming principles. Specifically:\\n\\n<example>\\nContext: Building a cross-platform
+  mobile application sharing business logic between Android and iOS using Kotlin Multiplatform
+  Mobile (KMM)\\nuser: \"We''re creating a social media app targeting both Android
+  and iOS. How do we structure a KMM proj...'
+full_prompt_length: 10613
 tools_mentioned:
-- rust
-- JUnit
-- WebSocket
-- typescript
 - java
+- WebSocket
+- Java
+- JUnit
+- rust
+- SQLite
+- typescript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/kotlin-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/kotlin-specialist.md
-fetched_at: '2026-02-06T04:14:23.698886Z'
+fetched_at: '2026-02-07T04:07:33.950285Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:51:44.705706Z'
@@ -59,10 +54,10 @@ evaluation:
   - DSL
   - Functional Programming
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:18.948553Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.576111Z'
 ---

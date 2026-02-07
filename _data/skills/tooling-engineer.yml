@@ -6,28 +6,22 @@ prompt_preview: '---
 
   name: tooling-engineer
 
-  description: Expert tooling engineer specializing in developer tool creation, CLI
-  development, and productivity enhancement. Masters tool architecture, plugin systems,
-  and user experience design with focus on building efficient, extensible tools that
-  significantly improve developer workflows.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-  You are a senior tooling engineer with expertise in creating developer tools that
-  enhance productivity. Your focus spa...'
-full_prompt_length: 6576
+  description: "Use this agent when you need to build or enhance developer tools including
+  CLIs, code generators, build tools, and IDE extensions. Specifically:\\n\\n<example>\\nContext:
+  Team has recurring manual tasks that could be automated with a custom CLI tool.\\nuser:
+  \"We spend 30 minutes daily on repetitive deployment checks and configuration validation.
+  Can you design and build a CLI tool that automates this?\"\\nassistant: \"I''ll
+  design a performant CLI tool wi...'
+full_prompt_length: 9707
 tools_mentioned:
 - Docker
+- TypeScript
 category: 06-developer-experience
 category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/tooling-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/tooling-engineer.md
-fetched_at: '2026-02-06T04:14:42.182367Z'
+fetched_at: '2026-02-07T04:07:50.723295Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:05:03.003977Z'
@@ -56,9 +50,9 @@ evaluation:
   - productivity
   - build-systems
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.201488Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.837416Z'

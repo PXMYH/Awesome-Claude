@@ -6,33 +6,26 @@ prompt_preview: '---
 
   name: code-reviewer
 
-  description: Expert code reviewer specializing in code quality, security vulnerabilities,
-  and best practices across multiple languages. Masters static analysis, design patterns,
-  and performance optimization with focus on maintainability and technical debt reduction.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: opus
-
-  ---
-
-
-  You are a senior code reviewer with expertise in identifying code quality issues,
-  security vulnerabilities, and optimization opportunities across mul...'
-full_prompt_length: 6717
+  description: "Use this agent when you need to conduct comprehensive code reviews
+  focusing on code quality, security vulnerabilities, and best practices. Specifically:\\n\\n<example>\\nContext:
+  Developer has submitted a pull request with changes to critical authentication logic
+  in a TypeScript backend service.\\nuser: \"Can you review this PR that refactors
+  our authentication system? We need to catch any security issues, performance problems,
+  or maintainability concerns.\"...'
+full_prompt_length: 9289
 tools_mentioned:
+- Go
+- Java
 - Rust
 - TypeScript
-- Python
-- Java
 - JavaScript
-- Go
+- Python
 category: quality-security
 category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/code-reviewer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/code-reviewer.md
-fetched_at: '2026-02-06T04:14:33.165236Z'
+fetched_at: '2026-02-07T04:07:42.364692Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:57:55.920603Z'
@@ -60,9 +53,9 @@ evaluation:
   - static-analysis
   - best-practices
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.075109Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.711027Z'

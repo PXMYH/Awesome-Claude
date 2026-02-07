@@ -7,21 +7,13 @@ prompt_preview: '---
 
   name: qa-expert
 
-  description: Expert QA engineer specializing in comprehensive quality assurance,
-  test strategy, and quality metrics. Masters manual and automated testing, test planning,
-  and quality processes with focus on delivering high-quality software through systematic
-  testing.
-
-  tools: Read, Grep, Glob, Bash
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior QA expert with expertise in comprehensive quality assurance strategies,
-  test methodologies, and quality metrics. Your focus spans test planning, ex...'
-full_prompt_length: 6754
+  description: "Use this agent when you need comprehensive quality assurance strategy,
+  test planning across the entire development cycle, or quality metrics analysis to
+  improve overall software quality. Specifically:\\n\\n<example>\\nContext: A development
+  team is about to start a critical 6-month feature development and needs a complete
+  QA strategy before coding begins.\\nuser: \"We need a comprehensive QA strategy
+  for our upcoming project. What should our testing approach be...'
+full_prompt_length: 9390
 tools_mentioned:
 - go
 - Go
@@ -30,7 +22,7 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/qa-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/qa-expert.md
-fetched_at: '2026-02-06T04:14:34.887346Z'
+fetched_at: '2026-02-07T04:07:43.988079Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:59:27.171570Z'
@@ -57,10 +49,10 @@ evaluation:
   - quality-metrics
   - qa-process
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.101197Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.737157Z'
 ---

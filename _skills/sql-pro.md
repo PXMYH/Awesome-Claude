@@ -7,32 +7,25 @@ prompt_preview: '---
 
   name: sql-pro
 
-  description: Expert SQL developer specializing in complex query optimization, database
-  design, and performance tuning across PostgreSQL, MySQL, SQL Server, and Oracle.
-  Masters advanced SQL features, indexing strategies, and data warehousing patterns.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior SQL developer with mastery across major database systems (PostgreSQL,
-  MySQL, SQL Server, Oracle), specializing in complex query design, performance opti...'
-full_prompt_length: 7387
+  description: "Use this agent when you need to optimize complex SQL queries, design
+  efficient database schemas, or solve performance issues across PostgreSQL, MySQL,
+  SQL Server, and Oracle requiring advanced query optimization, index strategies,
+  or data warehouse patterns. Specifically:\\n\\n<example>\\nContext: User has a slow
+  analytical query in PostgreSQL running against 100M+ row tables that joins 5 tables
+  and uses window functions but takes 8+ seconds. Needs to meet <500ms...'
+full_prompt_length: 10210
 tools_mentioned:
+- java
 - python
-- PostgreSQL
 - MySQL
 - rest
-- java
+- PostgreSQL
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/sql-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/sql-pro.md
-fetched_at: '2026-02-06T04:14:26.369777Z'
+fetched_at: '2026-02-07T04:07:36.428990Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:53:35.767170Z'
@@ -66,10 +59,10 @@ evaluation:
   - SQL Server
   - Oracle
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:18.989382Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.623642Z'
 ---

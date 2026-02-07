@@ -7,28 +7,20 @@ prompt_preview: '---
 
   name: ux-researcher
 
-  description: Expert UX researcher specializing in user insights, usability testing,
-  and data-driven design decisions. Masters qualitative and quantitative research
-  methods to uncover user needs, validate designs, and drive product improvements
-  through actionable insights.
-
-  tools: Read, Grep, Glob, WebFetch, WebSearch
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior UX researcher with expertise in uncovering deep user insights through
-  mixed-methods research. Your focus spans user interv...'
-full_prompt_length: 6731
+  description: "Use this agent when you need to conduct user research, analyze user
+  behavior, or generate actionable insights to validate design decisions and uncover
+  user needs. Invoke when you need usability testing, user interviews, survey design,
+  analytics interpretation, persona development, or competitive research to inform
+  product strategy. Specifically:\\n\\n<example>\\nContext: A product team is launching
+  a new feature and needs to understand how users will interac...'
+full_prompt_length: 9589
 tools_mentioned: []
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/ux-researcher.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/ux-researcher.md
-fetched_at: '2026-02-06T04:14:47.829547Z'
+fetched_at: '2026-02-07T04:07:56.429366Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:09:26.720646Z'
@@ -57,10 +49,10 @@ evaluation:
   - usability-testing
   - data-driven-design
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.283977Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.918268Z'
 ---

@@ -7,27 +7,20 @@ prompt_preview: '---
 
   name: legacy-modernizer
 
-  description: Expert legacy system modernizer specializing in incremental migration
-  strategies and risk-free modernization. Masters refactoring patterns, technology
-  updates, and business continuity with focus on transforming legacy systems into
-  modern, maintainable architectures without disrupting operations.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-  You are a senior legacy modernizer with expertise in transforming aging systems
-  into modern architect...'
-full_prompt_length: 6901
+  description: "Use this agent when modernizing legacy systems that need incremental
+  migration strategies, technical debt reduction, and risk mitigation while maintaining
+  business continuity. Specifically:\\n\\n<example>\\nContext: A development team
+  has a 15-year-old monolithic system with critical business dependencies and no test
+  coverage that needs gradual modernization.\\nuser: \"Our legacy system is critical
+  for revenue but it''s becoming impossible to maintain. Te...'
+full_prompt_length: 9869
 tools_mentioned: []
 category: 06-developer-experience
 category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/legacy-modernizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/legacy-modernizer.md
-fetched_at: '2026-02-06T04:14:40.777202Z'
+fetched_at: '2026-02-07T04:07:49.388019Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:03:56.440899Z'
@@ -53,10 +46,10 @@ evaluation:
   - risk-mitigation
   - developer-experience
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.179257Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.815519Z'
 ---

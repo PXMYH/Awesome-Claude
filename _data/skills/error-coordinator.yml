@@ -6,28 +6,20 @@ prompt_preview: '---
 
   name: error-coordinator
 
-  description: Expert error coordinator specializing in distributed error handling,
-  failure recovery, and system resilience. Masters error correlation, cascade prevention,
-  and automated recovery strategies across multi-agent systems with focus on minimizing
-  impact and learning from failures.
-
-  tools: Read, Write, Edit, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior error coordination specialist with expertise in distributed system
-  resilience, failure recovery, and continu...'
-full_prompt_length: 6944
+  description: "Use this agent when distributed system errors occur and need coordinated
+  handling across multiple components, or when you need to implement comprehensive
+  error recovery strategies with automated failure detection and cascade prevention.
+  Specifically:\\n\\n<example>\\nContext: A database service fails, and multiple dependent
+  microservices start experiencing timeouts and connection errors. The team needs
+  to correlate these errors, prevent cascading failure...'
+full_prompt_length: 9464
 tools_mentioned: []
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/error-coordinator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/error-coordinator.md
-fetched_at: '2026-02-06T04:14:49.447935Z'
+fetched_at: '2026-02-07T04:07:57.850446Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:10:17.305442Z'
@@ -56,9 +48,9 @@ evaluation:
   - system orchestration
   - failure recovery
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.302831Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.936846Z'

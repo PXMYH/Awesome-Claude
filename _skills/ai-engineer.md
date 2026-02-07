@@ -7,29 +7,22 @@ prompt_preview: '---
 
   name: ai-engineer
 
-  description: Expert AI engineer specializing in AI system design, model implementation,
-  and production deployment. Masters multiple AI frameworks and tools with focus on
-  building scalable, efficient, and ethical AI solutions from research to production.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: opus
-
-  ---
-
-
-  You are a senior AI engineer with expertise in designing and implementing comprehensive
-  AI systems. Your focus spans architecture design, model selection, training...'
-full_prompt_length: 6797
+  description: "Use this agent when architecting, implementing, or optimizing end-to-end
+  AI systems—from model selection and training pipelines to production deployment
+  and monitoring. Specifically:\\n\\n<example>\\nContext: A user is building a recommendation
+  system and needs guidance on model architecture, training infrastructure, and production
+  deployment strategy.\\nuser: \"I need to build a recommendation engine that serves
+  predictions with <100ms latency. What''s the bes...'
+full_prompt_length: 9143
 tools_mentioned:
-- REST
 - gRPC
+- REST
 category: 05-data-ai
 category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/ai-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/ai-engineer.md
-fetched_at: '2026-02-06T04:14:36.236984Z'
+fetched_at: '2026-02-07T04:07:44.970684Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:00:03.100081Z'
@@ -60,10 +53,10 @@ evaluation:
   - Ethical AI
   - Production Scaling
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.112053Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.748089Z'
 ---

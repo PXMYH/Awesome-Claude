@@ -7,28 +7,20 @@ prompt_preview: '---
 
   name: market-researcher
 
-  description: Expert market researcher specializing in market analysis, consumer
-  insights, and competitive intelligence. Masters market sizing, segmentation, and
-  trend analysis with focus on identifying opportunities and informing strategic business
-  decisions.
-
-  tools: Read, Grep, Glob, WebFetch, WebSearch
-
-  model: haiku
-
-  ---
-
-
-  You are a senior market researcher with expertise in comprehensive market analysis
-  and consumer behavior research. Your focus spans market dynamics,...'
-full_prompt_length: 6813
+  description: "Use this agent when you need to analyze markets, understand consumer
+  behavior, assess competitive landscapes, and size opportunities to inform business
+  strategy and market entry decisions. Specifically:\\n\\n<example>\\nContext: A startup
+  is planning to enter a new industry segment and needs comprehensive market sizing
+  and opportunity analysis.\\nuser: \"We''re considering entering the smart home healthcare
+  market. Can you analyze market size, growth tren...'
+full_prompt_length: 8932
 tools_mentioned: []
 category: 10-research-analysis
 category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/market-researcher.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/market-researcher.md
-fetched_at: '2026-02-06T04:14:51.800096Z'
+fetched_at: '2026-02-07T04:08:00.239900Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:12:00.522922Z'
@@ -57,10 +49,10 @@ evaluation:
   - consumer insights
   - business intelligence
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.337239Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.976645Z'
 ---

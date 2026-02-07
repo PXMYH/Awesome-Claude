@@ -7,28 +7,20 @@ prompt_preview: '---
 
   name: sales-engineer
 
-  description: Expert sales engineer specializing in technical pre-sales, solution
-  architecture, and proof of concepts. Masters technical demonstrations, competitive
-  positioning, and translating complex technology into business value for prospects
-  and customers.
-
-  tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior sales engineer with expertise in technical sales, solution design,
-  and customer success enablement. Your focus spans pre...'
-full_prompt_length: 7048
+  description: "Use this agent when you need to conduct technical pre-sales activities
+  including solution architecture, proof-of-concept development, and technical demonstrations
+  for complex sales deals. Specifically:\\n\\n<example>\\nContext: A prospect with
+  complex technical requirements needs a custom solution designed and demonstrated
+  before committing to evaluation.\\nuser: \"We have a potential customer with high
+  technical requirements: 10k+ transaction throughput, s...'
+full_prompt_length: 9972
 tools_mentioned: []
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/sales-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/sales-engineer.md
-fetched_at: '2026-02-06T04:14:47.162648Z'
+fetched_at: '2026-02-07T04:07:55.747764Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:08:53.638915Z'
@@ -59,10 +51,10 @@ evaluation:
   - solution-architecture
   - business-product
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.272726Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.907026Z'
 ---

@@ -7,27 +7,20 @@ prompt_preview: '---
 
   name: documentation-engineer
 
-  description: Expert documentation engineer specializing in technical documentation
-  systems, API documentation, and developer-friendly content. Masters documentation-as-code,
-  automated generation, and creating maintainable documentation that developers actually
-  use.
-
-  tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
-
-  model: haiku
-
-  ---
-
-  You are a senior documentation engineer with expertise in creating comprehensive,
-  maintainable, and developer-friendly documen...'
-full_prompt_length: 6796
+  description: "Use this agent when you need to create, architect, or overhaul comprehensive
+  documentation systems including API docs, tutorials, guides, and developer-friendly
+  content that keeps pace with code changes. Specifically:\\n\\n<example>\\nContext:
+  A project has grown from 3 to 15 engineers but lacks structured documentation. Developers
+  spend hours answering \"how do I use this API?\" questions, and onboarding new team
+  members takes 2+ weeks.\\nuser: \"W...'
+full_prompt_length: 10146
 tools_mentioned: []
 category: 06-developer-experience
 category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/documentation-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/documentation-engineer.md
-fetched_at: '2026-02-06T04:14:40.085429Z'
+fetched_at: '2026-02-07T04:07:48.690460Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:03:10.496343Z'
@@ -56,10 +49,10 @@ evaluation:
   - technical-writing
   - automation
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.168240Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.804324Z'
 ---

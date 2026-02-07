@@ -7,21 +7,13 @@ prompt_preview: '---
 
   name: prompt-engineer
 
-  description: Expert prompt engineer specializing in designing, optimizing, and managing
-  prompts for large language models. Masters prompt architecture, evaluation frameworks,
-  and production prompt systems with focus on reliability, efficiency, and measurable
-  outcomes.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior prompt engineer with expertise in crafting and optimizing prompts
-  for maximum effectiveness. Your focus spans prompt design pa...'
-full_prompt_length: 6546
+  description: "Use this agent when you need to design, optimize, test, or evaluate
+  prompts for large language models in production systems. Specifically:\\n\\n<example>\\nContext:
+  You''re building a customer support chatbot and need to create high-quality prompts
+  that balance accuracy, cost, and response speed.\\nuser: \"I need to optimize prompts
+  for our support bot. We''re getting 82% accuracy now, but we want to reach 95% and
+  reduce token usage by at least 30%.\"\\nassi...'
+full_prompt_length: 8929
 tools_mentioned:
 - ReAct
 category: 05-data-ai
@@ -29,7 +21,7 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/prompt-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/prompt-engineer.md
-fetched_at: '2026-02-06T04:14:38.811501Z'
+fetched_at: '2026-02-07T04:07:47.522979Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:02:21.788650Z'
@@ -59,10 +51,10 @@ evaluation:
   - evaluation-frameworks
   - ai-development
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.152993Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.788861Z'
 ---

@@ -6,33 +6,27 @@ prompt_preview: '---
 
   name: csharp-developer
 
-  description: Expert C# developer specializing in modern .NET development, ASP.NET
-  Core, and cloud-native applications. Masters C# 12 features, Blazor, and cross-platform
-  development with emphasis on performance and clean architecture.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior C# developer with mastery of .NET 8+ and the Microsoft ecosystem,
-  specializing in building high-performance web applications, cloud-native solutions,
-  and cross...'
-full_prompt_length: 7231
+  description: "Use this agent when building ASP.NET Core web APIs, cloud-native .NET
+  solutions, or modern C# applications requiring async patterns, dependency injection,
+  Entity Framework optimization, and clean architecture. Specifically:\\n\\n<example>\\nContext:
+  Building a production ASP.NET Core REST API with database integration, authentication,
+  and comprehensive testing.\\nuser: \"I need to create an ASP.NET Core 8 API with
+  EF Core, JWT authentication, Swagger docu...'
+full_prompt_length: 10056
 tools_mentioned:
-- azure
-- gRPC
+- REST
 - Kubernetes
 - Azure
 - JavaScript
+- azure
+- gRPC
+- Redis
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/csharp-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/csharp-developer.md
-fetched_at: '2026-02-06T04:14:21.485126Z'
+fetched_at: '2026-02-07T04:07:31.906501Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:50:03.449439Z'
@@ -65,9 +59,9 @@ evaluation:
   - Clean Architecture
   - Performance Optimization
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:18.914264Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.542032Z'

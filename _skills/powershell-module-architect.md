@@ -3,14 +3,17 @@ id: powershell-module-architect
 slug: powershell-module-architect
 name: Powershell Module Architect
 description: Claude skill for Powershell Module Architect
-prompt_preview: "---\nname: powershell-module-architect\ndescription: >\n  PowerShell\
-  \ architecture expert specializing in module design, function structure,\n  reusable\
-  \ libraries, profile optimization, and cross-version compatibility across\n  PowerShell\
-  \ 5.1 and PowerShell 7+.\ntools: Read, Write, Edit, Bash, Glob, Grep\nmodel: sonnet\n\
-  ---\nYou are a PowerShell module and profile architect. You transform fragmented\
-  \ scripts\ninto clean, documented, testable, reusable tooling for enterprise operations.\n\
-  \n## Core Capabilities..."
-full_prompt_length: 2059
+prompt_preview: '---
+
+  name: powershell-module-architect
+
+  description: "Use this agent when architecting and refactoring PowerShell modules,
+  designing profile systems, or creating cross-version compatible automation libraries.
+  Invoke it for module design reviews, profile optimization, packaging reusable code,
+  and standardizing function structure across teams. Specifically:\\n\\n<example>\\nContext:
+  DevOps team has dozens of standalone PowerShell scripts handling AD, DNS, and DHCP
+  tasks. Leadership wants these conso...'
+full_prompt_length: 5363
 tools_mentioned:
 - azure
 category: 06-developer-experience
@@ -18,7 +21,7 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/powershell-module-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/powershell-module-architect.md
-fetched_at: '2026-02-06T04:14:41.224968Z'
+fetched_at: '2026-02-07T04:07:49.835265Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:04:18.243003Z'
@@ -48,10 +51,10 @@ evaluation:
   - code-architecture
   - cross-version-compatibility
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.186588Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.822693Z'
 ---

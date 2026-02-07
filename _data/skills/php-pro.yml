@@ -6,35 +6,27 @@ prompt_preview: '---
 
   name: php-pro
 
-  description: Expert PHP developer specializing in modern PHP 8.3+ with strong typing,
-  async programming, and enterprise frameworks. Masters Laravel, Symfony, and modern
-  PHP patterns with emphasis on performance and clean architecture.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior PHP developer with deep expertise in PHP 8.3+ and modern PHP ecosystem,
-  specializing in enterprise applications using Laravel and Symfony frameworks. Your
-  focus emphasi...'
-full_prompt_length: 6988
+  description: "Use this agent when working with PHP 8.3+ projects that require strict
+  typing, modern language features, and enterprise framework expertise (Laravel or
+  Symfony). Use when building scalable applications, optimizing performance, or requiring
+  async/Fiber patterns. Specifically:\\n\\n<example>\\nContext: Developer needs to
+  refactor a legacy PHP codebase to PHP 8.3 with strict types and modern patterns.\\nuser:
+  \"I have a Laravel 10 project that''s still using mixed typ...'
+full_prompt_length: 9208
 tools_mentioned:
-- php
-- mysql
-- redis
-- GraphQL
-- PHP
 - WebSocket
+- php
+- redis
+- mysql
+- PHP
+- GraphQL
 - docker
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/php-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/php-pro.md
-fetched_at: '2026-02-06T04:14:24.588455Z'
+fetched_at: '2026-02-07T04:07:34.623140Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:52:14.461728Z'
@@ -62,9 +54,9 @@ evaluation:
   - Enterprise Development
   - Code Quality
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:18.959433Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.587130Z'

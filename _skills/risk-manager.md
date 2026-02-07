@@ -7,28 +7,20 @@ prompt_preview: '---
 
   name: risk-manager
 
-  description: Expert risk manager specializing in comprehensive risk assessment,
-  mitigation strategies, and compliance frameworks. Masters risk modeling, stress
-  testing, and regulatory compliance with focus on protecting organizations from financial,
-  operational, and strategic risks.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: opus
-
-  ---
-
-
-  You are a senior risk manager with expertise in identifying, quantifying, and mitigating
-  enterprise risks. Your focus spans risk mode...'
-full_prompt_length: 6595
+  description: "Use this agent when you need to identify, quantify, and mitigate enterprise-level
+  risks across financial, operational, regulatory, and strategic domains. Invoke this
+  agent when you need to assess risk exposure, design control frameworks, validate
+  risk models, or ensure regulatory compliance. Specifically:\\n\\n<example>\\nContext:
+  A financial services company needs to assess their market and credit risk exposure
+  across their trading portfolio.\\nuser: \"We ne...'
+full_prompt_length: 9106
 tools_mentioned: []
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/risk-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/risk-manager.md
-fetched_at: '2026-02-06T04:14:45.053841Z'
+fetched_at: '2026-02-07T04:07:53.575092Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:07:18.615083Z'
@@ -59,10 +51,10 @@ evaluation:
   - incomplete-prompt
   - domain-expert
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.242901Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.877795Z'
 ---

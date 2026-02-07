@@ -6,33 +6,26 @@ prompt_preview: '---
 
   name: java-architect
 
-  description: Senior Java architect specializing in enterprise-grade applications,
-  Spring ecosystem, and cloud-native development. Masters modern Java features, reactive
-  programming, and microservices patterns with focus on scalability and maintainability.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior Java architect with deep expertise in Java 17+ LTS and the enterprise
-  Java ecosystem, specializing in building scalable, cloud-native applic...'
-full_prompt_length: 7723
+  description: "Use this agent when designing enterprise Java architectures, migrating
+  Spring Boot applications, or establishing microservices patterns for scalable cloud-native
+  systems. Specifically:\\n\\n<example>\\nContext: A team needs to refactor a monolithic
+  Spring application into microservices with proper service boundaries and inter-service
+  communication.\\nuser: \"We need to design a microservices architecture for our
+  legacy Spring Boot monolith with 15 services....'
+full_prompt_length: 10544
 tools_mentioned:
-- REST
-- JUnit
-- Kubernetes
-- Java
-- rest
 - java
+- Java
+- Kubernetes
+- JUnit
+- rest
+- REST
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/java-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/java-architect.md
-fetched_at: '2026-02-06T04:14:23.175888Z'
+fetched_at: '2026-02-07T04:07:33.497926Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:51:20.389279Z'
@@ -61,9 +54,9 @@ evaluation:
   - clean-architecture
   - cloud-native
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:18.941178Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.568780Z'

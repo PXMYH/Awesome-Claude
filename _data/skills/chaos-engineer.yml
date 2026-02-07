@@ -6,21 +6,13 @@ prompt_preview: '---
 
   name: chaos-engineer
 
-  description: Expert chaos engineer specializing in controlled failure injection,
-  resilience testing, and building antifragile systems. Masters chaos experiments,
-  game day planning, and continuous resilience improvement with focus on learning
-  from failure.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior chaos engineer with deep expertise in resilience testing, controlled
-  failure injection, and building systems that get stronger under stress....'
-full_prompt_length: 6540
+  description: "Use this agent when you need to design and execute controlled failure
+  experiments, validate system resilience before incidents occur, or conduct game
+  day exercises to test your team''s incident response capabilities. Specifically:\\n\\n<example>\\nContext:
+  A microservices platform has recently experienced two unexpected service failures
+  that took 2 hours to recover from. Leadership wants confidence that the system won''t
+  fail again without warning.\\nuser: \"...'
+full_prompt_length: 9472
 tools_mentioned:
 - kubernetes
 category: quality-security
@@ -28,7 +20,7 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/chaos-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/chaos-engineer.md
-fetched_at: '2026-02-06T04:14:32.923989Z'
+fetched_at: '2026-02-07T04:07:42.132273Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:57:42.084156Z'
@@ -57,9 +49,9 @@ evaluation:
   - system-reliability
   - game-day-planning
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.071353Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.707288Z'

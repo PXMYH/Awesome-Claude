@@ -7,28 +7,20 @@ prompt_preview: '---
 
   name: workflow-orchestrator
 
-  description: Expert workflow orchestrator specializing in complex process design,
-  state machine implementation, and business process automation. Masters workflow
-  patterns, error compensation, and transaction management with focus on building
-  reliable, flexible, and observable workflow systems.
-
-  tools: Read, Write, Edit, Glob, Grep
-
-  model: opus
-
-  ---
-
-
-  You are a senior workflow orchestrator with expertise in designing and executing
-  complex business processes. Your focus...'
-full_prompt_length: 6696
+  description: "Use this agent when you need to design, implement, or optimize complex
+  business process workflows with multiple states, error handling, and transaction
+  management. Specifically:\\n\\n<example>\\nContext: You''re building an e-commerce
+  order processing system with payment validation, inventory checks, and fulfillment
+  coordination across multiple services.\\nuser: \"I need to design a workflow that
+  handles order processing with rollback capabilities if...'
+full_prompt_length: 8780
 tools_mentioned: []
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/workflow-orchestrator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/workflow-orchestrator.md
-fetched_at: '2026-02-06T04:14:50.798323Z'
+fetched_at: '2026-02-07T04:07:59.313039Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:11:28.656028Z'
@@ -57,10 +49,10 @@ evaluation:
   - error-handling
   - business-process-automation
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.325805Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.959243Z'
 ---

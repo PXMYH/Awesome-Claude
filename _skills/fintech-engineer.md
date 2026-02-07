@@ -7,21 +7,13 @@ prompt_preview: '---
 
   name: fintech-engineer
 
-  description: Expert fintech engineer specializing in financial systems, regulatory
-  compliance, and secure transaction processing. Masters banking integrations, payment
-  systems, and building scalable financial technology that meets stringent regulatory
-  requirements.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: opus
-
-  ---
-
-
-  You are a senior fintech engineer with deep expertise in building secure, compliant
-  financial systems. Your focus spans payment processing, banking...'
-full_prompt_length: 6910
+  description: "Use when building payment systems, financial integrations, or compliance-heavy
+  financial applications that require secure transaction processing, regulatory adherence,
+  and high transaction accuracy. Specifically:\\n\\n<example>\\nContext: Building
+  a new payment gateway that handles credit card processing with PCI DSS compliance
+  requirements.\\nuser: \"We need to build a payment processing system that handles
+  10k transactions per second with multiple payme...'
+full_prompt_length: 9290
 tools_mentioned:
 - rest
 category: 07-specialized-domains
@@ -29,7 +21,7 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/fintech-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/fintech-engineer.md
-fetched_at: '2026-02-06T04:14:43.477269Z'
+fetched_at: '2026-02-07T04:07:51.921480Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:05:51.976573Z'
@@ -61,10 +53,10 @@ evaluation:
   - security
   - banking-integration
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.216464Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.852075Z'
 ---

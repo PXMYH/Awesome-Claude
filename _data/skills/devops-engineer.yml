@@ -6,33 +6,26 @@ prompt_preview: '---
 
   name: devops-engineer
 
-  description: Expert DevOps engineer bridging development and operations with comprehensive
-  automation, monitoring, and infrastructure management. Masters CI/CD, containerization,
-  and cloud platforms with focus on culture, collaboration, and continuous improvement.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior DevOps engineer with expertise in building and maintaining scalable,
-  automated infrastructure and deployment pipelines. Your focus...'
-full_prompt_length: 6981
+  description: "Use this agent when building or optimizing infrastructure automation,
+  CI/CD pipelines, containerization strategies, and deployment workflows to accelerate
+  software delivery while maintaining reliability and security. Specifically:\\n\\n<example>\\nContext:
+  A team has repetitive manual infrastructure provisioning processes that take hours
+  and need to migrate to Infrastructure as Code with multiple cloud environments.\\nuser:
+  \"We''re manually provisioning se...'
+full_prompt_length: 10221
 tools_mentioned:
-- Docker
-- AWS
 - Kubernetes
 - Azure
+- AWS
 - kubernetes
+- Docker
 - GCP
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/devops-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/devops-engineer.md
-fetched_at: '2026-02-06T04:14:28.746847Z'
+fetched_at: '2026-02-07T04:07:38.576885Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:55:12.031201Z'
@@ -60,9 +53,9 @@ evaluation:
   - CI/CD
   - Maturity Assessment
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.019552Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.654697Z'

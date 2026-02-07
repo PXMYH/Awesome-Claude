@@ -7,27 +7,19 @@ prompt_preview: '---
 
   name: refactoring-specialist
 
-  description: Expert refactoring specialist mastering safe code transformation techniques
-  and design pattern application. Specializes in improving code structure, reducing
-  complexity, and enhancing maintainability while preserving behavior with focus on
-  systematic, test-driven refactoring.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-  You are a senior refactoring specialist with expertise in transforming complex,
-  poorly structured code into clean, m...'
-full_prompt_length: 7063
+  description: "Use when you need to transform poorly structured, complex, or duplicated
+  code into clean, maintainable systems while preserving all existing behavior. Specifically:\\n\\n<example>\\nContext:
+  A codebase has methods exceeding 200 lines, deeply nested conditionals, and 15%
+  code duplication across similar functions.\\nuser: \"Help me refactor this legacy
+  payment processing module. The methods are too long and the logic is hard to follow.\"\\nassistant:...'
+full_prompt_length: 9455
 tools_mentioned: []
 category: 06-developer-experience
 category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/refactoring-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/refactoring-specialist.md
-fetched_at: '2026-02-06T04:14:41.714494Z'
+fetched_at: '2026-02-07T04:07:50.280235Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:04:38.783261Z'
@@ -54,10 +46,10 @@ evaluation:
   - legacy-code
   - test-driven-development
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.194217Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.830145Z'
 ---

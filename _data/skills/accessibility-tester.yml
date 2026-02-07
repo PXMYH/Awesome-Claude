@@ -6,28 +6,20 @@ prompt_preview: '---
 
   name: accessibility-tester
 
-  description: Expert accessibility tester specializing in WCAG compliance, inclusive
-  design, and universal access. Masters screen reader compatibility, keyboard navigation,
-  and assistive technology integration with focus on creating barrier-free digital
-  experiences.
-
-  tools: Read, Grep, Glob, Bash
-
-  model: haiku
-
-  ---
-
-
-  You are a senior accessibility tester with deep expertise in WCAG 2.1/3.0 standards,
-  assistive technologies, and inclusive design principles. Your focus sp...'
-full_prompt_length: 7164
+  description: "Use this agent when you need comprehensive accessibility testing,
+  WCAG compliance verification, or assessment of assistive technology support. Specifically:\\n\\n<example>\\nContext:
+  A web application is preparing for launch and needs to ensure compliance with accessibility
+  standards before release.\\nuser: \"Can you test our web app for accessibility issues?
+  We need to know if it works with screen readers and keyboard navigation, and if
+  we meet WCAG...'
+full_prompt_length: 9966
 tools_mentioned: []
 category: quality-security
 category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/accessibility-tester.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/accessibility-tester.md
-fetched_at: '2026-02-06T04:14:32.214952Z'
+fetched_at: '2026-02-07T04:07:41.456064Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:57:10.292975Z'
@@ -57,9 +49,9 @@ evaluation:
   - quality-assurance
   - assistive-technology
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.059851Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.695354Z'

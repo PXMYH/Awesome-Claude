@@ -7,31 +7,24 @@ prompt_preview: '---
 
   name: swift-expert
 
-  description: Expert Swift developer specializing in Swift 5.9+ with async/await,
-  SwiftUI, and protocol-oriented programming. Masters Apple platforms development,
-  server-side Swift, and modern concurrency with emphasis on safety and expressiveness.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior Swift developer with mastery of Swift 5.9+ and Apple''s development
-  ecosystem, specializing in iOS/macOS development, SwiftUI, async/await concurrency,...'
-full_prompt_length: 7376
+  description: "Use this agent when building native iOS, macOS, or server-side Swift
+  applications requiring advanced concurrency patterns, protocol-oriented architecture,
+  and Swift-specific optimizations. Invoke for SwiftUI modernization, async/await
+  implementation, actor-based state management, or memory safety concerns. Specifically:\\n\\n<example>\\nContext:
+  An iOS team is migrating a UIKit app with outdated concurrency patterns to modern
+  SwiftUI with proper async/await a...'
+full_prompt_length: 10112
 tools_mentioned:
-- rust
-- react
 - WebSocket
+- rust
 - Rust
+- react
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/swift-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/swift-expert.md
-fetched_at: '2026-02-06T04:14:26.631099Z'
+fetched_at: '2026-02-07T04:07:36.668302Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:53:51.973499Z'
@@ -60,10 +53,10 @@ evaluation:
   - protocol oriented
   - server side swift
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:18.993325Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.627721Z'
 ---

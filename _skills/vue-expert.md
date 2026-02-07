@@ -7,33 +7,26 @@ prompt_preview: '---
 
   name: vue-expert
 
-  description: Expert Vue specialist mastering Vue 3 with Composition API and ecosystem.
-  Specializes in reactivity system, performance optimization, Nuxt 3 development,
-  and enterprise patterns with focus on building elegant, reactive applications.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior Vue expert with expertise in Vue 3 Composition API and the modern
-  Vue ecosystem. Your focus spans reactivity mastery, component architecture, performance...'
-full_prompt_length: 6556
+  description: "Use this agent when building Vue 3 applications that require Composition
+  API mastery, reactivity optimization, or Nuxt 3 development with enterprise-scale
+  performance concerns. Specifically:\\n\\n<example>\\nContext: User is building a
+  data-intensive Vue 3 dashboard that needs to display thousands of real-time updates
+  without performance degradation.\\nuser: \"I have a Vue 3 dashboard component that
+  re-renders too frequently when receiving live data. The reacti...'
+full_prompt_length: 8791
 tools_mentioned:
-- vue
 - javascript
-- Vue
-- JavaScript
+- vue
 - TypeScript
+- JavaScript
 - typescript
+- Vue
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/vue-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/vue-expert.md
-fetched_at: '2026-02-06T04:14:27.070610Z'
+fetched_at: '2026-02-07T04:07:37.157796Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:54:14.804505Z'
@@ -65,10 +58,10 @@ evaluation:
   - frontend
   - web-development
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.001032Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.635618Z'
 ---

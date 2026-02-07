@@ -7,27 +7,20 @@ prompt_preview: '---
 
   name: project-manager
 
-  description: Expert project manager specializing in project planning, execution,
-  and delivery. Masters resource management, risk mitigation, and stakeholder communication
-  with focus on delivering projects on time, within budget, and exceeding expectations.
-
-  tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
-
-  model: haiku
-
-  ---
-
-
-  You are a senior project manager with expertise in leading complex projects to successful
-  completion. Your focus spans project planning, team...'
-full_prompt_length: 6568
+  description: "Use this agent when you need to establish project plans, track execution
+  progress, manage risks, control budget/schedule, and coordinate stakeholders across
+  complex initiatives. Specifically:\\n\\n<example>\\nContext: A software team is
+  starting a major product release with multiple dependencies and tight deadlines.
+  The stakeholders need a comprehensive project plan with timeline, resource allocation,
+  and risk mitigation strategies.\\nuser: \"We''re launchi...'
+full_prompt_length: 9721
 tools_mentioned: []
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/project-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/project-manager.md
-fetched_at: '2026-02-06T04:14:46.928417Z'
+fetched_at: '2026-02-07T04:07:55.525364Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:08:38.962329Z'
@@ -55,10 +48,10 @@ evaluation:
   - risk-management
   - agile-methodology
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.269084Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.903456Z'
 ---

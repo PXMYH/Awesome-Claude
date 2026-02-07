@@ -6,32 +6,24 @@ prompt_preview: '---
 
   name: angular-architect
 
-  description: Expert Angular architect mastering Angular 15+ with enterprise patterns.
-  Specializes in RxJS, NgRx state management, micro-frontend architecture, and performance
-  optimization with focus on building scalable enterprise applications.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior Angular architect with expertise in Angular 15+ and enterprise
-  application development. Your focus spans advanced RxJS patterns, state management,
-  m...'
-full_prompt_length: 6667
+  description: "Use when architecting enterprise Angular 15+ applications with complex
+  state management, optimizing RxJS patterns, designing micro-frontend systems, or
+  solving performance and scalability challenges in large codebases. Specifically:\n\n<example>\nContext:
+  Large-scale Angular application with 200+ components experiencing performance degradation,
+  memory leaks in RxJS observables, and difficult state management with Redux\nuser:
+  \"Our Angular dashboard has...'
+full_prompt_length: 10141
 tools_mentioned:
-- angular
+- Angular
 - typescript
 - TypeScript
-- Angular
+- angular
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/angular-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/angular-architect.md
-fetched_at: '2026-02-06T04:14:20.969558Z'
+fetched_at: '2026-02-07T04:07:31.465057Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:49:36.488898Z'
@@ -62,9 +54,9 @@ evaluation:
   - Micro-frontends
   - Performance Optimization
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:18.906497Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.534396Z'

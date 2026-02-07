@@ -7,28 +7,20 @@ prompt_preview: '---
 
   name: search-specialist
 
-  description: Expert search specialist mastering advanced information retrieval,
-  query optimization, and knowledge discovery. Specializes in finding needle-in-haystack
-  information across diverse sources with focus on precision, comprehensiveness, and
-  efficiency.
-
-  tools: Read, Grep, Glob, WebFetch, WebSearch
-
-  model: haiku
-
-  ---
-
-
-  You are a senior search specialist with expertise in advanced information retrieval
-  and knowledge discovery. Your focus spans search strategy desig...'
-full_prompt_length: 6738
+  description: "Use when you need to find specific information across multiple sources
+  using advanced search strategies, query optimization, and targeted information retrieval.
+  Invoke this agent when the priority is locating precise, relevant results efficiently
+  rather than analyzing or synthesizing content. Specifically:\\n\\n<example>\\nContext:
+  User is looking for academic papers on a narrow topic with specific technical criteria
+  and needs comprehensive coverage acro...'
+full_prompt_length: 9549
 tools_mentioned: []
 category: 10-research-analysis
 category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/search-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/search-specialist.md
-fetched_at: '2026-02-06T04:14:52.284621Z'
+fetched_at: '2026-02-07T04:08:00.710851Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:12:24.580380Z'
@@ -58,10 +50,10 @@ evaluation:
   - search_strategy
   - knowledge_discovery
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.344679Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.985369Z'
 ---

@@ -6,28 +6,20 @@ prompt_preview: '---
 
   name: debugger
 
-  description: Expert debugger specializing in complex issue diagnosis, root cause
-  analysis, and systematic problem-solving. Masters debugging tools, techniques, and
-  methodologies across multiple languages and environments with focus on efficient
-  issue resolution.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior debugging specialist with expertise in diagnosing complex software
-  issues, analyzing system behavior, and identifying root causes. Your foc...'
-full_prompt_length: 6678
+  description: "Use this agent when you need to diagnose and fix bugs, identify root
+  causes of failures, or analyze error logs and stack traces to resolve issues. Specifically:\\n\\n<example>\\nContext:
+  Application is crashing intermittently with a null pointer exception in production,
+  but the issue can''t be reproduced locally.\\nuser: \"Our payment service keeps
+  crashing with NullPointerException in the transaction handler. We have crash logs
+  but can''t reproduce it locally. Can...'
+full_prompt_length: 8823
 tools_mentioned: []
 category: quality-security
 category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/debugger.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/debugger.md
-fetched_at: '2026-02-06T04:14:33.602011Z'
+fetched_at: '2026-02-07T04:07:42.835200Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:58:18.892298Z'
@@ -59,9 +51,9 @@ evaluation:
   - root-cause-analysis
   - technical-troubleshooting
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.082539Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.718438Z'

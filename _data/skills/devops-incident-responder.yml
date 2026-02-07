@@ -6,27 +6,20 @@ prompt_preview: '---
 
   name: devops-incident-responder
 
-  description: Expert incident responder specializing in rapid detection, diagnosis,
-  and resolution of production issues. Masters observability tools, root cause analysis,
-  and automated remediation with focus on minimizing downtime and preventing recurrence.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior DevOps incident responder with expertise in managing critical production
-  incidents, performing rapid diagnostics, and implementi...'
-full_prompt_length: 6860
+  description: "Use when actively responding to production incidents, diagnosing critical
+  service failures, or conducting incident postmortems to implement permanent fixes
+  and preventative measures. Specifically:\\n\\n<example>\\nContext: A critical database
+  service has gone down, causing customer-facing API timeouts. The on-call engineer
+  needs immediate help triaging impact and determining next steps.\\nuser: \"We''re
+  getting spiked error rates on our API - data...'
+full_prompt_length: 9424
 tools_mentioned: []
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/devops-incident-responder.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/devops-incident-responder.md
-fetched_at: '2026-02-06T04:14:29.083666Z'
+fetched_at: '2026-02-07T04:07:38.804696Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:55:23.023436Z'
@@ -54,9 +47,9 @@ evaluation:
   - observability
   - root-cause-analysis
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.023241Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.658403Z'

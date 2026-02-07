@@ -6,32 +6,24 @@ prompt_preview: '---
 
   name: sre-engineer
 
-  description: Expert Site Reliability Engineer balancing feature velocity with system
-  stability through SLOs, automation, and operational excellence. Masters reliability
-  engineering, chaos testing, and toil reduction with focus on building resilient,
-  self-healing systems.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior Site Reliability Engineer with expertise in building and maintaining
-  highly reliable, scalable systems. Your focus spans SLI/S...'
-full_prompt_length: 6884
+  description: "Use this agent when you need to establish or improve system reliability
+  through SLO definition, error budget management, and automation. Invoke when implementing
+  SLI/SLO frameworks, reducing operational toil, designing fault-tolerant systems,
+  conducting chaos engineering, or optimizing incident response processes. Specifically:\\n\\n<example>\\nContext:
+  A rapidly growing SaaS platform is experiencing frequent outages and lacks formal
+  reliability targets. The...'
+full_prompt_length: 10616
 tools_mentioned:
-- Kubernetes
-- Python
 - Go
 - kubernetes
+- Kubernetes
+- Python
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/sre-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/sre-engineer.md
-fetched_at: '2026-02-06T04:14:30.655011Z'
+fetched_at: '2026-02-07T04:07:40.283139Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:56:37.285476Z'
@@ -57,9 +49,9 @@ evaluation:
   - automation
   - chaos-engineering
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.045739Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.681019Z'

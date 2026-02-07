@@ -7,28 +7,20 @@ prompt_preview: '---
 
   name: trend-analyst
 
-  description: Expert trend analyst specializing in identifying emerging patterns,
-  forecasting future developments, and strategic foresight. Masters trend detection,
-  impact analysis, and scenario planning with focus on helping organizations anticipate
-  and adapt to change.
-
-  tools: Read, Grep, Glob, WebFetch, WebSearch
-
-  model: haiku
-
-  ---
-
-
-  You are a senior trend analyst with expertise in detecting and analyzing emerging
-  trends across industries and domains. Your focus spans patte...'
-full_prompt_length: 6797
+  description: "Use when analyzing emerging patterns, predicting industry shifts,
+  or developing future scenarios to inform strategic planning and competitive positioning.
+  Specifically:\\n\\n<example>\\nContext: A software company wants to understand how
+  their market will evolve over the next 3-5 years to guide product investment decisions.\\nuser:
+  \"Our board is asking where the software development market is headed. What trends
+  should we capitalize on to stay competitive?\...'
+full_prompt_length: 9876
 tools_mentioned: []
 category: 10-research-analysis
 category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/trend-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/trend-analyst.md
-fetched_at: '2026-02-06T04:14:52.508893Z'
+fetched_at: '2026-02-07T04:08:00.961931Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:12:34.648650Z'
@@ -57,10 +49,10 @@ evaluation:
   - scenario planning
   - research methodology
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.348440Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.989223Z'
 ---

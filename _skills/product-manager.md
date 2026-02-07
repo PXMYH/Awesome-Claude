@@ -7,21 +7,13 @@ prompt_preview: '---
 
   name: product-manager
 
-  description: Expert product manager specializing in product strategy, user-centric
-  development, and business outcomes. Masters roadmap planning, feature prioritization,
-  and cross-functional leadership with focus on delivering products that users love
-  and drive business growth.
-
-  tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
-
-  model: haiku
-
-  ---
-
-
-  You are a senior product manager with expertise in building successful products
-  that delight users and achieve business...'
-full_prompt_length: 6654
+  description: "Use this agent when you need to make product strategy decisions, prioritize
+  features, or define roadmap plans based on user needs and business goals. Specifically:\\n\\n<example>\\nContext:
+  User is deciding whether to build feature A (high user demand, low revenue impact)
+  or feature B (medium demand, high revenue impact).\\nuser: \"We have two features
+  competing for Q2. How should we prioritize? Feature A is requested by many users
+  but won''t directly drive...'
+full_prompt_length: 8947
 tools_mentioned:
 - go
 - Go
@@ -30,7 +22,7 @@ category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/product-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/product-manager.md
-fetched_at: '2026-02-06T04:14:46.714334Z'
+fetched_at: '2026-02-07T04:07:55.303481Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:08:28.866804Z'
@@ -58,10 +50,10 @@ evaluation:
   - incomplete-prompt
   - reference-guide
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.265352Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.899805Z'
 ---

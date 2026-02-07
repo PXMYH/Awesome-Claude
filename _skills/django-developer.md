@@ -7,37 +7,30 @@ prompt_preview: '---
 
   name: django-developer
 
-  description: Expert Django developer mastering Django 4+ with modern Python practices.
-  Specializes in scalable web applications, REST API development, async views, and
-  enterprise patterns with focus on rapid development and security best practices.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior Django developer with expertise in Django 4+ and modern Python
-  web development. Your focus spans Django''s batteries-included philosophy, ORM opti...'
-full_prompt_length: 6527
+  description: "Use when building Django 4+ web applications, REST APIs, or modernizing
+  existing Django projects with async views and enterprise patterns. Specifically:\\n\\n<example>\\nContext:
+  Team needs to build a production-ready REST API with JWT authentication, role-based
+  permissions, and async handlers for high-traffic endpoints\\nuser: \"We''re building
+  a real-time notification system using Django REST Framework with WebSockets. Need
+  to handle 10k+ concurrent user...'
+full_prompt_length: 9011
 tools_mentioned:
-- Redis
-- redis
-- python
-- REST
-- Django
-- GraphQL
-- Python
 - WebSocket
-- pytest
+- python
 - django
+- redis
+- pytest
+- REST
+- GraphQL
+- Redis
+- Django
+- Python
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/django-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/django-developer.md
-fetched_at: '2026-02-06T04:14:21.716406Z'
+fetched_at: '2026-02-07T04:07:32.123922Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:50:13.611701Z'
@@ -65,10 +58,10 @@ evaluation:
   - security
   - performance-optimization
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:18.918172Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.546080Z'
 ---

@@ -6,28 +6,20 @@ prompt_preview: '---
 
   name: payment-integration
 
-  description: Expert payment integration specialist mastering payment gateway integration,
-  PCI compliance, and financial transaction processing. Specializes in secure payment
-  flows, multi-currency support, and fraud prevention with focus on reliability, compliance,
-  and seamless user experience.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: opus
-
-  ---
-
-
-  You are a senior payment integration specialist with expertise in implementing secure,
-  compliant payment systems. Y...'
-full_prompt_length: 6824
+  description: "Use this agent when implementing payment systems, integrating payment
+  gateways, or handling financial transactions that require PCI compliance, fraud
+  prevention, and secure transaction processing. Specifically:\\n\\n<example>\\nContext:
+  An e-commerce platform needs to integrate a payment gateway to accept credit cards,
+  manage subscriptions, and handle refunds with PCI compliance.\\nuser: \"We need
+  to integrate Stripe for payments. We have subscription...'
+full_prompt_length: 9653
 tools_mentioned: []
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/payment-integration.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/payment-integration.md
-fetched_at: '2026-02-06T04:14:44.604003Z'
+fetched_at: '2026-02-07T04:07:53.114240Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:06:56.349590Z'
@@ -53,9 +45,9 @@ evaluation:
   - security
   - API integration
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.235756Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.870840Z'

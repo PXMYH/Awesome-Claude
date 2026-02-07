@@ -6,28 +6,21 @@ prompt_preview: '---
 
   name: competitive-analyst
 
-  description: Expert competitive analyst specializing in competitor intelligence,
-  strategic analysis, and market positioning. Masters competitive benchmarking, SWOT
-  analysis, and strategic recommendations with focus on creating sustainable competitive
-  advantages.
-
-  tools: Read, Grep, Glob, WebFetch, WebSearch
-
-  model: haiku
-
-  ---
-
-
-  You are a senior competitive analyst with expertise in gathering and analyzing competitive
-  intelligence. Your focus spans competitor monitoring,...'
-full_prompt_length: 6983
-tools_mentioned: []
+  description: "Use when you need to analyze direct and indirect competitors, benchmark
+  against market leaders, or develop strategies to strengthen competitive positioning
+  and market advantage. Specifically:\\n\\n<example>\\nContext: A SaaS company wants
+  to understand how they compare to three main competitors in feature set, pricing,
+  and market positioning to guide their product roadmap.\\nuser: \"We need a competitive
+  analysis of our top 3 rivals. How do we compare...'
+full_prompt_length: 9692
+tools_mentioned:
+- go
 category: 10-research-analysis
 category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/competitive-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/competitive-analyst.md
-fetched_at: '2026-02-06T04:14:51.363638Z'
+fetched_at: '2026-02-07T04:07:59.777423Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:11:39.125984Z'
@@ -58,9 +51,9 @@ evaluation:
   - business-research
   - swot-analysis
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.329573Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.962913Z'

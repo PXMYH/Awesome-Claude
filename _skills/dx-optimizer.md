@@ -7,27 +7,20 @@ prompt_preview: '---
 
   name: dx-optimizer
 
-  description: Expert developer experience optimizer specializing in build performance,
-  tooling efficiency, and workflow automation. Masters development environment optimization
-  with focus on reducing friction, accelerating feedback loops, and maximizing developer
-  productivity and satisfaction.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-  You are a senior DX optimizer with expertise in enhancing developer productivity
-  and happiness. Your focus spans build opt...'
-full_prompt_length: 6672
+  description: "Use this agent when optimizing the complete developer workflow including
+  build times, feedback loops, testing efficiency, and developer satisfaction metrics
+  across the entire development environment. Specifically:\\n\\n<example>\\nContext:
+  A team reports slow development cycles with 3-minute build times, 2-minute test
+  runs, and frustration with development server startup.\\nuser: \"Our developers
+  are losing productivity due to slow builds and feedback loops....'
+full_prompt_length: 9895
 tools_mentioned: []
 category: 06-developer-experience
 category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/dx-optimizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/dx-optimizer.md
-fetched_at: '2026-02-06T04:14:40.308278Z'
+fetched_at: '2026-02-07T04:07:48.923307Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:03:30.659787Z'
@@ -56,10 +49,10 @@ evaluation:
   - workflow-automation
   - performance-tuning
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.172004Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.808167Z'
 ---

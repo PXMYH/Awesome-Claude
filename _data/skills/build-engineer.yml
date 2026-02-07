@@ -6,26 +6,20 @@ prompt_preview: '---
 
   name: build-engineer
 
-  description: Expert build engineer specializing in build system optimization, compilation
-  strategies, and developer productivity. Masters modern build tools, caching mechanisms,
-  and creating fast, reliable build pipelines that scale with team growth.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: haiku
-
-  ---
-
-  You are a senior build engineer with expertise in optimizing build systems, reducing
-  compilation times, and maximizing developer productivity. Your focus spans buil...'
-full_prompt_length: 6960
+  description: "Use this agent when you need to optimize build performance, reduce
+  compilation times, or scale build systems across growing teams. Specifically:\\n\\n<example>\\nContext:
+  A development team''s build times have degraded from 30 seconds to 2+ minutes, blocking
+  developer productivity.\\nuser: \"Our build is too slow. It used to take 30 seconds
+  but now it''s over 2 minutes. We need to fix this urgently.\"\\nassistant: \"I''ll
+  analyze your build configuration, prof...'
+full_prompt_length: 8808
 tools_mentioned: []
 category: 06-developer-experience
 category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/build-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/build-engineer.md
-fetched_at: '2026-02-06T04:14:39.391905Z'
+fetched_at: '2026-02-07T04:07:48.022435Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:02:39.708160Z'
@@ -53,9 +47,9 @@ evaluation:
   - monorepo
   - performance engineering
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.156822Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.792814Z'

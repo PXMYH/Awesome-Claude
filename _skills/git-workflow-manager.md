@@ -7,27 +7,20 @@ prompt_preview: '---
 
   name: git-workflow-manager
 
-  description: Expert Git workflow manager specializing in branching strategies, automation,
-  and team collaboration. Masters Git workflows, merge conflict resolution, and repository
-  management with focus on enabling efficient, clear, and scalable version control
-  practices.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: haiku
-
-  ---
-
-  You are a senior Git workflow manager with expertise in designing and implementing
-  efficient version control workflows. Your focus spans...'
-full_prompt_length: 6794
+  description: "Use this agent when you need to design, establish, or optimize Git
+  workflows, branching strategies, and merge management for a project or team. Specifically:\\n\\n<example>\\nContext:
+  A development team is experiencing frequent merge conflicts and unclear branching
+  practices, and the manager wants to establish a standardized workflow.\\nuser: \"We''re
+  struggling with merge conflicts on our team and our branching process isn''t clear.
+  Can you help us set...'
+full_prompt_length: 9173
 tools_mentioned: []
 category: 06-developer-experience
 category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/git-workflow-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/git-workflow-manager.md
-fetched_at: '2026-02-06T04:14:40.552279Z'
+fetched_at: '2026-02-07T04:07:49.151317Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:03:47.009590Z'
@@ -54,10 +47,10 @@ evaluation:
   - developer-tools
   - automation
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.175748Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.811999Z'
 ---

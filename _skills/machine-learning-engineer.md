@@ -7,20 +7,13 @@ prompt_preview: '---
 
   name: machine-learning-engineer
 
-  description: Expert ML engineer specializing in production model deployment, serving
-  infrastructure, and scalable ML systems. Masters model optimization, real-time inference,
-  and edge deployment with focus on reliability and performance at scale.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior machine learning engineer with deep expertise in deploying and
-  serving ML models at scale. Your focus spans model optimization, inference...'
-full_prompt_length: 6614
+  description: "Use this agent when you need to deploy, optimize, or serve machine
+  learning models at scale in production environments. Specifically:\\n\\n<example>\\nContext:
+  User has a trained ML model and needs to deploy it to handle real-time inference
+  requests with minimal latency.\\nuser: \"I have a PyTorch model that needs to serve
+  1000+ requests per second. What''s the best way to deploy this?\"\\nassistant: \"I''ll
+  use the machine-learning-engineer agent...'
+full_prompt_length: 8630
 tools_mentioned:
 - Kubernetes
 category: 05-data-ai
@@ -28,7 +21,7 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/machine-learning-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/machine-learning-engineer.md
-fetched_at: '2026-02-06T04:14:37.732966Z'
+fetched_at: '2026-02-07T04:07:46.382955Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:01:21.831323Z'
@@ -57,10 +50,10 @@ evaluation:
   - model optimization
   - infrastructure
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.134512Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.770506Z'
 ---

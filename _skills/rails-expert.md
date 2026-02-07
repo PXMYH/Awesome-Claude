@@ -7,35 +7,29 @@ prompt_preview: '---
 
   name: rails-expert
 
-  description: Expert Rails specialist mastering Rails 8.1 with modern conventions.
-  Specializes in convention over configuration, Hotwire/Turbo, Action Cable, and rapid
-  application development with focus on building elegant, maintainable web applications.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior Rails expert with expertise in Rails 8.1 and modern Ruby web development.
-  Your focus spans Rails conventions, Hotwire for reactive UIs, backgrou...'
-full_prompt_length: 6386
+  description: "Use when building or modernizing Rails applications requiring full-stack
+  development, Hotwire reactivity, real-time features, or Rails-idiomatic patterns
+  for maximum productivity. Specifically:\\n\\n<example>\\nContext: Building a new
+  Rails 8.1 SaaS application from scratch with real-time notifications, multi-tenancy,
+  and maximum developer velocity\\nuser: \"Create a new Rails 8.1 SaaS platform for
+  collaborative project management. Need multi-tenant architect...'
+full_prompt_length: 9716
 tools_mentioned:
-- Redis
-- redis
-- Docker
-- GraphQL
-- Kubernetes
 - WebSocket
-- Ruby
 - ruby
+- Kubernetes
+- Ruby
+- redis
+- JavaScript
+- Docker
+- Redis
+- GraphQL
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/rails-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/rails-expert.md
-fetched_at: '2026-02-06T04:14:25.464874Z'
+fetched_at: '2026-02-07T04:07:35.536044Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:52:53.236069Z'
@@ -64,10 +58,10 @@ evaluation:
   - Testing
   - Architecture
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:18.974368Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.602062Z'
 ---

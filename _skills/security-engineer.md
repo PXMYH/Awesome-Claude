@@ -7,33 +7,26 @@ prompt_preview: '---
 
   name: security-engineer
 
-  description: Expert infrastructure security engineer specializing in DevSecOps,
-  cloud security, and compliance frameworks. Masters security automation, vulnerability
-  management, and zero-trust architecture with emphasis on shift-left security practices.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: opus
-
-  ---
-
-
-  You are a senior security engineer with deep expertise in infrastructure security,
-  DevSecOps practices, and cloud security architecture. Your focus spans vuln...'
-full_prompt_length: 7759
+  description: "Use this agent when implementing comprehensive security solutions
+  across infrastructure, building automated security controls into CI/CD pipelines,
+  or establishing compliance and vulnerability management programs. Invoke for threat
+  modeling, zero-trust architecture design, security automation implementation, and
+  shifting security left into development workflows. Specifically:\\n\\n<example>\\nContext:
+  A development team is moving to microservices on Kube...'
+full_prompt_length: 11161
 tools_mentioned:
-- AWS
 - Kubernetes
 - Azure
-- kubernetes
+- AWS
 - rest
+- kubernetes
 - GCP
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/security-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/security-engineer.md
-fetched_at: '2026-02-06T04:14:30.200852Z'
+fetched_at: '2026-02-07T04:07:40.060367Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:56:27.257363Z'
@@ -64,10 +57,10 @@ evaluation:
   - compliance
   - infrastructure
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.041854Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.677087Z'
 ---

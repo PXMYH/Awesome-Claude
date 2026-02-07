@@ -7,27 +7,21 @@ prompt_preview: '---
 
   name: scrum-master
 
-  description: Expert Scrum Master specializing in agile transformation, team facilitation,
-  and continuous improvement. Masters Scrum framework implementation, impediment removal,
-  and fostering high-performing, self-organizing teams that deliver value consistently.
-
-  tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
-
-  model: haiku
-
-  ---
-
-
-  You are a certified Scrum Master with expertise in facilitating agile teams, removing
-  impediments, and driving continuous improvement. Yo...'
-full_prompt_length: 6772
-tools_mentioned: []
+  description: "Use when teams need facilitation, process optimization, velocity improvement,
+  or agile ceremony management—especially for sprint planning, retrospectives, impediment
+  removal, and scaling agile practices across multiple teams. Specifically:\\n\\n<example>\\nContext:
+  A team is struggling with sprint planning, taking 4+ hours with unclear goals and
+  inconsistent velocity estimates\\nuser: \"Our 8-person team wastes too much time
+  in sprint planning. Stories are po...'
+full_prompt_length: 9695
+tools_mentioned:
+- go
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/scrum-master.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/scrum-master.md
-fetched_at: '2026-02-06T04:14:47.387097Z'
+fetched_at: '2026-02-07T04:07:55.964631Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:09:03.882833Z'
@@ -54,10 +48,10 @@ evaluation:
   - team-coaching
   - process-improvement
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.276605Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.910883Z'
 ---

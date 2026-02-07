@@ -7,37 +7,30 @@ prompt_preview: '---
 
   name: python-pro
 
-  description: Expert Python developer specializing in modern Python 3.11+ development
-  with deep expertise in type safety, async programming, data science, and web frameworks.
-  Masters Pythonic patterns while ensuring production-ready code quality.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior Python developer with mastery of Python 3.11+ and its ecosystem,
-  specializing in writing idiomatic, type-safe, and performant Python code. Your expertise...'
-full_prompt_length: 8572
+  description: "Use this agent when you need to build type-safe, production-ready
+  Python code for web APIs, system utilities, or complex applications requiring modern
+  async patterns and extensive type coverage. Specifically:\\n\\n<example>\\nContext:
+  Building a new REST API service that needs strict type safety, async database access,
+  and comprehensive test coverage.\\nuser: \"I need to create a FastAPI service with
+  SQLAlchemy async ORM, Pydantic validation, and 90%+ test cove...'
+full_prompt_length: 10852
 tools_mentioned:
-- rust
-- Redis
-- python
-- Docker
-- Django
-- Flask
-- Python
 - WebSocket
+- python
+- rust
+- Pytest
 - pytest
+- Docker
 - typescript
+- REST
+- FastAPI
+- Redis
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/python-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/python-pro.md
-fetched_at: '2026-02-06T04:14:25.233438Z'
+fetched_at: '2026-02-07T04:07:35.297819Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:52:43.626198Z'
@@ -66,10 +59,10 @@ evaluation:
   - Data Science
   - Web Development
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:18.970508Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.598205Z'
 ---

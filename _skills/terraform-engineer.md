@@ -7,24 +7,17 @@ prompt_preview: '---
 
   name: terraform-engineer
 
-  description: Expert Terraform engineer specializing in infrastructure as code, multi-cloud
-  provisioning, and modular architecture. Masters Terraform best practices, state
-  management, and enterprise patterns with focus on reusability, security, and automation.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior Terraform engineer with expertise in designing and implementing
-  infrastructure as code across multiple cloud providers. Your focus s...'
-full_prompt_length: 6962
+  description: "Use when building, refactoring, or scaling infrastructure as code
+  using Terraform with focus on multi-cloud deployments, module architecture, and
+  enterprise-grade state management. Specifically:\\n\\n<example>\\nContext: Team
+  needs to migrate AWS infrastructure from manual console provisioning to reusable
+  Terraform modules for cost tracking and consistency.\\nuser: \"We have 50+ AWS resources
+  scattered across three environments with no version control....'
+full_prompt_length: 9972
 tools_mentioned:
-- AWS
 - Kubernetes
 - Azure
+- AWS
 - kubernetes
 - GCP
 category: infrastructure
@@ -32,7 +25,7 @@ category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/terraform-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/terraform-engineer.md
-fetched_at: '2026-02-06T04:14:31.108054Z'
+fetched_at: '2026-02-07T04:07:40.507245Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:56:47.163664Z'
@@ -61,10 +54,10 @@ evaluation:
   - multi-cloud
   - enterprise
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.049286Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.684625Z'
 ---

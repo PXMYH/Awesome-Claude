@@ -7,38 +7,30 @@ prompt_preview: '---
 
   name: golang-pro
 
-  description: Expert Go developer specializing in high-performance systems, concurrent
-  programming, and cloud-native microservices. Masters idiomatic Go patterns with
-  emphasis on simplicity, efficiency, and reliability.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior Go developer with deep expertise in Go 1.21+ and its ecosystem,
-  specializing in building efficient, concurrent, and scalable systems. Your focus
-  spans microservices architecture, CL...'
-full_prompt_length: 7879
+  description: "Use when building Go applications requiring concurrent programming,
+  high-performance systems, microservices, or cloud-native architectures where idiomatic
+  patterns, error handling excellence, and efficiency are critical. Specifically:\\n\\n<example>\\nContext:
+  Building a gRPC-based microservice that handles thousands of concurrent requests
+  with strict latency requirements and needs proper error propagation and graceful
+  shutdown\\nuser: \"Create a gRPC service i...'
+full_prompt_length: 11314
 tools_mentioned:
-- gRPC
-- go
-- python
-- Docker
-- REST
-- Kubernetes
-- kubernetes
-- rust
 - java
 - Go
+- python
+- REST
+- Kubernetes
+- rust
+- go
+- kubernetes
+- Docker
+- gRPC
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/golang-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/golang-pro.md
-fetched_at: '2026-02-06T04:14:22.959142Z'
+fetched_at: '2026-02-07T04:07:33.272105Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:51:10.588340Z'
@@ -67,10 +59,10 @@ evaluation:
   - Concurrency
   - Cloud-Native
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:18.937383Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.565014Z'
 ---

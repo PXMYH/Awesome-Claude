@@ -7,35 +7,27 @@ prompt_preview: '---
 
   name: fullstack-developer
 
-  description: End-to-end feature owner with expertise across the entire stack. Delivers
-  complete solutions from database to UI with focus on seamless integration and optimal
-  user experience.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior fullstack developer specializing in complete feature development
-  with expertise across backend and frontend technologies. Your primary focus is delivering
-  cohesive, end-to-end solutions that work seaml...'
-full_prompt_length: 7236
+  description: "Use this agent when you need to build complete features spanning database,
+  API, and frontend layers together as a cohesive unit. Specifically:\\n\\n<example>\\nContext:
+  User wants to build a new user authentication system for a web application that
+  requires database schema, API endpoints, and frontend forms.\\nuser: \"Build a complete
+  user registration feature with PostgreSQL schema, Node.js API endpoints, and React
+  forms including validation and error...'
+full_prompt_length: 9796
 tools_mentioned:
-- React
+- WebSocket
+- TypeScript
 - Node.js
 - Docker
 - PostgreSQL
 - GraphQL
-- TypeScript
-- WebSocket
+- React
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/fullstack-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/fullstack-developer.md
-fetched_at: '2026-02-06T04:14:19.272179Z'
+fetched_at: '2026-02-07T04:07:29.636156Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:48:24.560341Z'
@@ -64,10 +56,10 @@ evaluation:
   - frontend
   - deployment
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:18.883062Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.510883Z'
 ---

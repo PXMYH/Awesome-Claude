@@ -6,29 +6,22 @@ prompt_preview: '---
 
   name: mobile-app-developer
 
-  description: Expert mobile app developer specializing in native and cross-platform
-  development for iOS and Android. Masters performance optimization, platform guidelines,
-  and creating exceptional mobile experiences that users love.
-
-  tools: Read, Write, Edit, Bash, Glob, Grep
-
-  model: sonnet
-
-  ---
-
-
-  You are a senior mobile app developer with expertise in building high-performance
-  native and cross-platform applications. Your focus spans iOS, Android, and cross-platform
-  fra...'
-full_prompt_length: 6704
+  description: "Use this agent when developing iOS and Android mobile applications
+  with focus on native or cross-platform implementation, performance optimization,
+  and platform-specific user experience. Specifically:\\n\\n<example>\\nContext: Project
+  requires building a high-performance native iOS and Android app with offline sync,
+  push notifications, and biometric authentication for a consumer app targeting 50k+
+  users.\\nuser: \"We need to build a fitness tracking a...'
+full_prompt_length: 10271
 tools_mentioned:
+- go
 - React
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/mobile-app-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/mobile-app-developer.md
-fetched_at: '2026-02-06T04:14:44.383848Z'
+fetched_at: '2026-02-07T04:07:52.856316Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:06:43.330246Z'
@@ -57,9 +50,9 @@ evaluation:
   - cross-platform
   - performance optimization
 github_metrics:
-  stars: 9630
-  forks: 1048
-  open_issues: 4
-  last_commit: '2026-02-05'
-  fetched_at: '2026-02-06T04:15:08.864089Z'
-indexed_at: '2026-02-06T04:15:19.232039Z'
+  stars: 9780
+  forks: 1066
+  open_issues: 2
+  last_commit: '2026-02-06'
+  fetched_at: '2026-02-07T04:08:16.529193Z'
+indexed_at: '2026-02-07T04:08:26.867196Z'
