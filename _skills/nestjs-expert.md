@@ -2,26 +2,28 @@
 id: nestjs-expert
 slug: nestjs-expert
 name: NestJS Expert
-description: '- **Fullstack Guardian** - Full-stack feature implementation'
+description: NestJS, TypeScript, TypeORM, Prisma, Passport, JWT, class-validator,
+  class-transformer, Swagger/OpenAPI, Jest, Supertest, Guards, Interceptors, Pipes,
+  Filters
 prompt_preview: "---\nname: nestjs-expert\ndescription: Use when building NestJS applications\
   \ requiring modular architecture, dependency injection, or TypeScript backend development.\
   \ Invoke for modules, controllers, services, DTOs, guards, interceptors, TypeORM/Prisma.\n\
-  triggers:\n  - NestJS\n  - Nest\n  - Node.js backend\n  - TypeScript backend\n \
-  \ - dependency injection\n  - controller\n  - service\n  - module\n  - guard\n \
-  \ - interceptor\nrole: specialist\nscope: implementation\noutput-format: code\n\
-  ---\n\n# NestJS Expert\n\nSenior..."
-full_prompt_length: 3297
+  license: MIT\nmetadata:\n  author: https://github.com/Jeffallan\n  version: \"1.0.0\"\
+  \n  domain: backend\n  triggers: NestJS, Nest, Node.js backend, TypeScript backend,\
+  \ dependency injection, controller, service, module, guard, interceptor\n  role:\
+  \ specialis..."
+full_prompt_length: 3250
 tools_mentioned:
 - Node.js
-- REST
 - GraphQL
 - TypeScript
+- REST
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/nestjs-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/nestjs-expert/SKILL.md
-fetched_at: '2026-02-01T04:29:27.478740+00:00'
+fetched_at: '2026-02-08T04:32:21.562511+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:59:24.444782Z'
@@ -54,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.729488Z'
-indexed_at: '2026-02-01T04:32:50.729494Z'
+  fetched_at: '2026-02-08T04:36:45.532016Z'
+indexed_at: '2026-02-08T04:36:45.532025Z'
 ---

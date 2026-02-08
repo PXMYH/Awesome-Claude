@@ -15,12 +15,12 @@ prompt_preview: '---
   content marketing with limited budget....'
 full_prompt_length: 9481
 tools_mentioned: []
-category: 08-business-product
-category_display: 08 Business Product
+category: business-product
+category_display: Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/content-marketer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/content-marketer.md
-fetched_at: '2026-02-07T04:07:54.626661Z'
+fetched_at: '2026-02-08T04:31:58.853399+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:07:49.296930Z'
@@ -49,10 +49,10 @@ evaluation:
   - business
   - marketing
 github_metrics:
-  stars: 9780
-  forks: 1066
+  stars: 9886
+  forks: 1073
   open_issues: 2
-  last_commit: '2026-02-06'
-  fetched_at: '2026-02-07T04:08:16.529193Z'
-indexed_at: '2026-02-07T04:08:26.888949Z'
+  last_commit: '2026-02-07'
+  fetched_at: '2026-02-08T04:32:59.475595Z'
+indexed_at: '2026-02-08T04:36:45.242791Z'
 ---

@@ -2,33 +2,34 @@
 id: code-documenter
 slug: code-documenter
 name: Code Documenter
-description: '**Spec Miner** - Informs from code analysis | **Fullstack Guardian**
-  - Documents during implementation | **Code Reviewer** - Checks documentation quality'
+description: Google/NumPy/Sphinx docstrings, JSDoc, OpenAPI 3.0/3.1, AsyncAPI, gRPC/protobuf,
+  FastAPI, Django, NestJS, Express, GraphQL, Docusaurus, MkDocs, VitePress, Swagger
+  UI, Redoc, Stoplight
 prompt_preview: "---\nname: code-documenter\ndescription: Use when adding docstrings,\
   \ creating API documentation, or building documentation sites. Invoke for OpenAPI/Swagger\
-  \ specs, JSDoc, doc portals, tutorials, user guides.\ntriggers:\n  - documentation\n\
-  \  - docstrings\n  - OpenAPI\n  - Swagger\n  - JSDoc\n  - comments\n  - API docs\n\
-  \  - tutorials\n  - user guides\n  - doc site\nrole: specialist\nscope: implementation\n\
-  output-format: code\n---\n\n# Code Documenter\n\nDocumentation specialist for inline\
-  \ documentation, API specs, doc..."
-full_prompt_length: 3768
+  \ specs, JSDoc, doc portals, tutorials, user guides.\nlicense: MIT\nmetadata:\n\
+  \  author: https://github.com/Jeffallan\n  version: \"1.0.0\"\n  domain: quality\n\
+  \  triggers: documentation, docstrings, OpenAPI, Swagger, JSDoc, comments, API docs,\
+  \ tutorials, user guides, doc site\n  role: specialist\n  scope: implementation\n\
+  \  output-format: code\n  related-ski..."
+full_prompt_length: 3734
 tools_mentioned:
-- FastAPI
-- Django
+- GraphQL
 - python
-- typescript
+- Django
 - gRPC
-- django
 - Node.js
-- WebSocket
 - TypeScript
-- fastapi
+- typescript
+- Python
+- REST
+- django
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/code-documenter/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/code-documenter/SKILL.md
-fetched_at: '2026-02-01T04:29:21.947522+00:00'
+fetched_at: '2026-02-08T04:32:17.285979+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:57:35.702926Z'
@@ -60,6 +61,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.700683Z'
-indexed_at: '2026-02-01T04:32:50.700689Z'
+  fetched_at: '2026-02-08T04:36:45.499303Z'
+indexed_at: '2026-02-08T04:36:45.499309Z'
 ---

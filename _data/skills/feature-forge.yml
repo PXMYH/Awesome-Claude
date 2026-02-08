@@ -1,22 +1,23 @@
 id: feature-forge
 slug: feature-forge
 name: Feature Forge
-description: '- **Fullstack Guardian** - Implements the specification'
+description: EARS syntax, user stories, acceptance criteria, Given-When-Then, INVEST
+  criteria, MoSCoW prioritization, OWASP security requirements
 prompt_preview: "---\nname: feature-forge\ndescription: Use when defining new features,\
   \ gathering requirements, or writing specifications. Invoke for feature definition,\
-  \ requirements gathering, user stories, EARS format specs.\ntriggers:\n  - requirements\n\
-  \  - specification\n  - feature definition\n  - user stories\n  - EARS\n  - planning\n\
-  role: specialist\nscope: design\noutput-format: document\n---\n\n# Feature Forge\n\
-  \nRequirements specialist conducting structured workshops to define comprehensive\
-  \ feature specifications.\n\n##..."
-full_prompt_length: 4036
+  \ requirements gathering, user stories, EARS format specs.\nlicense: MIT\nmetadata:\n\
+  \  author: https://github.com/Jeffallan\n  version: \"1.0.0\"\n  domain: workflow\n\
+  \  triggers: requirements, specification, feature definition, user stories, EARS,\
+  \ planning\n  role: specialist\n  scope: design\n  output-format: document\n  related-skills:\
+  \ fullstack-guardian, spe..."
+full_prompt_length: 3695
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/feature-forge/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/feature-forge/SKILL.md
-fetched_at: '2026-02-01T04:29:23.782231+00:00'
+fetched_at: '2026-02-08T04:32:18.995549+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:58:15.358808Z'
@@ -48,5 +49,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.713062Z'
-indexed_at: '2026-02-01T04:32:50.713067Z'
+  fetched_at: '2026-02-08T04:36:45.513348Z'
+indexed_at: '2026-02-08T04:36:45.513353Z'

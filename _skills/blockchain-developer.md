@@ -15,12 +15,12 @@ prompt_preview: '---
   similar to Uniswap. Requirements: ERC20 token support,...'
 full_prompt_length: 9672
 tools_mentioned: []
-category: 07-specialized-domains
-category_display: 07 Specialized Domains
+category: specialized-domains
+category_display: Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/blockchain-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/blockchain-developer.md
-fetched_at: '2026-02-07T04:07:51.477861Z'
+fetched_at: '2026-02-08T04:31:56.916427+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:05:31.470551Z'
@@ -47,10 +47,10 @@ evaluation:
   - defi
   - solidity
 github_metrics:
-  stars: 9780
-  forks: 1066
+  stars: 9886
+  forks: 1073
   open_issues: 2
-  last_commit: '2026-02-06'
-  fetched_at: '2026-02-07T04:08:16.529193Z'
-indexed_at: '2026-02-07T04:08:26.845036Z'
+  last_commit: '2026-02-07'
+  fetched_at: '2026-02-08T04:32:59.475595Z'
+indexed_at: '2026-02-08T04:36:45.198387Z'
 ---

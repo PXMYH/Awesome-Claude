@@ -17,12 +17,12 @@ full_prompt_length: 8947
 tools_mentioned:
 - go
 - Go
-category: 08-business-product
-category_display: 08 Business Product
+category: business-product
+category_display: Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/product-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/product-manager.md
-fetched_at: '2026-02-07T04:07:55.303481Z'
+fetched_at: '2026-02-08T04:31:59.316173+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:08:28.866804Z'
@@ -50,10 +50,10 @@ evaluation:
   - incomplete-prompt
   - reference-guide
 github_metrics:
-  stars: 9780
-  forks: 1066
+  stars: 9886
+  forks: 1073
   open_issues: 2
-  last_commit: '2026-02-06'
-  fetched_at: '2026-02-07T04:08:16.529193Z'
-indexed_at: '2026-02-07T04:08:26.899805Z'
+  last_commit: '2026-02-07'
+  fetched_at: '2026-02-08T04:32:59.475595Z'
+indexed_at: '2026-02-08T04:36:45.253639Z'
 ---

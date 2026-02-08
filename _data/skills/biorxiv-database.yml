@@ -19,7 +19,7 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/biorxiv-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/biorxiv-database/SKILL.md
-fetched_at: '2026-02-01T04:28:16.600669+00:00'
+fetched_at: '2026-02-08T04:31:17.955520+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:22:39.182027Z'
@@ -51,5 +51,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:49.660531Z'
-indexed_at: '2026-02-01T04:32:49.660537Z'
+  fetched_at: '2026-02-08T04:36:44.340723Z'
+indexed_at: '2026-02-08T04:36:44.340728Z'

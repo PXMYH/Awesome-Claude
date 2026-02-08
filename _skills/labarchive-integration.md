@@ -12,16 +12,16 @@ prompt_preview: "---\nname: labarchive-integration\ndescription: Electronic lab 
   \ and attachments, generate reports, and..."
 full_prompt_length: 10260
 tools_mentioned:
-- REST
 - go
 - python
 - Python
+- REST
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/labarchive-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/labarchive-integration/SKILL.md
-fetched_at: '2026-02-01T04:28:25.323941+00:00'
+fetched_at: '2026-02-08T04:31:26.632994+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:32:04.158997Z'
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:49.818923Z'
-indexed_at: '2026-02-01T04:32:49.818929Z'
+  fetched_at: '2026-02-08T04:36:44.522628Z'
+indexed_at: '2026-02-08T04:36:44.522634Z'
 ---

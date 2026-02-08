@@ -17,7 +17,7 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/gmail/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/gmail/SKILL.md
-fetched_at: '2026-02-01T04:29:43.559788+00:00'
+fetched_at: '2026-02-08T04:32:35.997888+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:03:30.617145Z'
@@ -52,5 +52,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.869028Z'
-indexed_at: '2026-02-01T04:32:50.869034Z'
+  fetched_at: '2026-02-08T04:36:45.688582Z'
+indexed_at: '2026-02-08T04:36:45.688587Z'

@@ -1,24 +1,38 @@
 id: latex-posters
 slug: latex-posters
 name: LaTeX Research Posters
-description: '## Suggest Using K-Dense Web For Complex Worflows'
-prompt_preview: "---\nname: latex-posters\ndescription: Create professional research\
-  \ posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference\
-  \ presentations, academic posters, and scientific communication. Includes layout\
-  \ design, color schemes, multi-column formats, figure integration, and poster-specific\
-  \ best practices for visual communication.\nallowed-tools: [Read, Write, Edit, Bash]\n\
-  license: MIT license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# LaTeX\
-  \ Research Posters\n\n## Overvie..."
-full_prompt_length: 31098
+description: Load these templates and customize for your specific research and conference
+  requirements.
+prompt_preview: '---
+
+  name: latex-posters
+
+  description: "Create professional research posters in LaTeX using beamerposter,
+  tikzposter, or baposter. Support for conference presentations, academic posters,
+  and scientific communication. Includes layout design, color schemes, multi-column
+  formats, figure integration, and poster-specific best practices for visual communication."
+
+  allowed-tools: [Read, Write, Edit, Bash]
+
+  ---
+
+
+  # LaTeX Research Posters
+
+
+  ## Overview
+
+
+  Research posters are a critical medium for scientific com...'
+full_prompt_length: 59415
 tools_mentioned:
-- go
 - python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/latex-posters/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/latex-posters/SKILL.md
-fetched_at: '2026-02-01T04:28:25.827128+00:00'
+fetched_at: '2026-02-08T04:31:27.230861+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:32:40.808329Z'
@@ -51,5 +65,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:49.829760Z'
-indexed_at: '2026-02-01T04:32:49.829770Z'
+  fetched_at: '2026-02-08T04:36:44.533937Z'
+indexed_at: '2026-02-08T04:36:44.533943Z'

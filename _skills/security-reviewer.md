@@ -2,24 +2,26 @@
 id: security-reviewer
 slug: security-reviewer
 name: Security Reviewer
-description: '- **Secure Code Guardian** - Implementing fixes'
+description: OWASP Top 10, CWE, Semgrep, Bandit, ESLint Security, gosec, npm audit,
+  gitleaks, trufflehog, CVSS scoring, nmap, Burp Suite, sqlmap, Trivy, Checkov, HashiCorp
+  Vault, AWS Security Hub, CIS benchmarks, ...
 prompt_preview: "---\nname: security-reviewer\ndescription: Use when conducting security\
   \ audits, reviewing code for vulnerabilities, or analyzing infrastructure security.\
   \ Invoke for SAST scans, penetration testing, DevSecOps practices, cloud security\
-  \ reviews.\ntriggers:\n  - security review\n  - vulnerability scan\n  - SAST\n \
-  \ - security audit\n  - penetration test\n  - code audit\n  - security analysis\n\
-  \  - infrastructure security\n  - DevSecOps\n  - cloud security\n  - compliance\
-  \ audit\nrole: specialist\nscope: review\nallowed..."
-full_prompt_length: 3712
+  \ reviews.\nlicense: MIT\nallowed-tools: Read, Grep, Glob, Bash\nmetadata:\n  author:\
+  \ https://github.com/Jeffallan\n  version: \"1.0.0\"\n  domain: security\n  triggers:\
+  \ security review, vulnerability scan, SAST, security audit, penetration test, code\
+  \ audit, security analysis, i..."
+full_prompt_length: 3683
 tools_mentioned:
-- Kubernetes
+- kubernetes
 - AWS
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/security-reviewer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/security-reviewer/SKILL.md
-fetched_at: '2026-02-01T04:29:30.056990+00:00'
+fetched_at: '2026-02-08T04:32:23.936584+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:01:15.346389Z'
@@ -53,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.755710Z'
-indexed_at: '2026-02-01T04:32:50.755716Z'
+  fetched_at: '2026-02-08T04:36:45.561974Z'
+indexed_at: '2026-02-08T04:36:45.561979Z'
 ---

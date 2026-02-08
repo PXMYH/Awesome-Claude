@@ -41,7 +41,7 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/ask-questions-if-underspecified/skills/ask-questions-if-underspecified/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/ask-questions-if-underspecified/skills/ask-questions-if-underspecified/SKILL.md
-fetched_at: '2026-02-01T04:29:46.646289+00:00'
+fetched_at: '2026-02-08T04:32:38.666315+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:22:00.727244Z'
@@ -76,6 +76,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.905493Z'
-indexed_at: '2026-02-01T04:32:50.905498Z'
+  fetched_at: '2026-02-08T04:36:45.731881Z'
+indexed_at: '2026-02-08T04:36:45.731886Z'
 ---

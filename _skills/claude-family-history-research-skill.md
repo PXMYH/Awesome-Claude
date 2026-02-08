@@ -42,7 +42,7 @@ category_display: Community
 source_repo: emaynard/claude-family-history-research-skill
 source_path: SKILL.md
 source_url: https://github.com/emaynard/claude-family-history-research-skill/blob/main/SKILL.md
-fetched_at: '2026-02-01T04:29:13.863831+00:00'
+fetched_at: '2026-02-08T04:32:10.464161+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:16:38.824010Z'
@@ -75,6 +75,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.615962Z'
-indexed_at: '2026-02-01T04:32:50.615968Z'
+  fetched_at: '2026-02-08T04:36:45.411951Z'
+indexed_at: '2026-02-08T04:36:45.411957Z'
 ---

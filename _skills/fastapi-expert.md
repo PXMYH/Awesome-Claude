@@ -2,29 +2,30 @@
 id: fastapi-expert
 slug: fastapi-expert
 name: FastAPI Expert
-description: '- **Fullstack Guardian** - Full-stack feature implementation'
+description: FastAPI, Pydantic V2, async SQLAlchemy, Alembic migrations, JWT/OAuth2,
+  pytest-asyncio, httpx, BackgroundTasks, WebSockets, dependency injection, OpenAPI/Swagger
 prompt_preview: "---\nname: fastapi-expert\ndescription: Use when building high-performance\
   \ async Python APIs with FastAPI and Pydantic V2. Invoke for async SQLAlchemy, JWT\
-  \ authentication, WebSockets, OpenAPI documentation.\ntriggers:\n  - FastAPI\n \
-  \ - Pydantic\n  - async Python\n  - Python API\n  - REST API Python\n  - SQLAlchemy\
-  \ async\n  - JWT authentication\n  - OpenAPI\n  - Swagger Python\nrole: specialist\n\
-  scope: implementation\noutput-format: code\n---\n\n# FastAPI Expert\n\nSenior FastAPI\
-  \ specialist with deep expertise in as..."
-full_prompt_length: 3333
+  \ authentication, WebSockets, OpenAPI documentation.\nlicense: MIT\nmetadata:\n\
+  \  author: https://github.com/Jeffallan\n  version: \"1.0.0\"\n  domain: backend\n\
+  \  triggers: FastAPI, Pydantic, async Python, Python API, REST API Python, SQLAlchemy\
+  \ async, JWT authentication, OpenAPI, Swagger Python\n  role: specialist\n  scope:\
+  \ implementation\n  output-format:..."
+full_prompt_length: 3292
 tools_mentioned:
-- FastAPI
 - Django
-- django
-- WebSocket
-- fastapi
 - REST
 - Python
+- django
+- FastAPI
+- fastapi
+- WebSocket
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/fastapi-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/fastapi-expert/SKILL.md
-fetched_at: '2026-02-01T04:29:23.615517+00:00'
+fetched_at: '2026-02-08T04:32:18.830411+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:58:05.806149Z'
@@ -58,6 +59,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.709763Z'
-indexed_at: '2026-02-01T04:32:50.709769Z'
+  fetched_at: '2026-02-08T04:36:45.509565Z'
+indexed_at: '2026-02-08T04:36:45.509570Z'
 ---

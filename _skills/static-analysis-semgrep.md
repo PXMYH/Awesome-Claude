@@ -1,31 +1,33 @@
 ---
 id: static-analysis-semgrep
 slug: static-analysis-semgrep
-name: Semgrep Static Analysis
-description: '- Registry: https://semgrep.dev/explore'
-prompt_preview: "---\nname: semgrep\ndescription: Run Semgrep static analysis for\
-  \ fast security scanning and pattern matching. Use when asked to scan code with\
-  \ Semgrep, write custom YAML rules, find vulnerabilities quickly, use taint mode,\
-  \ or set up Semgrep in CI/CD pipelines.\nallowed-tools:\n  - Bash\n  - Read\n  -\
-  \ Glob\n  - Grep\n---\n\n# Semgrep Static Analysis\n\n## When to Use Semgrep\n\n\
-  **Ideal scenarios:**\n- Quick security scans (minutes, not hours)\n- Pattern-based\
-  \ bug detection\n- Enforcing coding standards and best p..."
-full_prompt_length: 8601
+name: Semgrep Security Scan
+description: '| Shortcut | Why It''s Wrong |'
+prompt_preview: "---\nname: semgrep\ndescription: Run Semgrep static analysis scan\
+  \ on a codebase using parallel subagents. Automatically\n  detects and uses Semgrep\
+  \ Pro for cross-file analysis when available. Use when asked to scan\n  code for\
+  \ vulnerabilities, run a security audit with Semgrep, find bugs, or perform\n  static\
+  \ analysis. Spawns parallel workers for multi-language codebases and triage.\nallowed-tools:\n\
+  \  - Bash\n  - Read\n  - Glob\n  - Grep\n  - Write\n  - Task\n  - AskUserQuestion\n\
+  \  - TaskCreate\n  - TaskList..."
+full_prompt_length: 15141
 tools_mentioned:
-- JavaScript
-- docker
+- Django
 - Docker
+- php
+- Kubernetes
 - Go
-- python
-- javascript
-- flask
-- Python
+- Ruby
+- PHP
+- java
+- Node.js
+- TypeScript
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/static-analysis/skills/semgrep/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/semgrep/SKILL.md
-fetched_at: '2026-02-01T04:29:57.510410+00:00'
+fetched_at: '2026-02-08T04:32:48.745832+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:24:50.034044Z'
@@ -57,6 +59,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.994626Z'
-indexed_at: '2026-02-01T04:32:50.994631Z'
+  fetched_at: '2026-02-08T04:36:45.832231Z'
+indexed_at: '2026-02-08T04:36:45.832236Z'
 ---

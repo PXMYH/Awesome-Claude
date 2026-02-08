@@ -17,7 +17,7 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/nutrition-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/nutrition-analyzer/SKILL.md
-fetched_at: '2026-02-01T04:29:16.428699+00:00'
+fetched_at: '2026-02-08T04:32:12.552671+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:55:09.479773Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.653334Z'
-indexed_at: '2026-02-01T04:32:50.653340Z'
+  fetched_at: '2026-02-08T04:36:45.446209Z'
+indexed_at: '2026-02-08T04:36:45.446214Z'
 ---

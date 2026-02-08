@@ -2,24 +2,26 @@
 id: salesforce-developer
 slug: salesforce-developer
 name: Salesforce Developer
-description: '- **API Designer** - REST API design for integrations'
+description: Apex, Lightning Web Components (LWC), SOQL/SOSL, Salesforce DX, Triggers,
+  Batch Apex, Queueable Apex, Platform Events, REST/SOAP APIs, Process Builder, Flow,
+  Visualforce, Governor Limits, Test Classes...
 prompt_preview: "---\nname: salesforce-developer\ndescription: Use when developing\
   \ Salesforce applications, Apex code, Lightning Web Components, SOQL queries, triggers,\
   \ integrations, or CRM customizations. Invoke for governor limits, bulk processing,\
-  \ platform events, Salesforce DX.\ntriggers:\n  - Salesforce\n  - Apex\n  - Lightning\
-  \ Web Components\n  - LWC\n  - SOQL\n  - SOSL\n  - Visualforce\n  - Salesforce DX\n\
-  \  - governor limits\n  - triggers\n  - platform events\n  - CRM integration\n \
-  \ - Sales Cloud\n  - Service Cloud\nrole:..."
-full_prompt_length: 4556
+  \ platform events, Salesforce DX.\nlicense: MIT\nmetadata:\n  author: https://github.com/Jeffallan\n\
+  \  version: \"1.0.0\"\n  domain: platform\n  triggers: Salesforce, Apex, Lightning\
+  \ Web Components, LWC, SOQL, SOSL, Visualforce, Salesforce DX, governor limits,\
+  \ triggers, platform..."
+full_prompt_length: 4434
 tools_mentioned:
-- Java
+- java
 - REST
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/salesforce-developer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/salesforce-developer/SKILL.md
-fetched_at: '2026-02-01T04:29:29.717289+00:00'
+fetched_at: '2026-02-08T04:32:23.633025+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:00:33.657423Z'
@@ -54,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.749053Z'
-indexed_at: '2026-02-01T04:32:50.749059Z'
+  fetched_at: '2026-02-08T04:36:45.554400Z'
+indexed_at: '2026-02-08T04:36:45.554405Z'
 ---

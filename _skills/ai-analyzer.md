@@ -51,7 +51,7 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/ai-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/ai-analyzer/SKILL.md
-fetched_at: '2026-02-01T04:29:14.927488+00:00'
+fetched_at: '2026-02-08T04:32:11.336191+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:53:34.573013Z'
@@ -90,6 +90,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.619390Z'
-indexed_at: '2026-02-01T04:32:50.619399Z'
+  fetched_at: '2026-02-08T04:36:45.415773Z'
+indexed_at: '2026-02-08T04:36:45.415779Z'
 ---

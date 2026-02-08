@@ -1,0 +1,66 @@
+id: vibesec-skill
+slug: vibesec-skill
+name: Secure Coding Guide for Web Applications
+description: When unsure, choose the more restrictive/secure option and document the
+  security consideration in comments.
+prompt_preview: '---
+
+  name: Vibe Security Skill
+
+  description: This skill helps Claude write secure web applications. Use when working
+  on any web application to ensure security best practices are followed.
+
+  ---
+
+
+  # Secure Coding Guide for Web Applications
+
+
+  ## Overview
+
+
+  This guide provides comprehensive secure coding practices for web applications.
+  As an AI assistant, your role is to approach code from a **bug hunter''s perspective**
+  and make applications **as secure as possible** without breaking functionality.
+
+
+  **Key...'
+full_prompt_length: 24704
+tools_mentioned:
+- javascript
+- java
+- GraphQL
+- python
+- GCP
+- React
+- Node.js
+- Java
+- php
+- AWS
+category: community
+category_display: Community
+source_repo: BehiSecc/VibeSec-Skill
+source_path: SKILL.md
+source_url: https://github.com/BehiSecc/VibeSec-Skill/blob/main/SKILL.md
+fetched_at: '2026-02-08T04:31:15.878856+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-02-08T04:33:09.017905Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1fc5c1f200 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1fc5c1f200 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-02-08T04:36:44.307128Z'
+indexed_at: '2026-02-08T04:36:44.307134Z'

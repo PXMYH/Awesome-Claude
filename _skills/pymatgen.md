@@ -20,7 +20,7 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pymatgen/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pymatgen/SKILL.md
-fetched_at: '2026-02-01T04:28:32.023028+00:00'
+fetched_at: '2026-02-08T04:31:33.579013+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:39:17.943334Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:49.965415Z'
-indexed_at: '2026-02-01T04:32:49.965421Z'
+  fetched_at: '2026-02-08T04:36:44.689524Z'
+indexed_at: '2026-02-08T04:36:44.689529Z'
 ---

@@ -13,14 +13,14 @@ prompt_preview: "---\nname: whop\ndescription: Whop platform expert for digital 
 full_prompt_length: 9890
 tools_mentioned:
 - TypeScript
-- JavaScript
 - typescript
+- JavaScript
 category: community
 category_display: Community
 source_repo: raintree-technology/claude-starter
 source_path: skills/whop/SKILL.md
 source_url: https://github.com/raintree-technology/claude-starter/blob/main/skills/whop/SKILL.md
-fetched_at: '2026-02-01T04:29:41.477254+00:00'
+fetched_at: '2026-02-08T04:32:34.070594+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:03:20.413395Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.859551Z'
-indexed_at: '2026-02-01T04:32:50.859557Z'
+  fetched_at: '2026-02-08T04:36:45.678003Z'
+indexed_at: '2026-02-08T04:36:45.678015Z'
 ---

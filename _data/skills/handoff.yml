@@ -1,0 +1,40 @@
+id: handoff
+slug: handoff
+name: Handoff
+description: Claude skill for Handoff
+prompt_preview: "---\nname: handoff\ndescription: Write or update a handoff document\
+  \ so the next agent with fresh context can continue this work.\n---\n\nWrite or\
+  \ update a handoff document so the next agent with fresh context can continue this\
+  \ work.\n\nSteps:\n1. Check if HANDOFF.md already exists in the project\n2. If it\
+  \ exists, read it first to understand prior context before updating\n3. Create or\
+  \ update the document with:\n   - **Goal**: What we're trying to accomplish\n  \
+  \ - **Current Progress**: What's been done so far..."
+full_prompt_length: 812
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: ykdojo/claude-code-tips
+source_path: skills/handoff/SKILL.md
+source_url: https://github.com/ykdojo/claude-code-tips/blob/main/skills/handoff/SKILL.md
+fetched_at: '2026-02-08T04:32:55.483670+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-02-08T04:36:35.911868Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1fc5d4f800 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1fc5d4f800 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-02-08T04:36:45.917625Z'
+indexed_at: '2026-02-08T04:36:45.917630Z'

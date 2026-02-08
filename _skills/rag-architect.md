@@ -2,23 +2,25 @@
 id: rag-architect
 slug: rag-architect
 name: RAG Architect
-description: '- **AI Engineer** - LLM integration and prompt engineering'
+description: Vector databases (Pinecone, Weaviate, Chroma, Qdrant, Milvus, pgvector),
+  embedding models (OpenAI, Cohere, Sentence Transformers, BGE, E5), chunking algorithms,
+  semantic search, hybrid search, BM25, r...
 prompt_preview: "---\nname: rag-architect\ndescription: Use when building RAG systems,\
   \ vector databases, or knowledge-grounded AI applications requiring semantic search,\
-  \ document retrieval, or context augmentation.\ntriggers:\n  - RAG\n  - retrieval-augmented\
-  \ generation\n  - vector search\n  - embeddings\n  - semantic search\n  - vector\
-  \ database\n  - document retrieval\n  - knowledge base\n  - context retrieval\n\
-  \  - similarity search\nrole: architect\nscope: system-design\noutput-format: architecture\n\
-  ---\n\n# RAG Architect\n\nSenio..."
-full_prompt_length: 4609
+  \ document retrieval, or context augmentation.\nlicense: MIT\nmetadata:\n  author:\
+  \ https://github.com/Jeffallan\n  version: \"1.0.0\"\n  domain: data-ml\n  triggers:\
+  \ RAG, retrieval-augmented generation, vector search, embeddings, semantic search,\
+  \ vector database, document retrieval, knowledge base, context retrieval, similarity\
+  \ search\n  role: architect\n  sc..."
+full_prompt_length: 4450
 tools_mentioned:
-- Python
+- python
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/rag-architect/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/rag-architect/SKILL.md
-fetched_at: '2026-02-01T04:29:28.859075+00:00'
+fetched_at: '2026-02-08T04:32:22.884512+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:00:04.725742Z'
@@ -50,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.739231Z'
-indexed_at: '2026-02-01T04:32:50.739237Z'
+  fetched_at: '2026-02-08T04:36:45.543112Z'
+indexed_at: '2026-02-08T04:36:45.543118Z'
 ---

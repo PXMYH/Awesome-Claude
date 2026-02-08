@@ -12,8 +12,8 @@ prompt_preview: "---\nname: aws-cost-operations\ndescription: This skill provide
   \ budgets *)\n  - Bash(aws cloudtrail *)\n  - Bash(a..."
 full_prompt_length: 11159
 tools_mentioned:
-- Kubernetes
 - AWS
+- Kubernetes
 - aws
 - rest
 - Python
@@ -22,7 +22,7 @@ category_display: Infrastructure
 source_repo: zxkane/aws-skills
 source_path: plugins/aws-cost-ops/skills/aws-cost-operations/SKILL.md
 source_url: https://github.com/zxkane/aws-skills/blob/main/plugins/aws-cost-ops/skills/aws-cost-operations/SKILL.md
-fetched_at: '2026-02-01T04:30:07.702189+00:00'
+fetched_at: '2026-02-08T04:32:57.757276+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:30:18.901460Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:51.086170Z'
-indexed_at: '2026-02-01T04:32:51.086176Z'
+  fetched_at: '2026-02-08T04:36:45.938184Z'
+indexed_at: '2026-02-08T04:36:45.938190Z'
 ---

@@ -35,7 +35,7 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/audit-context-building/skills/audit-context-building/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/audit-context-building/skills/audit-context-building/SKILL.md
-fetched_at: '2026-02-01T04:29:47.096424+00:00'
+fetched_at: '2026-02-08T04:32:39.012335+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:22:10.725901Z'
@@ -66,6 +66,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.908986Z'
-indexed_at: '2026-02-01T04:32:50.908992Z'
+  fetched_at: '2026-02-08T04:36:45.735791Z'
+indexed_at: '2026-02-08T04:36:45.735796Z'
 ---

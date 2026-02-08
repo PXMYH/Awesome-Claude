@@ -19,7 +19,7 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/ruzzy/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/ruzzy/SKILL.md
-fetched_at: '2026-02-01T04:30:00.241109+00:00'
+fetched_at: '2026-02-08T04:32:51.006508+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:27:40.403255Z'
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:51.040609Z'
-indexed_at: '2026-02-01T04:32:51.040615Z'
+  fetched_at: '2026-02-08T04:36:45.880296Z'
+indexed_at: '2026-02-08T04:36:45.880302Z'
 ---

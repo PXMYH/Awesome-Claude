@@ -10,7 +10,7 @@ prompt_preview: "---\nname: rdkit\ndescription: Cheminformatics toolkit for fine
   \ control, custom sanitization, specialized algorithms.\nlicense: BSD-3-Clause license\n\
   metadata:\n    skill-author: K-Dense Inc.\n---\n\n# RDKit Cheminformatics Toolkit\n\
   \n## Overview\n\nRDK..."
-full_prompt_length: 20788
+full_prompt_length: 21240
 tools_mentioned:
 - go
 - python
@@ -20,7 +20,7 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/rdkit/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/rdkit/SKILL.md
-fetched_at: '2026-02-01T04:28:33.624140+00:00'
+fetched_at: '2026-02-08T04:31:35.001712+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:40:53.495302Z'
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:49.995730Z'
-indexed_at: '2026-02-01T04:32:49.995736Z'
+  fetched_at: '2026-02-08T04:36:44.723391Z'
+indexed_at: '2026-02-08T04:36:44.723397Z'
 ---

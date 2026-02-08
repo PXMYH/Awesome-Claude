@@ -1,26 +1,28 @@
 id: vue-expert-js
 slug: vue-expert-js
 name: Vue Expert (JavaScript)
-description: '- **Vue Expert** - TypeScript-based Vue development (primary)'
+description: Vue 3 Composition API, JSDoc, ESM modules, Pinia, Vue Router 4, Vite,
+  VueUse, Vitest, Vue Test Utils, JavaScript ES2022+
 prompt_preview: "---\nname: vue-expert-js\ndescription: Use when building Vue 3 applications\
   \ with JavaScript only (no TypeScript). Invoke for JSDoc typing, vanilla JS composables,\
-  \ .mjs modules.\ntriggers:\n  - Vue JavaScript\n  - Vue without TypeScript\n  -\
-  \ Vue JSDoc\n  - Vue JS only\n  - Vue vanilla JavaScript\n  - .mjs Vue\n  - Vue\
-  \ no TS\nrole: specialist\nscope: implementation\noutput-format: code\n---\n\n#\
-  \ Vue Expert (JavaScript)\n\nSenior Vue specialist building Vue 3 applications with\
-  \ JavaScript and JSDoc typing instead of..."
-full_prompt_length: 3495
+  \ .mjs modules.\nlicense: MIT\nmetadata:\n  author: https://github.com/Jeffallan\n\
+  \  version: \"1.0.0\"\n  domain: frontend\n  triggers: Vue JavaScript, Vue without\
+  \ TypeScript, Vue JSDoc, Vue JS only, Vue vanilla JavaScript, .mjs Vue, Vue no TS\n\
+  \  role: specialist\n  scope: implementation\n  output-format: code\n  related-skills:\
+  \ vue-expert, javascript..."
+full_prompt_length: 3446
 tools_mentioned:
-- Vue
+- javascript
 - vue
 - TypeScript
 - JavaScript
+- Vue
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/vue-expert-js/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/vue-expert-js/SKILL.md
-fetched_at: '2026-02-01T04:29:31.994334+00:00'
+fetched_at: '2026-02-08T04:32:25.582507+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:02:12.055599Z'
@@ -54,5 +56,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.772014Z'
-indexed_at: '2026-02-01T04:32:50.772020Z'
+  fetched_at: '2026-02-08T04:36:45.580600Z'
+indexed_at: '2026-02-08T04:36:45.580606Z'

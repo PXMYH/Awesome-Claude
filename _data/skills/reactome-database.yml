@@ -11,16 +11,16 @@ prompt_preview: "---\nname: reactome-database\ndescription: Query Reactome REST 
   \ map genes to pathways, ex..."
 full_prompt_length: 8655
 tools_mentioned:
-- REST
 - go
 - python
 - Python
+- REST
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/reactome-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/reactome-database/SKILL.md
-fetched_at: '2026-02-01T04:28:33.789821+00:00'
+fetched_at: '2026-02-08T04:31:35.174116+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:41:04.269891Z'
@@ -53,5 +53,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:49.999239Z'
-indexed_at: '2026-02-01T04:32:49.999245Z'
+  fetched_at: '2026-02-08T04:36:44.727292Z'
+indexed_at: '2026-02-08T04:36:44.727297Z'

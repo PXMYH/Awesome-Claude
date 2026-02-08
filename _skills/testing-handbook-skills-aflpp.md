@@ -13,17 +13,17 @@ prompt_preview: "---\nname: aflpp\ntype: fuzzer\ndescription: >\n  AFL++ is a fo
   \ fuzzing efforts.\n\n## When to Us..."
 full_prompt_length: 19684
 tools_mentioned:
-- docker
 - Docker
-- Rust
+- docker
 - rest
 - Python
+- Rust
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/aflpp/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/aflpp/SKILL.md
-fetched_at: '2026-02-01T04:29:58.128702+00:00'
+fetched_at: '2026-02-08T04:32:49.250913+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:25:11.837983Z'
@@ -55,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:51.001117Z'
-indexed_at: '2026-02-01T04:32:51.001122Z'
+  fetched_at: '2026-02-08T04:36:45.839572Z'
+indexed_at: '2026-02-08T04:36:45.839577Z'
 ---

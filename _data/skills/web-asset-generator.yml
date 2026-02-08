@@ -22,17 +22,17 @@ prompt_preview: '---
   app ico...'
 full_prompt_length: 26385
 tools_mentioned:
-- Vue
-- typescript
 - vue
 - python
+- typescript
 - Python
+- Vue
 category: community
 category_display: Community
 source_repo: alonw0/web-asset-generator
 source_path: skills/web-asset-generator/SKILL.md
 source_url: https://github.com/alonw0/web-asset-generator/blob/main/skills/web-asset-generator/SKILL.md
-fetched_at: '2026-02-01T04:29:07.888711+00:00'
+fetched_at: '2026-02-08T04:32:04.905819+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:12:44.650590Z'
@@ -66,5 +66,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.549986Z'
-indexed_at: '2026-02-01T04:32:50.549992Z'
+  fetched_at: '2026-02-08T04:36:45.338814Z'
+indexed_at: '2026-02-08T04:36:45.338819Z'

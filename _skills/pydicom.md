@@ -23,7 +23,7 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pydicom/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pydicom/SKILL.md
-fetched_at: '2026-02-01T04:28:31.513984+00:00'
+fetched_at: '2026-02-08T04:31:33.095134+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:38:45.329716Z'
@@ -58,6 +58,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:49.951108Z'
-indexed_at: '2026-02-01T04:32:49.951116Z'
+  fetched_at: '2026-02-08T04:36:44.678476Z'
+indexed_at: '2026-02-08T04:36:44.678482Z'
 ---

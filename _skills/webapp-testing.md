@@ -30,11 +30,11 @@ tools_mentioned:
 - python
 - Python
 category: official
-category_display: Official Anthropic Skills
+category_display: Official
 source_repo: anthropics/skills
 source_path: skills/webapp-testing/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/webapp-testing/SKILL.md
-fetched_at: '2026-02-07T04:08:08.338589Z'
+fetched_at: '2026-02-08T04:32:07.757419+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:15:33.588061Z'
@@ -63,10 +63,10 @@ evaluation:
   - local development
   - testing toolkit
 github_metrics:
-  stars: 64823
-  forks: 6423
+  stars: 65397
+  forks: 6487
   open_issues: 245
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-07T04:08:17.160385Z'
-indexed_at: '2026-02-07T04:08:27.044839Z'
+  fetched_at: '2026-02-08T04:32:59.956600Z'
+indexed_at: '2026-02-08T04:36:45.393562Z'
 ---

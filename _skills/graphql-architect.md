@@ -15,17 +15,17 @@ prompt_preview: '---
   API. Can you design the federation stru...'
 full_prompt_length: 8791
 tools_mentioned:
-- WebSocket
-- graphql
-- go
-- REST
 - GraphQL
+- graphql
+- REST
+- go
+- WebSocket
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/graphql-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/graphql-architect.md
-fetched_at: '2026-02-07T04:07:29.984649Z'
+fetched_at: '2026-02-08T04:31:42.507121+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:48:38.749765Z'
@@ -54,10 +54,10 @@ evaluation:
   - Schema Architecture
   - Performance Optimization
 github_metrics:
-  stars: 9780
-  forks: 1066
+  stars: 9886
+  forks: 1073
   open_issues: 2
-  last_commit: '2026-02-06'
-  fetched_at: '2026-02-07T04:08:16.529193Z'
-indexed_at: '2026-02-07T04:08:26.514696Z'
+  last_commit: '2026-02-07'
+  fetched_at: '2026-02-08T04:32:59.475595Z'
+indexed_at: '2026-02-08T04:36:44.878079Z'
 ---

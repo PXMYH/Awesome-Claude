@@ -15,12 +15,12 @@ prompt_preview: '---
   members takes 2+ weeks.\\nuser: \"W...'
 full_prompt_length: 10146
 tools_mentioned: []
-category: 06-developer-experience
-category_display: 06 Developer Experience
+category: developer-experience
+category_display: Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/documentation-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/documentation-engineer.md
-fetched_at: '2026-02-07T04:07:48.690460Z'
+fetched_at: '2026-02-08T04:31:54.947224+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:03:10.496343Z'
@@ -49,10 +49,10 @@ evaluation:
   - technical-writing
   - automation
 github_metrics:
-  stars: 9780
-  forks: 1066
+  stars: 9886
+  forks: 1073
   open_issues: 2
-  last_commit: '2026-02-06'
-  fetched_at: '2026-02-07T04:08:16.529193Z'
-indexed_at: '2026-02-07T04:08:26.804324Z'
+  last_commit: '2026-02-07'
+  fetched_at: '2026-02-08T04:32:59.475595Z'
+indexed_at: '2026-02-08T04:36:45.158297Z'
 ---

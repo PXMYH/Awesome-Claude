@@ -15,17 +15,17 @@ prompt_preview: '---
   database is hitting 500ms query times during peak traffic. W...'
 full_prompt_length: 10265
 tools_mentioned:
-- MongoDB
-- MySQL
-- rest
 - PostgreSQL
+- rest
+- MongoDB
 - Redis
+- MySQL
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/database-administrator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/database-administrator.md
-fetched_at: '2026-02-07T04:07:38.122682Z'
+fetched_at: '2026-02-08T04:31:47.975992+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:54:49.645780Z'
@@ -54,10 +54,10 @@ evaluation:
   - high-availability
   - performance-optimization
 github_metrics:
-  stars: 9780
-  forks: 1066
+  stars: 9886
+  forks: 1073
   open_issues: 2
-  last_commit: '2026-02-06'
-  fetched_at: '2026-02-07T04:08:16.529193Z'
-indexed_at: '2026-02-07T04:08:26.647245Z'
+  last_commit: '2026-02-07'
+  fetched_at: '2026-02-08T04:32:59.475595Z'
+indexed_at: '2026-02-08T04:36:45.001300Z'
 ---

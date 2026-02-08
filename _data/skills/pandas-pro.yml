@@ -1,23 +1,26 @@
 id: pandas-pro
 slug: pandas-pro
 name: Pandas Pro
-description: '- **Python Pro** - Type hints, testing, Python best practices'
+description: pandas 2.0+, NumPy, datetime handling, categorical types, MultiIndex,
+  memory optimization, vectorization, method chaining, merge strategies, time series
+  resampling, pivot tables, groupby aggregations
 prompt_preview: "---\nname: pandas-pro\ndescription: Use when working with pandas\
   \ DataFrames, data cleaning, aggregation, merging, or time series analysis. Invoke\
   \ for data manipulation, missing value handling, groupby operations, or performance\
-  \ optimization.\ntriggers:\n  - pandas\n  - DataFrame\n  - data manipulation\n \
-  \ - data cleaning\n  - aggregation\n  - groupby\n  - merge\n  - join\n  - time series\n\
-  \  - data wrangling\n  - pivot table\n  - data transformation\nrole: expert\nscope:\
-  \ implementation\noutput-format: code\n---\n\n# P..."
-full_prompt_length: 3994
+  \ optimization.\nlicense: MIT\nmetadata:\n  author: https://github.com/Jeffallan\n\
+  \  version: \"1.0.0\"\n  domain: data-ml\n  triggers: pandas, DataFrame, data manipulation,\
+  \ data cleaning, aggregation, groupby, merge, join, time series, data wrangling,\
+  \ pivot table, data transformation..."
+full_prompt_length: 3938
 tools_mentioned:
+- python
 - Python
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/pandas-pro/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/pandas-pro/SKILL.md
-fetched_at: '2026-02-01T04:29:27.826900+00:00'
+fetched_at: '2026-02-08T04:32:21.880599+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:59:37.454305Z'
@@ -49,5 +52,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.732820Z'
-indexed_at: '2026-02-01T04:32:50.732826Z'
+  fetched_at: '2026-02-08T04:36:45.535788Z'
+indexed_at: '2026-02-08T04:36:45.535794Z'

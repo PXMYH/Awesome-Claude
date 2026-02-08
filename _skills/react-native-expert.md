@@ -2,25 +2,26 @@
 id: react-native-expert
 slug: react-native-expert
 name: React Native Expert
-description: '- **React Expert** - Shared React patterns'
+description: React Native 0.73+, Expo SDK 50+, Expo Router, React Navigation 7, Reanimated
+  3, Gesture Handler, AsyncStorage, MMKV, React Query, Zustand
 prompt_preview: "---\nname: react-native-expert\ndescription: Use when building cross-platform\
   \ mobile applications with React Native or Expo. Invoke for navigation patterns,\
-  \ platform-specific code, native modules, FlatList optimization.\ntriggers:\n  -\
-  \ React Native\n  - Expo\n  - mobile app\n  - iOS\n  - Android\n  - cross-platform\n\
-  \  - native module\nrole: specialist\nscope: implementation\noutput-format: code\n\
-  ---\n\n# React Native Expert\n\nSenior mobile engineer building production-ready\
-  \ cross-platform applications with React..."
-full_prompt_length: 2960
+  \ platform-specific code, native modules, FlatList optimization.\nlicense: MIT\n\
+  metadata:\n  author: https://github.com/Jeffallan\n  version: \"1.0.0\"\n  domain:\
+  \ frontend\n  triggers: React Native, Expo, mobile app, iOS, Android, cross-platform,\
+  \ native module\n  role: specialist\n  scope: implementation\n  output-format: code\n\
+  \  related-skills: react-exper..."
+full_prompt_length: 2945
 tools_mentioned:
 - React
-- react
 - TypeScript
+- react
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/react-native-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/react-native-expert/SKILL.md
-fetched_at: '2026-02-01T04:29:29.370731+00:00'
+fetched_at: '2026-02-08T04:32:23.328403+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:00:24.185189Z'
@@ -52,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.745684Z'
-indexed_at: '2026-02-01T04:32:50.745689Z'
+  fetched_at: '2026-02-08T04:36:45.550603Z'
+indexed_at: '2026-02-08T04:36:45.550609Z'
 ---

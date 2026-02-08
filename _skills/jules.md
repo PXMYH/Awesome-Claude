@@ -22,19 +22,19 @@ prompt_preview: '---
   Delegate coding tasks to Google''s Jules AI agent on G...'
 full_prompt_length: 5388
 tools_mentioned:
-- FastAPI
-- go
 - java
+- React
 - TypeScript
 - Go
 - Python
-- React
+- go
+- FastAPI
 category: community
 category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/jules/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/jules/SKILL.md
-fetched_at: '2026-02-01T04:29:45.048043+00:00'
+fetched_at: '2026-02-08T04:32:37.176090+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:04:56.118731Z'
@@ -69,6 +69,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.895673Z'
-indexed_at: '2026-02-01T04:32:50.895679Z'
+  fetched_at: '2026-02-08T04:36:45.718179Z'
+indexed_at: '2026-02-08T04:36:45.718185Z'
 ---

@@ -16,12 +16,12 @@ prompt_preview: '---
 full_prompt_length: 9692
 tools_mentioned:
 - go
-category: 10-research-analysis
-category_display: 10 Research Analysis
+category: research-analysis
+category_display: Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/competitive-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/competitive-analyst.md
-fetched_at: '2026-02-07T04:07:59.777423Z'
+fetched_at: '2026-02-08T04:32:02.534334+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:11:39.125984Z'
@@ -52,10 +52,10 @@ evaluation:
   - business-research
   - swot-analysis
 github_metrics:
-  stars: 9780
-  forks: 1066
+  stars: 9886
+  forks: 1073
   open_issues: 2
-  last_commit: '2026-02-06'
-  fetched_at: '2026-02-07T04:08:16.529193Z'
-indexed_at: '2026-02-07T04:08:26.962913Z'
+  last_commit: '2026-02-07'
+  fetched_at: '2026-02-08T04:32:59.475595Z'
+indexed_at: '2026-02-08T04:36:45.316716Z'
 ---

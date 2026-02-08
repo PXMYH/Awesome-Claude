@@ -21,7 +21,7 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/entry-point-analyzer/skills/entry-point-analyzer/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/entry-point-analyzer/skills/entry-point-analyzer/SKILL.md
-fetched_at: '2026-02-01T04:29:52.554734+00:00'
+fetched_at: '2026-02-08T04:32:43.951409+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:23:02.165188Z'
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.956073Z'
-indexed_at: '2026-02-01T04:32:50.956079Z'
+  fetched_at: '2026-02-08T04:36:45.789244Z'
+indexed_at: '2026-02-08T04:36:45.789249Z'
 ---

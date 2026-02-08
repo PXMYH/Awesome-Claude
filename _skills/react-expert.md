@@ -2,25 +2,27 @@
 id: react-expert
 slug: react-expert
 name: React Expert
-description: '- **Fullstack Guardian** - Full-stack feature implementation'
+description: React 19, Server Components, use() hook, Suspense, TypeScript, TanStack
+  Query, Zustand, Redux Toolkit, React Router, React Testing Library, Vitest/Jest,
+  Next.js App Router, accessibility (WCAG)
 prompt_preview: "---\nname: react-expert\ndescription: Use when building React 18+\
   \ applications requiring component architecture, hooks patterns, or state management.\
   \ Invoke for Server Components, performance optimization, Suspense boundaries, React\
-  \ 19 features.\ntriggers:\n  - React\n  - JSX\n  - hooks\n  - useState\n  - useEffect\n\
-  \  - useContext\n  - Server Components\n  - React 19\n  - Suspense\n  - TanStack\
-  \ Query\n  - Redux\n  - Zustand\n  - component\n  - frontend\nrole: specialist\n\
-  scope: implementation\noutput-format: code\n-..."
-full_prompt_length: 3593
+  \ 19 features.\nlicense: MIT\nmetadata:\n  author: https://github.com/Jeffallan\n\
+  \  version: \"1.0.0\"\n  domain: frontend\n  triggers: React, JSX, hooks, useState,\
+  \ useEffect, useContext, Server Components, React 19, Suspense, TanStack Query,\
+  \ Redux, Zustand, component, frontend..."
+full_prompt_length: 3540
 tools_mentioned:
 - React
-- react
 - TypeScript
+- react
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/react-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/react-expert/SKILL.md
-fetched_at: '2026-02-01T04:29:29.198807+00:00'
+fetched_at: '2026-02-08T04:32:23.169049+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:00:14.601767Z'
@@ -52,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.742442Z'
-indexed_at: '2026-02-01T04:32:50.742448Z'
+  fetched_at: '2026-02-08T04:36:45.546777Z'
+indexed_at: '2026-02-08T04:36:45.546782Z'
 ---

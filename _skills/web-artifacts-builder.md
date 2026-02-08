@@ -25,15 +25,15 @@ prompt_preview: '---
   1. Initialize the frontend re...'
 full_prompt_length: 3073
 tools_mentioned:
-- JavaScript
-- TypeScript
 - React
+- TypeScript
+- JavaScript
 category: official
-category_display: Official Anthropic Skills
+category_display: Official
 source_repo: anthropics/skills
 source_path: skills/web-artifacts-builder/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/web-artifacts-builder/SKILL.md
-fetched_at: '2026-02-07T04:08:07.874318Z'
+fetched_at: '2026-02-08T04:32:07.614705+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:15:22.670390Z'
@@ -64,10 +64,10 @@ evaluation:
   - shadcn-ui
   - bundling
 github_metrics:
-  stars: 64823
-  forks: 6423
+  stars: 65397
+  forks: 6487
   open_issues: 245
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-07T04:08:17.160385Z'
-indexed_at: '2026-02-07T04:08:27.041085Z'
+  fetched_at: '2026-02-08T04:32:59.956600Z'
+indexed_at: '2026-02-08T04:36:45.389808Z'
 ---

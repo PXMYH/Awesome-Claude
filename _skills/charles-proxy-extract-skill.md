@@ -31,7 +31,7 @@ category_display: Community
 source_repo: wannabehero/charles-proxy-extract-skill
 source_path: SKILL.md
 source_url: https://github.com/wannabehero/charles-proxy-extract-skill/blob/main/SKILL.md
-fetched_at: '2026-02-01T04:30:02.362072+00:00'
+fetched_at: '2026-02-08T04:32:52.743830+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:05:35.914323Z'
@@ -64,6 +64,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:51.060156Z'
-indexed_at: '2026-02-01T04:32:51.060162Z'
+  fetched_at: '2026-02-08T04:36:45.898525Z'
+indexed_at: '2026-02-08T04:36:45.898530Z'
 ---

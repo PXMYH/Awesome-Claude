@@ -31,7 +31,7 @@ category_display: Community
 source_repo: obra/superpowers-lab
 source_path: skills/finding-duplicate-functions/SKILL.md
 source_url: https://github.com/obra/superpowers-lab/blob/main/skills/finding-duplicate-functions/SKILL.md
-fetched_at: '2026-02-01T04:29:37.629598+00:00'
+fetched_at: '2026-02-08T04:32:30.538452+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:20:06.178361Z'
@@ -64,6 +64,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.827543Z'
-indexed_at: '2026-02-01T04:32:50.827549Z'
+  fetched_at: '2026-02-08T04:36:45.642495Z'
+indexed_at: '2026-02-08T04:36:45.642500Z'
 ---

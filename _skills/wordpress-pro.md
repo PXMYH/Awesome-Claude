@@ -2,24 +2,27 @@
 id: wordpress-pro
 slug: wordpress-pro
 name: WordPress Pro
-description: '- **PHP Pro** - Modern PHP development patterns'
+description: WordPress 6.4+, PHP 8.1+, Gutenberg, WooCommerce, ACF, REST API, WP-CLI,
+  block development, theme customizer, widget API, shortcode API, transients, object
+  caching, query optimization, security harden...
 prompt_preview: "---\nname: wordpress-pro\ndescription: Use when developing WordPress\
   \ themes, plugins, customizing Gutenberg blocks, implementing WooCommerce features,\
-  \ or optimizing WordPress performance and security.\ntriggers:\n  - WordPress\n\
-  \  - WooCommerce\n  - Gutenberg\n  - WordPress theme\n  - WordPress plugin\n  -\
-  \ custom blocks\n  - ACF\n  - WordPress REST API\n  - hooks\n  - filters\n  - WordPress\
-  \ performance\n  - WordPress security\nrole: expert\nscope: implementation\noutput-format:\
-  \ code\n---\n\n# WordPress Pro\n\nExpert Wo..."
-full_prompt_length: 4198
+  \ or optimizing WordPress performance and security.\nlicense: MIT\nmetadata:\n \
+  \ author: https://github.com/Jeffallan\n  version: \"1.0.0\"\n  domain: platform\n\
+  \  triggers: WordPress, WooCommerce, Gutenberg, WordPress theme, WordPress plugin,\
+  \ custom blocks, ACF, WordPress REST API, hooks, filters, WordPress performance,\
+  \ WordPress security\n  role: expert\n  scop..."
+full_prompt_length: 4122
 tools_mentioned:
 - REST
+- php
 - PHP
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/wordpress-pro/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/wordpress-pro/SKILL.md
-fetched_at: '2026-02-01T04:29:32.663652+00:00'
+fetched_at: '2026-02-08T04:32:26.038668+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:02:22.083727Z'
@@ -54,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.775344Z'
-indexed_at: '2026-02-01T04:32:50.775349Z'
+  fetched_at: '2026-02-08T04:36:45.584388Z'
+indexed_at: '2026-02-08T04:36:45.584393Z'
 ---

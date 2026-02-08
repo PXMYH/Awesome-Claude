@@ -1,0 +1,40 @@
+id: clone
+slug: clone
+name: Clone
+description: Claude skill for Clone
+prompt_preview: "---\nname: clone\ndescription: Clone the current conversation so\
+  \ the user can branch off and try a different approach.\n---\n\nClone the current\
+  \ conversation so the user can branch off and try a different approach.\n\nSteps:\n\
+  1. Get the current session ID and project path: `tail -1 ~/.claude/history.jsonl\
+  \ | jq -r '[.sessionId, .project] | @tsv'`\n2. Find clone-conversation.sh with bash:\
+  \ `find ~/.claude -name \"clone-conversation.sh\" 2>/dev/null | sort -V | tail -1`\n\
+  \   - This finds the script whether insta..."
+full_prompt_length: 904
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: ykdojo/claude-code-tips
+source_path: skills/clone/SKILL.md
+source_url: https://github.com/ykdojo/claude-code-tips/blob/main/skills/clone/SKILL.md
+fetched_at: '2026-02-08T04:32:54.971793+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-02-08T04:36:11.054586Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1fc543a270 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1fc543a270 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-02-08T04:36:45.909572Z'
+indexed_at: '2026-02-08T04:36:45.909577Z'

@@ -1,22 +1,23 @@
 id: spec-miner
 slug: spec-miner
 name: Spec Miner
-description: '- **Feature Forge** - Creates specs for new features'
+description: Code archaeology, static analysis, design patterns, architectural patterns,
+  EARS syntax, API documentation inference
 prompt_preview: "---\nname: spec-miner\ndescription: Use when understanding legacy\
   \ or undocumented systems, creating documentation for existing code, or extracting\
   \ specifications from implementations. Invoke for legacy analysis, code archaeology,\
-  \ undocumented features.\ntriggers:\n  - reverse engineer\n  - legacy code\n  -\
-  \ code analysis\n  - undocumented\n  - understand codebase\n  - existing system\n\
-  role: specialist\nscope: review\nallowed-tools: Read, Grep, Glob, Bash\noutput-format:\
-  \ document\n---\n\n# Spec Miner\n\nReverse-eng..."
-full_prompt_length: 2965
+  \ undocumented features.\nlicense: MIT\nallowed-tools: Read, Grep, Glob, Bash\n\
+  metadata:\n  author: https://github.com/Jeffallan\n  version: \"1.0.0\"\n  domain:\
+  \ workflow\n  triggers: reverse engineer, legacy code, code analysis, undocumented,\
+  \ understand codebase, existing system..."
+full_prompt_length: 2926
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/spec-miner/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/spec-miner/SKILL.md
-fetched_at: '2026-02-01T04:29:30.607828+00:00'
+fetched_at: '2026-02-08T04:32:24.399343+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:01:52.396037Z'
@@ -48,5 +49,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.765512Z'
-indexed_at: '2026-02-01T04:32:50.765517Z'
+  fetched_at: '2026-02-08T04:36:45.573201Z'
+indexed_at: '2026-02-08T04:36:45.573207Z'

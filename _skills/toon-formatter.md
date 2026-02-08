@@ -12,15 +12,15 @@ prompt_preview: "---\nname: toon-formatter\ndescription: Token-Oriented Object N
   license: MIT\nmetadata:\n  author: r..."
 full_prompt_length: 6146
 tools_mentioned:
+- javascript
 - rest
 - react
-- javascript
 category: community
 category_display: Community
 source_repo: raintree-technology/claude-starter
 source_path: skills/toon-formatter/SKILL.md
 source_url: https://github.com/raintree-technology/claude-starter/blob/main/skills/toon-formatter/SKILL.md
-fetched_at: '2026-02-01T04:29:41.282918+00:00'
+fetched_at: '2026-02-08T04:32:33.899453+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:03:03.003647Z'
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.856311Z'
-indexed_at: '2026-02-01T04:32:50.856317Z'
+  fetched_at: '2026-02-08T04:36:45.674402Z'
+indexed_at: '2026-02-08T04:36:45.674408Z'
 ---

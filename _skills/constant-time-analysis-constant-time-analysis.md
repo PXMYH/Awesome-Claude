@@ -26,22 +26,22 @@ prompt_preview: '---
   ## When...'
 full_prompt_length: 9912
 tools_mentioned:
-- JavaScript
-- go
-- PHP
-- javascript
 - java
-- Java
+- javascript
+- ruby
+- python
 - Node.js
-- Ruby
 - TypeScript
+- Java
+- php
 - Go
+- Ruby
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/constant-time-analysis/skills/constant-time-analysis/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/constant-time-analysis/skills/constant-time-analysis/SKILL.md
-fetched_at: '2026-02-01T04:29:50.794879+00:00'
+fetched_at: '2026-02-08T04:32:42.569904+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:22:20.420326Z'
@@ -73,6 +73,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.942462Z'
-indexed_at: '2026-02-01T04:32:50.942467Z'
+  fetched_at: '2026-02-08T04:36:45.774179Z'
+indexed_at: '2026-02-08T04:36:45.774184Z'
 ---

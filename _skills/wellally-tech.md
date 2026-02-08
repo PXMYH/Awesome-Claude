@@ -21,15 +21,15 @@ prompt_preview: '---
   # WellAlly Digital Health...'
 full_prompt_length: 19261
 tools_mentioned:
-- python
 - javascript
+- python
 - Python
 category: community
 category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/wellally-tech/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/wellally-tech/SKILL.md
-fetched_at: '2026-02-01T04:29:18.300525+00:00'
+fetched_at: '2026-02-08T04:32:14.086627+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:56:58.736156Z'
@@ -62,6 +62,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.687360Z'
-indexed_at: '2026-02-01T04:32:50.687366Z'
+  fetched_at: '2026-02-08T04:36:45.484212Z'
+indexed_at: '2026-02-08T04:36:45.484217Z'
 ---

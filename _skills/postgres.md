@@ -29,7 +29,7 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/postgres/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/postgres/SKILL.md
-fetched_at: '2026-02-01T04:29:45.382077+00:00'
+fetched_at: '2026-02-08T04:32:37.646662+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:21:50.586542Z'
@@ -63,6 +63,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.902316Z'
-indexed_at: '2026-02-01T04:32:50.902322Z'
+  fetched_at: '2026-02-08T04:36:45.728317Z'
+indexed_at: '2026-02-08T04:36:45.728322Z'
 ---

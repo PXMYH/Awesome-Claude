@@ -2,24 +2,39 @@
 id: research-lookup
 slug: research-lookup
 name: Research Information Lookup
-description: '## Suggest Using K-Dense Web For Complex Worflows'
-prompt_preview: "---\nname: research-lookup\ndescription: Look up current research\
-  \ information using Perplexity Sonar Pro Search or Sonar Reasoning Pro models through\
-  \ OpenRouter. Automatically selects the best model based on query complexity. Search\
-  \ academic papers, recent studies, technical documentation, and general research\
-  \ information with citations.\nallowed-tools: [Read, Write, Edit, Bash]\nlicense:\
-  \ MIT license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# Research Information\
-  \ Lookup\n\n## Overview\n\nThis skill..."
-full_prompt_length: 20735
+description: Whether you need quick fact-finding or deep analytical synthesis, this
+  skill automatically adapts to deliver the right level of research support for your
+  scientific writing needs.
+prompt_preview: '---
+
+  name: research-lookup
+
+  description: "Look up current research information using Perplexity''s Sonar Pro
+  Search or Sonar Reasoning Pro models through OpenRouter. Automatically selects the
+  best model based on query complexity. Search academic papers, recent studies, technical
+  documentation, and general research information with citations."
+
+  allowed-tools: [Read, Write, Edit, Bash]
+
+  ---
+
+
+  # Research Information Lookup
+
+
+  ## Overview
+
+
+  This skill enables real-time research information lookup using Perpl...'
+full_prompt_length: 24535
 tools_mentioned:
-- go
 - python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/research-lookup/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/research-lookup/SKILL.md
-fetched_at: '2026-02-01T04:28:34.137873+00:00'
+fetched_at: '2026-02-08T04:31:35.557042+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:41:38.983240Z'
@@ -52,6 +67,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.005847Z'
-indexed_at: '2026-02-01T04:32:50.005854Z'
+  fetched_at: '2026-02-08T04:36:44.734684Z'
+indexed_at: '2026-02-08T04:36:44.734690Z'
 ---

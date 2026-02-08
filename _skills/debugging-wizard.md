@@ -2,22 +2,23 @@
 id: debugging-wizard
 slug: debugging-wizard
 name: Debugging Wizard
-description: '- **Test Master** - Writing regression tests'
+description: Debuggers (Chrome DevTools, VS Code, pdb, delve), profilers, log aggregation,
+  distributed tracing, memory analysis, git bisect, error tracking (Sentry)
 prompt_preview: "---\nname: debugging-wizard\ndescription: Use when investigating\
   \ errors, analyzing stack traces, or finding root causes of unexpected behavior.\
   \ Invoke for error investigation, troubleshooting, log analysis, root cause analysis.\n\
-  triggers:\n  - debug\n  - error\n  - bug\n  - exception\n  - traceback\n  - stack\
-  \ trace\n  - troubleshoot\n  - not working\n  - crash\n  - fix issue\nrole: specialist\n\
-  scope: analysis\noutput-format: analysis\n---\n\n# Debugging Wizard\n\nExpert debugger\
-  \ applying systematic methodology to is..."
-full_prompt_length: 3128
+  license: MIT\nmetadata:\n  author: https://github.com/Jeffallan\n  version: \"1.0.0\"\
+  \n  domain: quality\n  triggers: debug, error, bug, exception, traceback, stack\
+  \ trace, troubleshoot, not working, crash, fix issue\n  role: specialist\n  scope:\
+  \ analysis\n  output-format: analysis..."
+full_prompt_length: 3109
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/debugging-wizard/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/debugging-wizard/SKILL.md
-fetched_at: '2026-02-01T04:29:22.777879+00:00'
+fetched_at: '2026-02-08T04:32:18.036148+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:57:46.315668Z'
@@ -49,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.704157Z'
-indexed_at: '2026-02-01T04:32:50.704163Z'
+  fetched_at: '2026-02-08T04:36:45.503151Z'
+indexed_at: '2026-02-08T04:36:45.503157Z'
 ---

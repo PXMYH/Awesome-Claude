@@ -2,26 +2,30 @@
 id: shopify-expert
 slug: shopify-expert
 name: Shopify Expert
-description: '- **React Expert** - For Hydrogen and headless frontends'
+description: Shopify CLI 3.x, Liquid 2.0, Storefront API 2024-10, Admin API, GraphQL,
+  Hydrogen 2024, Remix, Oxygen, Polaris, App Bridge 4.0, Checkout UI Extensions, Shopify
+  Functions, metafields, metaobjects, them...
 prompt_preview: "---\nname: shopify-expert\ndescription: Use when building Shopify\
   \ themes, apps, custom storefronts, or e-commerce solutions. Invoke for Liquid templating,\
   \ Storefront API, app development, checkout customization, Shopify Plus features.\n\
-  triggers:\n  - Shopify\n  - Liquid\n  - Storefront API\n  - Shopify Plus\n  - Hydrogen\n\
-  \  - Shopify app\n  - checkout extensions\n  - Shopify Functions\n  - App Bridge\n\
-  \  - theme development\n  - e-commerce\n  - Polaris\nrole: expert\nscope: implementation\n\
-  output-format: code\n---..."
-full_prompt_length: 4048
+  license: MIT\nmetadata:\n  author: https://github.com/Jeffallan\n  version: \"1.0.0\"\
+  \n  domain: platform\n  triggers: Shopify, Liquid, Storefront API, Shopify Plus,\
+  \ Hydrogen, Shopify app, checkout extensions, Shopify Functions, App Bridge, theme\
+  \ development, e-commerce, Po..."
+full_prompt_length: 3950
 tools_mentioned:
-- React
-- REST
 - GraphQL
+- React
+- graphql
 - TypeScript
+- REST
+- react
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/shopify-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/shopify-expert/SKILL.md
-fetched_at: '2026-02-01T04:29:30.262048+00:00'
+fetched_at: '2026-02-08T04:32:24.101964+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:01:30.819340Z'
@@ -52,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.759080Z'
-indexed_at: '2026-02-01T04:32:50.759090Z'
+  fetched_at: '2026-02-08T04:36:45.565792Z'
+indexed_at: '2026-02-08T04:36:45.565798Z'
 ---

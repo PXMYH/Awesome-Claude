@@ -46,14 +46,14 @@ prompt_preview: '---
   3. **P2 - 一般信息**：血型、年龄、...'
 full_prompt_length: 10841
 tools_mentioned:
-- python
 - javascript
+- python
 category: community
 category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/emergency-card/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/emergency-card/SKILL.md
-fetched_at: '2026-02-01T04:29:15.130561+00:00'
+fetched_at: '2026-02-08T04:32:11.480296+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:53:45.064552Z'
@@ -88,5 +88,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.626364Z'
-indexed_at: '2026-02-01T04:32:50.626373Z'
+  fetched_at: '2026-02-08T04:36:45.419756Z'
+indexed_at: '2026-02-08T04:36:45.419765Z'

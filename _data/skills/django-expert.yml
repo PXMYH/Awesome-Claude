@@ -1,27 +1,28 @@
 id: django-expert
 slug: django-expert
 name: Django Expert
-description: '- **Fullstack Guardian** - Full-stack feature implementation'
+description: Django 5.0, DRF, async views, ORM, QuerySet, select_related, prefetch_related,
+  SimpleJWT, django-filter, drf-spectacular, pytest-django
 prompt_preview: "---\nname: django-expert\ndescription: Use when building Django web\
   \ applications or REST APIs with Django REST Framework. Invoke for Django models,\
-  \ ORM optimization, DRF serializers, viewsets, authentication with JWT.\ntriggers:\n\
-  \  - Django\n  - DRF\n  - Django REST Framework\n  - Django ORM\n  - Django model\n\
-  \  - serializer\n  - viewset\n  - Python web\nrole: specialist\nscope: implementation\n\
-  output-format: code\n---\n\n# Django Expert\n\nSenior Django specialist with deep\
-  \ expertise in Django 5.0, Django REST Fr..."
-full_prompt_length: 3032
+  \ ORM optimization, DRF serializers, viewsets, authentication with JWT.\nlicense:\
+  \ MIT\nmetadata:\n  author: https://github.com/Jeffallan\n  version: \"1.0.0\"\n\
+  \  domain: backend\n  triggers: Django, DRF, Django REST Framework, Django ORM,\
+  \ Django model, serializer, viewset, Python web\n  role: specialist\n  scope: implementation\n\
+  \  output-format: code\n  related-skil..."
+full_prompt_length: 2994
 tools_mentioned:
-- FastAPI
 - Django
-- django
 - REST
 - Python
+- django
+- fastapi
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/django-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/django-expert/SKILL.md
-fetched_at: '2026-02-01T04:29:23.118466+00:00'
+fetched_at: '2026-02-08T04:32:18.398767+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:57:56.068431Z'
@@ -39,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.707285Z'
-indexed_at: '2026-02-01T04:32:50.707291Z'
+  fetched_at: '2026-02-08T04:36:45.506752Z'
+indexed_at: '2026-02-08T04:36:45.506757Z'

@@ -1,23 +1,25 @@
 id: spark-engineer
 slug: spark-engineer
 name: Spark Engineer
-description: '- **Python Pro** - PySpark development patterns and best practices'
+description: Spark DataFrame API, Spark SQL, RDD transformations/actions, catalyst
+  optimizer, tungsten execution engine, partitioning strategies, broadcast variables,
+  accumulators, structured streaming, watermarks...
 prompt_preview: "---\nname: spark-engineer\ndescription: Use when building Apache\
   \ Spark applications, distributed data processing pipelines, or optimizing big data\
   \ workloads. Invoke for DataFrame API, Spark SQL, RDD operations, performance tuning,\
-  \ streaming analytics.\ntriggers:\n  - Apache Spark\n  - PySpark\n  - Spark SQL\n\
-  \  - distributed computing\n  - big data\n  - DataFrame API\n  - RDD\n  - Spark\
-  \ Streaming\n  - structured streaming\n  - data partitioning\n  - Spark performance\n\
-  \  - cluster computing\n  - data processing p..."
-full_prompt_length: 4696
+  \ streaming analytics.\nlicense: MIT\nmetadata:\n  author: https://github.com/Jeffallan\n\
+  \  version: \"1.0.0\"\n  domain: data-ml\n  triggers: Apache Spark, PySpark, Spark\
+  \ SQL, distributed computing, big data, DataFrame API, RDD, Spark Streaming, structured\
+  \ streaming, data partitio..."
+full_prompt_length: 4613
 tools_mentioned:
-- Python
+- python
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/spark-engineer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/spark-engineer/SKILL.md
-fetched_at: '2026-02-01T04:29:30.435932+00:00'
+fetched_at: '2026-02-08T04:32:24.232457+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:01:42.125974Z'
@@ -49,5 +51,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.762252Z'
-indexed_at: '2026-02-01T04:32:50.762257Z'
+  fetched_at: '2026-02-08T04:36:45.569496Z'
+indexed_at: '2026-02-08T04:36:45.569505Z'

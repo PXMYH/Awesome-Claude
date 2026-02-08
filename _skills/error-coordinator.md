@@ -15,12 +15,12 @@ prompt_preview: '---
   to correlate these errors, prevent cascading failure...'
 full_prompt_length: 9464
 tools_mentioned: []
-category: 09-meta-orchestration
-category_display: 09 Meta Orchestration
+category: meta-orchestration
+category_display: Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/error-coordinator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/error-coordinator.md
-fetched_at: '2026-02-07T04:07:57.850446Z'
+fetched_at: '2026-02-08T04:32:01.091663+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:10:17.305442Z'
@@ -49,10 +49,10 @@ evaluation:
   - system orchestration
   - failure recovery
 github_metrics:
-  stars: 9780
-  forks: 1066
+  stars: 9886
+  forks: 1073
   open_issues: 2
-  last_commit: '2026-02-06'
-  fetched_at: '2026-02-07T04:08:16.529193Z'
-indexed_at: '2026-02-07T04:08:26.936846Z'
+  last_commit: '2026-02-07'
+  fetched_at: '2026-02-08T04:32:59.475595Z'
+indexed_at: '2026-02-08T04:36:45.290689Z'
 ---

@@ -18,7 +18,7 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/google-slides/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/google-slides/SKILL.md
-fetched_at: '2026-02-01T04:29:44.717434+00:00'
+fetched_at: '2026-02-08T04:32:36.884692+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:04:46.430021Z'
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.889165Z'
-indexed_at: '2026-02-01T04:32:50.889177Z'
+  fetched_at: '2026-02-08T04:36:45.710925Z'
+indexed_at: '2026-02-08T04:36:45.710930Z'
 ---

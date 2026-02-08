@@ -1,15 +1,17 @@
 id: atlassian-mcp
 slug: atlassian-mcp
 name: Atlassian MCP Expert
-description: '- **MCP Developer** - Building custom MCP servers and protocol compliance'
+description: Atlassian MCP Server (official), mcp-atlassian (sooperset), atlassian-mcp
+  (xuanxt), JQL (Jira Query Language), CQL (Confluence Query Language), OAuth 2.1,
+  API tokens, Personal Access Tokens (PAT), Mod...
 prompt_preview: "---\nname: atlassian-mcp\ndescription: Use when querying Jira issues,\
   \ searching Confluence pages, creating tickets, updating documentation, or integrating\
-  \ Atlassian tools via MCP protocol.\ntriggers:\n  - Jira\n  - Confluence\n  - Atlassian\n\
-  \  - MCP\n  - tickets\n  - issues\n  - wiki\n  - JQL\n  - CQL\n  - sprint\n  - backlog\n\
-  \  - project management\nrole: expert\nscope: implementation\noutput-format: code\n\
-  ---\n\n# Atlassian MCP Expert\n\nSenior integration specialist with deep expertise\
-  \ in connecting Jira, Confluenc..."
-full_prompt_length: 4138
+  \ Atlassian tools via MCP protocol.\nlicense: MIT\nmetadata:\n  author: https://github.com/Jeffallan\n\
+  \  version: \"1.0.0\"\n  domain: platform\n  triggers: Jira, Confluence, Atlassian,\
+  \ MCP, tickets, issues, wiki, JQL, CQL, sprint, backlog, project management\n  role:\
+  \ expert\n  scope: implementation\n  output-format: code\n  related-skills: mcp-developer,\
+  \ api-..."
+full_prompt_length: 4041
 tools_mentioned:
 - REST
 category: community
@@ -17,7 +19,7 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/atlassian-mcp/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/atlassian-mcp/SKILL.md
-fetched_at: '2026-02-01T04:29:21.259529+00:00'
+fetched_at: '2026-02-08T04:32:16.706215+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:57:25.016974Z'
@@ -53,5 +55,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.697384Z'
-indexed_at: '2026-02-01T04:32:50.697389Z'
+  fetched_at: '2026-02-08T04:36:45.495547Z'
+indexed_at: '2026-02-08T04:36:45.495556Z'

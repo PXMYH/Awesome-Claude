@@ -19,7 +19,7 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/cellxgene-census/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/cellxgene-census/SKILL.md
-fetched_at: '2026-02-01T04:28:17.116709+00:00'
+fetched_at: '2026-02-08T04:31:18.436000+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:23:16.429230Z'
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:49.670474Z'
-indexed_at: '2026-02-01T04:32:49.670479Z'
+  fetched_at: '2026-02-08T04:36:44.352047Z'
+indexed_at: '2026-02-08T04:36:44.352052Z'
 ---

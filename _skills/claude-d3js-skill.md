@@ -21,8 +21,8 @@ prompt_preview: '---
   # D3.js Visualisation...'
 full_prompt_length: 21764
 tools_mentioned:
-- Vue
 - javascript
+- Vue
 - React
 - JavaScript
 category: community
@@ -30,7 +30,7 @@ category_display: Community
 source_repo: chrisvoncsefalvay/claude-d3js-skill
 source_path: SKILL.md
 source_url: https://github.com/chrisvoncsefalvay/claude-d3js-skill/blob/main/SKILL.md
-fetched_at: '2026-02-01T04:29:12.605397+00:00'
+fetched_at: '2026-02-08T04:32:09.207259+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:16:19.092018Z'
@@ -61,6 +61,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.609337Z'
-indexed_at: '2026-02-01T04:32:50.609342Z'
+  fetched_at: '2026-02-08T04:36:45.404422Z'
+indexed_at: '2026-02-08T04:36:45.404428Z'
 ---

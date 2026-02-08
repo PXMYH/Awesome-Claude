@@ -17,12 +17,12 @@ full_prompt_length: 11969
 tools_mentioned:
 - azure
 - kubernetes
-category: 09-meta-orchestration
-category_display: 09 Meta Orchestration
+category: meta-orchestration
+category_display: Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/knowledge-synthesizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/knowledge-synthesizer.md
-fetched_at: '2026-02-07T04:07:58.320013Z'
+fetched_at: '2026-02-08T04:32:01.499734+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:10:39.124678Z'
@@ -53,10 +53,10 @@ evaluation:
   - system-optimization
   - meta-orchestration
 github_metrics:
-  stars: 9780
-  forks: 1066
+  stars: 9886
+  forks: 1073
   open_issues: 2
-  last_commit: '2026-02-06'
-  fetched_at: '2026-02-07T04:08:16.529193Z'
-indexed_at: '2026-02-07T04:08:26.944077Z'
+  last_commit: '2026-02-07'
+  fetched_at: '2026-02-08T04:32:59.475595Z'
+indexed_at: '2026-02-08T04:36:45.298003Z'
 ---

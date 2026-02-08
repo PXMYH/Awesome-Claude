@@ -2,26 +2,28 @@
 id: architecture-designer
 slug: architecture-designer
 name: Architecture Designer
-description: '- **Fullstack Guardian** - Implementing designs'
+description: Distributed systems, microservices, event-driven architecture, CQRS,
+  DDD, CAP theorem, cloud platforms (AWS, GCP, Azure), containers, Kubernetes, message
+  queues, caching, database design
 prompt_preview: "---\nname: architecture-designer\ndescription: Use when designing\
   \ new system architecture, reviewing existing designs, or making architectural decisions.\
   \ Invoke for system design, architecture review, design patterns, ADRs, scalability\
-  \ planning.\ntriggers:\n  - architecture\n  - system design\n  - design pattern\n\
-  \  - microservices\n  - scalability\n  - ADR\n  - technical design\n  - infrastructure\n\
-  role: expert\nscope: design\noutput-format: document\n---\n\n# Architecture Designer\n\
-  \nSenior software architect spe..."
-full_prompt_length: 3125
+  \ planning.\nlicense: MIT\nmetadata:\n  author: https://github.com/Jeffallan\n \
+  \ version: \"1.0.0\"\n  domain: api-architecture\n  triggers: architecture, system\
+  \ design, design pattern, microservices, scalability, ADR, technical design, infrastructure\n\
+  \  role: expert\n  scope: d..."
+full_prompt_length: 3119
 tools_mentioned:
-- Azure
-- Kubernetes
 - GCP
+- Kubernetes
+- Azure
 - AWS
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/architecture-designer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/architecture-designer/SKILL.md
-fetched_at: '2026-02-01T04:29:21.095835+00:00'
+fetched_at: '2026-02-08T04:32:16.544740+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:57:12.812383Z'
@@ -55,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-01T04:32:50.694088Z'
-indexed_at: '2026-02-01T04:32:50.694094Z'
+  fetched_at: '2026-02-08T04:36:45.491770Z'
+indexed_at: '2026-02-08T04:36:45.491775Z'
 ---
