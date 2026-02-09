@@ -15,15 +15,15 @@ prompt_preview: '---
   \"We need to create an ETL pipeline that inge...'
 full_prompt_length: 9168
 tools_mentioned:
-- Kubernetes
 - Azure
 - AWS
-category: data-ai
-category_display: Data Ai
+- Kubernetes
+category: 05-data-ai
+category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/data-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/data-engineer.md
-fetched_at: '2026-02-08T04:31:52.771487+00:00'
+fetched_at: '2026-02-09T04:26:14.020091Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:00:24.694045Z'
@@ -52,10 +52,10 @@ evaluation:
   - cloud-platforms
   - data-architecture
 github_metrics:
-  stars: 9886
-  forks: 1073
-  open_issues: 2
+  stars: 9985
+  forks: 1081
+  open_issues: 3
   last_commit: '2026-02-07'
-  fetched_at: '2026-02-08T04:32:59.475595Z'
-indexed_at: '2026-02-08T04:36:45.110365Z'
+  fetched_at: '2026-02-09T04:26:32.597214Z'
+indexed_at: '2026-02-09T04:26:42.098521Z'
 ---

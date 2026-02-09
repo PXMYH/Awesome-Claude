@@ -1,60 +1,48 @@
-- slug: business-product
-  name: Business Product
+- slug: 05-data-ai
+  name: 05 Data Ai
+  count: 12
+  avg_rating: 3.79
+- slug: 06-developer-experience
+  name: 06 Developer Experience
+  count: 13
+  avg_rating: 4.02
+- slug: 07-specialized-domains
+  name: 07 Specialized Domains
+  count: 12
+  avg_rating: 3.81
+- slug: 08-business-product
+  name: 08 Business Product
   count: 11
   avg_rating: 3.59
+- slug: 09-meta-orchestration
+  name: 09 Meta Orchestration
+  count: 10
+  avg_rating: 3.67
+- slug: 10-research-analysis
+  name: 10 Research Analysis
+  count: 6
+  avg_rating: 3.92
 - slug: community
-  name: Community
-  count: 101
-  avg_rating: 4.38
+  name: Community Skills
+  count: 14
+  avg_rating: 4.68
 - slug: core-development
   name: Core Development
   count: 10
   avg_rating: 4.33
-- slug: data-ai
-  name: Data Ai
-  count: 12
-  avg_rating: 3.79
-- slug: data-analytics
-  name: Data Analytics
-  count: 1
-  avg_rating: 4.75
-- slug: developer-experience
-  name: Developer Experience
-  count: 13
-  avg_rating: 4.02
 - slug: infrastructure
   name: Infrastructure
-  count: 20
-  avg_rating: 4.06
+  count: 15
+  avg_rating: 3.9
 - slug: language-specialists
   name: Language Specialists
   count: 26
   avg_rating: 4.12
-- slug: meta-orchestration
-  name: Meta Orchestration
-  count: 10
-  avg_rating: 3.67
 - slug: official
-  name: Official
+  name: Official Anthropic Skills
   count: 16
   avg_rating: 4.33
 - slug: quality-security
-  name: Quality Security
+  name: Quality & Security
   count: 14
   avg_rating: 3.98
-- slug: research-analysis
-  name: Research Analysis
-  count: 6
-  avg_rating: 3.92
-- slug: scientific
-  name: Scientific
-  count: 141
-  avg_rating: 4.12
-- slug: security
-  name: Security
-  count: 48
-  avg_rating: 4.07
-- slug: specialized-domains
-  name: Specialized Domains
-  count: 12
-  avg_rating: 3.81

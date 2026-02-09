@@ -15,18 +15,18 @@ prompt_preview: '---
   re-renders too frequently when receiving live data. The reacti...'
 full_prompt_length: 8791
 tools_mentioned:
-- javascript
-- vue
 - TypeScript
-- typescript
-- JavaScript
 - Vue
+- vue
+- JavaScript
+- javascript
+- typescript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/vue-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/vue-expert.md
-fetched_at: '2026-02-08T04:31:47.355483+00:00'
+fetched_at: '2026-02-09T04:26:08.769620Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:54:14.804505Z'
@@ -58,10 +58,10 @@ evaluation:
   - frontend
   - web-development
 github_metrics:
-  stars: 9886
-  forks: 1073
-  open_issues: 2
+  stars: 9985
+  forks: 1081
+  open_issues: 3
   last_commit: '2026-02-07'
-  fetched_at: '2026-02-08T04:32:59.475595Z'
-indexed_at: '2026-02-08T04:36:44.990431Z'
+  fetched_at: '2026-02-09T04:26:32.597214Z'
+indexed_at: '2026-02-09T04:26:41.973992Z'
 ---

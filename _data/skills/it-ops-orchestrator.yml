@@ -14,14 +14,14 @@ prompt_preview: '---
   90 days and disable them. I want enumerati...'
 full_prompt_length: 5482
 tools_mentioned:
-- azure
 - Azure
-category: meta-orchestration
-category_display: Meta Orchestration
+- azure
+category: 09-meta-orchestration
+category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/it-ops-orchestrator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/it-ops-orchestrator.md
-fetched_at: '2026-02-08T04:32:01.273712+00:00'
+fetched_at: '2026-02-09T04:26:22.068303Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:10:27.683485Z'
@@ -50,9 +50,9 @@ evaluation:
   - PowerShell
   - Azure
 github_metrics:
-  stars: 9886
-  forks: 1073
-  open_issues: 2
+  stars: 9985
+  forks: 1081
+  open_issues: 3
   last_commit: '2026-02-07'
-  fetched_at: '2026-02-08T04:32:59.475595Z'
-indexed_at: '2026-02-08T04:36:45.294321Z'
+  fetched_at: '2026-02-09T04:26:32.597214Z'
+indexed_at: '2026-02-09T04:26:42.285446Z'

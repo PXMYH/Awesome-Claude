@@ -15,18 +15,19 @@ prompt_preview: '---
   15+ with biometric authentication an...'
 full_prompt_length: 13721
 tools_mentioned:
-- GraphQL
-- React
 - TypeScript
-- rest
-- REST
+- GraphQL
+- Jest
 - SQLite
+- REST
+- React
+- rest
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/mobile-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/mobile-developer.md
-fetched_at: '2026-02-08T04:31:42.828575+00:00'
+fetched_at: '2026-02-09T04:26:04.482344Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:49:02.535915Z'
@@ -55,10 +56,10 @@ evaluation:
   - Flutter
   - performance optimization
 github_metrics:
-  stars: 9886
-  forks: 1073
-  open_issues: 2
+  stars: 9985
+  forks: 1081
+  open_issues: 3
   last_commit: '2026-02-07'
-  fetched_at: '2026-02-08T04:32:59.475595Z'
-indexed_at: '2026-02-08T04:36:44.885540Z'
+  fetched_at: '2026-02-09T04:26:32.597214Z'
+indexed_at: '2026-02-09T04:26:41.866569Z'
 ---

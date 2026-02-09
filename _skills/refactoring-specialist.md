@@ -14,12 +14,12 @@ prompt_preview: '---
   payment processing module. The methods are too long and the logic is hard to follow.\"\\nassistant:...'
 full_prompt_length: 9455
 tools_mentioned: []
-category: developer-experience
-category_display: Developer Experience
+category: 06-developer-experience
+category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/refactoring-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/refactoring-specialist.md
-fetched_at: '2026-02-08T04:31:56.039806+00:00'
+fetched_at: '2026-02-09T04:26:17.074484Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:04:38.783261Z'
@@ -46,10 +46,10 @@ evaluation:
   - legacy-code
   - test-driven-development
 github_metrics:
-  stars: 9886
-  forks: 1073
-  open_issues: 2
+  stars: 9985
+  forks: 1081
+  open_issues: 3
   last_commit: '2026-02-07'
-  fetched_at: '2026-02-08T04:32:59.475595Z'
-indexed_at: '2026-02-08T04:36:45.183735Z'
+  fetched_at: '2026-02-09T04:26:32.597214Z'
+indexed_at: '2026-02-09T04:26:42.173370Z'
 ---

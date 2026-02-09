@@ -18,14 +18,14 @@ prompt_preview: '---
 full_prompt_length: 8035
 tools_mentioned:
 - python
-- Python
 - JavaScript
+- Python
 category: official
-category_display: Official
+category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/pdf/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md
-fetched_at: '2026-02-08T04:32:06.923241+00:00'
+fetched_at: '2026-02-09T04:26:26.353046Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:14:25.481483Z'
@@ -54,10 +54,10 @@ evaluation:
   - text-extraction
   - table-extraction
 github_metrics:
-  stars: 65397
-  forks: 6487
-  open_issues: 245
+  stars: 65988
+  forks: 6576
+  open_issues: 247
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-08T04:32:59.956600Z'
-indexed_at: '2026-02-08T04:36:45.371732Z'
+  fetched_at: '2026-02-09T04:26:32.985453Z'
+indexed_at: '2026-02-09T04:26:42.363029Z'
 ---

@@ -15,14 +15,14 @@ prompt_preview: '---
   users.\\nuser: \"We need to build a fitness tracking a...'
 full_prompt_length: 10271
 tools_mentioned:
-- go
 - React
-category: specialized-domains
-category_display: Specialized Domains
+- go
+category: 07-specialized-domains
+category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/mobile-app-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/mobile-app-developer.md
-fetched_at: '2026-02-08T04:31:57.794198+00:00'
+fetched_at: '2026-02-09T04:26:18.701908Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:06:43.330246Z'
@@ -51,10 +51,10 @@ evaluation:
   - cross-platform
   - performance optimization
 github_metrics:
-  stars: 9886
-  forks: 1073
-  open_issues: 2
+  stars: 9985
+  forks: 1081
+  open_issues: 3
   last_commit: '2026-02-07'
-  fetched_at: '2026-02-08T04:32:59.475595Z'
-indexed_at: '2026-02-08T04:36:45.220733Z'
+  fetched_at: '2026-02-09T04:26:32.597214Z'
+indexed_at: '2026-02-09T04:26:42.210937Z'
 ---

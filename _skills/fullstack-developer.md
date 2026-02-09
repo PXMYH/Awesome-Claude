@@ -15,19 +15,19 @@ prompt_preview: '---
   forms including validation and error...'
 full_prompt_length: 9796
 tools_mentioned:
+- TypeScript
 - GraphQL
-- React
 - PostgreSQL
 - Node.js
 - Docker
-- TypeScript
+- React
 - WebSocket
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/fullstack-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/fullstack-developer.md
-fetched_at: '2026-02-08T04:31:42.364578+00:00'
+fetched_at: '2026-02-09T04:26:04.038975Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:48:24.560341Z'
@@ -56,10 +56,10 @@ evaluation:
   - frontend
   - deployment
 github_metrics:
-  stars: 9886
-  forks: 1073
-  open_issues: 2
+  stars: 9985
+  forks: 1081
+  open_issues: 3
   last_commit: '2026-02-07'
-  fetched_at: '2026-02-08T04:32:59.475595Z'
-indexed_at: '2026-02-08T04:36:44.874367Z'
+  fetched_at: '2026-02-09T04:26:32.597214Z'
+indexed_at: '2026-02-09T04:26:41.855031Z'
 ---

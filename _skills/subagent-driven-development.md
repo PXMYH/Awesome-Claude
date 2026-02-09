@@ -13,11 +13,11 @@ prompt_preview: "---\nname: subagent-driven-development\ndescription: Use when e
 full_prompt_length: 9966
 tools_mentioned: []
 category: community
-category_display: Community
+category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/subagent-driven-development/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md
-fetched_at: '2026-02-08T04:32:28.678755+00:00'
+fetched_at: '2026-02-09T04:26:30.149109Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:18:28.258356Z'
@@ -46,10 +46,10 @@ evaluation:
   - subagent
   - quality-assurance
 github_metrics:
-  stars: 47089
-  forks: 3577
-  open_issues: 107
+  stars: 47915
+  forks: 3639
+  open_issues: 112
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-08T04:33:00.355136Z'
-indexed_at: '2026-02-08T04:36:45.613314Z'
+  fetched_at: '2026-02-09T04:26:33.285141Z'
+indexed_at: '2026-02-09T04:26:42.415667Z'
 ---

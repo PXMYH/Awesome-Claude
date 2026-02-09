@@ -15,14 +15,14 @@ prompt_preview: '---
   predictions with <100ms latency. What''s the bes...'
 full_prompt_length: 9143
 tools_mentioned:
-- gRPC
 - REST
-category: data-ai
-category_display: Data Ai
+- gRPC
+category: 05-data-ai
+category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/ai-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/ai-engineer.md
-fetched_at: '2026-02-08T04:31:52.437867+00:00'
+fetched_at: '2026-02-09T04:26:13.718755Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:00:03.100081Z'
@@ -53,10 +53,10 @@ evaluation:
   - Ethical AI
   - Production Scaling
 github_metrics:
-  stars: 9886
-  forks: 1073
-  open_issues: 2
+  stars: 9985
+  forks: 1081
+  open_issues: 3
   last_commit: '2026-02-07'
-  fetched_at: '2026-02-08T04:32:59.475595Z'
-indexed_at: '2026-02-08T04:36:45.102851Z'
+  fetched_at: '2026-02-09T04:26:32.597214Z'
+indexed_at: '2026-02-09T04:26:42.090688Z'
 ---

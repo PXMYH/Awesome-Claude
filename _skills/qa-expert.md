@@ -15,14 +15,14 @@ prompt_preview: '---
   for our upcoming project. What should our testing approach be...'
 full_prompt_length: 9390
 tools_mentioned:
-- go
 - Go
+- go
 category: quality-security
-category_display: Quality Security
+category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/qa-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/qa-expert.md
-fetched_at: '2026-02-08T04:31:51.799956+00:00'
+fetched_at: '2026-02-09T04:26:13.125463Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:59:27.171570Z'
@@ -49,10 +49,10 @@ evaluation:
   - quality-metrics
   - qa-process
 github_metrics:
-  stars: 9886
-  forks: 1073
-  open_issues: 2
+  stars: 9985
+  forks: 1081
+  open_issues: 3
   last_commit: '2026-02-07'
-  fetched_at: '2026-02-08T04:32:59.475595Z'
-indexed_at: '2026-02-08T04:36:45.091896Z'
+  fetched_at: '2026-02-09T04:26:32.597214Z'
+indexed_at: '2026-02-09T04:26:42.079225Z'
 ---
