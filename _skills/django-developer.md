@@ -15,22 +15,22 @@ prompt_preview: '---
   to handle 10k+ concurrent user...'
 full_prompt_length: 9011
 tools_mentioned:
-- GraphQL
-- pytest
-- django
-- python
-- Redis
-- redis
-- REST
 - Django
 - WebSocket
+- django
 - Python
+- python
+- Redis
+- GraphQL
+- REST
+- redis
+- pytest
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/django-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/django-developer.md
-fetched_at: '2026-02-09T04:26:05.514610Z'
+fetched_at: '2026-02-10T04:30:15.311265Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:50:13.611701Z'
@@ -58,10 +58,10 @@ evaluation:
   - security
   - performance-optimization
 github_metrics:
-  stars: 9985
-  forks: 1081
+  stars: 10075
+  forks: 1084
   open_issues: 3
   last_commit: '2026-02-07'
-  fetched_at: '2026-02-09T04:26:32.597214Z'
-indexed_at: '2026-02-09T04:26:41.890147Z'
+  fetched_at: '2026-02-10T04:30:47.641906Z'
+indexed_at: '2026-02-10T04:30:57.080104Z'
 ---

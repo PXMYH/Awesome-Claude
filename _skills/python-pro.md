@@ -15,22 +15,22 @@ prompt_preview: '---
   SQLAlchemy async ORM, Pydantic validation, and 90%+ test cove...'
 full_prompt_length: 10852
 tools_mentioned:
-- pytest
+- Django
+- WebSocket
+- FastAPI
+- Python
 - Flask
 - python
-- Redis
-- Pytest
-- typescript
-- FastAPI
-- REST
+- rust
 - Docker
-- Django
+- Redis
+- typescript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/python-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/python-pro.md
-fetched_at: '2026-02-09T04:26:07.598738Z'
+fetched_at: '2026-02-10T04:30:17.669823Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:52:43.626198Z'
@@ -59,10 +59,10 @@ evaluation:
   - Data Science
   - Web Development
 github_metrics:
-  stars: 9985
-  forks: 1081
+  stars: 10075
+  forks: 1084
   open_issues: 3
   last_commit: '2026-02-07'
-  fetched_at: '2026-02-09T04:26:32.597214Z'
-indexed_at: '2026-02-09T04:26:41.943223Z'
+  fetched_at: '2026-02-10T04:30:47.641906Z'
+indexed_at: '2026-02-10T04:30:57.132465Z'
 ---

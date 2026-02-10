@@ -37,7 +37,7 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/slack-gif-creator/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/slack-gif-creator/SKILL.md
-fetched_at: '2026-02-09T04:26:27.109138Z'
+fetched_at: '2026-02-10T04:30:40.929077Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:15:01.939151Z'
@@ -67,10 +67,10 @@ evaluation:
   - optimization
   - emoji
 github_metrics:
-  stars: 65988
-  forks: 6576
-  open_issues: 247
+  stars: 66749
+  forks: 6656
+  open_issues: 254
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-09T04:26:32.985453Z'
-indexed_at: '2026-02-09T04:26:42.374377Z'
+  fetched_at: '2026-02-10T04:30:48.103536Z'
+indexed_at: '2026-02-10T04:30:57.565129Z'
 ---

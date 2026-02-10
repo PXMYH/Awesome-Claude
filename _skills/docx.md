@@ -15,16 +15,16 @@ prompt_preview: '---
   performing find-and-replace in Word files, working...'
 full_prompt_length: 17113
 tools_mentioned:
-- python
 - JavaScript
 - Python
 - javascript
+- python
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/docx/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/docx/SKILL.md
-fetched_at: '2026-02-09T04:26:25.326682Z'
+fetched_at: '2026-02-10T04:30:38.381068Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:13:40.925713Z'
@@ -51,10 +51,10 @@ evaluation:
   - workflow-automation
   - professional-tools
 github_metrics:
-  stars: 65988
-  forks: 6576
-  open_issues: 247
+  stars: 66749
+  forks: 6656
+  open_issues: 254
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-09T04:26:32.985453Z'
-indexed_at: '2026-02-09T04:26:42.348075Z'
+  fetched_at: '2026-02-10T04:30:48.103536Z'
+indexed_at: '2026-02-10T04:30:57.539357Z'
 ---

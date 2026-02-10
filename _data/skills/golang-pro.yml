@@ -14,22 +14,22 @@ prompt_preview: '---
   shutdown\\nuser: \"Create a gRPC service i...'
 full_prompt_length: 11314
 tools_mentioned:
-- kubernetes
-- python
-- Kubernetes
-- go
 - java
-- REST
-- Docker
-- gRPC
+- python
 - rust
+- go
+- gRPC
+- Docker
+- Kubernetes
+- REST
+- kubernetes
 - Go
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/golang-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/golang-pro.md
-fetched_at: '2026-02-09T04:26:06.265464Z'
+fetched_at: '2026-02-10T04:30:16.151230Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:51:10.588340Z'
@@ -58,9 +58,9 @@ evaluation:
   - Concurrency
   - Cloud-Native
 github_metrics:
-  stars: 9985
-  forks: 1081
+  stars: 10075
+  forks: 1084
   open_issues: 3
   last_commit: '2026-02-07'
-  fetched_at: '2026-02-09T04:26:32.597214Z'
-indexed_at: '2026-02-09T04:26:41.909479Z'
+  fetched_at: '2026-02-10T04:30:47.641906Z'
+indexed_at: '2026-02-10T04:30:57.099278Z'

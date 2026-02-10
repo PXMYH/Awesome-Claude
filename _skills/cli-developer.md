@@ -21,7 +21,7 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/cli-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/cli-developer.md
-fetched_at: '2026-02-09T04:26:15.718717Z'
+fetched_at: '2026-02-10T04:30:27.068819Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:02:49.993961Z'
@@ -52,10 +52,10 @@ evaluation:
   - terminal-apps
   - cross-platform
 github_metrics:
-  stars: 9985
-  forks: 1081
+  stars: 10075
+  forks: 1084
   open_issues: 3
   last_commit: '2026-02-07'
-  fetched_at: '2026-02-09T04:26:32.597214Z'
-indexed_at: '2026-02-09T04:26:42.139567Z'
+  fetched_at: '2026-02-10T04:30:47.641906Z'
+indexed_at: '2026-02-10T04:30:57.332445Z'
 ---

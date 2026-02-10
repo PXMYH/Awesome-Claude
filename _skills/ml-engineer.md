@@ -15,14 +15,14 @@ prompt_preview: '---
   that trains a collaborative filtering model on 100M user ev...'
 full_prompt_length: 9498
 tools_mentioned:
-- REST
 - gRPC
+- REST
 category: 05-data-ai
 category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/ml-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/ml-engineer.md
-fetched_at: '2026-02-09T04:26:14.732137Z'
+fetched_at: '2026-02-10T04:30:25.908342Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:01:31.864384Z'
@@ -52,10 +52,10 @@ evaluation:
   - mlops
   - model-monitoring
 github_metrics:
-  stars: 9985
-  forks: 1081
+  stars: 10075
+  forks: 1084
   open_issues: 3
   last_commit: '2026-02-07'
-  fetched_at: '2026-02-09T04:26:32.597214Z'
-indexed_at: '2026-02-09T04:26:42.117224Z'
+  fetched_at: '2026-02-10T04:30:47.641906Z'
+indexed_at: '2026-02-10T04:30:57.309950Z'
 ---

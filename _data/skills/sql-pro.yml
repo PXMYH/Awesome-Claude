@@ -14,9 +14,9 @@ prompt_preview: '---
   and uses window functions but takes 8+ seconds. Needs to meet <500ms...'
 full_prompt_length: 10210
 tools_mentioned:
-- python
-- PostgreSQL
 - java
+- PostgreSQL
+- python
 - rest
 - MySQL
 category: language-specialists
@@ -24,7 +24,7 @@ category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/sql-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/sql-pro.md
-fetched_at: '2026-02-09T04:26:08.337181Z'
+fetched_at: '2026-02-10T04:30:18.519733Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:53:35.767170Z'
@@ -58,9 +58,9 @@ evaluation:
   - SQL Server
   - Oracle
 github_metrics:
-  stars: 9985
-  forks: 1081
+  stars: 10075
+  forks: 1084
   open_issues: 3
   last_commit: '2026-02-07'
-  fetched_at: '2026-02-09T04:26:32.597214Z'
-indexed_at: '2026-02-09T04:26:41.962300Z'
+  fetched_at: '2026-02-10T04:30:47.641906Z'
+indexed_at: '2026-02-10T04:30:57.151505Z'

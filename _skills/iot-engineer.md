@@ -15,15 +15,15 @@ prompt_preview: '---
   edge processing to reduce cloud costs and real-time anomal...'
 full_prompt_length: 10365
 tools_mentioned:
+- AWS
 - Azure
 - WebSocket
-- AWS
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/iot-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/iot-engineer.md
-fetched_at: '2026-02-09T04:26:18.404558Z'
+fetched_at: '2026-02-10T04:30:30.188465Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:06:12.837816Z'
@@ -54,10 +54,10 @@ evaluation:
   - Device Management
   - Security
 github_metrics:
-  stars: 9985
-  forks: 1081
+  stars: 10075
+  forks: 1084
   open_issues: 3
   last_commit: '2026-02-07'
-  fetched_at: '2026-02-09T04:26:32.597214Z'
-indexed_at: '2026-02-09T04:26:42.203342Z'
+  fetched_at: '2026-02-10T04:30:47.641906Z'
+indexed_at: '2026-02-10T04:30:57.396488Z'
 ---

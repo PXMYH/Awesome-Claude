@@ -15,18 +15,18 @@ prompt_preview: '---
   A development team is moving to microservices on Kube...'
 full_prompt_length: 11161
 tools_mentioned:
-- GCP
 - AWS
-- Azure
+- GCP
 - rest
-- kubernetes
+- Azure
 - Kubernetes
+- kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/security-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/security-engineer.md
-fetched_at: '2026-02-09T04:26:10.574760Z'
+fetched_at: '2026-02-10T04:30:21.126319Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:56:27.257363Z'
@@ -57,10 +57,10 @@ evaluation:
   - compliance
   - infrastructure
 github_metrics:
-  stars: 9985
-  forks: 1081
+  stars: 10075
+  forks: 1084
   open_issues: 3
   last_commit: '2026-02-07'
-  fetched_at: '2026-02-09T04:26:32.597214Z'
-indexed_at: '2026-02-09T04:26:42.015080Z'
+  fetched_at: '2026-02-10T04:30:47.641906Z'
+indexed_at: '2026-02-10T04:30:57.203532Z'
 ---

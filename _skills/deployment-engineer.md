@@ -15,15 +15,15 @@ prompt_preview: '---
   your current process and implement a modern CI/CD pip...'
 full_prompt_length: 8884
 tools_mentioned:
+- go
 - Azure
 - kubernetes
-- go
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/deployment-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/deployment-engineer.md
-fetched_at: '2026-02-09T04:26:09.525738Z'
+fetched_at: '2026-02-10T04:30:19.859364Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:54:59.163865Z'
@@ -50,10 +50,10 @@ evaluation:
   - automation
   - release-management
 github_metrics:
-  stars: 9985
-  forks: 1081
+  stars: 10075
+  forks: 1084
   open_issues: 3
   last_commit: '2026-02-07'
-  fetched_at: '2026-02-09T04:26:32.597214Z'
-indexed_at: '2026-02-09T04:26:41.988996Z'
+  fetched_at: '2026-02-10T04:30:47.641906Z'
+indexed_at: '2026-02-10T04:30:57.177830Z'
 ---

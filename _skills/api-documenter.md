@@ -15,16 +15,16 @@ prompt_preview: '---
   comprehensive OpenAPI specs and generate int...'
 full_prompt_length: 8686
 tools_mentioned:
-- WebSocket
-- GraphQL
-- REST
 - gRPC
+- GraphQL
+- WebSocket
+- REST
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/api-documenter.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/api-documenter.md
-fetched_at: '2026-02-09T04:26:17.651136Z'
+fetched_at: '2026-02-10T04:30:29.330199Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:05:17.381302Z'
@@ -56,10 +56,10 @@ evaluation:
   - documentation-automation
   - technical-writing
 github_metrics:
-  stars: 9985
-  forks: 1081
+  stars: 10075
+  forks: 1084
   open_issues: 3
   last_commit: '2026-02-07'
-  fetched_at: '2026-02-09T04:26:32.597214Z'
-indexed_at: '2026-02-09T04:26:42.184411Z'
+  fetched_at: '2026-02-10T04:30:47.641906Z'
+indexed_at: '2026-02-10T04:30:57.377462Z'
 ---
