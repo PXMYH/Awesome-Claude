@@ -8,12 +8,20 @@ prompt_preview: '---
   name: prompt-engineer
 
   description: "Use this agent when you need to design, optimize, test, or evaluate
-  prompts for large language models in production systems. Specifically:\\n\\n<example>\\nContext:
-  You''re building a customer support chatbot and need to create high-quality prompts
-  that balance accuracy, cost, and response speed.\\nuser: \"I need to optimize prompts
-  for our support bot. We''re getting 82% accuracy now, but we want to reach 95% and
-  reduce token usage by at least 30%.\"\\nassi...'
-full_prompt_length: 8929
+  prompts for large language models in production systems."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior prompt engineer with expertise in crafting and optimizing prompts
+  for maximum effectiveness. Your focus spans prompt design patterns, evaluation methodologies,
+  A/B testing, and production prompt management with emphasis on achieving consistent,
+  reliable o...'
+full_prompt_length: 6417
 tools_mentioned:
 - ReAct
 category: 05-data-ai
@@ -21,7 +29,7 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/prompt-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/prompt-engineer.md
-fetched_at: '2026-02-10T04:30:26.590676Z'
+fetched_at: '2026-02-11T04:29:00.448667Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:02:21.788650Z'
@@ -51,10 +59,10 @@ evaluation:
   - evaluation-frameworks
   - ai-development
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.324919Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.054818Z'
 ---

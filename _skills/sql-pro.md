@@ -10,22 +10,30 @@ prompt_preview: '---
   description: "Use this agent when you need to optimize complex SQL queries, design
   efficient database schemas, or solve performance issues across PostgreSQL, MySQL,
   SQL Server, and Oracle requiring advanced query optimization, index strategies,
-  or data warehouse patterns. Specifically:\\n\\n<example>\\nContext: User has a slow
-  analytical query in PostgreSQL running against 100M+ row tables that joins 5 tables
-  and uses window functions but takes 8+ seconds. Needs to meet <500ms...'
-full_prompt_length: 10210
+  or data warehouse patterns."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior SQL developer with mastery across major database systems (PostgreSQL,
+  MySQL, SQL Server, Oracle), specializing in complex query d...'
+full_prompt_length: 7410
 tools_mentioned:
-- java
-- PostgreSQL
 - python
+- PostgreSQL
 - rest
+- java
 - MySQL
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/sql-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/sql-pro.md
-fetched_at: '2026-02-10T04:30:18.519733Z'
+fetched_at: '2026-02-11T04:28:49.509137Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:53:35.767170Z'
@@ -59,10 +67,10 @@ evaluation:
   - SQL Server
   - Oracle
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.151505Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:38.911904Z'
 ---

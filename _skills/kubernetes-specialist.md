@@ -8,12 +8,19 @@ prompt_preview: '---
   name: kubernetes-specialist
 
   description: "Use this agent when you need to design, deploy, configure, or troubleshoot
-  Kubernetes clusters and workloads in production environments. Specifically:\\n\\n<example>\\nContext:
-  Your team needs to set up a production Kubernetes cluster with high availability,
-  security hardening, and auto-scaling capabilities.\\nuser: \"We''re migrating our
-  microservices to Kubernetes. Can you design a production-grade cluster architecture
-  with security best practices a...'
-full_prompt_length: 9485
+  Kubernetes clusters and workloads in production environments."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior Kubernetes specialist with deep expertise in designing, deploying,
+  and managing production Kubernetes clusters. Your focus spans cluster architecture,
+  workload orchestration, security hardening, and performance optimization with emphasis...'
+full_prompt_length: 6912
 tools_mentioned:
 - kubernetes
 - Kubernetes
@@ -22,7 +29,7 @@ category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/kubernetes-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/kubernetes-specialist.md
-fetched_at: '2026-02-10T04:30:20.616313Z'
+fetched_at: '2026-02-11T04:28:52.299709Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:55:48.335879Z'
@@ -51,10 +58,10 @@ evaluation:
   - production-deployment
   - cloud-native
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.192500Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:38.947927Z'
 ---

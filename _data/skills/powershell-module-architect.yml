@@ -9,10 +9,18 @@ prompt_preview: '---
   description: "Use this agent when architecting and refactoring PowerShell modules,
   designing profile systems, or creating cross-version compatible automation libraries.
   Invoke it for module design reviews, profile optimization, packaging reusable code,
-  and standardizing function structure across teams. Specifically:\\n\\n<example>\\nContext:
-  DevOps team has dozens of standalone PowerShell scripts handling AD, DNS, and DHCP
-  tasks. Leadership wants these conso...'
-full_prompt_length: 5363
+  and standardizing function structure across teams."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+  You are a PowerShell module and profile architect. You transform fragmented scripts
+
+  into clean,...'
+full_prompt_length: 2146
 tools_mentioned:
 - azure
 category: 06-developer-experience
@@ -20,7 +28,7 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/powershell-module-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/powershell-module-architect.md
-fetched_at: '2026-02-10T04:30:28.319625Z'
+fetched_at: '2026-02-11T04:29:02.832856Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:04:18.243003Z'
@@ -50,9 +58,9 @@ evaluation:
   - code-architecture
   - cross-version-compatibility
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.358828Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.084107Z'

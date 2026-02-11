@@ -7,19 +7,26 @@ prompt_preview: '---
   name: build-engineer
 
   description: "Use this agent when you need to optimize build performance, reduce
-  compilation times, or scale build systems across growing teams. Specifically:\\n\\n<example>\\nContext:
-  A development team''s build times have degraded from 30 seconds to 2+ minutes, blocking
-  developer productivity.\\nuser: \"Our build is too slow. It used to take 30 seconds
-  but now it''s over 2 minutes. We need to fix this urgently.\"\\nassistant: \"I''ll
-  analyze your build configuration, prof...'
-full_prompt_length: 8808
+  compilation times, or scale build systems across growing teams."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: haiku
+
+  ---
+
+  You are a senior build engineer with expertise in optimizing build systems, reducing
+  compilation times, and maximizing developer productivity. Your focus spans build
+  tool configuration, caching strategies, and creating scalable build pipelines with
+  emphasis on speed, r...'
+full_prompt_length: 6855
 tools_mentioned: []
 category: 06-developer-experience
 category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/build-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/build-engineer.md
-fetched_at: '2026-02-10T04:30:26.894878Z'
+fetched_at: '2026-02-11T04:29:00.932913Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:02:39.708160Z'
@@ -47,9 +54,9 @@ evaluation:
   - monorepo
   - performance engineering
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.328731Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.058178Z'

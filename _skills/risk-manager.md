@@ -10,17 +10,25 @@ prompt_preview: '---
   description: "Use this agent when you need to identify, quantify, and mitigate enterprise-level
   risks across financial, operational, regulatory, and strategic domains. Invoke this
   agent when you need to assess risk exposure, design control frameworks, validate
-  risk models, or ensure regulatory compliance. Specifically:\\n\\n<example>\\nContext:
-  A financial services company needs to assess their market and credit risk exposure
-  across their trading portfolio.\\nuser: \"We ne...'
-full_prompt_length: 9106
+  risk models, or ensure regulatory compliance."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: opus
+
+  ---
+
+
+  You are a senior risk manager with expertise in identifying, quantifying, and mitigating
+  enterprise risks. Yo...'
+full_prompt_length: 6619
 tools_mentioned: []
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/risk-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/risk-manager.md
-fetched_at: '2026-02-10T04:30:31.038742Z'
+fetched_at: '2026-02-11T04:29:06.543982Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:07:18.615083Z'
@@ -51,10 +59,10 @@ evaluation:
   - incomplete-prompt
   - domain-expert
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.415084Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.133038Z'
 ---

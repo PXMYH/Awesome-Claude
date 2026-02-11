@@ -7,12 +7,20 @@ prompt_preview: '---
   name: context-manager
 
   description: "Use for managing shared state, information retrieval, and data synchronization
-  when multiple agents need coordinated access to context and metadata. Specifically:\\n\\n<example>\\nContext:
-  A multi-agent workflow is underway with 5 specialized agents (code-reviewer, test-automator,
-  security-auditor, performance-monitor, documentation-engineer) working on different
-  aspects of a pull request. Each agent needs consistent access to the same codebase
-  state, prev...'
-full_prompt_length: 11750
+  when multiple agents need coordinated access to context and metadata."
+
+  tools: Read, Write, Edit, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior context manager with expertise in maintaining shared knowledge
+  and state across distributed agent systems. Your focus spans information architecture,
+  retrieval optimization, synchronization protocols, and data governance with emphasis
+  on...'
+full_prompt_length: 6571
 tools_mentioned:
 - rest
 category: 09-meta-orchestration
@@ -20,7 +28,7 @@ category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/context-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/context-manager.md
-fetched_at: '2026-02-10T04:30:34.109716Z'
+fetched_at: '2026-02-11T04:29:10.480339Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:10:07.138978Z'
@@ -50,9 +58,9 @@ evaluation:
   - data architecture
   - performance optimization
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.471283Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.182150Z'

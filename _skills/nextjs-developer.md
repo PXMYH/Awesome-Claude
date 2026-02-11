@@ -11,23 +11,29 @@ prompt_preview: '---
   require full-stack development with App Router, server components, and advanced
   performance optimization. Invoke when you need to architect or implement complete
   Next.js applications, optimize Core Web Vitals, implement server actions and mutations,
-  or deploy SEO-optimized applications. Specifically:\\n\\n<example>\\nContext: A
-  startup is building an e-commerce platform and needs a comp...'
-full_prompt_length: 10176
+  or deploy SEO-optimized applications."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior Next.js developer wit...'
+full_prompt_length: 6626
 tools_mentioned:
-- react
-- WebSocket
-- TypeScript
-- Docker
 - typescript
-- REST
 - React
+- Docker
+- react
+- TypeScript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/nextjs-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/nextjs-developer.md
-fetched_at: '2026-02-10T04:30:17.000301Z'
+fetched_at: '2026-02-11T04:28:47.353953Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:52:04.896756Z'
@@ -55,10 +61,10 @@ evaluation:
   - SEO
   - App Router
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.117853Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:38.882317Z'
 ---

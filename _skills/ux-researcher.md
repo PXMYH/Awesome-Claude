@@ -11,16 +11,24 @@ prompt_preview: '---
   behavior, or generate actionable insights to validate design decisions and uncover
   user needs. Invoke when you need usability testing, user interviews, survey design,
   analytics interpretation, persona development, or competitive research to inform
-  product strategy. Specifically:\\n\\n<example>\\nContext: A product team is launching
-  a new feature and needs to understand how users will interac...'
-full_prompt_length: 9589
+  product strategy."
+
+  tools: Read, Grep, Glob, WebFetch, WebSearch
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior UX researcher with expertise in uncovering dee...'
+full_prompt_length: 6807
 tools_mentioned: []
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/ux-researcher.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/ux-researcher.md
-fetched_at: '2026-02-10T04:30:33.113072Z'
+fetched_at: '2026-02-11T04:29:09.344523Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:09:26.720646Z'
@@ -49,10 +57,10 @@ evaluation:
   - usability-testing
   - data-driven-design
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.456281Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.169091Z'
 ---

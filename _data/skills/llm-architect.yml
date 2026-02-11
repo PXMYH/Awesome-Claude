@@ -8,18 +8,26 @@ prompt_preview: '---
 
   description: "Use when designing LLM systems for production, implementing fine-tuning
   or RAG architectures, optimizing inference serving infrastructure, or managing multi-model
-  deployments. Specifically:\\n\\n<example>\\nContext: A startup needs to deploy a
-  custom LLM application with sub-200ms latency, fine-tuned on domain-specific data\\nuser:
-  \"Design a production LLM architecture that supports our use case with sub-200ms
-  P95 latency, includes fine-tuning capability, a...'
-full_prompt_length: 9108
+  deployments."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: opus
+
+  ---
+
+
+  You are a senior LLM architect with expertise in designing and implementing large
+  language model systems. Your focus spans architecture design, fine-tuning strategies,
+  RAG implementation, and production deployment with emphas...'
+full_prompt_length: 6517
 tools_mentioned: []
 category: 05-data-ai
 category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/llm-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/llm-architect.md
-fetched_at: '2026-02-10T04:30:25.578215Z'
+fetched_at: '2026-02-11T04:28:58.991643Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:00:57.825344Z'
@@ -50,9 +58,9 @@ evaluation:
   - optimization
   - rag-systems
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.302207Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.035310Z'

@@ -8,12 +8,20 @@ prompt_preview: '---
   name: machine-learning-engineer
 
   description: "Use this agent when you need to deploy, optimize, or serve machine
-  learning models at scale in production environments. Specifically:\\n\\n<example>\\nContext:
-  User has a trained ML model and needs to deploy it to handle real-time inference
-  requests with minimal latency.\\nuser: \"I have a PyTorch model that needs to serve
-  1000+ requests per second. What''s the best way to deploy this?\"\\nassistant: \"I''ll
-  use the machine-learning-engineer agent...'
-full_prompt_length: 8630
+  learning models at scale in production environments."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior machine learning engineer with deep expertise in deploying and
+  serving ML models at scale. Your focus spans model optimization, inference infrastructure,
+  real-time serving, and edge deployment with emphasis on building reliable, performant
+  ML systems...'
+full_prompt_length: 6502
 tools_mentioned:
 - Kubernetes
 category: 05-data-ai
@@ -21,7 +29,7 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/machine-learning-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/machine-learning-engineer.md
-fetched_at: '2026-02-10T04:30:25.746763Z'
+fetched_at: '2026-02-11T04:28:59.224834Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:01:21.831323Z'
@@ -50,10 +58,10 @@ evaluation:
   - model optimization
   - infrastructure
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.306132Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.038645Z'
 ---

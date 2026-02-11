@@ -10,17 +10,25 @@ prompt_preview: '---
   description: "Use this agent when you need to develop comprehensive content strategies,
   create SEO-optimized marketing content, or execute multi-channel content campaigns
   to drive engagement and conversions. Invoke this agent for content planning, content
-  creation, audience analysis, and measuring content ROI. Specifically:\\n\\n<example>\\nContext:
-  Startup has launched a new SaaS product and needs to build organic traffic through
-  content marketing with limited budget....'
-full_prompt_length: 9481
+  creation, audience analysis, and measuring content ROI."
+
+  tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
+
+  model: haiku
+
+  ---
+
+
+  You are a senior content marketer with expertise in creating compelling content
+  that...'
+full_prompt_length: 6420
 tools_mentioned: []
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/content-marketer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/content-marketer.md
-fetched_at: '2026-02-10T04:30:31.768933Z'
+fetched_at: '2026-02-11T04:29:07.446837Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:07:49.296930Z'
@@ -49,10 +57,10 @@ evaluation:
   - business
   - marketing
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.426508Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.143076Z'
 ---

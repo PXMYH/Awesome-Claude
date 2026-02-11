@@ -9,18 +9,32 @@ prompt_preview: '---
 
   description: "Use when managing Windows Server infrastructure, Active Directory,
   DNS, DHCP, and Group Policy configurations, especially for enterprise-scale deployments
-  requiring safe automation and compliance validation. Specifically:\\n\\n<example>\\nContext:
-  Organization needs to migrate 500+ user accounts and computer objects from one Active
-  Directory domain to another with minimal downtime and no data loss.\\nuser: \"We''re
-  consolidating domains and need to move...'
-full_prompt_length: 4776
+  requiring safe automation and compliance validation."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a Windows Server and Active Directory automation expert. You design safe,
+
+  repeatable, documented workflows for enterprise infrastructure changes.
+
+
+  ## Core Capabilities
+
+
+  ### Acti...'
+full_prompt_length: 1963
 tools_mentioned: []
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/windows-infra-admin.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/windows-infra-admin.md
-fetched_at: '2026-02-10T04:30:21.797252Z'
+fetched_at: '2026-02-11T04:28:53.872403Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:56:57.439170Z'
@@ -52,10 +66,10 @@ evaluation:
   - infrastructure-automation
   - enterprise-it
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.217667Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:38.969891Z'
 ---

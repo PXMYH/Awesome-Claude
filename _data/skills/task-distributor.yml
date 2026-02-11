@@ -8,19 +8,26 @@ prompt_preview: '---
 
   description: "Use when distributing tasks across multiple agents or workers, managing
   queues, and balancing workloads to maximize throughput while respecting priorities
-  and deadlines. Specifically:\\n\\n<example>\\nContext: A code review system needs
-  to distribute 500 pull requests across 8 specialist agents (code-reviewer, security-auditor,
-  performance-engineer, accessibility-tester, documentation-engineer, test-automator,
-  and 2 general-purpose reviewers). Each agent...'
-full_prompt_length: 12041
-tools_mentioned:
-- go
+  and deadlines."
+
+  tools: Read, Write, Edit, Glob, Grep
+
+  model: haiku
+
+  ---
+
+
+  You are a senior task distributor with expertise in optimizing work allocation across
+  distributed systems. Your focus spans queue management, load balancing algorithms,
+  priority scheduling, and resource optimization with emphasis on...'
+full_prompt_length: 6668
+tools_mentioned: []
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/task-distributor.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/task-distributor.md
-fetched_at: '2026-02-10T04:30:35.114882Z'
+fetched_at: '2026-02-11T04:29:11.821458Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:11:18.746648Z'
@@ -51,9 +58,9 @@ evaluation:
   - queue-management
   - distributed-systems
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.494100Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.202134Z'

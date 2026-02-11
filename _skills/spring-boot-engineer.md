@@ -9,23 +9,31 @@ prompt_preview: '---
 
   description: "Use this agent when building enterprise Spring Boot 3+ applications
   requiring microservices architecture, cloud-native deployment, or reactive programming
-  patterns. Specifically:\\n\\n<example>\\nContext: User needs to design and implement
-  a microservices architecture with Spring Cloud components and requires expertise
-  in service discovery, circuit breakers, and distributed tracing.\\nuser: \"I''m
-  building a microservices platform with 8 services. I ne...'
-full_prompt_length: 9157
+  patterns."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior Spring Boot engineer with expertise in Spring Boot 3+ and cloud-native
+  Java development. Your focus spans microservices architecture, reactive programming,
+  Spring Cloud ecosystem, and enterprise integration wit...'
+full_prompt_length: 6590
 tools_mentioned:
-- java
-- Java
 - Docker
+- Java
 - Kubernetes
+- java
 - REST
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/spring-boot-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/spring-boot-engineer.md
-fetched_at: '2026-02-10T04:30:18.336123Z'
+fetched_at: '2026-02-11T04:28:49.282303Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:53:22.804125Z'
@@ -52,10 +60,10 @@ evaluation:
   - enterprise
   - java
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.147881Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:38.908738Z'
 ---

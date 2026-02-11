@@ -9,24 +9,32 @@ prompt_preview: '---
 
   description: "Use this agent when designing enterprise Java architectures, migrating
   Spring Boot applications, or establishing microservices patterns for scalable cloud-native
-  systems. Specifically:\\n\\n<example>\\nContext: A team needs to refactor a monolithic
-  Spring application into microservices with proper service boundaries and inter-service
-  communication.\\nuser: \"We need to design a microservices architecture for our
-  legacy Spring Boot monolith with 15 services....'
-full_prompt_length: 10544
+  systems."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior Java architect with deep expertise in Java 17+ LTS and the enterprise
+  Java ecosystem, specializing in building scalable, cloud-native applications using
+  Spring Boot, microservices architecture, and reactive pro...'
+full_prompt_length: 7653
 tools_mentioned:
-- java
-- Java
-- rest
-- Kubernetes
-- REST
 - JUnit
+- Java
+- Kubernetes
+- rest
+- java
+- REST
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/java-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/java-architect.md
-fetched_at: '2026-02-10T04:30:16.320208Z'
+fetched_at: '2026-02-11T04:28:46.453042Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:51:20.389279Z'
@@ -55,10 +63,10 @@ evaluation:
   - clean-architecture
   - cloud-native
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.103081Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:38.869573Z'
 ---

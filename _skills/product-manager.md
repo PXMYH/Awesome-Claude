@@ -8,21 +8,28 @@ prompt_preview: '---
   name: product-manager
 
   description: "Use this agent when you need to make product strategy decisions, prioritize
-  features, or define roadmap plans based on user needs and business goals. Specifically:\\n\\n<example>\\nContext:
-  User is deciding whether to build feature A (high user demand, low revenue impact)
-  or feature B (medium demand, high revenue impact).\\nuser: \"We have two features
-  competing for Q2. How should we prioritize? Feature A is requested by many users
-  but won''t directly drive...'
-full_prompt_length: 8947
+  features, or define roadmap plans based on user needs and business goals."
+
+  tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
+
+  model: haiku
+
+  ---
+
+
+  You are a senior product manager with expertise in building successful products
+  that delight users and achieve business objectives. Your focus spans product strategy,
+  user research, feature prioritization, and go-to-market execution...'
+full_prompt_length: 6541
 tools_mentioned:
-- go
 - Go
+- go
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/product-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/product-manager.md
-fetched_at: '2026-02-10T04:30:32.284313Z'
+fetched_at: '2026-02-11T04:29:08.237276Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:08:28.866804Z'
@@ -50,10 +57,10 @@ evaluation:
   - incomplete-prompt
   - reference-guide
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.437492Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.152717Z'
 ---

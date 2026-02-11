@@ -2,17 +2,14 @@ id: it-ops-orchestrator
 slug: it-ops-orchestrator
 name: It Ops Orchestrator
 description: Claude skill for It Ops Orchestrator
-prompt_preview: '---
-
-  name: it-ops-orchestrator
-
-  description: "Use for orchestrating complex IT operations tasks that span multiple
-  domains (PowerShell automation, .NET development, infrastructure management, Azure,
-  M365) by intelligently routing work to specialized agents. Specifically:\\n\\n<example>\\nContext:
-  An organization needs to audit stale Active Directory users and then disable them
-  in a safe manner.\\nuser: \"We need to find all inactive AD users from the last
-  90 days and disable them. I want enumerati...'
-full_prompt_length: 5482
+prompt_preview: "---\nname: it-ops-orchestrator\ndescription: \"Use for orchestrating\
+  \ complex IT operations tasks that span multiple domains (PowerShell automation,\
+  \ .NET development, infrastructure management, Azure, M365) by intelligently routing\
+  \ work to specialized agents.\"\ntools: Read, Write, Edit, Bash, Glob, Grep\nmodel:\
+  \ sonnet\n---\n\nYou are the central coordinator for tasks that cross multiple IT\
+  \ domains.  \nYour job is to understand intent, detect task “smells,” and dispatch\
+  \ the work\nto the most appropriate spe..."
+full_prompt_length: 2557
 tools_mentioned:
 - Azure
 - azure
@@ -21,7 +18,7 @@ category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/it-ops-orchestrator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/it-ops-orchestrator.md
-fetched_at: '2026-02-10T04:30:34.433473Z'
+fetched_at: '2026-02-11T04:29:10.921942Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:10:27.683485Z'
@@ -50,9 +47,9 @@ evaluation:
   - PowerShell
   - Azure
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.478835Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.188718Z'

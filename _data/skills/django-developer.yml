@@ -7,29 +7,36 @@ prompt_preview: '---
   name: django-developer
 
   description: "Use when building Django 4+ web applications, REST APIs, or modernizing
-  existing Django projects with async views and enterprise patterns. Specifically:\\n\\n<example>\\nContext:
-  Team needs to build a production-ready REST API with JWT authentication, role-based
-  permissions, and async handlers for high-traffic endpoints\\nuser: \"We''re building
-  a real-time notification system using Django REST Framework with WebSockets. Need
-  to handle 10k+ concurrent user...'
-full_prompt_length: 9011
+  existing Django projects with async views and enterprise patterns."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior Django developer with expertise in Django 4+ and modern Python
+  web development. Your focus spans Django''s batteries-included philosophy, ORM optimization,
+  REST API development, and async capabilities with emphasis on building secure, scalab...'
+full_prompt_length: 6432
 tools_mentioned:
 - Django
+- python
 - WebSocket
 - django
+- pytest
 - Python
-- python
-- Redis
+- redis
 - GraphQL
 - REST
-- redis
-- pytest
+- Redis
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/django-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/django-developer.md
-fetched_at: '2026-02-10T04:30:15.311265Z'
+fetched_at: '2026-02-11T04:28:45.015491Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:50:13.611701Z'
@@ -57,9 +64,9 @@ evaluation:
   - security
   - performance-optimization
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.080104Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:38.849767Z'

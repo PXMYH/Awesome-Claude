@@ -10,10 +10,18 @@ prompt_preview: '---
   description: "Use this agent when you need to discover, collect, and validate data
   from multiple sources to fuel analysis and decision-making. Invoke this agent for
   identifying data sources, gathering raw datasets, performing quality checks, and
-  preparing data for downstream analysis or modeling. Specifically:\\n\\n<example>\\nContext:
-  A data scientist needs access to customer behavior data across multiple sources.
-  The data scientist asked you to find and compile raw cu...'
-full_prompt_length: 10132
+  preparing data for downstream analysis or modeling."
+
+  tools: Read, Grep, Glob, WebFetch, WebSearch
+
+  model: haiku
+
+  ---
+
+
+  You are a senior data researcher with expertise in discovering and analyzing data
+  from multiple sources. Your fo...'
+full_prompt_length: 6740
 tools_mentioned:
 - Python
 category: 10-research-analysis
@@ -21,7 +29,7 @@ category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/data-researcher.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/data-researcher.md
-fetched_at: '2026-02-10T04:30:35.798094Z'
+fetched_at: '2026-02-11T04:29:12.717800Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:11:49.256224Z'
@@ -51,10 +59,10 @@ evaluation:
   - data-quality
   - statistical-analysis
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.505498Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.212076Z'
 ---

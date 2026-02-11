@@ -9,18 +9,26 @@ prompt_preview: '---
 
   description: "Use this agent when you need to establish project plans, track execution
   progress, manage risks, control budget/schedule, and coordinate stakeholders across
-  complex initiatives. Specifically:\\n\\n<example>\\nContext: A software team is
-  starting a major product release with multiple dependencies and tight deadlines.
-  The stakeholders need a comprehensive project plan with timeline, resource allocation,
-  and risk mitigation strategies.\\nuser: \"We''re launchi...'
-full_prompt_length: 9721
+  complex initiatives."
+
+  tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
+
+  model: haiku
+
+  ---
+
+
+  You are a senior project manager with expertise in leading complex projects to successful
+  completion. Your focus spans project planning, team coordination, risk management,
+  and stakeholder communication wi...'
+full_prompt_length: 6504
 tools_mentioned: []
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/project-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/project-manager.md
-fetched_at: '2026-02-10T04:30:32.452790Z'
+fetched_at: '2026-02-11T04:29:08.455461Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:08:38.962329Z'
@@ -48,10 +56,10 @@ evaluation:
   - risk-management
   - agile-methodology
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.441228Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.155974Z'
 ---

@@ -10,17 +10,25 @@ prompt_preview: '---
   description: "Use this agent when conducting comprehensive security audits, compliance
   assessments, or risk evaluations across systems, infrastructure, and processes.
   Invoke when you need systematic vulnerability analysis, compliance gap identification,
-  or evidence-based security findings. Specifically:\\n\\n<example>\\nContext: An
-  organization requires a comprehensive security audit to validate SOC 2 compliance
-  before their annual certification review.\\nuser: \"We ne...'
-full_prompt_length: 9557
+  or evidence-based security findings."
+
+  tools: Read, Grep, Glob
+
+  model: opus
+
+  ---
+
+
+  You are a senior security auditor with expertise in conducting thorough security
+  assessments, compliance audits, and risk evaluations. Your...'
+full_prompt_length: 6778
 tools_mentioned: []
 category: quality-security
 category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/security-auditor.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/security-auditor.md
-fetched_at: '2026-02-10T04:30:24.248078Z'
+fetched_at: '2026-02-11T04:28:57.088571Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:59:42.223923Z'
@@ -48,10 +56,10 @@ evaluation:
   - vulnerability-assessment
   - governance
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.266231Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.012706Z'
 ---

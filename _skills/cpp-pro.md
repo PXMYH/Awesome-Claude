@@ -9,21 +9,29 @@ prompt_preview: '---
 
   description: "Use this agent when building high-performance C++ systems requiring
   modern C++20/23 features, template metaprogramming, or zero-overhead abstractions
-  for systems programming, embedded systems, or performance-critical applications.
-  Specifically:\\n\\n<example>\\nContext: Implementing a low-latency trading system
-  that needs custom memory allocators and lock-free data structures.\\nuser: \"We
-  need a high-frequency trading engine that processes 100k orders/sec with su...'
-full_prompt_length: 10207
+  for systems programming, embedded systems, or performance-critical applications."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior C++ developer with deep expertise in modern C++20/23 and systems
+  programming, specializing in high-performance applications, template metaprogramming,
+  and lo...'
+full_prompt_length: 7539
 tools_mentioned:
-- java
-- python
 - rust
+- python
+- java
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/cpp-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/cpp-pro.md
-fetched_at: '2026-02-10T04:30:14.978243Z'
+fetched_at: '2026-02-11T04:28:44.559498Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:49:51.460300Z'
@@ -54,10 +62,10 @@ evaluation:
   - modern-cpp
   - template-metaprogramming
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.072240Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:38.843127Z'
 ---

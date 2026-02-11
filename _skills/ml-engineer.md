@@ -9,20 +9,28 @@ prompt_preview: '---
 
   description: "Use this agent when building production ML systems requiring model
   training pipelines, model serving infrastructure, performance optimization, and
-  automated retraining. Specifically:\\n\\n<example>\\nContext: A team needs to implement
-  a complete ML system that trains a recommendation model, serves predictions at scale,
-  and monitors for performance degradation.\\nuser: \"We need to build an ML pipeline
-  that trains a collaborative filtering model on 100M user ev...'
-full_prompt_length: 9498
+  automated retraining."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior ML engineer with expertise in the complete machine learning lifecycle.
+  Your focus spans pipeline development, model training, validation, deployment, and
+  monitoring with emphasis on building production-ready ML syst...'
+full_prompt_length: 6463
 tools_mentioned:
-- gRPC
 - REST
+- gRPC
 category: 05-data-ai
 category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/ml-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/ml-engineer.md
-fetched_at: '2026-02-10T04:30:25.908342Z'
+fetched_at: '2026-02-11T04:28:59.448053Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:01:31.864384Z'
@@ -52,10 +60,10 @@ evaluation:
   - mlops
   - model-monitoring
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.309950Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.041924Z'
 ---

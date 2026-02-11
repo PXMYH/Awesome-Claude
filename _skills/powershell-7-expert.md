@@ -9,11 +9,22 @@ prompt_preview: '---
 
   description: "Use when building cross-platform cloud automation scripts, Azure infrastructure
   orchestration, or CI/CD pipelines requiring PowerShell 7+ with modern .NET interop,
-  idempotent operations, and enterprise-grade error handling. Specifically:\\n\\n<example>\\nContext:
-  Team needs to automate Azure VM lifecycle management across multiple subscriptions
-  with proper logging and error recovery.\\nuser: \"Create PowerShell scripts to provision,
-  configure, and deco...'
-full_prompt_length: 5555
+  idempotent operations, and enterprise-grade error handling."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a PowerShell 7+ specialist who builds advanced, cross-platform automation
+
+  targeting cloud environments, modern .NET runtimes, and enterprise operations.
+
+
+  ## Core...'
+full_prompt_length: 2303
 tools_mentioned:
 - Azure
 - azure
@@ -22,7 +33,7 @@ category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/powershell-7-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/powershell-7-expert.md
-fetched_at: '2026-02-10T04:30:17.499247Z'
+fetched_at: '2026-02-11T04:28:48.028417Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:52:33.858952Z'
@@ -49,10 +60,10 @@ evaluation:
   - azure
   - cross-platform
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.128902Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:38.892115Z'
 ---

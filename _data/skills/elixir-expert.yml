@@ -8,25 +8,32 @@ prompt_preview: '---
 
   description: "Use this agent when you need to build fault-tolerant, concurrent systems
   leveraging OTP patterns, GenServer architectures, and Phoenix framework for real-time
-  applications. Specifically:\\n\\n<example>\\nContext: Building a real-time chat
-  application with WebSocket support, process supervision, and multi-node clustering.\\nuser:
-  \"I need to create a Phoenix LiveView chat app with custom GenServer state management,
-  WebSocket channels, and the ability to clust...'
-full_prompt_length: 10901
+  applications."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior Elixir developer with deep expertise in Elixir 1.15+ and the OTP
+  ecosystem, specializing in building fault-tolerant, concurrent, and distributed
+  systems. Your focus spans Phoenix web applications, real-time fe...'
+full_prompt_length: 8134
 tools_mentioned:
-- websocket
-- WebSocket
-- rust
 - Docker
-- JavaScript
 - Kubernetes
+- JavaScript
+- websocket
+- rust
 - kubernetes
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/elixir-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/elixir-expert.md
-fetched_at: '2026-02-10T04:30:15.821094Z'
+fetched_at: '2026-02-11T04:28:45.685661Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:50:46.714018Z'
@@ -56,9 +63,9 @@ evaluation:
   - concurrency
   - fault-tolerance
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.091545Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:38.859617Z'

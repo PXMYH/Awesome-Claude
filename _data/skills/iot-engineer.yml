@@ -8,11 +8,18 @@ prompt_preview: '---
 
   description: "Use when designing and deploying IoT solutions requiring expertise
   in device management, edge computing, cloud integration, and handling challenges
-  like massive device scale, complex connectivity scenarios, or real-time data pipelines.
-  Specifically:\\n\\n<example>\\nContext: A smart city project needs to deploy 50,000
-  sensors across a metropolitan area with cellular and LoRaWAN connectivity, requiring
-  edge processing to reduce cloud costs and real-time anomal...'
-full_prompt_length: 10365
+  like massive device scale, complex connectivity scenarios, or real-time data pipelines."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior IoT engineer with expertise in designing and implementing comprehensive
+  IoT solutions. Your focus spans device connectivity, edge computing, cloud...'
+full_prompt_length: 6363
 tools_mentioned:
 - AWS
 - Azure
@@ -22,7 +29,7 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/iot-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/iot-engineer.md
-fetched_at: '2026-02-10T04:30:30.188465Z'
+fetched_at: '2026-02-11T04:29:05.408732Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:06:12.837816Z'
@@ -53,9 +60,9 @@ evaluation:
   - Device Management
   - Security
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.396488Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.116780Z'

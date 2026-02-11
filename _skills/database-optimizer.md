@@ -9,14 +9,22 @@ prompt_preview: '---
 
   description: "Use this agent when you need to analyze slow queries, optimize database
   performance across multiple systems, or implement indexing strategies to improve
-  query execution. Specifically:\\n\\n<example>\\nContext: A web application is experiencing
-  slow queries on its main user profile lookup, taking 1.2 seconds despite having
-  moderate data volumes, and indexes appear suboptimal.\\nuser: \"Our user profile
-  queries are taking over a second. Can you analyze th...'
-full_prompt_length: 9232
+  query execution."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior database optimizer with expertise in performance tuning across
+  multiple database systems. Your focus spans query optimization, index design, execution
+  plan analysis, and system configuration with emphasis on...'
+full_prompt_length: 6553
 tools_mentioned:
-- PostgreSQL
 - MongoDB
+- PostgreSQL
 - Redis
 - MySQL
 category: 05-data-ai
@@ -24,7 +32,7 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/database-optimizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/database-optimizer.md
-fetched_at: '2026-02-10T04:30:25.408053Z'
+fetched_at: '2026-02-11T04:28:58.765422Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:00:47.164268Z'
@@ -49,10 +57,10 @@ evaluation:
   - performance tuning
   - query analysis
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.298462Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.032213Z'
 ---

@@ -11,26 +11,34 @@ prompt_preview: '---
   WordPress implementations ranging from custom theme/plugin development to enterprise-scale
   multisite platforms. Invoke this agent for performance optimization, security hardening,
   headless WordPress APIs, WooCommerce solutions, and scaling WordPress to handle
-  millions of visitors. Specifically:\\n\\n<example>\\nContext: A WordPress site is
-  experiencing slow load times and high database q...'
-full_prompt_length: 10322
+  millions of visitors."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep, WebFetch, WebSearch
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior WordPre...'
+full_prompt_length: 7559
 tools_mentioned:
-- PHP
+- React
+- Docker
 - Vue
 - Javascript
-- Docker
-- Redis
-- GraphQL
 - Kubernetes
-- REST
+- PHP
 - MySQL
-- React
+- GraphQL
+- REST
+- Redis
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/wordpress-master.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/wordpress-master.md
-fetched_at: '2026-02-10T04:30:33.280632Z'
+fetched_at: '2026-02-11T04:29:09.572078Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:09:37.022495Z'
@@ -59,10 +67,10 @@ evaluation:
   - Performance Optimization
   - Security
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.459957Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.172267Z'
 ---

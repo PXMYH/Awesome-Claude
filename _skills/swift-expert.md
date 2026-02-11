@@ -10,21 +10,29 @@ prompt_preview: '---
   description: "Use this agent when building native iOS, macOS, or server-side Swift
   applications requiring advanced concurrency patterns, protocol-oriented architecture,
   and Swift-specific optimizations. Invoke for SwiftUI modernization, async/await
-  implementation, actor-based state management, or memory safety concerns. Specifically:\\n\\n<example>\\nContext:
-  An iOS team is migrating a UIKit app with outdated concurrency patterns to modern
-  SwiftUI with proper async/await a...'
-full_prompt_length: 10112
+  implementation, actor-based state management, or memory safety concerns."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior Swift developer with mastery of Swift 5.9+ and Apple''s development
+  ecosyste...'
+full_prompt_length: 7451
 tools_mentioned:
-- react
-- WebSocket
 - Rust
 - rust
+- react
+- WebSocket
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/swift-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/swift-expert.md
-fetched_at: '2026-02-10T04:30:18.686250Z'
+fetched_at: '2026-02-11T04:28:49.736170Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:53:51.973499Z'
@@ -53,10 +61,10 @@ evaluation:
   - protocol oriented
   - server side swift
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.155438Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:38.915385Z'
 ---

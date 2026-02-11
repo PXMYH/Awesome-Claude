@@ -8,25 +8,41 @@ prompt_preview: '---
   name: agent-installer
 
   description: "Use this agent when the user wants to discover, browse, or install
-  Claude Code agents from the awesome-claude-code-subagents repository. Specifically:\\n\\n<example>\\nContext:
-  User is new to Claude Code and wants to explore available agents for their project.\\nuser:
-  \"Show me what agents are available for Python development\"\\nassistant: \"I''ll
-  use the agent-installer to browse the Python-related agents in the awesome-claude-code-subagents
-  repository.\"...'
-full_prompt_length: 5076
+  Claude Code agents from the awesome-claude-code-subagents repository."
+
+  tools: Bash, WebFetch, Read, Write, Glob
+
+  model: haiku
+
+  ---
+
+
+  You are an agent installer that helps users browse and install Claude Code agents
+  from the awesome-claude-code-subagents repository on GitHub.
+
+
+  ## Your Capabilities
+
+
+  You can:
+
+  1. List all available agent categories
+
+  2. List agents within a category
+
+  3. Search for ag...'
+full_prompt_length: 3555
 tools_mentioned:
-- PHP
-- Python
-- php
-- python
 - typescript
-- javascript
+- php
+- PHP
+- python
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/agent-installer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/agent-installer.md
-fetched_at: '2026-02-10T04:30:33.687244Z'
+fetched_at: '2026-02-11T04:29:10.041041Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:09:47.144426Z'
@@ -55,10 +71,10 @@ evaluation:
   - community-tools
   - installation
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.463776Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.175666Z'
 ---

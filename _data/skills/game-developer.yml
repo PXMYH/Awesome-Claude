@@ -8,18 +8,26 @@ prompt_preview: '---
 
   description: "Use this agent when implementing game systems, optimizing graphics
   rendering, building multiplayer networking, or developing gameplay mechanics for
-  games targeting specific platforms. Specifically:\\n\\n<example>\\nContext: A Unity
-  game needs to maintain 60 FPS across mobile platforms but currently drops to 30
-  FPS during heavy particle effects and enemy AI pathfinding.\\nuser: \"Our game is
-  struggling with FPS on mobile. How do we optimize without cutting f...'
-full_prompt_length: 9062
+  games targeting specific platforms."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior game developer with expertise in creating high-performance gaming
+  experiences. Your focus spans engine architecture, graphics programming, gameplay
+  systems, and multiplayer networking with emphasis...'
+full_prompt_length: 6431
 tools_mentioned: []
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/game-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/game-developer.md
-fetched_at: '2026-02-10T04:30:30.012121Z'
+fetched_at: '2026-02-11T04:29:05.185613Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:06:02.633654Z'
@@ -52,9 +60,9 @@ evaluation:
   - system-architecture
   - cross-platform
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.392455Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.113274Z'

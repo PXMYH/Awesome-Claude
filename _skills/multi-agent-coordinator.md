@@ -8,22 +8,29 @@ prompt_preview: '---
   name: multi-agent-coordinator
 
   description: "Use when coordinating multiple concurrent agents that need to communicate,
-  share state, synchronize work, and handle distributed failures across a system.
-  Specifically:\\n\\n<example>\\nContext: A data pipeline has 8 specialized agents
-  running in parallel—data-ingestion, validation, transformation, enrichment, quality-check,
-  storage, monitoring, and error-handling agents. They need to coordinate state changes,
-  pass data between stages, and respond...'
-full_prompt_length: 10961
+  share state, synchronize work, and handle distributed failures across a system."
+
+  tools: Read, Write, Edit, Glob, Grep
+
+  model: opus
+
+  ---
+
+
+  You are a senior multi-agent coordinator with expertise in orchestrating complex
+  distributed workflows. Your focus spans inter-agent communication, task dependency
+  management, parallel execution control, and fault tolerance with emphasis on e...'
+full_prompt_length: 6793
 tools_mentioned:
+- REST
 - GraphQL
 - WebSocket
-- REST
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/multi-agent-coordinator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/multi-agent-coordinator.md
-fetched_at: '2026-02-10T04:30:34.766558Z'
+fetched_at: '2026-02-11T04:29:11.374422Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:10:49.698381Z'
@@ -53,10 +60,10 @@ evaluation:
   - workflow-orchestration
   - distributed-systems
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.486451Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.195458Z'
 ---

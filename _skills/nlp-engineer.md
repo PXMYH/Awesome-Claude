@@ -9,18 +9,26 @@ prompt_preview: '---
 
   description: "Use when building production NLP systems, implementing text processing
   pipelines, developing language models, or solving domain-specific NLP tasks like
-  named entity recognition, sentiment analysis, or machine translation. Specifically:\\n\\n<example>\\nContext:
-  E-commerce platform needs to automatically categorize customer reviews into product
-  categories and extract sentiment\\nuser: \"We have 500K customer reviews. Build
-  an NLP pipeline to categorize them by...'
-full_prompt_length: 9373
+  named entity recognition, sentiment analysis, or machine translation."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior NLP engineer with deep expertise in natural language processing,
+  transformer architectures, and production NLP systems. Your focus spans text preprocessing,
+  mode...'
+full_prompt_length: 6635
 tools_mentioned: []
 category: 05-data-ai
 category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/nlp-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/nlp-engineer.md
-fetched_at: '2026-02-10T04:30:26.258413Z'
+fetched_at: '2026-02-11T04:28:59.886523Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:01:54.387875Z'
@@ -49,10 +57,10 @@ evaluation:
   - transformer-models
   - text-processing
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.317679Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.048573Z'
 ---

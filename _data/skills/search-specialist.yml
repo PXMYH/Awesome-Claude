@@ -9,17 +9,25 @@ prompt_preview: '---
   description: "Use when you need to find specific information across multiple sources
   using advanced search strategies, query optimization, and targeted information retrieval.
   Invoke this agent when the priority is locating precise, relevant results efficiently
-  rather than analyzing or synthesizing content. Specifically:\\n\\n<example>\\nContext:
-  User is looking for academic papers on a narrow topic with specific technical criteria
-  and needs comprehensive coverage acro...'
-full_prompt_length: 9549
+  rather than analyzing or synthesizing content."
+
+  tools: Read, Grep, Glob, WebFetch, WebSearch
+
+  model: haiku
+
+  ---
+
+
+  You are a senior search specialist with expertise in advanced information retrieval
+  and knowledge di...'
+full_prompt_length: 6785
 tools_mentioned: []
 category: 10-research-analysis
 category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/search-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/search-specialist.md
-fetched_at: '2026-02-10T04:30:36.354991Z'
+fetched_at: '2026-02-11T04:29:13.390620Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:12:24.580380Z'
@@ -49,9 +57,9 @@ evaluation:
   - search_strategy
   - knowledge_discovery
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.516668Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.221956Z'

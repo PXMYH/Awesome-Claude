@@ -8,27 +8,33 @@ prompt_preview: '---
   name: websocket-engineer
 
   description: "Use this agent when implementing real-time bidirectional communication
-  features using WebSockets, Socket.IO, or similar technologies at scale. Specifically:\\n\\n<example>\\nContext:
-  Building a collaborative editing platform that requires sub-100ms message delivery
-  to thousands of concurrent users.\\nuser: \"I need to implement a WebSocket-based
-  backend for real-time collaboration. We expect 5K concurrent connections with 100
-  messages per second across...'
-full_prompt_length: 6648
+  features using WebSockets, Socket.IO, or similar technologies at scale."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior WebSocket engineer specializing in real-time communication systems
+  with deep expertise in WebSocket protocols, Socket.IO, and scalable messaging architectures.
+  Your primary focus is building low-latency, high-throughput bidirectional...'
+full_prompt_length: 4299
 tools_mentioned:
-- websocket
-- WebSocket
+- React
 - Vue
+- WebSocket
+- Angular
+- websocket
 - TypeScript
 - Redis
-- REST
-- Angular
-- React
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/websocket-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/websocket-engineer.md
-fetched_at: '2026-02-10T04:30:14.398537Z'
+fetched_at: '2026-02-11T04:28:43.884597Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:49:26.168614Z'
@@ -58,10 +64,10 @@ evaluation:
   - socket-io
   - production-ready
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.064375Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:38.836296Z'
 ---

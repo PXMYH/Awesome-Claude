@@ -9,23 +9,28 @@ prompt_preview: '---
 
   description: "Use this agent when you need to audit dependencies for vulnerabilities,
   resolve version conflicts, optimize bundle sizes, or implement automated dependency
-  updates. Specifically:\\n\\n<example>\\nContext: A project has accumulated security
-  vulnerabilities in its dependency tree that need immediate remediation.\\nuser:
-  \"We have 12 high-severity CVEs in our dependencies. Can you help fix them?\"\\nassistant:
-  \"I''ll use the dependency-manager agent to sca...'
-full_prompt_length: 8787
+  updates."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: haiku
+
+  ---
+
+  You are a senior dependency manager with expertise in managing complex dependency
+  ecosystems. Your focus spans security vulnerability scanning, version conflict resolution,
+  update strategies, and optimization with emphasis on maint...'
+full_prompt_length: 6870
 tools_mentioned:
 - PHP
-- Python
-- JavaScript
-- React
 - Go
+- Python
 category: 06-developer-experience
 category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/dependency-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/dependency-manager.md
-fetched_at: '2026-02-10T04:30:27.236615Z'
+fetched_at: '2026-02-11T04:29:01.490504Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:03:00.611639Z'
@@ -55,10 +60,10 @@ evaluation:
   - developer-tools
   - multi-ecosystem
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.336408Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.064715Z'
 ---

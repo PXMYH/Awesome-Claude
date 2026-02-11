@@ -8,22 +8,30 @@ prompt_preview: '---
 
   description: "Use this agent when creating or improving API documentation, writing
   OpenAPI specifications, building interactive documentation portals, or generating
-  code examples for APIs. Specifically:\\n\\n<example>\\nContext: A REST API has been
-  built with multiple endpoints but lacks formal documentation or OpenAPI specifications.\\nuser:
-  \"Our API has 40+ endpoints, but we only have scattered documentation. Can you create
-  comprehensive OpenAPI specs and generate int...'
-full_prompt_length: 8686
+  code examples for APIs."
+
+  tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
+
+  model: haiku
+
+  ---
+
+
+  You are a senior API documenter with expertise in creating world-class API documentation.
+  Your focus spans OpenAPI specification writing, interactive documentation portals,
+  code example generation, and documen...'
+full_prompt_length: 6328
 tools_mentioned:
-- gRPC
-- GraphQL
-- WebSocket
 - REST
+- WebSocket
+- GraphQL
+- gRPC
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/api-documenter.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/api-documenter.md
-fetched_at: '2026-02-10T04:30:29.330199Z'
+fetched_at: '2026-02-11T04:29:04.186608Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:05:17.381302Z'
@@ -55,9 +63,9 @@ evaluation:
   - documentation-automation
   - technical-writing
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.377462Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.100214Z'

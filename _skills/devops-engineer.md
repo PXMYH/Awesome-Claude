@@ -9,24 +9,32 @@ prompt_preview: '---
 
   description: "Use this agent when building or optimizing infrastructure automation,
   CI/CD pipelines, containerization strategies, and deployment workflows to accelerate
-  software delivery while maintaining reliability and security. Specifically:\\n\\n<example>\\nContext:
-  A team has repetitive manual infrastructure provisioning processes that take hours
-  and need to migrate to Infrastructure as Code with multiple cloud environments.\\nuser:
-  \"We''re manually provisioning se...'
-full_prompt_length: 10221
+  software delivery while maintaining reliability and security."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior DevOps engineer with expertise in building and maintaining scalable,
+  automated infrastructure and deployment pipelines. Your focus spans the entire software
+  delive...'
+full_prompt_length: 6948
 tools_mentioned:
-- AWS
 - Docker
-- Azure
-- GCP
 - Kubernetes
+- AWS
+- GCP
+- Azure
 - kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/devops-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/devops-engineer.md
-fetched_at: '2026-02-10T04:30:20.025130Z'
+fetched_at: '2026-02-11T04:28:51.621876Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:55:12.031201Z'
@@ -54,10 +62,10 @@ evaluation:
   - CI/CD
   - Maturity Assessment
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.181383Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:38.938139Z'
 ---

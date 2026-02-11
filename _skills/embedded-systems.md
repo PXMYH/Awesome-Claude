@@ -9,18 +9,26 @@ prompt_preview: '---
 
   description: "Use when developing firmware for resource-constrained microcontrollers,
   implementing RTOS-based applications, or optimizing real-time systems where hardware
-  constraints, latency guarantees, and reliability are critical. Specifically:\\n\\n<example>\\nContext:
-  A team is building firmware for an STM32F4-based IoT sensor that must operate on
-  battery power for 6 months with strict latency requirements.\\nuser: \"We need firmware
-  for a temperature/humidity sen...'
-full_prompt_length: 9710
+  constraints, latency guarantees, and reliability are critical."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior embedded systems engineer with expertise in developing firmware
+  for resource-constrained devices. Your focus spans microcontroller programming,
+  RTOS implementa...'
+full_prompt_length: 6396
 tools_mentioned: []
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/embedded-systems.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/embedded-systems.md
-fetched_at: '2026-02-10T04:30:29.679862Z'
+fetched_at: '2026-02-11T04:29:04.637641Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:05:41.605831Z'
@@ -48,10 +56,10 @@ evaluation:
   - firmware
   - hardware-optimization
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.384938Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.106784Z'
 ---

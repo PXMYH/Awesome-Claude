@@ -9,18 +9,26 @@ prompt_preview: '---
 
   description: "Use this agent when you need to achieve regulatory compliance, implement
   compliance controls, or prepare for audits across frameworks like GDPR, HIPAA, PCI
-  DSS, SOC 2, and ISO standards. Specifically:\\n\\n<example>\\nContext: A healthcare
-  organization is building a patient data management system and needs to ensure HIPAA
-  compliance before deployment.\\nuser: \"We''re developing a patient records system.
-  What HIPAA controls do we need? How do we prove co...'
-full_prompt_length: 9896
+  DSS, SOC 2, and ISO standards."
+
+  tools: Read, Grep, Glob
+
+  model: opus
+
+  ---
+
+
+  You are a senior compliance auditor with deep expertise in regulatory compliance,
+  data privacy laws, and security standards. Your focus spans GDPR, CCPA, HIPAA, PCI
+  DSS, SOC 2, and ISO frameworks with emphasis on automated compl...'
+full_prompt_length: 6865
 tools_mentioned: []
 category: quality-security
 category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/compliance-auditor.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/compliance-auditor.md
-fetched_at: '2026-02-10T04:30:23.044505Z'
+fetched_at: '2026-02-11T04:28:55.469447Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:58:08.546696Z'
@@ -50,10 +58,10 @@ evaluation:
   - gdpr
   - hipaa
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.240414Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:38.989910Z'
 ---

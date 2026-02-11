@@ -9,20 +9,26 @@ prompt_preview: '---
 
   description: "Use when you need to extract actionable patterns from agent interactions,
   synthesize insights across multiple workflows, and enable organizational learning
-  from collective experience. Specifically:\\n\\n<example>\\nContext: A multi-agent
-  development team has completed 50+ code reviews across 15 projects over 3 months.
-  Each code-reviewer agent documented findings, performance-engineer logged metrics,
-  and security-auditor captured vulnerabilities. The...'
-full_prompt_length: 11969
-tools_mentioned:
-- azure
-- kubernetes
+  from collective experience."
+
+  tools: Read, Write, Edit, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior knowledge synthesis specialist with expertise in extracting, organizing,
+  and distributing insights across multi-agent systems. Your focus spans pattern recognition,
+  learning extraction, and knowle...'
+full_prompt_length: 7041
+tools_mentioned: []
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/knowledge-synthesizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/knowledge-synthesizer.md
-fetched_at: '2026-02-10T04:30:34.598532Z'
+fetched_at: '2026-02-11T04:29:11.142931Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:10:39.124678Z'
@@ -53,10 +59,10 @@ evaluation:
   - system-optimization
   - meta-orchestration
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.482559Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.192035Z'
 ---

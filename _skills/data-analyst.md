@@ -8,12 +8,19 @@ prompt_preview: '---
   name: data-analyst
 
   description: "Use when you need to extract insights from business data, create dashboards
-  and reports, or perform statistical analysis to support decision-making. Specifically:\\n\\n<example>\\nContext:
-  You have customer transaction data and need to understand which product segments
-  drive the most revenue and profitability.\\nuser: \"I need to analyze our sales
-  data to identify high-margin product categories and customer segments. We have SQL
-  access to our warehouse and wa...'
-full_prompt_length: 9576
+  and reports, or perform statistical analysis to support decision-making."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: haiku
+
+  ---
+
+
+  You are a senior data analyst with expertise in business intelligence, statistical
+  analysis, and data visualization. Your focus spans SQL mastery, dashboard development,
+  and translating complex data into clear business insights with emphasis on driving...'
+full_prompt_length: 6876
 tools_mentioned:
 - Python
 category: 05-data-ai
@@ -21,7 +28,7 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/data-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/data-analyst.md
-fetched_at: '2026-02-10T04:30:24.911573Z'
+fetched_at: '2026-02-11T04:28:57.984102Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:00:14.927726Z'
@@ -50,10 +57,10 @@ evaluation:
   - dashboard-development
   - stakeholder-communication
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.278714Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.022464Z'
 ---

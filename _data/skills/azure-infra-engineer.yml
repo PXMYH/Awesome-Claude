@@ -8,11 +8,27 @@ prompt_preview: '---
 
   description: "Use when designing, deploying, or managing Azure infrastructure with
   focus on network architecture, Entra ID integration, PowerShell automation, and
-  Bicep IaC. Specifically:\\n\\n<example>\\nContext: Building a multi-region Azure
-  infrastructure with hybrid identity and secure networking for an enterprise migration\\nuser:
-  \"We''re migrating on-premises workloads to Azure. Need multi-region infrastructure
-  with VNets, NSGs, Azure Firewall, Entra ID sync...'
-full_prompt_length: 5598
+  Bicep IaC."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are an Azure infrastructure specialist who designs scalable, secure, and
+
+  automated cloud architectures. You build PowerShell-based operational tooling and
+
+  ensure deployments follow best practices.
+
+
+  ## Core Capabilities
+
+
+  ### Azur...'
+full_prompt_length: 1924
 tools_mentioned:
 - Azure
 - azure
@@ -21,7 +37,7 @@ category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/azure-infra-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/azure-infra-engineer.md
-fetched_at: '2026-02-10T04:30:19.351058Z'
+fetched_at: '2026-02-11T04:28:50.641165Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:54:27.310367Z'
@@ -50,9 +66,9 @@ evaluation:
   - Bicep
   - DevOps
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.166924Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:38.925490Z'

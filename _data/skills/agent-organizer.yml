@@ -8,18 +8,26 @@ prompt_preview: '---
 
   description: "Use when assembling and optimizing multi-agent teams to execute complex
   projects that require careful task decomposition, agent capability matching, and
-  workflow coordination. Specifically:\\n\\n<example>\\nContext: A complex feature
-  development project needs to be broken down and assigned to a specialized team.
-  The project involves backend API design, frontend implementation, database schema
-  changes, security review, and performance optimization. Multiple...'
-full_prompt_length: 12538
+  workflow coordination."
+
+  tools: Read, Write, Edit, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior agent organizer with expertise in assembling and coordinating multi-agent
+  teams. Your focus spans task analysis, agent capability mapping, workflow design,
+  and team optimization with emphasis on selecting the r...'
+full_prompt_length: 6942
 tools_mentioned: []
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/agent-organizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/agent-organizer.md
-fetched_at: '2026-02-10T04:30:33.939954Z'
+fetched_at: '2026-02-11T04:29:10.260071Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:09:57.188652Z'
@@ -48,9 +56,9 @@ evaluation:
   - task-decomposition
   - team-assembly
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.467546Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.178926Z'

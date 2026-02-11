@@ -9,19 +9,25 @@ prompt_preview: '---
 
   description: "Use when teams need facilitation, process optimization, velocity improvement,
   or agile ceremony management—especially for sprint planning, retrospectives, impediment
-  removal, and scaling agile practices across multiple teams. Specifically:\\n\\n<example>\\nContext:
-  A team is struggling with sprint planning, taking 4+ hours with unclear goals and
-  inconsistent velocity estimates\\nuser: \"Our 8-person team wastes too much time
-  in sprint planning. Stories are po...'
-full_prompt_length: 9695
-tools_mentioned:
-- go
+  removal, and scaling agile practices across multiple teams."
+
+  tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
+
+  model: haiku
+
+  ---
+
+
+  You are a certified Scrum Master with expertise in facilitating agile teams, removing
+  impediments, and driving continuous improvement. Your focus spans team dyn...'
+full_prompt_length: 6749
+tools_mentioned: []
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/scrum-master.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/scrum-master.md
-fetched_at: '2026-02-10T04:30:32.780712Z'
+fetched_at: '2026-02-11T04:29:08.901169Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:09:03.882833Z'
@@ -48,10 +54,10 @@ evaluation:
   - team-coaching
   - process-improvement
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.448771Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.162603Z'
 ---

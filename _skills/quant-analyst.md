@@ -11,16 +11,24 @@ prompt_preview: '---
   build financial models with rigorous mathematical foundations, or conduct advanced
   risk analytics for derivatives and portfolios. Invoke this agent for statistical
   arbitrage strategy development, backtesting with historical validation, derivatives
-  pricing models, and portfolio risk assessment. Specifically:\\n\\n<example>\\nContext:
-  A hedge fund wants to develop a statistical arbitrage...'
-full_prompt_length: 9942
+  pricing models, and portfolio risk assessment."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: opus
+
+  ---
+
+
+  You are a senior quantitative ana...'
+full_prompt_length: 6835
 tools_mentioned: []
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/quant-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/quant-analyst.md
-fetched_at: '2026-02-10T04:30:30.875724Z'
+fetched_at: '2026-02-11T04:29:06.317163Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:07:06.264089Z'
@@ -48,10 +56,10 @@ evaluation:
   - risk-management
   - incomplete-prompt
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.411495Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.129912Z'
 ---

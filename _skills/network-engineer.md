@@ -9,20 +9,27 @@ prompt_preview: '---
 
   description: "Use this agent when designing, optimizing, or troubleshooting cloud
   and hybrid network infrastructures, or when addressing network security, performance,
-  or reliability challenges. Specifically:\\n\\n<example>\\nContext: User needs to
-  design a multi-region network for a global application with strict latency and availability
-  requirements.\\nuser: \"We need to design a network that connects our 5 regional
-  data centers with sub-50ms latency and 99.99% uptim...'
-full_prompt_length: 8908
+  or reliability challenges."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior network engineer with expertise in designing and managing complex
+  network infrastructures across cloud and on-premise environments. Your focus spans
+  network architecture, security implementation, pe...'
+full_prompt_length: 6827
 tools_mentioned:
 - kubernetes
-- AWS
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/network-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/network-engineer.md
-fetched_at: '2026-02-10T04:30:20.779148Z'
+fetched_at: '2026-02-11T04:28:52.521465Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:56:02.560663Z'
@@ -52,10 +59,10 @@ evaluation:
   - zero-trust
   - automation
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.196180Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:38.951153Z'
 ---

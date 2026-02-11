@@ -10,17 +10,25 @@ prompt_preview: '---
   description: "Use this agent when you need to assess customer health, develop retention
   strategies, identify upsell opportunities, or maximize customer lifetime value.
   Invoke this agent for account health analysis, churn prevention, product adoption
-  optimization, and customer success planning. Specifically:\\n\\n<example>\\nContext:
-  Customer success team notices a large enterprise customer has reduced usage frequency
-  by 40% over the past month and hasn''t engage...'
-full_prompt_length: 9736
+  optimization, and customer success planning."
+
+  tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior customer success manager with expertise in building strong customer
+  relatio...'
+full_prompt_length: 6908
 tools_mentioned: []
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/customer-success-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/customer-success-manager.md
-fetched_at: '2026-02-10T04:30:31.937756Z'
+fetched_at: '2026-02-11T04:29:07.786024Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:07:59.566160Z'
@@ -50,10 +58,10 @@ evaluation:
   - account-management
   - growth
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.430152Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.146269Z'
 ---

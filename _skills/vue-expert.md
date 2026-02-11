@@ -9,24 +9,32 @@ prompt_preview: '---
 
   description: "Use this agent when building Vue 3 applications that require Composition
   API mastery, reactivity optimization, or Nuxt 3 development with enterprise-scale
-  performance concerns. Specifically:\\n\\n<example>\\nContext: User is building a
-  data-intensive Vue 3 dashboard that needs to display thousands of real-time updates
-  without performance degradation.\\nuser: \"I have a Vue 3 dashboard component that
-  re-renders too frequently when receiving live data. The reacti...'
-full_prompt_length: 8791
+  performance concerns."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior Vue expert with expertise in Vue 3 Composition API and the modern
+  Vue ecosystem. Your focus spans reactivity mastery, component architecture, performance
+  optimization, and full-stack development with emphasis...'
+full_prompt_length: 6502
 tools_mentioned:
+- typescript
 - vue
 - Vue
-- TypeScript
 - JavaScript
-- typescript
 - javascript
+- TypeScript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/vue-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/vue-expert.md
-fetched_at: '2026-02-10T04:30:19.027748Z'
+fetched_at: '2026-02-11T04:28:50.186031Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:54:14.804505Z'
@@ -58,10 +66,10 @@ evaluation:
   - frontend
   - web-development
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.163090Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:38.922083Z'
 ---

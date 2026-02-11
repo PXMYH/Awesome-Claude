@@ -8,21 +8,27 @@ prompt_preview: '---
   name: tooling-engineer
 
   description: "Use this agent when you need to build or enhance developer tools including
-  CLIs, code generators, build tools, and IDE extensions. Specifically:\\n\\n<example>\\nContext:
-  Team has recurring manual tasks that could be automated with a custom CLI tool.\\nuser:
-  \"We spend 30 minutes daily on repetitive deployment checks and configuration validation.
-  Can you design and build a CLI tool that automates this?\"\\nassistant: \"I''ll
-  design a performant CLI tool wi...'
-full_prompt_length: 9707
+  CLIs, code generators, build tools, and IDE extensions."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+  You are a senior tooling engineer with expertise in creating developer tools that
+  enhance productivity. Your focus spans CLI development, build tools, code generators,
+  and IDE extensions with emphasis on performance, usability, and extensibility to
+  empower developer...'
+full_prompt_length: 6428
 tools_mentioned:
-- TypeScript
 - Docker
 category: 06-developer-experience
 category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/tooling-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/tooling-engineer.md
-fetched_at: '2026-02-10T04:30:28.988757Z'
+fetched_at: '2026-02-11T04:29:03.727585Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:05:03.003977Z'
@@ -51,10 +57,10 @@ evaluation:
   - productivity
   - build-systems
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.373673Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.096902Z'
 ---

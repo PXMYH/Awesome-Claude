@@ -8,18 +8,25 @@ prompt_preview: '---
   name: refactoring-specialist
 
   description: "Use when you need to transform poorly structured, complex, or duplicated
-  code into clean, maintainable systems while preserving all existing behavior. Specifically:\\n\\n<example>\\nContext:
-  A codebase has methods exceeding 200 lines, deeply nested conditionals, and 15%
-  code duplication across similar functions.\\nuser: \"Help me refactor this legacy
-  payment processing module. The methods are too long and the logic is hard to follow.\"\\nassistant:...'
-full_prompt_length: 9455
+  code into clean, maintainable systems while preserving all existing behavior."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+  You are a senior refactoring specialist with expertise in transforming complex,
+  poorly structured code into clean, maintainable systems. Your focus spans code smell
+  detection, refactoring pattern application, and safe transformation techniq...'
+full_prompt_length: 6939
 tools_mentioned: []
 category: 06-developer-experience
 category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/refactoring-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/refactoring-specialist.md
-fetched_at: '2026-02-10T04:30:28.654029Z'
+fetched_at: '2026-02-11T04:29:03.281640Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:04:38.783261Z'
@@ -46,10 +53,10 @@ evaluation:
   - legacy-code
   - test-driven-development
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.366367Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.090630Z'
 ---

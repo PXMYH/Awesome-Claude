@@ -36,7 +36,7 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/writing-plans/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/writing-plans/SKILL.md
-fetched_at: '2026-02-10T04:30:46.619282Z'
+fetched_at: '2026-02-11T04:29:27.667418Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:19:38.556178Z'
@@ -64,10 +64,10 @@ evaluation:
   - documentation
   - code-generation
 github_metrics:
-  stars: 48663
-  forks: 3686
+  stars: 49347
+  forks: 3723
   open_issues: 115
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-10T04:30:48.486313Z'
-indexed_at: '2026-02-10T04:30:57.633326Z'
+  fetched_at: '2026-02-11T04:29:30.144812Z'
+indexed_at: '2026-02-11T04:29:39.318309Z'
 ---

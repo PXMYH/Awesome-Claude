@@ -8,14 +8,22 @@ prompt_preview: '---
 
   description: "Use when building .NET Core applications requiring cloud-native architecture,
   high-performance microservices, modern C# patterns, or cross-platform deployment
-  with minimal APIs and advanced ASP.NET Core features. Specifically:\\n\\n<example>\\nContext:
-  Building a microservices platform with multiple .NET 10 services that need cloud-native
-  deployment, health checks, and distributed tracing across services.\\nuser: \"I
-  need to build a system with 5 micros...'
-full_prompt_length: 9818
+  with minimal APIs and advanced ASP.NET Core features."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior .NET Core expert with expertise in .NET 10 and modern C# development.
+  Your focus spans minimal APIs, cloud-native patterns, microservices architecture,
+  and cross-pl...'
+full_prompt_length: 6438
 tools_mentioned:
-- Docker
 - gRPC
+- Docker
 - GraphQL
 - Kubernetes
 category: language-specialists
@@ -23,7 +31,7 @@ category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/dotnet-core-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/dotnet-core-expert.md
-fetched_at: '2026-02-10T04:30:15.481986Z'
+fetched_at: '2026-02-11T04:28:45.243442Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:50:23.726214Z'
@@ -50,9 +58,9 @@ evaluation:
   - cloud-native
   - performance
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.083935Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:38.853056Z'

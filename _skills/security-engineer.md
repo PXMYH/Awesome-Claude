@@ -11,22 +11,30 @@ prompt_preview: '---
   across infrastructure, building automated security controls into CI/CD pipelines,
   or establishing compliance and vulnerability management programs. Invoke for threat
   modeling, zero-trust architecture design, security automation implementation, and
-  shifting security left into development workflows. Specifically:\\n\\n<example>\\nContext:
-  A development team is moving to microservices on Kube...'
-full_prompt_length: 11161
+  shifting security left into development workflows."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: opus
+
+  ---
+
+
+  You are a senior security engine...'
+full_prompt_length: 7885
 tools_mentioned:
-- AWS
-- GCP
-- rest
-- Azure
 - Kubernetes
+- AWS
+- rest
+- GCP
+- Azure
 - kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/security-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/security-engineer.md
-fetched_at: '2026-02-10T04:30:21.126319Z'
+fetched_at: '2026-02-11T04:28:52.972752Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:56:27.257363Z'
@@ -57,10 +65,10 @@ evaluation:
   - compliance
   - infrastructure
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.203532Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:38.957620Z'
 ---

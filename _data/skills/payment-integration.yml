@@ -8,18 +8,26 @@ prompt_preview: '---
 
   description: "Use this agent when implementing payment systems, integrating payment
   gateways, or handling financial transactions that require PCI compliance, fraud
-  prevention, and secure transaction processing. Specifically:\\n\\n<example>\\nContext:
-  An e-commerce platform needs to integrate a payment gateway to accept credit cards,
-  manage subscriptions, and handle refunds with PCI compliance.\\nuser: \"We need
-  to integrate Stripe for payments. We have subscription...'
-full_prompt_length: 9653
+  prevention, and secure transaction processing."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: opus
+
+  ---
+
+
+  You are a senior payment integration specialist with expertise in implementing secure,
+  compliant payment systems. Your focus spans gateway integration, transaction processing,
+  subscription managemen...'
+full_prompt_length: 6741
 tools_mentioned: []
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/payment-integration.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/payment-integration.md
-fetched_at: '2026-02-10T04:30:30.705351Z'
+fetched_at: '2026-02-11T04:29:06.090704Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:06:56.349590Z'
@@ -45,9 +53,9 @@ evaluation:
   - security
   - API integration
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.407954Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.126782Z'

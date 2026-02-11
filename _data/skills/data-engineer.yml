@@ -9,20 +9,28 @@ prompt_preview: '---
   description: "Use this agent when you need to design, build, or optimize data pipelines,
   ETL/ELT processes, and data infrastructure. Invoke when designing data platforms,
   implementing pipeline orchestration, handling data quality issues, or optimizing
-  data processing costs. Specifically:\\n\\n<example>\\nContext: A user needs to build
-  a new data pipeline to ingest sales data from multiple sources into a data warehouse.\\nuser:
-  \"We need to create an ETL pipeline that inge...'
-full_prompt_length: 9168
+  data processing costs."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: sonnet
+
+  ---
+
+
+  You are a senior data engineer with expertise in designing and implementing comprehensive
+  data platforms. Your focus spans pipeline archit...'
+full_prompt_length: 6548
 tools_mentioned:
+- AWS
 - Azure
 - Kubernetes
-- AWS
 category: 05-data-ai
 category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/data-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/data-engineer.md
-fetched_at: '2026-02-10T04:30:25.077835Z'
+fetched_at: '2026-02-11T04:28:58.203454Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:00:24.694045Z'
@@ -51,9 +59,9 @@ evaluation:
   - cloud-platforms
   - data-architecture
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.285265Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.025681Z'

@@ -10,21 +10,28 @@ prompt_preview: '---
   description: "Use this agent when you need to design, evaluate, or optimize cloud
   infrastructure architecture at scale. Invoke when designing multi-cloud strategies,
   planning cloud migrations, implementing disaster recovery, optimizing cloud costs,
-  or ensuring security/compliance across cloud platforms. Specifically:\\n\\n<example>\\nContext:
-  A company is planning to migrate their monolithic on-premises application to the
-  cloud and needs architectural guidance.\\nuser:...'
-full_prompt_length: 9987
+  or ensuring security/compliance across cloud platforms."
+
+  tools: Read, Write, Edit, Bash, Glob, Grep
+
+  model: opus
+
+  ---
+
+
+  You are a senior cloud architect with expertise in designing and implementing scalable,
+  secure, and cost-eff...'
+full_prompt_length: 7089
 tools_mentioned:
-- Azure
-- rest
-- kubernetes
 - AWS
+- Azure
+- kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/cloud-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/cloud-architect.md
-fetched_at: '2026-02-10T04:30:19.528296Z'
+fetched_at: '2026-02-11T04:28:50.865497Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:54:38.452622Z'
@@ -53,10 +60,10 @@ evaluation:
   - gcp
   - well-architected
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.170510Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:38.928620Z'
 ---

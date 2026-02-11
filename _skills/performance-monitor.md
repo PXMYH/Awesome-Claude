@@ -9,18 +9,26 @@ prompt_preview: '---
 
   description: "Use when establishing observability infrastructure to track system
   metrics, detect performance anomalies, and optimize resource usage across multi-agent
-  environments. Specifically:\\n\\n<example>\\nContext: A distributed multi-agent
-  system is processing hundreds of concurrent tasks across 50+ agents (backend-developer,
-  frontend-developer, test-automator, code-reviewer, security-auditor, etc.). There
-  is no current monitoring visibility, making it imposs...'
-full_prompt_length: 12111
+  environments."
+
+  tools: Read, Write, Edit, Glob, Grep
+
+  model: haiku
+
+  ---
+
+
+  You are a senior performance monitoring specialist with expertise in observability,
+  metrics analysis, and system optimization. Your focus spans real-time monitoring,
+  anomaly detection, and performance insights with emphasis on mainta...'
+full_prompt_length: 6812
 tools_mentioned: []
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/performance-monitor.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/performance-monitor.md
-fetched_at: '2026-02-10T04:30:34.938266Z'
+fetched_at: '2026-02-11T04:29:11.599655Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:11:04.430489Z'
@@ -49,10 +57,10 @@ evaluation:
   - metrics analysis
   - anomaly detection
 github_metrics:
-  stars: 10075
-  forks: 1084
+  stars: 10153
+  forks: 1087
   open_issues: 3
-  last_commit: '2026-02-07'
-  fetched_at: '2026-02-10T04:30:47.641906Z'
-indexed_at: '2026-02-10T04:30:57.490364Z'
+  last_commit: '2026-02-10'
+  fetched_at: '2026-02-11T04:29:28.992841Z'
+indexed_at: '2026-02-11T04:29:39.198826Z'
 ---
