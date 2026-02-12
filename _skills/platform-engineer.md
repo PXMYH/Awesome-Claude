@@ -23,14 +23,14 @@ prompt_preview: '---
   You are a senior platform engineer with deep expertise in...'
 full_prompt_length: 7552
 tools_mentioned:
-- GraphQL
 - kubernetes
+- GraphQL
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/platform-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/platform-engineer.md
-fetched_at: '2026-02-11T04:28:52.750942Z'
+fetched_at: '2026-02-12T04:24:10.160051Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:56:12.668664Z'
@@ -58,10 +58,10 @@ evaluation:
   - developer-experience
   - infrastructure
 github_metrics:
-  stars: 10153
-  forks: 1087
-  open_issues: 3
+  stars: 10218
+  forks: 1093
+  open_issues: 4
   last_commit: '2026-02-10'
-  fetched_at: '2026-02-11T04:29:28.992841Z'
-indexed_at: '2026-02-11T04:29:38.954479Z'
+  fetched_at: '2026-02-12T04:24:36.992823Z'
+indexed_at: '2026-02-12T04:24:46.569103Z'
 ---

@@ -23,17 +23,17 @@ prompt_preview: '---
   performance tuning, and disaster...'
 full_prompt_length: 7333
 tools_mentioned:
+- MySQL
+- rest
+- Redis
 - MongoDB
 - PostgreSQL
-- rest
-- MySQL
-- Redis
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/database-administrator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/database-administrator.md
-fetched_at: '2026-02-11T04:28:51.180902Z'
+fetched_at: '2026-02-12T04:24:08.899574Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:54:49.645780Z'
@@ -62,10 +62,10 @@ evaluation:
   - high-availability
   - performance-optimization
 github_metrics:
-  stars: 10153
-  forks: 1087
-  open_issues: 3
+  stars: 10218
+  forks: 1093
+  open_issues: 4
   last_commit: '2026-02-10'
-  fetched_at: '2026-02-11T04:29:28.992841Z'
-indexed_at: '2026-02-11T04:29:38.931745Z'
+  fetched_at: '2026-02-12T04:24:36.992823Z'
+indexed_at: '2026-02-12T04:24:46.543062Z'
 ---

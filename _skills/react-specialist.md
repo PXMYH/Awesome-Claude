@@ -23,19 +23,19 @@ prompt_preview: '---
   and production architectur...'
 full_prompt_length: 6730
 tools_mentioned:
-- typescript
+- TypeScript
 - React
+- javascript
 - react
+- typescript
 - JavaScript
 - Jest
-- javascript
-- TypeScript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/react-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/react-specialist.md
-fetched_at: '2026-02-11T04:28:48.841017Z'
+fetched_at: '2026-02-12T04:24:07.183365Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:53:03.543302Z'
@@ -66,10 +66,10 @@ evaluation:
   - ssr
   - state-management
 github_metrics:
-  stars: 10153
-  forks: 1087
-  open_issues: 3
+  stars: 10218
+  forks: 1093
+  open_issues: 4
   last_commit: '2026-02-10'
-  fetched_at: '2026-02-11T04:29:28.992841Z'
-indexed_at: '2026-02-11T04:29:38.902031Z'
+  fetched_at: '2026-02-12T04:24:36.992823Z'
+indexed_at: '2026-02-12T04:24:46.508739Z'
 ---

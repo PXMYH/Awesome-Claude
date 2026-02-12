@@ -17,7 +17,7 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/subagent-driven-development/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md
-fetched_at: '2026-02-11T04:29:24.857144Z'
+fetched_at: '2026-02-12T04:24:34.017307Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:18:28.258356Z'
@@ -46,10 +46,10 @@ evaluation:
   - subagent
   - quality-assurance
 github_metrics:
-  stars: 49347
-  forks: 3723
-  open_issues: 115
+  stars: 50009
+  forks: 3787
+  open_issues: 118
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-11T04:29:30.144812Z'
-indexed_at: '2026-02-11T04:29:39.299027Z'
+  fetched_at: '2026-02-12T04:24:37.857042Z'
+indexed_at: '2026-02-12T04:24:46.971263Z'
 ---

@@ -23,14 +23,14 @@ prompt_preview: '---
   development, and production deployment with emphasis on perfo...'
 full_prompt_length: 6727
 tools_mentioned:
-- REST
 - gRPC
+- REST
 category: 05-data-ai
 category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/ai-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/ai-engineer.md
-fetched_at: '2026-02-11T04:28:57.764477Z'
+fetched_at: '2026-02-12T04:24:14.061023Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:00:03.100081Z'
@@ -61,10 +61,10 @@ evaluation:
   - Ethical AI
   - Production Scaling
 github_metrics:
-  stars: 10153
-  forks: 1087
-  open_issues: 3
+  stars: 10218
+  forks: 1093
+  open_issues: 4
   last_commit: '2026-02-10'
-  fetched_at: '2026-02-11T04:29:28.992841Z'
-indexed_at: '2026-02-11T04:29:39.019039Z'
+  fetched_at: '2026-02-12T04:24:36.992823Z'
+indexed_at: '2026-02-12T04:24:46.643565Z'
 ---

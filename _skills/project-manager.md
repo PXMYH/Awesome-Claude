@@ -28,7 +28,7 @@ category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/project-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/project-manager.md
-fetched_at: '2026-02-11T04:29:08.455461Z'
+fetched_at: '2026-02-12T04:24:22.159060Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:08:38.962329Z'
@@ -56,10 +56,10 @@ evaluation:
   - risk-management
   - agile-methodology
 github_metrics:
-  stars: 10153
-  forks: 1087
-  open_issues: 3
+  stars: 10218
+  forks: 1093
+  open_issues: 4
   last_commit: '2026-02-10'
-  fetched_at: '2026-02-11T04:29:28.992841Z'
-indexed_at: '2026-02-11T04:29:39.155974Z'
+  fetched_at: '2026-02-12T04:24:36.992823Z'
+indexed_at: '2026-02-12T04:24:46.803706Z'
 ---
