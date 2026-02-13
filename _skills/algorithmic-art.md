@@ -28,7 +28,7 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/algorithmic-art/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/algorithmic-art/SKILL.md
-fetched_at: '2026-02-12T04:24:26.550569Z'
+fetched_at: '2026-02-13T04:21:13.575187Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:12:55.754856Z'
@@ -59,10 +59,10 @@ evaluation:
   - algorithmic-design
   - interactive-art
 github_metrics:
-  stars: 68312
-  forks: 6847
-  open_issues: 258
+  stars: 68920
+  forks: 6925
+  open_issues: 264
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-12T04:24:37.455189Z'
-indexed_at: '2026-02-12T04:24:46.888058Z'
+  fetched_at: '2026-02-13T04:21:22.896399Z'
+indexed_at: '2026-02-13T04:21:32.241598Z'
 ---

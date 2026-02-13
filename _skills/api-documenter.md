@@ -23,16 +23,16 @@ prompt_preview: '---
   code example generation, and documen...'
 full_prompt_length: 6328
 tools_mentioned:
-- WebSocket
-- GraphQL
 - gRPC
 - REST
+- GraphQL
+- WebSocket
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/api-documenter.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/api-documenter.md
-fetched_at: '2026-02-12T04:24:18.886550Z'
+fetched_at: '2026-02-13T04:21:06.598433Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:05:17.381302Z'
@@ -64,10 +64,10 @@ evaluation:
   - documentation-automation
   - technical-writing
 github_metrics:
-  stars: 10218
-  forks: 1093
-  open_issues: 4
-  last_commit: '2026-02-10'
-  fetched_at: '2026-02-12T04:24:36.992823Z'
-indexed_at: '2026-02-12T04:24:46.739225Z'
+  stars: 10303
+  forks: 1096
+  open_issues: 3
+  last_commit: '2026-02-12'
+  fetched_at: '2026-02-13T04:21:22.535205Z'
+indexed_at: '2026-02-13T04:21:32.088084Z'
 ---

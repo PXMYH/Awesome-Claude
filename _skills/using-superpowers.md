@@ -25,14 +25,14 @@ prompt_preview: '---
 
 
   This is not negotiable. This is not optional. You cannot rationalize your...'
-full_prompt_length: 3788
+full_prompt_length: 4197
 tools_mentioned: []
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/using-superpowers/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md
-fetched_at: '2026-02-12T04:24:35.321985Z'
+fetched_at: '2026-02-13T04:21:21.100651Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:19:15.005015Z'
@@ -62,10 +62,10 @@ evaluation:
   - development
   - systematic
 github_metrics:
-  stars: 50009
-  forks: 3787
-  open_issues: 118
-  last_commit: '2026-02-06'
-  fetched_at: '2026-02-12T04:24:37.857042Z'
-indexed_at: '2026-02-12T04:24:46.986306Z'
+  stars: 50626
+  forks: 3829
+  open_issues: 119
+  last_commit: '2026-02-12'
+  fetched_at: '2026-02-13T04:21:23.208628Z'
+indexed_at: '2026-02-13T04:21:32.339315Z'
 ---
