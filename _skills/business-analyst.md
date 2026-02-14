@@ -29,7 +29,7 @@ category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/business-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/business-analyst.md
-fetched_at: '2026-02-13T04:21:08.670526Z'
+fetched_at: '2026-02-14T04:10:00.441616Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:07:39.008076Z'
@@ -58,10 +58,10 @@ evaluation:
   - stakeholder-management
   - data-analysis
 github_metrics:
-  stars: 10303
-  forks: 1096
-  open_issues: 3
+  stars: 10374
+  forks: 1101
+  open_issues: 4
   last_commit: '2026-02-12'
-  fetched_at: '2026-02-13T04:21:22.535205Z'
-indexed_at: '2026-02-13T04:21:32.138359Z'
+  fetched_at: '2026-02-14T04:10:24.197233Z'
+indexed_at: '2026-02-14T04:10:35.068567Z'
 ---

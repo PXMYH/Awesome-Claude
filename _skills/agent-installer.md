@@ -34,15 +34,15 @@ prompt_preview: '---
 full_prompt_length: 3555
 tools_mentioned:
 - PHP
-- python
-- php
 - typescript
+- php
+- python
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/agent-installer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/agent-installer.md
-fetched_at: '2026-02-13T04:21:10.631951Z'
+fetched_at: '2026-02-14T04:10:03.718736Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:09:47.144426Z'
@@ -71,10 +71,10 @@ evaluation:
   - community-tools
   - installation
 github_metrics:
-  stars: 10303
-  forks: 1096
-  open_issues: 3
+  stars: 10374
+  forks: 1101
+  open_issues: 4
   last_commit: '2026-02-12'
-  fetched_at: '2026-02-13T04:21:22.535205Z'
-indexed_at: '2026-02-13T04:21:32.180166Z'
+  fetched_at: '2026-02-14T04:10:24.197233Z'
+indexed_at: '2026-02-14T04:10:35.110181Z'
 ---

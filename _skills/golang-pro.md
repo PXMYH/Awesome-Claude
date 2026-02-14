@@ -23,22 +23,22 @@ prompt_preview: '---
   spans microservices...'
 full_prompt_length: 7896
 tools_mentioned:
-- kubernetes
-- Go
-- java
-- Docker
+- rust
 - python
 - Kubernetes
-- rust
-- gRPC
-- REST
 - go
+- Docker
+- java
+- REST
+- kubernetes
+- gRPC
+- Go
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/golang-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/golang-pro.md
-fetched_at: '2026-02-13T04:20:54.399445Z'
+fetched_at: '2026-02-14T04:09:35.858660Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:51:10.588340Z'
@@ -67,10 +67,10 @@ evaluation:
   - Concurrency
   - Cloud-Native
 github_metrics:
-  stars: 10303
-  forks: 1096
-  open_issues: 3
+  stars: 10374
+  forks: 1101
+  open_issues: 4
   last_commit: '2026-02-12'
-  fetched_at: '2026-02-13T04:21:22.535205Z'
-indexed_at: '2026-02-13T04:21:31.817677Z'
+  fetched_at: '2026-02-14T04:10:24.197233Z'
+indexed_at: '2026-02-14T04:10:34.753255Z'
 ---

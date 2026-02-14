@@ -23,17 +23,17 @@ prompt_preview: '---
   applications with Ktor. Your focus empha...'
 full_prompt_length: 7347
 tools_mentioned:
-- WebSocket
-- java
 - JUnit
 - rust
+- java
+- WebSocket
 - typescript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/kotlin-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/kotlin-specialist.md
-fetched_at: '2026-02-13T04:20:54.867962Z'
+fetched_at: '2026-02-14T04:09:36.651706Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:51:44.705706Z'
@@ -60,10 +60,10 @@ evaluation:
   - DSL
   - Functional Programming
 github_metrics:
-  stars: 10303
-  forks: 1096
-  open_issues: 3
+  stars: 10374
+  forks: 1101
+  open_issues: 4
   last_commit: '2026-02-12'
-  fetched_at: '2026-02-13T04:21:22.535205Z'
-indexed_at: '2026-02-13T04:21:31.829172Z'
+  fetched_at: '2026-02-14T04:10:24.197233Z'
+indexed_at: '2026-02-14T04:10:34.764510Z'
 ---
