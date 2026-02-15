@@ -1,0 +1,43 @@
+---
+id: elevenlabs
+slug: elevenlabs
+name: ElevenLabs - Text-to-Speech & Podcast Skill
+description: '- Run `voices` first to let the user pick voices they like'
+prompt_preview: "---\nname: elevenlabs\ndescription: |\n  Convert documents and text\
+  \ to audio using ElevenLabs text-to-speech.\n  Use this skill when the user wants\
+  \ to create a podcast, narrate a document,\n  read aloud text, generate audio from\
+  \ a file, or convert text to speech.\n---\n\n# ElevenLabs - Text-to-Speech & Podcast\
+  \ Skill\n\n## Overview\n\nThis skill converts text and documents into high-quality\
+  \ audio using ElevenLabs TTS API. It supports two modes: single-voice narration\
+  \ and two-host conversational podcast gener..."
+full_prompt_length: 4194
+tools_mentioned:
+- python
+category: community
+category_display: Community
+source_repo: sanjay3290/ai-skills
+source_path: skills/elevenlabs/SKILL.md
+source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/elevenlabs/SKILL.md
+fetched_at: '2026-02-15T04:22:19.004180+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-02-15T04:29:58.926173Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3ba80e0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3ba80e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-02-15T04:33:51.334987Z'
+indexed_at: '2026-02-15T04:33:51.334992Z'
+---

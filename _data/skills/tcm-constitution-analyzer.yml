@@ -16,7 +16,7 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/tcm-constitution-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/tcm-constitution-analyzer/SKILL.md
-fetched_at: '2026-02-08T04:32:13.618950+00:00'
+fetched_at: '2026-02-15T04:21:58.992965+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:56:19.960957Z'
@@ -49,5 +49,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.472934Z'
-indexed_at: '2026-02-08T04:36:45.472939Z'
+  fetched_at: '2026-02-15T04:33:51.112513Z'
+indexed_at: '2026-02-15T04:33:51.112519Z'

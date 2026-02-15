@@ -12,15 +12,15 @@ prompt_preview: "---\nname: opentrons-integration\ndescription: Official Opentro
   Opentrons is a Python-based lab automation pl..."
 full_prompt_length: 15534
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/opentrons-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/opentrons-integration/SKILL.md
-fetched_at: '2026-02-08T04:31:30.606795+00:00'
+fetched_at: '2026-02-15T04:21:13.383308+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:36:10.402126Z'
@@ -55,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.622648Z'
-indexed_at: '2026-02-08T04:36:44.622653Z'
+  fetched_at: '2026-02-15T04:33:50.122475Z'
+indexed_at: '2026-02-15T04:33:50.122481Z'
 ---

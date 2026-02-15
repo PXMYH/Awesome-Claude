@@ -12,15 +12,15 @@ prompt_preview: "---\nname: statsmodels\ndescription: Statistical models library
   \ Modeling and Econometrics\n\n## Over..."
 full_prompt_length: 20501
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/statsmodels/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/statsmodels/SKILL.md
-fetched_at: '2026-02-08T04:31:38.603714+00:00'
+fetched_at: '2026-02-15T04:21:19.398308+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:44:56.657128Z'
@@ -55,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.806892Z'
-indexed_at: '2026-02-08T04:36:44.806898Z'
+  fetched_at: '2026-02-15T04:33:50.309143Z'
+indexed_at: '2026-02-15T04:33:50.309148Z'
 ---

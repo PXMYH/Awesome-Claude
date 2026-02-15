@@ -12,16 +12,16 @@ prompt_preview: "---\nname: ena-database\ndescription: Access European Nucleotid
   \ DNA/RNA sequences, raw reads,..."
 full_prompt_length: 7853
 tools_mentioned:
-- go
-- rest
-- REST
 - python
+- go
+- REST
+- rest
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/ena-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/ena-database/SKILL.md
-fetched_at: '2026-02-08T04:31:22.176883+00:00'
+fetched_at: '2026-02-15T04:21:07.157930+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:27:15.923947Z'
@@ -55,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.427541Z'
-indexed_at: '2026-02-08T04:36:44.427546Z'
+  fetched_at: '2026-02-15T04:33:49.927544Z'
+indexed_at: '2026-02-15T04:33:49.927549Z'
 ---

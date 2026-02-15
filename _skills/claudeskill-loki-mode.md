@@ -1,9 +1,9 @@
 ---
 id: claudeskill-loki-mode
 slug: claudeskill-loki-mode
-name: Loki Mode v5.28.0
-description: '**v5.28.0 | Demo, quick mode, init, cost dashboard, 12 templates, GitHub
-  Action | ~270 lines core**'
+name: Loki Mode v5.42.1
+description: '**v5.42.1 | feat: GitHub sync-back, PR creation, export (fully wired)
+  | ~260 lines core**'
 prompt_preview: '---
 
   name: loki-mode
@@ -15,7 +15,7 @@ prompt_preview: '---
   ---
 
 
-  # Loki Mode v5.28.0
+  # Loki Mode v5.42.1
 
 
   **You are an autonomous agent. You make decisions. You do not ask questions. You
@@ -30,14 +30,14 @@ prompt_preview: '---
 
 
   ## PRIORITY 1:...'
-full_prompt_length: 10048
+full_prompt_length: 10676
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: asklokesh/claudeskill-loki-mode
 source_path: SKILL.md
 source_url: https://github.com/asklokesh/claudeskill-loki-mode/blob/main/SKILL.md
-fetched_at: '2026-02-08T04:32:08.587545+00:00'
+fetched_at: '2026-02-15T04:21:43.977032+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:15:55.363647Z'
@@ -70,6 +70,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.400765Z'
-indexed_at: '2026-02-08T04:36:45.400771Z'
+  fetched_at: '2026-02-15T04:33:50.914602Z'
+indexed_at: '2026-02-15T04:33:50.914607Z'
 ---

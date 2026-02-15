@@ -15,15 +15,15 @@ prompt_preview: '---
   assessment, psychophysiology research, and multi-modal physio...'
 full_prompt_length: 12830
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/neurokit2/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/neurokit2/SKILL.md
-fetched_at: '2026-02-08T04:31:29.568285+00:00'
+fetched_at: '2026-02-15T04:21:12.640470+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:35:07.780064Z'
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.600504Z'
-indexed_at: '2026-02-08T04:36:44.600516Z'
+  fetched_at: '2026-02-15T04:33:50.099262Z'
+indexed_at: '2026-02-15T04:33:50.099268Z'
 ---

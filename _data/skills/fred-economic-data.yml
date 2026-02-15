@@ -13,25 +13,25 @@ prompt_preview: "---\nname: fred-economic-data\ndescription: Query FRED (Federal
   \ Data Access\n\n##..."
 full_prompt_length: 11987
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/fred-economic-data/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/fred-economic-data/SKILL.md
-fetched_at: '2026-02-08T04:31:23.499554+00:00'
+fetched_at: '2026-02-15T04:21:08.373072+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-08T04:33:17.290584Z'
+  evaluated_at: '2026-02-15T04:22:58.954304Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1fc5c1f200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3f24800 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1fc5c1f200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3f24800 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.457052Z'
-indexed_at: '2026-02-08T04:36:44.457058Z'
+  fetched_at: '2026-02-15T04:33:49.961008Z'
+indexed_at: '2026-02-15T04:33:49.961022Z'

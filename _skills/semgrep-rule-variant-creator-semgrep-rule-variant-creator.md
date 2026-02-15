@@ -12,16 +12,16 @@ prompt_preview: "---\nname: semgrep-rule-variant-creator\ndescription: Creates l
   \ proper applicability analysis and test-..."
 full_prompt_length: 8029
 tools_mentioned:
-- go
-- Go
-- Java
 - java
+- go
+- Java
+- Go
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/semgrep-rule-variant-creator/skills/semgrep-rule-variant-creator/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/semgrep-rule-variant-creator/skills/semgrep-rule-variant-creator/SKILL.md
-fetched_at: '2026-02-08T04:32:46.279375+00:00'
+fetched_at: '2026-02-15T04:22:30.527166+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:05:25.905987Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.813261Z'
-indexed_at: '2026-02-08T04:36:45.813284Z'
+  fetched_at: '2026-02-15T04:33:51.480308Z'
+indexed_at: '2026-02-15T04:33:51.480313Z'
 ---

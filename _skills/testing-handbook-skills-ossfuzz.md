@@ -12,19 +12,19 @@ prompt_preview: "---\nname: ossfuzz\ntype: technique\ndescription: >\n  OSS-Fuzz
   \ simpler modifications. While only select projects are accepted int..."
 full_prompt_length: 16124
 tools_mentioned:
-- python
-- Docker
 - rust
+- Docker
+- go
+- Rust
+- python
 - docker
 - Python
-- Rust
-- go
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/ossfuzz/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/ossfuzz/SKILL.md
-fetched_at: '2026-02-08T04:32:50.857451+00:00'
+fetched_at: '2026-02-15T04:22:33.286232+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:27:23.446792Z'
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.876481Z'
-indexed_at: '2026-02-08T04:36:45.876486Z'
+  fetched_at: '2026-02-15T04:33:51.543952Z'
+indexed_at: '2026-02-15T04:33:51.543957Z'
 ---

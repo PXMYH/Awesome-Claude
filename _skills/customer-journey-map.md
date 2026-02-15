@@ -1,0 +1,54 @@
+---
+id: customer-journey-map
+slug: customer-journey-map
+name: Customer Journey Map
+description: Claude skill for Customer Journey Map
+prompt_preview: '---
+
+  name: customer-journey-map
+
+  description: Create a comprehensive customer journey map that visualizes how customers
+  interact with your brand across all stages—from awareness to loyalty—documenting
+  their actions, touchpoints, emotions, KPI
+
+  type: component
+
+  ---
+
+
+
+  ## Purpose
+
+  Create a comprehensive customer journey map that visualizes how customers interact
+  with your brand across all stages—from awareness to loyalty—documenting their actions,
+  touchpoints, emotions, KPIs, business goals, and teams i...'
+full_prompt_length: 13085
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: deanpeters/Product-Manager-Skills
+source_path: skills/customer-journey-map/SKILL.md
+source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/customer-journey-map/SKILL.md
+fetched_at: '2026-02-15T04:21:47.310051+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-02-15T04:24:30.218992Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3a3ce90 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3a3ce90 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-02-15T04:33:50.948744Z'
+indexed_at: '2026-02-15T04:33:50.948750Z'
+---

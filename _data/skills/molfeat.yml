@@ -11,15 +11,15 @@ prompt_preview: "---\nname: molfeat\ndescription: Molecular featurization for ML
   \ Convert chemical structures (SMILES s..."
 full_prompt_length: 15629
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/molfeat/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/molfeat/SKILL.md
-fetched_at: '2026-02-08T04:31:29.153982+00:00'
+fetched_at: '2026-02-15T04:21:12.401928+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:34:43.004140Z'
@@ -55,5 +55,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.587394Z'
-indexed_at: '2026-02-08T04:36:44.587402Z'
+  fetched_at: '2026-02-15T04:33:50.091145Z'
+indexed_at: '2026-02-15T04:33:50.091151Z'

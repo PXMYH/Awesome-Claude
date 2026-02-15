@@ -21,16 +21,16 @@ prompt_preview: '---
   You are a senior Site Reliability Engineer with expertise in building and maintainin...'
 full_prompt_length: 6943
 tools_mentioned:
-- Python
 - Kubernetes
 - kubernetes
 - Go
+- Python
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/sre-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/sre-engineer.md
-fetched_at: '2026-02-14T04:09:44.037937Z'
+fetched_at: '2026-02-15T04:21:28.441302+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:56:37.285476Z'
@@ -56,9 +56,9 @@ evaluation:
   - automation
   - chaos-engineering
 github_metrics:
-  stars: 10374
-  forks: 1101
-  open_issues: 4
-  last_commit: '2026-02-12'
-  fetched_at: '2026-02-14T04:10:24.197233Z'
-indexed_at: '2026-02-14T04:10:34.861733Z'
+  stars: 10437
+  forks: 1106
+  open_issues: 2
+  last_commit: '2026-02-14'
+  fetched_at: '2026-02-15T04:22:41.501003Z'
+indexed_at: '2026-02-15T04:33:50.543728Z'

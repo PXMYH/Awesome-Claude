@@ -22,22 +22,21 @@ prompt_preview: '---
   REST API development, and async capabilities with emphasis on building secure, scalab...'
 full_prompt_length: 6432
 tools_mentioned:
-- Django
-- pytest
-- python
-- redis
-- Python
-- GraphQL
-- django
-- REST
 - WebSocket
+- REST
+- redis
+- django
+- Django
+- GraphQL
 - Redis
+- python
+- Python
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/django-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/django-developer.md
-fetched_at: '2026-02-14T04:09:34.521891Z'
+fetched_at: '2026-02-15T04:21:23.773352+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:50:13.611701Z'
@@ -65,10 +64,10 @@ evaluation:
   - security
   - performance-optimization
 github_metrics:
-  stars: 10374
-  forks: 1101
-  open_issues: 4
-  last_commit: '2026-02-12'
-  fetched_at: '2026-02-14T04:10:24.197233Z'
-indexed_at: '2026-02-14T04:10:34.733877Z'
+  stars: 10437
+  forks: 1106
+  open_issues: 2
+  last_commit: '2026-02-14'
+  fetched_at: '2026-02-15T04:22:41.501003Z'
+indexed_at: '2026-02-15T04:33:50.412101Z'
 ---

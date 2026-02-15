@@ -20,7 +20,7 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/atlassian-mcp/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/atlassian-mcp/SKILL.md
-fetched_at: '2026-02-08T04:32:16.706215+00:00'
+fetched_at: '2026-02-15T04:22:01.702933+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:57:25.016974Z'
@@ -56,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.495547Z'
-indexed_at: '2026-02-08T04:36:45.495556Z'
+  fetched_at: '2026-02-15T04:33:51.135296Z'
+indexed_at: '2026-02-15T04:33:51.135302Z'
 ---

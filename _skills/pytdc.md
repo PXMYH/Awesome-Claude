@@ -12,14 +12,14 @@ prompt_preview: "---\nname: pytdc\ndescription: Therapeutics Data Commons. AI-re
   \ the entire therapeutics pi..."
 full_prompt_length: 13519
 tools_mentioned:
-- go
 - python
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pytdc/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pytdc/SKILL.md
-fetched_at: '2026-02-08T04:31:34.342296+00:00'
+fetched_at: '2026-02-15T04:21:16.235001+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:40:12.219041Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.708205Z'
-indexed_at: '2026-02-08T04:36:44.708211Z'
+  fetched_at: '2026-02-15T04:33:50.210790Z'
+indexed_at: '2026-02-15T04:33:50.210796Z'
 ---

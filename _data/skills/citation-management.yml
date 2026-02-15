@@ -11,15 +11,15 @@ prompt_preview: "---\nname: citation-management\ndescription: Comprehensive cita
   metadata:\n    skill-author: K-Dense I..."
 full_prompt_length: 33416
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/citation-management/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/citation-management/SKILL.md
-fetched_at: '2026-02-08T04:31:19.057585+00:00'
+fetched_at: '2026-02-15T04:21:04.849496+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:23:48.539672Z'
@@ -56,5 +56,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.363614Z'
-indexed_at: '2026-02-08T04:36:44.363619Z'
+  fetched_at: '2026-02-15T04:33:49.852130Z'
+indexed_at: '2026-02-15T04:33:49.852139Z'

@@ -28,14 +28,14 @@ prompt_preview: '---
   - Perform **line-by-line / block-by-block** code analysis by default.
 
   - Apply **First Principles**, **5 Whys**, and **5 Hows** at...'
-full_prompt_length: 9533
+full_prompt_length: 9774
 tools_mentioned: []
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/audit-context-building/skills/audit-context-building/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/audit-context-building/skills/audit-context-building/SKILL.md
-fetched_at: '2026-02-08T04:32:39.012335+00:00'
+fetched_at: '2026-02-15T04:22:22.878782+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:22:10.725901Z'
@@ -66,6 +66,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.735791Z'
-indexed_at: '2026-02-08T04:36:45.735796Z'
+  fetched_at: '2026-02-15T04:33:51.391210Z'
+indexed_at: '2026-02-15T04:33:51.391216Z'
 ---

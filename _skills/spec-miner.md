@@ -18,7 +18,7 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/spec-miner/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/spec-miner/SKILL.md
-fetched_at: '2026-02-08T04:32:24.399343+00:00'
+fetched_at: '2026-02-15T04:22:07.875428+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:01:52.396037Z'
@@ -50,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.573201Z'
-indexed_at: '2026-02-08T04:36:45.573207Z'
+  fetched_at: '2026-02-15T04:33:51.213230Z'
+indexed_at: '2026-02-15T04:33:51.213235Z'
 ---

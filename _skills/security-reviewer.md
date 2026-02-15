@@ -14,14 +14,14 @@ prompt_preview: "---\nname: security-reviewer\ndescription: Use when conducting 
   \ audit, security analysis, i..."
 full_prompt_length: 3683
 tools_mentioned:
-- kubernetes
 - AWS
+- kubernetes
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/security-reviewer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/security-reviewer/SKILL.md
-fetched_at: '2026-02-08T04:32:23.936584+00:00'
+fetched_at: '2026-02-15T04:22:07.542655+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:01:15.346389Z'
@@ -55,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.561974Z'
-indexed_at: '2026-02-08T04:36:45.561979Z'
+  fetched_at: '2026-02-15T04:33:51.201937Z'
+indexed_at: '2026-02-15T04:33:51.201943Z'
 ---

@@ -12,16 +12,16 @@ prompt_preview: "---\nname: kegg-database\ndescription: Direct REST API access t
   \ Encyclopedia of Genes and Genomes) is..."
 full_prompt_length: 12579
 tools_mentioned:
-- go
 - python
-- Python
+- go
 - REST
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/kegg-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/kegg-database/SKILL.md
-fetched_at: '2026-02-08T04:31:26.418694+00:00'
+fetched_at: '2026-02-15T04:21:10.594480+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:31:53.994473Z'
@@ -56,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.518451Z'
-indexed_at: '2026-02-08T04:36:44.518457Z'
+  fetched_at: '2026-02-15T04:33:50.034523Z'
+indexed_at: '2026-02-15T04:33:50.034529Z'
 ---

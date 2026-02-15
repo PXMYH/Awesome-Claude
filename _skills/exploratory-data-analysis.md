@@ -15,15 +15,15 @@ prompt_preview: '---
   microscopy, spectroscop...'
 full_prompt_length: 15121
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/exploratory-data-analysis/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/exploratory-data-analysis/SKILL.md
-fetched_at: '2026-02-08T04:31:22.836017+00:00'
+fetched_at: '2026-02-15T04:21:07.716177+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:28:07.518452Z'
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.442942Z'
-indexed_at: '2026-02-08T04:36:44.442947Z'
+  fetched_at: '2026-02-15T04:33:49.943501Z'
+indexed_at: '2026-02-15T04:33:49.943507Z'
 ---

@@ -19,14 +19,14 @@ prompt_preview: '---
   metadata:...'
 full_prompt_length: 12871
 tools_mentioned:
-- go
 - python
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/openalex-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/openalex-database/SKILL.md
-fetched_at: '2026-02-08T04:31:30.303741+00:00'
+fetched_at: '2026-02-15T04:21:13.156076+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:35:48.971705Z'
@@ -59,6 +59,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.615430Z'
-indexed_at: '2026-02-08T04:36:44.615435Z'
+  fetched_at: '2026-02-15T04:33:50.114211Z'
+indexed_at: '2026-02-15T04:33:50.114217Z'
 ---

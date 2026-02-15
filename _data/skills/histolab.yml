@@ -11,15 +11,15 @@ prompt_preview: "---\nname: histolab\ndescription: Lightweight WSI tile extracti
   \ a Python library for processing whol..."
 full_prompt_length: 20971
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/histolab/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/histolab/SKILL.md
-fetched_at: '2026-02-08T04:31:25.176240+00:00'
+fetched_at: '2026-02-15T04:21:09.706508+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:30:48.397988Z'
@@ -53,5 +53,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.493410Z'
-indexed_at: '2026-02-08T04:36:44.493416Z'
+  fetched_at: '2026-02-15T04:33:50.009562Z'
+indexed_at: '2026-02-15T04:33:50.009568Z'

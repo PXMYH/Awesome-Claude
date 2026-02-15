@@ -11,15 +11,15 @@ prompt_preview: "---\nname: plotly\ndescription: Interactive visualization libra
   Install Plotly:\n```bash\nuv pip..."
 full_prompt_length: 8018
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/plotly/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/plotly/SKILL.md
-fetched_at: '2026-02-08T04:31:31.791073+00:00'
+fetched_at: '2026-02-15T04:21:14.219388+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:37:24.719700Z'
@@ -53,5 +53,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.648529Z'
-indexed_at: '2026-02-08T04:36:44.648534Z'
+  fetched_at: '2026-02-15T04:33:50.150734Z'
+indexed_at: '2026-02-15T04:33:50.150740Z'

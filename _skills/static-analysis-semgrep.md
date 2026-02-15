@@ -10,24 +10,24 @@ prompt_preview: "---\nname: semgrep\ndescription: Run Semgrep static analysis sc
   \ analysis. Spawns parallel workers for multi-language codebases and triage.\nallowed-tools:\n\
   \  - Bash\n  - Read\n  - Glob\n  - Grep\n  - Write\n  - Task\n  - AskUserQuestion\n\
   \  - TaskCreate\n  - TaskList..."
-full_prompt_length: 15141
+full_prompt_length: 15921
 tools_mentioned:
-- Django
 - Docker
-- php
-- Kubernetes
+- python
+- react
+- django
+- Django
+- Java
+- javascript
+- React
+- go
 - Go
-- Ruby
-- PHP
-- java
-- Node.js
-- TypeScript
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/static-analysis/skills/semgrep/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/semgrep/SKILL.md
-fetched_at: '2026-02-08T04:32:48.745832+00:00'
+fetched_at: '2026-02-15T04:22:31.674045+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:24:50.034044Z'
@@ -59,6 +59,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.832231Z'
-indexed_at: '2026-02-08T04:36:45.832236Z'
+  fetched_at: '2026-02-15T04:33:51.499584Z'
+indexed_at: '2026-02-15T04:33:51.499589Z'
 ---

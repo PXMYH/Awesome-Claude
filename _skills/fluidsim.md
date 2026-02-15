@@ -12,15 +12,15 @@ prompt_preview: "---\nname: fluidsim\ndescription: Framework for computational f
   \ Inc.\n---\n\n# FluidSim\n\n## O..."
 full_prompt_length: 10212
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/fluidsim/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/fluidsim/SKILL.md
-fetched_at: '2026-02-08T04:31:23.348129+00:00'
+fetched_at: '2026-02-15T04:21:08.102747+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:28:38.113474Z'
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.453493Z'
-indexed_at: '2026-02-08T04:36:44.453498Z'
+  fetched_at: '2026-02-15T04:33:49.954662Z'
+indexed_at: '2026-02-15T04:33:49.954668Z'
 ---

@@ -13,22 +13,22 @@ prompt_preview: "---\nname: code-documenter\ndescription: Use when adding docstr
   \  output-format: code\n  related-ski..."
 full_prompt_length: 3734
 tools_mentioned:
-- GraphQL
-- python
-- Django
-- gRPC
 - Node.js
-- TypeScript
-- typescript
-- Python
+- WebSocket
 - REST
+- TypeScript
+- Django
+- fastapi
 - django
+- GraphQL
+- gRPC
+- python
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/code-documenter/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/code-documenter/SKILL.md
-fetched_at: '2026-02-08T04:32:17.285979+00:00'
+fetched_at: '2026-02-15T04:22:02.260283+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:57:35.702926Z'
@@ -60,5 +60,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.499303Z'
-indexed_at: '2026-02-08T04:36:45.499309Z'
+  fetched_at: '2026-02-15T04:33:51.139089Z'
+indexed_at: '2026-02-15T04:33:51.139095Z'

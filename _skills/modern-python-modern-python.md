@@ -31,24 +31,24 @@ prompt_preview: '---
 full_prompt_length: 9927
 tools_mentioned:
 - python
-- Rust
 - Python
+- Rust
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/modern-python/skills/modern-python/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/modern-python/skills/modern-python/SKILL.md
-fetched_at: '2026-02-08T04:32:45.304722+00:00'
+fetched_at: '2026-02-15T04:22:29.278638+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-08T04:35:54.524050Z'
+  evaluated_at: '2026-02-15T04:32:52.151762Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1fc5ab1580 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3a3e840 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1fc5ab1580 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3a3e840 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -58,6 +58,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.803060Z'
-indexed_at: '2026-02-08T04:36:45.803066Z'
+  fetched_at: '2026-02-15T04:33:51.467068Z'
+indexed_at: '2026-02-15T04:33:51.467074Z'
 ---

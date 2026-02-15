@@ -12,17 +12,17 @@ prompt_preview: "---\nname: cirq\ndescription: Google quantum computing framewor
   \ with Python\n\nCirq is Google..."
 full_prompt_length: 11466
 tools_mentioned:
-- azure
-- python
-- Python
 - go
 - Azure
+- python
+- Python
+- azure
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/cirq/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/cirq/SKILL.md
-fetched_at: '2026-02-08T04:31:18.758931+00:00'
+fetched_at: '2026-02-15T04:21:04.703471+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:23:37.231928Z'
@@ -56,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.359607Z'
-indexed_at: '2026-02-08T04:36:44.359612Z'
+  fetched_at: '2026-02-15T04:33:49.845225Z'
+indexed_at: '2026-02-15T04:33:49.845234Z'
 ---

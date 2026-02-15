@@ -17,15 +17,15 @@ prompt_preview: '---
   license: BSD-3-Clause license...'
 full_prompt_length: 11406
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/aeon/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/aeon/SKILL.md
-fetched_at: '2026-02-08T04:31:16.825057+00:00'
+fetched_at: '2026-02-15T04:21:03.214983+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:21:07.865246Z'
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.313863Z'
-indexed_at: '2026-02-08T04:36:44.313868Z'
+  fetched_at: '2026-02-15T04:33:49.790594Z'
+indexed_at: '2026-02-15T04:33:49.790600Z'
 ---

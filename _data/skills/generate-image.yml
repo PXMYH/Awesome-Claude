@@ -11,14 +11,14 @@ prompt_preview: "---\nname: generate-image\ndescription: Generate or edit images
   \ Inc.\n---\n\n# Generate Image..."
 full_prompt_length: 7776
 tools_mentioned:
-- go
 - python
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/generate-image/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/generate-image/SKILL.md
-fetched_at: '2026-02-08T04:31:23.898862+00:00'
+fetched_at: '2026-02-15T04:21:08.675665+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:28:58.936889Z'
@@ -50,5 +50,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.463789Z'
-indexed_at: '2026-02-08T04:36:44.463795Z'
+  fetched_at: '2026-02-15T04:33:49.974055Z'
+indexed_at: '2026-02-15T04:33:49.974065Z'

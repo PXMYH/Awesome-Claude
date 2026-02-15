@@ -19,7 +19,7 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/libafl/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/libafl/SKILL.md
-fetched_at: '2026-02-08T04:32:50.561730+00:00'
+fetched_at: '2026-02-15T04:22:33.049547+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:27:03.678604Z'
@@ -50,5 +50,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.869185Z'
-indexed_at: '2026-02-08T04:36:45.869190Z'
+  fetched_at: '2026-02-15T04:33:51.536630Z'
+indexed_at: '2026-02-15T04:33:51.536635Z'

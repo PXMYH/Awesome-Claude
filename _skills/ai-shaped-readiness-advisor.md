@@ -1,0 +1,55 @@
+---
+id: ai-shaped-readiness-advisor
+slug: ai-shaped-readiness-advisor
+name: Ai Shaped Readiness Advisor
+description: Claude skill for Ai Shaped Readiness Advisor
+prompt_preview: '---
+
+  name: ai-shaped-readiness-advisor
+
+  description: Assess whether your product work is AI-first or AI-shaped. Score 5
+  competencies and recommend the next capability to build.
+
+  type: interactive
+
+  ---
+
+
+  ## Purpose
+
+
+  Assess whether your product work is **"AI-first"** (using AI to automate existing
+  tasks faster) or **"AI-shaped"** (fundamentally redesigning how product teams operate
+  around AI capabilities). Use this to evaluate your readiness across **5 essential
+  PM competencies for 2026**, identify gap...'
+full_prompt_length: 41292
+tools_mentioned:
+- rest
+category: community
+category_display: Community
+source_repo: deanpeters/Product-Manager-Skills
+source_path: skills/ai-shaped-readiness-advisor/SKILL.md
+source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/ai-shaped-readiness-advisor/SKILL.md
+fetched_at: '2026-02-15T04:21:46.811747+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-02-15T04:23:56.317168Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3a3e510 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3a3e510 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-02-15T04:33:50.937115Z'
+indexed_at: '2026-02-15T04:33:50.937120Z'
+---

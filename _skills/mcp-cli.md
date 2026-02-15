@@ -30,8 +30,8 @@ prompt_preview: '---
   - Make one-off...'
 full_prompt_length: 9217
 tools_mentioned:
-- go
 - docker
+- go
 - Docker
 - TypeScript
 category: community
@@ -39,7 +39,7 @@ category_display: Community
 source_repo: obra/superpowers-lab
 source_path: skills/mcp-cli/SKILL.md
 source_url: https://github.com/obra/superpowers-lab/blob/main/skills/mcp-cli/SKILL.md
-fetched_at: '2026-02-08T04:32:30.677875+00:00'
+fetched_at: '2026-02-15T04:22:14.257514+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:20:17.096926Z'
@@ -73,6 +73,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.646141Z'
-indexed_at: '2026-02-08T04:36:45.646146Z'
+  fetched_at: '2026-02-15T04:33:51.292363Z'
+indexed_at: '2026-02-15T04:33:51.292375Z'
 ---

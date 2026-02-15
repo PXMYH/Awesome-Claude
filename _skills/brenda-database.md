@@ -12,16 +12,16 @@ prompt_preview: "---\nname: brenda-database\ndescription: Access BRENDA enzyme d
   \ enzyme data from scientific l..."
 full_prompt_length: 22981
 tools_mentioned:
-- go
 - python
 - php
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/brenda-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/brenda-database/SKILL.md
-fetched_at: '2026-02-08T04:31:18.298391+00:00'
+fetched_at: '2026-02-15T04:21:04.272712+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:23:05.369145Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.348315Z'
-indexed_at: '2026-02-08T04:36:44.348321Z'
+  fetched_at: '2026-02-15T04:33:49.825954Z'
+indexed_at: '2026-02-15T04:33:49.825961Z'
 ---

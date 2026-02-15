@@ -3,14 +3,14 @@ id: google-slides
 slug: google-slides
 name: Google Slides
 description: Automatically refreshes expired tokens using Google's cloud function.
-prompt_preview: "---\nname: google-slides\ndescription: |\n  Read content from Google\
-  \ Slides presentations - get text, find presentations, and retrieve metadata.\n\
-  \  Use when user asks to: read a presentation, find slides, get presentation content,\
-  \ search for a slideshow,\n  or check presentation details. Lightweight alternative\
-  \ to full Google Workspace MCP server with standalone\n  OAuth authentication. Read-only\
-  \ operations only.\n---\n\n# Google Slides\n\nLightweight Google Slides integration\
-  \ with standalone OAuth authent..."
-full_prompt_length: 2575
+prompt_preview: "---\nname: google-slides\ndescription: |\n  Read and write Google\
+  \ Slides presentations - get text, find presentations, create presentations, add\
+  \ slides,\n  replace text, and manage slide content. Use when user asks to: read\
+  \ a presentation, create slides, find slides,\n  add a slide, replace text in a\
+  \ presentation, or manage presentation content. Lightweight integration with\n \
+  \ standalone OAuth authentication supporting full read/write access.\n---\n\n# Google\
+  \ Slides\n\nLightweight Google Slides integration..."
+full_prompt_length: 4023
 tools_mentioned:
 - python
 category: community
@@ -18,7 +18,7 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/google-slides/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/google-slides/SKILL.md
-fetched_at: '2026-02-08T04:32:36.884692+00:00'
+fetched_at: '2026-02-15T04:22:20.131541+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:04:46.430021Z'
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.710925Z'
-indexed_at: '2026-02-08T04:36:45.710930Z'
+  fetched_at: '2026-02-15T04:33:51.360107Z'
+indexed_at: '2026-02-15T04:33:51.360113Z'
 ---

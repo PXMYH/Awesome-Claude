@@ -18,7 +18,7 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/secure-code-guardian/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/secure-code-guardian/SKILL.md
-fetched_at: '2026-02-08T04:32:23.794592+00:00'
+fetched_at: '2026-02-15T04:22:07.406969+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:00:49.992153Z'
@@ -50,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.558214Z'
-indexed_at: '2026-02-08T04:36:45.558219Z'
+  fetched_at: '2026-02-15T04:33:51.198198Z'
+indexed_at: '2026-02-15T04:33:51.198203Z'
 ---

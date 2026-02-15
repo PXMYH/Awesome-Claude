@@ -11,15 +11,15 @@ prompt_preview: "---\nname: zinc-database\ndescription: Access ZINC (230M+ purch
   \ download 3D-ready structures for dockin..."
 full_prompt_length: 14695
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/zinc-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/zinc-database/SKILL.md
-fetched_at: '2026-02-08T04:31:40.725801+00:00'
+fetched_at: '2026-02-15T04:21:21.071644+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:47:12.105281Z'
@@ -53,5 +53,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.855731Z'
-indexed_at: '2026-02-08T04:36:44.855737Z'
+  fetched_at: '2026-02-15T04:33:50.358094Z'
+indexed_at: '2026-02-15T04:33:50.358099Z'

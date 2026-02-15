@@ -15,20 +15,20 @@ prompt_preview: '---
   in biological research. Covers data management, annotation, ontologi...'
 full_prompt_length: 15187
 tools_mentioned:
-- python
-- PostgreSQL
-- AWS
 - GO
-- Python
-- gcp
+- AWS
 - go
+- gcp
 - SQLite
+- PostgreSQL
+- python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/lamindb/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/lamindb/SKILL.md
-fetched_at: '2026-02-08T04:31:26.802797+00:00'
+fetched_at: '2026-02-15T04:21:10.868255+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:32:20.258945Z'
@@ -61,6 +61,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.526491Z'
-indexed_at: '2026-02-08T04:36:44.526497Z'
+  fetched_at: '2026-02-15T04:33:50.042250Z'
+indexed_at: '2026-02-15T04:33:50.042256Z'
 ---

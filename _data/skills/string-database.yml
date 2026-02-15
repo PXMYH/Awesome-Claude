@@ -11,17 +11,17 @@ prompt_preview: "---\nname: string-database\ndescription: Query STRING API for p
   \ networks, pe..."
 full_prompt_length: 19042
 tools_mentioned:
-- python
 - GO
 - REST
-- Python
 - go
+- python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/string-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/string-database/SKILL.md
-fetched_at: '2026-02-08T04:31:38.773785+00:00'
+fetched_at: '2026-02-15T04:21:19.517840+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:45:07.150294Z'
@@ -54,5 +54,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.810776Z'
-indexed_at: '2026-02-08T04:36:44.810781Z'
+  fetched_at: '2026-02-15T04:33:50.312970Z'
+indexed_at: '2026-02-15T04:33:50.312976Z'

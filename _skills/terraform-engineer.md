@@ -24,16 +24,16 @@ prompt_preview: '---
 full_prompt_length: 6898
 tools_mentioned:
 - AWS
-- Azure
-- Kubernetes
 - kubernetes
 - GCP
+- Azure
+- Kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/terraform-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/terraform-engineer.md
-fetched_at: '2026-02-14T04:09:44.306435Z'
+fetched_at: '2026-02-15T04:21:28.556815+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:56:47.163664Z'
@@ -62,10 +62,10 @@ evaluation:
   - multi-cloud
   - enterprise
 github_metrics:
-  stars: 10374
-  forks: 1101
-  open_issues: 4
-  last_commit: '2026-02-12'
-  fetched_at: '2026-02-14T04:10:24.197233Z'
-indexed_at: '2026-02-14T04:10:34.865275Z'
+  stars: 10437
+  forks: 1106
+  open_issues: 2
+  last_commit: '2026-02-14'
+  fetched_at: '2026-02-15T04:22:41.501003Z'
+indexed_at: '2026-02-15T04:33:50.547304Z'
 ---

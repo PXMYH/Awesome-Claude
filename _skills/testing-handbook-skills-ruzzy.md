@@ -12,14 +12,14 @@ prompt_preview: "---\nname: ruzzy\ntype: fuzzer\ndescription: >\n  Ruzzy is a co
   **Choose Ruzzy when:**\n- Fuz..."
 full_prompt_length: 11936
 tools_mentioned:
-- ruby
 - Ruby
+- ruby
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/ruzzy/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/ruzzy/SKILL.md
-fetched_at: '2026-02-08T04:32:51.006508+00:00'
+fetched_at: '2026-02-15T04:22:33.399370+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:27:40.403255Z'
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.880296Z'
-indexed_at: '2026-02-08T04:36:45.880302Z'
+  fetched_at: '2026-02-15T04:33:51.547737Z'
+indexed_at: '2026-02-15T04:33:51.547742Z'
 ---

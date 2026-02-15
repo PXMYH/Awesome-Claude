@@ -12,15 +12,15 @@ prompt_preview: "---\nname: pathml\ndescription: Full-featured computational pat
   \ Python toolkit for computat..."
 full_prompt_length: 8186
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pathml/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pathml/SKILL.md
-fetched_at: '2026-02-08T04:31:30.927173+00:00'
+fetched_at: '2026-02-15T04:21:13.624387+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:36:32.649878Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.630040Z'
-indexed_at: '2026-02-08T04:36:44.630045Z'
+  fetched_at: '2026-02-15T04:33:50.129892Z'
+indexed_at: '2026-02-15T04:33:50.129898Z'
 ---

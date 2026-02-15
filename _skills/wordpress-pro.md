@@ -14,15 +14,15 @@ prompt_preview: "---\nname: wordpress-pro\ndescription: Use when developing Word
   \ WordPress security\n  role: expert\n  scop..."
 full_prompt_length: 4122
 tools_mentioned:
-- REST
 - php
 - PHP
+- REST
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/wordpress-pro/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/wordpress-pro/SKILL.md
-fetched_at: '2026-02-08T04:32:26.038668+00:00'
+fetched_at: '2026-02-15T04:22:09.293142+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:02:22.083727Z'
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.584388Z'
-indexed_at: '2026-02-08T04:36:45.584393Z'
+  fetched_at: '2026-02-15T04:33:51.227348Z'
+indexed_at: '2026-02-15T04:33:51.227353Z'
 ---

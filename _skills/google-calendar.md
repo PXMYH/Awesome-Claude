@@ -19,7 +19,7 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/google-calendar/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/google-calendar/SKILL.md
-fetched_at: '2026-02-08T04:32:36.148775+00:00'
+fetched_at: '2026-02-15T04:22:19.570726+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:03:51.507770Z'
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.692325Z'
-indexed_at: '2026-02-08T04:36:45.692331Z'
+  fetched_at: '2026-02-15T04:33:51.341552Z'
+indexed_at: '2026-02-15T04:33:51.341558Z'
 ---

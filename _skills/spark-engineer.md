@@ -20,7 +20,7 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/spark-engineer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/spark-engineer/SKILL.md
-fetched_at: '2026-02-08T04:32:24.232457+00:00'
+fetched_at: '2026-02-15T04:22:07.767349+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:01:42.125974Z'
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.569496Z'
-indexed_at: '2026-02-08T04:36:45.569505Z'
+  fetched_at: '2026-02-15T04:33:51.209561Z'
+indexed_at: '2026-02-15T04:33:51.209567Z'
 ---

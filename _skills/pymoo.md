@@ -12,15 +12,15 @@ prompt_preview: "---\nname: pymoo\ndescription: Multi-objective optimization fra
   \ optimization using sta..."
 full_prompt_length: 17566
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pymoo/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pymoo/SKILL.md
-fetched_at: '2026-02-08T04:31:33.883663+00:00'
+fetched_at: '2026-02-15T04:21:15.885155+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:39:38.098207Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.696938Z'
-indexed_at: '2026-02-08T04:36:44.696944Z'
+  fetched_at: '2026-02-15T04:33:50.199842Z'
+indexed_at: '2026-02-15T04:33:50.199847Z'
 ---

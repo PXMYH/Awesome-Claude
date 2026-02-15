@@ -12,17 +12,17 @@ prompt_preview: "---\nname: gwas-database\ndescription: Query NHGRI-EBI GWAS Cat
   \ Institute (NHGRI) and t..."
 full_prompt_length: 20885
 tools_mentioned:
-- python
-- rest
 - REST
-- Python
+- rest
 - go
+- python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/gwas-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/gwas-database/SKILL.md
-fetched_at: '2026-02-08T04:31:25.029511+00:00'
+fetched_at: '2026-02-15T04:21:09.568860+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:30:37.956555Z'
@@ -56,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.489353Z'
-indexed_at: '2026-02-08T04:36:44.489358Z'
+  fetched_at: '2026-02-15T04:33:50.005745Z'
+indexed_at: '2026-02-15T04:33:50.005751Z'
 ---

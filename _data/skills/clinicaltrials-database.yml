@@ -11,15 +11,15 @@ prompt_preview: "---\nname: clinicaltrials-database\ndescription: Query Clinical
   \ Access API v2 t..."
 full_prompt_length: 15807
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/clinicaltrials-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/clinicaltrials-database/SKILL.md
-fetched_at: '2026-02-08T04:31:19.564534+00:00'
+fetched_at: '2026-02-15T04:21:05.221706+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:24:23.210123Z'
@@ -51,5 +51,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.375372Z'
-indexed_at: '2026-02-08T04:36:44.375378Z'
+  fetched_at: '2026-02-15T04:33:49.872441Z'
+indexed_at: '2026-02-15T04:33:49.872449Z'

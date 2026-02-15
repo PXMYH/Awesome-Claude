@@ -12,8 +12,8 @@ prompt_preview: "---\nname: gtars\ndescription: High-performance toolkit for gen
   \ toolkit for manipulating, analyzin..."
 full_prompt_length: 8625
 tools_mentioned:
-- go
 - python
+- go
 - Python
 - Rust
 category: scientific
@@ -21,7 +21,7 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/gtars/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/gtars/SKILL.md
-fetched_at: '2026-02-08T04:31:24.877291+00:00'
+fetched_at: '2026-02-15T04:21:09.452503+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:30:20.006381Z'
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.485693Z'
-indexed_at: '2026-02-08T04:36:44.485698Z'
+  fetched_at: '2026-02-15T04:33:50.001978Z'
+indexed_at: '2026-02-15T04:33:50.001984Z'
 ---

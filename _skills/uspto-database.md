@@ -12,15 +12,15 @@ prompt_preview: "---\nname: uspto-database\ndescription: Access USPTO APIs for p
   \ office actions..."
 full_prompt_length: 19532
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/uspto-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/uspto-database/SKILL.md
-fetched_at: '2026-02-08T04:31:40.109492+00:00'
+fetched_at: '2026-02-15T04:21:20.492991+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:46:30.088770Z'
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.840910Z'
-indexed_at: '2026-02-08T04:36:44.840915Z'
+  fetched_at: '2026-02-15T04:33:50.343047Z'
+indexed_at: '2026-02-15T04:33:50.343053Z'
 ---

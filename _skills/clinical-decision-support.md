@@ -15,15 +15,15 @@ prompt_preview: '---
   and regulatory compliance. Outputs publication...'
 full_prompt_length: 27313
 tools_mentioned:
-- go
-- GCP
 - python
+- GCP
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/clinical-decision-support/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/clinical-decision-support/SKILL.md
-fetched_at: '2026-02-08T04:31:19.206760+00:00'
+fetched_at: '2026-02-15T04:21:04.967746+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:24:01.806862Z'
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.367633Z'
-indexed_at: '2026-02-08T04:36:44.367638Z'
+  fetched_at: '2026-02-15T04:33:49.859112Z'
+indexed_at: '2026-02-15T04:33:49.859121Z'
 ---

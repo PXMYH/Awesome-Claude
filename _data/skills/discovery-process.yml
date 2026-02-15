@@ -1,0 +1,55 @@
+id: discovery-process
+slug: discovery-process
+name: Discovery Process
+description: Claude skill for Discovery Process
+prompt_preview: '---
+
+  name: discovery-process
+
+  description: Guide product managers through a complete discovery cycle—from initial
+  problem hypothesis to validated solution—by orchestrating problem framing, customer
+  interviews, synthesis, and experimentatio
+
+  type: workflow
+
+  ---
+
+
+
+  ## Purpose
+
+  Guide product managers through a complete discovery cycle—from initial problem hypothesis
+  to validated solution—by orchestrating problem framing, customer interviews, synthesis,
+  and experimentation skills into a structured process...'
+full_prompt_length: 17736
+tools_mentioned:
+- GO
+- go
+- Go
+category: community
+category_display: Community
+source_repo: deanpeters/Product-Manager-Skills
+source_path: skills/discovery-process/SKILL.md
+source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/discovery-process/SKILL.md
+fetched_at: '2026-02-15T04:21:47.673884+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-02-15T04:24:55.000695Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c39f0b90 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c39f0b90 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-02-15T04:33:50.957088Z'
+indexed_at: '2026-02-15T04:33:50.957093Z'

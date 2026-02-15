@@ -15,16 +15,16 @@ prompt_preview: '---
   Pro, Sonar Pro Search (advanced agentic search), and Sonar R...'
 full_prompt_length: 14894
 tools_mentioned:
+- python
 - go
 - PostgreSQL
-- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/perplexity-search/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/perplexity-search/SKILL.md
-fetched_at: '2026-02-08T04:31:31.623093+00:00'
+fetched_at: '2026-02-15T04:21:14.094252+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:37:14.211550Z'
@@ -58,6 +58,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.644738Z'
-indexed_at: '2026-02-08T04:36:44.644743Z'
+  fetched_at: '2026-02-15T04:33:50.146536Z'
+indexed_at: '2026-02-15T04:33:50.146545Z'
 ---

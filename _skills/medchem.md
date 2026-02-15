@@ -12,15 +12,15 @@ prompt_preview: "---\nname: medchem\ndescription: Medicinal chemistry filters. A
   \ structural alerts, and medic..."
 full_prompt_length: 10966
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/medchem/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/medchem/SKILL.md
-fetched_at: '2026-02-08T04:31:28.563154+00:00'
+fetched_at: '2026-02-15T04:21:12.054397+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:33:57.496257Z'
@@ -55,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.567164Z'
-indexed_at: '2026-02-08T04:36:44.567172Z'
+  fetched_at: '2026-02-15T04:33:50.079033Z'
+indexed_at: '2026-02-15T04:33:50.079039Z'
 ---

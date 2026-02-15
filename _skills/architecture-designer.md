@@ -14,16 +14,16 @@ prompt_preview: "---\nname: architecture-designer\ndescription: Use when designi
   \  role: expert\n  scope: d..."
 full_prompt_length: 3119
 tools_mentioned:
+- AWS
 - GCP
 - Kubernetes
 - Azure
-- AWS
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/architecture-designer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/architecture-designer/SKILL.md
-fetched_at: '2026-02-08T04:32:16.544740+00:00'
+fetched_at: '2026-02-15T04:22:01.564638+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:57:12.812383Z'
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.491770Z'
-indexed_at: '2026-02-08T04:36:45.491775Z'
+  fetched_at: '2026-02-15T04:33:51.131374Z'
+indexed_at: '2026-02-15T04:33:51.131380Z'
 ---

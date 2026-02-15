@@ -17,7 +17,7 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/debugging-wizard/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/debugging-wizard/SKILL.md
-fetched_at: '2026-02-08T04:32:18.036148+00:00'
+fetched_at: '2026-02-15T04:22:02.863355+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:57:46.315668Z'
@@ -49,5 +49,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.503151Z'
-indexed_at: '2026-02-08T04:36:45.503157Z'
+  fetched_at: '2026-02-15T04:33:51.142981Z'
+indexed_at: '2026-02-15T04:33:51.142986Z'

@@ -12,15 +12,15 @@ prompt_preview: "---\nname: scholar-evaluation\ndescription: Systematically eval
   \ and research work. This skill p..."
 full_prompt_length: 13077
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scholar-evaluation/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scholar-evaluation/SKILL.md
-fetched_at: '2026-02-08T04:31:36.031313+00:00'
+fetched_at: '2026-02-15T04:21:17.416890+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:42:12.027137Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.746369Z'
-indexed_at: '2026-02-08T04:36:44.746375Z'
+  fetched_at: '2026-02-15T04:33:50.248641Z'
+indexed_at: '2026-02-15T04:33:50.248646Z'
 ---

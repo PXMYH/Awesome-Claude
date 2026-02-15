@@ -20,14 +20,14 @@ prompt_preview: '---
   license...'
 full_prompt_length: 9748
 tools_mentioned:
-- TypeScript
 - typescript
+- TypeScript
 category: community
 category_display: Community
 source_repo: raintree-technology/claude-starter
 source_path: skills/aptos/SKILL.md
 source_url: https://github.com/raintree-technology/claude-starter/blob/main/skills/aptos/SKILL.md
-fetched_at: '2026-02-08T04:32:33.409232+00:00'
+fetched_at: '2026-02-15T04:22:16.783910+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:02:32.722906Z'
@@ -61,6 +61,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.663686Z'
-indexed_at: '2026-02-08T04:36:45.663691Z'
+  fetched_at: '2026-02-15T04:33:51.309840Z'
+indexed_at: '2026-02-15T04:33:51.309846Z'
 ---

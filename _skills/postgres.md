@@ -22,14 +22,14 @@ prompt_preview: '---
   Execute safe, read-only quer...'
 full_prompt_length: 3832
 tools_mentioned:
-- Python
 - PostgreSQL
+- Python
 category: community
 category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/postgres/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/postgres/SKILL.md
-fetched_at: '2026-02-08T04:32:37.646662+00:00'
+fetched_at: '2026-02-15T04:22:20.832939+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:21:50.586542Z'
@@ -63,6 +63,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.728317Z'
-indexed_at: '2026-02-08T04:36:45.728322Z'
+  fetched_at: '2026-02-15T04:33:51.380652Z'
+indexed_at: '2026-02-15T04:33:51.380657Z'
 ---

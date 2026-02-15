@@ -21,7 +21,7 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/react-native-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/react-native-expert/SKILL.md
-fetched_at: '2026-02-08T04:32:23.328403+00:00'
+fetched_at: '2026-02-15T04:22:07.061990+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:00:24.185189Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.550603Z'
-indexed_at: '2026-02-08T04:36:45.550609Z'
+  fetched_at: '2026-02-15T04:33:51.190534Z'
+indexed_at: '2026-02-15T04:33:51.190540Z'
 ---

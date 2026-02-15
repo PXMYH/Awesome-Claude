@@ -15,15 +15,15 @@ prompt_preview: '---
   survival analysis workflow with the scikit-survival library...'
 full_prompt_length: 15781
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scikit-survival/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scikit-survival/SKILL.md
-fetched_at: '2026-02-08T04:31:37.526042+00:00'
+fetched_at: '2026-02-15T04:21:18.549409+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:43:43.992675Z'
@@ -59,6 +59,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.780351Z'
-indexed_at: '2026-02-08T04:36:44.780356Z'
+  fetched_at: '2026-02-15T04:33:50.283022Z'
+indexed_at: '2026-02-15T04:33:50.283028Z'
 ---

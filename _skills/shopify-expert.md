@@ -14,18 +14,18 @@ prompt_preview: "---\nname: shopify-expert\ndescription: Use when building Shopi
   \ development, e-commerce, Po..."
 full_prompt_length: 3950
 tools_mentioned:
-- GraphQL
-- React
-- graphql
-- TypeScript
 - REST
+- TypeScript
+- React
+- GraphQL
+- graphql
 - react
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/shopify-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/shopify-expert/SKILL.md
-fetched_at: '2026-02-08T04:32:24.101964+00:00'
+fetched_at: '2026-02-15T04:22:07.656628+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:01:30.819340Z'
@@ -56,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.565792Z'
-indexed_at: '2026-02-08T04:36:45.565798Z'
+  fetched_at: '2026-02-15T04:33:51.205801Z'
+indexed_at: '2026-02-15T04:33:51.205806Z'
 ---

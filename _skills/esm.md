@@ -15,15 +15,15 @@ prompt_preview: '---
   tasks. Supports both local model usage and cloud-based Forg...'
 full_prompt_length: 11381
 tools_mentioned:
-- go
 - python
+- go
 - AWS
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/esm/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/esm/SKILL.md
-fetched_at: '2026-02-08T04:31:22.534197+00:00'
+fetched_at: '2026-02-15T04:21:07.397999+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:27:47.393404Z'
@@ -58,6 +58,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.435317Z'
-indexed_at: '2026-02-08T04:36:44.435323Z'
+  fetched_at: '2026-02-15T04:33:49.935573Z'
+indexed_at: '2026-02-15T04:33:49.935579Z'
 ---

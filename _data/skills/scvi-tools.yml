@@ -11,15 +11,15 @@ prompt_preview: "---\nname: scvi-tools\ndescription: Deep generative models for 
   \ a comprehensive Python framework f..."
 full_prompt_length: 8054
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scvi-tools/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scvi-tools/SKILL.md
-fetched_at: '2026-02-08T04:31:37.660488+00:00'
+fetched_at: '2026-02-15T04:21:18.663941+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:43:55.000402Z'
@@ -53,5 +53,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.784303Z'
-indexed_at: '2026-02-08T04:36:44.784309Z'
+  fetched_at: '2026-02-15T04:33:50.286910Z'
+indexed_at: '2026-02-15T04:33:50.286916Z'

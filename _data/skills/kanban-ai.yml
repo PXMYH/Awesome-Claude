@@ -1,0 +1,52 @@
+id: kanban-ai
+slug: kanban-ai
+name: Kanban AI Skill
+description: '**Note:** `<SCRIPTS_DIR>` refers to the `scripts/` directory next to
+  this SKILL.md file. All scripts take the kanban directory as the first argument.
+  If omitted, they default to the current directory.'
+prompt_preview: '---
+
+  name: kanban-ai
+
+  description: Manage a Markdown-based Kanban board using card files in a kanban/
+  directory (including kanban/archived/ for completed cards). Use when the user asks
+  to create, move, view, list, or manage tasks or cards on a kanban board, or when
+  tracking work items across statuses like backlog, todo, doing, done, or archive.
+
+  ---
+
+
+  # Kanban AI Skill
+
+
+  Manage a Kanban board as Markdown files in the `kanban/` directory. Each file is
+  a card. The board state is derived by reading all...'
+full_prompt_length: 4706
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: mattjoyce/kanban-skill
+source_path: skills/kanban-ai/SKILL.md
+source_url: https://github.com/mattjoyce/kanban-skill/blob/master/skills/kanban-ai/SKILL.md
+fetched_at: '2026-02-15T04:22:10.915817+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-02-15T04:29:42.618981Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3a3ce00 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3a3ce00 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-02-15T04:33:51.234808Z'
+indexed_at: '2026-02-15T04:33:51.234814Z'

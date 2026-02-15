@@ -28,14 +28,14 @@ prompt_preview: '---
   time to refine the idea. Once you u...'
 full_prompt_length: 4676
 tools_mentioned:
-- Go
 - go
+- Go
 category: community
-category_display: Community Skills
+category_display: Community
 source_repo: obra/superpowers
 source_path: skills/brainstorming/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md
-fetched_at: '2026-02-14T04:10:17.620578Z'
+fetched_at: '2026-02-15T04:22:11.672904+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:17:11.306591Z'
@@ -63,10 +63,10 @@ evaluation:
   - development
   - specification
 github_metrics:
-  stars: 51148
-  forks: 3860
-  open_issues: 127
+  stars: 51666
+  forks: 3903
+  open_issues: 133
   last_commit: '2026-02-12'
-  fetched_at: '2026-02-14T04:10:25.534860Z'
-indexed_at: '2026-02-14T04:10:35.231912Z'
+  fetched_at: '2026-02-15T04:22:42.310166Z'
+indexed_at: '2026-02-15T04:33:51.237671Z'
 ---

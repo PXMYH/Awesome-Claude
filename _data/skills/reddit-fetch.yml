@@ -37,7 +37,7 @@ category_display: Community
 source_repo: ykdojo/claude-code-tips
 source_path: skills/reddit-fetch/SKILL.md
 source_url: https://github.com/ykdojo/claude-code-tips/blob/main/skills/reddit-fetch/SKILL.md
-fetched_at: '2026-02-08T04:32:55.638368+00:00'
+fetched_at: '2026-02-15T04:22:37.761215+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:29:29.010385Z'
@@ -71,5 +71,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.920302Z'
-indexed_at: '2026-02-08T04:36:45.920311Z'
+  fetched_at: '2026-02-15T04:33:51.588130Z'
+indexed_at: '2026-02-15T04:33:51.588135Z'

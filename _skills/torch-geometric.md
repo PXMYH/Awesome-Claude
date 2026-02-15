@@ -12,14 +12,14 @@ prompt_preview: "---\nname: torch-geometric\ndescription: Graph Neural Networks 
   \ on graphs and irregular structures, i..."
 full_prompt_length: 21187
 tools_mentioned:
-- go
 - python
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/torch_geometric/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/torch_geometric/SKILL.md
-fetched_at: '2026-02-08T04:31:39.141917+00:00'
+fetched_at: '2026-02-15T04:21:19.775801+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:45:27.107797Z'
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.818315Z'
-indexed_at: '2026-02-08T04:36:44.818320Z'
+  fetched_at: '2026-02-15T04:33:50.320601Z'
+indexed_at: '2026-02-15T04:33:50.320606Z'
 ---

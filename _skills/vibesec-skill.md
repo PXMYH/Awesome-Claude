@@ -6,7 +6,7 @@ description: When unsure, choose the more restrictive/secure option and document
   security consideration in comments.
 prompt_preview: '---
 
-  name: Vibe Security Skill
+  name: Vibe-Security-Skill
 
   description: This skill helps Claude write secure web applications. Use when working
   on any web application to ensure security best practices are followed.
@@ -29,31 +29,31 @@ prompt_preview: '---
 full_prompt_length: 24704
 tools_mentioned:
 - javascript
-- java
-- GraphQL
-- python
-- GCP
-- React
+- WebSocket
 - Node.js
-- Java
-- php
 - AWS
+- GCP
+- Vue
+- React
+- GraphQL
+- PHP
+- JavaScript
 category: community
 category_display: Community
 source_repo: BehiSecc/VibeSec-Skill
 source_path: SKILL.md
 source_url: https://github.com/BehiSecc/VibeSec-Skill/blob/main/SKILL.md
-fetched_at: '2026-02-08T04:31:15.878856+00:00'
+fetched_at: '2026-02-15T04:21:02.256890+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-08T04:33:09.017905Z'
+  evaluated_at: '2026-02-15T04:22:50.781664Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1fc5c1f200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c41ef3e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1fc5c1f200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c41ef3e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -63,6 +63,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.307128Z'
-indexed_at: '2026-02-08T04:36:44.307134Z'
+  fetched_at: '2026-02-15T04:33:49.783079Z'
+indexed_at: '2026-02-15T04:33:49.783093Z'
 ---

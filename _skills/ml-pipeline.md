@@ -14,17 +14,17 @@ prompt_preview: "---\nname: ml-pipeline\ndescription: Use when building ML pipel
   \ registry, training workflow, MLOp..."
 full_prompt_length: 4893
 tools_mentioned:
-- python
 - kubernetes
 - Docker
-- Kubernetes
 - Azure
+- python
+- Kubernetes
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/ml-pipeline/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/ml-pipeline/SKILL.md
-fetched_at: '2026-02-08T04:32:21.243701+00:00'
+fetched_at: '2026-02-15T04:22:05.519172+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:58:49.409999Z'
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.524503Z'
-indexed_at: '2026-02-08T04:36:45.524509Z'
+  fetched_at: '2026-02-15T04:33:51.164492Z'
+indexed_at: '2026-02-15T04:33:51.164497Z'
 ---

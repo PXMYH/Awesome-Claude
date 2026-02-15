@@ -1,0 +1,45 @@
+---
+id: gh-cli-using-gh-cli
+slug: gh-cli-using-gh-cli
+name: Using the GitHub CLI (`gh`)
+description: '- [Pull Requests](references/pull-requests.md) — list, view, create,
+  merge, review PRs'
+prompt_preview: "---\nname: using-gh-cli\ndescription: \"Guides usage of the GitHub\
+  \ CLI (gh) for interacting with GitHub repositories, PRs, issues, and API. Use when\
+  \ working with GitHub resources instead of WebFetch or curl.\"\nallowed-tools:\n\
+  \  - Bash\n  - Read\n  - Glob\n  - Grep\n---\n\n# Using the GitHub CLI (`gh`)\n\n\
+  ## When to Use\n\n- **Browsing or reading code** from a GitHub repository — clone\
+  \ it and use Read/Glob/Grep\n- Viewing or creating pull requests, issues, releases,\
+  \ or gists\n- Fetching repo metadata or any GitHu..."
+full_prompt_length: 3972
+tools_mentioned:
+- GraphQL
+- REST
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/gh-cli/skills/using-gh-cli/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/gh-cli/skills/using-gh-cli/SKILL.md
+fetched_at: '2026-02-15T04:22:28.402015+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-02-15T04:32:27.403437Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c38ae810 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c38ae810 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-02-15T04:33:51.458488Z'
+indexed_at: '2026-02-15T04:33:51.458493Z'
+---

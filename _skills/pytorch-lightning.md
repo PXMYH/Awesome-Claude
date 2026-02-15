@@ -12,15 +12,15 @@ prompt_preview: "---\nname: pytorch-lightning\ndescription: Deep learning framew
   \ that organizes PyTorch code..."
 full_prompt_length: 7494
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pytorch-lightning/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pytorch-lightning/SKILL.md
-fetched_at: '2026-02-08T04:31:34.525030+00:00'
+fetched_at: '2026-02-15T04:21:16.354936+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:40:22.302173Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.712017Z'
-indexed_at: '2026-02-08T04:36:44.712023Z'
+  fetched_at: '2026-02-15T04:33:50.214532Z'
+indexed_at: '2026-02-15T04:33:50.214538Z'
 ---

@@ -26,11 +26,11 @@ prompt_preview: '---
 full_prompt_length: 3124
 tools_mentioned: []
 category: official
-category_display: Official Anthropic Skills
+category_display: Official
 source_repo: anthropics/skills
 source_path: skills/theme-factory/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/theme-factory/SKILL.md
-fetched_at: '2026-02-14T04:10:15.276552Z'
+fetched_at: '2026-02-15T04:21:42.979217+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:15:12.570966Z'
@@ -60,10 +60,10 @@ evaluation:
   - presentation
   - customization
 github_metrics:
-  stars: 69457
-  forks: 7009
-  open_issues: 271
+  stars: 69911
+  forks: 7074
+  open_issues: 281
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-14T04:10:24.914857Z'
-indexed_at: '2026-02-14T04:10:35.216708Z'
+  fetched_at: '2026-02-15T04:22:41.940109Z'
+indexed_at: '2026-02-15T04:33:50.899537Z'
 ---

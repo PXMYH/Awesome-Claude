@@ -12,17 +12,17 @@ prompt_preview: "---\nname: bioservices\ndescription: Unified Python interface t
   \ is a Python package providing prog..."
 full_prompt_length: 10750
 tools_mentioned:
-- python
 - GO
-- Python
 - REST
 - go
+- python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/bioservices/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/bioservices/SKILL.md
-fetched_at: '2026-02-08T04:31:18.131539+00:00'
+fetched_at: '2026-02-15T04:21:04.153153+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:22:54.561556Z'
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.344410Z'
-indexed_at: '2026-02-08T04:36:44.344415Z'
+  fetched_at: '2026-02-15T04:33:49.821778Z'
+indexed_at: '2026-02-15T04:33:49.821784Z'
 ---

@@ -15,15 +15,15 @@ prompt_preview: '---
   Zarr), GPU acceleration (PyTorch, JAX), or memory-effic...'
 full_prompt_length: 10648
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/get-available-resources/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/get-available-resources/SKILL.md
-fetched_at: '2026-02-08T04:31:24.557836+00:00'
+fetched_at: '2026-02-15T04:21:09.188826+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:29:53.399703Z'
@@ -56,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.478440Z'
-indexed_at: '2026-02-08T04:36:44.478445Z'
+  fetched_at: '2026-02-15T04:33:49.994393Z'
+indexed_at: '2026-02-15T04:33:49.994399Z'
 ---

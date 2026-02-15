@@ -17,14 +17,14 @@ prompt_preview: '---
   license: MIT...'
 full_prompt_length: 12271
 tools_mentioned:
-- go
 - python
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/neuropixels-analysis/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/neuropixels-analysis/SKILL.md
-fetched_at: '2026-02-08T04:31:29.712555+00:00'
+fetched_at: '2026-02-15T04:21:12.763928+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:35:18.684888Z'
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.604509Z'
-indexed_at: '2026-02-08T04:36:44.604514Z'
+  fetched_at: '2026-02-15T04:33:50.102999Z'
+indexed_at: '2026-02-15T04:33:50.103006Z'
 ---

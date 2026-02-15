@@ -21,7 +21,7 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/react-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/react-expert/SKILL.md
-fetched_at: '2026-02-08T04:32:23.169049+00:00'
+fetched_at: '2026-02-15T04:22:06.949113+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:00:14.601767Z'
@@ -53,5 +53,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.546777Z'
-indexed_at: '2026-02-08T04:36:45.546782Z'
+  fetched_at: '2026-02-15T04:33:51.186820Z'
+indexed_at: '2026-02-15T04:33:51.186826Z'

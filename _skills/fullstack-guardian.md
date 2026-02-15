@@ -12,9 +12,9 @@ prompt_preview: "---\nname: fullstack-guardian\ndescription: Use when implementi
   \ microservices, websocket, real..."
 full_prompt_length: 3785
 tools_mentioned:
-- GraphQL
-- Docker
 - REST
+- Docker
+- GraphQL
 - go
 - websocket
 category: community
@@ -22,7 +22,7 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/fullstack-guardian/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/fullstack-guardian/SKILL.md
-fetched_at: '2026-02-08T04:32:19.443129+00:00'
+fetched_at: '2026-02-15T04:22:03.937305+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:58:38.870100Z'
@@ -56,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.520730Z'
-indexed_at: '2026-02-08T04:36:45.520736Z'
+  fetched_at: '2026-02-15T04:33:51.160630Z'
+indexed_at: '2026-02-15T04:33:51.160636Z'
 ---

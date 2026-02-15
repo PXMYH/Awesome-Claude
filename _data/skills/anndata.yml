@@ -11,15 +11,15 @@ prompt_preview: "---\nname: anndata\ndescription: Data structure for annotated m
   \ handling annotated data matrices, storin..."
 full_prompt_length: 11029
 tools_mentioned:
-- go
 - python
+- go
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/anndata/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/anndata/SKILL.md
-fetched_at: '2026-02-08T04:31:17.156731+00:00'
+fetched_at: '2026-02-15T04:21:03.455731+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:21:28.369260Z'
@@ -50,5 +50,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:44.321449Z'
-indexed_at: '2026-02-08T04:36:44.321454Z'
+  fetched_at: '2026-02-15T04:33:49.798265Z'
+indexed_at: '2026-02-15T04:33:49.798271Z'

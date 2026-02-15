@@ -11,18 +11,18 @@ prompt_preview: "---\nname: sarif-parsing\ndescription: Parse, analyze, and proc
   \ read, analyze, and process SA..."
 full_prompt_length: 15043
 tools_mentioned:
-- python
 - Node.js
-- Go
-- Python
-- JavaScript
 - go
+- JavaScript
+- Go
+- python
+- Python
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/static-analysis/skills/sarif-parsing/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/sarif-parsing/SKILL.md
-fetched_at: '2026-02-08T04:32:47.424166+00:00'
+fetched_at: '2026-02-15T04:22:31.552628+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:24:40.340406Z'
@@ -55,5 +55,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.828448Z'
-indexed_at: '2026-02-08T04:36:45.828453Z'
+  fetched_at: '2026-02-15T04:33:51.495707Z'
+indexed_at: '2026-02-15T04:33:51.495718Z'

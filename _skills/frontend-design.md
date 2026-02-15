@@ -21,14 +21,14 @@ prompt_preview: '---
   This skill guides...'
 full_prompt_length: 4440
 tools_mentioned:
-- React
 - Vue
+- React
 category: official
-category_display: Official Anthropic Skills
+category_display: Official
 source_repo: anthropics/skills
 source_path: skills/frontend-design/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md
-fetched_at: '2026-02-14T04:10:11.483459Z'
+fetched_at: '2026-02-15T04:21:42.195609+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:13:52.605378Z'
@@ -55,10 +55,10 @@ evaluation:
   - web development
   - UI/UX
 github_metrics:
-  stars: 69457
-  forks: 7009
-  open_issues: 271
+  stars: 69911
+  forks: 7074
+  open_issues: 281
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-14T04:10:24.914857Z'
-indexed_at: '2026-02-14T04:10:35.190256Z'
+  fetched_at: '2026-02-15T04:22:41.940109Z'
+indexed_at: '2026-02-15T04:33:50.873083Z'
 ---

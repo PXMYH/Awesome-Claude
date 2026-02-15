@@ -17,7 +17,7 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/feature-forge/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/feature-forge/SKILL.md
-fetched_at: '2026-02-08T04:32:18.995549+00:00'
+fetched_at: '2026-02-15T04:22:03.574808+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:58:15.358808Z'
@@ -49,5 +49,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.513348Z'
-indexed_at: '2026-02-08T04:36:45.513353Z'
+  fetched_at: '2026-02-15T04:33:51.153188Z'
+indexed_at: '2026-02-15T04:33:51.153194Z'

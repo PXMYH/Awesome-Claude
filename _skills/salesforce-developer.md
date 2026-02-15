@@ -21,7 +21,7 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/salesforce-developer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/salesforce-developer/SKILL.md
-fetched_at: '2026-02-08T04:32:23.633025+00:00'
+fetched_at: '2026-02-15T04:22:07.291843+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:00:33.657423Z'
@@ -56,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-08T04:36:45.554400Z'
-indexed_at: '2026-02-08T04:36:45.554405Z'
+  fetched_at: '2026-02-15T04:33:51.194337Z'
+indexed_at: '2026-02-15T04:33:51.194343Z'
 ---
