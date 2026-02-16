@@ -22,22 +22,22 @@ prompt_preview: '---
   You are a senior WordPre...'
 full_prompt_length: 7559
 tools_mentioned:
-- MySQL
-- Javascript
-- REST
-- Vue
 - Docker
+- REST
 - React
-- GraphQL
-- PHP
-- Redis
 - Kubernetes
-category: business-product
-category_display: Business Product
+- GraphQL
+- MySQL
+- Redis
+- Vue
+- PHP
+- Javascript
+category: 08-business-product
+category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/wordpress-master.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/wordpress-master.md
-fetched_at: '2026-02-15T04:21:37.598576+00:00'
+fetched_at: '2026-02-16T04:25:23.694742Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:09:37.022495Z'
@@ -66,9 +66,9 @@ evaluation:
   - Performance Optimization
   - Security
 github_metrics:
-  stars: 10437
-  forks: 1106
+  stars: 10503
+  forks: 1111
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-15T04:22:41.501003Z'
-indexed_at: '2026-02-15T04:33:50.786032Z'
+  fetched_at: '2026-02-16T04:25:43.240264Z'
+indexed_at: '2026-02-16T04:26:01.875861Z'

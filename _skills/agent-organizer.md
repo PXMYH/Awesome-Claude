@@ -23,12 +23,12 @@ prompt_preview: '---
   and team optimization with emphasis on selecting the r...'
 full_prompt_length: 6942
 tools_mentioned: []
-category: meta-orchestration
-category_display: Meta Orchestration
+category: 09-meta-orchestration
+category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/agent-organizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/agent-organizer.md
-fetched_at: '2026-02-15T04:21:38.003956+00:00'
+fetched_at: '2026-02-16T04:25:24.410263Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:09:57.188652Z'
@@ -57,10 +57,10 @@ evaluation:
   - task-decomposition
   - team-assembly
 github_metrics:
-  stars: 10437
-  forks: 1106
+  stars: 10503
+  forks: 1111
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-15T04:22:41.501003Z'
-indexed_at: '2026-02-15T04:33:50.793657Z'
+  fetched_at: '2026-02-16T04:25:43.240264Z'
+indexed_at: '2026-02-16T04:26:01.883595Z'
 ---

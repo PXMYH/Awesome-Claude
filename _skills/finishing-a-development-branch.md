@@ -30,13 +30,14 @@ prompt_preview: '---
   **Announce at st...'
 full_prompt_length: 4230
 tools_mentioned:
+- pytest
 - go
 category: community
-category_display: Community
+category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/finishing-a-development-branch/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/finishing-a-development-branch/SKILL.md
-fetched_at: '2026-02-15T04:22:12.019558+00:00'
+fetched_at: '2026-02-16T04:25:37.647859Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:17:41.659445Z'
@@ -64,10 +65,10 @@ evaluation:
   - testing
   - PR creation
 github_metrics:
-  stars: 51666
-  forks: 3903
-  open_issues: 133
+  stars: 52327
+  forks: 3957
+  open_issues: 140
   last_commit: '2026-02-12'
-  fetched_at: '2026-02-15T04:22:42.310166Z'
-indexed_at: '2026-02-15T04:33:51.248522Z'
+  fetched_at: '2026-02-16T04:25:44.351438Z'
+indexed_at: '2026-02-16T04:26:02.012948Z'
 ---

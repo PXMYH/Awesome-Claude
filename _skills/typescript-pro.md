@@ -23,22 +23,22 @@ prompt_preview: '---
   build tooling. Your expertise spans frontend fra...'
 full_prompt_length: 7381
 tools_mentioned:
-- javascript
-- WebSocket
-- Node.js
-- TypeScript
-- rust
-- Vue
 - React
-- GraphQL
+- Angular
+- javascript
 - JavaScript
+- Node.js
+- rust
 - typescript
+- GraphQL
+- TypeScript
+- WebSocket
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/typescript-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/typescript-pro.md
-fetched_at: '2026-02-15T04:21:26.439086+00:00'
+fetched_at: '2026-02-16T04:25:03.100707Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:54:04.362599Z'
@@ -69,10 +69,10 @@ evaluation:
   - Build Optimization
   - Developer Experience
 github_metrics:
-  stars: 10437
-  forks: 1106
+  stars: 10503
+  forks: 1111
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-15T04:22:41.501003Z'
-indexed_at: '2026-02-15T04:33:50.491862Z'
+  fetched_at: '2026-02-16T04:25:43.240264Z'
+indexed_at: '2026-02-16T04:26:01.577251Z'
 ---

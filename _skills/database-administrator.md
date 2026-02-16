@@ -24,16 +24,16 @@ prompt_preview: '---
 full_prompt_length: 7333
 tools_mentioned:
 - MySQL
-- MongoDB
-- rest
-- PostgreSQL
 - Redis
+- rest
+- MongoDB
+- PostgreSQL
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/database-administrator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/database-administrator.md
-fetched_at: '2026-02-15T04:21:27.096162+00:00'
+fetched_at: '2026-02-16T04:25:04.371771Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:54:49.645780Z'
@@ -62,10 +62,10 @@ evaluation:
   - high-availability
   - performance-optimization
 github_metrics:
-  stars: 10437
-  forks: 1106
+  stars: 10503
+  forks: 1111
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-15T04:22:41.501003Z'
-indexed_at: '2026-02-15T04:33:50.507143Z'
+  fetched_at: '2026-02-16T04:25:43.240264Z'
+indexed_at: '2026-02-16T04:26:01.592444Z'
 ---
