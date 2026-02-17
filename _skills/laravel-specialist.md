@@ -23,15 +23,15 @@ prompt_preview: '---
   ecosystem, and enterprise features with emphasis on...'
 full_prompt_length: 6172
 tools_mentioned:
-- php
-- redis
 - PHP
+- redis
+- php
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/laravel-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/laravel-specialist.md
-fetched_at: '2026-02-16T04:25:00.153890Z'
+fetched_at: '2026-02-17T04:19:52.460861Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:51:55.144644Z'
@@ -58,10 +58,10 @@ evaluation:
   - API Design
   - Enterprise Architecture
 github_metrics:
-  stars: 10503
-  forks: 1111
+  stars: 10561
+  forks: 1120
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-16T04:25:43.240264Z'
-indexed_at: '2026-02-16T04:26:01.531284Z'
+  fetched_at: '2026-02-17T04:20:20.236835Z'
+indexed_at: '2026-02-17T04:20:37.736916Z'
 ---

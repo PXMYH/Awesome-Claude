@@ -15,14 +15,14 @@ prompt_preview: '---
   with templates, layouts, speaker notes, or comments. Trigger whenever th...'
 full_prompt_length: 9128
 tools_mentioned:
-- python
 - rest
+- python
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/pptx/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/pptx/SKILL.md
-fetched_at: '2026-02-16T04:25:32.731109Z'
+fetched_at: '2026-02-17T04:20:13.942084Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:14:39.890747Z'
@@ -51,10 +51,10 @@ evaluation:
   - presentation
   - document-processing
 github_metrics:
-  stars: 70328
-  forks: 7139
-  open_issues: 284
+  stars: 70711
+  forks: 7197
+  open_issues: 288
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-16T04:25:43.846300Z'
-indexed_at: '2026-02-16T04:26:01.975433Z'
+  fetched_at: '2026-02-17T04:20:20.603230Z'
+indexed_at: '2026-02-17T04:20:38.161306Z'
 ---

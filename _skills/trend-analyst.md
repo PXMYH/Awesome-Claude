@@ -27,7 +27,7 @@ category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/trend-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/trend-analyst.md
-fetched_at: '2026-02-16T04:25:27.979581Z'
+fetched_at: '2026-02-17T04:20:11.068114Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:12:34.648650Z'
@@ -56,10 +56,10 @@ evaluation:
   - scenario planning
   - research methodology
 github_metrics:
-  stars: 10503
-  forks: 1111
+  stars: 10561
+  forks: 1120
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-16T04:25:43.240264Z'
-indexed_at: '2026-02-16T04:26:01.937309Z'
+  fetched_at: '2026-02-17T04:20:20.236835Z'
+indexed_at: '2026-02-17T04:20:38.125243Z'
 ---

@@ -28,7 +28,7 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/blockchain-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/blockchain-developer.md
-fetched_at: '2026-02-16T04:25:18.001721Z'
+fetched_at: '2026-02-17T04:20:04.636481Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:05:31.470551Z'
@@ -55,10 +55,10 @@ evaluation:
   - defi
   - solidity
 github_metrics:
-  stars: 10503
-  forks: 1111
+  stars: 10561
+  forks: 1120
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-16T04:25:43.240264Z'
-indexed_at: '2026-02-16T04:26:01.795839Z'
+  fetched_at: '2026-02-17T04:20:20.236835Z'
+indexed_at: '2026-02-17T04:20:37.989619Z'
 ---

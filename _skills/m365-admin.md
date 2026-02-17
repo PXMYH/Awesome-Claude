@@ -29,7 +29,7 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/m365-admin.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/m365-admin.md
-fetched_at: '2026-02-16T04:25:19.576083Z'
+fetched_at: '2026-02-17T04:20:05.424776Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:06:24.144579Z'
@@ -61,10 +61,10 @@ evaluation:
   - automation
   - licensing
 github_metrics:
-  stars: 10503
-  forks: 1111
+  stars: 10561
+  forks: 1120
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-16T04:25:43.240264Z'
-indexed_at: '2026-02-16T04:26:01.815312Z'
+  fetched_at: '2026-02-17T04:20:20.236835Z'
+indexed_at: '2026-02-17T04:20:38.008083Z'
 ---

@@ -23,18 +23,18 @@ prompt_preview: '---
   Spring Boot, microservices architecture, and reactive pro...'
 full_prompt_length: 7653
 tools_mentioned:
-- REST
 - Kubernetes
 - java
-- rest
+- REST
 - Java
 - JUnit
+- rest
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/java-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/java-architect.md
-fetched_at: '2026-02-16T04:24:59.470371Z'
+fetched_at: '2026-02-17T04:19:51.994013Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:51:20.389279Z'
@@ -63,10 +63,10 @@ evaluation:
   - clean-architecture
   - cloud-native
 github_metrics:
-  stars: 10503
-  forks: 1111
+  stars: 10561
+  forks: 1120
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-16T04:25:43.240264Z'
-indexed_at: '2026-02-16T04:26:01.520243Z'
+  fetched_at: '2026-02-17T04:20:20.236835Z'
+indexed_at: '2026-02-17T04:20:37.726094Z'
 ---

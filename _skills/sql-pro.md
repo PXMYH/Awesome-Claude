@@ -23,17 +23,17 @@ prompt_preview: '---
   MySQL, SQL Server, Oracle), specializing in complex query d...'
 full_prompt_length: 7410
 tools_mentioned:
-- python
-- MySQL
 - java
-- rest
+- MySQL
+- python
 - PostgreSQL
+- rest
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/sql-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/sql-pro.md
-fetched_at: '2026-02-16T04:25:02.651763Z'
+fetched_at: '2026-02-17T04:19:54.061785Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:53:35.767170Z'
@@ -67,10 +67,10 @@ evaluation:
   - SQL Server
   - Oracle
 github_metrics:
-  stars: 10503
-  forks: 1111
+  stars: 10561
+  forks: 1120
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-16T04:25:43.240264Z'
-indexed_at: '2026-02-16T04:26:01.569433Z'
+  fetched_at: '2026-02-17T04:20:20.236835Z'
+indexed_at: '2026-02-17T04:20:37.773664Z'
 ---

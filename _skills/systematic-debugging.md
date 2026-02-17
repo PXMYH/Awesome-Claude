@@ -42,7 +42,7 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/systematic-debugging/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/systematic-debugging/SKILL.md
-fetched_at: '2026-02-16T04:25:39.610478Z'
+fetched_at: '2026-02-17T04:20:17.995247Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:18:38.329882Z'
@@ -72,10 +72,10 @@ evaluation:
   - best-practices
   - developer-tools
 github_metrics:
-  stars: 52327
-  forks: 3957
-  open_issues: 140
+  stars: 52943
+  forks: 4016
+  open_issues: 145
   last_commit: '2026-02-12'
-  fetched_at: '2026-02-16T04:25:44.351438Z'
-indexed_at: '2026-02-16T04:26:02.027855Z'
+  fetched_at: '2026-02-17T04:20:20.906871Z'
+indexed_at: '2026-02-17T04:20:38.212992Z'
 ---

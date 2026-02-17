@@ -23,16 +23,16 @@ prompt_preview: '---
   and cross-pl...'
 full_prompt_length: 6438
 tools_mentioned:
-- Docker
 - Kubernetes
 - GraphQL
+- Docker
 - gRPC
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/dotnet-core-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/dotnet-core-expert.md
-fetched_at: '2026-02-16T04:24:58.291329Z'
+fetched_at: '2026-02-17T04:19:51.195273Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:50:23.726214Z'
@@ -59,10 +59,10 @@ evaluation:
   - cloud-native
   - performance
 github_metrics:
-  stars: 10503
-  forks: 1111
+  stars: 10561
+  forks: 1120
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-16T04:25:43.240264Z'
-indexed_at: '2026-02-16T04:26:01.500895Z'
+  fetched_at: '2026-02-17T04:20:20.236835Z'
+indexed_at: '2026-02-17T04:20:37.707283Z'
 ---

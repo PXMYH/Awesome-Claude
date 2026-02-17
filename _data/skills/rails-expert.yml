@@ -22,20 +22,20 @@ prompt_preview: '---
   and rapid development with emphasis on b...'
 full_prompt_length: 6327
 tools_mentioned:
-- Docker
-- Kubernetes
-- GraphQL
-- Redis
-- ruby
 - redis
 - WebSocket
+- Kubernetes
+- Redis
 - Ruby
+- ruby
+- Docker
+- GraphQL
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/rails-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/rails-expert.md
-fetched_at: '2026-02-16T04:25:01.617668Z'
+fetched_at: '2026-02-17T04:19:53.435503Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:52:53.236069Z'
@@ -64,9 +64,9 @@ evaluation:
   - Testing
   - Architecture
 github_metrics:
-  stars: 10503
-  forks: 1111
+  stars: 10561
+  forks: 1120
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-16T04:25:43.240264Z'
-indexed_at: '2026-02-16T04:26:01.554159Z'
+  fetched_at: '2026-02-17T04:20:20.236835Z'
+indexed_at: '2026-02-17T04:20:37.758816Z'

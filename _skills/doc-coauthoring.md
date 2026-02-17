@@ -26,7 +26,7 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/doc-coauthoring/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/doc-coauthoring/SKILL.md
-fetched_at: '2026-02-16T04:25:30.029071Z'
+fetched_at: '2026-02-17T04:20:12.326650Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T01:13:30.876236Z'
@@ -56,10 +56,10 @@ evaluation:
   - structured-writing
   - context-gathering
 github_metrics:
-  stars: 70328
-  forks: 7139
-  open_issues: 284
+  stars: 70711
+  forks: 7197
+  open_issues: 288
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-16T04:25:43.846300Z'
-indexed_at: '2026-02-16T04:26:01.952646Z'
+  fetched_at: '2026-02-17T04:20:20.603230Z'
+indexed_at: '2026-02-17T04:20:38.139924Z'
 ---

@@ -23,18 +23,18 @@ prompt_preview: '---
   delive...'
 full_prompt_length: 6948
 tools_mentioned:
-- Docker
 - kubernetes
-- GCP
 - Kubernetes
 - Azure
+- GCP
 - AWS
+- Docker
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/devops-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/devops-engineer.md
-fetched_at: '2026-02-16T04:25:04.860619Z'
+fetched_at: '2026-02-17T04:19:55.480618Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-19T00:55:12.031201Z'
@@ -62,10 +62,10 @@ evaluation:
   - CI/CD
   - Maturity Assessment
 github_metrics:
-  stars: 10503
-  forks: 1111
+  stars: 10561
+  forks: 1120
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-16T04:25:43.240264Z'
-indexed_at: '2026-02-16T04:26:01.599781Z'
+  fetched_at: '2026-02-17T04:20:20.236835Z'
+indexed_at: '2026-02-17T04:20:37.803306Z'
 ---
