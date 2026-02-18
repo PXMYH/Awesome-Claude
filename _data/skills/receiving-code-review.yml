@@ -31,37 +31,25 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/receiving-code-review/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/receiving-code-review/SKILL.md
-fetched_at: '2026-02-17T04:20:17.178051Z'
+fetched_at: '2026-02-18T04:22:00.782264Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:17:51.270571Z'
+  evaluated_at: '2026-02-18T04:43:17.249225Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured with explicit
-      patterns, forbidden responses, and concrete examples. It handles edge cases
-      like unclear feedback and external reviewers comprehensively. The only minor
-      issue is the incomplete example at the end ('❌ "You're absolutely r'), which
-      slightly reduces clarity.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f20980 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This provides immense practical value for developers receiving code
-      reviews, addressing common pitfalls like performative agreement and blind implementation.
-      It offers actionable frameworks for verification, pushback, and handling unclear
-      feedback that directly improve code quality and team communication.
-  overall_rating: 4.75
-  summary: An outstanding, highly practical prompt that transforms code review reception
-    from a social performance into a rigorous technical process, with exceptional
-    clarity and comprehensive coverage of real-world scenarios.
-  tags_suggested:
-  - code-review
-  - technical-rigor
-  - developer-workflow
-  - communication
-  - verification
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f20980 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 52943
-  forks: 4016
-  open_issues: 145
-  last_commit: '2026-02-12'
-  fetched_at: '2026-02-17T04:20:20.906871Z'
-indexed_at: '2026-02-17T04:20:38.201145Z'
+  stars: 53704
+  forks: 4075
+  open_issues: 151
+  last_commit: '2026-02-17'
+  fetched_at: '2026-02-18T04:22:06.119879Z'
+indexed_at: '2026-02-18T04:44:33.276578Z'

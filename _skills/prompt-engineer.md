@@ -29,40 +29,26 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/prompt-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/prompt-engineer.md
-fetched_at: '2026-02-17T04:20:01.833843Z'
+fetched_at: '2026-02-18T04:21:40.325876Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:02:21.788650Z'
+  evaluated_at: '2026-02-18T04:32:57.782759Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt demonstrates strong clarity and specificity with well-structured
-      sections covering prompt architecture, patterns, optimization, and evaluation
-      frameworks. It follows best practices by including systematic checklists and
-      workflows. However, the implementation phase is incomplete (ends abruptly with
-      'Implementation'), which reduces completeness and could cause confusion in execution.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1dd30 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This prompt provides substantial real-world value for prompt engineering
-      tasks, offering comprehensive frameworks for optimization, testing, and production
-      deployment. The structured approach with specific metrics and checklists makes
-      it highly actionable for developers. The incomplete implementation section slightly
-      reduces practical utility, but the overall framework remains robust for professional
-      prompt engineering workflows.
-  overall_rating: 4.25
-  summary: A well-structured prompt engineering skill with strong frameworks and best
-    practices, though incomplete in the implementation phase, making it highly useful
-    for systematic prompt development with minor execution gaps.
-  tags_suggested:
-  - prompt-engineering
-  - llm-optimization
-  - production-systems
-  - evaluation-frameworks
-  - ai-development
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1dd30 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.935606Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.072624Z'
 ---

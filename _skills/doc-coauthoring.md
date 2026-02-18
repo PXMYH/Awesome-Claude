@@ -26,40 +26,26 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/doc-coauthoring/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/doc-coauthoring/SKILL.md
-fetched_at: '2026-02-17T04:20:12.326650Z'
+fetched_at: '2026-02-18T04:21:54.113823Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:13:30.876236Z'
+  evaluated_at: '2026-02-18T04:40:52.370917Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly structured with clear stage definitions, specific
-      trigger conditions, and actionable instructions. It follows best practices by
-      defining scope, constraints, and fallback behavior (e.g., what to do if user
-      declines). The only minor weakness is that the prompt cuts off mid-sentence
-      in the 'Info Dumping' section, which could cause ambiguity in production.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451099820 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This workflow addresses a common, high-value task (documentation creation)
-      with a proven three-stage methodology that ensures thorough context gathering,
-      iterative refinement, and reader validation. It provides immediate practical
-      value by guiding users through a structured process that improves document quality
-      and reduces rework, making it highly actionable for real-world documentation
-      tasks.
-  overall_rating: 4.75
-  summary: An excellent, well-structured prompt that provides a comprehensive workflow
-    for collaborative documentation, though it has a minor truncation issue that should
-    be fixed for production use.
-  tags_suggested:
-  - documentation
-  - workflow
-  - collaboration
-  - structured-writing
-  - context-gathering
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451099820 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 70711
-  forks: 7197
-  open_issues: 288
+  stars: 71144
+  forks: 7250
+  open_issues: 290
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-17T04:20:20.603230Z'
-indexed_at: '2026-02-17T04:20:38.139924Z'
+  fetched_at: '2026-02-18T04:22:05.644311Z'
+indexed_at: '2026-02-18T04:44:33.229617Z'
 ---

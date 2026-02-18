@@ -22,39 +22,26 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/xlsx/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/xlsx/SKILL.md
-fetched_at: '2026-02-17T04:20:15.647190Z'
+fetched_at: '2026-02-18T04:21:58.691599Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:15:44.771179Z'
+  evaluated_at: '2026-02-18T04:42:35.602264Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly specific and clear, with well-defined standards
-      for financial modeling (color coding, formatting, formula construction). It
-      provides concrete examples and actionable rules. However, the prompt appears
-      incomplete as it cuts off mid-sentence in the pandas code example, which reduces
-      clarity for the intended workflow.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f24512aade0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The requirements are extremely practical for financial modeling and
-      spreadsheet tasks, covering real-world needs like error prevention, documentation
-      standards, and industry conventions. The LibreOffice requirement is a practical
-      constraint for formula recalculation. The incomplete pandas section limits immediate
-      actionability for data analysis workflows.
-  overall_rating: 4.25
-  summary: A strong, detailed prompt for financial spreadsheet standards that provides
-    clear, industry-relevant guidelines, but is incomplete and cuts off during the
-    technical implementation section.
-  tags_suggested:
-  - financial_modeling
-  - spreadsheet
-  - excel
-  - data_analysis
-  - formula_validation
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f24512aade0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 70711
-  forks: 7197
-  open_issues: 288
+  stars: 71144
+  forks: 7250
+  open_issues: 290
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-17T04:20:20.603230Z'
-indexed_at: '2026-02-17T04:20:38.183270Z'
+  fetched_at: '2026-02-18T04:22:05.644311Z'
+indexed_at: '2026-02-18T04:44:33.262606Z'
 ---

@@ -14,49 +14,35 @@ prompt_preview: "---\nname: writing-skills\ndescription: Use when creating new s
 full_prompt_length: 22379
 tools_mentioned:
 - TypeScript
-- go
-- Python
-- JavaScript
 - React
+- go
+- JavaScript
+- Python
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/writing-skills/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/writing-skills/SKILL.md
-fetched_at: '2026-02-17T04:20:19.667662Z'
+fetched_at: '2026-02-18T04:22:04.396477Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:19:48.923043Z'
+  evaluated_at: '2026-02-18T04:44:32.719496Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured, mapping TDD
-      concepts directly to skill creation with concrete examples. It provides specific
-      constraints (e.g., frontmatter rules, directory structure) and handles edge
-      cases by defining when NOT to create skills. The only minor weakness is the
-      dependency on an external 'superpowers:test-driven-development' skill for the
-      core RED-GREEN-REFACTOR cycle.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f24514d6030 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: 'This is highly practical for AI agent development, providing a systematic
-      methodology for creating reusable skills. It directly addresses a real need:
-      ensuring skills are validated through failure before documentation. The TDD
-      analogy makes the process intuitive for developers, and the concrete examples
-      (pressure scenarios, subagents) make it immediately actionable.'
-  overall_rating: 4.75
-  summary: An excellent, production-ready prompt that successfully adapts test-driven
-    development to AI skill creation with clear methodology, practical constraints,
-    and strong real-world applicability.
-  tags_suggested:
-  - tdd
-  - skill-development
-  - documentation
-  - ai-agent
-  - testing
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f24514d6030 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 52943
-  forks: 4016
-  open_issues: 145
-  last_commit: '2026-02-12'
-  fetched_at: '2026-02-17T04:20:20.906871Z'
-indexed_at: '2026-02-17T04:20:38.234960Z'
+  stars: 53704
+  forks: 4075
+  open_issues: 151
+  last_commit: '2026-02-17'
+  fetched_at: '2026-02-18T04:22:06.119879Z'
+indexed_at: '2026-02-18T04:44:33.302064Z'
 ---

@@ -24,49 +24,34 @@ prompt_preview: '---
 full_prompt_length: 6656
 tools_mentioned:
 - typescript
-- Angular
 - angular
+- Angular
 - TypeScript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/angular-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/angular-architect.md
-fetched_at: '2026-02-17T04:19:50.556588Z'
+fetched_at: '2026-02-18T04:21:25.699863Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:49:36.488898Z'
+  evaluated_at: '2026-02-18T04:23:37.824525Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections for
-      architecture, RxJS, state management, and enterprise patterns. It follows best
-      practices by defining a specific role, tools, and a systematic workflow. However,
-      it lacks explicit instructions for handling edge cases like missing project
-      context or conflicting requirements, and the workflow is incomplete (cuts off
-      mid-sentence).
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451487230 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This prompt provides high real-world value for enterprise Angular development,
-      covering comprehensive topics from architecture to micro-frontends and Nx monorepos.
-      It's actionable for experienced developers but may be overwhelming for beginners.
-      The checklist format is practical for ensuring quality, though the incomplete
-      workflow reduces immediate usability.
-  overall_rating: 4.25
-  summary: A robust, expert-level Angular architect prompt with excellent structure
-    and comprehensive coverage of enterprise patterns, though it suffers from an incomplete
-    workflow section and could benefit from more explicit edge-case handling.
-  tags_suggested:
-  - Angular
-  - Enterprise Architecture
-  - RxJS
-  - NgRx
-  - Micro-frontends
-  - Performance Optimization
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451487230 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.692157Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.886535Z'
 ---

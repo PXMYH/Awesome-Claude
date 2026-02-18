@@ -26,38 +26,25 @@ category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/trend-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/trend-analyst.md
-fetched_at: '2026-02-17T04:20:11.068114Z'
+fetched_at: '2026-02-18T04:21:52.329012Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:12:34.648650Z'
+  evaluated_at: '2026-02-18T04:40:14.767711Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is well-structured with clear sections and comprehensive
-      coverage of trend analysis concepts. However, it lacks specific instructions
-      for handling edge cases like conflicting data sources or ambiguous signals,
-      and the workflow section is incomplete with a dangling header. The communication
-      protocol is well-defined but could benefit from more concrete examples.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df0950 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This prompt provides exceptional real-world value for strategic planning
-      and foresight tasks, covering all major aspects of trend analysis from detection
-      to communication. The comprehensive checklists and methodologies make it immediately
-      actionable for business analysts, strategists, and researchers. The inclusion
-      of specific data sources and analysis techniques adds practical depth.
-  overall_rating: 4.25
-  summary: A robust and comprehensive trend analysis prompt that excels in coverage
-    and practical application, though it needs minor refinements to handle edge cases
-    and complete its workflow documentation.
-  tags_suggested:
-  - strategic foresight
-  - trend analysis
-  - business intelligence
-  - scenario planning
-  - research methodology
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df0950 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:38.125243Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.218691Z'

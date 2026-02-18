@@ -30,36 +30,25 @@ category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/laravel-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/laravel-specialist.md
-fetched_at: '2026-02-17T04:19:52.460861Z'
+fetched_at: '2026-02-18T04:21:28.199045Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:51:55.144644Z'
+  evaluated_at: '2026-02-18T04:25:17.827107Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly structured with clear sections and specific technical
-      requirements, following good prompt engineering practices. It provides comprehensive
-      checklists and patterns, though the 'Communication Protocol' section introduces
-      a context manager query that may not be standard in all agent systems.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451797590 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt offers substantial real-world value for Laravel development
-      with extensive coverage of modern features, patterns, and enterprise considerations.
-      It's actionable for developers but assumes specific tool availability and may
-      be overwhelming for beginners due to its comprehensive scope.
-  overall_rating: 4.25
-  summary: A well-structured, comprehensive Laravel specialist prompt that excels
-    in technical depth and organization, though it may benefit from simplification
-    for broader accessibility and clearer tool integration.
-  tags_suggested:
-  - Laravel
-  - PHP
-  - Web Development
-  - API Design
-  - Enterprise Architecture
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451797590 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.736916Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.920345Z'

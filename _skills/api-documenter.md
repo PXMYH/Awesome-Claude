@@ -24,50 +24,34 @@ prompt_preview: '---
 full_prompt_length: 6328
 tools_mentioned:
 - WebSocket
+- REST
 - GraphQL
 - gRPC
-- REST
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/api-documenter.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/api-documenter.md
-fetched_at: '2026-02-17T04:20:04.476913Z'
+fetched_at: '2026-02-18T04:21:43.554470Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:05:17.381302Z'
+  evaluated_at: '2026-02-18T04:34:55.707653Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt is well-structured with clear sections and comprehensive
-      checklists, but it's incomplete - the 'Implementation Phase' section cuts off
-      mid-sentence ('Add int'). While the documentation categories and features are
-      thoroughly enumerated, the actual execution instructions are fragmented and
-      lack a complete workflow. The communication protocol is defined but not fully
-      integrated into the action steps.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1dd30 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt provides exceptional value for API documentation tasks with
-      extensive coverage of OpenAPI specs, interactive features, authentication methods,
-      and integration guides. The comprehensive checklists and structured approach
-      would significantly help developers create professional API documentation. However,
-      the incomplete workflow reduces immediate actionability for users expecting
-      a complete end-to-end process.
-  overall_rating: 3.75
-  summary: A highly detailed and well-organized API documentation prompt with excellent
-    coverage of documentation types and best practices, but critically incomplete
-    - it cuts off mid-sentence in the implementation workflow, preventing full execution
-    of the documented process.
-  tags_suggested:
-  - api-documentation
-  - openapi
-  - developer-tools
-  - documentation-automation
-  - technical-writing
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1dd30 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.985717Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.112233Z'
 ---

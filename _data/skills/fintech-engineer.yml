@@ -28,41 +28,25 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/fintech-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/fintech-engineer.md
-fetched_at: '2026-02-17T04:20:04.947555Z'
+fetched_at: '2026-02-18T04:21:44.147095Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:05:51.976573Z'
+  evaluated_at: '2026-02-18T04:35:20.779152Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections for
-      fintech domains, compliance checklists, and development workflows. It provides
-      specific technical requirements and actionable checklists. However, it lacks
-      explicit guidance on handling conflicting requirements or edge cases in regulatory
-      compliance, and the communication protocol could be more detailed about error
-      handling.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df0350 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This prompt offers high practical value for fintech development tasks,
-      covering comprehensive domains from payment processing to blockchain integration.
-      The structured checklists and domain-specific guidance make it immediately actionable
-      for building compliant financial systems. The inclusion of real-world constraints
-      like latency requirements and regulatory frameworks adds significant practical
-      utility.
-  overall_rating: 4.5
-  summary: A highly effective fintech engineering prompt with strong domain coverage
-    and practical checklists, though it could benefit from more detailed edge case
-    handling and error management protocols.
-  tags_suggested:
-  - fintech
-  - compliance
-  - payment-processing
-  - regulatory
-  - security
-  - banking-integration
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df0350 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.996674Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.120495Z'

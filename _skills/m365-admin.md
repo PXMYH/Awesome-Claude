@@ -29,42 +29,26 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/m365-admin.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/m365-admin.md
-fetched_at: '2026-02-17T04:20:05.424776Z'
+fetched_at: '2026-02-18T04:21:44.723976Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:06:24.144579Z'
+  evaluated_at: '2026-02-18T04:35:45.837918Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is well-structured with clear sections and specific capabilities
-      listed. It follows good prompt engineering practices by defining scope, tools,
-      and integration points. However, it lacks explicit instructions on how to handle
-      authentication, error handling, or specific constraints for M365 operations,
-      which could lead to ambiguity in complex scenarios.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f21c40 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill provides practical value for M365 administrators by covering
-      major workloads and common automation tasks. The inclusion of checklists and
-      example use cases makes it actionable for real-world scenarios. However, it
-      could be more useful if it included more specific guidance on Graph API endpoints,
-      PowerShell cmdlets, or security best practices for automation.
-  overall_rating: 4.25
-  summary: A solid M365 administration skill with clear structure and practical focus,
-    though it could benefit from more technical depth and explicit handling of authentication/edge
-    cases.
-  tags_suggested:
-  - m365
-  - exchange-online
-  - teams
-  - sharepoint
-  - graph-api
-  - powershell
-  - automation
-  - licensing
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f21c40 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:38.008083Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.128755Z'
 ---

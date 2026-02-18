@@ -28,42 +28,26 @@ category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/dotnet-framework-4.8-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/dotnet-framework-4.8-expert.md
-fetched_at: '2026-02-17T04:19:51.354837Z'
+fetched_at: '2026-02-18T04:21:26.734063Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:50:36.358757Z'
+  evaluated_at: '2026-02-18T04:24:19.504957Z'
   prompt_quality:
-    score: 2.5
-    reasoning: 'The prompt is highly specific about .NET Framework 4.8 technologies
-      and includes comprehensive checklists for various components like Web Forms,
-      WCF, and Windows services. However, it contains a critical flaw: the communication
-      protocol section is incomplete and cuts off mid-sentence, which would cause
-      execution failures. The prompt also lacks clear instructions on how to handle
-      the context manager query or what to do when project context is unavailable.'
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f23230 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt demonstrates deep domain knowledge of legacy enterprise
-      .NET development with detailed coverage of Web Forms, WCF services, Entity Framework
-      6, and enterprise patterns. It provides practical value for maintaining and
-      modernizing legacy systems, which is a common enterprise need. The comprehensive
-      checklists and feature lists would help developers ensure they're using appropriate
-      patterns and avoiding common pitfalls in legacy codebases.
-  overall_rating: 3.25
-  summary: A technically strong prompt with excellent domain expertise in legacy .NET
-    Framework development, but severely undermined by an incomplete communication
-    protocol section that would prevent proper execution.
-  tags_suggested:
-  - legacy-systems
-  - enterprise-development
-  - .net-framework
-  - web-forms
-  - wcf-services
-  - windows-services
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f23230 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.710842Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.900677Z'
 ---

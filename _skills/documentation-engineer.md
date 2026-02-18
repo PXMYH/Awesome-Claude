@@ -27,39 +27,26 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/documentation-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/documentation-engineer.md
-fetched_at: '2026-02-17T04:20:02.644253Z'
+fetched_at: '2026-02-18T04:21:41.353091Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:03:10.496343Z'
+  evaluated_at: '2026-02-18T04:33:31.194957Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt is highly specific and structured with clear sections for
-      documentation engineering domains, but it's incomplete and contains a truncated
-      'Documentation audit' section. While the communication protocol and workflow
-      phases are well-defined, the abrupt ending limits clarity on execution steps.
-      Best practices are partially followed with tool definitions and structured checklists.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f57c20 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt provides comprehensive coverage of documentation engineering
-      domains including API docs, tutorials, automation, and testing, offering practical
-      frameworks for real-world developer documentation tasks. The structured checklists
-      and architecture guidelines are immediately actionable for improving documentation
-      systems, though the incomplete sections reduce immediate applicability.
-  overall_rating: 3.75
-  summary: A well-structured but incomplete documentation engineering prompt with
-    strong domain coverage and practical frameworks, though execution guidance is
-    truncated.
-  tags_suggested:
-  - documentation
-  - developer-experience
-  - api-docs
-  - technical-writing
-  - automation
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f57c20 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.950271Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.083580Z'
 ---

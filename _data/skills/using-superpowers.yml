@@ -31,39 +31,25 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/using-superpowers/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md
-fetched_at: '2026-02-17T04:20:18.822905Z'
+fetched_at: '2026-02-18T04:22:03.268966Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:19:15.005015Z'
+  evaluated_at: '2026-02-18T04:44:07.478049Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and specific, with strong visual
-      flow diagrams and explicit red flags that prevent rationalization. It defines
-      scope, constraints, and expected behavior through concrete examples and a priority
-      system. The only minor weakness is the extreme rigidity might cause issues in
-      edge cases where no skill truly applies, though the '1% chance' threshold is
-      explicitly defined.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f24515863f0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for development workflows, providing immediate
-      value by enforcing systematic skill usage that prevents ad-hoc approaches. The
-      comprehensive coverage of skill types, priorities, and common rationalization
-      traps makes it immediately actionable for users. It directly addresses the common
-      problem of AI agents skipping established workflows in favor of quick fixes.
-  overall_rating: 4.75
-  summary: An excellent, highly structured prompt that enforces disciplined skill
-    usage with clear rules, visual workflows, and anti-rationalization safeguards,
-    making it extremely valuable for development tasks requiring systematic approaches.
-  tags_suggested:
-  - workflow
-  - skill-enforcement
-  - discipline
-  - development
-  - systematic
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f24515863f0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 52943
-  forks: 4016
-  open_issues: 145
-  last_commit: '2026-02-12'
-  fetched_at: '2026-02-17T04:20:20.906871Z'
-indexed_at: '2026-02-17T04:20:38.223965Z'
+  stars: 53704
+  forks: 4075
+  open_issues: 151
+  last_commit: '2026-02-17'
+  fetched_at: '2026-02-18T04:22:06.119879Z'
+indexed_at: '2026-02-18T04:44:33.293414Z'

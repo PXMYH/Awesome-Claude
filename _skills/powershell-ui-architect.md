@@ -30,39 +30,26 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/powershell-ui-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/powershell-ui-architect.md
-fetched_at: '2026-02-17T04:20:03.605521Z'
+fetched_at: '2026-02-18T04:21:42.572189Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:04:28.987147Z'
+  evaluated_at: '2026-02-18T04:34:22.459481Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly structured with clear sections and specific technical
-      guidance. It defines scope, constraints, and architecture patterns effectively.
-      The only minor weakness is the incomplete sentence at the end ('Get-* and Set-*
-      com'), which slightly impacts completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1dd30 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This prompt provides exceptional real-world value for PowerShell developers
-      building UIs. It covers comprehensive scenarios from WinForms to WPF/Metro and
-      TUIs, with practical architecture guidance. The actionable patterns and technology
-      recommendations would immediately help developers create maintainable UI tools.
-  overall_rating: 4.75
-  summary: An excellent, well-structured prompt that provides comprehensive guidance
-    for PowerShell UI development across multiple frameworks with strong architectural
-    principles.
-  tags_suggested:
-  - powershell
-  - ui-design
-  - winforms
-  - wpf
-  - tui
-  - developer-tools
-  - automation
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1dd30 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.971610Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.101055Z'
 ---

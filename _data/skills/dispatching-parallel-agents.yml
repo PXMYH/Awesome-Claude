@@ -33,37 +33,25 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/dispatching-parallel-agents/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/dispatching-parallel-agents/SKILL.md
-fetched_at: '2026-02-17T04:20:16.290220Z'
+fetched_at: '2026-02-18T04:21:59.659202Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:17:20.997249Z'
+  evaluated_at: '2026-02-18T04:42:52.398367Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, visual
-      flowcharts, and concrete examples. It follows best practices by providing specific
-      constraints, output formats, and common mistakes. The only minor weakness is
-      the incomplete 'Vague output:' section in Common Mistakes, which slightly reduces
-      completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df2e10 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for real development workflows where multiple
-      independent failures occur. The pattern directly addresses a common pain point
-      in debugging and testing, providing immediately actionable guidance. The examples
-      and agent prompt structure are directly transferable to actual use cases.
-  overall_rating: 4.75
-  summary: An excellent, production-ready prompt that effectively teaches a valuable
-    parallelization pattern with clear structure, practical examples, and actionable
-    guidance.
-  tags_suggested:
-  - parallelization
-  - debugging
-  - testing
-  - agent orchestration
-  - workflow optimization
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df2e10 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 52943
-  forks: 4016
-  open_issues: 145
-  last_commit: '2026-02-12'
-  fetched_at: '2026-02-17T04:20:20.906871Z'
-indexed_at: '2026-02-17T04:20:38.190393Z'
+  stars: 53704
+  forks: 4075
+  open_issues: 151
+  last_commit: '2026-02-17'
+  fetched_at: '2026-02-18T04:22:06.119879Z'
+indexed_at: '2026-02-18T04:44:33.268303Z'

@@ -30,40 +30,26 @@ category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/powershell-5.1-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/powershell-5.1-expert.md
-fetched_at: '2026-02-17T04:19:52.962114Z'
+fetched_at: '2026-02-18T04:21:28.784198Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:52:24.374459Z'
+  evaluated_at: '2026-02-18T04:25:43.074120Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly clear and specific, with well-defined core capabilities,
-      checklists, and example use cases that provide concrete guidance. It follows
-      good prompt engineering practices by structuring information logically and setting
-      clear constraints for Windows PowerShell 5.1 compatibility, though it could
-      benefit from more explicit edge-case handling for module availability failures
-      or permission issues.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f22c90 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill has exceptional real-world value for enterprise IT professionals
-      managing legacy Windows environments, covering critical automation scenarios
-      like AD, DNS, DHCP, and GPO operations. The checklists and integration suggestions
-      make it immediately actionable for safe, production-ready scripting in mixed-version
-      environments.
-  overall_rating: 4.75
-  summary: A well-crafted, highly practical skill prompt that excels at defining a
-    specialized PowerShell 5.1 expert role with clear boundaries, safety checklists,
-    and enterprise-focused use cases for legacy Windows infrastructure automation.
-  tags_suggested:
-  - powershell
-  - windows-automation
-  - enterprise-it
-  - legacy-systems
-  - active-directory
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f22c90 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.747707Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.928839Z'
 ---

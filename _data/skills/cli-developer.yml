@@ -27,40 +27,25 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/cli-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/cli-developer.md
-fetched_at: '2026-02-17T04:20:02.311793Z'
+fetched_at: '2026-02-18T04:21:40.930984Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:02:49.993961Z'
+  evaluated_at: '2026-02-18T04:33:14.488725Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is highly structured and specific, with clear sections for
-      CLI architecture, argument parsing, interactive prompts, and other technical
-      aspects. It follows good prompt engineering practices by providing explicit
-      checklists and structured data formats. However, it's incomplete - the prompt
-      cuts off mid-sentence in the UX research section, and the communication protocol
-      section appears to be a placeholder rather than a fully implemented system.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1fec0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This is an extremely practical and comprehensive CLI development guide
-      that covers real-world concerns like startup time, memory usage, cross-platform
-      compatibility, and distribution strategies. The detailed checklists and architecture
-      patterns would be immediately valuable for developers building production CLI
-      tools. The focus on developer experience, performance, and workflow integration
-      addresses actual pain points in CLI development.
-  overall_rating: 4.25
-  summary: A well-structured and highly practical CLI development prompt with excellent
-    technical depth, though it's incomplete and appears to be a work-in-progress template
-    rather than a fully finished skill.
-  tags_suggested:
-  - cli-development
-  - developer-tools
-  - command-line
-  - terminal-apps
-  - cross-platform
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1fec0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.942755Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.078055Z'

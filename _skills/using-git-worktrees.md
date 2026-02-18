@@ -27,52 +27,37 @@ prompt_preview: '---
   **Core principle:** Systematic directory selection + safety verification...'
 full_prompt_length: 5633
 tools_mentioned:
-- Node.js
+- Go
 - go
+- pytest
+- Node.js
 - Python
 - Rust
-- pytest
-- Go
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/using-git-worktrees/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/using-git-worktrees/SKILL.md
-fetched_at: '2026-02-17T04:20:18.544613Z'
+fetched_at: '2026-02-18T04:22:02.843208Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:19:04.521597Z'
+  evaluated_at: '2026-02-18T04:43:59.066480Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly structured with clear, step-by-step instructions
-      and a logical priority order for directory selection. It includes specific safety
-      verification commands and handles key edge cases like existing directories and
-      .gitignore compliance. However, it has minor formatting issues (e.g., incomplete
-      'Common Mistakes' section) and could benefit from more explicit error handling
-      for missing dependencies or non-standard project structures.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f24513e2cf0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This skill provides significant real-world value by automating the
-      setup of isolated Git worktrees, which is a common need for parallel development.
-      It comprehensively covers directory selection, safety checks, and project initialization,
-      making it immediately actionable for developers working on multiple features
-      simultaneously. The inclusion of baseline testing and reporting ensures reliability
-      and user awareness.
-  overall_rating: 4.5
-  summary: A well-designed, practical skill that effectively automates Git worktree
-    creation with strong safety and usability considerations, though it has minor
-    gaps in error handling and documentation completeness.
-  tags_suggested:
-  - git
-  - worktrees
-  - development
-  - automation
-  - safety
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f24513e2cf0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 52943
-  forks: 4016
-  open_issues: 145
-  last_commit: '2026-02-12'
-  fetched_at: '2026-02-17T04:20:20.906871Z'
-indexed_at: '2026-02-17T04:20:38.220156Z'
+  stars: 53704
+  forks: 4075
+  open_issues: 151
+  last_commit: '2026-02-17'
+  fetched_at: '2026-02-18T04:22:06.119879Z'
+indexed_at: '2026-02-18T04:44:33.290645Z'
 ---

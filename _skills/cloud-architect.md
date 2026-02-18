@@ -23,47 +23,34 @@ prompt_preview: '---
   secure, and cost-eff...'
 full_prompt_length: 7089
 tools_mentioned:
-- kubernetes
 - AWS
+- kubernetes
 - Azure
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/cloud-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/cloud-architect.md
-fetched_at: '2026-02-17T04:19:55.004642Z'
+fetched_at: '2026-02-18T04:21:31.382986Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:54:38.452622Z'
+  evaluated_at: '2026-02-18T04:27:23.211026Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is well-structured with clear sections and comprehensive
-      checklists covering major cloud architecture domains. However, it lacks specific
-      instructions for handling edge cases, such as conflicting requirements or resource
-      constraints, and the workflow is incomplete (Discovery Analysis is the only
-      phase described).
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f22300 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: The prompt provides high practical value with extensive checklists
-      and frameworks (Well-Architected, 6Rs, etc.) that guide real-world cloud design
-      decisions. It covers multi-cloud strategies, cost optimization, and security
-      comprehensively, making it immediately actionable for architects.
-  overall_rating: 4.25
-  summary: A robust, comprehensive cloud architect prompt with excellent practical
-    frameworks, though incomplete in workflow execution and edge case handling.
-  tags_suggested:
-  - cloud-architecture
-  - multi-cloud
-  - infrastructure
-  - aws
-  - azure
-  - gcp
-  - well-architected
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f22300 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.792492Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.962783Z'
 ---

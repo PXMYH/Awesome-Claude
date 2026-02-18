@@ -44,39 +44,26 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/requesting-code-review/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/requesting-code-review/SKILL.md
-fetched_at: '2026-02-17T04:20:17.453238Z'
+fetched_at: '2026-02-18T04:22:01.202550Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:18:18.254041Z'
+  evaluated_at: '2026-02-18T04:43:25.673490Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly structured with clear sections, specific commands,
-      and a concrete example. It defines mandatory vs. optional review triggers and
-      provides actionable steps. The only minor weakness is the reference to an external
-      template file that isn't included in the prompt itself, which could create a
-      dependency issue.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df3260 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This prompt provides exceptional real-world value by integrating code
-      review into the development workflow at critical points. It's immediately actionable
-      with specific git commands and subagent dispatch instructions. The guidance
-      on handling feedback and red flags makes it practical for preventing bugs and
-      maintaining code quality.
-  overall_rating: 4.75
-  summary: An excellent, production-ready prompt that effectively institutionalizes
-    code review as a mandatory part of the development workflow with clear triggers,
-    actions, and quality gates.
-  tags_suggested:
-  - code-review
-  - quality-assurance
-  - development-workflow
-  - best-practices
-  - subagent-orchestration
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df3260 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 52943
-  forks: 4016
-  open_issues: 145
-  last_commit: '2026-02-12'
-  fetched_at: '2026-02-17T04:20:20.906871Z'
-indexed_at: '2026-02-17T04:20:38.204970Z'
+  stars: 53704
+  forks: 4075
+  open_issues: 151
+  last_commit: '2026-02-17'
+  fetched_at: '2026-02-18T04:22:06.119879Z'
+indexed_at: '2026-02-18T04:44:33.279435Z'
 ---

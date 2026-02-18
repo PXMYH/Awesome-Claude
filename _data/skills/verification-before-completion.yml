@@ -33,40 +33,25 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/verification-before-completion/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/verification-before-completion/SKILL.md
-fetched_at: '2026-02-17T04:20:19.084651Z'
+fetched_at: '2026-02-18T04:22:03.668240Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:19:27.162921Z'
+  evaluated_at: '2026-02-18T04:44:16.015669Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and specific, with a strong, unambiguous
-      core principle and a well-structured gate function. It effectively handles common
-      failure modes and rationalizations through tables and red flags, providing robust
-      guidance for edge cases. The only minor weakness is the slightly repetitive
-      structure in the 'When To Apply' section, but overall it follows excellent prompt
-      engineering practices.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df2cc0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: 'This skill has immense real-world value, directly addressing a critical
-      failure mode in AI-assisted development: false confidence and premature completion
-      claims. It is comprehensive, covering tests, builds, requirements, and agent
-      delegation, and is highly actionable, providing a clear, step-by-step verification
-      protocol that users can immediately implement to prevent costly errors and build
-      trust.'
-  overall_rating: 4.75
-  summary: An outstanding, high-impact skill that enforces rigorous verification before
-    any completion claim, directly combating a common and costly failure mode in development
-    workflows.
-  tags_suggested:
-  - verification
-  - quality assurance
-  - test-driven development
-  - pre-commit checks
-  - honesty
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df2cc0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 52943
-  forks: 4016
-  open_issues: 145
-  last_commit: '2026-02-12'
-  fetched_at: '2026-02-17T04:20:20.906871Z'
-indexed_at: '2026-02-17T04:20:38.227673Z'
+  stars: 53704
+  forks: 4075
+  open_issues: 151
+  last_commit: '2026-02-17'
+  fetched_at: '2026-02-18T04:22:06.119879Z'
+indexed_at: '2026-02-18T04:44:33.296224Z'

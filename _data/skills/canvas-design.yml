@@ -26,40 +26,25 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/canvas-design/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/canvas-design/SKILL.md
-fetched_at: '2026-02-17T04:20:12.083411Z'
+fetched_at: '2026-02-18T04:21:53.684464Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:13:20.655168Z'
+  evaluated_at: '2026-02-18T04:40:41.998022Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and specific, with a well-defined
-      two-step process that guides the AI through philosophy creation and visual expression.
-      It provides strong examples and emphasizes critical aspects like craftsmanship
-      and visual-first communication. However, it lacks explicit handling of edge
-      cases (e.g., what to do if the user's input is too vague or contradictory) and
-      could benefit from more structured output formatting instructions for the .md
-      file.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1f8f0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill is highly practical for creative tasks like generating posters,
-      art, or design concepts, offering a structured approach that encourages originality
-      and high-quality output. It covers the core task comprehensively with philosophical
-      depth, making it actionable for users seeking visually-driven results. However,
-      its utility is somewhat niche, primarily benefiting users in design, art, or
-      creative fields rather than broader development tasks.
-  overall_rating: 4.25
-  summary: A well-crafted prompt that excels in guiding creative visual design with
-    strong philosophical framing and emphasis on craftsmanship, though it could improve
-    on edge case handling and broader applicability.
-  tags_suggested:
-  - creative design
-  - visual art
-  - philosophy-driven
-  - originality-focused
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1f8f0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 70711
-  forks: 7197
-  open_issues: 288
+  stars: 71144
+  forks: 7250
+  open_issues: 290
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-17T04:20:20.603230Z'
-indexed_at: '2026-02-17T04:20:38.136210Z'
+  fetched_at: '2026-02-18T04:22:05.644311Z'
+indexed_at: '2026-02-18T04:44:33.226895Z'

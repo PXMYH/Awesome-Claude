@@ -28,39 +28,26 @@ category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/market-researcher.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/market-researcher.md
-fetched_at: '2026-02-17T04:20:10.588878Z'
+fetched_at: '2026-02-18T04:21:51.710021Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:12:00.522922Z'
+  evaluated_at: '2026-02-18T04:39:48.266595Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt is well-structured with clear sections for market analysis,
-      consumer research, and competitive intelligence, providing a comprehensive checklist
-      of deliverables. However, it lacks specific instructions for handling edge cases
-      like missing data or conflicting sources, and the workflow section is incomplete,
-      which reduces clarity and specificity.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1ddc0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill offers high practical value for real-world market research
-      tasks, covering essential methodologies, data collection techniques, and strategic
-      insights that can directly inform business decisions. It is actionable for users
-      needing structured market analysis, though the incomplete workflow may require
-      additional guidance for full implementation.
-  overall_rating: 3.75
-  summary: This market researcher prompt is a robust framework for comprehensive market
-    analysis with strong practical utility, but it needs refinement in edge case handling
-    and workflow completion to achieve optimal clarity.
-  tags_suggested:
-  - market research
-  - competitive intelligence
-  - strategic analysis
-  - consumer insights
-  - business intelligence
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1ddc0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:38.114459Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.210422Z'
 ---

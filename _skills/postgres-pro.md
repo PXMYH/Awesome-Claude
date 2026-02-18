@@ -28,36 +28,26 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/postgres-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/postgres-pro.md
-fetched_at: '2026-02-17T04:20:01.664662Z'
+fetched_at: '2026-02-18T04:21:40.131918Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:02:11.704454Z'
+  evaluated_at: '2026-02-18T04:32:49.445056Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt is well-structured with clear sections and specific technical
-      domains, but it is incomplete and lacks a defined completion mechanism. The
-      workflow section cuts off mid-sentence, and there is no explicit instruction
-      on how the agent should conclude its analysis or present findings to the user.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450e679b0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt provides a comprehensive framework for PostgreSQL optimization,
-      covering critical areas like performance tuning, replication, and high availability.
-      The inclusion of specific metrics and architecture details makes it highly actionable
-      for database administrators.
-  overall_rating: 3.75
-  summary: A technically robust prompt that is strong in scope and detail but suffers
-    from structural incompleteness, limiting its immediate operational utility.
-  tags_suggested:
-  - PostgreSQL
-  - Database Administration
-  - Performance Tuning
-  - High Availability
-  - DevOps
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450e679b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.932208Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.069911Z'
 ---

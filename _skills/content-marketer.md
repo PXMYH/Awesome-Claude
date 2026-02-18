@@ -28,39 +28,26 @@ category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/content-marketer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/content-marketer.md
-fetched_at: '2026-02-17T04:20:06.714078Z'
+fetched_at: '2026-02-18T04:21:46.273859Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:07:49.296930Z'
+  evaluated_at: '2026-02-18T04:36:44.446611Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt is well-structured with clear sections and comprehensive
-      checklists, but it lacks specific instructions on how to execute the workflow.
-      The implementation phase is incomplete (cut off mid-sentence), and there's no
-      guidance on handling edge cases or when to use specific tools. The communication
-      protocol is defined but not integrated into the main workflow.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f23200 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt provides excellent frameworks for content marketing strategy
-      with comprehensive checklists covering all major aspects. It would be valuable
-      for guiding systematic content marketing efforts, though the incomplete implementation
-      phase reduces immediate practicality. The structured approach helps ensure thoroughness
-      in content marketing activities.
-  overall_rating: 3.75
-  summary: A comprehensive but incomplete content marketing framework with strong
-    strategic foundations, though execution guidance is cut off and lacks specific
-    tool usage instructions.
-  tags_suggested:
-  - content-marketing
-  - seo
-  - strategy
-  - business
-  - marketing
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f23200 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:38.034029Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.148231Z'
 ---

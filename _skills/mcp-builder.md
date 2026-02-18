@@ -36,42 +36,26 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/mcp-builder/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/mcp-builder/SKILL.md
-fetched_at: '2026-02-17T04:20:13.437704Z'
+fetched_at: '2026-02-18T04:21:55.623702Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:14:15.429649Z'
+  evaluated_at: '2026-02-18T04:41:28.547896Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly structured with clear phases and actionable steps,
-      providing specific references to documentation and frameworks. It demonstrates
-      strong specificity by recommending TypeScript as the primary language and streamable
-      HTTP for transport, with clear rationale. However, it lacks explicit handling
-      of edge cases like API rate limiting or authentication failures, and some instructions
-      (e.g., 'Use WebFetch to load...') assume tool capabilities that may not be universally
-      available.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df2e40 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This guide offers exceptional real-world value by providing a comprehensive,
-      step-by-step workflow for building MCP servers, covering research, planning,
-      and implementation. It is highly actionable, with direct references to external
-      resources and language-specific guides, enabling developers to immediately start
-      building. The focus on practical considerations like tool discoverability and
-      error messaging makes it directly applicable to real development tasks.
-  overall_rating: 4.75
-  summary: An excellent, well-structured guide that provides a robust framework for
-    developing high-quality MCP servers, though it could benefit from more explicit
-    edge-case handling and assumptions about tool availability.
-  tags_suggested:
-  - MCP
-  - TypeScript
-  - API Integration
-  - Server Development
-  - LLM Tools
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df2e40 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 70711
-  forks: 7197
-  open_issues: 288
+  stars: 71144
+  forks: 7250
+  open_issues: 290
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-17T04:20:20.603230Z'
-indexed_at: '2026-02-17T04:20:38.153951Z'
+  fetched_at: '2026-02-18T04:22:05.644311Z'
+indexed_at: '2026-02-18T04:44:33.240426Z'
 ---

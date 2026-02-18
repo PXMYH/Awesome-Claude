@@ -27,38 +27,26 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/build-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/build-engineer.md
-fetched_at: '2026-02-17T04:20:02.137392Z'
+fetched_at: '2026-02-18T04:21:40.733022Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:02:39.708160Z'
+  evaluated_at: '2026-02-18T04:33:06.187155Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly structured with clear sections and specific technical
-      categories, demonstrating strong prompt engineering practices. However, it contains
-      a truncated sentence ('Tool evalua') and lacks explicit instructions for handling
-      the communication protocol or resolving the incomplete section, which introduces
-      minor ambiguity.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1e660 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This prompt provides exceptional real-world value by covering comprehensive
-      build engineering topics from optimization to monorepo support, making it highly
-      actionable for developers. It includes specific metrics and checklists that
-      translate directly into measurable improvements for build systems.
-  overall_rating: 4.75
-  summary: A well-structured, highly practical prompt that excels in technical depth
-    and actionable guidance, though it requires minor fixes to address a truncated
-    section and clarify protocol execution.
-  tags_suggested:
-  - build optimization
-  - developer productivity
-  - CI/CD
-  - monorepo
-  - performance engineering
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1e660 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.939263Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.075328Z'
 ---

@@ -30,45 +30,33 @@ prompt_preview: '---
   **Announce at st...'
 full_prompt_length: 4230
 tools_mentioned:
-- go
 - pytest
+- go
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/finishing-a-development-branch/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/finishing-a-development-branch/SKILL.md
-fetched_at: '2026-02-17T04:20:16.894437Z'
+fetched_at: '2026-02-18T04:22:00.397316Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:17:41.659445Z'
+  evaluated_at: '2026-02-18T04:43:08.907513Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly structured with clear steps, specific commands,
-      and excellent handling of edge cases like test failures and confirmation requirements.
-      It follows strong prompt engineering practices with explicit verification steps
-      and decision trees. The only minor weakness is the incomplete 'Integration'
-      section at the end, which feels like a placeholder.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f22060 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill addresses a real, common pain point in development workflows
-      - the uncertainty of what to do when a feature branch is complete. It provides
-      immediate, actionable value by guiding users through a structured process with
-      concrete commands and clear options. The inclusion of test verification, PR
-      creation, and cleanup makes it comprehensive for actual development tasks.
-  overall_rating: 4.75
-  summary: An excellent, production-ready skill that provides clear, actionable guidance
-    for completing development work with strong safety mechanisms and real-world applicability.
-  tags_suggested:
-  - git
-  - development workflow
-  - branch management
-  - testing
-  - PR creation
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f22060 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 52943
-  forks: 4016
-  open_issues: 145
-  last_commit: '2026-02-12'
-  fetched_at: '2026-02-17T04:20:20.906871Z'
-indexed_at: '2026-02-17T04:20:38.197528Z'
+  stars: 53704
+  forks: 4075
+  open_issues: 151
+  last_commit: '2026-02-17'
+  fetched_at: '2026-02-18T04:22:06.119879Z'
+indexed_at: '2026-02-18T04:44:33.273757Z'
 ---

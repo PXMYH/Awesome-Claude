@@ -1,48 +1,48 @@
 - slug: 05-data-ai
   name: 05 Data Ai
   count: 12
-  avg_rating: 3.79
+  avg_rating: 3.0
 - slug: 06-developer-experience
   name: 06 Developer Experience
   count: 13
-  avg_rating: 4.02
+  avg_rating: 3.0
 - slug: 07-specialized-domains
   name: 07 Specialized Domains
   count: 12
-  avg_rating: 3.81
+  avg_rating: 3.0
 - slug: 08-business-product
   name: 08 Business Product
   count: 11
-  avg_rating: 3.59
+  avg_rating: 3.0
 - slug: 09-meta-orchestration
   name: 09 Meta Orchestration
   count: 10
-  avg_rating: 3.67
+  avg_rating: 3.0
 - slug: 10-research-analysis
   name: 10 Research Analysis
   count: 6
-  avg_rating: 3.92
+  avg_rating: 3.0
 - slug: community
   name: Community Skills
   count: 14
-  avg_rating: 4.68
+  avg_rating: 3.0
 - slug: core-development
   name: Core Development
   count: 10
-  avg_rating: 4.33
+  avg_rating: 3.0
 - slug: infrastructure
   name: Infrastructure
   count: 16
-  avg_rating: 3.84
+  avg_rating: 3.0
 - slug: language-specialists
   name: Language Specialists
   count: 26
-  avg_rating: 4.12
+  avg_rating: 3.0
 - slug: official
   name: Official Anthropic Skills
   count: 16
-  avg_rating: 4.33
+  avg_rating: 3.0
 - slug: quality-security
   name: Quality & Security
   count: 14
-  avg_rating: 3.98
+  avg_rating: 3.0

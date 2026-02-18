@@ -33,48 +33,35 @@ prompt_preview: '---
   3. Search for ag...'
 full_prompt_length: 3555
 tools_mentioned:
-- typescript
+- php
 - PHP
 - python
-- php
+- typescript
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/agent-installer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/agent-installer.md
-fetched_at: '2026-02-17T04:20:08.502784Z'
+fetched_at: '2026-02-18T04:21:49.096917Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:09:47.144426Z'
+  evaluated_at: '2026-02-18T04:38:07.950948Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly clear and specific, defining exact GitHub API
-      endpoints, directory paths, and workflow steps. It includes practical examples
-      and covers core operations like listing, searching, and installing agents. However,
-      it lacks explicit handling for edge cases like network failures, invalid agent
-      names, or permission issues during installation.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df1610 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides immediate practical value for developers wanting
-      to extend Claude Code with community agents, covering the full lifecycle from
-      discovery to installation. It addresses a real need for ecosystem expansion
-      and follows actionable workflows that users can immediately apply to enhance
-      their development environment.
-  overall_rating: 4.75
-  summary: A well-structured, highly practical prompt that effectively enables users
-    to browse and install community Claude agents, with strong clarity and real-world
-    utility for ecosystem management.
-  tags_suggested:
-  - meta-orchestration
-  - agent-management
-  - github-integration
-  - community-tools
-  - installation
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df1610 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:38.070236Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.176719Z'
 ---

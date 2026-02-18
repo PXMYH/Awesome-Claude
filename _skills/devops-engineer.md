@@ -24,48 +24,36 @@ prompt_preview: '---
 full_prompt_length: 6948
 tools_mentioned:
 - kubernetes
+- AWS
 - Kubernetes
+- Docker
 - Azure
 - GCP
-- AWS
-- Docker
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/devops-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/devops-engineer.md
-fetched_at: '2026-02-17T04:19:55.480618Z'
+fetched_at: '2026-02-18T04:21:31.970823Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:55:12.031201Z'
+  evaluated_at: '2026-02-18T04:27:48.388829Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt is well-structured with clear sections and a comprehensive
-      checklist covering key DevOps domains, providing good specificity. However,
-      it is incomplete (cutting off mid-sentence in the 'Development Workflow' section)
-      and lacks explicit instructions on how to use the tools or handle edge cases,
-      which limits its clarity and completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451173ad0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt offers high practical value by outlining a systematic approach
-      to DevOps transformation, including maturity analysis and actionable checklists
-      for infrastructure, CI/CD, and monitoring. It is comprehensive for real-world
-      tasks like assessing and improving automation, though the incomplete workflow
-      section reduces immediate actionability for users.
-  overall_rating: 3.75
-  summary: This is a strong, domain-specific prompt with valuable DevOps frameworks,
-    but its incomplete state and lack of tool usage guidance prevent it from being
-    fully polished.
-  tags_suggested:
-  - DevOps
-  - Infrastructure Automation
-  - CI/CD
-  - Maturity Assessment
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451173ad0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.803306Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.971217Z'
 ---

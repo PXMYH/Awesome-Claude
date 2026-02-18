@@ -43,44 +43,33 @@ prompt_preview: '---
   - Behavior...'
 full_prompt_length: 9857
 tools_mentioned:
-- typescript
 - jest
+- typescript
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/test-driven-development/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/test-driven-development/SKILL.md
-fetched_at: '2026-02-17T04:20:18.274277Z'
+fetched_at: '2026-02-18T04:22:02.420944Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:18:54.380160Z'
+  evaluated_at: '2026-02-18T04:43:50.671901Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and specific, with strong visual
-      aids (dot diagram), concrete code examples, and explicit rules. It handles edge
-      cases through exceptions and provides fallback guidance. The only minor issue
-      is the incomplete 'REFACTOR' section at the end, which slightly reduces completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f57c20 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is a highly practical, real-world skill that directly addresses
-      a common development challenge. It provides immediate, actionable guidance with
-      clear steps, examples, and verification checkpoints. The comprehensive coverage
-      of TDD principles makes it immediately beneficial for developers.
-  overall_rating: 4.75
-  summary: An excellent, comprehensive TDD prompt that provides clear, actionable
-    guidance with strong visual and code examples, though slightly incomplete in the
-    refactor section.
-  tags_suggested:
-  - tdd
-  - testing
-  - development
-  - best-practices
-  - code-quality
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f57c20 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 52943
-  forks: 4016
-  open_issues: 145
-  last_commit: '2026-02-12'
-  fetched_at: '2026-02-17T04:20:20.906871Z'
-indexed_at: '2026-02-17T04:20:38.216611Z'
+  stars: 53704
+  forks: 4075
+  open_issues: 151
+  last_commit: '2026-02-17'
+  fetched_at: '2026-02-18T04:22:06.119879Z'
+indexed_at: '2026-02-18T04:44:33.287831Z'
 ---

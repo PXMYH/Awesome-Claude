@@ -23,46 +23,33 @@ prompt_preview: '---
   with expertise in REST and...'
 full_prompt_length: 6115
 tools_mentioned:
-- GraphQL
 - REST
+- GraphQL
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/api-designer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/api-designer.md
-fetched_at: '2026-02-17T04:19:48.867621Z'
+fetched_at: '2026-02-18T04:21:23.478933Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:47:24.013085Z'
+  evaluated_at: '2026-02-18T04:22:14.755384Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear role definition,
-      comprehensive checklists, and detailed design principles. It follows excellent
-      prompt engineering practices with organized sections and specific frameworks.
-      However, it's slightly verbose and the progress reporting JSON is incomplete,
-      which could cause confusion.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451008da0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for real-world API development, covering all
-      critical aspects from REST/GraphQL design to authentication, documentation,
-      and performance optimization. The systematic workflow and comprehensive checklists
-      provide immediate value for developers designing production APIs. The inclusion
-      of versioning strategies and backward compatibility considerations makes it
-      enterprise-ready.
-  overall_rating: 4.75
-  summary: An outstanding API design prompt with exceptional comprehensiveness and
-    practical value, though slightly verbose and containing one incomplete JSON example.
-  tags_suggested:
-  - api-design
-  - rest-api
-  - graphql
-  - documentation
-  - enterprise
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451008da0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.654120Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.856870Z'
 ---

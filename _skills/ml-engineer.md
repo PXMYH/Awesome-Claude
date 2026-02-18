@@ -23,47 +23,33 @@ prompt_preview: '---
   monitoring with emphasis on building production-ready ML syst...'
 full_prompt_length: 6463
 tools_mentioned:
-- gRPC
 - REST
+- gRPC
 category: 05-data-ai
 category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/ml-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/ml-engineer.md
-fetched_at: '2026-02-17T04:20:01.145990Z'
+fetched_at: '2026-02-18T04:21:39.517642Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:01:31.864384Z'
+  evaluated_at: '2026-02-18T04:32:24.391494Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt has a clear structure with defined sections and a comprehensive
-      checklist, but it's incomplete - the 'Implementation Phase' section cuts off
-      mid-sentence. While the technical content is specific and well-organized, the
-      abrupt ending creates ambiguity about the full workflow. The communication protocol
-      is well-defined but the incomplete implementation guidance limits clarity.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1fb90 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt provides substantial real-world value with detailed ML engineering
-      checklists covering production deployment, monitoring, and optimization. It
-      comprehensively addresses the ML lifecycle from data validation to production
-      patterns. The actionable checklists and tooling ecosystem references would help
-      users implement robust ML systems, though the incomplete workflow reduces practical
-      utility.
-  overall_rating: 3.75
-  summary: A technically comprehensive ML engineering prompt with excellent production-focused
-    checklists and tooling references, but significantly undermined by an incomplete
-    implementation section that cuts off mid-sentence, reducing its practical usability.
-  tags_suggested:
-  - machine-learning
-  - ml-engineering
-  - production-deployment
-  - mlops
-  - model-monitoring
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1fb90 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.921443Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.061811Z'
 ---

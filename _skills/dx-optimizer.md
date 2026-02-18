@@ -27,39 +27,26 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/dx-optimizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/dx-optimizer.md
-fetched_at: '2026-02-17T04:20:02.802308Z'
+fetched_at: '2026-02-18T04:21:41.540157Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:03:30.659787Z'
+  evaluated_at: '2026-02-18T04:33:39.524731Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt has strong structure with clear categories and a comprehensive
-      checklist, but it's incomplete and contains a critical flaw. The 'Experience
-      Analysis' section cuts off mid-sentence at 'Impl', leaving the workflow unfinished.
-      While the DX optimization framework is well-organized, the abrupt termination
-      undermines clarity and leaves key implementation steps undefined.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450ecb020 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt outlines a valuable DX optimization framework covering build
-      performance, tooling efficiency, and workflow automation with specific metrics
-      and targets. However, its practical utility is limited by the incomplete workflow
-      section, which prevents users from understanding the full implementation process.
-      The comprehensive checklist and categories provide strong real-world value for
-      developer productivity enhancement.
-  overall_rating: 3.75
-  summary: A well-structured but incomplete DX optimization prompt that provides a
-    solid framework for developer experience enhancement but needs completion of the
-    workflow section to be fully actionable.
-  tags_suggested:
-  - developer-experience
-  - build-optimization
-  - workflow-automation
-  - performance-tuning
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450ecb020 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.953910Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.086314Z'
 ---

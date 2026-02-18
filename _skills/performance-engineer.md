@@ -29,38 +29,26 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/performance-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/performance-engineer.md
-fetched_at: '2026-02-17T04:19:59.042660Z'
+fetched_at: '2026-02-18T04:21:36.839470Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:59:07.700687Z'
+  evaluated_at: '2026-02-18T04:30:43.811417Z'
   prompt_quality:
     score: 3.0
-    reasoning: The prompt provides a comprehensive framework with clear categories
-      and checklists, but it's incomplete and ends abruptly in the middle of a section.
-      While the structure is logical and the content is specific, the abrupt termination
-      creates ambiguity about the complete workflow and expected outputs.
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f245129ac60 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 3.5
-    reasoning: The prompt offers practical value with detailed performance engineering
-      checklists covering testing, profiling, optimization, and monitoring. However,
-      the incomplete nature limits its immediate actionability, and the lack of concrete
-      examples or step-by-step procedures makes it more of a reference guide than
-      a fully operational skill.
-  overall_rating: 3.25
-  summary: A well-structured but incomplete performance engineering prompt that provides
-    valuable frameworks and checklists but needs completion and more actionable guidance
-    to be fully effective.
-  tags_suggested:
-  - performance-engineering
-  - system-optimization
-  - load-testing
-  - bottleneck-analysis
-  - scalability
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f245129ac60 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.878729Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.029012Z'
 ---

@@ -26,38 +26,25 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/test-automator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/test-automator.md
-fetched_at: '2026-02-17T04:19:59.687186Z'
+fetched_at: '2026-02-18T04:21:37.704125Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:59:52.149467Z'
+  evaluated_at: '2026-02-18T04:31:17.125797Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly structured with clear sections for framework design,
-      automation strategies, and specific domains (UI, API, mobile, etc.). It provides
-      comprehensive checklists and structured protocols. However, it's incomplete
-      - the 'Implement' section is cut off mid-sentence, and the workflow lacks concrete
-      execution steps for the actual automation tasks.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f200b0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt provides excellent comprehensive coverage of test automation
-      best practices and would be valuable for establishing automation strategies
-      and frameworks. The structured approach with checklists and domain-specific
-      guidance is practical. However, the incomplete implementation section limits
-      immediate actionability for writing actual test code.
-  overall_rating: 4.25
-  summary: A well-structured but incomplete test automation framework prompt that
-    excels in strategic planning and comprehensive coverage guidance but lacks complete
-    implementation workflows for actual test creation.
-  tags_suggested:
-  - test-automation
-  - quality-assurance
-  - ci-cd
-  - framework-design
-  - testing-strategy
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f200b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.892695Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.039951Z'

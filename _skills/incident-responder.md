@@ -28,41 +28,26 @@ category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/incident-responder.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/incident-responder.md
-fetched_at: '2026-02-17T04:19:55.969221Z'
+fetched_at: '2026-02-18T04:21:32.774102Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:55:33.398305Z'
+  evaluated_at: '2026-02-18T04:28:13.537070Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, comprehensive
-      checklists, and detailed procedures. It follows best practices by defining specific
-      tools, workflows, and communication protocols. However, it has some ambiguity
-      in the 'When invoked' section where it references querying a 'context manager'
-      without defining how this interaction occurs, which could create confusion about
-      execution flow.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f230e0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt provides substantial real-world value with detailed incident
-      response frameworks covering security breaches, service outages, and operational
-      incidents. It includes actionable checklists, classification systems, and procedures
-      that would benefit actual incident management. The main limitation is that it's
-      more of a reference guide than a focused operational skill, potentially overwhelming
-      users with comprehensive but broad guidance.
-  overall_rating: 4.25
-  summary: A comprehensive and well-structured incident response prompt with excellent
-    procedural detail and best practices, though slightly hampered by ambiguous context
-    manager references and broad scope that may reduce immediate actionability.
-  tags_suggested:
-  - incident-response
-  - security
-  - operations
-  - forensics
-  - compliance
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f230e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.813361Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.979557Z'
 ---

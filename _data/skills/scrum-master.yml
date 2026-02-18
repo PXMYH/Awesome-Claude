@@ -26,36 +26,25 @@ category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/scrum-master.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/scrum-master.md
-fetched_at: '2026-02-17T04:20:07.729514Z'
+fetched_at: '2026-02-18T04:21:47.489002Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:09:03.882833Z'
+  evaluated_at: '2026-02-18T04:37:34.574936Z'
   prompt_quality:
     score: 3.0
-    reasoning: The prompt has good structure with clear sections and specific checklists,
-      but it's incomplete (cuts off mid-sentence in 'Team health check') and lacks
-      concrete instructions for tool usage. The communication protocol is defined
-      but not fully integrated into the workflow, and there's no guidance on how to
-      handle the truncated content or missing sections.
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450ecb290 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt provides comprehensive Scrum Master frameworks covering
-      all key ceremonies and metrics, making it highly practical for agile teams.
-      The detailed checklists and structured approach offer immediate value for facilitation
-      and improvement activities, though the incomplete sections limit full implementation.
-  overall_rating: 3.5
-  summary: A well-structured but incomplete Scrum Master prompt with strong framework
-    coverage that needs completion and better tool integration to reach its full potential.
-  tags_suggested:
-  - agile
-  - scrum
-  - facilitation
-  - team-coaching
-  - process-improvement
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450ecb290 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:38.055812Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.164810Z'

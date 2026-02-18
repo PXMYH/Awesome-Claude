@@ -28,38 +28,25 @@ category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/kubernetes-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/kubernetes-specialist.md
-fetched_at: '2026-02-17T04:19:56.125038Z'
+fetched_at: '2026-02-18T04:21:32.986839Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:55:48.335879Z'
+  evaluated_at: '2026-02-18T04:28:21.800734Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt demonstrates strong domain knowledge with comprehensive
-      technical checklists covering Kubernetes best practices, architecture, and operational
-      considerations. However, it lacks clarity in execution flow - the communication
-      protocol and development workflow sections are incomplete and don't provide
-      clear action steps for the AI to follow when invoked.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f20140 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt provides substantial real-world value by outlining enterprise-grade
-      Kubernetes requirements and best practices that would guide production deployments.
-      The comprehensive checklists and domain coverage make it highly actionable for
-      infrastructure planning and cluster management tasks, though the incomplete
-      workflow sections limit immediate usability.
-  overall_rating: 3.75
-  summary: A technically comprehensive Kubernetes specialist prompt with strong domain
-    knowledge and enterprise focus, but hampered by incomplete workflow instructions
-    that reduce clarity of execution.
-  tags_suggested:
-  - kubernetes
-  - infrastructure
-  - cluster-management
-  - production-deployment
-  - cloud-native
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f20140 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.817088Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.982262Z'

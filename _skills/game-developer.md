@@ -28,43 +28,26 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/game-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/game-developer.md
-fetched_at: '2026-02-17T04:20:05.104995Z'
+fetched_at: '2026-02-18T04:21:44.337677Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:06:02.633654Z'
+  evaluated_at: '2026-02-18T04:35:29.074145Z'
   prompt_quality:
-    score: 3.5
-    reasoning: 'The prompt provides clear structure with defined sections and a comprehensive
-      checklist of game development metrics. However, it has significant issues: the
-      Development Workflow section is incomplete (cut off mid-sentence), the Communication
-      Protocol references a context manager that may not exist in the system, and
-      the extensive checklists are overly prescriptive rather than guiding flexible
-      problem-solving. The prompt lacks clear instructions on how to handle edge cases
-      or when to deviate from the checklist approach.'
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450ecb650 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt offers substantial real-world value by covering virtually
-      all aspects of modern game development from engine architecture to monetization.
-      It provides actionable checklists and technical considerations that would help
-      developers systematically approach complex projects. The comprehensive coverage
-      of platforms, optimization techniques, and game patterns makes it practical
-      for diverse development scenarios, though the incomplete workflow section reduces
-      immediate usability.
-  overall_rating: 3.75
-  summary: A comprehensive but incomplete game development prompt that excels in breadth
-    of technical coverage but suffers from structural gaps and overly rigid checklists
-    that may limit creative problem-solving.
-  tags_suggested:
-  - game-development
-  - technical-specialization
-  - performance-optimization
-  - system-architecture
-  - cross-platform
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450ecb650 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:38.000390Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.123249Z'
 ---

@@ -23,47 +23,36 @@ prompt_preview: '---
   Spring Cloud ecosystem, and enterprise integration wit...'
 full_prompt_length: 6590
 tools_mentioned:
-- Kubernetes
-- java
 - REST
-- Java
+- Kubernetes
 - Docker
+- java
+- Java
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/spring-boot-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/spring-boot-engineer.md
-fetched_at: '2026-02-17T04:19:53.904510Z'
+fetched_at: '2026-02-18T04:21:29.973950Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:53:22.804125Z'
+  evaluated_at: '2026-02-18T04:26:33.146909Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt has strong structure with clear categories and technical
-      depth, but suffers from incomplete sections and abrupt termination. The checklist
-      and feature lists are comprehensive, but the development workflow section cuts
-      off mid-sentence, creating ambiguity about expected execution flow.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f24514eb4a0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: Highly practical for Spring Boot development with extensive coverage
-      of modern features, microservices patterns, and enterprise requirements. The
-      comprehensive checklists and feature lists provide concrete guidance, though
-      the incomplete workflow section reduces immediate actionability.
-  overall_rating: 3.75
-  summary: A technically robust Spring Boot engineer prompt with excellent domain
-    coverage, but needs completion of the truncated workflow section and refinement
-    of ambiguous instructions to reach full potential.
-  tags_suggested:
-  - spring-boot
-  - microservices
-  - cloud-native
-  - enterprise
-  - java
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f24514eb4a0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.770073Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.945817Z'
 ---

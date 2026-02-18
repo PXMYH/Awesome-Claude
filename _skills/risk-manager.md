@@ -28,41 +28,26 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/risk-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/risk-manager.md
-fetched_at: '2026-02-17T04:20:06.054575Z'
+fetched_at: '2026-02-18T04:21:45.528857Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:07:18.615083Z'
+  evaluated_at: '2026-02-18T04:36:19.344380Z'
   prompt_quality:
-    score: 2.5
-    reasoning: The prompt provides a comprehensive taxonomy of risk management concepts
-      and frameworks, but suffers from significant structural issues. The implementation
-      phase is incomplete (cut off mid-sentence at 'Monitoring se'), and the communication
-      protocol lacks practical implementation details. While the risk categories and
-      checklists are well-organized, the prompt lacks clear action instructions for
-      the agent to follow when invoked.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1fc20 state=finished
+      raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: The prompt contains valuable domain knowledge with extensive risk management
-      frameworks, methodologies, and categories that could be useful for risk assessment
-      tasks. However, its practical utility is severely limited by the incomplete
-      implementation workflow and unclear execution instructions. The extensive lists
-      of risk types and frameworks provide good reference material but don't translate
-      into actionable guidance for the agent.
-  overall_rating: 2.75
-  summary: This prompt demonstrates strong domain knowledge organization but is fundamentally
-    incomplete and structurally flawed, with a truncated implementation phase and
-    insufficient operational guidance for the agent to function effectively.
-  tags_suggested:
-  - risk-management
-  - compliance
-  - enterprise-risk
-  - incomplete-prompt
-  - domain-expert
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1fc20 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:38.022655Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.139933Z'
 ---

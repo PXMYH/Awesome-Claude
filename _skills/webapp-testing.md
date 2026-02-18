@@ -34,39 +34,26 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/webapp-testing/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/webapp-testing/SKILL.md
-fetched_at: '2026-02-17T04:20:15.360024Z'
+fetched_at: '2026-02-18T04:21:58.314235Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:15:33.588061Z'
+  evaluated_at: '2026-02-18T04:42:27.298406Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured, with a logical
-      decision tree, concrete examples, and specific best practices. It effectively
-      guides users through common scenarios while warning about pitfalls. The only
-      minor limitation is that it assumes the user has access to the specific helper
-      scripts mentioned, which may not always be the case.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f24512aac30 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This prompt provides immediate, practical value for testing local web
-      applications, covering the full workflow from server management to DOM inspection
-      and action execution. The inclusion of real code examples, common pitfalls,
-      and the reconnaissance-then-action pattern makes it highly actionable for developers
-      and testers working with Playwright.
-  overall_rating: 4.75
-  summary: A well-crafted, highly practical prompt that effectively guides users through
-    local web application testing with Playwright, offering clear decision trees,
-    concrete examples, and actionable best practices.
-  tags_suggested:
-  - playwright
-  - web testing
-  - automation
-  - local development
-  - testing toolkit
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f24512aac30 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 70711
-  forks: 7197
-  open_issues: 288
+  stars: 71144
+  forks: 7250
+  open_issues: 290
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-17T04:20:20.603230Z'
-indexed_at: '2026-02-17T04:20:38.179492Z'
+  fetched_at: '2026-02-18T04:22:05.644311Z'
+indexed_at: '2026-02-18T04:44:33.259791Z'
 ---

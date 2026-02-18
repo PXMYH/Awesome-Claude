@@ -28,39 +28,26 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/data-scientist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/data-scientist.md
-fetched_at: '2026-02-17T04:20:00.462730Z'
+fetched_at: '2026-02-18T04:21:38.666479Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:00:34.681300Z'
+  evaluated_at: '2026-02-18T04:31:50.973229Z'
   prompt_quality:
-    score: 2.5
-    reasoning: The prompt is highly structured with clear categories and checklists,
-      demonstrating strong specificity in data science methodologies. However, it
-      is incomplete (cut off mid-sentence in the 'Problem evaluation' section) and
-      lacks clear instructions on how the agent should actually execute tasks or interact
-      with the user, making it ambiguous in practical application.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f57b00 state=finished
+      raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: The prompt provides a comprehensive framework of data science concepts,
-      checklists, and workflows that could serve as a valuable reference or mental
-      model for an agent. It covers essential domains like statistical modeling, machine
-      learning, and business communication, offering practical value for structuring
-      data analysis tasks despite the incomplete execution instructions.
-  overall_rating: 2.75
-  summary: This is a well-structured but incomplete prompt that excels in defining
-    data science concepts and methodologies but fails to provide clear operational
-    instructions for the agent, limiting its immediate practical utility.
-  tags_suggested:
-  - data-science
-  - statistical-analysis
-  - machine-learning
-  - business-analytics
-  - incomplete-prompt
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f57b00 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.907112Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.050893Z'
 ---

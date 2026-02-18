@@ -19,39 +19,26 @@ category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/it-ops-orchestrator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/it-ops-orchestrator.md
-fetched_at: '2026-02-17T04:20:09.141571Z'
+fetched_at: '2026-02-18T04:21:49.925934Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:10:27.683485Z'
+  evaluated_at: '2026-02-18T04:38:41.486507Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and specific, defining a precise
-      role, routing logic, and integration points with other agents. It follows best
-      practices by providing concrete examples and a structured format. However, it
-      lacks explicit fallback guidance for truly ambiguous or out-of-scope tasks,
-      which is a minor edge case omission.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df3b00 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This skill has high real-world value for IT operations teams managing
-      hybrid environments, as it streamlines complex, multi-domain task routing. It
-      is comprehensive for its defined scope and actionable for users needing to delegate
-      specialized subtasks. Its utility is slightly limited by the assumption of a
-      pre-existing ecosystem of specialized agents.
-  overall_rating: 4.5
-  summary: A well-structured and highly practical meta-orchestration prompt that excels
-    in clarity and real-world applicability for IT operations, with minor room for
-    improvement in handling edge cases.
-  tags_suggested:
-  - meta-orchestration
-  - IT-operations
-  - task-routing
-  - PowerShell
-  - Azure
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df3b00 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:38.084917Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.187834Z'
 ---

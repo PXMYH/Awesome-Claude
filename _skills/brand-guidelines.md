@@ -35,39 +35,26 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/brand-guidelines/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/brand-guidelines/SKILL.md
-fetched_at: '2026-02-17T04:20:11.756411Z'
+fetched_at: '2026-02-18T04:21:53.275162Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:13:10.359464Z'
+  evaluated_at: '2026-02-18T04:40:31.619018Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured with explicit
-      color codes, font specifications, and fallback guidance. It defines scope (brand
-      styling for artifacts), constraints (font availability), and provides technical
-      implementation details. The only minor limitation is that it assumes specific
-      tools (python-pptx) without broader applicability guidance.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1fcb0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill provides high practical value for creating on-brand documents
-      and presentations, especially for internal Anthropic work. It's immediately
-      actionable with specific color codes and font names, though its utility is limited
-      to environments where python-pptx is available and brand compliance is required.
-      The comprehensive guidelines make it valuable for maintaining visual consistency.
-  overall_rating: 4.25
-  summary: A well-crafted, technically detailed prompt that effectively translates
-    Anthropic's brand guidelines into actionable styling instructions, though its
-    scope is somewhat constrained by specific tool dependencies.
-  tags_suggested:
-  - branding
-  - visual-design
-  - document-styling
-  - corporate-identity
-  - python-pptx
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1fcb0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 70711
-  forks: 7197
-  open_issues: 288
+  stars: 71144
+  forks: 7250
+  open_issues: 290
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-17T04:20:20.603230Z'
-indexed_at: '2026-02-17T04:20:38.132592Z'
+  fetched_at: '2026-02-18T04:22:05.644311Z'
+indexed_at: '2026-02-18T04:44:33.224132Z'
 ---

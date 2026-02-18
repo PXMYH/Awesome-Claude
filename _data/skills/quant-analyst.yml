@@ -27,37 +27,25 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/quant-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/quant-analyst.md
-fetched_at: '2026-02-17T04:20:05.901978Z'
+fetched_at: '2026-02-18T04:21:45.312224Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:07:06.264089Z'
+  evaluated_at: '2026-02-18T04:36:11.078604Z'
   prompt_quality:
     score: 3.0
-    reasoning: The prompt is highly specific and structured with clear categories,
-      but it lacks practical instructions for actual execution. It reads more like
-      a knowledge base or checklist than an actionable agent prompt, with incomplete
-      sections and no clear workflow for the agent to follow when responding to user
-      queries.
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451043e00 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 2.5
-    reasoning: While the prompt covers extensive quantitative finance concepts, it
-      provides limited practical value for real development tasks. The agent lacks
-      clear guidance on how to process user requests, and the incomplete development
-      workflow section makes it difficult for users to benefit from the skill in actual
-      scenarios.
-  overall_rating: 2.75
-  summary: This prompt functions better as a reference document than an actionable
-    agent skill, with comprehensive domain knowledge but insufficient operational
-    instructions for practical use.
-  tags_suggested:
-  - quantitative-finance
-  - trading-strategies
-  - risk-management
-  - incomplete-prompt
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451043e00 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:38.019072Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.137201Z'

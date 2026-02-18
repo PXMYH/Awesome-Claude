@@ -23,48 +23,33 @@ prompt_preview: '---
   development, and production deployment with emphasis on perfo...'
 full_prompt_length: 6727
 tools_mentioned:
-- gRPC
 - REST
+- gRPC
 category: 05-data-ai
 category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/ai-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/ai-engineer.md
-fetched_at: '2026-02-17T04:19:59.963903Z'
+fetched_at: '2026-02-18T04:21:38.060461Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:00:03.100081Z'
+  evaluated_at: '2026-02-18T04:31:25.345316Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt is highly structured with clear categories and checklists,
-      providing excellent specificity on AI engineering domains. However, it lacks
-      clarity on execution flow—specifically, how the agent should integrate the listed
-      frameworks, tools, and deployment patterns into actionable steps. The communication
-      protocol is incomplete, and the development workflow is cut off mid-sentence,
-      creating ambiguity in actual implementation.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f245127f9e0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt offers substantial real-world value by comprehensively covering
-      AI system design, from model selection to ethical governance and multi-modal
-      deployment. It provides a robust checklist and framework references that guide
-      practical development. However, its usefulness is limited by the incomplete
-      workflow and unclear integration of tools, which may hinder immediate actionability
-      without additional context.
-  overall_rating: 3.75
-  summary: A well-structured and comprehensive prompt that excels in breadth and specificity
-    for AI engineering but suffers from incomplete sections and unclear execution
-    guidance, reducing its immediate practicality.
-  tags_suggested:
-  - AI Engineering
-  - System Design
-  - Model Deployment
-  - Ethical AI
-  - Production Scaling
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f245127f9e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.896251Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.042674Z'
 ---

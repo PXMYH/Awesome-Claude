@@ -28,39 +28,26 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/slack-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/slack-expert.md
-fetched_at: '2026-02-17T04:20:04.003611Z'
+fetched_at: '2026-02-18T04:21:42.963986Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:04:52.774239Z'
+  evaluated_at: '2026-02-18T04:34:39.026491Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is highly specific and well-structured with clear expertise
-      areas and checklists. However, it's incomplete - the Development Workflow section
-      cuts off mid-sentence during the Analysis Phase, which creates ambiguity about
-      the full process. The core instructions are clear but the abrupt ending undermines
-      completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f205c0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This is extremely practical for Slack development with comprehensive
-      coverage of modern APIs, security practices, and architecture patterns. The
-      checklists and specific technical guidance provide immediate value for developers
-      building Slack apps. The only limitation is the incomplete workflow section.
-  overall_rating: 4.25
-  summary: A highly valuable Slack development skill with excellent technical depth
-    and practical guidance, though the prompt is incomplete and cuts off during the
-    workflow description.
-  tags_suggested:
-  - slack
-  - slack-api
-  - slack-bolt
-  - block-kit
-  - developer-tools
-  - api-integration
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f205c0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.978570Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.106692Z'
 ---

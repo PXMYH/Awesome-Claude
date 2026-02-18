@@ -30,39 +30,26 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/internal-comms/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/internal-comms/SKILL.md
-fetched_at: '2026-02-17T04:20:13.154874Z'
+fetched_at: '2026-02-18T04:21:55.234157Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:14:02.805765Z'
+  evaluated_at: '2026-02-18T04:41:18.684576Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly clear and specific, defining exact use cases and
-      a structured workflow with explicit file references. It follows best practices
-      by providing a clear trigger condition and a fallback for edge cases (asking
-      for clarification). The only minor weakness is that it assumes the existence
-      of specific external files, which could be a point of failure if those files
-      are missing or inaccessible.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451099820 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This skill offers high real-world value by standardizing internal communications,
-      which is a common and time-consuming business task. It is comprehensive for
-      the listed communication types and immediately actionable for users who need
-      to generate professional, consistent documents quickly. The utility is slightly
-      capped by its dependency on pre-existing template files.
-  overall_rating: 4.5
-  summary: A well-structured and highly practical skill that effectively automates
-    the creation of standardized internal communications, though its functionality
-    relies on the availability of specific external guideline files.
-  tags_suggested:
-  - business communication
-  - documentation
-  - workflow automation
-  - content generation
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451099820 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 70711
-  forks: 7197
-  open_issues: 288
+  stars: 71144
+  forks: 7250
+  open_issues: 290
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-17T04:20:20.603230Z'
-indexed_at: '2026-02-17T04:20:38.150370Z'
+  fetched_at: '2026-02-18T04:22:05.644311Z'
+indexed_at: '2026-02-18T04:44:33.237780Z'
 ---

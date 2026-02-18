@@ -29,39 +29,26 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/mcp-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/mcp-developer.md
-fetched_at: '2026-02-17T04:20:03.286499Z'
+fetched_at: '2026-02-18T04:21:42.147121Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:04:06.802754Z'
+  evaluated_at: '2026-02-18T04:34:04.829485Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt is highly specific and structured with clear sections for
-      different MCP development aspects, but it's incomplete and cuts off mid-sentence
-      in the workflow section. It lacks clear instructions on how to execute the workflow
-      or handle the context query, making it somewhat ambiguous despite its detailed
-      checklists.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f20ef0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This prompt provides comprehensive coverage of MCP development best
-      practices, security considerations, and deployment strategies, making it valuable
-      for real-world development tasks. The detailed checklists and categories offer
-      practical guidance, though the incomplete workflow section reduces immediate
-      actionability.
-  overall_rating: 3.75
-  summary: A well-structured but incomplete prompt that provides valuable MCP development
-    guidance with strong technical depth, though execution instructions need completion
-    for full practicality.
-  tags_suggested:
-  - MCP Development
-  - Protocol Implementation
-  - AI Integration
-  - Developer Tools
-  - System Architecture
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f20ef0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.964341Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.095117Z'
 ---

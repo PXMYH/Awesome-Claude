@@ -23,47 +23,33 @@ prompt_preview: '---
 full_prompt_length: 6793
 tools_mentioned:
 - WebSocket
-- GraphQL
 - REST
+- GraphQL
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/multi-agent-coordinator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/multi-agent-coordinator.md
-fetched_at: '2026-02-17T04:20:09.472153Z'
+fetched_at: '2026-02-18T04:21:50.334791Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:10:49.698381Z'
+  evaluated_at: '2026-02-18T04:38:58.033670Z'
   prompt_quality:
-    score: 2.0
-    reasoning: The prompt is highly ambiguous and incomplete, with the workflow analysis
-      section abruptly cutting off mid-sentence ('Analyze'). While it attempts to
-      be comprehensive with extensive checklists and categories, the instructions
-      lack concrete action steps and clear execution guidance. The coordination context
-      query is defined but not integrated into a coherent workflow, making it unclear
-      how the agent should actually proceed.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1f980 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 1.5
-    reasoning: The prompt has limited practical value due to its incomplete nature
-      and lack of actionable implementation details. While the concepts covered (coordination
-      patterns, fault tolerance, etc.) are theoretically valuable for multi-agent
-      systems, the prompt doesn't provide usable guidance for actual development tasks.
-      The abrupt ending and vague instructions make it difficult for users to benefit
-      immediately.
-  overall_rating: 1.75
-  summary: This prompt appears to be a work-in-progress draft that lists important
-    multi-agent coordination concepts but fails to provide a complete, actionable
-    framework for execution.
-  tags_suggested:
-  - meta-orchestration
-  - multi-agent-systems
-  - workflow-orchestration
-  - distributed-systems
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1f980 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:38.092414Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.193551Z'
 ---

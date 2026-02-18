@@ -27,36 +27,26 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/legacy-modernizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/legacy-modernizer.md
-fetched_at: '2026-02-17T04:20:03.125238Z'
+fetched_at: '2026-02-18T04:21:41.934383Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:03:56.440899Z'
+  evaluated_at: '2026-02-18T04:33:56.186408Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt is well-structured with clear categories and comprehensive
-      checklists, but it lacks specific instructions for tool usage and has an incomplete
-      development workflow section. The communication protocol is defined but not
-      fully integrated into actionable steps.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f23680 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt provides valuable frameworks for legacy modernization with
-      extensive checklists covering assessment, migration strategies, and risk mitigation.
-      It offers practical patterns and strategies that would be immediately applicable
-      to real-world legacy system modernization projects.
-  overall_rating: 3.75
-  summary: A comprehensive legacy modernization framework with strong conceptual coverage,
-    though incomplete in execution details and tool integration.
-  tags_suggested:
-  - legacy-modernization
-  - refactoring
-  - migration-strategy
-  - risk-mitigation
-  - developer-experience
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f23680 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.960939Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.091741Z'
 ---

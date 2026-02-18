@@ -29,40 +29,26 @@ category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/data-researcher.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/data-researcher.md
-fetched_at: '2026-02-17T04:20:10.421842Z'
+fetched_at: '2026-02-18T04:21:51.494016Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:11:49.256224Z'
+  evaluated_at: '2026-02-18T04:39:39.900278Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt is highly structured and specific, providing a comprehensive
-      checklist and workflow phases that demonstrate clear intent. However, it suffers
-      from significant ambiguity in the 'Communication Protocol' section, which references
-      a JSON query to a 'context manager' without defining what this entity is or
-      how the agent should interact with it, creating a potential execution failure
-      point.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df16d0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt offers high practical value by outlining a complete data
-      research lifecycle from discovery to insight generation, covering essential
-      methodologies and quality checks. It serves as a robust template for complex
-      research tasks, though its utility depends on the user having access to the
-      specific tools listed and the undefined context manager.
-  overall_rating: 3.75
-  summary: A comprehensive and well-structured prompt for data research that excels
-    in scope definition but is hindered by an ambiguous communication protocol referencing
-    an undefined system component.
-  tags_suggested:
-  - data-analysis
-  - research-methodology
-  - workflow-automation
-  - data-quality
-  - statistical-analysis
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df16d0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:38.110823Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.207655Z'
 ---

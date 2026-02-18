@@ -34,42 +34,26 @@ category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/windows-infra-admin.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/windows-infra-admin.md
-fetched_at: '2026-02-17T04:19:57.259829Z'
+fetched_at: '2026-02-18T04:21:34.525915Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:56:57.439170Z'
+  evaluated_at: '2026-02-18T04:29:20.262802Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly clear and specific, defining a precise scope (Active
-      Directory, DNS, DHCP, GPO, server administration) and expected behaviors (safe,
-      repeatable, documented workflows). It follows best practices by including structured
-      sections (Core Capabilities, Checklists, Example Use Cases) and explicitly lists
-      tools and integration points. However, it lacks explicit edge-case handling
-      or fallback guidance for scenarios like permission failures or partial failures
-      during automation.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451009040 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This skill offers high real-world value for IT administrators managing
-      Windows infrastructure, providing actionable checklists and example use cases
-      for common tasks like migrations and restructuring. It is comprehensive in covering
-      key enterprise domains (AD, DNS, DHCP, GPO) and promotes safety through pre-change
-      verification and rollback planning. Users can immediately benefit from the structured
-      approach to automate and document infrastructure changes.
-  overall_rating: 4.5
-  summary: A well-structured, practical prompt that excels in clarity and real-world
-    applicability for Windows infrastructure automation, though it could be strengthened
-    with more explicit edge-case handling.
-  tags_suggested:
-  - windows
-  - active-directory
-  - powershell
-  - infrastructure-automation
-  - enterprise-it
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451009040 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.842052Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.001748Z'
 ---

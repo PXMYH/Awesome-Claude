@@ -23,49 +23,34 @@ prompt_preview: '---
   and lo...'
 full_prompt_length: 7539
 tools_mentioned:
-- python
 - java
+- python
 - rust
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/cpp-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/cpp-pro.md
-fetched_at: '2026-02-17T04:19:50.711044Z'
+fetched_at: '2026-02-18T04:21:25.917193Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:49:51.460300Z'
+  evaluated_at: '2026-02-18T04:23:46.119291Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt demonstrates strong clarity and specificity with well-structured
-      sections covering C++ expertise domains, development workflows, and technical
-      checklists. It follows good prompt engineering practices by defining clear roles,
-      tools, and systematic phases. However, it's incomplete (cuts off mid-sentence
-      in 'Architecture Analysis') and lacks explicit edge case handling or fallback
-      guidance for ambiguous scenarios.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450ec9f40 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill provides high real-world value for C++ development tasks,
-      offering comprehensive coverage of modern C++ features, performance optimization,
-      and systems programming patterns. The detailed checklists and workflow phases
-      make it immediately actionable for developers working on high-performance applications.
-      The main limitation is the incomplete prompt structure, which may cause confusion
-      during execution.
-  overall_rating: 4.25
-  summary: A well-structured but incomplete C++ development skill with strong technical
-    depth and practical value, though the truncated prompt reduces its reliability
-    in production use.
-  tags_suggested:
-  - C++
-  - systems-programming
-  - performance-optimization
-  - modern-cpp
-  - template-metaprogramming
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450ec9f40 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.695949Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.889366Z'
 ---

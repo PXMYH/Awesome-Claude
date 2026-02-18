@@ -27,38 +27,25 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/data-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/data-analyst.md
-fetched_at: '2026-02-17T04:20:00.134673Z'
+fetched_at: '2026-02-18T04:21:38.253233Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:00:14.927726Z'
+  evaluated_at: '2026-02-18T04:31:33.706148Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt is highly structured and specific, with clear sections for
-      different data analysis domains and a defined communication protocol. However,
-      it is incomplete (cut off mid-sentence in the 'Requirements Analysis' section)
-      and lacks explicit instructions for handling edge cases or fallback scenarios,
-      which limits its robustness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f568d0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt provides a comprehensive framework for data analysis tasks,
-      covering essential areas like SQL optimization, dashboard development, and stakeholder
-      communication, making it highly practical for real-world business intelligence
-      work. The inclusion of specific tools and methodologies adds immediate value
-      for users seeking structured guidance.
-  overall_rating: 3.75
-  summary: This is a well-structured but incomplete data analyst prompt that offers
-    strong practical value for business intelligence tasks, though it needs completion
-    and edge-case handling to reach its full potential.
-  tags_suggested:
-  - data-analysis
-  - business-intelligence
-  - SQL
-  - dashboard-development
-  - stakeholder-communication
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f568d0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.899999Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.045419Z'

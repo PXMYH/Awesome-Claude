@@ -28,39 +28,26 @@ category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/performance-monitor.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/performance-monitor.md
-fetched_at: '2026-02-17T04:20:09.625163Z'
+fetched_at: '2026-02-18T04:21:50.529973Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:11:04.430489Z'
+  evaluated_at: '2026-02-18T04:39:06.625203Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly structured and clear, with a well-defined role,
-      toolset, and systematic workflow. It follows best practices by providing extensive
-      checklists and categories for comprehensive coverage. However, it lacks explicit
-      handling of edge cases (e.g., what to do if monitoring data is unavailable)
-      and could be more concise to avoid overwhelming the AI with redundant lists.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f245125f320 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill offers high real-world value for system administrators or
-      developers managing distributed agent systems, providing actionable frameworks
-      for monitoring, anomaly detection, and optimization. It is comprehensive in
-      covering key performance areas, though the lack of specific implementation examples
-      or integration steps may limit immediate actionability for beginners.
-  overall_rating: 4.25
-  summary: A robust, well-structured prompt for performance monitoring in multi-agent
-    systems, excelling in clarity and scope but slightly hindered by verbosity and
-    missing edge-case guidance.
-  tags_suggested:
-  - observability
-  - system monitoring
-  - performance optimization
-  - metrics analysis
-  - anomaly detection
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f245125f320 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:38.096163Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.196432Z'
 ---

@@ -29,45 +29,33 @@ prompt_preview: '---
   Ass...'
 full_prompt_length: 3266
 tools_mentioned:
-- python
 - pytest
+- python
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/writing-plans/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/writing-plans/SKILL.md
-fetched_at: '2026-02-17T04:20:19.385973Z'
+fetched_at: '2026-02-18T04:22:04.028628Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:19:38.556178Z'
+  evaluated_at: '2026-02-18T04:44:24.285998Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and specific, defining exact file
-      paths, code snippets, and commands. It follows strong prompt engineering practices
-      by setting explicit constraints (zero context, questionable taste) and providing
-      a rigid structure. The only minor deduction is for the slightly ambiguous 'questionable
-      taste' assumption, which could be interpreted differently.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df3ce0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides immense real-world value for complex development
-      tasks by enforcing TDD, DRY, and YAGNI principles. It comprehensively covers
-      implementation from test to commit, making it highly actionable for engineers.
-      The execution handoff options add practical flexibility for different workflow
-      preferences.
-  overall_rating: 4.75
-  summary: An outstanding prompt that creates a rigorous, executable implementation
-    plan with exceptional clarity and practical utility for software development.
-  tags_suggested:
-  - planning
-  - tdd
-  - implementation
-  - documentation
-  - code-generation
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df3ce0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 52943
-  forks: 4016
-  open_issues: 145
-  last_commit: '2026-02-12'
-  fetched_at: '2026-02-17T04:20:20.906871Z'
-indexed_at: '2026-02-17T04:20:38.231404Z'
+  stars: 53704
+  forks: 4075
+  open_issues: 151
+  last_commit: '2026-02-17'
+  fetched_at: '2026-02-18T04:22:06.119879Z'
+indexed_at: '2026-02-18T04:44:33.299059Z'
 ---

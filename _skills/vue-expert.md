@@ -23,53 +23,37 @@ prompt_preview: '---
   optimization, and full-stack development with emphasis...'
 full_prompt_length: 6502
 tools_mentioned:
-- Vue
 - javascript
 - TypeScript
-- vue
 - JavaScript
 - typescript
+- vue
+- Vue
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/vue-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/vue-expert.md
-fetched_at: '2026-02-17T04:19:54.554994Z'
+fetched_at: '2026-02-18T04:21:30.800653Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:54:14.804505Z'
+  evaluated_at: '2026-02-18T04:27:06.641244Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt has a clear structure with defined sections and a comprehensive
-      checklist of Vue expertise areas. However, it lacks specific instructions for
-      the agent's actual behavior when invoked, contains incomplete sections (e.g.,
-      'Implementation Phase' is cut off), and the communication protocol is overly
-      verbose without clear action steps. The checklist items are good but need to
-      be translated into actionable guidance.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f56960 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt covers a comprehensive range of Vue 3 development topics
-      including Composition API, Nuxt 3, performance optimization, and enterprise
-      patterns, making it highly valuable for real-world Vue development. The detailed
-      checklists and topic areas provide excellent reference material for developers.
-      However, the incomplete workflow and lack of concrete implementation steps reduce
-      immediate practicality.
-  overall_rating: 3.75
-  summary: A well-structured Vue expertise prompt with comprehensive topic coverage
-    but needs completion of workflow sections and more actionable implementation guidance
-    to be fully effective.
-  tags_suggested:
-  - vue
-  - vue3
-  - composition-api
-  - nuxt
-  - frontend
-  - web-development
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f56960 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.785114Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.957155Z'
 ---

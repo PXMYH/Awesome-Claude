@@ -22,39 +22,26 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/pptx/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/pptx/SKILL.md
-fetched_at: '2026-02-17T04:20:13.942084Z'
+fetched_at: '2026-02-18T04:21:56.375354Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:14:39.890747Z'
+  evaluated_at: '2026-02-18T04:41:45.243775Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is well-structured with clear sections for different use
-      cases (reading/analysis vs. creation) and provides specific technical instructions.
-      However, it appears truncated at the end (cut off mid-sentence in the color
-      palette section), which reduces clarity and completeness. The instructions for
-      XML access and tool usage are specific and actionable.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df3f80 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill provides practical workflows for common PowerPoint tasks
-      like text extraction, XML analysis, and HTML-to-PPTX conversion. The inclusion
-      of specific file paths and command examples makes it immediately actionable
-      for developers. However, the truncated content and lack of complete guidance
-      on the HTML-to-PPTX workflow limits its full practical value.
-  overall_rating: 4.25
-  summary: A technically sound prompt with clear workflows for PowerPoint manipulation,
-    but the truncated content and incomplete sections prevent it from reaching its
-    full potential as a comprehensive skill.
-  tags_suggested:
-  - pptx
-  - powerpoint
-  - xml
-  - presentation
-  - document-processing
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df3f80 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 70711
-  forks: 7197
-  open_issues: 288
+  stars: 71144
+  forks: 7250
+  open_issues: 290
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-17T04:20:20.603230Z'
-indexed_at: '2026-02-17T04:20:38.161306Z'
+  fetched_at: '2026-02-18T04:22:05.644311Z'
+indexed_at: '2026-02-18T04:44:33.245918Z'
 ---

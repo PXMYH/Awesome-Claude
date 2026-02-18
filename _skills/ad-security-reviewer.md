@@ -30,41 +30,26 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/ad-security-reviewer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ad-security-reviewer.md
-fetched_at: '2026-02-17T04:19:57.705032Z'
+fetched_at: '2026-02-18T04:21:35.168615Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:57:20.965321Z'
+  evaluated_at: '2026-02-18T04:29:36.925762Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections for
-      capabilities, checklists, and integration. It uses specific Active Directory
-      terminology and defines a comprehensive scope. However, it lacks explicit handling
-      of edge cases like multi-forest environments or hybrid cloud scenarios, and
-      doesn't provide fallback guidance for when certain tools or data sources might
-      be unavailable.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f576b0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This prompt delivers high real-world value by addressing critical AD
-      security concerns with actionable checklists and deliverables. It comprehensively
-      covers identity attack paths, privilege escalation, and domain hardening with
-      specific technical areas like LDAP signing, GPO security, and attack surface
-      reduction. The integration section with other agents shows practical workflow
-      planning for enterprise security operations.
-  overall_rating: 4.75
-  summary: This is a highly effective security specialist prompt with excellent structure,
-    comprehensive coverage of AD security domains, and practical deliverables that
-    would immediately benefit security professionals conducting enterprise AD assessments.
-  tags_suggested:
-  - Active Directory
-  - Security Hardening
-  - Identity Management
-  - Enterprise Security
-  - Privilege Escalation
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f576b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.849509Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.007198Z'
 ---

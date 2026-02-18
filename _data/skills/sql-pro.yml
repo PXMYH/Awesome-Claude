@@ -23,52 +23,34 @@ prompt_preview: '---
 full_prompt_length: 7410
 tools_mentioned:
 - java
-- MySQL
-- python
 - PostgreSQL
 - rest
+- python
+- MySQL
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/sql-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/sql-pro.md
-fetched_at: '2026-02-17T04:19:54.061785Z'
+fetched_at: '2026-02-18T04:21:30.176958Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:53:35.767170Z'
+  evaluated_at: '2026-02-18T04:26:41.617191Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is highly specific and well-structured, clearly defining
-      the agent's expertise across multiple database systems and advanced SQL features.
-      It follows good prompt engineering practices with structured sections and checklists.
-      However, it's incomplete - the development workflow section is cut off mid-sentence,
-      and the communication protocol lacks implementation details for how the agent
-      should actually request context from users.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f568d0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This is an extremely practical and comprehensive SQL development skill
-      that covers real-world scenarios like query optimization, performance tuning,
-      and database architecture. The extensive checklists and pattern references provide
-      immediate value for developers working with complex databases. The inclusion
-      of specific database features and security considerations makes it highly actionable
-      for enterprise development tasks.
-  overall_rating: 4.25
-  summary: A well-conceived SQL development skill with comprehensive coverage of database
-    expertise and optimization techniques, though the prompt is incomplete and would
-    benefit from a complete development workflow and clearer user interaction protocols.
-  tags_suggested:
-  - SQL
-  - Database
-  - Performance
-  - Optimization
-  - PostgreSQL
-  - MySQL
-  - SQL Server
-  - Oracle
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f568d0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.773664Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.948643Z'

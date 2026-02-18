@@ -32,36 +32,25 @@ category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/powershell-7-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/powershell-7-expert.md
-fetched_at: '2026-02-17T04:19:53.125592Z'
+fetched_at: '2026-02-18T04:21:28.973309Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:52:33.858952Z'
+  evaluated_at: '2026-02-18T04:25:51.396829Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is well-structured with clear sections and specific capabilities,
-      following good prompt engineering practices. It defines scope, constraints,
-      and expected behavior effectively, though it could benefit from more explicit
-      edge case handling and fallback guidance for unsupported scenarios.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450e9a6f0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill provides high real-world value for PowerShell 7+ automation
-      tasks, especially in cloud and enterprise environments. It covers modern .NET
-      integration, cross-platform scripting, and DevOps tooling comprehensively, making
-      it immediately actionable for developers and IT professionals.
-  overall_rating: 4.25
-  summary: A strong, well-structured prompt that effectively targets PowerShell 7+
-    expertise with clear cross-platform and cloud automation focus, though it could
-    be enhanced with more explicit edge case handling.
-  tags_suggested:
-  - powershell
-  - cloud-automation
-  - devops
-  - azure
-  - cross-platform
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450e9a6f0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.751422Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.931599Z'

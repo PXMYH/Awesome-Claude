@@ -28,39 +28,26 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/tooling-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/tooling-engineer.md
-fetched_at: '2026-02-17T04:20:04.167553Z'
+fetched_at: '2026-02-18T04:21:43.151978Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:05:03.003977Z'
+  evaluated_at: '2026-02-18T04:34:47.343402Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is well-structured with clear sections for tool categories,
-      architecture, and development workflow. However, it's incomplete - the 'Implementation
-      Phase' section cuts off mid-sentence, and the communication protocol is underdeveloped.
-      The checklist format provides good specificity, but the prompt lacks concrete
-      examples or step-by-step guidance for actual tool development.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f22f90 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 3.5
-    reasoning: The prompt provides valuable frameworks for thinking about developer
-      tool creation, covering important aspects like performance, UX, and distribution.
-      However, its incomplete nature and lack of actionable implementation steps limit
-      immediate practical value. The broad scope across multiple tool categories is
-      comprehensive but may overwhelm users seeking specific guidance.
-  overall_rating: 3.75
-  summary: A well-organized but incomplete prompt that provides a solid conceptual
-    framework for developer tool creation, though it lacks full implementation guidance
-    and concrete examples.
-  tags_suggested:
-  - developer-tools
-  - cli-development
-  - tool-architecture
-  - productivity
-  - build-systems
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f22f90 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.982084Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.109461Z'
 ---

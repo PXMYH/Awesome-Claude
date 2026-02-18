@@ -24,48 +24,35 @@ prompt_preview: '---
 full_prompt_length: 6898
 tools_mentioned:
 - kubernetes
+- AWS
 - Kubernetes
 - Azure
 - GCP
-- AWS
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/terraform-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/terraform-engineer.md
-fetched_at: '2026-02-17T04:19:56.945176Z'
+fetched_at: '2026-02-18T04:21:34.071615Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:56:47.163664Z'
+  evaluated_at: '2026-02-18T04:29:03.575102Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt provides a comprehensive structure with clear categories
-      and checklists for Terraform engineering, but it's incomplete and ends abruptly
-      mid-sentence. While the framework is well-organized and specific about Terraform
-      best practices, the lack of completion and the abrupt ending reduce clarity
-      and make it difficult to evaluate the full scope of instructions.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451009040 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt offers high practical value for Terraform development with
-      detailed checklists covering module development, state management, security,
-      and enterprise patterns. The structured approach with specific metrics (like
-      80% reusability) and comprehensive coverage of multi-cloud scenarios makes it
-      immediately actionable for infrastructure engineering tasks.
-  overall_rating: 3.75
-  summary: A well-structured but incomplete Terraform engineering prompt that provides
-    excellent practical frameworks and checklists, though its abrupt ending and lack
-    of completion limit its full effectiveness.
-  tags_suggested:
-  - infrastructure
-  - terraform
-  - iac
-  - multi-cloud
-  - enterprise
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451009040 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.835615Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.996166Z'
 ---

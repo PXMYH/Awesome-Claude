@@ -16,46 +16,33 @@ prompt_preview: '---
   license: Proprietary. LICENSE.txt h...'
 full_prompt_length: 8035
 tools_mentioned:
-- Python
 - JavaScript
+- Python
 - python
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/pdf/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md
-fetched_at: '2026-02-17T04:20:13.681978Z'
+fetched_at: '2026-02-18T04:21:55.983808Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:14:25.481483Z'
+  evaluated_at: '2026-02-18T04:41:36.962696Z'
   prompt_quality:
-    score: 2.5
-    reasoning: The prompt provides clear code examples for common PDF operations,
-      but lacks critical context about required installations, environment setup,
-      and error handling. The incomplete code snippet at the end demonstrates poor
-      attention to detail, and there's no guidance on handling edge cases like corrupted
-      files or permission issues.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df1fd0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 3.5
-    reasoning: The skill covers practical PDF manipulation tasks including text extraction,
-      table extraction, merging, splitting, and creation, which are valuable for real-world
-      document processing workflows. However, the incomplete example and missing installation
-      instructions reduce immediate usability, requiring users to research additional
-      setup steps.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df1fd0 state=finished
+      raised HTTPError>]'
   overall_rating: 3.0
-  summary: A moderately useful PDF processing guide with practical code examples,
-    but significantly hampered by an incomplete code snippet and missing setup instructions
-    that would hinder immediate implementation.
-  tags_suggested:
-  - pdf
-  - document-processing
-  - python
-  - text-extraction
-  - table-extraction
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 70711
-  forks: 7197
-  open_issues: 288
+  stars: 71144
+  forks: 7250
+  open_issues: 290
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-17T04:20:20.603230Z'
-indexed_at: '2026-02-17T04:20:38.157791Z'
+  fetched_at: '2026-02-18T04:22:05.644311Z'
+indexed_at: '2026-02-18T04:44:33.243205Z'

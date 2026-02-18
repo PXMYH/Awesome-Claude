@@ -23,50 +23,37 @@ prompt_preview: '---
   Spring Boot, microservices architecture, and reactive pro...'
 full_prompt_length: 7653
 tools_mentioned:
+- REST
+- JUnit
 - Kubernetes
 - java
-- REST
 - Java
-- JUnit
 - rest
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/java-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/java-architect.md
-fetched_at: '2026-02-17T04:19:51.994013Z'
+fetched_at: '2026-02-18T04:21:27.605519Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:51:20.389279Z'
+  evaluated_at: '2026-02-18T04:24:52.905109Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is highly specific and well-structured with clear categories
-      covering enterprise Java development comprehensively. However, it's truncated
-      at the end (incomplete JSON query example), which creates ambiguity about the
-      communication protocol implementation. The checklist format is excellent but
-      could benefit from more explicit action instructions.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450ec82c0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This provides exceptional value for enterprise Java development with
-      thorough coverage of modern practices, Spring ecosystem, and microservices patterns.
-      The comprehensive checklists and patterns serve as excellent reference material
-      for real-world development tasks. The only limitation is the incomplete communication
-      protocol which may cause implementation issues.
-  overall_rating: 4.25
-  summary: A robust, enterprise-focused Java architect prompt with excellent depth
-    in modern Java practices and Spring ecosystem, though slightly hampered by incomplete
-    communication protocol specification.
-  tags_suggested:
-  - enterprise-java
-  - spring-boot
-  - microservices
-  - clean-architecture
-  - cloud-native
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450ec82c0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.726094Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.911895Z'
 ---

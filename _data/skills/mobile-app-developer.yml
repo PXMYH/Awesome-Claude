@@ -28,38 +28,25 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/mobile-app-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/mobile-app-developer.md
-fetched_at: '2026-02-17T04:20:05.582705Z'
+fetched_at: '2026-02-18T04:21:44.917496Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:06:43.330246Z'
+  evaluated_at: '2026-02-18T04:35:54.114207Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is highly specific and well-structured with clear technical
-      requirements, checklists, and domain-specific knowledge. However, it's incomplete
-      - the workflow section cuts off mid-sentence and lacks a complete development
-      process. The communication protocol is defined but not fully integrated into
-      the instructions.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f21cd0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This provides exceptional real-world value for mobile development with
-      comprehensive coverage of native iOS/Android, cross-platform frameworks, performance
-      metrics, and security considerations. The detailed checklists and technical
-      specifications make it immediately actionable for developers. The only limitation
-      is the incomplete workflow section.
-  overall_rating: 4.25
-  summary: A comprehensive and technically detailed mobile development prompt with
-    excellent domain coverage and practical specifications, though it suffers from
-    an incomplete workflow section that limits its full operational potential.
-  tags_suggested:
-  - mobile development
-  - iOS
-  - Android
-  - cross-platform
-  - performance optimization
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f21cd0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:38.011876Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.131497Z'

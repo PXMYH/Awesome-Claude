@@ -23,47 +23,34 @@ prompt_preview: '---
   data platforms. Your focus spans pipeline archit...'
 full_prompt_length: 6548
 tools_mentioned:
+- AWS
 - Kubernetes
 - Azure
-- AWS
 category: 05-data-ai
 category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/data-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/data-engineer.md
-fetched_at: '2026-02-17T04:20:00.308413Z'
+fetched_at: '2026-02-18T04:21:38.463124Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:00:24.694045Z'
+  evaluated_at: '2026-02-18T04:31:41.968889Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt provides clear structure with defined sections for architecture,
-      ETL, data lake, stream processing, and tools, but lacks specificity in execution
-      instructions and has incomplete sections (e.g., 'Optimize perfor' is truncated).
-      It follows some best practices with checklists and structured workflows, but
-      edge cases and fallback guidance are not addressed.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f208f0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt offers high real-world value by covering comprehensive data
-      engineering domains including big data tools, cloud platforms, and orchestration
-      frameworks, making it practical for pipeline development. It provides actionable
-      checklists and workflows that users can apply directly to design and implement
-      data platforms.
-  overall_rating: 3.75
-  summary: This is a well-structured data engineering prompt with strong domain coverage
-    and practical frameworks, though it suffers from minor completeness issues and
-    lacks detailed execution guidance for complex scenarios.
-  tags_suggested:
-  - data-engineering
-  - etl-pipeline
-  - big-data
-  - cloud-platforms
-  - data-architecture
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f208f0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.903538Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.048130Z'
 ---

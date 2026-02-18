@@ -23,56 +23,41 @@ prompt_preview: '---
   build tooling. Your expertise spans frontend fra...'
 full_prompt_length: 7381
 tools_mentioned:
-- Angular
 - react
-- Vue
 - javascript
+- TypeScript
+- React
+- JavaScript
 - WebSocket
 - Node.js
-- TypeScript
-- JavaScript
-- React
 - rust
+- typescript
+- Angular
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/typescript-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/typescript-pro.md
-fetched_at: '2026-02-17T04:19:54.398326Z'
+fetched_at: '2026-02-18T04:21:30.585145Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:54:04.362599Z'
+  evaluated_at: '2026-02-18T04:26:58.229319Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly structured and specific, clearly defining the
-      agent's expertise, tools, and development workflow. It includes comprehensive
-      checklists and patterns that guide the agent toward high-quality TypeScript
-      development. However, the prompt is incomplete, ending abruptly mid-sentence
-      in the 'Development Workflow' section, which introduces ambiguity about the
-      full intended process.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f578f0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt is very practical for real-world TypeScript development,
-      covering advanced type systems, full-stack safety, and modern tooling that directly
-      benefit developers. It provides actionable checklists and patterns that can
-      be immediately applied to improve code quality and maintainability. The incompleteness
-      slightly reduces its immediate usability, but the existing content is highly
-      valuable.
-  overall_rating: 4.25
-  summary: A well-structured and expert-level TypeScript prompt with comprehensive
-    coverage of advanced patterns and best practices, though it is incomplete and
-    cuts off during the workflow description.
-  tags_suggested:
-  - TypeScript
-  - Full-Stack Development
-  - Type Safety
-  - Build Optimization
-  - Developer Experience
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f578f0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.781202Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.954236Z'
 ---

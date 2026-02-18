@@ -37,40 +37,26 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/slack-gif-creator/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/slack-gif-creator/SKILL.md
-fetched_at: '2026-02-17T04:20:14.527675Z'
+fetched_at: '2026-02-18T04:21:57.195057Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:15:01.939151Z'
+  evaluated_at: '2026-02-18T04:42:02.072110Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured, with specific
-      technical constraints for Slack optimization (dimensions, FPS, colors). It provides
-      concrete code examples and actionable guidance for both image handling and drawing
-      from scratch. The only minor limitation is that it assumes certain utilities
-      exist (like GIFBuilder and validators) without explaining their implementation.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1f8f0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides immediate practical value for creating Slack-optimized
-      GIFs with specific technical requirements. It covers the complete workflow from
-      frame generation to optimization, addressing real-world constraints like file
-      size and platform compatibility. The guidance on visual design and polish elevates
-      it beyond basic functionality to professional-quality output.
-  overall_rating: 4.75
-  summary: An excellent, production-ready skill that balances technical precision
-    with creative guidance, providing everything needed to create professional Slack
-    GIFs while maintaining optimal performance characteristics.
-  tags_suggested:
-  - slack
-  - gif
-  - animation
-  - image-processing
-  - optimization
-  - emoji
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1f8f0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 70711
-  forks: 7197
-  open_issues: 288
+  stars: 71144
+  forks: 7250
+  open_issues: 290
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-17T04:20:20.603230Z'
-indexed_at: '2026-02-17T04:20:38.168519Z'
+  fetched_at: '2026-02-18T04:22:05.644311Z'
+indexed_at: '2026-02-18T04:44:33.251508Z'
 ---

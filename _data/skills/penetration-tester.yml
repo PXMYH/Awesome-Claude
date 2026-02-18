@@ -27,37 +27,25 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/penetration-tester.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/penetration-tester.md
-fetched_at: '2026-02-17T04:19:58.864169Z'
+fetched_at: '2026-02-18T04:21:36.617867Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:58:57.885896Z'
+  evaluated_at: '2026-02-18T04:30:35.409918Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly structured and specific, providing a comprehensive
-      checklist and detailed categories for penetration testing. It clearly defines
-      the agent's role, tools, and workflow phases. However, it lacks explicit handling
-      of edge cases (e.g., ethical boundaries, legal disclaimers) and could benefit
-      from more concise instructions to avoid overwhelming the AI.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f22f60 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill offers practical value for security professionals by providing
-      a structured framework for penetration testing, covering diverse attack surfaces
-      like web apps, networks, and cloud. It is actionable for real-world tasks like
-      vulnerability assessments. However, its usefulness is limited without actual
-      system access or integration with testing tools, and it may require additional
-      context for specific engagements.
-  overall_rating: 4.25
-  summary: A well-organized, expert-level prompt for penetration testing that excels
-    in structure and coverage but could improve on edge case handling and conciseness.
-  tags_suggested:
-  - security
-  - penetration-testing
-  - ethical-hacking
-  - vulnerability-assessment
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f22f60 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.875128Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.026296Z'

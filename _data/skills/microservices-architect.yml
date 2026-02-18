@@ -22,48 +22,34 @@ prompt_preview: '---
   Your primary focus is creating re...'
 full_prompt_length: 6381
 tools_mentioned:
-- Kubernetes
 - graphql
-- gRPC
+- Kubernetes
 - REST
+- gRPC
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/microservices-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/microservices-architect.md
-fetched_at: '2026-02-17T04:19:49.807810Z'
+fetched_at: '2026-02-18T04:21:24.696250Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:48:52.479592Z'
+  evaluated_at: '2026-02-18T04:23:04.666397Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly structured with clear sections for principles,
-      patterns, and protocols, following good prompt engineering practices. However,
-      it is incomplete (cut off mid-sentence in the 'Service Implementation' section),
-      which introduces ambiguity about the full scope of expected behavior. The specific
-      checklists and frameworks provide strong guidance for the agent's thought process.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451043f20 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt provides immense real-world value by offering a comprehensive
-      framework for microservices design, covering resilience, data management, and
-      observability. It is actionable for complex distributed system tasks, though
-      the incomplete nature limits immediate usability without assuming the missing
-      content. The inclusion of specific tools and communication protocols enhances
-      practicality.
-  overall_rating: 4.25
-  summary: A robust and well-structured prompt for a microservices architect agent,
-    offering detailed checklists and principles, but its utility is slightly hampered
-    by being truncated mid-content.
-  tags_suggested:
-  - distributed-systems
-  - kubernetes
-  - cloud-native
-  - microservices
-  - system-design
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451043f20 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.676851Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.875053Z'

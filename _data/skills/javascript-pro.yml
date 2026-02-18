@@ -24,46 +24,35 @@ full_prompt_length: 7369
 tools_mentioned:
 - react
 - javascript
+- JavaScript
 - WebSocket
 - Node.js
-- JavaScript
-- typescript
 - Jest
+- typescript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/javascript-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/javascript-pro.md
-fetched_at: '2026-02-17T04:19:52.145761Z'
+fetched_at: '2026-02-18T04:21:27.827173Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:51:31.338156Z'
+  evaluated_at: '2026-02-18T04:25:01.200973Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is highly structured with clear sections and comprehensive
-      technical specifications. However, it contains an incomplete development workflow
-      section that cuts off mid-sentence, which reduces clarity and creates ambiguity
-      about expected execution steps.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f23dd0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: The prompt provides exceptional real-world value with detailed checklists
-      covering modern JavaScript features, performance optimization, and full-stack
-      development. It offers actionable guidance for professional development tasks,
-      though the incomplete workflow section limits immediate implementation.
-  overall_rating: 4.25
-  summary: A comprehensive JavaScript development prompt with excellent technical
-    depth and practical checklists, but requires completion of the truncated workflow
-    section to achieve full effectiveness.
-  tags_suggested:
-  - javascript
-  - nodejs
-  - web-development
-  - full-stack
-  - performance-optimization
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f23dd0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.729808Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.914712Z'

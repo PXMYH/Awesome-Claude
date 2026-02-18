@@ -25,49 +25,34 @@ prompt_preview: '---
   1. Initialize the frontend re...'
 full_prompt_length: 3073
 tools_mentioned:
-- React
 - JavaScript
+- React
 - TypeScript
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/web-artifacts-builder/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/web-artifacts-builder/SKILL.md
-fetched_at: '2026-02-17T04:20:15.090245Z'
+fetched_at: '2026-02-18T04:21:57.942545Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:15:22.670390Z'
+  evaluated_at: '2026-02-18T04:42:18.973637Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly structured and specific, providing clear step-by-step
-      instructions, a defined tech stack, and explicit design guidelines to avoid
-      common pitfalls. It includes actionable commands and explains what each script
-      does, which reduces ambiguity. However, it assumes the existence of specific
-      scripts and a pre-configured environment without detailing how those are created
-      or what to do if they fail.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df3290 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill is highly practical for developers needing to create complex,
-      stateful web artifacts within Claude, leveraging modern frameworks like React
-      and shadcn/ui. It streamlines the process from initialization to bundling, making
-      it immediately actionable for building sophisticated UIs. Its usefulness is
-      limited to users who need multi-component artifacts, as it explicitly advises
-      against using it for simple single-file HTML.
-  overall_rating: 4.25
-  summary: A well-structured and practical skill for building complex web artifacts
-    with modern frontend tools, though it relies on assumed pre-existing scripts and
-    environment setup.
-  tags_suggested:
-  - frontend
-  - react
-  - artifact
-  - shadcn-ui
-  - bundling
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df3290 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 70711
-  forks: 7197
-  open_issues: 288
+  stars: 71144
+  forks: 7250
+  open_issues: 290
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-17T04:20:20.603230Z'
-indexed_at: '2026-02-17T04:20:38.175757Z'
+  fetched_at: '2026-02-18T04:22:05.644311Z'
+indexed_at: '2026-02-18T04:44:33.256905Z'
 ---

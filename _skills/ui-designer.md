@@ -28,43 +28,26 @@ category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/ui-designer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/ui-designer.md
-fetched_at: '2026-02-17T04:19:50.129435Z'
+fetched_at: '2026-02-18T04:21:25.104095Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:49:13.015302Z'
+  evaluated_at: '2026-02-18T04:23:21.153381Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt demonstrates strong clarity and specificity with a well-structured
-      execution flow, mandatory context gathering protocol, and detailed coverage
-      of design considerations like accessibility, performance, and cross-platform
-      consistency. However, it contains some redundancy (e.g., listing 'Design critique
-      process' and 'Performance considerations' as separate sections when they're
-      already covered in the execution flow) and could benefit from more explicit
-      edge case handling for scenarios where design context is unavailable or incomplete.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1fc20 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This prompt provides high real-world value for UI/UX design tasks,
-      offering a comprehensive framework that covers the entire design lifecycle from
-      context gathering to handoff. The inclusion of specific protocols for communication
-      with context-manager and structured status updates makes it actionable for development
-      workflows. However, its usefulness is somewhat limited by its dependency on
-      external systems (context-manager) and the assumption of access to design tools
-      like Figma, which may not be available in all environments.
-  overall_rating: 4.25
-  summary: A well-structured, professional UI design prompt with excellent protocol
-    design and comprehensive coverage of design considerations, though slightly hampered
-    by redundancy and external system dependencies.
-  tags_suggested:
-  - ui-design
-  - design-systems
-  - accessibility
-  - design-protocol
-  - visual-design
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1fc20 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.684368Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.880847Z'
 ---

@@ -30,45 +30,32 @@ prompt_preview: '---
   ### Azur...'
 full_prompt_length: 1924
 tools_mentioned:
-- azure
 - Azure
+- azure
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/azure-infra-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/azure-infra-engineer.md
-fetched_at: '2026-02-17T04:19:54.840650Z'
+fetched_at: '2026-02-18T04:21:31.176847Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:54:27.310367Z'
+  evaluated_at: '2026-02-18T04:27:15.001900Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly structured and clear, with a well-defined scope
-      and specific capabilities. It follows best practices by including a description,
-      tools, core capabilities, and integration notes. However, it lacks explicit
-      edge-case handling or fallback guidance for ambiguous user requests, which prevents
-      a perfect score.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450e9a030 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill has high real-world value for Azure infrastructure tasks,
-      covering essential areas like IaC, automation, and security. It is comprehensive
-      for its domain and actionable, enabling users to immediately leverage it for
-      deployment, automation, and optimization tasks in Azure environments.
-  overall_rating: 4.75
-  summary: A well-crafted, practical skill for Azure infrastructure engineering with
-    strong clarity and high utility, though it could benefit from more explicit edge-case
-    guidance.
-  tags_suggested:
-  - Azure
-  - Infrastructure
-  - Automation
-  - PowerShell
-  - Bicep
-  - DevOps
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450e9a030 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.788942Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.959998Z'

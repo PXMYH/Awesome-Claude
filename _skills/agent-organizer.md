@@ -28,39 +28,26 @@ category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/agent-organizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/agent-organizer.md
-fetched_at: '2026-02-17T04:20:08.658230Z'
+fetched_at: '2026-02-18T04:21:49.299916Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:09:57.188652Z'
+  evaluated_at: '2026-02-18T04:38:16.315909Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt demonstrates strong structural organization with clear categories
-      and checklists, but lacks completeness as it cuts off mid-sentence during the
-      'Task eva' section. While the framework is comprehensive and follows good prompt
-      engineering practices with defined protocols and structured data, the abrupt
-      ending creates ambiguity about the full workflow and expected outputs.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df1ee0 state=finished
+      raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: The skill provides valuable frameworks for multi-agent orchestration
-      with practical checklists and criteria that could help organize complex workflows.
-      However, the incomplete nature limits immediate actionability, and the abstract
-      concepts need more concrete implementation guidance to be truly useful for real
-      development tasks.
-  overall_rating: 3.25
-  summary: A well-structured but incomplete meta-orchestration skill that provides
-    excellent frameworks for agent organization, though the truncated content prevents
-    full evaluation of its practical implementation value.
-  tags_suggested:
-  - multi-agent
-  - orchestration
-  - workflow-design
-  - task-decomposition
-  - team-assembly
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df1ee0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:38.073909Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.179557Z'
 ---

@@ -20,43 +20,32 @@ prompt_preview: '---
   This skill guides...'
 full_prompt_length: 4440
 tools_mentioned:
-- Vue
 - React
+- Vue
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/frontend-design/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md
-fetched_at: '2026-02-17T04:20:12.893455Z'
+fetched_at: '2026-02-18T04:21:54.853986Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:13:52.605378Z'
+  evaluated_at: '2026-02-18T04:41:10.389168Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly specific and clear, providing a strong conceptual
-      framework with explicit aesthetic guidelines and anti-pattern warnings (e.g.,
-      avoiding 'AI slop'). It defines scope well but could be slightly more explicit
-      on technical edge cases like accessibility or performance constraints.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df1850 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill is highly practical for developers seeking creative, production-ready
-      UI code, offering actionable design thinking and aesthetic direction. It covers
-      a broad range of frontend tasks comprehensively, though its focus on bold aesthetics
-      may not suit all real-world projects requiring strict brand guidelines.
-  overall_rating: 4.25
-  summary: A well-crafted, creative prompt that excels in guiding distinctive frontend
-    design with strong practical value, though it could benefit from more explicit
-    handling of technical edge cases.
-  tags_suggested:
-  - frontend
-  - design
-  - aesthetics
-  - web development
-  - UI/UX
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df1850 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 70711
-  forks: 7197
-  open_issues: 288
+  stars: 71144
+  forks: 7250
+  open_issues: 290
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-17T04:20:20.603230Z'
-indexed_at: '2026-02-17T04:20:38.146951Z'
+  fetched_at: '2026-02-18T04:22:05.644311Z'
+indexed_at: '2026-02-18T04:44:33.235070Z'

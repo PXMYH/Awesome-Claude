@@ -22,53 +22,41 @@ prompt_preview: '---
   REST API development, and async capabilities with emphasis on building secure, scalab...'
 full_prompt_length: 6432
 tools_mentioned:
-- redis
-- WebSocket
-- Django
 - REST
-- Python
-- Redis
-- python
+- Django
 - django
+- Redis
 - pytest
+- WebSocket
+- redis
+- Python
+- python
 - GraphQL
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/django-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/django-developer.md
-fetched_at: '2026-02-17T04:19:51.029455Z'
+fetched_at: '2026-02-18T04:21:26.307197Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:50:13.611701Z'
+  evaluated_at: '2026-02-18T04:24:02.692464Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt provides comprehensive technical coverage of Django development
-      with clear categories and checklists, but it's incomplete and ends abruptly
-      during the implementation phase. While the structure is logical and the technical
-      depth is good, the abrupt termination and lack of concrete action instructions
-      reduce clarity and completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1db20 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt offers high real-world value for Django development tasks
-      with thorough coverage of modern Django features, security practices, and performance
-      optimization. However, the incomplete implementation phase and missing specific
-      workflow examples limit immediate actionability for users.
-  overall_rating: 3.75
-  summary: A technically comprehensive Django development prompt with strong architecture
-    and best practices coverage, but significantly hampered by being incomplete and
-    lacking concrete implementation guidance.
-  tags_suggested:
-  - django
-  - web-development
-  - api-development
-  - security
-  - performance-optimization
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f1db20 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.703581Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.894954Z'
 ---

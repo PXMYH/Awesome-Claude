@@ -26,50 +26,35 @@ tools_mentioned:
 - react
 - javascript
 - TypeScript
-- JavaScript
 - React
-- typescript
+- JavaScript
 - Jest
+- typescript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/react-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/react-specialist.md
-fetched_at: '2026-02-17T04:19:53.591760Z'
+fetched_at: '2026-02-18T04:21:29.578599Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:53:03.543302Z'
+  evaluated_at: '2026-02-18T04:26:16.528100Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is well-structured with clear sections and comprehensive
-      checklists covering React 18+ features, patterns, and best practices. However,
-      it contains some ambiguity in the workflow section (e.g., 'Configure build too'
-      appears incomplete) and the communication protocol references a context manager
-      that isn't clearly defined or integrated into the actual execution flow.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f20c80 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This prompt provides exceptional real-world value for React development,
-      covering modern patterns, performance optimization, state management, and testing
-      strategies comprehensively. The detailed checklists and pattern references serve
-      as excellent guidance for production-ready applications, though the workflow
-      execution could be more concrete for immediate actionability.
-  overall_rating: 4.25
-  summary: A highly comprehensive and well-organized React specialist prompt that
-    excels in covering modern React ecosystem and best practices, though it has minor
-    execution flow ambiguities that slightly reduce its immediate actionability.
-  tags_suggested:
-  - react
-  - react-18
-  - performance-optimization
-  - typescript
-  - testing
-  - ssr
-  - state-management
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450f20c80 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.762551Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.940174Z'
 ---

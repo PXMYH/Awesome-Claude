@@ -28,40 +28,26 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/compliance-auditor.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/compliance-auditor.md
-fetched_at: '2026-02-17T04:19:58.367237Z'
+fetched_at: '2026-02-18T04:21:36.005113Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:58:08.546696Z'
+  evaluated_at: '2026-02-18T04:30:10.326946Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt is well-structured with clear categories and comprehensive
-      checklists, but it's incomplete—the Development Workflow section cuts off mid-sentence
-      during 'Test im' and lacks a conclusion. While the compliance frameworks and
-      validation criteria are specific, the actual execution instructions are truncated,
-      reducing clarity for the agent's operational steps.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f245127f9e0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt provides high practical value for compliance auditing with
-      detailed regulatory frameworks, validation checklists, and structured protocols.
-      However, the incomplete workflow limits immediate actionability, as users cannot
-      fully implement the described process without inferring missing steps.
-  overall_rating: 3.75
-  summary: A strong compliance auditing prompt with excellent framework coverage and
-    structured protocols, but severely hampered by an incomplete Development Workflow
-    section that cuts off mid-sentence, reducing its operational clarity and immediate
-    usability.
-  tags_suggested:
-  - compliance
-  - auditing
-  - regulatory
-  - security
-  - gdpr
-  - hipaa
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f245127f9e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.864128Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:33.018144Z'
 ---

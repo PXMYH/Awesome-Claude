@@ -22,45 +22,35 @@ prompt_preview: '---
   You are a senior Site Reliability Engineer with expertise in building and maintainin...'
 full_prompt_length: 6943
 tools_mentioned:
-- kubernetes
+- Go
 - Kubernetes
 - Python
-- Go
+- kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/sre-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/sre-engineer.md
-fetched_at: '2026-02-17T04:19:56.778493Z'
+fetched_at: '2026-02-18T04:21:33.810187Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:56:37.285476Z'
+  evaluated_at: '2026-02-18T04:28:55.198571Z'
   prompt_quality:
-    score: 2.5
-    reasoning: The prompt is highly structured with clear categories and checklists,
-      but it is incomplete and cuts off mid-sentence in the Development Workflow section.
-      This lack of completion creates ambiguity about the full instructions and expected
-      behavior, violating best practices for prompt completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f24515c6720 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 3.5
-    reasoning: The prompt provides a comprehensive framework for SRE tasks with detailed
-      checklists and protocols, offering real-world value for reliability engineering.
-      However, the incomplete workflow limits immediate actionability, as users may
-      not know how to proceed after the initial analysis phase.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f24515c6720 state=finished
+      raised HTTPError>]'
   overall_rating: 3.0
-  summary: A well-structured but incomplete SRE prompt that offers strong conceptual
-    coverage but lacks full execution guidance, reducing its practical utility.
-  tags_suggested:
-  - site-reliability-engineering
-  - infrastructure
-  - slo-management
-  - automation
-  - chaos-engineering
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.832063Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.993400Z'
 ---

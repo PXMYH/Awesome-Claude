@@ -42,41 +42,26 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/executing-plans/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/executing-plans/SKILL.md
-fetched_at: '2026-02-17T04:20:16.606499Z'
+fetched_at: '2026-02-18T04:22:00.053106Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:17:31.876506Z'
+  evaluated_at: '2026-02-18T04:43:00.698416Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured, using a step-by-step
-      process with explicit checkpoints and stop conditions. It follows best practices
-      by defining a core principle, announcing usage, and providing fallback guidance
-      for blockers. The only minor limitation is the reliance on external skills (like
-      'finishing-a-development-branch') which are not defined within this prompt,
-      potentially creating ambiguity if those skills are unavailable.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df3d10 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This skill provides high real-world value for structured development
-      tasks, especially for complex implementations requiring iterative review. It
-      promotes safe execution by enforcing batch processing and mandatory verification,
-      reducing the risk of uncontrolled changes. The actionability is strong for users
-      with existing plans, though its utility depends on the availability of the referenced
-      sub-skills.
-  overall_rating: 4.5
-  summary: A robust, well-structured prompt that excels at enforcing disciplined,
-    batched execution of plans with critical review checkpoints, making it highly
-    valuable for complex development workflows.
-  tags_suggested:
-  - development
-  - planning
-  - batch-execution
-  - review-checkpoints
-  - structured-workflow
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df3d10 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 52943
-  forks: 4016
-  open_issues: 145
-  last_commit: '2026-02-12'
-  fetched_at: '2026-02-17T04:20:20.906871Z'
-indexed_at: '2026-02-17T04:20:38.193876Z'
+  stars: 53704
+  forks: 4075
+  open_issues: 151
+  last_commit: '2026-02-17'
+  fetched_at: '2026-02-18T04:22:06.119879Z'
+indexed_at: '2026-02-18T04:44:33.271072Z'
 ---

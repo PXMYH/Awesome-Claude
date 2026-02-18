@@ -14,45 +14,34 @@ prompt_preview: '---
   performing find-and-replace in Word files, working...'
 full_prompt_length: 17113
 tools_mentioned:
-- Python
 - JavaScript
-- python
+- Python
 - javascript
+- python
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/docx/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/docx/SKILL.md
-fetched_at: '2026-02-17T04:20:12.623310Z'
+fetched_at: '2026-02-18T04:21:54.491776Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:13:40.925713Z'
+  evaluated_at: '2026-02-18T04:41:00.691113Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly structured with clear workflows and decision trees,
-      making it easy to follow. It provides specific commands and file references,
-      though it lacks explicit error handling guidance for edge cases like corrupted
-      files or permission issues.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df19d0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This skill covers a comprehensive range of document operations from
-      creation to analysis, addressing real-world professional needs. The workflows
-      are practical and actionable, though the dependency on external files (docx-js.md,
-      ooxml.md) creates a potential point of failure if those resources are unavailable.
-  overall_rating: 4.5
-  summary: A well-structured, practical skill for document manipulation that balances
-    high-level workflows with technical implementation details, though it could benefit
-    from more robust error handling and dependency management guidance.
-  tags_suggested:
-  - document-processing
-  - office-documents
-  - ooxml
-  - workflow-automation
-  - professional-tools
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2450df19d0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 70711
-  forks: 7197
-  open_issues: 288
+  stars: 71144
+  forks: 7250
+  open_issues: 290
   last_commit: '2026-02-06'
-  fetched_at: '2026-02-17T04:20:20.603230Z'
-indexed_at: '2026-02-17T04:20:38.143523Z'
+  fetched_at: '2026-02-18T04:22:05.644311Z'
+indexed_at: '2026-02-18T04:44:33.232315Z'

@@ -31,38 +31,25 @@ category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/graphql-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/graphql-architect.md
-fetched_at: '2026-02-17T04:19:49.652254Z'
+fetched_at: '2026-02-18T04:21:24.490313Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:48:38.749765Z'
+  evaluated_at: '2026-02-18T04:22:56.197672Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt demonstrates strong technical specificity with comprehensive
-      checklists covering GraphQL best practices, federation, and optimization strategies.
-      However, it's incomplete (cut off mid-sentence in the implementation section)
-      and lacks clear action instructions for the agent to execute, making it more
-      of a reference guide than an operational prompt.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451043f20 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: The prompt provides exceptional real-world value for GraphQL architecture
-      with detailed coverage of federation, subscriptions, and performance optimization.
-      It's highly actionable for developers designing distributed GraphQL systems,
-      though the incomplete structure limits immediate execution without additional
-      context or completion.
-  overall_rating: 4.25
-  summary: A technically excellent but incomplete GraphQL architecture prompt that
-    provides comprehensive best practices and checklists, though it needs completion
-    and clearer execution instructions to be fully operational.
-  tags_suggested:
-  - GraphQL
-  - API Design
-  - Federation
-  - Schema Architecture
-  - Performance Optimization
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2451043f20 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.673180Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.872205Z'

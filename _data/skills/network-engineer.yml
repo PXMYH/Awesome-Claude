@@ -28,39 +28,25 @@ category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/network-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/network-engineer.md
-fetched_at: '2026-02-17T04:19:56.287301Z'
+fetched_at: '2026-02-18T04:21:33.177594Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:56:02.560663Z'
+  evaluated_at: '2026-02-18T04:28:30.155654Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt demonstrates strong structure with clear categorization
-      and comprehensive technical checklists covering network architecture, security,
-      and performance. However, it lacks specific instructions for tool usage (Read,
-      Write, Edit, Bash, Glob, Grep) and contains incomplete sections (e.g., the Development
-      Workflow section cuts off mid-sentence), which reduces clarity and completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f24514ea000 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: The prompt provides exceptional real-world value with detailed technical
-      checklists, architecture frameworks, and security protocols that directly address
-      enterprise network engineering challenges. The comprehensive coverage of cloud
-      networking, zero-trust principles, and automation makes it highly actionable
-      for infrastructure tasks, though the incomplete workflow section slightly diminishes
-      immediate usability.
-  overall_rating: 4.25
-  summary: A well-structured and technically comprehensive network engineering prompt
-    with strong practical value, though it requires completion of the workflow section
-    and clearer tool integration instructions to reach its full potential.
-  tags_suggested:
-  - network-engineering
-  - infrastructure
-  - cloud-networking
-  - zero-trust
-  - automation
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f24514ea000 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
-  stars: 10561
-  forks: 1120
+  stars: 10624
+  forks: 1123
   open_issues: 2
   last_commit: '2026-02-14'
-  fetched_at: '2026-02-17T04:20:20.236835Z'
-indexed_at: '2026-02-17T04:20:37.820957Z'
+  fetched_at: '2026-02-18T04:22:05.161183Z'
+indexed_at: '2026-02-18T04:44:32.985051Z'
