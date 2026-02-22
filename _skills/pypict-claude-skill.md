@@ -23,49 +23,36 @@ prompt_preview: '---
   Combinatorial Testing)....'
 full_prompt_length: 10928
 tools_mentioned:
-- MySQL
 - SQLite
-- PostgreSQL
 - python
+- PostgreSQL
+- MySQL
 - Python
 category: community
 category_display: Community
 source_repo: omkamal/pypict-claude-skill
 source_path: SKILL.md
 source_url: https://github.com/omkamal/pypict-claude-skill/blob/main/SKILL.md
-fetched_at: '2026-02-15T04:22:15.991510+00:00'
+fetched_at: '2026-02-22T04:16:29.136008+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:20:55.020062Z'
+  evaluated_at: '2026-02-22T05:07:11.632993Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear workflow steps,
-      specific examples, and comprehensive references. It follows best practices by
-      defining when to use the skill, providing a step-by-step process, and including
-      code examples. The only minor issue is the incomplete bash command at the end,
-      which slightly impacts clarity.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b3f80 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill addresses a real and valuable testing need—systematic test
-      case design using pairwise combinatorial testing. It provides practical value
-      by automating the complex process of generating comprehensive test cases with
-      minimal redundancy. The inclusion of PICT model generation, markdown tables,
-      and expected results makes it immediately actionable for developers and QA engineers.
-  overall_rating: 4.75
-  summary: An excellent, production-ready skill that provides significant value for
-    systematic test design using PICT combinatorial testing, with clear workflow,
-    practical examples, and comprehensive coverage of the testing methodology.
-  tags_suggested:
-  - testing
-  - combinatorial-testing
-  - pict
-  - test-design
-  - quality-assurance
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b3f80 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.306102Z'
-indexed_at: '2026-02-15T04:33:51.306108Z'
+  fetched_at: '2026-02-22T05:20:56.739484Z'
+indexed_at: '2026-02-22T05:20:56.739489Z'
 ---

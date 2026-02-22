@@ -12,49 +12,34 @@ prompt_preview: "---\nname: datamol\ndescription: Pythonic wrapper around RDKit 
   \ Skill\n\n## Overview\n\nDatamol is a..."
 full_prompt_length: 19680
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/datamol/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/datamol/SKILL.md
-fetched_at: '2026-02-15T04:21:06.095478+00:00'
+fetched_at: '2026-02-22T04:14:48.812695+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:25:47.915821Z'
+  evaluated_at: '2026-02-22T04:21:00.080290Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, comprehensive
-      code examples, and logical workflow organization. It follows best practices
-      by including installation instructions, import conventions, and practical examples
-      for common tasks. However, it contains incomplete code snippets (e.g., truncated
-      descriptor output) and references external documentation files that may not
-      be available to the user.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9329992b0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for real-world drug discovery workflows, covering
-      essential cheminformatics tasks from molecule parsing to file I/O and descriptor
-      calculation. The examples are immediately actionable and demonstrate best practices
-      like standardization and error handling. The skill bridges RDKit's complexity
-      with a more accessible interface, making it valuable for both beginners and
-      experienced practitioners.
-  overall_rating: 4.75
-  summary: A comprehensive, well-organized cheminformatics skill prompt that provides
-    excellent practical value for drug discovery tasks, though slightly marred by
-    incomplete code examples and external references.
-  tags_suggested:
-  - cheminformatics
-  - drug-discovery
-  - rdkit
-  - molecular-modeling
-  - scientific-computing
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9329992b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.900412Z'
-indexed_at: '2026-02-15T04:33:49.900417Z'
+  fetched_at: '2026-02-22T05:20:55.704824Z'
+indexed_at: '2026-02-22T05:20:55.704829Z'
 ---

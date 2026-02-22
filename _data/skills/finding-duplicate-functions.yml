@@ -30,38 +30,25 @@ category_display: Community
 source_repo: obra/superpowers-lab
 source_path: skills/finding-duplicate-functions/SKILL.md
 source_url: https://github.com/obra/superpowers-lab/blob/main/skills/finding-duplicate-functions/SKILL.md
-fetched_at: '2026-02-15T04:22:14.121564+00:00'
+fetched_at: '2026-02-22T04:16:25.827482+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:20:06.178361Z'
+  evaluated_at: '2026-02-22T05:06:21.734661Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear phases, specific
-      tool references, and a visual workflow diagram. It provides concrete commands,
-      options, and expected outputs. However, it's incomplete (cuts off mid-sentence
-      in the High-Risk Duplicate Zones table) and assumes external scripts exist without
-      providing their implementation details.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323848c0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This addresses a real and painful problem in LLM-generated codebases
-      where semantic duplicates proliferate. The two-phase approach (classical + LLM
-      intent analysis) is sophisticated and practical. The workflow is actionable
-      with clear steps, and the focus on high-risk zones provides targeted value for
-      developers.
-  overall_rating: 4.75
-  summary: A highly practical and well-designed skill for detecting semantic duplicates
-    in codebases, particularly valuable for LLM-generated code, though the prompt
-    itself is incomplete and relies on external scripts.
-  tags_suggested:
-  - code-analysis
-  - refactoring
-  - duplicate-detection
-  - LLM-generated-code
-  - code-audit
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323848c0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.288689Z'
-indexed_at: '2026-02-15T04:33:51.288694Z'
+  fetched_at: '2026-02-22T05:20:56.724669Z'
+indexed_at: '2026-02-22T05:20:56.724675Z'

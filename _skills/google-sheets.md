@@ -8,9 +8,9 @@ prompt_preview: "---\nname: google-sheets\ndescription: |\n  Read and write Goog
   \  search for spreadsheets, and view metadata. Use when user asks to: read a spreadsheet,\
   \ update cells,\n  add data to Google Sheets, find a spreadsheet, check sheet contents,\
   \ export spreadsheet data, or get cell values.\n  Lightweight integration with standalone\
-  \ OAuth authentication supporting full read/write access.\n---\n\n# Google Sheets\n\
-  \nLightweight G..."
-full_prompt_length: 4077
+  \ OAuth authentication supporting full read/write access.\nlicense: Apache-2.0\n\
+  metadata:\n  aut..."
+full_prompt_length: 4145
 tools_mentioned:
 - python
 category: community
@@ -18,7 +18,7 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/google-sheets/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/google-sheets/SKILL.md
-fetched_at: '2026-02-15T04:22:20.020099+00:00'
+fetched_at: '2026-02-22T04:16:42.470300+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:04:36.528795Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.356299Z'
-indexed_at: '2026-02-15T04:33:51.356304Z'
+  fetched_at: '2026-02-22T05:20:56.843066Z'
+indexed_at: '2026-02-22T05:20:56.843071Z'
 ---

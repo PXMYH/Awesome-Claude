@@ -19,39 +19,25 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/clinical-reports/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/clinical-reports/SKILL.md
-fetched_at: '2026-02-15T04:21:05.109209+00:00'
+fetched_at: '2026-02-22T04:14:47.446781+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:24:13.885681Z'
+  evaluated_at: '2026-02-22T04:19:53.414011Z'
   prompt_quality:
-    score: 1.5
-    reasoning: The prompt is severely incomplete and contains critical structural
-      failures. It abruptly cuts off mid-sentence in the CARE guidelines section,
-      leaving the core instructions unfinished. The mandatory requirement to generate
-      schematics references a non-existent 'scientific-schematics' skill and a bash
-      script that likely doesn't exist in the environment, creating a hard dependency
-      that will cause execution failure.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9329992b0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 1.0
-    reasoning: The skill is fundamentally unusable due to its incomplete state and
-      impossible requirements. The prompt cannot generate any clinical reports because
-      it lacks the actual writing instructions, templates, or guidelines beyond the
-      initial header. The mandatory schematic generation requirement is a showstopper
-      as it references unavailable tools and scripts.
-  overall_rating: 1.25
-  summary: This is a non-functional prompt that appears to be a partial draft or template
-    that was never completed. It contains a header and some conceptual framing but
-    lacks the actual implementation details needed to write clinical reports, making
-    it completely unusable for its intended purpose.
-  tags_suggested:
-  - incomplete
-  - broken-dependency
-  - unusable
-  - needs-completion
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9329992b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.865697Z'
-indexed_at: '2026-02-15T04:33:49.865706Z'
+  fetched_at: '2026-02-22T05:20:55.684792Z'
+indexed_at: '2026-02-22T05:20:55.684801Z'

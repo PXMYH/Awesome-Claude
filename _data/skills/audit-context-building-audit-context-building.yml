@@ -34,36 +34,25 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/audit-context-building/skills/audit-context-building/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/audit-context-building/skills/audit-context-building/SKILL.md
-fetched_at: '2026-02-15T04:22:22.878782+00:00'
+fetched_at: '2026-02-22T04:16:47.090784+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:22:10.725901Z'
+  evaluated_at: '2026-02-22T05:12:28.090865Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear phases, specific
-      methodologies (First Principles, 5 Whys/Hows), and explicit rationalizations
-      that prevent common AI pitfalls. It defines precise scope and behavior, though
-      the incomplete section at the end slightly reduces clarity.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255a120 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This provides significant real-world value for security auditing by
-      enforcing systematic, bottom-up analysis that reduces hallucinations and context
-      loss. It's highly actionable for developers and auditors, though the ultra-granular
-      approach may be overly time-intensive for simpler codebases.
-  overall_rating: 4.25
-  summary: A sophisticated, well-engineered prompt that establishes rigorous context-building
-    protocols for security analysis, though its incomplete final section and potentially
-    excessive granularity for some use cases prevent a perfect score.
-  tags_suggested:
-  - security-audit
-  - code-analysis
-  - context-building
-  - systematic-reasoning
-  - vulnerability-prevention
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255a120 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.391210Z'
-indexed_at: '2026-02-15T04:33:51.391216Z'
+  fetched_at: '2026-02-22T05:20:56.875926Z'
+indexed_at: '2026-02-22T05:20:56.875937Z'

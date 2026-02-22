@@ -18,38 +18,25 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/libfuzzer/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/libfuzzer/SKILL.md
-fetched_at: '2026-02-15T04:22:33.167922+00:00'
+fetched_at: '2026-02-22T04:17:03.005345+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:27:13.518169Z'
+  evaluated_at: '2026-02-22T05:18:17.638534Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured, with excellent
-      use of markdown formatting, tables, and code examples. It provides specific,
-      actionable guidance on when to use libFuzzer versus alternatives, and includes
-      comprehensive harness writing rules. The only minor limitation is that it doesn't
-      address potential pitfalls like false positives or performance tuning in depth.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932558f80 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical and immediately actionable for security engineers
-      and developers. It covers the entire workflow from installation to writing harnesses,
-      with real-world code examples and platform-specific instructions. The compatibility
-      note with AFL++ adds significant value for users planning to scale their fuzzing
-      efforts.
-  overall_rating: 4.75
-  summary: An outstanding, production-ready prompt that provides comprehensive guidance
-    for libFuzzer usage with excellent clarity, practical examples, and strategic
-    advice for real-world security testing workflows.
-  tags_suggested:
-  - security
-  - fuzzing
-  - c++
-  - llvm
-  - vulnerability-detection
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932558f80 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.540225Z'
-indexed_at: '2026-02-15T04:33:51.540230Z'
+  fetched_at: '2026-02-22T05:20:56.989716Z'
+indexed_at: '2026-02-22T05:20:56.989722Z'

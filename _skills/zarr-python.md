@@ -12,47 +12,34 @@ prompt_preview: "---\nname: zarr-python\ndescription: Chunked N-D arrays for clo
   \ and seamless integration with NumPy,..."
 full_prompt_length: 20830
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/zarr-python/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/zarr-python/SKILL.md
-fetched_at: '2026-02-15T04:21:20.955306+00:00'
+fetched_at: '2026-02-22T04:15:07.957894+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:47:01.294188Z'
+  evaluated_at: '2026-02-22T04:36:40.031755Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured, with logical
-      progression from installation to core operations and advanced topics. It provides
-      specific code examples with concrete parameters and includes performance guidelines.
-      The only minor issue is an incomplete performance example at the end, but this
-      doesn't significantly impact overall quality.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251d9a0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This prompt has high real-world value for scientific computing workflows
-      involving large datasets. It covers comprehensive operations from basic array
-      creation to cloud storage integration, chunking strategies, and performance
-      optimization. The practical examples with specific chunk sizes and access patterns
-      provide immediate actionable guidance for users.
-  overall_rating: 4.75
-  summary: An excellent, production-ready prompt that effectively teaches Zarr for
-    large-scale scientific computing with clear examples, performance guidelines,
-    and practical cloud integration advice.
-  tags_suggested:
-  - scientific-computing
-  - data-storage
-  - cloud-native
-  - performance-optimization
-  - large-datasets
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251d9a0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.354376Z'
-indexed_at: '2026-02-15T04:33:50.354382Z'
+  fetched_at: '2026-02-22T05:20:56.041211Z'
+indexed_at: '2026-02-22T05:20:56.041216Z'
 ---

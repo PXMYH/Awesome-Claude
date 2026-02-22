@@ -11,47 +11,33 @@ prompt_preview: "---\nname: deepchem\ndescription: Molecular ML with diverse fea
   \n## Overvi..."
 full_prompt_length: 18491
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/deepchem/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/deepchem/SKILL.md
-fetched_at: '2026-02-15T04:21:06.213078+00:00'
+fetched_at: '2026-02-22T04:14:48.903541+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:26:02.311816Z'
+  evaluated_at: '2026-02-22T04:21:08.234269Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured with a logical
-      flow from overview to specific capabilities. It provides concrete code examples
-      and a decision tree for featurizer selection, making it highly actionable. However,
-      it lacks explicit edge case handling (e.g., invalid SMILES, missing data) and
-      doesn't define failure modes or error handling guidance.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc933197590 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This skill offers high practical value for cheminformatics and drug
-      discovery workflows, covering essential tasks like data loading, featurization,
-      and model selection. The inclusion of specific library references (MoleculeNet,
-      ChemBERTa) and benchmark datasets makes it immediately useful for real projects.
-      The decision tree for featurizer selection is particularly valuable for practitioners
-      navigating complex ML pipelines.
-  overall_rating: 4.5
-  summary: A well-crafted, practical skill prompt that effectively guides users through
-    DeepChem's core capabilities for molecular ML, though it could benefit from more
-    explicit error handling and edge case guidance.
-  tags_suggested:
-  - cheminformatics
-  - drug discovery
-  - molecular ML
-  - featurization
-  - graph neural networks
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc933197590 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.904301Z'
-indexed_at: '2026-02-15T04:33:49.904306Z'
+  fetched_at: '2026-02-22T05:20:55.707294Z'
+indexed_at: '2026-02-22T05:20:55.707299Z'

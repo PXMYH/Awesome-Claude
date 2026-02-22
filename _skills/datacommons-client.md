@@ -15,49 +15,34 @@ prompt_preview: '---
   and exploring relationships between statistical e...'
 full_prompt_length: 8803
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/datacommons-client/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/datacommons-client/SKILL.md
-fetched_at: '2026-02-15T04:21:05.956836+00:00'
+fetched_at: '2026-02-22T04:14:48.600513+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:25:37.675235Z'
+  evaluated_at: '2026-02-22T04:20:51.679417Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt provides clear, structured documentation with specific code
-      examples and use cases for each API endpoint. It follows good prompt engineering
-      practices by organizing information logically and providing actionable examples.
-      However, it lacks explicit edge case handling (e.g., rate limits, error handling,
-      empty results) and doesn't define constraints or fallback behaviors for failed
-      queries.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932559ca0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This skill offers high real-world value for developers working with
-      public statistical data, covering common tasks like demographic analysis, economic
-      indicators, and geographic queries. The comprehensive examples and workflow
-      patterns make it immediately actionable for data analysis tasks. The inclusion
-      of installation instructions and endpoint-specific documentation enhances practical
-      utility.
-  overall_rating: 4.25
-  summary: A well-structured, practical skill for accessing public statistical data
-    through Data Commons, with strong documentation and real-world applicability,
-    though it could benefit from more explicit error handling and edge case guidance.
-  tags_suggested:
-  - data-science
-  - public-data
-  - statistics
-  - geographic-analysis
-  - demographics
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932559ca0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.896562Z'
-indexed_at: '2026-02-15T04:33:49.896567Z'
+  fetched_at: '2026-02-22T05:20:55.702325Z'
+indexed_at: '2026-02-22T05:20:55.702330Z'
 ---

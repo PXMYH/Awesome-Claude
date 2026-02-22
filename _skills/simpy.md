@@ -12,45 +12,34 @@ prompt_preview: "---\nname: simpy\ndescription: Process-based discrete-event sim
   \ is a process-based discrete-..."
 full_prompt_length: 12984
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/simpy/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/simpy/SKILL.md
-fetched_at: '2026-02-15T04:21:19.050217+00:00'
+fetched_at: '2026-02-22T04:15:05.442900+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:44:24.987385Z'
+  evaluated_at: '2026-02-22T04:34:34.443987Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured, with a logical
-      flow from overview to quick start and core concepts. It provides specific code
-      examples and defines the scope of the skill effectively, though it is slightly
-      incomplete as the 'Events' section cuts off mid-sentence.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932387c80 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This prompt is highly practical for real-world development tasks involving
-      discrete-event simulation, such as modeling queues or resource contention. It
-      provides immediate, actionable code snippets and clear guidance on when to use
-      the skill versus alternatives, making it immediately beneficial for users.
-  overall_rating: 4.75
-  summary: A high-quality, comprehensive prompt that effectively introduces the SimPy
-    skill with clear examples and practical guidance, though it contains a minor formatting
-    error at the end.
-  tags_suggested:
-  - simulation
-  - python
-  - discrete-event
-  - resource-management
-  - queueing-theory
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932387c80 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.298143Z'
-indexed_at: '2026-02-15T04:33:50.298148Z'
+  fetched_at: '2026-02-22T05:20:56.002185Z'
+indexed_at: '2026-02-22T05:20:56.002190Z'
 ---

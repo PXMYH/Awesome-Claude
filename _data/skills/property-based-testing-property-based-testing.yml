@@ -27,36 +27,25 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/property-based-testing/skills/property-based-testing/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/property-based-testing/skills/property-based-testing/SKILL.md
-fetched_at: '2026-02-15T04:22:29.592568+00:00'
+fetched_at: '2026-02-22T04:16:57.066845+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:23:30.444643Z'
+  evaluated_at: '2026-02-22T05:15:48.069541Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and specific, with well-defined automatic
-      detection triggers and a structured decision tree. It follows best practices
-      by providing concrete examples and a property catalog. The only minor weakness
-      is that the prompt content is cut off mid-sentence, which slightly impacts completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932beb530 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides high real-world value by proactively guiding developers
-      toward stronger testing strategies. It covers a comprehensive range of patterns
-      and offers actionable guidance through its decision tree and reference links.
-      The inclusion of smart contracts and multiple languages makes it broadly applicable
-      across modern development contexts.
-  overall_rating: 4.75
-  summary: An excellent, highly practical skill that effectively guides developers
-    toward property-based testing with clear detection triggers and actionable references.
-  tags_suggested:
-  - testing
-  - property-based testing
-  - quality assurance
-  - smart contracts
-  - test generation
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932beb530 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.469990Z'
-indexed_at: '2026-02-15T04:33:51.469995Z'
+  fetched_at: '2026-02-22T05:20:56.940182Z'
+indexed_at: '2026-02-22T05:20:56.940188Z'

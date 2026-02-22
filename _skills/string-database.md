@@ -13,48 +13,35 @@ prompt_preview: "---\nname: string-database\ndescription: Query STRING API for p
 full_prompt_length: 19042
 tools_mentioned:
 - GO
+- Python
+- python
 - REST
 - go
-- python
-- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/string-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/string-database/SKILL.md
-fetched_at: '2026-02-15T04:21:19.517840+00:00'
+fetched_at: '2026-02-22T04:15:06.129145+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:45:07.150294Z'
+  evaluated_at: '2026-02-22T04:35:08.282801Z'
   prompt_quality:
-    score: 2.5
-    reasoning: The prompt has significant quality issues. It provides incomplete documentation
-      with a truncated code example for network visualization and references non-existent
-      files (scripts/string_api.py, references/string_reference.md) that would not
-      be available to the AI. The structure is clear but lacks practical implementation
-      details and has broken references.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932384e00 state=finished
+      raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: The skill concept is highly useful for bioinformatics and systems biology
-      research, covering essential STRING API operations like ID mapping, network
-      retrieval, and enrichment analysis. However, the incomplete documentation and
-      missing implementation details reduce immediate practicality for users who would
-      need to develop the actual API integration themselves.
-  overall_rating: 2.75
-  summary: This is a well-conceived but poorly executed skill prompt that outlines
-    valuable bioinformatics functionality but fails to provide complete, implementable
-    code or references, making it more of a specification than a usable skill.
-  tags_suggested:
-  - bioinformatics
-  - protein-interactions
-  - systems-biology
-  - api-client
-  - incomplete
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932384e00 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.312970Z'
-indexed_at: '2026-02-15T04:33:50.312976Z'
+  fetched_at: '2026-02-22T05:20:56.012362Z'
+indexed_at: '2026-02-22T05:20:56.012368Z'
 ---

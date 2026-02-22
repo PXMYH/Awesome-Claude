@@ -12,24 +12,24 @@ prompt_preview: "---\nname: using-gh-cli\ndescription: \"Guides usage of the Git
   \ or gists\n- Fetching repo metadata or any GitHu..."
 full_prompt_length: 3972
 tools_mentioned:
-- GraphQL
 - REST
+- GraphQL
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/gh-cli/skills/using-gh-cli/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/gh-cli/skills/using-gh-cli/SKILL.md
-fetched_at: '2026-02-15T04:22:28.402015+00:00'
+fetched_at: '2026-02-22T04:16:55.072065+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-15T04:32:27.403437Z'
+  evaluated_at: '2026-02-22T05:15:14.633471Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c38ae810 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932beb530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c38ae810 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932beb530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.458488Z'
-indexed_at: '2026-02-15T04:33:51.458493Z'
+  fetched_at: '2026-02-22T05:20:56.930102Z'
+indexed_at: '2026-02-22T05:20:56.930107Z'

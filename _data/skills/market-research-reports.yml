@@ -17,47 +17,33 @@ prompt_preview: '---
   licen...'
 full_prompt_length: 29495
 tools_mentioned:
-- python
 - Rest
+- python
 - go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/market-research-reports/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/market-research-reports/SKILL.md
-fetched_at: '2026-02-15T04:21:11.399951+00:00'
+fetched_at: '2026-02-22T04:14:54.794242+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:33:00.834654Z'
+  evaluated_at: '2026-02-22T04:26:15.873214Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly structured with clear sections, specific tool
-      usage examples, and defined output formats. It follows best practices by explicitly
-      stating the skill's purpose, scope, and visual requirements. However, it lacks
-      explicit handling for edge cases like missing data or API failures, and the
-      visual generation examples are specific to a hypothetical environment that may
-      not exist.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255a090 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill addresses a real-world need for comprehensive market analysis
-      with professional formatting, offering practical value for business strategy
-      and investment decisions. It provides actionable frameworks and visual generation
-      guidance, but its usefulness is limited by dependency on specific tools (e.g.,
-      'scientific-schematics') that may not be universally available or implemented.
-  overall_rating: 4.25
-  summary: A well-structured and detailed prompt for generating professional market
-    research reports, though it assumes specific tooling that may not be accessible
-    in all environments.
-  tags_suggested:
-  - market-research
-  - consulting
-  - strategic-analysis
-  - latex
-  - visual-generation
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255a090 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.057716Z'
-indexed_at: '2026-02-15T04:33:50.057722Z'
+  fetched_at: '2026-02-22T05:20:55.816856Z'
+indexed_at: '2026-02-22T05:20:55.816861Z'

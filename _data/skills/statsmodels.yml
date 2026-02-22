@@ -11,48 +11,33 @@ prompt_preview: "---\nname: statsmodels\ndescription: Statistical models library
   \ Modeling and Econometrics\n\n## Over..."
 full_prompt_length: 20501
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/statsmodels/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/statsmodels/SKILL.md
-fetched_at: '2026-02-15T04:21:19.398308+00:00'
+fetched_at: '2026-02-22T04:15:05.925570+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:44:56.657128Z'
+  evaluated_at: '2026-02-22T04:34:59.872689Z'
   prompt_quality:
-    score: 4.5
-    reasoning: 'The prompt is exceptionally well-structured with clear sections, comprehensive
-      examples, and specific guidance on when to use the skill. It follows best practices
-      by including metadata, license information, and practical code snippets. However,
-      there''s a minor issue: the ARIMA example is incomplete (cut off mid-line with
-      `results.get_f`), which slightly impacts clarity and completeness.'
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932386330 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This prompt provides immediate, real-world value with production-ready
-      code examples covering OLS, logistic regression, and time series analysis. It
-      includes essential diagnostics, visualization, and model evaluation techniques
-      that are directly applicable to statistical analysis tasks. The comprehensive
-      coverage of statistical methods and econometrics makes it highly practical for
-      researchers and data scientists.
-  overall_rating: 4.75
-  summary: A high-quality, comprehensive prompt that provides excellent practical
-    value for statistical modeling tasks, with only a minor formatting issue in the
-    ARIMA example that doesn't significantly impact overall utility.
-  tags_suggested:
-  - statistical-analysis
-  - econometrics
-  - time-series
-  - regression
-  - modeling
-  - diagnostics
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932386330 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.309143Z'
-indexed_at: '2026-02-15T04:33:50.309148Z'
+  fetched_at: '2026-02-22T05:20:56.009796Z'
+indexed_at: '2026-02-22T05:20:56.009802Z'

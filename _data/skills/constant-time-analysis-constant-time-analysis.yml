@@ -25,52 +25,40 @@ prompt_preview: '---
   ## When...'
 full_prompt_length: 9912
 tools_mentioned:
-- javascript
-- Node.js
-- TypeScript
-- ruby
-- PHP
+- Java
 - JavaScript
-- go
-- Go
-- Ruby
 - Rust
+- Ruby
+- python
+- ruby
+- go
+- Node.js
+- PHP
+- java
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/constant-time-analysis/skills/constant-time-analysis/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/constant-time-analysis/skills/constant-time-analysis/SKILL.md
-fetched_at: '2026-02-15T04:22:25.929621+00:00'
+fetched_at: '2026-02-22T04:16:51.229371+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:22:20.420326Z'
+  evaluated_at: '2026-02-22T05:14:16.767809Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear triggers, language-specific
-      guidance, and practical examples. The flowchart for 'When to Use' is innovative
-      and effective. However, it references external files (references/*.md) that
-      aren't provided, which could limit immediate usability without those resources.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932ae2f60 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This addresses a critical security concern in cryptographic implementation
-      with concrete, actionable guidance. The language-specific references and command
-      examples make it immediately practical for developers working across multiple
-      programming languages. The focus on real-world vulnerabilities like KyberSlash
-      shows deep domain expertise.
-  overall_rating: 4.75
-  summary: An excellent, production-ready security skill prompt that provides comprehensive
-    guidance for detecting timing side-channel vulnerabilities across multiple languages
-    with practical implementation examples.
-  tags_suggested:
-  - security
-  - cryptography
-  - side-channel
-  - timing-attacks
-  - code-review
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932ae2f60 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.429928Z'
-indexed_at: '2026-02-15T04:33:51.429933Z'
+  fetched_at: '2026-02-22T05:20:56.908947Z'
+indexed_at: '2026-02-22T05:20:56.908952Z'

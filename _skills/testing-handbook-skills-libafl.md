@@ -13,44 +13,33 @@ prompt_preview: "---\nname: libafl\ntype: fuzzer\ndescription: >\n  LibAFL is a 
   \ for libFuzzer or as a library to build..."
 full_prompt_length: 16907
 tools_mentioned:
-- rust
 - Rust
+- rust
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/libafl/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/libafl/SKILL.md
-fetched_at: '2026-02-15T04:22:33.049547+00:00'
+fetched_at: '2026-02-22T04:17:02.780195+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:27:03.678604Z'
+  evaluated_at: '2026-02-22T05:18:09.382324Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is well-structured with clear sections and provides specific
-      installation commands and code examples. However, it's incomplete (cuts off
-      mid-sentence in the 'Writing a Custom Fuzzer' section) and lacks comprehensive
-      coverage of LibAFL's full capabilities, limiting its clarity and completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255a9f0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 3.5
-    reasoning: The prompt provides practical value for users needing LibAFL for custom
-      fuzzing or as a libFuzzer replacement, with actionable installation steps and
-      usage examples. However, its incomplete nature and limited depth on advanced
-      features reduce its overall usefulness for comprehensive fuzzing tasks.
-  overall_rating: 3.75
-  summary: A useful but incomplete prompt that provides solid foundational guidance
-    for LibAFL installation and basic usage, though it lacks comprehensive coverage
-    of advanced features and cuts off mid-explanation.
-  tags_suggested:
-  - fuzzing
-  - security-testing
-  - libafl
-  - rust-library
-  - custom-fuzzer
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255a9f0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.536630Z'
-indexed_at: '2026-02-15T04:33:51.536635Z'
+  fetched_at: '2026-02-22T05:20:56.987185Z'
+indexed_at: '2026-02-22T05:20:56.987190Z'
 ---

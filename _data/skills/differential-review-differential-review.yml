@@ -17,39 +17,25 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/differential-review/skills/differential-review/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/differential-review/skills/differential-review/SKILL.md
-fetched_at: '2026-02-15T04:22:27.158485+00:00'
+fetched_at: '2026-02-22T04:16:53.183521+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:22:42.420371Z'
+  evaluated_at: '2026-02-22T05:14:49.783924Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt demonstrates excellent structure with clear sections, rationalizations,
-      and decision trees. It follows strong prompt engineering practices with explicit
-      workflows and quality checklists. However, it references external documentation
-      files (methodology.md, adversarial.md, etc.) that aren't provided, creating
-      ambiguity about execution paths.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc933197590 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill addresses a critical real-world need for systematic security
-      reviews of code changes with adaptive strategies based on codebase size. The
-      risk-first approach and comprehensive reporting framework provide practical
-      value. However, the dependency on missing external documentation limits immediate
-      usability, and the workflow assumes specific tool capabilities that may not
-      be universally available.
-  overall_rating: 4.25
-  summary: A well-structured security review prompt with strong methodology and risk-focused
-    principles, but hampered by missing referenced documentation and unclear tool
-    integration requirements.
-  tags_suggested:
-  - security
-  - code-review
-  - risk-assessment
-  - differential-analysis
-  - reporting
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc933197590 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.443648Z'
-indexed_at: '2026-02-15T04:33:51.443654Z'
+  fetched_at: '2026-02-22T05:20:56.919306Z'
+indexed_at: '2026-02-22T05:20:56.919312Z'

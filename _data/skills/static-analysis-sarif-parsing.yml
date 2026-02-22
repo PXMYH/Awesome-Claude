@@ -11,49 +11,36 @@ prompt_preview: "---\nname: sarif-parsing\ndescription: Parse, analyze, and proc
   \ read, analyze, and process SA..."
 full_prompt_length: 15043
 tools_mentioned:
-- Node.js
-- go
 - JavaScript
-- Go
-- python
 - Python
+- python
+- Node.js
+- Go
+- go
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/static-analysis/skills/sarif-parsing/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/sarif-parsing/SKILL.md
-fetched_at: '2026-02-15T04:22:31.552628+00:00'
+fetched_at: '2026-02-22T04:17:00.153060+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:24:40.340406Z'
+  evaluated_at: '2026-02-22T05:16:37.790736Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, hierarchical
-      organization, and specific tool recommendations. It provides comprehensive SARIF
-      structure documentation and practical examples. The only minor issue is the
-      truncated jq command example at the end, which slightly impacts completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932567b00 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill addresses a critical real-world need in security engineering
-      workflows, particularly for CI/CD integration and vulnerability management.
-      It provides actionable strategies with concrete tool recommendations and command
-      examples that users can immediately implement. The coverage of fingerprinting
-      importance and baseline comparison scenarios demonstrates deep practical understanding.
-  overall_rating: 4.75
-  summary: An excellent, production-ready skill prompt that expertly balances technical
-    depth with practical applicability, making SARIF processing accessible while maintaining
-    professional standards for security engineering workflows.
-  tags_suggested:
-  - security
-  - sarif
-  - static-analysis
-  - ci-cd
-  - vulnerability-management
-  - devsecops
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932567b00 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.495707Z'
-indexed_at: '2026-02-15T04:33:51.495718Z'
+  fetched_at: '2026-02-22T05:20:56.958773Z'
+indexed_at: '2026-02-22T05:20:56.958778Z'

@@ -11,48 +11,33 @@ prompt_preview: "---\nname: matchms\ndescription: Spectral similarity and compou
   \ is an open-source Python..."
 full_prompt_length: 7829
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/matchms/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/matchms/SKILL.md
-fetched_at: '2026-02-15T04:21:11.632535+00:00'
+fetched_at: '2026-02-22T04:14:55.196935+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:33:26.103530Z'
+  evaluated_at: '2026-02-22T04:26:32.438240Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured, with a professional
-      metadata header and logical organization by core capabilities. It provides specific
-      code examples for each major function and references external documentation
-      for deeper details. However, it lacks explicit edge case handling (e.g., what
-      to do with empty spectra or incompatible formats) and doesn't define constraints
-      like memory limitations for large datasets.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93295f920 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is a highly practical and valuable skill for metabolomics researchers,
-      providing immediate, actionable code for common tasks like spectral comparison
-      and library searching. It covers the essential workflow comprehensively from
-      data import to similarity calculation, with clear guidance on when to use different
-      algorithms. The inclusion of specific file formats and similarity metrics makes
-      it directly applicable to real-world LC-MS/MS data analysis pipelines.
-  overall_rating: 4.75
-  summary: An excellent, production-ready prompt that provides comprehensive coverage
-    of a specialized scientific tool with clear examples and logical structure, though
-    it could benefit from more explicit error handling guidance.
-  tags_suggested:
-  - metabolomics
-  - mass-spectrometry
-  - spectral-analysis
-  - scientific-computing
-  - bioinformatics
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93295f920 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.065812Z'
-indexed_at: '2026-02-15T04:33:50.065817Z'
+  fetched_at: '2026-02-22T05:20:55.821924Z'
+indexed_at: '2026-02-22T05:20:55.821929Z'

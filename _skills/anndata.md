@@ -12,45 +12,34 @@ prompt_preview: "---\nname: anndata\ndescription: Data structure for annotated m
   \ handling annotated data matrices, storin..."
 full_prompt_length: 11029
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/anndata/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/anndata/SKILL.md
-fetched_at: '2026-02-15T04:21:03.455731+00:00'
+fetched_at: '2026-02-22T04:14:45.466396+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:21:28.369260Z'
+  evaluated_at: '2026-02-22T04:18:05.765527Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is well-structured with clear sections for overview, installation,
-      quick start, and core capabilities. It provides specific code examples and practical
-      guidance. However, it's incomplete (cuts off mid-sentence at 'Core Capabilities
-      3. Co'), which reduces its clarity and completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932743f20 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill provides practical value for single-cell analysis workflows
-      with concrete examples for creating, reading, and writing AnnData objects. It
-      correctly distinguishes this data structure skill from analysis tools like scanpy
-      and scvi-tools. The incomplete nature limits its full utility, but what's present
-      is actionable and relevant to real bioinformatics tasks.
-  overall_rating: 4.25
-  summary: A well-designed but incomplete skill prompt that provides clear guidance
-    for AnnData usage in single-cell analysis, though it cuts off mid-documentation.
-  tags_suggested:
-  - single-cell
-  - bioinformatics
-  - data-structures
-  - scverse
-  - h5ad
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932743f20 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.798265Z'
-indexed_at: '2026-02-15T04:33:49.798271Z'
+  fetched_at: '2026-02-22T05:20:55.652239Z'
+indexed_at: '2026-02-22T05:20:55.652244Z'
 ---

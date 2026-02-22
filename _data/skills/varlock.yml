@@ -24,47 +24,34 @@ prompt_preview: '---
   > **Repository**: https:/...'
 full_prompt_length: 9632
 tools_mentioned:
-- AWS
+- Docker
 - aws
 - docker
-- Docker
+- AWS
 category: community
 category_display: Community
 source_repo: wrsmith108/varlock-claude-skill
 source_path: skills/varlock/SKILL.md
 source_url: https://github.com/wrsmith108/varlock-claude-skill/blob/main/skills/varlock/SKILL.md
-fetched_at: '2026-02-15T04:22:36.367416+00:00'
+fetched_at: '2026-02-22T04:17:07.640931+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:29:18.967323Z'
+  evaluated_at: '2026-02-22T05:19:24.260199Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear security rules,
-      specific examples of what to avoid and what to do, and comprehensive documentation.
-      The use of visual indicators (❌/✅) and code blocks makes instructions highly
-      actionable. The schema definition section is particularly thorough with detailed
-      annotation tables.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255bda0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This addresses a critical security concern in AI-assisted development
-      by providing a concrete, tool-based solution for secret management. The prompt
-      includes practical installation instructions, real-world examples, and covers
-      common scenarios like API keys and database credentials. It's immediately actionable
-      for developers working with sensitive data in Claude sessions.
-  overall_rating: 4.75
-  summary: An outstanding security-focused prompt that provides a comprehensive, practical
-    solution for managing secrets in AI development workflows with clear guidelines
-    and actionable implementation steps.
-  tags_suggested:
-  - security
-  - secrets-management
-  - environment-variables
-  - devops
-  - best-practices
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255bda0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.573587Z'
-indexed_at: '2026-02-15T04:33:51.573593Z'
+  fetched_at: '2026-02-22T05:20:57.016894Z'
+indexed_at: '2026-02-22T05:20:57.016901Z'

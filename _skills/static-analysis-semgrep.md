@@ -12,53 +12,41 @@ prompt_preview: "---\nname: semgrep\ndescription: Run Semgrep static analysis sc
   \  - TaskCreate\n  - TaskList..."
 full_prompt_length: 15921
 tools_mentioned:
-- Docker
+- JavaScript
+- Rust
+- Ruby
 - python
+- Docker
 - react
-- django
-- Django
-- Java
-- javascript
-- React
-- go
 - Go
+- php
+- go
+- docker
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/static-analysis/skills/semgrep/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/semgrep/SKILL.md
-fetched_at: '2026-02-15T04:22:31.674045+00:00'
+fetched_at: '2026-02-22T04:17:00.384371+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:24:50.034044Z'
+  evaluated_at: '2026-02-22T05:16:46.136239Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, tables,
-      and code examples. It provides specific guidance on when to use/not use Semgrep,
-      installation methods, and practical workflows. The only minor weakness is the
-      incomplete custom rule example (ends abruptly with 're'), but the overall clarity
-      and specificity are excellent.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255a000 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for real-world security scanning tasks. It
-      covers the complete workflow from installation to custom rule writing, includes
-      specific ruleset recommendations, and addresses common scenarios like CI/CD
-      integration. The comparison with CodeQL helps users make informed tool choices.
-  overall_rating: 4.75
-  summary: An outstanding security skill prompt that balances comprehensive technical
-    detail with practical guidance, making it immediately actionable for developers
-    and security engineers.
-  tags_suggested:
-  - security
-  - static-analysis
-  - semgrep
-  - code-scanning
-  - vulnerability-detection
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255a000 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.499584Z'
-indexed_at: '2026-02-15T04:33:51.499589Z'
+  fetched_at: '2026-02-22T05:20:56.961378Z'
+indexed_at: '2026-02-22T05:20:56.961383Z'
 ---

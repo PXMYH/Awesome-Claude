@@ -15,47 +15,34 @@ prompt_preview: '---
   Zarr), GPU acceleration (PyTorch, JAX), or memory-effic...'
 full_prompt_length: 10648
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/get-available-resources/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/get-available-resources/SKILL.md
-fetched_at: '2026-02-15T04:21:09.188826+00:00'
+fetched_at: '2026-02-22T04:14:52.261226+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:29:53.399703Z'
+  evaluated_at: '2026-02-22T04:23:54.842201Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured with comprehensive
-      documentation of when and how to use the skill. It provides specific examples,
-      detailed output format, and clear scope. However, it references external scripts
-      (scripts/detect_resources.py) that aren't defined in the prompt itself, creating
-      a dependency gap that could cause implementation issues.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9325cbb60 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill addresses a critical need in scientific computing by proactively
-      detecting resource constraints before computationally intensive tasks. It enables
-      informed decisions about parallel processing, memory management, and hardware
-      acceleration, preventing runtime failures and optimizing performance. The strategic
-      recommendations are highly actionable for real-world development scenarios.
-  overall_rating: 4.75
-  summary: An excellent, highly practical skill that provides essential resource detection
-    for scientific computing, though it requires implementation of the referenced
-    detection script to be fully functional.
-  tags_suggested:
-  - scientific computing
-  - resource management
-  - system monitoring
-  - performance optimization
-  - hardware detection
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9325cbb60 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.994393Z'
-indexed_at: '2026-02-15T04:33:49.994399Z'
+  fetched_at: '2026-02-22T05:20:55.774306Z'
+indexed_at: '2026-02-22T05:20:55.774311Z'
 ---

@@ -12,44 +12,34 @@ prompt_preview: "---\nname: fda-database\ndescription: Query openFDA API for dru
   \ about drugs, medical devices, foods, ani..."
 full_prompt_length: 15230
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/fda-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/fda-database/SKILL.md
-fetched_at: '2026-02-15T04:21:07.836009+00:00'
+fetched_at: '2026-02-22T04:14:50.857927+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:28:16.910912Z'
+  evaluated_at: '2026-02-22T04:22:39.611367Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured, with a logical
-      flow from overview to quick start and detailed category breakdowns. It provides
-      specific code examples and actionable setup instructions, though it lacks explicit
-      error handling guidance for API failures or rate limits.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932559fd0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill offers high real-world value for FDA regulatory analysis,
-      pharmacovigilance, and safety research across multiple domains. It covers comprehensive
-      endpoints with practical examples, enabling immediate use for drug, device,
-      food, and substance data queries.
-  overall_rating: 4.75
-  summary: A robust, well-documented skill that effectively bridges FDA's openFDA
-    API with practical Python interfaces for scientific and regulatory analysis.
-  tags_suggested:
-  - scientific
-  - regulatory
-  - pharmacovigilance
-  - data-analysis
-  - api-integration
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932559fd0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.947295Z'
-indexed_at: '2026-02-15T04:33:49.947300Z'
+  fetched_at: '2026-02-22T05:20:55.743461Z'
+indexed_at: '2026-02-22T05:20:55.743471Z'
 ---

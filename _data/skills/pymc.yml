@@ -11,46 +11,33 @@ prompt_preview: "---\nname: pymc-bayesian-modeling\ndescription: Bayesian modeli
   \ models using PyMC's modern API (ver..."
 full_prompt_length: 16593
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pymc/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pymc/SKILL.md
-fetched_at: '2026-02-15T04:21:15.764546+00:00'
+fetched_at: '2026-02-22T04:15:00.777055+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:39:28.286357Z'
+  evaluated_at: '2026-02-22T04:30:58.118001Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured, following a
-      logical Bayesian workflow from data preparation through diagnostics. It provides
-      specific code examples and parameter recommendations, though it references a
-      custom diagnostic script that may not exist in the user's environment, which
-      could cause confusion.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251f860 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for real-world Bayesian modeling tasks, covering
-      the complete workflow from model building to validation and comparison. It provides
-      actionable code snippets for each step, addresses common pitfalls like standardizing
-      predictors, and includes modern PyMC 5.x+ features like named dimensions and
-      variational inference.
-  overall_rating: 4.75
-  summary: An excellent, production-ready skill prompt that provides comprehensive
-    guidance for Bayesian modeling with PyMC, though it should clarify the custom
-    diagnostic script dependency.
-  tags_suggested:
-  - bayesian-statistics
-  - pymc
-  - mcmc
-  - probabilistic-programming
-  - model-validation
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251f860 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.196234Z'
-indexed_at: '2026-02-15T04:33:50.196240Z'
+  fetched_at: '2026-02-22T05:20:55.916890Z'
+indexed_at: '2026-02-22T05:20:55.916898Z'

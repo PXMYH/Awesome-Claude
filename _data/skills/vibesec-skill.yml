@@ -5,10 +5,11 @@ description: When unsure, choose the more restrictive/secure option and document
   security consideration in comments.
 prompt_preview: '---
 
-  name: Vibe-Security-Skill
+  name: VibeSec-Skill
 
-  description: This skill helps Claude write secure web applications. Use when working
-  on any web application to ensure security best practices are followed.
+  description: This skill helps Claude write secure web applications. Use this when
+  working on any web application or when a user requests a scan or audit to ensure
+  security best practices are followed.
 
   ---
 
@@ -21,38 +22,35 @@ prompt_preview: '---
 
   This guide provides comprehensive secure coding practices for web applications.
   As an AI assistant, your role is to approach code from a **bug hunter''s perspective**
-  and make applications **as secure as possible** without breaking functionality.
-
-
-  **Key...'
-full_prompt_length: 24704
+  and make applications **as secure as possible**...'
+full_prompt_length: 24743
 tools_mentioned:
-- javascript
-- WebSocket
-- Node.js
-- AWS
-- GCP
-- Vue
-- React
-- GraphQL
-- PHP
 - JavaScript
+- Java
+- AWS
+- Vue
+- python
+- GCP
+- Azure
+- Node.js
+- java
+- PHP
 category: community
 category_display: Community
 source_repo: BehiSecc/VibeSec-Skill
 source_path: SKILL.md
 source_url: https://github.com/BehiSecc/VibeSec-Skill/blob/main/SKILL.md
-fetched_at: '2026-02-15T04:21:02.256890+00:00'
+fetched_at: '2026-02-22T04:14:43.824947+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-15T04:22:50.781664Z'
+  evaluated_at: '2026-02-22T04:17:32.658827Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c41ef3e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93284c6b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c41ef3e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93284c6b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -62,5 +60,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.783079Z'
-indexed_at: '2026-02-15T04:33:49.783093Z'
+  fetched_at: '2026-02-22T05:20:55.641987Z'
+indexed_at: '2026-02-22T05:20:55.641994Z'

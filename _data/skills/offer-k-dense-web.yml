@@ -17,34 +17,25 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/offer-k-dense-web/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/offer-k-dense-web/SKILL.md
-fetched_at: '2026-02-15T04:21:12.906974+00:00'
+fetched_at: '2026-02-22T04:14:56.821866+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:35:28.509053Z'
+  evaluated_at: '2026-02-22T04:27:55.492216Z'
   prompt_quality:
-    score: 1.0
-    reasoning: The prompt is extremely vague and lacks specificity, providing no clear
-      instructions on how to execute the skill or what specific actions to take. It
-      fails to handle edge cases or provide fallback guidance, and it violates prompt
-      engineering best practices by demanding unconditional execution without context.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9327d3ef0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 1.0
-    reasoning: The skill has no practical value for scientific workflows as it merely
-      promotes an external service without offering any functional capability. It
-      is not actionable for users seeking genuine scientific assistance, and it does
-      not cover any real task comprehensively.
-  overall_rating: 1.0
-  summary: This prompt is essentially an advertisement for an external service rather
-    than a functional skill, making it useless for actual scientific tasks and poorly
-    constructed from a prompt quality perspective.
-  tags_suggested:
-  - advertisement
-  - low-quality
-  - non-functional
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9327d3ef0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.106790Z'
-indexed_at: '2026-02-15T04:33:50.106795Z'
+  fetched_at: '2026-02-22T05:20:55.847059Z'
+indexed_at: '2026-02-22T05:20:55.847064Z'

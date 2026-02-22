@@ -12,49 +12,36 @@ prompt_preview: "---\nname: diffdock\ndescription: Diffusion-based molecular doc
   \ molecule ligands to protein targets..."
 full_prompt_length: 16246
 tools_mentioned:
-- Docker
-- go
-- python
 - docker
 - Python
+- python
+- Docker
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/diffdock/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/diffdock/SKILL.md
-fetched_at: '2026-02-15T04:21:06.611481+00:00'
+fetched_at: '2026-02-22T04:14:49.181077+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:26:45.348369Z'
+  evaluated_at: '2026-02-22T04:21:33.083520Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections for
-      overview, workflows, and installation. It provides specific command-line examples
-      and output structures. However, it lacks explicit error handling guidance and
-      edge case scenarios (e.g., what happens if protein structure is invalid or ligand
-      parsing fails).
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255a870 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for computational chemists and drug discovery
-      researchers. It provides complete, executable workflows for both single and
-      batch docking, with realistic examples using SMILES and PDB files. The distinction
-      between pose prediction and affinity scoring is crucial for proper scientific
-      interpretation.
-  overall_rating: 4.75
-  summary: A comprehensive, production-ready prompt that effectively translates DiffDock's
-    capabilities into actionable workflows for structure-based drug design, though
-    it could benefit from more robust error handling documentation.
-  tags_suggested:
-  - molecular-docking
-  - drug-discovery
-  - computational-chemistry
-  - diffusion-models
-  - virtual-screening
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255a870 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.916160Z'
-indexed_at: '2026-02-15T04:33:49.916165Z'
+  fetched_at: '2026-02-22T05:20:55.714705Z'
+indexed_at: '2026-02-22T05:20:55.714711Z'
 ---

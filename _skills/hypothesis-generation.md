@@ -27,40 +27,26 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/hypothesis-generation/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/hypothesis-generation/SKILL.md
-fetched_at: '2026-02-15T04:21:10.061342+00:00'
+fetched_at: '2026-02-22T04:14:53.262803+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:31:33.375184Z'
+  evaluated_at: '2026-02-22T04:24:52.599010Z'
   prompt_quality:
-    score: 4.5
-    reasoning: 'The prompt demonstrates strong clarity and specificity with a well-structured
-      workflow and clear constraints. However, it contains a significant inconsistency:
-      it references a ''scientific-schematics'' skill and a ''Nano Banana Pro'' system
-      that are not defined in the allowed-tools list, creating ambiguity about execution.
-      The workflow is comprehensive but the literature search section is incomplete,
-      cutting off mid-sentence.'
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9325cba70 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill addresses a genuine scientific need for structured hypothesis
-      generation with practical workflow steps. The mandatory visualization requirement
-      enhances real-world value for scientific communication. However, the incomplete
-      literature search section and undefined external dependencies reduce immediate
-      actionability for users.
-  overall_rating: 4.25
-  summary: A well-structured scientific hypothesis generation skill with strong workflow
-    design, but undermined by incomplete sections and references to undefined external
-    systems, requiring refinement for full practicality.
-  tags_suggested:
-  - scientific-method
-  - hypothesis-generation
-  - experimental-design
-  - literature-review
-  - visualization
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9325cba70 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.020893Z'
-indexed_at: '2026-02-15T04:33:50.020899Z'
+  fetched_at: '2026-02-22T05:20:55.791778Z'
+indexed_at: '2026-02-22T05:20:55.791783Z'
 ---

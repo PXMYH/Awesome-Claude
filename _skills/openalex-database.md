@@ -26,39 +26,26 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/openalex-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/openalex-database/SKILL.md
-fetched_at: '2026-02-15T04:21:13.156076+00:00'
+fetched_at: '2026-02-22T04:14:57.121747+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:35:48.971705Z'
+  evaluated_at: '2026-02-22T04:28:11.983959Z'
   prompt_quality:
-    score: 2.0
-    reasoning: The prompt has significant quality issues. It contains a truncated
-      code snippet at the end (incomplete function call for analyze_research_output),
-      lacks proper error handling guidance, and provides incomplete installation instructions
-      (missing uv installation command). The documentation structure is clear but
-      the incomplete content undermines reliability.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255b1d0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 3.5
-    reasoning: The skill demonstrates high practical value for academic research tasks
-      with comprehensive coverage of common use cases including literature search,
-      author/institution analysis, and bibliometrics. The two-step pattern for finding
-      works by author/institution is particularly useful, though the incomplete code
-      examples reduce immediate usability.
-  overall_rating: 2.75
-  summary: A well-structured academic research skill with strong practical applications,
-    but significantly undermined by incomplete code examples and missing installation
-    details that would hinder immediate implementation.
-  tags_suggested:
-  - academic-research
-  - literature-search
-  - bibliometrics
-  - open-access
-  - scholarly-databases
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255b1d0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.114211Z'
-indexed_at: '2026-02-15T04:33:50.114217Z'
+  fetched_at: '2026-02-22T05:20:55.852052Z'
+indexed_at: '2026-02-22T05:20:55.852057Z'
 ---

@@ -18,38 +18,25 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/stable-baselines3/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/stable-baselines3/SKILL.md
-fetched_at: '2026-02-15T04:21:19.166260+00:00'
+fetched_at: '2026-02-22T04:15:05.641968+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:44:35.035295Z'
+  evaluated_at: '2026-02-22T04:34:43.304563Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, code
-      examples, and specific constraints. It provides actionable guidance for common
-      RL tasks and includes important notes about API usage. However, it references
-      external files (scripts, references) that may not exist in the actual skill
-      context, which could cause confusion if those resources aren't available.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932387aa0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This is highly practical for RL practitioners, covering core workflows
-      like training, custom environments, and vectorization with concrete examples.
-      It provides real value for prototyping and production RL experiments. The limitation
-      is that it's more of a reference guide than a step-by-step tutorial, which might
-      require users to have some prior RL knowledge to fully utilize it.
-  overall_rating: 4.25
-  summary: A well-crafted, production-ready RL skill prompt that provides comprehensive
-    guidance for Stable Baselines3 usage, though its reliance on external reference
-    files slightly diminishes its self-contained utility.
-  tags_suggested:
-  - reinforcement-learning
-  - machine-learning
-  - python
-  - gymnasium
-  - pytorch
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932387aa0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.301684Z'
-indexed_at: '2026-02-15T04:33:50.301689Z'
+  fetched_at: '2026-02-22T05:20:56.004719Z'
+indexed_at: '2026-02-22T05:20:56.004725Z'

@@ -1,0 +1,46 @@
+---
+id: oiloil-ui-ux-guide
+slug: oiloil-ui-ux-guide
+name: OilOil UI/UX Guide (Modern Minimal)
+description: '## References'
+prompt_preview: '---
+
+  name: oiloil-ui-ux-guide
+
+  description: Modern, clean UI/UX guidance + review skill. Use when you need actionable
+  UX/UI recommendations, design principles, or a design review checklist for new features
+  or existing systems (web/app). Focus on CRAP (Contrast/Repetition/Alignment/Proximity)
+  plus task-first UX, information architecture, feedback & system status, consistency,
+  affordances, error prevention/recovery, and cognitive load. Enforce a modern minimal
+  style (clean, spacious, typography-led)...'
+full_prompt_length: 8816
+tools_mentioned:
+- rest
+category: community
+category_display: Community
+source_repo: oil-oil/oiloil-ui-ux-guide
+source_path: skills/oiloil-ui-ux-guide/SKILL.md
+source_url: https://github.com/oil-oil/oiloil-ui-ux-guide/blob/main/skills/oiloil-ui-ux-guide/SKILL.md
+fetched_at: '2026-02-22T04:16:28.412495+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-02-22T05:07:03.234374Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932386ed0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932386ed0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-02-22T05:20:56.737096Z'
+indexed_at: '2026-02-22T05:20:56.737101Z'
+---

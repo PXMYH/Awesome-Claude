@@ -12,48 +12,34 @@ prompt_preview: "---\nname: scikit-learn\ndescription: Machine learning in Pytho
   \ skill-author: K-Dense Inc.\n---\n\n# Scik..."
 full_prompt_length: 16351
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scikit-learn/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scikit-learn/SKILL.md
-fetched_at: '2026-02-15T04:21:18.430973+00:00'
+fetched_at: '2026-02-22T04:15:04.761830+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:43:33.553646Z'
+  evaluated_at: '2026-02-22T04:33:52.804057Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections for
-      overview, installation, usage guidelines, and practical examples. It follows
-      best practices by providing specific code examples for common scenarios and
-      defining when to use the skill. The only minor limitation is that the content
-      appears truncated at the end, which slightly reduces completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323862d0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides immediate, practical value for real-world machine
-      learning tasks with comprehensive coverage of scikit-learn's core capabilities.
-      The inclusion of complete pipeline examples, preprocessing techniques, and clear
-      guidance on algorithm selection makes it highly actionable for both beginners
-      and experienced practitioners working with tabular data.
-  overall_rating: 4.75
-  summary: An excellent, production-ready skill prompt that provides comprehensive
-    scikit-learn guidance with clear structure, practical examples, and appropriate
-    scope for scientific machine learning tasks.
-  tags_suggested:
-  - machine-learning
-  - scikit-learn
-  - classification
-  - regression
-  - pipelines
-  - preprocessing
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323862d0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.279301Z'
-indexed_at: '2026-02-15T04:33:50.279314Z'
+  fetched_at: '2026-02-22T05:20:55.989622Z'
+indexed_at: '2026-02-22T05:20:55.989629Z'
 ---

@@ -13,17 +13,17 @@ prompt_preview: "---\nname: django-expert\ndescription: Use when building Django
   \  output-format: code\n  related-skil..."
 full_prompt_length: 2994
 tools_mentioned:
-- REST
-- Django
-- django
 - fastapi
 - Python
+- django
+- REST
+- Django
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/django-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/django-expert/SKILL.md
-fetched_at: '2026-02-15T04:22:03.104821+00:00'
+fetched_at: '2026-02-22T04:16:07.758708+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:57:56.068431Z'
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.146587Z'
-indexed_at: '2026-02-15T04:33:51.146599Z'
+  fetched_at: '2026-02-22T05:20:56.611330Z'
+indexed_at: '2026-02-22T05:20:56.611336Z'
 ---

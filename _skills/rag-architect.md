@@ -20,7 +20,7 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/rag-architect/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/rag-architect/SKILL.md
-fetched_at: '2026-02-15T04:22:06.703885+00:00'
+fetched_at: '2026-02-22T04:16:14.432675+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:00:04.725742Z'
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.183146Z'
-indexed_at: '2026-02-15T04:33:51.183152Z'
+  fetched_at: '2026-02-22T05:20:56.642985Z'
+indexed_at: '2026-02-22T05:20:56.642991Z'
 ---

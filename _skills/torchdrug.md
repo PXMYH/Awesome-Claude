@@ -19,38 +19,26 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/torchdrug/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/torchdrug/SKILL.md
-fetched_at: '2026-02-15T04:21:19.892121+00:00'
+fetched_at: '2026-02-22T04:15:06.662369+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:45:37.136419Z'
+  evaluated_at: '2026-02-22T04:35:33.124900Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, specific
-      installation instructions, and practical code examples. It defines scope through
-      explicit 'When to Use' criteria and provides concrete use cases. The only minor
-      limitation is that some reference sections are truncated, which could be more
-      complete.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932bd6540 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This prompt provides immediate practical value with working code examples,
-      installation commands, and clear guidance on when to use TorchDrug versus alternatives
-      like DeepChem. It covers real-world drug discovery tasks comprehensively and
-      enables users to start development immediately.
-  overall_rating: 4.75
-  summary: An excellent, production-ready prompt that balances technical depth with
-    accessibility, providing clear guidance for both beginners and experienced practitioners
-    in drug discovery ML.
-  tags_suggested:
-  - drug-discovery
-  - graph-neural-networks
-  - molecular-modeling
-  - protein-modeling
-  - pytorch
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932bd6540 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.324310Z'
-indexed_at: '2026-02-15T04:33:50.324315Z'
+  fetched_at: '2026-02-22T05:20:56.020240Z'
+indexed_at: '2026-02-22T05:20:56.020245Z'
 ---

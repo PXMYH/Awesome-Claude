@@ -12,55 +12,41 @@ prompt_preview: "---\nname: sharp-edges\ndescription: \"Identifies error-prone A
   \ Edges Analysis\n\nEvaluates wheth..."
 full_prompt_length: 11424
 tools_mentioned:
-- javascript
-- TypeScript
+- Java
+- JavaScript
+- Python
+- Rust
+- python
+- Ruby
+- ruby
+- PHP
 - rust
 - java
-- PHP
-- go
-- JavaScript
-- Go
-- Ruby
-- Rust
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/sharp-edges/skills/sharp-edges/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/sharp-edges/skills/sharp-edges/SKILL.md
-fetched_at: '2026-02-15T04:22:30.808804+00:00'
+fetched_at: '2026-02-22T04:16:58.961037+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:23:57.675667Z'
+  evaluated_at: '2026-02-22T05:16:13.087211Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, specific
-      detection patterns, and concrete examples. It follows excellent prompt engineering
-      practices with defined triggers, allowed tools, and explicit rejection of common
-      rationalizations. The only minor weakness is the truncated content in the 'Primitive
-      vs. Semantic APIs' section, which slightly impacts completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b33b0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This prompt provides immediate, actionable value for security reviews
-      with specific categories, detection patterns, and real-world examples like JWT
-      and PHP password_hash. It directly addresses common security anti-patterns and
-      gives evaluators a clear framework to identify dangerous API designs. The 'Rationalizations
-      to Reject' table is particularly valuable for countering common developer pushback
-      during security reviews.
-  overall_rating: 4.75
-  summary: An outstanding security analysis prompt that provides a comprehensive,
-    actionable framework for identifying dangerous API designs and security footguns,
-    with excellent structure and practical examples.
-  tags_suggested:
-  - security
-  - api-design
-  - cryptography
-  - secure-by-default
-  - footgun-analysis
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b33b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.484151Z'
-indexed_at: '2026-02-15T04:33:51.484156Z'
+  fetched_at: '2026-02-22T05:20:56.951093Z'
+indexed_at: '2026-02-22T05:20:56.951098Z'
 ---

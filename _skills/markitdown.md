@@ -12,54 +12,37 @@ prompt_preview: "---\nname: markitdown\ndescription: Convert files and office do
   \ Markdown. It's particularly..."
 full_prompt_length: 13452
 tools_mentioned:
+- Python
+- docker
+- python
+- Azure
 - Docker
 - go
-- Azure
-- python
-- docker
-- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/markitdown/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/markitdown/SKILL.md
-fetched_at: '2026-02-15T04:21:11.514401+00:00'
+fetched_at: '2026-02-22T04:14:54.981698+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:33:15.122430Z'
+  evaluated_at: '2026-02-22T04:26:24.094730Z'
   prompt_quality:
-    score: 2.5
-    reasoning: 'The prompt is clear about the tool''s capabilities and provides good
-      technical documentation, but it contains a significant flaw: it incorrectly
-      attributes MarkItDown to Microsoft (it''s actually developed by Microsoft, but
-      the prompt states ''developed by Microsoft'' which is accurate, but the overall
-      structure is confusing). More critically, it inappropriately mixes tool documentation
-      with unsolicited instructions to use a separate ''scientific-schematics'' skill,
-      creating scope creep and potential confusion about the tool''s actual purpose.'
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932bd6540 state=finished
+      raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: The core documentation for MarkItDown is practical and valuable for
-      users needing file format conversion, with comprehensive format support and
-      clear usage examples. However, the usefulness is diminished by the irrelevant
-      and potentially misleading instructions about generating scientific schematics,
-      which distracts from the primary task of file conversion and may lead users
-      to expect features not present in the actual tool.
-  overall_rating: 2.75
-  summary: This prompt provides technically accurate documentation for MarkItDown
-    but is compromised by inappropriate scope expansion and confusing instructions
-    about unrelated schematic generation, reducing its overall effectiveness as a
-    skill prompt.
-  tags_suggested:
-  - file-conversion
-  - markdown
-  - document-processing
-  - technical-documentation
-  - scope-creep
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932bd6540 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.061576Z'
-indexed_at: '2026-02-15T04:33:50.061582Z'
+  fetched_at: '2026-02-22T05:20:55.819316Z'
+indexed_at: '2026-02-22T05:20:55.819321Z'
 ---

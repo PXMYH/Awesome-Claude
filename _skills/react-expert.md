@@ -14,15 +14,15 @@ prompt_preview: "---\nname: react-expert\ndescription: Use when building React 1
   \ Redux, Zustand, component, frontend..."
 full_prompt_length: 3540
 tools_mentioned:
-- React
 - TypeScript
 - react
+- React
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/react-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/react-expert/SKILL.md
-fetched_at: '2026-02-15T04:22:06.949113+00:00'
+fetched_at: '2026-02-22T04:16:14.934103+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:00:14.601767Z'
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.186820Z'
-indexed_at: '2026-02-15T04:33:51.186826Z'
+  fetched_at: '2026-02-22T05:20:56.646180Z'
+indexed_at: '2026-02-22T05:20:56.646185Z'
 ---

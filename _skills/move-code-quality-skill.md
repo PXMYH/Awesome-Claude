@@ -28,38 +28,26 @@ category_display: Community
 source_repo: 1NickPappas/move-code-quality-skill
 source_path: SKILL.md
 source_url: https://github.com/1NickPappas/move-code-quality-skill/blob/main/SKILL.md
-fetched_at: '2026-02-15T04:21:01.690370+00:00'
+fetched_at: '2026-02-22T04:14:43.168168+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:20:37.651510Z'
+  evaluated_at: '2026-02-22T04:17:24.419584Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and specific, providing a structured
-      workflow and a detailed list of 11 categories with 50+ rules for analysis. It
-      effectively defines the skill's activation triggers and scope. The only minor
-      deduction is that the prompt content is truncated at the end, leaving the 'Functions'
-      category incomplete, which slightly impacts completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93299ab40 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill has high real-world value for developers working with the
-      Move language, especially given the recent Move 2024 Edition updates. It provides
-      actionable, specific feedback based on official checklists, covering a comprehensive
-      range of code quality aspects from manifest configuration to syntax best practices.
-      The structured workflow ensures thorough analysis.
-  overall_rating: 4.75
-  summary: A high-quality, highly useful prompt that provides a comprehensive framework
-    for automated Move code review, though it is slightly incomplete due to truncation.
-  tags_suggested:
-  - Move Language
-  - Code Review
-  - Static Analysis
-  - Sui Blockchain
-  - Move 2024 Edition
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93299ab40 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.778255Z'
-indexed_at: '2026-02-15T04:33:49.778276Z'
+  fetched_at: '2026-02-22T05:20:55.638873Z'
+indexed_at: '2026-02-22T05:20:55.638895Z'
 ---

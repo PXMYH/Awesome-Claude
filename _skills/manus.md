@@ -14,31 +14,25 @@ prompt_preview: '---
   research, document generation, data analysis, or multi-step workflows that benefit
   from autonomous agent execution with parallel processing.
 
-  ---
-
-
-  # Manus
-
-
-  Manu...'
-full_prompt_length: 6721
+  license: Apache-2....'
+full_prompt_length: 6789
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/manus/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/manus/SKILL.md
-fetched_at: '2026-02-15T04:22:20.481618+00:00'
+fetched_at: '2026-02-22T04:16:43.352209+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-15T04:30:07.099651Z'
+  evaluated_at: '2026-02-22T05:11:29.717215Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3a68aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932386600 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3a68aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932386600 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.371262Z'
-indexed_at: '2026-02-15T04:33:51.371268Z'
+  fetched_at: '2026-02-22T05:20:56.855410Z'
+indexed_at: '2026-02-22T05:20:56.855416Z'
 ---

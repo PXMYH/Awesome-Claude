@@ -25,7 +25,7 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/firebase-apk-scanner/skills/firebase-apk-scanner/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/firebase-apk-scanner/skills/firebase-apk-scanner/SKILL.md
-fetched_at: '2026-02-15T04:22:28.095740+00:00'
+fetched_at: '2026-02-22T04:16:54.584529+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:05:16.026937Z'
@@ -58,6 +58,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.454777Z'
-indexed_at: '2026-02-15T04:33:51.454782Z'
+  fetched_at: '2026-02-22T05:20:56.926886Z'
+indexed_at: '2026-02-22T05:20:56.926891Z'
 ---

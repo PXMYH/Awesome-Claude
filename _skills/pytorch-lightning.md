@@ -12,47 +12,34 @@ prompt_preview: "---\nname: pytorch-lightning\ndescription: Deep learning framew
   \ that organizes PyTorch code..."
 full_prompt_length: 7494
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pytorch-lightning/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pytorch-lightning/SKILL.md
-fetched_at: '2026-02-15T04:21:16.354936+00:00'
+fetched_at: '2026-02-22T04:15:01.941521+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:40:22.302173Z'
+  evaluated_at: '2026-02-22T04:31:39.918917Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, specific
-      method names, and logical organization. It follows best practices by providing
-      both quick templates and detailed documentation references. The only minor weakness
-      is that the prompt is truncated mid-sentence in the distributed training section,
-      which slightly impacts completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251f5c0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is a highly practical and valuable skill for any PyTorch Lightning
-      developer. It covers all major components (LightningModule, Trainer, DataModule,
-      Callbacks, Logging, Distributed Training) with actionable guidance and references
-      to specific files/scripts. The skill enables immediate application in real-world
-      deep learning projects.
-  overall_rating: 4.75
-  summary: An excellent, comprehensive PyTorch Lightning skill prompt that provides
-    clear structure, practical templates, and references to detailed documentation,
-    making it highly valuable for developers building scalable neural networks.
-  tags_suggested:
-  - deep learning
-  - PyTorch Lightning
-  - neural networks
-  - distributed training
-  - machine learning
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251f5c0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.214532Z'
-indexed_at: '2026-02-15T04:33:50.214538Z'
+  fetched_at: '2026-02-22T05:20:55.941249Z'
+indexed_at: '2026-02-22T05:20:55.941259Z'
 ---

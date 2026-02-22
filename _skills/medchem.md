@@ -12,49 +12,34 @@ prompt_preview: "---\nname: medchem\ndescription: Medicinal chemistry filters. A
   \ structural alerts, and medic..."
 full_prompt_length: 10966
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/medchem/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/medchem/SKILL.md
-fetched_at: '2026-02-15T04:21:12.054397+00:00'
+fetched_at: '2026-02-22T04:14:55.705842+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:33:57.496257Z'
+  evaluated_at: '2026-02-22T04:26:57.264870Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections for
-      overview, usage, installation, and core capabilities. It provides specific,
-      executable code examples for each major feature (rules, structural alerts, functional
-      API) and includes practical details like parallelization and progress bars.
-      The only minor weakness is that it doesn't explicitly address error handling
-      or edge cases for invalid SMILES strings.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932559340 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill addresses a critical need in drug discovery workflows with
-      comprehensive, production-ready functionality. It covers the full spectrum of
-      medicinal chemistry filtering from established rules (Lipinski, Veber) to advanced
-      structural alerts (NIBR, Lilly) and includes practical features like parallel
-      processing. The examples are immediately actionable for real compound library
-      triage and prioritization tasks.
-  overall_rating: 4.75
-  summary: An excellent, production-ready medicinal chemistry skill that provides
-    comprehensive molecular filtering capabilities with clear documentation and practical
-    examples for drug discovery workflows.
-  tags_suggested:
-  - medicinal chemistry
-  - drug discovery
-  - molecular filtering
-  - cheminformatics
-  - compound prioritization
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932559340 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.079033Z'
-indexed_at: '2026-02-15T04:33:50.079039Z'
+  fetched_at: '2026-02-22T05:20:55.829475Z'
+indexed_at: '2026-02-22T05:20:55.829480Z'
 ---

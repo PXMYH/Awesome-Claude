@@ -12,50 +12,36 @@ prompt_preview: "---\nname: cirq\ndescription: Google quantum computing framewor
   \ with Python\n\nCirq is Google..."
 full_prompt_length: 11466
 tools_mentioned:
-- go
-- Azure
-- python
 - Python
+- python
+- Azure
 - azure
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/cirq/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/cirq/SKILL.md
-fetched_at: '2026-02-15T04:21:04.703471+00:00'
+fetched_at: '2026-02-22T04:14:46.951656+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:23:37.231928Z'
+  evaluated_at: '2026-02-22T04:19:28.580998Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear installation
-      instructions, practical code examples, and logical organization by capability.
-      It follows best practices by including metadata, license information, and explicit
-      guidance on when to use Cirq versus other frameworks. The only minor limitation
-      is that some references point to non-existent internal files (e.g., references/building.md),
-      which could confuse users expecting those resources.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251dcd0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for quantum computing developers targeting
-      Google hardware or needing noise-aware circuit design. The prompt provides immediate
-      value with runnable code examples covering basic circuits, parameterized circuits,
-      and hardware integration. It comprehensively addresses the core use cases for
-      Cirq while clearly delineating its scope compared to other quantum frameworks.
-  overall_rating: 4.75
-  summary: An excellent, production-ready skill prompt that provides comprehensive
-    guidance for Cirq quantum computing with clear examples, proper scope definition,
-    and practical installation instructions for various hardware providers.
-  tags_suggested:
-  - quantum computing
-  - Google Quantum AI
-  - circuit design
-  - noise modeling
-  - scientific computing
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251dcd0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.845225Z'
-indexed_at: '2026-02-15T04:33:49.845234Z'
+  fetched_at: '2026-02-22T05:20:55.677289Z'
+indexed_at: '2026-02-22T05:20:55.677294Z'
 ---

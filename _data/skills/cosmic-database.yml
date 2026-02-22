@@ -11,48 +11,33 @@ prompt_preview: "---\nname: cosmic-database\ndescription: Access COSMIC cancer m
   \ cancer. Access COSMIC's exten..."
 full_prompt_length: 10851
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/cosmic-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/cosmic-database/SKILL.md
-fetched_at: '2026-02-15T04:21:05.720014+00:00'
+fetched_at: '2026-02-22T04:14:48.307056+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:25:18.199348Z'
+  evaluated_at: '2026-02-22T04:20:34.969423Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt provides clear structure and specific examples for downloading
-      COSMIC data, but it's incomplete and contains errors. The 'Mutational Signatures'
-      section cuts off mid-sentence, and there's no actual implementation code or
-      function definitions provided—only usage examples referencing non-existent scripts.
-      The authentication requirements are clearly stated, but the prompt lacks error
-      handling guidance and fails to address rate limits or API limitations.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932709460 state=finished
+      raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: The skill addresses a real need in cancer research for accessing COSMIC
-      data programmatically, which has practical value for bioinformatics workflows.
-      However, its usefulness is severely limited by the incomplete content and lack
-      of actual implementation code. Users would need to create the download scripts
-      and handle authentication themselves, reducing immediate actionability despite
-      the clear use cases outlined.
-  overall_rating: 3.25
-  summary: This is a partially developed skill prompt that identifies an important
-    scientific use case but lacks complete implementation details and contains incomplete
-    sections, making it more of a conceptual outline than a functional skill.
-  tags_suggested:
-  - cancer-research
-  - bioinformatics
-  - genomics
-  - data-access
-  - incomplete
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932709460 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.888806Z'
-indexed_at: '2026-02-15T04:33:49.888812Z'
+  fetched_at: '2026-02-22T05:20:55.697365Z'
+indexed_at: '2026-02-22T05:20:55.697371Z'

@@ -7,10 +7,10 @@ prompt_preview: "---\nname: google-docs\ndescription: |\n  Interact with Google 
   \ - create documents, search by title, read content, and edit text.\n  Use when\
   \ user asks to: create a Google Doc, find a document, read doc content, add text\
   \ to a doc,\n  or replace text in a document. Lightweight alternative to full Google\
-  \ Workspace MCP server with\n  standalone OAuth authentication.\n---\n\n# Google\
-  \ Docs\n\nLightweight Google Docs integration with standalone OAuth authentication.\
-  \ No MCP server required.\n\n> **⚠️ Requires G..."
-full_prompt_length: 2473
+  \ Workspace MCP server with\n  standalone OAuth authentication.\nlicense: Apache-2.0\n\
+  metadata:\n  author: sanjay3290\n  version: \"1.0\"\n---\n\n# Google Docs\n\nLightweight\
+  \ Google Docs integration with standal..."
+full_prompt_length: 2541
 tools_mentioned:
 - python
 category: community
@@ -18,7 +18,7 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/google-docs/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/google-docs/SKILL.md
-fetched_at: '2026-02-15T04:22:19.792828+00:00'
+fetched_at: '2026-02-22T04:16:42.036571+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:04:15.601131Z'
@@ -52,5 +52,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.348794Z'
-indexed_at: '2026-02-15T04:33:51.348799Z'
+  fetched_at: '2026-02-22T05:20:56.836546Z'
+indexed_at: '2026-02-22T05:20:56.836552Z'

@@ -31,40 +31,26 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/spec-to-code-compliance/skills/spec-to-code-compliance/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/spec-to-code-compliance/skills/spec-to-code-compliance/SKILL.md
-fetched_at: '2026-02-15T04:22:31.139168+00:00'
+fetched_at: '2026-02-22T04:16:59.450760+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:24:18.783591Z'
+  evaluated_at: '2026-02-22T05:16:21.461958Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and specific, with well-defined phases,
-      rules, and rationalizations that prevent common AI hallucinations. It provides
-      concrete triggers and edge case handling through its 'When NOT to Use' section
-      and rationalizations table. The structured approach with Phase 0 and Phase 1
-      demonstrates strong prompt engineering practices.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932beb530 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill addresses a critical real-world need in blockchain security
-      audits, where spec-to-code alignment is fundamental for compliance and vulnerability
-      detection. The comprehensive framework covering documentation discovery, normalization,
-      and evidence-based verification provides actionable value for auditors and developers.
-      However, its utility is somewhat limited to blockchain contexts with formal
-      specifications, reducing broader applicability.
-  overall_rating: 4.25
-  summary: A well-structured, high-quality prompt that provides a rigorous framework
-    for spec-to-code compliance checking, particularly valuable for blockchain audits,
-    though somewhat specialized in its domain focus.
-  tags_suggested:
-  - blockchain
-  - security-audit
-  - compliance-checking
-  - specification-verification
-  - smart-contracts
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932beb530 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.488073Z'
-indexed_at: '2026-02-15T04:33:51.488078Z'
+  fetched_at: '2026-02-22T05:20:56.953716Z'
+indexed_at: '2026-02-22T05:20:56.953721Z'
 ---

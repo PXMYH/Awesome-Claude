@@ -12,47 +12,34 @@ prompt_preview: "---\nname: statistical-analysis\ndescription: Guided statistica
   Statistical analysis is a syst..."
 full_prompt_length: 20439
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/statistical-analysis/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/statistical-analysis/SKILL.md
-fetched_at: '2026-02-15T04:21:19.282337+00:00'
+fetched_at: '2026-02-22T04:15:05.832921+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:44:44.740904Z'
+  evaluated_at: '2026-02-22T04:34:51.632399Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is well-structured with clear sections, a decision tree
-      workflow, and specific guidance on test selection. However, it references external
-      files (references/test_selection_guide.md) that may not exist, creating potential
-      execution gaps. The workflow is logical but could be more explicit about handling
-      edge cases like missing data or small sample sizes.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9329a9d30 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This skill provides high practical value for academic researchers and
-      data analysts by covering essential statistical tasks from test selection to
-      APA reporting. It comprehensively addresses common statistical needs including
-      assumption checking, effect sizes, and power analysis. The inclusion of both
-      frequentist and Bayesian approaches makes it versatile for modern research practices.
-  overall_rating: 4.25
-  summary: A well-designed statistical analysis skill that provides comprehensive
-    guidance for academic research, though it could benefit from more explicit edge
-    case handling and clarification on external resource dependencies.
-  tags_suggested:
-  - statistical-analysis
-  - academic-research
-  - hypothesis-testing
-  - apa-format
-  - bayesian-statistics
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9329a9d30 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.305396Z'
-indexed_at: '2026-02-15T04:33:50.305401Z'
+  fetched_at: '2026-02-22T05:20:56.007225Z'
+indexed_at: '2026-02-22T05:20:56.007236Z'
 ---

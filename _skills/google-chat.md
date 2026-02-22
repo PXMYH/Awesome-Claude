@@ -8,9 +8,9 @@ prompt_preview: "---\nname: google-chat\ndescription: |\n  Interact with Google 
   \ user asks to: send a message on Google Chat, read chat messages, list chat spaces,\n\
   \  find a chat room, send a DM, or create a new chat space. Lightweight alternative\
   \ to full\n  Google Workspace MCP server with standalone OAuth authentication.\n\
-  ---\n\n# Google Chat\n\nLightweight Google Chat integration with standalone OAuth\
-  \ authentication. No MCP server required..."
-full_prompt_length: 2359
+  license: Apache-2.0\nmetadata:\n  author: sanjay3290\n  version: \"1.0\"\n---\n\n\
+  # Google Chat\n\nLightweight Google Chat inte..."
+full_prompt_length: 2427
 tools_mentioned:
 - python
 category: community
@@ -18,7 +18,7 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/google-chat/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/google-chat/SKILL.md
-fetched_at: '2026-02-15T04:22:19.681706+00:00'
+fetched_at: '2026-02-22T04:16:41.810668+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:04:01.577890Z'
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.345141Z'
-indexed_at: '2026-02-15T04:33:51.345147Z'
+  fetched_at: '2026-02-22T05:20:56.833373Z'
+indexed_at: '2026-02-22T05:20:56.833379Z'
 ---

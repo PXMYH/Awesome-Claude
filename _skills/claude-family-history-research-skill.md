@@ -42,39 +42,26 @@ category_display: Community
 source_repo: emaynard/claude-family-history-research-skill
 source_path: SKILL.md
 source_url: https://github.com/emaynard/claude-family-history-research-skill/blob/main/SKILL.md
-fetched_at: '2026-02-15T04:21:56.030662+00:00'
+fetched_at: '2026-02-22T04:15:57.217317+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:16:38.824010Z'
+  evaluated_at: '2026-02-22T05:03:43.722007Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt demonstrates excellent clarity and specificity with explicit
-      prohibitions against unsolicited research and a clear sequential workflow. It
-      follows strong prompt engineering practices by defining triggers, capabilities,
-      and critical constraints. However, it references external template files that
-      may not exist in the actual system, which could create implementation issues.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932387560 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill provides high real-world value for genealogy research by
-      enforcing systematic planning methodology, which is a professional standard
-      in the field. It covers core genealogical workflows comprehensively including
-      planning, citation, and evidence analysis. The actionable nature allows users
-      to immediately benefit from structured guidance rather than random searching.
-  overall_rating: 4.25
-  summary: A well-structured genealogy planning skill that enforces professional research
-    methodology through clear constraints and workflows, though it may need adjustment
-    for template file dependencies.
-  tags_suggested:
-  - genealogy
-  - research planning
-  - family history
-  - methodology
-  - professional standards
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932387560 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.051299Z'
-indexed_at: '2026-02-15T04:33:51.051305Z'
+  fetched_at: '2026-02-22T05:20:56.529568Z'
+indexed_at: '2026-02-22T05:20:56.529574Z'
 ---

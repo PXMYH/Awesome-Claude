@@ -12,51 +12,34 @@ prompt_preview: "---\nname: citation-management\ndescription: Comprehensive cita
   metadata:\n    skill-author: K-Dense I..."
 full_prompt_length: 33416
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/citation-management/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/citation-management/SKILL.md
-fetched_at: '2026-02-15T04:21:04.849496+00:00'
+fetched_at: '2026-02-22T04:14:47.159654+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:23:48.539672Z'
+  evaluated_at: '2026-02-22T04:19:36.923962Z'
   prompt_quality:
-    score: 4.0
-    reasoning: 'The prompt provides clear, structured instructions with specific workflow
-      phases and command examples. However, it contains a significant flaw: it references
-      external scripts and files (e.g., ''python scripts/search_google_scholar.py'',
-      ''references/google_scholar_search.md'') that likely don''t exist in a standard
-      environment, creating a dependency on unavailable resources. The core workflow
-      is well-defined but incomplete, cutting off mid-sentence in the advanced search
-      strategies section.'
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932bd6510 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 3.5
-    reasoning: The skill addresses a genuine need in academic research for systematic
-      citation management, covering key tasks like searching, validation, and BibTeX
-      generation. However, its practicality is severely limited by the dependency
-      on non-existent scripts and the incomplete workflow documentation, which would
-      prevent immediate implementation without significant modification or additional
-      development.
-  overall_rating: 3.75
-  summary: A well-structured but flawed prompt that outlines a valuable scientific
-    citation management workflow but is undermined by incomplete content and references
-    to unavailable external resources, requiring substantial revision for practical
-    use.
-  tags_suggested:
-  - academic-research
-  - citation-management
-  - bibliography
-  - scientific-writing
-  - incomplete
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932bd6510 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.852130Z'
-indexed_at: '2026-02-15T04:33:49.852139Z'
+  fetched_at: '2026-02-22T05:20:55.679792Z'
+indexed_at: '2026-02-22T05:20:55.679797Z'
 ---

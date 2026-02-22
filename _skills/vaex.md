@@ -15,48 +15,34 @@ prompt_preview: '---
   visualizations of big data, or build ML pipelines that do not fit in memor...'
 full_prompt_length: 7415
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/vaex/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/vaex/SKILL.md
-fetched_at: '2026-02-15T04:21:20.611394+00:00'
+fetched_at: '2026-02-22T04:15:07.660465+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:46:40.320858Z'
+  evaluated_at: '2026-02-22T04:36:23.371670Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections for
-      overview, usage guidelines, and core capabilities. It follows excellent prompt
-      engineering practices by providing specific reference paths and a quick-start
-      pattern. However, it's incomplete—the Quick Start Pattern cuts off mid-sentence,
-      which slightly undermines the otherwise excellent clarity and completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323852b0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This prompt demonstrates high practical value by addressing a real-world
-      problem (large dataset processing) with specific, actionable guidance. It comprehensively
-      covers Vaex's six primary capability areas and provides concrete use cases (astronomical
-      data, financial time series) that help users immediately identify when to apply
-      the skill. The reference-based structure enables users to dive deep into specific
-      topics as needed.
-  overall_rating: 4.75
-  summary: An outstanding skill prompt that excels in structure, specificity, and
-    practical utility, though it suffers from an incomplete quick-start example that
-    should be completed for optimal effectiveness.
-  tags_suggested:
-  - data-science
-  - big-data
-  - out-of-core
-  - visualization
-  - machine-learning
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323852b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.346840Z'
-indexed_at: '2026-02-15T04:33:50.346845Z'
+  fetched_at: '2026-02-22T05:20:56.036316Z'
+indexed_at: '2026-02-22T05:20:56.036321Z'
 ---

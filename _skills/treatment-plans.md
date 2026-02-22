@@ -24,40 +24,26 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/treatment-plans/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/treatment-plans/SKILL.md
-fetched_at: '2026-02-15T04:21:20.141583+00:00'
+fetched_at: '2026-02-22T04:15:06.964893+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:45:59.424032Z'
+  evaluated_at: '2026-02-22T04:35:49.840357Z'
   prompt_quality:
-    score: 4.5
-    reasoning: 'The prompt is highly structured with clear sections, specific constraints
-      (3-4 pages), and defined scope across medical specialties. It follows best practices
-      by including a mandatory visual enhancement requirement and providing explicit
-      tool usage guidance. However, it has a critical flaw: the ''scientific-schematics''
-      skill and related bash commands are referenced but not defined in the allowed-tools
-      list, creating ambiguity about actual execution capabilities.'
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932387980 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill addresses a genuine need for standardized, compliant medical
-      documentation with practical templates and frameworks. It provides actionable
-      guidance for multiple clinical scenarios and emphasizes evidence-based, patient-centered
-      care. The mandatory visual component, while potentially burdensome, could enhance
-      communication in complex treatment plans, though the unclear tool integration
-      limits immediate usability.
-  overall_rating: 4.25
-  summary: A well-structured prompt with strong clinical focus and clear constraints,
-    but undermined by inconsistent tool definitions that may hinder practical implementation.
-  tags_suggested:
-  - medical-documentation
-  - latex
-  - clinical-workflows
-  - evidence-based-medicine
-  - regulatory-compliance
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932387980 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.331638Z'
-indexed_at: '2026-02-15T04:33:50.331644Z'
+  fetched_at: '2026-02-22T05:20:56.025247Z'
+indexed_at: '2026-02-22T05:20:56.025252Z'
 ---

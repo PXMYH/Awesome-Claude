@@ -12,47 +12,36 @@ prompt_preview: "---\nname: aws-cost-operations\ndescription: This skill provide
   \ budgets *)\n  - Bash(aws cloudtrail *)\n  - Bash(a..."
 full_prompt_length: 11159
 tools_mentioned:
-- AWS
-- rest
 - aws
+- rest
 - Kubernetes
+- AWS
 - Python
 category: infrastructure
 category_display: Infrastructure
 source_repo: zxkane/aws-skills
 source_path: plugins/aws-cost-ops/skills/aws-cost-operations/SKILL.md
 source_url: https://github.com/zxkane/aws-skills/blob/main/plugins/aws-cost-ops/skills/aws-cost-operations/SKILL.md
-fetched_at: '2026-02-15T04:22:39.716625+00:00'
+fetched_at: '2026-02-22T04:17:12.462886+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:30:18.901460Z'
+  evaluated_at: '2026-02-22T05:20:47.079720Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is well-structured with clear sections and specific tool
-      configurations. It follows best practices by defining hooks for pre-tool verification
-      and providing fallback guidance when MCP tools are unavailable. However, the
-      prompt is cut off mid-sentence in the CloudTrail section, which is a significant
-      quality issue.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251fb90 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill provides high practical value for AWS cost optimization
-      and operations, covering comprehensive monitoring, cost analysis, and security
-      assessment capabilities. The integrated MCP servers address real-world DevOps
-      and FinOps tasks, though the incomplete CloudTrail section reduces completeness.
-  overall_rating: 4.25
-  summary: A robust AWS operations skill with strong prompt engineering and practical
-    value, but needs completion of the CloudTrail section to be fully effective.
-  tags_suggested:
-  - aws
-  - cost-optimization
-  - monitoring
-  - devops
-  - finops
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251fb90 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.606170Z'
-indexed_at: '2026-02-15T04:33:51.606176Z'
+  fetched_at: '2026-02-22T05:20:57.042071Z'
+indexed_at: '2026-02-22T05:20:57.042076Z'
 ---

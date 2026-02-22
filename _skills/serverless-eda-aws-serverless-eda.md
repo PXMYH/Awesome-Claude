@@ -16,49 +16,37 @@ prompt_preview: '---
   queues, pub/sub, or wants to build scal...'
 full_prompt_length: 21786
 tools_mentioned:
-- REST
-- TypeScript
-- AWS
-- typescript
 - aws
 - Python
+- TypeScript
+- REST
+- AWS
+- typescript
 category: infrastructure
 category_display: Infrastructure
 source_repo: zxkane/aws-skills
 source_path: plugins/serverless-eda/skills/aws-serverless-eda/SKILL.md
 source_url: https://github.com/zxkane/aws-skills/blob/main/plugins/serverless-eda/skills/aws-serverless-eda/SKILL.md
-fetched_at: '2026-02-15T04:22:40.031236+00:00'
+fetched_at: '2026-02-22T04:17:12.903587+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:30:29.402171Z'
+  evaluated_at: '2026-02-22T05:20:55.484070Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, specific
-      tool requirements, and comprehensive coverage of serverless patterns. It includes
-      practical hooks and dependency management. The only minor issue is the incomplete
-      code example at the end, which slightly reduces clarity.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251f980 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is a highly practical skill that addresses real-world AWS serverless
-      development needs. It provides specific guidance for common scenarios like Lambda
-      functions, event-driven architectures, and microservices. The integration with
-      AWS MCP tools ensures users get accurate, up-to-date information following AWS
-      Well-Architected Framework principles.
-  overall_rating: 4.75
-  summary: An excellent, production-ready skill that provides comprehensive guidance
-    for AWS serverless development with proper tool integration and best practices.
-  tags_suggested:
-  - aws
-  - serverless
-  - lambda
-  - event-driven
-  - microservices
-  - well-architected
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251f980 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.609787Z'
-indexed_at: '2026-02-15T04:33:51.609793Z'
+  fetched_at: '2026-02-22T05:20:57.044632Z'
+indexed_at: '2026-02-22T05:20:57.044637Z'
 ---

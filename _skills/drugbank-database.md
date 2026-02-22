@@ -15,8 +15,8 @@ prompt_preview: '---
   requiring detailed drug and drug target informatio...'
 full_prompt_length: 10217
 tools_mentioned:
-- GO
 - go
+- GO
 - python
 - Python
 category: scientific
@@ -24,38 +24,26 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/drugbank-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/drugbank-database/SKILL.md
-fetched_at: '2026-02-15T04:21:07.048216+00:00'
+fetched_at: '2026-02-22T04:14:49.982474+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:27:05.339648Z'
+  evaluated_at: '2026-02-22T04:21:49.873769Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is well-structured with clear sections and specific capabilities,
-      but it's incomplete (cuts off mid-sentence in the 'Drug Targets and Pathways'
-      section). The instructions are specific about use cases and reference documentation,
-      though the actual implementation details are missing, which limits clarity on
-      what the skill will actually do.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251dbb0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill addresses a real need in pharmaceutical research and drug
-      discovery, covering comprehensive data access and analysis. However, the incomplete
-      nature and lack of actual implementation code or specific function definitions
-      reduce immediate practicality for users.
-  overall_rating: 4.25
-  summary: A well-structured but incomplete skill prompt that outlines valuable pharmaceutical
-    data analysis capabilities, though it lacks implementation details and is cut
-    off mid-documentation.
-  tags_suggested:
-  - pharmaceutical
-  - drug-discovery
-  - bioinformatics
-  - cheminformatics
-  - pharmacology
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251dbb0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.923850Z'
-indexed_at: '2026-02-15T04:33:49.923856Z'
+  fetched_at: '2026-02-22T05:20:55.719762Z'
+indexed_at: '2026-02-22T05:20:55.719767Z'
 ---

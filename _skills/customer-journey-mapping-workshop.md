@@ -29,17 +29,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/customer-journey-mapping-workshop/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/customer-journey-mapping-workshop/SKILL.md
-fetched_at: '2026-02-15T04:21:47.428949+00:00'
+fetched_at: '2026-02-22T04:15:48.872200+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-15T04:24:38.535788Z'
+  evaluated_at: '2026-02-22T04:58:44.323464Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3a3fb90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932559f10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3a3fb90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932559f10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.951527Z'
-indexed_at: '2026-02-15T04:33:50.951532Z'
+  fetched_at: '2026-02-22T05:20:56.441194Z'
+indexed_at: '2026-02-22T05:20:56.441199Z'
 ---

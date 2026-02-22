@@ -12,15 +12,15 @@ prompt_preview: "---\nname: react-native-expert\ndescription: Use when building 
   \  related-skills: react-exper..."
 full_prompt_length: 2945
 tools_mentioned:
-- React
 - TypeScript
 - react
+- React
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/react-native-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/react-native-expert/SKILL.md
-fetched_at: '2026-02-15T04:22:07.061990+00:00'
+fetched_at: '2026-02-22T04:16:15.147116+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:00:24.185189Z'
@@ -52,5 +52,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.190534Z'
-indexed_at: '2026-02-15T04:33:51.190540Z'
+  fetched_at: '2026-02-22T05:20:56.649378Z'
+indexed_at: '2026-02-22T05:20:56.649383Z'

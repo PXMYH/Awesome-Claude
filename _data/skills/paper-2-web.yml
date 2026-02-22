@@ -17,45 +17,32 @@ prompt_preview: '---
 full_prompt_length: 16975
 tools_mentioned:
 - python
-- go
 - AWS
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/paper-2-web/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/paper-2-web/SKILL.md
-fetched_at: '2026-02-15T04:21:13.504565+00:00'
+fetched_at: '2026-02-22T04:14:57.635703+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:36:21.544910Z'
+  evaluated_at: '2026-02-22T04:28:36.972530Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, specific
-      trigger phrases, and defined capabilities. It follows best practices by including
-      metadata, license info, and tool permissions. However, the content is incomplete
-      (cut off mid-sentence in the Paper2Web section), which slightly impacts clarity
-      and completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932746e70 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill addresses a real academic need for converting papers into
-      multiple presentation formats, which is highly practical for researchers. It
-      provides actionable trigger phrases and clear use cases. The inclusion of scientific
-      schematics generation adds significant value, though the incomplete description
-      limits full assessment of implementation details.
-  overall_rating: 4.25
-  summary: A well-designed academic transformation skill with strong structure and
-    practical value, though the truncated content prevents full evaluation of its
-    complete capabilities.
-  tags_suggested:
-  - academic
-  - presentation
-  - multimedia
-  - conversion
-  - research dissemination
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932746e70 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.126246Z'
-indexed_at: '2026-02-15T04:33:50.126257Z'
+  fetched_at: '2026-02-22T05:20:55.859605Z'
+indexed_at: '2026-02-22T05:20:55.859611Z'

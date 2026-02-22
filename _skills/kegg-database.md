@@ -12,50 +12,35 @@ prompt_preview: "---\nname: kegg-database\ndescription: Direct REST API access t
   \ Encyclopedia of Genes and Genomes) is..."
 full_prompt_length: 12579
 tools_mentioned:
-- python
 - go
 - REST
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/kegg-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/kegg-database/SKILL.md
-fetched_at: '2026-02-15T04:21:10.594480+00:00'
+fetched_at: '2026-02-22T04:14:53.867420+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:31:53.994473Z'
+  evaluated_at: '2026-02-22T04:25:26.025989Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured, with excellent
-      organization using markdown headers and code examples. It provides specific
-      function names, usage patterns, and common parameters. However, it has a minor
-      formatting issue at the end (incomplete sentence about output formats) and lacks
-      explicit edge case handling (e.g., API rate limits, error handling, or what
-      happens when queries return no results).
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255b350 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill provides high practical value for bioinformatics workflows,
-      offering direct access to KEGG's comprehensive database for pathway analysis,
-      gene mapping, and drug interactions. The inclusion of Python helper functions
-      and reference documentation makes it immediately actionable for academic researchers.
-      However, the utility is limited by the academic-only license restriction and
-      the incomplete documentation at the end.
-  overall_rating: 4.25
-  summary: A well-structured and practical KEGG database skill with clear instructions
-    and useful examples, though it has minor documentation gaps and license limitations
-    that reduce its broader applicability.
-  tags_suggested:
-  - bioinformatics
-  - pathway-analysis
-  - KEGG
-  - REST-API
-  - academic-research
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255b350 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.034523Z'
-indexed_at: '2026-02-15T04:33:50.034529Z'
+  fetched_at: '2026-02-22T05:20:55.801803Z'
+indexed_at: '2026-02-22T05:20:55.801813Z'
 ---

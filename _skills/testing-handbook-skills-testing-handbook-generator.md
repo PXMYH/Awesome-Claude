@@ -18,39 +18,26 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/testing-handbook-generator/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/testing-handbook-generator/SKILL.md
-fetched_at: '2026-02-15T04:22:33.512007+00:00'
+fetched_at: '2026-02-22T04:17:03.637803+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:28:00.161847Z'
+  evaluated_at: '2026-02-22T05:18:42.675553Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt demonstrates excellent structure with clear workflow phases,
-      scope restrictions, and decision trees. It follows prompt engineering best practices
-      by providing specific constraints and quick reference tables. However, it has
-      a minor issue with an incomplete decision tree section at the end that cuts
-      off mid-sentence, which slightly impacts clarity.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93261dc70 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for security teams needing to systematically
-      convert the Trail of Bits Testing Handbook into executable Claude skills. The
-      workflow is comprehensive, covering discovery through testing and finalization.
-      The scope restrictions prevent scope creep, and the section-to-skill mapping
-      provides immediate actionable guidance for skill generation.
-  overall_rating: 4.75
-  summary: A well-structured meta-skill prompt that effectively bridges documentation
-    to executable skills with clear boundaries and a systematic workflow, though it
-    has a minor incomplete section at the end.
-  tags_suggested:
-  - security
-  - skill-generation
-  - documentation
-  - automation
-  - appsec
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93261dc70 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.551359Z'
-indexed_at: '2026-02-15T04:33:51.551365Z'
+  fetched_at: '2026-02-22T05:20:56.997333Z'
+indexed_at: '2026-02-22T05:20:56.997338Z'
 ---

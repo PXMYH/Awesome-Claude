@@ -12,52 +12,36 @@ prompt_preview: "---\nname: ensembl-database\ndescription: Query Ensembl genome 
   \ annotations, sequences, variants,..."
 full_prompt_length: 9078
 tools_mentioned:
-- REST
-- rest
-- go
-- python
 - Python
+- rest
+- python
+- REST
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/ensembl-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/ensembl-database/SKILL.md
-fetched_at: '2026-02-15T04:21:07.277891+00:00'
+fetched_at: '2026-02-22T04:14:50.277405+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:27:27.849070Z'
+  evaluated_at: '2026-02-22T04:22:06.435096Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is well-structured with clear sections and practical examples,
-      but it's incomplete - the 'Genomic Region Analysis' section cuts off mid-sentence,
-      leaving a gap in coverage. The examples are specific and actionable, showing
-      both package-based and direct REST API approaches, which is helpful for different
-      user preferences. However, it lacks explicit error handling guidance and edge
-      case considerations for API failures or invalid inputs.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9325c87d0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This skill provides high practical value for genomic researchers and
-      bioinformaticians working with Ensembl data, covering essential operations like
-      gene lookups, sequence retrieval, variant analysis, and comparative genomics.
-      The inclusion of both Python package and direct REST API examples makes it immediately
-      actionable for different technical backgrounds. The comprehensive scope across
-      250+ species and current release version (115) shows relevance to real-world
-      research pipelines.
-  overall_rating: 4.25
-  summary: A highly useful and well-structured scientific skill for Ensembl database
-    queries, though incomplete in its current form, that effectively bridges the gap
-    between API documentation and practical implementation for genomic research tasks.
-  tags_suggested:
-  - genomics
-  - bioinformatics
-  - REST API
-  - scientific research
-  - genetic variants
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9325c87d0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.931438Z'
-indexed_at: '2026-02-15T04:33:49.931444Z'
+  fetched_at: '2026-02-22T05:20:55.725009Z'
+indexed_at: '2026-02-22T05:20:55.725014Z'
 ---

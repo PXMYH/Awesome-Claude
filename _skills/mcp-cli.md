@@ -30,49 +30,35 @@ prompt_preview: '---
   - Make one-off...'
 full_prompt_length: 9217
 tools_mentioned:
-- docker
-- go
 - Docker
 - TypeScript
+- docker
+- go
 category: community
 category_display: Community
 source_repo: obra/superpowers-lab
 source_path: skills/mcp-cli/SKILL.md
 source_url: https://github.com/obra/superpowers-lab/blob/main/skills/mcp-cli/SKILL.md
-fetched_at: '2026-02-15T04:22:14.257514+00:00'
+fetched_at: '2026-02-22T04:16:26.039633+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:20:17.096926Z'
+  evaluated_at: '2026-02-22T05:06:29.999786Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured with a logical
-      workflow (discovery → execution). It provides specific, copy-pasteable commands
-      with diverse examples covering filesystem, memory, and GitHub servers. The inclusion
-      of prerequisites and installation instructions is comprehensive, though it lacks
-      explicit error handling guidance for when the CLI fails or servers are unavailable.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9331dd280 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: 'This skill addresses a critical need in the MCP ecosystem: avoiding
-      context pollution while exploring server capabilities. It enables practical
-      one-off tasks like testing servers, debugging, or making temporary integrations
-      without permanent configuration. The workflow is immediately actionable for
-      developers working with multiple MCP servers, saving significant setup time
-      and reducing context window bloat.'
-  overall_rating: 4.75
-  summary: An excellent, production-ready skill that provides a clean solution to
-    MCP server management, with strong practical value for developers needing flexible,
-    on-demand server access.
-  tags_suggested:
-  - mcp
-  - cli
-  - server-discovery
-  - development-tools
-  - context-management
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9331dd280 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.292363Z'
-indexed_at: '2026-02-15T04:33:51.292375Z'
+  fetched_at: '2026-02-22T05:20:56.727219Z'
+indexed_at: '2026-02-22T05:20:56.727225Z'
 ---

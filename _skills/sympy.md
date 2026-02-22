@@ -15,50 +15,34 @@ prompt_preview: '---
   code from mathematical expressions. Apply this skill when the user needs e...'
 full_prompt_length: 14286
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/sympy/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/sympy/SKILL.md
-fetched_at: '2026-02-15T04:21:19.631436+00:00'
+fetched_at: '2026-02-22T04:15:06.329543+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:45:17.004663Z'
+  evaluated_at: '2026-02-22T04:35:16.528334Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, comprehensive
-      coverage of SymPy's capabilities, and practical code examples. It follows excellent
-      prompt engineering practices by defining when to use the skill, providing core
-      capabilities with examples, and referencing detailed documentation. The only
-      minor issue is that the 'Matrices and Linear Algebra' section appears incomplete
-      (cuts off mid-sentence), which slightly impacts completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932384b30 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This prompt provides immediate practical value for anyone working with
-      symbolic mathematics in Python. It covers a comprehensive range of real-world
-      applications including calculus, equation solving, physics calculations, and
-      code generation. The inclusion of specific code examples and references to detailed
-      documentation makes it highly actionable for both beginners and experienced
-      users.
-  overall_rating: 4.75
-  summary: An excellent, comprehensive prompt that effectively guides users through
-    SymPy's symbolic mathematics capabilities with clear structure, practical examples,
-    and appropriate scope for scientific computing tasks.
-  tags_suggested:
-  - symbolic-mathematics
-  - python-library
-  - scientific-computing
-  - calculus
-  - equation-solving
-  - code-generation
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932384b30 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.316724Z'
-indexed_at: '2026-02-15T04:33:50.316730Z'
+  fetched_at: '2026-02-22T05:20:56.015185Z'
+indexed_at: '2026-02-22T05:20:56.015191Z'
 ---

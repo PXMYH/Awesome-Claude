@@ -13,57 +13,40 @@ prompt_preview: "---\nname: aws-cdk-development\ndescription: AWS Cloud Developm
   skills:\n  - aws-mcp-setup\nallowe..."
 full_prompt_length: 10343
 tools_mentioned:
-- REST
-- TypeScript
-- AWS
 - JavaScript
-- Go
-- typescript
-- aws
 - Java
-- python
 - Python
+- aws
+- python
+- TypeScript
+- Go
+- REST
+- AWS
+- typescript
 category: infrastructure
 category_display: Infrastructure
 source_repo: zxkane/aws-skills
 source_path: plugins/aws-cdk/skills/aws-cdk-development/SKILL.md
 source_url: https://github.com/zxkane/aws-skills/blob/main/plugins/aws-cdk/skills/aws-cdk-development/SKILL.md
-fetched_at: '2026-02-15T04:22:39.145894+00:00'
+fetched_at: '2026-02-22T04:17:11.522663+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:29:48.763691Z'
+  evaluated_at: '2026-02-22T05:20:30.692084Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, specific
-      tool configurations, and strong guidance on AWS documentation requirements.
-      It follows excellent prompt engineering practices with explicit instructions
-      for tool usage, dependency management, and best practices. The only minor limitation
-      is the somewhat complex MCP tool naming conventions that might require user
-      familiarity.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b1ee0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides immediate practical value for AWS CDK development
-      with comprehensive coverage of infrastructure as code workflows. It integrates
-      real-time AWS documentation access, handles credential scenarios gracefully,
-      and includes critical best practices like resource naming conventions that prevent
-      deployment conflicts. The pre-deployment validation hook and dependency management
-      make it production-ready for real development teams.
-  overall_rating: 4.75
-  summary: An excellent, production-ready skill that combines comprehensive CDK guidance
-    with integrated AWS documentation access and smart tool orchestration, making
-    it highly valuable for real-world infrastructure development.
-  tags_suggested:
-  - aws
-  - cdk
-  - infrastructure
-  - iac
-  - cloudformation
-  - typescript
-  - python
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b1ee0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.598469Z'
-indexed_at: '2026-02-15T04:33:51.598474Z'
+  fetched_at: '2026-02-22T05:20:57.036798Z'
+indexed_at: '2026-02-22T05:20:57.036804Z'

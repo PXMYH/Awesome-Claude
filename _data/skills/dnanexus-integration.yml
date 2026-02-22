@@ -11,47 +11,34 @@ prompt_preview: "---\nname: dnanexus-integration\ndescription: DNAnexus cloud ge
   \ manage data objects, run work..."
 full_prompt_length: 11451
 tools_mentioned:
-- python
 - go
 - Docker
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/dnanexus-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/dnanexus-integration/SKILL.md
-fetched_at: '2026-02-15T04:21:06.725728+00:00'
+fetched_at: '2026-02-22T04:14:49.273191+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:26:55.369652Z'
+  evaluated_at: '2026-02-22T04:21:41.529389Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is well-structured with clear sections and a logical organization
-      of capabilities, making it easy to understand the scope. However, it is incomplete
-      (cut off mid-sentence in the Python SDK section) and lacks specific instructions
-      for the AI's behavior, such as how to handle missing reference files or user
-      queries outside the defined scope.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9325976e0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: The skill provides high practical value for developers working with
-      the DNAnexus platform, covering essential operations like app development, data
-      management, and job execution with specific commands and use cases. It is actionable
-      for users with a DNAnexus account, though its utility is limited by the incomplete
-      content and the requirement for external reference documentation.
-  overall_rating: 4.25
-  summary: This is a valuable, domain-specific skill for genomics cloud platform development,
-    but its effectiveness is hampered by an incomplete prompt and reliance on external
-    references.
-  tags_suggested:
-  - genomics
-  - cloud-computing
-  - bioinformatics
-  - python-sdk
-  - data-pipelines
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9325976e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.919991Z'
-indexed_at: '2026-02-15T04:33:49.920002Z'
+  fetched_at: '2026-02-22T05:20:55.717240Z'
+indexed_at: '2026-02-22T05:20:55.717246Z'

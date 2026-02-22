@@ -19,40 +19,26 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/coverage-analysis/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/coverage-analysis/SKILL.md
-fetched_at: '2026-02-15T04:22:32.586094+00:00'
+fetched_at: '2026-02-22T04:17:01.927400+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:26:22.824611Z'
+  evaluated_at: '2026-02-22T05:17:36.025313Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, tables,
-      and code examples. It follows best practices by providing context, when-to-apply
-      guidance, and a workflow diagram. The only minor issue is that the prompt is
-      cut off mid-sentence in Step 1, which slightly impacts completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932559730 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for security professionals conducting fuzzing
-      campaigns. It provides concrete commands for multiple toolchains (LLVM, GCC,
-      Rust) and actionable workflows. The coverage analysis technique is essential
-      for identifying fuzzing blockers and measuring harness effectiveness in real-world
-      security testing.
-  overall_rating: 4.75
-  summary: An excellent, production-ready security skill prompt that provides comprehensive
-    coverage analysis guidance with practical commands and workflows, though slightly
-    incomplete in the final section.
-  tags_suggested:
-  - fuzzing
-  - security
-  - code coverage
-  - testing
-  - LLVM
-  - GCC
-  - Rust
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932559730 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.521803Z'
-indexed_at: '2026-02-15T04:33:51.521809Z'
+  fetched_at: '2026-02-22T05:20:56.976794Z'
+indexed_at: '2026-02-22T05:20:56.976800Z'
 ---

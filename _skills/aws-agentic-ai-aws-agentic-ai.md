@@ -12,49 +12,35 @@ prompt_preview: "---\nname: aws-agentic-ai\naliases:\n  - bedrock-agentcore\n  -
   \  -..."
 full_prompt_length: 6627
 tools_mentioned:
-- AWS
 - aws
 - REST
+- AWS
 - Python
 category: infrastructure
 category_display: Infrastructure
 source_repo: zxkane/aws-skills
 source_path: plugins/aws-agentic-ai/skills/aws-agentic-ai/SKILL.md
 source_url: https://github.com/zxkane/aws-skills/blob/main/plugins/aws-agentic-ai/skills/aws-agentic-ai/SKILL.md
-fetched_at: '2026-02-15T04:22:38.867461+00:00'
+fetched_at: '2026-02-22T04:17:11.041837+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:29:38.533411Z'
+  evaluated_at: '2026-02-22T05:20:22.264348Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is well-structured with clear sections, specific service
-      definitions, and actionable workflows. It includes critical AWS documentation
-      requirements and handles tool availability scenarios. However, it lacks explicit
-      error handling for common deployment failures and doesn't define success criteria
-      for verification steps.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b1ee0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill provides practical value for AWS Bedrock AgentCore users
-      by consolidating seven core services into a single expert guide. It covers real-world
-      deployment patterns and includes credential management workflows. The usefulness
-      is slightly limited by its dependency on AWS MCP tools, which may not be available
-      in all environments.
-  overall_rating: 4.25
-  summary: A well-structured AWS Bedrock AgentCore skill that provides comprehensive
-    guidance for deploying and managing AI agent services, though it could benefit
-    from more robust error handling and fallback procedures.
-  tags_suggested:
-  - aws
-  - bedrock
-  - agentcore
-  - infrastructure
-  - deployment
-  - mcp
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b1ee0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.594718Z'
-indexed_at: '2026-02-15T04:33:51.594724Z'
+  fetched_at: '2026-02-22T05:20:57.034205Z'
+indexed_at: '2026-02-22T05:20:57.034211Z'
 ---

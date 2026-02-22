@@ -7,9 +7,9 @@ prompt_preview: "---\nname: google-drive\ndescription: |\n  Interact with Google
   \ create folders, move, copy, rename, and trash files. Use when user asks to: search\
   \ Google Drive,\n  find a file/folder, list Drive contents, download or upload files,\
   \ create folders, move files,\n  or organize Drive content. Lightweight integration\
-  \ with standalone OAuth authentication supporting\n  full read/write access.\n---\n\
-  \n# Google Drive\n\nLightweight Go..."
-full_prompt_length: 3926
+  \ with standalone OAuth authentication supporting\n  full read/write access.\nlicense:\
+  \ Apache-2.0\nmetadata:\n  aut..."
+full_prompt_length: 3994
 tools_mentioned:
 - python
 category: community
@@ -17,7 +17,7 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/google-drive/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/google-drive/SKILL.md
-fetched_at: '2026-02-15T04:22:19.906092+00:00'
+fetched_at: '2026-02-22T04:16:42.242346+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:04:26.426522Z'
@@ -52,5 +52,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.352512Z'
-indexed_at: '2026-02-15T04:33:51.352517Z'
+  fetched_at: '2026-02-22T05:20:56.839767Z'
+indexed_at: '2026-02-22T05:20:56.839772Z'

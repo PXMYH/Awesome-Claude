@@ -12,47 +12,34 @@ prompt_preview: "---\nname: pymoo\ndescription: Multi-objective optimization fra
   \ optimization using sta..."
 full_prompt_length: 17566
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pymoo/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pymoo/SKILL.md
-fetched_at: '2026-02-15T04:21:15.885155+00:00'
+fetched_at: '2026-02-22T04:15:01.053897+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:39:38.098207Z'
+  evaluated_at: '2026-02-22T04:31:06.455320Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, practical
-      workflows, and concrete code examples. It follows excellent prompt engineering
-      practices by providing context, usage guidelines, and immediate actionable examples.
-      The only minor issue is the incomplete code example in the multi-objective section
-      where the visualization code is cut off mid-sentence.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251ffb0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for real-world scientific and engineering
-      optimization tasks. It covers comprehensive use cases from single to multi-objective
-      optimization, includes benchmark problems, constraint handling, and visualization.
-      The workflow-based approach with specific algorithm recommendations makes it
-      immediately actionable for users solving actual optimization problems.
-  overall_rating: 4.75
-  summary: An outstanding prompt that provides comprehensive coverage of pymoo's capabilities
-    with clear, practical guidance for real-world optimization tasks, though it contains
-    a minor formatting issue in one code example.
-  tags_suggested:
-  - scientific-computing
-  - optimization
-  - multi-objective
-  - evolutionary-algorithms
-  - engineering
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251ffb0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.199842Z'
-indexed_at: '2026-02-15T04:33:50.199847Z'
+  fetched_at: '2026-02-22T05:20:55.921770Z'
+indexed_at: '2026-02-22T05:20:55.921779Z'
 ---

@@ -19,38 +19,26 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/torch_geometric/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/torch_geometric/SKILL.md
-fetched_at: '2026-02-15T04:21:19.775801+00:00'
+fetched_at: '2026-02-22T04:15:06.572695+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:45:27.107797Z'
+  evaluated_at: '2026-02-22T04:35:24.858536Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured, with a logical
-      flow from installation to core concepts. It provides specific, actionable code
-      examples and defines key attributes of the Data class. However, it is incomplete,
-      ending abruptly during the 'Building Graph Neural Net' section, which limits
-      its comprehensiveness and leaves the user without guidance on model implementation.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251ea80 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill is highly practical for developers working with graph data,
-      offering immediate value for setup and understanding PyG's data structures.
-      It covers essential use cases like molecular prediction and social networks,
-      but its usefulness is reduced by the lack of model-building examples and training
-      loops, which are critical for real-world application.
-  overall_rating: 4.25
-  summary: A well-crafted but incomplete prompt that provides a solid foundation for
-    PyTorch Geometric but fails to deliver a complete skill due to its abrupt ending.
-  tags_suggested:
-  - graph neural networks
-  - molecular property prediction
-  - social network analysis
-  - geometric deep learning
-  - PyTorch library
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251ea80 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.320601Z'
-indexed_at: '2026-02-15T04:33:50.320606Z'
+  fetched_at: '2026-02-22T05:20:56.017688Z'
+indexed_at: '2026-02-22T05:20:56.017693Z'
 ---

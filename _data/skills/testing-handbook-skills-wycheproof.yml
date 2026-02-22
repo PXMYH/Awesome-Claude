@@ -12,51 +12,36 @@ prompt_preview: "---\nname: wycheproof\ntype: domain\ndescription: >\n  Wychepro
   \ vectors for specific cryptogra..."
 full_prompt_length: 19328
 tools_mentioned:
-- javascript
-- JavaScript
-- java
 - Java
+- JavaScript
 - python
+- java
+- javascript
 - Python
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/wycheproof/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/wycheproof/SKILL.md
-fetched_at: '2026-02-15T04:22:33.633022+00:00'
+fetched_at: '2026-02-22T04:17:03.843381+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:28:14.479281Z'
+  evaluated_at: '2026-02-22T05:18:50.851346Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, tables,
-      and a logical flow from background to practical application. It follows best
-      practices by defining scope, providing context, and offering specific guidance
-      on when to use the tool versus alternatives. The only minor limitation is that
-      it doesn't explicitly define the expected output format or response structure
-      for the agent.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255bc20 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This prompt provides immediate, actionable value for developers working
-      with cryptographic implementations by offering concrete test scenarios, workflow
-      guidance, and algorithm-specific recommendations. It covers real-world use cases
-      like CI/CD integration and third-party code auditing, making it highly practical
-      for security engineering tasks. The quick reference table and repository structure
-      details enable users to quickly implement testing without extensive research.
-  overall_rating: 4.75
-  summary: This is a high-quality, comprehensive prompt that effectively transforms
-    Wycheproof from a complex security tool into an accessible, actionable resource
-    for developers, with excellent structure and practical guidance.
-  tags_suggested:
-  - cryptography
-  - security testing
-  - test vectors
-  - cryptographic validation
-  - security auditing
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255bc20 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.555119Z'
-indexed_at: '2026-02-15T04:33:51.555125Z'
+  fetched_at: '2026-02-22T05:20:56.999906Z'
+indexed_at: '2026-02-22T05:20:56.999912Z'

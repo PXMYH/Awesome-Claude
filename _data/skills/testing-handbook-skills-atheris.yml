@@ -12,46 +12,34 @@ prompt_preview: "---\nname: atheris\ntype: fuzzer\ndescription: >\n  Atheris is 
   \ |\n|--------|----------|------------|\n| Atheris | Py..."
 full_prompt_length: 14423
 tools_mentioned:
-- python
-- docker
 - Docker
+- docker
+- python
 - Python
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/atheris/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/atheris/SKILL.md
-fetched_at: '2026-02-15T04:22:32.217207+00:00'
+fetched_at: '2026-02-22T04:17:01.280646+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:25:21.909454Z'
+  evaluated_at: '2026-02-22T05:17:11.112703Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, tables,
-      and code examples. It provides specific installation instructions for different
-      environments and includes practical Docker configuration. The only minor issue
-      is the truncated Dockerfile at the end, which slightly impacts completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9329fa6f0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill provides practical value for security testing of Python code,
-      covering both pure Python and C extensions. It includes actionable quick-start
-      examples and comprehensive Docker setup for reproducible fuzzing environments.
-      However, it lacks guidance on interpreting results or scaling fuzzing campaigns,
-      which limits its immediate utility for complex projects.
-  overall_rating: 4.25
-  summary: A well-crafted security skill that effectively introduces Atheris fuzzing
-    with practical examples and environment setup, though it could benefit from more
-    advanced usage guidance and result interpretation.
-  tags_suggested:
-  - security
-  - fuzzing
-  - python
-  - testing
-  - c-extensions
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9329fa6f0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.510737Z'
-indexed_at: '2026-02-15T04:33:51.510742Z'
+  fetched_at: '2026-02-22T05:20:56.969133Z'
+indexed_at: '2026-02-22T05:20:56.969138Z'

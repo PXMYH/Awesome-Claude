@@ -12,49 +12,34 @@ prompt_preview: "---\nname: opentrons-integration\ndescription: Official Opentro
   Opentrons is a Python-based lab automation pl..."
 full_prompt_length: 15534
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/opentrons-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/opentrons-integration/SKILL.md
-fetched_at: '2026-02-15T04:21:13.383308+00:00'
+fetched_at: '2026-02-22T04:14:57.402257+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:36:10.402126Z'
+  evaluated_at: '2026-02-22T04:28:28.732678Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured, with excellent
-      use of code examples and explicit guidance on when to use the skill. It follows
-      strong prompt engineering practices by defining metadata, providing concrete
-      examples, and covering core capabilities comprehensively. The only minor limitation
-      is that it doesn't explicitly address error handling or edge cases in protocol
-      execution.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251ffb0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides immediate, high-value guidance for anyone writing
-      Opentrons protocols, covering the most common use cases with production-ready
-      code examples. It bridges the gap between documentation and practical implementation
-      by showing exact syntax for loading hardware, labware, and modules. Users can
-      directly apply these patterns to build complex liquid handling workflows without
-      extensive prior knowledge.
-  overall_rating: 4.75
-  summary: An outstanding scientific skill that delivers comprehensive, production-ready
-    guidance for Opentrons protocol development with exceptional clarity and practical
-    value.
-  tags_suggested:
-  - lab-automation
-  - liquid-handling
-  - robotics
-  - protocol-development
-  - opentrons
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251ffb0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.122475Z'
-indexed_at: '2026-02-15T04:33:50.122481Z'
+  fetched_at: '2026-02-22T05:20:55.857086Z'
+indexed_at: '2026-02-22T05:20:55.857092Z'
 ---

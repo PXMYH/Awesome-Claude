@@ -13,50 +13,35 @@ prompt_preview: "---\nname: bioservices\ndescription: Unified Python interface t
 full_prompt_length: 10750
 tools_mentioned:
 - GO
+- Python
+- python
 - REST
 - go
-- python
-- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/bioservices/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/bioservices/SKILL.md
-fetched_at: '2026-02-15T04:21:04.153153+00:00'
+fetched_at: '2026-02-22T04:14:46.365826+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:22:54.561556Z'
+  evaluated_at: '2026-02-22T04:18:55.463135Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear metadata, comprehensive
-      overview, and specific use cases. It provides concrete code examples for each
-      major capability (protein analysis, pathway discovery, compound searches) with
-      practical implementations. The inclusion of references to external documentation
-      and workflow patterns adds depth, though the compound search example ends abruptly
-      without a complete workflow.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932923e30 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill addresses real bioinformatics workflows requiring cross-database
-      integration, which is a common pain point for researchers. The examples are
-      practical and cover major bioinformatics databases (UniProt, KEGG, ChEMBL, Reactome)
-      that are frequently used together. However, the skill assumes users have Python/biopython
-      knowledge and may be less accessible for non-programmers or those needing quick
-      single-database lookups.
-  overall_rating: 4.25
-  summary: A well-crafted, comprehensive skill prompt that effectively bridges multiple
-    bioinformatics resources with clear examples and practical workflows, though it's
-    best suited for Python-literate users with complex multi-database analysis needs.
-  tags_suggested:
-  - bioinformatics
-  - cross-database
-  - Python
-  - API integration
-  - scientific computing
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932923e30 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.821778Z'
-indexed_at: '2026-02-15T04:33:49.821784Z'
+  fetched_at: '2026-02-22T05:20:55.667308Z'
+indexed_at: '2026-02-22T05:20:55.667313Z'
 ---

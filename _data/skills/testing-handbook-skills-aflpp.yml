@@ -12,47 +12,35 @@ prompt_preview: "---\nname: aflpp\ntype: fuzzer\ndescription: >\n  AFL++ is a fo
   \ fuzzing efforts.\n\n## When to Us..."
 full_prompt_length: 17731
 tools_mentioned:
+- docker
+- Rust
 - rest
 - Docker
-- Rust
-- docker
 - Python
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/aflpp/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/aflpp/SKILL.md
-fetched_at: '2026-02-15T04:22:32.096089+00:00'
+fetched_at: '2026-02-22T04:17:01.085593+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:25:11.837983Z'
+  evaluated_at: '2026-02-22T05:17:02.686543Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, tables
-      for comparison, and practical code examples. Instructions are specific and actionable,
-      covering installation, usage, and security warnings. The only minor issue is
-      the incomplete command in the System Configuration section (missing closing
-      backtick).
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932c02de0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This prompt provides comprehensive, real-world guidance for using AFL++
-      effectively. It covers installation methods, usage patterns, and critical security
-      considerations. The comparison table helps users choose the right fuzzer, and
-      the wrapper script is immediately usable for practical fuzzing campaigns.
-  overall_rating: 4.75
-  summary: An excellent, production-ready prompt that balances technical depth with
-    practical usability, providing everything needed to start fuzzing with AFL++ while
-    emphasizing important security considerations.
-  tags_suggested:
-  - fuzzing
-  - security-testing
-  - afl++
-  - c++
-  - vulnerability-discovery
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932c02de0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.506978Z'
-indexed_at: '2026-02-15T04:33:51.506983Z'
+  fetched_at: '2026-02-22T05:20:56.966501Z'
+indexed_at: '2026-02-22T05:20:56.966506Z'

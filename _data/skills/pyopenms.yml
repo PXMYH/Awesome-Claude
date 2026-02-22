@@ -11,45 +11,33 @@ prompt_preview: "---\nname: pyopenms\ndescription: Complete mass spectrometry an
   ## Overview\n\nPyOpenMS provides Python bin..."
 full_prompt_length: 6448
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pyopenms/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pyopenms/SKILL.md
-fetched_at: '2026-02-15T04:21:16.003491+00:00'
+fetched_at: '2026-02-22T04:15:01.244108+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:39:49.990292Z'
+  evaluated_at: '2026-02-22T04:31:14.644385Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt is well-structured with clear sections and provides good
-      overview of PyOpenMS capabilities. However, it contains incomplete code examples
-      (e.g., the Quick Start workflow ends abruptly with 'exp.getSpec' without completion)
-      and references external documentation files that don't exist in the prompt context,
-      which could confuse users.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9325cb1a0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The prompt provides practical value for proteomics and metabolomics
-      researchers by covering essential workflows like file I/O, feature detection,
-      and peptide identification. It includes installation instructions and core data
-      structures, making it actionable for real-world mass spectrometry analysis tasks.
-  overall_rating: 3.75
-  summary: A useful scientific skill prompt for mass spectrometry analysis that covers
-    key proteomics workflows, though it needs completion of code examples and resolution
-    of references to external documentation.
-  tags_suggested:
-  - proteomics
-  - mass-spectrometry
-  - metabolomics
-  - bioinformatics
-  - LC-MS
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9325cb1a0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.203598Z'
-indexed_at: '2026-02-15T04:33:50.203610Z'
+  fetched_at: '2026-02-22T05:20:55.926676Z'
+indexed_at: '2026-02-22T05:20:55.926685Z'

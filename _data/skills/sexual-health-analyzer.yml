@@ -79,7 +79,7 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/sexual-health-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/sexual-health-analyzer/SKILL.md
-fetched_at: '2026-02-15T04:21:58.594079+00:00'
+fetched_at: '2026-02-22T04:16:01.015105+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:55:49.569921Z'
@@ -113,5 +113,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.101212Z'
-indexed_at: '2026-02-15T04:33:51.101217Z'
+  fetched_at: '2026-02-22T05:20:56.571872Z'
+indexed_at: '2026-02-22T05:20:56.571878Z'

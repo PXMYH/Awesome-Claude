@@ -8,9 +8,9 @@ prompt_preview: "---\nname: gmail\ndescription: |\n  Interact with Gmail - searc
   \ user asks to: search email, read email, send email, create email draft, mark as\
   \ read,\n  archive email, star email, or manage Gmail labels. Lightweight alternative\
   \ to full Google\n  Workspace MCP server with standalone OAuth authentication.\n\
-  ---\n\n# Gmail\n\nLightweight Gmail integration with standalone OAuth authentication.\
-  \ No MCP server required.\n\n> **⚠️ Requ..."
-full_prompt_length: 4877
+  license: Apache-2.0\nmetadata:\n  author: sanjay3290\n  version: \"1.0\"\n---\n\n\
+  # Gmail\n\nLightweight Gmail integration with s..."
+full_prompt_length: 4945
 tools_mentioned:
 - python
 category: community
@@ -18,7 +18,7 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/gmail/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/gmail/SKILL.md
-fetched_at: '2026-02-15T04:22:19.454914+00:00'
+fetched_at: '2026-02-22T04:16:41.379006+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:03:30.617145Z'
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.337797Z'
-indexed_at: '2026-02-15T04:33:51.337802Z'
+  fetched_at: '2026-02-22T05:20:56.826972Z'
+indexed_at: '2026-02-22T05:20:56.826977Z'
 ---

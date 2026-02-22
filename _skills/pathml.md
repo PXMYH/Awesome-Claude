@@ -12,47 +12,34 @@ prompt_preview: "---\nname: pathml\ndescription: Full-featured computational pat
   \ Python toolkit for computat..."
 full_prompt_length: 8186
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pathml/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pathml/SKILL.md
-fetched_at: '2026-02-15T04:21:13.624387+00:00'
+fetched_at: '2026-02-22T04:14:57.854155+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:36:32.649878Z'
+  evaluated_at: '2026-02-22T04:28:45.133572Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, specific
-      capability descriptions, and organized reference links. It follows best practices
-      by defining scope, use cases, and core capabilities upfront. However, it lacks
-      explicit edge case handling (e.g., memory constraints, format compatibility
-      issues) and fallback guidance for when the skill might not be appropriate.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9324e3cb0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for computational pathology workflows, covering
-      real-world tasks like WSI analysis, multiplex imaging, and ML model training.
-      The comprehensive capability breakdown with specific model names (HoVer-Net,
-      HACTNet) and platform support (CODEX, Vectra) makes it immediately actionable
-      for researchers and developers in the field.
-  overall_rating: 4.75
-  summary: An outstanding, production-ready skill prompt that provides comprehensive
-    coverage of computational pathology workflows with clear structure and practical
-    guidance for advanced WSI analysis.
-  tags_suggested:
-  - computational-pathology
-  - whole-slide-imaging
-  - multiplex-imaging
-  - graph-neural-networks
-  - histopathology
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9324e3cb0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.129892Z'
-indexed_at: '2026-02-15T04:33:50.129898Z'
+  fetched_at: '2026-02-22T05:20:55.864130Z'
+indexed_at: '2026-02-22T05:20:55.864139Z'
 ---

@@ -18,40 +18,25 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/arboreto/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/arboreto/SKILL.md
-fetched_at: '2026-02-15T04:21:03.567349+00:00'
+fetched_at: '2026-02-22T04:14:45.554883+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:21:38.456218Z'
+  evaluated_at: '2026-02-22T04:18:14.100088Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is well-structured with clear sections and practical code
-      examples, but it has some issues. The 'Common Use Cases' section is incomplete
-      (ends with '# Filt'), and the references to external markdown files ('references/basic_inference.md',
-      etc.) are placeholders that don't exist, which could confuse users. However,
-      the core instructions for installation, basic usage, and distributed computing
-      are clear and actionable.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9331973e0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This is highly practical for bioinformatics and computational biology
-      workflows, particularly for researchers analyzing transcriptomics data. It provides
-      ready-to-run scripts and covers both single-machine and cluster computing scenarios,
-      which are common in genomics. The inclusion of specific algorithms (GRNBoost2,
-      GENIE3) and real-world use cases (single-cell RNA-seq) makes it immediately
-      applicable to actual research tasks.
-  overall_rating: 4.25
-  summary: A solid, practical prompt for gene regulatory network inference that balances
-    technical depth with usability, though it needs completion of the incomplete sections
-    and resolution of placeholder references to reach its full potential.
-  tags_suggested:
-  - bioinformatics
-  - gene-regulatory-networks
-  - transcriptomics
-  - distributed-computing
-  - machine-learning
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9331973e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.802015Z'
-indexed_at: '2026-02-15T04:33:49.802021Z'
+  fetched_at: '2026-02-22T05:20:55.654760Z'
+indexed_at: '2026-02-22T05:20:55.654765Z'

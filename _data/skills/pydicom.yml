@@ -14,48 +14,33 @@ prompt_preview: '---
   imaging datasets. Applies to tasks involving medical im...'
 full_prompt_length: 14008
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pydicom/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pydicom/SKILL.md
-fetched_at: '2026-02-15T04:21:15.274895+00:00'
+fetched_at: '2026-02-22T04:14:59.828338+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:38:45.329716Z'
+  evaluated_at: '2026-02-22T04:30:24.888794Z'
   prompt_quality:
-    score: 4.0
-    reasoning: 'The prompt is generally clear and well-structured with good sections
-      for installation, workflows, and examples. However, it has a significant issue:
-      the ''Multi-frame images'' section is incomplete with a truncated comment ''#
-      For mu''. This creates ambiguity and breaks the flow. The examples are practical
-      and follow good coding practices, but the incomplete section reduces overall
-      clarity.'
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932921d90 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: The skill is highly practical for medical imaging tasks, covering essential
-      operations like reading DICOM files, extracting pixel data, windowing for display,
-      and handling color images. The inclusion of installation commands for common
-      dependencies and compression libraries adds real-world value. The examples are
-      actionable and relevant to actual development scenarios in healthcare imaging.
-  overall_rating: 4.25
-  summary: A well-structured and practical skill for working with DICOM medical imaging
-    files, though it suffers from an incomplete section that needs correction to reach
-    its full potential.
-  tags_suggested:
-  - medical imaging
-  - DICOM
-  - pydicom
-  - healthcare
-  - radiology
-  - pixel data
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932921d90 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.181300Z'
-indexed_at: '2026-02-15T04:33:50.181305Z'
+  fetched_at: '2026-02-22T05:20:55.902833Z'
+indexed_at: '2026-02-22T05:20:55.902839Z'

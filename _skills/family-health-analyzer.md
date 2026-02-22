@@ -18,7 +18,7 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/family-health-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/family-health-analyzer/SKILL.md
-fetched_at: '2026-02-15T04:21:57.142265+00:00'
+fetched_at: '2026-02-22T04:15:58.724287+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:53:55.317552Z'
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.063078Z'
-indexed_at: '2026-02-15T04:33:51.063083Z'
+  fetched_at: '2026-02-22T05:20:56.538950Z'
+indexed_at: '2026-02-22T05:20:56.538955Z'
 ---

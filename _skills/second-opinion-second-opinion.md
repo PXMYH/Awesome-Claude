@@ -10,7 +10,7 @@ prompt_preview: "---\nname: second-opinion\ndescription: \"Runs external LLM cod
   \  - Bash\n  - Read\n  - Glob\n  - Grep\n  - AskUserQuestion\n---\n\n# Second Opinion\n\
   \nShell out to external LLM CLIs for an independent code review powered by\na separate\
   \ model. Supports OpenAI Codex CLI and..."
-full_prompt_length: 9702
+full_prompt_length: 9917
 tools_mentioned:
 - go
 category: security
@@ -18,17 +18,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/second-opinion/skills/second-opinion/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/second-opinion/skills/second-opinion/SKILL.md
-fetched_at: '2026-02-15T04:22:29.896337+00:00'
+fetched_at: '2026-02-22T04:16:57.518873+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-15T04:33:00.336890Z'
+  evaluated_at: '2026-02-22T05:15:56.409249Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3d0cef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932c02de0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3d0cef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932c02de0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.473676Z'
-indexed_at: '2026-02-15T04:33:51.473681Z'
+  fetched_at: '2026-02-22T05:20:56.942764Z'
+indexed_at: '2026-02-22T05:20:56.942769Z'
 ---

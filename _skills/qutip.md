@@ -12,48 +12,34 @@ prompt_preview: "---\nname: qutip\ndescription: Quantum physics simulation libra
   \ Quantum Toolbox in Python\n\n##..."
 full_prompt_length: 9841
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/qutip/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/qutip/SKILL.md
-fetched_at: '2026-02-15T04:21:16.590511+00:00'
+fetched_at: '2026-02-22T04:15:02.343915+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:40:43.125971Z'
+  evaluated_at: '2026-02-22T04:31:56.437131Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections for
-      installation, quick start, and core capabilities. It provides specific code
-      examples for each major feature and includes helpful references to detailed
-      documentation. However, the prompt is incomplete (ends abruptly at '5. A'),
-      which prevents a perfect score.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251fe30 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for quantum physics research and education,
-      covering essential tools for open quantum systems, master equations, and quantum
-      optics. The prompt immediately actionable with working code examples and clear
-      guidance on when to use QuTiP versus other quantum libraries. The inclusion
-      of solver selection guides and specific use cases makes it valuable for both
-      beginners and experienced researchers.
-  overall_rating: 4.75
-  summary: A comprehensive and well-structured prompt for the QuTiP quantum simulation
-    library, though incomplete, that provides excellent practical value for quantum
-    physics research and education with clear examples and guidance.
-  tags_suggested:
-  - quantum-physics
-  - scientific-computing
-  - open-quantum-systems
-  - quantum-optics
-  - research-tool
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251fe30 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.222432Z'
-indexed_at: '2026-02-15T04:33:50.222439Z'
+  fetched_at: '2026-02-22T05:20:55.949163Z'
+indexed_at: '2026-02-22T05:20:55.949170Z'
 ---

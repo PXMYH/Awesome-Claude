@@ -18,40 +18,25 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pptx-posters/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pptx-posters/SKILL.md
-fetched_at: '2026-02-15T04:21:14.462991+00:00'
+fetched_at: '2026-02-22T04:14:59.038781+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:37:45.519667Z'
+  evaluated_at: '2026-02-22T04:29:43.213371Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly specific and well-structured with clear conditional
-      logic for when to use this skill versus the default latex-posters skill. It
-      provides excellent constraints for AI-generated visual elements with specific,
-      measurable requirements (e.g., 3-4 elements max, 10 words max, 80pt+ font sizes).
-      The inclusion of concrete examples and strict enforcement rules demonstrates
-      strong prompt engineering practices.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251dd90 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill addresses a specific, practical need for users who require
-      PowerPoint-compatible posters for editing or institutional requirements. The
-      workflow guidance for generating AI visuals is actionable and follows modern
-      poster design principles. However, the utility is somewhat limited by the strict
-      requirement for explicit PPTX requests, which may cause users to miss this skill
-      when they actually need it.
-  overall_rating: 4.25
-  summary: A well-crafted, highly specific skill prompt that excels in constraint
-    definition and workflow guidance, though its narrow use case and strict conditional
-    logic may limit its discoverability for users who need PowerPoint-compatible posters.
-  tags_suggested:
-  - poster-design
-  - html-css
-  - pptx-export
-  - ai-visuals
-  - scientific-communication
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251dd90 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.158590Z'
-indexed_at: '2026-02-15T04:33:50.158596Z'
+  fetched_at: '2026-02-22T05:20:55.886747Z'
+indexed_at: '2026-02-22T05:20:55.886753Z'

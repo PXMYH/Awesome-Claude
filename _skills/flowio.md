@@ -12,47 +12,34 @@ prompt_preview: "---\nname: flowio\ndescription: Parse FCS (Flow Cytometry Stand
   \ extract event data, and create new FCS f..."
 full_prompt_length: 17591
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/flowio/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/flowio/SKILL.md
-fetched_at: '2026-02-15T04:21:07.981099+00:00'
+fetched_at: '2026-02-22T04:14:50.949210+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:28:27.026252Z'
+  evaluated_at: '2026-02-22T04:22:48.037985Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections for
-      overview, installation, quick start, and core workflows. It provides specific
-      code examples for common use cases and handles edge cases like problematic files.
-      However, the prompt is incomplete (cuts off mid-sentence in the metadata section),
-      which prevents a perfect score.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932559040 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for scientific computing, providing immediate
-      value for flow cytometry data processing. It covers essential workflows like
-      reading FCS files, extracting metadata, handling edge cases, and creating new
-      files. The inclusion of memory-efficient reading and error handling makes it
-      production-ready for real-world applications.
-  overall_rating: 4.75
-  summary: A comprehensive and well-designed skill prompt for flow cytometry file
-    handling that provides clear, actionable guidance for scientific data processing,
-    though it appears to be truncated in the final section.
-  tags_suggested:
-  - scientific
-  - data-processing
-  - flow-cytometry
-  - bioinformatics
-  - file-parsing
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932559040 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.950889Z'
-indexed_at: '2026-02-15T04:33:49.950894Z'
+  fetched_at: '2026-02-22T05:20:55.748425Z'
+indexed_at: '2026-02-22T05:20:55.748434Z'
 ---

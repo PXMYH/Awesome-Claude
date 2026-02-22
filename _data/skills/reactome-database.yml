@@ -11,47 +11,34 @@ prompt_preview: "---\nname: reactome-database\ndescription: Query Reactome REST 
   \ map genes to pathways, ex..."
 full_prompt_length: 8655
 tools_mentioned:
-- python
 - go
 - REST
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/reactome-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/reactome-database/SKILL.md
-fetched_at: '2026-02-15T04:21:16.821099+00:00'
+fetched_at: '2026-02-22T04:15:02.633064+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:41:04.269891Z'
+  evaluated_at: '2026-02-22T04:32:13.071283Z'
   prompt_quality:
-    score: 2.0
-    reasoning: The prompt has significant quality issues. It is incomplete, with the
-      critical API call example abruptly cut off mid-sentence. The prompt also contains
-      a broken reference to an internal file path ('references/api_reference.md')
-      that cannot be resolved by the user, and the Python package version is outdated
-      (2021), which may lead to compatibility issues.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc933197a10 state=finished
+      raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: Despite the quality flaws, the prompt provides a useful high-level
-      overview of Reactome's capabilities and the distinction between Content and
-      Analysis services. The inclusion of specific API endpoints and basic code snippets
-      offers a starting point for users familiar with REST APIs, though the incomplete
-      example limits immediate actionability.
-  overall_rating: 2.5
-  summary: This is a conceptually useful but technically flawed prompt that suffers
-    from critical truncation errors and outdated references, requiring significant
-    user intervention to be functional.
-  tags_suggested:
-  - Scientific
-  - Bioinformatics
-  - Pathway Analysis
-  - Incomplete
-  - Outdated
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc933197a10 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.230105Z'
-indexed_at: '2026-02-15T04:33:50.230111Z'
+  fetched_at: '2026-02-22T05:20:55.954306Z'
+indexed_at: '2026-02-22T05:20:55.954316Z'

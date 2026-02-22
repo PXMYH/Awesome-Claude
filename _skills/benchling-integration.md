@@ -12,51 +12,36 @@ prompt_preview: "---\nname: benchling-integration\ndescription: Benchling R&D pl
   \ (DNA, proteins), inventory,..."
 full_prompt_length: 13880
 tools_mentioned:
+- Python
+- python
 - REST
 - AWS
 - go
-- python
-- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/benchling-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/benchling-integration/SKILL.md
-fetched_at: '2026-02-15T04:21:03.800375+00:00'
+fetched_at: '2026-02-22T04:14:45.852660+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:22:00.883223Z'
+  evaluated_at: '2026-02-22T04:18:30.760960Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt demonstrates excellent clarity and specificity, providing
-      concrete code examples for authentication, entity creation, and updates. It
-      includes important constraints like 'never both' for registry registration and
-      notes on partial updates. However, it lacks handling of edge cases such as API
-      rate limits, error handling, or validation failures, which are common in real-world
-      API integrations.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251cc50 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill provides high practical value for Benchling users, covering
-      core operations like authentication, registry management, and entity updates
-      with actionable code snippets. It addresses real-world needs for lab automation
-      and data management. However, it's incomplete without examples for inventory
-      operations, ELN entries, workflows, or data warehouse queries mentioned in the
-      description, limiting its immediate applicability for those specific use cases.
-  overall_rating: 4.25
-  summary: A well-structured and practical prompt for Benchling integration that excels
-    in clarity and core functionality but could be enhanced with more comprehensive
-    coverage of all mentioned capabilities and edge case handling.
-  tags_suggested:
-  - scientific
-  - API integration
-  - life sciences
-  - lab automation
-  - Benchling
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251cc50 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.810059Z'
-indexed_at: '2026-02-15T04:33:49.810065Z'
+  fetched_at: '2026-02-22T05:20:55.659715Z'
+indexed_at: '2026-02-22T05:20:55.659723Z'
 ---

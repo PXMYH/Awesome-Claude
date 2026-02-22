@@ -20,38 +20,25 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/entry-point-analyzer/skills/entry-point-analyzer/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/entry-point-analyzer/skills/entry-point-analyzer/SKILL.md
-fetched_at: '2026-02-15T04:22:27.755023+00:00'
+fetched_at: '2026-02-22T04:16:54.099544+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:23:02.165188Z'
+  evaluated_at: '2026-02-22T05:15:06.385782Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured with explicit
-      scope definitions, language-specific exclusions, and a defined workflow. It
-      follows best practices by providing concrete examples and fallback guidance
-      for when Slither is unavailable. The only minor weakness is the incomplete language
-      detection table at the end, which cuts off mid-sentence.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932468b60 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides high practical value for security auditors by systematically
-      mapping attack surfaces in smart contract codebases. It's immediately actionable
-      with a clear workflow and covers multiple blockchain ecosystems, making it versatile
-      for real-world auditing scenarios. The focus on state-changing functions aligns
-      perfectly with security priorities.
-  overall_rating: 4.75
-  summary: An excellent, production-ready security skill that provides clear methodology
-    for identifying critical entry points in smart contract audits across multiple
-    blockchain platforms.
-  tags_suggested:
-  - security
-  - smart-contracts
-  - auditing
-  - entry-points
-  - access-control
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932468b60 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.451109Z'
-indexed_at: '2026-02-15T04:33:51.451114Z'
+  fetched_at: '2026-02-22T05:20:56.924374Z'
+indexed_at: '2026-02-22T05:20:56.924379Z'

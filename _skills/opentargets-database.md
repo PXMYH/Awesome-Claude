@@ -12,47 +12,35 @@ prompt_preview: "---\nname: opentargets-database\ndescription: Query Open Target
   \ targets. It integrates publicly ava..."
 full_prompt_length: 14890
 tools_mentioned:
+- graphql
 - python
 - GraphQL
-- graphql
 - go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/opentargets-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/opentargets-database/SKILL.md
-fetched_at: '2026-02-15T04:21:13.268651+00:00'
+fetched_at: '2026-02-22T04:14:57.312268+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:35:58.714748Z'
+  evaluated_at: '2026-02-22T04:28:20.313232Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt provides clear structure and good overview of the Open Targets
-      Platform, with specific use cases and workflow examples. However, it is incomplete
-      (cut off at 'Query Disease I'), lacks edge case handling, and has incomplete
-      code examples that reference non-existent helper functions without implementation
-      details.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932746e70 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill addresses high-value scientific use cases like target discovery
-      and drug repurposing with practical workflow guidance. It provides concrete
-      examples and explains key data types, making it immediately actionable for researchers
-      in biotech/pharma despite the incomplete prompt.
-  overall_rating: 3.75
-  summary: A scientifically valuable but technically incomplete prompt that provides
-    excellent domain context and use cases but lacks full implementation details and
-    edge case handling.
-  tags_suggested:
-  - scientific
-  - biotech
-  - drug-discovery
-  - genomics
-  - api-integration
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932746e70 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.118717Z'
-indexed_at: '2026-02-15T04:33:50.118725Z'
+  fetched_at: '2026-02-22T05:20:55.854537Z'
+indexed_at: '2026-02-22T05:20:55.854543Z'
 ---

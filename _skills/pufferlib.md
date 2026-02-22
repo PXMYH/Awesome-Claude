@@ -12,45 +12,34 @@ prompt_preview: "---\nname: pufferlib\ndescription: High-performance reinforceme
   metadata:\n    skill-author: K-Dense..."
 full_prompt_length: 14312
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pufferlib/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pufferlib/SKILL.md
-fetched_at: '2026-02-15T04:21:14.987022+00:00'
+fetched_at: '2026-02-22T04:14:59.524867+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:38:29.884417Z'
+  evaluated_at: '2026-02-22T04:30:16.541173Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly structured with clear sections and practical code
-      examples. It effectively defines the skill's scope, capabilities, and usage
-      context. The only minor weakness is that the environment development section
-      is cut off mid-sentence, which slightly impacts completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251dca0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides immediate, actionable value for RL practitioners
-      needing high-performance training. It covers real-world use cases like multi-agent
-      systems and integration with popular environments. The inclusion of both CLI
-      and Python APIs makes it accessible for different workflows.
-  overall_rating: 4.75
-  summary: A well-crafted, highly practical skill prompt that effectively communicates
-    a specialized RL framework's capabilities with clear usage guidance and concrete
-    examples.
-  tags_suggested:
-  - reinforcement-learning
-  - high-performance-computing
-  - multi-agent-systems
-  - environment-development
-  - ppo-training
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251dca0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.173915Z'
-indexed_at: '2026-02-15T04:33:50.173921Z'
+  fetched_at: '2026-02-22T05:20:55.896918Z'
+indexed_at: '2026-02-22T05:20:55.896924Z'
 ---

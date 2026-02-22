@@ -16,46 +16,33 @@ prompt_preview: '---
   allowed-tools: [Read, Write,...'
 full_prompt_length: 23934
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/peer-review/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/peer-review/SKILL.md
-fetched_at: '2026-02-15T04:21:13.863275+00:00'
+fetched_at: '2026-02-22T04:14:58.147196+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:36:52.589179Z'
+  evaluated_at: '2026-02-22T04:29:01.797743Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is well-structured with clear sections and specific guidance
-      on when to use the skill. However, it's incomplete - the content cuts off mid-sentence
-      in the 'Abstract and Title' section, leaving the detailed review criteria unfinished.
-      The instructions for generating schematics are clear but may be overly prescriptive
-      about tool usage.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251cad0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: Highly practical for real-world scientific peer review tasks with comprehensive
-      workflow stages and specific evaluation criteria. The inclusion of reporting
-      standards (CONSORT, STROBE, PRISMA) adds significant value. The visual enhancement
-      recommendation for schematics is innovative and useful for complex scientific
-      communication.
-  overall_rating: 4.25
-  summary: A strong, practical peer review skill with excellent structure and real-world
-    applicability, though the prompt is incomplete and would benefit from finishing
-    the detailed review criteria sections.
-  tags_suggested:
-  - peer-review
-  - scientific-evaluation
-  - manuscript-review
-  - research-assessment
-  - methodology-evaluation
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251cad0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.137348Z'
-indexed_at: '2026-02-15T04:33:50.137354Z'
+  fetched_at: '2026-02-22T05:20:55.873537Z'
+indexed_at: '2026-02-22T05:20:55.873545Z'

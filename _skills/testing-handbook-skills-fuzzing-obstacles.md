@@ -12,45 +12,33 @@ prompt_preview: "---\nname: fuzzing-obstacles\ntype: technique\ndescription: >\n
   \ to patch your System Under Test (S..."
 full_prompt_length: 15501
 tools_mentioned:
-- rust
 - Rust
+- rust
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/fuzzing-obstacles/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/fuzzing-obstacles/SKILL.md
-fetched_at: '2026-02-15T04:22:32.818672+00:00'
+fetched_at: '2026-02-22T04:17:02.363714+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:26:43.742155Z'
+  evaluated_at: '2026-02-22T05:17:52.785062Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, a
-      helpful quick reference table, and specific code examples. It follows best practices
-      by defining key concepts and providing actionable steps. The only minor issue
-      is that the C++ example is incomplete, cutting off mid-code block, which slightly
-      reduces clarity.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b06e0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for security engineers and developers performing
-      fuzzing. It addresses a common real-world problem with concrete, language-specific
-      solutions (C++ and Rust). The step-by-step methodology and clear 'When to Apply'
-      guidance make it immediately actionable for improving fuzzing effectiveness.
-  overall_rating: 4.75
-  summary: An excellent, production-ready prompt that provides comprehensive guidance
-    for overcoming common fuzzing obstacles through conditional compilation, with
-    strong practical value for security testing workflows.
-  tags_suggested:
-  - fuzzing
-  - security
-  - code-patching
-  - conditional-compilation
-  - testing
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b06e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.529242Z'
-indexed_at: '2026-02-15T04:33:51.529248Z'
+  fetched_at: '2026-02-22T05:20:56.981891Z'
+indexed_at: '2026-02-22T05:20:56.981896Z'
 ---

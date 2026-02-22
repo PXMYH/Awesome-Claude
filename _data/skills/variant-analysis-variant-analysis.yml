@@ -25,10 +25,10 @@ prompt_preview: '---
 
 
   Use this skill...'
-full_prompt_length: 5636
+full_prompt_length: 5637
 tools_mentioned:
-- python
 - javascript
+- python
 - java
 - go
 category: security
@@ -36,41 +36,25 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/variant-analysis/skills/variant-analysis/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/variant-analysis/skills/variant-analysis/SKILL.md
-fetched_at: '2026-02-15T04:22:33.996351+00:00'
+fetched_at: '2026-02-22T04:17:04.272953+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:28:59.399065Z'
+  evaluated_at: '2026-02-22T05:18:59.085171Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, a
-      defined five-step process, and specific tool recommendations. It follows prompt
-      engineering best practices by providing explicit when-to-use/when-not-to-use
-      guidance and structured decision matrices. However, it's slightly incomplete
-      as the 'Critical Pitfalls to Avoid' section cuts off mid-sentence, which slightly
-      impacts clarity.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251e660 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides immense real-world value for security professionals
-      conducting systematic code audits and vulnerability hunting. It offers a complete,
-      actionable methodology that can be immediately applied to find bug variants
-      across codebases, with practical guidance on tool selection and triage. The
-      structured approach helps analysts avoid common pitfalls like narrow search
-      scope.
-  overall_rating: 4.75
-  summary: An excellent, highly practical security skill that provides a comprehensive
-    methodology for variant analysis with clear steps, tool guidance, and actionable
-    principles for finding similar vulnerabilities across codebases.
-  tags_suggested:
-  - security
-  - code-audit
-  - vulnerability-hunting
-  - static-analysis
-  - codeql
-  - semgrep
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251e660 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.559185Z'
-indexed_at: '2026-02-15T04:33:51.559191Z'
+  fetched_at: '2026-02-22T05:20:57.002538Z'
+indexed_at: '2026-02-22T05:20:57.002543Z'

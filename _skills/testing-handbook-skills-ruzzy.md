@@ -19,38 +19,26 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/ruzzy/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/ruzzy/SKILL.md
-fetched_at: '2026-02-15T04:22:33.399370+00:00'
+fetched_at: '2026-02-22T04:17:03.434853+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:27:40.403255Z'
+  evaluated_at: '2026-02-22T05:18:34.276155Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured, with logical
-      sections for installation, usage, and troubleshooting. It provides specific
-      commands, environment variables, and code examples that are unambiguous. The
-      only minor limitation is the abrupt ending that cuts off the 'See Also' section,
-      which slightly impacts completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b3d10 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for security professionals working with Ruby
-      code, providing immediate value for fuzzing both pure Ruby and C extensions.
-      The prompt covers real-world scenarios, includes verification steps, and addresses
-      common installation issues with detailed troubleshooting guidance.
-  overall_rating: 4.75
-  summary: An excellent, production-ready prompt that provides comprehensive coverage
-    for using Ruzzy fuzzer with clear instructions, practical examples, and robust
-    troubleshooting guidance for Ruby security testing.
-  tags_suggested:
-  - security
-  - fuzzing
-  - ruby
-  - testing
-  - vulnerability-detection
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b3d10 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.547737Z'
-indexed_at: '2026-02-15T04:33:51.547742Z'
+  fetched_at: '2026-02-22T05:20:56.994838Z'
+indexed_at: '2026-02-22T05:20:56.994843Z'
 ---

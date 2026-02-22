@@ -15,50 +15,37 @@ prompt_preview: '---
 full_prompt_length: 15187
 tools_mentioned:
 - GO
-- AWS
-- go
+- Python
 - gcp
 - SQLite
-- PostgreSQL
 - python
-- Python
+- PostgreSQL
+- AWS
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/lamindb/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/lamindb/SKILL.md
-fetched_at: '2026-02-15T04:21:10.868255+00:00'
+fetched_at: '2026-02-22T04:14:54.283271+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:32:20.258945Z'
+  evaluated_at: '2026-02-22T04:25:42.732813Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, specific
-      use cases, and detailed capability descriptions. It follows best practices by
-      providing context, scope, and actionable guidance. The only minor limitation
-      is that it references external files (references folder) that aren't included
-      in the prompt itself.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255bb30 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for biological data management, covering real-world
-      scenarios like scRNA-seq analysis, workflow tracking, and FAIR compliance. It
-      provides comprehensive coverage of LaminDB's core features with specific examples
-      and integration points with popular tools like Nextflow, W&B, and MLflow.
-  overall_rating: 4.75
-  summary: An excellent, comprehensive prompt that effectively introduces LaminDB
-    as a scientific data framework with clear value propositions, use cases, and capabilities
-    for biological research workflows.
-  tags_suggested:
-  - biological-data
-  - data-management
-  - reproducibility
-  - FAIR-principles
-  - lakehouse
-  - bioinformatics
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255bb30 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.042250Z'
-indexed_at: '2026-02-15T04:33:50.042256Z'
+  fetched_at: '2026-02-22T05:20:55.806825Z'
+indexed_at: '2026-02-22T05:20:55.806831Z'

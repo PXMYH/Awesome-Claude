@@ -14,47 +14,33 @@ prompt_preview: '---
   transportation systems, citation networks, and any domain inv...'
 full_prompt_length: 13527
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/networkx/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/networkx/SKILL.md
-fetched_at: '2026-02-15T04:21:12.522788+00:00'
+fetched_at: '2026-02-22T04:14:56.334910+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:34:57.634806Z'
+  evaluated_at: '2026-02-22T04:27:30.659690Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured with comprehensive
-      coverage of NetworkX capabilities, including graph types, algorithms, and generators.
-      It follows best practices by providing concrete code examples and referencing
-      external documentation. The only minor limitation is that the prompt cuts off
-      mid-sentence in the graph generators section, which slightly impacts completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255a120 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides immediate practical value for anyone working with
-      network data, covering the most common use cases from graph creation to advanced
-      analysis. The inclusion of specific algorithm examples (shortest paths, centrality,
-      community detection) makes it highly actionable for real-world tasks. The comprehensive
-      scope ensures users can handle diverse network analysis scenarios across multiple
-      domains.
-  overall_rating: 4.75
-  summary: A well-crafted, comprehensive NetworkX skill prompt that provides clear
-    guidance for graph creation, analysis, and visualization with practical examples,
-    making it highly useful for scientific and data analysis tasks.
-  tags_suggested:
-  - network-analysis
-  - graph-theory
-  - data-science
-  - python
-  - scientific-computing
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255a120 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.095035Z'
-indexed_at: '2026-02-15T04:33:50.095041Z'
+  fetched_at: '2026-02-22T05:20:55.839659Z'
+indexed_at: '2026-02-22T05:20:55.839664Z'

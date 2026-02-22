@@ -20,39 +20,26 @@ category_display: Data Analytics
 source_repo: coffeefuelbump/csv-data-summarizer-claude-skill
 source_path: SKILL.md
 source_url: https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill/blob/main/SKILL.md
-fetched_at: '2026-02-15T04:21:45.916793+00:00'
+fetched_at: '2026-02-22T04:15:46.550922+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:16:28.991774Z'
+  evaluated_at: '2026-02-22T04:57:46.135296Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and specific, with strong emphasis
-      on immediate action and avoiding user questions. It provides excellent guidance
-      on data type detection and adaptive analysis. However, it lacks explicit error
-      handling for malformed CSVs or missing dependencies, and the 'How It Works'
-      section is empty, which could be improved.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932799970 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides immediate, comprehensive value for anyone working
-      with CSV data. It eliminates the need for manual analysis setup and automatically
-      generates relevant insights and visualizations. The adaptive approach based
-      on data type detection makes it highly practical across diverse real-world scenarios.
-  overall_rating: 4.75
-  summary: An excellent, production-ready skill that excels at automatic CSV analysis
-    with strong behavioral guardrails, though it could benefit from more explicit
-    error handling documentation.
-  tags_suggested:
-  - data-analysis
-  - csv-processing
-  - automated-insights
-  - pandas
-  - visualization
-  - data-science
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932799970 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.928987Z'
-indexed_at: '2026-02-15T04:33:50.928995Z'
+  fetched_at: '2026-02-22T05:20:56.423818Z'
+indexed_at: '2026-02-22T05:20:56.423824Z'
 ---

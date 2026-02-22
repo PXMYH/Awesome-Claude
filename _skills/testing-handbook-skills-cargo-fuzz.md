@@ -12,46 +12,33 @@ prompt_preview: "---\nname: cargo-fuzz\ntype: fuzzer\ndescription: >\n  cargo-fu
   \ like AddressSanitizer.\n\n## When to Use\n\ncar..."
 full_prompt_length: 11488
 tools_mentioned:
-- rust
 - Rust
+- rust
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/cargo-fuzz/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/cargo-fuzz/SKILL.md
-fetched_at: '2026-02-15T04:22:32.342266+00:00'
+fetched_at: '2026-02-22T04:17:01.497223+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:25:43.161840Z'
+  evaluated_at: '2026-02-22T05:17:19.279723Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is well-structured with clear sections, good formatting,
-      and specific examples. It provides excellent guidance on when to use cargo-fuzz
-      versus alternatives, includes installation steps, and demonstrates harness writing.
-      However, it's incomplete (cuts off mid-sentence in the 'Running Campaigns' section),
-      which slightly impacts completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b13d0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This is highly practical for Rust developers needing to fuzz their
-      code, covering real-world scenarios like project structure, harness writing,
-      and performance optimization. It provides actionable commands and best practices.
-      The main limitation is the incomplete content, which leaves out some important
-      information about running campaigns.
-  overall_rating: 4.25
-  summary: A solid, practical skill for Rust fuzzing that provides clear guidance
-    and actionable examples, though it's incomplete and missing the final section
-    on running campaigns.
-  tags_suggested:
-  - rust
-  - fuzzing
-  - security-testing
-  - libfuzzer
-  - cargo
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b13d0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.514447Z'
-indexed_at: '2026-02-15T04:33:51.514453Z'
+  fetched_at: '2026-02-22T05:20:56.971683Z'
+indexed_at: '2026-02-22T05:20:56.971689Z'
 ---

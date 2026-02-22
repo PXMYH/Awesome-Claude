@@ -22,41 +22,26 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/shap/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/shap/SKILL.md
-fetched_at: '2026-02-15T04:21:18.933519+00:00'
+fetched_at: '2026-02-22T04:15:05.350811+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:44:15.085486Z'
+  evaluated_at: '2026-02-22T04:34:26.027001Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, a
-      decision tree for explainer selection, and specific code examples. It follows
-      prompt engineering best practices by defining scope, providing triggers, and
-      offering step-by-step guidance. The only minor limitation is that some references
-      (like 'references/explainers.md') are placeholders that would need actual content
-      in a production system.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932799970 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides immediate, practical value for real-world machine
-      learning tasks. It covers the most common SHAP use cases comprehensively, from
-      model debugging to fairness analysis, and includes actionable code examples
-      for different model types. The workflow guidance helps users navigate SHAP's
-      complexity effectively.
-  overall_rating: 4.75
-  summary: A highly effective SHAP skill that balances technical depth with practical
-    usability, offering clear decision-making guidance and actionable examples for
-    model interpretability tasks.
-  tags_suggested:
-  - machine learning
-  - model interpretability
-  - explainable AI
-  - SHAP
-  - feature importance
-  - data visualization
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932799970 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.294495Z'
-indexed_at: '2026-02-15T04:33:50.294501Z'
+  fetched_at: '2026-02-22T05:20:55.999707Z'
+indexed_at: '2026-02-22T05:20:55.999712Z'
 ---

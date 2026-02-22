@@ -17,48 +17,34 @@ prompt_preview: '---
   and Python code. Scripts can be executed with MATLAB or the open...'
 full_prompt_length: 10044
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/matlab/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/matlab/SKILL.md
-fetched_at: '2026-02-15T04:21:11.749557+00:00'
+fetched_at: '2026-02-22T04:14:55.409965+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:33:36.986221Z'
+  evaluated_at: '2026-02-22T04:26:40.767747Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, practical
-      code examples, and helpful references. However, it contains an incomplete code
-      snippet in the Control Flow section (truncated 'dis' statement) which introduces
-      ambiguity. The overall clarity and specificity are strong, but this edge case
-      reduces the perfect score.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932559a90 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides immediate, practical value for scientific computing
-      tasks with comprehensive coverage of matrix operations, linear algebra, visualization,
-      and data I/O. The inclusion of both MATLAB and GNU Octave compatibility, installation
-      instructions, and execution commands makes it highly actionable for real-world
-      development across multiple platforms.
-  overall_rating: 4.75
-  summary: A high-quality, practical skill prompt that excels in usefulness with comprehensive
-    scientific computing coverage, though minor editing issues slightly impact prompt
-    quality.
-  tags_suggested:
-  - scientific computing
-  - linear algebra
-  - data visualization
-  - MATLAB
-  - GNU Octave
-  - matrix operations
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932559a90 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.069873Z'
-indexed_at: '2026-02-15T04:33:50.069881Z'
+  fetched_at: '2026-02-22T05:20:55.824410Z'
+indexed_at: '2026-02-22T05:20:55.824415Z'
 ---

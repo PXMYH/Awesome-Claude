@@ -15,49 +15,35 @@ prompt_preview: '---
   Pro, Sonar Pro Search (advanced agentic search), and Sonar R...'
 full_prompt_length: 14894
 tools_mentioned:
-- python
 - go
 - PostgreSQL
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/perplexity-search/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/perplexity-search/SKILL.md
-fetched_at: '2026-02-15T04:21:14.094252+00:00'
+fetched_at: '2026-02-22T04:14:58.548627+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:37:14.211550Z'
+  evaluated_at: '2026-02-22T04:29:18.305470Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, specific
-      instructions, and practical examples. It follows prompt engineering best practices
-      by defining scope, constraints, and providing actionable guidance. The only
-      minor limitation is that it's truncated mid-sentence in the 'Crafting Effective
-      Queries' section, which slightly impacts completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9324e3ce0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides immediate real-world value for accessing current
-      information beyond model knowledge cutoffs, which is critical for scientific
-      research and development tasks. It comprehensively covers setup, usage, model
-      selection, and query crafting with practical examples. The integration with
-      OpenRouter and LiteLLM makes it highly actionable for users needing real-time
-      web-grounded information with citations.
-  overall_rating: 4.75
-  summary: A highly practical and well-documented skill that effectively bridges the
-    gap between AI models and real-time web information, making it invaluable for
-    scientific research and current information retrieval.
-  tags_suggested:
-  - web-search
-  - real-time-information
-  - scientific-research
-  - literature-review
-  - source-citations
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9324e3ce0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.146536Z'
-indexed_at: '2026-02-15T04:33:50.146545Z'
+  fetched_at: '2026-02-22T05:20:55.879122Z'
+indexed_at: '2026-02-22T05:20:55.879128Z'
 ---

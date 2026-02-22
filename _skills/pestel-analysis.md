@@ -29,17 +29,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/pestel-analysis/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pestel-analysis/SKILL.md
-fetched_at: '2026-02-15T04:21:48.894922+00:00'
+fetched_at: '2026-02-22T04:15:51.519586+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-15T04:26:17.169318Z'
+  evaluated_at: '2026-02-22T05:00:24.357018Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c41ef410 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251d6d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c41ef410 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251d6d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.985082Z'
-indexed_at: '2026-02-15T04:33:50.985087Z'
+  fetched_at: '2026-02-22T05:20:56.470882Z'
+indexed_at: '2026-02-22T05:20:56.470888Z'
 ---

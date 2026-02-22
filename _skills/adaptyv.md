@@ -15,47 +15,34 @@ prompt_preview: '---
   expression using computational tools (NetSolP, SoluProt, SolubleM...'
 full_prompt_length: 4561
 tools_mentioned:
-- python
 - aws
+- python
 - go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/adaptyv/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/adaptyv/SKILL.md
-fetched_at: '2026-02-15T04:21:03.099747+00:00'
+fetched_at: '2026-02-22T04:14:44.809264+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:20:52.474645Z'
+  evaluated_at: '2026-02-22T04:17:41.008023Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is clear and well-structured, providing specific instructions
-      for authentication, installation, and basic usage with concrete code examples.
-      It defines the scope well by listing available experiment types and optimization
-      tools, though it lacks detailed edge case handling for API failures or authentication
-      issues.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932743ec0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This skill offers high practical value for protein design workflows
-      by connecting AI-driven design with wet-lab validation, covering key steps from
-      sequence optimization to experimental submission. The inclusion of specific
-      computational tools (NetSolP, SoluProt, etc.) and API integration makes it immediately
-      actionable for researchers and developers.
-  overall_rating: 4.25
-  summary: A well-crafted skill prompt that effectively bridges computational protein
-    design with experimental validation, offering clear guidance for integration into
-    automated workflows.
-  tags_suggested:
-  - protein-design
-  - wet-lab-validation
-  - api-integration
-  - bioinformatics
-  - automated-experiments
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932743ec0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.786686Z'
-indexed_at: '2026-02-15T04:33:49.786691Z'
+  fetched_at: '2026-02-22T05:20:55.644652Z'
+indexed_at: '2026-02-22T05:20:55.644657Z'
 ---

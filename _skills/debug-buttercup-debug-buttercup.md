@@ -13,28 +13,28 @@ prompt_preview: "---\nname: debug-buttercup\ndescription: >\n  Debugs the Butter
   \ program-model, litellm, dind..."
 full_prompt_length: 9921
 tools_mentioned:
-- redis
-- kubernetes
-- Docker
-- Redis
 - docker
 - Kubernetes
+- kubernetes
+- redis
+- Docker
+- Redis
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/debug-buttercup/skills/debug-buttercup/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/debug-buttercup/skills/debug-buttercup/SKILL.md
-fetched_at: '2026-02-15T04:22:26.532996+00:00'
+fetched_at: '2026-02-22T04:16:52.177987+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-15T04:32:10.762372Z'
+  evaluated_at: '2026-02-22T05:14:33.256040Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3a6aab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932ae2f60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3a6aab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932ae2f60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.437751Z'
-indexed_at: '2026-02-15T04:33:51.437757Z'
+  fetched_at: '2026-02-22T05:20:56.914091Z'
+indexed_at: '2026-02-22T05:20:56.914096Z'
 ---

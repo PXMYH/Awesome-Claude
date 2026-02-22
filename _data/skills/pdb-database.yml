@@ -11,48 +11,35 @@ prompt_preview: "---\nname: pdb-database\ndescription: Access RCSB PDB for 3D pr
   \ structure simila..."
 full_prompt_length: 10047
 tools_mentioned:
-- GraphQL
-- graphql
-- go
-- python
 - Python
+- python
+- graphql
+- GraphQL
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pdb-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pdb-database/SKILL.md
-fetched_at: '2026-02-15T04:21:13.738657+00:00'
+fetched_at: '2026-02-22T04:14:57.942907+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:36:42.541388Z'
+  evaluated_at: '2026-02-22T04:28:53.461945Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt demonstrates excellent clarity and specificity with well-structured
-      sections, clear code examples, and specific use cases. It follows prompt engineering
-      best practices by providing context, examples, and clear boundaries. However,
-      it's incomplete (cuts off mid-sentence in the downloading section) and lacks
-      explicit error handling guidance or edge case coverage.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9324e3d70 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides exceptional real-world value for structural biology,
-      drug discovery, and computational biology workflows. It covers comprehensive
-      capabilities including search, retrieval, and download operations with practical
-      code examples. The actionability is high as users can immediately implement
-      the provided examples for real PDB data access.
-  overall_rating: 4.75
-  summary: A highly practical and well-structured scientific skill for accessing RCSB
-    PDB data, though incomplete in its current form, offering comprehensive coverage
-    of structural biology data operations with clear, actionable examples.
-  tags_suggested:
-  - structural-biology
-  - protein-structures
-  - drug-discovery
-  - bioinformatics
-  - data-retrieval
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9324e3d70 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.133567Z'
-indexed_at: '2026-02-15T04:33:50.133573Z'
+  fetched_at: '2026-02-22T05:20:55.868816Z'
+indexed_at: '2026-02-22T05:20:55.868825Z'

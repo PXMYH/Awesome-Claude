@@ -15,46 +15,34 @@ prompt_preview: '---
   learning models for healthcare applications (RETAIN, Saf...'
 full_prompt_length: 18410
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pyhealth/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pyhealth/SKILL.md
-fetched_at: '2026-02-15T04:21:15.398107+00:00'
+fetched_at: '2026-02-22T04:15:00.048624+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:38:55.820775Z'
+  evaluated_at: '2026-02-22T04:30:33.235307Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, specific
-      examples, and a logical workflow. It defines scope comprehensively with concrete
-      datasets, models, and tasks. The only minor limitation is that the documentation
-      section is incomplete, cutting off mid-sentence, which slightly impacts completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251e810 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides immediate practical value for healthcare AI development
-      with a complete end-to-end workflow example covering data loading, task definition,
-      model training, and evaluation. It addresses real-world clinical prediction
-      tasks and includes performance metrics (3x faster than pandas), making it highly
-      actionable for practitioners working with EHR data.
-  overall_rating: 4.75
-  summary: An excellent, production-ready healthcare AI skill prompt with comprehensive
-    scope, clear workflow, and strong practical utility for clinical machine learning
-    tasks.
-  tags_suggested:
-  - healthcare-ai
-  - clinical-prediction
-  - ehr-processing
-  - medical-coding
-  - deep-learning
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251e810 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.185052Z'
-indexed_at: '2026-02-15T04:33:50.185058Z'
+  fetched_at: '2026-02-22T05:20:55.905303Z'
+indexed_at: '2026-02-22T05:20:55.905309Z'
 ---

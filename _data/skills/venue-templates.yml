@@ -21,38 +21,25 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/venue-templates/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/venue-templates/SKILL.md
-fetched_at: '2026-02-15T04:21:20.732706+00:00'
+fetched_at: '2026-02-22T04:15:07.866400+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:46:51.363273Z'
+  evaluated_at: '2026-02-22T04:36:31.801340Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is well-structured with clear sections, specific examples,
-      and actionable instructions. It follows good prompt engineering practices with
-      defined scope, allowed tools, and metadata. However, it's incomplete (cuts off
-      mid-sentence in the ACM section) and the 'scientific-schematics' skill reference
-      appears to be a hallucinated tool that doesn't exist in the allowed-tools list.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251ea20 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill addresses a genuine need for researchers preparing manuscripts
-      with venue-specific formatting requirements. It provides concrete examples of
-      journals, conferences, and grant agencies. The inclusion of LaTeX templates
-      and submission guidelines would be valuable for academic workflows, though the
-      incomplete content and questionable tool references reduce practical reliability.
-  overall_rating: 4.25
-  summary: A well-structured but incomplete skill prompt that addresses a real academic
-    need for venue-specific formatting, though it contains hallucinated tool references
-    and cuts off mid-document.
-  tags_suggested:
-  - academic-writing
-  - latex-templates
-  - manuscript-preparation
-  - scientific-publishing
-  - research-tools
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251ea20 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.350618Z'
-indexed_at: '2026-02-15T04:33:50.350623Z'
+  fetched_at: '2026-02-22T05:20:56.038761Z'
+indexed_at: '2026-02-22T05:20:56.038766Z'

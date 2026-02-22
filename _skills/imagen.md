@@ -7,10 +7,10 @@ prompt_preview: "---\nname: imagen\ndescription: |\n  Generate images using Goog
   \ Gemini's image generation capabilities.\n  Use this skill when the user needs\
   \ to create, generate, or produce images\n  for any purpose including UI mockups,\
   \ icons, illustrations, diagrams,\n  concept art, placeholder images, or visual\
-  \ representations.\n---\n\n# Imagen - AI Image Generation Skill\n\n## Overview\n\
-  \nThis skill generates images using Google Gemini's image generation model (`gemini-3-pro-image-preview`).\
-  \ It enables seamless image..."
-full_prompt_length: 2560
+  \ representations.\nlicense: Apache-2.0\nmetadata:\n  author: sanjay3290\n  version:\
+  \ \"1.0\"\n---\n\n# Imagen - AI Image Generation Skill\n\n## Overview\n\nThis skill\
+  \ generates images using Google Gemini's image generat..."
+full_prompt_length: 2628
 tools_mentioned:
 - python
 - Python
@@ -19,39 +19,26 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/imagen/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/imagen/SKILL.md
-fetched_at: '2026-02-15T04:22:20.252183+00:00'
+fetched_at: '2026-02-22T04:16:42.894700+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:21:40.931303Z'
+  evaluated_at: '2026-02-22T05:11:21.438590Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is clear and well-structured with a defined overview, usage
-      examples, and requirements. However, it lacks specific technical details about
-      the API implementation (e.g., exact Python script structure, error handling
-      specifics, or configuration parameters) and doesn't address potential edge cases
-      like API rate limits, image format constraints, or fallback mechanisms if the
-      Gemini API fails.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b0590 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This skill provides high practical value for developers needing quick
-      image generation during coding sessions, especially for UI mockups and documentation.
-      It's immediately actionable with clear cross-platform usage examples and covers
-      common real-world scenarios like frontend development and visual concept creation.
-  overall_rating: 4.25
-  summary: A well-conceived image generation skill with strong practical utility for
-    development workflows, though it could benefit from more technical implementation
-    details and edge case handling to reach full potential.
-  tags_suggested:
-  - image-generation
-  - frontend-development
-  - documentation
-  - gemini-api
-  - cross-platform
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b0590 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.363823Z'
-indexed_at: '2026-02-15T04:33:51.363829Z'
+  fetched_at: '2026-02-22T05:20:56.849616Z'
+indexed_at: '2026-02-22T05:20:56.849621Z'
 ---

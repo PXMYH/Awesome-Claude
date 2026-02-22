@@ -17,47 +17,34 @@ prompt_preview: '---
   neural network potentials (AIMNet2), protein-ligand binding pr...'
 full_prompt_length: 12508
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/rowan/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/rowan/SKILL.md
-fetched_at: '2026-02-15T04:21:17.185610+00:00'
+fetched_at: '2026-02-22T04:15:03.362136+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:41:51.929086Z'
+  evaluated_at: '2026-02-22T04:32:37.920780Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'The prompt provides clear installation instructions and authentication
-      steps, but contains a critical flaw: the protein-ligand docking section is incomplete
-      with an empty code block. The documentation is otherwise well-structured with
-      good examples for pKa prediction, conformer search, and geometry optimization.
-      However, the incomplete section creates ambiguity about expected behavior.'
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932596210 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 3.5
-    reasoning: The prompt demonstrates practical value for computational chemistry
-      workflows with concrete examples for common tasks like pKa prediction and conformer
-      searching. The cloud-based approach eliminates local setup requirements, making
-      it accessible. However, the incomplete docking section reduces completeness,
-      and users would need to seek additional documentation for that specific capability.
-  overall_rating: 3.25
-  summary: A well-structured but incomplete prompt for a cloud quantum chemistry platform;
-    useful for basic computational chemistry tasks but requires completion of the
-    protein-ligand docking section to be fully functional.
-  tags_suggested:
-  - computational-chemistry
-  - quantum-chemistry
-  - molecular-docking
-  - cloud-computing
-  - python-api
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932596210 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.241150Z'
-indexed_at: '2026-02-15T04:33:50.241159Z'
+  fetched_at: '2026-02-22T05:20:55.961989Z'
+indexed_at: '2026-02-22T05:20:55.961994Z'
 ---

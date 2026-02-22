@@ -12,51 +12,38 @@ prompt_preview: "---\nname: codeql\ndescription: >-\n  Runs CodeQL static analys
   \  - Bash\n  - Read\n  - Write\n  -..."
 full_prompt_length: 5424
 tools_mentioned:
-- TypeScript
-- Django
 - JavaScript
-- Go
-- Ruby
 - Java
+- Django
+- Ruby
+- TypeScript
+- Go
 - Python
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/static-analysis/skills/codeql/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/codeql/SKILL.md
-fetched_at: '2026-02-15T04:22:31.435790+00:00'
+fetched_at: '2026-02-22T04:16:59.934186+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:24:29.914230Z'
+  evaluated_at: '2026-02-22T05:16:29.621903Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections for
-      when to use/not use CodeQL, installation steps, and core workflows. It provides
-      specific commands and a helpful comparison table for different languages. However,
-      the custom query section is incomplete (ends abruptly), which slightly reduces
-      clarity and completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9325ca9c0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for real-world security auditing tasks, covering
-      the complete workflow from installation to analysis. The inclusion of Trail
-      of Bits queries and SARIF/CSV output options adds significant value for professional
-      security work. The interprocedural analysis explanation effectively communicates
-      CodeQL's unique value proposition compared to simpler tools.
-  overall_rating: 4.75
-  summary: An excellent, production-ready security skill prompt that comprehensively
-    covers CodeQL usage with practical commands and clear guidance, though it needs
-    completion of the custom query section.
-  tags_suggested:
-  - security
-  - static-analysis
-  - codeql
-  - vulnerability-detection
-  - data-flow-analysis
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9325ca9c0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.491846Z'
-indexed_at: '2026-02-15T04:33:51.491852Z'
+  fetched_at: '2026-02-22T05:20:56.956194Z'
+indexed_at: '2026-02-22T05:20:56.956199Z'
 ---

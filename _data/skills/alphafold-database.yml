@@ -11,47 +11,34 @@ prompt_preview: "---\nname: alphafold-database\ndescription: Access AlphaFold 20
   \ EMBL-EBI. Access structure..."
 full_prompt_length: 17208
 tools_mentioned:
-- python
 - go
 - REST
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/alphafold-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/alphafold-database/SKILL.md
-fetched_at: '2026-02-15T04:21:03.338503+00:00'
+fetched_at: '2026-02-22T04:14:45.225768+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:21:18.628424Z'
+  evaluated_at: '2026-02-22T04:17:57.484166Z'
   prompt_quality:
-    score: 3.5
-    reasoning: 'The prompt provides clear structure and practical code examples for
-      accessing AlphaFold data, covering multiple methods (Biopython, direct API,
-      UniProt integration). However, it has a critical flaw: the Biopython code examples
-      use a non-existent `alphafold_db` module that doesn''t exist in standard Biopython
-      distributions, which could mislead users. The prompt also lacks error handling
-      examples and doesn''t address rate limiting or API constraints.'
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9325e6060 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill addresses a genuine need in structural biology and drug discovery
-      by providing concrete methods to access AlphaFold's 200M+ protein structures.
-      The examples are practical and cover common workflows like retrieving predictions
-      by UniProt ID and downloading files. The inclusion of confidence metrics analysis
-      is particularly valuable for assessing prediction reliability in research contexts.
-  overall_rating: 3.75
-  summary: A useful but flawed prompt that provides practical AlphaFold database access
-    guidance but contains misleading Biopython examples and lacks error handling considerations.
-  tags_suggested:
-  - structural-biology
-  - protein-structures
-  - drug-discovery
-  - bioinformatics
-  - alphafold
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9325e6060 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.794276Z'
-indexed_at: '2026-02-15T04:33:49.794282Z'
+  fetched_at: '2026-02-22T05:20:55.649662Z'
+indexed_at: '2026-02-22T05:20:55.649667Z'

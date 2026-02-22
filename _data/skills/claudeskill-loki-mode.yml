@@ -1,20 +1,20 @@
 id: claudeskill-loki-mode
 slug: claudeskill-loki-mode
-name: Loki Mode v5.42.1
-description: '**v5.42.1 | feat: GitHub sync-back, PR creation, export (fully wired)
-  | ~260 lines core**'
+name: Loki Mode v5.52.0
+description: '**v5.52.0 | [Autonomi](https://www.autonomi.dev/) flagship product |
+  ~260 lines core**'
 prompt_preview: '---
 
   name: loki-mode
 
   description: Multi-agent autonomous startup system. Triggers on "Loki Mode". Takes
-  PRD to deployed product with zero human intervention. Requires --dangerously-skip-permissions
+  PRD to deployed product with minimal human intervention. Requires --dangerously-skip-permissions
   flag.
 
   ---
 
 
-  # Loki Mode v5.42.1
+  # Loki Mode v5.52.0
 
 
   **You are an autonomous agent. You make decisions. You do not ask questions. You
@@ -28,46 +28,33 @@ prompt_preview: '---
   ---
 
 
-  ## PRIORITY 1:...'
-full_prompt_length: 10676
+  ## PRIORITY...'
+full_prompt_length: 10921
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: asklokesh/claudeskill-loki-mode
 source_path: SKILL.md
 source_url: https://github.com/asklokesh/claudeskill-loki-mode/blob/main/SKILL.md
-fetched_at: '2026-02-15T04:21:43.977032+00:00'
+fetched_at: '2026-02-22T04:15:44.072081+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:15:55.363647Z'
+  evaluated_at: '2026-02-22T04:57:21.123667Z'
   prompt_quality:
-    score: 2.5
-    reasoning: The prompt is ambitious but poorly structured. It lacks clear, actionable
-      instructions for the agent and contains incomplete patterns (e.g., 'Guardrails:'
-      is cut off). While it defines a complex system architecture, the actual operational
-      logic is vague, relying on external files that may not exist. The 'Quick Reference'
-      is dense but not a substitute for explicit step-by-step guidance.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255af60 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 2.0
-    reasoning: The concept is theoretically useful for automating a full startup pipeline,
-      but it's impractical for a single AI agent. It overpromises 'zero human intervention'
-      and '100+ specialized agents' without a realistic mechanism for execution. The
-      reliance on specific file paths and external systems makes it brittle and difficult
-      to deploy in a real-world scenario.
-  overall_rating: 2.25
-  summary: An overly ambitious and poorly defined prompt that attempts to orchestrate
-    a massive autonomous system but lacks the concrete, executable instructions needed
-    for a single AI agent to function effectively.
-  tags_suggested:
-  - over-engineered
-  - unrealistic
-  - incomplete
-  - autonomous-system
-  - multi-agent
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255af60 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.914602Z'
-indexed_at: '2026-02-15T04:33:50.914607Z'
+  fetched_at: '2026-02-22T05:20:56.415823Z'
+indexed_at: '2026-02-22T05:20:56.415829Z'

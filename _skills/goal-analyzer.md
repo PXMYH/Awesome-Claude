@@ -11,14 +11,14 @@ prompt_preview: "---\nname: goal-analyzer\ndescription: 分析健康目标数据
   \  - 是否在合理时间范围内\n  - 减重目标:建议每周0.5-1公斤\n  - 运动目标:建议每周3-5次,每次30-60分钟\n\n- **R*..."
 full_prompt_length: 8104
 tools_mentioned:
-- python
 - javascript
+- python
 category: community
 category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/goal-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/goal-analyzer/SKILL.md
-fetched_at: '2026-02-15T04:21:57.587656+00:00'
+fetched_at: '2026-02-22T04:15:59.394542+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:54:27.682694Z'
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.074463Z'
-indexed_at: '2026-02-15T04:33:51.074468Z'
+  fetched_at: '2026-02-22T05:20:56.548730Z'
+indexed_at: '2026-02-22T05:20:56.548736Z'
 ---

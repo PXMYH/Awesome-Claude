@@ -29,17 +29,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/tam-sam-som-calculator/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/tam-sam-som-calculator/SKILL.md
-fetched_at: '2026-02-15T04:21:51.061412+00:00'
+fetched_at: '2026-02-22T04:15:55.369496+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-15T04:28:45.036851Z'
+  evaluated_at: '2026-02-22T05:02:53.984455Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3a3ecc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255b4a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86c3a3ecc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255b4a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,5 +49,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.034712Z'
-indexed_at: '2026-02-15T04:33:51.034718Z'
+  fetched_at: '2026-02-22T05:20:56.514877Z'
+indexed_at: '2026-02-22T05:20:56.514882Z'

@@ -17,38 +17,26 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/dwarf-expert/skills/dwarf-expert/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/dwarf-expert/skills/dwarf-expert/SKILL.md
-fetched_at: '2026-02-15T04:22:27.469053+00:00'
+fetched_at: '2026-02-22T04:16:53.634506+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:22:52.584682Z'
+  evaluated_at: '2026-02-22T05:14:58.044578Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt demonstrates excellent clarity and specificity with well-defined
-      scope, clear trigger conditions, and authoritative source guidance. It follows
-      strong prompt engineering practices by including explicit 'When to Use' and
-      'When NOT to Use' sections, though it's incomplete (cuts off mid-sentence in
-      the 'Working With Code' section).
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932beb530 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill provides high practical value for developers working with
-      DWARF debug information, offering concrete verification workflows and tool recommendations.
-      The inclusion of specific command examples and authoritative sources makes it
-      immediately actionable, though the incomplete prompt reduces its immediate usability.
-  overall_rating: 4.25
-  summary: A well-structured, technically detailed prompt for DWARF expertise that
-    would be highly valuable for debugging and development workflows, but requires
-    completion of the truncated content to reach full potential.
-  tags_suggested:
-  - debugging
-  - dwarf
-  - binary-analysis
-  - compiler-debug-info
-  - development-tools
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932beb530 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.447533Z'
-indexed_at: '2026-02-15T04:33:51.447538Z'
+  fetched_at: '2026-02-22T05:20:56.921840Z'
+indexed_at: '2026-02-22T05:20:56.921845Z'
 ---

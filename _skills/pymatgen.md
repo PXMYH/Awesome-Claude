@@ -12,47 +12,34 @@ prompt_preview: "---\nname: pymatgen\ndescription: Materials science toolkit. Cr
   \ manipulate crystal structures and molecul..."
 full_prompt_length: 20840
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pymatgen/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pymatgen/SKILL.md
-fetched_at: '2026-02-15T04:21:15.648202+00:00'
+fetched_at: '2026-02-22T04:15:00.584288+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:39:17.943334Z'
+  evaluated_at: '2026-02-22T04:30:49.733810Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured with a logical
-      flow from overview to quick start to core capabilities. It provides specific,
-      actionable code examples for common tasks. However, it lacks explicit edge case
-      handling (e.g., error handling for missing files, invalid formats) and has a
-      truncated code block at the end that cuts off mid-sentence.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255b6e0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for materials scientists and computational
-      researchers, covering essential workflows like structure manipulation, database
-      access, and format conversion. The inclusion of both basic and advanced examples
-      (Materials Project integration, transformations) makes it immediately valuable
-      for real-world research tasks.
-  overall_rating: 4.75
-  summary: A comprehensive and well-crafted skill prompt that effectively introduces
-    pymatgen's capabilities with practical examples, though it would benefit from
-    more complete documentation and edge case guidance.
-  tags_suggested:
-  - materials science
-  - crystallography
-  - computational chemistry
-  - database integration
-  - scientific computing
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255b6e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.192410Z'
-indexed_at: '2026-02-15T04:33:50.192416Z'
+  fetched_at: '2026-02-22T05:20:55.911918Z'
+indexed_at: '2026-02-22T05:20:55.911932Z'
 ---

@@ -11,46 +11,35 @@ prompt_preview: "---\nname: address-sanitizer\ntype: technique\ndescription: >\n
   \ use-after-free errors, and other mem..."
 full_prompt_length: 11272
 tools_mentioned:
-- rust
-- go
-- Go
-- Rust
 - Java
+- Rust
+- rust
+- Go
+- go
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/address-sanitizer/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/address-sanitizer/SKILL.md
-fetched_at: '2026-02-15T04:22:31.967663+00:00'
+fetched_at: '2026-02-22T04:17:00.869343+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:25:01.463899Z'
+  evaluated_at: '2026-02-22T05:16:54.448739Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured, using markdown
-      formatting, tables, and code blocks effectively. It provides specific commands
-      and configuration options, though it slightly truncates the 'Understanding ASan
-      Reports' section, which is a minor completeness issue.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255bc20 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is a highly practical and comprehensive guide for using AddressSanitizer
-      in fuzzing scenarios. It covers essential steps from compilation to configuration,
-      includes real-world patterns, and provides actionable commands that developers
-      can immediately apply to find memory safety vulnerabilities in C/C++ code.
-  overall_rating: 4.75
-  summary: An excellent, production-ready prompt that effectively teaches AddressSanitizer
-    usage for fuzzing with clear structure, practical examples, and comprehensive
-    coverage of key concepts and commands.
-  tags_suggested:
-  - fuzzing
-  - memory-safety
-  - security-testing
-  - C++
-  - vulnerability-detection
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255bc20 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.503312Z'
-indexed_at: '2026-02-15T04:33:51.503318Z'
+  fetched_at: '2026-02-22T05:20:56.963960Z'
+indexed_at: '2026-02-22T05:20:56.963965Z'

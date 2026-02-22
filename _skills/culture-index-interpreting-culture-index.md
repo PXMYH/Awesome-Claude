@@ -7,65 +7,43 @@ prompt_preview: '---
 
   name: interpreting-culture-index
 
-  description: Use when interpreting Culture Index surveys, CI profiles, behavioral
-  assessments, or personality data. Supports individual interpretation, team composition
+  description: Interprets Culture Index (CI) surveys, behavioral profiles, and personality
+  assessment data. Supports individual profile interpretation, team composition analysis
   (gas/brake/glue), burnout detection, profile comparison, hiring profiles, manager
   coaching, interview transcript analysis for trait prediction, candidate debrief,
-  onboarding planning, and conflict mediation. Handles PDF vision or JSON input.
+  onboarding planning, and conflict mediation. Accepts extracted JSON or PDF input
+  via OpenCV extraction script.
 
-  ---
-
-
-  <essential_principles>
-
-
-  **Culture Index measure...'
-full_prompt_length: 11844
+  allowed-tools...'
+full_prompt_length: 12664
 tools_mentioned:
-- python
 - Go
+- python
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/culture-index/skills/interpreting-culture-index/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/culture-index/skills/interpreting-culture-index/SKILL.md
-fetched_at: '2026-02-15T04:22:26.226713+00:00'
+fetched_at: '2026-02-22T04:16:51.717739+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:22:32.978446Z'
+  evaluated_at: '2026-02-22T05:14:25.003442Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt demonstrates excellent clarity and specificity with well-structured
-      principles, clear examples of right vs. wrong interpretations, and specific
-      handling instructions for different input formats. It includes important edge
-      cases like the L/I exception and provides concrete guidance on data extraction.
-      The only minor weakness is the PDF extraction command references a specific
-      script path that may not exist in all environments.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932c02de0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill addresses a specialized but valuable niche in HR and organizational
-      development, providing concrete frameworks for interpreting Culture Index data
-      that would be difficult for non-experts to apply correctly. The comprehensive
-      coverage of use cases (hiring, team composition, burnout detection, conflict
-      mediation) makes it highly actionable for professionals working with behavioral
-      assessments. However, its utility is limited to organizations that specifically
-      use Culture Index assessments.
-  overall_rating: 4.25
-  summary: A well-crafted, expert-level prompt that provides sophisticated guidance
-    for interpreting Culture Index behavioral assessments with clear principles, practical
-    examples, and comprehensive input handling, though its specialized focus limits
-    broader applicability.
-  tags_suggested:
-  - behavioral assessment
-  - HR tech
-  - personality profiling
-  - team dynamics
-  - organizational psychology
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932c02de0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.433746Z'
-indexed_at: '2026-02-15T04:33:51.433752Z'
+  fetched_at: '2026-02-22T05:20:56.911636Z'
+indexed_at: '2026-02-22T05:20:56.911641Z'
 ---

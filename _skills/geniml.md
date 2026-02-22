@@ -12,48 +12,34 @@ prompt_preview: "---\nname: geniml\ndescription: This skill should be used when 
   \    skill-auth..."
 full_prompt_length: 10907
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/geniml/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/geniml/SKILL.md
-fetched_at: '2026-02-15T04:21:08.797116+00:00'
+fetched_at: '2026-02-22T04:14:51.647418+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:29:09.113404Z'
+  evaluated_at: '2026-02-22T04:23:29.857238Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured, with a logical
-      flow from overview to specific capabilities. It provides specific installation
-      commands and clearly defines the scope of each module. However, it lacks explicit
-      handling of edge cases (e.g., what to do if a user lacks a universe reference)
-      and doesn't provide fallback guidance for common errors like missing dependencies
-      or invalid BED formats.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9325cbb60 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for bioinformaticians and computational biologists
-      working with genomic intervals. It covers real-world workflows like single-cell
-      ATAC-seq analysis and consensus peak building with specific, actionable methods.
-      The reference to external documentation files allows for immediate implementation
-      while maintaining a clean, focused core prompt.
-  overall_rating: 4.75
-  summary: A well-crafted, highly specific prompt that effectively guides users through
-    complex genomic ML tasks, though it could benefit from more explicit error handling
-    and edge case guidance.
-  tags_suggested:
-  - bioinformatics
-  - genomics
-  - machine-learning
-  - single-cell
-  - BED-files
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9325cbb60 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.980982Z'
-indexed_at: '2026-02-15T04:33:49.980991Z'
+  fetched_at: '2026-02-22T05:20:55.766798Z'
+indexed_at: '2026-02-22T05:20:55.766803Z'
 ---

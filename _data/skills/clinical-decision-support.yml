@@ -22,39 +22,25 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/clinical-decision-support/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/clinical-decision-support/SKILL.md
-fetched_at: '2026-02-15T04:21:04.967746+00:00'
+fetched_at: '2026-02-22T04:14:47.351712+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:24:01.806862Z'
+  evaluated_at: '2026-02-22T04:19:45.173424Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly specific and well-structured, clearly defining
-      document types, capabilities, and clinical features. It includes excellent constraints
-      (e.g., distinguishing from bedside treatment plans) and references complementary
-      skills. However, it's truncated at the end, which slightly impacts completeness,
-      and could benefit from more explicit output formatting instructions for LaTeX/PDF
-      generation.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932743fe0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill has high real-world value for pharmaceutical and clinical
-      research professionals, covering critical tasks like cohort analysis and guideline
-      development with regulatory compliance. It's comprehensive for its niche but
-      may be overly specialized for general users, and the truncated description limits
-      immediate actionability for some use cases.
-  overall_rating: 4.25
-  summary: A well-crafted, specialized prompt for clinical research documentation
-    with strong specificity and practical value, though its truncated content and
-    narrow focus slightly reduce its overall effectiveness.
-  tags_suggested:
-  - clinical-research
-  - pharmaceutical
-  - evidence-synthesis
-  - latex
-  - regulatory-compliance
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932743fe0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.859112Z'
-indexed_at: '2026-02-15T04:33:49.859121Z'
+  fetched_at: '2026-02-22T05:20:55.682300Z'
+indexed_at: '2026-02-22T05:20:55.682305Z'

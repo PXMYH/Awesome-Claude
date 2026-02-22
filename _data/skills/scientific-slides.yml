@@ -18,41 +18,25 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scientific-slides/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scientific-slides/SKILL.md
-fetched_at: '2026-02-15T04:21:17.922944+00:00'
+fetched_at: '2026-02-22T04:15:04.271891+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:42:52.806650Z'
+  evaluated_at: '2026-02-22T04:33:27.920913Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured with a strong
-      design philosophy that emphasizes visual engagement and research-backed content.
-      It provides specific workflows, formatting protocols, and concrete examples.
-      However, it's incomplete - the critical formatting protocol section cuts off
-      mid-sentence, and it references tools/scripts (generate_slide_image.py, Nano
-      Banana Pro) that aren't defined within the prompt itself, creating potential
-      ambiguity.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932b872c0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill addresses a genuine need in academic and professional settings
-      where creating effective scientific presentations is time-consuming and challenging.
-      It provides valuable guidance on structure, design principles, and workflow.
-      However, its practicality is limited by the incomplete formatting protocol and
-      dependency on unspecified external tools (Nano Banana Pro, generate_slide_image.py)
-      that may not be available to all users.
-  overall_rating: 4.25
-  summary: A well-conceived skill with strong design philosophy and practical workflow
-    guidance for scientific presentations, but significantly hampered by an incomplete
-    prompt and unexplained tool dependencies that reduce immediate usability.
-  tags_suggested:
-  - scientific presentations
-  - slide design
-  - academic talks
-  - visual communication
-  - research dissemination
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932b872c0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.264115Z'
-indexed_at: '2026-02-15T04:33:50.264121Z'
+  fetched_at: '2026-02-22T05:20:55.977751Z'
+indexed_at: '2026-02-22T05:20:55.977756Z'

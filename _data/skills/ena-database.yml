@@ -11,48 +11,34 @@ prompt_preview: "---\nname: ena-database\ndescription: Access European Nucleotid
   \ DNA/RNA sequences, raw reads,..."
 full_prompt_length: 7853
 tools_mentioned:
+- rest
+- REST
 - python
 - go
-- REST
-- rest
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/ena-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/ena-database/SKILL.md
-fetched_at: '2026-02-15T04:21:07.157930+00:00'
+fetched_at: '2026-02-22T04:14:50.073396+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:27:15.923947Z'
+  evaluated_at: '2026-02-22T04:21:58.199081Z'
   prompt_quality:
-    score: 2.5
-    reasoning: The prompt provides good structural organization and clear categorization
-      of ENA data types, but lacks critical implementation details. It references
-      external documentation files that don't exist in the prompt context, creating
-      dependency issues. The example API query is incomplete and cuts off mid-sentence,
-      which significantly undermines clarity and usability.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251c110 state=finished
+      raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: The skill addresses a genuine need in bioinformatics for accessing
-      public nucleotide sequence data, which has real-world value for research and
-      pipeline development. However, the incomplete API examples and missing practical
-      code snippets reduce immediate actionability. The comprehensive overview of
-      ENA's data hierarchy and access methods provides a solid foundation for users
-      familiar with programmatic data retrieval.
-  overall_rating: 2.75
-  summary: This is a well-structured but incomplete skill prompt that provides valuable
-    conceptual framework for ENA database access but fails to deliver practical implementation
-    guidance due to missing code examples and external references.
-  tags_suggested:
-  - bioinformatics
-  - genomics
-  - data-retrieval
-  - scientific-database
-  - sequence-analysis
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251c110 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.927544Z'
-indexed_at: '2026-02-15T04:33:49.927549Z'
+  fetched_at: '2026-02-22T05:20:55.722466Z'
+indexed_at: '2026-02-22T05:20:55.722471Z'

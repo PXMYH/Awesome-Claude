@@ -19,41 +19,26 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/cellxgene-census/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/cellxgene-census/SKILL.md
-fetched_at: '2026-02-15T04:21:04.477916+00:00'
+fetched_at: '2026-02-22T04:14:46.550458+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:23:16.429230Z'
+  evaluated_at: '2026-02-22T04:19:12.059817Z'
   prompt_quality:
-    score: 3.5
-    reasoning: 'The prompt provides clear structure with sections for overview, usage,
-      installation, and workflow patterns. However, it has a critical flaw: the code
-      example in section 3 is incomplete (cuts off mid-function call), which undermines
-      clarity. The instructions are generally specific about when to use the skill
-      and best practices like using context managers, but the incomplete example creates
-      ambiguity about proper usage.'
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932743fe0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This is highly practical for real-world single-cell genomics tasks,
-      covering population-scale queries, dataset exploration, and integration with
-      common tools like scanpy. The workflow patterns address actual development needs,
-      though the incomplete code example reduces immediate actionability. The skill
-      targets a specific, valuable scientific domain with comprehensive metadata and
-      expression data access.
-  overall_rating: 3.75
-  summary: A well-structured prompt for a valuable scientific skill that provides
-    practical single-cell data access, but is undermined by an incomplete code example
-    that reduces clarity and immediate usability.
-  tags_suggested:
-  - single-cell genomics
-  - bioinformatics
-  - data query
-  - scientific computing
-  - gene expression
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932743fe0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.831917Z'
-indexed_at: '2026-02-15T04:33:49.831926Z'
+  fetched_at: '2026-02-22T05:20:55.672281Z'
+indexed_at: '2026-02-22T05:20:55.672286Z'
 ---

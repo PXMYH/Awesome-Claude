@@ -12,45 +12,34 @@ prompt_preview: "---\nname: cobrapy\ndescription: Constraint-based metabolic mod
   \ biology research. Work with genome-scale met..."
 full_prompt_length: 13269
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/cobrapy/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/cobrapy/SKILL.md
-fetched_at: '2026-02-15T04:21:05.600778+00:00'
+fetched_at: '2026-02-22T04:14:48.033929+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:25:04.435694Z'
+  evaluated_at: '2026-02-22T04:20:26.779733Z'
   prompt_quality:
-    score: 3.5
-    reasoning: 'The prompt provides clear, well-structured examples for core COBRApy
-      functionality, but has a critical flaw: it''s incomplete, ending abruptly mid-sentence
-      in the ''Manual knockout using context manager'' section. While the existing
-      content is specific and follows good practices, the incomplete nature undermines
-      reliability and creates ambiguity about the skill''s full capabilities.'
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc933197590 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: Despite the incomplete ending, the prompt covers essential COBRApy
-      workflows for metabolic modeling including model loading, FBA, FVA, and gene
-      knockouts, which are highly valuable for systems biology research. The practical
-      examples enable immediate implementation for common metabolic engineering tasks.
-  overall_rating: 3.75
-  summary: A useful but incomplete COBRApy prompt with solid core content that needs
-    completion to be fully reliable for scientific applications.
-  tags_suggested:
-  - systems_biology
-  - metabolic_modeling
-  - constraint_based_analysis
-  - fba
-  - fva
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc933197590 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.885059Z'
-indexed_at: '2026-02-15T04:33:49.885065Z'
+  fetched_at: '2026-02-22T05:20:55.694859Z'
+indexed_at: '2026-02-22T05:20:55.694865Z'
 ---

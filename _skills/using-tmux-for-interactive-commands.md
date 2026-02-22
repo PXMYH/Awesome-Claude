@@ -31,37 +31,26 @@ category_display: Community
 source_repo: obra/superpowers-lab
 source_path: skills/using-tmux-for-interactive-commands/SKILL.md
 source_url: https://github.com/obra/superpowers-lab/blob/main/skills/using-tmux-for-interactive-commands/SKILL.md
-fetched_at: '2026-02-15T04:22:14.589088+00:00'
+fetched_at: '2026-02-22T04:16:26.453267+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:20:26.492316Z'
+  evaluated_at: '2026-02-22T05:06:46.659777Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured, with a logical
-      flow from overview to implementation. It provides specific commands, examples,
-      and addresses common pitfalls. However, there's a minor formatting issue with
-      an incomplete code block under 'Common Mistakes' that slightly reduces clarity.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b35c0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: 'This skill addresses a genuine and common pain point in automation:
-      controlling interactive CLI tools programmatically. It provides immediately
-      actionable patterns for real-world tasks like vim editing, git rebasing, and
-      REPL interaction, with practical examples and a helper wrapper script.'
-  overall_rating: 4.75
-  summary: An excellent, highly practical skill that solves a specific and challenging
-    automation problem with clear, actionable guidance and comprehensive examples.
-  tags_suggested:
-  - automation
-  - terminal
-  - tmux
-  - interactive-commands
-  - cli-tools
-  - devops
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b35c0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.298962Z'
-indexed_at: '2026-02-15T04:33:51.298968Z'
+  fetched_at: '2026-02-22T05:20:56.732189Z'
+indexed_at: '2026-02-22T05:20:56.732194Z'
 ---

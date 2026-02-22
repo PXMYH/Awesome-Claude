@@ -12,48 +12,34 @@ prompt_preview: "---\nname: scvi-tools\ndescription: Deep generative models for 
   \ a comprehensive Python framework f..."
 full_prompt_length: 8054
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scvi-tools/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scvi-tools/SKILL.md
-fetched_at: '2026-02-15T04:21:18.663941+00:00'
+fetched_at: '2026-02-22T04:15:05.064796+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:43:55.000402Z'
+  evaluated_at: '2026-02-22T04:34:09.395559Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, comprehensive
-      model categorization, and a practical workflow example. It follows best practices
-      by providing specific guidance on when to use the skill versus alternatives
-      (scanpy). The only minor weakness is the incomplete code snippet at the end,
-      which cuts off mid-line, slightly reducing clarity.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9329fbdd0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This prompt provides immediate, actionable value for single-cell genomics
-      researchers by clearly mapping scientific problems to specific models (scVI
-      for batch correction, TOTALVI for multimodal, etc.). It covers the full spectrum
-      of single-cell modalities and includes practical workflow guidance, making it
-      highly useful for both beginners and advanced users in the field.
-  overall_rating: 4.75
-  summary: An outstanding scientific skill prompt that expertly bridges technical
-    deep learning concepts with practical single-cell genomics applications, offering
-    comprehensive coverage across modalities with clear usage guidance.
-  tags_suggested:
-  - single-cell
-  - genomics
-  - deep-learning
-  - probabilistic-models
-  - batch-correction
-  - multimodal-integration
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9329fbdd0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.286910Z'
-indexed_at: '2026-02-15T04:33:50.286916Z'
+  fetched_at: '2026-02-22T05:20:55.994666Z'
+indexed_at: '2026-02-22T05:20:55.994672Z'
 ---

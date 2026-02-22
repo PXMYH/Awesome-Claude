@@ -18,41 +18,26 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/semgrep-rule-creator/skills/semgrep-rule-creator/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/semgrep-rule-creator/skills/semgrep-rule-creator/SKILL.md
-fetched_at: '2026-02-15T04:22:30.234691+00:00'
+fetched_at: '2026-02-22T04:16:57.989251+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:23:47.720860Z'
+  evaluated_at: '2026-02-22T05:16:04.667985Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt demonstrates strong clarity and specificity with clear usage
-      guidelines, anti-patterns, and a strict workflow. It effectively defines scope
-      through 'When to Use' and 'When NOT to Use' sections, and handles edge cases
-      by rejecting common rationalizations. The only minor weakness is the incomplete
-      sentence at the end, but the overall structure follows excellent prompt engineering
-      practices.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b09e0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill provides high real-world value for security teams needing
-      custom detection rules, covering both bug patterns and vulnerabilities. It's
-      comprehensive with taint mode prioritization and testing requirements, though
-      the strictness may limit casual users. The actionable workflow enables immediate
-      benefit for developers familiar with Semgrep, but requires some learning curve
-      for beginners.
-  overall_rating: 4.25
-  summary: A well-structured, production-focused skill that enforces rigorous testing
-    and validation for Semgrep rule creation, ideal for security engineering teams
-    but potentially too strict for casual use.
-  tags_suggested:
-  - security
-  - static-analysis
-  - semgrep
-  - code-quality
-  - vulnerability-detection
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b09e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.476481Z'
-indexed_at: '2026-02-15T04:33:51.476486Z'
+  fetched_at: '2026-02-22T05:20:56.945229Z'
+indexed_at: '2026-02-22T05:20:56.945234Z'
 ---

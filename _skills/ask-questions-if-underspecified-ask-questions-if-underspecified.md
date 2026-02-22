@@ -41,41 +41,26 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/ask-questions-if-underspecified/skills/ask-questions-if-underspecified/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/ask-questions-if-underspecified/skills/ask-questions-if-underspecified/SKILL.md
-fetched_at: '2026-02-15T04:22:22.610293+00:00'
+fetched_at: '2026-02-22T04:16:46.620706+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:22:00.727244Z'
+  evaluated_at: '2026-02-22T05:12:19.677391Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and specific, defining precise criteria
-      for when to use the skill, a structured workflow, and concrete question templates.
-      It handles edge cases by explicitly stating what to do if the user wants to
-      proceed without answers and includes anti-patterns to guide behavior. It follows
-      best practices by emphasizing scannability, offering defaults, and separating
-      must-have from nice-to-have questions.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932384470 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill has high real-world value for preventing wasted effort in
-      development by ensuring requirements are clarified upfront. It is comprehensive,
-      covering key ambiguity dimensions like scope, constraints, and safety, and is
-      immediately actionable with its structured workflow and templates. Users can
-      directly apply this to reduce errors and improve efficiency in tasks like coding
-      or system design.
-  overall_rating: 4.75
-  summary: A well-crafted, highly practical skill that effectively addresses underspecified
-    requests with clear guidelines and actionable templates, making it a valuable
-    tool for security and development workflows.
-  tags_suggested:
-  - clarification
-  - requirements-gathering
-  - security
-  - development-workflow
-  - risk-mitigation
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932384470 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.387229Z'
-indexed_at: '2026-02-15T04:33:51.387235Z'
+  fetched_at: '2026-02-22T05:20:56.873225Z'
+indexed_at: '2026-02-22T05:20:56.873230Z'
 ---

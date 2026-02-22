@@ -13,47 +13,33 @@ prompt_preview: "---\nname: gene-database\ndescription: Query NCBI Gene via E-ut
 full_prompt_length: 7215
 tools_mentioned:
 - GO
-- go
 - python
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/gene-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/gene-database/SKILL.md
-fetched_at: '2026-02-15T04:21:08.558059+00:00'
+fetched_at: '2026-02-22T04:14:51.467413+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:28:48.738212Z'
+  evaluated_at: '2026-02-22T04:23:13.226036Z'
   prompt_quality:
     score: 3.0
-    reasoning: The prompt provides clear workflow descriptions and API selection guidance,
-      but lacks critical technical specificity. It references script files (query_gene.py,
-      fetch_gene_data.py) that appear to be internal implementation details rather
-      than user-facing instructions, and the example code snippet is incomplete and
-      malformed. The prompt would benefit from actual API endpoint examples, parameter
-      specifications, and concrete request/response formats.
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932559e50 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill addresses a genuine scientific need for gene database querying
-      with practical workflows for search, retrieval, and batch operations. It covers
-      common use cases like symbol/ID searches, metadata retrieval, and batch processing
-      with useful rate limit guidance. The inclusion of both E-utilities and Datasets
-      API options provides flexibility for different query complexities.
-  overall_rating: 3.5
-  summary: A useful gene database skill with good workflow coverage, but the prompt
-    quality is hampered by incomplete technical specifications and reliance on internal
-    script references rather than actionable API instructions.
-  tags_suggested:
-  - scientific
-  - bioinformatics
-  - gene-database
-  - ncbi
-  - api-integration
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932559e50 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.966793Z'
-indexed_at: '2026-02-15T04:33:49.966801Z'
+  fetched_at: '2026-02-22T05:20:55.761715Z'
+indexed_at: '2026-02-22T05:20:55.761721Z'
 ---

@@ -17,46 +17,33 @@ prompt_preview: '---
   original...'
 full_prompt_length: 8825
 tools_mentioned:
-- go
 - REST
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/hmdb-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/hmdb-database/SKILL.md
-fetched_at: '2026-02-15T04:21:09.826491+00:00'
+fetched_at: '2026-02-22T04:14:53.078460+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:30:58.358348Z'
+  evaluated_at: '2026-02-22T04:24:36.148446Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is well-structured with clear sections for overview, capabilities,
-      and usage guidelines. It provides specific examples and actionable instructions
-      for different search types. However, it is incomplete (cut off mid-sentence)
-      and lacks explicit error handling or fallback strategies for failed searches.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9327d3ef0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This skill offers high practical value for metabolomics researchers,
-      clinicians, and bioinformaticians by providing direct access to a comprehensive
-      metabolite database. It covers diverse use cases from identification to biomarker
-      discovery with specific search methodologies. The inclusion of licensing terms
-      and download options enhances real-world applicability for academic and commercial
-      users.
-  overall_rating: 4.25
-  summary: A robust, well-documented skill for metabolomics research that provides
-    clear access to HMDB's extensive metabolite data, though it is incomplete and
-    could benefit from error-handling guidance.
-  tags_suggested:
-  - metabolomics
-  - bioinformatics
-  - clinical chemistry
-  - database search
-  - spectral analysis
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9327d3ef0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.013430Z'
-indexed_at: '2026-02-15T04:33:50.013436Z'
+  fetched_at: '2026-02-22T05:20:55.786838Z'
+indexed_at: '2026-02-22T05:20:55.786843Z'
 ---

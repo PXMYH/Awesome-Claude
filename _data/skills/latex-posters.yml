@@ -32,38 +32,25 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/latex-posters/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/latex-posters/SKILL.md
-fetched_at: '2026-02-15T04:21:11.152283+00:00'
+fetched_at: '2026-02-22T04:14:54.476270+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:32:40.808329Z'
+  evaluated_at: '2026-02-22T04:25:59.317696Z'
   prompt_quality:
-    score: 4.0
-    reasoning: 'The prompt is well-structured with clear sections and specific guidance
-      on LaTeX poster packages and layout principles. However, it contains a critical
-      flaw: it mandates using a non-existent ''scientific-schematics'' skill and provides
-      a bash command that references a script that likely doesn''t exist, creating
-      confusion about actual capabilities.'
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932743ec0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 3.5
-    reasoning: The core content about LaTeX poster creation is valuable and practical
-      for academic users. The detailed comparison of beamerposter, tikzposter, and
-      baposter packages provides real utility. However, the mandatory requirement
-      for AI-generated figures using a non-existent skill significantly undermines
-      practical implementation and could frustrate users.
-  overall_rating: 3.75
-  summary: This prompt provides excellent theoretical guidance on LaTeX poster creation
-    but is compromised by an impossible requirement to use a non-existent 'scientific-schematics'
-    skill, making it impractical for actual use without modification.
-  tags_suggested:
-  - LaTeX
-  - academic publishing
-  - poster design
-  - scientific communication
-  - documentation
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932743ec0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.050220Z'
-indexed_at: '2026-02-15T04:33:50.050226Z'
+  fetched_at: '2026-02-22T05:20:55.811877Z'
+indexed_at: '2026-02-22T05:20:55.811883Z'

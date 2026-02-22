@@ -14,48 +14,33 @@ prompt_preview: '---
   (6) identifying missing documentation f...'
 full_prompt_length: 24060
 tools_mentioned:
+- Go
 - python
 - go
-- Go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/iso-13485-certification/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/iso-13485-certification/SKILL.md
-fetched_at: '2026-02-15T04:21:10.470551+00:00'
+fetched_at: '2026-02-22T04:14:53.774969+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:31:43.485595Z'
+  evaluated_at: '2026-02-22T04:25:17.668591Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt demonstrates strong clarity and specificity with well-structured
-      workflows, clear trigger conditions, and specific reference documents. It follows
-      good prompt engineering practices by defining scope, providing concrete examples,
-      and establishing clear processes. However, it has a minor issue with an incomplete
-      sentence at the end (Clause 8 description cuts off), which slightly impacts
-      completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9327d3ef0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This skill provides high real-world value for medical device manufacturers
-      navigating complex ISO 13485 certification requirements. It offers practical,
-      actionable guidance through structured workflows, specific reference documents,
-      and clear gap analysis processes. The inclusion of real regulatory frameworks
-      (FDA QMSR, EU MDR) and specific clause references makes it immediately applicable
-      for certification preparation.
-  overall_rating: 4.5
-  summary: A well-structured, highly practical skill that effectively addresses a
-    complex regulatory documentation need with clear workflows and actionable guidance,
-    though it has a minor incomplete section.
-  tags_suggested:
-  - medical-device
-  - quality-management
-  - iso-13485
-  - regulatory-compliance
-  - documentation
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9327d3ef0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.030686Z'
-indexed_at: '2026-02-15T04:33:50.030692Z'
+  fetched_at: '2026-02-22T05:20:55.799301Z'
+indexed_at: '2026-02-22T05:20:55.799306Z'

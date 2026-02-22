@@ -13,47 +13,35 @@ prompt_preview: "---\nname: harness-writing\ntype: technique\ndescription: >\n  
   \ critical bugs are found. A poorly writte..."
 full_prompt_length: 20943
 tools_mentioned:
-- rust
 - go
 - Python
 - Rust
+- rust
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/harness-writing/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/harness-writing/SKILL.md
-fetched_at: '2026-02-15T04:22:32.935247+00:00'
+fetched_at: '2026-02-22T04:17:02.573118+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T01:26:53.773231Z'
+  evaluated_at: '2026-02-22T05:18:01.012823Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly structured with clear sections, tables, and code
-      examples that follow good prompt engineering practices. It defines key concepts,
-      provides a quick reference, and offers step-by-step guidance. However, it is
-      incomplete (cuts off mid-sentence in Step 3), which slightly impacts clarity
-      and completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b3290 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill provides practical, actionable guidance for writing fuzzing
-      harnesses, covering common languages (C++, Rust) and real-world scenarios like
-      input validation and target selection. It would be valuable for developers starting
-      with fuzzing or improving coverage, though the incomplete step reduces its immediate
-      usability.
-  overall_rating: 4.25
-  summary: A well-structured and practical guide for writing fuzzing harnesses, but
-    the incomplete content limits its full potential as a ready-to-use skill.
-  tags_suggested:
-  - fuzzing
-  - security
-  - testing
-  - C++
-  - Rust
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b3290 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.532931Z'
-indexed_at: '2026-02-15T04:33:51.532942Z'
+  fetched_at: '2026-02-22T05:20:56.984509Z'
+indexed_at: '2026-02-22T05:20:56.984514Z'
 ---

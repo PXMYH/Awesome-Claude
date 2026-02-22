@@ -13,19 +13,19 @@ prompt_preview: "---\nname: fastapi-expert\ndescription: Use when building high-
   \ implementation\n  output-format:..."
 full_prompt_length: 3292
 tools_mentioned:
-- WebSocket
-- REST
 - fastapi
 - django
-- Django
-- Python
 - FastAPI
+- REST
+- Django
+- WebSocket
+- Python
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/fastapi-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/fastapi-expert/SKILL.md
-fetched_at: '2026-02-15T04:22:03.460248+00:00'
+fetched_at: '2026-02-22T04:16:08.379780+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:58:05.806149Z'
@@ -59,6 +59,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.149412Z'
-indexed_at: '2026-02-15T04:33:51.149418Z'
+  fetched_at: '2026-02-22T05:20:56.613782Z'
+indexed_at: '2026-02-22T05:20:56.613787Z'
 ---

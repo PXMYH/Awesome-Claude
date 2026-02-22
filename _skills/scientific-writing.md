@@ -25,7 +25,7 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scientific-writing/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scientific-writing/SKILL.md
-fetched_at: '2026-02-15T04:21:18.185113+00:00'
+fetched_at: '2026-02-22T04:15:04.458871+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T03:53:17.260097Z'
@@ -61,6 +61,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:50.271786Z'
-indexed_at: '2026-02-15T04:33:50.271791Z'
+  fetched_at: '2026-02-22T05:20:55.983246Z'
+indexed_at: '2026-02-22T05:20:55.983252Z'
 ---

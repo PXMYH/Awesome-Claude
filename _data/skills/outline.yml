@@ -2,24 +2,14 @@ id: outline
 slug: outline
 name: Outline Wiki Skill
 description: 1. Run `auth-info` to verify connection
-prompt_preview: '---
-
-  name: outline
-
-  description: "Search, read, and manage Outline wiki documents. Use when: (1) searching
-  wiki for documentation, (2) reading wiki pages or articles, (3) listing wiki collections
-  or documents, (4) creating or updating wiki content, (5) exporting documents as
-  markdown. Works with any Outline wiki instance (self-hosted or cloud)."
-
-  ---
-
-
-  # Outline Wiki Skill
-
-
-  Search, read, create, and manage documents in any Outline wiki instance. Works with
-  all AI clients supporting the Agent Skills...'
-full_prompt_length: 4279
+prompt_preview: "---\nname: outline\ndescription: \"Search, read, and manage Outline\
+  \ wiki documents. Use when: (1) searching wiki for documentation, (2) reading wiki\
+  \ pages or articles, (3) listing wiki collections or documents, (4) creating or\
+  \ updating wiki content, (5) exporting documents as markdown. Works with any Outline\
+  \ wiki instance (self-hosted or cloud).\"\nlicense: Apache-2.0\nmetadata:\n  author:\
+  \ sanjay3290\n  version: \"1.0\"\n---\n\n# Outline Wiki Skill\n\nSearch, read, create,\
+  \ and manage documents in any Outline w..."
+full_prompt_length: 4347
 tools_mentioned:
 - Go
 - Python
@@ -28,7 +18,7 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/outline/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/outline/SKILL.md
-fetched_at: '2026-02-15T04:22:20.709535+00:00'
+fetched_at: '2026-02-22T04:16:44.159860+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
   evaluated_at: '2026-01-25T04:05:06.043231Z'
@@ -62,5 +52,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:51.376870Z'
-indexed_at: '2026-02-15T04:33:51.376875Z'
+  fetched_at: '2026-02-22T05:20:56.865098Z'
+indexed_at: '2026-02-22T05:20:56.865104Z'

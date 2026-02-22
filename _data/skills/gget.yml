@@ -11,46 +11,33 @@ prompt_preview: "---\nname: gget\ndescription: \"Fast CLI/Python queries to 20+ 
   \ tool and Python package prov..."
 full_prompt_length: 25898
 tools_mentioned:
-- python
 - go
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/gget/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/gget/SKILL.md
-fetched_at: '2026-02-15T04:21:09.331150+00:00'
+fetched_at: '2026-02-22T04:14:52.473757+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-19T00:30:03.128196Z'
+  evaluated_at: '2026-02-22T04:24:03.084899Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt provides clear structure with categories and examples, but
-      has significant gaps in completeness. The 'gget info' section is incomplete
-      (cut off mid-example), and some modules are mentioned in the overview without
-      detailed documentation. The installation instructions are specific but may be
-      confusing for users unfamiliar with 'uv'.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932564320 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: High practical value for bioinformatics workflows, covering 20+ databases
-      with consistent CLI/Python interfaces. The quick start and module categories
-      help users quickly find relevant tools for gene info, BLAST, structures, and
-      enrichment analysis. The distinction between gget and alternatives like biopython/bioservices
-      is helpful for decision-making.
-  overall_rating: 3.75
-  summary: A well-structured but incomplete bioinformatics skill prompt with strong
-    practical utility, though documentation gaps and some unclear installation guidance
-    reduce its effectiveness.
-  tags_suggested:
-  - bioinformatics
-  - cli-tool
-  - python-package
-  - genomics
-  - data-retrieval
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932564320 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-15T04:33:49.998270Z'
-indexed_at: '2026-02-15T04:33:49.998276Z'
+  fetched_at: '2026-02-22T05:20:55.776827Z'
+indexed_at: '2026-02-22T05:20:55.776836Z'
