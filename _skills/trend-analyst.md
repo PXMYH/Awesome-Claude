@@ -22,31 +22,31 @@ prompt_preview: '---
   forecasting, impact assessment, and strategic foresight with emphasis on helpi...'
 full_prompt_length: 6696
 tools_mentioned: []
-category: research-analysis
-category_display: Research Analysis
+category: 10-research-analysis
+category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/trend-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/trend-analyst.md
-fetched_at: '2026-02-22T04:15:39.126467+00:00'
+fetched_at: '2026-02-23T04:24:00.229280Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-22T04:54:51.271883Z'
+  evaluated_at: '2026-02-23T04:41:52.052770Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251ef90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3068896d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251ef90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3068896d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 10921
-  forks: 1145
-  open_issues: 5
+  stars: 11017
+  forks: 1152
+  open_issues: 3
   last_commit: '2026-02-21'
-  fetched_at: '2026-02-22T04:17:14.448044Z'
-indexed_at: '2026-02-22T05:20:56.371466Z'
+  fetched_at: '2026-02-23T04:24:09.274433Z'
+indexed_at: '2026-02-23T04:45:58.141187Z'
 ---
