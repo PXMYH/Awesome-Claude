@@ -28,26 +28,26 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/security-auditor.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/security-auditor.md
-fetched_at: '2026-02-23T04:23:49.042276Z'
+fetched_at: '2026-02-24T04:18:38.848866Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-23T04:33:01.055220Z'
+  evaluated_at: '2026-02-24T04:27:50.255246Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa306961fa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f83e1e67590 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa306961fa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f83e1e67590 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 11017
-  forks: 1152
-  open_issues: 3
+  stars: 11156
+  forks: 1167
+  open_issues: 4
   last_commit: '2026-02-21'
-  fetched_at: '2026-02-23T04:24:09.274433Z'
-indexed_at: '2026-02-23T04:45:57.957916Z'
+  fetched_at: '2026-02-24T04:18:57.068109Z'
+indexed_at: '2026-02-24T04:40:41.613278Z'
 ---

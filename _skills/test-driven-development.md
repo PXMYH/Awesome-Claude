@@ -43,33 +43,33 @@ prompt_preview: '---
   - Behavior...'
 full_prompt_length: 9857
 tools_mentioned:
-- jest
 - typescript
+- jest
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/test-driven-development/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/test-driven-development/SKILL.md
-fetched_at: '2026-02-23T04:24:07.250457Z'
+fetched_at: '2026-02-24T04:18:55.320812Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-23T04:45:16.883245Z'
+  evaluated_at: '2026-02-24T04:40:00.833468Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3068880e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f83e1d38680 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3068880e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f83e1d38680 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 58342
-  forks: 4441
-  open_issues: 147
+  stars: 59520
+  forks: 4537
+  open_issues: 151
   last_commit: '2026-02-21'
-  fetched_at: '2026-02-23T04:24:09.880867Z'
-indexed_at: '2026-02-23T04:45:58.211292Z'
+  fetched_at: '2026-02-24T04:18:57.688772Z'
+indexed_at: '2026-02-24T04:40:41.883717Z'
 ---
