@@ -27,26 +27,26 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/test-automator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/test-automator.md
-fetched_at: '2026-02-25T04:20:36.067493Z'
+fetched_at: '2026-02-26T04:16:17.143187Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-25T04:30:15.279626Z'
+  evaluated_at: '2026-02-26T04:25:49.212454Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f399ef07e60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa7ac4203e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f399ef07e60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa7ac4203e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 11284
-  forks: 1187
-  open_issues: 4
+  stars: 11452
+  forks: 1212
+  open_issues: 5
   last_commit: '2026-02-21'
-  fetched_at: '2026-02-25T04:21:07.301725Z'
-indexed_at: '2026-02-25T04:43:14.824964Z'
+  fetched_at: '2026-02-26T04:16:42.643237Z'
+indexed_at: '2026-02-26T04:38:45.490401Z'
 ---
