@@ -17,26 +17,26 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/subagent-driven-development/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md
-fetched_at: '2026-02-27T04:13:27.497099Z'
+fetched_at: '2026-02-28T03:53:33.107100Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-27T04:34:32.721355Z'
+  evaluated_at: '2026-02-28T04:14:23.351993Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f956c692e10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd217798800 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f956c692e10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd217798800 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 63607
-  forks: 4856
-  open_issues: 168
+  stars: 64974
+  forks: 4953
+  open_issues: 175
   last_commit: '2026-02-21'
-  fetched_at: '2026-02-27T04:13:33.193416Z'
-indexed_at: '2026-02-27T04:35:31.267176Z'
+  fetched_at: '2026-02-28T03:53:35.956445Z'
+indexed_at: '2026-02-28T04:15:21.525258Z'
 ---

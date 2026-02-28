@@ -28,26 +28,26 @@ category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/legal-advisor.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/legal-advisor.md
-fetched_at: '2026-02-27T04:13:09.666841Z'
+fetched_at: '2026-02-28T03:53:23.541810Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-27T04:28:14.354355Z'
+  evaluated_at: '2026-02-28T04:08:08.068310Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f956d1faa80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd217eff410 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f956d1faa80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd217eff410 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 11597
-  forks: 1227
-  open_issues: 5
+  stars: 11716
+  forks: 1247
+  open_issues: 7
   last_commit: '2026-02-21'
-  fetched_at: '2026-02-27T04:13:31.842425Z'
-indexed_at: '2026-02-27T04:35:31.151716Z'
+  fetched_at: '2026-02-28T03:53:35.371639Z'
+indexed_at: '2026-02-28T04:15:21.394445Z'
 ---
