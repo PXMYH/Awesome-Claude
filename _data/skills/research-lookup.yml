@@ -13,7 +13,7 @@ prompt_preview: '---
   best model based on query complexity. Search academic papers, recent studies, technical
   documentation, and general research information with citations."
 
-  allowed-tools: [Read, Write, Edit, Bash]
+  allowed-tools: Read Write Edit Bash
 
   ---
 
@@ -24,8 +24,8 @@ prompt_preview: '---
   ## Overview
 
 
-  This skill enables real-time research information lookup using Perpl...'
-full_prompt_length: 24535
+  This skill enables real-time research information lookup using Perplexity...'
+full_prompt_length: 24530
 tools_mentioned:
 - python
 category: scientific
@@ -33,17 +33,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/research-lookup/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/research-lookup/SKILL.md
-fetched_at: '2026-02-22T04:15:03.164686+00:00'
+fetched_at: '2026-03-01T04:21:23.287375+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-22T04:32:29.691246Z'
+  evaluated_at: '2026-03-01T04:38:56.493065Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932385be0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7c82c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932385be0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7c82c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -53,5 +53,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:55.959378Z'
-indexed_at: '2026-02-22T05:20:55.959384Z'
+  fetched_at: '2026-03-01T05:39:08.677147Z'
+indexed_at: '2026-03-01T05:39:08.677178Z'

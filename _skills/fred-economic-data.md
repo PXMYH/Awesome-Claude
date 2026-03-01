@@ -22,17 +22,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/fred-economic-data/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/fred-economic-data/SKILL.md
-fetched_at: '2026-02-22T04:14:51.376166+00:00'
+fetched_at: '2026-03-01T04:21:13.162528+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-22T04:23:04.870271Z'
+  evaluated_at: '2026-03-01T04:29:01.296573Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9329a9d30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b9791c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9329a9d30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b9791c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:55.758129Z'
-indexed_at: '2026-02-22T05:20:55.758138Z'
+  fetched_at: '2026-03-01T05:39:08.459602Z'
+indexed_at: '2026-03-01T05:39:08.459607Z'
 ---

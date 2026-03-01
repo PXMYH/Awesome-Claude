@@ -54,41 +54,26 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/emergency-card/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/emergency-card/SKILL.md
-fetched_at: '2026-02-22T04:15:58.495840+00:00'
+fetched_at: '2026-03-01T04:22:03.274276+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:53:45.064552Z'
+  evaluated_at: '2026-03-01T05:12:38.526424Z'
   prompt_quality:
-    score: 3.5
-    reasoning: The prompt is highly structured and specific about data sources and
-      extraction logic, but it contains significant inconsistencies. It mixes conceptual
-      instructions with actual code snippets (JavaScript/Python) that appear to be
-      for a different system, creating confusion about the intended execution environment.
-      The prompt also abruptly cuts off mid-sentence in the diabetes section, indicating
-      incomplete content.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727200 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The concept is highly practical for emergency medical scenarios, addressing
-      real needs for quick information access during travel or medical emergencies.
-      The multi-format output (HTML, JSON, text, PDF) and prioritization of critical
-      information (P0-P2) show thoughtful design for different user scenarios. However,
-      the mixed code examples reduce immediate usability as they don't align with
-      typical AI agent prompt formats.
-  overall_rating: 3.75
-  summary: A well-conceived emergency medical card generator with practical multi-format
-    outputs, but the prompt quality is undermined by inconsistent code examples and
-    incomplete sections that need clarification for actual implementation.
-  tags_suggested:
-  - medical
-  - emergency
-  - healthcare
-  - information-management
-  - multi-format
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727200 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.535594Z'
-indexed_at: '2026-02-22T05:20:56.535611Z'
+  fetched_at: '2026-03-01T05:39:09.303600Z'
+indexed_at: '2026-03-01T05:39:09.303605Z'
 ---

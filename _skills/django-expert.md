@@ -13,26 +13,28 @@ prompt_preview: "---\nname: django-expert\ndescription: Use when building Django
   \  output-format: code\n  related-skil..."
 full_prompt_length: 2994
 tools_mentioned:
-- fastapi
-- Python
 - django
 - REST
+- Python
+- fastapi
 - Django
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/django-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/django-expert/SKILL.md
-fetched_at: '2026-02-22T04:16:07.758708+00:00'
+fetched_at: '2026-03-01T04:22:09.200058+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:57:56.068431Z'
+  evaluated_at: '2026-03-01T05:15:45.891384Z'
   prompt_quality:
     score: 3.0
-    reasoning: Unable to evaluate
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b58b5f0 state=finished
+      raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: Unable to evaluate
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b58b5f0 state=finished
+      raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
@@ -41,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.611330Z'
-indexed_at: '2026-02-22T05:20:56.611336Z'
+  fetched_at: '2026-03-01T05:39:09.361383Z'
+indexed_at: '2026-03-01T05:39:09.361388Z'
 ---

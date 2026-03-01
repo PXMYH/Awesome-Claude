@@ -18,38 +18,26 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/spec-miner/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/spec-miner/SKILL.md
-fetched_at: '2026-02-22T04:16:16.675011+00:00'
+fetched_at: '2026-03-01T04:22:13.664661+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T04:01:52.396037Z'
+  evaluated_at: '2026-03-01T05:18:12.593045Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear role definition,
-      workflow steps, and constraints. It follows best practices by defining triggers,
-      scope, and output format upfront. The reference system is innovative but introduces
-      potential dependency issues if referenced files don't exist.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5b1130 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This skill addresses a common and valuable real-world problem of understanding
-      legacy/undocumented systems. The EARS format and structured output provide immediate
-      value for documentation and onboarding. The dual-hat approach (Arch/QA) ensures
-      comprehensive analysis, though the tool limitation to Read/Grep/Glob/Bash may
-      restrict some modern codebase analysis capabilities.
-  overall_rating: 4.5
-  summary: A well-crafted, professional-grade prompt that excels at structured legacy
-    code analysis with clear workflows and documentation standards, though its external
-    reference dependencies could be a practical limitation.
-  tags_suggested:
-  - legacy-analysis
-  - code-documentation
-  - reverse-engineering
-  - software-archaeology
-  - specification-extraction
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5b1130 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.669131Z'
-indexed_at: '2026-02-22T05:20:56.669136Z'
+  fetched_at: '2026-03-01T05:39:09.407126Z'
+indexed_at: '2026-03-01T05:39:09.407131Z'
 ---

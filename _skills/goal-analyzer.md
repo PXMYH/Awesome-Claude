@@ -18,37 +18,26 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/goal-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/goal-analyzer/SKILL.md
-fetched_at: '2026-02-22T04:15:59.394542+00:00'
+fetched_at: '2026-03-01T04:22:03.832790+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:54:27.682694Z'
+  evaluated_at: '2026-03-01T05:13:11.232899Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is well-structured with clear sections for each function,
-      providing specific examples and JSON output formats. However, it lacks explicit
-      instructions on how to handle missing data or edge cases, and the data association
-      analysis section is incomplete, which reduces clarity and completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7261b0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This skill offers high practical value for personal health management,
-      covering comprehensive aspects like SMART goals, progress tracking, and habit
-      analysis. It provides actionable insights and structured outputs that users
-      can immediately apply to improve their health routines and goal achievement.
-  overall_rating: 4.25
-  summary: A robust and practical health goal analysis skill with strong structure
-    and real-world applicability, though it could benefit from more detailed edge
-    case handling and completion of the data association section.
-  tags_suggested:
-  - health
-  - goal-tracking
-  - habit-analysis
-  - personal-development
-  - data-analysis
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7261b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.548730Z'
-indexed_at: '2026-02-22T05:20:56.548736Z'
+  fetched_at: '2026-03-01T05:39:09.313682Z'
+indexed_at: '2026-03-01T05:39:09.313688Z'
 ---

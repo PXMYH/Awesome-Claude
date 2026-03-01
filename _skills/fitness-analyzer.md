@@ -71,39 +71,26 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/fitness-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/fitness-analyzer/SKILL.md
-fetched_at: '2026-02-22T04:15:58.944999+00:00'
+fetched_at: '2026-03-01T04:22:03.519535+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:54:05.689061Z'
+  evaluated_at: '2026-03-01T05:12:54.878398Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, specific
-      output formats, and defined analysis dimensions. It follows best practices by
-      including data source paths and algorithm explanations. However, it lacks explicit
-      edge case handling for missing or incomplete data, which could be a limitation
-      in real-world scenarios.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5899d0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill provides comprehensive fitness analysis with practical outputs
-      like trend reports and personalized recommendations. It covers multiple health
-      correlations and follows established guidelines (WHO/ACSM/AHA). However, the
-      utility is limited by its dependency on specific file paths that may not exist
-      in all user environments.
-  overall_rating: 4.25
-  summary: A well-structured and comprehensive fitness analysis skill with excellent
-    output formatting and scientific backing, though it could benefit from better
-    error handling for data availability issues.
-  tags_suggested:
-  - fitness
-  - health-analysis
-  - data-visualization
-  - personalized-recommendations
-  - chronic-disease
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5899d0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.542323Z'
-indexed_at: '2026-02-22T05:20:56.542329Z'
+  fetched_at: '2026-03-01T05:39:09.308702Z'
+indexed_at: '2026-03-01T05:39:09.308708Z'
 ---

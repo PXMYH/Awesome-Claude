@@ -1,39 +1,42 @@
 id: static-analysis-codeql
 slug: static-analysis-codeql
 name: CodeQL Analysis
-description: '[If database exists: "I found an existing database at <DB_NAME>"]'
-prompt_preview: "---\nname: codeql\ndescription: >-\n  Runs CodeQL static analysis\
-  \ for security vulnerability detection\n  using interprocedural data flow and taint\
-  \ tracking. Applicable when\n  finding vulnerabilities, running a security scan,\
-  \ performing a security\n  audit, running CodeQL, building a CodeQL database, selecting\
-  \ query\n  rulesets, creating data extension models, or processing CodeQL SARIF\n\
-  \  output. NOT for writing custom QL queries or CI/CD pipeline setup.\nallowed-tools:\n\
-  \  - Bash\n  - Read\n  - Write\n  -..."
-full_prompt_length: 5424
+description: '- [ ] Output directory resolved (user-specified or auto-incremented
+  default)'
+prompt_preview: "---\nname: codeql\ndescription: >-\n  Scans a codebase for security\
+  \ vulnerabilities using CodeQL's interprocedural data flow and\n  taint tracking\
+  \ analysis. Triggers on \"run codeql\", \"codeql scan\", \"codeql analysis\", \"\
+  build\n  codeql database\", or \"find vulnerabilities with codeql\". Supports \"\
+  run all\" (security-and-quality\n  suite) and \"important only\" (high-precision\
+  \ security findings) scan modes. Also handles\n  creating data extension models\
+  \ and processing CodeQL SARIF output.\nallowed-tools:\n  - Ba..."
+full_prompt_length: 15249
 tools_mentioned:
-- JavaScript
 - Java
-- Django
 - Ruby
+- JavaScript
 - TypeScript
-- Go
 - Python
+- go
+- Go
+- python
+- Django
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/static-analysis/skills/codeql/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/codeql/SKILL.md
-fetched_at: '2026-02-22T04:16:59.934186+00:00'
+fetched_at: '2026-03-01T04:22:42.069620+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-22T05:16:29.621903Z'
+  evaluated_at: '2026-03-01T05:33:50.163322Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9325ca9c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7264e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9325ca9c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7264e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.956194Z'
-indexed_at: '2026-02-22T05:20:56.956199Z'
+  fetched_at: '2026-03-01T05:39:09.697466Z'
+indexed_at: '2026-03-01T05:39:09.697475Z'

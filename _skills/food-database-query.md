@@ -84,39 +84,26 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/food-database-query/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/food-database-query/SKILL.md
-fetched_at: '2026-02-22T04:15:59.176503+00:00'
+fetched_at: '2026-03-01T04:22:03.658926+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:54:17.944270Z'
+  evaluated_at: '2026-03-01T05:13:02.975484Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is well-structured with clear sections for overview, data
-      sources, and functional modules. It provides specific examples and code snippets
-      for implementation. However, it lacks handling for edge cases like ambiguous
-      food names, missing data, or invalid inputs, and the prompt ends abruptly without
-      completing the health conditions section.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b58b020 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 3.5
-    reasoning: The skill provides practical nutrition query functionality with real-world
-      value for health and diet applications. The comprehensive coverage of food types,
-      nutrients, and recommendation logic is actionable. However, the limited database
-      size (50 foods) and lack of integration details (e.g., API endpoints, data format)
-      reduce immediate practicality for production use.
-  overall_rating: 3.75
-  summary: A well-structured but incomplete prompt for a nutrition database skill
-    with strong conceptual design but missing edge case handling and practical implementation
-    details.
-  tags_suggested:
-  - nutrition
-  - food-database
-  - health
-  - data-query
-  - diet-planning
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b58b020 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.545504Z'
-indexed_at: '2026-02-22T05:20:56.545509Z'
+  fetched_at: '2026-03-01T05:39:09.311181Z'
+indexed_at: '2026-03-01T05:39:09.311186Z'
 ---

@@ -11,46 +11,34 @@ prompt_preview: "---\nname: semgrep-rule-variant-creator\ndescription: Creates l
   \ proper applicability analysis and test-..."
 full_prompt_length: 8029
 tools_mentioned:
-- Java
-- Go
 - java
+- Go
+- Java
 - go
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/semgrep-rule-variant-creator/skills/semgrep-rule-variant-creator/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/semgrep-rule-variant-creator/skills/semgrep-rule-variant-creator/SKILL.md
-fetched_at: '2026-02-22T04:16:58.506058+00:00'
+fetched_at: '2026-03-01T04:22:40.922801+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T04:05:25.905987Z'
+  evaluated_at: '2026-03-01T05:33:17.593235Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt demonstrates excellent structure with clear sections, specific
-      input/output specifications, and a well-defined 4-phase workflow. It includes
-      valuable guardrails like 'Rationalizations to Reject' and strictness requirements.
-      The only minor weakness is the incomplete sentence in the Foundational Knowledge
-      section, but overall it's highly clear and actionable.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b726480 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This skill addresses a real-world need for security teams managing
-      polyglot codebases who need to maintain consistent rule coverage across languages.
-      The test-first approach and applicability analysis ensure quality, while the
-      structured workflow prevents common pitfalls in rule porting. It's practical
-      for security engineers and DevSecOps professionals.
-  overall_rating: 4.5
-  summary: A well-structured, practical skill for porting Semgrep security rules across
-    languages with strong quality controls and clear workflow guidance.
-  tags_suggested:
-  - security
-  - semgrep
-  - static-analysis
-  - rule-porting
-  - test-driven
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b726480 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.947769Z'
-indexed_at: '2026-02-22T05:20:56.947775Z'
+  fetched_at: '2026-03-01T05:39:09.682597Z'
+indexed_at: '2026-03-01T05:39:09.682602Z'

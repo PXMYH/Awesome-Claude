@@ -41,40 +41,25 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/health-trend-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/health-trend-analyzer/SKILL.md
-fetched_at: '2026-02-22T04:15:59.612579+00:00'
+fetched_at: '2026-03-01T04:22:03.955090+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:54:39.689231Z'
+  evaluated_at: '2026-03-01T05:13:19.385185Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, specific
-      instructions, and comprehensive coverage of the health trend analysis domain.
-      It follows best practices by defining trigger conditions, execution steps, and
-      output formats. However, it lacks explicit guidance for handling missing data
-      or edge cases (e.g., no data available, conflicting data points), which could
-      be a limitation in real-world scenarios.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b725220 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides high real-world value for personal health monitoring,
-      offering multi-dimensional analysis, correlation detection, and predictive insights
-      that are actionable for users. It comprehensively covers common health tracking
-      needs (weight, symptoms, medication, lab results, mood/sleep) and includes practical
-      features like interactive HTML reports. The detailed execution steps make it
-      immediately usable for developers building health analytics tools.
-  overall_rating: 4.75
-  summary: A highly polished and comprehensive health trend analysis prompt that excels
-    in structure, specificity, and practical utility, though it could benefit from
-    more explicit error handling for data gaps.
-  tags_suggested:
-  - health-analytics
-  - data-visualization
-  - personal-health
-  - trend-analysis
-  - medical-data
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b725220 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.551927Z'
-indexed_at: '2026-02-22T05:20:56.551933Z'
+  fetched_at: '2026-03-01T05:39:09.316246Z'
+indexed_at: '2026-03-01T05:39:09.316251Z'

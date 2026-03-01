@@ -72,41 +72,26 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/sleep-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/sleep-analyzer/SKILL.md
-fetched_at: '2026-02-22T04:16:01.501541+00:00'
+fetched_at: '2026-03-01T04:22:05.002621+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:56:09.981443Z'
+  evaluated_at: '2026-03-01T05:14:24.612964Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, specific
-      analysis dimensions, and detailed output formats. It follows prompt engineering
-      best practices by defining trigger conditions, execution steps, and expected
-      outputs. However, it lacks explicit handling of edge cases like missing data
-      or invalid inputs, and the data source paths are hypothetical without validation
-      logic.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5895e0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill provides high real-world value for health monitoring and
-      sleep improvement, covering comprehensive analysis dimensions from trends to
-      correlations. The actionable recommendations and structured reporting format
-      make it immediately beneficial for users tracking sleep data. However, its practicality
-      is limited by the assumption of specific data file structures that may not exist
-      in real implementations.
-  overall_rating: 4.25
-  summary: A well-crafted, comprehensive sleep analysis skill with excellent structure
-    and practical health insights, though it could benefit from more robust error
-    handling and real data integration guidance.
-  tags_suggested:
-  - health
-  - sleep-analysis
-  - data-analysis
-  - wellness
-  - personalized-recommendations
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5895e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.578368Z'
-indexed_at: '2026-02-22T05:20:56.578374Z'
+  fetched_at: '2026-03-01T05:39:09.336202Z'
+indexed_at: '2026-03-01T05:39:09.336207Z'
 ---

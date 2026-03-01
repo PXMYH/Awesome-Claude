@@ -12,49 +12,35 @@ prompt_preview: "---\nname: vue-expert-js\ndescription: Use when building Vue 3 
   \ vue-expert, javascript..."
 full_prompt_length: 3446
 tools_mentioned:
+- vue
 - JavaScript
-- Vue
 - TypeScript
 - javascript
-- vue
+- Vue
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/vue-expert-js/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/vue-expert-js/SKILL.md
-fetched_at: '2026-02-22T04:16:18.539520+00:00'
+fetched_at: '2026-03-01T04:22:14.653987+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T04:02:12.055599Z'
+  evaluated_at: '2026-03-01T05:18:37.048189Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear role definition,
-      specific constraints, and actionable workflow. It follows best practices by
-      defining triggers, scope, and output format upfront. The only minor limitation
-      is the reference system which assumes external files exist, but the core instructions
-      remain self-contained and comprehensive.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5b0da0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: 'This skill addresses a real-world niche: teams using Vue 3 with JavaScript-only
-      setups who need type safety without TypeScript compilation. It provides immediate
-      value with concrete JSDoc patterns, clear constraints, and practical guidance
-      for migration or prototyping scenarios. The specificity makes it highly actionable
-      for developers in this exact situation.'
-  overall_rating: 4.75
-  summary: An excellent, highly specialized prompt that fills a specific gap in Vue
-    development workflows, offering clear guidance for JavaScript-only Vue 3 projects
-    with strong type safety through JSDoc.
-  tags_suggested:
-  - vue3
-  - javascript
-  - jsdoc
-  - composition-api
-  - no-typescript
-  - frontend
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5b0da0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.678194Z'
-indexed_at: '2026-02-22T05:20:56.678199Z'
+  fetched_at: '2026-03-01T05:39:09.414566Z'
+indexed_at: '2026-03-01T05:39:09.414571Z'

@@ -51,45 +51,26 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/ai-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/ai-analyzer/SKILL.md
-fetched_at: '2026-02-22T04:15:58.269820+00:00'
+fetched_at: '2026-03-01T04:22:03.143674+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:53:34.573013Z'
+  evaluated_at: '2026-03-01T05:12:30.420955Z'
   prompt_quality:
-    score: 4.5
-    reasoning: 'The prompt is exceptionally well-structured with clear sections for
-      core functions, usage instructions, execution steps, data sources, algorithms,
-      and safety guidelines. It provides specific file paths, algorithm names, and
-      risk models, making it highly specific and actionable. However, it has a minor
-      issue at the end where the ''Tools'' section is incomplete (''- **Read**: 读取JSON数据文件
-
-      - **Grep**: 搜索特定模式
-
-      - *''), which slightly impacts clarity and completeness.'
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b588770 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill provides high real-world value for health data analysis,
-      covering comprehensive features like multi-dimensional data integration, risk
-      prediction using established medical models, and report generation. It is practical
-      for users with structured health data, offering actionable insights and personalized
-      suggestions. However, its usefulness is limited by its dependency on specific
-      local file structures and the lack of actual data ingestion mechanisms, making
-      it more of a conceptual framework than a ready-to-deploy tool.
-  overall_rating: 4.25
-  summary: A well-designed and comprehensive prompt for a health analysis AI skill,
-    with strong structure and detailed specifications, though slightly hampered by
-    an incomplete tool section and practical implementation dependencies.
-  tags_suggested:
-  - healthcare
-  - data-analysis
-  - risk-prediction
-  - ai-reporting
-  - medical
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b588770 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.532126Z'
-indexed_at: '2026-02-22T05:20:56.532131Z'
+  fetched_at: '2026-03-01T05:39:09.301045Z'
+indexed_at: '2026-03-01T05:39:09.301051Z'
 ---

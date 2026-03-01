@@ -19,40 +19,26 @@ category_display: Community
 source_repo: raintree-technology/claude-starter
 source_path: skills/plaid/SKILL.md
 source_url: https://github.com/raintree-technology/claude-starter/blob/main/skills/plaid/SKILL.md
-fetched_at: '2026-02-22T04:16:37.622710+00:00'
+fetched_at: '2026-03-01T04:22:26.040559+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T04:02:52.688962Z'
+  evaluated_at: '2026-03-01T05:25:33.261250Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, practical
-      code examples, and a logical flow from installation to implementation. It follows
-      excellent prompt engineering practices by defining scope, providing specific
-      examples, and covering core products. The only minor issue is an incomplete
-      transaction object example at the end, which slightly reduces completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55d670 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides immediate, real-world value for developers building
-      fintech applications. It covers the complete Plaid integration workflow from
-      setup to data retrieval, including authentication, transactions, and webhooks.
-      The practical code snippets and clear product breakdown make it highly actionable
-      for actual development tasks.
-  overall_rating: 4.75
-  summary: An outstanding skill that delivers comprehensive, production-ready guidance
-    for Plaid API integration with exceptional clarity and practical value for fintech
-    developers.
-  tags_suggested:
-  - fintech
-  - banking-api
-  - plaid
-  - ach-transfers
-  - financial-data
-  - webhooks
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55d670 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.805175Z'
-indexed_at: '2026-02-22T05:20:56.805180Z'
+  fetched_at: '2026-03-01T05:39:09.541479Z'
+indexed_at: '2026-03-01T05:39:09.541485Z'
 ---

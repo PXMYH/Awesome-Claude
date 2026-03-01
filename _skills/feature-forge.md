@@ -18,38 +18,26 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/feature-forge/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/feature-forge/SKILL.md
-fetched_at: '2026-02-22T04:16:08.574221+00:00'
+fetched_at: '2026-03-01T04:22:09.690911+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:58:15.358808Z'
+  evaluated_at: '2026-03-01T05:16:02.179179Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear role definition,
-      specific workflow steps, and comprehensive constraints. It follows best practices
-      by defining triggers, scope, and output format upfront. The only minor limitation
-      is the dependency on external reference files that may not exist in all contexts.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b589c70 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides tremendous real-world value by structuring the
-      complex process of feature definition into a systematic workflow. It covers
-      the full lifecycle from discovery to implementation planning, making it immediately
-      actionable for product teams. The dual PM/Dev perspective ensures comprehensive
-      requirements that address both user needs and technical constraints.
-  overall_rating: 4.75
-  summary: An outstanding prompt that transforms feature definition into a structured,
-    repeatable process with clear roles, workflows, and deliverables, making it highly
-    valuable for development teams.
-  tags_suggested:
-  - product-management
-  - requirements-engineering
-  - specification
-  - EARS
-  - feature-definition
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b589c70 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.617047Z'
-indexed_at: '2026-02-22T05:20:56.617053Z'
+  fetched_at: '2026-03-01T05:39:09.366475Z'
+indexed_at: '2026-03-01T05:39:09.366480Z'
 ---

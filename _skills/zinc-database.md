@@ -13,24 +13,24 @@ prompt_preview: "---\nname: zinc-database\ndescription: Access ZINC (230M+ purch
 full_prompt_length: 14695
 tools_mentioned:
 - go
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/zinc-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/zinc-database/SKILL.md
-fetched_at: '2026-02-22T04:15:08.052111+00:00'
+fetched_at: '2026-03-01T04:21:27.671882+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-22T04:36:48.395840Z'
+  evaluated_at: '2026-03-01T04:43:41.883805Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251c7d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727bc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251c7d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727bc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.043722Z'
-indexed_at: '2026-02-22T05:20:56.043728Z'
+  fetched_at: '2026-03-01T05:39:08.770230Z'
+indexed_at: '2026-03-01T05:39:08.770238Z'
 ---

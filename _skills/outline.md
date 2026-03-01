@@ -19,40 +19,26 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/outline/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/outline/SKILL.md
-fetched_at: '2026-02-22T04:16:44.159860+00:00'
+fetched_at: '2026-03-01T04:22:30.675786+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T04:05:06.043231Z'
+  evaluated_at: '2026-03-01T05:28:32.738269Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured with comprehensive
-      documentation covering setup, usage, and troubleshooting. It follows best practices
-      by providing specific examples for each command and including environment variable
-      configuration. However, it lacks explicit edge case handling for common scenarios
-      like network failures, rate limiting, or malformed API responses.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b764200 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill provides high practical value for developers and teams using
-      Outline wiki, covering essential operations like search, CRUD, and export. The
-      comprehensive command reference and troubleshooting guide make it immediately
-      actionable for real-world documentation management tasks. The main limitation
-      is that it requires a specific Python script implementation that isn't provided
-      in the prompt itself.
-  overall_rating: 4.25
-  summary: A well-documented, practical skill for managing Outline wiki documents
-    with clear instructions and comprehensive coverage of common operations, though
-    it assumes implementation of the underlying Python script.
-  tags_suggested:
-  - documentation
-  - wiki
-  - outline
-  - knowledge-management
-  - cli-tool
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b764200 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.865098Z'
-indexed_at: '2026-02-22T05:20:56.865104Z'
+  fetched_at: '2026-03-01T05:39:09.595296Z'
+indexed_at: '2026-03-01T05:39:09.595302Z'
 ---

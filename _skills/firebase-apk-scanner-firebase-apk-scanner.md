@@ -25,39 +25,26 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/firebase-apk-scanner/skills/firebase-apk-scanner/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/firebase-apk-scanner/skills/firebase-apk-scanner/SKILL.md
-fetched_at: '2026-02-22T04:16:54.584529+00:00'
+fetched_at: '2026-03-01T04:22:37.932183+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T04:05:16.026937Z'
+  evaluated_at: '2026-03-01T05:31:56.100118Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections for
-      when to use, when not to use, and rationalizations to reject. The workflow is
-      detailed and actionable, though the output format section is incomplete (cut
-      off mid-sentence in the JSON table). The allowed-tools and disable-model-invocation
-      settings are appropriately configured for a security scanning tool.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55dcd0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill addresses a critical real-world security need for Firebase-backed
-      Android applications. It provides comprehensive coverage of Firebase vulnerabilities
-      including databases, storage, authentication, and cloud functions. The inclusion
-      of ethical guidelines and rejection of common rationalizations makes it practical
-      for professional security assessments.
-  overall_rating: 4.75
-  summary: A highly effective security scanning skill with excellent prompt structure,
-    comprehensive coverage of Firebase vulnerabilities, and strong ethical guidelines
-    for authorized testing.
-  tags_suggested:
-  - security
-  - firebase
-  - android
-  - penetration-testing
-  - vulnerability-scanning
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55dcd0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.926886Z'
-indexed_at: '2026-02-22T05:20:56.926891Z'
+  fetched_at: '2026-03-01T05:39:09.657817Z'
+indexed_at: '2026-03-01T05:39:09.657822Z'
 ---

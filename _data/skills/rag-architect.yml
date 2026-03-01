@@ -19,37 +19,25 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/rag-architect/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/rag-architect/SKILL.md
-fetched_at: '2026-02-22T04:16:14.432675+00:00'
+fetched_at: '2026-03-01T04:22:12.539481+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T04:00:04.725742Z'
+  evaluated_at: '2026-03-01T05:17:07.527537Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear role definition,
-      specific triggers, and a comprehensive workflow. It follows prompt engineering
-      best practices by including constraints (MUST DO/MUST NOT DO) and output templates.
-      The only minor weakness is the incomplete Knowledge Reference section at the
-      end, which appears truncated.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5895e0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides immediate, actionable value for developers building
-      RAG systems. It covers the entire lifecycle from requirements analysis to evaluation,
-      with specific technical guidance on vector databases, chunking, and retrieval
-      optimization. The constraints and reference guides make it practical for real-world
-      production systems.
-  overall_rating: 4.75
-  summary: An excellent, production-ready prompt that provides comprehensive guidance
-    for RAG system design with clear constraints and actionable workflows.
-  tags_suggested:
-  - RAG
-  - vector-databases
-  - semantic-search
-  - system-design
-  - ai-architecture
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5895e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.642985Z'
-indexed_at: '2026-02-22T05:20:56.642991Z'
+  fetched_at: '2026-03-01T05:39:09.386426Z'
+indexed_at: '2026-03-01T05:39:09.386432Z'

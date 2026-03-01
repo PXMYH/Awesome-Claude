@@ -19,46 +19,32 @@ prompt_preview: '---
   license...'
 full_prompt_length: 9748
 tools_mentioned:
-- TypeScript
 - typescript
+- TypeScript
 category: community
 category_display: Community
 source_repo: raintree-technology/claude-starter
 source_path: skills/aptos/SKILL.md
 source_url: https://github.com/raintree-technology/claude-starter/blob/main/skills/aptos/SKILL.md
-fetched_at: '2026-02-22T04:16:37.171923+00:00'
+fetched_at: '2026-03-01T04:22:25.786666+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T04:02:32.722906Z'
+  evaluated_at: '2026-03-01T05:25:16.915788Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, comprehensive
-      code examples, and a logical flow from fundamentals to advanced topics. It effectively
-      uses tables and code blocks to explain complex concepts like abilities and generics.
-      However, it's incomplete (cuts off mid-sentence in the Coin Standard section),
-      which prevents a perfect score.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55f770 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This prompt provides immediate, practical value for developers working
-      with Aptos and Move, covering essential topics from language fundamentals to
-      framework usage. The inclusion of specific code examples, gas optimization guidance,
-      and dApp integration makes it highly actionable for real-world development tasks.
-      The comprehensive coverage of token standards and the object model addresses
-      current industry needs.
-  overall_rating: 4.75
-  summary: An excellent, production-ready prompt that comprehensively covers Aptos
-    blockchain development with Move, though it appears to be truncated and missing
-    the complete Coin Standard section.
-  tags_suggested:
-  - blockchain
-  - smart-contracts
-  - move-language
-  - aptos
-  - web3
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55f770 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.798862Z'
-indexed_at: '2026-02-22T05:20:56.798867Z'
+  fetched_at: '2026-03-01T05:39:09.536448Z'
+indexed_at: '2026-03-01T05:39:09.536454Z'

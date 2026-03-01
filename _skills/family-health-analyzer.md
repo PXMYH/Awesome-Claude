@@ -18,40 +18,26 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/family-health-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/family-health-analyzer/SKILL.md
-fetched_at: '2026-02-22T04:15:58.724287+00:00'
+fetched_at: '2026-03-01T04:22:03.400212+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:53:55.317552Z'
+  evaluated_at: '2026-03-01T05:12:46.603498Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured, with a logical
-      flow from overview to specific steps. It defines scope, constraints, and expected
-      behavior precisely, including specific file paths and algorithms. It follows
-      best practices by including trigger conditions, safety guidelines, and a disclaimer,
-      though it could benefit from more explicit edge case handling (e.g., missing
-      data).
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727080 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill has high real-world value for health data analysis tasks,
-      offering a comprehensive framework for genetic risk assessment and preventive
-      planning. It is actionable for users with the specified data files, but its
-      utility is limited to those with access to the required JSON datasets and may
-      require integration with actual medical databases for full practicality.
-  overall_rating: 4.25
-  summary: A robust, well-structured prompt that excels in clarity and safety but
-    assumes specific data availability, making it highly useful for targeted health
-    analysis scenarios.
-  tags_suggested:
-  - healthcare
-  - genetic-analysis
-  - risk-assessment
-  - data-visualization
-  - preventive-medicine
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727080 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.538950Z'
-indexed_at: '2026-02-22T05:20:56.538955Z'
+  fetched_at: '2026-03-01T05:39:09.306140Z'
+indexed_at: '2026-03-01T05:39:09.306145Z'
 ---

@@ -18,38 +18,25 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/google-calendar/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/google-calendar/SKILL.md
-fetched_at: '2026-02-22T04:16:41.592364+00:00'
+fetched_at: '2026-03-01T04:22:28.956593+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T04:03:51.507770Z'
+  evaluated_at: '2026-03-01T05:26:46.901716Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured, with a logical
-      flow from setup to specific commands. It provides concrete examples for each
-      operation, making it highly actionable. However, it lacks explicit guidance
-      on handling common edge cases like timezone mismatches, API rate limits, or
-      error handling for invalid inputs.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7bab2090 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill offers high real-world value for users needing to interact
-      with Google Calendar programmatically, covering a comprehensive range of operations
-      from listing to scheduling. The standalone OAuth approach is practical for lightweight
-      use, but the requirement for a Google Workspace account limits its applicability
-      for personal users.
-  overall_rating: 4.25
-  summary: A well-crafted, practical prompt that provides clear, actionable instructions
-    for Google Calendar integration, though it could benefit from more robust error-handling
-    guidance and broader account compatibility.
-  tags_suggested:
-  - productivity
-  - automation
-  - calendar
-  - OAuth
-  - API integration
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7bab2090 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.830217Z'
-indexed_at: '2026-02-22T05:20:56.830226Z'
+  fetched_at: '2026-03-01T05:39:09.563658Z'
+indexed_at: '2026-03-01T05:39:09.563663Z'

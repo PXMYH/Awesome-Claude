@@ -76,39 +76,26 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/skin-health-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/skin-health-analyzer/SKILL.md
-fetched_at: '2026-02-22T04:16:01.249847+00:00'
+fetched_at: '2026-03-01T04:22:04.863590+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:55:59.726613Z'
+  evaluated_at: '2026-03-01T05:14:16.464580Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, comprehensive
-      medical disclaimers, and detailed functional specifications. It follows best
-      practices by defining scope, constraints, and expected outputs for each module.
-      However, it lacks explicit edge case handling (e.g., conflicting data, missing
-      information) and fallback guidance for ambiguous inputs.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b589490 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill offers high real-world value for personal health monitoring
-      and education, covering major skin conditions and their systemic connections
-      comprehensively. It provides actionable outputs like risk assessments and personalized
-      recommendations, though its effectiveness depends on user data quality and it
-      cannot replace professional medical advice.
-  overall_rating: 4.25
-  summary: A robust, well-structured health analysis skill with strong educational
-    value and practical outputs, though it requires careful handling of medical limitations
-    and edge cases in real deployment.
-  tags_suggested:
-  - healthcare
-  - medical_analysis
-  - skin_care
-  - preventive_health
-  - personalized_recommendations
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b589490 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.575167Z'
-indexed_at: '2026-02-22T05:20:56.575172Z'
+  fetched_at: '2026-03-01T05:39:09.333749Z'
+indexed_at: '2026-03-01T05:39:09.333754Z'
 ---

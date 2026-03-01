@@ -3,37 +3,37 @@ id: static-analysis-sarif-parsing
 slug: static-analysis-sarif-parsing
 name: SARIF Parsing Best Practices
 description: '- [OASIS SARIF 2.1.0 Specification](https://docs.oasis-open.org/sarif/sarif/v2.1.0/sarif-v2.1.0.html)'
-prompt_preview: "---\nname: sarif-parsing\ndescription: Parse, analyze, and process\
-  \ SARIF (Static Analysis Results Interchange Format) files. Use when reading security\
-  \ scan results, aggregating findings from multiple tools, deduplicating alerts,\
-  \ extracting specific vulnerabilities, or integrating SARIF data into CI/CD pipelines.\n\
-  allowed-tools:\n  - Bash\n  - Read\n  - Glob\n  - Grep\n---\n\n# SARIF Parsing Best\
-  \ Practices\n\nYou are a SARIF parsing expert. Your role is to help users effectively\
-  \ read, analyze, and process SA..."
-full_prompt_length: 15043
+prompt_preview: "---\nname: sarif-parsing\ndescription: >-\n  Parses and processes\
+  \ SARIF files from static analysis tools like CodeQL, Semgrep, or other\n  scanners.\
+  \ Triggers on \"parse sarif\", \"read scan results\", \"aggregate findings\", \"\
+  deduplicate\n  alerts\", or \"process sarif output\". Handles filtering, deduplication,\
+  \ format conversion, and\n  CI/CD integration of SARIF data. Does NOT run scans\
+  \ — use the Semgrep or CodeQL skills for that.\nallowed-tools:\n  - Bash\n  - Read\n\
+  \  - Glob\n  - Grep\n---\n\n# SARIF Parsing Best P..."
+full_prompt_length: 15153
 tools_mentioned:
 - JavaScript
-- Python
-- python
 - Node.js
-- Go
+- Python
 - go
+- Go
+- python
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/static-analysis/skills/sarif-parsing/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/sarif-parsing/SKILL.md
-fetched_at: '2026-02-22T04:17:00.153060+00:00'
+fetched_at: '2026-03-01T04:22:42.190268+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-22T05:16:37.790736Z'
+  evaluated_at: '2026-03-01T05:33:58.271283Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932567b00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55c3e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932567b00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55c3e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.958773Z'
-indexed_at: '2026-02-22T05:20:56.958778Z'
+  fetched_at: '2026-03-01T05:39:09.701956Z'
+indexed_at: '2026-03-01T05:39:09.701963Z'
 ---

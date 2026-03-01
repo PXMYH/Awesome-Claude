@@ -69,40 +69,26 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/travel-health-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/travel-health-analyzer/SKILL.md
-fetched_at: '2026-02-22T04:16:01.947417+00:00'
+fetched_at: '2026-03-01T04:22:05.270534+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:56:30.473068Z'
+  evaluated_at: '2026-03-01T05:14:40.890427Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, specific
-      input/output definitions, and strong medical disclaimers. It follows best practices
-      by defining allowed tools, data sources, and output formats. However, it lacks
-      explicit guidance on handling contradictory or outdated WHO/CDC data, and the
-      data integration section is incomplete, which could lead to ambiguity in real-world
-      execution.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b58aae0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill provides high practical value for travelers, covering comprehensive
-      health planning from risk assessment to emergency cards. It is actionable with
-      clear templates and categories. However, its usefulness is limited by the static
-      database note, as real-time WHO/CDC integration is not fully implemented, reducing
-      its reliability for dynamic health data.
-  overall_rating: 4.25
-  summary: A robust and well-designed prompt for travel health analysis, offering
-    detailed functionality and strong safety disclaimers, but with some limitations
-    in data integration completeness.
-  tags_suggested:
-  - health
-  - travel
-  - medical
-  - risk-assessment
-  - multilingual
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b58aae0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.585024Z'
-indexed_at: '2026-02-22T05:20:56.585029Z'
+  fetched_at: '2026-03-01T05:39:09.341238Z'
+indexed_at: '2026-03-01T05:39:09.341244Z'
 ---

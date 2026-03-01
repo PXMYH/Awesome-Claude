@@ -14,46 +14,34 @@ prompt_preview: "---\nname: react-expert\ndescription: Use when building React 1
   \ Redux, Zustand, component, frontend..."
 full_prompt_length: 3540
 tools_mentioned:
+- React
 - TypeScript
 - react
-- React
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/react-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/react-expert/SKILL.md
-fetched_at: '2026-02-22T04:16:14.934103+00:00'
+fetched_at: '2026-03-01T04:22:12.754059+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T04:00:14.601767Z'
+  evaluated_at: '2026-03-01T05:17:15.704125Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear role definition,
-      specific constraints, and a comprehensive reference system. It follows best
-      practices by defining triggers, scope, and output format. The only minor weakness
-      is the external reference files which may not be accessible to all users, potentially
-      limiting immediate usability.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55d790 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides immediate, high-value guidance for real-world React
-      development, covering modern patterns like Server Components and React 19 features.
-      The workflow is actionable and comprehensive, addressing common pain points
-      like performance optimization and state management. The constraints and templates
-      ensure production-ready output.
-  overall_rating: 4.75
-  summary: An excellent, production-ready prompt that demonstrates deep expertise
-    in modern React development with clear structure and practical guidance.
-  tags_suggested:
-  - React 19
-  - Server Components
-  - TypeScript
-  - State Management
-  - Performance Optimization
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55d790 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.646180Z'
-indexed_at: '2026-02-22T05:20:56.646185Z'
+  fetched_at: '2026-03-01T05:39:09.388905Z'
+indexed_at: '2026-03-01T05:39:09.388910Z'
 ---

@@ -12,53 +12,39 @@ prompt_preview: '---
   prose. IMRAD structure, citations (APA/AMA/Vancouver), figures/tables, reporting
   guidelines (CONSORT/STROBE/PRISMA), for research papers and journal submissions.
 
-  allowed-tools: [Read, Write, Edit, Bash]
+  allowed-tools: Read Write Edit Bash
 
-  license: MIT licens...'
-full_prompt_length: 34547
+  license: MIT license
+
+  met...'
+full_prompt_length: 34542
 tools_mentioned:
-- python
 - go
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scientific-writing/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scientific-writing/SKILL.md
-fetched_at: '2026-02-22T04:15:04.458871+00:00'
+fetched_at: '2026-03-01T04:21:24.384473+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:53:17.260097Z'
+  evaluated_at: '2026-03-01T04:40:09.809708Z'
   prompt_quality:
-    score: 4.5
-    reasoning: 'The prompt is highly structured and specific, clearly defining the
-      IMRAD process, citation styles, and mandatory visual elements. It effectively
-      uses a two-stage workflow (outline then prose) and includes concrete tool commands.
-      However, it has a critical flaw: it mandates the use of a specific external
-      tool (''scientific-schematics'' and ''generate-image'') that is not listed in
-      the ''allowed-tools'' section, creating a potential execution failure.'
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b909970 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill is highly practical for academic and research contexts,
-      offering a comprehensive framework for manuscript generation that includes literature-backed
-      writing and strict adherence to reporting guidelines. The inclusion of visual
-      generation requirements adds significant value for modern scientific publishing.
-      However, its utility is slightly diminished by the dependency on external tools
-      not defined in the prompt, which could confuse users attempting to implement
-      it.
-  overall_rating: 4.25
-  summary: A robust and detailed prompt for scientific writing that enforces high
-    standards of structure and visual communication, though it suffers from a critical
-    inconsistency regarding tool dependencies.
-  tags_suggested:
-  - scientific-writing
-  - academic-research
-  - manuscript-generation
-  - reporting-guidelines
-  - visual-communication
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b909970 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:55.983246Z'
-indexed_at: '2026-02-22T05:20:55.983252Z'
+  fetched_at: '2026-03-01T05:39:08.705489Z'
+indexed_at: '2026-03-01T05:39:08.705495Z'

@@ -12,31 +12,31 @@ prompt_preview: '---
   method framework. For open-ended ideation use scientific-brainstorming; for automated
   LLM-driven hypothesis testing on datasets use hypogenic.
 
-  allowed-tools: [Read, Write, Edit, Bash]
+  allowed-tools: Read Write Edit Bash
 
   license: MIT license
 
   metadata:...'
-full_prompt_length: 14663
+full_prompt_length: 14658
 tools_mentioned:
-- python
 - go
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/hypothesis-generation/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/hypothesis-generation/SKILL.md
-fetched_at: '2026-02-22T04:14:53.262803+00:00'
+fetched_at: '2026-03-01T04:21:15.112393+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-22T04:24:52.599010Z'
+  evaluated_at: '2026-03-01T04:30:55.622464Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9325cba70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55c230 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9325cba70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55c230 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:55.791778Z'
-indexed_at: '2026-02-22T05:20:55.791783Z'
+  fetched_at: '2026-03-01T05:39:08.496289Z'
+indexed_at: '2026-03-01T05:39:08.496295Z'

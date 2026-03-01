@@ -14,53 +14,41 @@ prompt_preview: "---\nname: code-documenter\ndescription: Use when adding docstr
   \  output-format: code\n  related-ski..."
 full_prompt_length: 3734
 tools_mentioned:
+- django
+- REST
+- Node.js
+- typescript
+- WebSocket
+- TypeScript
 - Python
 - fastapi
-- WebSocket
 - gRPC
-- python
-- django
-- Node.js
 - FastAPI
-- TypeScript
-- Django
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/code-documenter/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/code-documenter/SKILL.md
-fetched_at: '2026-02-22T04:16:06.279395+00:00'
+fetched_at: '2026-03-01T04:22:08.301436+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:57:35.702926Z'
+  evaluated_at: '2026-03-01T05:15:29.641846Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear role definition,
-      specific triggers, and a comprehensive workflow. It follows prompt engineering
-      best practices by including constraints, output formats, and knowledge references.
-      The only minor weakness is the reference guide section which references external
-      files that may not exist in the actual system context.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b58b560 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: This skill addresses a critical and common development task with high
-      real-world value. It covers a comprehensive range of documentation scenarios
-      from inline docstrings to full documentation sites. The actionability is strong
-      with clear triggers and workflow, though the effectiveness depends on the availability
-      of the referenced documentation files.
-  overall_rating: 4.5
-  summary: A well-crafted, comprehensive documentation skill that provides clear guidance
-    for various documentation tasks with strong practical value for developers.
-  tags_suggested:
-  - documentation
-  - api-docs
-  - docstrings
-  - technical-writing
-  - developer-tools
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b58b560 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.603780Z'
-indexed_at: '2026-02-22T05:20:56.603786Z'
+  fetched_at: '2026-03-01T05:39:09.356308Z'
+indexed_at: '2026-03-01T05:39:09.356313Z'
 ---

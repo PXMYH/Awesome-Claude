@@ -1,0 +1,41 @@
+id: markdown-mermaid-writing
+slug: markdown-mermaid-writing
+name: Markdown and Mermaid Writing
+description: '[^2]: Mermaid. "Mermaid Diagramming and Charting Tool." https://mermaid.js.org/'
+prompt_preview: "---\nname: markdown-mermaid-writing\ndescription: >\n  Comprehensive\
+  \ markdown and Mermaid diagram writing skill that establishes text-based\n  diagrams\
+  \ as the DEFAULT documentation standard. Use this skill when creating ANY\n  scientific\
+  \ document, report, analysis, or visualization — it ensures all outputs are\n  in\
+  \ version-controlled, token-efficient markdown with embedded Mermaid diagrams as\
+  \ the\n  source of truth, with clear pathways to downstream Python or AI-generated\
+  \ images.\n  Includes full style..."
+full_prompt_length: 14999
+tools_mentioned:
+- Python
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/markdown-mermaid-writing/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/markdown-mermaid-writing/SKILL.md
+fetched_at: '2026-03-01T04:21:16.547959+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-01T04:32:17.525482Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55e8d0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55e8d0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-01T05:39:08.521984Z'
+indexed_at: '2026-03-01T05:39:08.521989Z'

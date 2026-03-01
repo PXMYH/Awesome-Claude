@@ -12,24 +12,24 @@ prompt_preview: "---\nname: gene-database\ndescription: Query NCBI Gene via E-ut
 full_prompt_length: 7215
 tools_mentioned:
 - GO
-- python
 - go
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/gene-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/gene-database/SKILL.md
-fetched_at: '2026-02-22T04:14:51.467413+00:00'
+fetched_at: '2026-03-01T04:21:13.274867+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-22T04:23:13.226036Z'
+  evaluated_at: '2026-03-01T04:29:09.430921Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932559e50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55ee40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932559e50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55ee40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:55.761715Z'
-indexed_at: '2026-02-22T05:20:55.761721Z'
+  fetched_at: '2026-03-01T05:39:08.462250Z'
+indexed_at: '2026-03-01T05:39:08.462255Z'

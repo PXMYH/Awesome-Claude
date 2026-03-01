@@ -25,30 +25,30 @@ prompt_preview: '---
   - User asks to "set up a devcontainer" or "add devcontainer sup...'
 full_prompt_length: 7822
 tools_mentioned:
+- TypeScript
 - Python
 - Rust
-- python
 - Docker
-- rust
-- TypeScript
-- Go
 - go
+- rust
+- Go
+- python
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/devcontainer-setup/skills/devcontainer-setup/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/devcontainer-setup/skills/devcontainer-setup/SKILL.md
-fetched_at: '2026-02-22T04:16:52.660641+00:00'
+fetched_at: '2026-03-01T04:22:36.676772+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-22T05:14:41.544933Z'
+  evaluated_at: '2026-03-01T05:31:23.486313Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932db6ba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55c1d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932db6ba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55c1d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -58,5 +58,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.916702Z'
-indexed_at: '2026-02-22T05:20:56.916707Z'
+  fetched_at: '2026-03-01T05:39:09.647823Z'
+indexed_at: '2026-03-01T05:39:09.647829Z'

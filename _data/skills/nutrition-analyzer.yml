@@ -16,41 +16,25 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/nutrition-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/nutrition-analyzer/SKILL.md
-fetched_at: '2026-02-22T04:16:00.097048+00:00'
+fetched_at: '2026-03-01T04:22:04.193960+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:55:09.479773Z'
+  evaluated_at: '2026-03-01T05:13:35.645019Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured and clear, following a
-      standard skill definition format with explicit sections for name, description,
-      tools, functionality, usage instructions, and output formats. It demonstrates
-      strong specificity by detailing analysis dimensions, algorithms, and data sources,
-      and includes best practices like defining trigger conditions and execution steps.
-      However, it lacks explicit handling of edge cases, such as missing data or invalid
-      inputs, which could be improved with fallback guidance.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5895b0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill offers high real-world value by providing comprehensive
-      nutrition analysis capabilities, including trend tracking, nutrient assessment,
-      and correlation with other health metrics, which are directly applicable to
-      health and wellness applications. It is highly actionable, as users can immediately
-      benefit from the structured outputs and personalized recommendations based on
-      common data formats like JSON logs.
-  overall_rating: 4.75
-  summary: This is a robust and practical nutrition analysis skill prompt with excellent
-    structure and detailed functionality, making it highly useful for health-focused
-    AI agents, though it could be enhanced with edge case handling for data inconsistencies.
-  tags_suggested:
-  - nutrition
-  - health-analysis
-  - personalized-recommendations
-  - data-correlation
-  - wellness
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5895b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.558536Z'
-indexed_at: '2026-02-22T05:20:56.558541Z'
+  fetched_at: '2026-03-01T05:39:09.321229Z'
+indexed_at: '2026-03-01T05:39:09.321234Z'

@@ -18,37 +18,25 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/playwright-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/playwright-expert/SKILL.md
-fetched_at: '2026-02-22T04:16:13.550714+00:00'
+fetched_at: '2026-03-01T04:22:12.094842+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:59:55.244463Z'
+  evaluated_at: '2026-03-01T05:16:59.369484Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear role definition,
-      specific constraints (MUST DO/MUST NOT DO), and a reference guide system. It
-      follows best practices by defining scope, triggers, and output format. The only
-      minor weakness is the reference guide references external files that may not
-      exist, but the structure itself is excellent.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7270b0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for real-world Playwright development, covering
-      the full workflow from setup to debugging. The constraints prevent common anti-patterns
-      like flaky waits and brittle selectors. The Page Object Model guidance and CI/CD
-      integration focus make it immediately actionable for professional testing workflows.
-  overall_rating: 4.75
-  summary: An expertly crafted prompt that provides comprehensive Playwright guidance
-    with strong constraints and practical workflow, making it highly valuable for
-    E2E testing tasks.
-  tags_suggested:
-  - testing
-  - playwright
-  - e2e
-  - automation
-  - qa
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7270b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.639794Z'
-indexed_at: '2026-02-22T05:20:56.639801Z'
+  fetched_at: '2026-03-01T05:39:09.383930Z'
+indexed_at: '2026-03-01T05:39:09.383936Z'

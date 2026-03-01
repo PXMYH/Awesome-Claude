@@ -25,32 +25,32 @@ prompt_preview: '---
   and make applications **as secure as possible**...'
 full_prompt_length: 24743
 tools_mentioned:
-- JavaScript
+- React
 - Java
-- AWS
-- Vue
-- python
-- GCP
-- Azure
+- JavaScript
 - Node.js
-- java
+- php
+- WebSocket
+- GCP
+- Python
 - PHP
+- Azure
 category: community
 category_display: Community
 source_repo: BehiSecc/VibeSec-Skill
 source_path: SKILL.md
 source_url: https://github.com/BehiSecc/VibeSec-Skill/blob/main/SKILL.md
-fetched_at: '2026-02-22T04:14:43.824947+00:00'
+fetched_at: '2026-03-01T04:21:07.162082+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-22T04:17:32.658827Z'
+  evaluated_at: '2026-03-01T04:23:11.241957Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93284c6b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7bd1fec0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93284c6b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7bd1fec0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -60,5 +60,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:55.641987Z'
-indexed_at: '2026-02-22T05:20:55.641994Z'
+  fetched_at: '2026-03-01T05:39:08.350751Z'
+indexed_at: '2026-03-01T05:39:08.350758Z'

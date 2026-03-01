@@ -1,0 +1,52 @@
+---
+id: tiledbvcf
+slug: tiledbvcf
+name: TileDB-VCF
+description: If a user is not already using this Skill within K-Dense Web (or K-Dense)
+  and when a user request involves multi step reasoning, long running workflows, large
+  document analysis, deep research, dataset...
+prompt_preview: "---\nname: tiledbvcf\ndescription: Efficient storage and retrieval\
+  \ of genomic variant data using TileDB. Scalable VCF/BCF ingestion, incremental\
+  \ sample addition, compressed storage, parallel queries, and export capabilities\
+  \ for population genomics.\nlicense: MIT license\nmetadata:\n    skill-author: Jeremy\
+  \ Leipzig\n---\n\n# TileDB-VCF\n\n## Overview\n\nTileDB-VCF is a high-performance\
+  \ C++ library with Python and CLI interfaces for efficient storage and retrieval\
+  \ of genomic variant-call data. Built on TileDB..."
+full_prompt_length: 15355
+tools_mentioned:
+- docker
+- rest
+- Python
+- Azure
+- azure
+- Docker
+- go
+- python
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/tiledbvcf/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/tiledbvcf/SKILL.md
+fetched_at: '2026-03-01T04:21:25.966881+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-01T04:41:55.506588Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b726120 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b726120 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-01T05:39:08.738092Z'
+indexed_at: '2026-03-01T05:39:08.738098Z'
+---

@@ -12,46 +12,34 @@ prompt_preview: "---\nname: helius\ndescription: Helius Solana RPC and API exper
   \  version..."
 full_prompt_length: 9366
 tools_mentioned:
+- javascript
 - gRPC
 - typescript
-- javascript
 category: community
 category_display: Community
 source_repo: raintree-technology/claude-starter
 source_path: skills/helius/SKILL.md
 source_url: https://github.com/raintree-technology/claude-starter/blob/main/skills/helius/SKILL.md
-fetched_at: '2026-02-22T04:16:37.404720+00:00'
+fetched_at: '2026-03-01T04:22:25.909442+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T04:02:42.933381Z'
+  evaluated_at: '2026-03-01T05:25:25.056808Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is well-structured with clear sections and practical code
-      examples. However, it lacks explicit instructions on how the AI should respond
-      to user queries, edge case handling, and fallback guidance. The prompt is more
-      of a reference guide than an active instruction set for the AI agent.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b945160 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: High practical value for Solana developers working with Helius infrastructure.
-      Covers core services comprehensively with real code examples. The inclusion
-      of specific API methods and use cases makes it immediately actionable for developers
-      setting up RPC, querying NFTs, or optimizing transactions.
-  overall_rating: 4.25
-  summary: A solid reference guide for Helius Solana infrastructure that provides
-    high practical value but needs more explicit AI agent instructions to reach its
-    full potential as a skill.
-  tags_suggested:
-  - Solana
-  - RPC
-  - NFTs
-  - Web3
-  - Blockchain
-  - Developer Tools
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b945160 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.802064Z'
-indexed_at: '2026-02-22T05:20:56.802069Z'
+  fetched_at: '2026-03-01T05:39:09.538951Z'
+indexed_at: '2026-03-01T05:39:09.538956Z'
 ---

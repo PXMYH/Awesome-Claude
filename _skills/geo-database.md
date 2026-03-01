@@ -13,24 +13,24 @@ prompt_preview: "---\nname: geo-database\ndescription: Access NCBI GEO for gene 
 full_prompt_length: 25348
 tools_mentioned:
 - go
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/geo-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/geo-database/SKILL.md
-fetched_at: '2026-02-22T04:14:51.856049+00:00'
+fetched_at: '2026-03-01T04:21:13.643597+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-22T04:23:38.180115Z'
+  evaluated_at: '2026-03-01T04:29:33.822848Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251d010 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7e5400 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93251d010 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7e5400 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:55.769300Z'
-indexed_at: '2026-02-22T05:20:55.769306Z'
+  fetched_at: '2026-03-01T05:39:08.469787Z'
+indexed_at: '2026-03-01T05:39:08.469792Z'
 ---

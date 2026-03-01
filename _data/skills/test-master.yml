@@ -19,39 +19,25 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/test-master/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/test-master/SKILL.md
-fetched_at: '2026-02-22T04:16:17.932140+00:00'
+fetched_at: '2026-03-01T04:22:14.311918+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T04:02:02.284469Z'
+  evaluated_at: '2026-03-01T05:18:20.816516Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear role definition,
-      specific triggers, and a comprehensive workflow. It follows best practices by
-      defining constraints (MUST DO/MUST NOT) and providing a reference guide for
-      context-specific loading. The only minor limitation is the incomplete 'Related
-      Skills' section, which slightly impacts completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7e5130 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill offers high practical value for developers and QA engineers,
-      covering the entire testing lifecycle from strategy to execution and reporting.
-      It addresses real-world needs like unit, integration, E2E, performance, and
-      security testing with actionable templates and references. The inclusion of
-      modern testing methodologies (shift-left, quality gates) and tooling (Jest,
-      Playwright, k6) makes it immediately beneficial for development teams.
-  overall_rating: 4.75
-  summary: A highly polished and comprehensive testing skill that effectively guides
-    users through the full QA process with clear structure, practical references,
-    and strong real-world applicability.
-  tags_suggested:
-  - testing
-  - qa
-  - automation
-  - quality-assurance
-  - test-strategy
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7e5130 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.672338Z'
-indexed_at: '2026-02-22T05:20:56.672343Z'
+  fetched_at: '2026-03-01T05:39:09.409536Z'
+indexed_at: '2026-03-01T05:39:09.409541Z'

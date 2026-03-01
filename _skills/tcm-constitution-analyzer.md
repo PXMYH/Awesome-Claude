@@ -17,39 +17,26 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/tcm-constitution-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/tcm-constitution-analyzer/SKILL.md
-fetched_at: '2026-02-22T04:16:01.723394+00:00'
+fetched_at: '2026-03-01T04:22:05.131715+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:56:19.960957Z'
+  evaluated_at: '2026-03-01T05:14:32.773412Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, specific
-      algorithms, and detailed output formats. It follows best practices by defining
-      triggers, execution steps, and data sources. However, it lacks explicit handling
-      of edge cases like missing data files or invalid user inputs, which could be
-      improved with fallback guidance.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b725430 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill provides high real-world value for TCM practitioners and
-      health enthusiasts, offering comprehensive analysis across multiple dimensions.
-      The inclusion of specific algorithms and data sources makes it actionable for
-      development. However, its practicality is limited by its reliance on specific
-      file structures and lack of integration with real-time data sources or APIs.
-  overall_rating: 4.25
-  summary: A well-crafted, detailed prompt for a specialized TCM analysis skill with
-    strong technical specifications, though it could benefit from more robust error
-    handling and real-world integration considerations.
-  tags_suggested:
-  - healthcare
-  - traditional-chinese-medicine
-  - wellness
-  - data-analysis
-  - personalized-recommendations
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b725430 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.581699Z'
-indexed_at: '2026-02-22T05:20:56.581704Z'
+  fetched_at: '2026-03-01T05:39:09.338680Z'
+indexed_at: '2026-03-01T05:39:09.338686Z'
 ---

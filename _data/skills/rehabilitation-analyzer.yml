@@ -56,38 +56,25 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/rehabilitation-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/rehabilitation-analyzer/SKILL.md
-fetched_at: '2026-02-22T04:16:00.767154+00:00'
+fetched_at: '2026-03-01T04:22:04.583702+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:55:39.587532Z'
+  evaluated_at: '2026-03-01T05:14:00.188974Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear sections, specific
-      data paths, and detailed algorithms. It follows best practices by defining triggers,
-      steps, and output formats explicitly. However, it lacks explicit error handling
-      for missing data files or invalid data structures, which could be a minor edge
-      case gap.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5895e0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides high real-world value for rehabilitation tracking,
-      offering comprehensive analysis with actionable insights like progress trends
-      and personalized recommendations. It is highly practical for healthcare or fitness
-      applications, covering all key aspects of rehab monitoring from data ingestion
-      to report generation.
-  overall_rating: 4.75
-  summary: A robust, well-designed prompt for a rehabilitation analysis skill that
-    excels in clarity and practicality, with minor room for improvement in edge case
-    handling.
-  tags_suggested:
-  - healthcare
-  - data-analysis
-  - rehabilitation
-  - report-generation
-  - personalized-advice
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5895e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.568698Z'
-indexed_at: '2026-02-22T05:20:56.568706Z'
+  fetched_at: '2026-03-01T05:39:09.328793Z'
+indexed_at: '2026-03-01T05:39:09.328799Z'

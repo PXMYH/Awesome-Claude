@@ -19,38 +19,25 @@ category_display: Community
 source_repo: raintree-technology/claude-starter
 source_path: skills/whop/SKILL.md
 source_url: https://github.com/raintree-technology/claude-starter/blob/main/skills/whop/SKILL.md
-fetched_at: '2026-02-22T04:16:38.089658+00:00'
+fetched_at: '2026-03-01T04:22:26.287868+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T04:03:20.413395Z'
+  evaluated_at: '2026-03-01T05:25:49.513710Z'
   prompt_quality:
-    score: 4.0
-    reasoning: The prompt is well-structured with clear sections for authentication,
-      core operations, and membership management. It provides practical TypeScript
-      examples for key Whop API endpoints. However, the prompt is incomplete (cuts
-      off mid-example in the Courses section) and lacks error handling guidance, rate
-      limiting information, and edge case considerations.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55cb90 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.5
-    reasoning: Highly practical for developers building Whop integrations, covering
-      essential operations like product creation, checkout, membership validation,
-      and payment processing. The real-world code snippets are immediately actionable
-      for SaaS and course platform development. The incomplete courses section slightly
-      reduces completeness but doesn't diminish overall value.
-  overall_rating: 4.25
-  summary: A solid, practical prompt for Whop platform development that provides actionable
-    API examples, though it's incomplete and could benefit from error handling and
-    edge case guidance.
-  tags_suggested:
-  - API Integration
-  - E-commerce
-  - Membership Management
-  - SaaS Development
-  - Webhooks
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55cb90 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.811529Z'
-indexed_at: '2026-02-22T05:20:56.811534Z'
+  fetched_at: '2026-03-01T05:39:09.546479Z'
+indexed_at: '2026-03-01T05:39:09.546485Z'

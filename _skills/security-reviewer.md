@@ -21,40 +21,26 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/security-reviewer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/security-reviewer/SKILL.md
-fetched_at: '2026-02-22T04:16:16.033579+00:00'
+fetched_at: '2026-03-01T04:22:13.311720+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T04:01:15.346389Z'
+  evaluated_at: '2026-03-01T05:17:48.147297Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt demonstrates strong clarity and specificity with well-defined
-      role, workflow, and constraints. It follows excellent prompt engineering practices
-      by including triggers, allowed tools, and output format. However, it lacks explicit
-      edge case handling for scenarios like missing authorization or unavailable tools,
-      and the reference file paths may not be accessible in all environments.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55d790 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: The skill provides high real-world value for security professionals
-      with comprehensive coverage of security review tasks and actionable remediation
-      guidance. It covers multiple security domains (code, infrastructure, cloud)
-      and includes practical tools and methodologies. The main limitation is dependency
-      on external reference files that may not exist, reducing immediate usability
-      without proper setup.
-  overall_rating: 4.25
-  summary: A well-structured security review skill with strong prompt engineering
-    that provides comprehensive security analysis capabilities, though it requires
-    proper reference file setup for full functionality.
-  tags_suggested:
-  - security
-  - code-review
-  - vulnerability-assessment
-  - devsecops
-  - penetration-testing
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55d790 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.659347Z'
-indexed_at: '2026-02-22T05:20:56.659352Z'
+  fetched_at: '2026-03-01T05:39:09.399470Z'
+indexed_at: '2026-03-01T05:39:09.399479Z'
 ---

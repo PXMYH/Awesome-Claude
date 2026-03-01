@@ -19,40 +19,26 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/monitoring-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/monitoring-expert/SKILL.md
-fetched_at: '2026-02-22T04:16:12.375836+00:00'
+fetched_at: '2026-03-01T04:22:11.518169+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:58:59.604972Z'
+  evaluated_at: '2026-03-01T05:16:35.022262Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear role definition,
-      specific triggers, and comprehensive constraints. It follows best practices
-      by defining a core workflow and providing reference guidance. However, it references
-      external files (references/*.md) that may not exist, which could cause issues
-      in practice.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55ffe0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill addresses a critical need in modern software development
-      with high practical value. It covers the full observability stack comprehensively
-      from logging to alerting, making it immediately actionable for developers and
-      SREs. The inclusion of specific tools and methodologies (Prometheus, Grafana,
-      RED/USE) makes it highly applicable to real-world scenarios.
-  overall_rating: 4.75
-  summary: An excellent, production-ready monitoring skill that provides comprehensive
-    observability guidance with strong practical value, though it depends on external
-    reference files that may need to be created or integrated.
-  tags_suggested:
-  - observability
-  - monitoring
-  - SRE
-  - DevOps
-  - performance
-  - alerting
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55ffe0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.629993Z'
-indexed_at: '2026-02-22T05:20:56.630000Z'
+  fetched_at: '2026-03-01T05:39:09.376436Z'
+indexed_at: '2026-03-01T05:39:09.376441Z'
 ---

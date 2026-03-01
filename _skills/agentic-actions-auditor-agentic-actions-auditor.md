@@ -1,0 +1,48 @@
+---
+id: agentic-actions-auditor-agentic-actions-auditor
+slug: agentic-actions-auditor-agentic-actions-auditor
+name: Agentic Actions Auditor
+description: '- **Action Security Profiles:** See [{baseDir}/references/action-profiles.md]({baseDir}/references/action-profiles.md)
+  for per-action security field documentation, default configurations, and dangerou...'
+prompt_preview: '---
+
+  name: agentic-actions-auditor
+
+  description: "Audits GitHub Actions workflows for security vulnerabilities in AI
+  agent integrations including Claude Code Action, Gemini CLI, OpenAI Codex, and GitHub
+  AI Inference. Detects attack vectors where attacker-controlled input reaches AI
+  agents running in CI/CD pipelines, including env var intermediary patterns, direct
+  expression injection, dangerous sandbox configurations, and wildcard user allowlists.
+  Use when reviewing workflow files that invoke AI c...'
+full_prompt_length: 21542
+tools_mentioned:
+- ruby
+- python
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/agentic-actions-auditor/skills/agentic-actions-auditor/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/agentic-actions-auditor/skills/agentic-actions-auditor/SKILL.md
+fetched_at: '2026-03-01T04:22:32.682237+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-01T05:28:57.109082Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b726a80 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b726a80 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-01T05:39:09.602566Z'
+indexed_at: '2026-03-01T05:39:09.602572Z'
+---

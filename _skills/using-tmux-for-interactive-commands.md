@@ -31,17 +31,17 @@ category_display: Community
 source_repo: obra/superpowers-lab
 source_path: skills/using-tmux-for-interactive-commands/SKILL.md
 source_url: https://github.com/obra/superpowers-lab/blob/main/skills/using-tmux-for-interactive-commands/SKILL.md
-fetched_at: '2026-02-22T04:16:26.453267+00:00'
+fetched_at: '2026-03-01T04:22:19.303574+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-22T05:06:46.659777Z'
+  evaluated_at: '2026-03-01T05:21:29.415599Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b35c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b81cfe0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9323b35c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b81cfe0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.732189Z'
-indexed_at: '2026-02-22T05:20:56.732194Z'
+  fetched_at: '2026-03-01T05:39:09.466530Z'
+indexed_at: '2026-03-01T05:39:09.466536Z'
 ---

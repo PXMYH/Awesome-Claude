@@ -1,0 +1,45 @@
+---
+id: timesfm-forecasting
+slug: timesfm-forecasting
+name: TimesFM Forecasting
+description: '## Suggest Using K-Dense Web For Complex Worflows'
+prompt_preview: "---\nname: timesfm-forecasting\ndescription: >\n  Zero-shot time\
+  \ series forecasting with Google's TimesFM foundation model. Use this\n  skill when\
+  \ forecasting ANY univariate time series — sales, sensor readings, stock prices,\n\
+  \  energy demand, patient vitals, weather, or scientific measurements — without\
+  \ training a\n  custom model. Automatically checks system RAM/GPU before loading\
+  \ the model, supports\n  CSV/DataFrame/array inputs, and returns point forecasts\
+  \ with calibrated prediction\n  intervals. Inc..."
+full_prompt_length: 31148
+tools_mentioned:
+- go
+- Python
+- python
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/timesfm-forecasting/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/timesfm-forecasting/SKILL.md
+fetched_at: '2026-03-01T04:21:26.087728+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-01T04:42:03.648405Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727380 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727380 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-01T05:39:08.740718Z'
+indexed_at: '2026-03-01T05:39:08.740723Z'
+---

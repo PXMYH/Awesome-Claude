@@ -12,45 +12,33 @@ prompt_preview: "---\nname: react-native-expert\ndescription: Use when building 
   \  related-skills: react-exper..."
 full_prompt_length: 2945
 tools_mentioned:
+- React
 - TypeScript
 - react
-- React
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/react-native-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/react-native-expert/SKILL.md
-fetched_at: '2026-02-22T04:16:15.147116+00:00'
+fetched_at: '2026-03-01T04:22:12.866781+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T04:00:24.185189Z'
+  evaluated_at: '2026-03-01T05:17:23.805846Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly structured with clear sections for role definition,
-      workflow, constraints, and references, making it easy to follow. It uses specific
-      triggers and output templates, adhering to prompt engineering best practices.
-      However, the reference guide references external files that may not be accessible,
-      which could limit clarity in some contexts.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b589850 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill is extremely practical for real-world React Native development,
-      covering essential topics like navigation, performance optimization, and platform-specific
-      handling. It provides actionable constraints and workflows that directly address
-      common pain points in mobile app development. The inclusion of modern tools
-      like Expo SDK 50+ and React Navigation 7 ensures relevance for current projects.
-  overall_rating: 4.75
-  summary: A well-crafted, highly useful prompt that excels in specificity and practicality
-    for React Native developers, with minor limitations in reference accessibility.
-  tags_suggested:
-  - mobile development
-  - Expo
-  - React Navigation
-  - performance optimization
-  - cross-platform
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b589850 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.649378Z'
-indexed_at: '2026-02-22T05:20:56.649383Z'
+  fetched_at: '2026-03-01T05:39:09.391448Z'
+indexed_at: '2026-03-01T05:39:09.391454Z'

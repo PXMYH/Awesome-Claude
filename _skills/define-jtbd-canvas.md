@@ -18,17 +18,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/define-jtbd-canvas/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/define-jtbd-canvas/SKILL.md
-fetched_at: '2026-02-22T04:16:30.352549+00:00'
+fetched_at: '2026-03-01T04:22:22.334738+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-22T05:07:28.504580Z'
+  evaluated_at: '2026-03-01T05:22:10.078395Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932385dc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b855010 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932385dc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b855010 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.744396Z'
-indexed_at: '2026-02-22T05:20:56.744406Z'
+  fetched_at: '2026-03-01T05:39:09.478799Z'
+indexed_at: '2026-03-01T05:39:09.478805Z'
 ---

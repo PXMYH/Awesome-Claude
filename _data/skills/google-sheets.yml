@@ -17,40 +17,25 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/google-sheets/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/google-sheets/SKILL.md
-fetched_at: '2026-02-22T04:16:42.470300+00:00'
+fetched_at: '2026-03-01T04:22:29.455787+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T04:04:36.528795Z'
+  evaluated_at: '2026-03-01T05:27:19.414130Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured, with a concise
-      description, explicit command examples, and helpful formatting guidance. It
-      defines scope (read-only), constraints (Google Workspace account required),
-      and expected behavior (output formats) effectively. However, it lacks explicit
-      edge case handling for scenarios like invalid spreadsheet IDs, permission errors,
-      or network issues.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727860 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill provides high real-world value for users needing to interact
-      with Google Sheets data programmatically, especially as a lightweight alternative
-      to full Google Workspace integration. It covers core tasks comprehensively (reading,
-      searching, metadata) and offers immediate actionability through clear command
-      syntax. The limitation to read-only access and Google Workspace accounts reduces
-      its applicability for personal Gmail users, slightly impacting overall usefulness.
-  overall_rating: 4.25
-  summary: A well-crafted, practical skill prompt that excels in clarity and command
-    structure, offering solid utility for Google Sheets data retrieval while being
-    constrained by read-only access and account requirements.
-  tags_suggested:
-  - Google Sheets
-  - Data Retrieval
-  - OAuth
-  - Read-Only
-  - Spreadsheet Integration
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727860 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.843066Z'
-indexed_at: '2026-02-22T05:20:56.843071Z'
+  fetched_at: '2026-03-01T05:39:09.573305Z'
+indexed_at: '2026-03-01T05:39:09.573313Z'

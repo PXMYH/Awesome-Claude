@@ -14,45 +14,33 @@ prompt_preview: "---\nname: pandas-pro\ndescription: Use when working with panda
   \ pivot table, data transformation..."
 full_prompt_length: 3938
 tools_mentioned:
-- python
 - Python
+- python
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/pandas-pro/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/pandas-pro/SKILL.md
-fetched_at: '2026-02-22T04:16:13.027608+00:00'
+fetched_at: '2026-03-01T04:22:11.868124+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:59:37.454305Z'
+  evaluated_at: '2026-03-01T05:16:51.262038Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear role definition,
-      specific constraints (MUST DO/MUST NOT DO), and a comprehensive workflow. It
-      follows best practices by defining triggers, scope, and output format. The only
-      minor limitation is the reference guide pointing to external files that may
-      not exist in all contexts.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b588bc0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for real-world data engineering tasks, covering
-      essential pandas operations from loading to optimization. The constraints prevent
-      common anti-patterns like iterrows and chained indexing, making it immediately
-      actionable for production code. The performance optimization focus addresses
-      critical concerns for large datasets.
-  overall_rating: 4.75
-  summary: An expert-level pandas prompt with excellent structure, clear constraints,
-    and production-ready guidance that balances best practices with practical implementation.
-  tags_suggested:
-  - data-engineering
-  - pandas
-  - performance-optimization
-  - data-cleaning
-  - vectorization
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b588bc0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.636564Z'
-indexed_at: '2026-02-22T05:20:56.636569Z'
+  fetched_at: '2026-03-01T05:39:09.381438Z'
+indexed_at: '2026-03-01T05:39:09.381444Z'
 ---

@@ -12,24 +12,24 @@ prompt_preview: "---\nname: umap-learn\ndescription: UMAP dimensionality reducti
   \ Apply this skill for fa..."
 full_prompt_length: 16213
 tools_mentioned:
-- python
 - go
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/umap-learn/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/umap-learn/SKILL.md
-fetched_at: '2026-02-22T04:15:07.157412+00:00'
+fetched_at: '2026-03-01T04:21:26.827367+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-22T04:35:58.084082Z'
+  evaluated_at: '2026-03-01T04:42:44.333741Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932385130 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7bbaade0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932385130 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7bbaade0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.028711Z'
-indexed_at: '2026-02-22T05:20:56.028719Z'
+  fetched_at: '2026-03-01T05:39:08.752969Z'
+indexed_at: '2026-03-01T05:39:08.752974Z'
 ---

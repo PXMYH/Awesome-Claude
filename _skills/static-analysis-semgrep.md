@@ -2,42 +2,38 @@
 id: static-analysis-semgrep
 slug: static-analysis-semgrep
 name: Semgrep Security Scan
-description: '| Shortcut | Why It''s Wrong |'
-prompt_preview: "---\nname: semgrep\ndescription: Run Semgrep static analysis scan\
-  \ on a codebase using parallel subagents. Automatically\n  detects and uses Semgrep\
-  \ Pro for cross-file analysis when available. Use when asked to scan\n  code for\
-  \ vulnerabilities, run a security audit with Semgrep, find bugs, or perform\n  static\
-  \ analysis. Spawns parallel workers for multi-language codebases and triage.\nallowed-tools:\n\
-  \  - Bash\n  - Read\n  - Glob\n  - Grep\n  - Write\n  - Task\n  - AskUserQuestion\n\
-  \  - TaskCreate\n  - TaskList..."
-full_prompt_length: 15921
+description: '- [ ] Output directory resolved (user-specified or auto-incremented
+  default)'
+prompt_preview: "---\nname: semgrep\ndescription: >-\n  Run Semgrep static analysis\
+  \ scan on a codebase using parallel subagents.\n  Supports two scan modes — \"run\
+  \ all\" (full ruleset coverage) and \"important\n  only\" (high-confidence security\
+  \ vulnerabilities). Automatically detects and\n  uses Semgrep Pro for cross-file\
+  \ taint analysis when available. Use when asked\n  to scan code for vulnerabilities,\
+  \ run a security audit with Semgrep, find\n  bugs, or perform static analysis. Spawns\
+  \ parallel workers for multi-language..."
+full_prompt_length: 9720
 tools_mentioned:
-- JavaScript
-- Rust
-- Ruby
-- python
+- django
+- Python
 - Docker
-- react
 - Go
-- php
-- go
-- docker
+- python
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/static-analysis/skills/semgrep/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/semgrep/SKILL.md
-fetched_at: '2026-02-22T04:17:00.384371+00:00'
+fetched_at: '2026-03-01T04:22:42.304570+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-22T05:16:46.136239Z'
+  evaluated_at: '2026-03-01T05:34:06.416500Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255a000 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b726510 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc93255a000 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b726510 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.961378Z'
-indexed_at: '2026-02-22T05:20:56.961383Z'
+  fetched_at: '2026-03-01T05:39:09.704749Z'
+indexed_at: '2026-03-01T05:39:09.704759Z'
 ---

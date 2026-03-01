@@ -16,37 +16,25 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/weightloss-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/weightloss-analyzer/SKILL.md
-fetched_at: '2026-02-22T04:16:02.180644+00:00'
+fetched_at: '2026-03-01T04:22:05.405186+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:56:40.003890Z'
+  evaluated_at: '2026-03-01T05:14:49.023168Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and specific, providing detailed
-      formulas, classification standards, and structured output formats. It follows
-      best practices by defining a clear scope, data sources, and example commands.
-      However, it lacks explicit handling of edge cases, such as missing data or invalid
-      inputs, which could be improved with fallback guidance.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727140 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill offers high real-world value for individuals tracking weight
-      loss, covering comprehensive metrics like BMI, metabolic rate, and energy deficits.
-      It is highly actionable, with clear commands and reports that users can immediately
-      apply to manage their health data effectively.
-  overall_rating: 4.75
-  summary: A well-structured and highly practical prompt that provides a robust framework
-    for weight loss analysis, though it could benefit from more robust error handling
-    for edge cases.
-  tags_suggested:
-  - health
-  - fitness
-  - nutrition
-  - data-analysis
-  - wellness
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727140 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.588302Z'
-indexed_at: '2026-02-22T05:20:56.588307Z'
+  fetched_at: '2026-03-01T05:39:09.343750Z'
+indexed_at: '2026-03-01T05:39:09.343755Z'

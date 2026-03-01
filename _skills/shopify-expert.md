@@ -14,48 +14,37 @@ prompt_preview: "---\nname: shopify-expert\ndescription: Use when building Shopi
   \ development, e-commerce, Po..."
 full_prompt_length: 3950
 tools_mentioned:
-- react
-- graphql
 - React
-- TypeScript
 - REST
+- TypeScript
+- graphql
+- react
 - GraphQL
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/shopify-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/shopify-expert/SKILL.md
-fetched_at: '2026-02-22T04:16:16.250267+00:00'
+fetched_at: '2026-03-01T04:22:13.438671+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T04:01:30.819340Z'
+  evaluated_at: '2026-03-01T05:17:56.244592Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear role definition,
-      specific triggers, and comprehensive constraints. It follows prompt engineering
-      best practices with organized sections and actionable guidelines. However, the
-      truncated 'Related Skills' section at the end slightly impacts completeness.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b589b80 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This prompt provides immense practical value for Shopify development
-      tasks with real-world applicability. It covers the full development lifecycle
-      from requirements analysis to deployment, including specific technologies and
-      best practices. The reference system and output templates make it immediately
-      actionable for developers.
-  overall_rating: 4.75
-  summary: An outstanding Shopify development prompt that balances technical depth
-    with practical workflow guidance, though minor truncation slightly affects completeness.
-  tags_suggested:
-  - e-commerce
-  - shopify
-  - liquid
-  - headless-commerce
-  - app-development
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b589b80 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.662684Z'
-indexed_at: '2026-02-22T05:20:56.662689Z'
+  fetched_at: '2026-03-01T05:39:09.402010Z'
+indexed_at: '2026-03-01T05:39:09.402016Z'
 ---

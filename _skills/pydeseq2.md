@@ -20,40 +20,26 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pydeseq2/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pydeseq2/SKILL.md
-fetched_at: '2026-02-22T04:14:59.733631+00:00'
+fetched_at: '2026-03-01T04:21:21.106212+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:53:06.823546Z'
+  evaluated_at: '2026-03-01T04:36:38.149766Z'
   prompt_quality:
-    score: 3.5
-    reasoning: 'The prompt is well-structured with clear sections and practical code
-      examples, but it contains a critical flaw: the ''DESeq2 Fitting'' code snippet
-      is incomplete and syntactically broken, cutting off mid-line. This undermines
-      clarity and specificity, as it provides an actionable but erroneous instruction.
-      While it includes good metadata and usage guidelines, the incomplete code prevents
-      it from being fully reliable without correction.'
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b943e00 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill is highly practical for bioinformatics tasks, offering a
-      complete workflow from data loading to statistical testing with real-world RNA-seq
-      examples. It covers essential steps like filtering, design specification, and
-      result interpretation, making it immediately actionable for users familiar with
-      DESeq2 concepts. The inclusion of multi-factor designs and integration with
-      pandas/AnnData adds significant value for Python-based pipelines.
-  overall_rating: 3.75
-  summary: A useful and practical skill for differential expression analysis, but
-    the incomplete code snippet in the core workflow reduces prompt quality and reliability.
-  tags_suggested:
-  - bioinformatics
-  - RNA-seq
-  - differential-expression
-  - python
-  - statistics
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b943e00 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:55.899455Z'
-indexed_at: '2026-02-22T05:20:55.899461Z'
+  fetched_at: '2026-03-01T05:39:08.627211Z'
+indexed_at: '2026-03-01T05:39:08.627217Z'
 ---

@@ -44,41 +44,26 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/occupational-health-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/occupational-health-analyzer/SKILL.md
-fetched_at: '2026-02-22T04:16:00.310862+00:00'
+fetched_at: '2026-03-01T04:22:04.317728+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:55:19.366380Z'
+  evaluated_at: '2026-03-01T05:13:43.767099Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt demonstrates excellent clarity and specificity with well-defined
-      scoring systems, risk categories, and structured output formats. It follows
-      strong prompt engineering practices by establishing clear boundaries (medical
-      safety disclaimers), providing comprehensive step-by-step instructions, and
-      defining specific trigger conditions. However, it lacks explicit guidance for
-      handling missing data or edge cases in the data validation step.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b58b020 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This skill provides practical value for occupational health monitoring
-      with actionable risk assessments and personalized recommendations. The comprehensive
-      coverage of multiple risk factors (sedentary, VDT, ergonomic) and integration
-      with other health data makes it useful for workplace wellness programs. However,
-      its utility is limited by the requirement for specific data file formats and
-      lack of real-time monitoring capabilities.
-  overall_rating: 4.25
-  summary: A well-structured occupational health analysis skill with robust scoring
-    systems and clear safety boundaries, though it could benefit from better edge
-    case handling and more flexible data input mechanisms.
-  tags_suggested:
-  - occupational_health
-  - risk_assessment
-  - ergonomics
-  - health_monitoring
-  - workplace_wellness
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b58b020 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.562072Z'
-indexed_at: '2026-02-22T05:20:56.562077Z'
+  fetched_at: '2026-03-01T05:39:09.323793Z'
+indexed_at: '2026-03-01T05:39:09.323802Z'
 ---

@@ -13,24 +13,24 @@ prompt_preview: "---\nname: statistical-analysis\ndescription: Guided statistica
 full_prompt_length: 20439
 tools_mentioned:
 - go
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/statistical-analysis/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/statistical-analysis/SKILL.md
-fetched_at: '2026-02-22T04:15:05.832921+00:00'
+fetched_at: '2026-03-01T04:21:25.492954+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-22T04:34:51.632399Z'
+  evaluated_at: '2026-03-01T04:41:22.969823Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9329a9d30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b589850 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9329a9d30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b589850 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.007225Z'
-indexed_at: '2026-02-22T05:20:56.007236Z'
+  fetched_at: '2026-03-01T05:39:08.728209Z'
+indexed_at: '2026-03-01T05:39:08.728214Z'
 ---

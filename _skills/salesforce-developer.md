@@ -21,41 +21,26 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/salesforce-developer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/salesforce-developer/SKILL.md
-fetched_at: '2026-02-22T04:16:15.580026+00:00'
+fetched_at: '2026-03-01T04:22:13.078455+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T04:00:33.657423Z'
+  evaluated_at: '2026-03-01T05:17:31.926475Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear role definition,
-      specific constraints, and comprehensive workflow guidance. It follows prompt
-      engineering best practices with explicit 'MUST DO' and 'MUST NOT DO' sections,
-      and provides actionable output templates. The only minor limitation is the reference
-      guide section which references external files that may not exist in the actual
-      implementation context.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55ff20 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This prompt provides immediate, practical value for Salesforce development
-      tasks with comprehensive coverage of Apex, LWC, SOQL, and integration patterns.
-      The constraints and best practices directly address real-world challenges like
-      governor limits and bulkification. The workflow and output templates make it
-      immediately actionable for developers at any skill level.
-  overall_rating: 4.75
-  summary: An outstanding Salesforce developer prompt that balances technical depth
-    with practical guidance, providing clear constraints and best practices that directly
-    address enterprise development challenges.
-  tags_suggested:
-  - Salesforce
-  - Apex
-  - LWC
-  - SOQL
-  - Governor Limits
-  - Enterprise Development
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55ff20 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.652688Z'
-indexed_at: '2026-02-22T05:20:56.652694Z'
+  fetched_at: '2026-03-01T05:39:09.393959Z'
+indexed_at: '2026-03-01T05:39:09.393964Z'
 ---

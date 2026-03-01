@@ -14,48 +14,35 @@ prompt_preview: "---\nname: nestjs-expert\ndescription: Use when building NestJS
   \ specialis..."
 full_prompt_length: 3250
 tools_mentioned:
-- TypeScript
-- REST
 - Node.js
+- TypeScript
 - GraphQL
+- REST
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/nestjs-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/nestjs-expert/SKILL.md
-fetched_at: '2026-02-22T04:16:12.586392+00:00'
+fetched_at: '2026-03-01T04:22:11.619266+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:59:24.444782Z'
+  evaluated_at: '2026-03-01T05:16:43.144684Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is highly structured with clear sections for role definition,
-      workflow, constraints, and output templates, making it easy to follow. It includes
-      specific triggers and references, but the reliance on external reference files
-      (e.g., `references/controllers-routing.md`) introduces potential ambiguity if
-      those files are unavailable, slightly reducing clarity.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55f110 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill is extremely practical for real-world NestJS development,
-      covering essential topics like modular architecture, DI, authentication, and
-      testing with concrete examples and constraints. It provides immediate value
-      by guiding users through a structured workflow and enforcing best practices,
-      making it actionable for both beginners and experienced developers.
-  overall_rating: 4.75
-  summary: A well-crafted, highly useful prompt that excels in guiding NestJS development
-    with strong structure and practical guidance, though minor dependency on external
-    references could be a slight limitation.
-  tags_suggested:
-  - NestJS
-  - TypeScript
-  - Backend Development
-  - Dependency Injection
-  - API Design
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55f110 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.633268Z'
-indexed_at: '2026-02-22T05:20:56.633274Z'
+  fetched_at: '2026-03-01T05:39:09.378914Z'
+indexed_at: '2026-03-01T05:39:09.378919Z'
 ---

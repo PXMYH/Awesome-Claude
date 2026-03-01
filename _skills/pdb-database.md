@@ -12,27 +12,27 @@ prompt_preview: "---\nname: pdb-database\ndescription: Access RCSB PDB for 3D pr
   \ structure simila..."
 full_prompt_length: 10047
 tools_mentioned:
-- Python
-- python
 - graphql
-- GraphQL
+- Python
 - go
+- GraphQL
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pdb-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pdb-database/SKILL.md
-fetched_at: '2026-02-22T04:14:57.942907+00:00'
+fetched_at: '2026-03-01T04:21:19.583000+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-22T04:28:53.461945Z'
+  evaluated_at: '2026-03-01T04:35:08.604038Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9324e3d70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727110 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc9324e3d70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727110 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:55.868816Z'
-indexed_at: '2026-02-22T05:20:55.868825Z'
+  fetched_at: '2026-03-01T05:39:08.598987Z'
+indexed_at: '2026-03-01T05:39:08.598993Z'
 ---

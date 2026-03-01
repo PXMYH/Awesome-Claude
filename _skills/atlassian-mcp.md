@@ -12,7 +12,7 @@ prompt_preview: "---\nname: atlassian-mcp\ndescription: Use when querying Jira i
   \ MCP, tickets, issues, wiki, JQL, CQL, sprint, backlog, project management\n  role:\
   \ expert\n  scope: implementation\n  output-format: code\n  related-skills: mcp-developer,\
   \ api-..."
-full_prompt_length: 4041
+full_prompt_length: 4056
 tools_mentioned:
 - REST
 category: community
@@ -20,42 +20,26 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/atlassian-mcp/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/atlassian-mcp/SKILL.md
-fetched_at: '2026-02-22T04:16:05.462437+00:00'
+fetched_at: '2026-03-01T04:22:07.762836+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:57:25.016974Z'
+  evaluated_at: '2026-03-01T05:15:21.551969Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt demonstrates strong clarity and specificity with well-defined
-      role, workflow, and constraints. It includes comprehensive 'MUST DO' and 'MUST
-      NOT DO' sections that provide clear guardrails. The reference system is innovative
-      but relies on external files that may not exist, which could limit practical
-      implementation.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55d2b0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: High practical value for developers working with Atlassian tools, covering
-      authentication, queries, and common workflows. The prompt is actionable with
-      specific technical details like JQL/CQL, OAuth 2.1, and rate limiting. However,
-      the dependency on external reference files reduces immediate usability without
-      access to those resources.
-  overall_rating: 4.25
-  summary: A well-structured, technically detailed prompt for Atlassian MCP integration
-    that balances comprehensive guidance with practical constraints, though its effectiveness
-    depends on access to referenced documentation files.
-  tags_suggested:
-  - atlassian
-  - jira
-  - confluence
-  - mcp
-  - integration
-  - authentication
-  - jql
-  - cql
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55d2b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.600510Z'
-indexed_at: '2026-02-22T05:20:56.600516Z'
+  fetched_at: '2026-03-01T05:39:09.353793Z'
+indexed_at: '2026-03-01T05:39:09.353798Z'
 ---

@@ -13,27 +13,27 @@ prompt_preview: "---\nname: clinvar-database\ndescription: Query NCBI ClinVar fo
 full_prompt_length: 14047
 tools_mentioned:
 - Python
-- MongoDB
-- python
+- go
 - PostgreSQL
 - MySQL
-- go
+- MongoDB
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/clinvar-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/clinvar-database/SKILL.md
-fetched_at: '2026-02-22T04:14:47.942744+00:00'
+fetched_at: '2026-03-01T04:21:10.477780+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-22T04:20:18.440696Z'
+  evaluated_at: '2026-03-01T04:26:10.571561Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932779340 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727ef0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932779340 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727ef0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:55.692324Z'
-indexed_at: '2026-02-22T05:20:55.692329Z'
+  fetched_at: '2026-03-01T05:39:08.406492Z'
+indexed_at: '2026-03-01T05:39:08.406497Z'
 ---

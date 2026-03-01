@@ -18,38 +18,26 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/debugging-wizard/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/debugging-wizard/SKILL.md
-fetched_at: '2026-02-22T04:16:07.340684+00:00'
+fetched_at: '2026-03-01T04:22:08.951482+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:57:46.315668Z'
+  evaluated_at: '2026-03-01T05:15:37.766022Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear role definition,
-      specific workflow steps, and explicit constraints. It follows best practices
-      by defining triggers, scope, and output format upfront. The only minor weakness
-      is the reference system which relies on external files that may not exist in
-      all contexts.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b589910 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides immediate practical value for developers debugging
-      real issues. The systematic workflow (reproduce, isolate, hypothesize, test,
-      fix, prevent) mirrors professional debugging practices. The output templates
-      ensure actionable results, and the constraints prevent common debugging pitfalls.
-  overall_rating: 4.75
-  summary: An excellent debugging prompt that balances comprehensive methodology with
-    practical constraints, making it highly effective for real-world troubleshooting
-    scenarios.
-  tags_suggested:
-  - debugging
-  - troubleshooting
-  - root-cause-analysis
-  - systematic-methodology
-  - developer-tools
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b589910 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.607456Z'
-indexed_at: '2026-02-22T05:20:56.607463Z'
+  fetched_at: '2026-03-01T05:39:09.358937Z'
+indexed_at: '2026-03-01T05:39:09.358943Z'
 ---

@@ -17,39 +17,25 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/google-chat/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/google-chat/SKILL.md
-fetched_at: '2026-02-22T04:16:41.810668+00:00'
+fetched_at: '2026-03-01T04:22:29.085195+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T04:04:01.577890Z'
+  evaluated_at: '2026-03-01T05:26:55.059454Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally clear and well-structured, with explicit
-      commands, examples, and setup instructions. It defines scope (Google Chat operations)
-      and constraints (Workspace account required, personal Gmail not supported) effectively.
-      However, it lacks explicit error handling guidance or fallback strategies for
-      common issues like authentication failures or missing spaces.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7bfb7560 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 4.0
-    reasoning: This provides practical value for developers needing lightweight Google
-      Chat integration without full Google Workspace MCP complexity. The standalone
-      OAuth approach and clear command examples make it immediately actionable for
-      common tasks like sending messages and managing spaces. However, usefulness
-      is limited by requiring a Google Workspace account and not covering all Google
-      Chat API features.
-  overall_rating: 4.25
-  summary: A well-structured, practical prompt for Google Chat integration that balances
-    clarity with actionable commands, though it could benefit from more comprehensive
-    error handling and broader feature coverage.
-  tags_suggested:
-  - google-chat
-  - oauth
-  - workspace
-  - messaging
-  - automation
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7bfb7560 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.833373Z'
-indexed_at: '2026-02-22T05:20:56.833379Z'
+  fetched_at: '2026-03-01T05:39:09.566094Z'
+indexed_at: '2026-03-01T05:39:09.566099Z'

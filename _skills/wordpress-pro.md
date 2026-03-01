@@ -14,49 +14,34 @@ prompt_preview: "---\nname: wordpress-pro\ndescription: Use when developing Word
   \ WordPress security\n  role: expert\n  scop..."
 full_prompt_length: 4122
 tools_mentioned:
+- php
 - REST
 - PHP
-- php
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/wordpress-pro/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/wordpress-pro/SKILL.md
-fetched_at: '2026-02-22T04:16:19.199729+00:00'
+fetched_at: '2026-03-01T04:22:14.995908+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T04:02:22.083727Z'
+  evaluated_at: '2026-03-01T05:18:45.156420Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear role definition,
-      specific constraints, and a detailed workflow. The reference guide table is
-      a strong prompt engineering pattern, though the external file references are
-      hypothetical and would need to be implemented in a real system. The constraints
-      section is comprehensive and actionable.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5b0200 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This is highly practical for real WordPress development tasks, covering
-      modern WordPress ecosystem components like Gutenberg, WooCommerce, and performance
-      optimization. The constraints provide immediate security and best practice guidance
-      that developers often overlook. The output templates ensure consistent, production-ready
-      code delivery.
-  overall_rating: 4.75
-  summary: An expert-level WordPress development prompt with excellent structure,
-    comprehensive constraints, and practical workflow guidance that would significantly
-    improve code quality and security for WordPress development tasks.
-  tags_suggested:
-  - WordPress
-  - Gutenberg
-  - WooCommerce
-  - Performance
-  - Security
-  - Plugin Development
-  - Theme Development
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5b0200 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.681515Z'
-indexed_at: '2026-02-22T05:20:56.681521Z'
+  fetched_at: '2026-03-01T05:39:09.417111Z'
+indexed_at: '2026-03-01T05:39:09.417117Z'
 ---

@@ -19,40 +19,26 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/fine-tuning-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/fine-tuning-expert/SKILL.md
-fetched_at: '2026-02-22T04:16:08.774888+00:00'
+fetched_at: '2026-03-01T04:22:09.793456+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-01-25T03:58:28.838846Z'
+  evaluated_at: '2026-03-01T05:16:10.348771Z'
   prompt_quality:
-    score: 4.5
-    reasoning: The prompt is exceptionally well-structured with clear role definition,
-      specific triggers, and comprehensive constraints. It follows best practices
-      by defining scope, output format, and workflow. The only minor limitation is
-      the reference system which assumes external files exist, but the core instructions
-      remain actionable without them.
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55daf0 state=finished
+      raised HTTPError>]'
   usefulness:
-    score: 5.0
-    reasoning: This skill provides immediate practical value for ML engineers working
-      with LLM fine-tuning. It covers the complete workflow from dataset preparation
-      to deployment, includes specific methods like LoRA/QLoRA, and provides actionable
-      constraints and templates. The real-world applicability is high for anyone training
-      custom models or optimizing performance.
-  overall_rating: 4.75
-  summary: An excellent, production-ready skill prompt that comprehensively addresses
-    LLM fine-tuning with clear structure, practical constraints, and complete workflow
-    guidance for real-world ML engineering tasks.
-  tags_suggested:
-  - llm-fine-tuning
-  - peft
-  - lora
-  - qlora
-  - model-optimization
-  - ml-engineering
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55daf0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
 github_metrics:
   stars: 0
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:56.620193Z'
-indexed_at: '2026-02-22T05:20:56.620198Z'
+  fetched_at: '2026-03-01T05:39:09.368906Z'
+indexed_at: '2026-03-01T05:39:09.368911Z'
 ---

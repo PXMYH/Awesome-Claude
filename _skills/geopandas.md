@@ -23,17 +23,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/geopandas/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/geopandas/SKILL.md
-fetched_at: '2026-02-22T04:14:52.069191+00:00'
+fetched_at: '2026-03-01T04:21:13.766938+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-02-22T04:23:46.524491Z'
+  evaluated_at: '2026-03-01T04:29:42.006649Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932a4f3e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55d8e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc932a4f3e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55d8e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-02-22T05:20:55.771818Z'
-indexed_at: '2026-02-22T05:20:55.771824Z'
+  fetched_at: '2026-03-01T05:39:08.472295Z'
+indexed_at: '2026-03-01T05:39:08.472301Z'
 ---
