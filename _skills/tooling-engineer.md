@@ -23,31 +23,31 @@ prompt_preview: '---
 full_prompt_length: 6428
 tools_mentioned:
 - Docker
-category: developer-experience
-category_display: Developer Experience
+category: 06-developer-experience
+category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/tooling-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/tooling-engineer.md
-fetched_at: '2026-03-01T04:21:41.065620+00:00'
+fetched_at: '2026-03-02T04:13:25.660898Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:56:11.778967Z'
+  evaluated_at: '2026-03-02T04:26:15.471965Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b725640 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2c269daba0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b725640 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2c269daba0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 11863
-  forks: 1264
-  open_issues: 9
+  stars: 12029
+  forks: 1293
+  open_issues: 6
   last_commit: '2026-02-21'
-  fetched_at: '2026-03-01T04:22:53.657405Z'
-indexed_at: '2026-03-01T05:39:08.997858Z'
+  fetched_at: '2026-03-02T04:13:52.445702Z'
+indexed_at: '2026-03-02T04:35:37.690627Z'
 ---

@@ -24,31 +24,31 @@ prompt_preview: '---
 full_prompt_length: 6674
 tools_mentioned:
 - React
-category: specialized-domains
-category_display: Specialized Domains
+category: 07-specialized-domains
+category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/mobile-app-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/mobile-app-developer.md
-fetched_at: '2026-03-01T04:21:42.159024+00:00'
+fetched_at: '2026-03-02T04:13:28.051765Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:57:16.905511Z'
+  evaluated_at: '2026-03-02T04:27:20.629092Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5899d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2c269daab0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5899d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2c269daab0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 11863
-  forks: 1264
-  open_issues: 9
+  stars: 12029
+  forks: 1293
+  open_issues: 6
   last_commit: '2026-02-21'
-  fetched_at: '2026-03-01T04:22:53.657405Z'
-indexed_at: '2026-03-01T05:39:09.017401Z'
+  fetched_at: '2026-03-02T04:13:52.445702Z'
+indexed_at: '2026-03-02T04:35:37.713814Z'
 ---

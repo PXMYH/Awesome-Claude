@@ -24,30 +24,30 @@ tools_mentioned:
 - javascript
 - Go
 category: official
-category_display: Official
+category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/algorithmic-art/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/algorithmic-art/SKILL.md
-fetched_at: '2026-03-01T04:21:47.819278+00:00'
+fetched_at: '2026-03-02T04:13:37.381830Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:01:46.589145Z'
+  evaluated_at: '2026-03-02T04:31:41.574694Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55ed80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2c268a99d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55ed80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2c268a99d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 79599
-  forks: 8309
-  open_issues: 353
+  stars: 80507
+  forks: 8441
+  open_issues: 358
   last_commit: '2026-02-25'
-  fetched_at: '2026-03-01T04:22:54.141506Z'
-indexed_at: '2026-03-01T05:39:09.098113Z'
+  fetched_at: '2026-03-02T04:13:53.018231Z'
+indexed_at: '2026-03-02T04:35:37.807853Z'
 ---
