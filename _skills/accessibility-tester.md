@@ -28,26 +28,26 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/accessibility-tester.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/accessibility-tester.md
-fetched_at: '2026-03-04T04:08:05.374052Z'
+fetched_at: '2026-03-05T04:11:40.211590Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-04T04:15:42.167455Z'
+  evaluated_at: '2026-03-05T04:19:30.673183Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7216099670 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8383d43c80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7216099670 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8383d43c80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 12382
-  forks: 1329
-  open_issues: 6
+  stars: 12503
+  forks: 1349
+  open_issues: 8
   last_commit: '2026-03-03'
-  fetched_at: '2026-03-04T04:08:29.642804Z'
-indexed_at: '2026-03-04T04:30:22.087922Z'
+  fetched_at: '2026-03-05T04:12:18.527261Z'
+indexed_at: '2026-03-05T04:34:16.638557Z'
 ---

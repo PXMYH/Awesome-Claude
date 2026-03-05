@@ -24,36 +24,36 @@ prompt_preview: '---
 full_prompt_length: 6604
 tools_mentioned:
 - Go
-- TypeScript
-- Rust
 - Python
-- Java
+- TypeScript
 - JavaScript
+- Java
+- Rust
 category: quality-security
 category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/code-reviewer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/code-reviewer.md
-fetched_at: '2026-03-04T04:08:06.060281Z'
+fetched_at: '2026-03-05T04:11:41.091897Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-04T04:16:14.776713Z'
+  evaluated_at: '2026-03-05T04:20:03.189278Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f72160ab080 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f838329f320 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f72160ab080 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f838329f320 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 12382
-  forks: 1329
-  open_issues: 6
+  stars: 12503
+  forks: 1349
+  open_issues: 8
   last_commit: '2026-03-03'
-  fetched_at: '2026-03-04T04:08:29.642804Z'
-indexed_at: '2026-03-04T04:30:22.097999Z'
+  fetched_at: '2026-03-05T04:12:18.527261Z'
+indexed_at: '2026-03-05T04:34:16.649998Z'
 ---
