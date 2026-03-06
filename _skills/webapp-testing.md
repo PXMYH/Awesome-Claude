@@ -27,33 +27,33 @@ prompt_preview: '---
   - `scripts/with_server.py` - Manages server lifecycle (supports multiple servers)...'
 full_prompt_length: 3861
 tools_mentioned:
-- python
 - Python
+- python
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/webapp-testing/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/webapp-testing/SKILL.md
-fetched_at: '2026-03-05T04:12:09.095995Z'
+fetched_at: '2026-03-06T04:09:04.642390Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-05T04:32:14.496418Z'
+  evaluated_at: '2026-03-06T04:29:07.423707Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f83834ef5c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc95173e4b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f83834ef5c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc95173e4b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 83932
-  forks: 8831
-  open_issues: 384
+  stars: 85153
+  forks: 8981
+  open_issues: 394
   last_commit: '2026-03-04'
-  fetched_at: '2026-03-05T04:12:19.248653Z'
-indexed_at: '2026-03-05T04:34:16.912343Z'
+  fetched_at: '2026-03-06T04:09:10.309284Z'
+indexed_at: '2026-03-06T04:31:09.747968Z'
 ---
