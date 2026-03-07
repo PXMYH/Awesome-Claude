@@ -23,39 +23,39 @@ prompt_preview: '---
   and rapid development with emphasis on b...'
 full_prompt_length: 6327
 tools_mentioned:
-- ruby
-- Kubernetes
-- Ruby
-- WebSocket
-- GraphQL
 - Docker
-- Redis
+- GraphQL
 - redis
+- Redis
+- WebSocket
+- Ruby
+- Kubernetes
+- ruby
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/rails-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/rails-expert.md
-fetched_at: '2026-03-06T04:08:41.693038Z'
+fetched_at: '2026-03-07T03:59:48.003502Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-06T04:13:07.481321Z'
+  evaluated_at: '2026-03-07T04:04:25.938464Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc950d259d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4f589bf0e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc950d259d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4f589bf0e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 12623
-  forks: 1365
-  open_issues: 8
+  stars: 12735
+  forks: 1373
+  open_issues: 4
   last_commit: '2026-03-03'
-  fetched_at: '2026-03-06T04:09:09.900403Z'
-indexed_at: '2026-03-06T04:31:09.405242Z'
+  fetched_at: '2026-03-07T04:00:25.398262Z'
+indexed_at: '2026-03-07T04:22:43.618599Z'
 ---
