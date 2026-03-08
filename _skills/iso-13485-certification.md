@@ -2,7 +2,8 @@
 id: iso-13485-certification
 slug: iso-13485-certification
 name: ISO 13485 Certification Documentation Assistant
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: '**Need help?** Start by describing your situation: what stage you''re
+  at, what you have, and what you need to create.'
 prompt_preview: '---
 
   name: iso-13485-certification
@@ -13,27 +14,26 @@ prompt_preview: '---
   (2) creating Quality Manuals, (3) developing required procedures and work instructions,
   (4) preparing Medical Device Files, (5) understanding ISO 13485 requirements, or
   (6) identifying missing documentation f...'
-full_prompt_length: 24060
+full_prompt_length: 23241
 tools_mentioned:
-- Go
-- go
 - python
+- Go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/iso-13485-certification/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/iso-13485-certification/SKILL.md
-fetched_at: '2026-03-01T04:21:15.668721+00:00'
+fetched_at: '2026-03-08T04:09:15.553314+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:31:19.989898Z'
+  evaluated_at: '2026-03-08T04:21:49.200246Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7c397a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f78801f7b90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7c397a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f78801f7b90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.503972Z'
-indexed_at: '2026-03-01T05:39:08.503977Z'
+  fetched_at: '2026-03-08T05:42:13.757239Z'
+indexed_at: '2026-03-08T05:42:13.757244Z'
 ---

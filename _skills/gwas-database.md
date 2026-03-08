@@ -2,7 +2,7 @@
 id: gwas-database
 slug: gwas-database
 name: GWAS Catalog Database
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: '- **GWAS Catalog website**: https://www.ebi.ac.uk/gwas/'
 prompt_preview: "---\nname: gwas-database\ndescription: Query NHGRI-EBI GWAS Catalog\
   \ for SNP-trait associations. Search variants by rs ID, disease/trait, gene, retrieve\
   \ p-values and summary statistics, for genetic epidemiology and polygenic risk scores.\n\
@@ -10,29 +10,28 @@ prompt_preview: "---\nname: gwas-database\ndescription: Query NHGRI-EBI GWAS Cat
   \ Database\n\n## Overview\n\nThe GWAS Catalog is a comprehensive repository of published\
   \ genome-wide association studies maintained by the National Human Genome Research\
   \ Institute (NHGRI) and t..."
-full_prompt_length: 20885
+full_prompt_length: 20066
 tools_mentioned:
-- REST
 - rest
-- Python
-- go
+- REST
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/gwas-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/gwas-database/SKILL.md
-fetched_at: '2026-03-01T04:21:14.239411+00:00'
+fetched_at: '2026-03-08T04:09:14.541172+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:30:14.947302Z'
+  evaluated_at: '2026-03-08T04:20:35.819070Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55f3e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd6ff0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55f3e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd6ff0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.482889Z'
-indexed_at: '2026-03-01T05:39:08.482897Z'
+  fetched_at: '2026-03-08T05:42:13.731678Z'
+indexed_at: '2026-03-08T05:42:13.731683Z'
 ---

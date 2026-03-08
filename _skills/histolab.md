@@ -2,7 +2,9 @@
 id: histolab
 slug: histolab
 name: Histolab
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: '**Usage pattern:** Reference files contain in-depth information to support
+  workflows described in this main skill document. Load specific reference files as
+  needed for detailed implementation guidance...'
 prompt_preview: "---\nname: histolab\ndescription: Lightweight WSI tile extraction\
   \ and preprocessing. Use for basic slide processing tissue detection, tile extraction,\
   \ stain normalization for H&E images. Best for simple pipelines, dataset preparation,\
@@ -10,9 +12,8 @@ prompt_preview: "---\nname: histolab\ndescription: Lightweight WSI tile extracti
   \ or deep learning pipelines use pathml.\nlicense: Apache-2.0 license\nmetadata:\n\
   \    skill-author: K-Dense Inc.\n---\n\n# Histolab\n\n## Overview\n\nHistolab is\
   \ a Python library for processing whol..."
-full_prompt_length: 20971
+full_prompt_length: 20152
 tools_mentioned:
-- go
 - python
 - Python
 category: scientific
@@ -20,17 +21,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/histolab/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/histolab/SKILL.md
-fetched_at: '2026-03-01T04:21:14.560985+00:00'
+fetched_at: '2026-03-08T04:09:14.754882+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:30:31.176459Z'
+  evaluated_at: '2026-03-08T04:20:52.110050Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55dd60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc0a4e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55dd60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc0a4e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.488617Z'
-indexed_at: '2026-03-01T05:39:08.488623Z'
+  fetched_at: '2026-03-08T05:42:13.737435Z'
+indexed_at: '2026-03-08T05:42:13.737440Z'
 ---

@@ -2,7 +2,8 @@
 id: matchms
 slug: matchms
 name: Matchms
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: Load these references as needed for detailed information about specific
+  matchms capabilities.
 prompt_preview: "---\nname: matchms\ndescription: Spectral similarity and compound\
   \ identification for metabolomics. Use for comparing mass spectra, computing similarity\
   \ scores (cosine, modified cosine), and identifying unknown compounds from spectral\
@@ -10,9 +11,8 @@ prompt_preview: "---\nname: matchms\ndescription: Spectral similarity and compou
   \ For full LC-MS/MS proteomics pipelines use pyopenms.\nlicense: Apache-2.0 license\n\
   metadata:\n    skill-author: K-Dense Inc.\n---\n\n# Matchms\n\n## Overview\n\nMatchms\
   \ is an open-source Python..."
-full_prompt_length: 7829
+full_prompt_length: 7010
 tools_mentioned:
-- go
 - python
 - Python
 category: scientific
@@ -20,17 +20,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/matchms/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/matchms/SKILL.md
-fetched_at: '2026-03-01T04:21:16.902463+00:00'
+fetched_at: '2026-03-08T04:09:16.758355+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:32:41.889518Z'
+  evaluated_at: '2026-03-08T04:23:18.849736Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7bb078f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa42e10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7bb078f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa42e10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.529531Z'
-indexed_at: '2026-03-01T05:39:08.529536Z'
+  fetched_at: '2026-03-08T05:42:13.788498Z'
+indexed_at: '2026-03-08T05:42:13.788503Z'
 ---

@@ -2,7 +2,8 @@
 id: opentargets-database
 slug: opentargets-database
 name: Open Targets Database
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: 1. **API is for exploratory queries:** For systematic analyses of many
+  targets/diseases, use data downloads or BigQuery
 prompt_preview: "---\nname: opentargets-database\ndescription: Query Open Targets\
   \ Platform for target-disease associations, drug target discovery, tractability/safety\
   \ data, genetics/omics evidence, known drugs, for therapeutic target identification.\n\
@@ -10,10 +11,9 @@ prompt_preview: "---\nname: opentargets-database\ndescription: Query Open Target
   \ Database\n\n## Overview\n\nThe Open Targets Platform is a comprehensive resource\
   \ for systematic identification and prioritization of potential therapeutic drug\
   \ targets. It integrates publicly ava..."
-full_prompt_length: 14890
+full_prompt_length: 14071
 tools_mentioned:
 - graphql
-- go
 - GraphQL
 - python
 category: scientific
@@ -21,17 +21,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/opentargets-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/opentargets-database/SKILL.md
-fetched_at: '2026-03-01T04:21:19.116278+00:00'
+fetched_at: '2026-03-08T04:09:18.487694+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:34:36.104505Z'
+  evaluated_at: '2026-03-08T04:25:29.251450Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b908c50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7da0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b908c50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7da0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.588534Z'
-indexed_at: '2026-03-01T05:39:08.588540Z'
+  fetched_at: '2026-03-08T05:42:13.834697Z'
+indexed_at: '2026-03-08T05:42:13.834702Z'
 ---

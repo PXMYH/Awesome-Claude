@@ -2,7 +2,7 @@
 id: scvi-tools
 slug: scvi-tools
 name: scvi-tools
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: '1. **Use raw counts**: Always provide unnormalized count data to models'
 prompt_preview: "---\nname: scvi-tools\ndescription: Deep generative models for single-cell\
   \ omics. Use when you need probabilistic batch correction (scVI), transfer learning,\
   \ differential expression with uncertainty, or multi-modal integration (TOTALVI,\
@@ -10,9 +10,8 @@ prompt_preview: "---\nname: scvi-tools\ndescription: Deep generative models for 
   \ analysis pipelines use scanpy.\nlicense: BSD-3-Clause license\nmetadata:\n   \
   \ skill-author: K-Dense Inc.\n---\n\n# scvi-tools\n\n## Overview\n\nscvi-tools is\
   \ a comprehensive Python framework f..."
-full_prompt_length: 8054
+full_prompt_length: 7235
 tools_mentioned:
-- go
 - python
 - Python
 category: scientific
@@ -20,17 +19,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scvi-tools/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scvi-tools/SKILL.md
-fetched_at: '2026-03-01T04:21:24.901963+00:00'
+fetched_at: '2026-03-08T04:09:24.079013+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:40:42.281485Z'
+  evaluated_at: '2026-03-08T04:32:18.639993Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b726d50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa40b30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b726d50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa40b30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.715611Z'
-indexed_at: '2026-03-01T05:39:08.715616Z'
+  fetched_at: '2026-03-08T05:42:13.976988Z'
+indexed_at: '2026-03-08T05:42:13.976993Z'
 ---

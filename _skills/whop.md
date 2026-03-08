@@ -12,25 +12,25 @@ prompt_preview: "---\nname: whop\ndescription: Whop platform expert for digital 
   \ raintree\n  version: \"1.0..."
 full_prompt_length: 9890
 tools_mentioned:
-- JavaScript
 - typescript
 - TypeScript
+- JavaScript
 category: community
 category_display: Community
 source_repo: raintree-technology/claude-starter
 source_path: skills/whop/SKILL.md
 source_url: https://github.com/raintree-technology/claude-starter/blob/main/skills/whop/SKILL.md
-fetched_at: '2026-03-01T04:22:26.287868+00:00'
+fetched_at: '2026-03-08T04:10:36.075322+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:25:49.513710Z'
+  evaluated_at: '2026-03-08T05:28:43.881086Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55cb90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc8b3e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55cb90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc8b3e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.546479Z'
-indexed_at: '2026-03-01T05:39:09.546485Z'
+  fetched_at: '2026-03-08T05:42:15.147668Z'
+indexed_at: '2026-03-08T05:42:15.147673Z'
 ---

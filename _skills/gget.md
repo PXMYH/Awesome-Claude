@@ -2,7 +2,7 @@
 id: gget
 slug: gget
 name: gget
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: 'For additional help:'
 prompt_preview: "---\nname: gget\ndescription: \"Fast CLI/Python queries to 20+ bioinformatics\
   \ databases. Use for quick lookups: gene info, BLAST searches, AlphaFold structures,\
   \ enrichment analysis. Best for interactive exploration, simple queries. For batch\
@@ -10,9 +10,8 @@ prompt_preview: "---\nname: gget\ndescription: \"Fast CLI/Python queries to 20+ 
   \ use bioservices.\"\nlicense: BSD-2-Clause license\nmetadata:\n    skill-author:\
   \ K-Dense Inc.\n---\n\n# gget\n\n## Overview\n\ngget is a command-line bioinformatics\
   \ tool and Python package prov..."
-full_prompt_length: 25898
+full_prompt_length: 25078
 tools_mentioned:
-- go
 - python
 - Python
 category: scientific
@@ -20,17 +19,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/gget/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/gget/SKILL.md
-fetched_at: '2026-03-01T04:21:13.991123+00:00'
+fetched_at: '2026-03-08T04:09:13.931300+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:29:58.269505Z'
+  evaluated_at: '2026-03-08T04:19:46.970865Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7bdf7830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7880aff9b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7bdf7830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7880aff9b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.477291Z'
-indexed_at: '2026-03-01T05:39:08.477296Z'
+  fetched_at: '2026-03-08T05:42:13.715033Z'
+indexed_at: '2026-03-08T05:42:13.715043Z'
 ---

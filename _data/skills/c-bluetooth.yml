@@ -1,0 +1,56 @@
+id: c-bluetooth
+slug: c-bluetooth
+name: List all paired/known devices
+description: '- `blu` only manages already-paired devices. New device pairing must
+  be done via macOS System Settings.'
+prompt_preview: '---
+
+  name: c-bluetooth
+
+  description: Manage Bluetooth devices on macOS using the blucli (`blu`) CLI. List
+  paired and available devices, connect to headphones/speakers/keyboards, and disconnect
+  devices by name or MAC address.
+
+  tags: [bluetooth, hardware, macos, devices, audio]
+
+  ---
+
+
+  ## What This Skill Does
+
+
+  Manages Bluetooth device connections on macOS using `blu` (blucli). You can list
+  available devices, connect to a device by name or MAC address, and disconnect active
+  devices.
+
+
+  ## CLI Tool: `blu`...'
+full_prompt_length: 1363
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: daxaur/openpaw
+source_path: skills/c-bluetooth/SKILL.md
+source_url: https://github.com/daxaur/openpaw/blob/main/skills/c-bluetooth/SKILL.md
+fetched_at: '2026-03-08T04:09:52.041682+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-08T04:56:53.377925Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa68470 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa68470 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-08T05:42:14.493540Z'
+indexed_at: '2026-03-08T05:42:14.493545Z'

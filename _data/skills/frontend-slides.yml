@@ -1,7 +1,7 @@
 id: frontend-slides
 slug: frontend-slides
-name: Frontend Slides Skill
-description: '1. User: "Convert my slides.pptx to a web presentation"'
+name: Frontend Slides
+description: '| File | Purpose | When to Read |'
 prompt_preview: '---
 
   name: frontend-slides
@@ -14,35 +14,39 @@ prompt_preview: '---
   ---
 
 
-  # Frontend Slides Skill
+  # Frontend Slides
 
 
   Create zero-dependency, animation-rich HTML presentations that run entirely in the
-  browser. This skill helps non-design...'
-full_prompt_length: 48388
+  browser.
+
+
+  ## Core Principles
+
+
+  1. **Zero De...'
+full_prompt_length: 11709
 tools_mentioned:
-- JavaScript
-- Python
-- go
-- react
-- javascript
+- React
 - python
+- Python
+- Go
 category: community
 category_display: Community
 source_repo: zarazhangrui/frontend-slides
 source_path: SKILL.md
 source_url: https://github.com/zarazhangrui/frontend-slides/blob/main/SKILL.md
-fetched_at: '2026-03-01T04:22:50.382745+00:00'
+fetched_at: '2026-03-08T04:10:57.803142+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:38:27.083278Z'
+  evaluated_at: '2026-03-08T05:41:32.555569Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7e5b80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc6f950 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7e5b80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc6f950 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -52,5 +56,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.781923Z'
-indexed_at: '2026-03-01T05:39:09.781928Z'
+  fetched_at: '2026-03-08T05:42:15.415404Z'
+indexed_at: '2026-03-08T05:42:15.415409Z'

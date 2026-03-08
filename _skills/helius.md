@@ -12,25 +12,25 @@ prompt_preview: "---\nname: helius\ndescription: Helius Solana RPC and API exper
   \  version..."
 full_prompt_length: 9366
 tools_mentioned:
+- typescript
 - javascript
 - gRPC
-- typescript
 category: community
 category_display: Community
 source_repo: raintree-technology/claude-starter
 source_path: skills/helius/SKILL.md
 source_url: https://github.com/raintree-technology/claude-starter/blob/main/skills/helius/SKILL.md
-fetched_at: '2026-03-01T04:22:25.909442+00:00'
+fetched_at: '2026-03-08T04:10:35.708361+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:25:25.056808Z'
+  evaluated_at: '2026-03-08T05:28:19.447519Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b945160 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa42840 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b945160 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa42840 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.538951Z'
-indexed_at: '2026-03-01T05:39:09.538956Z'
+  fetched_at: '2026-03-08T05:42:15.139295Z'
+indexed_at: '2026-03-08T05:42:15.139300Z'
 ---

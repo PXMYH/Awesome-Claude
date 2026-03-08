@@ -2,7 +2,7 @@
 id: deeptools
 slug: deeptools
 name: 'deepTools: NGS Data Analysis Toolkit'
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: '- **File validation first**: Always validate input files before analysis'
 prompt_preview: "---\nname: deeptools\ndescription: NGS analysis toolkit. BAM to bigWig\
   \ conversion, QC (correlation, PCA, fingerprints), heatmaps/profiles (TSS, peaks),\
   \ for ChIP-seq, RNA-seq, ATAC-seq visualization.\nlicense: BSD license\nmetadata:\n\
@@ -10,9 +10,8 @@ prompt_preview: "---\nname: deeptools\ndescription: NGS analysis toolkit. BAM to
   \n## Overview\n\ndeepTools is a comprehensive suite of Python command-line tools\
   \ designed for processing and analyzing high-throughput sequencing data. Use deepTools\
   \ to perform quality control, normal..."
-full_prompt_length: 18783
+full_prompt_length: 17964
 tools_mentioned:
-- go
 - python
 - Python
 category: scientific
@@ -20,17 +19,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/deeptools/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/deeptools/SKILL.md
-fetched_at: '2026-03-01T04:21:11.307192+00:00'
+fetched_at: '2026-03-08T04:09:11.233710+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:27:07.439893Z'
+  evaluated_at: '2026-03-08T04:16:22.340942Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55f440 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fd09040 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55f440 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fd09040 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.424231Z'
-indexed_at: '2026-03-01T05:39:08.424237Z'
+  fetched_at: '2026-03-08T05:42:13.642633Z'
+indexed_at: '2026-03-08T05:42:13.642639Z'
 ---

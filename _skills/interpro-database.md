@@ -1,0 +1,47 @@
+---
+id: interpro-database
+slug: interpro-database
+name: InterPro Database
+description: '- **InterPro website**: https://www.ebi.ac.uk/interpro/'
+prompt_preview: "---\nname: interpro-database\ndescription: Query InterPro for protein\
+  \ family, domain, and functional site annotations. Integrates Pfam, PANTHER, PRINTS,\
+  \ SMART, SUPERFAMILY, and 11 other member databases. Use for protein function prediction,\
+  \ domain architecture analysis, evolutionary classification, and GO term mapping.\n\
+  license: CC0-1.0\nmetadata:\n    skill-author: Kuan-lin Huang\n---\n\n# InterPro\
+  \ Database\n\n## Overview\n\nInterPro (https://www.ebi.ac.uk/interpro/) is a comprehensive\
+  \ resource for protein..."
+full_prompt_length: 10785
+tools_mentioned:
+- GO
+- Python
+- python
+- go
+- REST
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/interpro-database/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/interpro-database/SKILL.md
+fetched_at: '2026-03-08T04:09:15.429225+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-08T04:21:41.031065Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fdd1a90 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fdd1a90 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-08T05:42:13.754405Z'
+indexed_at: '2026-03-08T05:42:13.754410Z'
+---

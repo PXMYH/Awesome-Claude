@@ -1,7 +1,7 @@
 id: drugbank-database
 slug: drugbank-database
 name: DrugBank Database
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: Load these references as needed based on your specific analysis requirements.
 prompt_preview: '---
 
   name: drugbank-database
@@ -12,28 +12,28 @@ prompt_preview: '---
   data, drug discovery research, pharmacology studies, drug-drug interaction analysis,
   target identification, chemical similarity searches, ADMET predictions, or any task
   requiring detailed drug and drug target informatio...'
-full_prompt_length: 10217
+full_prompt_length: 9398
 tools_mentioned:
-- GO
 - go
 - python
+- GO
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/drugbank-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/drugbank-database/SKILL.md
-fetched_at: '2026-03-01T04:21:11.962823+00:00'
+fetched_at: '2026-03-08T04:09:12.005424+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:27:39.943109Z'
+  evaluated_at: '2026-03-08T04:17:19.810110Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55cfe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7800 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55cfe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7800 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,5 +43,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.434401Z'
-indexed_at: '2026-03-01T05:39:08.434406Z'
+  fetched_at: '2026-03-08T05:42:13.662222Z'
+indexed_at: '2026-03-08T05:42:13.662227Z'

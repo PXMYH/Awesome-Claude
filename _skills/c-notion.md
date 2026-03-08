@@ -1,0 +1,61 @@
+---
+id: c-notion
+slug: c-notion
+name: C Notion
+description: Claude skill for C Notion
+prompt_preview: '---
+
+  name: c-notion
+
+  description: Manage Notion pages and databases from the CLI using notion-cli. Create,
+  read, search, and update pages. Query databases, add entries, and manage blocks
+  and properties.
+
+  tags: [notion, pages, databases, notion-cli, productivity]
+
+  ---
+
+
+  This skill manages Notion workspaces using the `notion-cli` tool.
+
+
+  ## Pages
+
+
+  ```bash
+
+  notion-cli page list                        # List recent pages
+
+  notion-cli page search "query"              # Search pages by title/content
+
+  notion-cli...'
+full_prompt_length: 2002
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: daxaur/openpaw
+source_path: skills/c-notion/SKILL.md
+source_url: https://github.com/daxaur/openpaw/blob/main/skills/c-notion/SKILL.md
+fetched_at: '2026-03-08T04:09:54.954449+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-08T05:00:01.332878Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7ec0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7ec0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-08T05:42:14.555121Z'
+indexed_at: '2026-03-08T05:42:14.555126Z'
+---

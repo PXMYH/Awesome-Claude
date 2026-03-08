@@ -13,30 +13,30 @@ prompt_preview: '---
   DynamoDB, Step Functions, EventBridge, SQS, SNS, and serverless patterns. Essential
   when user mentions serverless, Lambda, API Gateway, event-driven, async processing,
   queues, pub/sub, or wants to build scal...'
-full_prompt_length: 21786
+full_prompt_length: 12846
 tools_mentioned:
-- REST
-- aws
 - typescript
-- TypeScript
+- aws
 - Python
+- TypeScript
 - AWS
+- REST
 category: infrastructure
 category_display: Infrastructure
 source_repo: zxkane/aws-skills
 source_path: plugins/serverless-eda/skills/aws-serverless-eda/SKILL.md
 source_url: https://github.com/zxkane/aws-skills/blob/main/plugins/serverless-eda/skills/aws-serverless-eda/SKILL.md
-fetched_at: '2026-03-01T04:22:52.349998+00:00'
+fetched_at: '2026-03-08T04:10:59.548265+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:39:08.197988Z'
+  evaluated_at: '2026-03-08T05:42:13.368999Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5b3710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa42240 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5b3710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa42240 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.794935Z'
-indexed_at: '2026-03-01T05:39:09.794940Z'
+  fetched_at: '2026-03-08T05:42:15.429730Z'
+indexed_at: '2026-03-08T05:42:15.429735Z'

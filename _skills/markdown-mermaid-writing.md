@@ -3,14 +3,14 @@ id: markdown-mermaid-writing
 slug: markdown-mermaid-writing
 name: Markdown and Mermaid Writing
 description: '[^2]: Mermaid. "Mermaid Diagramming and Charting Tool." https://mermaid.js.org/'
-prompt_preview: "---\nname: markdown-mermaid-writing\ndescription: >\n  Comprehensive\
-  \ markdown and Mermaid diagram writing skill that establishes text-based\n  diagrams\
-  \ as the DEFAULT documentation standard. Use this skill when creating ANY\n  scientific\
-  \ document, report, analysis, or visualization — it ensures all outputs are\n  in\
-  \ version-controlled, token-efficient markdown with embedded Mermaid diagrams as\
-  \ the\n  source of truth, with clear pathways to downstream Python or AI-generated\
-  \ images.\n  Includes full style..."
-full_prompt_length: 14999
+prompt_preview: "---\nname: markdown-mermaid-writing\ndescription: Comprehensive markdown\
+  \ and Mermaid diagram writing skill. Use when creating any scientific document,\
+  \ report, analysis, or visualization. Establishes text-based diagrams as the default\
+  \ documentation standard with full style guides (markdown + mermaid), 24 diagram\
+  \ type references, and 9 document templates.\nallowed-tools: Read Write Edit Bash\n\
+  license: Apache-2.0\nmetadata:\n  skill-author: Clayton Young / Superior Byte Works,\
+  \ LLC (@borealBytes)\n  skill-..."
+full_prompt_length: 14754
 tools_mentioned:
 - Python
 category: scientific
@@ -18,17 +18,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/markdown-mermaid-writing/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/markdown-mermaid-writing/SKILL.md
-fetched_at: '2026-03-01T04:21:16.547959+00:00'
+fetched_at: '2026-03-08T04:09:16.421368+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:32:17.525482Z'
+  evaluated_at: '2026-03-08T04:22:54.372300Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55e8d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f78803b7bf0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55e8d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f78803b7bf0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.521984Z'
-indexed_at: '2026-03-01T05:39:08.521989Z'
+  fetched_at: '2026-03-08T05:42:13.779773Z'
+indexed_at: '2026-03-08T05:42:13.779778Z'
 ---

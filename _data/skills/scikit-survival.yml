@@ -1,7 +1,7 @@
 id: scikit-survival
 slug: scikit-survival
 name: 'scikit-survival: Survival Analysis in Python'
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: '# Kernels'
 prompt_preview: '---
 
   name: scikit-survival
@@ -12,9 +12,8 @@ prompt_preview: '---
   Gradient Boosting models, or Survival SVMs, evaluating survival predictions with
   concordance index or Brier score, handling competing risks, or implementing any
   survival analysis workflow with the scikit-survival library...'
-full_prompt_length: 15781
+full_prompt_length: 14962
 tools_mentioned:
-- go
 - python
 - Python
 category: scientific
@@ -22,17 +21,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scikit-survival/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scikit-survival/SKILL.md
-fetched_at: '2026-03-01T04:21:24.784484+00:00'
+fetched_at: '2026-03-08T04:09:23.876136+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:40:34.168642Z'
+  evaluated_at: '2026-03-08T04:32:02.311303Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727dd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa42ae0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727dd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa42ae0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.713105Z'
-indexed_at: '2026-03-01T05:39:08.713111Z'
+  fetched_at: '2026-03-08T05:42:13.971349Z'
+indexed_at: '2026-03-08T05:42:13.971354Z'

@@ -2,7 +2,7 @@
 id: sympy
 slug: sympy
 name: SymPy - Symbolic Mathematics in Python
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: '- Official Documentation: https://docs.sympy.org/'
 prompt_preview: '---
 
   name: sympy
@@ -13,9 +13,8 @@ prompt_preview: '---
   manipulating algebraic expressions, working with matrices symbolically, physics
   calculations, number theory problems, geometry computations, and generating executable
   code from mathematical expressions. Apply this skill when the user needs e...'
-full_prompt_length: 14286
+full_prompt_length: 13467
 tools_mentioned:
-- go
 - python
 - Python
 category: scientific
@@ -23,17 +22,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/sympy/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/sympy/SKILL.md
-fetched_at: '2026-03-01T04:21:25.841583+00:00'
+fetched_at: '2026-03-08T04:09:24.963071+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:41:47.329994Z'
+  evaluated_at: '2026-03-08T04:33:24.453204Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b589910 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa43dd0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b589910 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa43dd0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.735685Z'
-indexed_at: '2026-03-01T05:39:08.735690Z'
+  fetched_at: '2026-03-08T05:42:13.999947Z'
+indexed_at: '2026-03-08T05:42:13.999966Z'
 ---

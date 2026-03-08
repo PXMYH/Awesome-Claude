@@ -2,7 +2,8 @@
 id: shap
 slug: shap
 name: SHAP (SHapley Additive exPlanations)
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: This skill provides comprehensive coverage of SHAP for model interpretability
+  across all use cases and model types.
 prompt_preview: '---
 
   name: shap
@@ -13,7 +14,7 @@ prompt_preview: '---
   force, heatmap), debugging models, analyzing model bias or fairness, comparing models,
   or implementing explainable AI. Works with tree-based models (XGBoost, LightGBM,
   Random Forest), deep learning (TensorFlow, PyTorch), linear mod...'
-full_prompt_length: 19224
+full_prompt_length: 18405
 tools_mentioned:
 - go
 - python
@@ -22,17 +23,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/shap/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/shap/SKILL.md
-fetched_at: '2026-03-01T04:21:25.142337+00:00'
+fetched_at: '2026-03-08T04:09:24.320292+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:40:58.552513Z'
+  evaluated_at: '2026-03-08T04:32:35.456853Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b979880 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1d130 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b979880 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1d130 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.720841Z'
-indexed_at: '2026-03-01T05:39:08.720852Z'
+  fetched_at: '2026-03-08T05:42:13.982714Z'
+indexed_at: '2026-03-08T05:42:13.982719Z'
 ---

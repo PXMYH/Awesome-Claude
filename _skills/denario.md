@@ -2,7 +2,7 @@
 id: denario
 slug: denario
 name: Denario
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: 'Common issues and solutions:'
 prompt_preview: '---
 
   name: denario
@@ -17,28 +17,27 @@ prompt_preview: '---
   license: GPL-3.0 license
 
   metadata:...'
-full_prompt_length: 6819
+full_prompt_length: 6000
 tools_mentioned:
-- Docker
-- go
-- Python
 - python
+- Python
+- Docker
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/denario/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/denario/SKILL.md
-fetched_at: '2026-03-01T04:21:11.429460+00:00'
+fetched_at: '2026-03-08T04:09:11.338130+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:27:15.566333Z'
+  evaluated_at: '2026-03-08T04:16:30.540564Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7bdeb4a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa415b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7bdeb4a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa415b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.426781Z'
-indexed_at: '2026-03-01T05:39:08.426786Z'
+  fetched_at: '2026-03-08T05:42:13.645441Z'
+indexed_at: '2026-03-08T05:42:13.645446Z'
 ---

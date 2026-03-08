@@ -80,17 +80,17 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/sexual-health-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/sexual-health-analyzer/SKILL.md
-fetched_at: '2026-03-01T04:22:04.727786+00:00'
+fetched_at: '2026-03-08T04:10:07.773891+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:14:08.325653Z'
+  evaluated_at: '2026-03-08T05:11:54.609933Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7255b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa69a60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7255b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa69a60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -100,6 +100,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.331278Z'
-indexed_at: '2026-03-01T05:39:09.331284Z'
+  fetched_at: '2026-03-08T05:42:14.795148Z'
+indexed_at: '2026-03-08T05:42:14.795154Z'
 ---

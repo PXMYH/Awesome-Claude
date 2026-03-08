@@ -1,7 +1,7 @@
 id: cirq
 slug: cirq
 name: Cirq - Quantum Computing with Python
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: '**Noisy simulation too slow:**'
 prompt_preview: "---\nname: cirq\ndescription: Google quantum computing framework.\
   \ Use when targeting Google Quantum AI hardware, designing noise-aware circuits,\
   \ or running quantum characterization experiments. Best for Google hardware, noise\
@@ -9,29 +9,28 @@ prompt_preview: "---\nname: cirq\ndescription: Google quantum computing framewor
   \ ML with autodiff use pennylane; for physics simulations use qutip.\nlicense: Apache-2.0\
   \ license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# Cirq - Quantum Computing\
   \ with Python\n\nCirq is Google..."
-full_prompt_length: 11466
+full_prompt_length: 10647
 tools_mentioned:
-- Python
 - Azure
-- azure
-- go
 - python
+- Python
+- azure
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/cirq/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/cirq/SKILL.md
-fetched_at: '2026-03-01T04:21:09.727769+00:00'
+fetched_at: '2026-03-08T04:09:09.660533+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:25:21.683335Z'
+  evaluated_at: '2026-03-08T04:14:26.881369Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b725250 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7880252960 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b725250 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7880252960 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.391176Z'
-indexed_at: '2026-03-01T05:39:08.391181Z'
+  fetched_at: '2026-03-08T05:42:13.603182Z'
+indexed_at: '2026-03-08T05:42:13.603187Z'

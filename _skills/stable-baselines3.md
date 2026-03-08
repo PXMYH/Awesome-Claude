@@ -2,7 +2,7 @@
 id: stable-baselines3
 slug: stable-baselines3
 name: Stable Baselines3
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: '# With extra dependencies (Tensorboard, etc.)'
 prompt_preview: "---\nname: stable-baselines3\ndescription: Production-ready reinforcement\
   \ learning algorithms (PPO, SAC, DQN, TD3, DDPG, A2C) with scikit-learn-like API.\
   \ Use for standard RL experiments, quick prototyping, and well-documented algorithm\
@@ -10,26 +10,25 @@ prompt_preview: "---\nname: stable-baselines3\ndescription: Production-ready rei
   \ parallel training, multi-agent systems, or custom vectorized environments, use\
   \ pufferlib instead.\nlicense: MIT license\nmetadata:\n    skill-author: K-Dense\
   \ Inc.\n---\n\n# Stable..."
-full_prompt_length: 10326
+full_prompt_length: 9507
 tools_mentioned:
-- go
 - python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/stable-baselines3/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/stable-baselines3/SKILL.md
-fetched_at: '2026-03-01T04:21:25.376212+00:00'
+fetched_at: '2026-03-08T04:09:24.533106+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:41:14.834919Z'
+  evaluated_at: '2026-03-08T04:32:51.785795Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b58bf50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa42ab0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b58bf50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa42ab0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.725754Z'
-indexed_at: '2026-03-01T05:39:08.725759Z'
+  fetched_at: '2026-03-08T05:42:13.988430Z'
+indexed_at: '2026-03-08T05:42:13.988435Z'
 ---

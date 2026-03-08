@@ -1,35 +1,35 @@
 id: test-master
 slug: test-master
 name: Test Master
-description: Jest, Vitest, pytest, React Testing Library, Supertest, Playwright, Cypress,
-  k6, Artillery, OWASP testing, code coverage, mocking, fixtures, test automation
-  frameworks, CI/CD integration, quality metr...
-prompt_preview: "---\nname: test-master\ndescription: Use when writing tests, creating\
-  \ test strategies, or building automation frameworks. Invoke for unit tests, integration\
-  \ tests, E2E, coverage analysis, performance testing, security testing.\nlicense:\
-  \ MIT\nmetadata:\n  author: https://github.com/Jeffallan\n  version: \"1.0.0\"\n\
-  \  domain: quality\n  triggers: test, testing, QA, unit test, integration test,\
-  \ E2E, coverage, performance test, security test, regression, test strategy, test\
-  \ automation, test framework, quality..."
-full_prompt_length: 4100
-tools_mentioned:
-- React
+description: 'When creating test plans, provide:'
+prompt_preview: '---
+
+  name: test-master
+
+  description: Generates test files, creates mocking strategies, analyzes code coverage,
+  designs test architectures, and produces test plans and defect reports across functional,
+  performance, and security testing disciplines. Use when writing unit tests, integration
+  tests, or E2E tests; creating test strategies or automation frameworks; analyzing
+  coverage gaps; performance testing with k6 or Artillery; security testing with OWASP
+  methods; debugging flaky tests; or working on...'
+full_prompt_length: 4872
+tools_mentioned: []
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/test-master/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/test-master/SKILL.md
-fetched_at: '2026-03-01T04:22:14.311918+00:00'
+fetched_at: '2026-03-08T04:10:17.492677+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:18:20.816516Z'
+  evaluated_at: '2026-03-08T05:16:17.670837Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7e5130 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1eb70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7e5130 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1eb70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.409536Z'
-indexed_at: '2026-03-01T05:39:09.409541Z'
+  fetched_at: '2026-03-08T05:42:14.886148Z'
+indexed_at: '2026-03-08T05:42:14.886153Z'

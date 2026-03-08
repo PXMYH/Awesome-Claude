@@ -2,7 +2,8 @@
 id: scientific-writing
 slug: scientific-writing
 name: Scientific Writing
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: Load these references as needed when working on specific aspects of scientific
+  writing.
 prompt_preview: '---
 
   name: scientific-writing
@@ -18,26 +19,25 @@ prompt_preview: '---
   license: MIT license
 
   met...'
-full_prompt_length: 34542
+full_prompt_length: 33723
 tools_mentioned:
-- go
 - python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scientific-writing/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scientific-writing/SKILL.md
-fetched_at: '2026-03-01T04:21:24.384473+00:00'
+fetched_at: '2026-03-08T04:09:23.533447+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:40:09.809708Z'
+  evaluated_at: '2026-03-08T04:31:37.838871Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b909970 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fff6090 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b909970 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fff6090 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.705489Z'
-indexed_at: '2026-03-01T05:39:08.705495Z'
+  fetched_at: '2026-03-08T05:42:13.962844Z'
+indexed_at: '2026-03-08T05:42:13.962849Z'
 ---

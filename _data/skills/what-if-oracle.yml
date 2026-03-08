@@ -1,0 +1,45 @@
+id: what-if-oracle
+slug: what-if-oracle
+name: What-If Oracle — Possibility Space Explorer
+description: _"The future is not empty. It contains completed states that exert pull
+  on the present."_
+prompt_preview: '---
+
+  name: what-if-oracle
+
+  description: Run structured What-If scenario analysis with multi-branch possibility
+  exploration. Use this skill when the user asks speculative questions like "what
+  if...", "what would happen if...", "what are the possibilities", "explore scenarios",
+  "scenario analysis", "possibility space", "what could go wrong", "best case / worst
+  case", "risk analysis", "contingency planning", "strategic options", or any question
+  about uncertain futures. Also trigger when the user face...'
+full_prompt_length: 8754
+tools_mentioned:
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/what-if-oracle/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/what-if-oracle/SKILL.md
+fetched_at: '2026-03-08T04:09:26.412706+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-08T04:35:11.037431Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fd9a180 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fd9a180 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-08T05:42:14.037314Z'
+indexed_at: '2026-03-08T05:42:14.037320Z'

@@ -2,7 +2,7 @@
 id: clinpgx-database
 slug: clinpgx-database
 name: ClinPGx Database
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: '- **ClinPGx website**: https://www.clinpgx.org/'
 prompt_preview: "---\nname: clinpgx-database\ndescription: Access ClinPGx pharmacogenomics\
   \ data (successor to PharmGKB). Query gene-drug interactions, CPIC guidelines, allele\
   \ functions, for precision medicine and genotype-guided dosing decisions.\nlicense:\
@@ -10,28 +10,27 @@ prompt_preview: "---\nname: clinpgx-database\ndescription: Access ClinPGx pharma
   \n## Overview\n\nClinPGx (Clinical Pharmacogenomics Database) is a comprehensive\
   \ resource for clinical pharmacogenomics information, successor to PharmGKB. It\
   \ consolidates data from PharmGKB, C..."
-full_prompt_length: 21767
+full_prompt_length: 20948
 tools_mentioned:
-- go
+- REST
 - python
 - Python
-- REST
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/clinpgx-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/clinpgx-database/SKILL.md
-fetched_at: '2026-03-01T04:21:10.360509+00:00'
+fetched_at: '2026-03-08T04:09:10.251158+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:26:02.446047Z'
+  evaluated_at: '2026-03-08T04:15:08.011031Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7c397590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787ffab080 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7c397590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787ffab080 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.403950Z'
-indexed_at: '2026-03-01T05:39:08.403955Z'
+  fetched_at: '2026-03-08T05:42:13.617312Z'
+indexed_at: '2026-03-08T05:42:13.617317Z'
 ---

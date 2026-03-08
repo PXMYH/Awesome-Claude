@@ -29,17 +29,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/user-story-mapping/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/user-story-mapping/SKILL.md
-fetched_at: '2026-03-01T04:21:58.679976+00:00'
+fetched_at: '2026-03-08T04:10:02.354427+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:10:10.177850Z'
+  evaluated_at: '2026-03-08T05:07:56.513588Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7bec7170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787ff78170 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7bec7170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787ff78170 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.256337Z'
-indexed_at: '2026-03-01T05:39:09.256342Z'
+  fetched_at: '2026-03-08T05:42:14.713834Z'
+indexed_at: '2026-03-08T05:42:14.713840Z'
 ---

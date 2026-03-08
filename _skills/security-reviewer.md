@@ -5,14 +5,17 @@ name: Security Reviewer
 description: OWASP Top 10, CWE, Semgrep, Bandit, ESLint Security, gosec, npm audit,
   gitleaks, trufflehog, CVSS scoring, nmap, Burp Suite, sqlmap, Trivy, Checkov, HashiCorp
   Vault, AWS Security Hub, CIS benchmarks, ...
-prompt_preview: "---\nname: security-reviewer\ndescription: Use when conducting security\
-  \ audits, reviewing code for vulnerabilities, or analyzing infrastructure security.\
-  \ Invoke for SAST scans, penetration testing, DevSecOps practices, cloud security\
-  \ reviews.\nlicense: MIT\nallowed-tools: Read, Grep, Glob, Bash\nmetadata:\n  author:\
-  \ https://github.com/Jeffallan\n  version: \"1.0.0\"\n  domain: security\n  triggers:\
-  \ security review, vulnerability scan, SAST, security audit, penetration test, code\
-  \ audit, security analysis, i..."
-full_prompt_length: 3683
+prompt_preview: '---
+
+  name: security-reviewer
+
+  description: Identifies security vulnerabilities, generates structured audit reports
+  with severity ratings, and provides actionable remediation guidance. Use when conducting
+  security audits, reviewing code for vulnerabilities, or analyzing infrastructure
+  security. Invoke for SAST scans, penetration testing, DevSecOps practices, cloud
+  security reviews, dependency audits, secrets scanning, or compliance checks. Produces
+  vulnerability reports, prioritized recommendations...'
+full_prompt_length: 4742
 tools_mentioned:
 - kubernetes
 - AWS
@@ -21,17 +24,17 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/security-reviewer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/security-reviewer/SKILL.md
-fetched_at: '2026-03-01T04:22:13.311720+00:00'
+fetched_at: '2026-03-08T04:10:16.489160+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:17:48.147297Z'
+  evaluated_at: '2026-03-08T05:15:45.086255Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55d790 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f78801d4860 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55d790 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f78801d4860 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.399470Z'
-indexed_at: '2026-03-01T05:39:09.399479Z'
+  fetched_at: '2026-03-08T05:42:14.874801Z'
+indexed_at: '2026-03-08T05:42:14.874806Z'
 ---

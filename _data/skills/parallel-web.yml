@@ -1,0 +1,42 @@
+id: parallel-web
+slug: parallel-web
+name: Parallel Web Systems API
+description: '| Skill | Use For |'
+prompt_preview: "---\nname: parallel-web\ndescription: Search the web, extract URL\
+  \ content, and run deep research using the Parallel Chat API and Extract API. Use\
+  \ for ALL web searches, research queries, and general information gathering. Provides\
+  \ synthesized summaries with citations.\nallowed-tools: Read Write Edit Bash\nlicense:\
+  \ MIT license\ncompatibility: PARALLEL_API_KEY required\nmetadata:\n    skill-author:\
+  \ K-Dense Inc.\n---\n\n# Parallel Web Systems API\n\n## Overview\n\nThis skill provides\
+  \ access to **Parallel Web Syst..."
+full_prompt_length: 11636
+tools_mentioned:
+- python
+- Python
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/parallel-web/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/parallel-web/SKILL.md
+fetched_at: '2026-03-08T04:09:18.858857+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-08T04:25:53.728920Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fd4afc0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fd4afc0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-08T05:42:13.843250Z'
+indexed_at: '2026-03-08T05:42:13.843255Z'

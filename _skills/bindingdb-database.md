@@ -1,0 +1,44 @@
+---
+id: bindingdb-database
+slug: bindingdb-database
+name: BindingDB Database
+description: '- **BindingDB website**: https://www.bindingdb.org/'
+prompt_preview: "---\nname: bindingdb-database\ndescription: Query BindingDB for measured\
+  \ drug-target binding affinities (Ki, Kd, IC50, EC50). Search by target (UniProt\
+  \ ID), compound (SMILES/name), or pathogen. Essential for drug discovery, lead optimization,\
+  \ polypharmacology analysis, and structure-activity relationship (SAR) studies.\n\
+  license: CC-BY-3.0\nmetadata:\n    skill-author: Kuan-lin Huang\n---\n\n# BindingDB\
+  \ Database\n\n## Overview\n\nBindingDB (https://www.bindingdb.org/) is the primary\
+  \ public database of measur..."
+full_prompt_length: 12063
+tools_mentioned:
+- REST
+- python
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/bindingdb-database/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/bindingdb-database/SKILL.md
+fetched_at: '2026-03-08T04:09:08.772080+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-08T04:13:20.866435Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fd48350 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fd48350 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-08T05:42:13.580710Z'
+indexed_at: '2026-03-08T05:42:13.580715Z'
+---

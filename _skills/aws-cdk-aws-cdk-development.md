@@ -12,34 +12,34 @@ prompt_preview: "---\nname: aws-cdk-development\ndescription: AWS Cloud Developm
   \ or wants to define AWS infrastructure programmatically. Covers CDK app structure,\
   \ construct patterns, stack composition, and deployment workflows.\ncontext: fork\n\
   skills:\n  - aws-mcp-setup\nallowe..."
-full_prompt_length: 10343
+full_prompt_length: 9706
 tools_mentioned:
-- Java
-- REST
-- JavaScript
 - typescript
 - aws
-- TypeScript
+- JavaScript
 - Python
+- TypeScript
+- python
 - AWS
 - Go
-- python
+- REST
+- Java
 category: infrastructure
 category_display: Infrastructure
 source_repo: zxkane/aws-skills
 source_path: plugins/aws-cdk/skills/aws-cdk-development/SKILL.md
 source_url: https://github.com/zxkane/aws-skills/blob/main/plugins/aws-cdk/skills/aws-cdk-development/SKILL.md
-fetched_at: '2026-03-01T04:22:51.557614+00:00'
+fetched_at: '2026-03-08T04:10:58.811667+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:38:43.836211Z'
+  evaluated_at: '2026-03-08T05:41:48.871799Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55e120 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa41c40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55e120 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa41c40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.786963Z'
-indexed_at: '2026-03-01T05:39:09.786968Z'
+  fetched_at: '2026-03-08T05:42:15.421048Z'
+indexed_at: '2026-03-08T05:42:15.421053Z'
 ---

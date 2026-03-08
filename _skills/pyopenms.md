@@ -2,7 +2,7 @@
 id: pyopenms
 slug: pyopenms
 name: PyOpenMS
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: '- `references/file_io.md` - Comprehensive file format handling'
 prompt_preview: "---\nname: pyopenms\ndescription: Complete mass spectrometry analysis\
   \ platform. Use for proteomics workflows feature detection, peptide identification,\
   \ protein quantification, and complex LC-MS/MS pipelines. Supports extensive file\
@@ -10,9 +10,8 @@ prompt_preview: "---\nname: pyopenms\ndescription: Complete mass spectrometry an
   \ For simple spectral comparison and metabolite ID use matchms.\nlicense: 3 clause\
   \ BSD license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# PyOpenMS\n\n\
   ## Overview\n\nPyOpenMS provides Python bin..."
-full_prompt_length: 6448
+full_prompt_length: 5629
 tools_mentioned:
-- go
 - python
 - Python
 category: scientific
@@ -20,17 +19,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pyopenms/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pyopenms/SKILL.md
-fetched_at: '2026-03-01T04:21:21.990243+00:00'
+fetched_at: '2026-03-08T04:09:21.413451+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:37:35.100532Z'
+  evaluated_at: '2026-03-08T04:29:01.333702Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7c397a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7880b47e60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7c397a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7880b47e60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.645196Z'
-indexed_at: '2026-03-01T05:39:08.645201Z'
+  fetched_at: '2026-03-08T05:42:13.908061Z'
+indexed_at: '2026-03-08T05:42:13.908066Z'
 ---

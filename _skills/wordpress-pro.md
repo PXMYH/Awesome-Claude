@@ -5,34 +5,37 @@ name: WordPress Pro
 description: WordPress 6.4+, PHP 8.1+, Gutenberg, WooCommerce, ACF, REST API, WP-CLI,
   block development, theme customizer, widget API, shortcode API, transients, object
   caching, query optimization, security harden...
-prompt_preview: "---\nname: wordpress-pro\ndescription: Use when developing WordPress\
-  \ themes, plugins, customizing Gutenberg blocks, implementing WooCommerce features,\
-  \ or optimizing WordPress performance and security.\nlicense: MIT\nmetadata:\n \
-  \ author: https://github.com/Jeffallan\n  version: \"1.0.0\"\n  domain: platform\n\
-  \  triggers: WordPress, WooCommerce, Gutenberg, WordPress theme, WordPress plugin,\
-  \ custom blocks, ACF, WordPress REST API, hooks, filters, WordPress performance,\
-  \ WordPress security\n  role: expert\n  scop..."
-full_prompt_length: 4122
+prompt_preview: '---
+
+  name: wordpress-pro
+
+  description: Develops custom WordPress themes and plugins, creates and registers
+  Gutenberg blocks and block patterns, configures WooCommerce stores, implements WordPress
+  REST API endpoints, applies security hardening (nonces, sanitization, escaping,
+  capability checks), and optimizes performance through caching and query tuning.
+  Use when building WordPress themes, writing plugins, customizing Gutenberg blocks,
+  extending WooCommerce, working with ACF, using the WordPress RE...'
+full_prompt_length: 6173
 tools_mentioned:
 - php
-- REST
 - PHP
+- REST
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/wordpress-pro/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/wordpress-pro/SKILL.md
-fetched_at: '2026-03-01T04:22:14.995908+00:00'
+fetched_at: '2026-03-08T04:10:18.183067+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:18:45.156420Z'
+  evaluated_at: '2026-03-08T05:16:42.592182Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5b0200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1c5c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5b0200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1c5c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.417111Z'
-indexed_at: '2026-03-01T05:39:09.417117Z'
+  fetched_at: '2026-03-08T05:42:14.894607Z'
+indexed_at: '2026-03-08T05:42:14.894612Z'
 ---

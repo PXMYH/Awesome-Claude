@@ -2,7 +2,8 @@
 id: hypothesis-generation
 slug: hypothesis-generation
 name: Scientific Hypothesis Generation
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: 'When preparing hypothesis-driven research for publication, consult the
+  **venue-templates** skill for writing style guidance:'
 prompt_preview: '---
 
   name: hypothesis-generation
@@ -18,7 +19,7 @@ prompt_preview: '---
   license: MIT license
 
   metadata:...'
-full_prompt_length: 14658
+full_prompt_length: 13839
 tools_mentioned:
 - go
 - python
@@ -27,17 +28,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/hypothesis-generation/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/hypothesis-generation/SKILL.md
-fetched_at: '2026-03-01T04:21:15.112393+00:00'
+fetched_at: '2026-03-08T04:09:15.116569+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:30:55.622464Z'
+  evaluated_at: '2026-03-08T04:21:16.541552Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55c230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1edb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55c230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1edb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.496289Z'
-indexed_at: '2026-03-01T05:39:08.496295Z'
+  fetched_at: '2026-03-08T05:42:13.745877Z'
+indexed_at: '2026-03-08T05:42:13.745882Z'
 ---

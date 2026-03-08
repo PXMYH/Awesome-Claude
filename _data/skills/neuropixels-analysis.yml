@@ -1,7 +1,7 @@
 id: neuropixels-analysis
 slug: neuropixels-analysis
 name: Neuropixels Data Analysis
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: '- **SpikeInterface Docs**: https://spikeinterface.readthedocs.io/'
 prompt_preview: '---
 
   name: neuropixels-analysis
@@ -14,26 +14,25 @@ prompt_preview: '---
   or unit curation.
 
   license: MIT...'
-full_prompt_length: 12271
+full_prompt_length: 11452
 tools_mentioned:
-- go
 - python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/neuropixels-analysis/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/neuropixels-analysis/SKILL.md
-fetched_at: '2026-03-01T04:21:17.991943+00:00'
+fetched_at: '2026-03-08T04:09:17.936842+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:33:55.089730Z'
+  evaluated_at: '2026-03-08T04:24:48.537997Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b726f30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa41af0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b726f30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa41af0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,5 +42,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.569132Z'
-indexed_at: '2026-03-01T05:39:08.569140Z'
+  fetched_at: '2026-03-08T05:42:13.820327Z'
+indexed_at: '2026-03-08T05:42:13.820332Z'

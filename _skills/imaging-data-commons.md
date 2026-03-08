@@ -16,28 +16,28 @@ prompt_preview: '---
   licensing (mostly CC-BY, some CC-NC) that must be respected when using the data.
 
   metad...'
-full_prompt_length: 34398
+full_prompt_length: 34401
 tools_mentioned:
-- AWS
 - GCP
 - python
 - Python
+- AWS
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/imaging-data-commons/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/imaging-data-commons/SKILL.md
-fetched_at: '2026-03-01T04:21:15.225368+00:00'
+fetched_at: '2026-03-08T04:09:15.227530+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:31:03.757085Z'
+  evaluated_at: '2026-03-08T04:21:24.676763Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55c500 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7f80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55c500 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7f80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.498784Z'
-indexed_at: '2026-03-01T05:39:08.498789Z'
+  fetched_at: '2026-03-08T05:42:13.748707Z'
+indexed_at: '2026-03-08T05:42:13.748712Z'
 ---

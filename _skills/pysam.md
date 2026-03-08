@@ -2,7 +2,7 @@
 id: pysam
 slug: pysam
 name: Pysam
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: 'Official documentation: https://pysam.readthedocs.io/'
 prompt_preview: "---\nname: pysam\ndescription: Genomic file toolkit. Read/write SAM/BAM/CRAM\
   \ alignments, VCF/BCF variants, FASTA/FASTQ sequences, extract regions, calculate\
   \ coverage, for NGS data processing pipelines.\nlicense: MIT license\nmetadata:\n\
@@ -10,9 +10,8 @@ prompt_preview: "---\nname: pysam\ndescription: Genomic file toolkit. Read/write
   \ module for reading, manipulating, and writing genomic datasets. Read/write SAM/BAM/CRAM\
   \ alignment files, VCF/BCF variant files, and FASTA/FASTQ sequences with a Pythonic\
   \ interface to htslib. Qu..."
-full_prompt_length: 10802
+full_prompt_length: 9983
 tools_mentioned:
-- go
 - python
 - Python
 category: scientific
@@ -20,17 +19,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pysam/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pysam/SKILL.md
-fetched_at: '2026-03-01T04:21:22.108022+00:00'
+fetched_at: '2026-03-08T04:09:21.515898+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:37:43.224285Z'
+  evaluated_at: '2026-03-08T04:29:09.479013Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b943e00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc89790 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b943e00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc89790 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.647696Z'
-indexed_at: '2026-03-01T05:39:08.647701Z'
+  fetched_at: '2026-03-08T05:42:13.910908Z'
+indexed_at: '2026-03-08T05:42:13.910913Z'
 ---

@@ -17,17 +17,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/define-opportunity-tree/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/define-opportunity-tree/SKILL.md
-fetched_at: '2026-03-01T04:22:22.443675+00:00'
+fetched_at: '2026-03-08T04:10:31.385136+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:22:18.182349Z'
+  evaluated_at: '2026-03-08T05:25:01.591350Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5b33b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa41010 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5b33b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa41010 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.481297Z'
-indexed_at: '2026-03-01T05:39:09.481303Z'
+  fetched_at: '2026-03-08T05:42:15.068127Z'
+indexed_at: '2026-03-08T05:42:15.068132Z'
 ---

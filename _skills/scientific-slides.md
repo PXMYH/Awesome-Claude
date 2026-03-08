@@ -2,7 +2,7 @@
 id: scientific-slides
 slug: scientific-slides
 name: Scientific Slides
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: '**Remember**:'
 prompt_preview: "---\nname: scientific-slides\ndescription: Build slide decks and\
   \ presentations for research talks. Use this for making PowerPoint slides, conference\
   \ presentations, seminar talks, research presentations, thesis defense slides, or\
@@ -10,26 +10,25 @@ prompt_preview: "---\nname: scientific-slides\ndescription: Build slide decks an
   \ and visual validation. Works with PowerPoint and LaTeX Beamer.\nallowed-tools:\
   \ Read Write Edit Bash\nlicense: MIT license\nmetadata:\n    skill-author: K-Dense\
   \ Inc.\n---\n\n# Scientific Slides\n\n## O..."
-full_prompt_length: 48057
+full_prompt_length: 47238
 tools_mentioned:
-- go
 - python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scientific-slides/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scientific-slides/SKILL.md
-fetched_at: '2026-03-01T04:21:24.136400+00:00'
+fetched_at: '2026-03-08T04:09:23.309534+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:39:53.554711Z'
+  evaluated_at: '2026-03-08T04:31:21.196119Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b58b530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc3c7d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b58b530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc3c7d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.699873Z'
-indexed_at: '2026-03-01T05:39:08.699879Z'
+  fetched_at: '2026-03-08T05:42:13.957103Z'
+indexed_at: '2026-03-08T05:42:13.957108Z'
 ---

@@ -1,0 +1,57 @@
+id: c-core
+slug: c-core
+name: OpenPaw — Personal Assistant Coordinator
+description: '- You are an OpenPaw-powered assistant'
+prompt_preview: '---
+
+  name: c
+
+  description: OpenPaw coordinator — routes requests to skills, manages memory, knows
+  what''s installed. Use /c for any task.
+
+  tags: [coordinator, routing, skills, meta, openpaw]
+
+  ---
+
+
+  # OpenPaw — Personal Assistant Coordinator
+
+
+  You are powered by **OpenPaw**, an open-source personal assistant system for Claude
+  Code. You have access to CLI tools and skills that let you control apps, services,
+  and system features.
+
+
+  ## PAW MODE Active
+
+
+  You are running in **PAW MODE** — full personal assista...'
+full_prompt_length: 3680
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: daxaur/openpaw
+source_path: skills/c-core/SKILL.md
+source_url: https://github.com/daxaur/openpaw/blob/main/skills/c-core/SKILL.md
+fetched_at: '2026-03-08T04:09:52.803582+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-08T04:57:42.322723Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa6b4a0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa6b4a0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-08T05:42:14.509673Z'
+indexed_at: '2026-03-08T05:42:14.509678Z'

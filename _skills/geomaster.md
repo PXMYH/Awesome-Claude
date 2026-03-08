@@ -1,0 +1,48 @@
+---
+id: geomaster
+slug: geomaster
+name: GeoMaster
+description: Claude skill for GeoMaster
+prompt_preview: "---\r\nname: geomaster\r\ndescription: Comprehensive geospatial science\
+  \ skill covering remote sensing, GIS, spatial analysis, machine learning for earth\
+  \ observation, and 30+ scientific domains. Supports satellite imagery processing\
+  \ (Sentinel, Landsat, MODIS, SAR, hyperspectral), vector and raster data operations,\
+  \ spatial statistics, point cloud processing, network analysis, cloud-native workflows\
+  \ (STAC, COG, Planetary Computer), and 8 programming languages (Python, R, Julia,\
+  \ JavaScript, C++, Java, G..."
+full_prompt_length: 12110
+tools_mentioned:
+- JavaScript
+- Python
+- python
+- Go
+- Rust
+- Java
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/geomaster/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/geomaster/SKILL.md
+fetched_at: '2026-03-08T04:09:13.601533+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-08T04:19:22.531021Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1eba0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1eba0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-08T05:42:13.706540Z'
+indexed_at: '2026-03-08T05:42:13.706546Z'
+---

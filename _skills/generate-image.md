@@ -2,7 +2,8 @@
 id: generate-image
 slug: generate-image
 name: Generate Image
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: '- **scientific-schematics**: Use for technical diagrams, flowcharts,
+  circuits, pathways'
 prompt_preview: "---\nname: generate-image\ndescription: Generate or edit images using\
   \ AI models (FLUX, Nano Banana 2). Use for general-purpose image generation including\
   \ photos, illustrations, artwork, visual assets, concept art, and any image that\
@@ -10,26 +11,25 @@ prompt_preview: "---\nname: generate-image\ndescription: Generate or edit images
   \ technical diagrams, use the scientific-schematics skill instead.\nlicense: MIT\
   \ license\ncompatibility: Requires an OpenRouter API key\nmetadata:\n    skill-author:\
   \ K-Dense Inc.\n---\n\n# Generate..."
-full_prompt_length: 7867
+full_prompt_length: 7048
 tools_mentioned:
-- go
 - python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/generate-image/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/generate-image/SKILL.md
-fetched_at: '2026-03-01T04:21:13.394340+00:00'
+fetched_at: '2026-03-08T04:09:13.291086+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:29:17.591688Z'
+  evaluated_at: '2026-03-08T04:18:58.101075Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7ba2d0a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fd48350 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7ba2d0a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fd48350 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.464785Z'
-indexed_at: '2026-03-01T05:39:08.464790Z'
+  fetched_at: '2026-03-08T05:42:13.697326Z'
+indexed_at: '2026-03-08T05:42:13.697334Z'
 ---

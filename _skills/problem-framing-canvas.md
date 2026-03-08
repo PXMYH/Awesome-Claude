@@ -29,17 +29,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/problem-framing-canvas/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/problem-framing-canvas/SKILL.md
-fetched_at: '2026-03-01T04:21:57.135187+00:00'
+fetched_at: '2026-03-08T04:10:00.941632+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:08:25.704849Z'
+  evaluated_at: '2026-03-08T05:06:18.628148Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5b2960 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa410d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5b2960 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa410d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.226402Z'
-indexed_at: '2026-03-01T05:39:09.226408Z'
+  fetched_at: '2026-03-08T05:42:14.681055Z'
+indexed_at: '2026-03-08T05:42:14.681060Z'
 ---

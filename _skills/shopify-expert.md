@@ -5,37 +5,42 @@ name: Shopify Expert
 description: Shopify CLI 3.x, Liquid 2.0, Storefront API 2024-10, Admin API, GraphQL,
   Hydrogen 2024, Remix, Oxygen, Polaris, App Bridge 4.0, Checkout UI Extensions, Shopify
   Functions, metafields, metaobjects, them...
-prompt_preview: "---\nname: shopify-expert\ndescription: Use when building Shopify\
-  \ themes, apps, custom storefronts, or e-commerce solutions. Invoke for Liquid templating,\
-  \ Storefront API, app development, checkout customization, Shopify Plus features.\n\
-  license: MIT\nmetadata:\n  author: https://github.com/Jeffallan\n  version: \"1.0.0\"\
-  \n  domain: platform\n  triggers: Shopify, Liquid, Storefront API, Shopify Plus,\
-  \ Hydrogen, Shopify app, checkout extensions, Shopify Functions, App Bridge, theme\
-  \ development, e-commerce, Po..."
-full_prompt_length: 3950
+prompt_preview: '---
+
+  name: shopify-expert
+
+  description: Builds and debugs Shopify themes (.liquid files, theme.json, sections),
+  develops custom Shopify apps (shopify.app.toml, OAuth, webhooks), and implements
+  Storefront API integrations for headless storefronts. Use when building or customizing
+  Shopify themes, creating Hydrogen or custom React storefronts, developing Shopify
+  apps, implementing checkout UI extensions or Shopify Functions, optimizing performance,
+  or integrating third-party services. Invoke for Liqu...'
+full_prompt_length: 7008
 tools_mentioned:
-- React
-- REST
-- TypeScript
 - graphql
-- react
+- typescript
+- TypeScript
+- Node.js
+- REST
 - GraphQL
+- React
+- react
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/shopify-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/shopify-expert/SKILL.md
-fetched_at: '2026-03-01T04:22:13.438671+00:00'
+fetched_at: '2026-03-08T04:10:16.615736+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:17:56.244592Z'
+  evaluated_at: '2026-03-08T05:15:53.216926Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b589b80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f78802867b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b589b80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f78802867b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.402010Z'
-indexed_at: '2026-03-01T05:39:09.402016Z'
+  fetched_at: '2026-03-08T05:42:14.877678Z'
+indexed_at: '2026-03-08T05:42:14.877683Z'
 ---

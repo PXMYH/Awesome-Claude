@@ -1,7 +1,7 @@
 id: aeon
 slug: aeon
 name: Aeon Time Series Machine Learning
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: '- Documentation: https://www.aeon-toolkit.org/'
 prompt_preview: '---
 
   name: aeon
@@ -14,9 +14,8 @@ prompt_preview: '---
   with scikit-learn compatible APIs.
 
   license: BSD-3-Clause license...'
-full_prompt_length: 11406
+full_prompt_length: 10587
 tools_mentioned:
-- go
 - python
 - Python
 category: scientific
@@ -24,17 +23,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/aeon/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/aeon/SKILL.md
-fetched_at: '2026-03-01T04:21:08.052285+00:00'
+fetched_at: '2026-03-08T04:09:07.930597+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:23:27.515635Z'
+  evaluated_at: '2026-03-08T04:12:15.393793Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7e5400 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7c50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7e5400 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7c50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,5 +43,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.355918Z'
-indexed_at: '2026-03-01T05:39:08.355924Z'
+  fetched_at: '2026-03-08T05:42:13.558108Z'
+indexed_at: '2026-03-08T05:42:13.558114Z'

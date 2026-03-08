@@ -1,7 +1,7 @@
 id: qutip
 slug: qutip
 name: 'QuTiP: Quantum Toolbox in Python'
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: '- Documentation: https://qutip.readthedocs.io/'
 prompt_preview: "---\nname: qutip\ndescription: Quantum physics simulation library\
   \ for open quantum systems. Use when studying master equations, Lindblad dynamics,\
   \ decoherence, quantum optics, or cavity QED. Best for physics research, open system\
@@ -9,9 +9,8 @@ prompt_preview: "---\nname: qutip\ndescription: Quantum physics simulation libra
   \ qiskit, cirq, or pennylane for quantum algorithms and hardware execution.\nlicense:\
   \ BSD-3-Clause license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# QuTiP:\
   \ Quantum Toolbox in Python\n\n##..."
-full_prompt_length: 9841
+full_prompt_length: 9022
 tools_mentioned:
-- go
 - python
 - Python
 category: scientific
@@ -19,17 +18,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/qutip/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/qutip/SKILL.md
-fetched_at: '2026-03-01T04:21:22.765870+00:00'
+fetched_at: '2026-03-08T04:09:22.086944+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:38:24.014632Z'
+  evaluated_at: '2026-03-08T04:29:50.503824Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7c8590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa43b00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7c8590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa43b00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.660331Z'
-indexed_at: '2026-03-01T05:39:08.660336Z'
+  fetched_at: '2026-03-08T05:42:13.925136Z'
+indexed_at: '2026-03-08T05:42:13.925141Z'

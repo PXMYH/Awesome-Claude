@@ -1,0 +1,47 @@
+---
+id: developer-signup-flow
+slug: developer-signup-flow
+name: Developer Signup Flow
+description: '- `/devmarketing-skills/skills/developer-onboarding` - What happens
+  after signup'
+prompt_preview: "---\nname: developer-signup-flow\ndescription: |\n  Design frictionless\
+  \ signup experiences for developers including GitHub OAuth,\n  API key generation,\
+  \ and onboarding personalization. Trigger phrases: developer signup,\n  dev registration,\
+  \ OAuth flow, API key onboarding, reduce signup friction,\n  developer authentication,\
+  \ signup conversion, registration UX\nmetadata:\n  version: 1.0.0\n---\n\n# Developer\
+  \ Signup Flow\n\nCreate signup experiences that respect developers' time and get\
+  \ them to code as fast as..."
+full_prompt_length: 11665
+tools_mentioned:
+- JavaScript
+- go
+- Python
+- Go
+category: community
+category_display: Community
+source_repo: jonathimer/devmarketing-skills
+source_path: skills/developer-signup-flow/SKILL.md
+source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/developer-signup-flow/SKILL.md
+fetched_at: '2026-03-08T04:10:21.154705+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-08T05:19:17.618226Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fcc13d0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fcc13d0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-08T05:42:14.947894Z'
+indexed_at: '2026-03-08T05:42:14.947899Z'
+---

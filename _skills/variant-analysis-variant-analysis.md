@@ -28,26 +28,26 @@ prompt_preview: '---
   Use this skill...'
 full_prompt_length: 5637
 tools_mentioned:
-- javascript
 - go
 - java
 - python
+- javascript
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/variant-analysis/skills/variant-analysis/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/variant-analysis/skills/variant-analysis/SKILL.md
-fetched_at: '2026-03-01T04:22:44.858310+00:00'
+fetched_at: '2026-03-08T04:10:52.759274+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:36:32.193097Z'
+  evaluated_at: '2026-03-08T05:39:38.090841Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5b3c50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fd09760 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5b3c50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fd09760 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.747776Z'
-indexed_at: '2026-03-01T05:39:09.747782Z'
+  fetched_at: '2026-03-08T05:42:15.376520Z'
+indexed_at: '2026-03-08T05:42:15.376525Z'
 ---

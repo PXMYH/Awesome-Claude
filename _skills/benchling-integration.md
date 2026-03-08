@@ -2,7 +2,7 @@
 id: benchling-integration
 slug: benchling-integration
 name: Benchling Integration
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: '- **Official Documentation:** https://docs.benchling.com'
 prompt_preview: "---\nname: benchling-integration\ndescription: Benchling R&D platform\
   \ integration. Access registry (DNA, proteins), inventory, ELN entries, workflows\
   \ via API, build Benchling Apps, query Data Warehouse, for lab data management automation.\n\
@@ -10,29 +10,28 @@ prompt_preview: "---\nname: benchling-integration\ndescription: Benchling R&D pl
   \    skill-author: K-Dense Inc.\n---\n\n# Benchling Integration\n\n## Overview\n\
   \nBenchling is a cloud platform for life sciences R&D. Access registry entities\
   \ (DNA, proteins), inventory,..."
-full_prompt_length: 13880
+full_prompt_length: 13061
 tools_mentioned:
 - REST
-- Python
-- go
-- AWS
 - python
+- Python
+- AWS
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/benchling-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/benchling-integration/SKILL.md
-fetched_at: '2026-03-01T04:21:08.772705+00:00'
+fetched_at: '2026-03-08T04:09:08.574529+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:24:16.624659Z'
+  evaluated_at: '2026-03-08T04:13:04.369225Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b725d60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc896d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b725d60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc896d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.371121Z'
-indexed_at: '2026-03-01T05:39:08.371126Z'
+  fetched_at: '2026-03-08T05:42:13.575048Z'
+indexed_at: '2026-03-08T05:42:13.575053Z'
 ---

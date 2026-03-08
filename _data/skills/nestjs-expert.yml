@@ -4,35 +4,39 @@ name: NestJS Expert
 description: NestJS, TypeScript, TypeORM, Prisma, Passport, JWT, class-validator,
   class-transformer, Swagger/OpenAPI, Jest, Supertest, Guards, Interceptors, Pipes,
   Filters
-prompt_preview: "---\nname: nestjs-expert\ndescription: Use when building NestJS applications\
-  \ requiring modular architecture, dependency injection, or TypeScript backend development.\
-  \ Invoke for modules, controllers, services, DTOs, guards, interceptors, TypeORM/Prisma.\n\
-  license: MIT\nmetadata:\n  author: https://github.com/Jeffallan\n  version: \"1.0.0\"\
-  \n  domain: backend\n  triggers: NestJS, Nest, Node.js backend, TypeScript backend,\
-  \ dependency injection, controller, service, module, guard, interceptor\n  role:\
-  \ specialis..."
-full_prompt_length: 3250
+prompt_preview: '---
+
+  name: nestjs-expert
+
+  description: Creates and configures NestJS modules, controllers, services, DTOs,
+  guards, and interceptors for enterprise-grade TypeScript backend applications. Use
+  when building NestJS REST APIs or GraphQL services, implementing dependency injection,
+  scaffolding modular architecture, adding JWT/Passport authentication, integrating
+  TypeORM or Prisma, or working with .module.ts, .controller.ts, and .service.ts files.
+  Invoke for guards, interceptors, pipes, validation, Swagg...'
+full_prompt_length: 7572
 tools_mentioned:
-- Node.js
+- typescript
 - TypeScript
-- GraphQL
+- Node.js
 - REST
+- GraphQL
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/nestjs-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/nestjs-expert/SKILL.md
-fetched_at: '2026-03-01T04:22:11.619266+00:00'
+fetched_at: '2026-03-08T04:10:14.800361+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:16:43.144684Z'
+  evaluated_at: '2026-03-08T05:14:39.598131Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55f110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa6b500 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55f110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa6b500 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.378914Z'
-indexed_at: '2026-03-01T05:39:09.378919Z'
+  fetched_at: '2026-03-08T05:42:14.852173Z'
+indexed_at: '2026-03-08T05:42:14.852178Z'

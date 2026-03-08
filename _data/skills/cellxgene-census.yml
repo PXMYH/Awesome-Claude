@@ -1,7 +1,7 @@
 id: cellxgene-census
 slug: cellxgene-census
 name: CZ CELLxGENE Census
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: '### Version Inconsistencies'
 prompt_preview: "---\nname: cellxgene-census\ndescription: Query the CELLxGENE Census\
   \ (61M+ cells) programmatically. Use when you need expression data across tissues,\
   \ diseases, or cell types from the largest curated single-cell atlas. Best for population-scale\
@@ -9,26 +9,25 @@ prompt_preview: "---\nname: cellxgene-census\ndescription: Query the CELLxGENE C
   \ scvi-tools.\nlicense: Unknown\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\
   \n# CZ CELLxGENE Census\n\n## Overview\n\nThe CZ CELLxGENE Census provides programmatic\
   \ access to a comprehen..."
-full_prompt_length: 16258
+full_prompt_length: 15439
 tools_mentioned:
-- go
 - python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/cellxgene-census/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/cellxgene-census/SKILL.md
-fetched_at: '2026-03-01T04:21:09.492573+00:00'
+fetched_at: '2026-03-08T04:09:09.428516+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:25:05.433464Z'
+  evaluated_at: '2026-03-08T04:14:10.397153Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7620 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7620 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.386127Z'
-indexed_at: '2026-03-01T05:39:08.386131Z'
+  fetched_at: '2026-03-08T05:42:13.597590Z'
+indexed_at: '2026-03-08T05:42:13.597595Z'

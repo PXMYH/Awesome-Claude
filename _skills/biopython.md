@@ -2,7 +2,8 @@
 id: biopython
 slug: biopython
 name: 'Biopython: Computational Molecular Biology in Python'
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: The modular reference documentation ensures detailed, searchable information
+  for every major Biopython capability.
 prompt_preview: "---\nname: biopython\ndescription: Comprehensive molecular biology\
   \ toolkit. Use for sequence manipulation, file parsing (FASTA/GenBank/PDB), phylogenetics,\
   \ and programmatic NCBI/PubMed access (Bio.Entrez). Best for batch processing, custom\
@@ -10,9 +11,8 @@ prompt_preview: "---\nname: biopython\ndescription: Comprehensive molecular biol
   \ integration use bioservices.\nlicense: Unknown\nmetadata:\n    skill-author: K-Dense\
   \ Inc.\n---\n\n# Biopython: Computational Molecular Biology in Python\n\n## Overview\n\
   \nBiopython i..."
-full_prompt_length: 14647
+full_prompt_length: 13828
 tools_mentioned:
-- go
 - python
 - Python
 category: scientific
@@ -20,17 +20,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/biopython/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/biopython/SKILL.md
-fetched_at: '2026-03-01T04:21:09.015774+00:00'
+fetched_at: '2026-03-08T04:09:08.893321+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:24:32.977577Z'
+  evaluated_at: '2026-03-08T04:13:29.609318Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7bce2de0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd77d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7bce2de0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd77d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.376072Z'
-indexed_at: '2026-03-01T05:39:08.376077Z'
+  fetched_at: '2026-03-08T05:42:13.583476Z'
+indexed_at: '2026-03-08T05:42:13.583481Z'
 ---

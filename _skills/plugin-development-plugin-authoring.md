@@ -30,17 +30,17 @@ category_display: Community
 source_repo: ivan-magda/claude-code-plugin-template
 source_path: plugins/plugin-development/skills/plugin-authoring/SKILL.md
 source_url: https://github.com/ivan-magda/claude-code-plugin-template/blob/main/plugins/plugin-development/skills/plugin-authoring/SKILL.md
-fetched_at: '2026-03-01T04:22:06.575413+00:00'
+fetched_at: '2026-03-08T04:10:09.500646+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:15:05.263114Z'
+  evaluated_at: '2026-03-08T05:12:52.866910Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b58b5f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa686e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b58b5f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa686e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.348712Z'
-indexed_at: '2026-03-01T05:39:09.348717Z'
+  fetched_at: '2026-03-08T05:42:14.815452Z'
+indexed_at: '2026-03-08T05:42:14.815458Z'
 ---

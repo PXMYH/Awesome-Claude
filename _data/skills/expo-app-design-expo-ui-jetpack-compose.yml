@@ -33,24 +33,25 @@ prompt_preview: '---
 
 
   - Expo UI''s API mirrors Jetpa...'
-full_prompt_length: 1514
-tools_mentioned: []
+full_prompt_length: 1970
+tools_mentioned:
+- react
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo-app-design/skills/expo-ui-jetpack-compose/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo-app-design/skills/expo-ui-jetpack-compose/SKILL.md
-fetched_at: '2026-03-01T04:22:01.258586+00:00'
+fetched_at: '2026-03-08T04:10:04.619115+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:11:33.462657Z'
+  evaluated_at: '2026-03-08T05:09:18.990198Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7264e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc89790 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7264e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc89790 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -60,5 +61,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.283966Z'
-indexed_at: '2026-03-01T05:39:09.283971Z'
+  fetched_at: '2026-03-08T05:42:14.741499Z'
+indexed_at: '2026-03-08T05:42:14.741504Z'

@@ -2,33 +2,37 @@
 id: spec-miner
 slug: spec-miner
 name: Spec Miner
-description: Code archaeology, static analysis, design patterns, architectural patterns,
-  EARS syntax, API documentation inference
-prompt_preview: "---\nname: spec-miner\ndescription: Use when understanding legacy\
-  \ or undocumented systems, creating documentation for existing code, or extracting\
-  \ specifications from implementations. Invoke for legacy analysis, code archaeology,\
-  \ undocumented features.\nlicense: MIT\nallowed-tools: Read, Grep, Glob, Bash\n\
-  metadata:\n  author: https://github.com/Jeffallan\n  version: \"1.0.0\"\n  domain:\
-  \ workflow\n  triggers: reverse engineer, legacy code, code analysis, undocumented,\
-  \ understand codebase, existing system..."
-full_prompt_length: 2926
-tools_mentioned: []
+description: 'Include:'
+prompt_preview: '---
+
+  name: spec-miner
+
+  description: "Reverse-engineering specialist that extracts specifications from existing
+  codebases. Use when working with legacy or undocumented systems, inherited projects,
+  or old codebases with no documentation. Invoke to map code dependencies, generate
+  API documentation from source, identify undocumented business logic, figure out
+  what code does, or create architecture documentation from implementation. Trigger
+  phrases: reverse engineer, old codebase, no docs, no documenta...'
+full_prompt_length: 4507
+tools_mentioned:
+- Flask
+- Django
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/spec-miner/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/spec-miner/SKILL.md
-fetched_at: '2026-03-01T04:22:13.664661+00:00'
+fetched_at: '2026-03-08T04:10:16.858117+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:18:12.593045Z'
+  evaluated_at: '2026-03-08T05:16:09.525252Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5b1130 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1ec60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b5b1130 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1ec60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.407126Z'
-indexed_at: '2026-03-01T05:39:09.407131Z'
+  fetched_at: '2026-03-08T05:42:14.883483Z'
+indexed_at: '2026-03-08T05:42:14.883488Z'
 ---

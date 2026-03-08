@@ -1,7 +1,7 @@
 id: neurokit2
 slug: neurokit2
 name: NeuroKit2
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: '- Official Documentation: https://neuropsychology.github.io/NeuroKit/'
 prompt_preview: '---
 
   name: neurokit2
@@ -12,9 +12,8 @@ prompt_preview: '---
   patterns, muscle activity, or eye movements. Applicable for heart rate variability
   analysis, event-related potentials, complexity measures, autonomic nervous system
   assessment, psychophysiology research, and multi-modal physio...'
-full_prompt_length: 12830
+full_prompt_length: 12011
 tools_mentioned:
-- go
 - python
 - Python
 category: scientific
@@ -22,17 +21,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/neurokit2/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/neurokit2/SKILL.md
-fetched_at: '2026-03-01T04:21:17.862845+00:00'
+fetched_at: '2026-03-08T04:09:17.830548+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:33:46.930557Z'
+  evaluated_at: '2026-03-08T04:24:40.375412Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7e6e70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7cb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7e6e70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7cb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.564290Z'
-indexed_at: '2026-03-01T05:39:08.564299Z'
+  fetched_at: '2026-03-08T05:42:13.817485Z'
+indexed_at: '2026-03-08T05:42:13.817490Z'

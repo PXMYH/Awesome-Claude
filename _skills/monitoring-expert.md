@@ -2,34 +2,36 @@
 id: monitoring-expert
 slug: monitoring-expert
 name: Monitoring Expert
-description: Prometheus, Grafana, ELK Stack, Loki, Jaeger, OpenTelemetry, DataDog,
-  New Relic, CloudWatch, structured logging, RED metrics, USE method, k6, Artillery,
-  Locust, JMeter, clinic.js, pprof, py-spy, async...
-prompt_preview: "---\nname: monitoring-expert\ndescription: Use when setting up monitoring\
-  \ systems, logging, metrics, tracing, or alerting. Invoke for dashboards, Prometheus/Grafana,\
-  \ load testing, profiling, capacity planning.\nlicense: MIT\nmetadata:\n  author:\
-  \ https://github.com/Jeffallan\n  version: \"1.0.0\"\n  domain: devops\n  triggers:\
-  \ monitoring, observability, logging, metrics, tracing, alerting, Prometheus, Grafana,\
-  \ DataDog, APM, performance testing, load testing, profiling, capacity planning,\
-  \ bottleneck\n  role:..."
-full_prompt_length: 3208
-tools_mentioned: []
+description: '### MUST NOT DO'
+prompt_preview: '---
+
+  name: monitoring-expert
+
+  description: Configures monitoring systems, implements structured logging pipelines,
+  creates Prometheus/Grafana dashboards, defines alerting rules, and instruments distributed
+  tracing. Implements Prometheus/Grafana stacks, conducts load testing, performs application
+  profiling, and plans infrastructure capacity. Use when setting up application monitoring,
+  adding observability to services, debugging production issues with logs/metrics/traces,
+  running load tests with k6...'
+full_prompt_length: 6069
+tools_mentioned:
+- Node.js
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/monitoring-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/monitoring-expert/SKILL.md
-fetched_at: '2026-03-01T04:22:11.518169+00:00'
+fetched_at: '2026-03-08T04:10:14.693516+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:16:35.022262Z'
+  evaluated_at: '2026-03-08T05:14:31.460026Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55ffe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa69ee0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55ffe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa69ee0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.376436Z'
-indexed_at: '2026-03-01T05:39:09.376441Z'
+  fetched_at: '2026-03-08T05:42:14.849503Z'
+indexed_at: '2026-03-08T05:42:14.849508Z'
 ---

@@ -2,7 +2,7 @@
 id: molfeat
 slug: molfeat
 name: Molfeat - Molecular Featurization Hub
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: '- **Official Documentation**: https://molfeat-docs.datamol.io/'
 prompt_preview: "---\nname: molfeat\ndescription: Molecular featurization for ML (100+\
   \ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert\
   \ SMILES to features, for QSAR and molecular ML.\nlicense: Apache-2.0 license\n\
@@ -10,9 +10,8 @@ prompt_preview: "---\nname: molfeat\ndescription: Molecular featurization for ML
   \ Hub\n\n## Overview\n\nMolfeat is a comprehensive Python library for molecular\
   \ featurization that unifies 100+ pre-trained embeddings and hand-crafted featurizers.\
   \ Convert chemical structures (SMILES s..."
-full_prompt_length: 15629
+full_prompt_length: 14810
 tools_mentioned:
-- go
 - python
 - Python
 category: scientific
@@ -20,17 +19,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/molfeat/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/molfeat/SKILL.md
-fetched_at: '2026-03-01T04:21:17.628580+00:00'
+fetched_at: '2026-03-08T04:09:17.515060+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:33:30.701990Z'
+  evaluated_at: '2026-03-08T04:24:15.965083Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55fe30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1faa0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b55fe30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1faa0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.554490Z'
-indexed_at: '2026-03-01T05:39:08.554498Z'
+  fetched_at: '2026-03-08T05:42:13.808658Z'
+indexed_at: '2026-03-08T05:42:13.808665Z'
 ---

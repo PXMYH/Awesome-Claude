@@ -1,0 +1,67 @@
+id: c-system
+slug: c-system
+name: System Control (m-cli)
+description: '- `m` requires no auth for most commands; some need sudo'
+prompt_preview: '---
+
+  name: c-system
+
+  description: macOS Swiss Army Knife — control volume, wifi, battery, dock, display,
+  trash, firewall, screensaver, shutdown, and more via m-cli.
+
+  tags: [macos, system, volume, wifi, battery]
+
+  ---
+
+
+  # System Control (m-cli)
+
+
+  Swiss Army Knife for macOS. Run `m` followed by a category:
+
+
+  ```bash
+
+  # Volume
+
+  m volume 50          # Set volume to 50%
+
+  m volume mute        # Mute
+
+  m volume unmute      # Unmute
+
+
+  # WiFi
+
+  m wifi status        # Show WiFi status
+
+  m wifi scan          # Scan availabl...'
+full_prompt_length: 1839
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: daxaur/openpaw
+source_path: skills/c-system/SKILL.md
+source_url: https://github.com/daxaur/openpaw/blob/main/skills/c-system/SKILL.md
+fetched_at: '2026-03-08T04:09:55.948658+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-08T05:01:06.597313Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7110 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7110 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-08T05:42:14.576621Z'
+indexed_at: '2026-03-08T05:42:14.576626Z'

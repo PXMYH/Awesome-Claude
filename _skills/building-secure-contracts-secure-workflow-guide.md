@@ -31,17 +31,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/building-secure-contracts/skills/secure-workflow-guide/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/building-secure-contracts/skills/secure-workflow-guide/SKILL.md
-fetched_at: '2026-03-01T04:22:34.436055+00:00'
+fetched_at: '2026-03-08T04:10:43.896676+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:30:10.268801Z'
+  evaluated_at: '2026-03-08T05:33:13.000541Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7248c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1f9e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7248c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1f9e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.625194Z'
-indexed_at: '2026-03-01T05:39:09.625200Z'
+  fetched_at: '2026-03-08T05:42:15.239846Z'
+indexed_at: '2026-03-08T05:42:15.239852Z'
 ---

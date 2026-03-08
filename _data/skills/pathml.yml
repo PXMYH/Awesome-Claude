@@ -1,7 +1,8 @@
 id: pathml
 slug: pathml
 name: PathML
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: Load these references as needed when working on specific computational
+  pathology tasks.
 prompt_preview: "---\nname: pathml\ndescription: Full-featured computational pathology\
   \ toolkit. Use for advanced WSI analysis including multiplexed immunofluorescence\
   \ (CODEX, Vectra), nucleus segmentation, tissue graph construction, and ML model\
@@ -9,9 +10,8 @@ prompt_preview: "---\nname: pathml\ndescription: Full-featured computational pat
   \ from H&E slides, histolab may be simpler.\nlicense: GPL-2.0 license\nmetadata:\n\
   \    skill-author: K-Dense Inc.\n---\n\n# PathML\n\n## Overview\n\nPathML is a comprehensive\
   \ Python toolkit for computat..."
-full_prompt_length: 8186
+full_prompt_length: 7367
 tools_mentioned:
-- go
 - python
 - Python
 category: scientific
@@ -19,17 +19,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pathml/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pathml/SKILL.md
-fetched_at: '2026-03-01T04:21:19.467709+00:00'
+fetched_at: '2026-03-08T04:09:18.962895+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:35:00.491960Z'
+  evaluated_at: '2026-03-08T04:26:01.890827Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7c82c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc6fe00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7c82c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc6fe00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.596434Z'
-indexed_at: '2026-03-01T05:39:08.596440Z'
+  fetched_at: '2026-03-08T05:42:13.846013Z'
+indexed_at: '2026-03-08T05:42:13.846019Z'

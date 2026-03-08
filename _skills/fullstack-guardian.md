@@ -3,36 +3,41 @@ id: fullstack-guardian
 slug: fullstack-guardian
 name: Fullstack Guardian
 description: 'When implementing features, provide:'
-prompt_preview: "---\nname: fullstack-guardian\ndescription: Use when implementing\
-  \ features across frontend and backend, building APIs with UI, or creating end-to-end\
-  \ data flows. Invoke for feature implementation, API development, UI building, cross-stack\
-  \ work.\nlicense: MIT\nmetadata:\n  author: https://github.com/Jeffallan\n  version:\
-  \ \"1.0.0\"\n  domain: security\n  triggers: fullstack, implement feature, build\
-  \ feature, create API, frontend and backend, full stack, new feature, implement,\
-  \ microservices, websocket, real..."
-full_prompt_length: 3785
+prompt_preview: '---
+
+  name: fullstack-guardian
+
+  description: Builds security-focused full-stack web applications by implementing
+  integrated frontend and backend components with layered security at every level.
+  Covers the complete stack from database to UI, enforcing auth, input validation,
+  output encoding, and parameterized queries across all layers. Use when implementing
+  features across frontend and backend, building REST APIs with corresponding UI,
+  connecting frontend components to backend endpoints, creating en...'
+full_prompt_length: 5637
 tools_mentioned:
+- typescript
 - websocket
-- REST
-- Docker
+- python
 - go
+- REST
 - GraphQL
+- Docker
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/fullstack-guardian/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/fullstack-guardian/SKILL.md
-fetched_at: '2026-03-01T04:22:10.028324+00:00'
+fetched_at: '2026-03-08T04:10:13.246202+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:16:18.475446Z'
+  evaluated_at: '2026-03-08T05:14:14.898014Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7271d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa6ac30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7271d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa6ac30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.371405Z'
-indexed_at: '2026-03-01T05:39:09.371410Z'
+  fetched_at: '2026-03-08T05:42:14.843774Z'
+indexed_at: '2026-03-08T05:42:14.843780Z'
 ---

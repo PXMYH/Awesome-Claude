@@ -3,38 +3,46 @@ slug: fastapi-expert
 name: FastAPI Expert
 description: FastAPI, Pydantic V2, async SQLAlchemy, Alembic migrations, JWT/OAuth2,
   pytest-asyncio, httpx, BackgroundTasks, WebSockets, dependency injection, OpenAPI/Swagger
-prompt_preview: "---\nname: fastapi-expert\ndescription: Use when building high-performance\
-  \ async Python APIs with FastAPI and Pydantic V2. Invoke for async SQLAlchemy, JWT\
-  \ authentication, WebSockets, OpenAPI documentation.\nlicense: MIT\nmetadata:\n\
-  \  author: https://github.com/Jeffallan\n  version: \"1.0.0\"\n  domain: backend\n\
-  \  triggers: FastAPI, Pydantic, async Python, Python API, REST API Python, SQLAlchemy\
-  \ async, JWT authentication, OpenAPI, Swagger Python\n  role: specialist\n  scope:\
-  \ implementation\n  output-format:..."
-full_prompt_length: 3292
+prompt_preview: '---
+
+  name: fastapi-expert
+
+  description: "Use when building high-performance async Python APIs with FastAPI
+  and Pydantic V2. Invoke to create REST endpoints, define Pydantic models, implement
+  authentication flows, set up async SQLAlchemy database operations, add JWT authentication,
+  build WebSocket endpoints, or generate OpenAPI documentation. Trigger terms: FastAPI,
+  Pydantic, async Python, Python API, REST API Python, SQLAlchemy async, JWT authentication,
+  OpenAPI, Swagger Python."
+
+  license: MIT
+
+  meta...'
+full_prompt_length: 6797
 tools_mentioned:
-- django
-- REST
-- WebSocket
 - Python
 - fastapi
-- FastAPI
+- python
 - Django
+- WebSocket
+- REST
+- django
+- FastAPI
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/fastapi-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/fastapi-expert/SKILL.md
-fetched_at: '2026-03-01T04:22:09.580375+00:00'
+fetched_at: '2026-03-08T04:10:12.827440+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T05:15:54.063677Z'
+  evaluated_at: '2026-03-08T05:13:50.000744Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727470 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa686e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b727470 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa686e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,5 +52,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:09.363888Z'
-indexed_at: '2026-03-01T05:39:09.363893Z'
+  fetched_at: '2026-03-08T05:42:14.835439Z'
+indexed_at: '2026-03-08T05:42:14.835444Z'

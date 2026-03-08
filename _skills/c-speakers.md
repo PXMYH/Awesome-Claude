@@ -1,0 +1,69 @@
+---
+id: c-speakers
+slug: c-speakers
+name: List all Sonos rooms/players
+description: '- Requires `sonos` CLI (sonoscli) installed and Sonos system on local
+  network'
+prompt_preview: '---
+
+  name: c-speakers
+
+  description: Control Sonos speakers using the `sonos` CLI (sonoscli). Play, pause,
+  adjust volume, manage groups, and play favorites across rooms and speaker zones.
+
+  tags: [sonos, speakers, audio, smart-home, music, sonoscli]
+
+  ---
+
+
+  ## What This Skill Does
+
+
+  Enables Claude to control Sonos speakers — playback, volume, grouping, and favorites
+  — via the `sonos` CLI.
+
+
+  ## Available CLI Tool: `sonos`
+
+
+  ### Common Commands
+
+
+  ```bash
+
+  # List all Sonos rooms/players
+
+  sonos rooms
+
+
+  # Play and...'
+full_prompt_length: 1447
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: daxaur/openpaw
+source_path: skills/c-speakers/SKILL.md
+source_url: https://github.com/daxaur/openpaw/blob/main/skills/c-speakers/SKILL.md
+fetched_at: '2026-03-08T04:09:55.815755+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-08T05:00:58.464701Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1d070 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1d070 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-08T05:42:14.573893Z'
+indexed_at: '2026-03-08T05:42:14.573898Z'
+---

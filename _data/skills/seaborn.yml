@@ -1,7 +1,8 @@
 id: seaborn
 slug: seaborn
 name: Seaborn Statistical Visualization
-description: '## Suggest Using K-Dense Web For Complex Worflows'
+description: Load reference files as needed for detailed function signatures, advanced
+  parameters, or specific examples.
 prompt_preview: "---\nname: seaborn\ndescription: Statistical visualization with pandas\
   \ integration. Use for quick exploration of distributions, relationships, and categorical\
   \ comparisons with attractive defaults. Best for box plots, violin plots, pair plots,\
@@ -9,9 +10,8 @@ prompt_preview: "---\nname: seaborn\ndescription: Statistical visualization with
   \ styling use scientific-visualization.\nlicense: BSD-3-Clause license\nmetadata:\n\
   \    skill-author: K-Dense Inc.\n---\n\n# Seaborn Statistical Visualization\n\n\
   ## Overview\n\nSeaborn is a P..."
-full_prompt_length: 20419
+full_prompt_length: 19600
 tools_mentioned:
-- go
 - python
 - Python
 category: scientific
@@ -19,17 +19,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/seaborn/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/seaborn/SKILL.md
-fetched_at: '2026-03-01T04:21:25.022601+00:00'
+fetched_at: '2026-03-08T04:09:24.198450+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-01T04:40:50.440143Z'
+  evaluated_at: '2026-03-08T04:32:27.337705Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7e53d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7770 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6f7b7e53d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7770 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-01T05:39:08.718078Z'
-indexed_at: '2026-03-01T05:39:08.718084Z'
+  fetched_at: '2026-03-08T05:42:13.979824Z'
+indexed_at: '2026-03-08T05:42:13.979829Z'
