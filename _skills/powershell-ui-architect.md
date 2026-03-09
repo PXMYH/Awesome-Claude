@@ -25,31 +25,31 @@ prompt_preview: '---
 full_prompt_length: 5585
 tools_mentioned:
 - azure
-category: developer-experience
-category_display: Developer Experience
+category: 06-developer-experience
+category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/powershell-ui-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/powershell-ui-architect.md
-fetched_at: '2026-03-08T04:09:38.336379+00:00'
+fetched_at: '2026-03-09T04:16:30.941826Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T04:47:42.905343Z'
+  evaluated_at: '2026-03-09T04:28:47.579177Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa42840 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2510d97a70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa42840 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2510d97a70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 12835
-  forks: 1384
-  open_issues: 4
+  stars: 12932
+  forks: 1392
+  open_issues: 5
   last_commit: '2026-03-03'
-  fetched_at: '2026-03-08T04:11:00.839505Z'
-indexed_at: '2026-03-08T05:42:14.300635Z'
+  fetched_at: '2026-03-09T04:16:47.795438Z'
+indexed_at: '2026-03-09T04:38:55.050662Z'
 ---
