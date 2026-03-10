@@ -1,7 +1,7 @@
 id: brainstorming
 slug: brainstorming
 name: Brainstorming Ideas Into Designs
-description: '- **One question at a time** - Don''t overwhelm with multiple questions'
+description: 'If they agree to the companion, read the detailed guide before proceeding:'
 prompt_preview: '---
 
   name: brainstorming
@@ -16,16 +16,13 @@ prompt_preview: '---
   # Brainstorming Ideas Into Designs
 
 
-  ## Overview
-
-
   Help turn ideas into fully formed designs and specs through natural collaborative
   dialogue.
 
 
   Start by understanding the current project context, then ask questions one at a
-  time to refine the idea. Once you u...'
-full_prompt_length: 4676
+  time to refine the idea. Once you understand wha...'
+full_prompt_length: 9339
 tools_mentioned:
 - go
 - Go
@@ -34,25 +31,25 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/brainstorming/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md
-fetched_at: '2026-03-09T04:16:43.635278Z'
+fetched_at: '2026-03-10T04:09:01.499180Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-09T04:37:08.594706Z'
+  evaluated_at: '2026-03-10T04:29:45.010080Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f251020af90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7110662210 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f251020af90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7110662210 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 74108
-  forks: 5705
-  open_issues: 222
-  last_commit: '2026-02-21'
-  fetched_at: '2026-03-09T04:16:48.549891Z'
-indexed_at: '2026-03-09T04:38:55.228716Z'
+  stars: 75392
+  forks: 5842
+  open_issues: 184
+  last_commit: '2026-03-10'
+  fetched_at: '2026-03-10T04:09:09.844172Z'
+indexed_at: '2026-03-10T04:31:33.259563Z'

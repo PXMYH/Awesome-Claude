@@ -15,43 +15,47 @@ prompt_preview: '---
   ---
 
 
+  <SUBAGENT-STOP>
+
+  If you were dispatched as a subagent to execute a specific task, skip this skill.
+
+  </SUBAGENT-STOP>
+
+
   <EXTREMELY-IMPORTANT>
 
   If you think there is even a 1% chance a skill might apply to what you are doing,
   you ABSOLUTELY MUST invoke the skill.
 
 
-  IF A SKILL APPLIES TO YOUR TASK, YOU DO NOT HAVE A CHOICE. YOU MUST USE IT.
-
-
-  This is not negotiable. This is not optional. You cannot rationalize your...'
-full_prompt_length: 4197
+  IF A SKILL APPLIES TO YOUR TASK, YO...'
+full_prompt_length: 4944
 tools_mentioned: []
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/using-superpowers/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md
-fetched_at: '2026-03-09T04:16:46.360869Z'
+fetched_at: '2026-03-10T04:09:06.316920Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-09T04:38:30.262392Z'
+  evaluated_at: '2026-03-10T04:31:07.742534Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2510208200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f71105346b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2510208200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f71105346b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 74108
-  forks: 5705
-  open_issues: 222
-  last_commit: '2026-02-21'
-  fetched_at: '2026-03-09T04:16:48.549891Z'
-indexed_at: '2026-03-09T04:38:55.257223Z'
+  stars: 75392
+  forks: 5842
+  open_issues: 184
+  last_commit: '2026-03-10'
+  fetched_at: '2026-03-10T04:09:09.844172Z'
+indexed_at: '2026-03-10T04:31:33.288218Z'
 ---

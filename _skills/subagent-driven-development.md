@@ -10,33 +10,33 @@ prompt_preview: "---\nname: subagent-driven-development\ndescription: Use when e
   **Core principle:** Fresh subagent per task + two-stage review (spec then quality)\
   \ = high quality, fast iteration\n\n## When to Use\n\n```dot\ndigraph when_to_use\
   \ {\n    \"Have implementatio..."
-full_prompt_length: 9966
+full_prompt_length: 11767
 tools_mentioned: []
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/subagent-driven-development/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md
-fetched_at: '2026-03-09T04:16:45.297101Z'
+fetched_at: '2026-03-10T04:09:04.414352Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-09T04:37:57.586188Z'
+  evaluated_at: '2026-03-10T04:30:34.601231Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f25102003b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f71105347d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f25102003b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f71105347d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 74108
-  forks: 5705
-  open_issues: 222
-  last_commit: '2026-02-21'
-  fetched_at: '2026-03-09T04:16:48.549891Z'
-indexed_at: '2026-03-09T04:38:55.245790Z'
+  stars: 75392
+  forks: 5842
+  open_issues: 184
+  last_commit: '2026-03-10'
+  fetched_at: '2026-03-10T04:09:09.844172Z'
+indexed_at: '2026-03-10T04:31:33.276604Z'
 ---

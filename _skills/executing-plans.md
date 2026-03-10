@@ -19,49 +19,41 @@ prompt_preview: '---
   ## Overview
 
 
-  Load plan, review critically, execute tasks in batches, report for review between
-  batches.
-
-
-  **Core principle:** Batch execution with checkpoints for architect review.
+  Load plan, review critically, execute all tasks, report when complete.
 
 
   **Announce at start:** "I''m using the executing-plans skill to implement this plan."
 
 
-  ## The Process
-
-
-  ### Step 1: Load and Review Plan
-
-  1. Read plan fil...'
-full_prompt_length: 2550
+  **Note:** Tell your human partner that Superpowers works much better with access
+  to subagents. The quality of its work will be significantly higher if run on a p...'
+full_prompt_length: 2459
 tools_mentioned: []
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/executing-plans/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/executing-plans/SKILL.md
-fetched_at: '2026-03-09T04:16:44.139887Z'
+fetched_at: '2026-03-10T04:09:02.470109Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-09T04:37:24.920852Z'
+  evaluated_at: '2026-03-10T04:30:01.536806Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f25104f6090 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f711066c590 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f25104f6090 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f711066c590 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 74108
-  forks: 5705
-  open_issues: 222
-  last_commit: '2026-02-21'
-  fetched_at: '2026-03-09T04:16:48.549891Z'
-indexed_at: '2026-03-09T04:38:55.234476Z'
+  stars: 75392
+  forks: 5842
+  open_issues: 184
+  last_commit: '2026-03-10'
+  fetched_at: '2026-03-10T04:09:09.844172Z'
+indexed_at: '2026-03-10T04:31:33.265258Z'
 ---
