@@ -16,52 +16,38 @@ prompt_preview: '---
 
 
   Dispatch superpowers:code-reviewer subagent to catch issues before they cascade.
+  The reviewer gets precisely crafted context for evaluation — never your session''s
+  history. This keeps the reviewer focused on the work product, not your thought process,
+  and preserves your own context for continued work.
 
 
-  **Core principle:** Review early, review often.
-
-
-  ## When to Request Review
-
-
-  **Mandatory:**
-
-  - After each task in subagent-driven development
-
-  - After completing major feature
-
-  - Before merge to main
-
-
-  **Optional but valuable:**
-
-  - When st...'
-full_prompt_length: 2712
+  **Core princ...'
+full_prompt_length: 2933
 tools_mentioned: []
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/requesting-code-review/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/requesting-code-review/SKILL.md
-fetched_at: '2026-03-11T04:09:44.610464Z'
+fetched_at: '2026-03-13T04:11:58.922924Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-11T04:31:07.612705Z'
+  evaluated_at: '2026-03-13T04:32:55.869219Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4da3548230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fdd3d248230 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4da3548230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fdd3d248230 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 76839
-  forks: 5953
-  open_issues: 118
-  last_commit: '2026-03-11'
-  fetched_at: '2026-03-11T04:09:50.565472Z'
-indexed_at: '2026-03-11T04:32:14.336829Z'
+  stars: 80266
+  forks: 6215
+  open_issues: 121
+  last_commit: '2026-03-12'
+  fetched_at: '2026-03-13T04:12:02.952944Z'
+indexed_at: '2026-03-13T04:34:01.716604Z'

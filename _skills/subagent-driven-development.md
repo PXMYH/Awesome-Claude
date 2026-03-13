@@ -3,40 +3,53 @@ id: subagent-driven-development
 slug: subagent-driven-development
 name: Subagent-Driven Development
 description: '**Alternative workflow:**'
-prompt_preview: "---\nname: subagent-driven-development\ndescription: Use when executing\
-  \ implementation plans with independent tasks in the current session\n---\n\n# Subagent-Driven\
-  \ Development\n\nExecute plan by dispatching fresh subagent per task, with two-stage\
-  \ review after each: spec compliance review first, then code quality review.\n\n\
-  **Core principle:** Fresh subagent per task + two-stage review (spec then quality)\
-  \ = high quality, fast iteration\n\n## When to Use\n\n```dot\ndigraph when_to_use\
-  \ {\n    \"Have implementatio..."
-full_prompt_length: 11767
+prompt_preview: '---
+
+  name: subagent-driven-development
+
+  description: Use when executing implementation plans with independent tasks in the
+  current session
+
+  ---
+
+
+  # Subagent-Driven Development
+
+
+  Execute plan by dispatching fresh subagent per task, with two-stage review after
+  each: spec compliance review first, then code quality review.
+
+
+  **Why subagents:** You delegate tasks to specialized agents with isolated context.
+  By precisely crafting their instructions and context, you ensure they stay focused
+  and succeed at th...'
+full_prompt_length: 12121
 tools_mentioned: []
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/subagent-driven-development/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md
-fetched_at: '2026-03-11T04:09:45.084878Z'
+fetched_at: '2026-03-13T04:11:59.238525Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-11T04:31:15.868012Z'
+  evaluated_at: '2026-03-13T04:33:03.984825Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4da3467350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fdd3d1626c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4da3467350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fdd3d1626c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 76839
-  forks: 5953
-  open_issues: 118
-  last_commit: '2026-03-11'
-  fetched_at: '2026-03-11T04:09:50.565472Z'
-indexed_at: '2026-03-11T04:32:14.339593Z'
+  stars: 80266
+  forks: 6215
+  open_issues: 121
+  last_commit: '2026-03-12'
+  fetched_at: '2026-03-13T04:12:02.952944Z'
+indexed_at: '2026-03-13T04:34:01.719470Z'
 ---
