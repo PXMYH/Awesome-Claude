@@ -18,24 +18,24 @@ prompt_preview: '---
 full_prompt_length: 6173
 tools_mentioned:
 - php
-- PHP
 - REST
+- PHP
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/wordpress-pro/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/wordpress-pro/SKILL.md
-fetched_at: '2026-03-08T04:10:18.183067+00:00'
+fetched_at: '2026-03-15T04:32:10.843510+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:16:42.592182Z'
+  evaluated_at: '2026-03-15T05:38:47.560630Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1c5c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643d1c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1c5c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643d1c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.894607Z'
-indexed_at: '2026-03-08T05:42:14.894612Z'
+  fetched_at: '2026-03-15T06:04:20.414539Z'
+indexed_at: '2026-03-15T06:04:20.414545Z'
 ---

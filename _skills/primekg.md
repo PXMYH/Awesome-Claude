@@ -1,0 +1,43 @@
+---
+id: primekg
+slug: primekg
+name: PrimeKG Knowledge Graph Skill
+description: '### Data Path'
+prompt_preview: "---\nname: primekg\ndescription: Query the Precision Medicine Knowledge\
+  \ Graph (PrimeKG) for multiscale biological data including genes, drugs, diseases,\
+  \ phenotypes, and more.\nlicense: Unknown\nmetadata:\n    skill-author: K-Dense\
+  \ Inc. (PrimeKG original from Harvard MIMS)\n---\n\n# PrimeKG Knowledge Graph Skill\n\
+  \n## Overview\n\nPrimeKG is a precision medicine knowledge graph that integrates\
+  \ over 20 primary databases and high-quality scientific literature into a single\
+  \ resource. It contains over 100,000 nod..."
+full_prompt_length: 3821
+tools_mentioned:
+- python
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/primekg/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/primekg/SKILL.md
+fetched_at: '2026-03-15T04:31:13.171303+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-15T04:49:32.297966Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396673770 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396673770 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-15T06:04:19.352240Z'
+indexed_at: '2026-03-15T06:04:19.352251Z'
+---

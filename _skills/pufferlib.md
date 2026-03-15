@@ -19,17 +19,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pufferlib/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pufferlib/SKILL.md
-fetched_at: '2026-03-08T04:09:20.465251+00:00'
+fetched_at: '2026-03-15T04:31:13.626046+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T04:27:56.069173Z'
+  evaluated_at: '2026-03-15T04:50:04.907256Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd6600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396423e00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd6600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396423e00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:13.885501Z'
-indexed_at: '2026-03-08T05:42:13.885507Z'
+  fetched_at: '2026-03-15T06:04:19.363856Z'
+indexed_at: '2026-03-15T06:04:19.363862Z'
 ---

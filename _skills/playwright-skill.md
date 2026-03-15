@@ -27,17 +27,17 @@ category_display: Community
 source_repo: lackeyjb/playwright-skill
 source_path: skills/playwright-skill/SKILL.md
 source_url: https://github.com/lackeyjb/playwright-skill/blob/main/skills/playwright-skill/SKILL.md
-fetched_at: '2026-03-08T04:10:23.741205+00:00'
+fetched_at: '2026-03-15T04:32:16.488115+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:21:28.702763Z'
+  evaluated_at: '2026-03-15T05:43:33.363941Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa69160 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39646aa20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa69160 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39646aa20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.993512Z'
-indexed_at: '2026-03-08T05:42:14.993517Z'
+  fetched_at: '2026-03-15T06:04:20.517647Z'
+indexed_at: '2026-03-15T06:04:20.517653Z'
 ---

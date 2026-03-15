@@ -12,24 +12,24 @@ prompt_preview: "---\nname: gnomad-database\ndescription: Query gnomAD (Genome A
 full_prompt_length: 12453
 tools_mentioned:
 - GraphQL
-- python
 - gcp
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/gnomad-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/gnomad-database/SKILL.md
-fetched_at: '2026-03-08T04:09:14.224603+00:00'
+fetched_at: '2026-03-15T04:31:07.145040+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T04:20:11.420264Z'
+  evaluated_at: '2026-03-15T04:42:09.754662Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc3f9e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396673aa0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc3f9e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396673aa0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:13.723328Z'
-indexed_at: '2026-03-08T05:42:13.723333Z'
+  fetched_at: '2026-03-15T06:04:19.195525Z'
+indexed_at: '2026-03-15T06:04:19.195532Z'

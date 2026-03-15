@@ -3,26 +3,14 @@ id: storyboard
 slug: storyboard
 name: Storyboard
 description: Claude skill for Storyboard
-prompt_preview: '---
-
-  name: storyboard
-
-  description: Create a 6-frame visual narrative that tells the story of a user''s
-  journey from problem to solution, using the classic storytelling arc to build empathy,
-  illustrate value, and make abstract product co
-
-  type: component
-
-  ---
-
-
-
-  ## Purpose
-
-  Create a 6-frame visual narrative that tells the story of a user''s journey from
-  problem to solution, using the classic storytelling arc to build empathy, illustrate
-  value, and make abstract product concepts concrete. Use this to ali...'
-full_prompt_length: 10652
+prompt_preview: "---\nname: storyboard\ndescription: Create a six-frame storyboard\
+  \ that shows a user's journey from problem to solution. Use when you need a fast\
+  \ narrative for alignment, concept reviews, or demos.\nintent: >-\n  Create a 6-frame\
+  \ visual narrative that tells the story of a user's journey from problem to solution,\
+  \ using the classic storytelling arc to build empathy, illustrate value, and make\
+  \ abstract product concepts concrete. Use this to align stakeholders, pitch features,\
+  \ communicate vision, or test..."
+full_prompt_length: 10977
 tools_mentioned:
 - react
 category: community
@@ -30,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/storyboard/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/storyboard/SKILL.md
-fetched_at: '2026-03-08T04:10:01.956969+00:00'
+fetched_at: '2026-03-15T04:31:54.814895+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:07:32.054412Z'
+  evaluated_at: '2026-03-15T05:29:38.598198Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fead820 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3967d6db0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fead820 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3967d6db0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.705661Z'
-indexed_at: '2026-03-08T05:42:14.705670Z'
+  fetched_at: '2026-03-15T06:04:20.221155Z'
+indexed_at: '2026-03-15T06:04:20.221161Z'
 ---

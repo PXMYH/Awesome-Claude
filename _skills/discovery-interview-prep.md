@@ -3,31 +3,31 @@ id: discovery-interview-prep
 slug: discovery-interview-prep
 name: Discovery Interview Plan
 description: '**Skill type:** Interactive'
-prompt_preview: "---\nname: discovery-interview-prep\ndescription: Guide product managers\
-  \ through preparing for customer discovery interviews by asking adaptive questions\
-  \ about research goals, customer segments, constraints, and methodologies. Use this\
-  \ to design effe\ntype: interactive\ntheme: discovery-research\nbest_for:\n  - \"\
-  Designing a customer discovery interview plan\"\n  - \"Choosing the right interview\
-  \ methodology for your goals and constraints\"\n  - \"Preparing for research with\
-  \ limited customer access\"\nscenarios..."
-full_prompt_length: 17821
+prompt_preview: "---\nname: discovery-interview-prep\ndescription: Plan customer discovery\
+  \ interviews with the right goal, segment, constraints, and method. Use when preparing\
+  \ interviews for problem validation, churn research, or new product ideas.\nintent:\
+  \ >-\n  Guide product managers through preparing for customer discovery interviews\
+  \ by asking adaptive questions about research goals, customer segments, constraints,\
+  \ and methodologies. Use this to design effective interview plans, craft targeted\
+  \ questions, avoid co..."
+full_prompt_length: 18249
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/discovery-interview-prep/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/discovery-interview-prep/SKILL.md
-fetched_at: '2026-03-08T04:09:58.714638+00:00'
+fetched_at: '2026-03-15T04:31:51.649709+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:03:34.094014Z'
+  evaluated_at: '2026-03-15T05:25:40.033465Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa417f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3975392b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa417f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3975392b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.626037Z'
-indexed_at: '2026-03-08T05:42:14.626042Z'
+  fetched_at: '2026-03-15T06:04:20.138574Z'
+indexed_at: '2026-03-15T06:04:20.138580Z'
 ---

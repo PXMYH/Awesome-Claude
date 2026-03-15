@@ -3,27 +3,14 @@ id: finance-based-pricing-advisor
 slug: finance-based-pricing-advisor
 name: Finance Based Pricing Advisor
 description: Claude skill for Finance Based Pricing Advisor
-prompt_preview: '---
-
-  name: finance-based-pricing-advisor
-
-  description: Evaluate pricing changes using financial impact analysis - ARPU/ARPA,
-  conversion, churn risk, NRR, and payback. Recommends go/no-go on pricing decisions.
-
-  type: interactive
-
-  ---
-
-
-
-  ## Purpose
-
-
-  Evaluate the **financial impact** of pricing changes (price increases, new tiers,
-  add-ons, discounts) using ARPU/ARPA analysis, conversion impact, churn risk, NRR
-  effects, and CAC payback implications. Use this to make data-driven go/no-go decisions
-  on prop...'
-full_prompt_length: 22215
+prompt_preview: "---\nname: finance-based-pricing-advisor\ndescription: Evaluate pricing\
+  \ changes using ARPU, conversion, churn risk, NRR, and payback. Use when deciding\
+  \ whether a pricing move should ship.\nintent: >-\n  Evaluate the **financial impact**\
+  \ of pricing changes (price increases, new tiers, add-ons, discounts) using ARPU/ARPA\
+  \ analysis, conversion impact, churn risk, NRR effects, and CAC payback implications.\
+  \ Use this to make data-driven go/no-go decisions on proposed pricing changes with\
+  \ supporting math an..."
+full_prompt_length: 22919
 tools_mentioned:
 - go
 category: community
@@ -31,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/finance-based-pricing-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/finance-based-pricing-advisor/SKILL.md
-fetched_at: '2026-03-08T04:09:59.471120+00:00'
+fetched_at: '2026-03-15T04:31:52.411000+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:04:31.228774Z'
+  evaluated_at: '2026-03-15T05:26:37.142055Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd75f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396422f60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd75f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396422f60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.645491Z'
-indexed_at: '2026-03-08T05:42:14.645496Z'
+  fetched_at: '2026-03-15T06:04:20.158639Z'
+indexed_at: '2026-03-15T06:04:20.158644Z'
 ---

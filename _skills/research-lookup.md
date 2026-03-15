@@ -14,24 +14,24 @@ prompt_preview: "---\nname: research-lookup\ndescription: Look up current resear
 full_prompt_length: 16204
 tools_mentioned:
 - go
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/research-lookup/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/research-lookup/SKILL.md
-fetched_at: '2026-03-08T04:09:22.530367+00:00'
+fetched_at: '2026-03-15T04:31:15.624037+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T04:30:23.120389Z'
+  evaluated_at: '2026-03-15T04:52:32.086857Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa43650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643f320 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa43650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643f320 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:13.936640Z'
-indexed_at: '2026-03-08T05:42:13.936645Z'
+  fetched_at: '2026-03-15T06:04:19.415758Z'
+indexed_at: '2026-03-15T06:04:19.415764Z'
 ---

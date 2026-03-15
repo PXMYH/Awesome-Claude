@@ -17,31 +17,31 @@ prompt_preview: '---
   with full-text and vector search, or running custom...'
 full_prompt_length: 10449
 tools_mentioned:
-- Python
-- go
 - python
-- REST
-- React
-- docker
-- Azure
-- FastAPI
 - Docker
+- Azure
+- React
+- REST
+- Python
+- FastAPI
+- docker
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/open-notebook/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/open-notebook/SKILL.md
-fetched_at: '2026-03-08T04:09:18.276964+00:00'
+fetched_at: '2026-03-15T04:31:11.301740+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T04:25:12.967167Z'
+  evaluated_at: '2026-03-15T04:47:13.268829Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa42ed0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396422e40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa42ed0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396422e40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:13.828896Z'
-indexed_at: '2026-03-08T05:42:13.828905Z'
+  fetched_at: '2026-03-15T06:04:19.303101Z'
+indexed_at: '2026-03-15T06:04:19.303106Z'
 ---

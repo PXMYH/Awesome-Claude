@@ -22,31 +22,31 @@ prompt_preview: '---
   IDE configuration, and workflow auto...'
 full_prompt_length: 6593
 tools_mentioned: []
-category: 06-developer-experience
-category_display: 06 Developer Experience
+category: developer-experience
+category_display: Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/dx-optimizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/dx-optimizer.md
-fetched_at: '2026-03-14T04:10:23.780873Z'
+fetched_at: '2026-03-15T04:31:30.819783+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-14T04:22:22.728172Z'
+  evaluated_at: '2026-03-15T05:09:09.946250Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f277dbfed20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643ee70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f277dbfed20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643ee70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 13712
-  forks: 1516
-  open_issues: 6
+  stars: 13858
+  forks: 1537
+  open_issues: 7
   last_commit: '2026-03-03'
-  fetched_at: '2026-03-14T04:10:52.113946Z'
-indexed_at: '2026-03-14T04:33:18.421010Z'
+  fetched_at: '2026-03-15T04:32:52.360906Z'
+indexed_at: '2026-03-15T06:04:19.776403Z'
 ---

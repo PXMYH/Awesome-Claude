@@ -12,24 +12,24 @@ prompt_preview: "---\nname: timesfm-forecasting\ndescription: Zero-shot time ser
   \ Clayton Young / Super..."
 full_prompt_length: 29961
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/timesfm-forecasting/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/timesfm-forecasting/SKILL.md
-fetched_at: '2026-03-08T04:09:25.187616+00:00'
+fetched_at: '2026-03-15T04:31:18.267706+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T04:33:40.771287Z'
+  evaluated_at: '2026-03-15T04:55:48.628999Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa6bb60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39674c440 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa6bb60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39674c440 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.005816Z'
-indexed_at: '2026-03-08T05:42:14.005821Z'
+  fetched_at: '2026-03-15T06:04:19.486491Z'
+indexed_at: '2026-03-15T06:04:19.486497Z'
 ---

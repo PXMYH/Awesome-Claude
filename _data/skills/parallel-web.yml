@@ -11,24 +11,24 @@ prompt_preview: "---\nname: parallel-web\ndescription: Search the web, extract U
   \ access to **Parallel Web Syst..."
 full_prompt_length: 11636
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/parallel-web/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/parallel-web/SKILL.md
-fetched_at: '2026-03-08T04:09:18.858857+00:00'
+fetched_at: '2026-03-15T04:31:11.848228+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T04:25:53.728920Z'
+  evaluated_at: '2026-03-15T04:47:53.987836Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fd4afc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396673e90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fd4afc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396673e90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:13.843250Z'
-indexed_at: '2026-03-08T05:42:13.843255Z'
+  fetched_at: '2026-03-15T06:04:19.317774Z'
+indexed_at: '2026-03-15T06:04:19.317780Z'

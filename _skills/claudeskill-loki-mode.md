@@ -34,17 +34,17 @@ category_display: Community
 source_repo: asklokesh/claudeskill-loki-mode
 source_path: SKILL.md
 source_url: https://github.com/asklokesh/claudeskill-loki-mode/blob/main/SKILL.md
-fetched_at: '2026-03-08T04:09:48.592081+00:00'
+fetched_at: '2026-03-15T04:31:41.637553+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T04:55:54.892539Z'
+  evaluated_at: '2026-03-15T05:18:01.954961Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643c710 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643c710 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.474367Z'
-indexed_at: '2026-03-08T05:42:14.474372Z'
+  fetched_at: '2026-03-15T06:04:19.980702Z'
+indexed_at: '2026-03-15T06:04:19.980708Z'
 ---

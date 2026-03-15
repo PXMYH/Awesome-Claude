@@ -11,24 +11,24 @@ prompt_preview: "---\nname: changelog-updates\ndescription: |\n  Create release 
   , \"developer updates\", \"API versi..."
 full_prompt_length: 13071
 tools_mentioned:
-- python
 - Python
+- python
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/changelog-updates/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/changelog-updates/SKILL.md
-fetched_at: '2026-03-08T04:10:19.180819+00:00'
+fetched_at: '2026-03-15T04:32:11.858329+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:17:07.161451Z'
+  evaluated_at: '2026-03-15T05:39:12.002002Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7880aff9b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3965d7ef0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7880aff9b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3965d7ef0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.902999Z'
-indexed_at: '2026-03-08T05:42:14.903004Z'
+  fetched_at: '2026-03-15T06:04:20.423131Z'
+indexed_at: '2026-03-15T06:04:20.423136Z'

@@ -3,27 +3,14 @@ id: saas-economics-efficiency-metrics
 slug: saas-economics-efficiency-metrics
 name: Saas Economics Efficiency Metrics
 description: Claude skill for Saas Economics Efficiency Metrics
-prompt_preview: '---
-
-  name: saas-economics-efficiency-metrics
-
-  description: Evaluate unit economics and capital efficiency for SaaS. Covers CAC,
-  LTV, payback, margins, burn rate, Rule of 40, and magic number.
-
-  type: component
-
-  ---
-
-
-
-  ## Purpose
-
-
-  Determine whether your SaaS business model is fundamentally viable and capital-efficient.
-  Use this to calculate unit economics, assess profitability, manage cash runway,
-  and decide when to scale vs. optimize. Essential for fundraising, board reporting,
-  and making smart invest...'
-full_prompt_length: 24211
+prompt_preview: "---\nname: saas-economics-efficiency-metrics\ndescription: Evaluate\
+  \ SaaS unit economics and capital efficiency. Use when deciding whether the business\
+  \ can scale efficiently or needs correction.\nintent: >-\n  Determine whether your\
+  \ SaaS business model is fundamentally viable and capital-efficient. Use this to\
+  \ calculate unit economics, assess profitability, manage cash runway, and decide\
+  \ when to scale vs. optimize. Essential for fundraising, board reporting, and making\
+  \ smart investment trade-offs.\nty..."
+full_prompt_length: 24925
 tools_mentioned:
 - go
 category: community
@@ -31,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/saas-economics-efficiency-metrics/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/saas-economics-efficiency-metrics/SKILL.md
-fetched_at: '2026-03-08T04:10:01.600912+00:00'
+fetched_at: '2026-03-15T04:31:54.484407+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:07:07.566139Z'
+  evaluated_at: '2026-03-15T05:29:13.946199Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa6a3f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396c573e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa6a3f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396c573e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.697411Z'
-indexed_at: '2026-03-08T05:42:14.697416Z'
+  fetched_at: '2026-03-15T06:04:20.212571Z'
+indexed_at: '2026-03-15T06:04:20.212578Z'
 ---

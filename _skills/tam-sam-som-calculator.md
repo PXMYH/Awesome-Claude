@@ -3,26 +3,14 @@ id: tam-sam-som-calculator
 slug: tam-sam-som-calculator
 name: TAM/SAM/SOM Analysis
 description: '**Skill type:** Interactive'
-prompt_preview: '---
-
-  name: tam-sam-som-calculator
-
-  description: Guide product managers through calculating Total Addressable Market
-  (TAM), Serviceable Available Market (SAM), and Serviceable Obtainable Market (SOM)
-  for a product idea by asking adaptive, contextual
-
-  type: interactive
-
-  ---
-
-
-
-  ## Purpose
-
-  Guide product managers through calculating Total Addressable Market (TAM), Serviceable
-  Available Market (SAM), and Serviceable Obtainable Market (SOM) for a product idea
-  by asking adaptive, contextually relevant questi...'
-full_prompt_length: 14420
+prompt_preview: "---\nname: tam-sam-som-calculator\ndescription: Calculate TAM, SAM,\
+  \ and SOM with explicit assumptions, methods, and caveats. Use when sizing a market\
+  \ for a product idea, business case, or executive review.\nintent: >-\n  Guide product\
+  \ managers through calculating Total Addressable Market (TAM), Serviceable Available\
+  \ Market (SAM), and Serviceable Obtainable Market (SOM) for a product idea by asking\
+  \ adaptive, contextually relevant questions. Use this to build defensible market\
+  \ size estimates backed by..."
+full_prompt_length: 14826
 tools_mentioned:
 - go
 category: community
@@ -30,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/tam-sam-som-calculator/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/tam-sam-som-calculator/SKILL.md
-fetched_at: '2026-03-08T04:10:02.074590+00:00'
+fetched_at: '2026-03-15T04:31:54.919638+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:07:40.238877Z'
+  evaluated_at: '2026-03-15T05:29:46.750887Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7880252960 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39679e420 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7880252960 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39679e420 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.708354Z'
-indexed_at: '2026-03-08T05:42:14.708360Z'
+  fetched_at: '2026-03-15T06:04:20.223929Z'
+indexed_at: '2026-03-15T06:04:20.223934Z'
 ---

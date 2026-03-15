@@ -17,24 +17,24 @@ prompt_preview: '---
   vulnerability reports, prioritized recommendations...'
 full_prompt_length: 4742
 tools_mentioned:
-- kubernetes
 - AWS
+- kubernetes
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/security-reviewer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/security-reviewer/SKILL.md
-fetched_at: '2026-03-08T04:10:16.489160+00:00'
+fetched_at: '2026-03-15T04:32:09.242002+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:15:45.086255Z'
+  evaluated_at: '2026-03-15T05:37:50.482912Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f78801d4860 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396d546b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f78801d4860 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396d546b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.874801Z'
-indexed_at: '2026-03-08T05:42:14.874806Z'
+  fetched_at: '2026-03-15T06:04:20.394459Z'
+indexed_at: '2026-03-15T06:04:20.394465Z'
 ---

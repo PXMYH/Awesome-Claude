@@ -25,30 +25,30 @@ full_prompt_length: 6853
 tools_mentioned:
 - Redis
 category: quality-security
-category_display: Quality & Security
+category_display: Quality Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/performance-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/performance-engineer.md
-fetched_at: '2026-03-14T04:10:18.417837Z'
+fetched_at: '2026-03-15T04:31:28.293664+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-14T04:19:28.977713Z'
+  evaluated_at: '2026-03-15T05:06:18.269916Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f277de77ec0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3964226c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f277de77ec0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3964226c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 13712
-  forks: 1516
-  open_issues: 6
+  stars: 13858
+  forks: 1537
+  open_issues: 7
   last_commit: '2026-03-03'
-  fetched_at: '2026-03-14T04:10:52.113946Z'
-indexed_at: '2026-03-14T04:33:18.362341Z'
+  fetched_at: '2026-03-15T04:32:52.360906Z'
+indexed_at: '2026-03-15T06:04:19.716082Z'
 ---

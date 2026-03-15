@@ -13,25 +13,25 @@ prompt_preview: "---\nname: pubchem-database\ndescription: Query PubChem via PUG
 full_prompt_length: 16313
 tools_mentioned:
 - rest
+- Python
 - REST
 - python
-- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pubchem-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pubchem-database/SKILL.md
-fetched_at: '2026-03-08T04:09:20.258370+00:00'
+fetched_at: '2026-03-15T04:31:13.400158+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T04:27:39.764174Z'
+  evaluated_at: '2026-03-15T04:49:48.624454Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc6fd40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396420a10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc6fd40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396420a10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:13.879799Z'
-indexed_at: '2026-03-08T05:42:13.879804Z'
+  fetched_at: '2026-03-15T06:04:19.357862Z'
+indexed_at: '2026-03-15T06:04:19.357868Z'
 ---

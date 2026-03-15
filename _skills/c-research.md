@@ -31,17 +31,17 @@ category_display: Community
 source_repo: daxaur/openpaw
 source_path: skills/c-research/SKILL.md
 source_url: https://github.com/daxaur/openpaw/blob/main/skills/c-research/SKILL.md
-fetched_at: '2026-03-08T04:09:55.209193+00:00'
+fetched_at: '2026-03-15T04:31:48.184177+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:00:17.698247Z'
+  evaluated_at: '2026-03-15T05:22:23.605198Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396422db0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd7650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396422db0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.560438Z'
-indexed_at: '2026-03-08T05:42:14.560443Z'
+  fetched_at: '2026-03-15T06:04:20.070142Z'
+indexed_at: '2026-03-15T06:04:20.070150Z'
 ---

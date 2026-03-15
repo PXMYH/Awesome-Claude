@@ -3,47 +3,31 @@ id: finance-metrics-quickref
 slug: finance-metrics-quickref
 name: Finance Metrics Quickref
 description: Claude skill for Finance Metrics Quickref
-prompt_preview: '---
-
-  name: finance-metrics-quickref
-
-  description: Fast lookup table for 32+ SaaS finance metrics with formulas, benchmarks,
-  and when to use each. Includes red flags and decision frameworks.
-
-  type: component
-
-  ---
-
-
-
-  ## Purpose
-
-
-  Quick reference for any SaaS finance metric without deep teaching. Use this when
-  you need a fast formula lookup, benchmark check, or decision framework reminder.
-  For detailed explanations, calculations, and examples, see the related deep-dive
-  skills.
-
-
-  This is not a teaching too...'
-full_prompt_length: 14914
+prompt_preview: "---\nname: finance-metrics-quickref\ndescription: Look up SaaS finance\
+  \ metrics, formulas, and benchmarks fast. Use when you need a quick metric definition,\
+  \ formula, or benchmark during analysis.\nintent: >-\n  Quick reference for any\
+  \ SaaS finance metric without deep teaching. Use this when you need a fast formula\
+  \ lookup, benchmark check, or decision framework reminder. For detailed explanations,\
+  \ calculations, and examples, see the related deep-dive skills.\ntype: component\n\
+  best_for:\n  - \"Quick metric..."
+full_prompt_length: 15587
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/finance-metrics-quickref/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/finance-metrics-quickref/SKILL.md
-fetched_at: '2026-03-08T04:09:59.577936+00:00'
+fetched_at: '2026-03-15T04:31:52.518023+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:04:39.371496Z'
+  evaluated_at: '2026-03-15T05:26:45.268380Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa438c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643c530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa438c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643c530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -53,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.648293Z'
-indexed_at: '2026-03-08T05:42:14.648299Z'
+  fetched_at: '2026-03-15T06:04:20.161516Z'
+indexed_at: '2026-03-15T06:04:20.161522Z'
 ---

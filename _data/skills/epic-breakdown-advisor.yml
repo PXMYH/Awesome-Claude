@@ -2,43 +2,31 @@ id: epic-breakdown-advisor
 slug: epic-breakdown-advisor
 name: Epic Breakdown Plan
 description: '**Skill type:** Interactive'
-prompt_preview: '---
-
-  name: epic-breakdown-advisor
-
-  description: Break down epics into user stories using Richard Lawrence''s Humanizing
-  Work methodology—a flowchart-driven approach that applies 9 splitting patterns sequentially.
-
-  type: interactive
-
-  ---
-
-
-
-  ## Purpose
-
-  Guide product managers through breaking down epics into user stories using Richard
-  Lawrence''s complete Humanizing Work methodology—a systematic, flowchart-driven
-  approach that applies 9 splitting patterns sequentially. Use this to identify which
-  pattern a...'
-full_prompt_length: 22318
+prompt_preview: "---\nname: epic-breakdown-advisor\ndescription: Break down epics\
+  \ into user stories with Humanizing Work split patterns. Use when a backlog item\
+  \ is too large to estimate, sequence, or deliver safely.\nintent: >-\n  Guide product\
+  \ managers through breaking down epics into user stories using Richard Lawrence's\
+  \ complete Humanizing Work methodology—a systematic, flowchart-driven approach that\
+  \ applies 9 splitting patterns sequentially. Use this to identify which pattern\
+  \ applies, split while preserving user..."
+full_prompt_length: 23211
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/epic-breakdown-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/epic-breakdown-advisor/SKILL.md
-fetched_at: '2026-03-08T04:09:59.029295+00:00'
+fetched_at: '2026-03-15T04:31:51.970940+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:03:58.661752Z'
+  evaluated_at: '2026-03-15T05:26:04.477449Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa41250 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643c5f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa41250 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643c5f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.634341Z'
-indexed_at: '2026-03-08T05:42:14.634347Z'
+  fetched_at: '2026-03-15T06:04:20.147171Z'
+indexed_at: '2026-03-15T06:04:20.147176Z'

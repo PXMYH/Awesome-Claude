@@ -20,17 +20,17 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/test-master/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/test-master/SKILL.md
-fetched_at: '2026-03-08T04:10:17.492677+00:00'
+fetched_at: '2026-03-15T04:32:10.211223+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:16:17.670837Z'
+  evaluated_at: '2026-03-15T05:38:23.100510Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1eb70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39670d100 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1eb70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39670d100 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.886148Z'
-indexed_at: '2026-03-08T05:42:14.886153Z'
+  fetched_at: '2026-03-15T06:04:20.406056Z'
+indexed_at: '2026-03-15T06:04:20.406061Z'
 ---

@@ -3,26 +3,14 @@ id: epic-hypothesis
 slug: epic-hypothesis
 name: Epic Hypothesis
 description: Claude skill for Epic Hypothesis
-prompt_preview: '---
-
-  name: epic-hypothesis
-
-  description: Frame epics as testable hypotheses using an if/then structure that
-  articulates the action or solution, the target beneficiary, the expected outcome,
-  and how you''ll validate success. Use this to manage
-
-  type: component
-
-  ---
-
-
-
-  ## Purpose
-
-  Frame epics as testable hypotheses using an if/then structure that articulates the
-  action or solution, the target beneficiary, the expected outcome, and how you''ll
-  validate success. Use this to manage uncertainty in product dev...'
-full_prompt_length: 10947
+prompt_preview: "---\nname: epic-hypothesis\ndescription: Frame an epic as a testable\
+  \ hypothesis with target user, expected outcome, and validation method. Use when\
+  \ defining a major initiative before roadmap, discovery, or delivery planning.\n\
+  intent: >-\n  Frame epics as testable hypotheses using an if/then structure that\
+  \ articulates the action or solution, the target beneficiary, the expected outcome,\
+  \ and how you'll validate success. Use this to manage uncertainty in product development\
+  \ by making assumptions explic..."
+full_prompt_length: 11354
 tools_mentioned:
 - go
 category: community
@@ -30,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/epic-hypothesis/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/epic-hypothesis/SKILL.md
-fetched_at: '2026-03-08T04:09:59.137885+00:00'
+fetched_at: '2026-03-15T04:31:52.077836+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:04:06.806869Z'
+  evaluated_at: '2026-03-15T05:26:12.647758Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa435c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643caa0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa435c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643caa0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.637110Z'
-indexed_at: '2026-03-08T05:42:14.637115Z'
+  fetched_at: '2026-03-15T06:04:20.150021Z'
+indexed_at: '2026-03-15T06:04:20.150031Z'
 ---

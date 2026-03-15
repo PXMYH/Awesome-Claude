@@ -17,17 +17,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/insecure-defaults/skills/insecure-defaults/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/insecure-defaults/skills/insecure-defaults/SKILL.md
-fetched_at: '2026-03-08T04:10:47.558749+00:00'
+fetched_at: '2026-03-15T04:32:39.015735+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:35:32.993142Z'
+  evaluated_at: '2026-03-15T05:57:37.540971Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1f9b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643d760 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1f9b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643d760 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:15.288505Z'
-indexed_at: '2026-03-08T05:42:15.288510Z'
+  fetched_at: '2026-03-15T06:04:20.814626Z'
+indexed_at: '2026-03-15T06:04:20.814632Z'

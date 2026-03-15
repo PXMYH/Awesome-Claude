@@ -17,27 +17,27 @@ prompt_preview: '---
   implementing feature stores, managing experiment tracking s...'
 full_prompt_length: 7142
 tools_mentioned:
-- Kubernetes
 - kubernetes
 - python
-- Azure
 - Docker
+- Azure
+- Kubernetes
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/ml-pipeline/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/ml-pipeline/SKILL.md
-fetched_at: '2026-03-08T04:10:14.573383+00:00'
+fetched_at: '2026-03-15T04:32:07.323802+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:14:23.096112Z'
+  evaluated_at: '2026-03-15T05:36:29.041438Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa68530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643cb30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa68530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643cb30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.846567Z'
-indexed_at: '2026-03-08T05:42:14.846576Z'
+  fetched_at: '2026-03-15T06:04:20.365435Z'
+indexed_at: '2026-03-15T06:04:20.365441Z'
 ---

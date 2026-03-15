@@ -12,25 +12,25 @@ prompt_preview: "---\nname: brenda-database\ndescription: Access BRENDA enzyme d
   \ enzyme data from scientific l..."
 full_prompt_length: 22162
 tools_mentioned:
+- Python
 - php
 - python
-- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/brenda-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/brenda-database/SKILL.md
-fetched_at: '2026-03-08T04:09:09.213002+00:00'
+fetched_at: '2026-03-15T04:31:02.083370+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T04:13:54.044782Z'
+  evaluated_at: '2026-03-15T04:35:53.066313Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7880aff5c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3974f35c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7880aff5c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3974f35c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:13.591981Z'
-indexed_at: '2026-03-08T05:42:13.591986Z'
+  fetched_at: '2026-03-15T06:04:19.062156Z'
+indexed_at: '2026-03-15T06:04:19.062169Z'
 ---

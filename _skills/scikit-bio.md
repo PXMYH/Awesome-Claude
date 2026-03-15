@@ -19,17 +19,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scikit-bio/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scikit-bio/SKILL.md
-fetched_at: '2026-03-08T04:09:23.662152+00:00'
+fetched_at: '2026-03-15T04:31:16.741676+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T04:31:46.034540Z'
+  evaluated_at: '2026-03-15T04:53:54.257372Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc3c7d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3964221e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fc3c7d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3964221e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:13.965659Z'
-indexed_at: '2026-03-08T05:42:13.965664Z'
+  fetched_at: '2026-03-15T06:04:19.445066Z'
+indexed_at: '2026-03-15T06:04:19.445072Z'
 ---

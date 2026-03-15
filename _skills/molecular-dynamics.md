@@ -12,25 +12,25 @@ prompt_preview: "---\nname: molecular-dynamics\ndescription: Run and analyze mol
   \ (MD) simulation computationally models t..."
 full_prompt_length: 14682
 tools_mentioned:
-- php
 - python
+- php
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/molecular-dynamics/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/molecular-dynamics/SKILL.md
-fetched_at: '2026-03-08T04:09:17.413833+00:00'
+fetched_at: '2026-03-15T04:31:10.374491+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T04:24:07.753658Z'
+  evaluated_at: '2026-03-15T04:46:07.659903Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fd091c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396640bc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fd091c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396640bc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:13.805791Z'
-indexed_at: '2026-03-08T05:42:13.805796Z'
+  fetched_at: '2026-03-15T06:04:19.280302Z'
+indexed_at: '2026-03-15T06:04:19.280307Z'
 ---

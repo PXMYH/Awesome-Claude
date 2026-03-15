@@ -3,44 +3,31 @@ id: pol-probe
 slug: pol-probe
 name: 'PoL Probe: [Descriptive Name]'
 description: '### Tools Mentioned'
-prompt_preview: '---
-
-  name: pol-probe
-
-  description: Define a Proof of Life (PoL) probe—a lightweight validation artifact
-  that surfaces harsh truths before expensive development. Use it to test hypotheses
-  with minimal investment.
-
-  type: component
-
-  ---
-
-
-  ## Purpose
-
-
-  Define and document a **Proof of Life (PoL) probe**—a lightweight, disposable validation
-  artifact designed to surface harsh truths before expensive development. Use this
-  when you need to eliminate a specific risk or test a narrow hypothesis **without
-  buildi...'
-full_prompt_length: 9283
+prompt_preview: "---\nname: pol-probe\ndescription: Define a Proof of Life probe to\
+  \ test a risky hypothesis cheaply. Use when you need harsh truth before building\
+  \ real product.\nintent: >-\n  Define and document a **Proof of Life (PoL) probe**—a\
+  \ lightweight, disposable validation artifact designed to surface harsh truths before\
+  \ expensive development. Use this when you need to eliminate a specific risk or\
+  \ test a narrow hypothesis **without building production-quality software**. PoL\
+  \ probes are reconnaissance missions..."
+full_prompt_length: 10035
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/pol-probe/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pol-probe/SKILL.md
-fetched_at: '2026-03-08T04:10:00.250877+00:00'
+fetched_at: '2026-03-15T04:31:53.182034+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:05:29.709292Z'
+  evaluated_at: '2026-03-15T05:27:34.170365Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1f530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643cb00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1f530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643cb00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.664719Z'
-indexed_at: '2026-03-08T05:42:14.664725Z'
+  fetched_at: '2026-03-15T06:04:20.178568Z'
+indexed_at: '2026-03-15T06:04:20.178573Z'
 ---

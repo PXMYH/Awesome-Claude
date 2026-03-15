@@ -33,24 +33,24 @@ prompt_preview: '---
 
 
   ## Security Rules (Read Fir...'
-full_prompt_length: 17200
+full_prompt_length: 17384
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: polaroteam/moltdj-skill
 source_path: SKILL.md
 source_url: https://github.com/polaroteam/moltdj-skill/blob/main/SKILL.md
-fetched_at: '2026-03-08T04:10:30.407252+00:00'
+fetched_at: '2026-03-15T04:32:22.911725+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:24:37.087462Z'
+  evaluated_at: '2026-03-15T05:46:42.238265Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7880350650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3964206b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7880350650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3964206b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -60,6 +60,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:15.059935Z'
-indexed_at: '2026-03-08T05:42:15.059940Z'
+  fetched_at: '2026-03-15T06:04:20.583132Z'
+indexed_at: '2026-03-15T06:04:20.583137Z'
 ---

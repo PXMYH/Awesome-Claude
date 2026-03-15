@@ -14,24 +14,24 @@ prompt_preview: "---\nname: yara-rule-authoring\ndescription: >\n  Guides author
   \ detection rules that catch malware with..."
 full_prompt_length: 26219
 tools_mentioned:
-- JavaScript
 - Rust
+- JavaScript
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/yara-authoring/skills/yara-rule-authoring/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/yara-authoring/skills/yara-rule-authoring/SKILL.md
-fetched_at: '2026-03-08T04:10:53.249262+00:00'
+fetched_at: '2026-03-15T04:32:44.868870+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:39:54.753234Z'
+  evaluated_at: '2026-03-15T06:01:59.660097Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd6f00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396421220 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd6f00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396421220 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:15.382215Z'
-indexed_at: '2026-03-08T05:42:15.382220Z'
+  fetched_at: '2026-03-15T06:04:20.908573Z'
+indexed_at: '2026-03-15T06:04:20.908580Z'
 ---

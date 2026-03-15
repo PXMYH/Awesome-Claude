@@ -20,30 +20,30 @@ prompt_preview: '---
   meta...'
 full_prompt_length: 6797
 tools_mentioned:
-- Python
+- Django
 - fastapi
 - python
-- Django
 - WebSocket
-- REST
 - django
+- REST
+- Python
 - FastAPI
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/fastapi-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/fastapi-expert/SKILL.md
-fetched_at: '2026-03-08T04:10:12.827440+00:00'
+fetched_at: '2026-03-15T04:32:05.581676+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:13:50.000744Z'
+  evaluated_at: '2026-03-15T05:35:56.430122Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa686e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39646a990 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa686e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39646a990 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.835439Z'
-indexed_at: '2026-03-08T05:42:14.835444Z'
+  fetched_at: '2026-03-15T06:04:20.353756Z'
+indexed_at: '2026-03-15T06:04:20.353769Z'
 ---

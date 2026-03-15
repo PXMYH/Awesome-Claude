@@ -18,7 +18,7 @@ prompt_preview: '---
 
   compatibility: "Python 3.9+, pip packages kagglehub, kaggle, requests, python-dotenv.
   Optional: playwright for browser badges....'
-full_prompt_length: 11110
+full_prompt_length: 12181
 tools_mentioned:
 - python
 - Python
@@ -27,17 +27,17 @@ category_display: Community
 source_repo: shepsci/kaggle-skill
 source_path: skills/kaggle/SKILL.md
 source_url: https://github.com/shepsci/kaggle-skill/blob/main/skills/kaggle/SKILL.md
-fetched_at: '2026-03-08T04:10:41.062320+00:00'
+fetched_at: '2026-03-15T04:32:32.321817+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:31:51.540193Z'
+  evaluated_at: '2026-03-15T05:53:57.246023Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1eab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396cc71a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1eab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396cc71a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:15.211335Z'
-indexed_at: '2026-03-08T05:42:15.211340Z'
+  fetched_at: '2026-03-15T06:04:20.736271Z'
+indexed_at: '2026-03-15T06:04:20.736277Z'
 ---

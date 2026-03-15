@@ -13,26 +13,26 @@ prompt_preview: "---\nname: developer-signup-flow\ndescription: |\n  Design fric
   \ them to code as fast as..."
 full_prompt_length: 11665
 tools_mentioned:
-- JavaScript
 - go
-- Python
 - Go
+- JavaScript
+- Python
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/developer-signup-flow/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/developer-signup-flow/SKILL.md
-fetched_at: '2026-03-08T04:10:21.154705+00:00'
+fetched_at: '2026-03-15T04:32:13.874114+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:19:17.618226Z'
+  evaluated_at: '2026-03-15T05:41:22.894961Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fcc13d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39646a7e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fcc13d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39646a7e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.947894Z'
-indexed_at: '2026-03-08T05:42:14.947899Z'
+  fetched_at: '2026-03-15T06:04:20.470104Z'
+indexed_at: '2026-03-15T06:04:20.470113Z'
 ---

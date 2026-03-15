@@ -16,24 +16,24 @@ prompt_preview: '---
   (6) identifying missing documentation f...'
 full_prompt_length: 23241
 tools_mentioned:
-- python
 - Go
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/iso-13485-certification/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/iso-13485-certification/SKILL.md
-fetched_at: '2026-03-08T04:09:15.553314+00:00'
+fetched_at: '2026-03-15T04:31:08.489161+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T04:21:49.200246Z'
+  evaluated_at: '2026-03-15T04:43:48.301808Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f78801f7b90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3964237a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f78801f7b90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3964237a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:13.757239Z'
-indexed_at: '2026-03-08T05:42:13.757244Z'
+  fetched_at: '2026-03-15T06:04:19.230565Z'
+indexed_at: '2026-03-15T06:04:19.230571Z'
 ---

@@ -4,13 +4,13 @@ slug: context-engineering-advisor
 name: 'Context Manifest: [Product/Feature Name]'
 description: '### Technical References'
 prompt_preview: "---\nname: context-engineering-advisor\ndescription: Diagnose context\
-  \ stuffing vs. context engineering. Assess practices, define boundaries, and advise\
-  \ on memory architecture, retrieval, and the Research→Plan→Reset→Implement cycle.\n\
-  type: interactive\ntheme: ai-agents\nbest_for:\n  - \"Diagnosing context stuffing\
-  \ vs. context engineering in your AI workflows\"\n  - \"Building better memory and\
-  \ retrieval architecture for AI agents\"\n  - \"Improving AI output quality through\
-  \ structured context design\"\nscenario..."
-full_prompt_length: 31232
+  \ stuffing vs. context engineering. Use when an AI workflow feels bloated, brittle,\
+  \ or hard to steer reliably.\nintent: >-\n  Guide product managers through diagnosing\
+  \ whether they're doing **context stuffing** (jamming volume without intent) or\
+  \ **context engineering** (shaping structure for attention). Use this to identify\
+  \ context boundaries, fix \"Context Hoarding Disorder,\" and implement tactical\
+  \ practices like bounded domains, ep..."
+full_prompt_length: 31565
 tools_mentioned:
 - rest
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/context-engineering-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/context-engineering-advisor/SKILL.md
-fetched_at: '2026-03-08T04:09:58.256726+00:00'
+fetched_at: '2026-03-15T04:31:51.196097+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:03:01.405849Z'
+  evaluated_at: '2026-03-15T05:25:07.453519Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa42ab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643cb60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa42ab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643cb60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.614755Z'
-indexed_at: '2026-03-08T05:42:14.614760Z'
+  fetched_at: '2026-03-15T06:04:20.127095Z'
+indexed_at: '2026-03-15T06:04:20.127100Z'
 ---

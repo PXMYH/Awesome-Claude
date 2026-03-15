@@ -3,43 +3,31 @@ id: jobs-to-be-done
 slug: jobs-to-be-done
 name: Jobs To Be Done
 description: Claude skill for Jobs To Be Done
-prompt_preview: '---
-
-  name: jobs-to-be-done
-
-  description: Systematically explore what customers are trying to accomplish (functional,
-  social, emotional jobs), the pains they experience, and the gains they seek. Use
-  this framework to uncover unmet needs, vali
-
-  type: component
-
-  ---
-
-
-
-  ## Purpose
-
-  Systematically explore what customers are trying to accomplish (functional, social,
-  emotional jobs), the pains they experience, and the gains they seek. Use this framework
-  to uncover unmet needs, validate product ideas, and ens...'
-full_prompt_length: 12355
+prompt_preview: "---\nname: jobs-to-be-done\ndescription: Uncover customer jobs, pains,\
+  \ and gains in a structured JTBD format. Use when clarifying unmet needs, repositioning\
+  \ a product, or improving discovery and messaging.\nintent: >-\n  Systematically\
+  \ explore what customers are trying to accomplish (functional, social, emotional\
+  \ jobs), the pains they experience, and the gains they seek. Use this framework\
+  \ to uncover unmet needs, validate product ideas, and ensure your solution addresses\
+  \ real motivations—not just su..."
+full_prompt_length: 12645
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/jobs-to-be-done/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/jobs-to-be-done/SKILL.md
-fetched_at: '2026-03-08T04:09:59.693678+00:00'
+fetched_at: '2026-03-15T04:31:52.631784+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:04:47.511208Z'
+  evaluated_at: '2026-03-15T05:26:53.417508Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1dee0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643e0c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1dee0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643e0c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.651045Z'
-indexed_at: '2026-03-08T05:42:14.651051Z'
+  fetched_at: '2026-03-15T06:04:20.164353Z'
+indexed_at: '2026-03-15T06:04:20.164358Z'
 ---

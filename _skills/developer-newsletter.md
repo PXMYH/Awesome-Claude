@@ -12,29 +12,29 @@ prompt_preview: "---\nname: developer-newsletter\ndescription: When the user wan
   \ forward to receiving. Covers content strategy, w..."
 full_prompt_length: 10639
 tools_mentioned:
-- Kubernetes
-- Python
-- JavaScript
-- TypeScript
-- Node.js
 - React
+- Kubernetes
+- Node.js
+- Python
+- TypeScript
+- JavaScript
 - javascript
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/developer-newsletter/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/developer-newsletter/SKILL.md
-fetched_at: '2026-03-08T04:10:20.655475+00:00'
+fetched_at: '2026-03-15T04:32:13.384653+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:18:45.018088Z'
+  evaluated_at: '2026-03-15T05:40:50.261395Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa6bbc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3964684a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa6bbc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3964684a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.936574Z'
-indexed_at: '2026-03-08T05:42:14.936579Z'
+  fetched_at: '2026-03-15T06:04:20.458070Z'
+indexed_at: '2026-03-15T06:04:20.458076Z'
 ---

@@ -3,44 +3,31 @@ id: feature-investment-advisor
 slug: feature-investment-advisor
 name: Feature Investment Advisor
 description: Claude skill for Feature Investment Advisor
-prompt_preview: '---
-
-  name: feature-investment-advisor
-
-  description: Guide PMs through evaluating feature investments using revenue impact,
-  cost structure, ROI, and strategic value. Delivers build/don''t build recommendations.
-
-  type: interactive
-
-  ---
-
-
-
-  ## Purpose
-
-
-  Guide product managers through evaluating whether to build a feature based on financial
-  impact analysis. Use this to make data-driven prioritization decisions by assessing
-  revenue connection (direct or indirect), cost structure (dev + COGS + OpEx), ROI
-  calc...'
-full_prompt_length: 20813
+prompt_preview: "---\nname: feature-investment-advisor\ndescription: Evaluate feature\
+  \ investments using revenue impact, cost structure, ROI, and strategy. Use when\
+  \ deciding whether a feature deserves investment.\nintent: >-\n  Guide product managers\
+  \ through evaluating whether to build a feature based on financial impact analysis.\
+  \ Use this to make data-driven prioritization decisions by assessing revenue connection\
+  \ (direct or indirect), cost structure (dev + COGS + OpEx), ROI calculation, and\
+  \ strategic value—then del..."
+full_prompt_length: 21576
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/feature-investment-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/feature-investment-advisor/SKILL.md
-fetched_at: '2026-03-08T04:09:59.347775+00:00'
+fetched_at: '2026-03-15T04:31:52.302390+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:04:23.087766Z'
+  evaluated_at: '2026-03-15T05:26:28.973273Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1cb30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643cce0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa1cb30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643cce0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.642684Z'
-indexed_at: '2026-03-08T05:42:14.642689Z'
+  fetched_at: '2026-03-15T06:04:20.155774Z'
+indexed_at: '2026-03-15T06:04:20.155780Z'
 ---

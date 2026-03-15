@@ -3,26 +3,14 @@ id: opportunity-solution-tree
 slug: opportunity-solution-tree
 name: Opportunity Solution Tree + POC Plan
 description: '**Skill type:** Interactive'
-prompt_preview: '---
-
-  name: opportunity-solution-tree
-
-  description: Guide product managers through creating an Opportunity Solution Tree
-  (OST) by extracting target outcomes from stakeholder requests, generating opportunity
-  options (problems to solve), mapping potentia
-
-  type: interactive
-
-  ---
-
-
-
-  ## Purpose
-
-  Guide product managers through creating an Opportunity Solution Tree (OST) by extracting
-  target outcomes from stakeholder requests, generating opportunity options (problems
-  to solve), mapping potential solutions, an...'
-full_prompt_length: 16253
+prompt_preview: "---\nname: opportunity-solution-tree\ndescription: Build an Opportunity\
+  \ Solution Tree from outcomes to opportunities, solutions, and tests. Use when a\
+  \ stakeholder request needs problem framing before you decide what to build.\nintent:\
+  \ >-\n  Guide product managers through creating an Opportunity Solution Tree (OST)\
+  \ by extracting target outcomes from stakeholder requests, generating opportunity\
+  \ options (problems to solve), mapping potential solutions, and selecting the best\
+  \ proof-of-concept (POC) base..."
+full_prompt_length: 16755
 tools_mentioned:
 - go
 category: community
@@ -30,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/opportunity-solution-tree/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/opportunity-solution-tree/SKILL.md
-fetched_at: '2026-03-08T04:09:59.914295+00:00'
+fetched_at: '2026-03-15T04:31:52.844602+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:05:04.293519Z'
+  evaluated_at: '2026-03-15T05:27:09.717949Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa41fd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643d820 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fa41fd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643d820 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.656475Z'
-indexed_at: '2026-03-08T05:42:14.656481Z'
+  fetched_at: '2026-03-15T06:04:20.169994Z'
+indexed_at: '2026-03-15T06:04:20.169999Z'
 ---

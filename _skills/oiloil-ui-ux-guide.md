@@ -7,31 +7,40 @@ prompt_preview: '---
 
   name: oiloil-ui-ux-guide
 
-  description: Modern, clean UI/UX guidance + review skill. Use when you need actionable
-  UX/UI recommendations, design principles, or a design review checklist for new features
-  or existing systems (web/app). Focus on CRAP (Contrast/Repetition/Alignment/Proximity)
-  plus task-first UX, information architecture, feedback & system status, consistency,
-  affordances, error prevention/recovery, and cognitive load. Enforce a modern minimal
-  style (clean, spacious, typography-led)...'
-full_prompt_length: 8816
-tools_mentioned:
-- rest
+  description: Modern, clean UI/UX guidance and design review for web/app interfaces.
+  Use when you need UX recommendations, design principles, or reviewing existing UI
+  (screenshots, mockups, HTML). Focus on visual hierarchy, task-first UX, feedback
+  states, consistency, and error prevention. Enforce minimal style (spacious, typography-led)
+  and forbid emoji as icons.
+
+  ---
+
+
+  # OilOil UI/UX Guide (Modern Minimal)
+
+
+  Use this skill in two modes:
+
+
+  - `guide`: Provide compact prin...'
+full_prompt_length: 9369
+tools_mentioned: []
 category: community
 category_display: Community
 source_repo: oil-oil/oiloil-ui-ux-guide
 source_path: skills/oiloil-ui-ux-guide/SKILL.md
 source_url: https://github.com/oil-oil/oiloil-ui-ux-guide/blob/main/skills/oiloil-ui-ux-guide/SKILL.md
-fetched_at: '2026-03-08T04:10:29.125812+00:00'
+fetched_at: '2026-03-15T04:32:21.735634+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:24:20.785725Z'
+  evaluated_at: '2026-03-15T05:46:25.912727Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd6690 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa397554bf0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fbd6690 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa397554bf0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:15.054349Z'
-indexed_at: '2026-03-08T05:42:15.054354Z'
+  fetched_at: '2026-03-15T06:04:20.577413Z'
+indexed_at: '2026-03-15T06:04:20.577419Z'
 ---

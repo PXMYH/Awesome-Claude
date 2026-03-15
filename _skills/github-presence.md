@@ -13,27 +13,27 @@ prompt_preview: "---\nname: github-presence\ndescription: When the user wants to
 full_prompt_length: 12372
 tools_mentioned:
 - rust
-- python
-- go
-- django
-- javascript
 - react
+- python
+- django
+- go
+- javascript
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/github-presence/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/github-presence/SKILL.md
-fetched_at: '2026-03-08T04:10:21.663369+00:00'
+fetched_at: '2026-03-15T04:32:14.389228+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-08T05:19:50.233509Z'
+  evaluated_at: '2026-03-15T05:41:55.514748Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fcc13d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643d0a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f787fcc13d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643d0a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-08T05:42:14.959283Z'
-indexed_at: '2026-03-08T05:42:14.959291Z'
+  fetched_at: '2026-03-15T06:04:20.482053Z'
+indexed_at: '2026-03-15T06:04:20.482059Z'
 ---
