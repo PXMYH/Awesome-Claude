@@ -38,30 +38,30 @@ prompt_preview: '---
 full_prompt_length: 9860
 tools_mentioned: []
 category: community
-category_display: Community
+category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/systematic-debugging/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/systematic-debugging/SKILL.md
-fetched_at: '2026-03-15T04:32:18.654851+00:00'
+fetched_at: '2026-03-16T04:39:28.127034Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T05:44:48.062657Z'
+  evaluated_at: '2026-03-16T05:01:03.196075Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3964210d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8a509d84a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3964210d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8a509d84a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 83770
-  forks: 6538
-  open_issues: 145
+  stars: 86481
+  forks: 6813
+  open_issues: 144
   last_commit: '2026-03-12'
-  fetched_at: '2026-03-15T04:32:52.959649Z'
-indexed_at: '2026-03-15T06:04:20.543268Z'
+  fetched_at: '2026-03-16T04:39:33.500452Z'
+indexed_at: '2026-03-16T05:01:52.990858Z'
 ---

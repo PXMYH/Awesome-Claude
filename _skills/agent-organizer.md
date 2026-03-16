@@ -23,31 +23,31 @@ prompt_preview: '---
   and team optimization with emphasis on selecting the r...'
 full_prompt_length: 6942
 tools_mentioned: []
-category: meta-orchestration
-category_display: Meta Orchestration
+category: 09-meta-orchestration
+category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/agent-organizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/agent-organizer.md
-fetched_at: '2026-03-15T04:31:34.802717+00:00'
+fetched_at: '2026-03-16T04:39:10.007975Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T05:13:39.443640Z'
+  evaluated_at: '2026-03-16T04:55:31.727574Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396925700 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8a509d8110 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396925700 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8a509d8110 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 13858
-  forks: 1537
-  open_issues: 7
+  stars: 13959
+  forks: 1554
+  open_issues: 8
   last_commit: '2026-03-03'
-  fetched_at: '2026-03-15T04:32:52.360906Z'
-indexed_at: '2026-03-15T06:04:19.889513Z'
+  fetched_at: '2026-03-16T04:39:32.243118Z'
+indexed_at: '2026-03-16T05:01:52.891920Z'
 ---

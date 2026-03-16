@@ -23,31 +23,31 @@ prompt_preview: '---
   mode...'
 full_prompt_length: 6635
 tools_mentioned: []
-category: data-ai
-category_display: Data Ai
+category: 05-data-ai
+category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/nlp-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/nlp-engineer.md
-fetched_at: '2026-03-15T04:31:29.929003+00:00'
+fetched_at: '2026-03-16T04:38:58.037399Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T05:08:12.782008Z'
+  evaluated_at: '2026-03-16T04:50:00.416607Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643f2f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8a50b04ce0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643f2f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8a50b04ce0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 13858
-  forks: 1537
-  open_issues: 7
+  stars: 13959
+  forks: 1554
+  open_issues: 8
   last_commit: '2026-03-03'
-  fetched_at: '2026-03-15T04:32:52.360906Z'
-indexed_at: '2026-03-15T06:04:19.756321Z'
+  fetched_at: '2026-03-16T04:39:32.243118Z'
+indexed_at: '2026-03-16T05:01:52.777642Z'
 ---
