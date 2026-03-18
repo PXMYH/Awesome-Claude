@@ -28,26 +28,26 @@ category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/knowledge-synthesizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/knowledge-synthesizer.md
-fetched_at: '2026-03-17T04:18:05.639301Z'
+fetched_at: '2026-03-18T04:24:05.324417Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-17T04:34:37.967337Z'
+  evaluated_at: '2026-03-18T04:40:36.171095Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fae2aff0f80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1b56885af0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fae2aff0f80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1b56885af0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 14066
-  forks: 1565
-  open_issues: 11
+  stars: 14180
+  forks: 1577
+  open_issues: 13
   last_commit: '2026-03-03'
-  fetched_at: '2026-03-17T04:18:18.691706Z'
-indexed_at: '2026-03-17T04:40:20.572501Z'
+  fetched_at: '2026-03-18T04:24:18.748169Z'
+indexed_at: '2026-03-18T04:46:29.578424Z'
 ---
