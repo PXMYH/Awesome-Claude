@@ -23,34 +23,34 @@ prompt_preview: '---
   ecosystem, and enterprise features with emphasis on...'
 full_prompt_length: 6172
 tools_mentioned:
-- redis
 - PHP
 - php
+- redis
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/laravel-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/laravel-specialist.md
-fetched_at: '2026-03-18T04:23:47.110843Z'
+fetched_at: '2026-03-19T04:22:54.334876Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-18T04:27:26.793837Z'
+  evaluated_at: '2026-03-19T04:26:49.202452Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1b569b90a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa2c73d9190 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1b569b90a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa2c73d9190 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 14180
-  forks: 1577
-  open_issues: 13
+  stars: 14308
+  forks: 1588
+  open_issues: 2
   last_commit: '2026-03-03'
-  fetched_at: '2026-03-18T04:24:18.748169Z'
-indexed_at: '2026-03-18T04:46:29.300836Z'
+  fetched_at: '2026-03-19T04:23:40.287005Z'
+indexed_at: '2026-03-19T04:45:44.959858Z'
 ---
