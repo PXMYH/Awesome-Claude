@@ -29,26 +29,26 @@ category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/network-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/network-engineer.md
-fetched_at: '2026-03-20T04:13:24.739210Z'
+fetched_at: '2026-03-21T04:04:51.118760Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-20T04:20:03.870862Z'
+  evaluated_at: '2026-03-21T04:11:30.286516Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8999a1cec0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0da0dda660 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8999a1cec0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0da0dda660 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 14442
-  forks: 1601
-  open_issues: 5
+  stars: 14566
+  forks: 1616
+  open_issues: 11
   last_commit: '2026-03-19'
-  fetched_at: '2026-03-20T04:13:47.667432Z'
-indexed_at: '2026-03-20T04:35:52.246936Z'
+  fetched_at: '2026-03-21T04:05:14.999023Z'
+indexed_at: '2026-03-21T04:27:14.224343Z'
 ---

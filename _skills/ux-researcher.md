@@ -28,26 +28,26 @@ category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/ux-researcher.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/ux-researcher.md
-fetched_at: '2026-03-20T04:13:36.682897Z'
+fetched_at: '2026-03-21T04:05:03.531701Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-20T04:29:11.776700Z'
+  evaluated_at: '2026-03-21T04:20:35.557808Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f899a1fa330 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0da1162e70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f899a1fa330 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0da1162e70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 14442
-  forks: 1601
-  open_issues: 5
+  stars: 14566
+  forks: 1616
+  open_issues: 11
   last_commit: '2026-03-19'
-  fetched_at: '2026-03-20T04:13:47.667432Z'
-indexed_at: '2026-03-20T04:35:52.430788Z'
+  fetched_at: '2026-03-21T04:05:14.999023Z'
+indexed_at: '2026-03-21T04:27:14.414008Z'
 ---
