@@ -1,0 +1,43 @@
+---
+id: build-pkgdown-site
+slug: build-pkgdown-site
+name: Build pkgdown Site
+description: Claude skill for Build pkgdown Site
+prompt_preview: "---\r\nname: build-pkgdown-site\r\ndescription: >\r\n  Build and\
+  \ deploy a pkgdown documentation site for an R package to\r\n  GitHub Pages. Covers\
+  \ _pkgdown.yml configuration, theming, article\r\n  organization, reference index\
+  \ customization, and deployment methods.\r\n  Use when creating a documentation\
+  \ site for a new or existing package,\r\n  customizing layout or navigation, fixing\
+  \ 404 errors on a deployed site,\r\n  or migrating between branch-based and GitHub\
+  \ Actions deployment methods.\r\nlicense: MIT\r\nallow..."
+full_prompt_length: 6720
+tools_mentioned:
+- Go
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/build-pkgdown-site/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/build-pkgdown-site/SKILL.md
+fetched_at: '2026-03-22T04:20:55.164499+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T05:45:34.212273Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5653260 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5653260 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.280401Z'
+indexed_at: '2026-03-22T06:44:16.280406Z'
+---

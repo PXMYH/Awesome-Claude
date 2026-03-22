@@ -1,0 +1,40 @@
+id: manage-git-branches
+slug: manage-git-branches
+name: Manage Git Branches
+description: Claude skill for Manage Git Branches
+prompt_preview: "---\r\nname: manage-git-branches\r\ndescription: >\r\n  Create, track,\
+  \ switch, sync, and clean up Git branches. Covers\r\n  naming conventions, safe\
+  \ branch switching with stash, upstream\r\n  synchronization, and pruning merged\
+  \ branches. Use when starting work\r\n  on a new feature or bug fix, switching between\
+  \ tasks on different\r\n  branches, keeping a feature branch up to date with main,\
+  \ or cleaning\r\n  up branches after merging pull requests.\r\nlicense: MIT\r\n\
+  allowed-tools: Read Write Edit Bash Grep Glob\r\nme..."
+full_prompt_length: 7477
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/manage-git-branches/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/manage-git-branches/SKILL.md
+fetched_at: '2026-03-22T04:21:25.101378+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:06:07.139019Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5652090 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5652090 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.635448Z'
+indexed_at: '2026-03-22T06:44:16.635453Z'

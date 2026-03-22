@@ -15,24 +15,24 @@ prompt_preview: '---
   expression using computational tools (NetSolP, SoluProt, SolubleM...'
 full_prompt_length: 3742
 tools_mentioned:
-- aws
 - python
+- aws
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/adaptyv/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/adaptyv/SKILL.md
-fetched_at: '2026-03-15T04:31:00.572051+00:00'
+fetched_at: '2026-03-22T04:18:34.043335+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T04:33:58.537214Z'
+  evaluated_at: '2026-03-22T04:24:38.433888Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396c6eba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5620ec0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396c6eba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5620ec0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:19.021675Z'
-indexed_at: '2026-03-15T06:04:19.021680Z'
+  fetched_at: '2026-03-22T06:44:14.813709Z'
+indexed_at: '2026-03-22T06:44:14.813714Z'
 ---

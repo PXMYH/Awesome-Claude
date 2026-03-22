@@ -1,0 +1,40 @@
+id: generate-puzzle
+slug: generate-puzzle
+name: Generate Puzzle
+description: Claude skill for Generate Puzzle
+prompt_preview: "---\r\nname: generate-puzzle\r\ndescription: >\r\n  Generate jigsaw\
+  \ puzzles via generate_puzzle() or geom_puzzle_*() with\r\n  parameter validation\
+  \ against inst/config.yml. Supports rectangular,\r\n  hexagonal, concentric, voronoi,\
+  \ and snic puzzle types with configurable\r\n  grid, size, seed, offset, and layout\
+  \ parameters. Use when creating puzzle\r\n  SVG files for a specific type and configuration,\
+  \ testing generation with\r\n  different parameters, generating sample output for\
+  \ documentation or demos,\r\n  or c..."
+full_prompt_length: 6762
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/generate-puzzle/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/generate-puzzle/SKILL.md
+fetched_at: '2026-03-22T04:21:16.608478+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:00:09.012673Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56238f0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56238f0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.532581Z'
+indexed_at: '2026-03-22T06:44:16.532586Z'

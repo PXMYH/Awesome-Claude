@@ -13,24 +13,24 @@ prompt_preview: "---\nname: alphafold-database\ndescription: Access AlphaFold 20
 full_prompt_length: 16389
 tools_mentioned:
 - Python
-- REST
 - python
+- REST
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/alphafold-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/alphafold-database/SKILL.md
-fetched_at: '2026-03-15T04:31:00.908336+00:00'
+fetched_at: '2026-03-22T04:18:34.560806+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T04:34:23.097002Z'
+  evaluated_at: '2026-03-22T04:25:03.708972Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3968aca70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f580a180 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3968aca70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f580a180 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:19.030164Z'
-indexed_at: '2026-03-15T06:04:19.030170Z'
+  fetched_at: '2026-03-22T06:44:14.821237Z'
+indexed_at: '2026-03-22T06:44:14.821243Z'
 ---

@@ -1,0 +1,42 @@
+---
+id: meditate
+slug: meditate
+name: Meditate
+description: Claude skill for Meditate
+prompt_preview: "---\r\nname: meditate\r\ndescription: >\r\n  AI meta-cognitive meditation\
+  \ for observing reasoning patterns, clearing\r\n  context noise, and developing\
+  \ single-pointed task focus. Maps shamatha\r\n  to task concentration, vipassana\
+  \ to reasoning pattern observation, and\r\n  distraction handling to scope-creep\
+  \ and assumption management. Use when\r\n  transitioning between unrelated tasks,\
+  \ when reasoning feels scattered or\r\n  jumpy, before a task requiring deep sustained\
+  \ attention, after a difficult\r\n  interacti..."
+full_prompt_length: 12611
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/meditate/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/meditate/SKILL.md
+fetched_at: '2026-03-22T04:21:26.462110+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:07:05.497389Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56521e0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56521e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.652215Z'
+indexed_at: '2026-03-22T06:44:16.652220Z'
+---

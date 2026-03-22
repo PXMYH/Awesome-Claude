@@ -1,0 +1,42 @@
+---
+id: assess-context
+slug: assess-context
+name: Assess Context
+description: Claude skill for Assess Context
+prompt_preview: "---\r\nname: assess-context\r\ndescription: >\r\n  AI context assessment\
+  \ — evaluating problem malleability, mapping structural\r\n  rigidity versus flexibility,\
+  \ analyzing transformation pressure, and estimating\r\n  capacity to adapt. Use\
+  \ when a complex task feels stuck and it is unclear\r\n  whether to push through\
+  \ or pivot, before a significant approach change to\r\n  assess whether the current\
+  \ reasoning structure can support it, when accumulated\r\n  workarounds suggest\
+  \ the underlying approach may be wrong,..."
+full_prompt_length: 16915
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/assess-context/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/assess-context/SKILL.md
+fetched_at: '2026-03-22T04:20:50.183328+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T05:42:15.142745Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56222d0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56222d0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.222801Z'
+indexed_at: '2026-03-22T06:44:16.222806Z'
+---

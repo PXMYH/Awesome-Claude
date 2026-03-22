@@ -1,21 +1,24 @@
 id: claude-design-auditor-skill
 slug: claude-design-auditor-skill
 name: Design Checker Skill
-description: '- `references/typography.md` — Font rules, sizing, line height, hierarchy'
+description: '- `references/typography.md` — Font rules, sizing, line height, hierarchy,
+  type scale algorithm'
 prompt_preview: '---
 
   name: design-auditor
 
-  version: 1.2.1
+  version: 1.2.4
 
-  description: "Audit designs against 17 professional rules. Use when the user wants
-  to review, audit, validate, or improve a design using Figma MCP, code (HTML/CSS/React/Vue),
-  screenshots, or written descriptions. Triggers on phrases like check my design,
-  review my UI, audit my layout, is this accessible, design review, typography check,
-  color contrast, WCAG, a11y, pixel perfect, UI critique, Figma audit, CSS check,
-  review this component, does this look goo...'
-full_prompt_length: 50100
+  description: "Audit designs against 18 professional rules across Figma files and
+  code (HTML/CSS/React/Vue/Tailwind). Detects framework automatically, runs category-specific
+  code superpowers (aria, focus, contrast, tokens, responsive, motion, forms, navigation,
+  spacing), audits for dark patterns and ethical design issues, outputs before/after
+  code diffs, and generates a structured developer handoff report. Triggers on: check
+  my design, review my UI, audit m...'
+full_prompt_length: 86873
 tools_mentioned:
+- vue
+- react
 - Vue
 - go
 - React
@@ -24,17 +27,17 @@ category_display: Community
 source_repo: Ashutos1997/claude-design-auditor-skill
 source_path: SKILL.md
 source_url: https://github.com/Ashutos1997/claude-design-auditor-skill/blob/main/SKILL.md
-fetched_at: '2026-03-15T04:30:58.714950+00:00'
+fetched_at: '2026-03-22T04:18:29.565113+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T04:33:34.097142Z'
+  evaluated_at: '2026-03-22T04:23:32.236266Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396bfb980 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5622b40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396bfb980 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5622b40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,5 +47,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:19.013000Z'
-indexed_at: '2026-03-15T06:04:19.013006Z'
+  fetched_at: '2026-03-22T06:44:14.793561Z'
+indexed_at: '2026-03-22T06:44:14.793567Z'

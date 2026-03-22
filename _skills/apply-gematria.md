@@ -1,0 +1,42 @@
+---
+id: apply-gematria
+slug: apply-gematria
+name: Apply Gematria
+description: Claude skill for Apply Gematria
+prompt_preview: "---\r\nname: apply-gematria\r\ndescription: >\r\n  Compute and analyze\
+  \ gematria (Hebrew numerical values) using standard,\r\n  ordinal, and reduced methods.\
+  \ Covers word-to-number conversion,\r\n  isopsephy comparisons, and interpretive\
+  \ frameworks. Use when computing\r\n  the numerical value of a Hebrew word or phrase,\
+  \ comparing two words for\r\n  shared gematria values, studying a biblical verse\
+  \ or divine name for\r\n  numerical correspondences, or connecting a numerical result\
+  \ to its\r\n  position on the Tree of..."
+full_prompt_length: 10838
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/apply-gematria/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/apply-gematria/SKILL.md
+fetched_at: '2026-03-22T04:20:49.390261+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T05:41:42.126355Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56222d0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56222d0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.213084Z'
+indexed_at: '2026-03-22T06:44:16.213089Z'
+---

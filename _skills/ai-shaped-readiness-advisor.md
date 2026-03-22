@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/ai-shaped-readiness-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/ai-shaped-readiness-advisor/SKILL.md
-fetched_at: '2026-03-15T04:31:50.758508+00:00'
+fetched_at: '2026-03-22T04:19:56.530794+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T05:24:34.454672Z'
+  evaluated_at: '2026-03-22T05:17:09.502971Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396422ff0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5622f30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396422ff0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5622f30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:20.115576Z'
-indexed_at: '2026-03-15T06:04:20.115582Z'
+  fetched_at: '2026-03-22T06:44:15.770046Z'
+indexed_at: '2026-03-22T06:44:15.770051Z'
 ---

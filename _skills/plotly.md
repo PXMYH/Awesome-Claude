@@ -12,25 +12,25 @@ prompt_preview: "---\nname: plotly\ndescription: Interactive visualization libra
   Install Plotly:\n```bash\nuv pip..."
 full_prompt_length: 7199
 tools_mentioned:
+- Python
 - python
 - go
-- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/plotly/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/plotly/SKILL.md
-fetched_at: '2026-03-15T04:31:12.741017+00:00'
+fetched_at: '2026-03-22T04:18:54.051846+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T04:48:59.509100Z'
+  evaluated_at: '2026-03-22T04:39:52.756981Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39697fd70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5675220 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39697fd70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5675220 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:19.340707Z'
-indexed_at: '2026-03-15T06:04:19.340713Z'
+  fetched_at: '2026-03-22T06:44:15.092186Z'
+indexed_at: '2026-03-22T06:44:15.092192Z'
 ---

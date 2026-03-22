@@ -12,24 +12,24 @@ prompt_preview: "---\nname: phylogenetics\ndescription: Build and analyze phylog
   \ biological sequences..."
 full_prompt_length: 13879
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/phylogenetics/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/phylogenetics/SKILL.md
-fetched_at: '2026-03-15T04:31:12.630731+00:00'
+fetched_at: '2026-03-22T04:18:53.875397+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T04:48:51.155383Z'
+  evaluated_at: '2026-03-22T04:39:44.522381Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396d5ce30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5676ab0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396d5ce30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5676ab0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:19.337863Z'
-indexed_at: '2026-03-15T06:04:19.337869Z'
+  fetched_at: '2026-03-22T06:44:15.089730Z'
+indexed_at: '2026-03-22T06:44:15.089736Z'
 ---

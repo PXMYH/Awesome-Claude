@@ -1,0 +1,42 @@
+---
+id: survey-theoretical-literature
+slug: survey-theoretical-literature
+name: Survey Theoretical Literature
+description: Claude skill for Survey Theoretical Literature
+prompt_preview: "---\r\nname: survey-theoretical-literature\r\ndescription: >\r\n\
+  \  Survey and synthesize theoretical literature on a specific topic, identifying\r\
+  \n  seminal papers, key results, open problems, and cross-domain connections.\r\n\
+  \  Use when starting research on an unfamiliar theoretical topic, writing a\r\n\
+  \  literature review for a paper or thesis, identifying open problems and\r\n  research\
+  \ gaps, finding cross-domain connections, or evaluating the novelty\r\n  of a proposed\
+  \ theoretical contribution against existin..."
+full_prompt_length: 14408
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/survey-theoretical-literature/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/survey-theoretical-literature/SKILL.md
+fetched_at: '2026-03-22T04:21:48.019674+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:21:38.097333Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b1220 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b1220 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.911293Z'
+indexed_at: '2026-03-22T06:44:16.911299Z'
+---

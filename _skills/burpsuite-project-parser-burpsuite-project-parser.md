@@ -19,17 +19,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/burpsuite-project-parser/skills/burpsuite-project-parser/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/burpsuite-project-parser/skills/burpsuite-project-parser/SKILL.md
-fetched_at: '2026-03-15T04:32:35.906517+00:00'
+fetched_at: '2026-03-22T04:22:15.594540+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T05:55:59.723212Z'
+  evaluated_at: '2026-03-22T06:35:38.301408Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396b8b350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5674a40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396b8b350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5674a40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:20.779541Z'
-indexed_at: '2026-03-15T06:04:20.779546Z'
+  fetched_at: '2026-03-22T06:44:17.159384Z'
+indexed_at: '2026-03-22T06:44:17.159395Z'
 ---

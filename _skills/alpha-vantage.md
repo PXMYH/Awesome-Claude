@@ -17,24 +17,24 @@ prompt_preview: '---
   prices, forex exchange rates, or calculating...'
 full_prompt_length: 6241
 tools_mentioned:
-- go
 - python
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/alpha-vantage/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/alpha-vantage/SKILL.md
-fetched_at: '2026-03-15T04:31:00.802592+00:00'
+fetched_at: '2026-03-22T04:18:34.388250+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T04:34:14.837306Z'
+  evaluated_at: '2026-03-22T04:24:55.383964Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3965d6b10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f57d8fb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3965d6b10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f57d8fb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:19.027207Z'
-indexed_at: '2026-03-15T06:04:19.027213Z'
+  fetched_at: '2026-03-22T06:44:14.818586Z'
+indexed_at: '2026-03-22T06:44:14.818591Z'
 ---

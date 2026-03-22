@@ -24,31 +24,31 @@ prompt_preview: '---
 full_prompt_length: 6858
 tools_mentioned:
 - rest
-category: 07-specialized-domains
-category_display: 07 Specialized Domains
+category: specialized-domains
+category_display: Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/fintech-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/fintech-engineer.md
-fetched_at: '2026-03-21T04:05:00.226302Z'
+fetched_at: '2026-03-22T04:19:29.749500+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-21T04:18:09.459844Z'
+  evaluated_at: '2026-03-22T05:03:10.656957Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0da0dd9370 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f672d2e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0da0dd9370 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f672d2e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 14566
-  forks: 1616
-  open_issues: 11
+  stars: 14676
+  forks: 1634
+  open_issues: 12
   last_commit: '2026-03-19'
-  fetched_at: '2026-03-21T04:05:14.999023Z'
-indexed_at: '2026-03-21T04:27:14.363097Z'
+  fetched_at: '2026-03-22T04:22:41.165426Z'
+indexed_at: '2026-03-22T06:44:15.514950Z'
 ---

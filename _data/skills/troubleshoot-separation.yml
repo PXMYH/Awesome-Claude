@@ -1,0 +1,40 @@
+id: troubleshoot-separation
+slug: troubleshoot-separation
+name: Troubleshoot a Chromatographic Separation
+description: Claude skill for Troubleshoot a Chromatographic Separation
+prompt_preview: "---\r\nname: troubleshoot-separation\r\ndescription: >\r\n  Systematically\
+  \ diagnose and resolve chromatographic separation problems:\r\n  document symptoms,\
+  \ identify root causes for peak shape and retention anomalies,\r\n  evaluate matrix\
+  \ effects, and implement targeted fixes using a one-variable-at-a-time\r\n  approach\
+  \ for GC and HPLC systems.\r\nlicense: MIT\r\nallowed-tools: Read Grep Glob WebFetch\
+  \ WebSearch\r\nmetadata:\r\n  author: Philipp Thoss\r\n  version: \"1.0\"\r\n  domain:\
+  \ chromatography\r\n  complexity: interm..."
+full_prompt_length: 13719
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/troubleshoot-separation/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/troubleshoot-separation/SKILL.md
+fetched_at: '2026-03-22T04:21:50.871094+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:23:34.594443Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b3080 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b3080 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.945008Z'
+indexed_at: '2026-03-22T06:44:16.945014Z'

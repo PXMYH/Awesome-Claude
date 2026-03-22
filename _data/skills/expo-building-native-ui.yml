@@ -12,25 +12,25 @@ prompt_preview: "---\nname: building-native-ui\ndescription: Complete guide for 
 full_prompt_length: 10434
 tools_mentioned:
 - SQLite
-- React
-- Go
 - react
+- Go
+- React
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/building-native-ui/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/building-native-ui/SKILL.md
-fetched_at: '2026-03-15T04:31:57.046292+00:00'
+fetched_at: '2026-03-22T04:20:06.889866+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T05:30:52.260264Z'
+  evaluated_at: '2026-03-22T05:23:31.857606Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396685b80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5825250 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396685b80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5825250 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:20.246771Z'
-indexed_at: '2026-03-15T06:04:20.246777Z'
+  fetched_at: '2026-03-22T06:44:15.885180Z'
+indexed_at: '2026-03-22T06:44:15.885186Z'

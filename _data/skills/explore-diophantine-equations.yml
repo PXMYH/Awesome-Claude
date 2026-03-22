@@ -1,0 +1,40 @@
+id: explore-diophantine-equations
+slug: explore-diophantine-equations
+name: Explore Diophantine Equations
+description: Claude skill for Explore Diophantine Equations
+prompt_preview: "---\r\nname: explore-diophantine-equations\r\ndescription: >\r\n\
+  \  Solve Diophantine equations (integer-only solutions) including linear,\r\n  quadratic,\
+  \ and Pell equations. Covers the extended Euclidean algorithm,\r\n  descent methods,\
+  \ and existence proofs. Use when finding all integer\r\n  solutions to ax + by =\
+  \ c, solving Pell's equation, generating Pythagorean\r\n  triples, proving no integer\
+  \ solutions exist via modular constraints, or\r\n  finding the fundamental solution\
+  \ from which all others are generated..."
+full_prompt_length: 13809
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/explore-diophantine-equations/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/explore-diophantine-equations/SKILL.md
+fetched_at: '2026-03-22T04:21:13.425869+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T05:57:56.356563Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b1d30 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b1d30 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.494046Z'
+indexed_at: '2026-03-22T06:44:16.494051Z'

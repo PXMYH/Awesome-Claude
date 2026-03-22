@@ -1,0 +1,46 @@
+---
+id: characteristic-voice
+slug: characteristic-voice
+name: characteristic-voice
+description: 1. **Start soft** — lead with a filler ("hmm...", "oh~"), not content
+prompt_preview: '---
+
+  name: characteristic-voice
+
+  description: "Use this skill whenever the user wants speech to sound more human,
+  companion-like, or emotionally expressive. Triggers include: any mention of ''say
+  like'', ''talk like'', ''speak like'', ''companion voice'', ''comfort me'', ''cheer
+  me up'', ''sound more human'', ''good night voice'', ''good morning voice'', or
+  requests to add fillers, emotion, or personality to generated speech. Also use when
+  the user wants to mimic a specific character''s voice, apply speaking style p...'
+full_prompt_length: 7199
+tools_mentioned:
+- rest
+category: community
+category_display: Community
+source_repo: NoizAI/skills
+source_path: skills/characteristic-voice/SKILL.md
+source_url: https://github.com/NoizAI/skills/blob/main/skills/characteristic-voice/SKILL.md
+fetched_at: '2026-03-22T04:19:07.173407+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T04:49:11.330354Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5653650 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5653650 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:15.259231Z'
+indexed_at: '2026-03-22T06:44:15.259237Z'
+---

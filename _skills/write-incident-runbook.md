@@ -1,0 +1,45 @@
+---
+id: write-incident-runbook
+slug: write-incident-runbook
+name: Write Incident Runbook
+description: '- `configure-alerting-rules` - Link runbooks to alert annotations for
+  immediate access during incidents'
+prompt_preview: "---\nname: write-incident-runbook\ndescription: >\n  Create structured\
+  \ incident runbooks with diagnostic steps, resolution procedures, escalation\n \
+  \ paths, and communication templates for effective incident response. Use when documenting\n\
+  \  response procedures for recurring alerts, standardizing incident response across\
+  \ an on-call\n  rotation, reducing MTTR with clear diagnostic steps, creating training\
+  \ materials for new\n  team members, or linking alert annotations directly to resolution\
+  \ procedures.\nl..."
+full_prompt_length: 13741
+tools_mentioned:
+- go
+- AWS
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/write-incident-runbook/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/write-incident-runbook/SKILL.md
+fetched_at: '2026-03-22T04:21:53.235959+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:25:14.982144Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5677800 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5677800 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.973747Z'
+indexed_at: '2026-03-22T06:44:16.973752Z'
+---

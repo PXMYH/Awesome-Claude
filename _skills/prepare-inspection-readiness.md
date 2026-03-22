@@ -1,0 +1,43 @@
+---
+id: prepare-inspection-readiness
+slug: prepare-inspection-readiness
+name: Prepare Inspection Readiness
+description: Claude skill for Prepare Inspection Readiness
+prompt_preview: "---\r\nname: prepare-inspection-readiness\r\ndescription: >\r\n \
+  \ Prepare an organisation for regulatory inspection by assessing readiness\r\n \
+  \ against agency-specific focus areas (FDA, EMA, MHRA). Covers warning letter\r\n\
+  \  and 483 theme analysis, mock inspection protocols, document bundle\r\n  preparation,\
+  \ inspection logistics, and response template creation. Use when\r\n  a regulatory\
+  \ inspection has been announced or is anticipated, when a periodic\r\n  self-assessment\
+  \ is due, when new systems have been imple..."
+full_prompt_length: 13833
+tools_mentioned:
+- GCP
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/prepare-inspection-readiness/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/prepare-inspection-readiness/SKILL.md
+fetched_at: '2026-03-22T04:21:32.899781+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:11:31.544236Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56213d0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56213d0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.729109Z'
+indexed_at: '2026-03-22T06:44:16.729114Z'
+---

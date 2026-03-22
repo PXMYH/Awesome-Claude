@@ -52,17 +52,17 @@ category_display: Community
 source_repo: daxaur/openpaw
 source_path: skills/c-music/SKILL.md
 source_url: https://github.com/daxaur/openpaw/blob/main/skills/c-music/SKILL.md
-fetched_at: '2026-03-15T04:31:47.461204+00:00'
+fetched_at: '2026-03-22T04:19:51.299310+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T05:21:34.731387Z'
+  evaluated_at: '2026-03-22T05:14:07.606426Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3965d7b90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5622ba0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3965d7b90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5622ba0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -72,6 +72,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:20.053430Z'
-indexed_at: '2026-03-15T06:04:20.053436Z'
+  fetched_at: '2026-03-22T06:44:15.714037Z'
+indexed_at: '2026-03-22T06:44:15.714043Z'
 ---

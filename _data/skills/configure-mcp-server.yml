@@ -1,0 +1,41 @@
+id: configure-mcp-server
+slug: configure-mcp-server
+name: Configure MCP Server
+description: Claude skill for Configure MCP Server
+prompt_preview: "---\r\nname: configure-mcp-server\r\ndescription: >\r\n  Configure\
+  \ MCP (Model Context Protocol) servers for Claude Code and\r\n  Claude Desktop.\
+  \ Covers mcptools setup, Hugging Face integration,\r\n  WSL path handling, and multi-client\
+  \ configuration. Use when setting up\r\n  Claude Code to connect to R via mcptools,\
+  \ configuring Claude Desktop\r\n  with MCP servers, adding Hugging Face or other\
+  \ remote MCP servers, or\r\n  troubleshooting MCP connectivity between clients and\
+  \ servers.\r\nlicense: MIT\r\nallowed-tools:..."
+full_prompt_length: 7300
+tools_mentioned:
+- Node.js
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/configure-mcp-server/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/configure-mcp-server/SKILL.md
+fetched_at: '2026-03-22T04:20:59.699315+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T05:48:39.255028Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56535c0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56535c0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.333146Z'
+indexed_at: '2026-03-22T06:44:16.333152Z'

@@ -24,17 +24,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/hmdb-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/hmdb-database/SKILL.md
-fetched_at: '2026-03-15T04:31:07.810917+00:00'
+fetched_at: '2026-03-22T04:18:45.877248+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T04:42:58.823912Z'
+  evaluated_at: '2026-03-22T04:33:47.858575Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3974f3cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56226f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3974f3cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56226f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:19.213026Z'
-indexed_at: '2026-03-15T06:04:19.213031Z'
+  fetched_at: '2026-03-22T06:44:14.980488Z'
+indexed_at: '2026-03-22T06:44:14.980494Z'
 ---

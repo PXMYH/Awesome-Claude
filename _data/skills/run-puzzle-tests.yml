@@ -1,0 +1,40 @@
+id: run-puzzle-tests
+slug: run-puzzle-tests
+name: Run Puzzle Tests
+description: Claude skill for Run Puzzle Tests
+prompt_preview: "---\r\nname: run-puzzle-tests\r\ndescription: >\r\n  Run the jigsawR\
+  \ test suite via WSL R execution. Supports full suite,\r\n  filtered by pattern,\
+  \ or single file. Interprets pass/fail/skip counts\r\n  and identifies failing tests.\
+  \ Never uses --vanilla flag (renv needs\r\n  .Rprofile for activation). Use after\
+  \ modifying any R source code, after\r\n  adding a new puzzle type or feature, before\
+  \ committing changes to verify\r\n  nothing is broken, or when debugging a specific\
+  \ test failure.\r\nlicense: MIT\r\nallowed-t..."
+full_prompt_length: 5799
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/run-puzzle-tests/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/run-puzzle-tests/SKILL.md
+fetched_at: '2026-03-22T04:21:40.397446+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:16:30.588763Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5674e30 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5674e30 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.821510Z'
+indexed_at: '2026-03-22T06:44:16.821516Z'

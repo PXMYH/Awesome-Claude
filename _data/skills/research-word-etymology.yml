@@ -1,0 +1,41 @@
+id: research-word-etymology
+slug: research-word-etymology
+name: Research Word Etymology
+description: Claude skill for Research Word Etymology
+prompt_preview: "---\r\nname: research-word-etymology\r\ndescription: >\r\n  Research\
+  \ the etymology of a word by tracing proto-language roots,\r\n  identifying cognates\
+  \ across language families, documenting semantic\r\n  drift with dated attestations,\
+  \ and flagging folk etymologies. Use\r\n  when investigating word origins, comparing\
+  \ cognate sets across\r\n  related languages, charting historical meaning changes,\
+  \ or debunking\r\n  popular but unsupported origin stories.\r\nlicense: MIT\r\n\
+  allowed-tools: Read Grep Glob WebFetch WebSe..."
+full_prompt_length: 13745
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/research-word-etymology/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/research-word-etymology/SKILL.md
+fetched_at: '2026-03-22T04:21:37.508647+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:14:43.026712Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5651ca0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5651ca0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.784139Z'
+indexed_at: '2026-03-22T06:44:16.784144Z'

@@ -1,0 +1,44 @@
+---
+id: monitor-model-drift
+slug: monitor-model-drift
+name: Monitor Model Drift
+description: '- `detect-anomalies-aiops` - Time series anomaly detection for operational
+  metrics'
+prompt_preview: "---\nname: monitor-model-drift\ndescription: >\n  Implement comprehensive\
+  \ model drift monitoring using Evidently AI, statistical tests (PSI, KS),\n  and\
+  \ custom metrics to detect data drift and concept drift in production ML systems.\
+  \ Set up\n  automated alerting and reporting workflows to catch degradation before\
+  \ it impacts business\n  metrics. Use when production models show unexplained performance\
+  \ degradation, when new data\n  distributions differ from training data, when seasonal\
+  \ shifts affect input..."
+full_prompt_length: 8877
+tools_mentioned:
+- python
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/monitor-model-drift/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/monitor-model-drift/SKILL.md
+fetched_at: '2026-03-22T04:21:27.643318+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:07:55.137443Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56520c0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56520c0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.666460Z'
+indexed_at: '2026-03-22T06:44:16.666473Z'
+---

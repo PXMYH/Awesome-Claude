@@ -1,0 +1,44 @@
+---
+id: render-publication-graphic
+slug: render-publication-graphic
+name: Render Publication Graphic
+description: Claude skill for Render Publication Graphic
+prompt_preview: "---\r\nname: render-publication-graphic\r\ndescription: >\r\n  Produce\
+  \ publication-ready 2D graphics with proper DPI, color profiles,\r\n  typography,\
+  \ and export formats for print and digital media. Use when\r\n  preparing figures\
+  \ for academic journal submission, creating graphics for\r\n  print publications,\
+  \ ensuring graphics meet publisher technical specifications,\r\n  exporting visualizations\
+  \ for web with proper optimization, or creating\r\n  multi-format exports from a\
+  \ single source.\r\nlicense: MIT\r\nallowed..."
+full_prompt_length: 15805
+tools_mentioned:
+- Python
+- python
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/render-publication-graphic/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/render-publication-graphic/SKILL.md
+fetched_at: '2026-03-22T04:21:36.702028+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:14:09.933067Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5621fa0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5621fa0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.774581Z'
+indexed_at: '2026-03-22T06:44:16.774586Z'
+---

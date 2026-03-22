@@ -16,26 +16,26 @@ prompt_preview: '---
   Pro, Sonar Pro Search (advanced agentic search), and Sonar R...'
 full_prompt_length: 14075
 tools_mentioned:
-- go
-- PostgreSQL
 - Python
 - python
+- go
+- PostgreSQL
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/perplexity-search/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/perplexity-search/SKILL.md
-fetched_at: '2026-03-15T04:31:12.520992+00:00'
+fetched_at: '2026-03-22T04:18:53.702327+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T04:48:43.012885Z'
+  evaluated_at: '2026-03-22T04:39:36.012298Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3964226c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5dd6240 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3964226c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5dd6240 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:19.334918Z'
-indexed_at: '2026-03-15T06:04:19.334924Z'
+  fetched_at: '2026-03-22T06:44:15.087182Z'
+indexed_at: '2026-03-22T06:44:15.087187Z'
 ---

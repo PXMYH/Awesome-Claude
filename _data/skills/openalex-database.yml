@@ -24,17 +24,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/openalex-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/openalex-database/SKILL.md
-fetched_at: '2026-03-15T04:31:11.409522+00:00'
+fetched_at: '2026-03-22T04:18:51.915997+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T04:47:21.400403Z'
+  evaluated_at: '2026-03-22T04:38:13.368343Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39646a9c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5d1ca40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39646a9c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5d1ca40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,5 +44,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:19.306127Z'
-indexed_at: '2026-03-15T06:04:19.306133Z'
+  fetched_at: '2026-03-22T06:44:15.062467Z'
+indexed_at: '2026-03-22T06:44:15.062472Z'

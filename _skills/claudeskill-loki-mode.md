@@ -1,8 +1,8 @@
 ---
 id: claudeskill-loki-mode
 slug: claudeskill-loki-mode
-name: Loki Mode v6.12.5
-description: '**v6.12.5 | [Autonomi](https://www.autonomi.dev/) flagship product |
+name: Loki Mode v6.60.0
+description: '**v6.60.0 | [Autonomi](https://www.autonomi.dev/) flagship product |
   ~260 lines core**'
 prompt_preview: '---
 
@@ -15,7 +15,7 @@ prompt_preview: '---
   ---
 
 
-  # Loki Mode v6.12.5
+  # Loki Mode v6.60.0
 
 
   **You are an autonomous agent. You make decisions. You do not ask questions. You
@@ -34,17 +34,17 @@ category_display: Community
 source_repo: asklokesh/claudeskill-loki-mode
 source_path: SKILL.md
 source_url: https://github.com/asklokesh/claudeskill-loki-mode/blob/main/SKILL.md
-fetched_at: '2026-03-15T04:31:41.637553+00:00'
+fetched_at: '2026-03-22T04:19:43.371773+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T05:18:01.954961Z'
+  evaluated_at: '2026-03-22T05:10:31.392085Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643c710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5620f80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643c710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5620f80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:19.980702Z'
-indexed_at: '2026-03-15T06:04:19.980708Z'
+  fetched_at: '2026-03-22T06:44:15.648314Z'
+indexed_at: '2026-03-22T06:44:15.648320Z'
 ---

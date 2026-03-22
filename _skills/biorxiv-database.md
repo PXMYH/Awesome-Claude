@@ -12,24 +12,24 @@ prompt_preview: "---\nname: biorxiv-database\ndescription: Efficient database se
   \ from the bioRxiv database. It..."
 full_prompt_length: 12551
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/biorxiv-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/biorxiv-database/SKILL.md
-fetched_at: '2026-03-15T04:31:01.864784+00:00'
+fetched_at: '2026-03-22T04:18:36.150142+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T04:35:36.765697Z'
+  evaluated_at: '2026-03-22T04:26:18.111727Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3969af170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56225d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3969af170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56225d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:19.056457Z'
-indexed_at: '2026-03-15T06:04:19.056463Z'
+  fetched_at: '2026-03-22T06:44:14.844244Z'
+indexed_at: '2026-03-22T06:44:14.844250Z'
 ---

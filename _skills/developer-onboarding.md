@@ -13,30 +13,30 @@ prompt_preview: "---\nname: developer-onboarding\ndescription: |\n  Get develope
   \ as possible, then guide them to deeper e..."
 full_prompt_length: 13548
 tools_mentioned:
-- Redis
-- fastapi
 - python
-- Node.js
 - docker
-- go
-- redis
 - javascript
+- Redis
+- redis
+- go
+- fastapi
+- Node.js
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/developer-onboarding/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/developer-onboarding/SKILL.md
-fetched_at: '2026-03-15T04:32:13.504391+00:00'
+fetched_at: '2026-03-22T04:20:32.764510+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T05:40:58.418766Z'
+  evaluated_at: '2026-03-22T05:33:48.691681Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3965d7800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b00e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3965d7800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b00e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:20.461106Z'
-indexed_at: '2026-03-15T06:04:20.461111Z'
+  fetched_at: '2026-03-22T06:44:16.070994Z'
+indexed_at: '2026-03-22T06:44:16.070999Z'
 ---

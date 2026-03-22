@@ -37,17 +37,17 @@ category_display: Community
 source_repo: ykdojo/claude-code-tips
 source_path: skills/review-claudemd/SKILL.md
 source_url: https://github.com/ykdojo/claude-code-tips/blob/main/skills/review-claudemd/SKILL.md
-fetched_at: '2026-03-15T04:32:48.785951+00:00'
+fetched_at: '2026-03-22T04:22:35.437814+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T06:03:29.291575Z'
+  evaluated_at: '2026-03-22T06:43:16.567378Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396423080 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5622d80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396423080 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5622d80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -57,5 +57,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:20.939405Z'
-indexed_at: '2026-03-15T06:04:20.939410Z'
+  fetched_at: '2026-03-22T06:44:17.298282Z'
+indexed_at: '2026-03-22T06:44:17.298287Z'

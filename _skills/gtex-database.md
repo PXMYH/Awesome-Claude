@@ -12,24 +12,24 @@ prompt_preview: "---\nname: gtex-database\ndescription: Query GTEx (Genotype-Tis
   \ provides a comprehensive resource for..."
 full_prompt_length: 11030
 tools_mentioned:
-- REST
 - python
+- REST
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/gtex-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/gtex-database/SKILL.md
-fetched_at: '2026-03-15T04:31:07.374201+00:00'
+fetched_at: '2026-03-22T04:18:45.184733+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T04:42:26.024469Z'
+  evaluated_at: '2026-03-22T04:33:14.790617Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3969fb980 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5621d60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3969fb980 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5621d60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:19.201261Z'
-indexed_at: '2026-03-15T06:04:19.201267Z'
+  fetched_at: '2026-03-22T06:44:14.970003Z'
+indexed_at: '2026-03-22T06:44:14.970009Z'
 ---

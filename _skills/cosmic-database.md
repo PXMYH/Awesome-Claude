@@ -12,24 +12,24 @@ prompt_preview: "---\nname: cosmic-database\ndescription: Access COSMIC cancer m
   \ cancer. Access COSMIC's exten..."
 full_prompt_length: 10032
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/cosmic-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/cosmic-database/SKILL.md
-fetched_at: '2026-03-15T04:31:03.543847+00:00'
+fetched_at: '2026-03-22T04:18:38.928391+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T04:37:39.822276Z'
+  evaluated_at: '2026-03-22T04:28:23.190041Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396420080 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5652f60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396420080 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5652f60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:19.099058Z'
-indexed_at: '2026-03-15T06:04:19.099064Z'
+  fetched_at: '2026-03-22T06:44:14.881536Z'
+indexed_at: '2026-03-22T06:44:14.881542Z'
 ---

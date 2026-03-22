@@ -11,25 +11,25 @@ prompt_preview: "---\nname: fuzzing-dictionary\ntype: technique\ndescription: >\
   \ that are more likely to reach deeper code pat..."
 full_prompt_length: 9684
 tools_mentioned:
-- go
-- Go
 - Rust
+- Go
+- go
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/fuzzing-dictionary/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/fuzzing-dictionary/SKILL.md
-fetched_at: '2026-03-15T04:32:43.161905+00:00'
+fetched_at: '2026-03-22T04:22:27.437660+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T06:00:29.991752Z'
+  evaluated_at: '2026-03-22T06:40:13.801415Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643f740 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5651670 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643f740 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5651670 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:20.876357Z'
-indexed_at: '2026-03-15T06:04:20.876368Z'
+  fetched_at: '2026-03-22T06:44:17.243546Z'
+indexed_at: '2026-03-22T06:44:17.243551Z'

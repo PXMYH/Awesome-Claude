@@ -14,24 +14,24 @@ prompt_preview: "---\nname: opentargets-database\ndescription: Query Open Target
 full_prompt_length: 14071
 tools_mentioned:
 - graphql
-- GraphQL
 - python
+- GraphQL
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/opentargets-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/opentargets-database/SKILL.md
-fetched_at: '2026-03-15T04:31:11.528025+00:00'
+fetched_at: '2026-03-22T04:18:52.084231+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T04:47:29.556642Z'
+  evaluated_at: '2026-03-22T04:38:21.641423Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3968adc70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5909580 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3968adc70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5909580 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:19.308966Z'
-indexed_at: '2026-03-15T06:04:19.308972Z'
+  fetched_at: '2026-03-22T06:44:15.064868Z'
+indexed_at: '2026-03-22T06:44:15.064873Z'
 ---

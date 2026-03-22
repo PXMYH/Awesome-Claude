@@ -12,24 +12,24 @@ prompt_preview: "---\nname: bindingdb-database\ndescription: Query BindingDB for
   \ public database of measur..."
 full_prompt_length: 12063
 tools_mentioned:
-- REST
 - python
+- REST
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/bindingdb-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/bindingdb-database/SKILL.md
-fetched_at: '2026-03-15T04:31:01.655420+00:00'
+fetched_at: '2026-03-22T04:18:35.771582+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T04:35:20.490736Z'
+  evaluated_at: '2026-03-22T04:26:01.595751Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3974f35c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f57d85f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3974f35c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f57d85f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:19.050496Z'
-indexed_at: '2026-03-15T06:04:19.050502Z'
+  fetched_at: '2026-03-22T06:44:14.839140Z'
+indexed_at: '2026-03-22T06:44:14.839146Z'
 ---

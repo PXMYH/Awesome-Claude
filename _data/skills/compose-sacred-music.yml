@@ -1,0 +1,40 @@
+id: compose-sacred-music
+slug: compose-sacred-music
+name: Compose Sacred Music
+description: Claude skill for Compose Sacred Music
+prompt_preview: "---\r\nname: compose-sacred-music\r\ndescription: >\r\n  Compose\
+  \ or analyze sacred music in Hildegard von Bingen's distinctive modal\r\n  style.\
+  \ Covers modal selection, melodic contour (wide-range melodies),\r\n  text-setting\
+  \ (syllabic and melismatic), neumatic notation, and liturgical\r\n  context for\
+  \ antiphons, sequences, and responsories. Use when composing a\r\n  new piece in\
+  \ Hildegardian style, analyzing an existing chant for structure\r\n  and mode, researching\
+  \ medieval modal music, preparing to perform o..."
+full_prompt_length: 15581
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/compose-sacred-music/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/compose-sacred-music/SKILL.md
+fetched_at: '2026-03-22T04:20:57.832135+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T05:47:24.625112Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f674a330 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f674a330 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.311154Z'
+indexed_at: '2026-03-22T06:44:16.311159Z'

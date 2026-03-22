@@ -1,0 +1,40 @@
+id: generate-status-report
+slug: generate-status-report
+name: Generate a Project Status Report
+description: Claude skill for Generate a Project Status Report
+prompt_preview: "---\r\nname: generate-status-report\r\ndescription: >\r\n  Generate\
+  \ a project status report by reading existing artifacts (charter,\r\n  backlog,\
+  \ sprint plan, WBS), calculating metrics, identifying blockers,\r\n  and summarizing\
+  \ progress with RAG indicators for schedule, scope, budget,\r\n  and quality. Use\
+  \ at the end of a sprint or reporting period, when stakeholders\r\n  request a health\
+  \ update, before steering committee or governance meetings,\r\n  or when a new blocker\
+  \ or risk materializes mid-project.\r\nlic..."
+full_prompt_length: 8639
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/generate-status-report/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/generate-status-report/SKILL.md
+fetched_at: '2026-03-22T04:21:16.983680+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:00:25.505850Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b2630 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b2630 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.537332Z'
+indexed_at: '2026-03-22T06:44:16.537337Z'

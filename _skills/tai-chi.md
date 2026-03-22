@@ -1,0 +1,42 @@
+---
+id: tai-chi
+slug: tai-chi
+name: Practice Tai Chi
+description: Claude skill for Practice Tai Chi
+prompt_preview: "---\r\nname: tai-chi\r\ndescription: >\r\n  Practice tai chi chuan\
+  \ as a martial art and internal cultivation system.\r\n  Covers standing meditation\
+  \ (zhan zhuang), silk reeling energy exercises,\r\n  Yang-style 24-movement form,\
+  \ martial application of postures, push hands\r\n  (tui shou) partner drills, breath\
+  \ and qi integration, and building a daily\r\n  practice. Use when beginning or\
+  \ deepening a tai chi practice for health or\r\n  martial skill, developing whole-body\
+  \ coordination and relaxed structural\r\n  al..."
+full_prompt_length: 16662
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/tai-chi/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/tai-chi/SKILL.md
+fetched_at: '2026-03-22T04:21:48.229688+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:21:46.396315Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56770e0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56770e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.913695Z'
+indexed_at: '2026-03-22T06:44:16.913707Z'
+---

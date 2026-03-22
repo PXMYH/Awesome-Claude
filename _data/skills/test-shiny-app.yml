@@ -1,0 +1,40 @@
+id: test-shiny-app
+slug: test-shiny-app
+name: Test Shiny App
+description: Claude skill for Test Shiny App
+prompt_preview: "---\r\nname: test-shiny-app\r\ndescription: >\r\n  Test Shiny applications\
+  \ using shinytest2 for end-to-end browser tests\r\n  and testServer() for unit-testing\
+  \ module server logic. Covers snapshot\r\n  testing, CI integration, and mocking\
+  \ external services. Use when adding\r\n  tests to an existing Shiny application,\
+  \ setting up a testing strategy for\r\n  a new Shiny project, writing regression\
+  \ tests before refactoring Shiny\r\n  code, or integrating Shiny app tests into\
+  \ CI/CD pipelines.\r\nlicense: MIT\r\nallowed-..."
+full_prompt_length: 8499
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/test-shiny-app/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/test-shiny-app/SKILL.md
+fetched_at: '2026-03-22T04:21:49.271137+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:22:27.752605Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56520f0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56520f0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.925510Z'
+indexed_at: '2026-03-22T06:44:16.925515Z'

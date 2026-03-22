@@ -11,24 +11,24 @@ prompt_preview: "<!-- PM-Skills | https://github.com/product-on-purpose/pm-skill
   \  category: specification\n  frameworks: [..."
 full_prompt_length: 3094
 tools_mentioned:
-- React
 - PostgreSQL
+- React
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/develop-adr/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/develop-adr/SKILL.md
-fetched_at: '2026-03-15T04:32:24.583070+00:00'
+fetched_at: '2026-03-22T04:21:57.724733+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T05:48:04.838436Z'
+  evaluated_at: '2026-03-22T06:27:27.496113Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396420590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5622750 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396420590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5622750 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:20.611324Z'
-indexed_at: '2026-03-15T06:04:20.611330Z'
+  fetched_at: '2026-03-22T06:44:17.012346Z'
+indexed_at: '2026-03-22T06:44:17.012352Z'

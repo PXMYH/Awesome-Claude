@@ -1,0 +1,43 @@
+---
+id: observe
+slug: observe
+name: Observe
+description: Claude skill for Observe
+prompt_preview: "---\r\nname: observe\r\ndescription: >\r\n  Sustained neutral pattern\
+  \ recognition across systems without urgency or\r\n  intervention. Maps naturalist\
+  \ field study methodology to AI reasoning:\r\n  framing the observation target,\
+  \ witnessing with sustained attention,\r\n  recording patterns, categorizing findings,\
+  \ generating hypotheses, and\r\n  archiving a pattern library for future reference.\
+  \ Use when a system's\r\n  behavior is unclear and action would be premature, when\
+  \ debugging an\r\n  unknown root cause, whe..."
+full_prompt_length: 13224
+tools_mentioned:
+- rest
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/observe/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/observe/SKILL.md
+fetched_at: '2026-03-22T04:21:28.630282+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:08:36.578130Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56521e0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56521e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.678322Z'
+indexed_at: '2026-03-22T06:44:16.678327Z'
+---

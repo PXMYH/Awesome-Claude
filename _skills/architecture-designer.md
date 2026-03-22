@@ -22,17 +22,17 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/architecture-designer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/architecture-designer/SKILL.md
-fetched_at: '2026-03-15T04:32:03.956512+00:00'
+fetched_at: '2026-03-22T04:20:16.887998+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T05:35:15.625709Z'
+  evaluated_at: '2026-03-22T05:27:58.399124Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3966c5730 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f59792b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3966c5730 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f59792b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:20.339183Z'
-indexed_at: '2026-03-15T06:04:20.339189Z'
+  fetched_at: '2026-03-22T06:44:15.965917Z'
+indexed_at: '2026-03-22T06:44:15.965922Z'
 ---

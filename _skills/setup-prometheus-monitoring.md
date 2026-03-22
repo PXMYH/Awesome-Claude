@@ -1,0 +1,46 @@
+---
+id: setup-prometheus-monitoring
+slug: setup-prometheus-monitoring
+name: Setup Prometheus Monitoring
+description: '- `configure-alerting-rules` - Define alerting rules based on Prometheus
+  metrics and route to Alertmanager'
+prompt_preview: "---\nname: setup-prometheus-monitoring\ndescription: >\n  Configure\
+  \ Prometheus for time-series metrics collection, including scrape configurations,\n\
+  \  service discovery, recording rules, and federation patterns for multi-cluster\
+  \ deployments.\n  Use when setting up centralized metrics collection for microservices,\
+  \ implementing time-series\n  monitoring for application and infrastructure, establishing\
+  \ a foundation for SLO/SLI tracking\n  and alerting, or migrating from legacy monitoring\
+  \ solutions to a mo..."
+full_prompt_length: 15791
+tools_mentioned:
+- python
+- kubernetes
+- Kubernetes
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/setup-prometheus-monitoring/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/setup-prometheus-monitoring/SKILL.md
+fetched_at: '2026-03-22T04:21:44.409004+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:19:08.336743Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56741d0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56741d0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.867920Z'
+indexed_at: '2026-03-22T06:44:16.867926Z'
+---

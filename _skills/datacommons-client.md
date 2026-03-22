@@ -16,24 +16,24 @@ prompt_preview: '---
   and exploring relationships between statistical e...'
 full_prompt_length: 7984
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/datacommons-client/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/datacommons-client/SKILL.md
-fetched_at: '2026-03-15T04:31:03.764916+00:00'
+fetched_at: '2026-03-22T04:18:39.265702+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T04:37:56.388347Z'
+  evaluated_at: '2026-03-22T04:28:39.707749Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396c8a540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56502f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396c8a540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56502f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:19.104662Z'
-indexed_at: '2026-03-15T06:04:19.104668Z'
+  fetched_at: '2026-03-22T06:44:14.886609Z'
+indexed_at: '2026-03-22T06:44:14.886615Z'
 ---

@@ -1,0 +1,40 @@
+id: derive-theoretical-result
+slug: derive-theoretical-result
+name: Derive Theoretical Result
+description: Claude skill for Derive Theoretical Result
+prompt_preview: "---\r\nname: derive-theoretical-result\r\ndescription: >\r\n  Derive\
+  \ a theoretical result step-by-step from first principles or established\r\n  theorems,\
+  \ with every step explicitly justified and special cases checked.\r\n  Use when\
+  \ deriving a formula or theorem from first principles, proving a\r\n  mathematical\
+  \ statement by logical deduction, re-deriving a textbook result\r\n  for verification\
+  \ or adaptation, extending a known result to a more general\r\n  setting, or producing\
+  \ a self-contained derivation for a..."
+full_prompt_length: 13360
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/derive-theoretical-result/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/derive-theoretical-result/SKILL.md
+fetched_at: '2026-03-22T04:21:08.018246+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T05:54:13.050223Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56238c0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56238c0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.429528Z'
+indexed_at: '2026-03-22T06:44:16.429533Z'

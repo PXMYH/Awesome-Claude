@@ -1,0 +1,40 @@
+id: implement-audit-trail
+slug: implement-audit-trail
+name: Implement Audit Trail
+description: Claude skill for Implement Audit Trail
+prompt_preview: "---\r\nname: implement-audit-trail\r\ndescription: >\r\n  Implement\
+  \ audit trail functionality for R projects in regulated\r\n  environments. Covers\
+  \ logging, provenance tracking, electronic\r\n  signatures, data integrity checks,\
+  \ and 21 CFR Part 11 compliance. Use\r\n  when an R analysis requires electronic\
+  \ records compliance (21 CFR Part 11),\r\n  when you need to track who did what\
+  \ and when in an analysis, when\r\n  implementing data provenance tracking, or when\
+  \ creating tamper-evident\r\n  analysis logs for reg..."
+full_prompt_length: 10906
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/implement-audit-trail/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/implement-audit-trail/SKILL.md
+fetched_at: '2026-03-22T04:21:19.615684+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:02:15.228449Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5675c40 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5675c40 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.568352Z'
+indexed_at: '2026-03-22T06:44:16.568357Z'

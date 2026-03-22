@@ -12,26 +12,26 @@ prompt_preview: "---\nname: semgrep-rule-variant-creator\ndescription: Creates l
   \ proper applicability analysis and test-..."
 full_prompt_length: 8029
 tools_mentioned:
-- Java
-- java
 - Go
+- Java
 - go
+- java
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/semgrep-rule-variant-creator/skills/semgrep-rule-variant-creator/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/semgrep-rule-variant-creator/skills/semgrep-rule-variant-creator/SKILL.md
-fetched_at: '2026-03-15T04:32:40.751824+00:00'
+fetched_at: '2026-03-22T04:22:23.566404+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T05:58:35.002410Z'
+  evaluated_at: '2026-03-22T06:38:17.864291Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39646af00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5651a90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39646af00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5651a90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:20.834705Z'
-indexed_at: '2026-03-15T06:04:20.834711Z'
+  fetched_at: '2026-03-22T06:44:17.207505Z'
+indexed_at: '2026-03-22T06:44:17.207510Z'
 ---

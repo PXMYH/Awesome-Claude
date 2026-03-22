@@ -1,0 +1,40 @@
+id: monitor-data-integrity
+slug: monitor-data-integrity
+name: Monitor Data Integrity
+description: Claude skill for Monitor Data Integrity
+prompt_preview: "---\r\nname: monitor-data-integrity\r\ndescription: >\r\n  Design\
+  \ and operate a data integrity monitoring programme based on ALCOA+\r\n  principles.\
+  \ Covers detective controls, audit trail review schedules,\r\n  anomaly detection\
+  \ patterns (off-hours activity, sequential modifications,\r\n  bulk changes), metrics\
+  \ dashboards, investigation triggers, and escalation\r\n  matrix definition. Use\
+  \ when establishing a data integrity monitoring\r\n  programme for GxP systems,\
+  \ preparing for inspections where data integrity..."
+full_prompt_length: 13519
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/monitor-data-integrity/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/monitor-data-integrity/SKILL.md
+fetched_at: '2026-03-22T04:21:27.451859+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:07:46.876259Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b33e0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b33e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.664107Z'
+indexed_at: '2026-03-22T06:44:16.664112Z'

@@ -1,0 +1,42 @@
+---
+id: check-relocation-documents
+slug: check-relocation-documents
+name: Check Relocation Documents
+description: Claude skill for Check Relocation Documents
+prompt_preview: "---\r\nname: check-relocation-documents\r\ndescription: >\r\n  Verify\
+  \ document completeness for each bureaucratic step of an EU/DACH\r\n  relocation,\
+  \ flagging missing items and translation requirements. Use after\r\n  creating a\
+  \ relocation plan and before beginning bureaucratic procedures, when\r\n  preparing\
+  \ for a specific appointment (Buergeramt, Finanzamt), when unsure\r\n  which documents\
+  \ need certified translation or apostille, after receiving a\r\n  rejection or request\
+  \ for additional documents, or as a p..."
+full_prompt_length: 14896
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/check-relocation-documents/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/check-relocation-documents/SKILL.md
+fetched_at: '2026-03-22T04:20:56.532732+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T05:46:33.170249Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5651d00 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5651d00 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.296867Z'
+indexed_at: '2026-03-22T06:44:16.296872Z'
+---

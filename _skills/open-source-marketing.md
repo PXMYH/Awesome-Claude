@@ -12,24 +12,24 @@ prompt_preview: "---\nname: open-source-marketing\ndescription: When the user wa
   \ optimization, community building, contributor exper..."
 full_prompt_length: 11542
 tools_mentioned:
-- TypeScript
 - javascript
+- TypeScript
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/open-source-marketing/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/open-source-marketing/SKILL.md
-fetched_at: '2026-03-15T04:32:14.889034+00:00'
+fetched_at: '2026-03-22T04:20:35.020630+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T05:42:28.179474Z'
+  evaluated_at: '2026-03-22T05:35:20.406714Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3966856d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5653470 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3966856d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5653470 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:20.493778Z'
-indexed_at: '2026-03-15T06:04:20.493784Z'
+  fetched_at: '2026-03-22T06:44:16.099121Z'
+indexed_at: '2026-03-22T06:44:16.099126Z'
 ---

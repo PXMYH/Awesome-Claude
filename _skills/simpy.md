@@ -13,24 +13,24 @@ prompt_preview: "---\nname: simpy\ndescription: Process-based discrete-event sim
   \ is a process-based discrete-..."
 full_prompt_length: 12165
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/simpy/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/simpy/SKILL.md
-fetched_at: '2026-03-15T04:31:17.504622+00:00'
+fetched_at: '2026-03-22T04:19:02.240951+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T04:54:51.490561Z'
+  evaluated_at: '2026-03-22T04:46:00.604211Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3964231d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5827ef0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa3964231d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5827ef0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:19.465714Z'
-indexed_at: '2026-03-15T06:04:19.465722Z'
+  fetched_at: '2026-03-22T06:44:15.201690Z'
+indexed_at: '2026-03-22T06:44:15.201696Z'
 ---

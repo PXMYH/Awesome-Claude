@@ -13,25 +13,25 @@ prompt_preview: "---\nname: labarchive-integration\ndescription: Electronic lab 
   \ and attachments, generate reports, and..."
 full_prompt_length: 9441
 tools_mentioned:
+- Python
 - python
 - REST
-- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/labarchive-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/labarchive-integration/SKILL.md
-fetched_at: '2026-03-15T04:31:08.826113+00:00'
+fetched_at: '2026-03-22T04:18:47.726789+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T04:44:13.348751Z'
+  evaluated_at: '2026-03-22T04:35:02.632303Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643ce90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f57a4320 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643ce90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f57a4320 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:19.239274Z'
-indexed_at: '2026-03-15T06:04:19.239280Z'
+  fetched_at: '2026-03-22T06:44:15.003621Z'
+indexed_at: '2026-03-22T06:44:15.003634Z'
 ---

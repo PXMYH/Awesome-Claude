@@ -1,0 +1,40 @@
+id: optimize-shiny-performance
+slug: optimize-shiny-performance
+name: Optimize Shiny Performance
+description: Claude skill for Optimize Shiny Performance
+prompt_preview: "---\r\nname: optimize-shiny-performance\r\ndescription: >\r\n  Profile\
+  \ and optimize Shiny application performance using profvis,\r\n  bindCache, memoise,\
+  \ async/promises, debounce/throttle, and\r\n  ExtendedTask for long-running computations.\
+  \ Use when the app feels slow\r\n  or unresponsive during user interaction, when\
+  \ server resources are exhausted\r\n  under concurrent load, when specific operations\
+  \ create bottlenecks, or when\r\n  preparing an app for production deployment with\
+  \ many concurrent users.\r\nlicens..."
+full_prompt_length: 9726
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/optimize-shiny-performance/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/optimize-shiny-performance/SKILL.md
+fetched_at: '2026-03-22T04:21:29.365290+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:09:01.443407Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b1520 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b1520 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.685583Z'
+indexed_at: '2026-03-22T06:44:16.685588Z'

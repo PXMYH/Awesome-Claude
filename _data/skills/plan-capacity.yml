@@ -1,0 +1,44 @@
+id: plan-capacity
+slug: plan-capacity
+name: Plan Capacity
+description: '- `setup-prometheus-monitoring` - collect the metrics used for capacity
+  planning'
+prompt_preview: "---\nname: plan-capacity\ndescription: >\n  Perform capacity planning\
+  \ using historical metrics and growth models. Use\n  predict_linear for forecasting,\
+  \ identify resource constraints, calculate\n  headroom, and recommend scaling actions\
+  \ before saturation. Use before\n  seasonal traffic spikes or product launches,\
+  \ during quarterly capacity\n  reviews, when resource utilization trends upward,\
+  \ or before budget planning\n  cycles.\nlicense: MIT\nallowed-tools: Read Write\
+  \ Edit Bash Grep Glob\nmetadata:\n  author..."
+full_prompt_length: 11198
+tools_mentioned:
+- Python
+- python
+- Kubernetes
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/plan-capacity/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/plan-capacity/SKILL.md
+fetched_at: '2026-03-22T04:21:30.762845+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:09:59.439016Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5621490 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5621490 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.702674Z'
+indexed_at: '2026-03-22T06:44:16.702679Z'

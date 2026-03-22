@@ -1,0 +1,41 @@
+id: assess-form
+slug: assess-form
+name: Assess Form
+description: Claude skill for Assess Form
+prompt_preview: "---\r\nname: assess-form\r\ndescription: >\r\n  Evaluate a system's\
+  \ current structural form, identify transformation pressure,\r\n  and classify transformation\
+  \ readiness. Covers structural inventory, pressure\r\n  mapping, rigidity assessment,\
+  \ change capacity estimation, and readiness\r\n  classification for architectural\
+  \ metamorphosis. Use before any significant\r\n  architectural change to understand\
+  \ the starting point, when a system feels\r\n  stuck without clear reasons, when\
+  \ external pressure from growth o..."
+full_prompt_length: 15032
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/assess-form/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/assess-form/SKILL.md
+fetched_at: '2026-03-22T04:20:50.375199+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T05:42:23.450928Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b0860 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b0860 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.225188Z'
+indexed_at: '2026-03-22T06:44:16.225193Z'

@@ -11,24 +11,24 @@ prompt_preview: "---\nname: anndata\ndescription: Data structure for annotated m
   \ handling annotated data matrices, storin..."
 full_prompt_length: 10210
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/anndata/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/anndata/SKILL.md
-fetched_at: '2026-03-15T04:31:01.017515+00:00'
+fetched_at: '2026-03-22T04:18:34.738403+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T04:34:31.227860Z'
+  evaluated_at: '2026-03-22T04:25:12.005703Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396924aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f674a330 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396924aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f674a330 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:19.033062Z'
-indexed_at: '2026-03-15T06:04:19.033072Z'
+  fetched_at: '2026-03-22T06:44:14.823811Z'
+indexed_at: '2026-03-22T06:44:14.823816Z'

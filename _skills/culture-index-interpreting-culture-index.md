@@ -15,7 +15,7 @@ prompt_preview: '---
   via OpenCV extraction script.
 
   allowed-tools...'
-full_prompt_length: 12664
+full_prompt_length: 14013
 tools_mentioned:
 - Go
 - python
@@ -24,17 +24,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/culture-index/skills/interpreting-culture-index/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/culture-index/skills/interpreting-culture-index/SKILL.md
-fetched_at: '2026-03-15T04:32:36.616341+00:00'
+fetched_at: '2026-03-22T04:22:16.958311+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T05:56:24.193673Z'
+  evaluated_at: '2026-03-22T06:36:03.376968Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643cfb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5651af0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643cfb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5651af0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:20.788680Z'
-indexed_at: '2026-03-15T06:04:20.788689Z'
+  fetched_at: '2026-03-22T06:44:17.167264Z'
+indexed_at: '2026-03-22T06:44:17.167270Z'
 ---

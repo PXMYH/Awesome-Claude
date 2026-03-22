@@ -1,0 +1,45 @@
+---
+id: plan-release-cycle
+slug: plan-release-cycle
+name: Plan Release Cycle
+description: Claude skill for Plan Release Cycle
+prompt_preview: "---\r\nname: plan-release-cycle\r\ndescription: >\r\n  Plan a software\
+  \ release cycle with milestones, feature freezes,\r\n  release candidates, and go/no-go\
+  \ criteria. Covers calendar-based\r\n  and feature-based release strategies. Use\
+  \ when starting planning for a\r\n  major or minor version release, transitioning\
+  \ from ad-hoc to structured\r\n  release cadence, coordinating a release across\
+  \ multiple teams or components,\r\n  defining quality gates for a regulated project,\
+  \ or planning the first\r\n  public release..."
+full_prompt_length: 12311
+tools_mentioned:
+- Node.js
+- Go
+- go
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/plan-release-cycle/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/plan-release-cycle/SKILL.md
+fetched_at: '2026-03-22T04:21:31.568658+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:10:33.039818Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b06e0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b06e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.712192Z'
+indexed_at: '2026-03-22T06:44:16.712197Z'
+---

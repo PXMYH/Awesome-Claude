@@ -1,0 +1,44 @@
+---
+id: ecom
+slug: ecom
+name: ecom -- Ecommerce Business Review Toolkit
+description: 'Modules: `loader`, `metrics`, `decomposition`, `cohort`, `product`,'
+prompt_preview: "---\nname: ecom\nversion: 0.1.0\ndescription: >\n  Claude-powered\
+  \ ecommerce business review toolkit for D2C stores.\n  Single command: review. Analyzes\
+  \ order transaction data across multiple\n  time periods (30d/90d/365d), produces\
+  \ KPI trees with health signals,\n  structured findings, and concrete action plans.\n\
+  \  Triggers on: \"ecommerce review\", \"store review\", \"store health\",\n  \"\
+  revenue analysis\", \"customer analysis\", \"product analysis\",\n  \"business review\"\
+  .\nargument-hint: \"review [30d|90d|365d]\"\nall..."
+full_prompt_length: 20266
+tools_mentioned:
+- Python
+- go
+category: community
+category_display: Community
+source_repo: takechanman1228/claude-ecom
+source_path: skills/ecom/SKILL.md
+source_url: https://github.com/takechanman1228/claude-ecom/blob/main/skills/ecom/SKILL.md
+fetched_at: '2026-03-22T04:22:10.417595+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:33:33.962593Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5621310 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5621310 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:17.121768Z'
+indexed_at: '2026-03-22T06:44:17.121774Z'
+---

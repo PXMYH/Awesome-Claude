@@ -11,26 +11,26 @@ prompt_preview: "---\nname: gwas-database\ndescription: Query NHGRI-EBI GWAS Cat
   \ Institute (NHGRI) and t..."
 full_prompt_length: 20066
 tools_mentioned:
-- rest
 - Python
-- REST
 - python
+- rest
+- REST
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/gwas-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/gwas-database/SKILL.md
-fetched_at: '2026-03-15T04:31:07.487724+00:00'
+fetched_at: '2026-03-22T04:18:45.352896+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T04:42:34.176852Z'
+  evaluated_at: '2026-03-22T04:33:23.064624Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643f590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5652480 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa39643f590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5652480 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:19.204089Z'
-indexed_at: '2026-03-15T06:04:19.204095Z'
+  fetched_at: '2026-03-22T06:44:14.972531Z'
+indexed_at: '2026-03-22T06:44:14.972537Z'

@@ -1,0 +1,41 @@
+id: mindfulness
+slug: mindfulness
+name: Cultivate Defensive Mindfulness
+description: Claude skill for Cultivate Defensive Mindfulness
+prompt_preview: "---\r\nname: mindfulness\r\ndescription: >\r\n  Cultivate defensive\
+  \ situational awareness, threat assessment, and mental\r\n  clarity under pressure.\
+  \ Covers the Cooper color code awareness system,\r\n  body language reading and\
+  \ intent detection, verbal de-escalation, moving\r\n  mindfulness in public spaces,\
+  \ combat focus and the OODA loop, rapid\r\n  grounding techniques for acute stress,\
+  \ context-specific integration, and\r\n  ongoing review and refinement of awareness\
+  \ skills. Use when entering\r\n  unfamiliar or..."
+full_prompt_length: 25634
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/mindfulness/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/mindfulness/SKILL.md
+fetched_at: '2026-03-22T04:21:26.857815+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-22T06:07:22.073601Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56520c0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56520c0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-22T06:44:16.656959Z'
+indexed_at: '2026-03-22T06:44:16.656964Z'

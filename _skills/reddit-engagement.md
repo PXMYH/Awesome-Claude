@@ -12,32 +12,32 @@ prompt_preview: "---\nname: reddit-engagement\ndescription: When the user wants 
   \ engagement across developer subredd..."
 full_prompt_length: 10828
 tools_mentioned:
-- javascript
-- java
-- kubernetes
+- django
 - rust
 - angular
-- django
-- Python
-- aws
 - docker
+- javascript
+- kubernetes
+- aws
 - typescript
+- Python
+- java
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/reddit-engagement/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/reddit-engagement/SKILL.md
-fetched_at: '2026-03-15T04:32:15.139141+00:00'
+fetched_at: '2026-03-22T04:20:35.401893+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T05:42:44.465502Z'
+  evaluated_at: '2026-03-22T05:35:37.002696Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396469d60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5652e70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396469d60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5652e70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:20.499627Z'
-indexed_at: '2026-03-15T06:04:20.499645Z'
+  fetched_at: '2026-03-22T06:44:16.104176Z'
+indexed_at: '2026-03-22T06:44:16.104182Z'
 ---

@@ -16,24 +16,24 @@ prompt_preview: '---
   to convert document data for RAG pipelines, or as...'
 full_prompt_length: 9237
 tools_mentioned:
-- python
 - Python
+- python
 category: data-analytics
 category_display: Data Analytics
 source_repo: jacob-g-park/polaris-datainsight-doc-extract
 source_path: skills/polaris-datainsight-doc-extract/SKILL.md
 source_url: https://github.com/jacob-g-park/polaris-datainsight-doc-extract/blob/main/skills/polaris-datainsight-doc-extract/SKILL.md
-fetched_at: '2026-03-15T04:32:03.003473+00:00'
+fetched_at: '2026-03-22T04:20:15.500548+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-15T05:35:07.492219Z'
+  evaluated_at: '2026-03-22T05:27:50.159205Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396469160 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5a6fce0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa396469160 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5a6fce0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-15T06:04:20.336178Z'
-indexed_at: '2026-03-15T06:04:20.336184Z'
+  fetched_at: '2026-03-22T06:44:15.963274Z'
+indexed_at: '2026-03-22T06:44:15.963279Z'
 ---
