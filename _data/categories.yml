@@ -1,6 +1,6 @@
 - slug: 05-data-ai
   name: 05 Data Ai
-  count: 12
+  count: 13
   avg_rating: 3.0
 - slug: 06-developer-experience
   name: 06 Developer Experience
@@ -36,7 +36,7 @@
   avg_rating: 3.0
 - slug: language-specialists
   name: Language Specialists
-  count: 26
+  count: 28
   avg_rating: 3.0
 - slug: official
   name: Official Anthropic Skills

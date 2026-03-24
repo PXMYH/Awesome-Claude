@@ -25,37 +25,37 @@ prompt_preview: '---
   ## Communicati...'
 full_prompt_length: 4540
 tools_mentioned:
-- TypeScript
-- WebSocket
 - Vue
+- TypeScript
+- websocket
+- WebSocket
 - Angular
 - React
-- websocket
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/frontend-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/frontend-developer.md
-fetched_at: '2026-03-23T04:27:47.255482Z'
+fetched_at: '2026-03-24T04:18:46.234343Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-23T04:28:52.745169Z'
+  evaluated_at: '2026-03-24T04:19:49.021716Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f97970fa300 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8da7b4f830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f97970fa300 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8da7b4f830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 14790
-  forks: 1648
-  open_issues: 14
-  last_commit: '2026-03-19'
-  fetched_at: '2026-03-23T04:28:19.219541Z'
-indexed_at: '2026-03-23T04:50:20.919262Z'
+  stars: 14928
+  forks: 1675
+  open_issues: 2
+  last_commit: '2026-03-23'
+  fetched_at: '2026-03-24T04:19:15.601162Z'
+indexed_at: '2026-03-24T04:41:46.982275Z'
 ---

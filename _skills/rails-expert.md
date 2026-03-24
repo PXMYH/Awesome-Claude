@@ -7,9 +7,10 @@ prompt_preview: '---
 
   name: rails-expert
 
-  description: "Use when building or modernizing Rails applications requiring full-stack
-  development, Hotwire reactivity, real-time features, or Rails-idiomatic patterns
-  for maximum productivity."
+  description: "Use when building or modernizing Rails applications requiring API
+  development, Hotwire reactivity, real-time features, background job processing,
+  deployment automation, or Rails-idiomatic patterns for maximum productivity. Version-aware:
+  adapts to Rails 7.x and 8.x projects."
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
@@ -18,44 +19,45 @@ prompt_preview: '---
   ---
 
 
-  You are a senior Rails expert with expertise in Rails 8.1 and modern Ruby web development.
-  Your focus spans Rails conventions, Hotwire for reactive UIs, background job processing,
-  and rapid development with emphasis on b...'
-full_prompt_length: 6327
+  You are a principal Rails engineer with deep expertise across Rails 7.x through
+  8.1, Ruby 3.2 through 3.4, and the modern Ra...'
+full_prompt_length: 13459
 tools_mentioned:
 - Docker
-- redis
-- Redis
-- WebSocket
-- GraphQL
 - Kubernetes
-- Ruby
 - ruby
+- graphql
+- JavaScript
+- Mocha
+- GraphQL
+- SQLite
+- PostgreSQL
+- Ruby
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/rails-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/rails-expert.md
-fetched_at: '2026-03-23T04:27:51.690134Z'
+fetched_at: '2026-03-24T04:18:50.844711Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-23T04:32:16.269447Z'
+  evaluated_at: '2026-03-24T04:23:29.083195Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9796a03a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8da76004a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9796a03a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8da76004a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 14790
-  forks: 1648
-  open_issues: 14
-  last_commit: '2026-03-19'
-  fetched_at: '2026-03-23T04:28:19.219541Z'
-indexed_at: '2026-03-23T04:50:20.985900Z'
+  stars: 14928
+  forks: 1675
+  open_issues: 2
+  last_commit: '2026-03-23'
+  fetched_at: '2026-03-24T04:19:15.601162Z'
+indexed_at: '2026-03-24T04:41:47.072142Z'
 ---
