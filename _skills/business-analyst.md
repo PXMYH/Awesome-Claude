@@ -29,26 +29,26 @@ category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/business-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/business-analyst.md
-fetched_at: '2026-03-24T04:19:04.094319Z'
+fetched_at: '2026-03-25T04:20:53.633222Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-24T04:33:50.513018Z'
+  evaluated_at: '2026-03-25T04:35:52.171693Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8da7c52f00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f778466aae0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8da7c52f00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f778466aae0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 14928
-  forks: 1675
-  open_issues: 2
+  stars: 15074
+  forks: 1683
+  open_issues: 0
   last_commit: '2026-03-23'
-  fetched_at: '2026-03-24T04:19:15.601162Z'
-indexed_at: '2026-03-24T04:41:47.295658Z'
+  fetched_at: '2026-03-25T04:21:07.995813Z'
+indexed_at: '2026-03-25T04:43:46.912591Z'
 ---
