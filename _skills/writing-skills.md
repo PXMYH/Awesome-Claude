@@ -11,38 +11,38 @@ prompt_preview: "---\nname: writing-skills\ndescription: Use when creating new s
   \ (`~/.claude/skills` for Claude Code, `~/.agents/skills/` for Codex)** \n\nYou\
   \ write test cases (pressure scenarios with subagents), watch them fail (baseline\
   \ behavior), write the skill (documentat..."
-full_prompt_length: 22379
+full_prompt_length: 22538
 tools_mentioned:
+- go
+- Python
 - TypeScript
 - React
-- Python
-- go
 - JavaScript
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/writing-skills/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/writing-skills/SKILL.md
-fetched_at: '2026-03-25T04:21:07.337160Z'
+fetched_at: '2026-03-26T04:33:00.926118Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-25T04:43:46.452835Z'
+  evaluated_at: '2026-03-26T04:55:37.968062Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7783f88e60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6b6d1d9670 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7783f88e60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6b6d1d9670 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 110885
-  forks: 8904
-  open_issues: 183
-  last_commit: '2026-03-19'
-  fetched_at: '2026-03-25T04:21:08.726895Z'
-indexed_at: '2026-03-25T04:43:47.083901Z'
+  stars: 113450
+  forks: 9101
+  open_issues: 166
+  last_commit: '2026-03-25'
+  fetched_at: '2026-03-26T04:33:02.121493Z'
+indexed_at: '2026-03-26T04:55:38.609022Z'
 ---
