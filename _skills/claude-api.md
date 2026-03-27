@@ -25,41 +25,41 @@ prompt_preview: '---
   This skill helps you build LLM-powered applications with Claude. Choose the r...'
 full_prompt_length: 20360
 tools_mentioned:
+- php
 - go
-- Rust
-- Ruby
-- typescript
-- Go
+- Java
+- Python
+- java
 - python
-- PHP
 - Rest
 - TypeScript
-- java
+- Go
+- ruby
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/claude-api/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/claude-api/SKILL.md
-fetched_at: '2026-03-26T04:32:53.694639Z'
+fetched_at: '2026-03-27T04:33:39.998009Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-26T04:51:57.063983Z'
+  evaluated_at: '2026-03-27T04:52:43.145244Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6b6d09c980 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fcd3e627da0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6b6d09c980 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fcd3e627da0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 103062
-  forks: 11331
-  open_issues: 582
+  stars: 103966
+  forks: 11449
+  open_issues: 588
   last_commit: '2026-03-25'
-  fetched_at: '2026-03-26T04:33:01.879748Z'
-indexed_at: '2026-03-26T04:55:38.530710Z'
+  fetched_at: '2026-03-27T04:33:51.979089Z'
+indexed_at: '2026-03-27T04:56:22.631943Z'
 ---

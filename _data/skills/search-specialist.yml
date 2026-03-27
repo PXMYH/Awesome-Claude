@@ -13,39 +13,39 @@ prompt_preview: '---
 
   tools: Read, Grep, Glob, WebFetch, WebSearch
 
-  model: haiku
+  model: sonnet
 
   ---
 
 
   You are a senior search specialist with expertise in advanced information retrieval
-  and knowledge di...'
-full_prompt_length: 6785
+  and knowledge d...'
+full_prompt_length: 6786
 tools_mentioned: []
 category: 10-research-analysis
 category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/search-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/search-specialist.md
-fetched_at: '2026-03-26T04:32:52.159670Z'
+fetched_at: '2026-03-27T04:33:37.949553Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-26T04:51:16.329355Z'
+  evaluated_at: '2026-03-27T04:52:02.649530Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6b6d1d6720 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fcd3e627d10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6b6d1d6720 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fcd3e627d10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 15191
-  forks: 1698
-  open_issues: 7
-  last_commit: '2026-03-23'
-  fetched_at: '2026-03-26T04:33:01.486260Z'
-indexed_at: '2026-03-26T04:55:38.516355Z'
+  stars: 15299
+  forks: 1714
+  open_issues: 0
+  last_commit: '2026-03-26'
+  fetched_at: '2026-03-27T04:33:51.370113Z'
+indexed_at: '2026-03-27T04:56:22.617785Z'

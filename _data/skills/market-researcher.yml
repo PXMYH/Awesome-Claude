@@ -12,40 +12,40 @@ prompt_preview: '---
 
   tools: Read, Grep, Glob, WebFetch, WebSearch
 
-  model: haiku
+  model: sonnet
 
   ---
 
 
   You are a senior market researcher with expertise in comprehensive market analysis
   and consumer behavior research. Your focus spans market dynamics, customer insights,
-  competitive landscapes, and trend ide...'
-full_prompt_length: 6757
+  competitive landscapes, and trend id...'
+full_prompt_length: 6758
 tools_mentioned: []
 category: 10-research-analysis
 category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/market-researcher.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/market-researcher.md
-fetched_at: '2026-03-26T04:32:48.603368Z'
+fetched_at: '2026-03-27T04:33:37.269950Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-26T04:50:51.882416Z'
+  evaluated_at: '2026-03-27T04:51:38.369764Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6b6d182f30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fcd3e763e90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6b6d182f30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fcd3e763e90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 15191
-  forks: 1698
-  open_issues: 7
-  last_commit: '2026-03-23'
-  fetched_at: '2026-03-26T04:33:01.486260Z'
-indexed_at: '2026-03-26T04:55:38.507546Z'
+  stars: 15299
+  forks: 1714
+  open_issues: 0
+  last_commit: '2026-03-26'
+  fetched_at: '2026-03-27T04:33:51.370113Z'
+indexed_at: '2026-03-27T04:56:22.609180Z'
