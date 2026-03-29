@@ -3,13 +3,13 @@ id: iterate-refinement-notes
 slug: iterate-refinement-notes
 name: Refinement Notes
 description: See `references/EXAMPLE.md` for a completed example.
-prompt_preview: "<!-- PM-Skills | https://github.com/product-on-purpose/pm-skills\
-  \ | Apache 2.0 -->\n---\nname: iterate-refinement-notes\ndescription: Documents\
-  \ backlog refinement session outcomes including stories refined, estimates, questions\
-  \ raised, and decisions made. Use during or after refinement to capture the results\
-  \ and share with absent team members.\nphase: iterate\nversion: \"2.0.0\"\nupdated:\
+prompt_preview: "---\nname: iterate-refinement-notes\ndescription: Documents backlog\
+  \ refinement session outcomes including stories refined, estimates, questions raised,\
+  \ and decisions made. Use during or after refinement to capture the results and\
+  \ share with absent team members.\nphase: iterate\nversion: \"2.0.0\"\nupdated:\
   \ 2026-01-26\nlicense: Apache-2.0\nmetadata:\n  category: coordination\n  frameworks:\
-  \ [triple-diamond, lean-startup, design..."
+  \ [triple-diamond, lean-startup, design-thinking]\n  author: product-on-purpose\n\
+  ---\n<!-- PM-Skills | https://github.com/pr..."
 full_prompt_length: 2804
 tools_mentioned: []
 category: community
@@ -17,17 +17,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/iterate-refinement-notes/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/iterate-refinement-notes/SKILL.md
-fetched_at: '2026-03-22T04:21:59.723995+00:00'
+fetched_at: '2026-03-29T04:40:20.688692+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T06:28:50.415613Z'
+  evaluated_at: '2026-03-29T06:47:44.527250Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b0a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974aeb70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b0a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974aeb70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:17.036687Z'
-indexed_at: '2026-03-22T06:44:17.036692Z'
+  fetched_at: '2026-03-29T07:03:21.891871Z'
+indexed_at: '2026-03-29T07:03:21.891877Z'
 ---

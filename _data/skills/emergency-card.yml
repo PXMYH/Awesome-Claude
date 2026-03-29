@@ -53,17 +53,17 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/emergency-card/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/emergency-card/SKILL.md
-fetched_at: '2026-03-22T04:20:09.874189+00:00'
+fetched_at: '2026-03-29T04:38:26.900781+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T05:25:11.893755Z'
+  evaluated_at: '2026-03-29T05:43:50.577698Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b0fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ac620 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b0fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ac620 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -73,5 +73,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:15.915241Z'
-indexed_at: '2026-03-22T06:44:15.915246Z'
+  fetched_at: '2026-03-29T07:03:20.559251Z'
+indexed_at: '2026-03-29T07:03:20.559256Z'

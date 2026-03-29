@@ -3,13 +3,12 @@ id: define-opportunity-tree
 slug: define-opportunity-tree
 name: Opportunity Solution Tree
 description: See `references/EXAMPLE.md` for a completed example.
-prompt_preview: "<!-- PM-Skills | https://github.com/product-on-purpose/pm-skills\
-  \ | Apache 2.0 -->\n---\nname: define-opportunity-tree\ndescription: Creates an\
-  \ opportunity solution tree mapping desired outcomes to opportunities and potential\
-  \ solutions. Use for outcome-driven product discovery, prioritization, or communicating\
-  \ product strategy.\nphase: define\nversion: \"2.0.0\"\nupdated: 2026-01-26\nlicense:\
-  \ Apache-2.0\nmetadata:\n  category: problem-framing\n  frameworks: [triple-diamond,\
-  \ lean-startup, design-thinking]\n  a..."
+prompt_preview: "---\nname: define-opportunity-tree\ndescription: Creates an opportunity\
+  \ solution tree mapping desired outcomes to opportunities and potential solutions.\
+  \ Use for outcome-driven product discovery, prioritization, or communicating product\
+  \ strategy.\nphase: define\nversion: \"2.0.0\"\nupdated: 2026-01-26\nlicense: Apache-2.0\n\
+  metadata:\n  category: problem-framing\n  frameworks: [triple-diamond, lean-startup,\
+  \ design-thinking]\n  author: product-on-purpose\n---\n<!-- PM-Skills | https://github.com/product-on-purpo..."
 full_prompt_length: 3514
 tools_mentioned: []
 category: community
@@ -17,17 +16,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/define-opportunity-tree/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/define-opportunity-tree/SKILL.md
-fetched_at: '2026-03-22T04:21:56.369698+00:00'
+fetched_at: '2026-03-29T04:40:16.906110+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T06:26:29.486479Z'
+  evaluated_at: '2026-03-29T06:45:15.974719Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b3f20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974adf10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b3f20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974adf10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +36,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.995439Z'
-indexed_at: '2026-03-22T06:44:16.995445Z'
+  fetched_at: '2026-03-29T07:03:21.840988Z'
+indexed_at: '2026-03-29T07:03:21.840994Z'
 ---

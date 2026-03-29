@@ -15,26 +15,26 @@ prompt_preview: '---
   security. Invoke for SAST scans, penetration testing, DevSecOps practices, cloud
   security reviews, dependency audits, secrets scanning, or compliance checks. Produces
   vulnerability reports, prioritized recommendations...'
-full_prompt_length: 4742
+full_prompt_length: 4771
 tools_mentioned:
-- kubernetes
 - AWS
+- kubernetes
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/security-reviewer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/security-reviewer/SKILL.md
-fetched_at: '2026-03-22T04:20:25.666085+00:00'
+fetched_at: '2026-03-29T04:38:42.835668+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T05:30:35.564470Z'
+  evaluated_at: '2026-03-29T05:49:13.807445Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5650110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747fe30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5650110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747fe30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.013078Z'
-indexed_at: '2026-03-22T06:44:16.013083Z'
+  fetched_at: '2026-03-29T07:03:20.671153Z'
+indexed_at: '2026-03-29T07:03:20.671158Z'
 ---

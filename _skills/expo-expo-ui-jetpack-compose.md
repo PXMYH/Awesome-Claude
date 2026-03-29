@@ -36,24 +36,24 @@ prompt_preview: '---
   - Expo UI''s API mirrors Jetpa...'
 full_prompt_length: 2847
 tools_mentioned:
-- react
 - go
+- react
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-ui-jetpack-compose/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-ui-jetpack-compose/SKILL.md
-fetched_at: '2026-03-22T04:20:07.919915+00:00'
+fetched_at: '2026-03-29T04:38:24.935387+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T05:24:21.546328Z'
+  evaluated_at: '2026-03-29T05:43:00.491311Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5f3a450 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974adc10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5f3a450 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974adc10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -63,6 +63,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:15.900143Z'
-indexed_at: '2026-03-22T06:44:15.900148Z'
+  fetched_at: '2026-03-29T07:03:20.542455Z'
+indexed_at: '2026-03-29T07:03:20.542461Z'
 ---

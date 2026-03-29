@@ -13,25 +13,25 @@ prompt_preview: "---\nname: ena-database\ndescription: Access European Nucleotid
   \ DNA/RNA sequences, raw reads,..."
 full_prompt_length: 7034
 tools_mentioned:
+- REST
 - python
 - rest
-- REST
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/ena-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/ena-database/SKILL.md
-fetched_at: '2026-03-22T04:18:41.442046+00:00'
+fetched_at: '2026-03-29T04:36:54.354325+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T04:30:19.021200Z'
+  evaluated_at: '2026-03-29T04:48:38.709778Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56522a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974adaf0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56522a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974adaf0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:14.916674Z'
-indexed_at: '2026-03-22T06:44:14.916680Z'
+  fetched_at: '2026-03-29T07:03:19.407936Z'
+indexed_at: '2026-03-29T07:03:19.407942Z'
 ---

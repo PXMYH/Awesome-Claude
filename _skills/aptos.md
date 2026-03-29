@@ -20,24 +20,24 @@ prompt_preview: '---
   license...'
 full_prompt_length: 9748
 tools_mentioned:
-- TypeScript
 - typescript
+- TypeScript
 category: community
 category_display: Community
 source_repo: raintree-technology/claude-starter
 source_path: skills/aptos/SKILL.md
 source_url: https://github.com/raintree-technology/claude-starter/blob/main/skills/aptos/SKILL.md
-fetched_at: '2026-03-22T04:22:01.629445+00:00'
+fetched_at: '2026-03-29T04:40:22.777851+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T06:29:40.108897Z'
+  evaluated_at: '2026-03-29T06:48:42.175556Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5621190 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d973092e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5621190 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d973092e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:17.052153Z'
-indexed_at: '2026-03-22T06:44:17.052162Z'
+  fetched_at: '2026-03-29T07:03:21.911727Z'
+indexed_at: '2026-03-29T07:03:21.911736Z'
 ---

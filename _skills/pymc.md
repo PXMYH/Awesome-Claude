@@ -12,24 +12,24 @@ prompt_preview: "---\nname: pymc\ndescription: Bayesian modeling with PyMC. Buil
   \ using PyMC's modern API (version 5.x+), includ..."
 full_prompt_length: 15756
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pymc/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pymc/SKILL.md
-fetched_at: '2026-03-22T04:18:57.072926+00:00'
+fetched_at: '2026-03-29T04:37:10.200414+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T04:41:59.060348Z'
+  evaluated_at: '2026-03-29T05:00:11.005746Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5677410 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d7080 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5677410 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d7080 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:15.129450Z'
-indexed_at: '2026-03-22T06:44:15.129460Z'
+  fetched_at: '2026-03-29T07:03:19.657012Z'
+indexed_at: '2026-03-29T07:03:19.657017Z'
 ---

@@ -11,24 +11,24 @@ prompt_preview: "---\nname: audit-discovery-symlinks\ndescription: >\n  Audit an
   \ external projects, and optionally repairs gaps. Use after adding new skills\n\
   \  or agents, after a repository rename or move, when slash commands stop working,\n\
   \  or as a periodic health check.\nlicense:..."
-full_prompt_length: 14894
+full_prompt_length: 15295
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/audit-discovery-symlinks/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/audit-discovery-symlinks/SKILL.md
-fetched_at: '2026-03-22T04:20:51.731522+00:00'
+fetched_at: '2026-03-29T04:39:10.406907+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T05:43:21.765097Z'
+  evaluated_at: '2026-03-29T06:02:02.896777Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f57a42c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747d760 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f57a42c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747d760 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.241948Z'
-indexed_at: '2026-03-22T06:44:16.241953Z'
+  fetched_at: '2026-03-29T07:03:20.937484Z'
+indexed_at: '2026-03-29T07:03:20.937489Z'
 ---

@@ -11,24 +11,24 @@ prompt_preview: "---\nname: research-grants\ndescription: Write competitive rese
   \ is the process of developing competitive..."
 full_prompt_length: 37183
 tools_mentioned:
-- python
 - go
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/research-grants/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/research-grants/SKILL.md
-fetched_at: '2026-03-22T04:18:59.026330+00:00'
+fetched_at: '2026-03-29T04:37:12.229858+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T04:43:30.117888Z'
+  evaluated_at: '2026-03-29T05:01:41.673645Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56210d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747d0a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56210d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747d0a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:15.156933Z'
-indexed_at: '2026-03-22T06:44:15.156938Z'
+  fetched_at: '2026-03-29T07:03:19.688649Z'
+indexed_at: '2026-03-29T07:03:19.688654Z'

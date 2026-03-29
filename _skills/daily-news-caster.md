@@ -19,17 +19,17 @@ category_display: Community
 source_repo: NoizAI/skills
 source_path: skills/daily-news-caster/SKILL.md
 source_url: https://github.com/NoizAI/skills/blob/main/skills/daily-news-caster/SKILL.md
-fetched_at: '2026-03-22T04:19:07.518366+00:00'
+fetched_at: '2026-03-29T04:37:20.907720+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T04:49:27.860488Z'
+  evaluated_at: '2026-03-29T05:07:38.313168Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5652510 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974acad0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5652510 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974acad0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:15.264157Z'
-indexed_at: '2026-03-22T06:44:15.264163Z'
+  fetched_at: '2026-03-29T07:03:19.813818Z'
+indexed_at: '2026-03-29T07:03:19.813823Z'
 ---

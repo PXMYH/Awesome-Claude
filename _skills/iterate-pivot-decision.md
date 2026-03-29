@@ -3,13 +3,13 @@ id: iterate-pivot-decision
 slug: iterate-pivot-decision
 name: Pivot Decision
 description: See `references/EXAMPLE.md` for a completed example.
-prompt_preview: "<!-- PM-Skills | https://github.com/product-on-purpose/pm-skills\
-  \ | Apache 2.0 -->\n---\nname: iterate-pivot-decision\ndescription: Documents a\
-  \ strategic pivot or persevere decision with the evidence, analysis, and rationale.\
-  \ Use when evaluating whether to change direction on a product, feature, or strategy\
-  \ based on market feedback.\nphase: iterate\nversion: \"2.0.0\"\nupdated: 2026-01-26\n\
+prompt_preview: "---\nname: iterate-pivot-decision\ndescription: Documents a strategic\
+  \ pivot or persevere decision with the evidence, analysis, and rationale. Use when\
+  \ evaluating whether to change direction on a product, feature, or strategy based\
+  \ on market feedback.\nphase: iterate\nversion: \"2.0.0\"\nupdated: 2026-01-26\n\
   license: Apache-2.0\nmetadata:\n  category: reflection\n  frameworks: [triple-diamond,\
-  \ lean-startup, design-thinking]..."
+  \ lean-startup, design-thinking]\n  author: product-on-purpose\n---\n<!-- PM-Skills\
+  \ | https://github.com/product-on-purp..."
 full_prompt_length: 3083
 tools_mentioned: []
 category: community
@@ -17,17 +17,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/iterate-pivot-decision/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/iterate-pivot-decision/SKILL.md
-fetched_at: '2026-03-22T04:21:59.544074+00:00'
+fetched_at: '2026-03-29T04:40:20.501130+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T06:28:42.138871Z'
+  evaluated_at: '2026-03-29T06:47:36.299513Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5623bf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ad9d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5623bf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ad9d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:17.034254Z'
-indexed_at: '2026-03-22T06:44:17.034266Z'
+  fetched_at: '2026-03-29T07:03:21.889059Z'
+indexed_at: '2026-03-29T07:03:21.889064Z'
 ---

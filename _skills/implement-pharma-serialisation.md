@@ -12,25 +12,25 @@ prompt_preview: "---\r\nname: implement-pharma-serialisation\r\ndescription: >\r
   \n  exchange, building an EPCIS event reposito..."
 full_prompt_length: 12353
 tools_mentioned:
+- fastapi
 - FastAPI
 - python
-- fastapi
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/implement-pharma-serialisation/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/implement-pharma-serialisation/SKILL.md
-fetched_at: '2026-03-22T04:21:20.403009+00:00'
+fetched_at: '2026-03-29T04:39:40.286434+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T06:02:48.385145Z'
+  evaluated_at: '2026-03-29T06:21:18.103813Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56740e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747f8c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56740e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747f8c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.578012Z'
-indexed_at: '2026-03-22T06:44:16.578017Z'
+  fetched_at: '2026-03-29T07:03:21.333533Z'
+indexed_at: '2026-03-29T07:03:21.333538Z'
 ---

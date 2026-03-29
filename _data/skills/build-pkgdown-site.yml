@@ -9,25 +9,26 @@ prompt_preview: "---\r\nname: build-pkgdown-site\r\ndescription: >\r\n  Build an
   \ site for a new or existing package,\r\n  customizing layout or navigation, fixing\
   \ 404 errors on a deployed site,\r\n  or migrating between branch-based and GitHub\
   \ Actions deployment methods.\r\nlicense: MIT\r\nallow..."
-full_prompt_length: 6720
+full_prompt_length: 7094
 tools_mentioned:
+- Docker
 - Go
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/build-pkgdown-site/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/build-pkgdown-site/SKILL.md
-fetched_at: '2026-03-22T04:20:55.164499+00:00'
+fetched_at: '2026-03-29T04:39:13.733390+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T05:45:34.212273Z'
+  evaluated_at: '2026-03-29T06:04:15.285403Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5653260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d4560 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5653260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d4560 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.280401Z'
-indexed_at: '2026-03-22T06:44:16.280406Z'
+  fetched_at: '2026-03-29T07:03:20.982507Z'
+indexed_at: '2026-03-29T07:03:20.982513Z'

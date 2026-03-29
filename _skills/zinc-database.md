@@ -12,24 +12,24 @@ prompt_preview: "---\nname: zinc-database\ndescription: Access ZINC (230M+ purch
   \ download 3D-ready structures for dockin..."
 full_prompt_length: 13876
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/zinc-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/zinc-database/SKILL.md
-fetched_at: '2026-03-22T04:19:06.174885+00:00'
+fetched_at: '2026-03-29T04:37:19.666684+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T04:49:03.015361Z'
+  evaluated_at: '2026-03-29T05:07:13.342883Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5621fd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974af680 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5621fd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974af680 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:15.256773Z'
-indexed_at: '2026-03-22T06:44:15.256779Z'
+  fetched_at: '2026-03-29T07:03:19.805468Z'
+indexed_at: '2026-03-29T07:03:19.805474Z'
 ---

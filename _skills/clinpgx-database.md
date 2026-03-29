@@ -12,25 +12,25 @@ prompt_preview: "---\nname: clinpgx-database\ndescription: Access ClinPGx pharma
   \ consolidates data from PharmGKB, C..."
 full_prompt_length: 20948
 tools_mentioned:
-- Python
-- python
 - REST
+- python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/clinpgx-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/clinpgx-database/SKILL.md
-fetched_at: '2026-03-22T04:18:38.181671+00:00'
+fetched_at: '2026-03-29T04:36:51.069158+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T04:27:49.042542Z'
+  evaluated_at: '2026-03-29T04:46:10.386832Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56229c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97c56870 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56229c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97c56870 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:14.871564Z'
-indexed_at: '2026-03-22T06:44:14.871570Z'
+  fetched_at: '2026-03-29T07:03:19.356646Z'
+indexed_at: '2026-03-29T07:03:19.356655Z'
 ---

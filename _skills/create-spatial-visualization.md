@@ -12,24 +12,24 @@ prompt_preview: "---\r\nname: create-spatial-visualization\r\ndescription: >\r\n
   \ or cycling routes, overlaying\r\n  waypoin..."
 full_prompt_length: 12327
 tools_mentioned:
-- javascript
 - JavaScript
+- javascript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-spatial-visualization/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-spatial-visualization/SKILL.md
-fetched_at: '2026-03-22T04:21:04.626934+00:00'
+fetched_at: '2026-03-29T04:39:24.096944+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T05:52:08.311070Z'
+  evaluated_at: '2026-03-29T06:10:34.564989Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b0380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9774ef30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b0380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9774ef30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.393131Z'
-indexed_at: '2026-03-22T06:44:16.393136Z'
+  fetched_at: '2026-03-29T07:03:21.112398Z'
+indexed_at: '2026-03-29T07:03:21.112404Z'
 ---

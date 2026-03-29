@@ -10,30 +10,31 @@ prompt_preview: "---\r\nname: clean-codebase\r\ndescription: >\r\n  Remove dead 
   \ dead code paths were never removed, formatting is\r\n  inconsistent, or static\
   \ analysis tools report fixable hygiene issues.\r\nlicense: MIT\r\nallowed-tools:\
   \ Read Write Edit Bash Grep Glob\r\nmetadata:..."
-full_prompt_length: 8669
+full_prompt_length: 9046
 tools_mentioned:
-- Rust
-- python
-- rust
-- JavaScript
-- TypeScript
 - Python
+- JavaScript
+- Docker
+- Rust
+- rust
+- python
+- TypeScript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/clean-codebase/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/clean-codebase/SKILL.md
-fetched_at: '2026-03-22T04:20:57.221428+00:00'
+fetched_at: '2026-03-29T04:39:15.711174+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T05:46:59.813822Z'
+  evaluated_at: '2026-03-29T06:05:37.949778Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56536e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97870fb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56536e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97870fb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.303972Z'
-indexed_at: '2026-03-22T06:44:16.303978Z'
+  fetched_at: '2026-03-29T07:03:21.010274Z'
+indexed_at: '2026-03-29T07:03:21.010280Z'
 ---

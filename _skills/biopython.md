@@ -13,24 +13,24 @@ prompt_preview: "---\nname: biopython\ndescription: Comprehensive molecular biol
   \nBiopython i..."
 full_prompt_length: 13828
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/biopython/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/biopython/SKILL.md
-fetched_at: '2026-03-22T04:18:35.975821+00:00'
+fetched_at: '2026-03-29T04:36:47.949488+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T04:26:09.860470Z'
+  evaluated_at: '2026-03-29T04:44:30.479834Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56218b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ad7c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56218b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ad7c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:14.841703Z'
-indexed_at: '2026-03-22T06:44:14.841708Z'
+  fetched_at: '2026-03-29T07:03:19.322123Z'
+indexed_at: '2026-03-29T07:03:19.322128Z'
 ---

@@ -11,26 +11,26 @@ prompt_preview: "---\nname: benchling-integration\ndescription: Benchling R&D pl
   \ (DNA, proteins), inventory,..."
 full_prompt_length: 13061
 tools_mentioned:
-- Python
-- python
-- REST
 - AWS
+- REST
+- python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/benchling-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/benchling-integration/SKILL.md
-fetched_at: '2026-03-22T04:18:35.433624+00:00'
+fetched_at: '2026-03-29T04:36:47.380095+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T04:25:45.017247Z'
+  evaluated_at: '2026-03-29T04:44:05.774273Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5b7f500 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9760f140 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5b7f500 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9760f140 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:14.834035Z'
-indexed_at: '2026-03-22T06:44:14.834041Z'
+  fetched_at: '2026-03-29T07:03:19.313497Z'
+indexed_at: '2026-03-29T07:03:19.313502Z'

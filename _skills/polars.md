@@ -13,26 +13,26 @@ prompt_preview: "---\nname: polars\ndescription: Fast in-memory DataFrame librar
   \ is a lightning-fast DataFrame library fo..."
 full_prompt_length: 9431
 tools_mentioned:
+- Rust
+- python
 - Python
 - Azure
-- python
-- Rust
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/polars/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/polars/SKILL.md
-fetched_at: '2026-03-22T04:18:54.436404+00:00'
+fetched_at: '2026-03-29T04:37:07.664405+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T04:40:09.281499Z'
+  evaluated_at: '2026-03-29T04:58:23.870137Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56747a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747d8e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56747a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747d8e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:15.097186Z'
-indexed_at: '2026-03-22T06:44:15.097191Z'
+  fetched_at: '2026-03-29T07:03:19.618316Z'
+indexed_at: '2026-03-29T07:03:19.618322Z'
 ---

@@ -19,17 +19,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/ruzzy/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/ruzzy/SKILL.md
-fetched_at: '2026-03-22T04:22:28.691961+00:00'
+fetched_at: '2026-03-29T04:40:50.551464+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T06:41:03.447529Z'
+  evaluated_at: '2026-03-29T07:00:09.233512Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5675100 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d973088c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5675100 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d973088c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:17.258788Z'
-indexed_at: '2026-03-22T06:44:17.258793Z'
+  fetched_at: '2026-03-29T07:03:22.154139Z'
+indexed_at: '2026-03-29T07:03:22.154145Z'
 ---

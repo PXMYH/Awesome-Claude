@@ -17,27 +17,27 @@ prompt_preview: '---
   my design, review my UI, audit m...'
 full_prompt_length: 86873
 tools_mentioned:
-- vue
 - react
-- Vue
 - go
+- vue
+- Vue
 - React
 category: community
 category_display: Community
 source_repo: Ashutos1997/claude-design-auditor-skill
 source_path: SKILL.md
 source_url: https://github.com/Ashutos1997/claude-design-auditor-skill/blob/main/SKILL.md
-fetched_at: '2026-03-22T04:18:29.565113+00:00'
+fetched_at: '2026-03-29T04:36:41.431317+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T04:23:32.236266Z'
+  evaluated_at: '2026-03-29T04:41:53.879454Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5622b40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747f440 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5622b40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747f440 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,5 +47,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:14.793561Z'
-indexed_at: '2026-03-22T06:44:14.793567Z'
+  fetched_at: '2026-03-29T07:03:19.265924Z'
+indexed_at: '2026-03-29T07:03:19.265929Z'

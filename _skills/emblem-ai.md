@@ -14,33 +14,33 @@ prompt_preview: '---
   user a wallet-enabled account, then embed EmblemAI chat surfaces, connect plugins,
   or add Reflexive observability. Provides React components, TypeScript SDKs, session-based
   authentication, and pointers to the React and agent-wallet s...'
-full_prompt_length: 12938
+full_prompt_length: 13935
 tools_mentioned:
-- Rust
-- react
-- JavaScript
-- TypeScript
-- typescript
-- Python
 - Go
+- Python
+- JavaScript
+- typescript
+- react
 - Node.js
+- Rust
+- TypeScript
 - React
 category: community
 category_display: Community
 source_repo: EmblemCompany/Agent-skills
 source_path: skills/emblem-ai/SKILL.md
 source_url: https://github.com/EmblemCompany/Agent-skills/blob/main/skills/emblem-ai/SKILL.md
-fetched_at: '2026-03-22T04:18:33.002425+00:00'
+fetched_at: '2026-03-29T04:36:44.814111+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T04:24:30.173469Z'
+  evaluated_at: '2026-03-29T04:42:51.590409Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5827170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97bfba70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5827170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97bfba70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:14.811171Z'
-indexed_at: '2026-03-22T06:44:14.811176Z'
+  fetched_at: '2026-03-29T07:03:19.286005Z'
+indexed_at: '2026-03-29T07:03:19.286010Z'
 ---

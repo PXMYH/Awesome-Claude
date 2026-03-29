@@ -20,17 +20,17 @@ category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/developer-listening/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/developer-listening/SKILL.md
-fetched_at: '2026-03-22T04:20:32.379889+00:00'
+fetched_at: '2026-03-29T04:38:49.131676+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T05:33:32.103933Z'
+  evaluated_at: '2026-03-29T05:52:07.444262Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5650e90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d5040 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5650e90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d5040 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.065909Z'
-indexed_at: '2026-03-22T06:44:16.065915Z'
+  fetched_at: '2026-03-29T07:03:20.731764Z'
+indexed_at: '2026-03-29T07:03:20.731769Z'
 ---

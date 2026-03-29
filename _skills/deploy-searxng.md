@@ -12,24 +12,24 @@ prompt_preview: "---\r\nname: deploy-searxng\r\ndescription: >\r\n  Deploy a sel
   \ MIT\r\nallowed-tools: Read Write..."
 full_prompt_length: 6843
 tools_mentioned:
-- docker
 - Docker
+- docker
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/deploy-searxng/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/deploy-searxng/SKILL.md
-fetched_at: '2026-03-22T04:21:06.888008+00:00'
+fetched_at: '2026-03-29T04:39:26.408327+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T05:53:31.032866Z'
+  evaluated_at: '2026-03-29T06:11:56.932277Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5623530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ad0a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5623530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ad0a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.417405Z'
-indexed_at: '2026-03-22T06:44:16.417410Z'
+  fetched_at: '2026-03-29T07:03:21.140373Z'
+indexed_at: '2026-03-29T07:03:21.140379Z'
 ---

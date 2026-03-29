@@ -1,8 +1,8 @@
 id: writing
 slug: writing
 name: Agent System Instructions
-description: '- **Use Parallel for ALL web searches** - `parallel_web.py search/extract/research`
-  replaces WebSearch; WebSearch is last-resort fallback only'
+description: '- **Activate `parallel-web` for ALL web searches** -- do not use built-in
+  WebSearch; WebSearch is last-resort fallback only'
 prompt_preview: "---\nname: writing\ndescription: \"Use this skill to create high-quality\
   \ academic papers, literature reviews, grant proposals, clinical reports, and other\
   \ research and scientific documents backed by comprehensive research and real, verifiable\
@@ -10,25 +10,26 @@ prompt_preview: "---\nname: writing\ndescription: \"Use this skill to create hig
   \ report, paper...etc.\"\nlicense: MIT license\nmetadata:\n    skill-author: K-Dense\
   \ Inc.\n---\n\n\n# Agent System Instructions\n\n## Core Mission\n\nYou are a **deep\
   \ research and scientific writi..."
-full_prompt_length: 20937
+full_prompt_length: 20147
 tools_mentioned:
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/writing/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/writing/SKILL.md
-fetched_at: '2026-03-22T04:19:05.656413+00:00'
+fetched_at: '2026-03-29T04:37:19.131902+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T04:48:38.239276Z'
+  evaluated_at: '2026-03-29T05:06:48.658260Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56518e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97a82a50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56518e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97a82a50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:15.249225Z'
-indexed_at: '2026-03-22T06:44:15.249231Z'
+  fetched_at: '2026-03-29T07:03:19.797047Z'
+indexed_at: '2026-03-29T07:03:19.797052Z'

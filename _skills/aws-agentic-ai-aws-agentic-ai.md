@@ -20,17 +20,17 @@ category_display: Infrastructure
 source_repo: zxkane/aws-skills
 source_path: plugins/aws-agentic-ai/skills/aws-agentic-ai/SKILL.md
 source_url: https://github.com/zxkane/aws-skills/blob/main/plugins/aws-agentic-ai/skills/aws-agentic-ai/SKILL.md
-fetched_at: '2026-03-22T04:22:38.055385+00:00'
+fetched_at: '2026-03-29T04:40:59.780842+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T06:43:41.539017Z'
+  evaluated_at: '2026-03-29T07:02:46.088114Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5622b10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ac710 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5622b10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ac710 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:17.305488Z'
-indexed_at: '2026-03-22T06:44:17.305493Z'
+  fetched_at: '2026-03-29T07:03:22.209086Z'
+indexed_at: '2026-03-29T07:03:22.209091Z'
 ---

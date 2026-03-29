@@ -2,13 +2,13 @@ id: develop-spike-summary
 slug: develop-spike-summary
 name: Spike Summary
 description: See `references/EXAMPLE.md` for a completed example.
-prompt_preview: "<!-- PM-Skills | https://github.com/product-on-purpose/pm-skills\
-  \ | Apache 2.0 -->\n---\nname: develop-spike-summary\ndescription: Documents the\
-  \ results of a time-boxed technical or design exploration (spike). Use after completing\
+prompt_preview: "---\nname: develop-spike-summary\ndescription: Documents the results\
+  \ of a time-boxed technical or design exploration (spike). Use after completing\
   \ a spike to capture learnings, findings, and recommendations for the team.\nphase:\
   \ develop\nversion: \"2.0.0\"\nupdated: 2026-01-26\nlicense: Apache-2.0\nmetadata:\n\
   \  category: coordination\n  frameworks: [triple-diamond, lean-startup, design-thinking]\n\
-  \  author: product-on-purpose\n-..."
+  \  author: product-on-purpose\n---\n<!-- PM-Skills | https://github.com/product-on-purpose/pm-skills\
+  \ | Apache 2.0 -..."
 full_prompt_length: 3175
 tools_mentioned: []
 category: community
@@ -16,17 +16,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/develop-spike-summary/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/develop-spike-summary/SKILL.md
-fetched_at: '2026-03-22T04:21:58.339096+00:00'
+fetched_at: '2026-03-29T04:40:19.269296+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T06:27:52.288371Z'
+  evaluated_at: '2026-03-29T06:46:46.906418Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b0500 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747e900 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b0500 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747e900 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:17.019705Z'
-indexed_at: '2026-03-22T06:44:17.019710Z'
+  fetched_at: '2026-03-29T07:03:21.872132Z'
+indexed_at: '2026-03-29T07:03:21.872138Z'

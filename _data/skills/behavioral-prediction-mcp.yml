@@ -14,30 +14,30 @@ prompt_preview: '---
   risk, token launch auditing,  or AI agent trust scoring. Triggers on questions like:
   is this wallet safe?, will this pool rug pull?, what will this address do next?,  score
   this wallet, dete...'
-full_prompt_length: 27466
+full_prompt_length: 28666
 tools_mentioned:
-- python
 - javascript
-- go
-- Python
 - Go
+- Python
 - Node.js
+- go
+- python
 category: community
 category_display: Community
 source_repo: ChainAware/behavioral-prediction-mcp
 source_path: SKILL.md
 source_url: https://github.com/ChainAware/behavioral-prediction-mcp/blob/main/SKILL.md
-fetched_at: '2026-03-22T04:18:30.848785+00:00'
+fetched_at: '2026-03-29T04:36:42.718136+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T04:23:48.725280Z'
+  evaluated_at: '2026-03-29T04:42:10.392473Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f674a330 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9799f050 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f674a330 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9799f050 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,5 +47,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:14.798767Z'
-indexed_at: '2026-03-22T06:44:14.798774Z'
+  fetched_at: '2026-03-29T07:03:19.271810Z'
+indexed_at: '2026-03-29T07:03:19.271815Z'

@@ -40,17 +40,17 @@ category_display: Community
 source_repo: polaroteam/moltdj-skill
 source_path: SKILL.md
 source_url: https://github.com/polaroteam/moltdj-skill/blob/main/SKILL.md
-fetched_at: '2026-03-22T04:21:54.914383+00:00'
+fetched_at: '2026-03-29T04:40:15.628124+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T06:26:04.694000Z'
+  evaluated_at: '2026-03-29T06:44:51.275430Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5621910 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97309370 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5621910 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97309370 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -60,6 +60,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.988176Z'
-indexed_at: '2026-03-22T06:44:16.988181Z'
+  fetched_at: '2026-03-29T07:03:21.832580Z'
+indexed_at: '2026-03-29T07:03:21.832586Z'
 ---

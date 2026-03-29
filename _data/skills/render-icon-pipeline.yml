@@ -6,31 +6,31 @@ description: '- [audit-icon-pipeline](../audit-icon-pipeline/SKILL.md) — detec
 prompt_preview: "---\nname: render-icon-pipeline\ndescription: >\n  Run the viz pipeline\
   \ to render icons from existing glyphs. Entry point for the\n  viz subproject covering\
   \ palette generation, data building, manifest creation,\n  and icon rendering for\
-  \ skills, agents, and teams.\nlicense: MIT\nallowed-tools: Read Bash Grep Glob\n\
-  metadata:\n  author: Philipp Thoss\n  version: \"1.0\"\n  domain: visualization\n\
-  \  complexity: basic\n  language: multi\n  tags: visualization, rendering, pipeline,\
-  \ icons, glyphs, build\n---\n\n# Render I..."
-full_prompt_length: 7307
+  \ skills, agents, and teams. Always use build.sh as the\n  pipeline entry point\
+  \ — never call Rscript directly.\nlicense: MIT\nallowed-tools: Read Bash Grep Glob\n\
+  metadata:\n  author: Philipp Thoss\n  version: \"1.1\"\n  domain: visualization\n\
+  \  complexity: basic\n  language: multi..."
+full_prompt_length: 8153
 tools_mentioned:
+- Docker
 - docker
 - Node.js
-- Docker
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/render-icon-pipeline/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/render-icon-pipeline/SKILL.md
-fetched_at: '2026-03-22T04:21:36.506379+00:00'
+fetched_at: '2026-03-29T04:39:57.256234+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T06:14:01.657292Z'
+  evaluated_at: '2026-03-29T06:32:34.166318Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5621fa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974accb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5621fa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974accb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.772101Z'
-indexed_at: '2026-03-22T06:44:16.772106Z'
+  fetched_at: '2026-03-29T07:03:21.569982Z'
+indexed_at: '2026-03-29T07:03:21.569990Z'

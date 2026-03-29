@@ -12,24 +12,24 @@ prompt_preview: "---\r\nname: shift-camouflage\r\ndescription: >\r\n  Implement 
   \ when reducing attac..."
 full_prompt_length: 14759
 tools_mentioned:
-- kubernetes
 - Kubernetes
+- kubernetes
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/shift-camouflage/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/shift-camouflage/SKILL.md
-fetched_at: '2026-03-22T04:21:45.816581+00:00'
+fetched_at: '2026-03-29T04:40:06.226327+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T06:20:06.747242Z'
+  evaluated_at: '2026-03-29T06:38:39.350559Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5674a10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d4350 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5674a10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d4350 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.884900Z'
-indexed_at: '2026-03-22T06:44:16.884905Z'
+  fetched_at: '2026-03-29T07:03:21.704163Z'
+indexed_at: '2026-03-29T07:03:21.704168Z'
 ---

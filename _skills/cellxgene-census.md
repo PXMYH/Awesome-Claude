@@ -18,17 +18,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/cellxgene-census/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/cellxgene-census/SKILL.md
-fetched_at: '2026-03-22T04:18:36.807531+00:00'
+fetched_at: '2026-03-29T04:36:49.274828+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T04:26:51.170923Z'
+  evaluated_at: '2026-03-29T04:45:11.673683Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5621760 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ac4d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5621760 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ac4d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:14.854272Z'
-indexed_at: '2026-03-22T06:44:14.854277Z'
+  fetched_at: '2026-03-29T07:03:19.336678Z'
+indexed_at: '2026-03-29T07:03:19.336683Z'
 ---

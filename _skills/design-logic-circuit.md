@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/design-logic-circuit/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/design-logic-circuit/SKILL.md
-fetched_at: '2026-03-22T04:21:09.216706+00:00'
+fetched_at: '2026-03-29T04:39:28.684185+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T05:55:02.694288Z'
+  evaluated_at: '2026-03-29T06:13:27.562921Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5621dc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ad4f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5621dc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ad4f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.443878Z'
-indexed_at: '2026-03-22T06:44:16.443883Z'
+  fetched_at: '2026-03-29T07:03:21.171182Z'
+indexed_at: '2026-03-29T07:03:21.171187Z'
 ---

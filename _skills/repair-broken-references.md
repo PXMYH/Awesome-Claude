@@ -10,28 +10,29 @@ prompt_preview: "---\r\nname: repair-broken-references\r\ndescription: >\r\n  Fi
   \ external URLs return 404 errors, import statements reference moved or\r\n  deleted\
   \ modules, cross-references between files are out of sync, or files\r\n  exist but\
   \ are never referenced anywhere in the project..."
-full_prompt_length: 11338
+full_prompt_length: 11715
 tools_mentioned:
+- javascript
 - Python
 - JavaScript
+- Docker
 - TypeScript
-- javascript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/repair-broken-references/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/repair-broken-references/SKILL.md
-fetched_at: '2026-03-22T04:21:37.115162+00:00'
+fetched_at: '2026-03-29T04:39:57.918917+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T06:14:26.521500Z'
+  evaluated_at: '2026-03-29T06:32:59.306327Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b1ac0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974af8f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b1ac0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974af8f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.779354Z'
-indexed_at: '2026-03-22T06:44:16.779358Z'
+  fetched_at: '2026-03-29T07:03:21.583671Z'
+indexed_at: '2026-03-29T07:03:21.583677Z'
 ---

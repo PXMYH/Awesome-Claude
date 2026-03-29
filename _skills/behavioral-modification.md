@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/behavioral-modification/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/behavioral-modification/SKILL.md
-fetched_at: '2026-03-22T04:20:52.487742+00:00'
+fetched_at: '2026-03-29T04:39:11.228769+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T05:43:54.857153Z'
+  evaluated_at: '2026-03-29T06:02:35.864625Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b2990 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d4b30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b2990 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d4b30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.251450Z'
-indexed_at: '2026-03-22T06:44:16.251455Z'
+  fetched_at: '2026-03-29T07:03:20.948641Z'
+indexed_at: '2026-03-29T07:03:20.948647Z'
 ---

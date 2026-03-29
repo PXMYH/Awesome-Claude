@@ -11,25 +11,25 @@ prompt_preview: "---\nname: detect-anomalies-aiops\ndescription: >\n  Implement 
   \ patterns make thresholds i..."
 full_prompt_length: 9059
 tools_mentioned:
-- Python
-- python
 - go
+- python
+- Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/detect-anomalies-aiops/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/detect-anomalies-aiops/SKILL.md
-fetched_at: '2026-03-22T04:21:10.184218+00:00'
+fetched_at: '2026-03-29T04:39:29.698875+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T05:55:44.108617Z'
+  evaluated_at: '2026-03-29T06:14:08.773446Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b0890 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ade80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b0890 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ade80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.455995Z'
-indexed_at: '2026-03-22T06:44:16.456000Z'
+  fetched_at: '2026-03-29T07:03:21.185317Z'
+indexed_at: '2026-03-29T07:03:21.185323Z'

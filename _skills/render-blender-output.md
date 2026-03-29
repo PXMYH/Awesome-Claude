@@ -12,24 +12,24 @@ prompt_preview: "---\r\nname: render-blender-output\r\ndescription: >\r\n  Confi
   \ output for publication or presentation.\r\nl..."
 full_prompt_length: 14940
 tools_mentioned:
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/render-blender-output/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/render-blender-output/SKILL.md
-fetched_at: '2026-03-22T04:21:36.305669+00:00'
+fetched_at: '2026-03-29T04:39:57.061746+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T06:13:53.125529Z'
+  evaluated_at: '2026-03-29T06:32:25.932734Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b0440 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9730bbf0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b0440 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9730bbf0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.769715Z'
-indexed_at: '2026-03-22T06:44:16.769721Z'
+  fetched_at: '2026-03-29T07:03:21.565341Z'
+indexed_at: '2026-03-29T07:03:21.565372Z'
 ---

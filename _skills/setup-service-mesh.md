@@ -13,24 +13,24 @@ prompt_preview: "---\nname: setup-service-mesh\ndescription: >\n  Deploy and con
   \ observabili..."
 full_prompt_length: 13848
 tools_mentioned:
-- kubernetes
 - Kubernetes
+- kubernetes
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/setup-service-mesh/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/setup-service-mesh/SKILL.md
-fetched_at: '2026-03-22T04:21:44.798634+00:00'
+fetched_at: '2026-03-29T04:40:05.265709+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T06:19:24.865468Z'
+  evaluated_at: '2026-03-29T06:37:58.162815Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5653920 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d4ce0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5653920 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d4ce0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.872759Z'
-indexed_at: '2026-03-22T06:44:16.872763Z'
+  fetched_at: '2026-03-29T07:03:21.689747Z'
+indexed_at: '2026-03-29T07:03:21.689754Z'
 ---

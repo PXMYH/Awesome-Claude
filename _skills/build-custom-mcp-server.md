@@ -13,24 +13,24 @@ prompt_preview: "---\r\nname: build-custom-mcp-server\r\ndescription: >\r\n  Bui
 full_prompt_length: 10050
 tools_mentioned:
 - javascript
-- Node.js
 - Docker
+- Node.js
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/build-custom-mcp-server/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/build-custom-mcp-server/SKILL.md
-fetched_at: '2026-03-22T04:20:54.275677+00:00'
+fetched_at: '2026-03-29T04:39:12.943471+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T05:45:01.155707Z'
+  evaluated_at: '2026-03-29T06:03:42.267183Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5f8afc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d5820 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5f8afc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d5820 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.270540Z'
-indexed_at: '2026-03-22T06:44:16.270545Z'
+  fetched_at: '2026-03-29T07:03:20.971064Z'
+indexed_at: '2026-03-29T07:03:20.971069Z'
 ---

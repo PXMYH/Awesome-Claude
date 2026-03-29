@@ -11,29 +11,29 @@ prompt_preview: "---\r\nname: security-audit-codebase\r\ndescription: >\r\n  Per
   \nallowed-tools: Read Write..."
 full_prompt_length: 8823
 tools_mentioned:
-- vue
-- docker
-- mongodb
-- mysql
 - postgresql
+- docker
 - Python
 - Node.js
+- vue
+- mysql
+- mongodb
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/security-audit-codebase/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/security-audit-codebase/SKILL.md
-fetched_at: '2026-03-22T04:21:42.353707+00:00'
+fetched_at: '2026-03-29T04:40:02.872336+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T06:17:45.369973Z'
+  evaluated_at: '2026-03-29T06:36:19.222913Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5675520 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d43b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5675520 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d43b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,5 +43,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.843275Z'
-indexed_at: '2026-03-22T06:44:16.843280Z'
+  fetched_at: '2026-03-29T07:03:21.653158Z'
+indexed_at: '2026-03-29T07:03:21.653168Z'

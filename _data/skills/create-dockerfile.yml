@@ -11,32 +11,32 @@ prompt_preview: "---\r\nname: create-dockerfile\r\ndescription: >\r\n  Create ge
   \ is present in the project.\r\nlic..."
 full_prompt_length: 6565
 tools_mentioned:
-- Rust
-- python
-- rust
-- docker
-- Docker
-- Java
-- go
-- Python
+- java
 - Go
+- Python
+- docker
 - Node.js
+- Java
+- Docker
+- go
+- Rust
+- rust
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-dockerfile/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-dockerfile/SKILL.md
-fetched_at: '2026-03-22T04:21:02.677170+00:00'
+fetched_at: '2026-03-29T04:39:21.565235+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T05:50:44.925590Z'
+  evaluated_at: '2026-03-29T06:09:12.090948Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5653f50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747e180 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5653f50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747e180 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.369026Z'
-indexed_at: '2026-03-22T06:44:16.369031Z'
+  fetched_at: '2026-03-29T07:03:21.084238Z'
+indexed_at: '2026-03-29T07:03:21.084244Z'

@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/defend-colony/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/defend-colony/SKILL.md
-fetched_at: '2026-03-22T04:21:06.065070+00:00'
+fetched_at: '2026-03-29T04:39:25.813109+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T05:53:06.227802Z'
+  evaluated_at: '2026-03-29T06:11:32.225560Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5623290 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ac410 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5623290 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ac410 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.409784Z'
-indexed_at: '2026-03-22T06:44:16.409789Z'
+  fetched_at: '2026-03-29T07:03:21.131861Z'
+indexed_at: '2026-03-29T07:03:21.131870Z'

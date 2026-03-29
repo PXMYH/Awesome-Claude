@@ -12,25 +12,25 @@ prompt_preview: "---\nname: latchbio-integration\ndescription: Latch platform fo
   \ decorators,..."
 full_prompt_length: 9812
 tools_mentioned:
-- Python
-- python
 - Docker
+- python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/latchbio-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/latchbio-integration/SKILL.md
-fetched_at: '2026-03-22T04:18:48.107979+00:00'
+fetched_at: '2026-03-29T04:37:00.845593+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T04:35:19.238908Z'
+  evaluated_at: '2026-03-29T04:53:35.329545Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56762d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d63c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56762d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d63c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:15.008769Z'
-indexed_at: '2026-03-22T06:44:15.008775Z'
+  fetched_at: '2026-03-29T07:03:19.513670Z'
+indexed_at: '2026-03-29T07:03:19.513676Z'
 ---

@@ -2,14 +2,14 @@
 id: agnix
 slug: agnix
 name: agnix
-description: '- [GitHub](https://github.com/avifenesh/agnix)'
+description: '- [GitHub](https://github.com/agent-sh/agnix)'
 prompt_preview: '---
 
   name: agnix
 
   description: "Use when user asks to ''lint agent configs'', ''validate skills'',
   ''check CLAUDE.md'', ''validate hooks'', ''lint MCP''. Validates agent configuration
-  files against 230 rules."
+  files against 385 rules."
 
   allowed-tools: Bash(agnix:*), Bash(cargo:*), Read, Glob, Grep
 
@@ -29,24 +29,24 @@ prompt_preview: '---
   Invoke when user asks to:
 
   - "Lint my agent co...'
-full_prompt_length: 2342
+full_prompt_length: 2341
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: avifenesh/agnix
 source_path: skills/agnix/SKILL.md
 source_url: https://github.com/avifenesh/agnix/blob/main/skills/agnix/SKILL.md
-fetched_at: '2026-03-22T04:19:44.298154+00:00'
+fetched_at: '2026-03-29T04:38:00.222134+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T05:10:39.657728Z'
+  evaluated_at: '2026-03-29T05:29:13.732562Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56768d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9730a900 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56768d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9730a900 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -56,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:15.650777Z'
-indexed_at: '2026-03-22T06:44:15.650783Z'
+  fetched_at: '2026-03-29T07:03:20.262763Z'
+indexed_at: '2026-03-29T07:03:20.262769Z'
 ---

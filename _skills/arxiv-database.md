@@ -13,24 +13,24 @@ prompt_preview: "---\nname: arxiv-database\ndescription: Search and retrieve pre
   \ and retrieving preprin..."
 full_prompt_length: 9774
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/arxiv-database/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/arxiv-database/SKILL.md
-fetched_at: '2026-03-22T04:18:35.081296+00:00'
+fetched_at: '2026-03-29T04:36:46.995603+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T04:25:28.509456Z'
+  evaluated_at: '2026-03-29T04:43:49.291763Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f6748830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9774f1a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f6748830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9774f1a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:14.828898Z'
-indexed_at: '2026-03-22T06:44:14.828904Z'
+  fetched_at: '2026-03-29T07:03:19.307728Z'
+indexed_at: '2026-03-29T07:03:19.307733Z'
 ---

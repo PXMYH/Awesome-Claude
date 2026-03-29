@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/validate-piles-notation/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/validate-piles-notation/SKILL.md
-fetched_at: '2026-03-22T04:21:51.683461+00:00'
+fetched_at: '2026-03-29T04:40:12.111490+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T06:24:07.700213Z'
+  evaluated_at: '2026-03-29T06:42:46.819223Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5623680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d4a10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5623680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d4a10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.954632Z'
-indexed_at: '2026-03-22T06:44:16.954637Z'
+  fetched_at: '2026-03-29T07:03:21.789801Z'
+indexed_at: '2026-03-29T07:03:21.789807Z'
 ---

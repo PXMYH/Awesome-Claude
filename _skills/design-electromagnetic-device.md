@@ -10,24 +10,24 @@ prompt_preview: "---\r\nname: design-electromagnetic-device\r\ndescription: >\r\
   \ force, selecting motor topology and computing torque and\r\n  efficiency, designing\
   \ a transformer for a given voltage ratio and power\r\n  rating, or analyzing losses\
   \ from copper resistance, core hysteres..."
-full_prompt_length: 19341
+full_prompt_length: 19502
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/design-electromagnetic-device/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/design-electromagnetic-device/SKILL.md
-fetched_at: '2026-03-22T04:21:09.010299+00:00'
+fetched_at: '2026-03-29T04:39:28.494488+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T05:54:54.462729Z'
+  evaluated_at: '2026-03-29T06:13:19.328549Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56222a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974af9b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56222a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974af9b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.441511Z'
-indexed_at: '2026-03-22T06:44:16.441516Z'
+  fetched_at: '2026-03-29T07:03:21.168396Z'
+indexed_at: '2026-03-29T07:03:21.168402Z'
 ---

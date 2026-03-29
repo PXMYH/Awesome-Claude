@@ -3,13 +3,13 @@ id: deliver-release-notes
 slug: deliver-release-notes
 name: Release Notes
 description: See `references/EXAMPLE.md` for a completed example.
-prompt_preview: "<!-- PM-Skills | https://github.com/product-on-purpose/pm-skills\
-  \ | Apache 2.0 -->\n---\nname: deliver-release-notes\ndescription: Creates user-facing\
+prompt_preview: "---\nname: deliver-release-notes\ndescription: Creates user-facing\
   \ release notes that communicate new features, improvements, and fixes in clear,\
   \ benefit-focused language. Use when shipping updates to communicate changes to\
   \ users, customers, or stakeholders.\nphase: deliver\nversion: \"2.0.0\"\nupdated:\
   \ 2026-01-26\nlicense: Apache-2.0\nmetadata:\n  category: coordination\n  frameworks:\
-  \ [triple-diamond, lean-startup, design-th..."
+  \ [triple-diamond, lean-startup, design-thinking]\n  author: product-on-purpose\n\
+  ---\n<!-- PM-Skills | https://github.com/produ..."
 full_prompt_length: 3059
 tools_mentioned: []
 category: community
@@ -17,17 +17,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/deliver-release-notes/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/deliver-release-notes/SKILL.md
-fetched_at: '2026-03-22T04:21:57.342990+00:00'
+fetched_at: '2026-03-29T04:40:18.078373+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T06:27:10.958180Z'
+  evaluated_at: '2026-03-29T06:46:05.425881Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b1e50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974adfd0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f54b1e50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974adfd0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:17.007545Z'
-indexed_at: '2026-03-22T06:44:17.007551Z'
+  fetched_at: '2026-03-29T07:03:21.857939Z'
+indexed_at: '2026-03-29T07:03:21.857944Z'
 ---

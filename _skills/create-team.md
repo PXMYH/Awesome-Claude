@@ -10,24 +10,24 @@ prompt_preview: "---\r\nname: create-team\r\ndescription: >\r\n  Create a new te
   \ integration,\r\n  and README automation. Use when defining a multi-agent workflow,\r\
   \n  composing agents for a complex review process, or creating a\r\n  coordinated\
   \ group for recurring collaborative..."
-full_prompt_length: 14667
+full_prompt_length: 15173
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-team/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-team/SKILL.md
-fetched_at: '2026-03-22T04:21:04.844498+00:00'
+fetched_at: '2026-03-29T04:39:24.433801+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T05:52:16.567261Z'
+  evaluated_at: '2026-03-29T06:10:42.799560Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5622b70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ac560 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f5622b70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ac560 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:16.395591Z'
-indexed_at: '2026-03-22T06:44:16.395596Z'
+  fetched_at: '2026-03-29T07:03:21.115231Z'
+indexed_at: '2026-03-29T07:03:21.115236Z'
 ---

@@ -24,24 +24,24 @@ prompt_preview: '---
   Parses and extracts structured data from Charles Proxy session...'
 full_prompt_length: 5987
 tools_mentioned:
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: wannabehero/charles-proxy-extract-skill
 source_path: SKILL.md
 source_url: https://github.com/wannabehero/charles-proxy-extract-skill/blob/main/SKILL.md
-fetched_at: '2026-03-22T04:22:31.989979+00:00'
+fetched_at: '2026-03-29T04:40:53.828202+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T06:42:10.344878Z'
+  evaluated_at: '2026-03-29T07:01:15.172093Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56218b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974afc50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f56218b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974afc50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:17.279131Z'
-indexed_at: '2026-03-22T06:44:17.279137Z'
+  fetched_at: '2026-03-29T07:03:22.177872Z'
+indexed_at: '2026-03-29T07:03:22.177878Z'
 ---

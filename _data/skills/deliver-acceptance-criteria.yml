@@ -1,0 +1,41 @@
+id: deliver-acceptance-criteria
+slug: deliver-acceptance-criteria
+name: Acceptance Criteria
+description: See `references/EXAMPLE.md` for a completed example based on a realistic
+  e-commerce checkout flow.
+prompt_preview: "---\nname: deliver-acceptance-criteria\ndescription: Generates structured\
+  \ Given/When/Then acceptance criteria for a user story or feature slice. Use when\
+  \ translating product requirements into testable scenarios that cover the happy\
+  \ path, edge cases, error states, and non-functional expectations for engineering\
+  \ handoff and QA.\nphase: deliver\nversion: \"1.0.0\"\nupdated: 2026-03-22\nlicense:\
+  \ Apache-2.0\nmetadata:\n  category: specification\n  frameworks: [triple-diamond,\
+  \ lean-startup, design-thinking]\n  au..."
+full_prompt_length: 3380
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: product-on-purpose/pm-skills
+source_path: skills/deliver-acceptance-criteria/SKILL.md
+source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/deliver-acceptance-criteria/SKILL.md
+fetched_at: '2026-03-29T04:40:17.273431+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-03-29T06:45:32.446679Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97309400 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97309400 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-03-29T07:03:21.846635Z'
+indexed_at: '2026-03-29T07:03:21.846640Z'

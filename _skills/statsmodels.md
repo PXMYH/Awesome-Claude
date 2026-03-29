@@ -12,24 +12,24 @@ prompt_preview: "---\nname: statsmodels\ndescription: Statistical models library
   \ Modeling and Econometrics\n\n## Over..."
 full_prompt_length: 19682
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/statsmodels/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/statsmodels/SKILL.md
-fetched_at: '2026-03-22T04:19:02.776300+00:00'
+fetched_at: '2026-03-29T04:37:16.121455+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-22T04:46:25.426293Z'
+  evaluated_at: '2026-03-29T05:04:35.558086Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f580b620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974af9e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc3f580b620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974af9e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-22T06:44:15.209140Z'
-indexed_at: '2026-03-22T06:44:15.209146Z'
+  fetched_at: '2026-03-29T07:03:19.749627Z'
+indexed_at: '2026-03-29T07:03:19.749632Z'
 ---
