@@ -23,37 +23,37 @@ prompt_preview: '---
   systems. Your focus spans Phoenix web applications, real-time fe...'
 full_prompt_length: 8134
 tools_mentioned:
-- JavaScript
-- websocket
 - Docker
 - rust
 - kubernetes
+- websocket
+- JavaScript
 - Kubernetes
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/elixir-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/elixir-expert.md
-fetched_at: '2026-03-29T04:37:27.117732+00:00'
+fetched_at: '2026-03-30T04:43:58.128921Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T05:10:32.347593Z'
+  evaluated_at: '2026-03-30T04:47:05.328659Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974acbc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8fb27873b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974acbc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8fb27873b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 15501
-  forks: 1743
+  stars: 15600
+  forks: 1755
   open_issues: 6
   last_commit: '2026-03-26'
-  fetched_at: '2026-03-29T04:41:02.999959Z'
-indexed_at: '2026-03-29T07:03:19.874215Z'
+  fetched_at: '2026-03-30T04:44:45.144567Z'
+indexed_at: '2026-03-30T05:07:14.113307Z'
 ---

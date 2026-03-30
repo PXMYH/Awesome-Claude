@@ -22,35 +22,35 @@ prompt_preview: '---
   You are a senior Site Reliability Engineer with expertise in building and maintainin...'
 full_prompt_length: 6943
 tools_mentioned:
-- Kubernetes
-- Go
 - Python
+- Kubernetes
 - kubernetes
+- Go
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/sre-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/sre-engineer.md
-fetched_at: '2026-03-29T04:37:34.295422+00:00'
+fetched_at: '2026-03-30T04:44:07.360036Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T05:15:21.540602Z'
+  evaluated_at: '2026-03-30T04:51:49.034528Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d5c40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8fb2199250 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d5c40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8fb2199250 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 15501
-  forks: 1743
+  stars: 15600
+  forks: 1755
   open_issues: 6
   last_commit: '2026-03-26'
-  fetched_at: '2026-03-29T04:41:02.999959Z'
-indexed_at: '2026-03-29T07:03:19.976671Z'
+  fetched_at: '2026-03-30T04:44:45.144567Z'
+indexed_at: '2026-03-30T05:07:14.230336Z'
 ---
