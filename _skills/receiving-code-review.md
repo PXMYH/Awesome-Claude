@@ -32,26 +32,26 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/receiving-code-review/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/receiving-code-review/SKILL.md
-fetched_at: '2026-04-03T04:29:29.301106Z'
+fetched_at: '2026-04-04T04:17:20.098913Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-03T04:58:01.484609Z'
+  evaluated_at: '2026-04-04T04:39:21.588951Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5ae72212e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe97a31e600 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5ae72212e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe97a31e600 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 132552
-  forks: 11013
-  open_issues: 211
+  stars: 134184
+  forks: 11179
+  open_issues: 214
   last_commit: '2026-04-02'
-  fetched_at: '2026-04-03T04:29:34.017317Z'
-indexed_at: '2026-04-03T05:03:16.590540Z'
+  fetched_at: '2026-04-04T04:17:23.661466Z'
+indexed_at: '2026-04-04T04:40:36.400625Z'
 ---
