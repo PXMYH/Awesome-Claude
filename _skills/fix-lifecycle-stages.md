@@ -1,0 +1,46 @@
+---
+id: fix-lifecycle-stages
+slug: fix-lifecycle-stages
+name: Fix Lifecycle Stages
+description: '- **Forward-only progression is the biggest gotcha.** Direct API updates
+  to an "earlier" stage are silently rejected. You MUST clear first, then set. This
+  applies to both API and workflow actions.'
+prompt_preview: "---\nname: fix-lifecycle-stages\ndescription: \"Ensure all contacts\
+  \ and companies have appropriate lifecycle stages. Backfills missing stages via\
+  \ API, fixes records stuck at disallowed stages, and creates prevention workflows\
+  \ to stop future gaps.\"\nlicense: MIT\nmetadata:\n  author: tomgranot\n  version:\
+  \ \"1.0\"\n  category: data-enrichment\n---\n\n# Fix Lifecycle Stages\n\nEnsure\
+  \ every contact and company has an appropriate lifecycle stage. This includes backfilling\
+  \ missing stages, correcting disallowed stage..."
+full_prompt_length: 11583
+tools_mentioned:
+- Go
+- python
+category: community
+category_display: Community
+source_repo: TomGranot/hubspot-admin-skills
+source_path: skills/fix-lifecycle-stages/SKILL.md
+source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/fix-lifecycle-stages/SKILL.md
+fetched_at: '2026-04-05T04:36:14.791952+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-04-05T05:16:31.003320Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8705340 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8705340 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-04-05T08:29:57.820422Z'
+indexed_at: '2026-04-05T08:29:57.820428Z'
+---

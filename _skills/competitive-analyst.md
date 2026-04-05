@@ -23,31 +23,31 @@ prompt_preview: '---
   positioning, and opportunity identificati...'
 full_prompt_length: 6914
 tools_mentioned: []
-category: 10-research-analysis
-category_display: 10 Research Analysis
+category: research-analysis
+category_display: Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/competitive-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/competitive-analyst.md
-fetched_at: '2026-04-04T04:17:12.423114Z'
+fetched_at: '2026-04-05T04:36:32.059825+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-04T04:35:25.925407Z'
+  evaluated_at: '2026-04-05T05:45:18.368746Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe979ccfd70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8562930 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe979ccfd70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8562930 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 16169
-  forks: 1827
-  open_issues: 9
+  stars: 16249
+  forks: 1836
+  open_issues: 0
   last_commit: '2026-04-01'
-  fetched_at: '2026-04-04T04:17:22.911610Z'
-indexed_at: '2026-04-04T04:40:36.317536Z'
+  fetched_at: '2026-04-05T04:38:48.176271Z'
+indexed_at: '2026-04-05T08:29:58.243374Z'
 ---

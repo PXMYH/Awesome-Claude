@@ -16,17 +16,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/check-hiking-gear/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/check-hiking-gear/SKILL.md
-fetched_at: '2026-03-29T04:39:14.947233+00:00'
+fetched_at: '2026-04-05T04:37:39.313295+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T06:05:04.997197Z'
+  evaluated_at: '2026-04-05T06:42:04.017871Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747d850 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86db4d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747d850 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86db4d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:20.999111Z'
-indexed_at: '2026-03-29T07:03:20.999116Z'
+  fetched_at: '2026-04-05T08:29:59.242606Z'
+indexed_at: '2026-04-05T08:29:59.242611Z'

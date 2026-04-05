@@ -18,17 +18,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/second-opinion/skills/second-opinion/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/second-opinion/skills/second-opinion/SKILL.md
-fetched_at: '2026-03-29T04:40:44.343672+00:00'
+fetched_at: '2026-04-05T04:38:33.670934+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T06:57:07.779829Z'
+  evaluated_at: '2026-04-05T08:16:05.623272Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9730aae0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86da6c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9730aae0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86da6c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:22.088305Z'
-indexed_at: '2026-03-29T07:03:22.088310Z'
+  fetched_at: '2026-04-05T08:30:00.329859Z'
+indexed_at: '2026-04-05T08:30:00.329869Z'
 ---

@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/write-standard-operating-procedure/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/write-standard-operating-procedure/SKILL.md
-fetched_at: '2026-03-29T04:40:14.303835+00:00'
+fetched_at: '2026-04-05T04:38:15.260149+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T06:44:17.721256Z'
+  evaluated_at: '2026-04-05T07:53:59.611962Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97308a70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86136e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97308a70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86136e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:21.821251Z'
-indexed_at: '2026-03-29T07:03:21.821257Z'
+  fetched_at: '2026-04-05T08:30:00.054416Z'
+indexed_at: '2026-04-05T08:30:00.054421Z'
 ---

@@ -19,17 +19,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/timesfm-forecasting/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/timesfm-forecasting/SKILL.md
-fetched_at: '2026-03-29T04:37:16.903389+00:00'
+fetched_at: '2026-04-05T04:36:07.548932+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T05:05:09.570121Z'
+  evaluated_at: '2026-04-05T05:09:14.523741Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ae5a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8704fe0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ae5a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8704fe0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:19.761448Z'
-indexed_at: '2026-03-29T07:03:19.761453Z'
+  fetched_at: '2026-04-05T08:29:57.709673Z'
+indexed_at: '2026-04-05T08:29:57.709683Z'
 ---

@@ -12,28 +12,28 @@ prompt_preview: "---\nname: github-presence\ndescription: When the user wants to
   \ READMEs, discoverability through topics an..."
 full_prompt_length: 12372
 tools_mentioned:
-- javascript
-- react
 - go
-- rust
+- react
 - python
+- javascript
 - django
+- rust
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/github-presence/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/github-presence/SKILL.md
-fetched_at: '2026-03-29T04:38:51.218850+00:00'
+fetched_at: '2026-04-05T04:37:22.946317+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T05:53:21.566885Z'
+  evaluated_at: '2026-04-05T06:21:08.258585Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9774c3b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8705940 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9774c3b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8705940 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:20.758276Z'
-indexed_at: '2026-03-29T07:03:20.758282Z'
+  fetched_at: '2026-04-05T08:29:58.993283Z'
+indexed_at: '2026-04-05T08:29:58.993289Z'
 ---

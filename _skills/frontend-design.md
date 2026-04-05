@@ -21,33 +21,33 @@ prompt_preview: '---
   This skill guides...'
 full_prompt_length: 4440
 tools_mentioned:
-- Vue
 - React
+- Vue
 category: official
-category_display: Official Anthropic Skills
+category_display: Official
 source_repo: anthropics/skills
 source_path: skills/frontend-design/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md
-fetched_at: '2026-04-04T04:17:15.784219Z'
+fetched_at: '2026-04-05T04:36:36.458875+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-04T04:37:20.093982Z'
+  evaluated_at: '2026-04-05T05:47:36.235993Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe97a3eb650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86da840 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe97a3eb650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86da840 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 110122
-  forks: 12404
-  open_issues: 645
+  stars: 110604
+  forks: 12483
+  open_issues: 647
   last_commit: '2026-03-25'
-  fetched_at: '2026-04-04T04:17:23.323120Z'
-indexed_at: '2026-04-04T04:40:36.357845Z'
+  fetched_at: '2026-04-05T04:38:48.499317Z'
+indexed_at: '2026-04-05T08:29:58.291275Z'
 ---

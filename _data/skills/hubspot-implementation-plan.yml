@@ -1,0 +1,40 @@
+id: hubspot-implementation-plan
+slug: hubspot-implementation-plan
+name: HubSpot Implementation Plan Generator
+description: '- Print the file path of the saved plan'
+prompt_preview: "---\nname: hubspot-implementation-plan\ndescription: \"Generate a\
+  \ phased implementation plan from a HubSpot audit report. Creates prioritized, sequenced\
+  \ cleanup processes with effort estimates, dependencies, and automation feasibility.\
+  \ Use after running /hubspot-audit.\"\nlicense: MIT\nmetadata:\n  author: tomgranot\n\
+  \  version: \"1.0\"\n  category: audit-planning\n---\n\n# HubSpot Implementation\
+  \ Plan Generator\n\nGenerate a phased, prioritized cleanup and optimization plan\
+  \ from a HubSpot audit report. This skil..."
+full_prompt_length: 17500
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: TomGranot/hubspot-admin-skills
+source_path: skills/hubspot-implementation-plan/SKILL.md
+source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/hubspot-implementation-plan/SKILL.md
+fetched_at: '2026-04-05T04:36:15.026665+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-04-05T05:16:47.217779Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8704470 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8704470 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-04-05T08:29:57.826064Z'
+indexed_at: '2026-04-05T08:29:57.826070Z'

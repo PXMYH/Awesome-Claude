@@ -13,36 +13,36 @@ prompt_preview: "---\nname: writing-skills\ndescription: Use when creating new s
   \ behavior), write the skill (documentat..."
 full_prompt_length: 22538
 tools_mentioned:
-- Python
-- JavaScript
-- go
 - TypeScript
 - React
+- go
+- JavaScript
+- Python
 category: community
-category_display: Community Skills
+category_display: Community
 source_repo: obra/superpowers
 source_path: skills/writing-skills/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/writing-skills/SKILL.md
-fetched_at: '2026-04-04T04:17:22.291447Z'
+fetched_at: '2026-04-05T04:37:28.273191+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-04T04:40:35.793760Z'
+  evaluated_at: '2026-04-05T06:25:55.845109Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe979e08170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8705c70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe979e08170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8705c70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 134184
-  forks: 11179
-  open_issues: 214
+  stars: 135312
+  forks: 11330
+  open_issues: 221
   last_commit: '2026-04-02'
-  fetched_at: '2026-04-04T04:17:23.661466Z'
-indexed_at: '2026-04-04T04:40:36.426505Z'
+  fetched_at: '2026-04-05T04:38:48.813395Z'
+indexed_at: '2026-04-05T08:29:59.073631Z'
 ---

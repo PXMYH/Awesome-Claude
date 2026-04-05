@@ -1,7 +1,7 @@
 id: bgpt-paper-search
 slug: bgpt-paper-search
 name: BGPT Paper Search
-description: 'Pairs well with:'
+description: '- **Free tier**: 50 searches per network, no API key required'
 prompt_preview: "---\nname: bgpt-paper-search\ndescription: Search scientific papers\
   \ and retrieve structured experimental data extracted from full-text studies via\
   \ the BGPT MCP server. Returns 25+ fields per paper including methods, results,\
@@ -9,24 +9,24 @@ prompt_preview: "---\nname: bgpt-paper-search\ndescription: Search scientific pa
   \ synthesis, and finding experimental details not available in abstracts alone.\n\
   allowed-tools: Bash\nlicense: MIT\nmetadata:\n    skill-author: BGPT\n    website:\
   \ https://bgpt.pro/mcp\n    github: htt..."
-full_prompt_length: 2860
+full_prompt_length: 2475
 tools_mentioned: []
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/bgpt-paper-search/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/bgpt-paper-search/SKILL.md
-fetched_at: '2026-03-29T04:36:47.554204+00:00'
+fetched_at: '2026-04-05T04:35:54.753233+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T04:44:14.003557Z'
+  evaluated_at: '2026-04-05T04:41:31.558631Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97d55460 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86db740 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97d55460 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86db740 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:19.316420Z'
-indexed_at: '2026-03-29T07:03:19.316426Z'
+  fetched_at: '2026-04-05T08:29:57.375103Z'
+indexed_at: '2026-04-05T08:29:57.375108Z'

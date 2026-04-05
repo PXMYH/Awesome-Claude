@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/implement-electronic-signatures/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/implement-electronic-signatures/SKILL.md
-fetched_at: '2026-03-29T04:39:39.863677+00:00'
+fetched_at: '2026-04-05T04:37:54.459534+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T06:21:01.636567Z'
+  evaluated_at: '2026-04-05T07:08:54.472886Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747f620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8706240 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747f620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8706240 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:21.327732Z'
-indexed_at: '2026-03-29T07:03:21.327737Z'
+  fetched_at: '2026-04-05T08:29:59.573914Z'
+indexed_at: '2026-04-05T08:29:59.573919Z'
 ---

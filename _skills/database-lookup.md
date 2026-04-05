@@ -1,0 +1,49 @@
+---
+id: database-lookup
+slug: database-lookup
+name: Database Lookup
+description: '### Social Sciences & Demographics'
+prompt_preview: '---
+
+  name: database-lookup
+
+  description: Search 78 public scientific, biomedical, materials science, and economic
+  databases via their REST APIs and return structured JSON results. Covers physics/astronomy
+  (NASA, NIST, SDSS, SIMBAD, Exoplanet Archive), earth/environment (USGS, NOAA, EPA,
+  OpenWeatherMap), chemistry/drugs (PubChem, ChEMBL, DrugBank, FDA, KEGG, DailyMed,
+  ZINC, BindingDB), materials science (Materials Project, COD), biology/genomics (Reactome,
+  BRENDA, UniProt, STRING, Ensembl, NCBI Gen...'
+full_prompt_length: 29136
+tools_mentioned:
+- GraphQL
+- GO
+- graphql
+- REST
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/database-lookup/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/database-lookup/SKILL.md
+fetched_at: '2026-04-05T04:35:55.918425+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-04-05T04:45:00.835207Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86d9250 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86d9250 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-04-05T08:29:57.406989Z'
+indexed_at: '2026-04-05T08:29:57.406995Z'
+---

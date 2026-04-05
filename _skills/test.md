@@ -1,0 +1,43 @@
+---
+id: test
+slug: test
+name: Plugin Test Suite
+description: '- Use Grep with `output_mode: content` and `-n` for line numbers'
+prompt_preview: "---\nname: test\ndescription: Runs automated tests to validate plugin\
+  \ integrity across 14 categories. Use before creating PRs, after making changes\
+  \ to skills or templates, or to verify plugin health.\nargument-hint: [all | config\
+  \ | skills | templates | workflow | suno | research | mastering | sheet-music |\
+  \ release | consistency | terminology | behavior | quality | quick]\nmodel: claude-haiku-4-5-20251001\n\
+  context: fork\nallowed-tools:\n  - Read\n  - Grep\n  - Glob\n  - Bash\n---\n\n##\
+  \ Your Task\n\n**Input**: $..."
+full_prompt_length: 5664
+tools_mentioned:
+- Python
+category: community
+category_display: Community
+source_repo: bitwize-music-studio/claude-ai-music-skills
+source_path: skills/test/SKILL.md
+source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/test/SKILL.md
+fetched_at: '2026-04-05T04:36:45.215933+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-04-05T05:55:20.161557Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac88aabd0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac88aabd0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-04-05T08:29:58.449875Z'
+indexed_at: '2026-04-05T08:29:58.449881Z'
+---

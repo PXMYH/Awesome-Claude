@@ -1,0 +1,43 @@
+id: cleanup-forms
+slug: cleanup-forms
+name: Cleanup Forms
+description: '- Establish a naming convention: `[TEAM] - Purpose - Version` (e.g.,
+  `[Marketing] - Webinar Registration - v2`).'
+prompt_preview: "---\nname: cleanup-forms\ndescription: \"Audit and remove unused,\
+  \ test, or deprecated forms from HubSpot. Identifies forms with zero submissions,\
+  \ forms not embedded on any page, and test forms left over from development.\"\n\
+  license: MIT\nmetadata:\n  author: tomgranot\n  version: \"1.0\"\n  category: ongoing-maintenance\n\
+  ---\n\n# Cleanup Forms\n\nAudit HubSpot forms to remove unused and test forms. Stale\
+  \ forms clutter the forms dashboard and can cause confusion when building workflows\
+  \ or reports.\n\n## Prerequisi..."
+full_prompt_length: 2471
+tools_mentioned:
+- python
+- Python
+category: community
+category_display: Community
+source_repo: TomGranot/hubspot-admin-skills
+source_path: skills/cleanup-forms/SKILL.md
+source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/cleanup-forms/SKILL.md
+fetched_at: '2026-04-05T04:36:13.472931+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-04-05T05:14:01.595994Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8706b10 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8706b10 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-04-05T08:29:57.789466Z'
+indexed_at: '2026-04-05T08:29:57.789472Z'

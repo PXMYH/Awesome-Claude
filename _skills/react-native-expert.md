@@ -16,25 +16,25 @@ prompt_preview: '---
   scroll performance, handling SafeArea or keyboard in...'
 full_prompt_length: 6375
 tools_mentioned:
-- react
 - TypeScript
 - React
+- react
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/react-native-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/react-native-expert/SKILL.md
-fetched_at: '2026-03-29T04:38:42.107081+00:00'
+fetched_at: '2026-04-05T04:37:17.277951+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T05:48:49.129503Z'
+  evaluated_at: '2026-04-05T06:16:39.835979Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d4ce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8562450 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d4ce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8562450 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:20.662589Z'
-indexed_at: '2026-03-29T07:03:20.662595Z'
+  fetched_at: '2026-04-05T08:29:58.892417Z'
+indexed_at: '2026-04-05T08:29:58.892422Z'
 ---

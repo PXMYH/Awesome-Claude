@@ -1,0 +1,45 @@
+---
+id: build-lead-scoring
+slug: build-lead-scoring
+name: Build Lead Scoring Model
+description: '- **The old "HubSpot Score" property is frozen.** It will not update.
+  Do not reference it in workflows, lists, or reports. Use the new Lead Scoring tool
+  scores instead.'
+prompt_preview: "---\nname: build-lead-scoring\ndescription: \"Create a comprehensive\
+  \ lead scoring model with separate Fit and Engagement scores using HubSpot's new\
+  \ Lead Scoring tool. Replaces the deprecated HubSpot Score property.\"\nlicense:\
+  \ MIT\nmetadata:\n  author: tomgranot\n  version: \"1.0\"\n  category: segmentation-scoring\n\
+  ---\n\n# Build Lead Scoring Model\n\nCreate a two-score lead scoring model using\
+  \ HubSpot's new Lead Scoring tool: a Fit score (ICP company fit + persona match)\
+  \ and an Engagement score (behavioral si..."
+full_prompt_length: 10625
+tools_mentioned:
+- Go
+category: community
+category_display: Community
+source_repo: TomGranot/hubspot-admin-skills
+source_path: skills/build-lead-scoring/SKILL.md
+source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/build-lead-scoring/SKILL.md
+fetched_at: '2026-04-05T04:36:12.986577+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-04-05T05:12:28.856613Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac87077d0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac87077d0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-04-05T08:29:57.778062Z'
+indexed_at: '2026-04-05T08:29:57.778067Z'
+---

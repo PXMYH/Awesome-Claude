@@ -1,0 +1,43 @@
+---
+id: jahro-logging
+slug: jahro-logging
+name: Unity Logging Best Practices
+description: '- To create runtime verbosity toggle commands → use the `jahro-commands`
+  skill'
+prompt_preview: "---\nname: jahro-logging\ndescription: >\n  Reviews and improves\
+  \ Debug.Log usage in Unity C# projects following\n  structured logging principles:\
+  \ context tags, severity contracts,\n  boundary-based placement, and criticality\
+  \ tiers. Detects common\n  antipatterns (naked Debug.Log, logging in Update, stringly-typed\
+  \ errors),\n  adds missing logs at system/state/error/external boundaries, and scaffolds\n\
+  \  project-wide logging infrastructure (LogTag constants, formatting helpers,\n\
+  \  conventions). Use when the..."
+full_prompt_length: 19308
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: jahro-console/unity-agent-skills
+source_path: skills/jahro-logging/SKILL.md
+source_url: https://github.com/jahro-console/unity-agent-skills/blob/main/skills/jahro-logging/SKILL.md
+fetched_at: '2026-04-05T04:37:10.918590+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-04-05T06:13:33.521401Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8e1e600 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8e1e600 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-04-05T08:29:58.827123Z'
+indexed_at: '2026-04-05T08:29:58.827129Z'
+---

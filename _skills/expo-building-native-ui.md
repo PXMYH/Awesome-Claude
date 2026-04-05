@@ -12,26 +12,26 @@ prompt_preview: "---\nname: building-native-ui\ndescription: Complete guide for 
   \ SegmentedControl, DateTimePicker, Picker..."
 full_prompt_length: 10434
 tools_mentioned:
-- SQLite
+- React
 - react
 - Go
-- React
+- SQLite
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/building-native-ui/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/building-native-ui/SKILL.md
-fetched_at: '2026-03-29T04:38:23.727092+00:00'
+fetched_at: '2026-04-05T04:37:00.938782+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T05:42:11.075186Z'
+  evaluated_at: '2026-04-05T06:08:48.554199Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97d55460 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86db050 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97d55460 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86db050 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:20.525032Z'
-indexed_at: '2026-03-29T07:03:20.525038Z'
+  fetched_at: '2026-04-05T08:29:58.726798Z'
+indexed_at: '2026-04-05T08:29:58.726803Z'
 ---

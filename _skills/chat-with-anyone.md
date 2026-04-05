@@ -17,17 +17,17 @@ category_display: Community
 source_repo: NoizAI/skills
 source_path: skills/chat-with-anyone/SKILL.md
 source_url: https://github.com/NoizAI/skills/blob/main/skills/chat-with-anyone/SKILL.md
-fetched_at: '2026-03-29T04:37:20.729485+00:00'
+fetched_at: '2026-04-05T04:36:09.505779+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T05:07:30.083177Z'
+  evaluated_at: '2026-04-05T05:10:59.860770Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974adcd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8706210 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974adcd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8706210 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:19.811054Z'
-indexed_at: '2026-03-29T07:03:19.811059Z'
+  fetched_at: '2026-04-05T08:29:57.746837Z'
+indexed_at: '2026-04-05T08:29:57.746842Z'
 ---

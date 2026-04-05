@@ -1,33 +1,38 @@
 id: torch-geometric
 slug: torch-geometric
 name: PyTorch Geometric (PyG)
-description: '- **Documentation**: https://pytorch-geometric.readthedocs.io/'
-prompt_preview: "---\nname: torch-geometric\ndescription: Graph Neural Networks (PyG).\
-  \ Node/graph classification, link prediction, GCN, GAT, GraphSAGE, heterogeneous\
-  \ graphs, molecular property prediction, for geometric deep learning.\nlicense:\
-  \ MIT license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# PyTorch Geometric\
-  \ (PyG)\n\n## Overview\n\nPyTorch Geometric is a library built on PyTorch for developing\
-  \ and training Graph Neural Networks (GNNs). Apply this skill for deep learning\
-  \ on graphs and irregular structures, i..."
-full_prompt_length: 20368
+description: '1. **edge_index shape**: Must be `[2, num_edges]`, not `[num_edges,
+  2]`. Transpose if needed.'
+prompt_preview: '---
+
+  name: torch-geometric
+
+  description: "Guide for building Graph Neural Networks with PyTorch Geometric (PyG).
+  Use this skill whenever the user asks about graph neural networks, GNNs, node classification,
+  link prediction, graph classification, message passing networks, heterogeneous graphs,
+  neighbor sampling, or any task involving torch_geometric / PyG. Also trigger when
+  you see imports from torch_geometric, or the user mentions graph convolutions (GCN,
+  GAT, GraphSAGE, GIN), graph data structure...'
+full_prompt_length: 17029
 tools_mentioned:
+- rest
 - python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/torch-geometric/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/torch-geometric/SKILL.md
-fetched_at: '2026-03-29T04:37:17.084287+00:00'
+fetched_at: '2026-04-05T04:36:07.646404+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T05:05:17.818981Z'
+  evaluated_at: '2026-04-05T05:09:22.613774Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ac8f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8546a50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ac8f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8546a50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +42,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:19.764307Z'
-indexed_at: '2026-03-29T07:03:19.764312Z'
+  fetched_at: '2026-04-05T08:29:57.712524Z'
+indexed_at: '2026-04-05T08:29:57.712529Z'

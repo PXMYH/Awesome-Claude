@@ -45,24 +45,24 @@ prompt_preview: '---
   lunchy-go stop re...'
 full_prompt_length: 1214
 tools_mentioned:
-- go
 - redis
+- go
 category: community
 category_display: Community
 source_repo: daxaur/openpaw
 source_path: skills/c-cron/SKILL.md
 source_url: https://github.com/daxaur/openpaw/blob/main/skills/c-cron/SKILL.md
-fetched_at: '2026-03-29T04:38:04.906942+00:00'
+fetched_at: '2026-04-05T04:36:49.156892+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T05:31:01.935987Z'
+  evaluated_at: '2026-04-05T05:57:37.783309Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9730ac90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8561d60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9730ac90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8561d60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -72,6 +72,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:20.299074Z'
-indexed_at: '2026-03-29T07:03:20.299080Z'
+  fetched_at: '2026-04-05T08:29:58.497720Z'
+indexed_at: '2026-04-05T08:29:58.497726Z'
 ---

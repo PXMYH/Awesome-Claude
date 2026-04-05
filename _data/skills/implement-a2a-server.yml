@@ -10,30 +10,30 @@ prompt_preview: "---\r\nname: implement-a2a-server\r\ndescription: >\r\n  Implem
   \ an agent that\r\n  must interoperate with other A2A-compliant agents.\r\nlice..."
 full_prompt_length: 16543
 tools_mentioned:
-- Python
+- Node.js
+- TypeScript
+- python
 - typescript
 - Redis
 - PostgreSQL
-- Node.js
 - fastapi
-- python
-- TypeScript
+- Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/implement-a2a-server/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/implement-a2a-server/SKILL.md
-fetched_at: '2026-03-29T04:39:39.248304+00:00'
+fetched_at: '2026-04-05T04:37:54.074365+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T06:20:36.918519Z'
+  evaluated_at: '2026-04-05T07:08:30.183999Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d53a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86dbcb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d53a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86dbcb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,5 +43,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:21.319004Z'
-indexed_at: '2026-03-29T07:03:21.319009Z'
+  fetched_at: '2026-04-05T08:29:59.565265Z'
+indexed_at: '2026-04-05T08:29:59.565271Z'

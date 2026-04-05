@@ -11,31 +11,31 @@ prompt_preview: "---\nname: orchestrate-ml-pipeline\ndescription: >\n  Orchestra
   \  logic and failure recovery..."
 full_prompt_length: 10582
 tools_mentioned:
-- postgresql
 - docker
-- Python
-- kubernetes
+- python
+- Kubernetes
+- postgresql
 - Redis
 - Docker
-- Kubernetes
-- python
 - aws
+- kubernetes
+- Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/orchestrate-ml-pipeline/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/orchestrate-ml-pipeline/SKILL.md
-fetched_at: '2026-03-29T04:39:49.878643+00:00'
+fetched_at: '2026-04-05T04:38:00.285391+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T06:27:37.643514Z'
+  evaluated_at: '2026-04-05T07:18:24.472821Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9774c140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8706750 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9774c140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8706750 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,5 +45,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:21.464984Z'
-indexed_at: '2026-03-29T07:03:21.464989Z'
+  fetched_at: '2026-04-05T08:29:59.709169Z'
+indexed_at: '2026-04-05T08:29:59.709175Z'

@@ -1,0 +1,42 @@
+---
+id: jahro-setup
+slug: jahro-setup
+name: Jahro Setup & Orientation
+description: For full API details, read `references/api-reference.md`.
+prompt_preview: "---\nname: jahro-setup\ndescription: >\n  Detects Jahro in Unity\
+  \ projects and guides installation, API key\n  configuration, and feature overview.\
+  \ Use when the user mentions Jahro\n  setup, installation, getting started, debug\
+  \ console, or asks what\n  Jahro can do. Also triggers when no Jahro references\
+  \ are found in a\n  Unity project and the user asks about debugging.\n---\n\n# Jahro\
+  \ Setup & Orientation\n\nHelp users install, configure, and get oriented with the\
+  \ Jahro debugging platform for Unity.\n\n## Dete..."
+full_prompt_length: 6818
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: jahro-console/unity-agent-skills
+source_path: skills/jahro-setup/SKILL.md
+source_url: https://github.com/jahro-console/unity-agent-skills/blob/main/skills/jahro-setup/SKILL.md
+fetched_at: '2026-04-05T04:37:11.267152+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-04-05T06:13:57.803867Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8562930 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8562930 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-04-05T08:29:58.835337Z'
+indexed_at: '2026-04-05T08:29:58.835360Z'
+---

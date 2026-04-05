@@ -13,8 +13,8 @@ prompt_preview: "---\nname: atheris\ntype: fuzzer\ndescription: >\n  Atheris is 
   \ |\n|--------|----------|------------|\n| Atheris | Py..."
 full_prompt_length: 14423
 tools_mentioned:
-- docker
 - Docker
+- docker
 - python
 - Python
 category: security
@@ -22,17 +22,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/atheris/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/atheris/SKILL.md
-fetched_at: '2026-03-29T04:40:48.560240+00:00'
+fetched_at: '2026-04-05T04:38:35.507633+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T06:58:46.715761Z'
+  evaluated_at: '2026-04-05T08:17:43.183508Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747f710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac87043b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d9747f710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac87043b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:22.124035Z'
-indexed_at: '2026-03-29T07:03:22.124040Z'
+  fetched_at: '2026-04-05T08:30:00.365565Z'
+indexed_at: '2026-04-05T08:30:00.365570Z'
 ---

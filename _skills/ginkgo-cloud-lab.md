@@ -33,17 +33,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/ginkgo-cloud-lab/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/ginkgo-cloud-lab/SKILL.md
-fetched_at: '2026-03-29T04:36:57.451729+00:00'
+fetched_at: '2026-04-05T04:35:58.042694+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T04:50:58.782901Z'
+  evaluated_at: '2026-04-05T04:50:42.968221Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d977d68d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8706900 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d977d68d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8706900 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:19.457477Z'
-indexed_at: '2026-03-29T07:03:19.457483Z'
+  fetched_at: '2026-04-05T08:29:57.464725Z'
+indexed_at: '2026-04-05T08:29:57.464730Z'
 ---

@@ -13,25 +13,25 @@ prompt_preview: "---\r\nname: skill-name-here\r\ndescription: >\r\n  One to thre
 full_prompt_length: 2659
 tools_mentioned:
 - Rust
-- Docker
 - TypeScript
+- Docker
 - Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/_template/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/_template/SKILL.md
-fetched_at: '2026-03-29T04:39:04.242131+00:00'
+fetched_at: '2026-04-05T04:37:32.583552+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T05:58:19.417446Z'
+  evaluated_at: '2026-04-05T06:30:17.063034Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ace60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8704560 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974ace60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8704560 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:20.861501Z'
-indexed_at: '2026-03-29T07:03:20.861507Z'
+  fetched_at: '2026-04-05T08:29:59.102311Z'
+indexed_at: '2026-04-05T08:29:59.102316Z'
 ---

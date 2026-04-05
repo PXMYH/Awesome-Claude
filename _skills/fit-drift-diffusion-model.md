@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/fit-drift-diffusion-model/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/fit-drift-diffusion-model/SKILL.md
-fetched_at: '2026-03-29T04:39:33.997856+00:00'
+fetched_at: '2026-04-05T04:37:50.709676+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T06:17:01.759521Z'
+  evaluated_at: '2026-04-05T07:01:59.151538Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d5eb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8705a00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d5eb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8705a00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:21.244986Z'
-indexed_at: '2026-03-29T07:03:21.244995Z'
+  fetched_at: '2026-04-05T08:29:59.491662Z'
+indexed_at: '2026-04-05T08:29:59.491667Z'
 ---

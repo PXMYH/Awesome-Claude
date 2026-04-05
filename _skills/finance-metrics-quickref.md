@@ -17,17 +17,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/finance-metrics-quickref/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/finance-metrics-quickref/SKILL.md
-fetched_at: '2026-03-29T04:38:15.627004+00:00'
+fetched_at: '2026-04-05T04:36:55.606114+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T05:37:54.741314Z'
+  evaluated_at: '2026-04-05T06:04:28.140643Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97d5cbc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac87046e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97d5cbc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac87046e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:20.438047Z'
-indexed_at: '2026-03-29T07:03:20.438052Z'
+  fetched_at: '2026-04-05T08:29:58.637156Z'
+indexed_at: '2026-04-05T08:29:58.637161Z'
 ---

@@ -1,0 +1,42 @@
+id: lifecycle-progression-workflow
+slug: lifecycle-progression-workflow
+name: Lifecycle Stage Progression Workflow
+description: '- **Backward movement:** HubSpot prevents lifecycle stage from going
+  backward by default. If a deal is lost and the contact should return to MQL, you
+  need a separate "regression" workflow that explici...'
+prompt_preview: "---\nname: lifecycle-progression-workflow\ndescription: \"Build workflows\
+  \ to automate contact progression through the sales funnel: Lead to MQL to SQL to\
+  \ Opportunity to Customer. Each transition is triggered by a specific event (score\
+  \ threshold, meeting booked, deal created, deal won).\"\nlicense: MIT\nmetadata:\n\
+  \  author: tomgranot\n  version: \"1.0\"\n  category: automation-workflows\n---\n\
+  \n# Lifecycle Stage Progression Workflow\n\nAutomate the contact journey through\
+  \ the sales funnel with four progression w..."
+full_prompt_length: 8082
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: TomGranot/hubspot-admin-skills
+source_path: skills/lifecycle-progression-workflow/SKILL.md
+source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/lifecycle-progression-workflow/SKILL.md
+fetched_at: '2026-04-05T04:36:15.164565+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-04-05T05:16:55.320329Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8707920 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8707920 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-04-05T08:29:57.828793Z'
+indexed_at: '2026-04-05T08:29:57.828798Z'

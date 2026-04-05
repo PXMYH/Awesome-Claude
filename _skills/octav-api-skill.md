@@ -13,24 +13,24 @@ prompt_preview: "---\nname: octav-api\ndescription: |\n  Integrate with Octav AP
 full_prompt_length: 11389
 tools_mentioned:
 - javascript
-- typescript
 - TypeScript
+- typescript
 category: community
 category_display: Community
 source_repo: Octav-Labs/octav-api-skill
 source_path: SKILL.md
 source_url: https://github.com/Octav-Labs/octav-api-skill/blob/main/SKILL.md
-fetched_at: '2026-03-29T04:37:22.166813+00:00'
+fetched_at: '2026-04-05T04:36:10.633849+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T05:08:11.261492Z'
+  evaluated_at: '2026-04-05T05:11:40.311786Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97926150 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86da960 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97926150 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86da960 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:19.825372Z'
-indexed_at: '2026-03-29T07:03:19.825382Z'
+  fetched_at: '2026-04-05T08:29:57.761046Z'
+indexed_at: '2026-04-05T08:29:57.761052Z'
 ---

@@ -16,17 +16,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/mushroom-cultivation/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/mushroom-cultivation/SKILL.md
-fetched_at: '2026-03-29T04:39:48.216699+00:00'
+fetched_at: '2026-04-05T04:37:59.338018+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T06:26:31.272648Z'
+  evaluated_at: '2026-04-05T07:17:19.744533Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d5fd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8562180 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d5fd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8562180 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:21.442076Z'
-indexed_at: '2026-03-29T07:03:21.442082Z'
+  fetched_at: '2026-04-05T08:29:59.686700Z'
+indexed_at: '2026-04-05T08:29:59.686705Z'

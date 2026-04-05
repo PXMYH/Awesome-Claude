@@ -1,37 +1,40 @@
 id: adaptyv
 slug: adaptyv
-name: Adaptyv
-description: '## Important Notes'
+name: Adaptyv Bio Foundry API
+description: For the full list of all 32 endpoints with request/response schemas,
+  read `references/api-endpoints.md`.
 prompt_preview: '---
 
   name: adaptyv
 
-  description: Cloud laboratory platform for automated protein testing and validation.
-  Use when designing proteins and needing experimental validation including binding
-  assays, expression testing, thermostability measurements, enzyme activity assays,
-  or protein sequence optimization. Also use for submitting experiments via API, tracking
-  experiment status, downloading results, optimizing protein sequences for better
-  expression using computational tools (NetSolP, SoluProt, SolubleM...'
-full_prompt_length: 3742
+  author: "K-Dense, Inc."
+
+  description: "How to use the Adaptyv Bio Foundry API and Python SDK for protein
+  experiment design, submission, and results retrieval. Use this skill whenever the
+  user mentions Adaptyv, Foundry API, protein binding assays, protein screening experiments,
+  BLI/SPR assays, thermostability assays, or wants to submit protein sequences for
+  experimental characterization. Also trigger when code imports `adaptyv`, `adaptyv_sdk`,
+  or `FoundryClient`, or references `f...'
+full_prompt_length: 7597
 tools_mentioned:
 - python
-- aws
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/adaptyv/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/adaptyv/SKILL.md
-fetched_at: '2026-03-29T04:36:45.863461+00:00'
+fetched_at: '2026-04-05T04:35:54.154512+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T04:42:59.827679Z'
+  evaluated_at: '2026-04-05T04:40:43.019234Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d979f97c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8844470 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d979f97c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8844470 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +44,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:19.289828Z'
-indexed_at: '2026-03-29T07:03:19.289834Z'
+  fetched_at: '2026-04-05T08:29:57.357886Z'
+indexed_at: '2026-04-05T08:29:57.357891Z'

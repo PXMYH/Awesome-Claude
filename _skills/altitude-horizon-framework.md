@@ -19,17 +19,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/altitude-horizon-framework/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/altitude-horizon-framework/SKILL.md
-fetched_at: '2026-03-29T04:38:12.478096+00:00'
+fetched_at: '2026-04-05T04:36:53.900955+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T05:35:50.889820Z'
+  evaluated_at: '2026-04-05T06:02:22.115864Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97309250 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86d9b50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d97309250 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86d9b50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:20.396020Z'
-indexed_at: '2026-03-29T07:03:20.396026Z'
+  fetched_at: '2026-04-05T08:29:58.594829Z'
+indexed_at: '2026-04-05T08:29:58.594835Z'
 ---

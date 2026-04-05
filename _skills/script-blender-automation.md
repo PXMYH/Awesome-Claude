@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/script-blender-automation/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/script-blender-automation/SKILL.md
-fetched_at: '2026-03-29T04:40:02.457777+00:00'
+fetched_at: '2026-04-05T04:38:07.902335+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T06:36:02.632303Z'
+  evaluated_at: '2026-04-05T07:37:51.393830Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d6960 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8706f90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d6960 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8706f90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:21.647444Z'
-indexed_at: '2026-03-29T07:03:21.647449Z'
+  fetched_at: '2026-04-05T08:29:59.883254Z'
+indexed_at: '2026-04-05T08:29:59.883259Z'
 ---

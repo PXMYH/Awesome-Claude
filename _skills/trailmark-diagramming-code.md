@@ -1,0 +1,45 @@
+---
+id: trailmark-diagramming-code
+slug: trailmark-diagramming-code
+name: Diagramming Code
+description: '- **[references/diagram-types.md](references/diagram-types.md)** -'
+prompt_preview: "---\nname: diagramming-code\ndescription: >\n  Generates Mermaid\
+  \ diagrams from Trailmark code graphs. Produces call graphs,\n  class hierarchies,\
+  \ module dependency maps, containment diagrams, complexity\n  heatmaps, and attack\
+  \ surface data flow visualizations. Use when visualizing\n  code architecture, drawing\
+  \ call graphs, generating class diagrams, creating\n  dependency maps, producing\
+  \ complexity heatmaps, or visualizing data flow\n  and attack surface paths as Mermaid\
+  \ diagrams.\n---\n\n# Diagramming Cod..."
+full_prompt_length: 5411
+tools_mentioned:
+- Rust
+- rust
+- python
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/trailmark/skills/diagramming-code/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/trailmark/skills/diagramming-code/SKILL.md
+fetched_at: '2026-04-05T04:38:37.153673+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-04-05T08:19:44.562059Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8563a70 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8563a70 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-04-05T08:30:00.409509Z'
+indexed_at: '2026-04-05T08:30:00.409514Z'
+---

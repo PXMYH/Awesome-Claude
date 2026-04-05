@@ -1,0 +1,43 @@
+---
+id: quarterly-database-cleanup
+slug: quarterly-database-cleanup
+name: Quarterly Database Cleanup
+description: '- Set a recurring calendar reminder for the first Monday of each quarter.'
+prompt_preview: "---\nname: quarterly-database-cleanup\ndescription: \"Run a comprehensive\
+  \ quarterly CRM audit covering list health, bounce monitoring, data quality, scoring\
+  \ calibration, engagement metrics, and property cleanup. Produces a health report\
+  \ with quarter-over-quarter trend comparison.\"\nlicense: MIT\nmetadata:\n  author:\
+  \ tomgranot\n  version: \"1.0\"\n  category: ongoing-maintenance\n---\n\n# Quarterly\
+  \ Database Cleanup\n\nA structured quarterly audit that catches data drift before\
+  \ it becomes a crisis. Run this at t..."
+full_prompt_length: 3450
+tools_mentioned:
+- Python
+category: community
+category_display: Community
+source_repo: TomGranot/hubspot-admin-skills
+source_path: skills/quarterly-database-cleanup/SKILL.md
+source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/quarterly-database-cleanup/SKILL.md
+fetched_at: '2026-04-05T04:36:15.516295+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-04-05T05:17:19.587041Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8705970 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8705970 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-04-05T08:29:57.837299Z'
+indexed_at: '2026-04-05T08:29:57.837304Z'
+---

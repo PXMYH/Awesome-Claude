@@ -19,17 +19,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/omero-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/omero-integration/SKILL.md
-fetched_at: '2026-03-29T04:37:04.642468+00:00'
+fetched_at: '2026-04-05T04:36:00.942381+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-03-29T04:56:12.036677Z'
+  evaluated_at: '2026-04-05T04:58:23.148754Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d7e60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8706240 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9d974d7e60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8706240 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-03-29T07:03:19.570769Z'
-indexed_at: '2026-03-29T07:03:19.570774Z'
+  fetched_at: '2026-04-05T08:29:57.542763Z'
+indexed_at: '2026-04-05T08:29:57.542771Z'
 ---
