@@ -22,33 +22,33 @@ prompt_preview: '---
   integration with em...'
 full_prompt_length: 8150
 tools_mentioned:
-- kubernetes
 - Docker
 - docker
+- kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/docker-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/docker-expert.md
-fetched_at: '2026-04-05T04:36:22.065278+00:00'
+fetched_at: '2026-04-06T04:43:44.700473Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T05:30:40.042052Z'
+  evaluated_at: '2026-04-06T04:50:49.039630Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86da660 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa0305e5ca0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86da660 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa0305e5ca0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 16249
-  forks: 1836
-  open_issues: 0
+  stars: 16349
+  forks: 1848
+  open_issues: 2
   last_commit: '2026-04-01'
-  fetched_at: '2026-04-05T04:38:48.176271Z'
-indexed_at: '2026-04-05T08:29:57.998806Z'
+  fetched_at: '2026-04-06T04:44:24.199273Z'
+indexed_at: '2026-04-06T05:07:36.471202Z'
