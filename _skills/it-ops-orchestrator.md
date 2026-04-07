@@ -12,33 +12,33 @@ prompt_preview: "---\nname: it-ops-orchestrator\ndescription: \"Use for orchestr
   \ the work\nto the most appropriate spe..."
 full_prompt_length: 2557
 tools_mentioned:
-- azure
 - Azure
+- azure
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/it-ops-orchestrator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/it-ops-orchestrator.md
-fetched_at: '2026-04-06T04:44:07.153460Z'
+fetched_at: '2026-04-07T04:32:38.114406Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-06T05:01:37.876680Z'
+  evaluated_at: '2026-04-07T04:50:01.391085Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa030f899d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3f9bbdfe60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa030f899d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3f9bbdfe60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 16349
-  forks: 1848
-  open_issues: 2
+  stars: 16507
+  forks: 1867
+  open_issues: 5
   last_commit: '2026-04-01'
-  fetched_at: '2026-04-06T04:44:24.199273Z'
-indexed_at: '2026-04-06T05:07:36.703918Z'
+  fetched_at: '2026-04-07T04:32:47.811623Z'
+indexed_at: '2026-04-07T04:55:58.986749Z'
 ---
