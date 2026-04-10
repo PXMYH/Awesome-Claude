@@ -4,56 +4,59 @@ name: Building LLM-Powered Applications with Claude
 description: '- Don''t truncate inputs when passing files or content to the API. If
   the content is too long to fit in the context window, notify the user and discuss
   options (chunking, summarization, etc.) rather th...'
-prompt_preview: '# Building LLM-Powered Applications with Claude
+prompt_preview: '---
+
+  name: claude-api
+
+  description: Build, debug, and optimize Claude API / Anthropic SDK apps. Apps built
+  with this skill should include prompt caching. TRIGGER when: code imports anthropic/@anthropic-ai/sdk;
+  user asks to use the Claude API, Anthropic SDKs, or Managed Agents (/v1/agents,
+  /v1/sessions, /v1/environments). DO NOT TRIGGER when: code imports `openai`/other
+  AI SDK, general programming, or ML/data-science tasks.
+
+  license: Complete terms in LICENSE.txt
+
+  ---
 
 
-  This skill helps you build LLM-powered applications with Claude. Choose the right
-  surface based on your needs, detect the project language, then read the relevant
-  language-specific documentation.
 
-
-  ## Before You Start
-
-
-  Scan the target file (or, if no target file, the prompt and project) for non-Anthropic
-  provider markers — `import openai`, `from openai`, `langchain_openai`, `OpenAI(`,
-  `gpt-4`, `gpt-5`, file names like `agent-openai.py` or `*-generi...'
-full_prompt_length: 28439
+  # Building LLM-Powered Applica...'
+full_prompt_length: 28909
 tools_mentioned:
-- go
-- Java
-- Ruby
-- typescript
 - REST
-- TypeScript
-- rest
+- python
+- Rust
+- go
+- Ruby
 - java
+- Go
+- Python
+- typescript
 - ruby
-- Rest
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/claude-api/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/claude-api/SKILL.md
-fetched_at: '2026-04-09T04:33:18.522110Z'
+fetched_at: '2026-04-10T04:46:52.888581Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-09T04:52:52.786208Z'
+  evaluated_at: '2026-04-10T05:06:49.495378Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7801706600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe6ca4023f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7801706600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe6ca4023f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 113344
-  forks: 12890
-  open_issues: 666
-  last_commit: '2026-04-08'
-  fetched_at: '2026-04-09T04:33:25.051498Z'
-indexed_at: '2026-04-09T04:56:32.930588Z'
+  stars: 114087
+  forks: 12999
+  open_issues: 671
+  last_commit: '2026-04-09'
+  fetched_at: '2026-04-10T04:47:03.829788Z'
+indexed_at: '2026-04-10T05:10:32.427825Z'
