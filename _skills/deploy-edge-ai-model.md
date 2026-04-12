@@ -1,0 +1,45 @@
+---
+id: deploy-edge-ai-model
+slug: deploy-edge-ai-model
+name: Deploy Edge AI Model
+description: '- `deploy-ml-model-serving` - Cloud-based model serving (complement
+  to edge)'
+prompt_preview: "---\nname: deploy-edge-ai-model\ndescription: >\n  Deploy machine\
+  \ learning models to edge devices using Google AI Edge Gallery,\n  TensorFlow Lite,\
+  \ ONNX Runtime, and MediaPipe. Covers model quantization\n  (INT8/INT4), on-device\
+  \ inference with Gemma 4 models, Android/iOS deployment\n  via AI Edge Gallery,\
+  \ hardware delegate selection (GPU/NPU/DSP), and\n  performance benchmarking on\
+  \ constrained devices. Use when deploying models\n  to mobile phones, IoT devices,\
+  \ or embedded systems where cloud inference..."
+full_prompt_length: 17489
+tools_mentioned:
+- python
+- Python
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/deploy-edge-ai-model/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/deploy-edge-ai-model/SKILL.md
+fetched_at: '2026-04-12T04:49:07.653568+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-04-12T06:29:28.038228Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e7ec0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e7ec0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-04-12T07:23:21.310426Z'
+indexed_at: '2026-04-12T07:23:21.310432Z'
+---

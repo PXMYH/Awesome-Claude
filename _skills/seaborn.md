@@ -20,17 +20,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/seaborn/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/seaborn/SKILL.md
-fetched_at: '2026-04-05T04:36:06.718221+00:00'
+fetched_at: '2026-04-12T04:46:29.589431+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T05:08:09.767894Z'
+  evaluated_at: '2026-04-12T05:08:56.000565Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8544a70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e7350 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8544a70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e7350 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:57.686541Z'
-indexed_at: '2026-04-05T08:29:57.686547Z'
+  fetched_at: '2026-04-12T07:23:19.485946Z'
+indexed_at: '2026-04-12T07:23:19.485955Z'
 ---

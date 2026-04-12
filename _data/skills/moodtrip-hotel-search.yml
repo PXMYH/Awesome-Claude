@@ -20,17 +20,17 @@ category_display: Community
 source_repo: adiny/moodtrip-hotel-search
 source_path: SKILL.md
 source_url: https://github.com/adiny/moodtrip-hotel-search/blob/main/SKILL.md
-fetched_at: '2026-04-05T04:36:34.085417+00:00'
+fetched_at: '2026-04-12T04:47:17.716565+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T05:46:31.193645Z'
+  evaluated_at: '2026-04-12T05:36:14.763458Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8544740 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e5460 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8544740 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e5460 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:58.268867Z'
-indexed_at: '2026-04-05T08:29:58.268873Z'
+  fetched_at: '2026-04-12T07:23:20.121112Z'
+indexed_at: '2026-04-12T07:23:20.121117Z'

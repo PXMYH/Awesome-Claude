@@ -21,33 +21,33 @@ prompt_preview: '---
   the Slack Web API, Events API, and the latest platform features....'
 full_prompt_length: 6608
 tools_mentioned:
-- typescript
 - TypeScript
-category: 06-developer-experience
-category_display: 06 Developer Experience
+- typescript
+category: developer-experience
+category_display: Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/slack-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/slack-expert.md
-fetched_at: '2026-04-11T04:21:27.580540Z'
+fetched_at: '2026-04-12T04:47:06.903838+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-11T04:35:17.557150Z'
+  evaluated_at: '2026-04-12T05:30:10.229415Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f812192b410 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39936131a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f812192b410 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39936131a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 16922
-  forks: 1929
-  open_issues: 27
+  stars: 17000
+  forks: 1942
+  open_issues: 29
   last_commit: '2026-04-01'
-  fetched_at: '2026-04-11T04:21:51.197352Z'
-indexed_at: '2026-04-11T04:45:22.084594Z'
+  fetched_at: '2026-04-12T04:50:55.991371Z'
+indexed_at: '2026-04-12T07:23:19.987833Z'
 ---

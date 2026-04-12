@@ -11,8 +11,8 @@ prompt_preview: "---\nname: diffdock\ndescription: Diffusion-based molecular doc
   \ molecule ligands to protein targets..."
 full_prompt_length: 15427
 tools_mentioned:
-- Docker
 - docker
+- Docker
 - python
 - Python
 category: scientific
@@ -20,17 +20,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/diffdock/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/diffdock/SKILL.md
-fetched_at: '2026-04-05T04:35:56.569799+00:00'
+fetched_at: '2026-04-12T04:46:10.230267+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T04:46:49.493590Z'
+  evaluated_at: '2026-04-12T04:56:38.875268Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8e4f800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993da93a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8e4f800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993da93a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:57.424371Z'
-indexed_at: '2026-04-05T08:29:57.424377Z'
+  fetched_at: '2026-04-12T07:23:19.163668Z'
+indexed_at: '2026-04-12T07:23:19.163674Z'

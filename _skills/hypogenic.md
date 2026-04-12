@@ -10,7 +10,7 @@ prompt_preview: "---\nname: hypogenic\ndescription: Automated LLM-driven hypothe
   \ For manual hypothesis formulation use hypothesis-generation; for creative ideation\
   \ use scientific-brainstorming.\nlicense: MIT license\nmetadata:\n    skill-author:\
   \ K-Dense Inc.\n---\n\n# Hypogeni..."
-full_prompt_length: 21554
+full_prompt_length: 21737
 tools_mentioned:
 - Redis
 - python
@@ -20,17 +20,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/hypogenic/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/hypogenic/SKILL.md
-fetched_at: '2026-04-05T04:35:58.511015+00:00'
+fetched_at: '2026-04-12T04:46:14.053413+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T04:51:16.718169Z'
+  evaluated_at: '2026-04-12T04:59:04.531457Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8706750 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39936121e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8706750 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39936121e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:57.476355Z'
-indexed_at: '2026-04-05T08:29:57.476361Z'
+  fetched_at: '2026-04-12T07:23:19.218216Z'
+indexed_at: '2026-04-12T07:23:19.218222Z'
 ---

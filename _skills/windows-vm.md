@@ -35,17 +35,17 @@ category_display: Community
 source_repo: obra/superpowers-lab
 source_path: skills/windows-vm/SKILL.md
 source_url: https://github.com/obra/superpowers-lab/blob/main/skills/windows-vm/SKILL.md
-fetched_at: '2026-04-05T04:37:29.347486+00:00'
+fetched_at: '2026-04-12T04:48:41.899075+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:27:36.394509Z'
+  evaluated_at: '2026-04-12T06:15:17.337892Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac87049e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e5220 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac87049e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e5220 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -55,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:59.088055Z'
-indexed_at: '2026-04-05T08:29:59.088060Z'
+  fetched_at: '2026-04-12T07:23:20.993006Z'
+indexed_at: '2026-04-12T07:23:20.993012Z'
 ---

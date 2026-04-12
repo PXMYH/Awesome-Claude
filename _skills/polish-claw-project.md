@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/polish-claw-project/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/polish-claw-project/SKILL.md
-fetched_at: '2026-04-05T04:38:02.099861+00:00'
+fetched_at: '2026-04-12T04:49:37.177150+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T07:21:27.211503Z'
+  evaluated_at: '2026-04-12T06:47:35.562052Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8544f80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993441e80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8544f80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993441e80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:59.751249Z'
-indexed_at: '2026-04-05T08:29:59.751254Z'
+  fetched_at: '2026-04-12T07:23:21.709373Z'
+indexed_at: '2026-04-12T07:23:21.709379Z'
 ---

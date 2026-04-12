@@ -12,24 +12,24 @@ prompt_preview: "---\nname: build-cli-plugin\ndescription: >\n  Build a plugin o
   \ any\n  multi-target tool, or extendi..."
 full_prompt_length: 11621
 tools_mentioned:
-- javascript
 - TypeScript
+- javascript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/build-cli-plugin/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/build-cli-plugin/SKILL.md
-fetched_at: '2026-04-05T04:37:37.613580+00:00'
+fetched_at: '2026-04-12T04:48:54.053826+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:38:17.540291Z'
+  evaluated_at: '2026-04-12T06:20:57.943751Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8563050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993479190 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8563050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993479190 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:59.206188Z'
-indexed_at: '2026-04-05T08:29:59.206193Z'
+  fetched_at: '2026-04-12T07:23:21.118682Z'
+indexed_at: '2026-04-12T07:23:21.118688Z'
 ---

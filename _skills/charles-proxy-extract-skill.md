@@ -31,17 +31,17 @@ category_display: Community
 source_repo: wannabehero/charles-proxy-extract-skill
 source_path: SKILL.md
 source_url: https://github.com/wannabehero/charles-proxy-extract-skill/blob/main/SKILL.md
-fetched_at: '2026-04-05T04:38:39.873041+00:00'
+fetched_at: '2026-04-12T04:50:44.142144+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T08:24:30.632482Z'
+  evaluated_at: '2026-04-12T07:20:52.105414Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8846570 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993443560 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8846570 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993443560 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:30:00.446642Z'
-indexed_at: '2026-04-05T08:30:00.446652Z'
+  fetched_at: '2026-04-12T07:23:22.444904Z'
+indexed_at: '2026-04-12T07:23:22.444909Z'
 ---

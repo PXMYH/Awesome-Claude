@@ -23,17 +23,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/iso-13485-certification/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/iso-13485-certification/SKILL.md
-fetched_at: '2026-04-05T04:35:58.928428+00:00'
+fetched_at: '2026-04-12T04:46:14.907793+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T04:51:49.058418Z'
+  evaluated_at: '2026-04-12T04:59:36.906059Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8705dc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993611eb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8705dc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993611eb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:57.488002Z'
-indexed_at: '2026-04-05T08:29:57.488008Z'
+  fetched_at: '2026-04-12T07:23:19.230583Z'
+indexed_at: '2026-04-12T07:23:19.230589Z'
 ---

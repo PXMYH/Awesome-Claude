@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/collect-preserve-specimens/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/collect-preserve-specimens/SKILL.md
-fetched_at: '2026-04-05T04:37:39.993697+00:00'
+fetched_at: '2026-04-12T04:48:57.945197+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:42:44.459671Z'
+  evaluated_at: '2026-04-12T06:23:23.550159Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac85460f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39936109b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac85460f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39936109b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:59.256541Z'
-indexed_at: '2026-04-05T08:29:59.256546Z'
+  fetched_at: '2026-04-12T07:23:21.173242Z'
+indexed_at: '2026-04-12T07:23:21.173248Z'
 ---

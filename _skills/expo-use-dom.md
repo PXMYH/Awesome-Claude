@@ -28,26 +28,26 @@ prompt_preview: '---
   ## When to Use DOM Componen...'
 full_prompt_length: 9673
 tools_mentioned:
-- javascript
+- react
 - JavaScript
 - React
-- react
+- javascript
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/use-dom/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/use-dom/SKILL.md
-fetched_at: '2026-04-05T04:37:02.261433+00:00'
+fetched_at: '2026-04-12T04:48:02.836903+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:10:18.001240Z'
+  evaluated_at: '2026-04-12T05:59:58.909737Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac85637d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993441b80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac85637d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993441b80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:58.757920Z'
-indexed_at: '2026-04-05T08:29:58.757926Z'
+  fetched_at: '2026-04-12T07:23:20.643752Z'
+indexed_at: '2026-04-12T07:23:20.643758Z'
 ---

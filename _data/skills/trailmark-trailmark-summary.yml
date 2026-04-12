@@ -11,30 +11,30 @@ prompt_preview: "---\nname: trailmark-summary\ndescription: \"Runs a trailmark s
   \ 0 needs a quick structural overvie..."
 full_prompt_length: 3769
 tools_mentioned:
-- go
 - typescript
+- ruby
+- go
+- rust
+- Python
 - php
 - java
 - javascript
-- ruby
-- rust
-- Python
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/trailmark/skills/trailmark-summary/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/trailmark/skills/trailmark-summary/SKILL.md
-fetched_at: '2026-04-05T04:38:37.666543+00:00'
+fetched_at: '2026-04-12T04:50:40.712701+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T08:20:25.166269Z'
+  evaluated_at: '2026-04-12T07:19:47.458494Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac85632f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39937c7ec0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac85632f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39937c7ec0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,5 +44,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:30:00.423567Z'
-indexed_at: '2026-04-05T08:30:00.423572Z'
+  fetched_at: '2026-04-12T07:23:22.420335Z'
+indexed_at: '2026-04-12T07:23:22.420341Z'

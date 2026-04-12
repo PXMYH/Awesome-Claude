@@ -12,26 +12,26 @@ prompt_preview: "---\nname: design-on-call-rotation\ndescription: >\n  Design su
   \ issues.\nlicense: MIT\nallowed-too..."
 full_prompt_length: 10992
 tools_mentioned:
-- Kubernetes
 - AWS
 - Rest
+- Kubernetes
 - Redis
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/design-on-call-rotation/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/design-on-call-rotation/SKILL.md
-fetched_at: '2026-04-05T04:37:47.452215+00:00'
+fetched_at: '2026-04-12T04:49:10.613841+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:54:36.315629Z'
+  evaluated_at: '2026-04-12T06:31:21.181835Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8561520 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39936139e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8561520 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39936139e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:59.420560Z'
-indexed_at: '2026-04-05T08:29:59.420570Z'
+  fetched_at: '2026-04-12T07:23:21.353088Z'
+indexed_at: '2026-04-12T07:23:21.353094Z'
 ---

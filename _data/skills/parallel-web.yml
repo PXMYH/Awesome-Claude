@@ -1,34 +1,36 @@
 id: parallel-web
 slug: parallel-web
-name: Parallel Web Systems API
-description: '| Skill | Use For |'
-prompt_preview: "---\nname: parallel-web\ndescription: Search the web, extract URL\
-  \ content, and run deep research using the Parallel Chat API and Extract API. Use\
-  \ for ALL web searches, research queries, and general information gathering. Provides\
-  \ synthesized summaries with citations.\nallowed-tools: Read Write Edit Bash\nlicense:\
-  \ MIT license\ncompatibility: PARALLEL_API_KEY required\nmetadata:\n    skill-author:\
-  \ K-Dense Inc.\n---\n\n# Parallel Web Systems API\n\n## Overview\n\nThis skill provides\
-  \ access to **Parallel Web Syst..."
-full_prompt_length: 11636
+name: Parallel Web Toolkit
+description: Present results in a clear, organized format.
+prompt_preview: '---
+
+  name: parallel-web
+
+  description: "All-in-one web toolkit powered by parallel-cli, with a strong emphasis
+  on academic and scientific sources. Use this skill whenever the user needs to search
+  the web, fetch/extract URL content, enrich data with web-sourced fields, or run
+  deep research reports. Covers: web search (fast lookups, research, current info
+  — prioritizing peer-reviewed papers, preprints, and scholarly databases), URL extraction
+  (fetching pages, articles, academic PDFs), bulk data enric...'
+full_prompt_length: 5999
 tools_mentioned:
 - python
-- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/parallel-web/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/parallel-web/SKILL.md
-fetched_at: '2026-04-05T04:36:01.468868+00:00'
+fetched_at: '2026-04-12T04:46:20.258465+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T05:00:04.419723Z'
+  evaluated_at: '2026-04-12T05:02:59.179589Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac9717a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39936107a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac9717a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39936107a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:57.557197Z'
-indexed_at: '2026-04-05T08:29:57.557202Z'
+  fetched_at: '2026-04-12T07:23:19.324048Z'
+indexed_at: '2026-04-12T07:23:19.324058Z'

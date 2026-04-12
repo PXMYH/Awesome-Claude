@@ -12,30 +12,30 @@ prompt_preview: "---\nname: trailmark-structural\ndescription: \"Runs full trail
   \ pre-analysis passes.\n\n## When to U..."
 full_prompt_length: 3904
 tools_mentioned:
-- go
 - typescript
+- ruby
+- go
+- rust
+- Python
 - php
 - java
 - javascript
-- ruby
-- rust
-- Python
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/trailmark/skills/trailmark-structural/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/trailmark/skills/trailmark-structural/SKILL.md
-fetched_at: '2026-04-05T04:38:37.547384+00:00'
+fetched_at: '2026-04-12T04:50:40.521856+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T08:20:17.081489Z'
+  evaluated_at: '2026-04-12T07:19:39.361604Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8562c00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993f3a3f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8562c00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993f3a3f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:30:00.420682Z'
-indexed_at: '2026-04-05T08:30:00.420688Z'
+  fetched_at: '2026-04-12T07:23:22.417157Z'
+indexed_at: '2026-04-12T07:23:22.417164Z'
 ---

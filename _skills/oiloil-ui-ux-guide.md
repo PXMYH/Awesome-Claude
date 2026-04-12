@@ -30,18 +30,18 @@ category_display: Community
 source_repo: oil-oil/oiloil-ui-ux-guide
 source_path: skills/oiloil-ui-ux-guide/SKILL.md
 source_url: https://github.com/oil-oil/oiloil-ui-ux-guide/blob/main/skills/oiloil-ui-ux-guide/SKILL.md
-fetched_at: '2026-04-05T04:37:30.694809+00:00'
+fetched_at: '2026-04-12T04:48:43.698418+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:29:52.726968Z'
+  evaluated_at: '2026-04-12T06:15:33.499688Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86dbe90 state=finished
-      raised ReadTimeout>]'
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39934411c0 state=finished
+      raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86dbe90 state=finished
-      raised ReadTimeout>]'
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39934411c0 state=finished
+      raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
@@ -50,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:59.093857Z'
-indexed_at: '2026-04-05T08:29:59.093863Z'
+  fetched_at: '2026-04-12T07:23:20.999137Z'
+indexed_at: '2026-04-12T07:23:20.999143Z'
 ---

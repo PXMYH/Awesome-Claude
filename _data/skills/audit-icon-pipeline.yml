@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/audit-icon-pipeline/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/audit-icon-pipeline/SKILL.md
-fetched_at: '2026-04-05T04:37:36.600454+00:00'
+fetched_at: '2026-04-12T04:48:52.340066+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:37:12.720086Z'
+  evaluated_at: '2026-04-12T06:19:53.110026Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8544800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f399347be00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8544800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f399347be00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:59.183770Z'
-indexed_at: '2026-04-05T08:29:59.183776Z'
+  fetched_at: '2026-04-12T07:23:21.094649Z'
+indexed_at: '2026-04-12T07:23:21.094655Z'

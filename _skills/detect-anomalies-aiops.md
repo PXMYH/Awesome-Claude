@@ -20,17 +20,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/detect-anomalies-aiops/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/detect-anomalies-aiops/SKILL.md
-fetched_at: '2026-04-05T04:37:47.957686+00:00'
+fetched_at: '2026-04-12T04:49:11.498717+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:55:08.686596Z'
+  evaluated_at: '2026-04-12T06:31:55.013258Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8705070 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993442390 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8705070 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993442390 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:59.432028Z'
-indexed_at: '2026-04-05T08:29:59.432034Z'
+  fetched_at: '2026-04-12T07:23:21.365272Z'
+indexed_at: '2026-04-12T07:23:21.365278Z'
 ---

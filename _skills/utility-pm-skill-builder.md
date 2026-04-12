@@ -10,24 +10,24 @@ prompt_preview: "---\nname: utility-pm-skill-builder\ndescription: Guides contri
   \ promotion.\nclassification: utility\nversion: \"1.0.0\"\nupdated: 2026-03-22\n\
   license: Apache-2.0\nmetadata:\n  category: coordination\n  frameworks: [triple-diamond]\n\
   \  author: product-on-purpo..."
-full_prompt_length: 12507
+full_prompt_length: 12506
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/utility-pm-skill-builder/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/utility-pm-skill-builder/SKILL.md
-fetched_at: '2026-04-05T04:38:20.208425+00:00'
+fetched_at: '2026-04-12T04:50:07.915430+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T08:02:11.730300Z'
+  evaluated_at: '2026-04-12T07:06:22.145787Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8561e20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e5fa0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8561e20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e5fa0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:30:00.142206Z'
-indexed_at: '2026-04-05T08:30:00.142212Z'
+  fetched_at: '2026-04-12T07:23:22.119597Z'
+indexed_at: '2026-04-12T07:23:22.119603Z'
 ---

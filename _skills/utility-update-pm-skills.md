@@ -1,0 +1,42 @@
+---
+id: utility-update-pm-skills
+slug: utility-update-pm-skills
+name: PM Skills Updater
+description: For a visual walkthrough and additional context, see the
+prompt_preview: "---\nname: utility-update-pm-skills\ndescription: Checks for newer\
+  \ pm-skills releases, compares local vs. latest version, previews what would change,\
+  \ and updates local files after user confirmation. Generates a structured update\
+  \ report documenting changed files, new capabilities, and the value delta between\
+  \ versions. Use when you want to bring a local pm-skills installation up to date.\n\
+  classification: utility\nversion: \"1.0.0\"\nupdated: 2026-04-09\nlicense: Apache-2.0\n\
+  metadata:\n  category: coordinati..."
+full_prompt_length: 13824
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: product-on-purpose/pm-skills
+source_path: skills/utility-update-pm-skills/SKILL.md
+source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/utility-update-pm-skills/SKILL.md
+fetched_at: '2026-04-12T04:50:08.716172+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-04-12T07:06:54.468375Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f399347b530 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f399347b530 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-04-12T07:23:22.131211Z'
+indexed_at: '2026-04-12T07:23:22.131217Z'
+---

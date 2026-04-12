@@ -17,30 +17,30 @@ prompt_preview: '---
 full_prompt_length: 13912
 tools_mentioned:
 - TypeScript
-- React
-- react
 - typescript
+- React
 - Node.js
-- Go
-- Rust
 - JavaScript
 - Python
+- Go
+- Rust
+- react
 category: community
 category_display: Community
 source_repo: EmblemCompany/Agent-skills
 source_path: skills/emblem-ai/SKILL.md
 source_url: https://github.com/EmblemCompany/Agent-skills/blob/main/skills/emblem-ai/SKILL.md
-fetched_at: '2026-04-05T04:35:53.466769+00:00'
+fetched_at: '2026-04-12T04:46:03.204313+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T04:40:34.309547Z'
+  evaluated_at: '2026-04-12T04:52:43.814332Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8844590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993955d00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8844590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993955d00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:57.354958Z'
-indexed_at: '2026-04-05T08:29:57.354963Z'
+  fetched_at: '2026-04-12T07:23:19.074700Z'
+indexed_at: '2026-04-12T07:23:19.074706Z'
 ---

@@ -12,29 +12,29 @@ prompt_preview: "---\r\nname: serialize-data-formats\r\ndescription: >\r\n  Seri
   \ languages, optimizing transf..."
 full_prompt_length: 9651
 tools_mentioned:
-- python
-- Kubernetes
-- Go
-- Redis
 - gRPC
-- REST
+- python
 - Python
+- Redis
+- Go
+- Kubernetes
+- REST
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/serialize-data-formats/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/serialize-data-formats/SKILL.md
-fetched_at: '2026-04-05T04:38:08.380302+00:00'
+fetched_at: '2026-04-12T04:49:48.230035+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T07:38:23.766886Z'
+  evaluated_at: '2026-04-12T06:54:28.017237Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86dbb90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39936128a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86dbb90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39936128a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:59.894538Z'
-indexed_at: '2026-04-05T08:29:59.894543Z'
+  fetched_at: '2026-04-12T07:23:21.859986Z'
+indexed_at: '2026-04-12T07:23:21.859992Z'
 ---

@@ -12,26 +12,26 @@ prompt_preview: "---\nname: azure-devops\ndescription: |\n  Manage Azure DevOps 
   \ 13 domains with 99 tools via REST A..."
 full_prompt_length: 16785
 tools_mentioned:
+- Azure
 - azure
 - REST
 - python
-- Azure
 category: community
 category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/azure-devops/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/azure-devops/SKILL.md
-fetched_at: '2026-04-05T04:38:23.641647+00:00'
+fetched_at: '2026-04-12T04:50:13.201399+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T08:03:41.634968Z'
+  evaluated_at: '2026-04-12T07:08:07.630439Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8612540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39934d7c50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8612540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39934d7c50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:30:00.173429Z'
-indexed_at: '2026-04-05T08:30:00.173435Z'
+  fetched_at: '2026-04-12T07:23:22.157587Z'
+indexed_at: '2026-04-12T07:23:22.157593Z'
 ---

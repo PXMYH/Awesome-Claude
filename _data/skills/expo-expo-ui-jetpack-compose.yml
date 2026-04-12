@@ -6,8 +6,8 @@ prompt_preview: '---
 
   name: Expo UI Jetpack Compose
 
-  description: `@expo/ui/jetpack-compose` package lets you use Jetpack Compose Views
-  and modifiers in your app.
+  description: "`@expo/ui/jetpack-compose` package lets you use Jetpack Compose Views
+  and modifiers in your app."
 
   ---
 
@@ -32,27 +32,27 @@ prompt_preview: '---
   ## Instructions
 
 
-  - Expo UI''s API mirrors Jetpa...'
-full_prompt_length: 2847
+  - Expo UI''s API mirrors Jet...'
+full_prompt_length: 2849
 tools_mentioned:
-- go
 - react
+- go
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-ui-jetpack-compose/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-ui-jetpack-compose/SKILL.md
-fetched_at: '2026-04-05T04:37:01.642613+00:00'
+fetched_at: '2026-04-12T04:48:02.019299+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:09:45.631082Z'
+  evaluated_at: '2026-04-12T05:59:26.564068Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac87070e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993440890 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac87070e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993440890 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -62,5 +62,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:58.746607Z'
-indexed_at: '2026-04-05T08:29:58.746613Z'
+  fetched_at: '2026-04-12T07:23:20.631768Z'
+indexed_at: '2026-04-12T07:23:20.631774Z'

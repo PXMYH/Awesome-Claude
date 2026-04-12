@@ -1,7 +1,7 @@
 ---
 id: clickup-cli
 slug: clickup-cli
-name: ClickUp CLI (`cup`) - skill version 1.17.0
+name: ClickUp CLI (`cup`) - skill version 1.23.1
 description: 'IMPORTANT: Always confirm with the user before running `cup delete`.
   This is a destructive, irreversible operation. Even when using `--confirm` flag,
   verify the task ID is correct with the user first.'
@@ -15,7 +15,7 @@ prompt_preview: '---
   overdue items, assigning tasks, listing spaces and lists, opening tasks in browser,
   checking auth or config, setting custom fields, deleting tasks, managing tags, managing
   checklists, editing comments, task links, time tracking, atta...'
-full_prompt_length: 47547
+full_prompt_length: 56463
 tools_mentioned:
 - Node.js
 category: community
@@ -23,17 +23,17 @@ category_display: Community
 source_repo: krodak/clickup-cli
 source_path: skills/clickup-cli/SKILL.md
 source_url: https://github.com/krodak/clickup-cli/blob/main/skills/clickup-cli/SKILL.md
-fetched_at: '2026-04-05T04:37:25.061705+00:00'
+fetched_at: '2026-04-12T04:48:34.963221+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:23:45.653042Z'
+  evaluated_at: '2026-04-12T06:12:27.500470Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86da600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e6030 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86da600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e6030 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:59.028827Z'
-indexed_at: '2026-04-05T08:29:59.028832Z'
+  fetched_at: '2026-04-12T07:23:20.930693Z'
+indexed_at: '2026-04-12T07:23:20.930699Z'
 ---

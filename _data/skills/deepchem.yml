@@ -18,17 +18,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/deepchem/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/deepchem/SKILL.md
-fetched_at: '2026-04-05T04:35:56.160268+00:00'
+fetched_at: '2026-04-12T04:46:09.411968+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T04:46:17.088267Z'
+  evaluated_at: '2026-04-12T04:56:06.505831Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86dbdd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993613710 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86dbdd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993613710 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:57.412716Z'
-indexed_at: '2026-04-05T08:29:57.412722Z'
+  fetched_at: '2026-04-12T07:23:19.151725Z'
+indexed_at: '2026-04-12T07:23:19.151731Z'

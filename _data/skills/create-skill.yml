@@ -12,26 +12,26 @@ prompt_preview: "---\r\nname: create-skill\r\ndescription: >\r\n  Create a new S
 full_prompt_length: 17898
 tools_mentioned:
 - TypeScript
-- rest
-- Rust
 - Docker
+- rest
 - Python
+- Rust
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-skill/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-skill/SKILL.md
-fetched_at: '2026-04-05T04:37:44.367649+00:00'
+fetched_at: '2026-04-12T04:49:05.265184+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:48:21.547892Z'
+  evaluated_at: '2026-04-12T06:27:58.779943Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8546930 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39934435c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8546930 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39934435c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:59.352635Z'
-indexed_at: '2026-04-05T08:29:59.352641Z'
+  fetched_at: '2026-04-12T07:23:21.277383Z'
+indexed_at: '2026-04-12T07:23:21.277388Z'

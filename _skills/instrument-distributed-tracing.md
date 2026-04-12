@@ -13,32 +13,32 @@ prompt_preview: "---\nname: instrument-distributed-tracing\ndescription: >\n  In
   \ from legacy tracing systems..."
 full_prompt_length: 15400
 tools_mentioned:
-- go
-- docker
-- python
-- Flask
+- gRPC
 - Node.js
-- grpc
+- Flask
+- go
+- python
+- Python
 - Go
-- flask
-- javascript
 - GRPC
+- flask
+- grpc
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/instrument-distributed-tracing/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/instrument-distributed-tracing/SKILL.md
-fetched_at: '2026-04-05T04:37:55.098492+00:00'
+fetched_at: '2026-04-12T04:49:24.113111+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T07:09:34.929940Z'
+  evaluated_at: '2026-04-12T06:39:36.304350Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8563350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f399347bf20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8563350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f399347bf20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:59.588359Z'
-indexed_at: '2026-04-05T08:29:59.588365Z'
+  fetched_at: '2026-04-12T07:23:21.534159Z'
+indexed_at: '2026-04-12T07:23:21.534165Z'
 ---

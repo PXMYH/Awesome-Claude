@@ -13,26 +13,26 @@ prompt_preview: '---
   guidelines with decision algorithms). Supports GRADE evidence grading, statistical
   analysis (hazard ratios, survival curves, waterfall plots), biomarker integration,
   and regulatory compliance. Outputs publication...'
-full_prompt_length: 26489
+full_prompt_length: 26396
 tools_mentioned:
-- GCP
 - python
+- GCP
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/clinical-decision-support/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/clinical-decision-support/SKILL.md
-fetched_at: '2026-04-05T04:35:55.417902+00:00'
+fetched_at: '2026-04-12T04:46:07.876506+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T04:42:20.150815Z'
+  evaluated_at: '2026-04-12T04:55:09.495709Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8706e10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993613950 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8706e10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993613950 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:57.392232Z'
-indexed_at: '2026-04-05T08:29:57.392238Z'
+  fetched_at: '2026-04-12T07:23:19.130018Z'
+indexed_at: '2026-04-12T07:23:19.130026Z'
 ---

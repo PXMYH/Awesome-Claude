@@ -8,37 +8,37 @@ prompt_preview: '---
 
   name: design-auditor
 
-  version: 1.2.5
+  version: 1.2.6
 
   description: "Audit designs against 18 professional rules across Figma files and
-  code (HTML/CSS/React/Vue/Tailwind). Detects framework automatically, runs category-specific
-  code superpowers (aria, focus, contrast, tokens, responsive, motion, forms, navigation,
-  spacing), audits for dark patterns and ethical design issues, outputs before/after
-  code diffs, and generates a structured developer handoff report. Triggers on: check
-  my design, review my UI, audit m...'
-full_prompt_length: 90803
+  code (HTML/CSS/React/Vue/Tailwind). Detects framework automatically, runs code superpowers
+  (aria, focus, contrast, tokens, responsive, motion, forms, navigation, spacing),
+  audits for dark patterns and ethical design issues, outputs before/after code diffs,
+  generates developer handoff reports, and converts wireframes into annotated dev-ready
+  specs. Triggers on: check my design,...'
+full_prompt_length: 99578
 tools_mentioned:
-- go
 - React
-- Vue
-- react
 - vue
+- Vue
+- go
+- react
 category: community
 category_display: Community
 source_repo: Ashutos1997/claude-design-auditor-skill
 source_path: SKILL.md
 source_url: https://github.com/Ashutos1997/claude-design-auditor-skill/blob/main/SKILL.md
-fetched_at: '2026-04-05T04:35:50.668135+00:00'
+fetched_at: '2026-04-12T04:45:59.729228+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T04:39:37.616814Z'
+  evaluated_at: '2026-04-12T04:51:47.208458Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8e87380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993d87380 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8e87380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993d87380 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:57.334625Z'
-indexed_at: '2026-04-05T08:29:57.334634Z'
+  fetched_at: '2026-04-12T07:23:19.052958Z'
+indexed_at: '2026-04-12T07:23:19.052964Z'
 ---

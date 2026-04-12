@@ -1,0 +1,41 @@
+id: paperzilla
+slug: paperzilla
+name: Paperzilla
+description: '- Docs: https://docs.paperzilla.ai/guides/cli'
+prompt_preview: "---\nname: paperzilla\ndescription: Chat with your agent about projects,\
+  \ recommendations, and canonical papers in Paperzilla. Use when users ask for recent\
+  \ project recommendations, canonical paper details, markdown-based summaries, recommendation\
+  \ feedback, feed export, or Atom feed URLs.\nlicense: MIT\nmetadata:\n  skill-author:\
+  \ \"Paperzilla Inc\"\n---\n\n# Paperzilla\n\nUse this skill when you want to chat\
+  \ with your agent about projects, recommendations, and canonical papers in Paperzilla.\n\
+  \n## What you can..."
+full_prompt_length: 3724
+tools_mentioned:
+- Go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/paperzilla/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/paperzilla/SKILL.md
+fetched_at: '2026-04-12T04:46:20.040971+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-04-12T05:02:51.090172Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39937aa240 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39937aa240 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-04-12T07:23:19.318586Z'
+indexed_at: '2026-04-12T07:23:19.318595Z'

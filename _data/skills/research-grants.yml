@@ -9,7 +9,7 @@ prompt_preview: "---\nname: research-grants\ndescription: Write competitive rese
   \ Read Write Edit Bash\nlicense: MIT license\nmetadata:\n    skill-author: K-Dense\
   \ Inc.\n---\n\n# Research Grant Writing\n\n## Overview\n\nResearch grant writing\
   \ is the process of developing competitive..."
-full_prompt_length: 37183
+full_prompt_length: 36007
 tools_mentioned:
 - go
 - python
@@ -18,17 +18,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/research-grants/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/research-grants/SKILL.md
-fetched_at: '2026-04-05T04:36:04.785197+00:00'
+fetched_at: '2026-04-12T04:46:26.213202+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T05:03:59.437637Z'
+  evaluated_at: '2026-04-12T05:06:45.799043Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8547bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3994397c80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8547bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3994397c80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:57.640241Z'
-indexed_at: '2026-04-05T08:29:57.640247Z'
+  fetched_at: '2026-04-12T07:23:19.437076Z'
+indexed_at: '2026-04-12T07:23:19.437082Z'

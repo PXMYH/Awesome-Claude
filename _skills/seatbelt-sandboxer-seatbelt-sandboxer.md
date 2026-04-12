@@ -18,17 +18,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/seatbelt-sandboxer/skills/seatbelt-sandboxer/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/seatbelt-sandboxer/skills/seatbelt-sandboxer/SKILL.md
-fetched_at: '2026-04-05T04:38:33.497334+00:00'
+fetched_at: '2026-04-12T04:50:31.421873+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T08:15:56.167857Z'
+  evaluated_at: '2026-04-12T07:15:19.544991Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8707f50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993440680 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8707f50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993440680 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:30:00.326877Z'
-indexed_at: '2026-04-05T08:30:00.326883Z'
+  fetched_at: '2026-04-12T07:23:22.317928Z'
+indexed_at: '2026-04-12T07:23:22.317934Z'
 ---

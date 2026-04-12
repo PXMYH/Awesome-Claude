@@ -12,28 +12,28 @@ prompt_preview: "---\nname: debugging-wizard\ndescription: Parses error messages
   \  author: https://github.com/Jeffallan..."
 full_prompt_length: 3634
 tools_mentioned:
-- go
 - Node.js
-- python
-- Go
+- go
 - JavaScript
+- python
 - Python
+- Go
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/debugging-wizard/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/debugging-wizard/SKILL.md
-fetched_at: '2026-04-05T04:37:13.594560+00:00'
+fetched_at: '2026-04-12T04:48:16.051590+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:14:54.650040Z'
+  evaluated_at: '2026-04-12T06:04:35.493662Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8563620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39939ae9f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8563620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39939ae9f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:58.855415Z'
-indexed_at: '2026-04-05T08:29:58.855421Z'
+  fetched_at: '2026-04-12T07:23:20.749067Z'
+indexed_at: '2026-04-12T07:23:20.749073Z'
 ---

@@ -1,0 +1,40 @@
+id: utility-mermaid-diagrams
+slug: utility-mermaid-diagrams
+name: Mermaid Diagrams
+description: '| File | Purpose |'
+prompt_preview: "---\nname: utility-mermaid-diagrams\ndescription: Teaches PMs to\
+  \ create syntactically valid mermaid diagrams by selecting the right diagram type\
+  \ for their communication need, following syntax validity rules, and validating\
+  \ before shipping. Covers all 15 mermaid diagram types with PM-relevant examples\
+  \ and a dual-lens navigation system.\nversion: \"1.0.0\"\nupdated: 2026-04-07\n\
+  license: Apache-2.0\nclassification: utility\nmetadata:\n  category: documentation\n\
+  \  frameworks:\n    - mermaid\n  author: product-on..."
+full_prompt_length: 6262
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: product-on-purpose/pm-skills
+source_path: skills/utility-mermaid-diagrams/SKILL.md
+source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/utility-mermaid-diagrams/SKILL.md
+fetched_at: '2026-04-12T04:50:07.725805+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-04-12T07:06:14.067704Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e52b0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e52b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-04-12T07:23:22.116743Z'
+indexed_at: '2026-04-12T07:23:22.116748Z'

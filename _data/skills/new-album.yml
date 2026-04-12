@@ -1,9 +1,7 @@
 id: new-album
 slug: new-album
 name: New Album Skill
-description: 'Valid primary genres: `hip-hop`, `electronic`, `rock`, `folk`, `country`,
-  `pop`, `metal`, `jazz`, `rnb`, `classical`, `reggae`, `punk`, `indie-folk`, `blues`,
-  `gospel`, `latin`, `k-pop`'
+description: '```bash'
 prompt_preview: "---\nname: new-album\ndescription: Creates a new album with the correct\
   \ directory structure and templates. Use IMMEDIATELY when the user says 'make a\
   \ new album' or similar, before any discussion.\nargument-hint: <album-name> <genre>\n\
@@ -11,7 +9,7 @@ prompt_preview: "---\nname: new-album\ndescription: Creates a new album with the
   \  - bitwize-music-mcp\n---\n\n## Your Task\n\n**Input**: $ARGUMENTS\n\nCreate a\
   \ new album directory structure with all required files and templates.\n\n---\n\n\
   # New Album Skill\n\nYou create the complete alb..."
-full_prompt_length: 6190
+full_prompt_length: 6028
 tools_mentioned:
 - go
 category: community
@@ -19,17 +17,17 @@ category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/new-album/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/new-album/SKILL.md
-fetched_at: '2026-04-05T04:36:41.873275+00:00'
+fetched_at: '2026-04-12T04:47:30.034169+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T05:51:31.311123Z'
+  evaluated_at: '2026-04-12T05:41:23.058810Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86d94c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993478170 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86d94c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993478170 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:58.372037Z'
-indexed_at: '2026-04-05T08:29:58.372043Z'
+  fetched_at: '2026-04-12T07:23:20.235274Z'
+indexed_at: '2026-04-12T07:23:20.235279Z'

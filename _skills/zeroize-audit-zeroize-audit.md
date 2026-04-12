@@ -14,26 +14,26 @@ prompt_preview: "---\nname: zeroize-audit\ndescription: \"Detects missing zeroiz
   \  - mcp__serena__find_referenci..."
 full_prompt_length: 20955
 tools_mentioned:
-- Rust
-- rust
-- Python
 - RUST
+- rust
+- Rust
+- Python
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/zeroize-audit/skills/zeroize-audit/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/zeroize-audit/skills/zeroize-audit/SKILL.md
-fetched_at: '2026-04-05T04:38:38.689597+00:00'
+fetched_at: '2026-04-12T04:50:42.753229+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T08:23:13.905265Z'
+  evaluated_at: '2026-04-12T07:20:35.953283Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8560800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993f3a3f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8560800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993f3a3f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:30:00.440829Z'
-indexed_at: '2026-04-05T08:30:00.440834Z'
+  fetched_at: '2026-04-12T07:23:22.438859Z'
+indexed_at: '2026-04-12T07:23:22.438865Z'
 ---

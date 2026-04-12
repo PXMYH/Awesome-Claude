@@ -13,30 +13,30 @@ prompt_preview: "---\nname: setup-local-kubernetes\ndescription: >\n  Set up a l
   \ wanting fast\n  automatic..."
 full_prompt_length: 15588
 tools_mentioned:
-- docker
-- python
-- Kubernetes
-- PostgreSQL
-- Redis
 - Docker
-- kubernetes
+- PostgreSQL
 - redis
+- python
+- Redis
+- Kubernetes
+- kubernetes
+- docker
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/setup-local-kubernetes/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/setup-local-kubernetes/SKILL.md
-fetched_at: '2026-04-05T04:38:09.226161+00:00'
+fetched_at: '2026-04-12T04:49:49.673196+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T07:39:21.147665Z'
+  evaluated_at: '2026-04-12T06:55:24.552120Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86da240 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993478260 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86da240 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993478260 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:59.914553Z'
-indexed_at: '2026-04-05T08:29:59.914558Z'
+  fetched_at: '2026-04-12T07:23:21.880763Z'
+indexed_at: '2026-04-12T07:23:21.880768Z'
 ---

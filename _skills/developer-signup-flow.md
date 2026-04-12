@@ -22,17 +22,17 @@ category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/developer-signup-flow/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/developer-signup-flow/SKILL.md
-fetched_at: '2026-04-05T04:37:22.464025+00:00'
+fetched_at: '2026-04-12T04:48:30.991987+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:20:35.174409Z'
+  evaluated_at: '2026-04-12T06:10:17.909631Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8707fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993612120 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8707fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993612120 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:58.981370Z'
-indexed_at: '2026-04-05T08:29:58.981377Z'
+  fetched_at: '2026-04-12T07:23:20.881386Z'
+indexed_at: '2026-04-12T07:23:20.881391Z'
 ---

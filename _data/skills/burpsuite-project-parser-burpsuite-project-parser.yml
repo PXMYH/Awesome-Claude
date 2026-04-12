@@ -11,24 +11,24 @@ prompt_preview: "---\nname: burpsuite-project-parser\ndescription: Searches and 
   \n## When to..."
 full_prompt_length: 12486
 tools_mentioned:
-- Java
 - java
+- Java
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/burpsuite-project-parser/skills/burpsuite-project-parser/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/burpsuite-project-parser/skills/burpsuite-project-parser/SKILL.md
-fetched_at: '2026-04-05T04:38:30.052489+00:00'
+fetched_at: '2026-04-12T04:50:23.970249+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T08:11:30.006217Z'
+  evaluated_at: '2026-04-12T07:12:53.676631Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8705a60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f399347ae40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8705a60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f399347ae40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:30:00.273814Z'
-indexed_at: '2026-04-05T08:30:00.273820Z'
+  fetched_at: '2026-04-12T07:23:22.261798Z'
+indexed_at: '2026-04-12T07:23:22.261804Z'

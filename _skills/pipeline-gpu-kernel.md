@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/pipeline-gpu-kernel/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/pipeline-gpu-kernel/SKILL.md
-fetched_at: '2026-04-05T04:38:00.998954+00:00'
+fetched_at: '2026-04-12T04:49:35.183278+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T07:19:14.301848Z'
+  evaluated_at: '2026-04-12T06:46:22.743625Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86d9250 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993441220 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86d9250 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993441220 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:59.726154Z'
-indexed_at: '2026-04-05T08:29:59.726160Z'
+  fetched_at: '2026-04-12T07:23:21.682670Z'
+indexed_at: '2026-04-12T07:23:21.682676Z'
 ---

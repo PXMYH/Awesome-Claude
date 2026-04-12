@@ -1,9 +1,8 @@
 ---
 id: find-scene-skill
 slug: find-scene-skill
-name: find-scene API Skill
-description: '- Always get the video source hash first before attempting downloads
-  or text source lookups.'
+name: find-scene API
+description: '**Response:** object'
 prompt_preview: '---
 
   name: find-scene
@@ -17,14 +16,15 @@ prompt_preview: '---
   ---
 
 
-  # find-scene API Skill
+  # find-scene API
 
 
-  Search and download movie/TV show scenes by dialog, time, or visual description.
+  API for searching and downloading movie/TV show scenes by dialog, time, or visual
+  description.
 
 
-  ## Authentica...'
-full_prompt_length: 16800
+  ## Ba...'
+full_prompt_length: 19179
 tools_mentioned:
 - Go
 category: community
@@ -32,17 +32,17 @@ category_display: Community
 source_repo: uriva/find-scene-skill
 source_path: SKILL.md
 source_url: https://github.com/uriva/find-scene-skill/blob/main/SKILL.md
-fetched_at: '2026-04-05T04:38:39.315010+00:00'
+fetched_at: '2026-04-12T04:50:43.463174+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T08:24:22.072046Z'
+  evaluated_at: '2026-04-12T07:20:44.028424Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8561160 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39937fd0a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8561160 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39937fd0a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:30:00.443845Z'
-indexed_at: '2026-04-05T08:30:00.443851Z'
+  fetched_at: '2026-04-12T07:23:22.442025Z'
+indexed_at: '2026-04-12T07:23:22.442031Z'
 ---

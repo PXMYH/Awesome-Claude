@@ -24,17 +24,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/astropy/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/astropy/SKILL.md
-fetched_at: '2026-04-05T04:35:54.565105+00:00'
+fetched_at: '2026-04-12T04:46:06.201775+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T04:41:15.383710Z'
+  evaluated_at: '2026-04-12T04:54:04.673231Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8844590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e73b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8844590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e73b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:57.369229Z'
-indexed_at: '2026-04-05T08:29:57.369234Z'
+  fetched_at: '2026-04-12T07:23:19.104523Z'
+indexed_at: '2026-04-12T07:23:19.104529Z'
 ---

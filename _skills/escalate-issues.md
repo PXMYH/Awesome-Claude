@@ -18,18 +18,18 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/escalate-issues/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/escalate-issues/SKILL.md
-fetched_at: '2026-04-05T04:37:49.311928+00:00'
+fetched_at: '2026-04-12T04:49:13.662720+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:58:29.764779Z'
+  evaluated_at: '2026-04-12T06:33:15.805822Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8545d00 state=finished
-      raised ReadTimeout>]'
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993611d90 state=finished
+      raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8545d00 state=finished
-      raised ReadTimeout>]'
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993611d90 state=finished
+      raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:59.460289Z'
-indexed_at: '2026-04-05T08:29:59.460295Z'
+  fetched_at: '2026-04-12T07:23:21.395231Z'
+indexed_at: '2026-04-12T07:23:21.395237Z'
 ---

@@ -21,17 +21,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/backfill-geo-data/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/backfill-geo-data/SKILL.md
-fetched_at: '2026-04-05T04:36:12.731534+00:00'
+fetched_at: '2026-04-12T04:46:39.056975+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T05:12:12.684203Z'
+  evaluated_at: '2026-04-12T05:12:59.224081Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8c6eff0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993441550 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8c6eff0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993441550 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:57.772484Z'
-indexed_at: '2026-04-05T08:29:57.772489Z'
+  fetched_at: '2026-04-12T07:23:19.596697Z'
+indexed_at: '2026-04-12T07:23:19.596703Z'
 ---

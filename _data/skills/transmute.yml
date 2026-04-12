@@ -13,26 +13,26 @@ full_prompt_length: 7961
 tools_mentioned:
 - TypeScript
 - Java
-- GraphQL
 - JavaScript
-- REST
 - Python
+- REST
+- GraphQL
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/transmute/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/transmute/SKILL.md
-fetched_at: '2026-04-05T04:38:12.894438+00:00'
+fetched_at: '2026-04-12T04:49:56.000170+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T07:51:25.361484Z'
+  evaluated_at: '2026-04-12T06:59:27.696159Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86db290 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e6e40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86db290 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e6e40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +42,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:59.999803Z'
-indexed_at: '2026-04-05T08:29:59.999808Z'
+  fetched_at: '2026-04-12T07:23:21.969570Z'
+indexed_at: '2026-04-12T07:23:21.969576Z'

@@ -1,0 +1,59 @@
+---
+id: skill-seekers
+slug: skill-seekers
+name: Skill Builder
+description: '### Advanced'
+prompt_preview: '---
+
+  name: skill-builder
+
+  description: Automatically detect source types and build AI skills using Skill Seekers.
+  Use when the user wants to create skills from documentation, repos, PDFs, videos,
+  or other knowledge sources.
+
+  ---
+
+
+  # Skill Builder
+
+
+  You have access to the Skill Seekers MCP server which provides 35 tools for converting
+  knowledge sources into AI-ready skills.
+
+
+  ## When to Use This Skill
+
+
+  Use this skill when the user:
+
+  - Wants to create an AI skill from a documentation site, GitHub repo, P...'
+full_prompt_length: 3037
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: yusufkaraaslan/Skill_Seekers
+source_path: skills/skill-seekers/SKILL.md
+source_url: https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/skills/skill-seekers/SKILL.md
+fetched_at: '2026-04-12T04:50:50.360062+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-04-12T07:22:22.284940Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993612ed0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993612ed0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-04-12T07:23:22.476814Z'
+indexed_at: '2026-04-12T07:23:22.476819Z'
+---

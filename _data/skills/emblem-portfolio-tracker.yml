@@ -1,0 +1,41 @@
+id: emblem-portfolio-tracker
+slug: emblem-portfolio-tracker
+name: Emblem Portfolio Tracker
+description: '- [Agent Wallet CLI](https://www.npmjs.com/package/@emblemvault/agentwallet)'
+prompt_preview: "---\nname: emblem-portfolio-tracker\ndescription: >\n  Track crypto\
+  \ portfolio across 7 blockchains via EmblemAI. Aggregated balances with USD values,\n\
+  \  conditional trade P&L, and DeFi position tracking via Nansen. Use when the user\
+  \ wants to check\n  their portfolio, see balances across chains, or review trade\
+  \ positions.\nlicense: MIT\ncompatibility: >\n  Requires Node.js >= 18.0.0, @emblemvault/agentwallet\
+  \ CLI, and internet access.\n  Works on Claude Code, Cursor, Codex, OpenClaw, and\
+  \ other agents follo..."
+full_prompt_length: 5875
+tools_mentioned:
+- Node.js
+category: community
+category_display: Community
+source_repo: EmblemCompany/Agent-skills
+source_path: skills/emblem-portfolio-tracker/SKILL.md
+source_url: https://github.com/EmblemCompany/Agent-skills/blob/main/skills/emblem-portfolio-tracker/SKILL.md
+fetched_at: '2026-04-12T04:46:04.056040+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-04-12T04:53:16.151161Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39937abbf0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39937abbf0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-04-12T07:23:19.086651Z'
+indexed_at: '2026-04-12T07:23:19.086657Z'

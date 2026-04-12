@@ -12,32 +12,32 @@ prompt_preview: "---\nname: build-feature-store\ndescription: >\n  Build a featu
   \ projects, or building..."
 full_prompt_length: 11832
 tools_mentioned:
-- python
-- Kubernetes
-- SQLite
+- aws
 - redis
+- python
+- Python
 - Redis
 - gcp
+- Kubernetes
 - fastapi
-- aws
+- SQLite
 - FastAPI
-- Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/build-feature-store/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/build-feature-store/SKILL.md
-fetched_at: '2026-04-05T04:37:38.134377+00:00'
+fetched_at: '2026-04-12T04:48:54.916612+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:40:50.109553Z'
+  evaluated_at: '2026-04-12T06:21:30.269707Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac85454f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f399347a390 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac85454f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f399347a390 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:59.217422Z'
-indexed_at: '2026-04-05T08:29:59.217427Z'
+  fetched_at: '2026-04-12T07:23:21.130675Z'
+indexed_at: '2026-04-12T07:23:21.130681Z'
 ---

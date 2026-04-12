@@ -4,46 +4,31 @@ slug: skill
 name: AgentCard
 description: 'Commands that are safe to run from any shell: `whoami`, `cards list`,
   `balance`, `transactions`, `payment-method`.'
-prompt_preview: '---
-
-  name: agent-card
-
-  description: Manage prepaid virtual Visa cards for AI agents with AgentCard. Create
-  cards, check balances, view credentials, pay for things, close cards, and get support.
-  Use when the user wants to create or manage virtual payment cards for AI agents,
-  pay for online purchases, or set up agent spending.
-
-  ---
-
-
-  # AgentCard
-
-
-  You help the user manage prepaid virtual Visa cards through AgentCard MCP tools.
-
-
-  ## Setup
-
-
-  Tools are prefixed `mcp__agent-cards__*`. If no AgentCard tools a...'
-full_prompt_length: 7912
+prompt_preview: "---\nname: agent-card\ndescription: Manage prepaid virtual Visa cards\
+  \ for AI agents with AgentCard. Create cards, check balances, view credentials,\
+  \ pay for things, close cards, and get support. Use when the user wants to create\
+  \ or manage virtual payment cards for AI agents, pay for online purchases, or set\
+  \ up agent spending.\nversion: 1.0.1\nmetadata:\n  openclaw:\n    emoji: \"\U0001F4B3\
+  \"\n    homepage: https://agentcard.sh\n    requires:\n      anyBins:\n        -\
+  \ agent-cards\n        - npx\n    install:\n      - ki..."
+full_prompt_length: 8738
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: agent-cards/skill
 source_path: SKILL.md
 source_url: https://github.com/agent-cards/skill/blob/main/SKILL.md
-fetched_at: '2026-04-05T04:36:34.635360+00:00'
+fetched_at: '2026-04-12T04:47:18.405748+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T05:46:39.276145Z'
+  evaluated_at: '2026-04-12T05:36:22.868188Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8c7f050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993612d80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8c7f050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993612d80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -53,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:58.271584Z'
-indexed_at: '2026-04-05T08:29:58.271590Z'
+  fetched_at: '2026-04-12T07:23:20.124024Z'
+indexed_at: '2026-04-12T07:23:20.124030Z'
 ---

@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/setup-putior-ci/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/setup-putior-ci/SKILL.md
-fetched_at: '2026-04-05T04:38:09.466733+00:00'
+fetched_at: '2026-04-12T04:49:50.119691+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T07:39:37.462962Z'
+  evaluated_at: '2026-04-12T06:55:40.964886Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8705460 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993610bf0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8705460 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993610bf0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:59.920437Z'
-indexed_at: '2026-04-05T08:29:59.920442Z'
+  fetched_at: '2026-04-12T07:23:21.886987Z'
+indexed_at: '2026-04-12T07:23:21.886992Z'
 ---

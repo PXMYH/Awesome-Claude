@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/design-compliance-architecture/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/design-compliance-architecture/SKILL.md
-fetched_at: '2026-04-05T04:37:47.078127+00:00'
+fetched_at: '2026-04-12T04:49:09.988788+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:54:11.757892Z'
+  evaluated_at: '2026-04-12T06:30:56.922994Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8547350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e7290 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8547350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e7290 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:59.412042Z'
-indexed_at: '2026-04-05T08:29:59.412047Z'
+  fetched_at: '2026-04-12T07:23:21.343983Z'
+indexed_at: '2026-04-12T07:23:21.343989Z'
 ---

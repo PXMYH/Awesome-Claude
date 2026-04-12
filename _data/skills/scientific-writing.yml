@@ -18,7 +18,7 @@ prompt_preview: '---
   license: MIT license
 
   met...'
-full_prompt_length: 33723
+full_prompt_length: 33682
 tools_mentioned:
 - python
 category: scientific
@@ -26,18 +26,18 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scientific-writing/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scientific-writing/SKILL.md
-fetched_at: '2026-04-05T04:36:06.092440+00:00'
+fetched_at: '2026-04-12T04:46:28.297004+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T05:06:20.680930Z'
+  evaluated_at: '2026-04-12T05:08:07.375890Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac87059d0 state=finished
-      raised ReadTimeout>]'
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3994397f80 state=finished
+      raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac87059d0 state=finished
-      raised ReadTimeout>]'
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3994397f80 state=finished
+      raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
@@ -46,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:57.669446Z'
-indexed_at: '2026-04-05T08:29:57.669452Z'
+  fetched_at: '2026-04-12T07:23:19.467576Z'
+indexed_at: '2026-04-12T07:23:19.467582Z'

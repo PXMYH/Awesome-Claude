@@ -21,26 +21,26 @@ prompt_preview: '---
   # D3.js Visualisation...'
 full_prompt_length: 21764
 tools_mentioned:
-- javascript
+- Vue
 - JavaScript
 - React
-- Vue
+- javascript
 category: community
 category_display: Community
 source_repo: chrisvoncsefalvay/claude-d3js-skill
 source_path: SKILL.md
 source_url: https://github.com/chrisvoncsefalvay/claude-d3js-skill/blob/main/SKILL.md
-fetched_at: '2026-04-05T04:36:46.277449+00:00'
+fetched_at: '2026-04-12T04:47:37.094874+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T05:56:00.637739Z'
+  evaluated_at: '2026-04-12T05:45:42.822019Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8c4c0e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39937446e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8c4c0e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39937446e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:58.463769Z'
-indexed_at: '2026-04-05T08:29:58.463774Z'
+  fetched_at: '2026-04-12T07:23:20.332282Z'
+indexed_at: '2026-04-12T07:23:20.332288Z'
 ---

@@ -13,24 +13,24 @@ prompt_preview: "---\nname: free-tier-strategy\ndescription: |\n  Design free ti
   \ naturally—without feeling like a trap o..."
 full_prompt_length: 12827
 tools_mentioned:
-- Redis
 - MongoDB
+- Redis
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/free-tier-strategy/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/free-tier-strategy/SKILL.md
-fetched_at: '2026-04-05T04:37:22.812655+00:00'
+fetched_at: '2026-04-12T04:48:31.573863+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:21:00.176165Z'
+  evaluated_at: '2026-04-12T06:10:42.196216Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86db9b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39937c5520 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86db9b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39937c5520 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:58.990401Z'
-indexed_at: '2026-04-05T08:29:58.990406Z'
+  fetched_at: '2026-04-12T07:23:20.890732Z'
+indexed_at: '2026-04-12T07:23:20.890738Z'
 ---

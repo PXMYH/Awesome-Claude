@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/consult-natural-history/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/consult-natural-history/SKILL.md
-fetched_at: '2026-04-05T04:37:42.138076+00:00'
+fetched_at: '2026-04-12T04:49:01.633287+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:46:03.579132Z'
+  evaluated_at: '2026-04-12T06:25:41.084237Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86d9f10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f399347b590 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86d9f10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f399347b590 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:59.304558Z'
-indexed_at: '2026-04-05T08:29:59.304563Z'
+  fetched_at: '2026-04-12T07:23:21.225171Z'
+indexed_at: '2026-04-12T07:23:21.225177Z'

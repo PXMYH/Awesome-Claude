@@ -12,28 +12,28 @@ prompt_preview: "---\nname: developer-ads\ndescription: |\n  Paid advertising st
   \ sponsorships\n  - Developer ad..."
 full_prompt_length: 11746
 tools_mentioned:
-- go
-- python
-- javascript
 - PostgreSQL
+- go
 - JavaScript
+- python
 - Python
+- javascript
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/developer-ads/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/developer-ads/SKILL.md
-fetched_at: '2026-04-05T04:37:20.911583+00:00'
+fetched_at: '2026-04-12T04:48:28.685659+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:19:05.983576Z'
+  evaluated_at: '2026-04-12T06:08:47.325777Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8e4f800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e54f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8e4f800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e54f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:58.949252Z'
-indexed_at: '2026-04-05T08:29:58.949258Z'
+  fetched_at: '2026-04-12T07:23:20.847666Z'
+indexed_at: '2026-04-12T07:23:20.847672Z'
 ---

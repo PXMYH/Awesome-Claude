@@ -33,9 +33,9 @@ prompt_preview: '---
   - **Server-side valida...'
 full_prompt_length: 8650
 tools_mentioned:
-- Node.js
-- React
 - TypeScript
+- React
+- Node.js
 - SQLite
 - REST
 - MySQL
@@ -44,17 +44,17 @@ category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-api-routes/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-api-routes/SKILL.md
-fetched_at: '2026-04-05T04:37:01.035105+00:00'
+fetched_at: '2026-04-12T04:48:00.838633+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:08:56.661914Z'
+  evaluated_at: '2026-04-12T05:58:38.055265Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86db950 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993924590 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86db950 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993924590 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -64,6 +64,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:58.729614Z'
-indexed_at: '2026-04-05T08:29:58.729619Z'
+  fetched_at: '2026-04-12T07:23:20.613414Z'
+indexed_at: '2026-04-12T07:23:20.613421Z'
 ---

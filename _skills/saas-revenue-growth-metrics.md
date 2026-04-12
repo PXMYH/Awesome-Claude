@@ -17,17 +17,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/saas-revenue-growth-metrics/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/saas-revenue-growth-metrics/SKILL.md
-fetched_at: '2026-04-05T04:36:57.885882+00:00'
+fetched_at: '2026-04-12T04:47:56.213842+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:07:11.359776Z'
+  evaluated_at: '2026-04-12T05:56:52.568295Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac9717a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993443890 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac9717a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993443890 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:58.692939Z'
-indexed_at: '2026-04-05T08:29:58.692945Z'
+  fetched_at: '2026-04-12T07:23:20.574578Z'
+indexed_at: '2026-04-12T07:23:20.574585Z'
 ---

@@ -19,25 +19,25 @@ full_prompt_length: 36806
 tools_mentioned:
 - go
 - python
+- Python
 - fastapi
 - FastAPI
-- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/rowan/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/rowan/SKILL.md
-fetched_at: '2026-04-05T04:36:05.006426+00:00'
+fetched_at: '2026-04-12T04:46:26.615429+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T05:04:15.973479Z'
+  evaluated_at: '2026-04-12T05:07:01.958441Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8546b10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993440320 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8546b10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993440320 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:57.646016Z'
-indexed_at: '2026-04-05T08:29:57.646022Z'
+  fetched_at: '2026-04-12T07:23:19.443054Z'
+indexed_at: '2026-04-12T07:23:19.443060Z'
 ---

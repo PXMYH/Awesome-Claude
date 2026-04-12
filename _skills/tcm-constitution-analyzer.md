@@ -17,17 +17,17 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/tcm-constitution-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/tcm-constitution-analyzer/SKILL.md
-fetched_at: '2026-04-05T04:37:08.246790+00:00'
+fetched_at: '2026-04-12T04:48:07.596473+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:12:36.910094Z'
+  evaluated_at: '2026-04-12T06:02:17.452946Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac85604d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993613bc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac85604d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993613bc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:58.806702Z'
-indexed_at: '2026-04-05T08:29:58.806708Z'
+  fetched_at: '2026-04-12T07:23:20.696288Z'
+indexed_at: '2026-04-12T07:23:20.696295Z'
 ---

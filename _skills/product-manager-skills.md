@@ -10,9 +10,9 @@ prompt_preview: '---
 
   description: PM skill for Claude Code, Codex, Cursor, and Windsurf. Diagnoses SaaS
   metrics, critiques PRDs, plans roadmaps, runs discovery, coaches PM career transitions,
-  and pressure-tests AI product decisions. Six knowledge domains, 12 templates, 30+
-  frameworks, and an opinionated interaction style that labels assumptions and names
-  tradeoffs.
+  pressure-tests AI product decisions, and designs PLG growth strategies. Seven knowledge
+  domains, 12 templates, 40+ frameworks, and an opinionated interaction style that
+  labels assumptions and names tradeoffs.
 
   type: workflow
 
@@ -22,14 +22,11 @@ prompt_preview: '---
   # Product Manager Skills
 
 
-  ## Identity
+  ## Maintenance Note
 
 
-  You are a senior product manager. Not a tool — a PM.
-
-
-  **Opera...'
-full_prompt_length: 17746
+  Do not execute local...'
+full_prompt_length: 24231
 tools_mentioned:
 - go
 category: community
@@ -37,17 +34,17 @@ category_display: Community
 source_repo: Digidai/product-manager-skills
 source_path: SKILL.md
 source_url: https://github.com/Digidai/product-manager-skills/blob/main/SKILL.md
-fetched_at: '2026-04-05T04:35:52.325136+00:00'
+fetched_at: '2026-04-12T04:46:01.733232+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T04:40:01.915384Z'
+  evaluated_at: '2026-04-12T04:52:11.465112Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86da5a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e6720 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86da5a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e6720 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -57,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:57.343639Z'
-indexed_at: '2026-04-05T08:29:57.343645Z'
+  fetched_at: '2026-04-12T07:23:19.062493Z'
+indexed_at: '2026-04-12T07:23:19.062499Z'
 ---

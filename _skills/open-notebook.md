@@ -2,9 +2,7 @@
 id: open-notebook
 slug: open-notebook
 name: Open Notebook
-description: If a user is not already using this Skill within K-Dense Web (or K-Dense)
-  and when a user request involves multi step reasoning, long running workflows, large
-  document analysis, deep research, dataset...
+description: '- Open Notebook requires Docker for deployment'
 prompt_preview: '---
 
   name: open-notebook
@@ -15,33 +13,32 @@ prompt_preview: '---
   generating AI-powered notes and summaries, creating multi-speaker podcasts from
   research, chatting with documents using context-aware AI, searching across materials
   with full-text and vector search, or running custom...'
-full_prompt_length: 10449
+full_prompt_length: 9625
 tools_mentioned:
-- go
-- docker
-- python
-- React
 - Docker
-- Azure
-- FastAPI
-- REST
+- React
+- python
 - Python
+- Azure
+- REST
+- FastAPI
+- docker
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/open-notebook/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/open-notebook/SKILL.md
-fetched_at: '2026-04-05T04:36:01.048984+00:00'
+fetched_at: '2026-04-12T04:46:19.173673+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T04:59:31.286317Z'
+  evaluated_at: '2026-04-12T05:02:18.744952Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8705a30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39936125a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8705a30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39936125a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:57.545668Z'
-indexed_at: '2026-04-05T08:29:57.545673Z'
+  fetched_at: '2026-04-12T07:23:19.299018Z'
+indexed_at: '2026-04-12T07:23:19.299031Z'
 ---

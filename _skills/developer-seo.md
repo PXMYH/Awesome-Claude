@@ -13,25 +13,25 @@ prompt_preview: "---\nname: developer-seo\ndescription: |\n  SEO strategy for te
   \  - Technical keyword research\n  - Developer..."
 full_prompt_length: 8959
 tools_mentioned:
-- Node.js
-- JavaScript
 - react
+- JavaScript
+- Node.js
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/developer-seo/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/developer-seo/SKILL.md
-fetched_at: '2026-04-05T04:37:22.348670+00:00'
+fetched_at: '2026-04-12T04:48:30.750578+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:20:27.088435Z'
+  evaluated_at: '2026-04-12T06:10:09.827255Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86db4a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993610890 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86db4a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993610890 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:58.978479Z'
-indexed_at: '2026-04-05T08:29:58.978485Z'
+  fetched_at: '2026-04-12T07:23:20.878363Z'
+indexed_at: '2026-04-12T07:23:20.878369Z'
 ---

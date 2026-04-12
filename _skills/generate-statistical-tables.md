@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/generate-statistical-tables/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/generate-statistical-tables/SKILL.md
-fetched_at: '2026-04-05T04:37:52.434444+00:00'
+fetched_at: '2026-04-12T04:49:19.241435+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T07:04:44.651559Z'
+  evaluated_at: '2026-04-12T06:36:46.382584Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86da6f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39934785f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86da6f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39934785f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:59.528570Z'
-indexed_at: '2026-04-05T08:29:59.528576Z'
+  fetched_at: '2026-04-12T07:23:21.472233Z'
+indexed_at: '2026-04-12T07:23:21.472239Z'
 ---

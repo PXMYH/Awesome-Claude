@@ -40,17 +40,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/ask-questions-if-underspecified/skills/ask-questions-if-underspecified/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/ask-questions-if-underspecified/skills/ask-questions-if-underspecified/SKILL.md
-fetched_at: '2026-04-05T04:38:28.428244+00:00'
+fetched_at: '2026-04-12T04:50:20.784400+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T08:06:44.144480Z'
+  evaluated_at: '2026-04-12T07:11:08.561341Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8846570 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f399347aab0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac8846570 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f399347aab0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -60,5 +60,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:30:00.235860Z'
-indexed_at: '2026-04-05T08:30:00.235866Z'
+  fetched_at: '2026-04-12T07:23:22.222334Z'
+indexed_at: '2026-04-12T07:23:22.222340Z'

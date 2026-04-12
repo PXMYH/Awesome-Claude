@@ -17,17 +17,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/prioritization-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/prioritization-advisor/SKILL.md
-fetched_at: '2026-04-05T04:36:56.899420+00:00'
+fetched_at: '2026-04-12T04:47:54.437762+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T06:05:58.456736Z'
+  evaluated_at: '2026-04-12T05:55:39.501582Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac97179b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993440080 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac97179b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993440080 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:58.667850Z'
-indexed_at: '2026-04-05T08:29:58.667855Z'
+  fetched_at: '2026-04-12T07:23:20.547601Z'
+indexed_at: '2026-04-12T07:23:20.547607Z'
 ---

@@ -9,7 +9,7 @@ prompt_preview: "---\nname: markdown-mermaid-writing\ndescription: Comprehensive
   \ type references, and 9 document templates.\nallowed-tools: Read Write Edit Bash\n\
   license: Apache-2.0\nmetadata:\n  skill-author: Clayton Young / Superior Byte Works,\
   \ LLC (@borealBytes)\n  skill-..."
-full_prompt_length: 14754
+full_prompt_length: 14753
 tools_mentioned:
 - Python
 category: scientific
@@ -17,18 +17,18 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/markdown-mermaid-writing/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/markdown-mermaid-writing/SKILL.md
-fetched_at: '2026-04-05T04:35:59.500806+00:00'
+fetched_at: '2026-04-12T04:46:16.258721+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T04:54:37.786722Z'
+  evaluated_at: '2026-04-12T05:00:25.459745Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86da360 state=finished
-      raised ReadTimeout>]'
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39936106b0 state=finished
+      raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86da360 state=finished
-      raised ReadTimeout>]'
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39936106b0 state=finished
+      raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:57.505380Z'
-indexed_at: '2026-04-05T08:29:57.505386Z'
+  fetched_at: '2026-04-12T07:23:19.249098Z'
+indexed_at: '2026-04-12T07:23:19.249104Z'

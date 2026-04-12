@@ -10,7 +10,7 @@ prompt_preview: "---\nname: scientific-visualization\ndescription: Meta-skill fo
   \ with publication styles. For quick exploration use seaborn or plotly directly.\n\
   license: MIT license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# Scientific\
   \ Visualization..."
-full_prompt_length: 25522
+full_prompt_length: 25514
 tools_mentioned:
 - python
 - Python
@@ -19,17 +19,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scientific-visualization/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scientific-visualization/SKILL.md
-fetched_at: '2026-04-05T04:36:05.987102+00:00'
+fetched_at: '2026-04-12T04:46:28.078235+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-05T05:05:12.606036Z'
+  evaluated_at: '2026-04-12T05:07:59.288390Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86d9d60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3994397f80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ffac86d9d60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3994397f80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-05T08:29:57.666468Z'
-indexed_at: '2026-04-05T08:29:57.666474Z'
+  fetched_at: '2026-04-12T07:23:19.464439Z'
+indexed_at: '2026-04-12T07:23:19.464444Z'
