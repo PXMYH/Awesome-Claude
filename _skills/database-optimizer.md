@@ -23,35 +23,35 @@ prompt_preview: '---
   plan analysis, and system configuration with emphasis on...'
 full_prompt_length: 6553
 tools_mentioned:
+- MongoDB
 - MySQL
 - Redis
-- MongoDB
 - PostgreSQL
 category: 05-data-ai
 category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/database-optimizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/database-optimizer.md
-fetched_at: '2026-04-13T04:57:06.054955Z'
+fetched_at: '2026-04-14T04:44:37.623242Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-13T05:07:47.304568Z'
+  evaluated_at: '2026-04-14T04:55:37.132216Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f010f1dab70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f66ecf06c00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f010f1dab70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f66ecf06c00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 17105
-  forks: 1957
-  open_issues: 29
+  stars: 17220
+  forks: 1964
+  open_issues: 34
   last_commit: '2026-04-01'
-  fetched_at: '2026-04-13T04:57:25.113181Z'
-indexed_at: '2026-04-13T05:20:46.720530Z'
+  fetched_at: '2026-04-14T04:45:08.442743Z'
+indexed_at: '2026-04-14T05:08:42.288897Z'
 ---

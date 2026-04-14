@@ -21,33 +21,33 @@ prompt_preview: '---
   update strategies, and optimization with emphasis on maint...'
 full_prompt_length: 6870
 tools_mentioned:
-- Go
-- PHP
 - Python
+- PHP
+- Go
 category: 06-developer-experience
 category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/dependency-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/dependency-manager.md
-fetched_at: '2026-04-13T04:57:07.927424Z'
+fetched_at: '2026-04-14T04:44:40.549178Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-13T05:09:16.659547Z'
+  evaluated_at: '2026-04-14T04:57:08.178861Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f010fddfe60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f66ece48440 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f010fddfe60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f66ece48440 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 17105
-  forks: 1957
-  open_issues: 29
+  stars: 17220
+  forks: 1964
+  open_issues: 34
   last_commit: '2026-04-01'
-  fetched_at: '2026-04-13T04:57:25.113181Z'
-indexed_at: '2026-04-13T05:20:46.752375Z'
+  fetched_at: '2026-04-14T04:45:08.442743Z'
+indexed_at: '2026-04-14T05:08:42.329408Z'

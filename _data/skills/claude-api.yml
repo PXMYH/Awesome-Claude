@@ -8,11 +8,11 @@ prompt_preview: '---
 
   name: claude-api
 
-  description: Build, debug, and optimize Claude API / Anthropic SDK apps. Apps built
+  description: "Build, debug, and optimize Claude API / Anthropic SDK apps. Apps built
   with this skill should include prompt caching. TRIGGER when: code imports anthropic/@anthropic-ai/sdk;
   user asks to use the Claude API, Anthropic SDKs, or Managed Agents (/v1/agents,
   /v1/sessions, /v1/environments). DO NOT TRIGGER when: code imports `openai`/other
-  AI SDK, general programming, or ML/data-science tasks.
+  AI SDK, general programming, or ML/data-science tasks."
 
   license: Complete terms in LICENSE.txt
 
@@ -20,43 +20,43 @@ prompt_preview: '---
 
 
 
-  # Building LLM-Powered Applica...'
-full_prompt_length: 28909
+  # Building LLM-Powered Appli...'
+full_prompt_length: 28911
 tools_mentioned:
-- Ruby
-- PHP
-- java
-- REST
-- rest
-- php
-- Go
-- typescript
 - TypeScript
+- Go
+- Java
 - python
+- php
+- REST
+- Ruby
+- go
+- Python
+- rest
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/claude-api/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/claude-api/SKILL.md
-fetched_at: '2026-04-13T04:57:18.080191Z'
+fetched_at: '2026-04-14T04:44:55.813785Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-13T05:17:02.793681Z'
+  evaluated_at: '2026-04-14T05:04:58.660410Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f010f0a8320 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f66ecdda0f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f010f0a8320 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f66ecdda0f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 116012
-  forks: 13310
-  open_issues: 689
-  last_commit: '2026-04-09'
-  fetched_at: '2026-04-13T04:57:25.460302Z'
-indexed_at: '2026-04-13T05:20:46.921952Z'
+  stars: 116802
+  forks: 13408
+  open_issues: 687
+  last_commit: '2026-04-13'
+  fetched_at: '2026-04-14T04:45:09.072962Z'
+indexed_at: '2026-04-14T05:08:42.478176Z'
