@@ -10,55 +10,48 @@ prompt_preview: '---
   name: claude-api
 
   description: "Build, debug, and optimize Claude API / Anthropic SDK apps. Apps built
-  with this skill should include prompt caching. TRIGGER when: code imports anthropic/@anthropic-ai/sdk;
-  user asks to use the Claude API, Anthropic SDKs, or Managed Agents (/v1/agents,
-  /v1/sessions, /v1/environments). DO NOT TRIGGER when: code imports `openai`/other
-  AI SDK, general programming, or ML/data-science tasks."
-
-  license: Complete terms in LICENSE.txt
-
-  ---
-
-
-
-  # Building LLM-Powered Appli...'
-full_prompt_length: 28911
+  with this skill should include prompt caching. Also handles migrating existing Claude
+  API code between Claude model versions (4.5 → 4.6, 4.6 → 4.7, retired-model replacements).
+  TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`; user asks for the Claude
+  API, Anthropic SDK, or Managed Agents; user adds/modifies/tunes a Claude feature
+  (caching, thinking, compaction, tool use, batch, fi...'
+full_prompt_length: 32697
 tools_mentioned:
+- Python
+- python
+- typescript
 - rest
+- Ruby
+- PHP
+- java
+- php
 - Rest
 - REST
-- Go
-- go
-- typescript
-- Ruby
-- Python
-- PHP
-- python
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/claude-api/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/claude-api/SKILL.md
-fetched_at: '2026-04-16T04:50:40.831988Z'
+fetched_at: '2026-04-17T04:48:34.233040Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-16T05:10:35.889505Z'
+  evaluated_at: '2026-04-17T05:08:20.379776Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa31da31d60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9225def830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa31da31d60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9225def830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 118260
-  forks: 13647
-  open_issues: 708
-  last_commit: '2026-04-13'
-  fetched_at: '2026-04-16T04:50:51.773372Z'
-indexed_at: '2026-04-16T05:14:18.011732Z'
+  stars: 119090
+  forks: 13761
+  open_issues: 712
+  last_commit: '2026-04-16'
+  fetched_at: '2026-04-17T04:48:47.165360Z'
+indexed_at: '2026-04-17T05:12:01.464669Z'
 ---
