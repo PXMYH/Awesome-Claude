@@ -14,33 +14,33 @@ prompt_preview: '---
   tweet analytics, or follower analysis."
 
   com...'
-full_prompt_length: 19937
+full_prompt_length: 26862
 tools_mentioned:
-- TypeScript
-- rest
-- Node.js
-- JavaScript
-- python
-- Python
 - Go
+- rest
+- Python
+- TypeScript
+- python
+- JavaScript
 - REST
+- Node.js
 - javascript
 category: community
 category_display: Community
 source_repo: Xquik-dev/x-twitter-scraper
 source_path: skills/x-twitter-scraper/SKILL.md
 source_url: https://github.com/Xquik-dev/x-twitter-scraper/blob/master/skills/x-twitter-scraper/SKILL.md
-fetched_at: '2026-04-12T04:47:16.988875+00:00'
+fetched_at: '2026-04-19T04:50:09.229682+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T05:36:06.673754Z'
+  evaluated_at: '2026-04-19T05:38:14.094115Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993610590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf2a450 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993610590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf2a450 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,5 +50,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:20.117974Z'
-indexed_at: '2026-04-12T07:23:20.117980Z'
+  fetched_at: '2026-04-19T07:27:50.208347Z'
+indexed_at: '2026-04-19T07:27:50.208353Z'

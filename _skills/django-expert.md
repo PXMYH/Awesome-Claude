@@ -18,10 +18,10 @@ prompt_preview: '---
   lice...'
 full_prompt_length: 5901
 tools_mentioned:
-- django
-- python
 - Python
 - fastapi
+- python
+- django
 - REST
 - Django
 category: community
@@ -29,17 +29,17 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/django-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/django-expert/SKILL.md
-fetched_at: '2026-04-12T04:48:16.430456+00:00'
+fetched_at: '2026-04-19T04:50:51.207102+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T06:04:43.742589Z'
+  evaluated_at: '2026-04-19T06:06:45.511377Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e5400 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf2a0c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e5400 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf2a0c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:20.752080Z'
-indexed_at: '2026-04-12T07:23:20.752086Z'
+  fetched_at: '2026-04-19T07:27:50.840135Z'
+indexed_at: '2026-04-19T07:27:50.840141Z'
 ---

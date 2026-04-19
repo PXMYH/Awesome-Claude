@@ -17,17 +17,17 @@ category_display: Community
 source_repo: NoizAI/skills
 source_path: skills/template-skill/SKILL.md
 source_url: https://github.com/NoizAI/skills/blob/main/skills/template-skill/SKILL.md
-fetched_at: '2026-04-12T04:46:35.283834+00:00'
+fetched_at: '2026-04-19T04:49:42.185710+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T05:12:02.479966Z'
+  evaluated_at: '2026-04-19T05:13:59.864790Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39934409e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a3890 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39934409e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a3890 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:19.570929Z'
-indexed_at: '2026-04-12T07:23:19.570937Z'
+  fetched_at: '2026-04-19T07:27:49.660407Z'
+indexed_at: '2026-04-19T07:27:49.660412Z'
 ---

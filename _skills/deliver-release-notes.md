@@ -17,17 +17,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/deliver-release-notes/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/deliver-release-notes/SKILL.md
-fetched_at: '2026-04-12T04:50:04.198460+00:00'
+fetched_at: '2026-04-19T04:52:05.634042+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T07:03:47.637954Z'
+  evaluated_at: '2026-04-19T07:07:32.298066Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993610a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0c9850 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993610a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0c9850 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:22.063874Z'
-indexed_at: '2026-04-12T07:23:22.063880Z'
+  fetched_at: '2026-04-19T07:27:52.181189Z'
+indexed_at: '2026-04-19T07:27:52.181198Z'
 ---

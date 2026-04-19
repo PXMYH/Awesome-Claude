@@ -2,36 +2,42 @@
 id: research-lookup
 slug: research-lookup
 name: Research Information Lookup
-description: '- **Parallel Chat API** (default, `core` model): Comprehensive, multi-source
-  research for any topic'
-prompt_preview: "---\nname: research-lookup\ndescription: Look up current research\
-  \ information using the Parallel Chat API (primary) or Perplexity sonar-pro-search\
-  \ (academic paper searches). Automatically routes queries to the best backend. Use\
-  \ for finding papers, gathering research data, and verifying scientific information.\n\
-  allowed-tools: Read Write Edit Bash\nlicense: MIT license\ncompatibility: PARALLEL_API_KEY\
-  \ and OPENROUTER_API_KEY required\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\
-  \n# Research Information L..."
-full_prompt_length: 16204
+description: '- **parallel-cli search** (default): Fast, cost-effective web search
+  with academic source prioritization via the parallel-web skill'
+prompt_preview: '---
+
+  name: research-lookup
+
+  description: Look up current research information using parallel-cli search (primary,
+  fast web search), the Parallel Chat API (deep research), or Perplexity sonar-pro-search
+  (academic paper searches). Automatically routes queries to the best backend. Use
+  for finding papers, gathering research data, and verifying scientific information.
+
+  allowed-tools: Read Write Edit Bash
+
+  license: MIT license
+
+  compatibility: parallel-cli required (primary); PARALLEL_API_KEY and OPENROUTER...'
+full_prompt_length: 23178
 tools_mentioned:
-- go
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/research-lookup/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/research-lookup/SKILL.md
-fetched_at: '2026-04-12T04:46:26.402546+00:00'
+fetched_at: '2026-04-19T04:49:36.370095+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T05:06:53.871962Z'
+  evaluated_at: '2026-04-19T05:08:42.439619Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993443d40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d3095e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993443d40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d3095e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:19.440015Z'
-indexed_at: '2026-04-12T07:23:19.440021Z'
+  fetched_at: '2026-04-19T07:27:49.539158Z'
+indexed_at: '2026-04-19T07:27:49.539165Z'
 ---

@@ -12,24 +12,24 @@ prompt_preview: "---\r\nname: prepare-soil\r\ndescription: >\r\n  Assess and imp
   \ water and light, when transitioning to..."
 full_prompt_length: 16512
 tools_mentioned:
-- Angular
 - angular
+- Angular
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/prepare-soil/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/prepare-soil/SKILL.md
-fetched_at: '2026-04-12T04:49:38.297793+00:00'
+fetched_at: '2026-04-19T04:51:47.489465+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T06:48:16.014050Z'
+  evaluated_at: '2026-04-19T06:51:35.480684Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993440a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0fcad0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993440a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0fcad0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:21.724241Z'
-indexed_at: '2026-04-12T07:23:21.724247Z'
+  fetched_at: '2026-04-19T07:27:51.827524Z'
+indexed_at: '2026-04-19T07:27:51.827530Z'
 ---

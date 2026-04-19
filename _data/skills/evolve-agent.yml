@@ -1,32 +1,33 @@
 id: evolve-agent
 slug: evolve-agent
 name: Evolve an Existing Agent
-description: Claude skill for Evolve an Existing Agent
-prompt_preview: "---\r\nname: evolve-agent\r\ndescription: >\r\n  Evolve an existing\
-  \ agent definition by refining its persona in-place or\r\n  creating an advanced\
-  \ variant. Covers assessing the current agent against\r\n  best practices, gathering\
-  \ evolution requirements, choosing scope\r\n  (refinement vs. variant), applying\
-  \ changes to skills, tools, capabilities,\r\n  and limitations, updating version\
-  \ metadata, and synchronizing the registry\r\n  and cross-references. Use when an\
-  \ agent's skills list is outdated, user\r\n  feedbac..."
-full_prompt_length: 14732
+description: '- `create-agent` — foundation for authoring new agents; evolve-agent
+  assumes this was followed originally'
+prompt_preview: "---\nname: evolve-agent\ndescription: >\n  Evolve an existing agent\
+  \ definition by refining its persona in-place or\n  creating an advanced variant.\
+  \ Covers assessing the current agent against\n  best practices, gathering evolution\
+  \ requirements, choosing scope\n  (refinement vs. variant), applying changes to\
+  \ skills, tools, capabilities,\n  and limitations, updating version metadata, and\
+  \ synchronizing the registry\n  and cross-references. Use when an agent's skills\
+  \ list is outdated, user\n  feedback reveals..."
+full_prompt_length: 16608
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/evolve-agent/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/evolve-agent/SKILL.md
-fetched_at: '2026-04-12T04:49:14.550892+00:00'
+fetched_at: '2026-04-19T04:51:32.315203+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T06:33:48.138164Z'
+  evaluated_at: '2026-04-19T06:37:00.066948Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e6630 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0fcfe0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e6630 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0fcfe0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:21.407207Z'
-indexed_at: '2026-04-12T07:23:21.407213Z'
+  fetched_at: '2026-04-19T07:27:51.498708Z'
+indexed_at: '2026-04-19T07:27:51.498714Z'

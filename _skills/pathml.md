@@ -13,24 +13,24 @@ prompt_preview: "---\nname: pathml\ndescription: Full-featured computational pat
   \ Python toolkit for computat..."
 full_prompt_length: 7367
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pathml/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pathml/SKILL.md
-fetched_at: '2026-04-12T04:46:20.469101+00:00'
+fetched_at: '2026-04-19T04:49:32.921803+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T05:03:07.262234Z'
+  evaluated_at: '2026-04-19T05:04:55.456198Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e6540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0fe2a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e6540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0fe2a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:19.329479Z'
-indexed_at: '2026-04-12T07:23:19.329489Z'
+  fetched_at: '2026-04-19T07:27:49.453369Z'
+indexed_at: '2026-04-19T07:27:49.453375Z'
 ---

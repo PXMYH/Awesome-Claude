@@ -12,24 +12,24 @@ prompt_preview: "---\nname: create-glyph\ndescription: >\n  Create R-based picto
   \ visualization, an existing glyp..."
 full_prompt_length: 15986
 tools_mentioned:
-- flask
 - go
+- flask
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-glyph/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-glyph/SKILL.md
-fetched_at: '2026-04-12T04:49:03.962035+00:00'
+fetched_at: '2026-04-19T04:51:25.303771+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T06:27:10.214912Z'
+  evaluated_at: '2026-04-19T06:30:21.835815Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993441190 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0fde50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993441190 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0fde50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:21.259136Z'
-indexed_at: '2026-04-12T07:23:21.259142Z'
+  fetched_at: '2026-04-19T07:27:51.352138Z'
+indexed_at: '2026-04-19T07:27:51.352144Z'

@@ -17,17 +17,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/supply-chain-risk-auditor/skills/supply-chain-risk-auditor/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/supply-chain-risk-auditor/skills/supply-chain-risk-auditor/SKILL.md
-fetched_at: '2026-04-12T04:50:35.110054+00:00'
+fetched_at: '2026-04-19T04:52:28.613088+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T07:16:41.426193Z'
+  evaluated_at: '2026-04-19T07:21:12.311590Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993f506b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d4ae4e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993f506b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d4ae4e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:22.348841Z'
-indexed_at: '2026-04-12T07:23:22.348847Z'
+  fetched_at: '2026-04-19T07:27:52.486326Z'
+indexed_at: '2026-04-19T07:27:52.486331Z'
 ---

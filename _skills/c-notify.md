@@ -40,17 +40,17 @@ category_display: Community
 source_repo: daxaur/openpaw
 source_path: skills/c-notify/SKILL.md
 source_url: https://github.com/daxaur/openpaw/blob/main/skills/c-notify/SKILL.md
-fetched_at: '2026-04-12T04:47:44.333024+00:00'
+fetched_at: '2026-04-19T04:50:28.397965+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T05:49:23.990645Z'
+  evaluated_at: '2026-04-19T05:51:29.022097Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3994397c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf2a240 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3994397c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf2a240 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -60,6 +60,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:20.411824Z'
-indexed_at: '2026-04-12T07:23:20.411830Z'
+  fetched_at: '2026-04-19T07:27:50.501380Z'
+indexed_at: '2026-04-19T07:27:50.501385Z'
 ---

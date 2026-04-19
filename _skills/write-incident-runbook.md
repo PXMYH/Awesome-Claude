@@ -13,24 +13,24 @@ prompt_preview: "---\nname: write-incident-runbook\ndescription: >\n  Create str
   \ procedures.\nl..."
 full_prompt_length: 13741
 tools_mentioned:
-- AWS
 - go
+- AWS
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/write-incident-runbook/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/write-incident-runbook/SKILL.md
-fetched_at: '2026-04-12T04:49:59.879205+00:00'
+fetched_at: '2026-04-19T04:52:02.269875+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T07:01:45.179814Z'
+  evaluated_at: '2026-04-19T07:05:30.850625Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993442810 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a18e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993442810 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a18e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:22.019843Z'
-indexed_at: '2026-04-12T07:23:22.019849Z'
+  fetched_at: '2026-04-19T07:27:52.137009Z'
+indexed_at: '2026-04-19T07:27:52.137014Z'
 ---

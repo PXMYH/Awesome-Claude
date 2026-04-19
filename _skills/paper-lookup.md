@@ -7,13 +7,13 @@ prompt_preview: '---
 
   name: paper-lookup
 
-  description: Search 10 academic paper databases via their REST APIs to find research
-  papers, preprints, and scholarly articles. Covers biomedical literature (PubMed,
-  PMC full text), preprint servers (bioRxiv, medRxiv, arXiv), multidisciplinary indexes
-  (OpenAlex, Crossref, Semantic Scholar), open access aggregators (CORE, Unpaywall).
-  Use this skill whenever the user wants to search for research papers, find citations,
-  look up articles by DOI or PMID, retrieve abstracts or f...'
-full_prompt_length: 10150
+  description: Search 10 academic paper databases via REST APIs for research papers,
+  preprints, and scholarly articles. Covers PubMed, PMC (full text), bioRxiv, medRxiv,
+  arXiv, OpenAlex, Crossref, Semantic Scholar, CORE, Unpaywall. Use when searching
+  for papers, citations, DOI/PMID lookups, abstracts, full text, open access, preprints,
+  citation graphs, author search, or any scholarly literature query. Triggers on mentions
+  of any supported database or requests like "find pape...'
+full_prompt_length: 9635
 tools_mentioned:
 - REST
 category: scientific
@@ -21,17 +21,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/paper-lookup/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/paper-lookup/SKILL.md
-fetched_at: '2026-04-12T04:46:19.827959+00:00'
+fetched_at: '2026-04-19T04:49:32.566484+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T05:02:43.008429Z'
+  evaluated_at: '2026-04-19T05:04:31.024369Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39937aa360 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d46ce60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39937aa360 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d46ce60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:19.313167Z'
-indexed_at: '2026-04-12T07:23:19.313176Z'
+  fetched_at: '2026-04-19T07:27:49.444336Z'
+indexed_at: '2026-04-19T07:27:49.444342Z'
 ---

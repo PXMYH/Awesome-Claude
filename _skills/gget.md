@@ -12,24 +12,24 @@ prompt_preview: "---\nname: gget\ndescription: \"Fast CLI/Python queries to 20+ 
   \ tool and Python package prov..."
 full_prompt_length: 25078
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/gget/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/gget/SKILL.md
-fetched_at: '2026-04-12T04:46:12.984974+00:00'
+fetched_at: '2026-04-19T04:49:28.538942+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T04:58:24.049697Z'
+  evaluated_at: '2026-04-19T05:00:11.454949Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993612b70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0c98e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993612b70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0c98e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:19.202986Z'
-indexed_at: '2026-04-12T07:23:19.202993Z'
+  fetched_at: '2026-04-19T07:27:49.344446Z'
+indexed_at: '2026-04-19T07:27:49.344451Z'
 ---

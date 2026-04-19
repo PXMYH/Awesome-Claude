@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/finance-based-pricing-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/finance-based-pricing-advisor/SKILL.md
-fetched_at: '2026-04-12T04:47:52.104165+00:00'
+fetched_at: '2026-04-19T04:50:33.600839+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T05:54:00.899663Z'
+  evaluated_at: '2026-04-19T05:56:05.072632Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993612000 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a3320 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993612000 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a3320 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:20.511981Z'
-indexed_at: '2026-04-12T07:23:20.511986Z'
+  fetched_at: '2026-04-19T07:27:50.602090Z'
+indexed_at: '2026-04-19T07:27:50.602096Z'
 ---

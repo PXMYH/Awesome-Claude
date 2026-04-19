@@ -33,17 +33,17 @@ category_display: Community
 source_repo: glacierphonk/naming
 source_path: SKILL.md
 source_url: https://github.com/glacierphonk/naming/blob/main/SKILL.md
-fetched_at: '2026-04-12T04:48:03.554431+00:00'
+fetched_at: '2026-04-19T04:50:41.475168+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T06:00:06.990744Z'
+  evaluated_at: '2026-04-19T06:02:10.045614Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993440d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf28ad0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993440d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf28ad0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -53,5 +53,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:20.646692Z'
-indexed_at: '2026-04-12T07:23:20.646699Z'
+  fetched_at: '2026-04-19T07:27:50.736465Z'
+indexed_at: '2026-04-19T07:27:50.736471Z'

@@ -12,24 +12,24 @@ prompt_preview: "---\nname: medchem\ndescription: Medicinal chemistry filters. A
   \ structural alerts, and medic..."
 full_prompt_length: 10147
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/medchem/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/medchem/SKILL.md
-fetched_at: '2026-04-12T04:46:17.542379+00:00'
+fetched_at: '2026-04-19T04:49:31.198859+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T05:01:14.052338Z'
+  evaluated_at: '2026-04-19T05:03:01.623996Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e5d30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a38f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e5d30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a38f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:19.267280Z'
-indexed_at: '2026-04-12T07:23:19.267286Z'
+  fetched_at: '2026-04-19T07:27:49.409826Z'
+indexed_at: '2026-04-19T07:27:49.409831Z'
 ---

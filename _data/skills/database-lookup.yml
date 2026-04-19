@@ -7,33 +7,33 @@ prompt_preview: '---
   name: database-lookup
 
   description: Search 78 public scientific, biomedical, materials science, and economic
-  databases via their REST APIs and return structured JSON results. Covers physics/astronomy
-  (NASA, NIST, SDSS, SIMBAD, Exoplanet Archive), earth/environment (USGS, NOAA, EPA,
-  OpenWeatherMap), chemistry/drugs (PubChem, ChEMBL, DrugBank, FDA, KEGG, DailyMed,
-  ZINC, BindingDB), materials science (Materials Project, COD), biology/genomics (Reactome,
-  BRENDA, UniProt, STRING, Ensembl, NCBI Gen...'
-full_prompt_length: 29136
+  databases via REST APIs. Covers physics/astronomy (NASA, NIST, SDSS, SIMBAD), earth/environment
+  (USGS, NOAA, EPA), chemistry/drugs (PubChem, ChEMBL, DrugBank, FDA, KEGG, ZINC,
+  BindingDB), materials (Materials Project, COD), biology/genomics (Reactome, UniProt,
+  STRING, Ensembl, NCBI Gene, GEO, GTEx, PDB, AlphaFold, InterPro, BioGRID, Gene Ontology,
+  dbSNP, gnomAD, ENCODE, Human Protein A...'
+full_prompt_length: 28091
 tools_mentioned:
 - graphql
-- REST
 - GraphQL
+- REST
 - GO
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/database-lookup/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/database-lookup/SKILL.md
-fetched_at: '2026-04-12T04:46:08.935145+00:00'
+fetched_at: '2026-04-19T04:49:26.209887+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T04:55:50.298892Z'
+  evaluated_at: '2026-04-19T04:57:37.621996Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993612990 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0c95e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993612990 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0c95e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,5 +43,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:19.145669Z'
-indexed_at: '2026-04-12T07:23:19.145675Z'
+  fetched_at: '2026-04-19T07:27:49.285396Z'
+indexed_at: '2026-04-19T07:27:49.285402Z'

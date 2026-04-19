@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/honesty-humility/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/honesty-humility/SKILL.md
-fetched_at: '2026-04-12T04:49:21.318737+00:00'
+fetched_at: '2026-04-19T04:51:36.872411+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T06:38:07.170388Z'
+  evaluated_at: '2026-04-19T06:41:19.184029Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993613680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf2bf20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993613680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf2bf20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:21.501411Z'
-indexed_at: '2026-04-12T07:23:21.501417Z'
+  fetched_at: '2026-04-19T07:27:51.594785Z'
+indexed_at: '2026-04-19T07:27:51.594791Z'
 ---

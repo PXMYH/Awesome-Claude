@@ -18,17 +18,17 @@ category_display: Community
 source_repo: Swiftner/Factory-Floor
 source_path: SKILL.md
 source_url: https://github.com/Swiftner/Factory-Floor/blob/main/SKILL.md
-fetched_at: '2026-04-12T04:46:37.043768+00:00'
+fetched_at: '2026-04-19T04:49:43.668187+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T05:12:34.977751Z'
+  evaluated_at: '2026-04-19T05:14:32.560613Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993613980 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0ca780 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993613980 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0ca780 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:19.587429Z'
-indexed_at: '2026-04-12T07:23:19.587435Z'
+  fetched_at: '2026-04-19T07:27:49.672288Z'
+indexed_at: '2026-04-19T07:27:49.672293Z'
 ---

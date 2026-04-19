@@ -12,29 +12,29 @@ prompt_preview: "---\nname: tiledbvcf\ndescription: Efficient storage and retrie
   \ of genomic variant-call data. Built on TileDB..."
 full_prompt_length: 14532
 tools_mentioned:
-- Docker
 - rest
-- python
+- docker
 - Python
 - Azure
 - azure
-- docker
+- python
+- Docker
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/tiledbvcf/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/tiledbvcf/SKILL.md
-fetched_at: '2026-04-12T04:46:31.069293+00:00'
+fetched_at: '2026-04-19T04:49:39.185423+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T05:09:52.628056Z'
+  evaluated_at: '2026-04-19T05:11:41.026912Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e6a80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0ffda0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e6a80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0ffda0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:19.520162Z'
-indexed_at: '2026-04-12T07:23:19.520168Z'
+  fetched_at: '2026-04-19T07:27:49.607865Z'
+indexed_at: '2026-04-19T07:27:49.607871Z'
 ---

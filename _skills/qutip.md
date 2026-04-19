@@ -12,24 +12,24 @@ prompt_preview: "---\nname: qutip\ndescription: Quantum physics simulation libra
   \ Quantum Toolbox in Python\n\n##..."
 full_prompt_length: 9022
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/qutip/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/qutip/SKILL.md
-fetched_at: '2026-04-12T04:46:25.784340+00:00'
+fetched_at: '2026-04-19T04:49:36.001445+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T05:06:29.618747Z'
+  evaluated_at: '2026-04-19T05:08:18.131135Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993442c90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0fc560 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993442c90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0fc560 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:19.431050Z'
-indexed_at: '2026-04-12T07:23:19.431056Z'
+  fetched_at: '2026-04-19T07:27:49.529732Z'
+indexed_at: '2026-04-19T07:27:49.529737Z'
 ---

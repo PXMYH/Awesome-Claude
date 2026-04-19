@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/fit-hidden-markov-model/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/fit-hidden-markov-model/SKILL.md
-fetched_at: '2026-04-12T04:49:16.687155+00:00'
+fetched_at: '2026-04-19T04:51:33.796939+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T06:35:09.333490Z'
+  evaluated_at: '2026-04-19T06:38:21.065558Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f399347b320 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d93bb60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f399347b320 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d93bb60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:21.437191Z'
-indexed_at: '2026-04-12T07:23:21.437196Z'
+  fetched_at: '2026-04-19T07:27:51.528927Z'
+indexed_at: '2026-04-19T07:27:51.528932Z'
 ---

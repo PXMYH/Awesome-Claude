@@ -20,17 +20,17 @@ category_display: Community
 source_repo: raintree-technology/claude-starter
 source_path: skills/helius/SKILL.md
 source_url: https://github.com/raintree-technology/claude-starter/blob/main/skills/helius/SKILL.md
-fetched_at: '2026-04-12T04:50:09.831045+00:00'
+fetched_at: '2026-04-19T04:52:11.002905+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T07:07:10.794703Z'
+  evaluated_at: '2026-04-19T07:11:44.131546Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e5c10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf2b680 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e5c10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf2b680 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:22.136914Z'
-indexed_at: '2026-04-12T07:23:22.136920Z'
+  fetched_at: '2026-04-19T07:27:52.273173Z'
+indexed_at: '2026-04-19T07:27:52.273179Z'
 ---

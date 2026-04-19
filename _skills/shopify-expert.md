@@ -17,30 +17,30 @@ prompt_preview: '---
   or integrating third-party services. Invoke for Liqu...'
 full_prompt_length: 7008
 tools_mentioned:
-- TypeScript
-- typescript
-- React
-- Node.js
-- graphql
-- REST
 - GraphQL
+- graphql
+- typescript
+- TypeScript
+- React
+- REST
 - react
+- Node.js
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/shopify-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/shopify-expert/SKILL.md
-fetched_at: '2026-04-12T04:48:23.611231+00:00'
+fetched_at: '2026-04-19T04:50:55.760472+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T06:06:53.594309Z'
+  evaluated_at: '2026-04-19T06:08:55.015766Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39936106e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0cb320 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39936106e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0cb320 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:20.803999Z'
-indexed_at: '2026-04-12T07:23:20.804007Z'
+  fetched_at: '2026-04-19T07:27:50.892456Z'
+indexed_at: '2026-04-19T07:27:50.892464Z'
 ---

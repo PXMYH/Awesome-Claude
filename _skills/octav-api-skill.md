@@ -20,17 +20,17 @@ category_display: Community
 source_repo: Octav-Labs/octav-api-skill
 source_path: SKILL.md
 source_url: https://github.com/Octav-Labs/octav-api-skill/blob/main/SKILL.md
-fetched_at: '2026-04-12T04:46:36.387311+00:00'
+fetched_at: '2026-04-19T04:49:43.096701+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T05:12:26.900562Z'
+  evaluated_at: '2026-04-19T05:14:24.258731Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993441fd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0c8cb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993441fd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0c8cb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:19.584435Z'
-indexed_at: '2026-04-12T07:23:19.584441Z'
+  fetched_at: '2026-04-19T07:27:49.669335Z'
+indexed_at: '2026-04-19T07:27:49.669340Z'
 ---

@@ -13,24 +13,24 @@ prompt_preview: "---\r\nname: use-graphql-api\r\ndescription: >\r\n  Interact wi
 full_prompt_length: 11854
 tools_mentioned:
 - REST
-- graphql
 - GraphQL
+- graphql
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/use-graphql-api/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/use-graphql-api/SKILL.md
-fetched_at: '2026-04-12T04:49:57.470033+00:00'
+fetched_at: '2026-04-19T04:52:00.745558+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T07:00:16.233365Z'
+  evaluated_at: '2026-04-19T07:04:01.709258Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993442030 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a3d40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993442030 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a3d40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:21.987392Z'
-indexed_at: '2026-04-12T07:23:21.987397Z'
+  fetched_at: '2026-04-19T07:27:52.104243Z'
+indexed_at: '2026-04-19T07:27:52.104249Z'
 ---

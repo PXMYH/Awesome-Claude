@@ -13,24 +13,24 @@ prompt_preview: "---\nname: analyze-tensegrity-system\ndescription: >\n  Analyze
   \ compression in continuous tensi..."
 full_prompt_length: 22211
 tools_mentioned:
-- go
 - rest
+- go
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/analyze-tensegrity-system/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/analyze-tensegrity-system/SKILL.md
-fetched_at: '2026-04-12T04:48:49.040173+00:00'
+fetched_at: '2026-04-19T04:51:15.415574+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T06:17:51.794805Z'
+  evaluated_at: '2026-04-19T06:19:52.296860Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993441790 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf2b440 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993441790 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf2b440 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:21.049564Z'
-indexed_at: '2026-04-12T07:23:21.049571Z'
+  fetched_at: '2026-04-19T07:27:51.139973Z'
+indexed_at: '2026-04-19T07:27:51.139979Z'

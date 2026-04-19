@@ -21,24 +21,24 @@ prompt_preview: '---
 full_prompt_length: 25354
 tools_mentioned:
 - Go
-- Azure
 - Python
+- Azure
 category: community
 category_display: Community
 source_repo: olgasafonova/SkillCheck-Free
 source_path: SKILL.md
 source_url: https://github.com/olgasafonova/SkillCheck-Free/blob/main/SKILL.md
-fetched_at: '2026-04-12T04:48:44.414303+00:00'
+fetched_at: '2026-04-19T04:51:11.962038+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T06:15:41.578662Z'
+  evaluated_at: '2026-04-19T06:17:42.493534Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e53d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0cb530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e53d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0cb530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:21.002074Z'
-indexed_at: '2026-04-12T07:23:21.002080Z'
+  fetched_at: '2026-04-19T07:27:51.091991Z'
+indexed_at: '2026-04-19T07:27:51.091997Z'
 ---

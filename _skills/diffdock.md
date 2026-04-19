@@ -13,25 +13,25 @@ prompt_preview: "---\nname: diffdock\ndescription: Diffusion-based molecular doc
 full_prompt_length: 15427
 tools_mentioned:
 - docker
-- Docker
-- python
 - Python
+- python
+- Docker
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/diffdock/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/diffdock/SKILL.md
-fetched_at: '2026-04-12T04:46:10.230267+00:00'
+fetched_at: '2026-04-19T04:49:26.961422+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T04:56:38.875268Z'
+  evaluated_at: '2026-04-19T04:58:26.217692Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993da93a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a2ae0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993da93a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a2ae0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:19.163668Z'
-indexed_at: '2026-04-12T07:23:19.163674Z'
+  fetched_at: '2026-04-19T07:27:49.304095Z'
+indexed_at: '2026-04-19T07:27:49.304101Z'
 ---

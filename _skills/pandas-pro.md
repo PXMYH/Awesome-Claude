@@ -17,24 +17,24 @@ prompt_preview: '---
   license: M...'
 full_prompt_length: 5892
 tools_mentioned:
-- python
 - Python
+- python
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/pandas-pro/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/pandas-pro/SKILL.md
-fetched_at: '2026-04-12T04:48:20.871337+00:00'
+fetched_at: '2026-04-19T04:50:53.979811+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T06:05:48.596132Z'
+  evaluated_at: '2026-04-19T06:07:50.284949Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993611bb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf286e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993611bb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf286e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:20.776161Z'
-indexed_at: '2026-04-12T07:23:20.776167Z'
+  fetched_at: '2026-04-19T07:27:50.864427Z'
+indexed_at: '2026-04-19T07:27:50.864433Z'
 ---

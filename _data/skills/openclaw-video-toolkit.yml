@@ -13,25 +13,25 @@ prompt_preview: "---\nname: video_toolkit\ndescription: Create professional vide
 full_prompt_length: 24107
 tools_mentioned:
 - docker
-- React
-- typescript
 - Python
+- typescript
+- React
 category: community
 category_display: Community
 source_repo: digitalsamba/claude-code-video-toolkit
 source_path: skills/openclaw-video-toolkit/SKILL.md
 source_url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/main/skills/openclaw-video-toolkit/SKILL.md
-fetched_at: '2026-04-12T04:47:58.872829+00:00'
+fetched_at: '2026-04-19T04:50:38.134910+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T05:58:13.800982Z'
+  evaluated_at: '2026-04-19T06:00:16.494976Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39934403e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a1940 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39934403e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a1940 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:20.604039Z'
-indexed_at: '2026-04-12T07:23:20.604048Z'
+  fetched_at: '2026-04-19T07:27:50.694144Z'
+indexed_at: '2026-04-19T07:27:50.694149Z'

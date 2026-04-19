@@ -12,25 +12,25 @@ prompt_preview: "---\nname: toon-formatter\ndescription: Token-Oriented Object N
   license: MIT\nmetadata:\n  author: r..."
 full_prompt_length: 6146
 tools_mentioned:
-- react
 - rest
+- react
 - javascript
 category: community
 category_display: Community
 source_repo: raintree-technology/claude-starter
 source_path: skills/toon-formatter/SKILL.md
 source_url: https://github.com/raintree-technology/claude-starter/blob/main/skills/toon-formatter/SKILL.md
-fetched_at: '2026-04-12T04:50:10.301849+00:00'
+fetched_at: '2026-04-19T04:52:11.269593+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T07:07:26.976182Z'
+  evaluated_at: '2026-04-19T07:12:00.316304Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39934d7590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf2bbc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39934d7590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf2bbc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:22.142733Z'
-indexed_at: '2026-04-12T07:23:22.142738Z'
+  fetched_at: '2026-04-19T07:27:52.279090Z'
+indexed_at: '2026-04-19T07:27:52.279096Z'
 ---

@@ -16,24 +16,24 @@ prompt_preview: '---
   learning models for healthcare applications (RETAIN, Saf...'
 full_prompt_length: 17591
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pyhealth/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pyhealth/SKILL.md
-fetched_at: '2026-04-12T04:46:23.448344+00:00'
+fetched_at: '2026-04-19T04:49:34.629009+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T05:05:00.669106Z'
+  evaluated_at: '2026-04-19T05:06:48.791416Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993612360 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0ffce0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993612360 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0ffce0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:19.394162Z'
-indexed_at: '2026-04-12T07:23:19.394171Z'
+  fetched_at: '2026-04-19T07:27:49.496046Z'
+indexed_at: '2026-04-19T07:27:49.496052Z'
 ---

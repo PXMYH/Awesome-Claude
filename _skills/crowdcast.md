@@ -21,17 +21,17 @@ category_display: Community
 source_repo: TheQmaks/crowdcast
 source_path: skills/crowdcast/SKILL.md
 source_url: https://github.com/TheQmaks/crowdcast/blob/main/skills/crowdcast/SKILL.md
-fetched_at: '2026-04-12T04:46:37.870238+00:00'
+fetched_at: '2026-04-19T04:49:44.356678+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T05:12:43.054916Z'
+  evaluated_at: '2026-04-19T05:14:40.659873Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993611760 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a2990 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993611760 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a2990 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:19.590430Z'
-indexed_at: '2026-04-12T07:23:19.590436Z'
+  fetched_at: '2026-04-19T07:27:49.675343Z'
+indexed_at: '2026-04-19T07:27:49.675349Z'
 ---

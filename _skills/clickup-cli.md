@@ -23,17 +23,17 @@ category_display: Community
 source_repo: krodak/clickup-cli
 source_path: skills/clickup-cli/SKILL.md
 source_url: https://github.com/krodak/clickup-cli/blob/main/skills/clickup-cli/SKILL.md
-fetched_at: '2026-04-12T04:48:34.963221+00:00'
+fetched_at: '2026-04-19T04:51:04.704784+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T06:12:27.500470Z'
+  evaluated_at: '2026-04-19T06:14:27.770691Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e6030 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a3ef0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e6030 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a3ef0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:20.930693Z'
-indexed_at: '2026-04-12T07:23:20.930699Z'
+  fetched_at: '2026-04-19T07:27:51.019724Z'
+indexed_at: '2026-04-19T07:27:51.019729Z'
 ---

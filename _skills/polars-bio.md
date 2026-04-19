@@ -13,25 +13,25 @@ prompt_preview: "---\nname: polars-bio\ndescription: High-performance genomic in
   \ and bio..."
 full_prompt_length: 14052
 tools_mentioned:
+- Python
 - Azure
 - python
-- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/polars-bio/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/polars-bio/SKILL.md
-fetched_at: '2026-04-12T04:46:21.577639+00:00'
+fetched_at: '2026-04-19T04:49:33.532110+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T05:03:47.693861Z'
+  evaluated_at: '2026-04-19T05:05:35.928734Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993ab08c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0c95b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993ab08c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0c95b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:19.345815Z'
-indexed_at: '2026-04-12T07:23:19.345822Z'
+  fetched_at: '2026-04-19T07:27:49.468566Z'
+indexed_at: '2026-04-19T07:27:49.468571Z'
 ---

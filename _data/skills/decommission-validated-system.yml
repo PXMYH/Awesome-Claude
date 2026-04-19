@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/decommission-validated-system/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/decommission-validated-system/SKILL.md
-fetched_at: '2026-04-12T04:49:06.964005+00:00'
+fetched_at: '2026-04-19T04:51:27.233141+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T06:29:03.500625Z'
+  evaluated_at: '2026-04-19T06:32:15.200251Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e7e00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d5aaf90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e7e00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d5aaf90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:21.301346Z'
-indexed_at: '2026-04-12T07:23:21.301351Z'
+  fetched_at: '2026-04-19T07:27:51.394064Z'
+indexed_at: '2026-04-19T07:27:51.394069Z'

@@ -15,24 +15,24 @@ prompt_preview: '---
   transportation systems, citation networks, and any domain inv...'
 full_prompt_length: 12708
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/networkx/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/networkx/SKILL.md
-fetched_at: '2026-04-12T04:46:18.384411+00:00'
+fetched_at: '2026-04-19T04:49:31.691734+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T05:01:46.395958Z'
+  evaluated_at: '2026-04-19T05:03:34.022868Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e7590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a2480 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39935e7590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a2480 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:19.279602Z'
-indexed_at: '2026-04-12T07:23:19.279609Z'
+  fetched_at: '2026-04-19T07:27:49.422293Z'
+indexed_at: '2026-04-19T07:27:49.422298Z'
 ---

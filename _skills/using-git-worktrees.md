@@ -27,37 +27,36 @@ prompt_preview: '---
   **Core principle:** Systematic directory selection + safety verification...'
 full_prompt_length: 5633
 tools_mentioned:
-- Python
+- Go
 - go
+- Python
 - Rust
 - Node.js
-- pytest
-- Go
 category: community
-category_display: Community Skills
+category_display: Community
 source_repo: obra/superpowers
 source_path: skills/using-git-worktrees/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/using-git-worktrees/SKILL.md
-fetched_at: '2026-04-18T04:31:48.765918Z'
+fetched_at: '2026-04-19T04:51:08.040315+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-18T04:54:29.429906Z'
+  evaluated_at: '2026-04-19T06:16:05.297191Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f446674fc50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a39e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f446674fc50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a39e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 157954
-  forks: 13740
-  open_issues: 299
+  stars: 159056
+  forks: 13848
+  open_issues: 295
   last_commit: '2026-04-16'
-  fetched_at: '2026-04-18T04:31:51.285234Z'
-indexed_at: '2026-04-18T04:55:02.458420Z'
+  fetched_at: '2026-04-19T04:52:44.804785Z'
+indexed_at: '2026-04-19T07:27:51.055830Z'
 ---

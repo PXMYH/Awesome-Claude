@@ -15,24 +15,24 @@ prompt_preview: '---
   with matplotlib/folium/cartopy. Use for tasks like buffer an...'
 full_prompt_length: 7117
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/geopandas/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/geopandas/SKILL.md
-fetched_at: '2026-04-12T04:46:12.568378+00:00'
+fetched_at: '2026-04-19T04:49:28.289341+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T04:58:07.832027Z'
+  evaluated_at: '2026-04-19T04:59:55.263515Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993d87830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d8007a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3993d87830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d8007a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:19.197084Z'
-indexed_at: '2026-04-12T07:23:19.197090Z'
+  fetched_at: '2026-04-19T07:27:49.338314Z'
+indexed_at: '2026-04-19T07:27:49.338320Z'
 ---

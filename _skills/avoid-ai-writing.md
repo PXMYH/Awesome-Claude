@@ -27,17 +27,17 @@ category_display: Documentation
 source_repo: conorbronsdon/avoid-ai-writing
 source_path: SKILL.md
 source_url: https://github.com/conorbronsdon/avoid-ai-writing/blob/main/SKILL.md
-fetched_at: '2026-04-12T04:47:38.429578+00:00'
+fetched_at: '2026-04-19T04:50:24.279662+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-12T05:45:59.016109Z'
+  evaluated_at: '2026-04-19T05:48:05.601396Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39938e51c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d349460 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39938e51c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d349460 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-12T07:23:20.338317Z'
-indexed_at: '2026-04-12T07:23:20.338322Z'
+  fetched_at: '2026-04-19T07:27:50.427909Z'
+indexed_at: '2026-04-19T07:27:50.427915Z'
 ---
