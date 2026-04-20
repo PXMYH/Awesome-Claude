@@ -24,32 +24,32 @@ prompt_preview: '---
   time to refine the idea. Once you understand wha...'
 full_prompt_length: 10598
 tools_mentioned:
-- Go
 - go
+- Go
 category: community
-category_display: Community
+category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/brainstorming/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md
-fetched_at: '2026-04-19T04:51:06.979578+00:00'
+fetched_at: '2026-04-20T04:57:03.192164Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T06:14:52.216765Z'
+  evaluated_at: '2026-04-20T05:18:32.931029Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a22d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb0c3c58e30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a22d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb0c3c58e30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 159056
-  forks: 13848
-  open_issues: 295
+  stars: 160284
+  forks: 13973
+  open_issues: 300
   last_commit: '2026-04-16'
-  fetched_at: '2026-04-19T04:52:44.804785Z'
-indexed_at: '2026-04-19T07:27:51.028862Z'
+  fetched_at: '2026-04-20T04:57:07.450464Z'
+indexed_at: '2026-04-20T05:20:19.066008Z'

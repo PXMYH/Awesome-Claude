@@ -23,31 +23,31 @@ prompt_preview: '---
   and stakeholder communication wi...'
 full_prompt_length: 6504
 tools_mentioned: []
-category: business-product
-category_display: Business Product
+category: 08-business-product
+category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/project-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/project-manager.md
-fetched_at: '2026-04-19T04:50:05.357567+00:00'
+fetched_at: '2026-04-20T04:56:55.575616Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T05:34:59.458813Z'
+  evaluated_at: '2026-04-20T05:13:00.356473Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf28170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb0c384b8f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf28170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb0c384b8f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 17668
-  forks: 2022
-  open_issues: 38
+  stars: 17744
+  forks: 2026
+  open_issues: 41
   last_commit: '2026-04-17'
-  fetched_at: '2026-04-19T04:52:44.047277Z'
-indexed_at: '2026-04-19T07:27:50.136288Z'
+  fetched_at: '2026-04-20T04:57:06.798870Z'
+indexed_at: '2026-04-20T05:20:18.954716Z'
 ---
