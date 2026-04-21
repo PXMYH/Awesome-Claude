@@ -8,7 +8,7 @@
   avg_rating: 3.0
 - slug: 07-specialized-domains
   name: 07 Specialized Domains
-  count: 12
+  count: 13
   avg_rating: 3.0
 - slug: 08-business-product
   name: 08 Business Product
@@ -16,7 +16,7 @@
   avg_rating: 3.0
 - slug: 09-meta-orchestration
   name: 09 Meta Orchestration
-  count: 10
+  count: 11
   avg_rating: 3.0
 - slug: 10-research-analysis
   name: 10 Research Analysis
@@ -36,7 +36,7 @@
   avg_rating: 3.0
 - slug: language-specialists
   name: Language Specialists
-  count: 29
+  count: 30
   avg_rating: 3.0
 - slug: official
   name: Official Anthropic Skills
@@ -44,5 +44,5 @@
   avg_rating: 3.0
 - slug: quality-security
   name: Quality & Security
-  count: 15
+  count: 16
   avg_rating: 3.0
