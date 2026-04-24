@@ -28,26 +28,26 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/quant-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/quant-analyst.md
-fetched_at: '2026-04-23T04:49:33.821695Z'
+fetched_at: '2026-04-24T04:53:48.324908Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-23T05:04:56.003739Z'
+  evaluated_at: '2026-04-24T05:09:29.908793Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa72b40f7d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2de3886510 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa72b40f7d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2de3886510 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 18023
-  forks: 2056
-  open_issues: 3
+  stars: 18151
+  forks: 2069
+  open_issues: 4
   last_commit: '2026-04-20'
-  fetched_at: '2026-04-23T04:49:47.575459Z'
-indexed_at: '2026-04-23T05:13:42.528988Z'
+  fetched_at: '2026-04-24T04:54:12.089711Z'
+indexed_at: '2026-04-24T05:18:19.302135Z'
 ---

@@ -27,37 +27,37 @@ prompt_preview: '---
   **Core principle:** Systematic directory selection + safety verification...'
 full_prompt_length: 5633
 tools_mentioned:
-- go
-- Rust
-- Node.js
 - Python
-- pytest
+- Rust
 - Go
+- pytest
+- Node.js
+- go
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/using-git-worktrees/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/using-git-worktrees/SKILL.md
-fetched_at: '2026-04-23T04:49:45.989670Z'
+fetched_at: '2026-04-24T04:54:09.416322Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-23T05:13:09.543632Z'
+  evaluated_at: '2026-04-24T05:17:45.863482Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa72b464d70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2de39bc410 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa72b464d70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2de39bc410 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 164625
-  forks: 14410
-  open_issues: 316
-  last_commit: '2026-04-16'
-  fetched_at: '2026-04-23T04:49:48.221473Z'
-indexed_at: '2026-04-23T05:13:42.725840Z'
+  stars: 165930
+  forks: 14558
+  open_issues: 323
+  last_commit: '2026-04-24'
+  fetched_at: '2026-04-24T04:54:13.277359Z'
+indexed_at: '2026-04-24T05:18:19.470039Z'
 ---
