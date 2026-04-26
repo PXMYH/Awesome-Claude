@@ -18,17 +18,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/testing-handbook-generator/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/testing-handbook-generator/SKILL.md
-fetched_at: '2026-04-19T04:52:30.543611+00:00'
+fetched_at: '2026-04-26T05:01:12.165275+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T07:23:05.724325Z'
+  evaluated_at: '2026-04-26T07:36:40.504951Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0fdb50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe114dd670 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0fdb50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe114dd670 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:52.529642Z'
-indexed_at: '2026-04-19T07:27:52.529648Z'
+  fetched_at: '2026-04-26T07:41:27.758958Z'
+indexed_at: '2026-04-26T07:41:27.758964Z'
 ---

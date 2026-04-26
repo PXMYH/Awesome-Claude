@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/tai-chi/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/tai-chi/SKILL.md
-fetched_at: '2026-04-19T04:51:58.196283+00:00'
+fetched_at: '2026-04-26T05:00:37.665722+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T07:01:51.987061Z'
+  evaluated_at: '2026-04-26T07:15:51.157039Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0ff8f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11086c00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0ff8f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11086c00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:52.056682Z'
-indexed_at: '2026-04-19T07:27:52.056688Z'
+  fetched_at: '2026-04-26T07:41:27.290649Z'
+indexed_at: '2026-04-26T07:41:27.290655Z'
 ---

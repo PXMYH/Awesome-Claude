@@ -17,28 +17,28 @@ prompt_preview: '---
   this wallet, dete...'
 full_prompt_length: 28776
 tools_mentioned:
-- Go
 - go
-- Python
-- python
 - Node.js
+- Go
 - javascript
+- python
+- Python
 category: community
 category_display: Community
 source_repo: ChainAware/behavioral-prediction-mcp
 source_path: SKILL.md
 source_url: https://github.com/ChainAware/behavioral-prediction-mcp/blob/main/SKILL.md
-fetched_at: '2026-04-19T04:49:20.788914+00:00'
+fetched_at: '2026-04-26T04:57:47.822542+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T04:53:50.347519Z'
+  evaluated_at: '2026-04-26T05:02:32.624734Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d28b530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11681e50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d28b530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11681e50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:49.197936Z'
-indexed_at: '2026-04-19T07:27:49.197942Z'
+  fetched_at: '2026-04-26T07:41:24.348085Z'
+indexed_at: '2026-04-26T07:41:24.348091Z'
 ---

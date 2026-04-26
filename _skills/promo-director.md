@@ -12,24 +12,24 @@ prompt_preview: "---\nname: promo-director\ndescription: Generates 15-second ver
   \     install: \"brew install ffmpeg (..."
 full_prompt_length: 6715
 tools_mentioned:
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/promo-director/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/promo-director/SKILL.md
-fetched_at: '2026-04-19T04:50:18.671877+00:00'
+fetched_at: '2026-04-26T04:58:53.694994+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T05:44:02.334576Z'
+  evaluated_at: '2026-04-26T05:58:40.516480Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a1760 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11222b10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a1760 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11222b10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:50.336993Z'
-indexed_at: '2026-04-19T07:27:50.336999Z'
+  fetched_at: '2026-04-26T07:41:25.598660Z'
+indexed_at: '2026-04-26T07:41:25.598666Z'
 ---

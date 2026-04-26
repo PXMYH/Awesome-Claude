@@ -13,24 +13,24 @@ prompt_preview: "---\nname: geniml\ndescription: This skill should be used when 
   \    skill-auth..."
 full_prompt_length: 10088
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/geniml/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/geniml/SKILL.md
-fetched_at: '2026-04-19T04:49:28.057560+00:00'
+fetched_at: '2026-04-26T04:57:55.352246+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T04:59:39.071637Z'
+  evaluated_at: '2026-04-26T05:08:22.350395Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d59ae40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11222240 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d59ae40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11222240 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:49.332096Z'
-indexed_at: '2026-04-19T07:27:49.332102Z'
+  fetched_at: '2026-04-26T07:41:24.479872Z'
+indexed_at: '2026-04-26T07:41:24.479879Z'
 ---

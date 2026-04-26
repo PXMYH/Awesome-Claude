@@ -1,0 +1,43 @@
+---
+id: track-competitors
+slug: track-competitors
+name: Track Competitors on X
+description: 'Per-account monitor: `monitor-accounts`. Top posts: `find-viral-tweets`.
+  Full API: [x-twitter-scraper](../x-twitter-scraper/SKILL.md).'
+prompt_preview: "---\nname: track-competitors\ndescription: \"Use when the user wants\
+  \ to track competitor accounts on X (Twitter). Monitors their posts, measures their\
+  \ growth, benchmarks engagement, and surfaces their best-performing tweets. Read-only\
+  \ competitor intelligence.\"\nlicense: MIT\nmetadata:\n  author: Xquik\n  version:\
+  \ \"1.0.0\"\n  openclaw:\n    requires:\n      env:\n        - XQUIK_API_KEY\n \
+  \   primaryEnv: XQUIK_API_KEY\n    emoji: \"\U0001F4CA\"\n    homepage: https://docs.xquik.com\n\
+  \  security:\n    contentTrust: untrusted..."
+full_prompt_length: 2316
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: Xquik-dev/x-twitter-scraper
+source_path: skills/track-competitors/SKILL.md
+source_url: https://github.com/Xquik-dev/x-twitter-scraper/blob/master/skills/track-competitors/SKILL.md
+fetched_at: '2026-04-26T04:58:40.520144+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-04-26T05:49:53.617454Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe113447d0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe113447d0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-04-26T07:41:25.409504Z'
+indexed_at: '2026-04-26T07:41:25.409509Z'
+---

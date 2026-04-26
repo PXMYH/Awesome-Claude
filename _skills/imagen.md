@@ -12,24 +12,24 @@ prompt_preview: "---\nname: imagen\ndescription: |\n  Generate images using Goog
   \ generates images using Google Gemini's image generat..."
 full_prompt_length: 2628
 tools_mentioned:
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/imagen/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/imagen/SKILL.md
-fetched_at: '2026-04-19T04:52:15.125167+00:00'
+fetched_at: '2026-04-26T05:00:54.422881+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T07:14:09.857913Z'
+  evaluated_at: '2026-04-26T07:27:45.239772Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf2a5d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe10f45370 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf2a5d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe10f45370 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:52.326542Z'
-indexed_at: '2026-04-19T07:27:52.326547Z'
+  fetched_at: '2026-04-26T07:41:27.553763Z'
+indexed_at: '2026-04-26T07:41:27.553768Z'
 ---

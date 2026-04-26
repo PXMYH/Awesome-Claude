@@ -12,24 +12,24 @@ prompt_preview: "---\nname: pyopenms\ndescription: Complete mass spectrometry an
   ## Overview\n\nPyOpenMS provides Python bin..."
 full_prompt_length: 5629
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pyopenms/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pyopenms/SKILL.md
-fetched_at: '2026-04-19T04:49:35.272371+00:00'
+fetched_at: '2026-04-26T04:58:03.042997+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T05:07:29.520087Z'
+  evaluated_at: '2026-04-26T05:16:13.985427Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d28a540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1191e900 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d28a540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1191e900 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:49.511296Z'
-indexed_at: '2026-04-19T07:27:49.511306Z'
+  fetched_at: '2026-04-26T07:41:24.655828Z'
+indexed_at: '2026-04-26T07:41:24.655834Z'
 ---

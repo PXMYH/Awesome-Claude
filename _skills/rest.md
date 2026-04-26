@@ -12,24 +12,24 @@ prompt_preview: "---\r\nname: rest\r\ndescription: >\r\n  AI intentional non-act
   \ impulse to optimize is itself the\r\n  prob..."
 full_prompt_length: 7115
 tools_mentioned:
-- rest
 - Rest
+- rest
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/rest/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/rest/SKILL.md
-fetched_at: '2026-04-19T04:51:51.063086+00:00'
+fetched_at: '2026-04-26T05:00:30.435442+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T06:55:06.029617Z'
+  evaluated_at: '2026-04-26T07:09:04.714765Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf28e90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f1f40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf28e90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f1f40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:51.906019Z'
-indexed_at: '2026-04-19T07:27:51.906025Z'
+  fetched_at: '2026-04-26T07:41:27.142887Z'
+indexed_at: '2026-04-26T07:41:27.142892Z'
 ---

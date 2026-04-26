@@ -21,17 +21,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/define-slo-sli-sla/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/define-slo-sli-sla/SKILL.md
-fetched_at: '2026-04-19T04:51:27.509139+00:00'
+fetched_at: '2026-04-26T05:00:03.986320+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T06:32:31.397922Z'
+  evaluated_at: '2026-04-26T06:46:28.382905Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0fd400 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe112230e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0fd400 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe112230e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:51.399999Z'
-indexed_at: '2026-04-19T07:27:51.400005Z'
+  fetched_at: '2026-04-26T07:41:26.649306Z'
+indexed_at: '2026-04-26T07:41:26.649312Z'
 ---

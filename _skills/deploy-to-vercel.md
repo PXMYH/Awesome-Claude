@@ -12,8 +12,8 @@ prompt_preview: "---\r\nname: deploy-to-vercel\r\ndescription: >\r\n  Deploy a N
   \ Write Edit Bash Grep Glob\r\nmetadata:..."
 full_prompt_length: 6611
 tools_mentioned:
-- Go
 - typescript
+- Go
 - Node.js
 - TypeScript
 category: community
@@ -21,17 +21,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/deploy-to-vercel/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/deploy-to-vercel/SKILL.md
-fetched_at: '2026-04-19T04:51:28.477174+00:00'
+fetched_at: '2026-04-26T05:00:05.330538+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T06:33:28.676698Z'
+  evaluated_at: '2026-04-26T06:47:25.056857Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a29f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f1ac0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a29f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f1ac0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:51.421156Z'
-indexed_at: '2026-04-19T07:27:51.421161Z'
+  fetched_at: '2026-04-26T07:41:26.670119Z'
+indexed_at: '2026-04-26T07:41:26.670125Z'
 ---

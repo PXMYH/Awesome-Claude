@@ -9,7 +9,7 @@ prompt_preview: "---\nname: emblem-defi-yield\ndescription: >\n  DeFi yield rese
   \ positions.\nlicense: MIT\ncompatibility: >\n  Requires Node.js >= 18.0.0, @emblemvault/agentwallet\
   \ CLI, and internet access.\n  Works on Claude Code, Cursor, Codex, OpenClaw, and\
   \ other agents foll..."
-full_prompt_length: 7129
+full_prompt_length: 7284
 tools_mentioned:
 - Node.js
 category: community
@@ -17,17 +17,17 @@ category_display: Community
 source_repo: EmblemCompany/Agent-skills
 source_path: skills/emblem-defi-yield/SKILL.md
 source_url: https://github.com/EmblemCompany/Agent-skills/blob/main/skills/emblem-defi-yield/SKILL.md
-fetched_at: '2026-04-19T04:49:22.699676+00:00'
+fetched_at: '2026-04-26T04:57:49.703285+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T04:54:38.911189Z'
+  evaluated_at: '2026-04-26T05:03:21.416844Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d309820 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11681d60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d309820 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11681d60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:49.216162Z'
-indexed_at: '2026-04-19T07:27:49.216168Z'
+  fetched_at: '2026-04-26T07:41:24.366249Z'
+indexed_at: '2026-04-26T07:41:24.366255Z'

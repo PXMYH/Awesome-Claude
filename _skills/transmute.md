@@ -12,28 +12,28 @@ prompt_preview: "---\r\nname: transmute\r\ndescription: >\r\n  Transform a singl
   \ or replacing a dependency — when the..."
 full_prompt_length: 7961
 tools_mentioned:
-- GraphQL
-- Python
-- TypeScript
 - Java
-- JavaScript
+- TypeScript
 - REST
+- JavaScript
+- Python
+- GraphQL
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/transmute/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/transmute/SKILL.md
-fetched_at: '2026-04-19T04:51:59.804247+00:00'
+fetched_at: '2026-04-26T05:00:39.124247+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T07:03:12.970337Z'
+  evaluated_at: '2026-04-26T07:17:12.027754Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0fddf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f2f90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0fddf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f2f90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:52.086254Z'
-indexed_at: '2026-04-19T07:27:52.086260Z'
+  fetched_at: '2026-04-26T07:41:27.320384Z'
+indexed_at: '2026-04-26T07:41:27.320390Z'
 ---

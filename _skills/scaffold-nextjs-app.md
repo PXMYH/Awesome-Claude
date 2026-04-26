@@ -12,27 +12,27 @@ prompt_preview: "---\r\nname: scaffold-nextjs-app\r\ndescription: >\r\n  Scaffol
   \ scratch.\r\nlicense: MIT\r\nallowed-tools: Read Write Edit Bas..."
 full_prompt_length: 6080
 tools_mentioned:
-- typescript
-- TypeScript
 - React
-- react
 - Node.js
+- TypeScript
+- typescript
+- react
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/scaffold-nextjs-app/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/scaffold-nextjs-app/SKILL.md
-fetched_at: '2026-04-19T04:51:53.225590+00:00'
+fetched_at: '2026-04-26T05:00:32.604888+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T06:57:07.561703Z'
+  evaluated_at: '2026-04-26T07:11:06.090874Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf2aa20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11084050 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf2aa20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11084050 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:51.951073Z'
-indexed_at: '2026-04-19T07:27:51.951079Z'
+  fetched_at: '2026-04-26T07:41:27.187328Z'
+indexed_at: '2026-04-26T07:41:27.187334Z'
 ---

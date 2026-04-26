@@ -20,17 +20,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/build-smart-lists/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/build-smart-lists/SKILL.md
-fetched_at: '2026-04-19T04:49:45.755704+00:00'
+fetched_at: '2026-04-26T04:58:13.437745+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T05:15:21.150082Z'
+  evaluated_at: '2026-04-26T05:24:06.547124Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d852960 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe113781d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d852960 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe113781d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:49.691133Z'
-indexed_at: '2026-04-19T07:27:49.691139Z'
+  fetched_at: '2026-04-26T07:41:24.834753Z'
+indexed_at: '2026-04-26T07:41:24.834758Z'
 ---

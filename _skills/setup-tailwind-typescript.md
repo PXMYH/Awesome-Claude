@@ -13,26 +13,26 @@ prompt_preview: "---\r\nname: setup-tailwind-typescript\r\ndescription: >\r\n  C
 full_prompt_length: 8496
 tools_mentioned:
 - rest
-- typescript
-- TypeScript
 - React
+- TypeScript
+- typescript
 - react
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/setup-tailwind-typescript/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/setup-tailwind-typescript/SKILL.md
-fetched_at: '2026-04-19T04:51:55.991766+00:00'
+fetched_at: '2026-04-26T05:00:35.324444+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T06:59:42.432542Z'
+  evaluated_at: '2026-04-26T07:13:39.885289Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0ca8d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1105b530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0ca8d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1105b530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:52.008743Z'
-indexed_at: '2026-04-19T07:27:52.008749Z'
+  fetched_at: '2026-04-26T07:41:27.243788Z'
+indexed_at: '2026-04-26T07:41:27.243794Z'
 ---

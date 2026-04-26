@@ -16,17 +16,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/perform-csv-assessment/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/perform-csv-assessment/SKILL.md
-fetched_at: '2026-04-19T04:51:45.394649+00:00'
+fetched_at: '2026-04-26T05:00:24.118610+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T06:49:33.785016Z'
+  evaluated_at: '2026-04-26T07:03:31.007329Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a2ed0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11223ce0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a2ed0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11223ce0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:51.782474Z'
-indexed_at: '2026-04-19T07:27:51.782480Z'
+  fetched_at: '2026-04-26T07:41:27.022402Z'
+indexed_at: '2026-04-26T07:41:27.022408Z'

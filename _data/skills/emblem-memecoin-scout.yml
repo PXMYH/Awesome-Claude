@@ -9,7 +9,7 @@ prompt_preview: "---\nname: emblem-memecoin-scout\ndescription: >\n  Memecoin di
   \ memecoins,\n  check if a token is a rug pull, or scout trending low-cap tokens.\n\
   license: MIT\ncompatibility: >\n  Requires Node.js >= 18.0.0, @emblemvault/agentwallet\
   \ CLI, and internet acces..."
-full_prompt_length: 7360
+full_prompt_length: 7515
 tools_mentioned:
 - Node.js
 category: community
@@ -17,17 +17,17 @@ category_display: Community
 source_repo: EmblemCompany/Agent-skills
 source_path: skills/emblem-memecoin-scout/SKILL.md
 source_url: https://github.com/EmblemCompany/Agent-skills/blob/main/skills/emblem-memecoin-scout/SKILL.md
-fetched_at: '2026-04-19T04:49:22.953491+00:00'
+fetched_at: '2026-04-26T04:57:49.944004+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T04:54:55.107580Z'
+  evaluated_at: '2026-04-26T05:03:37.605362Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d98f530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe112223c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d98f530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe112223c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:49.222178Z'
-indexed_at: '2026-04-19T07:27:49.222183Z'
+  fetched_at: '2026-04-26T07:41:24.372205Z'
+indexed_at: '2026-04-26T07:41:24.372211Z'

@@ -1,0 +1,41 @@
+id: track-hashtags
+slug: track-hashtags
+name: Track Hashtags on X
+description: 'Trends (the auto-detected trending list): `x-trends`. Full API: [x-twitter-scraper](../x-twitter-scraper/SKILL.md).'
+prompt_preview: "---\nname: track-hashtags\ndescription: \"Use when the user wants\
+  \ to track a hashtag on X (Twitter). Pulls recent tweets using the hashtag, the\
+  \ top posts, the unique authors, and can set up continuous monitoring. Covers one-shot\
+  \ reads and long-running hashtag monitors.\"\nlicense: MIT\nmetadata:\n  author:\
+  \ Xquik\n  version: \"1.0.0\"\n  openclaw:\n    requires:\n      env:\n        -\
+  \ XQUIK_API_KEY\n    primaryEnv: XQUIK_API_KEY\n    emoji: \"#\"\n    homepage:\
+  \ https://docs.xquik.com\n  security:\n    contentTrust: u..."
+full_prompt_length: 2420
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: Xquik-dev/x-twitter-scraper
+source_path: skills/track-hashtags/SKILL.md
+source_url: https://github.com/Xquik-dev/x-twitter-scraper/blob/master/skills/track-hashtags/SKILL.md
+fetched_at: '2026-04-26T04:58:40.643120+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-04-26T05:50:01.715283Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11087110 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11087110 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-04-26T07:41:25.412412Z'
+indexed_at: '2026-04-26T07:41:25.412417Z'

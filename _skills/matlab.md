@@ -15,24 +15,24 @@ prompt_preview: '---
   and Python code. Scripts can be executed with MATLAB or the open...'
 full_prompt_length: 9220
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/matlab/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/matlab/SKILL.md
-fetched_at: '2026-04-19T04:49:30.966877+00:00'
+fetched_at: '2026-04-26T04:57:58.410597+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T05:02:45.436580Z'
+  evaluated_at: '2026-04-26T05:11:28.710783Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0ca900 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f3c20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0ca900 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f3c20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:49.403726Z'
-indexed_at: '2026-04-19T07:27:49.403734Z'
+  fetched_at: '2026-04-26T07:41:24.551216Z'
+indexed_at: '2026-04-26T07:41:24.551223Z'
 ---

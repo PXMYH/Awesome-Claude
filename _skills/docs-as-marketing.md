@@ -12,31 +12,31 @@ prompt_preview: "---\nname: docs-as-marketing\ndescription: |\n  Transform docum
   , \"developer documentation\", \"..."
 full_prompt_length: 10438
 tools_mentioned:
-- Go
-- Python
-- node.js
-- PHP
 - Ruby
 - React
-- JavaScript
+- PHP
 - Node.js
+- Go
 - javascript
+- JavaScript
+- node.js
+- Python
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/docs-as-marketing/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/docs-as-marketing/SKILL.md
-fetched_at: '2026-04-19T04:51:01.597469+00:00'
+fetched_at: '2026-04-26T04:59:37.380793+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T06:12:34.427175Z'
+  evaluated_at: '2026-04-26T06:27:22.506571Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d28a540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f2bd0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d28a540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f2bd0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:50.976299Z'
-indexed_at: '2026-04-19T07:27:50.976308Z'
+  fetched_at: '2026-04-26T07:41:26.229531Z'
+indexed_at: '2026-04-26T07:41:26.229537Z'
 ---

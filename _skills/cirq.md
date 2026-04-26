@@ -12,26 +12,26 @@ prompt_preview: "---\nname: cirq\ndescription: Google quantum computing framewor
   \ with Python\n\nCirq is Google..."
 full_prompt_length: 10647
 tools_mentioned:
-- Python
-- azure
 - Azure
 - python
+- Python
+- azure
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/cirq/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/cirq/SKILL.md
-fetched_at: '2026-04-19T04:49:25.296505+00:00'
+fetched_at: '2026-04-26T04:57:52.515408+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T04:56:40.964697Z'
+  evaluated_at: '2026-04-26T05:05:22.948603Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a2d50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11f975f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a2d50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11f975f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:49.263255Z'
-indexed_at: '2026-04-19T07:27:49.263265Z'
+  fetched_at: '2026-04-26T07:41:24.411121Z'
+indexed_at: '2026-04-26T07:41:24.411127Z'
 ---

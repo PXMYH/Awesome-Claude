@@ -11,24 +11,24 @@ prompt_preview: "---\nname: goal-analyzer\ndescription: 分析健康目标数据
   \  - 是否在合理时间范围内\n  - 减重目标:建议每周0.5-1公斤\n  - 运动目标:建议每周3-5次,每次30-60分钟\n\n- **R*..."
 full_prompt_length: 8104
 tools_mentioned:
-- javascript
 - python
+- javascript
 category: community
 category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/goal-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/goal-analyzer/SKILL.md
-fetched_at: '2026-04-19T04:50:43.079275+00:00'
+fetched_at: '2026-04-26T04:59:18.754563+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T06:02:58.669969Z'
+  evaluated_at: '2026-04-26T06:17:45.129560Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d309370 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe112206e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d309370 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe112206e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:50.754592Z'
-indexed_at: '2026-04-19T07:27:50.754598Z'
+  fetched_at: '2026-04-26T07:41:26.013397Z'
+indexed_at: '2026-04-26T07:41:26.013403Z'
 ---

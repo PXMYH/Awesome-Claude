@@ -12,25 +12,25 @@ prompt_preview: "---\nname: setup-automl-pipeline\ndescription: >\n  Configure a
   \ comparing multiple algor..."
 full_prompt_length: 8525
 tools_mentioned:
+- python
 - Python
 - SQLite
-- python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/setup-automl-pipeline/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/setup-automl-pipeline/SKILL.md
-fetched_at: '2026-04-19T04:51:54.523211+00:00'
+fetched_at: '2026-04-26T05:00:33.919109+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T06:58:20.898136Z'
+  evaluated_at: '2026-04-26T07:12:18.972754Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0c9580 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1105ac60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0c9580 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1105ac60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:51.978155Z'
-indexed_at: '2026-04-19T07:27:51.978160Z'
+  fetched_at: '2026-04-26T07:41:27.213899Z'
+indexed_at: '2026-04-26T07:41:27.213905Z'
 ---

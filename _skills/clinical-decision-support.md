@@ -15,24 +15,24 @@ prompt_preview: '---
   and regulatory compliance. Outputs publication...'
 full_prompt_length: 26396
 tools_mentioned:
-- GCP
 - python
+- GCP
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/clinical-decision-support/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/clinical-decision-support/SKILL.md
-fetched_at: '2026-04-19T04:49:25.551347+00:00'
+fetched_at: '2026-04-26T04:57:52.791664+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T04:56:57.146604Z'
+  evaluated_at: '2026-04-26T05:05:39.112459Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d64f500 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11347500 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d64f500 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11347500 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:49.269866Z'
-indexed_at: '2026-04-19T07:27:49.269872Z'
+  fetched_at: '2026-04-26T07:41:24.417053Z'
+indexed_at: '2026-04-26T07:41:24.417059Z'
 ---

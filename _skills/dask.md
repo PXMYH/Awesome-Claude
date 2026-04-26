@@ -13,24 +13,24 @@ prompt_preview: "---\nname: dask\ndescription: Distributed computing for larger-
   \ is a Python library for parallel and dis..."
 full_prompt_length: 14272
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/dask/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/dask/SKILL.md
-fetched_at: '2026-04-19T04:49:26.084815+00:00'
+fetched_at: '2026-04-26T04:57:53.342579+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T04:57:29.529830Z'
+  evaluated_at: '2026-04-26T05:06:11.475551Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0c87d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11a03020 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0c87d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11a03020 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:49.282294Z'
-indexed_at: '2026-04-19T07:27:49.282300Z'
+  fetched_at: '2026-04-26T07:41:24.428996Z'
+indexed_at: '2026-04-26T07:41:24.429003Z'
 ---

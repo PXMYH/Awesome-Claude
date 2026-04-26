@@ -11,25 +11,25 @@ prompt_preview: "---\nname: hypogenic\ndescription: Automated LLM-driven hypothe
   \ K-Dense Inc.\n---\n\n# Hypogeni..."
 full_prompt_length: 21737
 tools_mentioned:
+- python
 - Python
 - Redis
-- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/hypogenic/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/hypogenic/SKILL.md
-fetched_at: '2026-04-19T04:49:29.146971+00:00'
+fetched_at: '2026-04-26T04:57:56.592007+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T05:00:52.049590Z'
+  evaluated_at: '2026-04-26T05:09:35.212482Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0cb6b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11223b90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0cb6b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11223b90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:49.359903Z'
-indexed_at: '2026-04-19T07:27:49.359908Z'
+  fetched_at: '2026-04-26T07:41:24.507786Z'
+indexed_at: '2026-04-26T07:41:24.507792Z'

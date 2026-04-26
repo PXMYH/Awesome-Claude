@@ -35,26 +35,26 @@ prompt_preview: '---
   - **react-native-css** - CSS runtime for Reac...'
 full_prompt_length: 11914
 tools_mentioned:
-- TypeScript
+- React
 - react
 - JavaScript
-- React
+- TypeScript
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-tailwind-setup/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-tailwind-setup/SKILL.md
-fetched_at: '2026-04-19T04:50:40.262409+00:00'
+fetched_at: '2026-04-26T04:59:16.095712+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T06:01:21.265065Z'
+  evaluated_at: '2026-04-26T06:16:07.972573Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a1a00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11223b30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a1a00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11223b30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -64,6 +64,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:50.718545Z'
-indexed_at: '2026-04-19T07:27:50.718550Z'
+  fetched_at: '2026-04-26T07:41:25.977353Z'
+indexed_at: '2026-04-26T07:41:25.977359Z'
 ---

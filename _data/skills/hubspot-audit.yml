@@ -11,24 +11,24 @@ prompt_preview: "---\nname: hubspot-audit\ndescription: \"Run a comprehensive Hu
   \ across eight dimensions, grade..."
 full_prompt_length: 12685
 tools_mentioned:
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/hubspot-audit/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/hubspot-audit/SKILL.md
-fetched_at: '2026-04-19T04:49:47.808376+00:00'
+fetched_at: '2026-04-26T04:58:15.514633+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T05:17:22.819531Z'
+  evaluated_at: '2026-04-26T05:26:07.943929Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d5214c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe114dd670 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d5214c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe114dd670 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:49.737905Z'
-indexed_at: '2026-04-19T07:27:49.737910Z'
+  fetched_at: '2026-04-26T07:41:24.880825Z'
+indexed_at: '2026-04-26T07:41:24.880831Z'

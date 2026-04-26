@@ -13,24 +13,24 @@ prompt_preview: "---\nname: seaborn\ndescription: Statistical visualization with
   ## Overview\n\nSeaborn is a P..."
 full_prompt_length: 19600
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/seaborn/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/seaborn/SKILL.md
-fetched_at: '2026-04-19T04:49:38.234184+00:00'
+fetched_at: '2026-04-26T04:58:06.120021+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T05:10:44.284307Z'
+  evaluated_at: '2026-04-26T05:19:30.765939Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0fd2e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11058740 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0fd2e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11058740 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:49.586502Z'
-indexed_at: '2026-04-19T07:27:49.586507Z'
+  fetched_at: '2026-04-26T07:41:24.731127Z'
+indexed_at: '2026-04-26T07:41:24.731133Z'
 ---

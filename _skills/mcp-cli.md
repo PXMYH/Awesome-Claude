@@ -30,26 +30,26 @@ prompt_preview: '---
   - Make one-off...'
 full_prompt_length: 9217
 tools_mentioned:
-- docker
 - go
-- TypeScript
+- docker
 - Docker
+- TypeScript
 category: community
 category_display: Community
 source_repo: obra/superpowers-lab
 source_path: skills/mcp-cli/SKILL.md
 source_url: https://github.com/obra/superpowers-lab/blob/main/skills/mcp-cli/SKILL.md
-fetched_at: '2026-04-19T04:51:09.352463+00:00'
+fetched_at: '2026-04-26T04:59:44.890889+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T06:16:53.900459Z'
+  evaluated_at: '2026-04-26T06:31:42.062598Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d2c14c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11221c10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d2c14c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11221c10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -59,6 +59,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:51.073852Z'
-indexed_at: '2026-04-19T07:27:51.073857Z'
+  fetched_at: '2026-04-26T07:41:26.326669Z'
+indexed_at: '2026-04-26T07:41:26.326675Z'
 ---

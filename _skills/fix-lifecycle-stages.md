@@ -14,24 +14,24 @@ prompt_preview: "---\nname: fix-lifecycle-stages\ndescription: \"Ensure all cont
   \ missing stages, correcting disallowed stage..."
 full_prompt_length: 11583
 tools_mentioned:
-- Go
 - python
+- Go
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/fix-lifecycle-stages/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/fix-lifecycle-stages/SKILL.md
-fetched_at: '2026-04-19T04:49:47.685883+00:00'
+fetched_at: '2026-04-26T04:58:15.380842+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T05:17:14.722594Z'
+  evaluated_at: '2026-04-26T05:25:59.851639Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0c9400 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe112236e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0c9400 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe112236e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:49.734747Z'
-indexed_at: '2026-04-19T07:27:49.734752Z'
+  fetched_at: '2026-04-26T07:41:24.877696Z'
+indexed_at: '2026-04-26T07:41:24.877702Z'
 ---

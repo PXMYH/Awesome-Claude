@@ -12,24 +12,24 @@ prompt_preview: "---\r\nname: remote-viewing-guidance\r\ndescription: >\r\n  Gui
   \ staged CRV process, facilitating a structured\r\n  int..."
 full_prompt_length: 15963
 tools_mentioned:
-- Go
 - angular
+- Go
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/remote-viewing-guidance/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/remote-viewing-guidance/SKILL.md
-fetched_at: '2026-04-19T04:51:49.680441+00:00'
+fetched_at: '2026-04-26T05:00:28.974219+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T06:53:45.048799Z'
+  evaluated_at: '2026-04-26T07:07:43.772982Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf7ee10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe110847a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf7ee10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe110847a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:51.875770Z'
-indexed_at: '2026-04-19T07:27:51.875776Z'
+  fetched_at: '2026-04-26T07:41:27.113365Z'
+indexed_at: '2026-04-26T07:41:27.113371Z'
 ---

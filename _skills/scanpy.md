@@ -13,24 +13,24 @@ prompt_preview: "---\nname: scanpy\ndescription: Standard single-cell RNA-seq an
   \nScanpy is a scalable Python..."
 full_prompt_length: 11322
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scanpy/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scanpy/SKILL.md
-fetched_at: '2026-04-19T04:49:36.619373+00:00'
+fetched_at: '2026-04-26T04:58:04.465157+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T05:08:58.630138Z'
+  evaluated_at: '2026-04-26T05:17:43.085602Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0feba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11059b80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0feba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11059b80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:49.546270Z'
-indexed_at: '2026-04-19T07:27:49.546276Z'
+  fetched_at: '2026-04-26T07:41:24.689961Z'
+indexed_at: '2026-04-26T07:41:24.689967Z'
 ---

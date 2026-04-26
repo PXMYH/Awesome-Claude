@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/probe-feature-flag-state/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/probe-feature-flag-state/SKILL.md
-fetched_at: '2026-04-19T04:51:47.767131+00:00'
+fetched_at: '2026-04-26T05:00:26.850595+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T06:51:51.686328Z'
+  evaluated_at: '2026-04-26T07:05:50.481691Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a25a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1105b5f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a25a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1105b5f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:51.833648Z'
-indexed_at: '2026-04-19T07:27:51.833654Z'
+  fetched_at: '2026-04-26T07:41:27.072122Z'
+indexed_at: '2026-04-26T07:41:27.072128Z'
 ---

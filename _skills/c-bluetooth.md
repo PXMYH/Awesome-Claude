@@ -33,17 +33,17 @@ category_display: Community
 source_repo: daxaur/openpaw
 source_path: skills/c-bluetooth/SKILL.md
 source_url: https://github.com/daxaur/openpaw/blob/main/skills/c-bluetooth/SKILL.md
-fetched_at: '2026-04-19T04:50:25.320517+00:00'
+fetched_at: '2026-04-26T04:59:00.871670+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T05:48:29.886433Z'
+  evaluated_at: '2026-04-26T06:03:10.313573Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf29ee0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f1c40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7cf29ee0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f1c40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:50.436948Z'
-indexed_at: '2026-04-19T07:27:50.436954Z'
+  fetched_at: '2026-04-26T07:41:25.696072Z'
+indexed_at: '2026-04-26T07:41:25.696078Z'
 ---

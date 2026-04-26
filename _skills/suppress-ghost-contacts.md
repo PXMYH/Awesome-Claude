@@ -12,24 +12,24 @@ prompt_preview: "---\nname: suppress-ghost-contacts\ndescription: >\n  Identify 
   \ received marketing emails but have never opened a s..."
 full_prompt_length: 17398
 tools_mentioned:
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/suppress-ghost-contacts/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/suppress-ghost-contacts/SKILL.md
-fetched_at: '2026-04-19T04:49:49.043482+00:00'
+fetched_at: '2026-04-26T04:58:16.788955+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T05:18:35.685843Z'
+  evaluated_at: '2026-04-26T05:27:20.790371Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a3ef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11222030 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a3ef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11222030 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:49.766002Z'
-indexed_at: '2026-04-19T07:27:49.766008Z'
+  fetched_at: '2026-04-26T07:41:24.908755Z'
+indexed_at: '2026-04-26T07:41:24.908761Z'
 ---

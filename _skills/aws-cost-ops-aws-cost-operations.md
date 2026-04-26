@@ -19,26 +19,26 @@ prompt_preview: '---
   s...'
 full_prompt_length: 9464
 tools_mentioned:
-- rest
-- aws
-- Kubernetes
 - AWS
+- Kubernetes
+- aws
+- rest
 category: infrastructure
 category_display: Infrastructure
 source_repo: zxkane/aws-skills
 source_path: plugins/aws-cost-ops/skills/aws-cost-operations/SKILL.md
 source_url: https://github.com/zxkane/aws-skills/blob/main/plugins/aws-cost-ops/skills/aws-cost-operations/SKILL.md
-fetched_at: '2026-04-19T04:52:42.394477+00:00'
+fetched_at: '2026-04-26T05:01:24.594864+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T07:27:40.893476Z'
+  evaluated_at: '2026-04-26T07:41:16.038295Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d2c1640 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe10f46c60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d2c1640 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe10f46c60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:52.632756Z'
-indexed_at: '2026-04-19T07:27:52.632761Z'
+  fetched_at: '2026-04-26T07:41:27.861809Z'
+indexed_at: '2026-04-26T07:41:27.861814Z'
 ---

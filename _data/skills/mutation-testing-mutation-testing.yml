@@ -11,27 +11,27 @@ prompt_preview: "---\nname: mutation-testing\ndescription: \"Configures mewt or 
   \ — mewt for general..."
 full_prompt_length: 2865
 tools_mentioned:
-- Go
-- Rust
 - TypeScript
-- sqlite
+- Go
 - JavaScript
+- Rust
+- sqlite
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/mutation-testing/skills/mutation-testing/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/mutation-testing/skills/mutation-testing/SKILL.md
-fetched_at: '2026-04-19T04:52:25.794773+00:00'
+fetched_at: '2026-04-26T05:01:06.583454+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T07:19:35.067336Z'
+  evaluated_at: '2026-04-26T07:33:09.965490Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d7f7aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe10f46ba0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d7f7aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe10f46ba0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:52.449083Z'
-indexed_at: '2026-04-19T07:27:52.449089Z'
+  fetched_at: '2026-04-26T07:41:27.678142Z'
+indexed_at: '2026-04-26T07:41:27.678148Z'

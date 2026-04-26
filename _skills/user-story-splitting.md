@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/user-story-splitting/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/user-story-splitting/SKILL.md
-fetched_at: '2026-04-19T04:50:37.008258+00:00'
+fetched_at: '2026-04-26T04:59:12.435932+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-19T05:59:44.103438Z'
+  evaluated_at: '2026-04-26T06:14:22.830066Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a1ac0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11221bb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7d7d0a1ac0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11221bb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-19T07:27:50.682284Z'
-indexed_at: '2026-04-19T07:27:50.682290Z'
+  fetched_at: '2026-04-26T07:41:25.938100Z'
+indexed_at: '2026-04-26T07:41:25.938105Z'
 ---
