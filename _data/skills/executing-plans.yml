@@ -33,25 +33,25 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/executing-plans/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/executing-plans/SKILL.md
-fetched_at: '2026-04-27T05:22:28.807214Z'
+fetched_at: '2026-04-28T05:29:49.562976Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-27T05:45:01.044934Z'
+  evaluated_at: '2026-04-28T05:52:06.976691Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f47cd26b140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe999865fa0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f47cd26b140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe999865fa0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 168801
-  forks: 14909
-  open_issues: 336
+  stars: 170244
+  forks: 15032
+  open_issues: 283
   last_commit: '2026-04-24'
-  fetched_at: '2026-04-27T05:22:34.689011Z'
-indexed_at: '2026-04-27T05:46:31.951671Z'
+  fetched_at: '2026-04-28T05:29:53.166734Z'
+indexed_at: '2026-04-28T05:53:38.018452Z'
