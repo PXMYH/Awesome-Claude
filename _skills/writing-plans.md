@@ -29,33 +29,33 @@ prompt_preview: '---
   Ass...'
 full_prompt_length: 6032
 tools_mentioned:
-- pytest
 - python
+- pytest
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/writing-plans/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/writing-plans/SKILL.md
-fetched_at: '2026-04-28T05:29:51.613157Z'
+fetched_at: '2026-04-29T05:26:03.066221Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-28T05:53:29.296168Z'
+  evaluated_at: '2026-04-29T05:50:02.080490Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe9998699d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa1cd05eab0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe9998699d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa1cd05eab0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 170244
-  forks: 15032
-  open_issues: 283
+  stars: 171877
+  forks: 15161
+  open_issues: 278
   last_commit: '2026-04-24'
-  fetched_at: '2026-04-28T05:29:53.166734Z'
-indexed_at: '2026-04-28T05:53:38.045758Z'
+  fetched_at: '2026-04-29T05:26:05.742629Z'
+indexed_at: '2026-04-29T05:50:10.863823Z'
 ---
