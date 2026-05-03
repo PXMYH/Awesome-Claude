@@ -27,17 +27,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/building-secure-contracts/skills/token-integration-analyzer/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/building-secure-contracts/skills/token-integration-analyzer/SKILL.md
-fetched_at: '2026-04-26T05:01:01.153833+00:00'
+fetched_at: '2026-05-03T05:33:58.839112+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:30:43.887545Z'
+  evaluated_at: '2026-05-03T08:06:36.820014Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe113fdd30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33e61760 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe113fdd30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33e61760 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.620413Z'
-indexed_at: '2026-04-26T07:41:27.620419Z'
+  fetched_at: '2026-05-03T08:17:32.478784Z'
+indexed_at: '2026-05-03T08:17:32.478790Z'
 ---

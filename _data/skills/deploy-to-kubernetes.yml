@@ -12,27 +12,27 @@ prompt_preview: "---\nname: deploy-to-kubernetes\ndescription: >\n  Deploy appli
   \ updates,\n  or setting..."
 full_prompt_length: 15690
 tools_mentioned:
-- Kubernetes
 - kubernetes
 - Docker
-- postgresql
+- Kubernetes
 - docker
+- postgresql
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/deploy-to-kubernetes/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/deploy-to-kubernetes/SKILL.md
-fetched_at: '2026-04-26T05:00:05.077536+00:00'
+fetched_at: '2026-05-03T05:32:43.845656+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:47:16.974598Z'
+  evaluated_at: '2026-05-03T07:22:22.088621Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f2c90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5ffb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f2c90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5ffb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +42,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.667107Z'
-indexed_at: '2026-04-26T07:41:26.667113Z'
+  fetched_at: '2026-05-03T08:17:31.577589Z'
+indexed_at: '2026-05-03T08:17:31.577595Z'

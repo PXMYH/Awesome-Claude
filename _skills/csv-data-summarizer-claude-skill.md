@@ -20,17 +20,17 @@ category_display: Data Analytics
 source_repo: coffeefuelbump/csv-data-summarizer-claude-skill
 source_path: SKILL.md
 source_url: https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill/blob/main/SKILL.md
-fetched_at: '2026-04-26T04:58:59.134411+00:00'
+fetched_at: '2026-05-03T05:31:12.144051+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:02:37.225307Z'
+  evaluated_at: '2026-05-03T06:36:52.889262Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f1cd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8c6b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f1cd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8c6b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:25.684414Z'
-indexed_at: '2026-04-26T07:41:25.684419Z'
+  fetched_at: '2026-05-03T08:17:30.641000Z'
+indexed_at: '2026-05-03T08:17:30.641006Z'
 ---

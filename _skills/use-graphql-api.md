@@ -12,25 +12,25 @@ prompt_preview: "---\r\nname: use-graphql-api\r\ndescription: >\r\n  Interact wi
   \ that need structured API data.\r\nlicense: MIT\r\nallow..."
 full_prompt_length: 11854
 tools_mentioned:
-- graphql
-- REST
 - GraphQL
+- REST
+- graphql
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/use-graphql-api/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/use-graphql-api/SKILL.md
-fetched_at: '2026-04-26T05:00:40.085651+00:00'
+fetched_at: '2026-05-03T05:33:31.177819+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:18:00.768375Z'
+  evaluated_at: '2026-05-03T07:53:39.270181Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11085070 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f6e40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11085070 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f6e40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.338427Z'
-indexed_at: '2026-04-26T07:41:27.338432Z'
+  fetched_at: '2026-05-03T08:17:32.218215Z'
+indexed_at: '2026-05-03T08:17:32.218220Z'
 ---

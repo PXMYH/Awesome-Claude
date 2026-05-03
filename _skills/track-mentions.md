@@ -19,17 +19,17 @@ category_display: Community
 source_repo: Xquik-dev/x-twitter-scraper
 source_path: skills/track-mentions/SKILL.md
 source_url: https://github.com/Xquik-dev/x-twitter-scraper/blob/master/skills/track-mentions/SKILL.md
-fetched_at: '2026-04-26T04:58:40.832927+00:00'
+fetched_at: '2026-05-03T05:30:48.000191+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T05:50:09.802947Z'
+  evaluated_at: '2026-05-03T06:24:11.110912Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11087050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5f290 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11087050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5f290 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:25.415290Z'
-indexed_at: '2026-04-26T07:41:25.415295Z'
+  fetched_at: '2026-05-03T08:17:30.384392Z'
+indexed_at: '2026-05-03T08:17:30.384397Z'
 ---

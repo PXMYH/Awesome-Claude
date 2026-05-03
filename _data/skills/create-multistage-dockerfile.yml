@@ -11,31 +11,31 @@ prompt_preview: "---\r\nname: create-multistage-dockerfile\r\ndescription: >\r\n
   \ or when deploying to constrained environments li..."
 full_prompt_length: 7339
 tools_mentioned:
-- rust
-- go
-- Node.js
-- Go
-- python
-- Docker
-- Rust
-- docker
 - Python
+- Go
+- Docker
+- docker
+- go
+- python
+- rust
+- Node.js
+- Rust
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-multistage-dockerfile/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-multistage-dockerfile/SKILL.md
-fetched_at: '2026-04-26T05:00:01.645574+00:00'
+fetched_at: '2026-05-03T05:32:39.197069+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:44:26.977073Z'
+  evaluated_at: '2026-05-03T07:19:28.815017Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f3cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2f4d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f3cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2f4d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,5 +45,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.605580Z'
-indexed_at: '2026-04-26T07:41:26.605585Z'
+  fetched_at: '2026-05-03T08:17:31.518775Z'
+indexed_at: '2026-05-03T08:17:31.518781Z'

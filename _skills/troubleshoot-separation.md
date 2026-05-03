@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/troubleshoot-separation/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/troubleshoot-separation/SKILL.md
-fetched_at: '2026-04-26T05:00:39.572419+00:00'
+fetched_at: '2026-05-03T05:33:30.513802+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:17:36.495186Z'
+  evaluated_at: '2026-05-03T07:53:14.518392Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11084fb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8d550 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11084fb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8d550 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.329354Z'
-indexed_at: '2026-04-26T07:41:27.329360Z'
+  fetched_at: '2026-05-03T08:17:32.209846Z'
+indexed_at: '2026-05-03T08:17:32.209857Z'
 ---

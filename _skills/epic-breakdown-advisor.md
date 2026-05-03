@@ -17,17 +17,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/epic-breakdown-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/epic-breakdown-advisor/SKILL.md
-fetched_at: '2026-04-26T04:59:08.579100+00:00'
+fetched_at: '2026-05-03T05:31:25.652579+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:10:11.684793Z'
+  evaluated_at: '2026-05-03T06:44:35.872007Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1105a660 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2dd90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1105a660 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2dd90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:25.846183Z'
-indexed_at: '2026-04-26T07:41:25.846194Z'
+  fetched_at: '2026-05-03T08:17:30.793698Z'
+indexed_at: '2026-05-03T08:17:30.793705Z'
 ---

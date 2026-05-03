@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/plan-spectroscopic-analysis/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/plan-spectroscopic-analysis/SKILL.md
-fetched_at: '2026-04-26T05:00:25.272389+00:00'
+fetched_at: '2026-05-03T05:33:10.134431+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:04:27.776482Z'
+  evaluated_at: '2026-05-03T07:39:52.923298Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11223d40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f7da0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11223d40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f7da0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.042977Z'
-indexed_at: '2026-04-26T07:41:27.042983Z'
+  fetched_at: '2026-05-03T08:17:31.936071Z'
+indexed_at: '2026-05-03T08:17:31.936077Z'
 ---

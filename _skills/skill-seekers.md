@@ -34,17 +34,17 @@ category_display: Community
 source_repo: yusufkaraaslan/Skill_Seekers
 source_path: skills/skill-seekers/SKILL.md
 source_url: https://github.com/yusufkaraaslan/Skill_Seekers/blob/development/skills/skill-seekers/SKILL.md
-fetched_at: '2026-04-26T05:01:21.781628+00:00'
+fetched_at: '2026-05-03T05:34:27.287869+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:40:27.495811Z'
+  evaluated_at: '2026-05-03T08:16:31.447348Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe10f44380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2f590 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe10f44380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2f590 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.843690Z'
-indexed_at: '2026-04-26T07:41:27.843696Z'
+  fetched_at: '2026-05-03T08:17:32.698857Z'
+indexed_at: '2026-05-03T08:17:32.698863Z'
 ---

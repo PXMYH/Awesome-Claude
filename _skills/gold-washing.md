@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/gold-washing/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/gold-washing/SKILL.md
-fetched_at: '2026-04-26T05:00:13.726298+00:00'
+fetched_at: '2026-05-03T05:32:54.723092+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:54:26.730712Z'
+  evaluated_at: '2026-05-03T07:29:40.450399Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1171f9e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f7e90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1171f9e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f7e90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.825948Z'
-indexed_at: '2026-04-26T07:41:26.825954Z'
+  fetched_at: '2026-05-03T08:17:31.727867Z'
+indexed_at: '2026-05-03T08:17:31.727873Z'
 ---

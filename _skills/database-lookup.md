@@ -15,8 +15,8 @@ prompt_preview: '---
   dbSNP, gnomAD, ENCODE, Human Protein A...'
 full_prompt_length: 28091
 tools_mentioned:
-- graphql
 - REST
+- graphql
 - GO
 - GraphQL
 category: scientific
@@ -24,17 +24,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/database-lookup/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/database-lookup/SKILL.md
-fetched_at: '2026-04-26T04:57:53.472860+00:00'
+fetched_at: '2026-05-03T05:29:35.974979+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T05:06:19.566721Z'
+  evaluated_at: '2026-05-03T05:39:32.430928Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11221fd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f7020 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11221fd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f7020 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:24.432071Z'
-indexed_at: '2026-04-26T07:41:24.432078Z'
+  fetched_at: '2026-05-03T08:17:29.455002Z'
+indexed_at: '2026-05-03T08:17:29.455009Z'
 ---

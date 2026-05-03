@@ -20,17 +20,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/molecular-dynamics/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/molecular-dynamics/SKILL.md
-fetched_at: '2026-04-26T04:57:58.931201+00:00'
+fetched_at: '2026-05-03T05:29:45.669673+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T05:12:01.119871Z'
+  evaluated_at: '2026-05-03T05:45:28.004054Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11223cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2e210 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11223cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2e210 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:24.563331Z'
-indexed_at: '2026-04-26T07:41:24.563337Z'
+  fetched_at: '2026-05-03T08:17:29.578347Z'
+indexed_at: '2026-05-03T08:17:29.578353Z'
 ---

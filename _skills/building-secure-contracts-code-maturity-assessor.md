@@ -29,17 +29,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/building-secure-contracts/skills/code-maturity-assessor/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/building-secure-contracts/skills/code-maturity-assessor/SKILL.md
-fetched_at: '2026-04-26T05:01:00.170017+00:00'
+fetched_at: '2026-05-03T05:33:57.546983+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:29:55.217753Z'
+  evaluated_at: '2026-05-03T08:05:47.098500Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe115559a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33e62ed0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe115559a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33e62ed0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.602015Z'
-indexed_at: '2026-04-26T07:41:27.602020Z'
+  fetched_at: '2026-05-03T08:17:32.461710Z'
+indexed_at: '2026-05-03T08:17:32.461715Z'
 ---

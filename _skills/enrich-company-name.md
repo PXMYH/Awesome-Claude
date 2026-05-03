@@ -14,25 +14,25 @@ prompt_preview: "---\nname: enrich-company-name\ndescription: \"Populate missing
   \ name fields by copying the value fr..."
 full_prompt_length: 7941
 tools_mentioned:
-- go
 - python
 - Go
+- go
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/enrich-company-name/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/enrich-company-name/SKILL.md
-fetched_at: '2026-04-26T04:58:15.110163+00:00'
+fetched_at: '2026-05-03T05:30:09.828005+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T05:25:43.670151Z'
+  evaluated_at: '2026-05-03T05:59:21.805904Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11220590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2e2d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11220590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2e2d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:24.871434Z'
-indexed_at: '2026-04-26T07:41:24.871439Z'
+  fetched_at: '2026-05-03T08:17:29.865735Z'
+indexed_at: '2026-05-03T08:17:29.865742Z'
 ---

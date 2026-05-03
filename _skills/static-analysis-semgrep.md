@@ -11,29 +11,29 @@ prompt_preview: "---\nname: semgrep\ndescription: >-\n  Run Semgrep static analy
   \ taint analysis when available. Use when asked\n  to scan code for vulnerabilities,\
   \ run a security audit with Semgrep, find\n  bugs, or perform static analysis. Spawns\
   \ parallel workers for multi-language..."
-full_prompt_length: 9720
+full_prompt_length: 9688
 tools_mentioned:
-- Go
-- python
-- Docker
-- Python
 - django
+- Python
+- Go
+- Docker
+- python
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/static-analysis/skills/semgrep/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/semgrep/SKILL.md
-fetched_at: '2026-04-26T05:01:09.649518+00:00'
+fetched_at: '2026-05-03T05:34:10.690152+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:34:39.060648Z'
+  evaluated_at: '2026-05-03T08:10:35.835953Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11f979b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e34de28a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11f979b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e34de28a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.712390Z'
-indexed_at: '2026-04-26T07:41:27.712396Z'
+  fetched_at: '2026-05-03T08:17:32.568832Z'
+indexed_at: '2026-05-03T08:17:32.568838Z'
 ---

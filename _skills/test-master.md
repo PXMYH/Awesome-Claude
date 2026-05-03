@@ -2,7 +2,7 @@
 id: test-master
 slug: test-master
 name: Test Master
-description: 'When creating test plans, provide:'
+description: '[Documentation](https://jeffallan.github.io/claude-skills/skills/quality/test-master/)'
 prompt_preview: '---
 
   name: test-master
@@ -13,24 +13,24 @@ prompt_preview: '---
   tests, or E2E tests; creating test strategies or automation frameworks; analyzing
   coverage gaps; performance testing with k6 or Artillery; security testing with OWASP
   methods; debugging flaky tests; or working on...'
-full_prompt_length: 4920
+full_prompt_length: 5008
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/test-master/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/test-master/SKILL.md
-fetched_at: '2026-04-26T04:59:32.630120+00:00'
+fetched_at: '2026-05-03T05:31:59.713459+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:24:07.405030Z'
+  evaluated_at: '2026-05-03T06:58:49.600296Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11059f40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2efc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11059f40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2efc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.155931Z'
-indexed_at: '2026-04-26T07:41:26.155936Z'
+  fetched_at: '2026-05-03T08:17:31.080987Z'
+indexed_at: '2026-05-03T08:17:31.080993Z'
 ---

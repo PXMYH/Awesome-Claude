@@ -17,17 +17,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/utility-mermaid-diagrams/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/utility-mermaid-diagrams/SKILL.md
-fetched_at: '2026-04-26T05:00:48.710959+00:00'
+fetched_at: '2026-05-03T05:33:42.567746+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:24:46.984968Z'
+  evaluated_at: '2026-05-03T08:00:32.279908Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11086c30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5d040 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11086c30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5d040 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.487511Z'
-indexed_at: '2026-04-26T07:41:27.487516Z'
+  fetched_at: '2026-05-03T08:17:32.356545Z'
+indexed_at: '2026-05-03T08:17:32.356550Z'
 ---

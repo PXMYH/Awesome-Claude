@@ -18,17 +18,17 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/google-tts/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/google-tts/SKILL.md
-fetched_at: '2026-04-26T05:00:54.297917+00:00'
+fetched_at: '2026-05-03T05:33:50.032609+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:27:37.161200Z'
+  evaluated_at: '2026-05-03T08:03:26.998578Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1191e900 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33e61100 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1191e900 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33e61100 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.550782Z'
-indexed_at: '2026-04-26T07:41:27.550788Z'
+  fetched_at: '2026-05-03T08:17:32.414218Z'
+indexed_at: '2026-05-03T08:17:32.414224Z'
 ---

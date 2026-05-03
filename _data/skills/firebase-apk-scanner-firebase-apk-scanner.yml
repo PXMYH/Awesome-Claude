@@ -15,26 +15,26 @@ prompt_preview: '---
 
   argument-hint: [apk-file-or-directory]
 
-  allowed-tools: Bash({baseDir}/scanner.sh:*), Bash(apktool:*), Bash(curl:*), Read,
-  Grep,...'
-full_prompt_length: 6849
+  allowed-tools: Bash({baseDir}/scanner.sh:*) Bash(apktool:*) Bash(curl:*) Read Grep
+  Glob...'
+full_prompt_length: 6844
 tools_mentioned: []
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/firebase-apk-scanner/skills/firebase-apk-scanner/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/firebase-apk-scanner/skills/firebase-apk-scanner/SKILL.md
-fetched_at: '2026-04-26T05:01:04.775162+00:00'
+fetched_at: '2026-05-03T05:34:03.533102+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:32:20.987039Z'
+  evaluated_at: '2026-05-03T08:08:15.730349Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe10f44ad0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f5f10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe10f44ad0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f5f10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,5 +44,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.659918Z'
-indexed_at: '2026-04-26T07:41:27.659924Z'
+  fetched_at: '2026-05-03T08:17:32.514168Z'
+indexed_at: '2026-05-03T08:17:32.514174Z'

@@ -7,32 +7,32 @@ prompt_preview: "---\nname: sarif-parsing\ndescription: >-\n  Parses and process
   \ Triggers on \"parse sarif\", \"read scan results\", \"aggregate findings\", \"\
   deduplicate\n  alerts\", or \"process sarif output\". Handles filtering, deduplication,\
   \ format conversion, and\n  CI/CD integration of SARIF data. Does NOT run scans\
-  \ — use the Semgrep or CodeQL skills for that.\nallowed-tools:\n  - Bash\n  - Read\n\
-  \  - Glob\n  - Grep\n---\n\n# SARIF Parsing Best P..."
-full_prompt_length: 15153
+  \ — use the Semgrep or CodeQL skills for that.\nallowed-tools: Bash Read Glob Grep\n\
+  ---\n\n# SARIF Parsing Best Practices\n\nYou ar..."
+full_prompt_length: 15137
 tools_mentioned:
-- go
-- Node.js
+- Python
 - Go
+- go
 - python
 - JavaScript
-- Python
+- Node.js
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/static-analysis/skills/sarif-parsing/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/sarif-parsing/SKILL.md
-fetched_at: '2026-04-26T05:01:09.415572+00:00'
+fetched_at: '2026-05-03T05:34:10.507584+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:34:30.949503Z'
+  evaluated_at: '2026-05-03T08:10:27.604099Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11086960 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e351612e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11086960 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e351612e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +42,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.709177Z'
-indexed_at: '2026-04-26T07:41:27.709182Z'
+  fetched_at: '2026-05-03T08:17:32.565524Z'
+indexed_at: '2026-05-03T08:17:32.565529Z'

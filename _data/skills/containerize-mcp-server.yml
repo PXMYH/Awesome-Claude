@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/containerize-mcp-server/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/containerize-mcp-server/SKILL.md
-fetched_at: '2026-04-26T05:00:00.014558+00:00'
+fetched_at: '2026-05-03T05:32:37.002437+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:42:57.868784Z'
+  evaluated_at: '2026-05-03T07:17:57.478158Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe110856a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f5760 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe110856a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f5760 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.573220Z'
-indexed_at: '2026-04-26T07:41:26.573243Z'
+  fetched_at: '2026-05-03T08:17:31.484334Z'
+indexed_at: '2026-05-03T08:17:31.484341Z'

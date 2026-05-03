@@ -17,27 +17,27 @@ prompt_preview: '---
   multi-step chemistry pipelines, and workflows that would otherwise require...'
 full_prompt_length: 36806
 tools_mentioned:
-- go
-- fastapi
-- python
-- FastAPI
 - Python
+- FastAPI
+- python
+- fastapi
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/rowan/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/rowan/SKILL.md
-fetched_at: '2026-04-26T04:58:04.338795+00:00'
+fetched_at: '2026-05-03T05:29:54.274583+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T05:17:34.977776Z'
+  evaluated_at: '2026-05-03T05:51:06.771840Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11ff9310 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5f7a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11ff9310 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5f7a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:24.686801Z'
-indexed_at: '2026-04-26T07:41:24.686807Z'
+  fetched_at: '2026-05-03T08:17:29.693806Z'
+indexed_at: '2026-05-03T08:17:29.693812Z'
 ---

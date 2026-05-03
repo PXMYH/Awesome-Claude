@@ -2,7 +2,7 @@
 id: atlassian-mcp
 slug: atlassian-mcp
 name: Atlassian MCP Expert
-description: 'When implementing Atlassian MCP features, provide:'
+description: '[Documentation](https://jeffallan.github.io/claude-skills/skills/platform/atlassian-mcp/)'
 prompt_preview: "---\nname: atlassian-mcp\ndescription: Integrates with Atlassian\
   \ products to manage project tracking and documentation via MCP protocol. Use when\
   \ querying Jira issues with JQL filters, creating and updating tickets with custom\
@@ -10,24 +10,24 @@ prompt_preview: "---\nname: atlassian-mcp\ndescription: Integrates with Atlassia
   \ setting up MCP server authentication, syncing documentation, or debugging Atlassian\
   \ API integrations.\nlicense: MIT\nmetadata:\n  author: https://github.com/Jeffallan\n\
   \  version: \"1.1.0\"\n  dom..."
-full_prompt_length: 5057
+full_prompt_length: 5148
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/atlassian-mcp/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/atlassian-mcp/SKILL.md
-fetched_at: '2026-04-26T04:59:25.319267+00:00'
+fetched_at: '2026-05-03T05:31:49.171366+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:21:08.520046Z'
+  evaluated_at: '2026-05-03T06:55:48.267215Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11084950 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e3458a3c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11084950 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e3458a3c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.089796Z'
-indexed_at: '2026-04-26T07:41:26.089802Z'
+  fetched_at: '2026-05-03T08:17:31.019272Z'
+indexed_at: '2026-05-03T08:17:31.019278Z'
 ---

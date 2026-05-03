@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/assess-trail-conditions/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/assess-trail-conditions/SKILL.md
-fetched_at: '2026-04-26T04:59:52.775089+00:00'
+fetched_at: '2026-05-03T05:32:26.134819+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:36:04.098592Z'
+  evaluated_at: '2026-05-03T07:10:56.537864Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11222c00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8eb70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11222c00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8eb70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.422221Z'
-indexed_at: '2026-04-26T07:41:26.422244Z'
+  fetched_at: '2026-05-03T08:17:31.331139Z'
+indexed_at: '2026-05-03T08:17:31.331144Z'
 ---

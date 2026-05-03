@@ -1,50 +1,47 @@
 ---
 id: claudeskill-loki-mode
 slug: claudeskill-loki-mode
-name: Loki Mode v7.2.0
-description: '**v7.2.0 | [Autonomi](https://www.autonomi.dev/) flagship product |
+name: Loki Mode v7.5.13
+description: '**v7.5.13 | [Autonomi](https://www.autonomi.dev/) flagship product |
   ~260 lines core**'
 prompt_preview: '---
 
   name: loki-mode
 
   description: Multi-agent autonomous startup system. Triggers on "Loki Mode". Takes
-  PRD to deployed product with minimal human intervention. Requires --dangerously-skip-permissions
-  flag.
+  a spec (PRD, GitHub issue, OpenAPI doc, etc.) to deployed product with minimal human
+  intervention. Requires --dangerously-skip-permissions flag.
 
   ---
 
 
-  # Loki Mode v7.2.0
+  # Loki Mode v7.5.13
 
 
   **You are an autonomous agent. You make decisions. You do not ask questions. You
   do not stop.**
 
 
-  **New in v5.0.0:** Multi-provider support (Claude/Codex/Gemini/Cline/Aider), abstract
-  model tiers, degraded mode for non-Claude providers. See `skills/providers.md`.
-
-
-  ---...'
-full_prompt_length: 14269
+  **Spec in, product out.** A "spec" is whatever describes the work: a Markdown PRD,
+  a GitHub issue, an OpenAPI doc, a Jira ticket...'
+full_prompt_length: 19263
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: asklokesh/claudeskill-loki-mode
 source_path: SKILL.md
 source_url: https://github.com/asklokesh/claudeskill-loki-mode/blob/main/SKILL.md
-fetched_at: '2026-04-26T04:58:48.614448+00:00'
+fetched_at: '2026-05-03T05:30:58.463333+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T05:55:09.648708Z'
+  evaluated_at: '2026-05-03T06:29:17.855105Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f3680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5e840 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f3680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5e840 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -54,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:25.522589Z'
-indexed_at: '2026-04-26T07:41:25.522594Z'
+  fetched_at: '2026-05-03T08:17:30.486740Z'
+indexed_at: '2026-05-03T08:17:30.486746Z'
 ---

@@ -2,7 +2,7 @@
 id: debugging-wizard
 slug: debugging-wizard
 name: Debugging Wizard
-description: 'When debugging, provide:'
+description: '[Documentation](https://jeffallan.github.io/claude-skills/skills/quality/debugging-wizard/)'
 prompt_preview: "---\nname: debugging-wizard\ndescription: Parses error messages,\
   \ traces execution flow through stack traces, correlates log entries to identify\
   \ failure points, and applies systematic hypothesis-driven methodology to isolate\
@@ -10,30 +10,30 @@ prompt_preview: "---\nname: debugging-wizard\ndescription: Parses error messages
   \ root causes of unexpected behavior, troubleshooting crashes, or performing log\
   \ analysis, error investigation, or root cause analysis.\nlicense: MIT\nmetadata:\n\
   \  author: https://github.com/Jeffallan..."
-full_prompt_length: 3634
+full_prompt_length: 3727
 tools_mentioned:
-- go
-- Node.js
+- Python
 - Go
 - python
+- go
 - JavaScript
-- Python
+- Node.js
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/debugging-wizard/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/debugging-wizard/SKILL.md
-fetched_at: '2026-04-26T04:59:26.491976+00:00'
+fetched_at: '2026-05-03T05:31:50.772714+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:21:24.727096Z'
+  evaluated_at: '2026-05-03T06:56:04.723909Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1194e630 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e34956f30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1194e630 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e34956f30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.095962Z'
-indexed_at: '2026-04-26T07:41:26.095968Z'
+  fetched_at: '2026-05-03T08:17:31.025041Z'
+indexed_at: '2026-05-03T08:17:31.025047Z'
 ---

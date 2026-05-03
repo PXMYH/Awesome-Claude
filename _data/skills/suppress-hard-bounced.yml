@@ -18,17 +18,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/suppress-hard-bounced/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/suppress-hard-bounced/SKILL.md
-fetched_at: '2026-04-26T04:58:17.063626+00:00'
+fetched_at: '2026-05-03T05:30:12.662533+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T05:27:37.246158Z'
+  evaluated_at: '2026-05-03T06:01:17.239073Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f3e60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e34248a40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f3e60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e34248a40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:24.914721Z'
-indexed_at: '2026-04-26T07:41:24.914727Z'
+  fetched_at: '2026-05-03T08:17:29.906355Z'
+indexed_at: '2026-05-03T08:17:29.906362Z'

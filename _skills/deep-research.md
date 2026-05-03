@@ -12,24 +12,24 @@ prompt_preview: "---\nname: deep-research\ndescription: \"Execute autonomous mul
   \ and synthesize information into compreh..."
 full_prompt_length: 2732
 tools_mentioned:
-- Kubernetes
 - Python
+- Kubernetes
 category: community
 category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/deep-research/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/deep-research/SKILL.md
-fetched_at: '2026-04-26T05:00:53.070805+00:00'
+fetched_at: '2026-05-03T05:33:47.941598+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:26:24.317946Z'
+  evaluated_at: '2026-05-03T08:02:12.852752Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe10f47e60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33e61d60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe10f47e60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33e61d60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.524106Z'
-indexed_at: '2026-04-26T07:41:27.524112Z'
+  fetched_at: '2026-05-03T08:17:32.389821Z'
+indexed_at: '2026-05-03T08:17:32.389827Z'
 ---

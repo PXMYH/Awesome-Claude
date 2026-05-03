@@ -1,9 +1,7 @@
 id: code-documenter
 slug: code-documenter
 name: Code Documenter
-description: Google/NumPy/Sphinx docstrings, JSDoc, OpenAPI 3.0/3.1, AsyncAPI, gRPC/protobuf,
-  FastAPI, Django, NestJS, Express, GraphQL, Docusaurus, MkDocs, VitePress, Swagger
-  UI, Redoc, Stoplight
+description: '[Documentation](https://jeffallan.github.io/claude-skills/skills/quality/code-documenter/)'
 prompt_preview: "---\nname: code-documenter\ndescription: Generates, formats, and\
   \ validates technical documentation — including docstrings, OpenAPI/Swagger specs,\
   \ JSDoc annotations, doc portals, and user guides. Use when adding docstrings to\
@@ -11,34 +9,34 @@ prompt_preview: "---\nname: code-documenter\ndescription: Generates, formats, an
   \ or writing tutorials and user guides. Invoke for OpenAPI/Swagger specs, JSDoc,\
   \ doc portals, getting started guides.\nlicense: MIT\nmetadata:\n  author: https://github.com/Jeffallan\n\
   \  version: \"1.1.0\"..."
-full_prompt_length: 5402
+full_prompt_length: 5494
 tools_mentioned:
+- GraphQL
+- django
+- Python
+- FastAPI
+- python
+- fastapi
+- TypeScript
 - WebSocket
 - Django
-- gRPC
-- Node.js
-- TypeScript
-- fastapi
-- typescript
-- python
 - JavaScript
-- FastAPI
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/code-documenter/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/code-documenter/SKILL.md
-fetched_at: '2026-04-26T04:59:25.885328+00:00'
+fetched_at: '2026-05-03T05:31:49.891641+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:21:16.636792Z'
+  evaluated_at: '2026-05-03T06:55:56.494744Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1181cf80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e344b2ae0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1181cf80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e344b2ae0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.092698Z'
-indexed_at: '2026-04-26T07:41:26.092703Z'
+  fetched_at: '2026-05-03T08:17:31.022002Z'
+indexed_at: '2026-05-03T08:17:31.022008Z'

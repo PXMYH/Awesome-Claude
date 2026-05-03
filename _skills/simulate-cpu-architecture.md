@@ -12,24 +12,24 @@ prompt_preview: "---\r\nname: simulate-cpu-architecture\r\ndescription: >\r\n  D
   \ and sequential b..."
 full_prompt_length: 21838
 tools_mentioned:
-- Python
 - JavaScript
+- Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/simulate-cpu-architecture/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/simulate-cpu-architecture/SKILL.md
-fetched_at: '2026-04-26T05:00:36.350358+00:00'
+fetched_at: '2026-05-03T05:33:26.129267+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:14:37.428487Z'
+  evaluated_at: '2026-05-03T07:50:13.196935Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11059b80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2f140 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11059b80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2f140 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.264389Z'
-indexed_at: '2026-04-26T07:41:27.264394Z'
+  fetched_at: '2026-05-03T08:17:32.147997Z'
+indexed_at: '2026-05-03T08:17:32.148003Z'
 ---

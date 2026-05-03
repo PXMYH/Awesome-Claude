@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/circuit-breaker-pattern/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/circuit-breaker-pattern/SKILL.md
-fetched_at: '2026-04-26T04:59:56.995176+00:00'
+fetched_at: '2026-05-03T05:32:32.569796+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:40:07.864635Z'
+  evaluated_at: '2026-05-03T07:15:03.925024Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1177f2c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e34d92f90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1177f2c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e34d92f90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.511626Z'
-indexed_at: '2026-04-26T07:41:26.511632Z'
+  fetched_at: '2026-05-03T08:17:31.413034Z'
+indexed_at: '2026-05-03T08:17:31.413040Z'
 ---

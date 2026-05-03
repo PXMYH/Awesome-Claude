@@ -12,24 +12,24 @@ prompt_preview: "---\r\nname: build-pkgdown-site\r\ndescription: >\r\n  Build an
   \ Actions deployment methods.\r\nlicense: MIT\r\nallow..."
 full_prompt_length: 7094
 tools_mentioned:
-- Docker
 - Go
+- Docker
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/build-pkgdown-site/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/build-pkgdown-site/SKILL.md
-fetched_at: '2026-04-26T04:59:55.606219+00:00'
+fetched_at: '2026-05-03T05:32:30.189955+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:38:46.913103Z'
+  evaluated_at: '2026-05-03T07:13:41.519297Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11086960 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f6240 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11086960 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f6240 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.482071Z'
-indexed_at: '2026-04-26T07:41:26.482077Z'
+  fetched_at: '2026-05-03T08:17:31.385985Z'
+indexed_at: '2026-05-03T08:17:31.385991Z'
 ---

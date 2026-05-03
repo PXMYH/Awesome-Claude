@@ -1,8 +1,7 @@
 id: django-expert
 slug: django-expert
 name: Django Expert
-description: Django 5.0, DRF, async views, ORM, QuerySet, select_related, prefetch_related,
-  SimpleJWT, django-filter, drf-spectacular, pytest-django
+description: '[Documentation](https://jeffallan.github.io/claude-skills/skills/backend/django-expert/)'
 prompt_preview: '---
 
   name: django-expert
@@ -15,30 +14,30 @@ prompt_preview: '---
   Django ORM, Django model, serializer, viewset, Python web."
 
   lice...'
-full_prompt_length: 5901
+full_prompt_length: 5989
 tools_mentioned:
-- Django
-- fastapi
 - REST
-- python
-- Python
 - django
+- Python
+- python
+- fastapi
+- Django
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/django-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/django-expert/SKILL.md
-fetched_at: '2026-04-26T04:59:26.734894+00:00'
+fetched_at: '2026-05-03T05:31:51.125955+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:21:32.813288Z'
+  evaluated_at: '2026-05-03T06:56:12.967212Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe115f9400 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f6ab0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe115f9400 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f6ab0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,5 +47,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.098971Z'
-indexed_at: '2026-04-26T07:41:26.098976Z'
+  fetched_at: '2026-05-03T08:17:31.027895Z'
+indexed_at: '2026-05-03T08:17:31.027900Z'

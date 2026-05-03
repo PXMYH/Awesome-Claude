@@ -12,28 +12,28 @@ prompt_preview: "---\r\nname: analyze-codebase-for-mcp\r\ndescription: >\r\n  An
   \ off to scaffold-mcp-server.\r\nlicense: MI..."
 full_prompt_length: 11225
 tools_mentioned:
-- go
-- Go
-- TypeScript
 - REST
-- JavaScript
 - Python
+- Go
+- go
+- TypeScript
+- JavaScript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/analyze-codebase-for-mcp/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/analyze-codebase-for-mcp/SKILL.md
-fetched_at: '2026-04-26T04:59:50.010216+00:00'
+fetched_at: '2026-05-03T05:32:22.425124+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:33:35.702186Z'
+  evaluated_at: '2026-05-03T07:08:28.122013Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11223d40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8f6b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11223d40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8f6b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.368503Z'
-indexed_at: '2026-04-26T07:41:26.368509Z'
+  fetched_at: '2026-05-03T08:17:31.280708Z'
+indexed_at: '2026-05-03T08:17:31.280714Z'
 ---

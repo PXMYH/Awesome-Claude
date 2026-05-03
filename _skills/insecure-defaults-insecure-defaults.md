@@ -3,14 +3,25 @@ id: insecure-defaults-insecure-defaults
 slug: insecure-defaults-insecure-defaults
 name: Insecure Defaults Detection
 description: For detailed examples and counter-examples, see [examples.md](references/examples.md).
-prompt_preview: "---\nname: insecure-defaults\ndescription: \"Detects fail-open insecure\
-  \ defaults (hardcoded secrets, weak auth, permissive security) that allow apps to\
-  \ run insecurely in production. Use when auditing security, reviewing config management,\
-  \ or analyzing environment variable handling.\"\nallowed-tools:\n  - Read\n  - Grep\n\
-  \  - Glob\n  - Bash\n---\n\n# Insecure Defaults Detection\n\nFinds **fail-open**\
-  \ vulnerabilities where apps run insecurely with missing configuration. Distinguishes\
-  \ exploitable defaults from fa..."
-full_prompt_length: 5209
+prompt_preview: '---
+
+  name: insecure-defaults
+
+  description: "Detects fail-open insecure defaults (hardcoded secrets, weak auth,
+  permissive security) that allow apps to run insecurely in production. Use when auditing
+  security, reviewing config management, or analyzing environment variable handling."
+
+  allowed-tools: Read Grep Glob Bash
+
+  ---
+
+
+  # Insecure Defaults Detection
+
+
+  Finds **fail-open** vulnerabilities where apps run insecurely with missing configuration.
+  Distinguishes exploitable defaults from fail-secure patter...'
+full_prompt_length: 5193
 tools_mentioned:
 - Docker
 category: security
@@ -18,17 +29,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/insecure-defaults/skills/insecure-defaults/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/insecure-defaults/skills/insecure-defaults/SKILL.md
-fetched_at: '2026-04-26T05:01:05.747566+00:00'
+fetched_at: '2026-05-03T05:34:04.947167+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:32:45.535628Z'
+  evaluated_at: '2026-05-03T08:08:40.443272Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe110853a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f54f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe110853a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f54f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.668990Z'
-indexed_at: '2026-04-26T07:41:27.668996Z'
+  fetched_at: '2026-05-03T08:17:32.522504Z'
+indexed_at: '2026-05-03T08:17:32.522510Z'
 ---

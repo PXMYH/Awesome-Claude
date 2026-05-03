@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/fungi-identification/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/fungi-identification/SKILL.md
-fetched_at: '2026-04-26T05:00:12.779828+00:00'
+fetched_at: '2026-05-03T05:32:53.456943+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:53:38.178978Z'
+  evaluated_at: '2026-05-03T07:28:51.031289Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe110841d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e34956f30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe110841d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e34956f30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.808485Z'
-indexed_at: '2026-04-26T07:41:26.808491Z'
+  fetched_at: '2026-05-03T08:17:31.711184Z'
+indexed_at: '2026-05-03T08:17:31.711190Z'
 ---

@@ -1,7 +1,7 @@
 id: rag-architect
 slug: rag-architect
 name: RAG Architect
-description: 'When designing RAG architecture, deliver:'
+description: '[Documentation](https://jeffallan.github.io/claude-skills/skills/data-ml/rag-architect/)'
 prompt_preview: "---\nname: rag-architect\ndescription: Designs and implements production-grade\
   \ RAG systems by chunking documents, generating embeddings, configuring vector stores,\
   \ building hybrid search pipelines, applying reranking, and evaluating retrieval\
@@ -9,7 +9,7 @@ prompt_preview: "---\nname: rag-architect\ndescription: Designs and implements p
   \ AI applications requiring semantic search, document retrieval, context augmentation,\
   \ similarity search, or embedding-based indexing.\nlicense: MIT\nmetadata:\n  author:\
   \ https://githu..."
-full_prompt_length: 7637
+full_prompt_length: 7727
 tools_mentioned:
 - python
 category: community
@@ -17,17 +17,17 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/rag-architect/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/rag-architect/SKILL.md
-fetched_at: '2026-04-26T04:59:30.606594+00:00'
+fetched_at: '2026-05-03T05:31:56.542145+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:22:53.801606Z'
+  evaluated_at: '2026-05-03T06:57:35.403804Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1105bfb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2e8a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1105bfb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2e8a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.128864Z'
-indexed_at: '2026-04-26T07:41:26.128869Z'
+  fetched_at: '2026-05-03T08:17:31.055561Z'
+indexed_at: '2026-05-03T08:17:31.055566Z'

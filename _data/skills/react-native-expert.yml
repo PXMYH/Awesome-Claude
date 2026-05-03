@@ -1,8 +1,7 @@
 id: react-native-expert
 slug: react-native-expert
 name: React Native Expert
-description: React Native 0.73+, Expo SDK 50+, Expo Router, React Navigation 7, Reanimated
-  3, Gesture Handler, AsyncStorage, MMKV, React Query, Zustand
+description: '[Documentation](https://jeffallan.github.io/claude-skills/skills/frontend/react-native-expert/)'
 prompt_preview: '---
 
   name: react-native-expert
@@ -13,27 +12,27 @@ prompt_preview: '---
   and handles platform-specific code for iOS and Android. Use when building a React
   Native or Expo mobile app, setting up navigation, integrating native modules, improving
   scroll performance, handling SafeArea or keyboard in...'
-full_prompt_length: 6375
+full_prompt_length: 6472
 tools_mentioned:
+- TypeScript
 - React
 - react
-- TypeScript
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/react-native-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/react-native-expert/SKILL.md
-fetched_at: '2026-04-26T04:59:30.961718+00:00'
+fetched_at: '2026-05-03T05:31:57.088831+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:23:09.984680Z'
+  evaluated_at: '2026-05-03T06:57:51.904919Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1105b9e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e348fbbc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1105b9e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e348fbbc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,5 +42,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.134840Z'
-indexed_at: '2026-04-26T07:41:26.134845Z'
+  fetched_at: '2026-05-03T08:17:31.061070Z'
+indexed_at: '2026-05-03T08:17:31.061076Z'

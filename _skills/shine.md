@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/shine/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/shine/SKILL.md
-fetched_at: '2026-04-26T05:00:36.060738+00:00'
+fetched_at: '2026-05-03T05:33:25.703585+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:14:20.353133Z'
+  evaluated_at: '2026-05-03T07:49:56.717329Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11059df0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8f530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11059df0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8f530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.258611Z'
-indexed_at: '2026-04-26T07:41:27.258617Z'
+  fetched_at: '2026-05-03T08:17:32.142539Z'
+indexed_at: '2026-05-03T08:17:32.142545Z'
 ---

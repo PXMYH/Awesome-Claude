@@ -2,9 +2,7 @@
 id: react-expert
 slug: react-expert
 name: React Expert
-description: React 19, Server Components, use() hook, Suspense, TypeScript, TanStack
-  Query, Zustand, Redux Toolkit, React Router, React Testing Library, Vitest/Jest,
-  Next.js App Router, accessibility (WCAG)
+description: '[Documentation](https://jeffallan.github.io/claude-skills/skills/frontend/react-expert/)'
 prompt_preview: "---\nname: react-expert\ndescription: Use when building React 18+\
   \ applications in .jsx or .tsx files, Next.js App Router projects, or create-react-app\
   \ setups. Creates components, implements custom hooks, debugs rendering issues,\
@@ -12,27 +10,27 @@ prompt_preview: "---\nname: react-expert\ndescription: Use when building React 1
   \ for Server Components, Suspense boundaries, useActionState forms, performance\
   \ optimization, or React 19 features.\nlicense: MIT\nmetadata:\n  author: https://github.com/Jeffallan\n\
   \  version: \"1.1...."
-full_prompt_length: 5166
+full_prompt_length: 5256
 tools_mentioned:
+- TypeScript
 - React
 - react
-- TypeScript
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/react-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/react-expert/SKILL.md
-fetched_at: '2026-04-26T04:59:30.847202+00:00'
+fetched_at: '2026-05-03T05:31:56.910822+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:23:01.892520Z'
+  evaluated_at: '2026-05-03T06:57:43.654373Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1105a660 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2d430 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1105a660 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2d430 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.131769Z'
-indexed_at: '2026-04-26T07:41:26.131775Z'
+  fetched_at: '2026-05-03T08:17:31.058296Z'
+indexed_at: '2026-05-03T08:17:31.058301Z'
 ---

@@ -17,24 +17,24 @@ prompt_preview: '---
   tasks. Supports both local model usage and cloud-based Forg...'
 full_prompt_length: 10562
 tools_mentioned:
-- AWS
 - python
+- AWS
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/esm/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/esm/SKILL.md
-fetched_at: '2026-04-26T04:57:54.595569+00:00'
+fetched_at: '2026-05-03T05:29:38.251478+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T05:07:32.420439Z'
+  evaluated_at: '2026-05-03T05:40:46.652550Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11222360 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2c380 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11222360 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2c380 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:24.460099Z'
-indexed_at: '2026-04-26T07:41:24.460106Z'
+  fetched_at: '2026-05-03T08:17:29.480182Z'
+indexed_at: '2026-05-03T08:17:29.480188Z'
 ---

@@ -38,17 +38,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/modern-python/skills/modern-python/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/modern-python/skills/modern-python/SKILL.md
-fetched_at: '2026-04-26T05:01:06.317113+00:00'
+fetched_at: '2026-05-03T05:34:05.879233+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:33:01.723468Z'
+  evaluated_at: '2026-05-03T08:08:56.920744Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe113a8da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f5e80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe113a8da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f5e80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -58,6 +58,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.675091Z'
-indexed_at: '2026-04-26T07:41:27.675097Z'
+  fetched_at: '2026-05-03T08:17:32.528145Z'
+indexed_at: '2026-05-03T08:17:32.528151Z'
 ---

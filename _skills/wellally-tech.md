@@ -22,24 +22,24 @@ prompt_preview: '---
 full_prompt_length: 19261
 tools_mentioned:
 - python
-- Python
 - javascript
+- Python
 category: community
 category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/wellally-tech/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/wellally-tech/SKILL.md
-fetched_at: '2026-04-26T04:59:20.512269+00:00'
+fetched_at: '2026-05-03T05:31:42.749286+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:19:30.849974Z'
+  evaluated_at: '2026-05-03T06:54:07.523442Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f2e70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8e660 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f2e70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8e660 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.053319Z'
-indexed_at: '2026-04-26T07:41:26.053325Z'
+  fetched_at: '2026-05-03T08:17:30.985521Z'
+indexed_at: '2026-05-03T08:17:30.985527Z'
 ---

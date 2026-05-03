@@ -2,9 +2,7 @@
 id: the-fool
 slug: the-fool
 name: The Fool
-description: Socratic method, Hegelian dialectic, steel manning, pre-mortem analysis,
-  red teaming, falsificationism, abductive reasoning, second-order thinking, cognitive
-  biases, inversion technique
+description: '[Documentation](https://jeffallan.github.io/claude-skills/skills/workflow/the-fool/)'
 prompt_preview: "---\nname: the-fool\ndescription: Use when challenging ideas, plans,\
   \ decisions, or proposals using structured critical reasoning. Invoke to play devil's\
   \ advocate, run a pre-mortem, red team, or audit evidence and assumptions.\nlicense:\
@@ -12,7 +10,7 @@ prompt_preview: "---\nname: the-fool\ndescription: Use when challenging ideas, p
   \  domain: workflow\n  triggers: play the fool, devil's advocate, challenge this,\
   \ stress test, poke holes, what could go wrong, red team, pre-mortem, test my assumptions\n\
   \  role: expert\n  scope: rev..."
-full_prompt_length: 6083
+full_prompt_length: 6169
 tools_mentioned:
 - go
 category: community
@@ -20,17 +18,17 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/the-fool/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/the-fool/SKILL.md
-fetched_at: '2026-04-26T04:59:32.748983+00:00'
+fetched_at: '2026-05-03T05:31:59.995334+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:24:15.483875Z'
+  evaluated_at: '2026-05-03T06:58:57.857913Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1105a000 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2d910 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe1105a000 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2d910 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.158783Z'
-indexed_at: '2026-04-26T07:41:26.158788Z'
+  fetched_at: '2026-05-03T08:17:31.083721Z'
+indexed_at: '2026-05-03T08:17:31.083727Z'
 ---

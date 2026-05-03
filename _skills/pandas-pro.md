@@ -2,7 +2,7 @@
 id: pandas-pro
 slug: pandas-pro
 name: Pandas Pro
-description: 'When implementing pandas solutions, provide:'
+description: '[Documentation](https://jeffallan.github.io/claude-skills/skills/data-ml/pandas-pro/)'
 prompt_preview: '---
 
   name: pandas-pro
@@ -15,7 +15,7 @@ prompt_preview: '---
   or performance optimization of large datasets.
 
   license: M...'
-full_prompt_length: 5892
+full_prompt_length: 5979
 tools_mentioned:
 - python
 - Python
@@ -24,17 +24,17 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/pandas-pro/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/pandas-pro/SKILL.md
-fetched_at: '2026-04-26T04:59:29.794704+00:00'
+fetched_at: '2026-05-03T05:31:55.355510+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:22:37.581609Z'
+  evaluated_at: '2026-05-03T06:57:18.929828Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe115245f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f5460 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe115245f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f5460 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.122946Z'
-indexed_at: '2026-04-26T07:41:26.122952Z'
+  fetched_at: '2026-05-03T08:17:31.050144Z'
+indexed_at: '2026-05-03T08:17:31.050149Z'
 ---

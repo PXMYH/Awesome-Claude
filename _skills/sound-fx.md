@@ -23,17 +23,17 @@ category_display: Community
 source_repo: NoizAI/skills
 source_path: skills/sound-fx/SKILL.md
 source_url: https://github.com/NoizAI/skills/blob/main/skills/sound-fx/SKILL.md
-fetched_at: '2026-04-26T04:58:09.674274+00:00'
+fetched_at: '2026-05-03T05:30:02.472597+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T05:22:37.329610Z'
+  evaluated_at: '2026-05-03T05:56:12.273375Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11221b50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5fa70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11221b50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5fa70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:24.801037Z'
-indexed_at: '2026-04-26T07:41:24.801043Z'
+  fetched_at: '2026-05-03T08:17:29.799289Z'
+indexed_at: '2026-05-03T08:17:29.799296Z'
 ---

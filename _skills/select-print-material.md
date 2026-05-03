@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/select-print-material/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/select-print-material/SKILL.md
-fetched_at: '2026-04-26T05:00:33.617325+00:00'
+fetched_at: '2026-05-03T05:33:22.346194+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:12:02.791573Z'
+  evaluated_at: '2026-05-03T07:47:35.225608Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11085d60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2ed20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11085d60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2ed20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.207974Z'
-indexed_at: '2026-04-26T07:41:27.207979Z'
+  fetched_at: '2026-05-03T08:17:32.094208Z'
+indexed_at: '2026-05-03T08:17:32.094214Z'
 ---

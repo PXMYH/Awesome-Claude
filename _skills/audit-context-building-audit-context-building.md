@@ -35,17 +35,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/audit-context-building/skills/audit-context-building/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/audit-context-building/skills/audit-context-building/SKILL.md
-fetched_at: '2026-04-26T05:00:59.307882+00:00'
+fetched_at: '2026-05-03T05:33:56.371096+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:29:22.867533Z'
+  evaluated_at: '2026-05-03T08:05:14.147994Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe119f7ce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33e634a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe119f7ce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33e634a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -55,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.589847Z'
-indexed_at: '2026-04-26T07:41:27.589853Z'
+  fetched_at: '2026-05-03T08:17:32.450280Z'
+indexed_at: '2026-05-03T08:17:32.450286Z'
 ---

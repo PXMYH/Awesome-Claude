@@ -1,0 +1,49 @@
+---
+id: hugging-science
+slug: hugging-science
+name: Hugging Science
+description: '- `scripts/fetch_catalog.py` — fetch and filter catalog content. Run
+  with `--help` for full usage. Use this in preference to ad-hoc WebFetch calls when
+  you need structured access.'
+prompt_preview: '---
+
+  name: hugging-science
+
+  description: Use when the user is doing AI/ML work in a scientific domain — biology,
+  chemistry, physics, astronomy, climate, genomics, materials science, medicine, ecology,
+  energy, conservation, engineering, mathematics, scientific reasoning, drug discovery,
+  protein design, weather modeling, theorem proving, single-cell, PDE solving, or
+  anything similar. Hugging Science (huggingscience.co) is a curated catalog of scientific
+  datasets, models, blog posts, and interactive...'
+full_prompt_length: 10526
+tools_mentioned:
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: scientific-skills/hugging-science/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/hugging-science/SKILL.md
+fetched_at: '2026-05-03T05:29:41.654566+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-05-03T05:42:50.613305Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e346830b0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e346830b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-05-03T08:17:29.521919Z'
+indexed_at: '2026-05-03T08:17:29.521925Z'
+---

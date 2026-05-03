@@ -13,25 +13,25 @@ prompt_preview: "---\r\nname: deploy-shinyproxy\r\ndescription: >\r\n  Deploy Sh
 full_prompt_length: 9445
 tools_mentioned:
 - docker
-- Docker
 - WebSocket
+- Docker
 - Kubernetes
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/deploy-shinyproxy/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/deploy-shinyproxy/SKILL.md
-fetched_at: '2026-04-26T05:00:04.831740+00:00'
+fetched_at: '2026-05-03T05:32:43.633520+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:47:08.887998Z'
+  evaluated_at: '2026-05-03T07:22:13.825522Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f2990 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5c290 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe111f2990 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5c290 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.664159Z'
-indexed_at: '2026-04-26T07:41:26.664164Z'
+  fetched_at: '2026-05-03T08:17:31.574678Z'
+indexed_at: '2026-05-03T08:17:31.574687Z'
 ---

@@ -21,17 +21,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/enrich-industry/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/enrich-industry/SKILL.md
-fetched_at: '2026-04-26T04:58:15.238900+00:00'
+fetched_at: '2026-05-03T05:30:10.019276+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T05:25:51.763679Z'
+  evaluated_at: '2026-05-03T05:59:30.071445Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11221640 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2f380 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11221640 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2f380 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:24.874579Z'
-indexed_at: '2026-04-26T07:41:24.874584Z'
+  fetched_at: '2026-05-03T08:17:29.868797Z'
+indexed_at: '2026-05-03T08:17:29.868803Z'
 ---

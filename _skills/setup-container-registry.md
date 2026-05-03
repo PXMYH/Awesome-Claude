@@ -12,30 +12,30 @@ prompt_preview: "---\nname: setup-container-registry\ndescription: >\n  Configur
   \  images, enforcing im..."
 full_prompt_length: 16247
 tools_mentioned:
-- Kubernetes
-- kubernetes
 - Go
+- kubernetes
 - Docker
-- Redis
-- redis
+- Kubernetes
 - docker
+- redis
 - PostgreSQL
+- Redis
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/setup-container-registry/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/setup-container-registry/SKILL.md
-fetched_at: '2026-04-26T05:00:34.196711+00:00'
+fetched_at: '2026-05-03T05:33:23.177166+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:12:35.156049Z'
+  evaluated_at: '2026-05-03T07:48:08.487487Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11059310 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2c3e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe11059310 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2c3e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.219871Z'
-indexed_at: '2026-04-26T07:41:27.219877Z'
+  fetched_at: '2026-05-03T08:17:32.105561Z'
+indexed_at: '2026-05-03T08:17:32.105567Z'
 ---

@@ -3,31 +3,49 @@ slug: fp-check-fp-check
 name: False Positive Check
 description: '- [Standard Verification]({baseDir}/references/standard-verification.md)
   — Linear single-pass checklist for straightforward bugs'
-prompt_preview: "---\nname: fp-check\ndescription: \"Systematically verifies suspected\
-  \ security bugs to eliminate false positives. Produces TRUE POSITIVE or FALSE POSITIVE\
-  \ verdicts with documented evidence for each bug.\"\nallowed-tools:\n  - Read\n\
-  \  - Grep\n  - Glob\n  - LSP\n  - Bash\n  - Task\n  - Write\n  - Edit\n  - AskUserQuestion\n\
-  \  - TaskCreate\n  - TaskUpdate\n  - TaskList\n  - TaskGet\n---\n\n# False Positive\
-  \ Check\n\n## When to Use\n\n- \"Is this bug real?\" or \"is this a true positive?\"\
-  \n- \"Is this a false positive?\" or \"verify..."
-full_prompt_length: 6576
+prompt_preview: '---
+
+  name: fp-check
+
+  description: "Systematically verifies suspected security bugs to eliminate false
+  positives. Produces TRUE POSITIVE or FALSE POSITIVE verdicts with documented evidence
+  for each bug."
+
+  allowed-tools: Read Grep Glob LSP Bash Task Write Edit AskUserQuestion TaskCreate
+  TaskUpdate TaskList TaskGet
+
+  ---
+
+
+  # False Positive Check
+
+
+  ## When to Use
+
+
+  - "Is this bug real?" or "is this a true positive?"
+
+  - "Is this a false positive?" or "verify this finding"
+
+  - "Check if this vulnerability is exp...'
+full_prompt_length: 6524
 tools_mentioned: []
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/fp-check/skills/fp-check/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/fp-check/skills/fp-check/SKILL.md
-fetched_at: '2026-04-26T05:01:05.067074+00:00'
+fetched_at: '2026-05-03T05:34:03.929892+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:32:29.071553Z'
+  evaluated_at: '2026-05-03T08:08:23.967101Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe10f45a60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e342ac920 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe10f45a60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e342ac920 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +55,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.662937Z'
-indexed_at: '2026-04-26T07:41:27.662943Z'
+  fetched_at: '2026-05-03T08:17:32.516962Z'
+indexed_at: '2026-05-03T08:17:32.516969Z'

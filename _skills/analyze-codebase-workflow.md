@@ -12,27 +12,27 @@ prompt_preview: "---\r\nname: analyze-codebase-workflow\r\ndescription: >\r\n  A
   \ without existing annotations, auditing a\r\n  pr..."
 full_prompt_length: 8781
 tools_mentioned:
-- rest
-- javascript
-- python
-- JavaScript
 - Python
+- rest
+- python
+- javascript
+- JavaScript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/analyze-codebase-workflow/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/analyze-codebase-workflow/SKILL.md
-fetched_at: '2026-04-26T04:59:50.175303+00:00'
+fetched_at: '2026-05-03T05:32:22.623422+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T06:33:43.790320Z'
+  evaluated_at: '2026-05-03T07:08:36.365561Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe112208f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2da30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe112208f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2da30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:26.371547Z'
-indexed_at: '2026-04-26T07:41:26.371552Z'
+  fetched_at: '2026-05-03T08:17:31.283590Z'
+indexed_at: '2026-05-03T08:17:31.283596Z'
 ---

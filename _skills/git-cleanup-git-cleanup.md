@@ -3,31 +3,50 @@ id: git-cleanup-git-cleanup
 slug: git-cleanup-git-cleanup
 name: Git Cleanup
 description: '| Rationalization | Why It''s Wrong |'
-prompt_preview: "---\nname: git-cleanup\ndescription: \"Safely analyzes and cleans\
-  \ up local git branches and worktrees by categorizing them as merged, squash-merged,\
-  \ superseded, or active work.\"\ndisable-model-invocation: true\nallowed-tools:\n\
-  \  - Bash\n  - Read\n  - Grep\n  - AskUserQuestion\n---\n\n# Git Cleanup\n\nSafely\
-  \ clean up accumulated git worktrees and local branches by categorizing them into:\
-  \ safely deletable (merged), potentially related (similar themes), and active work\
-  \ (keep).\n\n## When to Use\n\n- When the user ha..."
-full_prompt_length: 12239
+prompt_preview: '---
+
+  name: git-cleanup
+
+  description: "Safely analyzes and cleans up local git branches and worktrees by
+  categorizing them as merged, squash-merged, superseded, or active work."
+
+  disable-model-invocation: true
+
+  allowed-tools: Bash Read Grep AskUserQuestion
+
+  ---
+
+
+  # Git Cleanup
+
+
+  Safely clean up accumulated git worktrees and local branches by categorizing them
+  into: safely deletable (merged), potentially related (similar themes), and active
+  work (keep).
+
+
+  ## When to Use
+
+
+  - When the user has accumulated ma...'
+full_prompt_length: 12223
 tools_mentioned: []
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/git-cleanup/skills/git-cleanup/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/git-cleanup/skills/git-cleanup/SKILL.md
-fetched_at: '2026-04-26T05:01:05.469818+00:00'
+fetched_at: '2026-05-03T05:34:04.541058+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:32:37.428460Z'
+  evaluated_at: '2026-05-03T08:08:32.206038Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe110848c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f5760 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe110848c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f5760 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.666039Z'
-indexed_at: '2026-04-26T07:41:27.666045Z'
+  fetched_at: '2026-05-03T08:17:32.519810Z'
+indexed_at: '2026-05-03T08:17:32.519815Z'
 ---

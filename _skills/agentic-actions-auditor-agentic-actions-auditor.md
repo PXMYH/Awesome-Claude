@@ -14,7 +14,7 @@ prompt_preview: '---
   agents running in CI/CD pipelines, including env var intermediary patterns, direct
   expression injection, dangerous sandbox configurations, and wildcard user allowlists.
   Use when reviewing workflow files that invoke AI c...'
-full_prompt_length: 21542
+full_prompt_length: 21526
 tools_mentioned:
 - python
 - ruby
@@ -23,17 +23,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/agentic-actions-auditor/skills/agentic-actions-auditor/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/agentic-actions-auditor/skills/agentic-actions-auditor/SKILL.md
-fetched_at: '2026-04-26T05:00:58.571360+00:00'
+fetched_at: '2026-05-03T05:33:55.560647+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:29:06.323376Z'
+  evaluated_at: '2026-05-03T08:04:57.678157Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe113abfb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e3430e270 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe113abfb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e3430e270 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.583475Z'
-indexed_at: '2026-04-26T07:41:27.583481Z'
+  fetched_at: '2026-05-03T08:17:32.444350Z'
+indexed_at: '2026-05-03T08:17:32.444356Z'
 ---

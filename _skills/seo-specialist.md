@@ -22,31 +22,31 @@ prompt_preview: '---
   organic search rankings, enhancing site architecture for crawlabili...'
 full_prompt_length: 5296
 tools_mentioned: []
-category: 07-specialized-domains
-category_display: 07 Specialized Domains
+category: specialized-domains
+category_display: Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/seo-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/seo-specialist.md
-fetched_at: '2026-05-02T04:57:46.416633Z'
+fetched_at: '2026-05-03T05:30:36.497186+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-02T05:13:42.182619Z'
+  evaluated_at: '2026-05-03T06:17:02.265026Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2386e498e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2e540 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2386e498e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2e540 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 18915
-  forks: 2178
+  stars: 18967
+  forks: 2187
   open_issues: 11
   last_commit: '2026-04-20'
-  fetched_at: '2026-05-02T04:58:09.913773Z'
-indexed_at: '2026-05-02T05:22:12.195775Z'
+  fetched_at: '2026-05-03T05:34:33.052355Z'
+indexed_at: '2026-05-03T08:17:30.228457Z'
 ---

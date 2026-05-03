@@ -14,26 +14,26 @@ full_prompt_length: 9734
 tools_mentioned:
 - Python
 - python
-- SQLite
 - postgresql
 - PostgreSQL
 - MySQL
+- SQLite
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/register-ml-model/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/register-ml-model/SKILL.md
-fetched_at: '2026-04-26T05:00:28.612782+00:00'
+fetched_at: '2026-05-03T05:33:15.025336+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:07:27.599320Z'
+  evaluated_at: '2026-05-03T07:42:54.293598Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe112231a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f6f00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe112231a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f6f00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.107439Z'
-indexed_at: '2026-04-26T07:41:27.107445Z'
+  fetched_at: '2026-05-03T08:17:31.998140Z'
+indexed_at: '2026-05-03T08:17:31.998147Z'
 ---

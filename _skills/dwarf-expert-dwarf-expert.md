@@ -3,31 +3,41 @@ id: dwarf-expert-dwarf-expert
 slug: dwarf-expert-dwarf-expert
 name: Overview
 description: '# Choosing Your Approach'
-prompt_preview: "---\nname: dwarf-expert\ndescription: Provides expertise for analyzing\
-  \ DWARF debug files and understanding the DWARF debug format/standard (v3-v5). Triggers\
-  \ when understanding DWARF information, interacting with DWARF files, answering\
-  \ DWARF-related questions, or working with code that parses DWARF data.\nallowed-tools:\n\
-  \  - Read\n  - Bash\n  - Grep\n  - Glob\n  - WebSearch\n---\n# Overview\nThis skill\
-  \ provides technical knowledge and expertise about the DWARF standard and how to\
-  \ interact with DWARF files...."
-full_prompt_length: 4873
+prompt_preview: '---
+
+  name: dwarf-expert
+
+  description: Provides expertise for analyzing DWARF debug files and understanding
+  the DWARF debug format/standard (v3-v5). Triggers when understanding DWARF information,
+  interacting with DWARF files, answering DWARF-related questions, or working with
+  code that parses DWARF data.
+
+  allowed-tools: Read Bash Grep Glob WebSearch
+
+  ---
+
+  # Overview
+
+  This skill provides technical knowledge and expertise about the DWARF standard and
+  how to interact with DWARF files. Tasks include answer...'
+full_prompt_length: 4853
 tools_mentioned: []
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/dwarf-expert/skills/dwarf-expert/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/dwarf-expert/skills/dwarf-expert/SKILL.md
-fetched_at: '2026-04-26T05:01:04.176135+00:00'
+fetched_at: '2026-05-03T05:34:02.693217+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:32:04.803306Z'
+  evaluated_at: '2026-05-03T08:07:59.252058Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe10f440b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f7050 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe10f440b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f7050 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.653924Z'
-indexed_at: '2026-04-26T07:41:27.653930Z'
+  fetched_at: '2026-05-03T08:17:32.508794Z'
+indexed_at: '2026-05-03T08:17:32.508800Z'
 ---

@@ -17,17 +17,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/foundation-persona/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/foundation-persona/SKILL.md
-fetched_at: '2026-04-26T05:00:47.320316+00:00'
+fetched_at: '2026-05-03T05:33:40.570366+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-04-26T07:23:26.077763Z'
+  evaluated_at: '2026-05-03T07:59:09.308516Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe110581a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8ed20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efe110581a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8ed20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-04-26T07:41:27.457721Z'
-indexed_at: '2026-04-26T07:41:27.457727Z'
+  fetched_at: '2026-05-03T08:17:32.329259Z'
+indexed_at: '2026-05-03T08:17:32.329265Z'
 ---
