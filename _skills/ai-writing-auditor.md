@@ -30,30 +30,30 @@ prompt_preview: '---
 full_prompt_length: 4232
 tools_mentioned: []
 category: quality-security
-category_display: Quality Security
+category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/ai-writing-auditor.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ai-writing-auditor.md
-fetched_at: '2026-05-03T05:30:25.714578+00:00'
+fetched_at: '2026-05-04T05:33:03.204972Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T06:09:42.918764Z'
+  evaluated_at: '2026-05-04T05:41:49.473323Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e3511b5f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1cbf024290 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e3511b5f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1cbf024290 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 18967
-  forks: 2187
-  open_issues: 11
+  stars: 19023
+  forks: 2199
+  open_issues: 13
   last_commit: '2026-04-20'
-  fetched_at: '2026-05-03T05:34:33.052355Z'
-indexed_at: '2026-05-03T08:17:30.080824Z'
+  fetched_at: '2026-05-04T05:33:38.169093Z'
+indexed_at: '2026-05-04T05:57:57.097197Z'
 ---

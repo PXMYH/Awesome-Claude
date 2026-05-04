@@ -24,31 +24,31 @@ prompt_preview: '---
 full_prompt_length: 6571
 tools_mentioned:
 - rest
-category: meta-orchestration
-category_display: Meta Orchestration
+category: 09-meta-orchestration
+category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/context-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/context-manager.md
-fetched_at: '2026-05-03T05:30:39.999807+00:00'
+fetched_at: '2026-05-04T05:33:21.256805Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T06:19:14.163061Z'
+  evaluated_at: '2026-05-04T05:51:32.908942Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f7e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1cbeeed0d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f7e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1cbeeed0d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 18967
-  forks: 2187
-  open_issues: 11
+  stars: 19023
+  forks: 2199
+  open_issues: 13
   last_commit: '2026-04-20'
-  fetched_at: '2026-05-03T05:34:33.052355Z'
-indexed_at: '2026-05-03T08:17:30.280194Z'
+  fetched_at: '2026-05-04T05:33:38.169093Z'
+indexed_at: '2026-05-04T05:57:57.337824Z'
 ---

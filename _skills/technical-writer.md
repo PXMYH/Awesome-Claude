@@ -23,31 +23,31 @@ prompt_preview: '---
   content with emphasis on clarity, a...'
 full_prompt_length: 6520
 tools_mentioned: []
-category: business-product
-category_display: Business Product
+category: 08-business-product
+category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/technical-writer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/technical-writer.md
-fetched_at: '2026-05-03T05:30:38.567899+00:00'
+fetched_at: '2026-05-04T05:33:19.585299Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T06:18:24.703289Z'
+  evaluated_at: '2026-05-04T05:50:43.981874Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2cbc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1cbf1d2e40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2cbc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1cbf1d2e40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 18967
-  forks: 2187
-  open_issues: 11
+  stars: 19023
+  forks: 2199
+  open_issues: 13
   last_commit: '2026-04-20'
-  fetched_at: '2026-05-03T05:34:33.052355Z'
-indexed_at: '2026-05-03T08:17:30.256443Z'
+  fetched_at: '2026-05-04T05:33:38.169093Z'
+indexed_at: '2026-05-04T05:57:57.308166Z'
 ---
