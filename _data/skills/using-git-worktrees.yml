@@ -1,14 +1,14 @@
 id: using-git-worktrees
 slug: using-git-worktrees
 name: Using Git Worktrees
-description: '**Pairs with:**'
+description: '**Always:**'
 prompt_preview: '---
 
   name: using-git-worktrees
 
   description: Use when starting feature work that needs isolation from current workspace
-  or before executing implementation plans - creates isolated git worktrees with smart
-  directory selection and safety verification
+  or before executing implementation plans - ensures an isolated workspace exists
+  via native tools or git worktree fallback
 
   ---
 
@@ -19,43 +19,43 @@ prompt_preview: '---
   ## Overview
 
 
-  Git worktrees create isolated workspaces sharing the same repository, allowing work
-  on multiple branches simultaneously without switching.
+  Ensure work happens in an isolated workspace. Prefer your platform''s native worktree
+  tools. Fall back to manual git worktrees only when no native tool is available.
 
 
-  **Core principle:** Systematic directory selection + safety verification...'
-full_prompt_length: 5633
+  **Core principle:** Detect existing isolation first....'
+full_prompt_length: 7977
 tools_mentioned:
+- go
+- pytest
 - Node.js
 - Python
-- go
-- Rust
 - Go
-- pytest
+- Rust
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/using-git-worktrees/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/using-git-worktrees/SKILL.md
-fetched_at: '2026-05-04T05:33:35.997134Z'
+fetched_at: '2026-05-05T05:14:01.584964Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-04T05:57:24.236233Z'
+  evaluated_at: '2026-05-05T05:37:14.319660Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1cbf024410 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f28f6207530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1cbf024410 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f28f6207530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 177560
-  forks: 15753
-  open_issues: 292
-  last_commit: '2026-04-30'
-  fetched_at: '2026-05-04T05:33:39.132986Z'
-indexed_at: '2026-05-04T05:57:57.469127Z'
+  stars: 178482
+  forks: 15849
+  open_issues: 267
+  last_commit: '2026-05-04'
+  fetched_at: '2026-05-05T05:14:05.540733Z'
+indexed_at: '2026-05-05T05:37:47.211703Z'
