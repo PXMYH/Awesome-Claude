@@ -30,26 +30,26 @@ category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/terragrunt-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/terragrunt-expert.md
-fetched_at: '2026-05-05T05:13:26.741847Z'
+fetched_at: '2026-05-06T05:28:03.077136Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-05T05:21:39.871810Z'
+  evaluated_at: '2026-05-06T05:36:06.363620Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f28f6207fb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efd9db023f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f28f6207fb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efd9db023f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 19094
-  forks: 2211
+  stars: 19179
+  forks: 2224
   open_issues: 15
   last_commit: '2026-04-20'
-  fetched_at: '2026-05-05T05:14:04.293111Z'
-indexed_at: '2026-05-05T05:37:46.949726Z'
+  fetched_at: '2026-05-06T05:28:31.179028Z'
+indexed_at: '2026-05-06T05:52:11.563505Z'
 ---

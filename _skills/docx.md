@@ -15,35 +15,35 @@ prompt_preview: '---
   performing find-and-replace in Word files, working with...'
 full_prompt_length: 20056
 tools_mentioned:
-- python
-- Python
 - JavaScript
 - javascript
+- python
+- Python
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/docx/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/docx/SKILL.md
-fetched_at: '2026-05-05T05:13:52.804136Z'
+fetched_at: '2026-05-06T05:28:22.587326Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-05T05:34:23.353784Z'
+  evaluated_at: '2026-05-06T05:48:48.578413Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f28f62043b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efd9d9d62d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f28f62043b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efd9d9d62d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 128154
-  forks: 15076
-  open_issues: 805
+  stars: 128656
+  forks: 15150
+  open_issues: 807
   last_commit: '2026-05-03'
-  fetched_at: '2026-05-05T05:14:04.940394Z'
-indexed_at: '2026-05-05T05:37:47.167241Z'
+  fetched_at: '2026-05-06T05:28:31.693372Z'
+indexed_at: '2026-05-06T05:52:11.844677Z'
 ---

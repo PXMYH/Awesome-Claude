@@ -27,26 +27,26 @@ category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/design-bridge.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/design-bridge.md
-fetched_at: '2026-05-05T05:13:12.835534Z'
+fetched_at: '2026-05-06T05:27:53.094392Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-05T05:14:29.992522Z'
+  evaluated_at: '2026-05-06T05:28:56.663588Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f28f6958fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efd9e0eb3b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f28f6958fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efd9e0eb3b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 19094
-  forks: 2211
+  stars: 19179
+  forks: 2224
   open_issues: 15
   last_commit: '2026-04-20'
-  fetched_at: '2026-05-05T05:14:04.293111Z'
-indexed_at: '2026-05-05T05:37:46.810403Z'
+  fetched_at: '2026-05-06T05:28:31.179028Z'
+indexed_at: '2026-05-06T05:52:11.404681Z'
 ---
