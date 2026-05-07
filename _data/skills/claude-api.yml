@@ -14,42 +14,42 @@ prompt_preview: '---
   TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`; user asks for the Claude
   API, Anthropic SDK, or Managed Agents; user adds/modifies/tunes a Claude feature
   (caching, thinking, compaction, tool use, batch, fi...'
-full_prompt_length: 32719
+full_prompt_length: 32751
 tools_mentioned:
-- php
-- python
-- Rust
-- Java
-- java
 - Rest
-- Python
+- Ruby
+- python
+- go
+- Go
+- Rust
+- REST
 - rest
-- PHP
-- typescript
+- ruby
+- Java
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/claude-api/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/claude-api/SKILL.md
-fetched_at: '2026-05-06T05:28:22.023009Z'
+fetched_at: '2026-05-07T05:30:28.563803Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-06T05:48:32.289913Z'
+  evaluated_at: '2026-05-07T05:50:40.435894Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efd9d9d4bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3692b31d30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efd9d9d4bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3692b31d30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 128656
-  forks: 15150
-  open_issues: 807
-  last_commit: '2026-05-03'
-  fetched_at: '2026-05-06T05:28:31.693372Z'
-indexed_at: '2026-05-06T05:52:11.838594Z'
+  stars: 129244
+  forks: 15217
+  open_issues: 811
+  last_commit: '2026-05-06'
+  fetched_at: '2026-05-07T05:30:36.574198Z'
+indexed_at: '2026-05-07T05:54:20.863228Z'
