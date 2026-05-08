@@ -23,36 +23,36 @@ prompt_preview: '---
   Spring Cloud ecosystem, and enterprise integration wit...'
 full_prompt_length: 6590
 tools_mentioned:
-- REST
-- Docker
-- Java
 - java
+- Docker
+- REST
+- Java
 - Kubernetes
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/spring-boot-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/spring-boot-engineer.md
-fetched_at: '2026-05-07T05:30:08.222491Z'
+fetched_at: '2026-05-08T04:52:25.251047Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-07T05:35:29.950221Z'
+  evaluated_at: '2026-05-08T04:58:06.700003Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3692c603b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7feec5d67590 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3692c603b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7feec5d67590 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 19260
-  forks: 2230
+  stars: 19338
+  forks: 2238
   open_issues: 16
   last_commit: '2026-04-20'
-  fetched_at: '2026-05-07T05:30:36.146612Z'
-indexed_at: '2026-05-07T05:54:20.529122Z'
+  fetched_at: '2026-05-08T04:53:08.144499Z'
+indexed_at: '2026-05-08T05:17:15.803336Z'
 ---

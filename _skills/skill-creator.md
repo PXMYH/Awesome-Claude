@@ -25,38 +25,38 @@ prompt_preview: '---
   At a high level, the process of creating a skill goes li...'
 full_prompt_length: 32987
 tools_mentioned:
-- python
 - go
 - rest
-- gcp
+- python
+- aws
 - azure
 - Python
-- aws
+- gcp
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/skill-creator/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md
-fetched_at: '2026-05-07T05:30:30.674024Z'
+fetched_at: '2026-05-08T04:52:58.724689Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-07T05:51:46.066825Z'
+  evaluated_at: '2026-05-08T05:14:38.938526Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3692b30e00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7feec5d63080 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3692b30e00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7feec5d63080 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 129244
-  forks: 15217
-  open_issues: 811
+  stars: 129962
+  forks: 15290
+  open_issues: 815
   last_commit: '2026-05-06'
-  fetched_at: '2026-05-07T05:30:36.574198Z'
-indexed_at: '2026-05-07T05:54:20.886566Z'
+  fetched_at: '2026-05-08T04:53:08.781400Z'
+indexed_at: '2026-05-08T05:17:16.162622Z'
 ---

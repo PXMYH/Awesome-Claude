@@ -23,37 +23,37 @@ prompt_preview: '---
   delive...'
 full_prompt_length: 6948
 tools_mentioned:
+- Docker
 - kubernetes
 - Azure
-- Docker
-- GCP
-- Kubernetes
 - AWS
+- Kubernetes
+- GCP
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/devops-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/devops-engineer.md
-fetched_at: '2026-05-07T05:30:09.971608Z'
+fetched_at: '2026-05-08T04:52:28.147141Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-07T05:36:51.174560Z'
+  evaluated_at: '2026-05-08T04:59:29.172518Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3692c62780 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7feec5c325a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3692c62780 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7feec5c325a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 19260
-  forks: 2230
+  stars: 19338
+  forks: 2238
   open_issues: 16
   last_commit: '2026-04-20'
-  fetched_at: '2026-05-07T05:30:36.146612Z'
-indexed_at: '2026-05-07T05:54:20.560666Z'
+  fetched_at: '2026-05-08T04:53:08.144499Z'
+indexed_at: '2026-05-08T05:17:15.832353Z'
 ---
