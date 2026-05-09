@@ -28,26 +28,26 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/healthcare-admin.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/healthcare-admin.md
-fetched_at: '2026-05-08T04:52:43.562872Z'
+fetched_at: '2026-05-09T05:20:37.504523Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-08T05:07:44.817014Z'
+  evaluated_at: '2026-05-09T05:35:14.978544Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7feec5d61280 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd8b98cbd40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7feec5d61280 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd8b98cbd40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 19338
-  forks: 2238
+  stars: 19405
+  forks: 2244
   open_issues: 16
   last_commit: '2026-04-20'
-  fetched_at: '2026-05-08T04:53:08.144499Z'
-indexed_at: '2026-05-08T05:17:16.024023Z'
+  fetched_at: '2026-05-09T05:20:51.081142Z'
+indexed_at: '2026-05-09T05:44:38.039599Z'
 ---
