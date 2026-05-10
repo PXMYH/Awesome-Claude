@@ -12,28 +12,28 @@ prompt_preview: "---\nname: x-devs\ndescription: When the user wants to build a 
   \ thread structure, code screenshots..."
 full_prompt_length: 11125
 tools_mentioned:
-- Kubernetes
-- python
 - javascript
+- python
 - TypeScript
 - React
+- Kubernetes
 - AWS
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/x-devs/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/x-devs/SKILL.md
-fetched_at: '2026-05-03T05:32:09.047334+00:00'
+fetched_at: '2026-05-10T05:36:51.331898+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T07:03:47.755431Z'
+  evaluated_at: '2026-05-10T07:06:22.900726Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8d8e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543f47500 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8d8e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543f47500 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:31.185320Z'
-indexed_at: '2026-05-03T08:17:31.185326Z'
+  fetched_at: '2026-05-10T08:19:28.942819Z'
+indexed_at: '2026-05-10T08:19:28.942824Z'
 ---

@@ -5,30 +5,30 @@ name: Track Competitors on X
 description: 'Per-account monitor: `monitor-accounts`. Top posts: `find-viral-tweets`.
   Full API: [x-twitter-scraper](../x-twitter-scraper/SKILL.md).'
 prompt_preview: "---\nname: track-competitors\ndescription: \"Use when the user wants\
-  \ to track competitor accounts on X (Twitter). Monitors their posts, measures their\
-  \ growth, benchmarks engagement, and surfaces their best-performing tweets. Read-only\
-  \ competitor intelligence.\"\nlicense: MIT\nmetadata:\n  author: Xquik\n  version:\
-  \ \"1.0.0\"\n  openclaw:\n    requires:\n      env:\n        - XQUIK_API_KEY\n \
-  \   primaryEnv: XQUIK_API_KEY\n    emoji: \"\U0001F4CA\"\n    homepage: https://docs.xquik.com\n\
-  \  security:\n    contentTrust: untrusted..."
-full_prompt_length: 2316
+  \ to track competitor accounts on X (Twitter). Measures their growth, benchmarks\
+  \ engagement, surfaces their best-performing tweets, and creates ongoing monitors\
+  \ only after explicit approval.\"\nlicense: MIT\nmetadata:\n  internal: true\n \
+  \ author: Xquik\n  version: \"1.0.0\"\n  openclaw:\n    requires:\n      env:\n\
+  \        - XQUIK_API_KEY\n    primaryEnv: XQUIK_API_KEY\n    emoji: \"\U0001F4CA\
+  \"\n    homepage: https://docs.xquik.com\n  security:\n    contentTru..."
+full_prompt_length: 2492
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: Xquik-dev/x-twitter-scraper
 source_path: skills/track-competitors/SKILL.md
 source_url: https://github.com/Xquik-dev/x-twitter-scraper/blob/master/skills/track-competitors/SKILL.md
-fetched_at: '2026-05-03T05:30:47.614850+00:00'
+fetched_at: '2026-05-10T05:36:01.775320+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T06:23:54.590231Z'
+  evaluated_at: '2026-05-10T06:27:19.519726Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5cb60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c86f90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5cb60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c86f90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:30.378792Z'
-indexed_at: '2026-05-03T08:17:30.378799Z'
+  fetched_at: '2026-05-10T08:19:28.128236Z'
+indexed_at: '2026-05-10T08:19:28.128241Z'
 ---

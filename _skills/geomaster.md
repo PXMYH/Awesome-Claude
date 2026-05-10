@@ -12,28 +12,28 @@ prompt_preview: "---\r\nname: geomaster\r\ndescription: Comprehensive geospatial
   \ JavaScript, C++, Java, G..."
 full_prompt_length: 12110
 tools_mentioned:
-- Python
 - Go
-- python
-- Java
-- JavaScript
 - Rust
+- python
+- JavaScript
+- Python
+- Java
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/geomaster/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/geomaster/SKILL.md
-fetched_at: '2026-05-03T05:29:39.691221+00:00'
+fetched_at: '2026-05-10T05:35:23.331388+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T05:41:44.670657Z'
+  evaluated_at: '2026-05-10T05:45:36.695847Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e34906f30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543fbf6b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e34906f30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543fbf6b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:29.499776Z'
-indexed_at: '2026-05-03T08:17:29.499782Z'
+  fetched_at: '2026-05-10T08:19:27.251809Z'
+indexed_at: '2026-05-10T08:19:27.251815Z'
 ---

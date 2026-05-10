@@ -12,30 +12,30 @@ prompt_preview: "---\nname: youtube-devrel\ndescription: When the user wants to 
   \ covers tutorial structure, screen reco..."
 full_prompt_length: 11858
 tools_mentioned:
-- REST
+- Rust
+- Node.js
 - Docker
-- go
 - React
 - JavaScript
-- Node.js
+- REST
+- go
 - AWS
-- Rust
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/youtube-devrel/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/youtube-devrel/SKILL.md
-fetched_at: '2026-05-03T05:32:09.242434+00:00'
+fetched_at: '2026-05-10T05:36:51.527906+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T07:03:56.001740Z'
+  evaluated_at: '2026-05-10T07:06:30.995093Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8c860 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f85441259d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8c860 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f85441259d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:31.188204Z'
-indexed_at: '2026-05-03T08:17:31.188209Z'
+  fetched_at: '2026-05-10T08:19:28.945769Z'
+indexed_at: '2026-05-10T08:19:28.945775Z'
 ---

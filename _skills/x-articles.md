@@ -6,28 +6,28 @@ description: 'Full API surface: [x-twitter-scraper](../x-twitter-scraper/SKILL.m
 prompt_preview: "---\nname: x-articles\ndescription: \"Use when the user wants to\
   \ read X Articles (long-form posts on X/Twitter). Fetches article content, author,\
   \ published date, and metadata. Handles both individual article lookups and bulk\
-  \ extraction across an author or query.\"\nlicense: MIT\nmetadata:\n  author: Xquik\n\
-  \  version: \"1.0.0\"\n  openclaw:\n    requires:\n      env:\n        - XQUIK_API_KEY\n\
-  \    primaryEnv: XQUIK_API_KEY\n    emoji: \"\U0001F4C4\"\n    homepage: https://docs.xquik.com\n\
-  \  security:\n    contentTrust: untruste..."
-full_prompt_length: 2435
+  \ extraction across an author or query.\"\nlicense: MIT\nmetadata:\n  internal:\
+  \ true\n  author: Xquik\n  version: \"1.0.0\"\n  openclaw:\n    requires:\n    \
+  \  env:\n        - XQUIK_API_KEY\n    primaryEnv: XQUIK_API_KEY\n    emoji: \"\U0001F4C4\
+  \"\n    homepage: https://docs.xquik.com\n  security:\n    conte..."
+full_prompt_length: 2503
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: Xquik-dev/x-twitter-scraper
 source_path: skills/x-articles/SKILL.md
 source_url: https://github.com/Xquik-dev/x-twitter-scraper/blob/master/skills/x-articles/SKILL.md
-fetched_at: '2026-05-03T05:30:50.653079+00:00'
+fetched_at: '2026-05-10T05:36:03.518925+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T06:26:06.632456Z'
+  evaluated_at: '2026-05-10T06:29:29.289958Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f7800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543fa8da0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f7800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543fa8da0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:30.423406Z'
-indexed_at: '2026-05-03T08:17:30.423412Z'
+  fetched_at: '2026-05-10T08:19:28.173426Z'
+indexed_at: '2026-05-10T08:19:28.173431Z'
 ---

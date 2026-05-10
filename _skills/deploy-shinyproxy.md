@@ -21,17 +21,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/deploy-shinyproxy/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/deploy-shinyproxy/SKILL.md
-fetched_at: '2026-05-03T05:32:43.633520+00:00'
+fetched_at: '2026-05-10T05:37:12.819608+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T07:22:13.825522Z'
+  evaluated_at: '2026-05-10T07:24:37.115148Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5c290 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543e255b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5c290 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543e255b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:31.574678Z'
-indexed_at: '2026-05-03T08:17:31.574687Z'
+  fetched_at: '2026-05-10T08:19:29.320530Z'
+indexed_at: '2026-05-10T08:19:29.320536Z'
 ---

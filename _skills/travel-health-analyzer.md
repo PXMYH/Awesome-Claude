@@ -69,17 +69,17 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/travel-health-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/travel-health-analyzer/SKILL.md
-fetched_at: '2026-05-03T05:31:42.355497+00:00'
+fetched_at: '2026-05-10T05:36:35.659422+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T06:53:50.622924Z'
+  evaluated_at: '2026-05-10T06:56:37.825054Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8d700 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543e27ef0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8d700 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543e27ef0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -89,6 +89,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:30.979837Z'
-indexed_at: '2026-05-03T08:17:30.979844Z'
+  fetched_at: '2026-05-10T08:19:28.734454Z'
+indexed_at: '2026-05-10T08:19:28.734464Z'
 ---

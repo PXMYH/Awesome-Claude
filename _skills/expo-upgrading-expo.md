@@ -19,19 +19,19 @@ prompt_preview: '---
   ## References
 
 
-  - ./references/new-architecture.md -- SDK +53: New Architecture migration guide
-
   - ./references/react-19.md -- SDK +54: React 19 changes (useContext → use, Context.Provider
   → Context, forwardRef removal)
+
+  - ./references/new-architecture.md -- SDK +53: New Architecture migration guide
 
   - ./references/react-compiler.md -- SDK +54: React Compiler setup and migration
   guide
 
   - ./references/native-tabs.md -- SDK +55: Native tabs...'
-full_prompt_length: 5622
+full_prompt_length: 5797
 tools_mentioned:
-- sqlite
 - Go
+- sqlite
 - react
 - React
 category: community
@@ -39,17 +39,17 @@ category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/upgrading-expo/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/upgrading-expo/SKILL.md
-fetched_at: '2026-05-03T05:31:37.093204+00:00'
+fetched_at: '2026-05-10T05:36:32.265474+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T06:51:13.322898Z'
+  evaluated_at: '2026-05-10T06:54:04.006336Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2d460 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df3c80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2d460 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df3c80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -59,6 +59,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:30.926083Z'
-indexed_at: '2026-05-03T08:17:30.926089Z'
+  fetched_at: '2026-05-10T08:19:28.679840Z'
+indexed_at: '2026-05-10T08:19:28.679846Z'
 ---

@@ -26,26 +26,26 @@ prompt_preview: '---
   ## When...'
 full_prompt_length: 8001
 tools_mentioned:
-- Java
 - Go
-- go
 - java
+- Java
+- go
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/semgrep-rule-variant-creator/skills/semgrep-rule-variant-creator/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/semgrep-rule-variant-creator/skills/semgrep-rule-variant-creator/SKILL.md
-fetched_at: '2026-05-03T05:34:08.344761+00:00'
+fetched_at: '2026-05-10T05:38:03.644323+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T08:09:46.405747Z'
+  evaluated_at: '2026-05-10T08:11:52.891088Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33e63530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f854473bb60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33e63530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f854473bb60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -55,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:32.547437Z'
-indexed_at: '2026-05-03T08:17:32.547448Z'
+  fetched_at: '2026-05-10T08:19:30.305441Z'
+indexed_at: '2026-05-10T08:19:30.305447Z'
 ---

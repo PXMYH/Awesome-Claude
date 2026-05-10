@@ -20,17 +20,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pylabrobot/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pylabrobot/SKILL.md
-fetched_at: '2026-05-03T05:29:51.516981+00:00'
+fetched_at: '2026-05-10T05:35:29.369026+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T05:49:11.040177Z'
+  evaluated_at: '2026-05-10T05:52:58.268490Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f79b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f854437f2f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f79b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f854437f2f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:29.654339Z'
-indexed_at: '2026-05-03T08:17:29.654349Z'
+  fetched_at: '2026-05-10T08:19:27.410600Z'
+indexed_at: '2026-05-10T08:19:27.410606Z'
 ---

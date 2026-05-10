@@ -6,29 +6,29 @@ description: 'Webhook delivery: `tweet-webhooks`. Mentions: `track-mentions`. Fu
   API: [x-twitter-scraper](../x-twitter-scraper/SKILL.md).'
 prompt_preview: "---\nname: monitor-accounts\ndescription: \"Use when the user wants\
   \ to monitor one or more X (Twitter) accounts for new tweets, replies, or profile\
-  \ changes. Creates long-running monitors, polls events, and can fire webhooks on\
-  \ match. Continuous monitoring workflow.\"\nlicense: MIT\nmetadata:\n  author: Xquik\n\
-  \  version: \"1.0.0\"\n  openclaw:\n    requires:\n      env:\n        - XQUIK_API_KEY\n\
-  \    primaryEnv: XQUIK_API_KEY\n    emoji: \"\U0001F440\"\n    homepage: https://docs.xquik.com\n\
-  \  security:\n    contentTrust: untru..."
-full_prompt_length: 2375
+  \ changes. Creates ongoing monitors only after explicit approval, polls events,\
+  \ and can deliver webhooks on match. Continuous monitoring workflow.\"\nlicense:\
+  \ MIT\nmetadata:\n  internal: true\n  author: Xquik\n  version: \"1.0.0\"\n  openclaw:\n\
+  \    requires:\n      env:\n        - XQUIK_API_KEY\n    primaryEnv: XQUIK_API_KEY\n\
+  \    emoji: \"\U0001F440\"\n    homepage: https://docs.x..."
+full_prompt_length: 2535
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: Xquik-dev/x-twitter-scraper
 source_path: skills/monitor-accounts/SKILL.md
 source_url: https://github.com/Xquik-dev/x-twitter-scraper/blob/master/skills/monitor-accounts/SKILL.md
-fetched_at: '2026-05-03T05:30:46.276088+00:00'
+fetched_at: '2026-05-10T05:36:01.020514+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T06:22:56.911125Z'
+  evaluated_at: '2026-05-10T06:26:22.971264Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5e900 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c867e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5e900 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c867e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:30.359168Z'
-indexed_at: '2026-05-03T08:17:30.359174Z'
+  fetched_at: '2026-05-10T08:19:28.108516Z'
+indexed_at: '2026-05-10T08:19:28.108522Z'
 ---

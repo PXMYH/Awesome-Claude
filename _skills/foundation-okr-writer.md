@@ -1,0 +1,48 @@
+---
+id: foundation-okr-writer
+slug: foundation-okr-writer
+name: OKR Writer
+description: See `references/EXAMPLE.md` for a completed OKR set in the storevine
+  sample thread (Campaigns team, Q3 2026), demonstrating Guided mode on an empowered-team
+  product context with a real cross-team alig...
+prompt_preview: '---
+
+  name: foundation-okr-writer
+
+  description: Drafts, reviews, rewrites, and coaches outcome-based OKR sets across
+  team, department, product, or company scopes. Supports five entry modes (Guided
+  default, One-Shot via --oneshot, Sustained Coach, Audit Only, Rewrite). Diagnoses
+  empowered-team context and adjusts framing; refuses to fabricate baselines or targets;
+  refuses to use OKR scores for compensation; reframes feature-delivery KRs into outcome
+  KRs. Use when planning quarterly OKRs, translating...'
+full_prompt_length: 14312
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: product-on-purpose/pm-skills
+source_path: skills/foundation-okr-writer/SKILL.md
+source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/foundation-okr-writer/SKILL.md
+fetched_at: '2026-05-10T05:37:46.801343+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-05-10T08:01:01.459366Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df3bc0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df3bc0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-05-10T08:19:30.077053Z'
+indexed_at: '2026-05-10T08:19:30.077059Z'
+---

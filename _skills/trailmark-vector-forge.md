@@ -16,28 +16,28 @@ prompt_preview: '---
   escaped mutants via mutation testing, creating cross-imple...'
 full_prompt_length: 19093
 tools_mentioned:
-- Python
 - Go
-- go
-- rust
-- Node.js
 - Rust
+- Node.js
+- go
+- Python
+- rust
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/trailmark/skills/vector-forge/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/trailmark/skills/vector-forge/SKILL.md
-fetched_at: '2026-05-03T05:34:17.556883+00:00'
+fetched_at: '2026-05-10T05:38:08.326665+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T08:14:10.562668Z'
+  evaluated_at: '2026-05-10T08:16:11.887652Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e343012b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543ffd6d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e343012b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543ffd6d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:32.648276Z'
-indexed_at: '2026-05-03T08:17:32.648283Z'
+  fetched_at: '2026-05-10T08:19:30.398268Z'
+indexed_at: '2026-05-10T08:19:30.398273Z'
 ---

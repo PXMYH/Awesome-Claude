@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/interpret-ir-spectrum/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/interpret-ir-spectrum/SKILL.md
-fetched_at: '2026-05-03T05:32:58.672749+00:00'
+fetched_at: '2026-05-10T05:37:21.839350+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T07:32:26.808823Z'
+  evaluated_at: '2026-05-10T07:34:37.995560Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2c260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c87350 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2c260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c87350 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:31.784360Z'
-indexed_at: '2026-05-03T08:17:31.784366Z'
+  fetched_at: '2026-05-10T08:19:29.531420Z'
+indexed_at: '2026-05-10T08:19:29.531426Z'
 ---

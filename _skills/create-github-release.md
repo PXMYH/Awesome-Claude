@@ -13,24 +13,24 @@ prompt_preview: "---\r\nname: create-github-release\r\ndescription: >\r\n  Creat
 full_prompt_length: 6636
 tools_mentioned:
 - Node.js
-- Python
 - Rust
+- Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-github-release/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-github-release/SKILL.md
-fetched_at: '2026-05-03T05:32:38.792995+00:00'
+fetched_at: '2026-05-10T05:37:09.914078+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T07:19:12.326943Z'
+  evaluated_at: '2026-05-10T07:21:31.142461Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f6e40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c55730 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f6e40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c55730 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:31.513149Z'
-indexed_at: '2026-05-03T08:17:31.513154Z'
+  fetched_at: '2026-05-10T08:19:29.256162Z'
+indexed_at: '2026-05-10T08:19:29.256168Z'
 ---

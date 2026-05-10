@@ -5,28 +5,28 @@ description: 'Reach out: `send-dms` (single DM with confirmation). Full API: [x-
 prompt_preview: "---\nname: find-influencers\ndescription: \"Use when the user wants\
   \ to find X (Twitter) influencers in a niche. Searches users by bio keyword, filters\
   \ by follower count and engagement, and surfaces active accounts suited for outreach\
-  \ or partnership research. Read-only discovery.\"\nlicense: MIT\nmetadata:\n  author:\
-  \ Xquik\n  version: \"1.0.0\"\n  openclaw:\n    requires:\n      env:\n        -\
-  \ XQUIK_API_KEY\n    primaryEnv: XQUIK_API_KEY\n    emoji: \"⭐\"\n    homepage:\
-  \ https://docs.xquik.com\n  security:\n    conte..."
-full_prompt_length: 2502
+  \ or partnership research. Read-only discovery.\"\nlicense: MIT\nmetadata:\n  internal:\
+  \ true\n  author: Xquik\n  version: \"1.0.0\"\n  openclaw:\n    requires:\n    \
+  \  env:\n        - XQUIK_API_KEY\n    primaryEnv: XQUIK_API_KEY\n    emoji: \"⭐\"\
+  \n    homepage: https://docs.xquik.com\n  se..."
+full_prompt_length: 2585
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: Xquik-dev/x-twitter-scraper
 source_path: skills/find-influencers/SKILL.md
 source_url: https://github.com/Xquik-dev/x-twitter-scraper/blob/master/skills/find-influencers/SKILL.md
-fetched_at: '2026-05-03T05:30:45.155430+00:00'
+fetched_at: '2026-05-10T05:36:00.341443+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T06:22:07.484731Z'
+  evaluated_at: '2026-05-10T06:25:34.453980Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2fc20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f85447dad20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2fc20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f85447dad20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:30.342272Z'
-indexed_at: '2026-05-03T08:17:30.342278Z'
+  fetched_at: '2026-05-10T08:19:28.091261Z'
+indexed_at: '2026-05-10T08:19:28.091267Z'

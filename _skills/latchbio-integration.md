@@ -10,27 +10,27 @@ prompt_preview: "---\nname: latchbio-integration\ndescription: Latch platform fo
   \n## Overview\n\nLatch is a Python framework for building and deploying bioinformatics\
   \ workflows as serverless pipelines. Built on Flyte, create workflows with @workflow/@task\
   \ decorators,..."
-full_prompt_length: 9812
+full_prompt_length: 9801
 tools_mentioned:
+- Docker
 - python
 - Python
-- Docker
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/latchbio-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/latchbio-integration/SKILL.md
-fetched_at: '2026-05-03T05:29:43.347762+00:00'
+fetched_at: '2026-05-10T05:35:25.092906+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T05:43:57.300283Z'
+  evaluated_at: '2026-05-10T05:47:46.251368Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2e360 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543e27860 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2e360 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543e27860 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:29.547669Z'
-indexed_at: '2026-05-03T08:17:29.547675Z'
+  fetched_at: '2026-05-10T08:19:27.297687Z'
+indexed_at: '2026-05-10T08:19:27.297692Z'
 ---

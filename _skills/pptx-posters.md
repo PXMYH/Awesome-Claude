@@ -18,17 +18,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pptx-posters/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pptx-posters/SKILL.md
-fetched_at: '2026-05-03T05:29:49.588712+00:00'
+fetched_at: '2026-05-10T05:35:28.499543+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T05:48:04.634880Z'
+  evaluated_at: '2026-05-10T05:51:52.407754Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2c0b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c55f70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2c0b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c55f70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:29.631421Z'
-indexed_at: '2026-05-03T08:17:29.631427Z'
+  fetched_at: '2026-05-10T08:19:27.388605Z'
+indexed_at: '2026-05-10T08:19:27.388611Z'
 ---

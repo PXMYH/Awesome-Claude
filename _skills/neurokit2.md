@@ -22,17 +22,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/neurokit2/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/neurokit2/SKILL.md
-fetched_at: '2026-05-03T05:29:46.247940+00:00'
+fetched_at: '2026-05-10T05:35:26.699953+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T05:45:52.753357Z'
+  evaluated_at: '2026-05-10T05:49:41.677277Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e3498a570 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543e26a20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e3498a570 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543e26a20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:29.586686Z'
-indexed_at: '2026-05-03T08:17:29.586691Z'
+  fetched_at: '2026-05-10T08:19:27.338608Z'
+indexed_at: '2026-05-10T08:19:27.338614Z'
 ---

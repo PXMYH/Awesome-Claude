@@ -14,24 +14,24 @@ prompt_preview: "---\nname: define-slo-sli-sla\ndescription: >\n  Establish Serv
 full_prompt_length: 14638
 tools_mentioned:
 - docker
-- python
 - Docker
+- python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/define-slo-sli-sla/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/define-slo-sli-sla/SKILL.md
-fetched_at: '2026-05-03T05:32:42.644672+00:00'
+fetched_at: '2026-05-10T05:37:12.153912+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T07:21:32.625019Z'
+  evaluated_at: '2026-05-10T07:23:56.694042Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5d490 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df3830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5d490 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df3830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:31.560421Z'
-indexed_at: '2026-05-03T08:17:31.560434Z'
+  fetched_at: '2026-05-10T08:19:29.306485Z'
+indexed_at: '2026-05-10T08:19:29.306491Z'
 ---

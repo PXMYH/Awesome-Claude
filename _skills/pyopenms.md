@@ -10,7 +10,7 @@ prompt_preview: "---\nname: pyopenms\ndescription: Complete mass spectrometry an
   \ For simple spectral comparison and metabolite ID use matchms.\nlicense: 3 clause\
   \ BSD license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# PyOpenMS\n\n\
   ## Overview\n\nPyOpenMS provides Python bin..."
-full_prompt_length: 5629
+full_prompt_length: 5626
 tools_mentioned:
 - python
 - Python
@@ -19,17 +19,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pyopenms/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pyopenms/SKILL.md
-fetched_at: '2026-05-03T05:29:52.301568+00:00'
+fetched_at: '2026-05-10T05:35:29.836746+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T05:49:44.079419Z'
+  evaluated_at: '2026-05-10T05:53:31.719007Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e3427f950 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f85440decf0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e3427f950 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f85440decf0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:29.665606Z'
-indexed_at: '2026-05-03T08:17:29.665612Z'
+  fetched_at: '2026-05-10T08:19:27.421553Z'
+indexed_at: '2026-05-10T08:19:27.421558Z'
 ---

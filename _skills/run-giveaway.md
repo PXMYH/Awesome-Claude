@@ -7,27 +7,27 @@ prompt_preview: "---\nname: run-giveaway\ndescription: \"Use when the user wants
   \ run a giveaway on X (Twitter). Pulls entrants from likes, retweets, replies, or\
   \ quote tweets of a seed tweet, applies follower and account-age filters, picks\
   \ verifiable winners, and exports the entrant list. End-to-end draw workflow.\"\n\
-  license: MIT\nmetadata:\n  author: Xquik\n  version: \"1.0.0\"\n  openclaw:\n  \
-  \  requires:\n      env:\n        - XQUIK_API_KEY\n    primaryEnv: XQUIK_API_KEY\n\
-  \    emoji: \"\U0001F381\"\n    homepage: https://docs.xquik.com..."
-full_prompt_length: 2751
+  license: MIT\nmetadata:\n  internal: true\n  author: Xquik\n  version: \"1.0.0\"\
+  \n  openclaw:\n    requires:\n      env:\n        - XQUIK_API_KEY\n    primaryEnv:\
+  \ XQUIK_API_KEY\n    emoji: \"\U0001F381\"\n    homepage: https:..."
+full_prompt_length: 2784
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: Xquik-dev/x-twitter-scraper
 source_path: skills/run-giveaway/SKILL.md
 source_url: https://github.com/Xquik-dev/x-twitter-scraper/blob/master/skills/run-giveaway/SKILL.md
-fetched_at: '2026-05-03T05:30:46.841185+00:00'
+fetched_at: '2026-05-10T05:36:01.345002+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T06:23:21.626868Z'
+  evaluated_at: '2026-05-10T06:26:47.212449Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e34459670 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f85441257f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e34459670 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f85441257f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:30.367579Z'
-indexed_at: '2026-05-03T08:17:30.367585Z'
+  fetched_at: '2026-05-10T08:19:28.117036Z'
+indexed_at: '2026-05-10T08:19:28.117042Z'
 ---

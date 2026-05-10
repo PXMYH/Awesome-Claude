@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/sharpen-knife/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/sharpen-knife/SKILL.md
-fetched_at: '2026-05-03T05:33:25.315375+00:00'
+fetched_at: '2026-05-10T05:37:37.201272+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T07:49:40.243742Z'
+  evaluated_at: '2026-05-10T07:51:33.756443Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2fd10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c879b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2fd10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c879b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:32.137009Z'
-indexed_at: '2026-05-03T08:17:32.137015Z'
+  fetched_at: '2026-05-10T08:19:29.883029Z'
+indexed_at: '2026-05-10T08:19:29.883034Z'
 ---

@@ -4,30 +4,30 @@ name: For You Feed (Home Timeline)
 description: 'Notifications: see [x-twitter-scraper](../x-twitter-scraper/SKILL.md).
   Search a topic: `search-tweets`.'
 prompt_preview: "---\nname: for-you-feed\ndescription: \"Use when the user wants to\
-  \ read the For You home timeline on X (Twitter) through the API. Surfaces the algorithmic\
-  \ home timeline (cursor-paginated) with an option to suppress already-seen tweets.\
-  \ Read-only.\"\nlicense: MIT\nmetadata:\n  author: Xquik\n  version: \"1.0.0\"\n\
-  \  openclaw:\n    requires:\n      env:\n        - XQUIK_API_KEY\n    primaryEnv:\
-  \ XQUIK_API_KEY\n    emoji: \"\U0001F3E0\"\n    homepage: https://docs.xquik.com\n\
-  \  security:\n    contentTrust: untrusted\n    contentIso..."
-full_prompt_length: 1786
+  \ read the For You home timeline on X (Twitter) through the API after explicit approval.\
+  \ Surfaces the algorithmic home timeline (cursor-paginated) with an option to suppress\
+  \ already-seen tweets. Read-only.\"\nlicense: MIT\nmetadata:\n  internal: true\n\
+  \  author: Xquik\n  version: \"1.0.0\"\n  openclaw:\n    requires:\n      env:\n\
+  \        - XQUIK_API_KEY\n    primaryEnv: XQUIK_API_KEY\n    emoji: \"\U0001F3E0\
+  \"\n    homepage: https://docs.xquik.com\n  security:..."
+full_prompt_length: 1973
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: Xquik-dev/x-twitter-scraper
 source_path: skills/for-you-feed/SKILL.md
 source_url: https://github.com/Xquik-dev/x-twitter-scraper/blob/master/skills/for-you-feed/SKILL.md
-fetched_at: '2026-05-03T05:30:45.723741+00:00'
+fetched_at: '2026-05-10T05:36:00.674447+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T06:22:32.210246Z'
+  evaluated_at: '2026-05-10T06:25:58.702751Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e3511b9e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c87ad0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e3511b9e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c87ad0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:30.350749Z'
-indexed_at: '2026-05-03T08:17:30.350755Z'
+  fetched_at: '2026-05-10T08:19:28.099885Z'
+indexed_at: '2026-05-10T08:19:28.099891Z'

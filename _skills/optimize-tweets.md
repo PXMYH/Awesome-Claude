@@ -6,28 +6,28 @@ description: 'Drafting: `write-tweets`. Publishing: `post-tweets`. Full API: [x-
 prompt_preview: "---\nname: optimize-tweets\ndescription: \"Use when the user wants\
   \ to optimize a tweet for the X (Twitter) algorithm before posting. Scores drafts\
   \ against engagement predictors, suggests rewrites, and compares variants. Text\
-  \ scoring only - no posting.\"\nlicense: MIT\nmetadata:\n  author: Xquik\n  version:\
-  \ \"1.0.0\"\n  openclaw:\n    requires:\n      env:\n        - XQUIK_API_KEY\n \
-  \   primaryEnv: XQUIK_API_KEY\n    emoji: \"\U0001F3AF\"\n    homepage: https://docs.xquik.com\n\
-  \  security:\n    contentTrust: untrusted\n    conte..."
-full_prompt_length: 2044
+  \ scoring only - no posting.\"\nlicense: MIT\nmetadata:\n  internal: true\n  author:\
+  \ Xquik\n  version: \"1.0.0\"\n  openclaw:\n    requires:\n      env:\n        -\
+  \ XQUIK_API_KEY\n    primaryEnv: XQUIK_API_KEY\n    emoji: \"\U0001F3AF\"\n    homepage:\
+  \ https://docs.xquik.com\n  security:\n    contentTrust: un..."
+full_prompt_length: 2095
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: Xquik-dev/x-twitter-scraper
 source_path: skills/optimize-tweets/SKILL.md
 source_url: https://github.com/Xquik-dev/x-twitter-scraper/blob/master/skills/optimize-tweets/SKILL.md
-fetched_at: '2026-05-03T05:30:46.467782+00:00'
+fetched_at: '2026-05-10T05:36:01.127897+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T06:23:05.166877Z'
+  evaluated_at: '2026-05-10T06:26:31.050272Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e34673200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c86b70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e34673200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c86b70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:30.361993Z'
-indexed_at: '2026-05-03T08:17:30.361999Z'
+  fetched_at: '2026-05-10T08:19:28.111368Z'
+indexed_at: '2026-05-10T08:19:28.111374Z'
 ---

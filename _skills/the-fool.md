@@ -18,17 +18,17 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/the-fool/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/the-fool/SKILL.md
-fetched_at: '2026-05-03T05:31:59.995334+00:00'
+fetched_at: '2026-05-10T05:36:45.780589+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T06:58:57.857913Z'
+  evaluated_at: '2026-05-10T07:01:40.039919Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2d910 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df3a10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2d910 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df3a10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:31.083721Z'
-indexed_at: '2026-05-03T08:17:31.083727Z'
+  fetched_at: '2026-05-10T08:19:28.840572Z'
+indexed_at: '2026-05-10T08:19:28.840578Z'
 ---

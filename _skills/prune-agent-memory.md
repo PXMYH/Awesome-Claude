@@ -2,15 +2,16 @@
 id: prune-agent-memory
 slug: prune-agent-memory
 name: Prune Agent Memory
-description: Claude skill for Prune Agent Memory
-prompt_preview: "---\r\nname: prune-agent-memory\r\ndescription: >\r\n  Audit, classify,\
-  \ and selectively forget stored memories. Covers memory\r\n  enumeration and classification\
-  \ by type/age/access frequency, staleness\r\n  detection for outdated references,\
-  \ fidelity checks using external anchors,\r\n  a decision tree for selective deletion,\
-  \ preemptive filtering rules for what\r\n  should never become memories, and an\
-  \ audit trail so forgetting itself is\r\n  reviewable. Use when memory has grown\
-  \ large and uncurated, when projec..."
-full_prompt_length: 22313
+description: '- `manage-memory` — the complementary skill for organizing and growing
+  memory; use together for complete memory maintenance'
+prompt_preview: "---\nname: prune-agent-memory\ndescription: >\n  Audit, classify,\
+  \ and selectively forget stored memories. Covers memory\n  enumeration and classification\
+  \ by type/age/access frequency, staleness\n  detection for outdated references,\
+  \ fidelity checks using external anchors,\n  a decision tree for selective deletion,\
+  \ counter-memory inoculation for\n  failed strategies that would otherwise be re-derived,\
+  \ preemptive filtering\n  rules for what should never become memories, and an audit\
+  \ trail so\n  forgetting i..."
+full_prompt_length: 26527
 tools_mentioned:
 - go
 - rest
@@ -19,17 +20,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/prune-agent-memory/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/prune-agent-memory/SKILL.md
-fetched_at: '2026-05-03T05:33:12.953543+00:00'
+fetched_at: '2026-05-10T05:37:30.077325+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T07:41:40.098626Z'
+  evaluated_at: '2026-05-10T07:43:44.579782Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8cf80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df2cc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f8cf80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df2cc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:31.972976Z'
-indexed_at: '2026-05-03T08:17:31.972982Z'
+  fetched_at: '2026-05-10T08:19:29.719769Z'
+indexed_at: '2026-05-10T08:19:29.719775Z'
 ---

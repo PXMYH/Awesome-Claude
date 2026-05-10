@@ -12,28 +12,28 @@ prompt_preview: "---\r\nname: design-serialization-schema\r\ndescription: >\r\n 
   \n  between schema systems, or documenting..."
 full_prompt_length: 11351
 tools_mentioned:
-- REST
-- Python
 - python
 - TypeScript
 - typescript
+- REST
+- Python
 - gRPC
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/design-serialization-schema/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/design-serialization-schema/SKILL.md
-fetched_at: '2026-05-03T05:32:45.849783+00:00'
+fetched_at: '2026-05-10T05:37:14.213403+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T07:23:44.880486Z'
+  evaluated_at: '2026-05-10T07:26:06.022480Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5d5b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df3c50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f5d5b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df3c50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:31.605900Z'
-indexed_at: '2026-05-03T08:17:31.605906Z'
+  fetched_at: '2026-05-10T08:19:29.351351Z'
+indexed_at: '2026-05-10T08:19:29.351357Z'
 ---

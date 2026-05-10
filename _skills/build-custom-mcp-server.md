@@ -20,17 +20,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/build-custom-mcp-server/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/build-custom-mcp-server/SKILL.md
-fetched_at: '2026-05-03T05:32:29.362677+00:00'
+fetched_at: '2026-05-10T05:37:04.587765+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T07:13:08.490869Z'
+  evaluated_at: '2026-05-10T07:15:32.911281Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f7140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c87f50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f7140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c87f50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:31.374699Z'
-indexed_at: '2026-05-03T08:17:31.374705Z'
+  fetched_at: '2026-05-10T08:19:29.133376Z'
+indexed_at: '2026-05-10T08:19:29.133382Z'
 ---

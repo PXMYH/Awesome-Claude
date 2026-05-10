@@ -12,24 +12,24 @@ prompt_preview: "---\nname: playwright-expert\ndescription: \"Use when writing E
   license: MIT\nmetadata:\n  author..."
 full_prompt_length: 5556
 tools_mentioned:
-- react
 - typescript
+- react
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/playwright-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/playwright-expert/SKILL.md
-fetched_at: '2026-05-03T05:31:55.699941+00:00'
+fetched_at: '2026-05-10T05:36:43.727464+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T06:57:27.169269Z'
+  evaluated_at: '2026-05-10T07:00:11.075989Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f7da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543f446e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f7da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543f446e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:31.052823Z'
-indexed_at: '2026-05-03T08:17:31.052829Z'
+  fetched_at: '2026-05-10T08:19:28.809293Z'
+indexed_at: '2026-05-10T08:19:28.809299Z'
 ---

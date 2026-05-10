@@ -16,25 +16,25 @@ prompt_preview: '---
 full_prompt_length: 28091
 tools_mentioned:
 - REST
-- graphql
 - GO
 - GraphQL
+- graphql
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/database-lookup/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/database-lookup/SKILL.md
-fetched_at: '2026-05-03T05:29:35.974979+00:00'
+fetched_at: '2026-05-10T05:35:21.457601+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T05:39:32.430928Z'
+  evaluated_at: '2026-05-10T05:43:19.269560Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f7020 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8544155940 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f7020 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8544155940 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:29.455002Z'
-indexed_at: '2026-05-03T08:17:29.455009Z'
+  fetched_at: '2026-05-10T08:19:27.203029Z'
+indexed_at: '2026-05-10T08:19:27.203035Z'
 ---

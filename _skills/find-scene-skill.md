@@ -24,26 +24,26 @@ prompt_preview: '---
 
 
   ## Ba...'
-full_prompt_length: 19247
+full_prompt_length: 19271
 tools_mentioned:
-- go
 - Go
+- go
 category: community
 category_display: Community
 source_repo: uriva/find-scene-skill
 source_path: SKILL.md
 source_url: https://github.com/uriva/find-scene-skill/blob/main/SKILL.md
-fetched_at: '2026-05-03T05:34:20.167259+00:00'
+fetched_at: '2026-05-10T05:38:09.735078+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T08:14:51.970887Z'
+  evaluated_at: '2026-05-10T08:16:52.379324Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f78f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c86a50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f78f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c86a50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:32.664990Z'
-indexed_at: '2026-05-03T08:17:32.664996Z'
+  fetched_at: '2026-05-10T08:19:30.412828Z'
+indexed_at: '2026-05-10T08:19:30.412834Z'
 ---

@@ -8,35 +8,35 @@ prompt_preview: '---
   name: kaggle
 
   description: "Unified Kaggle skill. Use when the user mentions kaggle, kaggle.com,
-  Kaggle competitions, datasets, models, notebooks, GPUs, TPUs, badges, or anything
-  Kaggle-related. Handles account setup, competition reports, dataset/model downloads,
-  notebook execution, competition submissions, badge collection, and general Kaggle
-  questions."
+  Kaggle competitions, datasets, models, notebooks, GPUs, TPUs, hackathons, writeups,
+  badges, or anything Kaggle-related. Handles account setup, competition reports,
+  dataset/model downloads, notebook execution, competition submissions, hackathon
+  writeup retrieval, badge collection, and general Kaggle questions."
 
   license: MIT
 
-  compatibility: "Python 3.9+, pip packages kagglehub, kaggle, requests, python-dotenv.
-  Optional: playwright for browser badges....'
-full_prompt_length: 12181
+  compatibility: "Python 3.11+, pip packages kagglehub, kaggle, requests, pyt...'
+full_prompt_length: 15232
 tools_mentioned:
 - python
+- rest
 - Python
 category: community
 category_display: Community
 source_repo: shepsci/kaggle-skill
 source_path: skills/kaggle/SKILL.md
 source_url: https://github.com/shepsci/kaggle-skill/blob/main/skills/kaggle/SKILL.md
-fetched_at: '2026-05-03T05:33:52.716271+00:00'
+fetched_at: '2026-05-10T05:37:54.818670+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T08:04:41.197918Z'
+  evaluated_at: '2026-05-10T08:06:42.936510Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33e63230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543fbe6f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33e63230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543fbe6f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:32.438763Z'
-indexed_at: '2026-05-03T08:17:32.438768Z'
+  fetched_at: '2026-05-10T08:19:30.196622Z'
+indexed_at: '2026-05-10T08:19:30.196628Z'

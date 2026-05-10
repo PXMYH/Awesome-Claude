@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/run-chaos-experiment/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/run-chaos-experiment/SKILL.md
-fetched_at: '2026-05-03T05:33:19.997839+00:00'
+fetched_at: '2026-05-10T05:37:34.048587+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T07:46:04.023006Z'
+  evaluated_at: '2026-05-10T07:48:03.459770Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f6f00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c54b60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f6f00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c54b60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:32.063258Z'
-indexed_at: '2026-05-03T08:17:32.063264Z'
+  fetched_at: '2026-05-10T08:19:29.809449Z'
+indexed_at: '2026-05-10T08:19:29.809460Z'
 ---

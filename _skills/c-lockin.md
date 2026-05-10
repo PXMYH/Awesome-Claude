@@ -33,17 +33,17 @@ category_display: Community
 source_repo: daxaur/openpaw
 source_path: skills/c-lockin/SKILL.md
 source_url: https://github.com/daxaur/openpaw/blob/main/skills/c-lockin/SKILL.md
-fetched_at: '2026-05-03T05:31:17.428779+00:00'
+fetched_at: '2026-05-10T05:36:20.636108+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T06:39:39.022340Z'
+  evaluated_at: '2026-05-10T06:42:43.756115Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e3488b5f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543f449e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e3488b5f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543f449e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:30.695488Z'
-indexed_at: '2026-05-03T08:17:30.695494Z'
+  fetched_at: '2026-05-10T08:19:28.446902Z'
+indexed_at: '2026-05-10T08:19:28.446907Z'
 ---

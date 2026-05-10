@@ -20,17 +20,17 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/salesforce-developer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/salesforce-developer/SKILL.md
-fetched_at: '2026-05-03T05:31:57.478541+00:00'
+fetched_at: '2026-05-10T05:36:44.591580+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T06:58:00.137877Z'
+  evaluated_at: '2026-05-10T07:00:43.398022Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f62a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c546e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f62a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c546e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:31.063913Z'
-indexed_at: '2026-05-03T08:17:31.063919Z'
+  fetched_at: '2026-05-10T08:19:28.820552Z'
+indexed_at: '2026-05-10T08:19:28.820563Z'
 ---

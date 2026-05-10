@@ -23,26 +23,26 @@ prompt_preview: '---
 full_prompt_length: 2849
 tools_mentioned:
 - Go
+- Rust
 - sqlite
 - TypeScript
 - JavaScript
-- Rust
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/mutation-testing/skills/mutation-testing/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/mutation-testing/skills/mutation-testing/SKILL.md
-fetched_at: '2026-05-03T05:34:06.300114+00:00'
+fetched_at: '2026-05-10T05:38:02.686696+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T08:09:05.186844Z'
+  evaluated_at: '2026-05-10T08:11:12.170583Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33e61040 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c57080 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33e61040 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c57080 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -52,5 +52,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:32.531082Z'
-indexed_at: '2026-05-03T08:17:32.531088Z'
+  fetched_at: '2026-05-10T08:19:30.291072Z'
+indexed_at: '2026-05-10T08:19:30.291077Z'

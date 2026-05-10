@@ -21,17 +21,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/let-fate-decide/skills/let-fate-decide/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/let-fate-decide/skills/let-fate-decide/SKILL.md
-fetched_at: '2026-05-03T05:34:05.350264+00:00'
+fetched_at: '2026-05-10T05:38:02.281693+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T08:08:48.679083Z'
+  evaluated_at: '2026-05-10T08:10:55.988627Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2d4c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c843e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2d4c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c843e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:32.525384Z'
-indexed_at: '2026-05-03T08:17:32.525391Z'
+  fetched_at: '2026-05-10T08:19:30.285493Z'
+indexed_at: '2026-05-10T08:19:30.285499Z'
 ---

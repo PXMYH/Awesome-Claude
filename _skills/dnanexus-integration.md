@@ -12,25 +12,25 @@ prompt_preview: "---\nname: dnanexus-integration\ndescription: DNAnexus cloud ge
   \ manage data objects, run work..."
 full_prompt_length: 10632
 tools_mentioned:
+- Docker
 - python
 - Python
-- Docker
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/dnanexus-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/dnanexus-integration/SKILL.md
-fetched_at: '2026-05-03T05:29:37.739850+00:00'
+fetched_at: '2026-05-10T05:35:22.257372+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T05:40:30.180067Z'
+  evaluated_at: '2026-05-10T05:44:15.861903Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2ddc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f854437ef30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e33f2ddc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f854437ef30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:29.474626Z'
-indexed_at: '2026-05-03T08:17:29.474645Z'
+  fetched_at: '2026-05-10T08:19:27.223043Z'
+indexed_at: '2026-05-10T08:19:27.223049Z'
 ---

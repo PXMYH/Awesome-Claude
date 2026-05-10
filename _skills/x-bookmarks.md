@@ -4,30 +4,30 @@ slug: x-bookmarks
 name: Read X Bookmarks
 description: 'Export: `export-tweets-csv`. Full API: [x-twitter-scraper](../x-twitter-scraper/SKILL.md).'
 prompt_preview: "---\nname: x-bookmarks\ndescription: \"Use when the user wants to\
-  \ read their X (Twitter) bookmarks - tweets they have privately saved. Lists, searches,\
-  \ and exports bookmarks from a connected account. Read-only; requires an account\
-  \ connection.\"\nlicense: MIT\nmetadata:\n  author: Xquik\n  version: \"1.0.0\"\n\
-  \  openclaw:\n    requires:\n      env:\n        - XQUIK_API_KEY\n    primaryEnv:\
-  \ XQUIK_API_KEY\n    emoji: \"\U0001F516\"\n    homepage: https://docs.xquik.com\n\
-  \  security:\n    contentTrust: mixed\n    contentIsolation:..."
-full_prompt_length: 1779
+  \ read their X (Twitter) bookmarks after explicit approval - tweets they have privately\
+  \ saved. Lists, searches, and exports bookmarks from a connected account. Read-only;\
+  \ requires an account connection.\"\nlicense: MIT\nmetadata:\n  internal: true\n\
+  \  author: Xquik\n  version: \"1.0.0\"\n  openclaw:\n    requires:\n      env:\n\
+  \        - XQUIK_API_KEY\n    primaryEnv: XQUIK_API_KEY\n    emoji: \"\U0001F516\
+  \"\n    homepage: https://docs.xquik.com\n  security:\n    c..."
+full_prompt_length: 1904
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: Xquik-dev/x-twitter-scraper
 source_path: skills/x-bookmarks/SKILL.md
 source_url: https://github.com/Xquik-dev/x-twitter-scraper/blob/master/skills/x-bookmarks/SKILL.md
-fetched_at: '2026-05-03T05:30:50.849647+00:00'
+fetched_at: '2026-05-10T05:36:03.624748+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T06:26:14.877222Z'
+  evaluated_at: '2026-05-10T06:29:37.366228Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f7bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c87b60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f7bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c87b60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:30.426149Z'
-indexed_at: '2026-05-03T08:17:30.426155Z'
+  fetched_at: '2026-05-10T08:19:28.176211Z'
+indexed_at: '2026-05-10T08:19:28.176222Z'
 ---

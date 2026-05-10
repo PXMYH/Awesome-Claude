@@ -7,28 +7,28 @@ description: 'Drafting: `write-tweets`. Threads: `write-threads`. Posting: `post
 prompt_preview: "---\nname: tweet-ideas\ndescription: \"Use when the user wants tweet\
   \ ideas or content prompts for X (Twitter). Generates a batch of post ideas based\
   \ on the user's niche, recent trends, and their style profile. Ideation only - drafting\
-  \ and posting are separate skills.\"\nlicense: MIT\nmetadata:\n  author: Xquik\n\
-  \  version: \"1.0.0\"\n  openclaw:\n    requires:\n      env:\n        - XQUIK_API_KEY\n\
-  \    primaryEnv: XQUIK_API_KEY\n    emoji: \"\U0001F4A1\"\n    homepage: https://docs.xquik.com\n\
-  \  security:\n    contentTrust: unt..."
-full_prompt_length: 1598
+  \ and posting are separate skills.\"\nlicense: MIT\nmetadata:\n  internal: true\n\
+  \  author: Xquik\n  version: \"1.0.0\"\n  openclaw:\n    requires:\n      env:\n\
+  \        - XQUIK_API_KEY\n    primaryEnv: XQUIK_API_KEY\n    emoji: \"\U0001F4A1\
+  \"\n    homepage: https://docs.xquik.com\n  security:..."
+full_prompt_length: 1681
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: Xquik-dev/x-twitter-scraper
 source_path: skills/tweet-ideas/SKILL.md
 source_url: https://github.com/Xquik-dev/x-twitter-scraper/blob/master/skills/tweet-ideas/SKILL.md
-fetched_at: '2026-05-03T05:30:48.564694+00:00'
+fetched_at: '2026-05-10T05:36:02.330329+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T06:24:35.825421Z'
+  evaluated_at: '2026-05-10T06:28:00.100581Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e34650cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c85e50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e34650cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c85e50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:30.392884Z'
-indexed_at: '2026-05-03T08:17:30.392890Z'
+  fetched_at: '2026-05-10T08:19:28.142436Z'
+indexed_at: '2026-05-10T08:19:28.142442Z'
 ---

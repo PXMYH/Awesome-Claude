@@ -10,7 +10,7 @@ prompt_preview: "---\nname: scikit-learn\ndescription: Machine learning in Pytho
   \ comprehensive reference documentation for algorithms, preprocessing techniques,\
   \ pipelines, and best practices.\nlicense: BSD-3-Clause license\nmetadata:\n   \
   \ skill-author: K-Dense Inc.\n---\n\n# Scik..."
-full_prompt_length: 15532
+full_prompt_length: 15523
 tools_mentioned:
 - python
 - Python
@@ -19,17 +19,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scikit-learn/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scikit-learn/SKILL.md
-fetched_at: '2026-05-03T05:29:56.378150+00:00'
+fetched_at: '2026-05-10T05:35:32.234440+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T05:52:29.174363Z'
+  evaluated_at: '2026-05-10T05:56:13.723040Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f76b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f85445d66c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e340f76b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f85445d66c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:29.722429Z'
-indexed_at: '2026-05-03T08:17:29.722436Z'
+  fetched_at: '2026-05-10T08:19:27.477141Z'
+indexed_at: '2026-05-10T08:19:27.477146Z'
 ---

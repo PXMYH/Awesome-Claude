@@ -18,17 +18,17 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/google-chat/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/google-chat/SKILL.md
-fetched_at: '2026-05-03T05:33:48.738274+00:00'
+fetched_at: '2026-05-10T05:37:52.496368+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-03T08:02:45.818776Z'
+  evaluated_at: '2026-05-10T08:04:48.651840Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e349c71a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f854431f9e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7e349c71a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f854431f9e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-03T08:17:32.400714Z'
-indexed_at: '2026-05-03T08:17:32.400720Z'
+  fetched_at: '2026-05-10T08:19:30.158067Z'
+indexed_at: '2026-05-10T08:19:30.158073Z'
 ---
