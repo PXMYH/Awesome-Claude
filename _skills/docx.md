@@ -15,35 +15,35 @@ prompt_preview: '---
   performing find-and-replace in Word files, working with...'
 full_prompt_length: 20056
 tools_mentioned:
-- JavaScript
-- javascript
-- python
 - Python
-category: scientific
-category_display: Scientific
-source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/docx/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/docx/SKILL.md
-fetched_at: '2026-05-10T05:35:22.375802+00:00'
+- javascript
+- JavaScript
+- python
+category: official
+category_display: Official Anthropic Skills
+source_repo: anthropics/skills
+source_path: skills/docx/SKILL.md
+source_url: https://github.com/anthropics/skills/blob/main/skills/docx/SKILL.md
+fetched_at: '2026-05-11T05:57:20.636372Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T05:44:23.951808Z'
+  evaluated_at: '2026-05-11T06:17:53.808971Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543e24f20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2dee2a6600 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543e24f20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2dee2a6600 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 0
-  forks: 0
-  open_issues: 0
-  last_commit: null
-  fetched_at: '2026-05-10T08:19:27.225951Z'
-indexed_at: '2026-05-10T08:19:27.225957Z'
+  stars: 131812
+  forks: 15524
+  open_issues: 826
+  last_commit: '2026-05-09'
+  fetched_at: '2026-05-11T05:57:28.101551Z'
+indexed_at: '2026-05-11T06:21:17.976604Z'
 ---

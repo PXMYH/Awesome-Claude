@@ -18,40 +18,40 @@ prompt_preview: '---
 full_prompt_length: 32751
 tools_mentioned:
 - Go
-- Rust
-- Rest
+- typescript
+- Java
+- php
 - python
 - rest
-- TypeScript
-- php
-- Ruby
-- java
-- typescript
+- ruby
+- go
+- Python
+- Rest
 category: official
-category_display: Official
+category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/claude-api/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/claude-api/SKILL.md
-fetched_at: '2026-05-10T05:36:06.959402+00:00'
+fetched_at: '2026-05-11T05:57:20.140577Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T06:31:14.392818Z'
+  evaluated_at: '2026-05-11T06:17:37.563203Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c841a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2dee2a6ed0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c841a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2dee2a6ed0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 131224
-  forks: 15441
-  open_issues: 822
+  stars: 131812
+  forks: 15524
+  open_issues: 826
   last_commit: '2026-05-09'
-  fetched_at: '2026-05-10T05:38:19.368686Z'
-indexed_at: '2026-05-10T08:19:28.209380Z'
+  fetched_at: '2026-05-11T05:57:28.101551Z'
+indexed_at: '2026-05-11T06:21:17.970398Z'
 ---
