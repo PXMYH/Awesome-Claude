@@ -28,26 +28,26 @@ category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/ui-designer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/ui-designer.md
-fetched_at: '2026-05-12T05:37:10.415164Z'
+fetched_at: '2026-05-13T05:47:11.660252Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-12T05:39:24.125020Z'
+  evaluated_at: '2026-05-13T05:49:03.940560Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f82de6f2c60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f65aad04a40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f82de6f2c60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f65aad04a40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 19599
-  forks: 2274
-  open_issues: 17
+  stars: 19674
+  forks: 2284
+  open_issues: 19
   last_commit: '2026-04-20'
-  fetched_at: '2026-05-12T05:38:00.618093Z'
-indexed_at: '2026-05-12T06:01:46.707036Z'
+  fetched_at: '2026-05-13T05:47:41.079397Z'
+indexed_at: '2026-05-13T06:11:29.473314Z'
 ---

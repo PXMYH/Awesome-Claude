@@ -23,38 +23,38 @@ prompt_preview: '---
   specializing in enterprise applications using Laravel...'
 full_prompt_length: 7030
 tools_mentioned:
-- docker
-- php
 - WebSocket
 - redis
-- PHP
-- GraphQL
 - mysql
+- docker
+- PHP
+- php
+- GraphQL
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/php-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/php-pro.md
-fetched_at: '2026-05-12T05:37:15.255815Z'
+fetched_at: '2026-05-13T05:47:14.711612Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-12T05:41:59.377289Z'
+  evaluated_at: '2026-05-13T05:51:38.596929Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f82deadb110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f65aad057c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f82deadb110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f65aad057c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 19599
-  forks: 2274
-  open_issues: 17
+  stars: 19674
+  forks: 2284
+  open_issues: 19
   last_commit: '2026-04-20'
-  fetched_at: '2026-05-12T05:38:00.618093Z'
-indexed_at: '2026-05-12T06:01:46.765062Z'
+  fetched_at: '2026-05-13T05:47:41.079397Z'
+indexed_at: '2026-05-13T06:11:29.529139Z'
 ---

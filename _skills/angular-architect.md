@@ -23,35 +23,35 @@ prompt_preview: '---
   micro-fronte...'
 full_prompt_length: 6656
 tools_mentioned:
-- Angular
 - angular
-- TypeScript
 - typescript
+- Angular
+- TypeScript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/angular-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/angular-architect.md
-fetched_at: '2026-05-12T05:37:11.123852Z'
+fetched_at: '2026-05-13T05:47:12.076607Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-12T05:39:40.314246Z'
+  evaluated_at: '2026-05-13T05:49:20.098249Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f82de2c90d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f65aac4b230 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f82de2c90d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f65aac4b230 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 19599
-  forks: 2274
-  open_issues: 17
+  stars: 19674
+  forks: 2284
+  open_issues: 19
   last_commit: '2026-04-20'
-  fetched_at: '2026-05-12T05:38:00.618093Z'
-indexed_at: '2026-05-12T06:01:46.712993Z'
+  fetched_at: '2026-05-13T05:47:41.079397Z'
+indexed_at: '2026-05-13T06:11:29.479119Z'
 ---
