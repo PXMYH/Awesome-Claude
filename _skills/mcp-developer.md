@@ -29,26 +29,26 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/mcp-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/mcp-developer.md
-fetched_at: '2026-05-14T05:46:28.788721Z'
+fetched_at: '2026-05-15T05:53:40.146224Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-14T05:59:29.338971Z'
+  evaluated_at: '2026-05-15T06:06:48.479983Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd629866ba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f11cd6215e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd629866ba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f11cd6215e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 19756
-  forks: 2289
-  open_issues: 20
+  stars: 19822
+  forks: 2296
+  open_issues: 21
   last_commit: '2026-04-20'
-  fetched_at: '2026-05-14T05:46:44.640205Z'
-indexed_at: '2026-05-14T06:10:26.946374Z'
+  fetched_at: '2026-05-15T05:54:06.357574Z'
+indexed_at: '2026-05-15T06:17:45.642996Z'
 ---

@@ -23,34 +23,34 @@ prompt_preview: '---
 full_prompt_length: 6943
 tools_mentioned:
 - Kubernetes
-- kubernetes
 - Python
+- kubernetes
 - Go
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/sre-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/sre-engineer.md
-fetched_at: '2026-05-14T05:46:22.232569Z'
+fetched_at: '2026-05-15T05:53:29.834575Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-14T05:54:04.625144Z'
+  evaluated_at: '2026-05-15T06:01:24.815038Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd629b9f2f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f11cdc52ed0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd629b9f2f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f11cdc52ed0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 19756
-  forks: 2289
-  open_issues: 20
+  stars: 19822
+  forks: 2296
+  open_issues: 21
   last_commit: '2026-04-20'
-  fetched_at: '2026-05-14T05:46:44.640205Z'
-indexed_at: '2026-05-14T06:10:26.825395Z'
+  fetched_at: '2026-05-15T05:54:06.357574Z'
+indexed_at: '2026-05-15T06:17:45.556512Z'
 ---
