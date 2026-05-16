@@ -28,26 +28,26 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/payment-integration.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/payment-integration.md
-fetched_at: '2026-05-15T05:53:44.287202Z'
+fetched_at: '2026-05-16T05:25:58.791438Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-15T06:08:57.822840Z'
+  evaluated_at: '2026-05-16T05:41:08.013962Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f11cd61ec30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fca1ed0a6c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f11cd61ec30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fca1ed0a6c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 19822
-  forks: 2296
+  stars: 19903
+  forks: 2309
   open_issues: 21
   last_commit: '2026-04-20'
-  fetched_at: '2026-05-15T05:54:06.357574Z'
-indexed_at: '2026-05-15T06:17:45.677564Z'
+  fetched_at: '2026-05-16T05:26:12.565346Z'
+indexed_at: '2026-05-16T05:49:57.030597Z'
 ---
