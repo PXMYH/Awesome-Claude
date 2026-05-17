@@ -13,24 +13,24 @@ prompt_preview: "---\nname: deploy-edge-ai-model\ndescription: >\n  Deploy machi
   \ or embedded systems where cloud inference..."
 full_prompt_length: 17489
 tools_mentioned:
-- python
 - Python
+- python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/deploy-edge-ai-model/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/deploy-edge-ai-model/SKILL.md
-fetched_at: '2026-05-10T05:37:12.281012+00:00'
+fetched_at: '2026-05-17T05:48:30.408193+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T07:24:04.771473Z'
+  evaluated_at: '2026-05-17T07:30:38.850347Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df3080 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a64b90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df3080 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a64b90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:29.309302Z'
-indexed_at: '2026-05-10T08:19:29.309308Z'
+  fetched_at: '2026-05-17T08:28:05.257309Z'
+indexed_at: '2026-05-17T08:28:05.257314Z'
 ---

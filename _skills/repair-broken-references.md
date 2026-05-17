@@ -12,27 +12,27 @@ prompt_preview: "---\r\nname: repair-broken-references\r\ndescription: >\r\n  Fi
   \ are never referenced anywhere in the project..."
 full_prompt_length: 11715
 tools_mentioned:
-- javascript
-- TypeScript
-- Docker
 - JavaScript
+- Docker
+- TypeScript
 - Python
+- javascript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/repair-broken-references/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/repair-broken-references/SKILL.md
-fetched_at: '2026-05-10T05:37:32.222927+00:00'
+fetched_at: '2026-05-17T05:48:54.724978+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T07:46:02.211733Z'
+  evaluated_at: '2026-05-17T07:52:33.051193Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c857f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07860 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c857f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07860 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:29.767957Z'
-indexed_at: '2026-05-10T08:19:29.767963Z'
+  fetched_at: '2026-05-17T08:28:05.733151Z'
+indexed_at: '2026-05-17T08:28:05.733157Z'
 ---

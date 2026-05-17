@@ -12,24 +12,24 @@ prompt_preview: "---\nname: plaid\ndescription: Plaid banking API expert for fin
   metadata:\n  author: raintree..."
 full_prompt_length: 8368
 tools_mentioned:
-- typescript
 - react
+- typescript
 category: community
 category_display: Community
 source_repo: raintree-technology/claude-starter
 source_path: skills/plaid/SKILL.md
 source_url: https://github.com/raintree-technology/claude-starter/blob/main/skills/plaid/SKILL.md
-fetched_at: '2026-05-10T05:37:49.539488+00:00'
+fetched_at: '2026-05-17T05:49:17.004790+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T08:03:27.274345Z'
+  evaluated_at: '2026-05-17T08:12:02.402581Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543b520f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07d70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543b520f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07d70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:30.130411Z'
-indexed_at: '2026-05-10T08:19:30.130417Z'
+  fetched_at: '2026-05-17T08:28:06.157648Z'
+indexed_at: '2026-05-17T08:28:06.157654Z'
 ---

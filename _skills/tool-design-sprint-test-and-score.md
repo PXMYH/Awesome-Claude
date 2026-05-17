@@ -1,0 +1,47 @@
+---
+id: tool-design-sprint-test-and-score
+slug: tool-design-sprint-test-and-score
+name: Design Sprint Test and Score (Friday)
+description: This skill ends with a Decider Checkpoint in `references/TEMPLATE.md`.
+  The Decider's call (build / iterate / pivot / stop / reframe) IS the checkpoint;
+  the sprint cannot close without it. The checkpoi...
+prompt_preview: '---
+
+  name: tool-design-sprint-test-and-score
+
+  description: Day 5 (Friday) sprint-closing move of a Design Sprint that produces
+  the bundled Friday artifact covering per-customer interview observations, best quotes,
+  scorecard grid (sprint questions by customers), observed patterns, hot takes from
+  each team member, and the Decider summary (build, iterate, pivot, or stop, plus
+  highest-confidence learning, most important revision, and next artifact). Use Friday
+  after Thursday''s prototype passes trial r...'
+full_prompt_length: 10412
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: product-on-purpose/pm-skills
+source_path: skills/tool-design-sprint-test-and-score/SKILL.md
+source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/tool-design-sprint-test-and-score/SKILL.md
+fetched_at: '2026-05-17T05:49:14.194924+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-05-17T08:10:00.645381Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b5a3f0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b5a3f0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-05-17T08:28:06.113066Z'
+indexed_at: '2026-05-17T08:28:06.113071Z'
+---

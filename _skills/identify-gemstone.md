@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/identify-gemstone/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/identify-gemstone/SKILL.md
-fetched_at: '2026-05-10T05:37:20.265645+00:00'
+fetched_at: '2026-05-17T05:48:40.191945+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T07:32:51.777231Z'
+  evaluated_at: '2026-05-17T07:39:26.266643Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c85460 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c067e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c85460 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c067e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:29.494742Z'
-indexed_at: '2026-05-10T08:19:29.494747Z'
+  fetched_at: '2026-05-17T08:28:05.447499Z'
+indexed_at: '2026-05-17T08:28:05.447505Z'
 ---

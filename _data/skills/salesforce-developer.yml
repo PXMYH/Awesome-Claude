@@ -11,25 +11,25 @@ prompt_preview: "---\nname: salesforce-developer\ndescription: Writes and debugs
   \  domain: platform\n  triggers:..."
 full_prompt_length: 7507
 tools_mentioned:
-- REST
-- javascript
 - java
+- javascript
+- REST
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/salesforce-developer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/salesforce-developer/SKILL.md
-fetched_at: '2026-05-10T05:36:44.591580+00:00'
+fetched_at: '2026-05-17T05:47:57.308584+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T07:00:43.398022Z'
+  evaluated_at: '2026-05-17T07:07:14.881001Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c546e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c37c50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c546e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c37c50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:28.820552Z'
-indexed_at: '2026-05-10T08:19:28.820563Z'
+  fetched_at: '2026-05-17T08:28:04.746388Z'
+indexed_at: '2026-05-17T08:28:04.746394Z'

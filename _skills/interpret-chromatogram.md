@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/interpret-chromatogram/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/interpret-chromatogram/SKILL.md
-fetched_at: '2026-05-10T05:37:21.719683+00:00'
+fetched_at: '2026-05-17T05:48:41.882325+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T07:34:29.895470Z'
+  evaluated_at: '2026-05-17T07:41:03.382604Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c855b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a938f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c855b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a938f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:29.528616Z'
-indexed_at: '2026-05-10T08:19:29.528626Z'
+  fetched_at: '2026-05-17T08:28:05.483480Z'
+indexed_at: '2026-05-17T08:28:05.483486Z'
 ---

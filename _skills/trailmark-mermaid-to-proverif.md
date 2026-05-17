@@ -28,17 +28,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/trailmark/skills/mermaid-to-proverif/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/trailmark/skills/mermaid-to-proverif/SKILL.md
-fetched_at: '2026-05-10T05:38:07.827747+00:00'
+fetched_at: '2026-05-17T05:49:40.014213+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T08:15:39.514672Z'
+  evaluated_at: '2026-05-17T08:24:14.770301Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c840b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a99dd0a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c840b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a99dd0a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:30.387140Z'
-indexed_at: '2026-05-10T08:19:30.387146Z'
+  fetched_at: '2026-05-17T08:28:06.428341Z'
+indexed_at: '2026-05-17T08:28:06.428347Z'
 ---

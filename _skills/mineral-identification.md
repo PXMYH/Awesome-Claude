@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/mineral-identification/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/mineral-identification/SKILL.md
-fetched_at: '2026-05-10T05:37:25.353810+00:00'
+fetched_at: '2026-05-17T05:48:46.583957+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T07:38:34.823897Z'
+  evaluated_at: '2026-05-17T07:45:06.968181Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543e27e90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a65eb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543e27e90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a65eb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:29.611929Z'
-indexed_at: '2026-05-10T08:19:29.611939Z'
+  fetched_at: '2026-05-17T08:28:05.571218Z'
+indexed_at: '2026-05-17T08:28:05.571224Z'
 ---

@@ -17,17 +17,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/bgpt-paper-search/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/bgpt-paper-search/SKILL.md
-fetched_at: '2026-05-10T05:35:20.254658+00:00'
+fetched_at: '2026-05-17T05:46:22.451048+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T05:41:50.308172Z'
+  evaluated_at: '2026-05-17T05:53:25.776412Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f854437f470 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c37920 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f854437f470 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c37920 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:27.171685Z'
-indexed_at: '2026-05-10T08:19:27.171690Z'
+  fetched_at: '2026-05-17T08:28:03.100916Z'
+indexed_at: '2026-05-17T08:28:03.100921Z'
 ---

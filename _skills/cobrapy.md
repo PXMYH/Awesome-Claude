@@ -12,24 +12,24 @@ prompt_preview: "---\nname: cobrapy\ndescription: Constraint-based metabolic mod
   \ biology research. Work with genome-scale met..."
 full_prompt_length: 12450
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/cobrapy/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/cobrapy/SKILL.md
-fetched_at: '2026-05-10T05:35:21.134414+00:00'
+fetched_at: '2026-05-17T05:46:23.443604+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T05:42:55.028781Z'
+  evaluated_at: '2026-05-17T05:54:30.533296Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543e241a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c36780 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543e241a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c36780 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:27.194393Z'
-indexed_at: '2026-05-10T08:19:27.194399Z'
+  fetched_at: '2026-05-17T08:28:03.125196Z'
+indexed_at: '2026-05-17T08:28:03.125204Z'
 ---

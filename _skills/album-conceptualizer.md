@@ -7,11 +7,11 @@ description: '**When in doubt, cut.** Better a tight 8-track album than a bloate
 prompt_preview: "---\nname: album-conceptualizer\ndescription: Designs album concepts,\
   \ tracklist architecture, and thematic planning through 7 structured phases. Use\
   \ when planning a new album or reworking an existing album concept.\nargument-hint:\
-  \ <\"plan album about [topic]\" or album-path>\nmodel: claude-opus-4-6\nprerequisites:\n\
+  \ <\"plan album about [topic]\" or album-path>\nmodel: claude-opus-4-7\nprerequisites:\n\
   \  - new-album\nallowed-tools:\n  - Read\n  - Edit\n  - Write\n  - Grep\n  - Glob\n\
   \  - bitwize-music-mcp\n---\n\n## Your Task\n\n**Input**: $ARGUMENTS\n\nWhen invoked\
   \ for new album:\n1. Ask clarifying questi..."
-full_prompt_length: 13019
+full_prompt_length: 14246
 tools_mentioned:
 - go
 category: community
@@ -19,17 +19,17 @@ category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/album-conceptualizer/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/album-conceptualizer/SKILL.md
-fetched_at: '2026-05-10T05:36:10.159761+00:00'
+fetched_at: '2026-05-17T05:47:16.530222+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T06:33:09.226914Z'
+  evaluated_at: '2026-05-17T06:39:06.745578Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c55160 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a922d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c55160 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a922d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:28.247999Z'
-indexed_at: '2026-05-10T08:19:28.248005Z'
+  fetched_at: '2026-05-17T08:28:04.132340Z'
+indexed_at: '2026-05-17T08:28:04.132345Z'
 ---

@@ -17,17 +17,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/discover-competitive-analysis/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/discover-competitive-analysis/SKILL.md
-fetched_at: '2026-05-10T05:37:45.841181+00:00'
+fetched_at: '2026-05-17T05:49:10.254516+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T07:59:56.743948Z'
+  evaluated_at: '2026-05-17T08:06:29.291874Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c87e00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b58aa0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c87e00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b58aa0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:30.054483Z'
-indexed_at: '2026-05-10T08:19:30.054488Z'
+  fetched_at: '2026-05-17T08:28:06.036236Z'
+indexed_at: '2026-05-17T08:28:06.036241Z'
 ---

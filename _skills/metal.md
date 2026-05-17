@@ -12,25 +12,25 @@ prompt_preview: "---\r\nname: metal\r\ndescription: >\r\n  Extract the conceptua
   \ its conceptual architecture, when bootstr..."
 full_prompt_length: 20437
 tools_mentioned:
+- React
 - PostgreSQL
 - go
-- React
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/metal/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/metal/SKILL.md
-fetched_at: '2026-05-10T05:37:25.119885+00:00'
+fetched_at: '2026-05-17T05:48:46.272868+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T07:38:18.643938Z'
+  evaluated_at: '2026-05-17T07:44:50.783517Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c86870 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a923f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c86870 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a923f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:29.606370Z'
-indexed_at: '2026-05-10T08:19:29.606376Z'
+  fetched_at: '2026-05-17T08:28:05.565398Z'
+indexed_at: '2026-05-17T08:28:05.565403Z'
 ---

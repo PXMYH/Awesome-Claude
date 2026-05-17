@@ -16,24 +16,24 @@ prompt_preview: '---
   Random Forest), deep learning (TensorFlow, PyTorch), linear mod...'
 full_prompt_length: 18405
 tools_mentioned:
-- go
 - python
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/shap/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/shap/SKILL.md
-fetched_at: '2026-05-10T05:35:32.789504+00:00'
+fetched_at: '2026-05-17T05:46:37.318030+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T05:56:54.136078Z'
+  evaluated_at: '2026-05-17T06:08:25.143932Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f854473bb90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a9553b60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f854473bb90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a9553b60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:27.490919Z'
-indexed_at: '2026-05-10T08:19:27.490925Z'
+  fetched_at: '2026-05-17T08:28:03.448041Z'
+indexed_at: '2026-05-17T08:28:03.448048Z'
 ---

@@ -87,17 +87,17 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/oral-health-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/oral-health-analyzer/SKILL.md
-fetched_at: '2026-05-10T05:36:34.972407+00:00'
+fetched_at: '2026-05-17T05:47:45.473970+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T06:55:49.267266Z'
+  evaluated_at: '2026-05-17T07:02:23.058156Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c56540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c35640 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c56540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c35640 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -107,6 +107,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:28.716996Z'
-indexed_at: '2026-05-10T08:19:28.717002Z'
+  fetched_at: '2026-05-17T08:28:04.638820Z'
+indexed_at: '2026-05-17T08:28:04.638825Z'
 ---

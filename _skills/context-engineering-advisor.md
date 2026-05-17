@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/context-engineering-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/context-engineering-advisor/SKILL.md
-fetched_at: '2026-05-10T05:36:24.544518+00:00'
+fetched_at: '2026-05-17T05:47:33.437265+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T06:46:38.359140Z'
+  evaluated_at: '2026-05-17T06:52:54.093515Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8544124740 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c36720 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8544124740 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c36720 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:28.526403Z'
-indexed_at: '2026-05-10T08:19:28.526409Z'
+  fetched_at: '2026-05-17T08:28:04.433212Z'
+indexed_at: '2026-05-17T08:28:04.433220Z'
 ---

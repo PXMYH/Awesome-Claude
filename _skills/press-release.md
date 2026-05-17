@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/press-release/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/press-release/SKILL.md
-fetched_at: '2026-05-10T05:36:26.928866+00:00'
+fetched_at: '2026-05-17T05:47:36.425527+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T06:49:36.422469Z'
+  evaluated_at: '2026-05-17T06:56:10.144553Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c56d20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c077a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c56d20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c077a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:28.587698Z'
-indexed_at: '2026-05-10T08:19:28.587703Z'
+  fetched_at: '2026-05-17T08:28:04.503096Z'
+indexed_at: '2026-05-17T08:28:04.503102Z'
 ---

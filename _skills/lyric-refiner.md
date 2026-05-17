@@ -7,29 +7,30 @@ description: 1. **Load override first** — Call `load_override("lyric-writing-g
 prompt_preview: "---\nname: lyric-refiner\ndescription: Autonomous multi-pass lyric\
   \ refinement for tightening, cohesion, and album unity. Use after lyrics are written\
   \ to polish a track or entire album through iterative passes.\nargument-hint: <album-name\
-  \ | track-path> [--passes N]\nmodel: claude-opus-4-6\nprerequisites:\n  - lyric-writer\n\
+  \ | track-path> [--passes N]\nmodel: claude-opus-4-7\nprerequisites:\n  - lyric-writer\n\
   allowed-tools:\n  - Read\n  - Edit\n  - Write\n  - Grep\n  - Glob\n  - bitwize-music-mcp\n\
   ---\n\n## Your Task\n\n**Input**: $ARGUMENTS\n\n### Parse Arguments\n\n1. **Identify\
   \ target scope**:\n   - If..."
-full_prompt_length: 12850
+full_prompt_length: 15001
 tools_mentioned:
+- rest
 - go
 category: community
 category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/lyric-refiner/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/lyric-refiner/SKILL.md
-fetched_at: '2026-05-10T05:36:11.705835+00:00'
+fetched_at: '2026-05-17T05:47:18.595211+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T06:34:54.496318Z'
+  evaluated_at: '2026-05-17T06:41:00.060042Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8544686690 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a91460 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8544686690 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a91460 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:28.284492Z'
-indexed_at: '2026-05-10T08:19:28.284498Z'
+  fetched_at: '2026-05-17T08:28:04.174683Z'
+indexed_at: '2026-05-17T08:28:04.174689Z'
 ---

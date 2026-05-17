@@ -8,28 +8,28 @@ description: '**Your deliverable**: Polished lyrics with proper prosody, clear p
 prompt_preview: "---\nname: lyric-writer\ndescription: Writes or reviews lyrics with\
   \ professional prosody, rhyme craft, and quality checks. Use when writing new lyrics,\
   \ revising existing lyrics, or when the user says 'let's work on a track.'\nargument-hint:\
-  \ <track-file-path or \"write lyrics for [concept]\">\nmodel: claude-opus-4-6\n\
+  \ <track-file-path or \"write lyrics for [concept]\">\nmodel: claude-opus-4-7\n\
   allowed-tools:\n  - Read\n  - Edit\n  - Write\n  - Grep\n  - Glob\n  - bitwize-music-mcp\n\
   ---\n\n## Your Task\n\n**Input**: $ARGUMENTS\n\n### Instrumental Guard\n\nWhen invoked\
   \ with a track file path, **f..."
-full_prompt_length: 23268
+full_prompt_length: 25176
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/lyric-writer/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/lyric-writer/SKILL.md
-fetched_at: '2026-05-10T05:36:11.951738+00:00'
+fetched_at: '2026-05-17T05:47:18.886880+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T06:35:10.670743Z'
+  evaluated_at: '2026-05-17T06:41:16.239524Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f85442451c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a66e70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f85442451c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a66e70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:28.290136Z'
-indexed_at: '2026-05-10T08:19:28.290142Z'
+  fetched_at: '2026-05-17T08:28:04.180743Z'
+indexed_at: '2026-05-17T08:28:04.180749Z'
 ---

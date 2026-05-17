@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-pull-request/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-pull-request/SKILL.md
-fetched_at: '2026-05-10T05:37:10.304947+00:00'
+fetched_at: '2026-05-17T05:48:28.104374+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T07:21:55.440009Z'
+  evaluated_at: '2026-05-17T07:28:29.411445Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c54ec0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a90ef0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c54ec0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a90ef0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:29.264741Z'
-indexed_at: '2026-05-10T08:19:29.264746Z'
+  fetched_at: '2026-05-17T08:28:05.210566Z'
+indexed_at: '2026-05-17T08:28:05.210572Z'
 ---

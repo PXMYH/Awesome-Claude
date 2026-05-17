@@ -18,17 +18,17 @@ category_display: Community
 source_repo: EmblemCompany/Agent-skills
 source_path: skills/emblem-defi-yield/SKILL.md
 source_url: https://github.com/EmblemCompany/Agent-skills/blob/main/skills/emblem-defi-yield/SKILL.md
-fetched_at: '2026-05-10T05:35:18.346038+00:00'
+fetched_at: '2026-05-17T05:46:20.172672+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T05:40:13.267255Z'
+  evaluated_at: '2026-05-17T05:51:48.575565Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df34d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07d40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df34d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07d40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:27.136975Z'
-indexed_at: '2026-05-10T08:19:27.136981Z'
+  fetched_at: '2026-05-17T08:28:03.063559Z'
+indexed_at: '2026-05-17T08:28:03.063565Z'
 ---

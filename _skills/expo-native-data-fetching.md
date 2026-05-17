@@ -12,26 +12,26 @@ prompt_preview: "---\nname: native-data-fetching\ndescription: Use when implemen
   \ as needed:\n\n```\nreferences/\n  ex..."
 full_prompt_length: 11641
 tools_mentioned:
-- TypeScript
+- React
 - JavaScript
 - react
-- React
+- TypeScript
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/native-data-fetching/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/native-data-fetching/SKILL.md
-fetched_at: '2026-05-10T05:36:32.146497+00:00'
+fetched_at: '2026-05-17T05:47:42.421060+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T06:53:55.919532Z'
+  evaluated_at: '2026-05-17T07:00:29.443320Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543e24a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c37ad0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543e24a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c37ad0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:28.676989Z'
-indexed_at: '2026-05-10T08:19:28.676995Z'
+  fetched_at: '2026-05-17T08:28:04.597104Z'
+indexed_at: '2026-05-17T08:28:04.597110Z'
 ---

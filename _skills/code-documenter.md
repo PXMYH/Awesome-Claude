@@ -12,32 +12,32 @@ prompt_preview: "---\nname: code-documenter\ndescription: Generates, formats, an
   \  version: \"1.1.0\"..."
 full_prompt_length: 5494
 tools_mentioned:
+- JavaScript
+- gRPC
+- Django
+- TypeScript
 - GraphQL
-- django
+- Python
+- WebSocket
+- FastAPI
 - python
 - fastapi
-- TypeScript
-- Node.js
-- WebSocket
-- typescript
-- JavaScript
-- Django
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/code-documenter/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/code-documenter/SKILL.md
-fetched_at: '2026-05-10T05:36:40.563466+00:00'
+fetched_at: '2026-05-17T05:47:52.202701+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T06:58:40.691681Z'
+  evaluated_at: '2026-05-17T07:05:13.404395Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c56600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a91ab320 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c56600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a91ab320 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:28.777932Z'
-indexed_at: '2026-05-10T08:19:28.777938Z'
+  fetched_at: '2026-05-17T08:28:04.701836Z'
+indexed_at: '2026-05-17T08:28:04.701842Z'
 ---

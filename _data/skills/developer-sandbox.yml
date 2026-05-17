@@ -11,30 +11,30 @@ prompt_preview: "---\nname: developer-sandbox\ndescription: |\n  Design and buil
   \ playground\", \"developer trial\", \"s..."
 full_prompt_length: 14078
 tools_mentioned:
-- Go
-- javascript
-- TypeScript
-- Node.js
-- Ruby
 - JavaScript
-- go
+- TypeScript
 - Python
+- go
+- javascript
+- Ruby
+- Node.js
+- Go
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/developer-sandbox/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/developer-sandbox/SKILL.md
-fetched_at: '2026-05-10T05:36:49.260579+00:00'
+fetched_at: '2026-05-17T05:48:03.202662+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T07:04:13.588678Z'
+  evaluated_at: '2026-05-17T07:10:45.554242Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df3830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a672f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df3830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a672f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,5 +44,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:28.895729Z'
-indexed_at: '2026-05-10T08:19:28.895735Z'
+  fetched_at: '2026-05-17T08:28:04.824175Z'
+indexed_at: '2026-05-17T08:28:04.824181Z'

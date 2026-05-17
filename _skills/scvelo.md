@@ -12,24 +12,24 @@ prompt_preview: "---\nname: scvelo\ndescription: RNA velocity analysis with scVe
   \ in single-cell RNA-seq d..."
 full_prompt_length: 10274
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scvelo/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scvelo/SKILL.md
-fetched_at: '2026-05-10T05:35:32.467559+00:00'
+fetched_at: '2026-05-17T05:46:36.949958+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T05:56:29.886159Z'
+  evaluated_at: '2026-05-17T06:08:00.594962Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c56120 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a67e60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c56120 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a67e60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:27.482574Z'
-indexed_at: '2026-05-10T08:19:27.482580Z'
+  fetched_at: '2026-05-17T08:28:03.437329Z'
+indexed_at: '2026-05-17T08:28:03.437334Z'
 ---

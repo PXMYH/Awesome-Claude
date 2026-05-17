@@ -27,25 +27,25 @@ prompt_preview: '---
   API. Covers Swift (iOS), Kotlin...'
 full_prompt_length: 5568
 tools_mentioned:
+- React
 - TypeScript
 - typescript
-- React
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-module/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-module/SKILL.md
-fetched_at: '2026-05-10T05:36:31.687697+00:00'
+fetched_at: '2026-05-17T05:47:41.958082+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T06:53:23.576456Z'
+  evaluated_at: '2026-05-17T06:59:56.874239Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f85443c4b00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a66de0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f85443c4b00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a66de0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -55,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:28.665779Z'
-indexed_at: '2026-05-10T08:19:28.665784Z'
+  fetched_at: '2026-05-17T08:28:04.585322Z'
+indexed_at: '2026-05-17T08:28:04.585328Z'
 ---

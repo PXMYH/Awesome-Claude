@@ -17,17 +17,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/glycoengineering/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/glycoengineering/SKILL.md
-fetched_at: '2026-05-10T05:35:23.866997+00:00'
+fetched_at: '2026-05-17T05:46:26.709907+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T05:46:17.107824Z'
+  evaluated_at: '2026-05-17T05:57:53.272304Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8544156030 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a93f4470 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8544156030 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a93f4470 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:27.265899Z'
-indexed_at: '2026-05-10T08:19:27.265906Z'
+  fetched_at: '2026-05-17T08:28:03.208612Z'
+indexed_at: '2026-05-17T08:28:03.208618Z'
 ---

@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/build-sequential-circuit/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/build-sequential-circuit/SKILL.md
-fetched_at: '2026-05-10T05:37:05.193139+00:00'
+fetched_at: '2026-05-17T05:48:22.028785+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T07:16:13.609259Z'
+  evaluated_at: '2026-05-17T07:22:47.625397Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c84f50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a645c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c84f50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a645c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:29.147469Z'
-indexed_at: '2026-05-10T08:19:29.147475Z'
+  fetched_at: '2026-05-17T08:28:05.086892Z'
+indexed_at: '2026-05-17T08:28:05.086897Z'
 ---

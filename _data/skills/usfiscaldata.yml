@@ -15,25 +15,25 @@ prompt_preview: '---
   securities auctions, interest rates on Treasury securities, foreign e...'
 full_prompt_length: 6458
 tools_mentioned:
-- REST
-- python
 - Python
+- python
+- REST
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/usfiscaldata/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/usfiscaldata/SKILL.md
-fetched_at: '2026-05-10T05:35:34.239594+00:00'
+fetched_at: '2026-05-17T05:46:38.996683+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T05:58:40.023151Z'
+  evaluated_at: '2026-05-17T06:10:10.483340Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df2510 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a64ad0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df2510 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a64ad0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,5 +43,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:27.527495Z'
-indexed_at: '2026-05-10T08:19:27.527501Z'
+  fetched_at: '2026-05-17T08:28:03.487518Z'
+indexed_at: '2026-05-17T08:28:03.487524Z'

@@ -13,28 +13,28 @@ prompt_preview: "---\r\nname: clean-codebase\r\ndescription: >\r\n  Remove dead 
 full_prompt_length: 9046
 tools_mentioned:
 - Rust
-- python
-- TypeScript
-- Docker
 - JavaScript
+- Docker
+- TypeScript
 - Python
 - rust
+- python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/clean-codebase/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/clean-codebase/SKILL.md
-fetched_at: '2026-05-10T05:37:06.405312+00:00'
+fetched_at: '2026-05-17T05:48:23.474820+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T07:17:35.148127Z'
+  evaluated_at: '2026-05-17T07:24:08.545995Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c578f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a66ab0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c578f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a66ab0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:29.174991Z'
-indexed_at: '2026-05-10T08:19:29.174997Z'
+  fetched_at: '2026-05-17T08:28:05.115550Z'
+indexed_at: '2026-05-17T08:28:05.115556Z'
 ---

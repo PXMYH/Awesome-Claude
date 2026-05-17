@@ -12,24 +12,24 @@ prompt_preview: "---\nname: scvi-tools\ndescription: Deep generative models for 
   \ a comprehensive Python framework f..."
 full_prompt_length: 7235
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scvi-tools/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scvi-tools/SKILL.md
-fetched_at: '2026-05-10T05:35:32.571270+00:00'
+fetched_at: '2026-05-17T05:46:37.072449+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T05:56:37.961958Z'
+  evaluated_at: '2026-05-17T06:08:08.962156Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8544b97fb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a92dfec0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8544b97fb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a92dfec0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:27.485379Z'
-indexed_at: '2026-05-10T08:19:27.485385Z'
+  fetched_at: '2026-05-17T08:28:03.440522Z'
+indexed_at: '2026-05-17T08:28:03.440528Z'
 ---

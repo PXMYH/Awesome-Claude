@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/write-roxygen-docs/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/write-roxygen-docs/SKILL.md
-fetched_at: '2026-05-10T05:37:42.389544+00:00'
+fetched_at: '2026-05-17T05:49:06.320741+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T07:57:14.899189Z'
+  evaluated_at: '2026-05-17T08:03:46.949683Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df2690 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c353a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df2690 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c353a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:29.999552Z'
-indexed_at: '2026-05-10T08:19:29.999558Z'
+  fetched_at: '2026-05-17T08:28:05.978108Z'
+indexed_at: '2026-05-17T08:28:05.978114Z'
 ---

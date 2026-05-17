@@ -13,24 +13,24 @@ prompt_preview: "---\nname: csv-data-summarizer\ndescription: Analyzes CSV files
   - Uploads or references a CSV fil..."
 full_prompt_length: 5667
 tools_mentioned:
-- python
 - Python
+- python
 category: data-analytics
 category_display: Data Analytics
 source_repo: coffeefuelbump/csv-data-summarizer-claude-skill
 source_path: SKILL.md
 source_url: https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill/blob/main/SKILL.md
-fetched_at: '2026-05-10T05:36:17.200927+00:00'
+fetched_at: '2026-05-17T05:47:24.988303+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T06:40:02.031951Z'
+  evaluated_at: '2026-05-17T06:46:16.515611Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df3920 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a914bfe0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df3920 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a914bfe0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:28.392326Z'
-indexed_at: '2026-05-10T08:19:28.392332Z'
+  fetched_at: '2026-05-17T08:28:04.291678Z'
+indexed_at: '2026-05-17T08:28:04.291684Z'
 ---

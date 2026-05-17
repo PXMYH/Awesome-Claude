@@ -17,17 +17,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/iterate-pivot-decision/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/iterate-pivot-decision/SKILL.md
-fetched_at: '2026-05-10T05:37:47.255228+00:00'
+fetched_at: '2026-05-17T05:49:12.071574+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T08:01:33.861533Z'
+  evaluated_at: '2026-05-17T08:08:06.597197Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543b51460 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07440 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543b51460 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07440 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:30.088113Z'
-indexed_at: '2026-05-10T08:19:30.088124Z'
+  fetched_at: '2026-05-17T08:28:06.071567Z'
+indexed_at: '2026-05-17T08:28:06.071573Z'
 ---

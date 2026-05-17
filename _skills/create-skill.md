@@ -14,25 +14,25 @@ full_prompt_length: 18598
 tools_mentioned:
 - Rust
 - rest
-- TypeScript
 - Docker
+- TypeScript
 - Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-skill/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-skill/SKILL.md
-fetched_at: '2026-05-10T05:37:10.806444+00:00'
+fetched_at: '2026-05-17T05:48:28.662398+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T07:22:27.808790Z'
+  evaluated_at: '2026-05-17T07:29:01.758559Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543f447d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a66c90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543f447d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a66c90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:29.275850Z'
-indexed_at: '2026-05-10T08:19:29.275855Z'
+  fetched_at: '2026-05-17T08:28:05.222106Z'
+indexed_at: '2026-05-17T08:28:05.222111Z'
 ---

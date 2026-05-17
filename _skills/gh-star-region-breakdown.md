@@ -48,17 +48,17 @@ category_display: Community
 source_repo: ykdojo/gh-star-history
 source_path: skills/gh-star-region-breakdown/SKILL.md
 source_url: https://github.com/ykdojo/gh-star-history/blob/main/skills/gh-star-region-breakdown/SKILL.md
-fetched_at: '2026-05-10T05:38:13.447276+00:00'
+fetched_at: '2026-05-17T05:49:46.310701+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T08:18:13.216960Z'
+  evaluated_at: '2026-05-17T08:26:49.967823Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8544005130 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a64770 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8544005130 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a64770 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -68,6 +68,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:30.440077Z'
-indexed_at: '2026-05-10T08:19:30.440083Z'
+  fetched_at: '2026-05-17T08:28:06.484342Z'
+indexed_at: '2026-05-17T08:28:06.484348Z'
 ---

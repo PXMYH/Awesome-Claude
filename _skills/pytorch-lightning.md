@@ -13,24 +13,24 @@ prompt_preview: "---\nname: pytorch-lightning\ndescription: Deep learning framew
   \ that organizes PyTorch code..."
 full_prompt_length: 6675
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pytorch-lightning/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pytorch-lightning/SKILL.md
-fetched_at: '2026-05-10T05:35:30.173393+00:00'
+fetched_at: '2026-05-17T05:46:34.526616+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T05:53:55.955310Z'
+  evaluated_at: '2026-05-17T06:05:26.757986Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c54350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a643b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c54350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a643b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:27.429702Z'
-indexed_at: '2026-05-10T08:19:27.429707Z'
+  fetched_at: '2026-05-17T08:28:03.380471Z'
+indexed_at: '2026-05-17T08:28:03.380477Z'
 ---

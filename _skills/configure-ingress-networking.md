@@ -12,28 +12,28 @@ prompt_preview: "---\nname: configure-ingress-networking\ndescription: >\n  Conf
   \ or setting up blue-green\n  and..."
 full_prompt_length: 17143
 tools_mentioned:
-- GCP
-- Kubernetes
-- kubernetes
 - Azure
-- aws
 - AWS
+- aws
+- Kubernetes
+- GCP
+- kubernetes
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/configure-ingress-networking/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/configure-ingress-networking/SKILL.md
-fetched_at: '2026-05-10T05:37:07.708793+00:00'
+fetched_at: '2026-05-17T05:48:25.067293+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T07:19:04.052669Z'
+  evaluated_at: '2026-05-17T07:25:38.103310Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c84650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c35a30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543c84650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c35a30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:29.205769Z'
-indexed_at: '2026-05-10T08:19:29.205774Z'
+  fetched_at: '2026-05-17T08:28:05.147848Z'
+indexed_at: '2026-05-17T08:28:05.147854Z'
 ---

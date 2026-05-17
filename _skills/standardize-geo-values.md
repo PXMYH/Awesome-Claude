@@ -14,24 +14,24 @@ prompt_preview: "---\nname: standardize-geo-values\ndescription: \"Convert incon
   \ standard format across all contact an..."
 full_prompt_length: 9202
 tools_mentioned:
-- Go
 - python
+- Go
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/standardize-geo-values/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/standardize-geo-values/SKILL.md
-fetched_at: '2026-05-10T05:35:42.122445+00:00'
+fetched_at: '2026-05-17T05:46:47.907245+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T06:04:40.674344Z'
+  evaluated_at: '2026-05-17T06:16:06.876654Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df1910 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c067b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df1910 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c067b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:27.654032Z'
-indexed_at: '2026-05-10T08:19:27.654038Z'
+  fetched_at: '2026-05-17T08:28:03.621488Z'
+indexed_at: '2026-05-17T08:28:03.621493Z'
 ---

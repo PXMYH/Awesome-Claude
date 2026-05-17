@@ -11,25 +11,25 @@ prompt_preview: "---\nname: react-expert\ndescription: Use when building React 1
   \  version: \"1.1...."
 full_prompt_length: 5256
 tools_mentioned:
-- TypeScript
-- react
 - React
+- react
+- TypeScript
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/react-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/react-expert/SKILL.md
-fetched_at: '2026-05-10T05:36:44.302342+00:00'
+fetched_at: '2026-05-17T05:47:56.947896+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-10T07:00:27.231732Z'
+  evaluated_at: '2026-05-17T07:06:58.697911Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df3980 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07fb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8543df3980 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07fb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-10T08:19:28.814902Z'
-indexed_at: '2026-05-10T08:19:28.814908Z'
+  fetched_at: '2026-05-17T08:28:04.740499Z'
+indexed_at: '2026-05-17T08:28:04.740505Z'
