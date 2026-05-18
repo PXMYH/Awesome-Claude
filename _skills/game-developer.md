@@ -23,31 +23,31 @@ prompt_preview: '---
   systems, and multiplayer networking with emphasis...'
 full_prompt_length: 6431
 tools_mentioned: []
-category: specialized-domains
-category_display: Specialized Domains
+category: 07-specialized-domains
+category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/game-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/game-developer.md
-fetched_at: '2026-05-17T05:47:03.362631+00:00'
+fetched_at: '2026-05-18T06:12:36.649336Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T06:30:51.337866Z'
+  evaluated_at: '2026-05-18T06:27:10.422126Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c06de0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f24c6997c80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c06de0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f24c6997c80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 19964
-  forks: 2311
-  open_issues: 21
+  stars: 20028
+  forks: 2319
+  open_issues: 22
   last_commit: '2026-04-20'
-  fetched_at: '2026-05-17T05:49:52.805195Z'
-indexed_at: '2026-05-17T08:28:03.950154Z'
+  fetched_at: '2026-05-18T06:12:55.081443Z'
+indexed_at: '2026-05-18T06:36:42.748805Z'
 ---

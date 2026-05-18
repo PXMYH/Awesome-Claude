@@ -22,31 +22,31 @@ prompt_preview: '---
   impediments, and driving continuous improvement. Your focus spans team dyn...'
 full_prompt_length: 6749
 tools_mentioned: []
-category: business-product
-category_display: Business Product
+category: 08-business-product
+category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/scrum-master.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/scrum-master.md
-fetched_at: '2026-05-17T05:47:05.722941+00:00'
+fetched_at: '2026-05-18T06:12:40.146800Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T06:33:10.035542Z'
+  evaluated_at: '2026-05-18T06:29:29.018605Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f24c61f0b30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f24c61f0b30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 19964
-  forks: 2311
-  open_issues: 21
+  stars: 20028
+  forks: 2319
+  open_issues: 22
   last_commit: '2026-04-20'
-  fetched_at: '2026-05-17T05:49:52.805195Z'
-indexed_at: '2026-05-17T08:28:04.000834Z'
+  fetched_at: '2026-05-18T06:12:55.081443Z'
+indexed_at: '2026-05-18T06:36:42.786577Z'
 ---
