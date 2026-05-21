@@ -26,26 +26,26 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/refactoring-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/refactoring-specialist.md
-fetched_at: '2026-05-20T06:05:53.783046Z'
+fetched_at: '2026-05-21T06:08:53.195072Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-20T06:19:31.581677Z'
+  evaluated_at: '2026-05-21T06:22:30.370523Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f901e756360 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbecef04f80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f901e756360 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbecef04f80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 20161
-  forks: 2332
+  stars: 20237
+  forks: 2340
   open_issues: 25
-  last_commit: '2026-04-20'
-  fetched_at: '2026-05-20T06:06:15.243854Z'
-indexed_at: '2026-05-20T06:29:56.074405Z'
+  last_commit: '2026-05-20'
+  fetched_at: '2026-05-21T06:09:09.296295Z'
+indexed_at: '2026-05-21T06:33:02.256539Z'
 ---
