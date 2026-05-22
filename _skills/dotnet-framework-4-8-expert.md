@@ -28,26 +28,26 @@ category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/dotnet-framework-4.8-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/dotnet-framework-4.8-expert.md
-fetched_at: '2026-05-21T06:08:39.153842Z'
+fetched_at: '2026-05-22T06:04:40.512463Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-21T06:11:28.197725Z'
+  evaluated_at: '2026-05-22T06:07:30.657332Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbecf1b4980 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff3873117f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbecf1b4980 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff3873117f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 20237
-  forks: 2340
+  stars: 20298
+  forks: 2355
   open_issues: 25
   last_commit: '2026-05-20'
-  fetched_at: '2026-05-21T06:09:09.296295Z'
-indexed_at: '2026-05-21T06:33:02.010721Z'
+  fetched_at: '2026-05-22T06:05:11.360879Z'
+indexed_at: '2026-05-22T06:28:52.450229Z'
 ---
