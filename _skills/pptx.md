@@ -22,26 +22,26 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/pptx/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/pptx/SKILL.md
-fetched_at: '2026-05-22T06:05:05.893052Z'
+fetched_at: '2026-05-23T05:38:53.503282Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-22T06:26:10.133431Z'
+  evaluated_at: '2026-05-23T06:00:07.954336Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff3871bfa10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f46ada85010 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff3871bfa10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f46ada85010 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 138975
-  forks: 16394
-  open_issues: 866
+  stars: 139411
+  forks: 16448
+  open_issues: 870
   last_commit: '2026-05-19'
-  fetched_at: '2026-05-22T06:05:11.792761Z'
-indexed_at: '2026-05-22T06:28:52.870007Z'
+  fetched_at: '2026-05-23T05:39:02.753294Z'
+indexed_at: '2026-05-23T06:02:50.217316Z'
 ---
