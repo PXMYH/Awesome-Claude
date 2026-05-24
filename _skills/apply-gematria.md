@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/apply-gematria/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/apply-gematria/SKILL.md
-fetched_at: '2026-05-17T05:48:17.722583+00:00'
+fetched_at: '2026-05-24T06:01:04.460513+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T07:18:52.219168Z'
+  evaluated_at: '2026-05-24T07:32:40.322838Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c361b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198066f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c361b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198066f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:05.002523Z'
-indexed_at: '2026-05-17T08:28:05.002529Z'
+  fetched_at: '2026-05-24T08:43:18.534784Z'
+indexed_at: '2026-05-24T08:43:18.534790Z'
 ---

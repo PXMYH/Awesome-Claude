@@ -43,17 +43,17 @@ category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/help/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/help/SKILL.md
-fetched_at: '2026-05-17T05:47:17.936891+00:00'
+fetched_at: '2026-05-24T06:00:08.344273+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T06:40:27.671705Z'
+  evaluated_at: '2026-05-24T06:53:43.743223Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a67f50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966be00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a67f50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966be00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -63,6 +63,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:04.162738Z'
-indexed_at: '2026-05-17T08:28:04.162743Z'
+  fetched_at: '2026-05-24T08:43:17.722517Z'
+indexed_at: '2026-05-24T08:43:17.722522Z'
 ---

@@ -11,24 +11,24 @@ prompt_preview: "---\nname: merge-duplicate-companies\ndescription: >\n  Identif
   \ history across multiple records for the sa..."
 full_prompt_length: 12553
 tools_mentioned:
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/merge-duplicate-companies/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/merge-duplicate-companies/SKILL.md
-fetched_at: '2026-05-17T05:46:47.215196+00:00'
+fetched_at: '2026-05-24T05:59:41.545814+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T06:15:26.399016Z'
+  evaluated_at: '2026-05-24T06:28:31.405258Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c06540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198390d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c06540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198390d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:03.606133Z'
-indexed_at: '2026-05-17T08:28:03.606146Z'
+  fetched_at: '2026-05-24T08:43:17.203298Z'
+indexed_at: '2026-05-24T08:43:17.203303Z'

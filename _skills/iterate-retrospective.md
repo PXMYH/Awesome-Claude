@@ -6,28 +6,28 @@ description: See `references/EXAMPLE.md` for a completed example.
 prompt_preview: "---\nname: iterate-retrospective\ndescription: Facilitates and documents\
   \ a team retrospective capturing what went well, what to improve, and action items.\
   \ Use at the end of sprints, projects, or milestones to reflect and improve team\
-  \ practices.\nphase: iterate\nversion: \"2.0.0\"\nupdated: 2026-01-26\nlicense:\
-  \ Apache-2.0\nmetadata:\n  category: reflection\n  frameworks: [triple-diamond,\
+  \ practices.\nlicense: Apache-2.0\nmetadata:\n  phase: iterate\n  version: \"2.0.0\"\
+  \n  updated: 2026-01-26\n  category: reflection\n  frameworks: [triple-diamond,\
   \ lean-startup, design-thinking]\n  author: product-on-purpose\n---\n<!-- PM-Skills\
-  \ | https://github.com/product-on-purpose/pm..."
-full_prompt_length: 3172
+  \ | https://github.com/product-on-purp..."
+full_prompt_length: 3178
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/iterate-retrospective/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/iterate-retrospective/SKILL.md
-fetched_at: '2026-05-17T05:49:12.438347+00:00'
+fetched_at: '2026-05-24T06:01:56.890647+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:08:23.563951Z'
+  evaluated_at: '2026-05-24T08:22:50.908599Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b598e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319839640 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b598e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319839640 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.077340Z'
-indexed_at: '2026-05-17T08:28:06.077346Z'
+  fetched_at: '2026-05-24T08:43:19.570209Z'
+indexed_at: '2026-05-24T08:43:19.570215Z'
 ---

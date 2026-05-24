@@ -15,24 +15,24 @@ prompt_preview: '---
   day of the sprint. Use Wednesday morning and afternoon after Tuesday''s sketches
   are collected and attribution-stripped. Produces the canonical 5-15 step storyboard
   that becomes the build spe...'
-full_prompt_length: 9060
+full_prompt_length: 9066
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/tool-design-sprint-decide-and-storyboard/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/tool-design-sprint-decide-and-storyboard/SKILL.md
-fetched_at: '2026-05-17T05:49:13.516030+00:00'
+fetched_at: '2026-05-24T06:01:57.903422+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:09:20.210250Z'
+  evaluated_at: '2026-05-24T08:23:55.899992Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c340e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983a600 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c340e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983a600 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.098072Z'
-indexed_at: '2026-05-17T08:28:06.098078Z'
+  fetched_at: '2026-05-24T08:43:19.592445Z'
+indexed_at: '2026-05-24T08:43:19.592451Z'
 ---

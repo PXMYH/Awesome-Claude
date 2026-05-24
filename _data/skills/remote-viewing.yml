@@ -11,28 +11,28 @@ prompt_preview: "---\r\nname: remote-viewing\r\ndescription: >\r\n  AI intuitive
   \n  debugging a..."
 full_prompt_length: 15456
 tools_mentioned:
-- JavaScript
 - Django
-- TypeScript
-- Python
 - Java
+- TypeScript
+- JavaScript
+- Python
 - React
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/remote-viewing/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/remote-viewing/SKILL.md
-fetched_at: '2026-05-17T05:48:54.017010+00:00'
+fetched_at: '2026-05-24T06:01:38.748428+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T07:51:52.569681Z'
+  evaluated_at: '2026-05-24T08:05:50.389205Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c37740 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319839370 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c37740 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319839370 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +42,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:05.718311Z'
-indexed_at: '2026-05-17T08:28:05.718317Z'
+  fetched_at: '2026-05-24T08:43:19.220988Z'
+indexed_at: '2026-05-24T08:43:19.220994Z'

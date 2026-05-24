@@ -19,17 +19,17 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/postgres/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/postgres/SKILL.md
-fetched_at: '2026-05-17T05:49:22.143851+00:00'
+fetched_at: '2026-05-24T06:02:06.583834+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:15:09.519378Z'
+  evaluated_at: '2026-05-24T08:30:18.333349Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8f79fa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319daaff0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8f79fa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319daaff0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.225103Z'
-indexed_at: '2026-05-17T08:28:06.225109Z'
+  fetched_at: '2026-05-24T08:43:19.728113Z'
+indexed_at: '2026-05-24T08:43:19.728118Z'
 ---

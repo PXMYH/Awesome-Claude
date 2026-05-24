@@ -6,27 +6,27 @@ prompt_preview: "---\nname: utility-slideshow-creator\ndescription: Generates pr
   \ presentations from a JSON deck specification using 18 slide types with dark/light\
   \ variants, content-to-layout decision logic, and calibrated character limits. Ships\
   \ with a default professional theme and supports custom themes via utility-slideshow-themer.\n\
-  version: \"1.0.0\"\nupdated: 2026-04-08\nlicense: Apache-2.0\nclassification: utility\n\
-  metadata:\n  category: communication\n  frameworks:\n    - pptxgenjs\n  author:\
-  \ product-on-purp..."
-full_prompt_length: 6638
+  license: Apache-2.0\nmetadata:\n  classification: utility\n  version: \"1.0.0\"\n\
+  \  updated: 2026-04-08\n  category: communication\n  frameworks:\n    - pptxgenjs\n\
+  \  author: product-o..."
+full_prompt_length: 6644
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/utility-slideshow-creator/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/utility-slideshow-creator/SKILL.md
-fetched_at: '2026-05-17T05:49:16.083734+00:00'
+fetched_at: '2026-05-24T06:02:00.870151+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:11:46.230549Z'
+  evaluated_at: '2026-05-24T08:26:54.866130Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c35730 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319690d10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c35730 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319690d10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.151802Z'
-indexed_at: '2026-05-17T08:28:06.151808Z'
+  fetched_at: '2026-05-24T08:43:19.659254Z'
+indexed_at: '2026-05-24T08:43:19.659260Z'

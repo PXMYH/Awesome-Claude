@@ -14,24 +14,24 @@ prompt_preview: '---
   each team member, and the Decider summary (build, iterate, pivot, or stop, plus
   highest-confidence learning, most important revision, and next artifact). Use Friday
   after Thursday''s prototype passes trial r...'
-full_prompt_length: 10412
+full_prompt_length: 10418
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/tool-design-sprint-test-and-score/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/tool-design-sprint-test-and-score/SKILL.md
-fetched_at: '2026-05-17T05:49:14.194924+00:00'
+fetched_at: '2026-05-24T06:01:58.588231+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:10:00.645381Z'
+  evaluated_at: '2026-05-24T08:24:36.496132Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b5a3f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198076b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b5a3f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198076b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.113066Z'
-indexed_at: '2026-05-17T08:28:06.113071Z'
+  fetched_at: '2026-05-24T08:43:19.607036Z'
+indexed_at: '2026-05-24T08:43:19.607042Z'

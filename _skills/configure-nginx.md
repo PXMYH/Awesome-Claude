@@ -12,29 +12,29 @@ prompt_preview: "---\r\nname: configure-nginx\r\ndescription: >\r\n  Configure N
   \ rate limiting and\r\n  security headers to..."
 full_prompt_length: 7548
 tools_mentioned:
-- Docker
-- Python
-- WebSocket
-- Kubernetes
-- Node.js
-- docker
 - Go
+- WebSocket
+- Python
+- Node.js
+- Docker
+- Kubernetes
+- docker
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/configure-nginx/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/configure-nginx/SKILL.md
-fetched_at: '2026-05-17T05:48:25.477017+00:00'
+fetched_at: '2026-05-24T06:01:11.954994+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T07:26:02.404343Z'
+  evaluated_at: '2026-05-24T07:39:52.747735Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8fd2d50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319693c50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8fd2d50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319693c50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:05.156896Z'
-indexed_at: '2026-05-17T08:28:05.156901Z'
+  fetched_at: '2026-05-24T08:43:18.682864Z'
+indexed_at: '2026-05-24T08:43:18.682870Z'
 ---

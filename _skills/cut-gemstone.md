@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/cut-gemstone/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/cut-gemstone/SKILL.md
-fetched_at: '2026-05-17T05:48:29.623025+00:00'
+fetched_at: '2026-05-24T06:01:15.954570+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T07:29:58.391080Z'
+  evaluated_at: '2026-05-24T07:43:50.120169Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a92ff0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319691700 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a92ff0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319691700 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:05.242496Z'
-indexed_at: '2026-05-17T08:28:05.242502Z'
+  fetched_at: '2026-05-24T08:43:18.763877Z'
+indexed_at: '2026-05-24T08:43:18.763883Z'
 ---

@@ -15,24 +15,24 @@ prompt_preview: '---
   skill orchestrates the day but does not author the sketches themselves. Use Tuesday
   morning after Monday''s target moment is locked. Output is the lightning demo board,
   sketch assignments, and the cohort of independent...'
-full_prompt_length: 8448
+full_prompt_length: 8454
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/tool-design-sprint-sketch/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/tool-design-sprint-sketch/SKILL.md
-fetched_at: '2026-05-17T05:49:14.054048+00:00'
+fetched_at: '2026-05-24T06:01:58.437449+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:09:52.555353Z'
+  evaluated_at: '2026-05-24T08:24:28.375533Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b58ce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198076b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b58ce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198076b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.110100Z'
-indexed_at: '2026-05-17T08:28:06.110106Z'
+  fetched_at: '2026-05-24T08:43:19.604162Z'
+indexed_at: '2026-05-24T08:43:19.604167Z'
 ---

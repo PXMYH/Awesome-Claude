@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/integrate-gestalt/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/integrate-gestalt/SKILL.md
-fetched_at: '2026-05-17T05:48:41.749672+00:00'
+fetched_at: '2026-05-24T06:01:27.313526+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T07:40:55.280267Z'
+  evaluated_at: '2026-05-24T07:54:50.095202Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a65070 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983a6c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a65070 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983a6c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:05.480513Z'
-indexed_at: '2026-05-17T08:28:05.480519Z'
+  fetched_at: '2026-05-24T08:43:18.991393Z'
+indexed_at: '2026-05-24T08:43:18.991399Z'
 ---

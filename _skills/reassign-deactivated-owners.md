@@ -12,25 +12,25 @@ prompt_preview: "---\nname: reassign-deactivated-owners\ndescription: >\n  Reass
   \ their HubSpot-owned contacts and compan..."
 full_prompt_length: 18303
 tools_mentioned:
-- Python
 - python
+- Python
 - go
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/reassign-deactivated-owners/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/reassign-deactivated-owners/SKILL.md
-fetched_at: '2026-05-17T05:46:47.624838+00:00'
+fetched_at: '2026-05-24T05:59:41.881275+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T06:15:50.679794Z'
+  evaluated_at: '2026-05-24T06:28:55.825147Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319807ad0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319807ad0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:03.615300Z'
-indexed_at: '2026-05-17T08:28:03.615306Z'
+  fetched_at: '2026-05-24T08:43:17.211879Z'
+indexed_at: '2026-05-24T08:43:17.211885Z'
 ---

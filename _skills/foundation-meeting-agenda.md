@@ -15,8 +15,8 @@ prompt_preview: '---
   for Slack or email plus a full agenda with time-boxed topics, type tags, owners,
   attendee prep, and logistics.
 
-  classification: f...'
-full_prompt_length: 9615
+  license: Apache-2...'
+full_prompt_length: 9621
 tools_mentioned:
 - go
 category: community
@@ -24,17 +24,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/foundation-meeting-agenda/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/foundation-meeting-agenda/SKILL.md
-fetched_at: '2026-05-17T05:49:10.824071+00:00'
+fetched_at: '2026-05-24T06:01:55.708229+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:07:01.763030Z'
+  evaluated_at: '2026-05-24T08:21:29.683001Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b5b890 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319807770 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b5b890 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319807770 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.048037Z'
-indexed_at: '2026-05-17T08:28:06.048044Z'
+  fetched_at: '2026-05-24T08:43:19.542337Z'
+indexed_at: '2026-05-24T08:43:19.542343Z'
 ---

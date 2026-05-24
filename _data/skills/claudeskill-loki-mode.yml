@@ -1,7 +1,7 @@
 id: claudeskill-loki-mode
 slug: claudeskill-loki-mode
-name: Loki Mode v7.5.17
-description: '**v7.5.17 | [Autonomi](https://www.autonomi.dev/) flagship product |
+name: Loki Mode v7.7.9
+description: '**v7.7.9 | [Autonomi](https://www.autonomi.dev/) flagship product |
   ~260 lines core**'
 prompt_preview: '---
 
@@ -14,7 +14,7 @@ prompt_preview: '---
   ---
 
 
-  # Loki Mode v7.5.17
+  # Loki Mode v7.7.9
 
 
   **You are an autonomous agent. You make decisions. You do not ask questions. You
@@ -22,25 +22,25 @@ prompt_preview: '---
 
 
   **Spec in, product out.** A "spec" is whatever describes the work: a Markdown PRD,
-  a GitHub issue, an OpenAPI doc, a Jira ticket...'
-full_prompt_length: 19263
+  a GitHub issue, an OpenAPI doc, a Jira ticket -...'
+full_prompt_length: 19126
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: asklokesh/claudeskill-loki-mode
 source_path: SKILL.md
 source_url: https://github.com/asklokesh/claudeskill-loki-mode/blob/main/SKILL.md
-fetched_at: '2026-05-17T05:47:14.528154+00:00'
+fetched_at: '2026-05-24T06:00:05.501341+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T06:38:34.347570Z'
+  evaluated_at: '2026-05-24T06:51:49.977125Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a91640 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73196939e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a91640 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73196939e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,5 +50,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:04.120556Z'
-indexed_at: '2026-05-17T08:28:04.120561Z'
+  fetched_at: '2026-05-24T08:43:17.683461Z'
+indexed_at: '2026-05-24T08:43:17.683466Z'

@@ -11,24 +11,24 @@ prompt_preview: "---\nname: fluidsim\ndescription: Framework for computational f
   \ Inc.\n---\n\n# FluidSim\n\n## O..."
 full_prompt_length: 9384
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/fluidsim/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/fluidsim/SKILL.md
-fetched_at: '2026-05-17T05:46:25.742619+00:00'
+fetched_at: '2026-05-24T05:59:22.952677+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T05:56:48.318322Z'
+  evaluated_at: '2026-05-24T06:09:39.063691Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a9193350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319967560 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a9193350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319967560 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:03.183043Z'
-indexed_at: '2026-05-17T08:28:03.183048Z'
+  fetched_at: '2026-05-24T08:43:16.801575Z'
+indexed_at: '2026-05-24T08:43:16.801580Z'

@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/enhance-glyph/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/enhance-glyph/SKILL.md
-fetched_at: '2026-05-17T05:48:34.430770+00:00'
+fetched_at: '2026-05-24T06:01:20.441438+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T07:34:17.883148Z'
+  evaluated_at: '2026-05-24T07:48:10.903028Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c34bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319838260 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c34bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319838260 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:05.336389Z'
-indexed_at: '2026-05-17T08:28:05.336394Z'
+  fetched_at: '2026-05-24T08:43:18.853586Z'
+indexed_at: '2026-05-24T08:43:18.853592Z'
 ---

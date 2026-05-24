@@ -8,27 +8,27 @@ prompt_preview: "---\nname: deliver-acceptance-criteria\ndescription: Generates 
   \ Given/When/Then acceptance criteria for a user story or feature slice. Use when\
   \ translating product requirements into testable scenarios that cover the happy\
   \ path, edge cases, error states, and non-functional expectations for engineering\
-  \ handoff and QA.\nphase: deliver\nversion: \"1.0.0\"\nupdated: 2026-03-22\nlicense:\
-  \ Apache-2.0\nmetadata:\n  category: specification\n  frameworks: [triple-diamond,\
-  \ lean-startup, design-thinking]\n  au..."
-full_prompt_length: 3380
+  \ handoff and QA.\nlicense: Apache-2.0\nmetadata:\n  phase: deliver\n  version:\
+  \ \"1.0.0\"\n  updated: 2026-03-22\n  category: specification\n  frameworks: [triple-diamond,\
+  \ lean-startup, design-thinking..."
+full_prompt_length: 3386
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/deliver-acceptance-criteria/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/deliver-acceptance-criteria/SKILL.md
-fetched_at: '2026-05-17T05:49:08.831182+00:00'
+fetched_at: '2026-05-24T06:01:53.687934+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:05:08.287541Z'
+  evaluated_at: '2026-05-24T08:19:18.753748Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a91160 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319806c00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a91160 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319806c00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.007298Z'
-indexed_at: '2026-05-17T08:28:06.007303Z'
+  fetched_at: '2026-05-24T08:43:19.497684Z'
+indexed_at: '2026-05-24T08:43:19.497689Z'
 ---

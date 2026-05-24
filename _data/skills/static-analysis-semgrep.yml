@@ -12,27 +12,27 @@ prompt_preview: "---\nname: semgrep\ndescription: >-\n  Run Semgrep static analy
   \ parallel workers for multi-language..."
 full_prompt_length: 9688
 tools_mentioned:
-- Docker
-- Python
+- Go
 - python
 - django
-- Go
+- Python
+- Docker
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/static-analysis/skills/semgrep/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/semgrep/SKILL.md
-fetched_at: '2026-05-17T05:49:36.226140+00:00'
+fetched_at: '2026-05-24T06:02:18.676814+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:21:16.304031Z'
+  evaluated_at: '2026-05-24T08:36:25.885952Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a64140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319daa3c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a64140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319daa3c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +42,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.361274Z'
-indexed_at: '2026-05-17T08:28:06.361286Z'
+  fetched_at: '2026-05-24T08:43:19.857011Z'
+indexed_at: '2026-05-24T08:43:19.857017Z'

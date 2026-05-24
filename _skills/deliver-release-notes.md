@@ -6,28 +6,28 @@ description: See `references/EXAMPLE.md` for a completed example.
 prompt_preview: "---\nname: deliver-release-notes\ndescription: Creates user-facing\
   \ release notes that communicate new features, improvements, and fixes in clear,\
   \ benefit-focused language. Use when shipping updates to communicate changes to\
-  \ users, customers, or stakeholders.\nphase: deliver\nversion: \"2.0.0\"\nupdated:\
-  \ 2026-01-26\nlicense: Apache-2.0\nmetadata:\n  category: coordination\n  frameworks:\
+  \ users, customers, or stakeholders.\nlicense: Apache-2.0\nmetadata:\n  phase: deliver\n\
+  \  version: \"2.0.0\"\n  updated: 2026-01-26\n  category: coordination\n  frameworks:\
   \ [triple-diamond, lean-startup, design-thinking]\n  author: product-on-purpose\n\
-  ---\n<!-- PM-Skills | https://github.com/produ..."
-full_prompt_length: 3059
+  ---\n<!-- PM-Skills | https://github.com..."
+full_prompt_length: 3065
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/deliver-release-notes/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/deliver-release-notes/SKILL.md
-fetched_at: '2026-05-17T05:49:09.421016+00:00'
+fetched_at: '2026-05-24T06:01:54.207327+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:05:40.681989Z'
+  evaluated_at: '2026-05-24T08:19:51.257159Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a937d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319805ca0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a937d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319805ca0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.018936Z'
-indexed_at: '2026-05-17T08:28:06.018942Z'
+  fetched_at: '2026-05-24T08:43:19.508752Z'
+indexed_at: '2026-05-24T08:43:19.508758Z'
 ---

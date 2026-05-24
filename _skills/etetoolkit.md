@@ -13,24 +13,24 @@ prompt_preview: "---\nname: etetoolkit\ndescription: Phylogenetic tree toolkit (
   \ and integrate with b..."
 full_prompt_length: 17884
 tools_mentioned:
-- sqlite
 - python
+- sqlite
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/etetoolkit/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/etetoolkit/SKILL.md
-fetched_at: '2026-05-17T05:46:25.236982+00:00'
+fetched_at: '2026-05-24T05:59:22.478202+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T05:56:15.840458Z'
+  evaluated_at: '2026-05-24T06:09:06.598244Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8d9af00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319b798e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8d9af00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319b798e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:03.170940Z'
-indexed_at: '2026-05-17T08:28:03.170946Z'
+  fetched_at: '2026-05-24T08:43:16.790016Z'
+indexed_at: '2026-05-24T08:43:16.790023Z'
 ---

@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/conduct-empirical-wire-capture/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/conduct-empirical-wire-capture/SKILL.md
-fetched_at: '2026-05-17T05:48:24.044992+00:00'
+fetched_at: '2026-05-24T06:01:10.504669+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T07:24:41.248821Z'
+  evaluated_at: '2026-05-24T07:38:30.520091Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c35ac0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198070e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c35ac0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198070e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:05.127182Z'
-indexed_at: '2026-05-17T08:28:05.127187Z'
+  fetched_at: '2026-05-24T08:43:18.654420Z'
+indexed_at: '2026-05-24T08:43:18.654425Z'

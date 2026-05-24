@@ -8,26 +8,26 @@ prompt_preview: "---\nname: utility-update-pm-skills\ndescription: Checks for ne
   \ and updates local files after user confirmation. Generates a structured update\
   \ report documenting changed files, new capabilities, and the value delta between\
   \ versions. Use when you want to bring a local pm-skills installation up to date.\n\
-  classification: utility\nversion: \"1.0.0\"\nupdated: 2026-04-09\nlicense: Apache-2.0\n\
-  metadata:\n  category: coordinati..."
-full_prompt_length: 13824
+  license: Apache-2.0\nmetadata:\n  classification: utility\n  version: \"1.0.0\"\n\
+  \  updated: 2026-04-09\n  category: coor..."
+full_prompt_length: 13830
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/utility-update-pm-skills/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/utility-update-pm-skills/SKILL.md
-fetched_at: '2026-05-17T05:49:16.216507+00:00'
+fetched_at: '2026-05-24T06:02:01.000736+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:11:54.319875Z'
+  evaluated_at: '2026-05-24T08:27:03.117472Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c34260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731955f5c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c34260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731955f5c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.154714Z'
-indexed_at: '2026-05-17T08:28:06.154720Z'
+  fetched_at: '2026-05-24T08:43:19.661978Z'
+indexed_at: '2026-05-24T08:43:19.661984Z'
 ---

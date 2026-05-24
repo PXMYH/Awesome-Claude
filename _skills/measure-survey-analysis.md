@@ -1,0 +1,42 @@
+---
+id: measure-survey-analysis
+slug: measure-survey-analysis
+name: Survey Analysis
+description: '- Companion command: `commands/survey-analysis.md`'
+prompt_preview: "---\nname: measure-survey-analysis\ndescription: Analyze survey results\
+  \ into actionable PM insights. Produces persona segmentation, hypothesis validation\
+  \ status, thematic clustering of open-text responses, statistical confidence labels,\
+  \ prioritized recommendations, and what-NOT-to-conclude warnings. Refuses to overstate\
+  \ statistical significance from weak samples or biased instruments.\nlicense: Apache-2.0\n\
+  metadata:\n  phase: measure\n  version: \"1.0.0\"\n  updated: 2026-05-21\n  category:\
+  \ research\n  fra..."
+full_prompt_length: 11431
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: product-on-purpose/pm-skills
+source_path: skills/measure-survey-analysis/SKILL.md
+source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/measure-survey-analysis/SKILL.md
+fetched_at: '2026-05-24T06:01:57.615846+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-05-24T08:23:39.676610Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983bd40 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983bd40 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-05-24T08:43:19.586761Z'
+indexed_at: '2026-05-24T08:43:19.586767Z'
+---

@@ -17,17 +17,17 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/nutrition-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/nutrition-analyzer/SKILL.md
-fetched_at: '2026-05-17T05:47:45.199052+00:00'
+fetched_at: '2026-05-24T06:00:33.835830+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T07:02:06.856462Z'
+  evaluated_at: '2026-05-24T07:15:50.573718Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a90a9ca0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983b2c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a90a9ca0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983b2c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:04.632807Z'
-indexed_at: '2026-05-17T08:28:04.632813Z'
+  fetched_at: '2026-05-24T08:43:18.177822Z'
+indexed_at: '2026-05-24T08:43:18.177829Z'
 ---

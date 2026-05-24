@@ -5,28 +5,28 @@ description: See `references/EXAMPLE.md` for a completed example.
 prompt_preview: "---\nname: develop-solution-brief\ndescription: Creates a concise\
   \ one-page solution overview that communicates the proposed approach, key decisions,\
   \ and trade-offs. Use when pitching solutions to stakeholders, aligning teams on\
-  \ approach, or documenting solution intent before detailed specification.\nphase:\
-  \ develop\nversion: \"2.0.0\"\nupdated: 2026-01-26\nlicense: Apache-2.0\nmetadata:\n\
+  \ approach, or documenting solution intent before detailed specification.\nlicense:\
+  \ Apache-2.0\nmetadata:\n  phase: develop\n  version: \"2.0.0\"\n  updated: 2026-01-26\n\
   \  category: ideation\n  frameworks: [triple-diamond, lean-startup, design-thinking]\n\
-  \  author: product-on-purpose\n---\n<!--..."
-full_prompt_length: 3210
+  \  author: product-on-purpose\n--..."
+full_prompt_length: 3216
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/develop-solution-brief/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/develop-solution-brief/SKILL.md
-fetched_at: '2026-05-17T05:49:09.978425+00:00'
+fetched_at: '2026-05-24T06:01:54.679466+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:06:13.060317Z'
+  evaluated_at: '2026-05-24T08:20:24.481966Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a65070 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983bda0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a65070 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983bda0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.030445Z'
-indexed_at: '2026-05-17T08:28:06.030450Z'
+  fetched_at: '2026-05-24T08:43:19.519940Z'
+indexed_at: '2026-05-24T08:43:19.519947Z'

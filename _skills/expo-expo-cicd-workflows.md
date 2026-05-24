@@ -40,17 +40,17 @@ category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-cicd-workflows/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-cicd-workflows/SKILL.md
-fetched_at: '2026-05-17T05:47:41.597413+00:00'
+fetched_at: '2026-05-24T06:00:30.415864+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T06:59:32.604337Z'
+  evaluated_at: '2026-05-24T07:13:15.778245Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07c20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73199dc170 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07c20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73199dc170 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -60,6 +60,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:04.576504Z'
-indexed_at: '2026-05-17T08:28:04.576510Z'
+  fetched_at: '2026-05-24T08:43:18.123626Z'
+indexed_at: '2026-05-24T08:43:18.123632Z'
 ---

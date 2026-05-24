@@ -16,26 +16,26 @@ prompt_preview: '---
 full_prompt_length: 6061
 tools_mentioned:
 - Vue
-- JavaScript
 - TypeScript
 - javascript
 - vue
+- JavaScript
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/vue-expert-js/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/vue-expert-js/SKILL.md
-fetched_at: '2026-05-17T05:47:59.061090+00:00'
+fetched_at: '2026-05-24T06:00:47.164481+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T07:08:19.682630Z'
+  evaluated_at: '2026-05-24T07:22:05.351980Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c34380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198067e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c34380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198067e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:04.769957Z'
-indexed_at: '2026-05-17T08:28:04.769963Z'
+  fetched_at: '2026-05-24T08:43:18.312201Z'
+indexed_at: '2026-05-24T08:43:18.312206Z'
 ---

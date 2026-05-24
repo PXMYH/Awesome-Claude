@@ -12,7 +12,7 @@ prompt_preview: '---
   notion, exec-memo) and audience variants (engineering, design, leadership, customer-facing,
   mixed). Surfaces a primary CTA up front, flags technical-to-business translations
   for user verification, and detects th...'
-full_prompt_length: 6983
+full_prompt_length: 6989
 tools_mentioned:
 - go
 category: community
@@ -20,17 +20,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/foundation-stakeholder-update/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/foundation-stakeholder-update/SKILL.md
-fetched_at: '2026-05-17T05:49:11.723962+00:00'
+fetched_at: '2026-05-24T06:01:56.464932+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:07:50.416738Z'
+  evaluated_at: '2026-05-24T08:22:18.417183Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c073b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319668320 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c073b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319668320 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.065707Z'
-indexed_at: '2026-05-17T08:28:06.065713Z'
+  fetched_at: '2026-05-24T08:43:19.559114Z'
+indexed_at: '2026-05-24T08:43:19.559127Z'

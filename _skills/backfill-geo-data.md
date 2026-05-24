@@ -14,24 +14,24 @@ prompt_preview: "---\nname: backfill-geo-data\ndescription: \"Enrich missing geo
   \ reporting, and compliance (GDPR, state privacy..."
 full_prompt_length: 3516
 tools_mentioned:
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/backfill-geo-data/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/backfill-geo-data/SKILL.md
-fetched_at: '2026-05-17T05:46:44.245259+00:00'
+fetched_at: '2026-05-24T05:59:39.272034+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T06:12:36.241096Z'
+  evaluated_at: '2026-05-24T06:25:40.166213Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8f9a480 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983a120 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8f9a480 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983a120 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:03.541727Z'
-indexed_at: '2026-05-17T08:28:03.541733Z'
+  fetched_at: '2026-05-24T08:43:17.142998Z'
+indexed_at: '2026-05-24T08:43:17.143009Z'
 ---

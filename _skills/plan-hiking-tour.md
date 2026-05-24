@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/plan-hiking-tour/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/plan-hiking-tour/SKILL.md
-fetched_at: '2026-05-17T05:48:49.938035+00:00'
+fetched_at: '2026-05-24T06:01:34.930768+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T07:48:13.346270Z'
+  evaluated_at: '2026-05-24T08:02:10.056844Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a93cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198060f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a93cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198060f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:05.639064Z'
-indexed_at: '2026-05-17T08:28:05.639070Z'
+  fetched_at: '2026-05-24T08:43:19.144426Z'
+indexed_at: '2026-05-24T08:43:19.144432Z'
 ---

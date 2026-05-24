@@ -6,28 +6,28 @@ description: See `references/EXAMPLE.md` for a completed example.
 prompt_preview: "---\nname: deliver-prd\ndescription: Creates a comprehensive Product\
   \ Requirements Document that aligns stakeholders on what to build, why, and how\
   \ success will be measured. Use when specifying features, epics, or product initiatives\
-  \ for engineering handoff.\nphase: deliver\nversion: \"2.0.0\"\nupdated: 2026-01-26\n\
-  license: Apache-2.0\nmetadata:\n  category: specification\n  frameworks: [triple-diamond,\
-  \ lean-startup, design-thinking]\n  author: product-on-purpose\n---\n<!-- PM-Skills\
-  \ | https://github.com/produ..."
-full_prompt_length: 3562
+  \ for engineering handoff.\nlicense: Apache-2.0\nmetadata:\n  phase: deliver\n \
+  \ version: \"2.0.0\"\n  updated: 2026-01-26\n  category: specification\n  frameworks:\
+  \ [triple-diamond, lean-startup, design-thinking]\n  author: product-on-purpose\n\
+  ---\n<!-- PM-Skills | https://github.com..."
+full_prompt_length: 3568
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/deliver-prd/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/deliver-prd/SKILL.md
-fetched_at: '2026-05-17T05:49:09.274464+00:00'
+fetched_at: '2026-05-24T06:01:54.085395+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:05:32.582252Z'
+  evaluated_at: '2026-05-24T08:19:43.122185Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c06570 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319669580 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c06570 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319669580 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.016059Z'
-indexed_at: '2026-05-17T08:28:06.016065Z'
+  fetched_at: '2026-05-24T08:43:19.506022Z'
+indexed_at: '2026-05-24T08:43:19.506028Z'
 ---

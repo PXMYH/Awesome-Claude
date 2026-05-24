@@ -7,27 +7,27 @@ prompt_preview: "---\nname: develop-design-rationale\ndescription: Documents the
   \ behind design decisions including alternatives considered, trade-offs evaluated,\
   \ and principles applied. Use when making significant UX decisions, aligning with\
   \ stakeholders on design direction, or preserving design context for future reference.\n\
-  phase: develop\nversion: \"2.0.0\"\nupdated: 2026-01-26\nlicense: Apache-2.0\nmetadata:\n\
-  \  category: specification\n  frameworks: [triple-diamond, lean-startup, design-thinking]\n\
-  \  author: pr..."
-full_prompt_length: 3369
+  license: Apache-2.0\nmetadata:\n  phase: develop\n  version: \"2.0.0\"\n  updated:\
+  \ 2026-01-26\n  category: specification\n  frameworks: [triple-diamond, lean-startup,\
+  \ design-thinking]\n  auth..."
+full_prompt_length: 3375
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/develop-design-rationale/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/develop-design-rationale/SKILL.md
-fetched_at: '2026-05-17T05:49:09.844673+00:00'
+fetched_at: '2026-05-24T06:01:54.566399+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:06:04.972099Z'
+  evaluated_at: '2026-05-24T08:20:16.287993Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a900e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198067b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a900e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198067b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.027570Z'
-indexed_at: '2026-05-17T08:28:06.027576Z'
+  fetched_at: '2026-05-24T08:43:19.517122Z'
+indexed_at: '2026-05-24T08:43:19.517128Z'
 ---

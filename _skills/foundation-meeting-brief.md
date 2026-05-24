@@ -14,8 +14,8 @@ prompt_preview: '---
   this artifact is not shared with attendees; it is the user''s personal tactical
   prep for meetings where positioning matters.
 
-  class...'
-full_prompt_length: 7545
+  licen...'
+full_prompt_length: 7551
 tools_mentioned:
 - go
 category: community
@@ -23,17 +23,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/foundation-meeting-brief/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/foundation-meeting-brief/SKILL.md
-fetched_at: '2026-05-17T05:49:10.960330+00:00'
+fetched_at: '2026-05-24T06:01:55.872616+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:07:09.866144Z'
+  evaluated_at: '2026-05-24T08:21:37.814183Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b5ba70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198390d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b5ba70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198390d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.050998Z'
-indexed_at: '2026-05-17T08:28:06.051004Z'
+  fetched_at: '2026-05-24T08:43:19.545164Z'
+indexed_at: '2026-05-24T08:43:19.545169Z'
 ---

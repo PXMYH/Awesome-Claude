@@ -1,0 +1,45 @@
+---
+id: utility-pm-release-conductor
+slug: utility-pm-release-conductor
+name: PM Release Conductor (Dispatch Skill)
+description: '- Canonical sub-agent definition: [`agents/pm-release-conductor.md`](../../agents/pm-release-conductor.md)'
+prompt_preview: '---
+
+  name: utility-pm-release-conductor
+
+  description: Walk the guided release runbook (6 gates G0/G1/G2/G2.5/G3/G4) via the
+  pm-release-conductor sub-agent. Dispatches natively on Claude Code with the pm-skills
+  plugin (invokes @agent-pm-release-conductor with native chain composition to pm-skill-auditor
+  at G0 and pm-changelog-curator at G2); on non-Claude clients (Codex CLI, Cursor,
+  Windsurf, Copilot, Gemini CLI) reads agents/pm-release-conductor.md and inlines
+  auditor + curator behaviors at G0 + G...'
+full_prompt_length: 6823
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: product-on-purpose/pm-skills
+source_path: skills/utility-pm-release-conductor/SKILL.md
+source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/utility-pm-release-conductor/SKILL.md
+fetched_at: '2026-05-24T06:02:00.237086+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-05-24T08:26:13.965062Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319691040 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319691040 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-05-24T08:43:19.645336Z'
+indexed_at: '2026-05-24T08:43:19.645341Z'
+---

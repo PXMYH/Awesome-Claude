@@ -12,24 +12,24 @@ prompt_preview: "---\r\nname: create-2d-composition\r\ndescription: >\r\n  Compo
   \ parameter variations.\r\nlicense: MIT\r\nal..."
 full_prompt_length: 15236
 tools_mentioned:
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-2d-composition/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-2d-composition/SKILL.md
-fetched_at: '2026-05-17T05:48:27.004030+00:00'
+fetched_at: '2026-05-24T06:01:13.266530+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T07:27:24.678848Z'
+  evaluated_at: '2026-05-24T07:41:13.966270Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a903b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319692000 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a903b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319692000 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:05.186613Z'
-indexed_at: '2026-05-17T08:28:05.186619Z'
+  fetched_at: '2026-05-24T08:43:18.710899Z'
+indexed_at: '2026-05-24T08:43:18.710904Z'
 ---

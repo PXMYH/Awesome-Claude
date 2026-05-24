@@ -12,24 +12,24 @@ prompt_preview: "---\nname: pymoo\ndescription: Multi-objective optimization fra
   \ optimization using sta..."
 full_prompt_length: 16747
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pymoo/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pymoo/SKILL.md
-fetched_at: '2026-05-17T05:46:34.053334+00:00'
+fetched_at: '2026-05-24T05:59:29.955738+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T06:04:54.403030Z'
+  evaluated_at: '2026-05-24T06:17:55.073207Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a66d50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319dd8470 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a66d50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319dd8470 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:03.368826Z'
-indexed_at: '2026-05-17T08:28:03.368832Z'
+  fetched_at: '2026-05-24T08:43:16.976835Z'
+indexed_at: '2026-05-24T08:43:16.976841Z'
 ---

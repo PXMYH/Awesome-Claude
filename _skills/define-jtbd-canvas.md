@@ -6,11 +6,11 @@ description: See `references/EXAMPLE.md` for a completed example.
 prompt_preview: "---\nname: define-jtbd-canvas\ndescription: Creates a Jobs to be\
   \ Done canvas capturing the functional, emotional, and social dimensions of a customer\
   \ job. Use when deeply understanding customer motivations, designing for jobs, or\
-  \ reframing product positioning.\nphase: define\nversion: \"2.0.0\"\nupdated: 2026-01-26\n\
-  license: Apache-2.0\nmetadata:\n  category: problem-framing\n  frameworks: [triple-diamond,\
-  \ lean-startup, design-thinking]\n  author: product-on-purpose\n---\n<!-- PM-Skills\
-  \ | https://github.com/p..."
-full_prompt_length: 3485
+  \ reframing product positioning.\nlicense: Apache-2.0\nmetadata:\n  phase: define\n\
+  \  version: \"2.0.0\"\n  updated: 2026-01-26\n  category: problem-framing\n  frameworks:\
+  \ [triple-diamond, lean-startup, design-thinking]\n  author: product-on-purpose\n\
+  ---\n<!-- PM-Skills | https://github..."
+full_prompt_length: 3491
 tools_mentioned:
 - Go
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/define-jtbd-canvas/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/define-jtbd-canvas/SKILL.md
-fetched_at: '2026-05-17T05:49:08.425105+00:00'
+fetched_at: '2026-05-24T06:01:53.241398+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:04:43.612453Z'
+  evaluated_at: '2026-05-24T08:18:46.236988Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a930e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966bad0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a930e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966bad0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:05.998536Z'
-indexed_at: '2026-05-17T08:28:05.998542Z'
+  fetched_at: '2026-05-24T08:43:19.486642Z'
+indexed_at: '2026-05-24T08:43:19.486648Z'
 ---

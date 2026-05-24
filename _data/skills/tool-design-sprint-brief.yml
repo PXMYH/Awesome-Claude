@@ -4,24 +4,14 @@ name: Design Sprint Brief
 description: This skill ends with a Decider Checkpoint in `references/TEMPLATE.md`.
   The Decider signs off on scope (the challenge and sprint questions), team (the roster
   and attendance windows), recruiting plan (t...
-prompt_preview: '---
-
-  name: tool-design-sprint-brief
-
-  description: Pre-sprint brief that locks challenge, sprint questions, team and role
-  assignments, customer recruiting plan, prototype medium, interview format, logistics,
-  and success criteria before Monday of a Design Sprint. Use after the readiness verdict
-  is Go and before Monday begins. Produces a two-page artifact the team and Decider
-  sign off on as the contract for the next five days.
-
-  classification: tool
-
-  version: "0.1.0"
-
-  updated: 2026-05-15
-
-  license: Apache-...'
-full_prompt_length: 10465
+prompt_preview: "---\nname: tool-design-sprint-brief\ndescription: Pre-sprint brief\
+  \ that locks challenge, sprint questions, team and role assignments, customer recruiting\
+  \ plan, prototype medium, interview format, logistics, and success criteria before\
+  \ Monday of a Design Sprint. Use after the readiness verdict is Go and before Monday\
+  \ begins. Produces a two-page artifact the team and Decider sign off on as the contract\
+  \ for the next five days.\nlicense: Apache-2.0\nmetadata:\n  classification: tool\n\
+  \  version: \"0.1.0\"..."
+full_prompt_length: 10471
 tools_mentioned:
 - go
 - Go
@@ -30,17 +20,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/tool-design-sprint-brief/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/tool-design-sprint-brief/SKILL.md
-fetched_at: '2026-05-17T05:49:13.380989+00:00'
+fetched_at: '2026-05-24T06:01:57.774320+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:09:12.128420Z'
+  evaluated_at: '2026-05-24T08:23:47.786940Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c35220 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966b080 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c35220 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966b080 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.095054Z'
-indexed_at: '2026-05-17T08:28:06.095060Z'
+  fetched_at: '2026-05-24T08:43:19.589506Z'
+indexed_at: '2026-05-24T08:43:19.589511Z'

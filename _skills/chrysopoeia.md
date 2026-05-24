@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/chrysopoeia/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/chrysopoeia/SKILL.md
-fetched_at: '2026-05-17T05:48:23.166413+00:00'
+fetched_at: '2026-05-24T06:01:09.659023+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T07:23:52.370324Z'
+  evaluated_at: '2026-05-24T07:37:41.709461Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a64a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198077a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a64a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198077a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:05.109823Z'
-indexed_at: '2026-05-17T08:28:05.109829Z'
+  fetched_at: '2026-05-24T08:43:18.637119Z'
+indexed_at: '2026-05-24T08:43:18.637125Z'
 ---

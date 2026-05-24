@@ -4,29 +4,29 @@ name: Spike Summary
 description: See `references/EXAMPLE.md` for a completed example.
 prompt_preview: "---\nname: develop-spike-summary\ndescription: Documents the results\
   \ of a time-boxed technical or design exploration (spike). Use after completing\
-  \ a spike to capture learnings, findings, and recommendations for the team.\nphase:\
-  \ develop\nversion: \"2.0.0\"\nupdated: 2026-01-26\nlicense: Apache-2.0\nmetadata:\n\
+  \ a spike to capture learnings, findings, and recommendations for the team.\nlicense:\
+  \ Apache-2.0\nmetadata:\n  phase: develop\n  version: \"2.0.0\"\n  updated: 2026-01-26\n\
   \  category: coordination\n  frameworks: [triple-diamond, lean-startup, design-thinking]\n\
   \  author: product-on-purpose\n---\n<!-- PM-Skills | https://github.com/product-on-purpose/pm-skills\
-  \ | Apache 2.0 -..."
-full_prompt_length: 3175
+  \ | Apache..."
+full_prompt_length: 3181
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/develop-spike-summary/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/develop-spike-summary/SKILL.md
-fetched_at: '2026-05-17T05:49:10.111834+00:00'
+fetched_at: '2026-05-24T06:01:54.816946+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:06:21.193366Z'
+  evaluated_at: '2026-05-24T08:20:32.608232Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b598b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983ae40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b598b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983ae40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.033334Z'
-indexed_at: '2026-05-17T08:28:06.033340Z'
+  fetched_at: '2026-05-24T08:43:19.522742Z'
+indexed_at: '2026-05-24T08:43:19.522748Z'

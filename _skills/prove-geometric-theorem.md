@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/prove-geometric-theorem/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/prove-geometric-theorem/SKILL.md
-fetched_at: '2026-05-17T05:48:51.899849+00:00'
+fetched_at: '2026-05-24T06:01:36.788322+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T07:49:58.745048Z'
+  evaluated_at: '2026-05-24T08:03:56.310237Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c36900 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983bbf0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c36900 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983bbf0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:05.677063Z'
-indexed_at: '2026-05-17T08:28:05.677069Z'
+  fetched_at: '2026-05-24T08:43:19.180962Z'
+indexed_at: '2026-05-24T08:43:19.180967Z'
 ---

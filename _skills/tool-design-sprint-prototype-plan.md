@@ -15,7 +15,7 @@ prompt_preview: '---
   allocation per role), canonical Five-Act Interview script (Welcome, Context, Intro,
   Tasks, Debrief), trial-run checklist, and Friday participant confirmation tracker.
   The actual prototype build is craft work...'
-full_prompt_length: 9738
+full_prompt_length: 9744
 tools_mentioned:
 - rest
 category: community
@@ -23,17 +23,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/tool-design-sprint-prototype-plan/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/tool-design-sprint-prototype-plan/SKILL.md
-fetched_at: '2026-05-17T05:49:13.781191+00:00'
+fetched_at: '2026-05-24T06:01:58.171132+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:09:36.373434Z'
+  evaluated_at: '2026-05-24T08:24:12.140639Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c36900 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319692480 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c36900 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319692480 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.104097Z'
-indexed_at: '2026-05-17T08:28:06.104102Z'
+  fetched_at: '2026-05-24T08:43:19.598292Z'
+indexed_at: '2026-05-24T08:43:19.598298Z'
 ---

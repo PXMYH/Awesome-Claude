@@ -5,28 +5,28 @@ description: See `references/EXAMPLE.md` for a completed example.
 prompt_preview: "---\nname: iterate-refinement-notes\ndescription: Documents backlog\
   \ refinement session outcomes including stories refined, estimates, questions raised,\
   \ and decisions made. Use during or after refinement to capture the results and\
-  \ share with absent team members.\nphase: iterate\nversion: \"2.0.0\"\nupdated:\
-  \ 2026-01-26\nlicense: Apache-2.0\nmetadata:\n  category: coordination\n  frameworks:\
+  \ share with absent team members.\nlicense: Apache-2.0\nmetadata:\n  phase: iterate\n\
+  \  version: \"2.0.0\"\n  updated: 2026-01-26\n  category: coordination\n  frameworks:\
   \ [triple-diamond, lean-startup, design-thinking]\n  author: product-on-purpose\n\
-  ---\n<!-- PM-Skills | https://github.com/pr..."
-full_prompt_length: 2804
+  ---\n<!-- PM-Skills | https://github...."
+full_prompt_length: 2810
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/iterate-refinement-notes/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/iterate-refinement-notes/SKILL.md
-fetched_at: '2026-05-17T05:49:12.290824+00:00'
+fetched_at: '2026-05-24T06:01:56.773302+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:08:14.692552Z'
+  evaluated_at: '2026-05-24T08:22:42.775864Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c05ca0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198381d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c05ca0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198381d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.074460Z'
-indexed_at: '2026-05-17T08:28:06.074466Z'
+  fetched_at: '2026-05-24T08:43:19.567458Z'
+indexed_at: '2026-05-24T08:43:19.567465Z'

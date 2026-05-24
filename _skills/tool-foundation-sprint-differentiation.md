@@ -15,27 +15,27 @@ prompt_preview: '---
   alternatives on a 2x2 chart, writing decision principles, and producing a one-page
   Mini Manifesto. Use after Basics is signed; before Approach Options the next morning.
 
-  classification: tool
+  license: Apache-2.0
 
-  version: "...'
-full_prompt_length: 8822
+  metadata:...'
+full_prompt_length: 8828
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/tool-foundation-sprint-differentiation/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/tool-foundation-sprint-differentiation/SKILL.md
-fetched_at: '2026-05-17T05:49:14.755406+00:00'
+fetched_at: '2026-05-24T06:01:59.160983+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:10:33.002980Z'
+  evaluated_at: '2026-05-24T08:25:08.964056Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b588f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319805e50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b588f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319805e50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.125019Z'
-indexed_at: '2026-05-17T08:28:06.125025Z'
+  fetched_at: '2026-05-24T08:43:19.618747Z'
+indexed_at: '2026-05-24T08:43:19.618753Z'
 ---

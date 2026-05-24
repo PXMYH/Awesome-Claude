@@ -14,24 +14,24 @@ prompt_preview: "---\nname: histolab\ndescription: Lightweight WSI tile extracti
   \ a Python library for processing whol..."
 full_prompt_length: 20152
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/histolab/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/histolab/SKILL.md
-fetched_at: '2026-05-17T05:46:27.027066+00:00'
+fetched_at: '2026-05-24T05:59:24.082985+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T05:58:09.489418Z'
+  evaluated_at: '2026-05-24T06:11:00.348537Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c35040 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319f87920 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c35040 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319f87920 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:03.214666Z'
-indexed_at: '2026-05-17T08:28:03.214673Z'
+  fetched_at: '2026-05-24T08:43:16.829827Z'
+indexed_at: '2026-05-24T08:43:16.829833Z'
 ---

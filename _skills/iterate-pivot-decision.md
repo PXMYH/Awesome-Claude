@@ -6,28 +6,28 @@ description: See `references/EXAMPLE.md` for a completed example.
 prompt_preview: "---\nname: iterate-pivot-decision\ndescription: Documents a strategic\
   \ pivot or persevere decision with the evidence, analysis, and rationale. Use when\
   \ evaluating whether to change direction on a product, feature, or strategy based\
-  \ on market feedback.\nphase: iterate\nversion: \"2.0.0\"\nupdated: 2026-01-26\n\
-  license: Apache-2.0\nmetadata:\n  category: reflection\n  frameworks: [triple-diamond,\
+  \ on market feedback.\nlicense: Apache-2.0\nmetadata:\n  phase: iterate\n  version:\
+  \ \"2.0.0\"\n  updated: 2026-01-26\n  category: reflection\n  frameworks: [triple-diamond,\
   \ lean-startup, design-thinking]\n  author: product-on-purpose\n---\n<!-- PM-Skills\
-  \ | https://github.com/product-on-purp..."
-full_prompt_length: 3083
+  \ | https://github.com/product-o..."
+full_prompt_length: 3089
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/iterate-pivot-decision/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/iterate-pivot-decision/SKILL.md
-fetched_at: '2026-05-17T05:49:12.071574+00:00'
+fetched_at: '2026-05-24T06:01:56.684268+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:08:06.597197Z'
+  evaluated_at: '2026-05-24T08:22:34.658555Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07440 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198079b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07440 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198079b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.071567Z'
-indexed_at: '2026-05-17T08:28:06.071573Z'
+  fetched_at: '2026-05-24T08:43:19.564685Z'
+indexed_at: '2026-05-24T08:43:19.564691Z'
 ---

@@ -21,17 +21,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/standardize-geo-values/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/standardize-geo-values/SKILL.md
-fetched_at: '2026-05-17T05:46:47.907245+00:00'
+fetched_at: '2026-05-24T05:59:42.107962+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T06:16:06.876654Z'
+  evaluated_at: '2026-05-24T06:29:12.054349Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c067b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731a5dd0a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c067b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731a5dd0a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:03.621488Z'
-indexed_at: '2026-05-17T08:28:03.621493Z'
+  fetched_at: '2026-05-24T08:43:17.217566Z'
+indexed_at: '2026-05-24T08:43:17.217571Z'
 ---

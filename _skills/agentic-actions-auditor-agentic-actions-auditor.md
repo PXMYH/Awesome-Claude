@@ -16,24 +16,24 @@ prompt_preview: '---
   Use when reviewing workflow files that invoke AI c...'
 full_prompt_length: 21526
 tools_mentioned:
-- python
 - ruby
+- python
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/agentic-actions-auditor/skills/agentic-actions-auditor/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/agentic-actions-auditor/skills/agentic-actions-auditor/SKILL.md
-fetched_at: '2026-05-17T05:49:25.208567+00:00'
+fetched_at: '2026-05-24T06:02:09.442217+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:15:33.801508Z'
+  evaluated_at: '2026-05-24T08:30:42.691024Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a91aaf90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73199cb9b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a91aaf90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73199cb9b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.233999Z'
-indexed_at: '2026-05-17T08:28:06.234005Z'
+  fetched_at: '2026-05-24T08:43:19.736374Z'
+indexed_at: '2026-05-24T08:43:19.736379Z'
 ---

@@ -6,11 +6,11 @@ description: See `references/EXAMPLE.md` for a completed example.
 prompt_preview: "---\nname: measure-experiment-design\ndescription: Designs an A/B\
   \ test or experiment with clear hypothesis, variants, success metrics, sample size,\
   \ and duration. Use when planning experiments to validate product changes or test\
-  \ hypotheses.\nphase: measure\nversion: \"2.0.0\"\nupdated: 2026-01-26\nlicense:\
-  \ Apache-2.0\nmetadata:\n  category: validation\n  frameworks: [triple-diamond,\
+  \ hypotheses.\nlicense: Apache-2.0\nmetadata:\n  phase: measure\n  version: \"2.0.0\"\
+  \n  updated: 2026-01-26\n  category: validation\n  frameworks: [triple-diamond,\
   \ lean-startup, design-thinking]\n  author: product-on-purpose\n---\n<!-- PM-Skills\
-  \ | https://github.com/product-on-purpose/pm-skil..."
-full_prompt_length: 3557
+  \ | https://github.com/product-on-purpose/p..."
+full_prompt_length: 3563
 tools_mentioned:
 - go
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/measure-experiment-design/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/measure-experiment-design/SKILL.md
-fetched_at: '2026-05-17T05:49:12.798819+00:00'
+fetched_at: '2026-05-24T06:01:57.098222+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:08:39.757730Z'
+  evaluated_at: '2026-05-24T08:23:07.151069Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b58aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319668140 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b58aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319668140 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.083254Z'
-indexed_at: '2026-05-17T08:28:06.083261Z'
+  fetched_at: '2026-05-24T08:43:19.575719Z'
+indexed_at: '2026-05-24T08:43:19.575724Z'
 ---

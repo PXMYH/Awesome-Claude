@@ -12,24 +12,24 @@ prompt_preview: "---\nname: scikit-bio\ndescription: Biological data toolkit. Se
   \ alignment, phylog..."
 full_prompt_length: 14715
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/scikit-bio/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scikit-bio/SKILL.md
-fetched_at: '2026-05-17T05:46:36.579534+00:00'
+fetched_at: '2026-05-24T05:59:32.231046+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T06:07:36.310417Z'
+  evaluated_at: '2026-05-24T06:20:37.594237Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07c20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319668c20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07c20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319668c20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:03.428550Z'
-indexed_at: '2026-05-17T08:28:03.428555Z'
+  fetched_at: '2026-05-24T08:43:17.033980Z'
+indexed_at: '2026-05-24T08:43:17.033986Z'
 ---

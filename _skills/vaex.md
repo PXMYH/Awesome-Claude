@@ -15,24 +15,24 @@ prompt_preview: '---
   visualizations of big data, or build ML pipelines that do not fit in memor...'
 full_prompt_length: 6596
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/vaex/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/vaex/SKILL.md
-fetched_at: '2026-05-17T05:46:39.118497+00:00'
+fetched_at: '2026-05-24T05:59:34.646159+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T06:10:18.581757Z'
+  evaluated_at: '2026-05-24T06:23:21.605146Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a64350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319805e50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a64350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319805e50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:03.490616Z'
-indexed_at: '2026-05-17T08:28:03.490622Z'
+  fetched_at: '2026-05-24T08:43:17.095006Z'
+indexed_at: '2026-05-24T08:43:17.095012Z'
 ---

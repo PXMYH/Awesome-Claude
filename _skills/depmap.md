@@ -12,24 +12,24 @@ prompt_preview: "---\nname: depmap\ndescription: Query the Cancer Dependency Map
   \ by the Broad Institute, systematic..."
 full_prompt_length: 11255
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/depmap/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/depmap/SKILL.md
-fetched_at: '2026-05-17T05:46:24.461932+00:00'
+fetched_at: '2026-05-24T05:59:21.769516+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T05:55:27.244502Z'
+  evaluated_at: '2026-05-24T06:08:17.783861Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c35b20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319c243e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c35b20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319c243e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:03.146654Z'
-indexed_at: '2026-05-17T08:28:03.146660Z'
+  fetched_at: '2026-05-24T08:43:16.772720Z'
+indexed_at: '2026-05-24T08:43:16.772725Z'
 ---

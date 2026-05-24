@@ -12,24 +12,24 @@ prompt_preview: "---\r\nname: identify-gemstone\r\ndescription: >\r\n  Identify 
   \ structured observation, or identifying\r\n  rough m..."
 full_prompt_length: 16959
 tools_mentioned:
-- Ruby
 - angular
+- Ruby
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/identify-gemstone/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/identify-gemstone/SKILL.md
-fetched_at: '2026-05-17T05:48:40.191945+00:00'
+fetched_at: '2026-05-24T06:01:25.801040+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T07:39:26.266643Z'
+  evaluated_at: '2026-05-24T07:53:20.721532Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c067e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319807b00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c067e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319807b00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:05.447499Z'
-indexed_at: '2026-05-17T08:28:05.447505Z'
+  fetched_at: '2026-05-24T08:43:18.959503Z'
+indexed_at: '2026-05-24T08:43:18.959509Z'
 ---

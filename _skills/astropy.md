@@ -15,26 +15,26 @@ prompt_preview: '---
   distance calculations, time scale conversions, or astronomical dat...'
 full_prompt_length: 11534
 tools_mentioned:
-- Python
-- python
 - angular
+- python
+- Python
 - Angular
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/astropy/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/astropy/SKILL.md
-fetched_at: '2026-05-17T05:46:22.084979+00:00'
+fetched_at: '2026-05-24T05:59:19.565852+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T05:53:01.485061Z'
+  evaluated_at: '2026-05-24T06:05:43.044894Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07470 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319805ca0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07470 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319805ca0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:03.091554Z'
-indexed_at: '2026-05-17T08:28:03.091561Z'
+  fetched_at: '2026-05-24T08:43:16.718661Z'
+indexed_at: '2026-05-24T08:43:16.718667Z'
 ---

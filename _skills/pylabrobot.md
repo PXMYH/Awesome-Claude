@@ -13,24 +13,24 @@ prompt_preview: "---\nname: pylabrobot\ndescription: Vendor-agnostic lab automat
   \ Overview\n\nPyLabRobot is a hardware-agno..."
 full_prompt_length: 8194
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pylabrobot/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pylabrobot/SKILL.md
-fetched_at: '2026-05-17T05:46:33.666701+00:00'
+fetched_at: '2026-05-24T05:59:29.584205+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T06:04:30.062484Z'
+  evaluated_at: '2026-05-24T06:17:30.672745Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a93f7cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966ba10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a93f7cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966ba10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:03.359942Z'
-indexed_at: '2026-05-17T08:28:03.359948Z'
+  fetched_at: '2026-05-24T08:43:16.968310Z'
+indexed_at: '2026-05-24T08:43:16.968316Z'
 ---

@@ -12,28 +12,28 @@ prompt_preview: "---\nname: jules\ndescription: \"Delegate coding tasks to Googl
 full_prompt_length: 8469
 tools_mentioned:
 - java
+- Go
+- FastAPI
+- React
 - TypeScript
 - Python
 - go
-- FastAPI
-- React
-- Go
 category: community
 category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/jules/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/jules/SKILL.md
-fetched_at: '2026-05-17T05:49:21.326052+00:00'
+fetched_at: '2026-05-24T06:02:05.627418+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:14:20.599393Z'
+  evaluated_at: '2026-05-24T08:29:29.365078Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b592e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731955eb10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b592e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731955eb10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,5 +43,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.207483Z'
-indexed_at: '2026-05-17T08:28:06.207488Z'
+  fetched_at: '2026-05-24T08:43:19.711524Z'
+indexed_at: '2026-05-24T08:43:19.711530Z'

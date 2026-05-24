@@ -18,17 +18,17 @@ category_display: Community
 source_repo: EmblemCompany/Agent-skills
 source_path: skills/emblem-market-research/SKILL.md
 source_url: https://github.com/EmblemCompany/Agent-skills/blob/main/skills/emblem-market-research/SKILL.md
-fetched_at: '2026-05-17T05:46:20.300882+00:00'
+fetched_at: '2026-05-24T05:59:17.940218+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T05:51:56.746711Z'
+  evaluated_at: '2026-05-24T06:04:37.248584Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07a10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319838dd0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07a10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319838dd0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:03.066712Z'
-indexed_at: '2026-05-17T08:28:03.066718Z'
+  fetched_at: '2026-05-24T08:43:16.695923Z'
+indexed_at: '2026-05-24T08:43:16.695929Z'
 ---

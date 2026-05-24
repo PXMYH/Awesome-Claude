@@ -12,24 +12,24 @@ prompt_preview: "---\nname: deepchem\ndescription: Molecular ML with diverse fea
   \n## Overvi..."
 full_prompt_length: 17672
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/deepchem/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/deepchem/SKILL.md
-fetched_at: '2026-05-17T05:46:24.109342+00:00'
+fetched_at: '2026-05-24T05:59:21.553739+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T05:55:11.013246Z'
+  evaluated_at: '2026-05-24T06:08:01.504771Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07740 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319806e70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07740 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319806e70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:03.140495Z'
-indexed_at: '2026-05-17T08:28:03.140504Z'
+  fetched_at: '2026-05-24T08:43:16.767022Z'
+indexed_at: '2026-05-24T08:43:16.767027Z'
 ---

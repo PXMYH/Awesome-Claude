@@ -6,27 +6,27 @@ prompt_preview: "---\nname: utility-pm-skill-iterate\ndescription: Applies targe
   \ improvements to an existing pm-skills skill based on feedback, validation reports,\
   \ or convention changes. Reads current files, previews proposed changes, writes\
   \ on confirmation, and suggests a version bump. Use when improving a skill after\
-  \ validation or feedback.\nclassification: utility\nversion: \"1.0.0\"\nupdated:\
-  \ 2026-04-03\nlicense: Apache-2.0\nmetadata:\n  category: coordination\n  frameworks:\
-  \ [triple-diamond]\n  author: product-on-pur..."
-full_prompt_length: 12315
+  \ validation or feedback.\nlicense: Apache-2.0\nmetadata:\n  classification: utility\n\
+  \  version: \"1.0.0\"\n  updated: 2026-04-03\n  category: coordination\n  frameworks:\
+  \ [triple-diamond]\n  author: product-..."
+full_prompt_length: 12321
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/utility-pm-skill-iterate/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/utility-pm-skill-iterate/SKILL.md
-fetched_at: '2026-05-17T05:49:15.809618+00:00'
+fetched_at: '2026-05-24T06:02:00.604128+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:11:30.053463Z'
+  evaluated_at: '2026-05-24T08:26:38.639000Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07d70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983a570 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07d70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983a570 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.145756Z'
-indexed_at: '2026-05-17T08:28:06.145762Z'
+  fetched_at: '2026-05-24T08:43:19.653696Z'
+indexed_at: '2026-05-24T08:43:19.653702Z'

@@ -1,9 +1,9 @@
 id: clickup-cli
 slug: clickup-cli
-name: ClickUp CLI (`cup`) - skill version 1.28.0
-description: 'IMPORTANT: Always confirm with the user before running `cup delete`.
-  This is a destructive, irreversible operation. Even when using `--confirm` flag,
-  verify the task ID is correct with the user first.'
+name: ClickUp CLI (`cup`) - skill version 1.30.1
+description: 'IMPORTANT: Always confirm with the user before running `cup delete`,
+  `cup list-delete`, `cup folder-delete`, `cup space-delete`, `cup merge`, or `cup
+  webhook delete`. These are destructive, irreversib...'
 prompt_preview: '---
 
   name: clickup
@@ -14,7 +14,7 @@ prompt_preview: '---
   overdue items, assigning tasks, listing spaces and lists, opening tasks in browser,
   checking auth or config, setting custom fields, deleting tasks, managing tags, managing
   checklists, editing comments, task links, time tracking, atta...'
-full_prompt_length: 64431
+full_prompt_length: 70610
 tools_mentioned:
 - react
 - Node.js
@@ -23,17 +23,17 @@ category_display: Community
 source_repo: krodak/clickup-cli
 source_path: skills/clickup-cli/SKILL.md
 source_url: https://github.com/krodak/clickup-cli/blob/main/skills/clickup-cli/SKILL.md
-fetched_at: '2026-05-17T05:48:06.713355+00:00'
+fetched_at: '2026-05-24T06:00:54.067861+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T07:13:11.421033Z'
+  evaluated_at: '2026-05-24T07:26:58.265751Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a674d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966a930 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a674d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966a930 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,5 +43,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:04.879216Z'
-indexed_at: '2026-05-17T08:28:04.879222Z'
+  fetched_at: '2026-05-24T08:43:18.416469Z'
+indexed_at: '2026-05-24T08:43:18.416475Z'

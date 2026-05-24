@@ -14,24 +14,24 @@ prompt_preview: "---\nname: rotate-scraping-proxies\ndescription: >\n  Escalate 
 full_prompt_length: 12768
 tools_mentioned:
 - graphql
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/rotate-scraping-proxies/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/rotate-scraping-proxies/SKILL.md
-fetched_at: '2026-05-17T05:48:56.546341+00:00'
+fetched_at: '2026-05-24T06:01:41.387333+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T07:54:19.386668Z'
+  evaluated_at: '2026-05-24T08:08:17.472203Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07f20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319806d80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07f20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319806d80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:05.771132Z'
-indexed_at: '2026-05-17T08:28:05.771137Z'
+  fetched_at: '2026-05-24T08:43:19.271537Z'
+indexed_at: '2026-05-24T08:43:19.271542Z'
 ---

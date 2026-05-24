@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/shiva-bhaga/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/shiva-bhaga/SKILL.md
-fetched_at: '2026-05-17T05:49:00.812027+00:00'
+fetched_at: '2026-05-24T06:01:45.696250+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T07:58:30.581307Z'
+  evaluated_at: '2026-05-24T08:12:31.059364Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a919d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319693650 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a919d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319693650 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:05.863063Z'
-indexed_at: '2026-05-17T08:28:05.863069Z'
+  fetched_at: '2026-05-24T08:43:19.359057Z'
+indexed_at: '2026-05-24T08:43:19.359063Z'
 ---

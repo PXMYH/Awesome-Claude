@@ -12,26 +12,26 @@ prompt_preview: "---\nname: power-user-cultivation\ndescription: When the user w
   \ you identify your most engaged developers and turn the..."
 full_prompt_length: 16963
 tools_mentioned:
-- GCP
 - docker
 - Docker
 - AWS
+- GCP
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/power-user-cultivation/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/power-user-cultivation/SKILL.md
-fetched_at: '2026-05-17T05:48:04.794420+00:00'
+fetched_at: '2026-05-24T06:00:52.378823+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T07:12:14.724862Z'
+  evaluated_at: '2026-05-24T07:26:01.343154Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a64770 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966ab40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8a64770 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966ab40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:04.857506Z'
-indexed_at: '2026-05-17T08:28:04.857511Z'
+  fetched_at: '2026-05-24T08:43:18.395902Z'
+indexed_at: '2026-05-24T08:43:18.395908Z'
 ---

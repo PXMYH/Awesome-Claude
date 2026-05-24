@@ -5,30 +5,30 @@ description: See `references/EXAMPLE.md` for a completed example.
 prompt_preview: "---\nname: develop-adr\ndescription: Creates an Architecture Decision\
   \ Record following the Nygard format to document significant technical decisions,\
   \ their context, and consequences. Use when making technical choices that affect\
-  \ system architecture, technology selection, or development patterns.\nphase: develop\n\
-  version: \"2.0.0\"\nupdated: 2026-01-26\nlicense: Apache-2.0\nmetadata:\n  category:\
-  \ specification\n  frameworks: [triple-diamond, lean-startup, design-thinking]\n\
-  \  author: product-on-purpose\n---\n<!..."
-full_prompt_length: 3094
+  \ system architecture, technology selection, or development patterns.\nlicense:\
+  \ Apache-2.0\nmetadata:\n  phase: develop\n  version: \"2.0.0\"\n  updated: 2026-01-26\n\
+  \  category: specification\n  frameworks: [triple-diamond, lean-startup, design-thinking]\n\
+  \  author: product-on-purpose..."
+full_prompt_length: 3100
 tools_mentioned:
-- React
 - PostgreSQL
+- React
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/develop-adr/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/develop-adr/SKILL.md
-fetched_at: '2026-05-17T05:49:09.705954+00:00'
+fetched_at: '2026-05-24T06:01:54.444711+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:05:56.866553Z'
+  evaluated_at: '2026-05-24T08:20:08.171087Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c06540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319807920 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c06540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319807920 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.024657Z'
-indexed_at: '2026-05-17T08:28:06.024663Z'
+  fetched_at: '2026-05-24T08:43:19.514291Z'
+indexed_at: '2026-05-24T08:43:19.514297Z'

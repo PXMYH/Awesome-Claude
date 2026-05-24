@@ -14,10 +14,10 @@ prompt_preview: '---
   Zoom, Meet, Otter, Fireflies, Krisp MCP, or manual notes; runs on variable-quality
   input without blocking.
 
-  classification: foundation
+  license: Apache-2.0
 
-  ver...'
-full_prompt_length: 8061
+  metadata:...'
+full_prompt_length: 8067
 tools_mentioned:
 - go
 category: community
@@ -25,17 +25,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/foundation-meeting-recap/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/foundation-meeting-recap/SKILL.md
-fetched_at: '2026-05-17T05:49:11.099478+00:00'
+fetched_at: '2026-05-24T06:01:55.990188+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:07:18.041716Z'
+  evaluated_at: '2026-05-24T08:21:45.933480Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b59c70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966baa0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b59c70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966baa0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.053932Z'
-indexed_at: '2026-05-17T08:28:06.053937Z'
+  fetched_at: '2026-05-24T08:43:19.547943Z'
+indexed_at: '2026-05-24T08:43:19.547949Z'
 ---

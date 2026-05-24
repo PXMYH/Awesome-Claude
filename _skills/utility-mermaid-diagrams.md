@@ -7,27 +7,27 @@ prompt_preview: "---\nname: utility-mermaid-diagrams\ndescription: Teaches PMs t
   \ create syntactically valid mermaid diagrams by selecting the right diagram type\
   \ for their communication need, following syntax validity rules, and validating\
   \ before shipping. Covers all 15 mermaid diagram types with PM-relevant examples\
-  \ and a dual-lens navigation system.\nversion: \"1.0.0\"\nupdated: 2026-04-07\n\
-  license: Apache-2.0\nclassification: utility\nmetadata:\n  category: documentation\n\
-  \  frameworks:\n    - mermaid\n  author: product-on..."
-full_prompt_length: 6262
+  \ and a dual-lens navigation system.\nlicense: Apache-2.0\nmetadata:\n  classification:\
+  \ utility\n  version: \"1.0.0\"\n  updated: 2026-04-07\n  category: documentation\n\
+  \  frameworks:\n    - mermaid\n  author: prod..."
+full_prompt_length: 6268
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/utility-mermaid-diagrams/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/utility-mermaid-diagrams/SKILL.md
-fetched_at: '2026-05-17T05:49:15.531387+00:00'
+fetched_at: '2026-05-24T06:01:59.839062+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:11:13.863421Z'
+  evaluated_at: '2026-05-24T08:25:49.613222Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b59ca0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73196695e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8b59ca0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73196695e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.139926Z'
-indexed_at: '2026-05-17T08:28:06.139931Z'
+  fetched_at: '2026-05-24T08:43:19.636343Z'
+indexed_at: '2026-05-24T08:43:19.636351Z'
 ---

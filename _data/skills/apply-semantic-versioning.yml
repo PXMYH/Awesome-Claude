@@ -11,25 +11,25 @@ prompt_preview: "---\r\nname: apply-semantic-versioning\r\ndescription: >\r\n  A
   \ adding pre-release identifiers,\r\n  or re..."
 full_prompt_length: 8926
 tools_mentioned:
-- Rust
-- Python
 - Node.js
+- Python
+- Rust
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/apply-semantic-versioning/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/apply-semantic-versioning/SKILL.md
-fetched_at: '2026-05-17T05:48:17.859849+00:00'
+fetched_at: '2026-05-24T06:01:04.599578+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T07:19:00.308611Z'
+  evaluated_at: '2026-05-24T07:32:48.441965Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8dcba40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983b860 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8dcba40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983b860 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:05.005342Z'
-indexed_at: '2026-05-17T08:28:05.005347Z'
+  fetched_at: '2026-05-24T08:43:18.537513Z'
+indexed_at: '2026-05-24T08:43:18.537519Z'

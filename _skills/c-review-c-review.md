@@ -25,25 +25,25 @@ prompt_preview: '---
 full_prompt_length: 24410
 tools_mentioned:
 - Java
-- Python
 - Rust
+- Python
 - Go
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/c-review/skills/c-review/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/c-review/skills/c-review/SKILL.md
-fetched_at: '2026-05-17T05:49:28.041124+00:00'
+fetched_at: '2026-05-24T06:02:12.039741+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T08:17:35.655690Z'
+  evaluated_at: '2026-05-24T08:32:46.016638Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8d65c40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731955e330 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8d65c40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731955e330 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:06.279327Z'
-indexed_at: '2026-05-17T08:28:06.279333Z'
+  fetched_at: '2026-05-24T08:43:19.779341Z'
+indexed_at: '2026-05-24T08:43:19.779348Z'
 ---

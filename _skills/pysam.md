@@ -12,24 +12,24 @@ prompt_preview: "---\nname: pysam\ndescription: Genomic file toolkit. Read/write
   \ interface to htslib. Qu..."
 full_prompt_length: 9983
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: scientific-skills/pysam/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pysam/SKILL.md
-fetched_at: '2026-05-17T05:46:34.300560+00:00'
+fetched_at: '2026-05-24T05:59:30.174150+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T06:05:10.586634Z'
+  evaluated_at: '2026-05-24T06:18:11.307552Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a93f7ce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319669d60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a93f7ce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319669d60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:03.374652Z'
-indexed_at: '2026-05-17T08:28:03.374657Z'
+  fetched_at: '2026-05-24T08:43:16.982442Z'
+indexed_at: '2026-05-24T08:43:16.982447Z'
 ---

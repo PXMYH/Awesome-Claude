@@ -12,25 +12,25 @@ prompt_preview: "---\r\nname: plan-release-cycle\r\ndescription: >\r\n  Plan a s
   \ or planning the first\r\n  public release..."
 full_prompt_length: 12311
 tools_mentioned:
+- Go
 - Node.js
 - go
-- Go
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/plan-release-cycle/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/plan-release-cycle/SKILL.md
-fetched_at: '2026-05-17T05:48:50.093119+00:00'
+fetched_at: '2026-05-24T06:01:35.058502+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T07:48:21.450481Z'
+  evaluated_at: '2026-05-24T08:02:18.194361Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966a240 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966a240 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:05.641999Z'
-indexed_at: '2026-05-17T08:28:05.642005Z'
+  fetched_at: '2026-05-24T08:43:19.147207Z'
+indexed_at: '2026-05-24T08:43:19.147213Z'
 ---

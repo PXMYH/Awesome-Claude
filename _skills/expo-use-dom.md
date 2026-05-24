@@ -29,25 +29,25 @@ prompt_preview: '---
 full_prompt_length: 9673
 tools_mentioned:
 - React
-- javascript
 - react
 - JavaScript
+- javascript
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/use-dom/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/use-dom/SKILL.md
-fetched_at: '2026-05-17T05:47:42.667760+00:00'
+fetched_at: '2026-05-24T06:00:31.532686+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-17T07:00:45.627272Z'
+  evaluated_at: '2026-05-24T07:14:29.220559Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319838530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f48a8c07590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319838530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-17T08:28:04.603057Z'
-indexed_at: '2026-05-17T08:28:04.603063Z'
+  fetched_at: '2026-05-24T08:43:18.149170Z'
+indexed_at: '2026-05-24T08:43:18.149177Z'
 ---
