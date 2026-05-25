@@ -23,30 +23,30 @@ full_prompt_length: 11937
 tools_mentioned:
 - Go
 category: official
-category_display: Official
+category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/canvas-design/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/canvas-design/SKILL.md
-fetched_at: '2026-05-24T06:00:03.491324+00:00'
+fetched_at: '2026-05-25T06:26:19.609011Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:50:20.218371Z'
+  evaluated_at: '2026-05-25T06:46:42.825275Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319690b90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc55937f560 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319690b90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc55937f560 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 139832
-  forks: 16511
-  open_issues: 876
+  stars: 140341
+  forks: 16579
+  open_issues: 877
   last_commit: '2026-05-19'
-  fetched_at: '2026-05-24T06:02:34.390021Z'
-indexed_at: '2026-05-24T08:43:17.652732Z'
+  fetched_at: '2026-05-25T06:26:31.588709Z'
+indexed_at: '2026-05-25T06:50:33.218663Z'
 ---
