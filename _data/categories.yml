@@ -4,15 +4,15 @@
   avg_rating: 3.0
 - slug: 06-developer-experience
   name: 06 Developer Experience
-  count: 14
+  count: 15
   avg_rating: 3.0
 - slug: 07-specialized-domains
   name: 07 Specialized Domains
-  count: 13
+  count: 14
   avg_rating: 3.0
 - slug: 08-business-product
   name: 08 Business Product
-  count: 12
+  count: 16
   avg_rating: 3.0
 - slug: 09-meta-orchestration
   name: 09 Meta Orchestration
@@ -20,7 +20,7 @@
   avg_rating: 3.0
 - slug: 10-research-analysis
   name: 10 Research Analysis
-  count: 8
+  count: 11
   avg_rating: 3.0
 - slug: community
   name: Community Skills
@@ -44,5 +44,5 @@
   avg_rating: 3.0
 - slug: quality-security
   name: Quality & Security
-  count: 16
+  count: 17
   avg_rating: 3.0
