@@ -26,26 +26,26 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/gdpr-ccpa-compliance.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/gdpr-ccpa-compliance.md
-fetched_at: '2026-05-28T06:10:30.046203Z'
+fetched_at: '2026-05-29T06:12:10.987754Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-28T06:20:03.605463Z'
+  evaluated_at: '2026-05-29T06:21:38.225940Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7af010bc50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f829b1eb680 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7af010bc50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f829b1eb680 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 20726
-  forks: 2421
-  open_issues: 3
+  stars: 20800
+  forks: 2430
+  open_issues: 4
   last_commit: '2026-05-27'
-  fetched_at: '2026-05-28T06:10:57.276777Z'
-indexed_at: '2026-05-28T06:36:09.092579Z'
+  fetched_at: '2026-05-29T06:12:34.340410Z'
+indexed_at: '2026-05-29T06:37:40.697328Z'
 ---

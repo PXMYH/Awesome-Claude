@@ -25,34 +25,34 @@ prompt_preview: '---
   1. Initialize the frontend re...'
 full_prompt_length: 3073
 tools_mentioned:
-- React
 - TypeScript
+- React
 - JavaScript
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/web-artifacts-builder/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/web-artifacts-builder/SKILL.md
-fetched_at: '2026-05-28T06:10:51.676449Z'
+fetched_at: '2026-05-29T06:12:29.727331Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-28T06:33:58.697498Z'
+  evaluated_at: '2026-05-29T06:35:28.044268Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7af0d19310 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f829b3db110 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7af0d19310 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f829b3db110 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 142110
-  forks: 16792
-  open_issues: 886
-  last_commit: '2026-05-19'
-  fetched_at: '2026-05-28T06:10:57.776761Z'
-indexed_at: '2026-05-28T06:36:09.383178Z'
+  stars: 143108
+  forks: 16900
+  open_issues: 888
+  last_commit: '2026-05-29'
+  fetched_at: '2026-05-29T06:12:34.800525Z'
+indexed_at: '2026-05-29T06:37:40.989469Z'
 ---
