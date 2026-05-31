@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/troubleshoot-mcp-connection/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/troubleshoot-mcp-connection/SKILL.md
-fetched_at: '2026-05-24T06:01:48.849652+00:00'
+fetched_at: '2026-05-31T06:17:16.295734+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T08:15:30.457764Z'
+  evaluated_at: '2026-05-31T08:32:33.137547Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319690cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d1370 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319690cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d1370 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:19.420227Z'
-indexed_at: '2026-05-24T08:43:19.420237Z'
+  fetched_at: '2026-05-31T09:00:17.079257Z'
+indexed_at: '2026-05-31T09:00:17.079267Z'
 ---

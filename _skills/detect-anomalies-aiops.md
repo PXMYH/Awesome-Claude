@@ -13,24 +13,24 @@ prompt_preview: "---\nname: detect-anomalies-aiops\ndescription: >\n  Implement 
 full_prompt_length: 9059
 tools_mentioned:
 - python
-- Python
 - go
+- Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/detect-anomalies-aiops/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/detect-anomalies-aiops/SKILL.md
-fetched_at: '2026-05-24T06:01:19.193544+00:00'
+fetched_at: '2026-05-31T06:16:51.299138+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T07:46:57.780770Z'
+  evaluated_at: '2026-05-31T08:04:07.590946Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319807e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d0800 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319807e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d0800 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:18.828608Z'
-indexed_at: '2026-05-24T08:43:18.828614Z'
+  fetched_at: '2026-05-31T09:00:16.452448Z'
+indexed_at: '2026-05-31T09:00:16.452459Z'
 ---

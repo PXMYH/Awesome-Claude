@@ -15,7 +15,7 @@ prompt_preview: '---
   prep for meetings where positioning matters.
 
   licen...'
-full_prompt_length: 7551
+full_prompt_length: 7591
 tools_mentioned:
 - go
 category: community
@@ -23,17 +23,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/foundation-meeting-brief/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/foundation-meeting-brief/SKILL.md
-fetched_at: '2026-05-24T06:01:55.872616+00:00'
+fetched_at: '2026-05-31T06:17:22.672423+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T08:21:37.814183Z'
+  evaluated_at: '2026-05-31T08:38:38.427014Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198390d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d1310 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198390d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d1310 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:19.545164Z'
-indexed_at: '2026-05-24T08:43:19.545169Z'
+  fetched_at: '2026-05-31T09:00:17.212265Z'
+indexed_at: '2026-05-31T09:00:17.212270Z'
 ---

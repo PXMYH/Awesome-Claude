@@ -7,31 +7,31 @@ prompt_preview: "---\nname: x-twitter-scraper\ndescription: \"Use when the user 
   \ X (Twitter) data or confirmation-gated X actions through Xquik: tweet search,\
   \ user lookup, follower extraction, media download, monitoring, webhooks, MCP, SDKs,\
   \ posting, likes, DMs, and profile updates. Requires a Xquik API key. Never ask\
-  \ for X login material.\"\ncompatibility: Requires internet access to call the Xquik\
-  \ REST API (https://xquik.com/api/v1)\nlicense: MIT\nmetadata:\n  author: Xquik\n\
-  \  version: \"2.4.13\"\n  openclaw:\n    req..."
-full_prompt_length: 10680
+  \ for X login material.\"\ncompatibility: Requires internet access to call the first-party\
+  \ Xquik REST API.\nlicense: MIT\nmetadata:\n  author: Xquik\n  version: \"2.4.15\"\
+  \n  openclaw:\n    requires:\n      e..."
+full_prompt_length: 11596
 tools_mentioned:
 - python
 - REST
-- Python
 - TypeScript
+- Python
 category: community
 category_display: Community
 source_repo: Xquik-dev/x-twitter-scraper
 source_path: skills/x-twitter-scraper/SKILL.md
 source_url: https://github.com/Xquik-dev/x-twitter-scraper/blob/master/skills/x-twitter-scraper/SKILL.md
-fetched_at: '2026-05-24T06:00:00.708902+00:00'
+fetched_at: '2026-05-31T06:15:44.846528+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:49:31.431821Z'
+  evaluated_at: '2026-05-31T07:06:43.588034Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319692cf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56218b9160 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319692cf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56218b9160 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.635976Z'
-indexed_at: '2026-05-24T08:43:17.635982Z'
+  fetched_at: '2026-05-31T09:00:15.185228Z'
+indexed_at: '2026-05-31T09:00:15.185235Z'
 ---

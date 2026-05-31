@@ -31,17 +31,17 @@ category_display: Community
 source_repo: obra/superpowers-lab
 source_path: skills/finding-duplicate-functions/SKILL.md
 source_url: https://github.com/obra/superpowers-lab/blob/main/skills/finding-duplicate-functions/SKILL.md
-fetched_at: '2026-05-24T06:00:57.952402+00:00'
+fetched_at: '2026-05-31T06:16:33.338272+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T07:29:16.615132Z'
+  evaluated_at: '2026-05-31T07:46:34.462265Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983b620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397a10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983b620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397a10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:18.463836Z'
-indexed_at: '2026-05-24T08:43:18.463842Z'
+  fetched_at: '2026-05-31T09:00:16.064651Z'
+indexed_at: '2026-05-31T09:00:16.064661Z'
 ---

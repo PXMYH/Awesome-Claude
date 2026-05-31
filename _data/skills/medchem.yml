@@ -1,34 +1,34 @@
 id: medchem
 slug: medchem
 name: Medchem
-description: 'Official documentation: https://medchem-docs.datamol.io/'
-prompt_preview: "---\nname: medchem\ndescription: Medicinal chemistry filters. Apply\
-  \ drug-likeness rules (Lipinski, Veber), PAINS filters, structural alerts, complexity\
-  \ metrics, for compound prioritization and library filtering.\nlicense: Apache-2.0\
-  \ license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# Medchem\n\n## Overview\n\
-  \nMedchem is a Python library for molecular filtering and prioritization in drug\
-  \ discovery workflows. Apply hundreds of well-established and novel molecular filters,\
-  \ structural alerts, and medic..."
-full_prompt_length: 10147
+description: '- Official docs: https://medchem-docs.datamol.io/'
+prompt_preview: "---\nname: medchem\ndescription: Medicinal chemistry filters for\
+  \ compound triage. Apply drug-likeness rules (Lipinski, Veber, CNS), structural\
+  \ alert catalogs (PAINS, NIBR, ChEMBL), complexity metrics, and the medchem query\
+  \ language for library filtering.\nlicense: Apache-2.0 license\nallowed-tools: Read\
+  \ Write Edit Bash\ncompatibility: Requires Python 3.9+ and datamol (installed with\
+  \ medchem). Optional Lilly demerit filter requires separate `lilly-medchem-rules`\
+  \ conda package.\nmetadata:\n  version: \"1...."
+full_prompt_length: 10723
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/medchem/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/medchem/SKILL.md
-fetched_at: '2026-05-24T05:59:26.212355+00:00'
+source_path: skills/medchem/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/medchem/SKILL.md
+fetched_at: '2026-05-31T06:15:09.398603+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:13:26.655556Z'
+  evaluated_at: '2026-05-31T06:29:05.036949Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319d4bfe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56219316d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319d4bfe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56219316d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.882611Z'
-indexed_at: '2026-05-24T08:43:16.882617Z'
+  fetched_at: '2026-05-31T09:00:14.345914Z'
+indexed_at: '2026-05-31T09:00:14.345924Z'

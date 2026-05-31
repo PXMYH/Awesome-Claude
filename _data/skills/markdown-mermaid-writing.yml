@@ -7,27 +7,27 @@ prompt_preview: "---\nname: markdown-mermaid-writing\ndescription: Comprehensive
   \ report, analysis, or visualization. Establishes text-based diagrams as the default\
   \ documentation standard with full style guides (markdown + mermaid), 24 diagram\
   \ type references, and 9 document templates.\nallowed-tools: Read Write Edit Bash\n\
-  license: Apache-2.0\nmetadata:\n  skill-author: Clayton Young / Superior Byte Works,\
-  \ LLC (@borealBytes)\n  skill-..."
-full_prompt_length: 14753
+  license: Apache-2.0\nmetadata:\n  version: \"1.1\"\n  skill-author: Clayton Young\
+  \ / Superior Byte Works, LLC (@bore..."
+full_prompt_length: 14709
 tools_mentioned:
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/markdown-mermaid-writing/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/markdown-mermaid-writing/SKILL.md
-fetched_at: '2026-05-24T05:59:25.521443+00:00'
+source_path: skills/markdown-mermaid-writing/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/markdown-mermaid-writing/SKILL.md
+fetched_at: '2026-05-31T06:15:08.764642+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:12:37.928742Z'
+  evaluated_at: '2026-05-31T06:28:16.532808Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198067e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397650 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198067e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397650 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.865318Z'
-indexed_at: '2026-05-24T08:43:16.865325Z'
+  fetched_at: '2026-05-31T09:00:14.327625Z'
+indexed_at: '2026-05-31T09:00:14.327631Z'

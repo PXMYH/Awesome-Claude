@@ -21,17 +21,17 @@ category_display: Community
 source_repo: NoizAI/skills
 source_path: skills/characteristic-voice/SKILL.md
 source_url: https://github.com/NoizAI/skills/blob/main/skills/characteristic-voice/SKILL.md
-fetched_at: '2026-05-24T05:59:35.842449+00:00'
+fetched_at: '2026-05-31T06:15:18.600894+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:24:02.223282Z'
+  evaluated_at: '2026-05-31T06:40:02.432336Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731a158e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56214fc470 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731a158e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56214fc470 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.109026Z'
-indexed_at: '2026-05-24T08:43:17.109033Z'
+  fetched_at: '2026-05-31T09:00:14.586481Z'
+indexed_at: '2026-05-31T09:00:14.586494Z'
 ---

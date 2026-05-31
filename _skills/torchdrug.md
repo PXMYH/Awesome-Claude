@@ -9,27 +9,28 @@ prompt_preview: "---\nname: torchdrug\ndescription: PyTorch-native graph neural 
   \ discovery, protein modeling, or knowledge graph reasoning. Best for custom model\
   \ development, protein property prediction, retrosynthesis. For pre-trained models\
   \ and diverse featurizers use deepchem; for benchmark datasets use pytdc.\nlicense:\
-  \ Apache-2.0 license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# TorchDrug\n\
-  \n## Overview\n\nTorchDrug is a c..."
-full_prompt_length: 14004
+  \ Apache-2.0 license\nmetadata:\n  version: \"1.0\"\n  skill-author: K-Dense Inc.\n\
+  ---\n\n# TorchDrug\n\n## Overview\n\nT..."
+full_prompt_length: 15132
 tools_mentioned:
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/torchdrug/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/torchdrug/SKILL.md
-fetched_at: '2026-05-24T05:59:34.037016+00:00'
+source_path: skills/torchdrug/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/torchdrug/SKILL.md
+fetched_at: '2026-05-31T06:15:16.872171+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:22:40.515943Z'
+  evaluated_at: '2026-05-31T06:38:40.677467Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319805e50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56218ba0c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319805e50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56218ba0c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.081034Z'
-indexed_at: '2026-05-24T08:43:17.081040Z'
+  fetched_at: '2026-05-31T09:00:14.556500Z'
+indexed_at: '2026-05-31T09:00:14.556511Z'
 ---

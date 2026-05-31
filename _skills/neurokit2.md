@@ -13,26 +13,26 @@ prompt_preview: '---
   patterns, muscle activity, or eye movements. Applicable for heart rate variability
   analysis, event-related potentials, complexity measures, autonomic nervous system
   assessment, psychophysiology research, and multi-modal physio...'
-full_prompt_length: 12011
+full_prompt_length: 12026
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/neurokit2/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/neurokit2/SKILL.md
-fetched_at: '2026-05-24T05:59:26.796266+00:00'
+source_path: skills/neurokit2/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/neurokit2/SKILL.md
+fetched_at: '2026-05-31T06:15:09.921499+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:14:07.258741Z'
+  evaluated_at: '2026-05-31T06:29:49.088549Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319838110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56216e15e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319838110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56216e15e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.896809Z'
-indexed_at: '2026-05-24T08:43:16.896815Z'
+  fetched_at: '2026-05-31T09:00:14.360805Z'
+indexed_at: '2026-05-31T09:00:14.360810Z'
 ---

@@ -6,10 +6,10 @@ prompt_preview: "---\nname: molecular-dynamics\ndescription: Run and analyze mol
   \ dynamics simulations with OpenMM and MDAnalysis. Set up protein/small molecule\
   \ systems, define force fields, run energy minimization and production MD, analyze\
   \ trajectories (RMSD, RMSF, contact maps, free energy surfaces). For structural\
-  \ biology, drug binding, and biophysics.\nlicense: MIT\nmetadata:\n    skill-author:\
-  \ Kuan-lin Huang\n---\n\n# Molecular Dynamics\n\n## Overview\n\nMolecular dynamics\
-  \ (MD) simulation computationally models t..."
-full_prompt_length: 14682
+  \ biology, drug binding, and biophysics.\nlicense: MIT\nmetadata:\n  version: \"\
+  1.0\"\n  skill-author: Kuan-lin Huang\n---\n\n# Molecular Dynamics\n\n## Overview\n\
+  \nMolecular dynamics (MD) simulation computati..."
+full_prompt_length: 14697
 tools_mentioned:
 - python
 - php
@@ -17,19 +17,19 @@ tools_mentioned:
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/molecular-dynamics/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/molecular-dynamics/SKILL.md
-fetched_at: '2026-05-24T05:59:26.430146+00:00'
+source_path: skills/molecular-dynamics/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/molecular-dynamics/SKILL.md
+fetched_at: '2026-05-31T06:15:09.596014+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:13:42.910649Z'
+  evaluated_at: '2026-05-31T06:29:21.247054Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319dd8470 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3b90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319dd8470 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3b90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.888244Z'
-indexed_at: '2026-05-24T08:43:16.888250Z'
+  fetched_at: '2026-05-31T09:00:14.351863Z'
+indexed_at: '2026-05-31T09:00:14.351870Z'

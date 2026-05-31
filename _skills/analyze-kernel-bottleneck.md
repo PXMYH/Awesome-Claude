@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/analyze-kernel-bottleneck/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/analyze-kernel-bottleneck/SKILL.md
-fetched_at: '2026-05-24T06:01:03.608029+00:00'
+fetched_at: '2026-05-31T06:16:38.254472+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T07:31:51.556756Z'
+  evaluated_at: '2026-05-31T07:49:08.102172Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319838e00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d0860 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319838e00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d0860 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:18.517692Z'
-indexed_at: '2026-05-24T08:43:18.517698Z'
+  fetched_at: '2026-05-31T09:00:16.121591Z'
+indexed_at: '2026-05-31T09:00:16.121596Z'
 ---

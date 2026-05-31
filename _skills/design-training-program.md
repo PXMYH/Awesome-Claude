@@ -12,24 +12,24 @@ prompt_preview: "---\r\nname: design-training-program\r\ndescription: >\r\n  Des
   \ changes introduce new roles, a perio..."
 full_prompt_length: 12852
 tools_mentioned:
-- GCP
 - go
+- GCP
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/design-training-program/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/design-training-program/SKILL.md
-fetched_at: '2026-05-24T06:01:19.068095+00:00'
+fetched_at: '2026-05-31T06:16:51.185814+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T07:46:49.652122Z'
+  evaluated_at: '2026-05-31T08:03:59.493814Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319692960 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3080 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319692960 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3080 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:18.825771Z'
-indexed_at: '2026-05-24T08:43:18.825777Z'
+  fetched_at: '2026-05-31T09:00:16.449466Z'
+indexed_at: '2026-05-31T09:00:16.449471Z'
 ---

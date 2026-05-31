@@ -17,17 +17,17 @@ category_display: Community
 source_repo: obra/superpowers-lab
 source_path: skills/slack-messaging/SKILL.md
 source_url: https://github.com/obra/superpowers-lab/blob/main/skills/slack-messaging/SKILL.md
-fetched_at: '2026-05-24T06:00:58.174770+00:00'
+fetched_at: '2026-05-31T06:16:33.522019+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T07:29:32.999578Z'
+  evaluated_at: '2026-05-31T07:46:50.652822Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198060f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621840ad0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198060f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621840ad0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:18.469435Z'
-indexed_at: '2026-05-24T08:43:18.469440Z'
+  fetched_at: '2026-05-31T09:00:16.070685Z'
+indexed_at: '2026-05-31T09:00:16.070691Z'
 ---

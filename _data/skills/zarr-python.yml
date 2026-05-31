@@ -1,34 +1,36 @@
 id: zarr-python
 slug: zarr-python
 name: Zarr Python
-description: '**Related Libraries**:'
+description: '**Related libraries:** [Xarray](https://docs.xarray.dev/), [Dask](https://docs.dask.org/),
+  [NumCodecs](https://numcodecs.readthedocs.io/)'
 prompt_preview: "---\nname: zarr-python\ndescription: Chunked N-D arrays for cloud\
-  \ storage. Compressed arrays, parallel I/O, S3/GCS integration, NumPy/Dask/Xarray\
-  \ compatible, for large-scale scientific computing pipelines.\nlicense: MIT license\n\
-  metadata:\n    skill-author: K-Dense Inc.\n---\n\n# Zarr Python\n\n## Overview\n\
-  \nZarr is a Python library for storing large N-dimensional arrays with chunking\
-  \ and compression. Apply this skill for efficient parallel I/O, cloud-native workflows,\
-  \ and seamless integration with NumPy,..."
-full_prompt_length: 20011
+  \ storage (Zarr-Python 3). Compressed arrays, parallel I/O, S3/GCS via fsspec, NumPy/Dask/Xarray\
+  \ compatible, for large-scale scientific computing pipelines.\nallowed-tools: Read\
+  \ Write Edit Bash\nlicense: MIT license\ncompatibility: Requires Python 3.12+ and\
+  \ zarr 3.x. Cloud I/O needs zarr[remote] plus s3fs or gcsfs. Legacy Zarr v2 workflows\
+  \ use zarr==2.* on older Python.\nmetadata:\n  version: \"1.0\"\n  skill-author:\
+  \ K-Dense Inc.\n---\n\n# Zarr..."
+full_prompt_length: 20736
 tools_mentioned:
 - python
+- AWS
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/zarr-python/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/zarr-python/SKILL.md
-fetched_at: '2026-05-24T05:59:35.157630+00:00'
+source_path: skills/zarr-python/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/zarr-python/SKILL.md
+fetched_at: '2026-05-31T06:15:17.889813+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:23:54.088624Z'
+  evaluated_at: '2026-05-31T06:39:54.349752Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319b093a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621226600 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319b093a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621226600 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.106219Z'
-indexed_at: '2026-05-24T08:43:17.106225Z'
+  fetched_at: '2026-05-31T09:00:14.583414Z'
+indexed_at: '2026-05-31T09:00:14.583419Z'

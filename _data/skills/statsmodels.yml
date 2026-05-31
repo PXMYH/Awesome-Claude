@@ -7,28 +7,28 @@ prompt_preview: "---\nname: statsmodels\ndescription: Statistical models library
   \ with detailed diagnostics, residuals, and inference. Best for econometrics, time\
   \ series, rigorous inference with coefficient tables. For guided statistical test\
   \ selection with APA reporting use statistical-analysis.\nlicense: BSD-3-Clause\
-  \ license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# Statsmodels: Statistical\
-  \ Modeling and Econometrics\n\n## Over..."
-full_prompt_length: 19682
+  \ license\nmetadata:\n  version: \"1.0\"\n  skill-author: K-Dense Inc.\n---\n\n\
+  # Statsmodels: Statistical Modeling and Econom..."
+full_prompt_length: 19697
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/statsmodels/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/statsmodels/SKILL.md
-fetched_at: '2026-05-24T05:59:33.432499+00:00'
+source_path: skills/statsmodels/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/statsmodels/SKILL.md
+fetched_at: '2026-05-31T06:15:16.329742+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:21:59.310538Z'
+  evaluated_at: '2026-05-31T06:38:00.229783Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319806870 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621988980 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319806870 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621988980 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.062394Z'
-indexed_at: '2026-05-24T08:43:17.062400Z'
+  fetched_at: '2026-05-31T09:00:14.541403Z'
+indexed_at: '2026-05-31T09:00:14.541409Z'

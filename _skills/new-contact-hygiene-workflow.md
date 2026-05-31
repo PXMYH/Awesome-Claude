@@ -20,17 +20,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/new-contact-hygiene-workflow/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/new-contact-hygiene-workflow/SKILL.md
-fetched_at: '2026-05-24T05:59:41.659904+00:00'
+fetched_at: '2026-05-31T06:15:24.439231+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:28:39.541070Z'
+  evaluated_at: '2026-05-31T06:44:40.354978Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319c25640 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211ffa40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319c25640 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211ffa40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.206105Z'
-indexed_at: '2026-05-24T08:43:17.206111Z'
+  fetched_at: '2026-05-31T09:00:14.689281Z'
+indexed_at: '2026-05-31T09:00:14.689287Z'
 ---

@@ -24,32 +24,32 @@ prompt_preview: '---
   Evaluates whether APIs, con...'
 full_prompt_length: 11812
 tools_mentioned:
-- PHP
 - java
-- Go
 - Java
-- php
+- go
+- PHP
+- JavaScript
+- Go
 - python
-- Rust
-- TypeScript
-- javascript
 - Ruby
+- Rust
+- ruby
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/sharp-edges/skills/sharp-edges/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/sharp-edges/skills/sharp-edges/SKILL.md
-fetched_at: '2026-05-24T06:02:17.600093+00:00'
+fetched_at: '2026-05-31T06:17:40.338442+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T08:35:45.276547Z'
+  evaluated_at: '2026-05-31T08:52:46.903303Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731955da30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56215608c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731955da30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56215608c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -59,6 +59,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:19.842312Z'
-indexed_at: '2026-05-24T08:43:19.842318Z'
+  fetched_at: '2026-05-31T09:00:17.525197Z'
+indexed_at: '2026-05-31T09:00:17.525203Z'
 ---

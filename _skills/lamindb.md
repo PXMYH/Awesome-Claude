@@ -13,31 +13,31 @@ prompt_preview: '---
   etc.), tracking computational workflows, curating and validating data with biological
   ontologies, building data lakehouses, or ensuring data lineage and reproducibility
   in biological research. Covers data management, annotation, ontologi...'
-full_prompt_length: 14368
+full_prompt_length: 14383
 tools_mentioned:
-- gcp
-- AWS
 - python
 - SQLite
-- GO
-- Python
 - PostgreSQL
+- gcp
+- Python
+- GO
+- AWS
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/lamindb/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/lamindb/SKILL.md
-fetched_at: '2026-05-24T05:59:25.044665+00:00'
+source_path: skills/lamindb/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/lamindb/SKILL.md
+fetched_at: '2026-05-31T06:15:08.251008+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:12:05.427974Z'
+  evaluated_at: '2026-05-31T06:27:34.109935Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983b590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3890 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983b590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3890 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.853918Z'
-indexed_at: '2026-05-24T08:43:16.853923Z'
+  fetched_at: '2026-05-31T09:00:14.312495Z'
+indexed_at: '2026-05-31T09:00:14.312501Z'
 ---

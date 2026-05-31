@@ -7,30 +7,31 @@ prompt_preview: "---\nname: cirq\ndescription: Google quantum computing framewor
   \ or running quantum characterization experiments. Best for Google hardware, noise\
   \ modeling, and low-level circuit design. For IBM hardware use qiskit; for quantum\
   \ ML with autodiff use pennylane; for physics simulations use qutip.\nlicense: Apache-2.0\
-  \ license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# Cirq - Quantum Computing\
-  \ with Python\n\nCirq is Google..."
-full_prompt_length: 10647
+  \ license\nallowed-tools: Read Write Edit Bash\nmetadata:\n  version: \"1.0\"\n\
+  \  skill-author: K-Dense Inc.\n---\n\n# C..."
+full_prompt_length: 12204
 tools_mentioned:
-- azure
 - python
-- Python
 - Azure
+- Python
+- azure
+- GCP
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/cirq/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/cirq/SKILL.md
-fetched_at: '2026-05-24T05:59:20.513136+00:00'
+source_path: skills/cirq/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/cirq/SKILL.md
+fetched_at: '2026-05-31T06:15:04.061388+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:06:48.146936Z'
+  evaluated_at: '2026-05-31T06:22:15.157331Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983b740 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56216e3440 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983b740 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56216e3440 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.741596Z'
-indexed_at: '2026-05-24T08:43:16.741602Z'
+  fetched_at: '2026-05-31T09:00:14.192696Z'
+indexed_at: '2026-05-31T09:00:14.192707Z'

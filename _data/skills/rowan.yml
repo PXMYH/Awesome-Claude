@@ -14,29 +14,29 @@ prompt_preview: '---
   MSA generation, molecular dynamics, permeability, descriptor workflows, and related
   small-molecule or protein modeling tasks. Ideal for programmatic batch screening,
   multi-step chemistry pipelines, and workflows that would otherwise require...'
-full_prompt_length: 36806
+full_prompt_length: 36805
 tools_mentioned:
-- FastAPI
-- fastapi
-- python
-- Python
 - go
+- python
+- fastapi
+- FastAPI
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/rowan/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/rowan/SKILL.md
-fetched_at: '2026-05-24T05:59:31.221869+00:00'
+source_path: skills/rowan/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/rowan/SKILL.md
+fetched_at: '2026-05-31T06:15:14.285156+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:19:24.439323Z'
+  evaluated_at: '2026-05-31T06:35:25.389915Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966a1b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fcb00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966a1b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fcb00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.007919Z'
-indexed_at: '2026-05-24T08:43:17.007925Z'
+  fetched_at: '2026-05-31T09:00:14.484277Z'
+indexed_at: '2026-05-31T09:00:14.484283Z'

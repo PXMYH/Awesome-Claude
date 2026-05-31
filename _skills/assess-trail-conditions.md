@@ -12,24 +12,24 @@ prompt_preview: "---\r\nname: assess-trail-conditions\r\ndescription: >\r\n  Eva
   \ trail damage or closures..."
 full_prompt_length: 16026
 tools_mentioned:
-- GO
 - go
+- GO
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/assess-trail-conditions/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/assess-trail-conditions/SKILL.md
-fetched_at: '2026-05-24T06:01:05.538769+00:00'
+fetched_at: '2026-05-31T06:16:39.914416+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T07:33:45.581727Z'
+  evaluated_at: '2026-05-31T07:51:01.341028Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198072c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3740 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198072c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3740 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:18.556912Z'
-indexed_at: '2026-05-24T08:43:18.556917Z'
+  fetched_at: '2026-05-31T09:00:16.163337Z'
+indexed_at: '2026-05-31T09:00:16.163342Z'
 ---

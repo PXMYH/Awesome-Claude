@@ -20,17 +20,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/create-icp-tiers/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/create-icp-tiers/SKILL.md
-fetched_at: '2026-05-24T05:59:40.445051+00:00'
+fetched_at: '2026-05-31T06:15:23.273188+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:27:09.513004Z'
+  evaluated_at: '2026-05-31T06:43:11.350568Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983a480 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d15b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983a480 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d15b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.174514Z'
-indexed_at: '2026-05-24T08:43:17.174520Z'
+  fetched_at: '2026-05-31T09:00:14.655731Z'
+indexed_at: '2026-05-31T09:00:14.655737Z'
 ---

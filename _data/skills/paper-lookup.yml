@@ -12,25 +12,25 @@ prompt_preview: '---
   for papers, citations, DOI/PMID lookups, abstracts, full text, open access, preprints,
   citation graphs, author search, or any scholarly literature query. Triggers on mentions
   of any supported database or requests like "find pape...'
-full_prompt_length: 9635
+full_prompt_length: 9652
 tools_mentioned:
 - REST
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/paper-lookup/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/paper-lookup/SKILL.md
-fetched_at: '2026-05-24T05:59:27.571435+00:00'
+source_path: skills/paper-lookup/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/paper-lookup/SKILL.md
+fetched_at: '2026-05-31T06:15:10.744295+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:15:04.107561Z'
+  evaluated_at: '2026-05-31T06:30:55.738546Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319806660 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fee10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319806660 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fee10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.916858Z'
-indexed_at: '2026-05-24T08:43:16.916864Z'
+  fetched_at: '2026-05-31T09:00:14.384829Z'
+indexed_at: '2026-05-31T09:00:14.384835Z'

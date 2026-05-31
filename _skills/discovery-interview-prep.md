@@ -17,17 +17,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/discovery-interview-prep/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/discovery-interview-prep/SKILL.md
-fetched_at: '2026-05-24T06:00:22.768743+00:00'
+fetched_at: '2026-05-31T06:16:04.059388+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T07:06:50.364972Z'
+  evaluated_at: '2026-05-31T07:23:56.382921Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319d93200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fe8d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319d93200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fe8d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.990929Z'
-indexed_at: '2026-05-24T08:43:17.990934Z'
+  fetched_at: '2026-05-31T09:00:15.561280Z'
+indexed_at: '2026-05-31T09:00:15.561287Z'
 ---

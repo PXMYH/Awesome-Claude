@@ -29,25 +29,25 @@ prompt_preview: '---
   **Us...'
 full_prompt_length: 9644
 tools_mentioned:
-- Go
-- Node.js
 - Rust
+- Node.js
+- Go
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/building-secure-contracts/skills/audit-prep-assistant/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/building-secure-contracts/skills/audit-prep-assistant/SKILL.md
-fetched_at: '2026-05-24T06:02:10.314424+00:00'
+fetched_at: '2026-05-31T06:17:35.146068+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T08:31:15.252177Z'
+  evaluated_at: '2026-05-31T08:48:17.747735Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73199cb9b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621227e90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73199cb9b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621227e90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:19.748052Z'
-indexed_at: '2026-05-24T08:43:19.748057Z'
+  fetched_at: '2026-05-31T09:00:17.426141Z'
+indexed_at: '2026-05-31T09:00:17.426147Z'
 ---

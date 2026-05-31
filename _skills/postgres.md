@@ -12,24 +12,24 @@ prompt_preview: "---\nname: postgres\ndescription: \"Execute read-only SQL queri
   \  version: \"1.0\"\n-..."
 full_prompt_length: 3900
 tools_mentioned:
-- Python
 - PostgreSQL
+- Python
 category: community
 category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/postgres/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/postgres/SKILL.md
-fetched_at: '2026-05-24T06:02:06.583834+00:00'
+fetched_at: '2026-05-31T06:17:31.772877+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T08:30:18.333349Z'
+  evaluated_at: '2026-05-31T08:47:21.050410Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319daaff0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397380 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319daaff0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397380 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:19.728113Z'
-indexed_at: '2026-05-24T08:43:19.728118Z'
+  fetched_at: '2026-05-31T09:00:17.405234Z'
+indexed_at: '2026-05-31T09:00:17.405240Z'
 ---

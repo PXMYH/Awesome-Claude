@@ -14,26 +14,26 @@ prompt_preview: '---
   for finding papers, gathering research data, and verifying scientific information.
   Note: query text is transmitted to api.parallel.ai (PARALLEL_API_KEY) and, for academic
   searches, to openrouter.ai (OPENROUTER_API_KEY)...'
-full_prompt_length: 23317
+full_prompt_length: 23332
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/research-lookup/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/research-lookup/SKILL.md
-fetched_at: '2026-05-24T05:59:31.097853+00:00'
+source_path: skills/research-lookup/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/research-lookup/SKILL.md
+fetched_at: '2026-05-31T06:15:14.177329+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:19:16.289209Z'
+  evaluated_at: '2026-05-31T06:35:17.309190Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319bd2d50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56221979e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319bd2d50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56221979e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.004999Z'
-indexed_at: '2026-05-24T08:43:17.005005Z'
+  fetched_at: '2026-05-31T09:00:14.481206Z'
+indexed_at: '2026-05-31T09:00:14.481212Z'
 ---

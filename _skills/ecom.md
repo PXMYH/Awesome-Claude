@@ -12,24 +12,24 @@ prompt_preview: "---\nname: ecom\nversion: 0.1.0\ndescription: >\n  Claude-power
   .\nargument-hint: \"review [30d|90d|365d]\"\nall..."
 full_prompt_length: 20266
 tools_mentioned:
-- Python
 - go
+- Python
 category: community
 category_display: Community
 source_repo: takechanman1228/claude-ecom
 source_path: skills/ecom/SKILL.md
 source_url: https://github.com/takechanman1228/claude-ecom/blob/main/skills/ecom/SKILL.md
-fetched_at: '2026-05-24T06:02:08.055470+00:00'
+fetched_at: '2026-05-31T06:17:33.147603+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T08:30:34.563438Z'
+  evaluated_at: '2026-05-31T08:47:37.229885Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731955f530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56215b5640 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731955f530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56215b5640 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:19.733609Z'
-indexed_at: '2026-05-24T08:43:19.733614Z'
+  fetched_at: '2026-05-31T09:00:17.411069Z'
+indexed_at: '2026-05-31T09:00:17.411075Z'
 ---

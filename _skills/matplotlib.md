@@ -14,26 +14,26 @@ prompt_preview: '---
   multi-panel figures with journal styling, use scientific-visualization.
 
   license: https://github.com/matplotlib/matplotlib/tree/main/LICEN...'
-full_prompt_length: 11454
+full_prompt_length: 11469
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/matplotlib/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/matplotlib/SKILL.md
-fetched_at: '2026-05-24T05:59:26.104576+00:00'
+source_path: skills/matplotlib/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/matplotlib/SKILL.md
+fetched_at: '2026-05-31T06:15:09.288181+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:13:18.531148Z'
+  evaluated_at: '2026-05-31T06:28:56.953125Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983bdd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3b90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983bdd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3b90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.879766Z'
-indexed_at: '2026-05-24T08:43:16.879771Z'
+  fetched_at: '2026-05-31T09:00:14.343005Z'
+indexed_at: '2026-05-31T09:00:14.343011Z'
 ---

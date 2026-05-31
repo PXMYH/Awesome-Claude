@@ -7,30 +7,30 @@ description: FlowIO provides essential FCS file handling capabilities for flow c
 prompt_preview: "---\nname: flowio\ndescription: Parse FCS (Flow Cytometry Standard)\
   \ files v2.0-3.1. Extract events as NumPy arrays, read metadata/channels, convert\
   \ to CSV/DataFrame, for flow cytometry data preprocessing.\nlicense: BSD-3-Clause\
-  \ license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# FlowIO: Flow Cytometry\
-  \ Standard File Handler\n\n## Overview\n\nFlowIO is a lightweight Python library\
-  \ for reading and writing Flow Cytometry Standard (FCS) files. Parse FCS metadata,\
-  \ extract event data, and create new FCS f..."
-full_prompt_length: 16772
+  \ license\nmetadata:\n  version: \"1.0\"\n  skill-author: K-Dense Inc.\n---\n\n\
+  # FlowIO: Flow Cytometry Standard File Handler\n\n## Overview\n\nFlowIO is a lightweight\
+  \ Python library for reading and writing Flow Cytometry Standard (FCS) files. Parse\
+  \ FCS metadata, extract event data, and c..."
+full_prompt_length: 16787
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/flowio/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/flowio/SKILL.md
-fetched_at: '2026-05-24T05:59:22.845447+00:00'
+source_path: skills/flowio/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/flowio/SKILL.md
+fetched_at: '2026-05-31T06:15:06.199986+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:09:30.940595Z'
+  evaluated_at: '2026-05-31T06:24:58.043721Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73199df6e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621a7b7a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73199df6e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621a7b7a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.798572Z'
-indexed_at: '2026-05-24T08:43:16.798577Z'
+  fetched_at: '2026-05-31T09:00:14.254662Z'
+indexed_at: '2026-05-31T09:00:14.254673Z'

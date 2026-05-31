@@ -6,31 +6,30 @@ prompt_preview: '---
 
   name: let-fate-decide
 
-  description: "Draws 4 Tarot cards to inject entropy into planning when prompts are
-  vague, ambiguous, or casually delegated. Interprets the spread to guide next steps.
-  Use when the user says ''let fate decide'', ''YOLO'', ''whatever'', ''idk'', or
-  other nonchalant phrases, makes Yu-Gi-Oh references, or when you are about to arbitrarily
-  pick between multiple reasonable approaches. Prefer over ask-questions-if-underspecified
-  when the user''s tone is casual or playful rather than pr...'
-full_prompt_length: 6081
-tools_mentioned:
-- go
+  description: "Draws the 12 Houses of the Zodiac Tarot spread to inject entropy into
+  planning when prompts are vague, ambiguous, or casually delegated. Interprets the
+  spread to guide next steps. Use when the user says ''let fate decide'', ''YOLO'',
+  ''whatever'', ''idk'', or other nonchalant phrases, makes Yu-Gi-Oh references, or
+  when you are about to arbitrarily pick between multiple reasonable approaches. Prefer
+  over ask-questions-if-underspecified when the user''s tone is casua...'
+full_prompt_length: 9994
+tools_mentioned: []
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/let-fate-decide/skills/let-fate-decide/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/let-fate-decide/skills/let-fate-decide/SKILL.md
-fetched_at: '2026-05-24T06:02:15.886625+00:00'
+fetched_at: '2026-05-31T06:17:38.886358+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T08:34:39.851118Z'
+  evaluated_at: '2026-05-31T08:51:41.749117Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319691640 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56219431a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319691640 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56219431a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:19.819439Z'
-indexed_at: '2026-05-24T08:43:19.819445Z'
+  fetched_at: '2026-05-31T09:00:17.500901Z'
+indexed_at: '2026-05-31T09:00:17.500907Z'

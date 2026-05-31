@@ -2,35 +2,43 @@ id: bioservices
 slug: bioservices
 name: BioServices
 description: 'For detailed API documentation and advanced features, refer to:'
-prompt_preview: "---\nname: bioservices\ndescription: Unified Python interface to\
-  \ 40+ bioinformatics services. Use when querying multiple databases (UniProt, KEGG,\
-  \ ChEMBL, Reactome) in a single workflow with consistent API. Best for cross-database\
-  \ analysis, ID mapping across services. For quick single-database lookups use gget;\
-  \ for sequence/file manipulation use biopython.\nlicense: GPLv3 license\nmetadata:\n\
-  \    skill-author: K-Dense Inc.\n---\n\n# BioServices\n\n## Overview\n\nBioServices\
-  \ is a Python package providing prog..."
-full_prompt_length: 9931
+prompt_preview: '---
+
+  name: bioservices
+
+  description: Unified Python interface to 40+ bioinformatics services. Use when querying
+  multiple databases (UniProt, KEGG, ChEMBL, Reactome) in a single workflow with consistent
+  API. Best for cross-database analysis, ID mapping across services. For quick single-database
+  lookups use gget; for sequence/file manipulation use biopython.
+
+  license: GPLv3 license
+
+  allowed-tools: Read Write Edit Bash
+
+  compatibility: Requires Python 3.9–3.12 and internet access to 40+ bioinformatics
+  we...'
+full_prompt_length: 11435
 tools_mentioned:
-- REST
 - python
-- GO
+- REST
 - Python
+- GO
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/bioservices/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/bioservices/SKILL.md
-fetched_at: '2026-05-24T05:59:20.285711+00:00'
+source_path: skills/bioservices/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/bioservices/SKILL.md
+fetched_at: '2026-05-31T06:15:03.759286+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:06:31.890737Z'
+  evaluated_at: '2026-05-31T06:21:50.872290Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731a1db110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621563830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731a1db110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621563830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +48,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.735952Z'
-indexed_at: '2026-05-24T08:43:16.735958Z'
+  fetched_at: '2026-05-31T09:00:14.182934Z'
+indexed_at: '2026-05-31T09:00:14.182939Z'

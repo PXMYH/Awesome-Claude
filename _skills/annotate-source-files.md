@@ -12,29 +12,29 @@ prompt_preview: "---\r\nname: annotate-source-files\r\ndescription: >\r\n  Add P
   \ to new or existing\r\n  source files, or when docum..."
 full_prompt_length: 12404
 tools_mentioned:
-- Go
 - Java
-- javascript
 - go
-- Python
-- typescript
+- Go
 - Rust
+- typescript
+- Python
+- javascript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/annotate-source-files/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/annotate-source-files/SKILL.md
-fetched_at: '2026-05-24T06:01:04.318705+00:00'
+fetched_at: '2026-05-31T06:16:38.869532+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T07:32:32.206301Z'
+  evaluated_at: '2026-05-31T07:49:48.536407Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319807470 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d2930 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319807470 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d2930 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:18.531882Z'
-indexed_at: '2026-05-24T08:43:18.531888Z'
+  fetched_at: '2026-05-31T09:00:16.136596Z'
+indexed_at: '2026-05-31T09:00:16.136601Z'
 ---

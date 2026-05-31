@@ -15,25 +15,25 @@ prompt_preview: '---
   extending WooCommerce, working with ACF, using the WordPress RE...'
 full_prompt_length: 6264
 tools_mentioned:
-- PHP
 - php
 - REST
+- PHP
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/wordpress-pro/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/wordpress-pro/SKILL.md
-fetched_at: '2026-05-24T06:00:47.508557+00:00'
+fetched_at: '2026-05-31T06:16:23.829322+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T07:22:13.465975Z'
+  evaluated_at: '2026-05-31T07:39:33.827059Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983a510 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621225eb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983a510 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621225eb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:18.315029Z'
-indexed_at: '2026-05-24T08:43:18.315035Z'
+  fetched_at: '2026-05-31T09:00:15.905893Z'
+indexed_at: '2026-05-31T09:00:15.905899Z'
 ---

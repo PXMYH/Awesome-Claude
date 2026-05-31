@@ -28,25 +28,25 @@ prompt_preview: '---
 full_prompt_length: 9646
 tools_mentioned:
 - docker
-- aws
 - AWS
 - Docker
+- aws
 category: community
 category_display: Community
 source_repo: wrsmith108/varlock-claude-skill
 source_path: skills/varlock/SKILL.md
 source_url: https://github.com/wrsmith108/varlock-claude-skill/blob/main/skills/varlock/SKILL.md
-fetched_at: '2026-05-24T06:02:26.213629+00:00'
+fetched_at: '2026-05-31T06:17:47.340180+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T08:41:04.254942Z'
+  evaluated_at: '2026-05-31T08:58:04.243606Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319692240 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fc470 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319692240 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fc470 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -56,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:19.954570Z'
-indexed_at: '2026-05-24T08:43:19.954575Z'
+  fetched_at: '2026-05-31T09:00:17.644778Z'
+indexed_at: '2026-05-31T09:00:17.644784Z'
 ---

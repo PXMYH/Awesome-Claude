@@ -13,25 +13,25 @@ prompt_preview: '---
   and grant proposals (NSF, NIH, DOE, DARPA). This skill should be used when preparing
   manuscripts for journal submission, conference papers, research posters, or grant
   proposals and need venue-specific formatting requirements and...'
-full_prompt_length: 23242
+full_prompt_length: 23257
 tools_mentioned:
 - python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/venue-templates/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/venue-templates/SKILL.md
-fetched_at: '2026-05-24T05:59:34.760693+00:00'
+source_path: skills/venue-templates/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/venue-templates/SKILL.md
+fetched_at: '2026-05-31T06:15:17.551931+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:23:29.741822Z'
+  evaluated_at: '2026-05-31T06:39:29.767785Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73196695e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621d18e30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73196695e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621d18e30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.097783Z'
-indexed_at: '2026-05-24T08:43:17.097789Z'
+  fetched_at: '2026-05-31T09:00:14.574428Z'
+indexed_at: '2026-05-31T09:00:14.574434Z'
 ---

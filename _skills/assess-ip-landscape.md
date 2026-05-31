@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/assess-ip-landscape/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/assess-ip-landscape/SKILL.md
-fetched_at: '2026-05-24T06:01:05.402956+00:00'
+fetched_at: '2026-05-31T06:16:39.796763+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T07:33:37.466556Z'
+  evaluated_at: '2026-05-31T07:50:53.256324Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198072f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213979e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198072f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213979e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:18.554182Z'
-indexed_at: '2026-05-24T08:43:18.554187Z'
+  fetched_at: '2026-05-31T09:00:16.160408Z'
+indexed_at: '2026-05-31T09:00:16.160414Z'
 ---

@@ -6,30 +6,30 @@ description: '- **Official Documentation**: https://molfeat-docs.datamol.io/'
 prompt_preview: "---\nname: molfeat\ndescription: Molecular featurization for ML (100+\
   \ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert\
   \ SMILES to features, for QSAR and molecular ML.\nlicense: Apache-2.0 license\n\
-  metadata:\n    skill-author: K-Dense Inc.\n---\n\n# Molfeat - Molecular Featurization\
-  \ Hub\n\n## Overview\n\nMolfeat is a comprehensive Python library for molecular\
-  \ featurization that unifies 100+ pre-trained embeddings and hand-crafted featurizers.\
-  \ Convert chemical structures (SMILES s..."
-full_prompt_length: 14810
+  allowed-tools: Read Write Edit Bash\ncompatibility: Requires Python 3.9–3.10 (molfeat\
+  \ 0.11.0 does not support 3.11+). Requires datamol, PyTorch, and optional extras\
+  \ for GNN/transformer models.\nmetadata:\n  version: \"1.0\"\n  skill-author: K-Dense\
+  \ Inc.\n---\n\n# Molfeat - Molecular Fea..."
+full_prompt_length: 16371
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/molfeat/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/molfeat/SKILL.md
-fetched_at: '2026-05-24T05:59:26.558699+00:00'
+source_path: skills/molfeat/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/molfeat/SKILL.md
+fetched_at: '2026-05-31T06:15:09.701672+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:13:51.029793Z'
+  evaluated_at: '2026-05-31T06:29:29.674720Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319805e20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56216e15e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319805e20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56216e15e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.891124Z'
-indexed_at: '2026-05-24T08:43:16.891130Z'
+  fetched_at: '2026-05-31T09:00:14.354866Z'
+indexed_at: '2026-05-31T09:00:14.354871Z'
 ---

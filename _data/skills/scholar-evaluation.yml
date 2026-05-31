@@ -8,29 +8,29 @@ prompt_preview: "---\nname: scholar-evaluation\ndescription: Systematically eval
   \ scholarly work using the ScholarEval framework, providing structured assessment\
   \ across research quality dimensions including problem formulation, methodology,\
   \ analysis, and writing with quantitative scoring and actionable feedback.\nlicense:\
-  \ MIT license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# Scholar Evaluation\n\
-  \n## Overview\n\nApply the ScholarEval framework to systematically evaluate scholarly\
-  \ and research work. This skill p..."
-full_prompt_length: 12258
+  \ MIT license\nmetadata:\n  version: \"1.0\"\n  skill-author: K-Dense Inc.\n---\n\
+  \n# Scholar Evaluation\n\n## Overview\n\nApply the ScholarEval framework to systematically\
+  \ evaluate scholarly and research wor..."
+full_prompt_length: 12273
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/scholar-evaluation/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scholar-evaluation/SKILL.md
-fetched_at: '2026-05-24T05:59:31.445925+00:00'
+source_path: skills/scholar-evaluation/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/scholar-evaluation/SKILL.md
+fetched_at: '2026-05-31T06:15:14.515123+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:19:40.718364Z'
+  evaluated_at: '2026-05-31T06:35:41.552004Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966ade0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397bf0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966ade0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397bf0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.013817Z'
-indexed_at: '2026-05-24T08:43:17.013823Z'
+  fetched_at: '2026-05-31T09:00:14.490586Z'
+indexed_at: '2026-05-31T09:00:14.490592Z'

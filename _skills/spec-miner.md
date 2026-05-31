@@ -15,24 +15,24 @@ prompt_preview: '---
   phrases: reverse engineer, old codebase, no docs, no documenta...'
 full_prompt_length: 4595
 tools_mentioned:
-- Flask
 - Django
+- Flask
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/spec-miner/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/spec-miner/SKILL.md
-fetched_at: '2026-05-24T06:00:46.118851+00:00'
+fetched_at: '2026-05-31T06:16:22.880402+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T07:21:40.968438Z'
+  evaluated_at: '2026-05-31T07:39:01.476860Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319839100 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621227830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319839100 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621227830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:18.304064Z'
-indexed_at: '2026-05-24T08:43:18.304070Z'
+  fetched_at: '2026-05-31T09:00:15.894055Z'
+indexed_at: '2026-05-31T09:00:15.894060Z'
 ---

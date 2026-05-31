@@ -15,27 +15,27 @@ prompt_preview: '---
   Invoke for guards, interceptors, pipes, validation, Swagg...'
 full_prompt_length: 7662
 tools_mentioned:
-- REST
-- TypeScript
 - Node.js
-- typescript
+- REST
 - GraphQL
+- typescript
+- TypeScript
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/nestjs-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/nestjs-expert/SKILL.md
-fetched_at: '2026-05-24T06:00:44.011400+00:00'
+fetched_at: '2026-05-31T06:16:21.451457+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T07:20:11.501122Z'
+  evaluated_at: '2026-05-31T07:37:32.562126Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319806c30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3cb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319806c30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3cb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:18.273283Z'
-indexed_at: '2026-05-24T08:43:18.273288Z'
+  fetched_at: '2026-05-31T09:00:15.861175Z'
+indexed_at: '2026-05-31T09:00:15.861181Z'
 ---

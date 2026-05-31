@@ -5,30 +5,30 @@ description: '- OMERO uses group-based permissions (READ-ONLY, READ-ANNOTATE, RE
 prompt_preview: "---\nname: omero-integration\ndescription: Microscopy data management\
   \ platform. Access images via Python, retrieve datasets, analyze pixels, manage\
   \ ROIs/annotations, batch processing, for high-content screening and microscopy\
-  \ workflows.\nlicense: Unknown\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\
-  \n# OMERO Integration\n\n## Overview\n\nOMERO is an open-source platform for managing,\
-  \ visualizing, and analyzing microscopy images and metadata. Access images via Python\
-  \ API, retrieve datasets, analyze pixel..."
-full_prompt_length: 8036
+  \ workflows.\nlicense: Unknown\nmetadata:\n  version: \"1.0\"\n  skill-author: K-Dense\
+  \ Inc.\n---\n\n# OMERO Integration\n\n## Overview\n\nOMERO is an open-source platform\
+  \ for managing, visualizing, and analyzing microscopy images and metadata. Access\
+  \ images via Python API, retrieve datasets..."
+full_prompt_length: 8051
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/omero-integration/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/omero-integration/SKILL.md
-fetched_at: '2026-05-24T05:59:27.012576+00:00'
+source_path: skills/omero-integration/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/omero-integration/SKILL.md
+fetched_at: '2026-05-31T06:15:10.222392+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:14:23.498400Z'
+  evaluated_at: '2026-05-31T06:30:15.297535Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73199c8e90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621b16300 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73199c8e90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621b16300 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.902560Z'
-indexed_at: '2026-05-24T08:43:16.902566Z'
+  fetched_at: '2026-05-31T09:00:14.369788Z'
+indexed_at: '2026-05-31T09:00:14.369794Z'

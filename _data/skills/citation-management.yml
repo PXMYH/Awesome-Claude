@@ -8,27 +8,27 @@ prompt_preview: "---\nname: citation-management\ndescription: Comprehensive cita
   \ BibTeX entries. This skill should be used when you need to find papers, verify\
   \ citation information, convert DOIs to BibTeX, or ensure reference accuracy in\
   \ scientific writing.\nallowed-tools: Read Write Edit Bash\nlicense: MIT License\n\
-  metadata:\n    skill-author: K-Dense Inc.\n-..."
-full_prompt_length: 32592
+  metadata:\n  version: \"1.0\"\n  skill-author:..."
+full_prompt_length: 32607
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/citation-management/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/citation-management/SKILL.md
-fetched_at: '2026-05-24T05:59:20.626031+00:00'
+source_path: skills/citation-management/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/citation-management/SKILL.md
+fetched_at: '2026-05-31T06:15:04.172418+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:06:56.274792Z'
+  evaluated_at: '2026-05-31T06:22:23.914203Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731a5975f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397050 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731a5975f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397050 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.744407Z'
-indexed_at: '2026-05-24T08:43:16.744413Z'
+  fetched_at: '2026-05-31T09:00:14.195699Z'
+indexed_at: '2026-05-31T09:00:14.195705Z'

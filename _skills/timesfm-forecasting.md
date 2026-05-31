@@ -8,28 +8,28 @@ prompt_preview: "---\nname: timesfm-forecasting\ndescription: Zero-shot time ser
   \ series (sales, sensors, energy, vitals, weather) without training a custom model.\
   \ Supports CSV/DataFrame/array inputs with point forecasts and prediction intervals.\
   \ Includes a preflight system checker script to verify RAM/GPU before first use.\n\
-  allowed-tools: Read Write Edit Bash\nlicense: Apache-2.0 license\nmetadata:\n  skill-author:\
-  \ Clayton Young / Super..."
-full_prompt_length: 29961
+  allowed-tools: Read Write Edit Bash\nlicense: Apache-2.0 license\nmetadata:\n  version:\
+  \ \"1.0\"\n  skill-author: Clay..."
+full_prompt_length: 29978
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/timesfm-forecasting/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/timesfm-forecasting/SKILL.md
-fetched_at: '2026-05-24T05:59:33.780017+00:00'
+source_path: skills/timesfm-forecasting/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/timesfm-forecasting/SKILL.md
+fetched_at: '2026-05-31T06:15:16.641067+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:22:23.702591Z'
+  evaluated_at: '2026-05-31T06:38:24.497507Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319838230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fd040 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319838230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fd040 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.074596Z'
-indexed_at: '2026-05-24T08:43:17.074604Z'
+  fetched_at: '2026-05-31T09:00:14.550459Z'
+indexed_at: '2026-05-31T09:00:14.550465Z'
 ---

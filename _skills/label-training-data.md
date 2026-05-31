@@ -13,26 +13,26 @@ prompt_preview: "---\nname: label-training-data\ndescription: >\n  Set up system
 full_prompt_length: 8328
 tools_mentioned:
 - python
-- Docker
-- Python
-- PostgreSQL
 - docker
+- Docker
+- PostgreSQL
+- Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/label-training-data/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/label-training-data/SKILL.md
-fetched_at: '2026-05-24T06:01:28.524377+00:00'
+fetched_at: '2026-05-31T06:16:59.178020+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T07:56:03.225799Z'
+  evaluated_at: '2026-05-31T08:13:11.428098Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319690320 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621225d00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319690320 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621225d00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:19.016918Z'
-indexed_at: '2026-05-24T08:43:19.016924Z'
+  fetched_at: '2026-05-31T09:00:16.652411Z'
+indexed_at: '2026-05-31T09:00:16.652417Z'
 ---

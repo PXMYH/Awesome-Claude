@@ -2,33 +2,41 @@ id: deepchem
 slug: deepchem
 name: DeepChem
 description: '- Official documentation: https://deepchem.readthedocs.io/'
-prompt_preview: "---\nname: deepchem\ndescription: Molecular ML with diverse featurizers\
-  \ and pre-built datasets. Use for property prediction (ADMET, toxicity) with traditional\
-  \ ML or GNNs when you want extensive featurization options and MoleculeNet benchmarks.\
-  \ Best for quick experiments with pre-trained models, diverse molecular representations.\
-  \ For graph-first PyTorch workflows use torchdrug; for benchmark datasets use pytdc.\n\
-  license: MIT license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# DeepChem\n\
-  \n## Overvi..."
-full_prompt_length: 17672
+prompt_preview: '---
+
+  name: deepchem
+
+  description: Molecular ML with diverse featurizers and pre-built datasets. Use for
+  property prediction (ADMET, toxicity) with traditional ML or GNNs when you want
+  extensive featurization options and MoleculeNet benchmarks. Best for quick experiments
+  with pre-trained models, diverse molecular representations. For graph-first PyTorch
+  workflows use torchdrug; for benchmark datasets use pytdc.
+
+  license: MIT license
+
+  allowed-tools: Read Write Edit Bash
+
+  compatibility: Requires Python...'
+full_prompt_length: 19379
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/deepchem/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/deepchem/SKILL.md
-fetched_at: '2026-05-24T05:59:21.553739+00:00'
+source_path: skills/deepchem/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/deepchem/SKILL.md
+fetched_at: '2026-05-31T06:15:05.040515+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:08:01.504771Z'
+  evaluated_at: '2026-05-31T06:23:28.860441Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319806e70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fe480 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319806e70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fe480 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.767022Z'
-indexed_at: '2026-05-24T08:43:16.767027Z'
+  fetched_at: '2026-05-31T09:00:14.220310Z'
+indexed_at: '2026-05-31T09:00:14.220316Z'

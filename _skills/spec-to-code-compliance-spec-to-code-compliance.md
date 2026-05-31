@@ -31,17 +31,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/spec-to-code-compliance/skills/spec-to-code-compliance/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/spec-to-code-compliance/skills/spec-to-code-compliance/SKILL.md
-fetched_at: '2026-05-24T06:02:18.019870+00:00'
+fetched_at: '2026-05-31T06:17:40.777360+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T08:36:01.499858Z'
+  evaluated_at: '2026-05-31T08:53:03.077080Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731955ddf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56215b5820 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731955ddf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56215b5820 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:19.847974Z'
-indexed_at: '2026-05-24T08:43:19.847979Z'
+  fetched_at: '2026-05-31T09:00:17.531272Z'
+indexed_at: '2026-05-31T09:00:17.531278Z'
 ---

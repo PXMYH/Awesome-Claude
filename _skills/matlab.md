@@ -13,26 +13,26 @@ prompt_preview: '---
   optimization, statistics, or creating scientific visualizations. Also use when the
   user needs help with MATLAB syntax, functions, or wants to convert between MATLAB
   and Python code. Scripts can be executed with MATLAB or the open...'
-full_prompt_length: 9220
+full_prompt_length: 9235
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/matlab/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/matlab/SKILL.md
-fetched_at: '2026-05-24T05:59:25.991375+00:00'
+source_path: skills/matlab/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/matlab/SKILL.md
+fetched_at: '2026-05-31T06:15:09.164615+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:13:10.417119Z'
+  evaluated_at: '2026-05-31T06:28:48.880979Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983be00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397560 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983be00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397560 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.877010Z'
-indexed_at: '2026-05-24T08:43:16.877016Z'
+  fetched_at: '2026-05-31T09:00:14.340050Z'
+indexed_at: '2026-05-31T09:00:14.340056Z'
 ---

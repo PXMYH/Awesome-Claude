@@ -9,27 +9,27 @@ prompt_preview: "---\nname: generate-image\ndescription: Generate or edit images
   \ photos, illustrations, artwork, visual assets, concept art, and any image that\
   \ is not a technical diagram or schematic. For flowcharts, circuits, pathways, and\
   \ technical diagrams, use the scientific-schematics skill instead.\nlicense: MIT\
-  \ license\ncompatibility: Requires an OpenRouter API key\nmetadata:\n    skill-author:\
-  \ K-Dense Inc.\n---\n\n# Generate..."
-full_prompt_length: 7048
+  \ license\ncompatibility: Requires an OpenRouter API key\nmetadata:\n  version:\
+  \ \"1.0\"\n  skill-author: K-Dense Inc...."
+full_prompt_length: 7063
 tools_mentioned:
 - python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/generate-image/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/generate-image/SKILL.md
-fetched_at: '2026-05-24T05:59:23.059683+00:00'
+source_path: skills/generate-image/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/generate-image/SKILL.md
+fetched_at: '2026-05-31T06:15:06.410327+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:09:47.188418Z'
+  evaluated_at: '2026-05-31T06:25:14.455825Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319b798e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621c17440 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319b798e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621c17440 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.804322Z'
-indexed_at: '2026-05-24T08:43:16.804328Z'
+  fetched_at: '2026-05-31T09:00:14.260845Z'
+indexed_at: '2026-05-31T09:00:14.260851Z'
 ---

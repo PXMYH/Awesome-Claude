@@ -12,24 +12,24 @@ prompt_preview: "---\nname: pol-probe-advisor\ndescription: Select the right Pro
   \ but aren't sure which validation..."
 full_prompt_length: 20290
 tools_mentioned:
-- Flask
 - Python
+- Flask
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/pol-probe-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pol-probe-advisor/SKILL.md
-fetched_at: '2026-05-24T06:00:24.682157+00:00'
+fetched_at: '2026-05-31T06:16:05.701554+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T07:08:53.020063Z'
+  evaluated_at: '2026-05-31T07:25:58.520468Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319ff4470 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fd700 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319ff4470 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fd700 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:18.033284Z'
-indexed_at: '2026-05-24T08:43:18.033290Z'
+  fetched_at: '2026-05-31T09:00:15.605673Z'
+indexed_at: '2026-05-31T09:00:15.605679Z'
 ---

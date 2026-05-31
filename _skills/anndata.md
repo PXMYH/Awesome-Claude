@@ -7,29 +7,29 @@ prompt_preview: "---\nname: anndata\ndescription: Data structure for annotated m
   \ in single-cell analysis. Use when working with .h5ad files or integrating with\
   \ the scverse ecosystem. This is the data format skill—for analysis workflows use\
   \ scanpy; for probabilistic models use scvi-tools; for population-scale queries\
-  \ use cellxgene-census.\nlicense: BSD-3-Clause license\nmetadata:\n    skill-author:\
-  \ K-Dense Inc.\n---\n\n# AnnData\n\n## Overview\n\nAnnData is a Python package for\
-  \ handling annotated data matrices, storin..."
-full_prompt_length: 10210
+  \ use cellxgene-census.\nlicense: BSD-3-Clause license\nmetadata:\n  version: \"\
+  1.0\"\n  skill-author: K-Dense Inc.\n---\n\n# AnnData\n\n## Overview\n\nAnnData\
+  \ is a Python package for handling annotated data m..."
+full_prompt_length: 10906
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/anndata/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/anndata/SKILL.md
-fetched_at: '2026-05-24T05:59:19.341518+00:00'
+source_path: skills/anndata/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/anndata/SKILL.md
+fetched_at: '2026-05-31T06:15:02.906389+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:05:25.997817Z'
+  evaluated_at: '2026-05-31T06:20:45.824817Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319d93350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621b73b60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319d93350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621b73b60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.713010Z'
-indexed_at: '2026-05-24T08:43:16.713015Z'
+  fetched_at: '2026-05-31T09:00:14.158498Z'
+indexed_at: '2026-05-31T09:00:14.158503Z'
 ---

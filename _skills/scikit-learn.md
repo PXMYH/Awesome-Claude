@@ -3,33 +3,41 @@ id: scikit-learn
 slug: scikit-learn
 name: Scikit-learn
 description: '- Official Documentation: https://scikit-learn.org/stable/'
-prompt_preview: "---\nname: scikit-learn\ndescription: Machine learning in Python\
-  \ with scikit-learn. Use when working with supervised learning (classification,\
-  \ regression), unsupervised learning (clustering, dimensionality reduction), model\
-  \ evaluation, hyperparameter tuning, preprocessing, or building ML pipelines. Provides\
-  \ comprehensive reference documentation for algorithms, preprocessing techniques,\
-  \ pipelines, and best practices.\nlicense: BSD-3-Clause license\nmetadata:\n   \
-  \ skill-author: K-Dense Inc.\n---\n\n# Scik..."
-full_prompt_length: 15523
+prompt_preview: '---
+
+  name: scikit-learn
+
+  description: Machine learning in Python with scikit-learn. Use when working with
+  supervised learning (classification, regression), unsupervised learning (clustering,
+  dimensionality reduction), model evaluation, hyperparameter tuning, preprocessing,
+  or building ML pipelines. Provides comprehensive reference documentation for algorithms,
+  preprocessing techniques, pipelines, and best practices.
+
+  license: BSD-3-Clause license
+
+  allowed-tools: Read Write Edit Bash
+
+  compatibility: R...'
+full_prompt_length: 16235
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/scikit-learn/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scikit-learn/SKILL.md
-fetched_at: '2026-05-24T05:59:32.337367+00:00'
+source_path: skills/scikit-learn/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/scikit-learn/SKILL.md
+fetched_at: '2026-05-31T06:15:15.391216+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:20:45.722890Z'
+  evaluated_at: '2026-05-31T06:36:46.516130Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73199de720 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fdaf0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73199de720 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fdaf0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.036809Z'
-indexed_at: '2026-05-24T08:43:17.036815Z'
+  fetched_at: '2026-05-31T09:00:14.514614Z'
+indexed_at: '2026-05-31T09:00:14.514620Z'
 ---

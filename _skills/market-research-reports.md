@@ -18,7 +18,7 @@ prompt_preview: '---
   allowed-tools: Read Write Edit Bash
 
   license: M...'
-full_prompt_length: 28671
+full_prompt_length: 28686
 tools_mentioned:
 - python
 - Rest
@@ -26,19 +26,19 @@ tools_mentioned:
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/market-research-reports/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/market-research-reports/SKILL.md
-fetched_at: '2026-05-24T05:59:25.639043+00:00'
+source_path: skills/market-research-reports/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/market-research-reports/SKILL.md
+fetched_at: '2026-05-31T06:15:08.870197+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:12:46.044139Z'
+  evaluated_at: '2026-05-31T06:28:24.620699Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319806060 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397290 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319806060 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397290 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.868195Z'
-indexed_at: '2026-05-24T08:43:16.868201Z'
+  fetched_at: '2026-05-31T09:00:14.330675Z'
+indexed_at: '2026-05-31T09:00:14.330681Z'
 ---

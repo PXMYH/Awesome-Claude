@@ -11,25 +11,25 @@ prompt_preview: "---\nname: aws-mcp-setup\ndescription: Configure AWS MCP server
   \  - Bash(claude mcp *)\n  - Bash(c..."
 full_prompt_length: 5183
 tools_mentioned:
-- aws
-- Python
 - AWS
+- Python
+- aws
 category: infrastructure
 category_display: Infrastructure
 source_repo: zxkane/aws-skills
 source_path: plugins/aws-common/skills/aws-mcp-setup/SKILL.md
 source_url: https://github.com/zxkane/aws-skills/blob/main/plugins/aws-common/skills/aws-mcp-setup/SKILL.md
-fetched_at: '2026-05-24T06:02:32.112748+00:00'
+fetched_at: '2026-05-31T06:17:52.847966+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T08:43:00.182673Z'
+  evaluated_at: '2026-05-31T08:59:57.697778Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319690bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397290 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319690bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397290 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:19.993469Z'
-indexed_at: '2026-05-24T08:43:19.993475Z'
+  fetched_at: '2026-05-31T09:00:17.686438Z'
+indexed_at: '2026-05-31T09:00:17.686443Z'

@@ -15,25 +15,25 @@ prompt_preview: '---
   or unit curation.
 
   license: MIT...'
-full_prompt_length: 11465
+full_prompt_length: 11480
 tools_mentioned:
 - python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/neuropixels-analysis/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/neuropixels-analysis/SKILL.md
-fetched_at: '2026-05-24T05:59:26.906629+00:00'
+source_path: skills/neuropixels-analysis/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/neuropixels-analysis/SKILL.md
+fetched_at: '2026-05-31T06:15:10.027771+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:14:15.381062Z'
+  evaluated_at: '2026-05-31T06:29:58.566128Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319669520 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397170 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319669520 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397170 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.899733Z'
-indexed_at: '2026-05-24T08:43:16.899739Z'
+  fetched_at: '2026-05-31T09:00:14.363718Z'
+indexed_at: '2026-05-31T09:00:14.363724Z'
 ---

@@ -3,46 +3,32 @@ slug: latex-posters
 name: LaTeX Research Posters
 description: Load these templates and customize for your specific research and conference
   requirements.
-prompt_preview: '---
-
-  name: latex-posters
-
-  description: "Create professional research posters in LaTeX using beamerposter,
-  tikzposter, or baposter. Support for conference presentations, academic posters,
-  and scientific communication. Includes layout design, color schemes, multi-column
-  formats, figure integration, and poster-specific best practices for visual communication."
-
-  allowed-tools: Read Write Edit Bash
-
-  ---
-
-
-  # LaTeX Research Posters
-
-
-  ## Overview
-
-
-  Research posters are a critical medium for scientific communic...'
-full_prompt_length: 59000
+prompt_preview: "---\nname: latex-posters\ndescription: \"Create professional research\
+  \ posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference\
+  \ presentations, academic posters, and scientific communication. Includes layout\
+  \ design, color schemes, multi-column formats, figure integration, and poster-specific\
+  \ best practices for visual communication.\"\nallowed-tools: Read Write Edit Bash\n\
+  metadata:\n  version: \"1.0\"\n---\n\n# LaTeX Research Posters\n\n## Overview\n\n\
+  Research posters are a critical med..."
+full_prompt_length: 59027
 tools_mentioned:
 - python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/latex-posters/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/latex-posters/SKILL.md
-fetched_at: '2026-05-24T05:59:25.286173+00:00'
+source_path: skills/latex-posters/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/latex-posters/SKILL.md
+fetched_at: '2026-05-31T06:15:08.467112+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:12:21.673624Z'
+  evaluated_at: '2026-05-31T06:27:50.307318Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73199cbfb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d2750 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73199cbfb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d2750 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -52,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.859543Z'
-indexed_at: '2026-05-24T08:43:16.859549Z'
+  fetched_at: '2026-05-31T09:00:14.318496Z'
+indexed_at: '2026-05-31T09:00:14.318502Z'

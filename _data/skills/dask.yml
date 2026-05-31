@@ -3,33 +3,42 @@ slug: dask
 name: Dask
 description: Load these files when users need detailed information about specific
   Dask components, operations, or patterns beyond the quick guidance provided here.
-prompt_preview: "---\nname: dask\ndescription: Distributed computing for larger-than-RAM\
-  \ pandas/NumPy workflows. Use when you need to scale existing pandas/NumPy code\
-  \ beyond memory or across clusters. Best for parallel file processing, distributed\
-  \ ML, integration with existing pandas code. For out-of-core analytics on single\
-  \ machine use vaex; for in-memory speed use polars.\nlicense: BSD-3-Clause license\n\
-  metadata:\n    skill-author: K-Dense Inc.\n---\n\n# Dask\n\n## Overview\n\nDask\
-  \ is a Python library for parallel and dis..."
-full_prompt_length: 14272
+prompt_preview: '---
+
+  name: dask
+
+  description: Distributed computing for larger-than-RAM pandas/NumPy workflows. Use
+  when you need to scale existing pandas/NumPy code beyond memory or across clusters.
+  Best for parallel file processing, distributed ML, integration with existing pandas
+  code. For out-of-core analytics on single machine use vaex; for in-memory speed
+  use polars.
+
+  allowed-tools: Read Write Edit Bash
+
+  license: BSD-3-Clause license
+
+  compatibility: Requires Python 3.10+ and dask 2025.1+. DataFrame workflows n...'
+full_prompt_length: 15380
 tools_mentioned:
 - python
 - Python
+- Azure
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/dask/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/dask/SKILL.md
-fetched_at: '2026-05-24T05:59:21.198608+00:00'
+source_path: skills/dask/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/dask/SKILL.md
+fetched_at: '2026-05-31T06:15:04.722592+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:07:37.150192Z'
+  evaluated_at: '2026-05-31T06:23:04.384176Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731a1b6d80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621a7b7a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731a1b6d80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621a7b7a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +48,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.758503Z'
-indexed_at: '2026-05-24T08:43:16.758510Z'
+  fetched_at: '2026-05-31T09:00:14.210665Z'
+indexed_at: '2026-05-31T09:00:14.210671Z'

@@ -7,32 +7,38 @@ prompt_preview: '---
 
   name: sympy
 
-  description: Use this skill when working with symbolic mathematics in Python. This
-  skill should be used for symbolic computation tasks including solving equations
-  algebraically, performing calculus operations (derivatives, integrals, limits),
-  manipulating algebraic expressions, working with matrices symbolically, physics
-  calculations, number theory problems, geometry computations, and generating executable
-  code from mathematical expressions. Apply this skill when the user needs e...'
-full_prompt_length: 13467
+  description: Use when you need exact symbolic math in Python — algebra, calculus,
+  equation solving, symbolic linear algebra, or code generation via lambdify/LaTeX.
+  Prefer NumPy or SciPy when floating-point approximations are sufficient.
+
+  license: https://github.com/sympy/sympy/blob/master/LICENSE
+
+  allowed-tools: Read Write Edit Bash
+
+  compatibility: Requires Python 3.9+ and SymPy 1.14+. Optional NumPy/SciPy/Matplotlib
+  for lambdify examples; C/Fortran compiler for autowrap/codegen.
+
+  me...'
+full_prompt_length: 13631
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/sympy/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/sympy/SKILL.md
-fetched_at: '2026-05-24T05:59:33.553629+00:00'
+source_path: skills/sympy/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/sympy/SKILL.md
+fetched_at: '2026-05-31T06:15:16.440291+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:22:07.453516Z'
+  evaluated_at: '2026-05-31T06:38:08.313759Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966b650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56218ba0c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966b650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56218ba0c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.065598Z'
-indexed_at: '2026-05-24T08:43:17.065605Z'
+  fetched_at: '2026-05-31T09:00:14.544437Z'
+indexed_at: '2026-05-31T09:00:14.544443Z'
 ---

@@ -13,26 +13,26 @@ prompt_preview: '---
   and machine learning on large datasets. Apply when users need to work with large
   CSV/HDF5/Arrow/Parquet files, perform fast statistics on massive datasets, create
   visualizations of big data, or build ML pipelines that do not fit in memor...'
-full_prompt_length: 6596
+full_prompt_length: 7941
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/vaex/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/vaex/SKILL.md
-fetched_at: '2026-05-24T05:59:34.646159+00:00'
+source_path: skills/vaex/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/vaex/SKILL.md
+fetched_at: '2026-05-31T06:15:17.436913+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:23:21.605146Z'
+  evaluated_at: '2026-05-31T06:39:21.522846Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319805e50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621d4da00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319805e50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621d4da00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.095006Z'
-indexed_at: '2026-05-24T08:43:17.095012Z'
+  fetched_at: '2026-05-31T09:00:14.571490Z'
+indexed_at: '2026-05-31T09:00:14.571496Z'
 ---

@@ -3,35 +3,35 @@ id: benchling-integration
 slug: benchling-integration
 name: Benchling Integration
 description: '- **Official Documentation:** https://docs.benchling.com'
-prompt_preview: "---\nname: benchling-integration\ndescription: Benchling R&D platform\
-  \ integration. Access registry (DNA, proteins), inventory, ELN entries, workflows\
-  \ via API, build Benchling Apps, query Data Warehouse, for lab data management automation.\n\
-  license: Unknown\ncompatibility: Requires a Benchling account and API key\nmetadata:\n\
-  \    skill-author: K-Dense Inc.\n---\n\n# Benchling Integration\n\n## Overview\n\
-  \nBenchling is a cloud platform for life sciences R&D. Access registry entities\
-  \ (DNA, proteins), inventory,..."
-full_prompt_length: 13061
+prompt_preview: "---\nname: benchling-integration\ndescription: Benchling Python SDK\
+  \ and REST API integration for registry entities, inventory, ELN entries, workflows,\
+  \ Benchling Apps, and Data Warehouse queries. Use when automating lab data with\
+  \ benchling-sdk or the v2 API.\nlicense: MIT\nallowed-tools: Read Write Edit Bash\n\
+  compatibility: Requires a Benchling account, tenant URL, and API key or OAuth app\
+  \ credentials. Install benchling-sdk with uv pip install.\nmetadata:\n  version:\
+  \ \"1.2\"\n  skill-author: K-Dense Inc.\n-..."
+full_prompt_length: 15668
 tools_mentioned:
 - python
+- AWS
 - REST
 - Python
-- AWS
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/benchling-integration/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/benchling-integration/SKILL.md
-fetched_at: '2026-05-24T05:59:19.782351+00:00'
+source_path: skills/benchling-integration/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/benchling-integration/SKILL.md
+fetched_at: '2026-05-31T06:15:03.315579+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:05:59.277214Z'
+  evaluated_at: '2026-05-31T06:21:18.179037Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983a1e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d2b40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983a1e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d2b40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.724388Z'
-indexed_at: '2026-05-24T08:43:16.724394Z'
+  fetched_at: '2026-05-31T09:00:14.170745Z'
+indexed_at: '2026-05-31T09:00:14.170750Z'
 ---

@@ -7,28 +7,28 @@ prompt_preview: "---\nname: pyopenms\ndescription: Complete mass spectrometry an
   \ protein quantification, and complex LC-MS/MS pipelines. Supports extensive file\
   \ formats and algorithms. Best for proteomics, comprehensive MS data processing.\
   \ For simple spectral comparison and metabolite ID use matchms.\nlicense: 3 clause\
-  \ BSD license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# PyOpenMS\n\n\
-  ## Overview\n\nPyOpenMS provides Python bin..."
-full_prompt_length: 5626
+  \ BSD license\nmetadata:\n  version: \"1.0\"\n  skill-author: K-Dense Inc.\n---\n\
+  \n# PyOpenMS\n\n## Overview\n\nPyOpenMS prov..."
+full_prompt_length: 5641
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/pyopenms/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pyopenms/SKILL.md
-fetched_at: '2026-05-24T05:59:30.059513+00:00'
+source_path: skills/pyopenms/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pyopenms/SKILL.md
+fetched_at: '2026-05-31T06:15:13.213103+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:18:03.194205Z'
+  evaluated_at: '2026-05-31T06:34:04.344189Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966a600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621563830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966a600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621563830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.979635Z'
-indexed_at: '2026-05-24T08:43:16.979640Z'
+  fetched_at: '2026-05-31T09:00:14.454270Z'
+indexed_at: '2026-05-31T09:00:14.454276Z'

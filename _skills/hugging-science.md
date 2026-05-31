@@ -9,32 +9,32 @@ prompt_preview: '---
 
   name: hugging-science
 
-  description: Use when the user is doing AI/ML work in a scientific domain — biology,
-  chemistry, physics, astronomy, climate, genomics, materials science, medicine, ecology,
-  energy, conservation, engineering, mathematics, scientific reasoning, drug discovery,
-  protein design, weather modeling, theorem proving, single-cell, PDE solving, or
-  anything similar. Hugging Science (huggingscience.co) is a curated catalog of scientific
-  datasets, models, blog posts, and interactive...'
-full_prompt_length: 10526
+  description: Use when the user is doing AI/ML work in a scientific domain such as
+  biology, chemistry, physics, astronomy, climate, genomics, materials, medicine,
+  ecology, energy, engineering, math, drug discovery, protein design, weather modeling,
+  theorem proving, single-cell, or PDE solving. Hugging Science is a curated catalog
+  of scientific datasets, models, blog posts, and interactive Spaces. This skill helps
+  discover and use resources via `datasets`, `transformers`,...'
+full_prompt_length: 9775
 tools_mentioned:
 - python
 - go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/hugging-science/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/hugging-science/SKILL.md
-fetched_at: '2026-05-24T05:59:24.192773+00:00'
+source_path: skills/hugging-science/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/hugging-science/SKILL.md
+fetched_at: '2026-05-31T06:15:07.465124+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:11:08.601443Z'
+  evaluated_at: '2026-05-31T06:26:36.513182Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73199cb9b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d0200 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73199cb9b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d0200 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.832828Z'
-indexed_at: '2026-05-24T08:43:16.832836Z'
+  fetched_at: '2026-05-31T09:00:14.291030Z'
+indexed_at: '2026-05-31T09:00:14.291037Z'
 ---

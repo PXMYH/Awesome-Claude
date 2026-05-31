@@ -19,17 +19,17 @@ category_display: Community
 source_repo: rebelytics/one-skill-to-rule-them-all
 source_path: SKILL.md
 source_url: https://github.com/rebelytics/one-skill-to-rule-them-all/blob/main/SKILL.md
-fetched_at: '2026-05-24T06:02:02.484605+00:00'
+fetched_at: '2026-05-31T06:17:28.528569+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T08:27:27.490674Z'
+  evaluated_at: '2026-05-31T08:44:30.425633Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319691c10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621396810 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319691c10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621396810 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:19.670247Z'
-indexed_at: '2026-05-24T08:43:19.670253Z'
+  fetched_at: '2026-05-31T09:00:17.343048Z'
+indexed_at: '2026-05-31T09:00:17.343054Z'
 ---

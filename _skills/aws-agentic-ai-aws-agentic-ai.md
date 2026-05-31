@@ -12,28 +12,28 @@ prompt_preview: "---\nname: aws-agentic-ai\naliases:\n  - bedrock-agentcore\ndes
   \ when user mentions Agent..."
 full_prompt_length: 10059
 tools_mentioned:
-- aws
 - REST
-- AWS
-- FastAPI
 - fastapi
+- FastAPI
 - Docker
+- AWS
+- aws
 category: infrastructure
 category_display: Infrastructure
 source_repo: zxkane/aws-skills
 source_path: plugins/aws-agentic-ai/skills/aws-agentic-ai/SKILL.md
 source_url: https://github.com/zxkane/aws-skills/blob/main/plugins/aws-agentic-ai/skills/aws-agentic-ai/SKILL.md
-fetched_at: '2026-05-24T06:02:31.690744+00:00'
+fetched_at: '2026-05-31T06:17:52.513200+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T08:42:43.773804Z'
+  evaluated_at: '2026-05-31T08:59:41.516959Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319692750 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56219e74a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319692750 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56219e74a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:19.987382Z'
-indexed_at: '2026-05-24T08:43:19.987396Z'
+  fetched_at: '2026-05-31T09:00:17.680001Z'
+indexed_at: '2026-05-31T09:00:17.680012Z'
 ---

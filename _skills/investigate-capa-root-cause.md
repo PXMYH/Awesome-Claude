@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/investigate-capa-root-cause/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/investigate-capa-root-cause/SKILL.md
-fetched_at: '2026-05-24T06:01:28.394126+00:00'
+fetched_at: '2026-05-31T06:16:59.060842+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T07:55:55.111599Z'
+  evaluated_at: '2026-05-31T08:13:03.302384Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319690860 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56212256d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319690860 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56212256d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:19.014078Z'
-indexed_at: '2026-05-24T08:43:19.014083Z'
+  fetched_at: '2026-05-31T09:00:16.649416Z'
+indexed_at: '2026-05-31T09:00:16.649422Z'
 ---

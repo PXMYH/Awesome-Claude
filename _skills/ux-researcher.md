@@ -23,31 +23,31 @@ prompt_preview: '---
   You are a senior UX researcher with expertise in uncovering dee...'
 full_prompt_length: 6807
 tools_mentioned: []
-category: 08-business-product
-category_display: 08 Business Product
+category: business-product
+category_display: Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/ux-researcher.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/ux-researcher.md
-fetched_at: '2026-05-30T05:46:47.338902Z'
+fetched_at: '2026-05-31T06:15:41.587432+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-30T06:04:52.553073Z'
+  evaluated_at: '2026-05-31T07:03:28.448252Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efd88280da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fcce0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efd88280da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fcce0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 20858
-  forks: 2436
-  open_issues: 5
+  stars: 20921
+  forks: 2445
+  open_issues: 7
   last_commit: '2026-05-27'
-  fetched_at: '2026-05-30T05:47:07.689299Z'
-indexed_at: '2026-05-30T06:12:11.371206Z'
+  fetched_at: '2026-05-31T06:17:54.586436Z'
+indexed_at: '2026-05-31T09:00:15.113679Z'
 ---

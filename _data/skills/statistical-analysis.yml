@@ -7,28 +7,28 @@ prompt_preview: "---\nname: statistical-analysis\ndescription: Guided statistica
   \ tests for your data, assumption checking, power analysis, and APA-formatted results.\
   \ Best for academic research reporting, test selection guidance. For implementing\
   \ specific models programmatically use statsmodels.\nlicense: MIT license\nmetadata:\n\
-  \    skill-author: K-Dense Inc.\n---\n\n# Statistical Analysis\n\n## Overview\n\n\
-  Statistical analysis is a syst..."
-full_prompt_length: 19620
+  \  version: \"1.0\"\n  skill-author: K-Dense Inc.\n---\n\n# Statistical Analysis\n\
+  \n## Overview\n\nStatistical ana..."
+full_prompt_length: 20751
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/statistical-analysis/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/statistical-analysis/SKILL.md
-fetched_at: '2026-05-24T05:59:33.315755+00:00'
+source_path: skills/statistical-analysis/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/statistical-analysis/SKILL.md
+fetched_at: '2026-05-31T06:15:16.229048+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:21:51.194934Z'
+  evaluated_at: '2026-05-31T06:37:52.139322Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731a597f80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fc1a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731a597f80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fc1a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.059565Z'
-indexed_at: '2026-05-24T08:43:17.059571Z'
+  fetched_at: '2026-05-31T09:00:14.538399Z'
+indexed_at: '2026-05-31T09:00:14.538407Z'

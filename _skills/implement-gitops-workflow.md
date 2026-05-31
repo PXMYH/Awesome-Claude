@@ -13,24 +13,24 @@ prompt_preview: "---\nname: implement-gitops-workflow\ndescription: >\n  Impleme
   \ promotion workflows,\n  enforcing co..."
 full_prompt_length: 14756
 tools_mentioned:
-- Kubernetes
 - kubernetes
+- Kubernetes
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/implement-gitops-workflow/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/implement-gitops-workflow/SKILL.md
-fetched_at: '2026-05-24T06:01:26.624858+00:00'
+fetched_at: '2026-05-31T06:16:57.504633+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T07:54:09.465590Z'
+  evaluated_at: '2026-05-31T08:11:18.069827Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319838b00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397d70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319838b00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397d70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:18.976843Z'
-indexed_at: '2026-05-24T08:43:18.976848Z'
+  fetched_at: '2026-05-31T09:00:16.610514Z'
+indexed_at: '2026-05-31T09:00:16.610519Z'
 ---

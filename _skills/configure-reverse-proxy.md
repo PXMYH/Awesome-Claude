@@ -12,26 +12,26 @@ prompt_preview: "---\r\nname: configure-reverse-proxy\r\ndescription: >\r\n  Con
   \ SSL termination to services that don't\r\n  h..."
 full_prompt_length: 8366
 tools_mentioned:
-- WebSocket
-- docker
-- websocket
 - Docker
+- docker
+- WebSocket
+- websocket
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/configure-reverse-proxy/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/configure-reverse-proxy/SKILL.md
-fetched_at: '2026-05-24T06:01:12.218655+00:00'
+fetched_at: '2026-05-31T06:16:45.380096+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T07:40:08.987807Z'
+  evaluated_at: '2026-05-31T07:57:22.198393Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319691610 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397650 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319691610 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397650 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:18.688438Z'
-indexed_at: '2026-05-24T08:43:18.688444Z'
+  fetched_at: '2026-05-31T09:00:16.303982Z'
+indexed_at: '2026-05-31T09:00:16.303996Z'
 ---

@@ -21,31 +21,31 @@ prompt_preview: '---
   Your job is to help teams understand how groups of users b...'
 full_prompt_length: 3843
 tools_mentioned: []
-category: 10-research-analysis
-category_display: 10 Research Analysis
+category: research-analysis
+category_display: Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/cohort-analysis.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/cohort-analysis.md
-fetched_at: '2026-05-30T05:46:51.122008Z'
+fetched_at: '2026-05-31T06:15:43.225383+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-30T06:06:45.998671Z'
+  evaluated_at: '2026-05-31T07:05:22.422288Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efd883abef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621227740 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efd883abef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621227740 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 20858
-  forks: 2436
-  open_issues: 5
+  stars: 20921
+  forks: 2445
+  open_issues: 7
   last_commit: '2026-05-27'
-  fetched_at: '2026-05-30T05:47:07.689299Z'
-indexed_at: '2026-05-30T06:12:11.413530Z'
+  fetched_at: '2026-05-31T06:17:54.586436Z'
+indexed_at: '2026-05-31T09:00:15.155420Z'
 ---

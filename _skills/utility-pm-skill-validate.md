@@ -10,24 +10,24 @@ prompt_preview: "---\nname: utility-pm-skill-validate\ndescription: Audits an ex
   \ before shipping or after making changes.\nlicense: Apache-2.0\nmetadata:\n  classification:\
   \ utility\n  version: \"1.0.0\"\n  updated: 2026-04-03\n  category: coordination\n\
   \  frameworks: [triple-di..."
-full_prompt_length: 11211
+full_prompt_length: 11274
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/utility-pm-skill-validate/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/utility-pm-skill-validate/SKILL.md
-fetched_at: '2026-05-24T06:02:00.727919+00:00'
+fetched_at: '2026-05-31T06:17:26.890746+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T08:26:46.755103Z'
+  evaluated_at: '2026-05-31T08:43:48.422580Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966b050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621a7b7a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966b050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621a7b7a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:19.656469Z'
-indexed_at: '2026-05-24T08:43:19.656475Z'
+  fetched_at: '2026-05-31T09:00:17.327973Z'
+indexed_at: '2026-05-31T09:00:17.327979Z'
 ---

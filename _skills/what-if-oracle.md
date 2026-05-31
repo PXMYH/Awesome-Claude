@@ -2,37 +2,34 @@
 id: what-if-oracle
 slug: what-if-oracle
 name: What-If Oracle — Possibility Space Explorer
-description: _"The future is not empty. It contains completed states that exert pull
-  on the present."_
-prompt_preview: '---
-
-  name: what-if-oracle
-
-  description: Run structured What-If scenario analysis with multi-branch possibility
-  exploration. Use this skill when the user asks speculative questions like "what
-  if...", "what would happen if...", "what are the possibilities", "explore scenarios",
-  "scenario analysis", "possibility space", "what could go wrong", "best case / worst
-  case", "risk analysis", "contingency planning", "strategic options", or any question
-  about uncertain futures. Also trigger when the user face...'
-full_prompt_length: 8754
+description: © 2026 Ashraf Hussein Kahoush / AHK Strategies. Licensed under CC BY-NC-SA
+  4.0. Free for personal, educational, and research use. Commercial use requires a
+  license from the author.
+prompt_preview: "---\nname: what-if-oracle\ndescription: Run structured What-If scenario\
+  \ analysis with 4–6 branch possibility exploration (best, likely, worst, wild card,\
+  \ contrarian, second-order). Use when the user asks speculative what-if questions\
+  \ about uncertain futures, strategic forks, contingency planning, or stress-testing\
+  \ a decision before committing.\nlicense: CC BY-NC-SA 4.0\nmetadata:\n  version:\
+  \ \"1.1\"\n  skill-author: AHK Strategies (ashrafkahoush-ux)\n  upstream: https://github.com/ashrafkahoush-ux/claude..."
+full_prompt_length: 9287
 tools_mentioned:
 - go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/what-if-oracle/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/what-if-oracle/SKILL.md
-fetched_at: '2026-05-24T05:59:34.908895+00:00'
+source_path: skills/what-if-oracle/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/what-if-oracle/SKILL.md
+fetched_at: '2026-05-31T06:15:17.649653+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:23:37.851964Z'
+  evaluated_at: '2026-05-31T06:39:37.851572Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319b093a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3920 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319b093a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3920 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.100522Z'
-indexed_at: '2026-05-24T08:43:17.100528Z'
+  fetched_at: '2026-05-31T09:00:14.577314Z'
+indexed_at: '2026-05-31T09:00:14.577321Z'
 ---

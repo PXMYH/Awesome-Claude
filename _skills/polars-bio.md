@@ -4,34 +4,45 @@ slug: polars-bio
 name: polars-bio
 description: '- **bioframe_migration.md** - Operation mapping table, API differences,
   performance comparison, migration code examples, and pandas compatibility mode.'
-prompt_preview: "---\nname: polars-bio\ndescription: High-performance genomic interval\
-  \ operations and bioinformatics file I/O on Polars DataFrames. Overlap, nearest,\
-  \ merge, coverage, complement, subtract for BED/VCF/BAM/GFF intervals. Streaming,\
-  \ cloud-native, faster bioframe alternative.\nlicense: https://github.com/biodatageeks/polars-bio/blob/main/LICENSE\n\
-  metadata:\n    skill-author: K-Dense Inc.\n---\n\n# polars-bio\n\n## Overview\n\n\
-  polars-bio is a high-performance Python library for genomic interval operations\
-  \ and bio..."
-full_prompt_length: 14052
+prompt_preview: '---
+
+  name: polars-bio
+
+  description: High-performance genomic interval operations and bioinformatics file
+  I/O on Polars DataFrames. Overlap, nearest, merge, coverage, complement, subtract
+  for BED/VCF/BAM/GFF intervals. Streaming, cloud-native, faster bioframe alternative.
+
+  license: Apache-2.0
+
+  allowed-tools: Read Write Edit Bash
+
+  compatibility: Requires Python 3.11–3.14 and polars-bio (uv pip install). Cloud
+  I/O uses standard AWS/GCS/Azure SDK env vars when paths use s3://, gs://, or az://
+  URIs.
+
+  metad...'
+full_prompt_length: 15147
 tools_mentioned:
 - python
+- AWS
 - Python
 - Azure
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/polars-bio/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/polars-bio/SKILL.md
-fetched_at: '2026-05-24T05:59:28.474710+00:00'
+source_path: skills/polars-bio/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/polars-bio/SKILL.md
+fetched_at: '2026-05-31T06:15:11.670080+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:16:09.120780Z'
+  evaluated_at: '2026-05-31T06:32:10.710419Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966b110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211feba0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966b110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211feba0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.939242Z'
-indexed_at: '2026-05-24T08:43:16.939248Z'
+  fetched_at: '2026-05-31T09:00:14.411764Z'
+indexed_at: '2026-05-31T09:00:14.411770Z'
 ---

@@ -9,26 +9,26 @@ prompt_preview: "---\nname: scientific-brainstorming\ndescription: Creative rese
   \ interdisciplinary connections, challenging assumptions, or identifying research\
   \ gaps. Best for early-stage research planning when you do not have specific observations\
   \ yet. For formulating testable hypotheses from data use hypothesis-generation.\n\
-  license: MIT license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# Scientific\
-  \ Brainstorming\n\n## Overview\n\nS..."
-full_prompt_length: 8173
+  license: MIT license\nmetadata:\n  version: \"1.0\"\n  skill-author: K-Dense Inc.\n\
+  ---\n\n# Scientific Brainstorming..."
+full_prompt_length: 8188
 tools_mentioned: []
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/scientific-brainstorming/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scientific-brainstorming/SKILL.md
-fetched_at: '2026-05-24T05:59:31.552742+00:00'
+source_path: skills/scientific-brainstorming/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/scientific-brainstorming/SKILL.md
+fetched_at: '2026-05-31T06:15:14.612993+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:19:48.842032Z'
+  evaluated_at: '2026-05-31T06:35:49.635899Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319967440 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213966f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319967440 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213966f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.016809Z'
-indexed_at: '2026-05-24T08:43:17.016815Z'
+  fetched_at: '2026-05-31T09:00:14.493749Z'
+indexed_at: '2026-05-31T09:00:14.493755Z'
 ---

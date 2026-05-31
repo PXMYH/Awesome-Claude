@@ -13,28 +13,28 @@ prompt_preview: '---
   BindingDB), materials (Materials Project, COD), biology/genomics (Reactome, UniProt,
   STRING, Ensembl, NCBI Gene, GEO, GTEx, PDB, AlphaFold, InterPro, BioGRID, Gene Ontology,
   dbSNP, gnomAD, ENCODE, Human Protein A...'
-full_prompt_length: 28091
+full_prompt_length: 28108
 tools_mentioned:
-- graphql
 - REST
-- GO
+- graphql
 - GraphQL
+- GO
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/database-lookup/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/database-lookup/SKILL.md
-fetched_at: '2026-05-24T05:59:21.327589+00:00'
+source_path: skills/database-lookup/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/database-lookup/SKILL.md
+fetched_at: '2026-05-31T06:15:04.835555+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:07:45.264599Z'
+  evaluated_at: '2026-05-31T06:23:12.702311Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319c243e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d29f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319c243e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d29f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.761396Z'
-indexed_at: '2026-05-24T08:43:16.761402Z'
+  fetched_at: '2026-05-31T09:00:14.213949Z'
+indexed_at: '2026-05-31T09:00:14.213955Z'
 ---

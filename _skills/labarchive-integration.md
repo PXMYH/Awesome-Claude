@@ -7,11 +7,11 @@ description: '- `api_reference.md`: Comprehensive API endpoint documentation wit
 prompt_preview: "---\nname: labarchive-integration\ndescription: Electronic lab notebook\
   \ API integration. Access notebooks, manage entries/attachments, backup notebooks,\
   \ integrate with Protocols.io/Jupyter/REDCap, for programmatic ELN workflows.\n\
-  license: Unknown\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# LabArchives\
-  \ Integration\n\n## Overview\n\nLabArchives is an electronic lab notebook platform\
-  \ for research documentation and data management. Access notebooks, manage entries\
-  \ and attachments, generate reports, and..."
-full_prompt_length: 9441
+  license: Unknown\nmetadata:\n  version: \"1.0\"\n  skill-author: K-Dense Inc.\n\
+  ---\n\n# LabArchives Integration\n\n## Overview\n\nLabArchives is an electronic\
+  \ lab notebook platform for research documentation and data management. Access notebooks,\
+  \ manage entries and attachments, genera..."
+full_prompt_length: 9456
 tools_mentioned:
 - python
 - REST
@@ -19,19 +19,19 @@ tools_mentioned:
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/labarchive-integration/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/labarchive-integration/SKILL.md
-fetched_at: '2026-05-24T05:59:24.922231+00:00'
+source_path: skills/labarchive-integration/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/labarchive-integration/SKILL.md
+fetched_at: '2026-05-31T06:15:08.157096+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:11:57.304930Z'
+  evaluated_at: '2026-05-31T06:27:26.029049Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983baa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397980 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983baa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397980 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.850992Z'
-indexed_at: '2026-05-24T08:43:16.850998Z'
+  fetched_at: '2026-05-31T09:00:14.309392Z'
+indexed_at: '2026-05-31T09:00:14.309398Z'
 ---

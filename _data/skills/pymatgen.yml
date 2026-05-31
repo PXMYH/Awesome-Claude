@@ -5,30 +5,30 @@ description: 'Requirements:'
 prompt_preview: "---\nname: pymatgen\ndescription: Materials science toolkit. Crystal\
   \ structures (CIF, POSCAR), phase diagrams, band structure, DOS, Materials Project\
   \ integration, format conversion, for computational materials science.\nlicense:\
-  \ MIT license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# Pymatgen - Python\
-  \ Materials Genomics\n\n## Overview\n\nPymatgen is a comprehensive Python library\
-  \ for materials analysis that powers the Materials Project. Create, analyze, and\
-  \ manipulate crystal structures and molecul..."
-full_prompt_length: 20021
+  \ MIT license\nmetadata:\n  version: \"1.0\"\n  skill-author: K-Dense Inc.\n---\n\
+  \n# Pymatgen - Python Materials Genomics\n\n## Overview\n\nPymatgen is a comprehensive\
+  \ Python library for materials analysis that powers the Materials Project. Create,\
+  \ analyze, and manipulate crystal structu..."
+full_prompt_length: 20036
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/pymatgen/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pymatgen/SKILL.md
-fetched_at: '2026-05-24T05:59:29.705534+00:00'
+source_path: skills/pymatgen/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pymatgen/SKILL.md
+fetched_at: '2026-05-31T06:15:12.855489+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:17:38.813198Z'
+  evaluated_at: '2026-05-31T06:33:39.764487Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966b2f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56221979b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966b2f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56221979b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.971255Z'
-indexed_at: '2026-05-24T08:43:16.971261Z'
+  fetched_at: '2026-05-31T09:00:14.445256Z'
+indexed_at: '2026-05-31T09:00:14.445262Z'

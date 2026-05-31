@@ -4,30 +4,30 @@ name: PrimeKG Knowledge Graph Skill
 description: '### Data Path'
 prompt_preview: "---\nname: primekg\ndescription: Query the Precision Medicine Knowledge\
   \ Graph (PrimeKG) for multiscale biological data including genes, drugs, diseases,\
-  \ phenotypes, and more.\nlicense: Unknown\nmetadata:\n    skill-author: K-Dense\
-  \ Inc. (PrimeKG original from Harvard MIMS)\n---\n\n# PrimeKG Knowledge Graph Skill\n\
-  \n## Overview\n\nPrimeKG is a precision medicine knowledge graph that integrates\
-  \ over 20 primary databases and high-quality scientific literature into a single\
-  \ resource. It contains over 100,000 nod..."
-full_prompt_length: 3821
+  \ phenotypes, and more.\nlicense: Unknown\nmetadata:\n  version: \"1.0\"\n  skill-author:\
+  \ K-Dense Inc. (PrimeKG original from Harvard MIMS)\n---\n\n# PrimeKG Knowledge\
+  \ Graph Skill\n\n## Overview\n\nPrimeKG is a precision medicine knowledge graph\
+  \ that integrates over 20 primary databases and high-quality scientific literature\
+  \ into a single resource. It contains o..."
+full_prompt_length: 3836
 tools_mentioned:
 - python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/primekg/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/primekg/SKILL.md
-fetched_at: '2026-05-24T05:59:28.917305+00:00'
+source_path: skills/primekg/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/primekg/SKILL.md
+fetched_at: '2026-05-31T06:15:12.086847+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:16:41.774320Z'
+  evaluated_at: '2026-05-31T06:32:43.052623Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983a420 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621563830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983a420 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621563830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.951134Z'
-indexed_at: '2026-05-24T08:43:16.951139Z'
+  fetched_at: '2026-05-31T09:00:14.423920Z'
+indexed_at: '2026-05-31T09:00:14.423926Z'

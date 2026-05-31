@@ -5,33 +5,33 @@ description: ''
 prompt_preview: "---\nname: markitdown\ndescription: Convert files and office documents\
   \ to Markdown. Supports PDF, DOCX, PPTX, XLSX, images (with OCR), audio (with transcription),\
   \ HTML, CSV, JSON, XML, ZIP, YouTube URLs, EPubs and more.\nallowed-tools: Read\
-  \ Write Edit Bash\nlicense: MIT license\nmetadata:\n    skill-author: K-Dense Inc.\n\
-  ---\n\n# MarkItDown - File to Markdown Conversion\n\n## Overview\n\nMarkItDown is\
-  \ a Python tool developed by Microsoft for converting various file formats to Markdown.\
-  \ It's particularly usef..."
-full_prompt_length: 12628
+  \ Write Edit Bash\nlicense: MIT license\nmetadata:\n  version: \"1.0\"\n  skill-author:\
+  \ K-Dense Inc.\n---\n\n# MarkItDown - File to Markdown Conversion\n\n## Overview\n\
+  \nMarkItDown is a Python tool developed by Microsoft for converting various file\
+  \ formats to Markdown. It's pa..."
+full_prompt_length: 12643
 tools_mentioned:
 - python
+- docker
+- Docker
 - Python
 - Azure
-- Docker
-- docker
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/markitdown/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/markitdown/SKILL.md
-fetched_at: '2026-05-24T05:59:25.754190+00:00'
+source_path: skills/markitdown/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/markitdown/SKILL.md
+fetched_at: '2026-05-31T06:15:08.970980+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:12:54.177304Z'
+  evaluated_at: '2026-05-31T06:28:32.700776Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319806f30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213965d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319806f30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213965d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.871352Z'
-indexed_at: '2026-05-24T08:43:16.871359Z'
+  fetched_at: '2026-05-31T09:00:14.333839Z'
+indexed_at: '2026-05-31T09:00:14.333845Z'

@@ -2,33 +2,42 @@ id: cobrapy
 slug: cobrapy
 name: COBRApy - Constraint-Based Reconstruction and Analysis
 description: 'Official documentation: https://cobrapy.readthedocs.io/en/latest/'
-prompt_preview: "---\nname: cobrapy\ndescription: Constraint-based metabolic modeling\
-  \ (COBRA). FBA, FVA, gene knockouts, flux sampling, SBML models, for systems biology\
-  \ and metabolic engineering analysis.\nlicense: GPL-2.0 license\nmetadata:\n   \
-  \ skill-author: K-Dense Inc.\n---\n\n# COBRApy - Constraint-Based Reconstruction\
-  \ and Analysis\n\n## Overview\n\nCOBRApy is a Python library for constraint-based\
-  \ reconstruction and analysis (COBRA) of metabolic models, essential for systems\
-  \ biology research. Work with genome-scale met..."
-full_prompt_length: 12450
+prompt_preview: '---
+
+  name: cobrapy
+
+  description: Constraint-based metabolic modeling (COBRA). FBA, FVA, gene knockouts,
+  flux sampling, SBML models, for systems biology and metabolic engineering analysis.
+
+  license: GPL-2.0 license
+
+  allowed-tools: Read Write Edit Bash
+
+  compatibility: Requires Python 3.9+ (cobra 0.30+ dropped 3.8). Install with uv pip
+  install. GLPK (swiglpk) is the default solver; CPLEX/Gurobi optional. load_model
+  fetches from bundled data, BiGG, or BioModels (network required for remote models).
+
+  metad...'
+full_prompt_length: 14478
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/cobrapy/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/cobrapy/SKILL.md
-fetched_at: '2026-05-24T05:59:20.974495+00:00'
+source_path: skills/cobrapy/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/cobrapy/SKILL.md
+fetched_at: '2026-05-31T06:15:04.503401+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:07:20.868722Z'
+  evaluated_at: '2026-05-31T06:22:48.192778Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731a003020 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d1c70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731a003020 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d1c70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +47,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.752782Z'
-indexed_at: '2026-05-24T08:43:16.752787Z'
+  fetched_at: '2026-05-31T09:00:14.204557Z'
+indexed_at: '2026-05-31T09:00:14.204563Z'

@@ -12,26 +12,26 @@ prompt_preview: "---\r\nname: skill-name-here\r\ndescription: >\r\n  One to thre
   \ Write Edit Bash Grep Glob\r\nmetadata:\r\n  author: Your Name..."
 full_prompt_length: 2659
 tools_mentioned:
-- TypeScript
-- Docker
-- Python
 - Rust
+- TypeScript
+- Python
+- Docker
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/_template/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/_template/SKILL.md
-fetched_at: '2026-05-24T06:01:02.150446+00:00'
+fetched_at: '2026-05-31T06:16:37.063501+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T07:30:29.944384Z'
+  evaluated_at: '2026-05-31T07:47:47.220011Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966a150 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d1fa0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731966a150 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d1fa0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:18.489228Z'
-indexed_at: '2026-05-24T08:43:18.489235Z'
+  fetched_at: '2026-05-31T09:00:16.091807Z'
+indexed_at: '2026-05-31T09:00:16.091813Z'
 ---

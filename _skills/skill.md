@@ -18,17 +18,17 @@ category_display: Community
 source_repo: agent-cards/skill
 source_path: SKILL.md
 source_url: https://github.com/agent-cards/skill/blob/main/SKILL.md
-fetched_at: '2026-05-24T06:00:01.926109+00:00'
+fetched_at: '2026-05-31T06:15:46.045581+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:49:47.713723Z'
+  evaluated_at: '2026-05-31T07:06:59.772814Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319f1e8a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621227aa0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319f1e8a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621227aa0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.641536Z'
-indexed_at: '2026-05-24T08:43:17.641547Z'
+  fetched_at: '2026-05-31T09:00:15.191146Z'
+indexed_at: '2026-05-31T09:00:15.191151Z'
 ---

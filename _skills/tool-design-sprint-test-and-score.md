@@ -22,17 +22,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/tool-design-sprint-test-and-score/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/tool-design-sprint-test-and-score/SKILL.md
-fetched_at: '2026-05-24T06:01:58.588231+00:00'
+fetched_at: '2026-05-31T06:17:25.206663+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T08:24:36.496132Z'
+  evaluated_at: '2026-05-31T08:41:37.967171Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198076b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3b60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73198076b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3b60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:19.607036Z'
-indexed_at: '2026-05-24T08:43:19.607042Z'
+  fetched_at: '2026-05-31T09:00:17.278928Z'
+indexed_at: '2026-05-31T09:00:17.278933Z'
 ---

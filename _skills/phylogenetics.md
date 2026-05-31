@@ -7,29 +7,29 @@ prompt_preview: "---\nname: phylogenetics\ndescription: Build and analyze phylog
   \ trees using MAFFT (multiple alignment), IQ-TREE 2 (maximum likelihood), and FastTree\
   \ (fast NJ/ML). Visualize with ETE3 or FigTree. For evolutionary analysis, microbial\
   \ genomics, viral phylodynamics, protein family analysis, and molecular clock studies.\n\
-  license: Unknown\nmetadata:\n    skill-author: Kuan-lin Huang\n---\n\n# Phylogenetics\n\
-  \n## Overview\n\nPhylogenetic analysis reconstructs the evolutionary history of\
-  \ biological sequences..."
-full_prompt_length: 13879
+  license: Unknown\nmetadata:\n  version: \"1.0\"\n  skill-author: Kuan-lin Huang\n\
+  ---\n\n# Phylogenetics\n\n## Overview\n\nPhylogenetic analysis reconstructs the\
+  \ evolutionary history of biolog..."
+full_prompt_length: 13894
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/phylogenetics/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/phylogenetics/SKILL.md
-fetched_at: '2026-05-24T05:59:28.361889+00:00'
+source_path: skills/phylogenetics/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/phylogenetics/SKILL.md
+fetched_at: '2026-05-31T06:15:11.569829+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:16:00.983777Z'
+  evaluated_at: '2026-05-31T06:32:02.612337Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319839550 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211ff680 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319839550 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211ff680 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.936394Z'
-indexed_at: '2026-05-24T08:43:16.936399Z'
+  fetched_at: '2026-05-31T09:00:14.408696Z'
+indexed_at: '2026-05-31T09:00:14.408702Z'
 ---

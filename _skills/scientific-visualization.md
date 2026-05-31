@@ -9,28 +9,28 @@ prompt_preview: "---\nname: scientific-visualization\ndescription: Meta-skill fo
   \ multi-panel layouts, significance annotations, error bars, colorblind-safe palettes,\
   \ and specific journal formatting (Nature, Science, Cell). Orchestrates matplotlib/seaborn/plotly\
   \ with publication styles. For quick exploration use seaborn or plotly directly.\n\
-  license: MIT license\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# Scientific\
-  \ Visualization..."
-full_prompt_length: 25514
+  license: MIT license\nmetadata:\n  version: \"1.0\"\n  skill-author: K-Dense Inc.\n\
+  ---\n\n# Scientific..."
+full_prompt_length: 25485
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/scientific-visualization/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scientific-visualization/SKILL.md
-fetched_at: '2026-05-24T05:59:32.012837+00:00'
+source_path: skills/scientific-visualization/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/scientific-visualization/SKILL.md
+fetched_at: '2026-05-31T06:15:15.057588+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:20:21.343472Z'
+  evaluated_at: '2026-05-31T06:36:21.945915Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73199666f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621563ec0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73199666f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621563ec0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.028237Z'
-indexed_at: '2026-05-24T08:43:17.028243Z'
+  fetched_at: '2026-05-31T09:00:14.505622Z'
+indexed_at: '2026-05-31T09:00:14.505628Z'
 ---

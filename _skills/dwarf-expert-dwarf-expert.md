@@ -27,17 +27,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/dwarf-expert/skills/dwarf-expert/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/dwarf-expert/skills/dwarf-expert/SKILL.md
-fetched_at: '2026-05-24T06:02:14.315476+00:00'
+fetched_at: '2026-05-31T06:17:37.825427+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T08:33:51.031724Z'
+  evaluated_at: '2026-05-31T08:50:52.919417Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731955dcd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621224380 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731955dcd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621224380 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:19.802518Z'
-indexed_at: '2026-05-24T08:43:19.802524Z'
+  fetched_at: '2026-05-31T09:00:17.483159Z'
+indexed_at: '2026-05-31T09:00:17.483165Z'
 ---

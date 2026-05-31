@@ -8,28 +8,28 @@ prompt_preview: "---\nname: clinical-reports\ndescription: Write comprehensive c
   \ clinical trial reports (ICH-E3, SAE, CSR), and patient documentation (SOAP, H&P,\
   \ discharge summaries). Full support with templates, regulatory compliance (HIPAA,\
   \ FDA, ICH-GCP), and validation tools.\nallowed-tools: Read Write Edit Bash\nlicense:\
-  \ MIT License\nmetadata:\n    skill-author: K-Dense Inc.\n---\n\n# Clinical Report\
-  \ Writing\n\n## Ove..."
-full_prompt_length: 39686
+  \ MIT License\nmetadata:\n  version: \"1.0\"\n  skill-author: K-Dense Inc.\n---\n\
+  \n# Clinical Report..."
+full_prompt_length: 39701
 tools_mentioned:
 - python
 - GCP
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/clinical-reports/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/clinical-reports/SKILL.md
-fetched_at: '2026-05-24T05:59:20.866880+00:00'
+source_path: skills/clinical-reports/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/clinical-reports/SKILL.md
+fetched_at: '2026-05-31T06:15:04.402551+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:07:12.738292Z'
+  evaluated_at: '2026-05-31T06:22:40.113037Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983bc20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56214fc560 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731983bc20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56214fc560 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.750011Z'
-indexed_at: '2026-05-24T08:43:16.750017Z'
+  fetched_at: '2026-05-31T09:00:14.201596Z'
+indexed_at: '2026-05-31T09:00:14.201602Z'
 ---

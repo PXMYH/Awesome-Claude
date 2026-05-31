@@ -12,26 +12,26 @@ prompt_preview: '---
   detects file type and generates detailed markdown reports with format-specific analysis,
   quality metrics, and downstream analysis recommendations. Covers chemistry, bioinformatics,
   microscopy, spectroscop...'
-full_prompt_length: 14302
+full_prompt_length: 14317
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/exploratory-data-analysis/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/exploratory-data-analysis/SKILL.md
-fetched_at: '2026-05-24T05:59:22.726884+00:00'
+source_path: skills/exploratory-data-analysis/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/exploratory-data-analysis/SKILL.md
+fetched_at: '2026-05-31T06:15:06.091862+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:09:22.825945Z'
+  evaluated_at: '2026-05-31T06:24:49.960306Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319839f70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d0cb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319839f70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d0cb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.795754Z'
-indexed_at: '2026-05-24T08:43:16.795759Z'
+  fetched_at: '2026-05-31T09:00:14.251523Z'
+indexed_at: '2026-05-31T09:00:14.251530Z'

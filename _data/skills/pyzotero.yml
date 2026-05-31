@@ -1,7 +1,9 @@
 id: pyzotero
 slug: pyzotero
 name: Pyzotero
-description: '### Local mode (read-only, no API key needed)'
+description: For searching a locally running Zotero desktop app (including full-text
+  PDF search), use the CLI or MCP server instead of the Web API. Both require Zotero
+  7 with local API access enabled. See [referen...
 prompt_preview: '---
 
   name: pyzotero
@@ -14,26 +16,26 @@ prompt_preview: '---
   that integrate with Zotero.
 
   allowed-tools: Read Write E...'
-full_prompt_length: 4396
+full_prompt_length: 5343
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/pyzotero/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pyzotero/SKILL.md
-fetched_at: '2026-05-24T05:59:30.516179+00:00'
+source_path: skills/pyzotero/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pyzotero/SKILL.md
+fetched_at: '2026-05-31T06:15:13.640691+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:18:35.681000Z'
+  evaluated_at: '2026-05-31T06:34:36.698248Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319b09b20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621563830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319b09b20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621563830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,5 +45,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:16.990943Z'
-indexed_at: '2026-05-24T08:43:16.990949Z'
+  fetched_at: '2026-05-31T09:00:14.466249Z'
+indexed_at: '2026-05-31T09:00:14.466261Z'

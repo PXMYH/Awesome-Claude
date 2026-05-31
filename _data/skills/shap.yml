@@ -13,26 +13,26 @@ prompt_preview: '---
   force, heatmap), debugging models, analyzing model bias or fairness, comparing models,
   or implementing explainable AI. Works with tree-based models (XGBoost, LightGBM,
   Random Forest), deep learning (TensorFlow, PyTorch), linear mod...'
-full_prompt_length: 18405
+full_prompt_length: 18420
 tools_mentioned:
 - python
 - go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/shap/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/shap/SKILL.md
-fetched_at: '2026-05-24T05:59:32.976048+00:00'
+source_path: skills/shap/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/shap/SKILL.md
+fetched_at: '2026-05-31T06:15:15.922717+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:21:26.815638Z'
+  evaluated_at: '2026-05-31T06:37:27.560987Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73199667b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397ef0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f73199667b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397ef0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +42,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.051108Z'
-indexed_at: '2026-05-24T08:43:17.051114Z'
+  fetched_at: '2026-05-31T09:00:14.529483Z'
+indexed_at: '2026-05-31T09:00:14.529490Z'

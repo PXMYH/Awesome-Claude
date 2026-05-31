@@ -15,24 +15,24 @@ prompt_preview: '---
   assessment, learning synthesis, and next-cycle recommendations. Refuses to retroactively
   change targets or shrink committed scope, average away guardrail KRs, treat 0.7
   as success for committed or compliance_or_safety KRs...'
-full_prompt_length: 16639
+full_prompt_length: 16758
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/measure-okr-grader/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/measure-okr-grader/SKILL.md
-fetched_at: '2026-05-24T06:01:57.475270+00:00'
+fetched_at: '2026-05-31T06:17:24.305797+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T08:23:31.543882Z'
+  evaluated_at: '2026-05-31T08:40:32.920212Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319669a30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d1460 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319669a30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d1460 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:19.583965Z'
-indexed_at: '2026-05-24T08:43:19.583970Z'
+  fetched_at: '2026-05-31T09:00:17.254018Z'
+indexed_at: '2026-05-31T09:00:17.254024Z'
 ---

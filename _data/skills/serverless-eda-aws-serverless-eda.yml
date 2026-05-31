@@ -15,28 +15,28 @@ prompt_preview: '---
   queues, pub/sub, or wants to build scal...'
 full_prompt_length: 12846
 tools_mentioned:
-- aws
-- REST
 - AWS
-- TypeScript
-- Python
+- REST
 - typescript
+- Python
+- TypeScript
+- aws
 category: infrastructure
 category_display: Infrastructure
 source_repo: zxkane/aws-skills
 source_path: plugins/serverless-eda/skills/aws-serverless-eda/SKILL.md
 source_url: https://github.com/zxkane/aws-skills/blob/main/plugins/serverless-eda/skills/aws-serverless-eda/SKILL.md
-fetched_at: '2026-05-24T06:02:32.546944+00:00'
+fetched_at: '2026-05-31T06:17:53.192344+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T08:43:16.439718Z'
+  evaluated_at: '2026-05-31T09:00:13.884658Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319691610 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56218ba0c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7319691610 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56218ba0c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:19.999129Z'
-indexed_at: '2026-05-24T08:43:19.999135Z'
+  fetched_at: '2026-05-31T09:00:17.692438Z'
+indexed_at: '2026-05-31T09:00:17.692444Z'

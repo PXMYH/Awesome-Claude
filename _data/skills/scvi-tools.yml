@@ -6,29 +6,29 @@ prompt_preview: "---\nname: scvi-tools\ndescription: Deep generative models for 
   \ omics. Use when you need probabilistic batch correction (scVI), transfer learning,\
   \ differential expression with uncertainty, or multi-modal integration (TOTALVI,\
   \ MultiVI). Best for advanced modeling, batch effects, multimodal data. For standard\
-  \ analysis pipelines use scanpy.\nlicense: BSD-3-Clause license\nmetadata:\n   \
-  \ skill-author: K-Dense Inc.\n---\n\n# scvi-tools\n\n## Overview\n\nscvi-tools is\
-  \ a comprehensive Python framework f..."
-full_prompt_length: 7235
+  \ analysis pipelines use scanpy.\nlicense: BSD-3-Clause license\nmetadata:\n  version:\
+  \ \"1.1\"\n  skill-author: K-Dense Inc.\n---\n\n# scvi-tools\n\n## Overview\n\n\
+  scvi-tools is a comprehensive Pyt..."
+full_prompt_length: 8291
 tools_mentioned:
 - python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
-source_path: scientific-skills/scvi-tools/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/scvi-tools/SKILL.md
-fetched_at: '2026-05-24T05:59:32.740878+00:00'
+source_path: skills/scvi-tools/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/scvi-tools/SKILL.md
+fetched_at: '2026-05-31T06:15:15.706290+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-24T06:21:10.576762Z'
+  evaluated_at: '2026-05-31T06:37:11.266470Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731a153b60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d0ad0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f731a153b60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d0ad0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-24T08:43:17.045343Z'
-indexed_at: '2026-05-24T08:43:17.045353Z'
+  fetched_at: '2026-05-31T09:00:14.523484Z'
+indexed_at: '2026-05-31T09:00:14.523490Z'
