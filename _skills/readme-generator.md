@@ -22,31 +22,31 @@ prompt_preview: '---
   operate on...'
 full_prompt_length: 6749
 tools_mentioned: []
-category: developer-experience
-category_display: Developer Experience
+category: 06-developer-experience
+category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/readme-generator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/readme-generator.md
-fetched_at: '2026-05-31T06:15:37.726545+00:00'
+fetched_at: '2026-06-01T06:53:51.665968Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T06:59:00.624462Z'
+  evaluated_at: '2026-06-01T07:07:32.971219Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56216e0710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe2a8423f50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56216e0710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe2a8423f50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 20921
-  forks: 2445
-  open_issues: 7
+  stars: 20987
+  forks: 2457
+  open_issues: 8
   last_commit: '2026-05-27'
-  fetched_at: '2026-05-31T06:17:54.586436Z'
-indexed_at: '2026-05-31T09:00:15.015422Z'
+  fetched_at: '2026-06-01T06:54:12.559654Z'
+indexed_at: '2026-06-01T07:19:25.800981Z'
 ---
