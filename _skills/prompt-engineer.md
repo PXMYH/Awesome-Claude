@@ -29,26 +29,26 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/prompt-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/prompt-engineer.md
-fetched_at: '2026-06-04T06:41:14.351879Z'
+fetched_at: '2026-06-05T06:20:59.491654Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-04T06:53:22.290937Z'
+  evaluated_at: '2026-06-05T06:33:15.879675Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3253022330 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3ba9ce5460 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3253022330 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3ba9ce5460 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 21161
-  forks: 2482
-  open_issues: 11
+  stars: 21221
+  forks: 2486
+  open_issues: 10
   last_commit: '2026-05-27'
-  fetched_at: '2026-06-04T06:41:33.624139Z'
-indexed_at: '2026-06-04T07:07:47.262093Z'
+  fetched_at: '2026-06-05T06:21:29.515821Z'
+indexed_at: '2026-06-05T06:46:49.409122Z'
 ---
