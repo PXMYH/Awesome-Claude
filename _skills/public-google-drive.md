@@ -26,17 +26,17 @@ category_display: Community
 source_repo: zagmoai/public-google-drive
 source_path: SKILL.md
 source_url: https://github.com/zagmoai/public-google-drive/blob/main/SKILL.md
-fetched_at: '2026-05-31T06:17:51.272908+00:00'
+fetched_at: '2026-06-07T06:29:24.801472+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:59:25.342800Z'
+  evaluated_at: '2026-06-07T10:04:02.463666Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621560ef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621560ef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:17.673953Z'
-indexed_at: '2026-05-31T09:00:17.673959Z'
+  fetched_at: '2026-06-07T10:04:55.892852Z'
+indexed_at: '2026-06-07T10:04:55.892858Z'
 ---

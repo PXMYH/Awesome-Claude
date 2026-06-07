@@ -12,27 +12,27 @@ prompt_preview: "---\r\nname: audit-dependency-versions\r\ndescription: >\r\n  A
   \ to CRAN or npm, or when inheriting a projec..."
 full_prompt_length: 12832
 tools_mentioned:
-- rest
-- Node.js
 - Rust
-- Docker
 - Python
+- Node.js
+- rest
+- Docker
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/audit-dependency-versions/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/audit-dependency-versions/SKILL.md
-fetched_at: '2026-05-31T06:16:40.264729+00:00'
+fetched_at: '2026-06-07T06:27:05.311170+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:51:25.599995Z'
+  evaluated_at: '2026-06-07T08:50:28.342200Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213978f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc39e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213978f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc39e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:16.172131Z'
-indexed_at: '2026-05-31T09:00:16.172137Z'
+  fetched_at: '2026-06-07T10:04:54.348687Z'
+indexed_at: '2026-06-07T10:04:54.348692Z'
 ---

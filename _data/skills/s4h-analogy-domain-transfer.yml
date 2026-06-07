@@ -1,0 +1,51 @@
+id: s4h-analogy-domain-transfer
+slug: s4h-analogy-domain-transfer
+name: Analogy Domain Transfer
+description: '- **Question:** "Domain transfer complete. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-analogy-domain-transfer
+
+  description: "Imports solutions from unrelated domains by finding structural similarities
+  between your problem and solved problems elsewhere. Triggers: ''cross-domain analogy'',
+  ''what solves this elsewhere'', ''find a parallel problem'', ''look outside this
+  field'', ''borrow a solution''."
+
+  ---
+
+
+  # Analogy Domain Transfer
+
+
+  Your field has blind spots that your field created. The best solutions to structural
+
+  problems often exist already — in biology, military strategy, a...'
+full_prompt_length: 4741
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-analogy-domain-transfer/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-analogy-domain-transfer/SKILL.md
+fetched_at: '2026-06-07T06:25:16.867860+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:03:31.991079Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67bf0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67bf0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.369329Z'
+indexed_at: '2026-06-07T10:04:53.369335Z'

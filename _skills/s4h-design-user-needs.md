@@ -1,0 +1,52 @@
+---
+id: s4h-design-user-needs
+slug: s4h-design-user-needs
+name: 'Design: User Needs'
+description: '- **Question:** "Needs mapped. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-design-user-needs
+
+  description: "Distinguishes real needs from stated wants — uses jobs-to-be-done
+  and latent need mapping to find what actually matters. Triggers: ''what do users
+  actually need'', ''jobs to be done'', ''understand the user'', ''find the real need'',
+  ''stated want versus actual need'', ''user research'', ''what problem are we solving''."
+
+  ---
+
+
+  # Design: User Needs
+
+
+  The most common design failure is building the wrong thing well. People don''t articulate
+  needs — they articulate solut...'
+full_prompt_length: 6882
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-design-user-needs/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-design-user-needs/SKILL.md
+fetched_at: '2026-06-07T06:25:25.073717+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:08:56.073088Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8be60 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8be60 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.481792Z'
+indexed_at: '2026-06-07T10:04:53.481797Z'
+---

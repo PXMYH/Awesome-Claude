@@ -1,0 +1,52 @@
+---
+id: s4h-sensory-structured-observation
+slug: s4h-sensory-structured-observation
+name: Structured Observation
+description: '- **Question:** "Observation complete. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-sensory-structured-observation
+
+  description: "Applies disciplined observation to a situation — suspending interpretation
+  to see what''s actually there before deciding what it means. Triggers: ''observe
+  this carefully'', ''structured observation'', ''what do you actually see'', ''suspend
+  interpretation'', ''look more carefully''."
+
+  ---
+
+
+  # Structured Observation
+
+
+  Most observation is interpretation in disguise. We perceive a situation and instantly
+  explain it — but the explanation overwrites the r...'
+full_prompt_length: 5035
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-sensory-structured-observation/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-sensory-structured-observation/SKILL.md
+fetched_at: '2026-06-07T06:26:04.712510+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:24:57.931166Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32120 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32120 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.813227Z'
+indexed_at: '2026-06-07T10:04:53.813233Z'
+---

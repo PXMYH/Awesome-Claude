@@ -1,0 +1,41 @@
+id: qdrant-performance-optimization
+slug: qdrant-performance-optimization
+name: Qdrant Performance Optimization
+description: More on memory usage optimization can be found in the [Memory Usage Optimization](memory-usage-optimization/SKILL.md)
+  skill.
+prompt_preview: "---\nname: qdrant-performance-optimization\ndescription: \"Different\
+  \ techniques to optimize the performance of Qdrant, including indexing strategies,\
+  \ query optimization, and hardware considerations. Use when you want to improve\
+  \ the speed and efficiency of your Qdrant deployment.\"\nallowed-tools:\n  - Read\n\
+  \  - Grep\n  - Glob\n---\n\n\n# Qdrant Performance Optimization\n\nThere are different\
+  \ aspects of Qdrant performance, this document serves as a navigation hub for different\
+  \ aspects of performance optimizati..."
+full_prompt_length: 1842
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: qdrant/skills
+source_path: skills/qdrant-performance-optimization/SKILL.md
+source_url: https://github.com/qdrant/skills/blob/main/skills/qdrant-performance-optimization/SKILL.md
+fetched_at: '2026-06-07T06:28:30.190945+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T09:44:19.359155Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb55b0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb55b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:55.475589Z'
+indexed_at: '2026-06-07T10:04:55.475594Z'

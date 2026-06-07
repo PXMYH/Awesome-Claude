@@ -7,11 +7,11 @@ description: '**When in doubt, cut.** Better a tight 8-track album than a bloate
 prompt_preview: "---\nname: album-conceptualizer\ndescription: Designs album concepts,\
   \ tracklist architecture, and thematic planning through 7 structured phases. Use\
   \ when planning a new album or reworking an existing album concept.\nargument-hint:\
-  \ <\"plan album about [topic]\" or album-path>\nmodel: claude-opus-4-7\nprerequisites:\n\
+  \ <\"plan album about [topic]\" or album-path>\nmodel: opus\neffort: max\nprerequisites:\n\
   \  - new-album\nallowed-tools:\n  - Read\n  - Edit\n  - Write\n  - Grep\n  - Glob\n\
   \  - bitwize-music-mcp\n---\n\n## Your Task\n\n**Input**: $ARGUMENTS\n\nWhen invoked\
-  \ for new album:\n1. Ask clarifying questi..."
-full_prompt_length: 14246
+  \ for new album:\n1. Ask clarifying quest..."
+full_prompt_length: 14247
 tools_mentioned:
 - go
 category: community
@@ -19,17 +19,17 @@ category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/album-conceptualizer/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/album-conceptualizer/SKILL.md
-fetched_at: '2026-05-31T06:15:50.973728+00:00'
+fetched_at: '2026-06-07T06:24:15.056662+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:09:34.589177Z'
+  evaluated_at: '2026-06-07T07:27:34.993475Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56212278f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc3e00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56212278f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc3e00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.247083Z'
-indexed_at: '2026-05-31T09:00:15.247089Z'
+  fetched_at: '2026-06-07T10:04:52.612509Z'
+indexed_at: '2026-06-07T10:04:52.612515Z'
 ---

@@ -1,0 +1,45 @@
+---
+id: s4h-ethics-bias-check
+slug: s4h-ethics-bias-check
+name: Ethics Bias Check
+description: '- **Question:** "Biases identified. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-ethics-bias-check
+
+  description: "Evaluate an algorithm, model, ranking system, recommendation engine,
+  or automated decision process for discriminatory patterns and unfair outcomes. Use
+  before deploying any system that makes decisions about people or ranks/filters/scores
+  people. TRIGGERS: ''bias check'', ''check this algorithm for bias'', ''is this fair'',
+  ''fairness audit'', any ML model, ranking function, scoring system, content recommendation,
+  or automated decision that differentiates bet...'
+full_prompt_length: 6273
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-ethics-bias-check/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-ethics-bias-check/SKILL.md
+fetched_at: '2026-06-07T06:25:29.661199+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:12:03.336787Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8aa80 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8aa80 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.546360Z'
+indexed_at: '2026-06-07T10:04:53.546366Z'
+---

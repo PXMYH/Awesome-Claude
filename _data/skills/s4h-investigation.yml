@@ -1,0 +1,51 @@
+id: s4h-investigation
+slug: s4h-investigation
+name: Investigation
+description: '- **Question:** "Investigation complete. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-investigation
+
+  description: "Entry point for the investigation toolkit. Routes to the right investigation
+  skill based on what you''re trying to establish. Use when you say ''investigate'',
+  ''verify this'', ''check this claim'', ''where does this come from'', ''is this
+  true'', ''trace the source'', ''stress-test this belief'', ''what''s the evidence'',
+  ''could something else explain this'', or want to know whether something you''ve
+  heard is actually true."
+
+  ---
+
+
+  # Investigation
+
+
+  Practical truth-finding me...'
+full_prompt_length: 6500
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-investigation/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-investigation/SKILL.md
+fetched_at: '2026-06-07T06:25:38.238014+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:17:45.697934Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc1c70 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc1c70 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.664478Z'
+indexed_at: '2026-06-07T10:04:53.664483Z'

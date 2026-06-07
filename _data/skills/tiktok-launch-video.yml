@@ -1,0 +1,41 @@
+id: tiktok-launch-video
+slug: tiktok-launch-video
+name: TikTok Launch Video
+description: '- `/reddit-launch-video` — same pattern for Reddit''s idiomatic format'
+prompt_preview: "---\nname: tiktok-launch-video\ndescription: Produce a 9:16 TikTok-native\
+  \ launch video for a product, feature, or campaign using HyperFrames. Idiomatic\
+  \ TikTok pacing, burned-in captions, hook-in-1s structure. Optionally hand off to\
+  \ TikTok Ads to launch as a Spark/in-feed ad.\nversion: \"1.0.0\"\nauthor: Cogny\
+  \ AI\nplatforms: [tiktok-ads, hyperframes]\nuser-invocable: true\nargument-hint:\
+  \ \"<product URL or short brief>\"\nallowed-tools:\n  - WebFetch\n  - WebSearch\n\
+  \  - Bash\n  - Read\n  - Write\n  - Edit\n  # Cogny..."
+full_prompt_length: 10922
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: cognyai/claude-code-marketing-skills
+source_path: skills/tiktok-launch-video/SKILL.md
+source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/tiktok-launch-video/SKILL.md
+fetched_at: '2026-06-07T06:24:40.790786+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T07:43:57.120902Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc23c0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc23c0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:52.958481Z'
+indexed_at: '2026-06-07T10:04:52.958487Z'

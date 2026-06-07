@@ -6,12 +6,12 @@ description: Use **Sonnet 4.5** - This is a coordination/reporting task, not cre
   work.
 prompt_preview: "---\nname: resume\ndescription: Finds an album by name and shows\
   \ detailed status with next steps. Use when the user mentions an album name or wants\
-  \ to continue previous work.\nargument-hint: <album-name>\nmodel: claude-sonnet-4-6\n\
-  allowed-tools:\n  - Read\n  - Glob\n  - Bash\n  - bitwize-music-mcp\n---\n\n# Resume\
-  \ Album Work\n\n**Purpose**: Find an album and resume work where you left off.\n\
-  \n**Usage**:\n```\n/bitwize-music:resume <album-name>\n/bitwize-music:resume my-album\n\
-  /bitwize-music:resume \"demo album\"\n```..."
-full_prompt_length: 10417
+  \ to continue previous work.\nargument-hint: <album-name>\nmodel: sonnet\neffort:\
+  \ low\nallowed-tools:\n  - Read\n  - Glob\n  - Bash\n  - bitwize-music-mcp\n---\n\
+  \n# Resume Album Work\n\n**Purpose**: Find an album and resume work where you left\
+  \ off.\n\n**Usage**:\n```\n/bitwize-music:resume <album-name>\n/bitwize-music:resume\
+  \ my-album\n/bitwize-music:resume \"demo album\"\n```..."
+full_prompt_length: 10418
 tools_mentioned:
 - go
 category: community
@@ -19,17 +19,17 @@ category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/resume/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/resume/SKILL.md
-fetched_at: '2026-05-31T06:15:55.151164+00:00'
+fetched_at: '2026-06-07T06:24:22.729828+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:15:08.909034Z'
+  evaluated_at: '2026-06-07T07:33:07.191679Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56218bb3b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65610 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56218bb3b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65610 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.370690Z'
-indexed_at: '2026-05-31T09:00:15.370696Z'
+  fetched_at: '2026-06-07T10:04:52.732747Z'
+indexed_at: '2026-06-07T10:04:52.732753Z'
 ---

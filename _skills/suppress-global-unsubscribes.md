@@ -12,24 +12,24 @@ prompt_preview: "---\nname: suppress-global-unsubscribes\ndescription: >\n  Iden
   \ cannot legally be sent marketing emails un..."
 full_prompt_length: 13328
 tools_mentioned:
-- python
 - Python
+- python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/suppress-global-unsubscribes/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/suppress-global-unsubscribes/SKILL.md
-fetched_at: '2026-05-31T06:15:25.077353+00:00'
+fetched_at: '2026-06-07T06:23:22.279247+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T06:45:29.003871Z'
+  evaluated_at: '2026-06-07T06:59:26.489190Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d2510 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88bf0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d2510 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88bf0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:14.707751Z'
-indexed_at: '2026-05-31T09:00:14.707761Z'
+  fetched_at: '2026-06-07T10:04:52.017983Z'
+indexed_at: '2026-06-07T10:04:52.017988Z'
 ---

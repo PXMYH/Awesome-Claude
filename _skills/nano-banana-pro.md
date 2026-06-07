@@ -1,0 +1,42 @@
+---
+id: nano-banana-pro
+slug: nano-banana-pro
+name: Nano Banana Pro (Gemini 3 Pro Image)
+description: '- Resolutions: `1K` (default), `2K`, `4K`.'
+prompt_preview: "---\nname: nano-banana-pro\ndescription: Generate or edit images\
+  \ via Gemini 3 Pro Image (Nano Banana Pro). Use when asked to create, generate,\
+  \ or edit images and a Gemini API key is available. Supports text-to-image generation,\
+  \ single-image editing, and multi-image composition (up to 14 images).\nmetadata:\n\
+  \  {\n    \"openclaw\":\n      {\n        \"emoji\": \"\U0001F34C\",\n        \"\
+  requires\": { \"bins\": [\"uv\"], \"env\": [\"GEMINI_API_KEY\"] },\n        \"primaryEnv\"\
+  : \"GEMINI_API_KEY\",\n        \"install\":\n          [..."
+full_prompt_length: 1922
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: swarmclawai/swarmclaw
+source_path: skills/nano-banana-pro/SKILL.md
+source_url: https://github.com/swarmclawai/swarmclaw/blob/main/skills/nano-banana-pro/SKILL.md
+fetched_at: '2026-06-07T06:28:42.544981+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T09:49:18.910049Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33020 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33020 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:55.579087Z'
+indexed_at: '2026-06-07T10:04:55.579092Z'
+---

@@ -11,7 +11,7 @@ prompt_preview: '---
   plugin. Use when the user asks for help, what skills are available, or how to do
   something.
 
-  model: claude-haiku-4-5-20251001
+  model: haiku
 
   allowed-tools: []
 
@@ -34,8 +34,10 @@ prompt_preview: '---
 
   - `/bitwize-music:tutorial` - Interactive guided album creation
 
-  - `/bitwize-music:configure` - Set up...'
-full_prompt_length: 6208
+  - `/bitwize-music:configure` - Set up configuration file
+
+  -...'
+full_prompt_length: 6113
 tools_mentioned:
 - AWS
 category: community
@@ -43,17 +45,17 @@ category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/help/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/help/SKILL.md
-fetched_at: '2026-05-31T06:15:51.973329+00:00'
+fetched_at: '2026-06-07T06:24:16.948269+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:10:56.256805Z'
+  evaluated_at: '2026-06-07T07:28:55.809895Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211ff9e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45000dc380 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211ff9e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45000dc380 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -63,6 +65,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.277065Z'
-indexed_at: '2026-05-31T09:00:15.277071Z'
+  fetched_at: '2026-06-07T10:04:52.641862Z'
+indexed_at: '2026-06-07T10:04:52.641871Z'
 ---

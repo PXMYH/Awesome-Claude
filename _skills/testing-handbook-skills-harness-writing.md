@@ -13,8 +13,8 @@ prompt_preview: "---\nname: harness-writing\ntype: technique\ndescription: >\n  
   \ critical bugs are found. A poorly writte..."
 full_prompt_length: 20943
 tools_mentioned:
-- Python
 - Rust
+- Python
 - rust
 - go
 category: security
@@ -22,17 +22,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/harness-writing/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/harness-writing/SKILL.md
-fetched_at: '2026-05-31T06:17:42.314287+00:00'
+fetched_at: '2026-06-07T06:29:10.153378+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:54:49.244640Z'
+  evaluated_at: '2026-06-07T09:59:19.018611Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56215b53a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc660f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56215b53a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc660f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:17.571458Z'
-indexed_at: '2026-05-31T09:00:17.571464Z'
+  fetched_at: '2026-06-07T10:04:55.792503Z'
+indexed_at: '2026-06-07T10:04:55.792508Z'
 ---

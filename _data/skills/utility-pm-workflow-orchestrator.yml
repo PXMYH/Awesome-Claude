@@ -1,0 +1,44 @@
+id: utility-pm-workflow-orchestrator
+slug: utility-pm-workflow-orchestrator
+name: PM Workflow Orchestrator (Dispatch Skill)
+description: '- Canonical sub-agent definition: [`agents/pm-workflow-orchestrator.md`](../../agents/pm-workflow-orchestrator.md)'
+prompt_preview: '---
+
+  name: utility-pm-workflow-orchestrator
+
+  description: Run an ordered sequence of pm-skills against one input via the pm-workflow-orchestrator
+  sub-agent, pausing for go/no-go and stopping on a failed or empty step. Dispatches
+  natively on Claude Code with the pm-skills plugin (invokes @agent-pm-skills:pm-workflow-orchestrator,
+  which delegates each step through the Skill tool); on non-Claude clients (Codex
+  CLI, Cursor, Windsurf, Copilot, Gemini CLI) reads agents/pm-workflow-orchestrator.md
+  and wa...'
+full_prompt_length: 9464
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: product-on-purpose/pm-skills
+source_path: skills/utility-pm-workflow-orchestrator/SKILL.md
+source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/utility-pm-workflow-orchestrator/SKILL.md
+fetched_at: '2026-06-07T06:28:28.200829+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T09:43:22.272128Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67bf0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67bf0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:55.455690Z'
+indexed_at: '2026-06-07T10:04:55.455695Z'

@@ -7,11 +7,11 @@ description: '- **Preserve exact casing** - If user says "bitwize", use "bitwize
 prompt_preview: "---\nname: tutorial\ndescription: Provides interactive guided album\
   \ creation for new users. Use when the user is new to the plugin or asks for a walkthrough\
   \ of the album creation process.\nargument-hint: <new-album | resume | help>\nmodel:\
-  \ claude-sonnet-4-6\nallowed-tools:\n  - Read\n  - Write\n  - Edit\n  - Glob\n \
-  \ - Grep\n  - Bash\n  - AskUserQuestion\n  - bitwize-music-mcp\n---\n\n## Your Task\n\
-  \n**Input**: $ARGUMENTS\n\nRoute based on argument:\n- `new-album` or no argument\
-  \ → Start guided album creation\n- `resum..."
-full_prompt_length: 9355
+  \ sonnet\neffort: low\nallowed-tools:\n  - Read\n  - Write\n  - Edit\n  - Glob\n\
+  \  - Grep\n  - Bash\n  - AskUserQuestion\n  - bitwize-music-mcp\n---\n\n## Your\
+  \ Task\n\n**Input**: $ARGUMENTS\n\nRoute based on argument:\n- `new-album` or no\
+  \ argument → Start guided album creation\n- `resu..."
+full_prompt_length: 9356
 tools_mentioned:
 - go
 category: community
@@ -19,17 +19,17 @@ category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/tutorial/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/tutorial/SKILL.md
-fetched_at: '2026-05-31T06:15:55.848475+00:00'
+fetched_at: '2026-06-07T06:24:23.789597+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:16:05.617131Z'
+  evaluated_at: '2026-06-07T07:33:57.022387Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3e00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450016a5a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3e00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450016a5a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.391456Z'
-indexed_at: '2026-05-31T09:00:15.391462Z'
+  fetched_at: '2026-06-07T10:04:52.750157Z'
+indexed_at: '2026-06-07T10:04:52.750162Z'
 ---

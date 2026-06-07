@@ -12,25 +12,25 @@ prompt_preview: "---\nname: plan-capacity\ndescription: >\n  Perform capacity pl
   \ Edit Bash Grep Glob\nmetadata:\n  author..."
 full_prompt_length: 11198
 tools_mentioned:
+- Kubernetes
 - python
 - Python
-- Kubernetes
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/plan-capacity/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/plan-capacity/SKILL.md
-fetched_at: '2026-05-31T06:17:04.165612+00:00'
+fetched_at: '2026-06-07T06:27:48.335449+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:18:55.025352Z'
+  evaluated_at: '2026-06-07T09:17:57.097450Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88ce0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88ce0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:16.777260Z'
-indexed_at: '2026-05-31T09:00:16.777265Z'
+  fetched_at: '2026-06-07T10:04:54.924177Z'
+indexed_at: '2026-06-07T10:04:54.924183Z'

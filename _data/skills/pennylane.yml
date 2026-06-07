@@ -9,30 +9,31 @@ prompt_preview: '---
   description: Hardware-agnostic quantum ML framework with automatic differentiation.
   Use when training quantum circuits via gradients, building hybrid quantum-classical
   models, or needing device portability across IBM/Google/Rigetti/IonQ. Best for variational
-  algorithms (VQE, QAOA), quantum neural networks, and integration with PyTorch/JAX/TensorFlow.
-  For hardware-specific optimizations use qiskit (IBM) or cirq (Google); for open
-  quantum systems use qutip.
+  algorithms (VQE, QAOA), quantum neural networks, and integration with PyTorch or
+  JAX. For hardware-specific optimizations use qiskit (IBM) or cirq (Google); for
+  open quantum systems use qutip.
 
-  license: Apache-2.0...'
-full_prompt_length: 7412
+  license: Apache-2.0 license...'
+full_prompt_length: 8350
 tools_mentioned:
+- Python
 - python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pennylane/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pennylane/SKILL.md
-fetched_at: '2026-05-31T06:15:11.472619+00:00'
+fetched_at: '2026-06-07T06:22:59.269207+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T06:31:54.528888Z'
+  evaluated_at: '2026-06-07T06:45:43.765851Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56218e3d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8af00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56218e3d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8af00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +43,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:14.405714Z'
-indexed_at: '2026-05-31T09:00:14.405732Z'
+  fetched_at: '2026-06-07T10:04:51.716197Z'
+indexed_at: '2026-06-07T10:04:51.716205Z'

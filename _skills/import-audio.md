@@ -7,11 +7,11 @@ description: Use `resolve_path` with the appropriate `path_type` ("content", "au
 prompt_preview: "---\nname: import-audio\ndescription: Moves audio files to the correct\
   \ album location with proper path structure. Use when the user has downloaded WAV\
   \ files from Suno or other sources that need to be organized.\nargument-hint: <file-path>\
-  \ <album-name> [track-slug]\nmodel: claude-haiku-4-5-20251001\nallowed-tools:\n\
-  \  - Read\n  - Bash\n  - bitwize-music-mcp\n---\n\n## Your Task\n\n**Input**: $ARGUMENTS\n\
-  \nImport an audio file (WAV, MP3, etc.) to the correct album location based on config.\n\
-  \n---\n\n# Import Audio Sk..."
-full_prompt_length: 6030
+  \ <album-name> [track-slug]\nmodel: haiku\nallowed-tools:\n  - Read\n  - Bash\n\
+  \  - bitwize-music-mcp\n---\n\n## Your Task\n\n**Input**: $ARGUMENTS\n\nImport an\
+  \ audio file (WAV, MP3, etc.) to the correct album location based on config.\n\n\
+  ---\n\n# Import Audio Skill\n\nYou move audio..."
+full_prompt_length: 6010
 tools_mentioned:
 - go
 category: community
@@ -19,17 +19,17 @@ category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/import-audio/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/import-audio/SKILL.md
-fetched_at: '2026-05-31T06:15:52.175263+00:00'
+fetched_at: '2026-06-07T06:24:17.318774+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:11:12.438592Z'
+  evaluated_at: '2026-06-07T07:29:11.981640Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56219893a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500678e90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56219893a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500678e90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.282919Z'
-indexed_at: '2026-05-31T09:00:15.282929Z'
+  fetched_at: '2026-06-07T10:04:52.647569Z'
+indexed_at: '2026-06-07T10:04:52.647575Z'
 ---

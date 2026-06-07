@@ -1,0 +1,52 @@
+---
+id: imprint
+slug: imprint
+name: Imprint
+description: Gets better every session. Corrections become permanent preferences.
+  Lessons become permanent immunity. The more you use it, the less you need to explain.
+prompt_preview: '---
+
+  name: imprint
+
+  description: "Your habits, imprinted on AI. Learns how you work from conversation,
+  builds a portable profile, applies it across every session, project, and platform.
+  Use this skill whenever the user starts a new session, opens a project, writes code,
+  reviews code, debugs, plans features, writes commits, generates documents, or does
+  anything related to work. If .dna.md does not exist yet, start the onboarding conversation
+  before doing anything else. This skill should be active i...'
+full_prompt_length: 15156
+tools_mentioned:
+- go
+- React
+- Vue
+- rest
+- vue
+- react
+category: community
+category_display: Community
+source_repo: ilang-ai/Imprint
+source_path: skills/imprint/SKILL.md
+source_url: https://github.com/ilang-ai/Imprint/blob/main/skills/imprint/SKILL.md
+fetched_at: '2026-06-07T06:26:15.238469+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:31:28.838250Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2840 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2840 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.947254Z'
+indexed_at: '2026-06-07T10:04:53.947259Z'
+---

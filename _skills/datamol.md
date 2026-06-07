@@ -20,25 +20,25 @@ prompt_preview: '---
   compatibility: Requires Python 3.8+ and datamol (uv pip install). RD...'
 full_prompt_length: 20652
 tools_mentioned:
-- python
 - AWS
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/datamol/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/datamol/SKILL.md
-fetched_at: '2026-05-31T06:15:04.937742+00:00'
+fetched_at: '2026-06-07T06:22:47.108701+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T06:23:20.788726Z'
+  evaluated_at: '2026-06-07T06:37:16.606388Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d0200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500131c10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d0200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500131c10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:14.217274Z'
-indexed_at: '2026-05-31T09:00:14.217281Z'
+  fetched_at: '2026-06-07T10:04:51.526081Z'
+indexed_at: '2026-06-07T10:04:51.526090Z'
 ---

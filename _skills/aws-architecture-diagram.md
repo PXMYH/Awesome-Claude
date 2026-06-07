@@ -1,0 +1,56 @@
+---
+id: aws-architecture-diagram
+slug: aws-architecture-diagram
+name: AWS Architecture Diagram Skill
+description: '- XML reference: https://raw.githubusercontent.com/jgraph/drawio-mcp/main/shared/xml-reference.md'
+prompt_preview: '---
+
+  name: aws-architecture-diagram
+
+  description: Always use when user asks to create, generate, or build an AWS architecture
+  diagram, cloud infrastructure diagram, or system diagram with AWS services. Also
+  activates for draw.io diagrams mentioning AWS services like Lambda, DynamoDB, S3,
+  API Gateway, etc.
+
+  ---
+
+
+  # AWS Architecture Diagram Skill
+
+
+  Generate AWS architecture diagrams as native `.drawio` files using official AWS
+  Architecture Icons. Optionally export to PNG, SVG, or PDF with embedded XML...'
+full_prompt_length: 13374
+tools_mentioned:
+- go
+- aws
+- gRPC
+- AWS
+category: infrastructure
+category_display: Infrastructure
+source_repo: vidanov/aws-architecture-diagram-skill
+source_path: skills/aws-architecture-diagram/SKILL.md
+source_url: https://github.com/vidanov/aws-architecture-diagram-skill/blob/main/skills/aws-architecture-diagram/SKILL.md
+fetched_at: '2026-06-07T06:29:17.328401+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T10:02:16.889169Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc886e0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc886e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:55.856656Z'
+indexed_at: '2026-06-07T10:04:55.856662Z'
+---

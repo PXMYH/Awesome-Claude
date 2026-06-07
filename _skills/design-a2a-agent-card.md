@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/design-a2a-agent-card/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/design-a2a-agent-card/SKILL.md
-fetched_at: '2026-05-31T06:16:50.120336+00:00'
+fetched_at: '2026-06-07T06:27:23.327021+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:02:46.591253Z'
+  evaluated_at: '2026-06-07T09:01:49.878915Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3fb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0dc40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3fb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0dc40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:16.422554Z'
-indexed_at: '2026-05-31T09:00:16.422564Z'
+  fetched_at: '2026-06-07T10:04:54.587621Z'
+indexed_at: '2026-06-07T10:04:54.587627Z'
 ---

@@ -1,0 +1,51 @@
+id: s4h-ecology-succession
+slug: s4h-ecology-succession
+name: 'Ecology: Succession'
+description: '- **Question:** "Succession stage mapped. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-ecology-succession
+
+  description: "Applies ecological succession to understand how systems evolve through
+  stages — pioneer, consolidation, climax, and disturbance. Use when asked ''what
+  stage are we at'', ''where are we in the cycle'', ''what comes next'', ''the old
+  model isn''t working anymore'', ''we''re in transition'', or ''what does disruption
+  mean for us''."
+
+  ---
+
+
+  # Ecology: Succession
+
+
+  Ecological succession describes the predictable sequence by which communities change
+  over time. A bare rock...'
+full_prompt_length: 9877
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-ecology-succession/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-ecology-succession/SKILL.md
+fetched_at: '2026-06-07T06:25:26.043057+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:09:37.066252Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65dc0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65dc0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.495868Z'
+indexed_at: '2026-06-07T10:04:53.495873Z'

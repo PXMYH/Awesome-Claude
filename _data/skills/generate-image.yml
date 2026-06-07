@@ -18,17 +18,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/generate-image/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/generate-image/SKILL.md
-fetched_at: '2026-05-31T06:15:06.410327+00:00'
+fetched_at: '2026-06-07T06:22:49.936060+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T06:25:14.455825Z'
+  evaluated_at: '2026-06-07T06:39:09.863770Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621c17440 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65ee0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621c17440 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65ee0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:14.260845Z'
-indexed_at: '2026-05-31T09:00:14.260851Z'
+  fetched_at: '2026-06-07T10:04:51.567531Z'
+indexed_at: '2026-06-07T10:04:51.567537Z'

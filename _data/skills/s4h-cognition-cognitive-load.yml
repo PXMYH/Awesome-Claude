@@ -1,0 +1,43 @@
+id: s4h-cognition-cognitive-load
+slug: s4h-cognition-cognitive-load
+name: 'Cognition: Cognitive Load'
+description: '- **Question:** "Cognitive load analysis complete. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-cognition-cognitive-load
+
+  description: "Manages the limits of working memory — chunking, offloading, and reducing
+  unnecessary complexity to free capacity for what matters. Use when asked ''this
+  is too complex to hold in my head'', ''I keep losing track of where I am'', ''how
+  do I make this simpler to think about'', ''the design is overwhelming'', ''people
+  aren''t retaining this'', or when information architecture, learning design, or
+  communication complexity needs to be optimised for working m...'
+full_prompt_length: 10059
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-cognition-cognitive-load/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-cognition-cognitive-load/SKILL.md
+fetched_at: '2026-06-07T06:25:17.871717+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:04:12.463564Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2600 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2600 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.383358Z'
+indexed_at: '2026-06-07T10:04:53.383364Z'

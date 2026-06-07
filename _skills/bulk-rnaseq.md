@@ -19,24 +19,24 @@ tools_mentioned:
 - go
 - Go
 - python
-- docker
 - Python
+- docker
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/bulk-rnaseq/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/bulk-rnaseq/SKILL.md
-fetched_at: '2026-05-31T06:15:03.860677+00:00'
+fetched_at: '2026-06-07T06:22:45.178851+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T06:21:58.967186Z'
+  evaluated_at: '2026-06-07T06:35:55.329393Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d16a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500bfa3f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d16a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500bfa3f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:14.185967Z'
-indexed_at: '2026-05-31T09:00:14.185973Z'
+  fetched_at: '2026-06-07T10:04:51.496525Z'
+indexed_at: '2026-06-07T10:04:51.496535Z'
 ---

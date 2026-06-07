@@ -1,0 +1,53 @@
+---
+id: linkedin-skills
+slug: linkedin-skills
+name: LinkedIn Marketing Skills
+description: Publishing powered by the [Publora REST API](https://publora.com). Algorithm
+  insights via arXiv 2501.16450 (360Brew) and AuthoredUp 2026 reach data.
+prompt_preview: '---
+
+  name: linkedin-marketing
+
+  description: Plan, draft, audit, and publish LinkedIn posts and comments. Use when
+  the user wants to write a viral LinkedIn post, draft a comment or reply on any LinkedIn
+  post URL, audit a draft against 2026 algorithm heuristics, remove AI tells, extract
+  hook formulas from viral posts, or plan a week of content. Powered by the Publora
+  API for publishing. User provides post/comment URLs, skill drafts content, user
+  approves, then publishes.
+
+  ---
+
+
+  # LinkedIn Marketing Sk...'
+full_prompt_length: 7947
+tools_mentioned:
+- REST
+- Python
+category: community
+category_display: Community
+source_repo: sergebulaev/linkedin-skills
+source_path: SKILL.md
+source_url: https://github.com/sergebulaev/linkedin-skills/blob/main/SKILL.md
+fetched_at: '2026-06-07T06:28:40.157997+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T09:48:38.468645Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8bf50 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8bf50 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:55.565146Z'
+indexed_at: '2026-06-07T10:04:55.565151Z'
+---

@@ -1,0 +1,54 @@
+---
+id: s4h-aesthetic-elegance-testing
+slug: s4h-aesthetic-elegance-testing
+name: Aesthetic Elegance Testing
+description: '- **Question:** "Elegance tested. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-aesthetic-elegance-testing
+
+  description: "Tests whether a solution is more complex than it needs to be — distinguishing
+  necessary complexity from accidental complexity that accreted over time. TRIGGERS:
+  ''elegance test'', ''is this too complex'', ''over-engineered'', ''is there a simpler
+  way'', ''does this feel right''."
+
+  ---
+
+
+  # Aesthetic Elegance Testing
+
+
+  Complexity is the default outcome of design by committee, incremental revision,
+  and
+
+  deference to edge cases. Each addition is locally defen...'
+full_prompt_length: 5492
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-aesthetic-elegance-testing/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-aesthetic-elegance-testing/SKILL.md
+fetched_at: '2026-06-07T06:25:15.836115+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:02:51.588532Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc0e30 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc0e30 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.354987Z'
+indexed_at: '2026-06-07T10:04:53.354992Z'
+---

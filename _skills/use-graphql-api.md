@@ -20,17 +20,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/use-graphql-api/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/use-graphql-api/SKILL.md
-fetched_at: '2026-05-31T06:17:16.877663+00:00'
+fetched_at: '2026-06-07T06:28:10.268802+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:33:13.906789Z'
+  evaluated_at: '2026-06-07T09:32:20.807923Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211ffc50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc31ee0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211ffc50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc31ee0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:17.094211Z'
-indexed_at: '2026-05-31T09:00:17.094217Z'
+  fetched_at: '2026-06-07T10:04:55.224724Z'
+indexed_at: '2026-06-07T10:04:55.224729Z'
 ---

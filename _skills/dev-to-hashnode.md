@@ -12,28 +12,28 @@ prompt_preview: "---\nname: dev-to-hashnode\ndescription: When the user wants to
   \ strategy, platform-specific..."
 full_prompt_length: 10863
 tools_mentioned:
+- javascript
 - React
 - python
-- react
-- Python
-- javascript
 - aws
+- Python
+- react
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/dev-to-hashnode/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/dev-to-hashnode/SKILL.md
-fetched_at: '2026-05-31T06:16:25.331567+00:00'
+fetched_at: '2026-06-07T06:26:40.203416+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:40:22.479487Z'
+  evaluated_at: '2026-06-07T08:39:12.960976Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56212243b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c650 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56212243b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c650 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.924037Z'
-indexed_at: '2026-05-31T09:00:15.924043Z'
+  fetched_at: '2026-06-07T10:04:54.110234Z'
+indexed_at: '2026-06-07T10:04:54.110240Z'
 ---

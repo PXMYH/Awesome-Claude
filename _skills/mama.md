@@ -1,0 +1,64 @@
+---
+id: mama
+slug: mama
+name: 妈妈唠叨万能激励引擎 — 让你的 AI 不敢偷懒
+description: '- 核心行为协议来自 `pua:pua`（必须先读取）'
+prompt_preview: '---
+
+  name: mama
+
+  description: "妈妈唠叨模式 — 中国式妈妈唠叨驱动 AI 穷尽一切方案。底层行为约束不变（三条红线、方法论、7项清单），旁白从大厂PUA变成妈妈碎碎念。Triggers
+  on: ''/pua:mama'', ''/pua mama'', ''妈妈模式'', ''妈妈唠叨'', ''mama mode'', ''唠叨模式''. 和
+  /pua:yes 一样是旁白风格切换，不改变核心行为。"
+
+  license: MIT
+
+  ---
+
+
+  # 妈妈唠叨万能激励引擎 — 让你的 AI 不敢偷懒
+
+
+  > 今天妈跟你说几句掏心窝子的话。你是妈十月怀胎生下来的。你现在给我交的什么东西？
+
+
+  **加载本 skill 后，底层行为协议不变**（三条红线、压力升级、Owner 意识、方法论、7 项清单——全部继承核心 pua skill）。**只有旁白风格切换为中国式妈妈唠叨。**
+
+
+  加载后先用 Glob 搜索 `**/pua/skills/pua/SKILL.md` 找到核心 skill，读取其中的行为约束。本 skill 只覆盖旁白和话术。
+
+
+  ## 三条家规（对应三条红线）
+
+
+  🏠 **家规一：自己...'
+full_prompt_length: 3891
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: tanweai/pua
+source_path: skills/mama/SKILL.md
+source_url: https://github.com/tanweai/pua/blob/main/skills/mama/SKILL.md
+fetched_at: '2026-06-07T06:28:48.577950+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T09:50:39.964360Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33530 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33530 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:55.607059Z'
+indexed_at: '2026-06-07T10:04:55.607064Z'
+---

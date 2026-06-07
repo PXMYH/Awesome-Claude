@@ -1,0 +1,50 @@
+id: s4h-game-theory-signaling
+slug: s4h-game-theory-signaling
+name: 'Game Theory: Signaling'
+description: '- **Question:** "Signals analysed. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-game-theory-signaling
+
+  description: "Analyses credibility problems and designs signals that are believable
+  because they''re costly to fake. Triggers: ''how do I signal credibly'', ''signaling'',
+  ''they won''t believe me'', ''cheap talk'', ''commitment device'', ''how do I make
+  a credible commitment'', ''asymmetric information'', ''how do I prove I''m serious'',
+  ''they don''t trust my claim''."
+
+  ---
+
+
+  # Game Theory: Signaling
+
+
+  Michael Spence''s 1973 insight: education is not only valuable because it increase...'
+full_prompt_length: 8357
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-game-theory-signaling/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-game-theory-signaling/SKILL.md
+fetched_at: '2026-06-07T06:25:33.987095+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:14:53.755368Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc35f0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc35f0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.605274Z'
+indexed_at: '2026-06-07T10:04:53.605283Z'

@@ -1,0 +1,50 @@
+id: s4h-identity-character-testing
+slug: s4h-identity-character-testing
+name: Character Testing
+description: '- **Question:** "Character tested. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-identity-character-testing
+
+  description: "Asks what a person or organisation of genuine integrity would do —
+  grounding decisions in character rather than calculation. Triggers: ''character
+  test'', ''what would a person of integrity do'', ''what does this say about us'',
+  ''gut check'', ''would I be proud of this'', ''are we being who we want to be''."
+
+  ---
+
+
+  # Character Testing
+
+
+  Ethical calculation — weighing outcomes, mapping trade-offs — can be gamed. Character
+  cannot. The question "what would a...'
+full_prompt_length: 5153
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-identity-character-testing/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-identity-character-testing/SKILL.md
+fetched_at: '2026-06-07T06:25:35.359249+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:15:51.770776Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2120 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2120 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.625110Z'
+indexed_at: '2026-06-07T10:04:53.625115Z'

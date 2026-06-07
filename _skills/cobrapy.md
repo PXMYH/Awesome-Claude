@@ -21,24 +21,24 @@ prompt_preview: '---
   metad...'
 full_prompt_length: 14478
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/cobrapy/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/cobrapy/SKILL.md
-fetched_at: '2026-05-31T06:15:04.503401+00:00'
+fetched_at: '2026-06-07T06:22:46.361156+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T06:22:48.192778Z'
+  evaluated_at: '2026-06-07T06:36:43.889202Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d1c70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45000df230 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d1c70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45000df230 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:14.204557Z'
-indexed_at: '2026-05-31T09:00:14.204563Z'
+  fetched_at: '2026-06-07T10:04:51.514245Z'
+indexed_at: '2026-06-07T10:04:51.514251Z'
 ---

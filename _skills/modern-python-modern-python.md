@@ -30,25 +30,25 @@ prompt_preview: '---
   - Configuring deve...'
 full_prompt_length: 9927
 tools_mentioned:
-- python
 - Rust
+- python
 - Python
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/modern-python/skills/modern-python/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/modern-python/skills/modern-python/SKILL.md
-fetched_at: '2026-05-31T06:17:39.043777+00:00'
+fetched_at: '2026-06-07T06:29:03.079238+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:51:49.836961Z'
+  evaluated_at: '2026-06-07T09:56:20.273561Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fecf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67140 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fecf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67140 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -58,6 +58,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:17.503766Z'
-indexed_at: '2026-05-31T09:00:17.503771Z'
+  fetched_at: '2026-06-07T10:04:55.727422Z'
+indexed_at: '2026-06-07T10:04:55.727428Z'
 ---

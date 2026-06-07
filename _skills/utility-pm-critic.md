@@ -13,24 +13,24 @@ prompt_preview: '---
   and executes the system prompt inline. Returns findings graded P0/P1/P2/P3 with
   concrete fix suggestions per finding, plus a layered Status Summary section and
   machine-readable Status YAML blo...'
-full_prompt_length: 6337
+full_prompt_length: 6325
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/utility-pm-critic/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/utility-pm-critic/SKILL.md
-fetched_at: '2026-05-31T06:17:26.387974+00:00'
+fetched_at: '2026-06-07T06:28:27.124923+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:43:07.954218Z'
+  evaluated_at: '2026-06-07T09:42:33.322498Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56212251c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67fe0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56212251c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67fe0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:17.313047Z'
-indexed_at: '2026-05-31T09:00:17.313052Z'
+  fetched_at: '2026-06-07T10:04:55.438746Z'
+indexed_at: '2026-06-07T10:04:55.438752Z'
 ---

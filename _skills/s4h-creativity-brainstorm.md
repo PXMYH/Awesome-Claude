@@ -1,0 +1,45 @@
+---
+id: s4h-creativity-brainstorm
+slug: s4h-creativity-brainstorm
+name: S4H Creativity Brainstorm
+description: Claude skill for S4H Creativity Brainstorm
+prompt_preview: '---
+
+  name: s4h-creativity-brainstorm
+
+  description: "Run an orchestrated multi-method creative thinking sprint on a challenge.
+  Use when the user wants to make real progress on a hard problem, says ''I need to
+  think through this properly'', wants a thorough creative exploration rather than
+  a single technique, has a big decision or challenge and wants the full toolkit applied,
+  or just says ''help me think through this''. This is the entry point for serious
+  creative work — it selects and sequences the rig...'
+full_prompt_length: 7210
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-creativity-brainstorm/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-creativity-brainstorm/SKILL.md
+fetched_at: '2026-06-07T06:25:20.989051+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:06:21.831290Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500207440 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500207440 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.428581Z'
+indexed_at: '2026-06-07T10:04:53.428587Z'
+---

@@ -1,0 +1,42 @@
+id: cogny
+slug: cogny
+name: Cogny Marketing Agent v1.0.0
+description: '- `write_context_node` with path like `insights/seo/top-keywords` or
+  `insights/linkedin/audience-profile`'
+prompt_preview: "---\nname: cogny\ndescription: Run Cogny marketing analysis tasks\
+  \ — fetch scheduled tasks, analyze ad accounts via MCP, report findings\nversion:\
+  \ \"1.0.0\"\nuser-invocable: true\nargument-hint: \"[status|run|loop|update]\"\n\
+  allowed-tools:\n  # Built-in Cogny tools (task queue, heartbeat, findings)\n  -\
+  \ mcp__cogny__get_queue_status\n  - mcp__cogny__get_next_task\n  - mcp__cogny__complete_task\n\
+  \  - mcp__cogny__heartbeat\n  - mcp__cogny__list_findings\n  - mcp__cogny__get_finding\n\
+  \  - mcp__cogny__update_finding_stat..."
+full_prompt_length: 8392
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: cognyai/claude-code-marketing-skills
+source_path: skills/cogny/SKILL.md
+source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/cogny/SKILL.md
+fetched_at: '2026-06-07T06:24:32.480312+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T07:38:16.680201Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32cf0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32cf0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:52.840072Z'
+indexed_at: '2026-06-07T10:04:52.840077Z'

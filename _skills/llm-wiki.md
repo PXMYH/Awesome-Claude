@@ -1,0 +1,46 @@
+---
+id: llm-wiki
+slug: llm-wiki
+name: LLM Wiki
+description: '- `assets/SCHEMA.md.template` — the canonical schema document for a
+  new wiki'
+prompt_preview: "---\nname: llm-wiki\ndescription: |\n  Build and maintain an LLM-curated\
+  \ personal knowledge base — the \"LLM Wiki\" pattern from Andrej Karpathy's April\
+  \ 2026 gist. Use this skill whenever the user wants to ingest a source (paper, article,\
+  \ transcript, PDF, notes) into a persistent compounding knowledge base, ask a question\
+  \ against accumulated notes, lint or audit such a base, or initialize a new one.\
+  \ Trigger on phrases like \"add this to my wiki\", \"ingest this paper\", \"compile\
+  \ this into the knowledge b..."
+full_prompt_length: 18845
+tools_mentioned:
+- rest
+- python
+- sqlite
+category: community
+category_display: Community
+source_repo: praneybehl/llm-wiki-plugin
+source_path: skills/llm-wiki/SKILL.md
+source_url: https://github.com/praneybehl/llm-wiki-plugin/blob/main/skills/llm-wiki/SKILL.md
+fetched_at: '2026-06-07T06:28:15.073584+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T09:34:48.858777Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc31e20 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc31e20 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:55.275346Z'
+indexed_at: '2026-06-07T10:04:55.275352Z'
+---

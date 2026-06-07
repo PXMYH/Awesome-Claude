@@ -1,0 +1,55 @@
+---
+id: s4h-logic
+slug: s4h-logic
+name: Logic
+description: '**Output:** Diagnosis of the specific logical failure(s). Repaired argument
+  that is valid and sound. If the conclusion cannot be saved, a clear statement of
+  what conclusion *is* supportable.'
+prompt_preview: '---
+
+  name: s4h-logic
+
+  description: "Entry point for the logic toolkit. Routes to the right logic skill
+  based on your situation. Use when you say ''logic'', ''is this sound'', ''check
+  my reasoning'', ''find the flaw'', ''fix this argument'', ''find contradictions'',
+  ''map the dependencies'', ''map the constraints'', or want logical analysis applied
+  without knowing which specific tool fits."
+
+  ---
+
+
+  # Logic
+
+
+  Applies logical analysis to arguments, plans, reasoning, and systems. Diagnoses
+  what kind of logical work is ne...'
+full_prompt_length: 7136
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-logic/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-logic/SKILL.md
+fetched_at: '2026-06-07T06:25:56.335555+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:19:31.424263Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65d30 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65d30 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.701166Z'
+indexed_at: '2026-06-07T10:04:53.701172Z'
+---

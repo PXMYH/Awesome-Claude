@@ -7,10 +7,10 @@ prompt_preview: "---\nname: test\ndescription: Runs automated tests to validate 
   \ integrity across 14 categories. Use before creating PRs, after making changes\
   \ to skills or templates, or to verify plugin health.\nargument-hint: [all | config\
   \ | skills | templates | workflow | suno | research | mastering | sheet-music |\
-  \ release | consistency | terminology | behavior | quality | quick]\nmodel: claude-haiku-4-5-20251001\n\
+  \ release | consistency | terminology | behavior | quality | quick]\nmodel: haiku\n\
   context: fork\nallowed-tools:\n  - Read\n  - Grep\n  - Glob\n  - Bash\n---\n\n##\
-  \ Your Task\n\n**Input**: $..."
-full_prompt_length: 5664
+  \ Your Task\n\n**Input**: $ARGUMENTS\n\nRun autom..."
+full_prompt_length: 5644
 tools_mentioned:
 - Python
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/test/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/test/SKILL.md
-fetched_at: '2026-05-31T06:15:55.749126+00:00'
+fetched_at: '2026-06-07T06:24:23.618892+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:15:57.451188Z'
+  evaluated_at: '2026-06-07T07:33:47.846710Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56216a2000 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc31dc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56216a2000 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc31dc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.388535Z'
-indexed_at: '2026-05-31T09:00:15.388541Z'
+  fetched_at: '2026-06-07T10:04:52.747329Z'
+indexed_at: '2026-06-07T10:04:52.747334Z'
 ---

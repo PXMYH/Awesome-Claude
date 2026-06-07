@@ -7,28 +7,28 @@ description: 1. **Use MCP tools first** - `get_config()`, `find_album()`, `valid
 prompt_preview: "---\nname: validate-album\ndescription: Validates album directory\
   \ structure, file locations, and content integrity. Use before release or whenever\
   \ the user wants to check an album's structural health.\nargument-hint: <album-name>\n\
-  model: claude-haiku-4-5-20251001\ncontext: fork\nallowed-tools:\n  - Read\n  - Bash\n\
-  \  - Glob\n  - Grep\n  - bitwize-music-mcp\n---\n\n# Album Validator Agent\n\n##\
-  \ Your Task\n\n**Input**: $ARGUMENTS (album name, e.g., `sample-album`)\n\nValidate\
-  \ that an album has all required files in th..."
-full_prompt_length: 7861
+  model: haiku\ncontext: fork\nallowed-tools:\n  - Read\n  - Bash\n  - Glob\n  - Grep\n\
+  \  - bitwize-music-mcp\n---\n\n# Album Validator Agent\n\n## Your Task\n\n**Input**:\
+  \ $ARGUMENTS (album name, e.g., `sample-album`)\n\nValidate that an album has all\
+  \ required files in the correct locations,..."
+full_prompt_length: 7841
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/validate-album/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/validate-album/SKILL.md
-fetched_at: '2026-05-31T06:15:55.945666+00:00'
+fetched_at: '2026-06-07T06:24:23.976027+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:16:13.719736Z'
+  evaluated_at: '2026-06-07T07:34:05.106126Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56216a2000 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500331520 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56216a2000 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500331520 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.394457Z'
-indexed_at: '2026-05-31T09:00:15.394463Z'
+  fetched_at: '2026-06-07T10:04:52.753066Z'
+indexed_at: '2026-06-07T10:04:52.753072Z'
 ---

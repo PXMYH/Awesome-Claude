@@ -1,0 +1,42 @@
+---
+id: coding-agent
+slug: coding-agent
+name: Coding Agent
+description: '- Send a short message when you start (what''s running, where).'
+prompt_preview: "---\nname: coding-agent\ndescription: 'Delegate coding tasks to external\
+  \ coding agents (Claude Code, Codex, Pi, OpenCode) via shell. Use when: (1) building\
+  \ new features or apps in a separate project, (2) reviewing PRs, (3) refactoring\
+  \ large codebases, (4) iterative coding that needs file exploration. NOT for: simple\
+  \ one-liner fixes (just edit directly), reading code (use read/file tools), or work\
+  \ inside the SwarmClaw workspace itself.'\nmetadata:\n  {\n    \"openclaw\": { \"\
+  emoji\": \"\U0001F9E9\", \"requires\": { \"a..."
+full_prompt_length: 3598
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: swarmclawai/swarmclaw
+source_path: skills/coding-agent/SKILL.md
+source_url: https://github.com/swarmclawai/swarmclaw/blob/main/skills/coding-agent/SKILL.md
+fetched_at: '2026-06-07T06:28:41.887857+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T09:48:54.639389Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0f710 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0f710 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:55.570852Z'
+indexed_at: '2026-06-07T10:04:55.570858Z'
+---

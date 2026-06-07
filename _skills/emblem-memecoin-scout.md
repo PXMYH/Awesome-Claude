@@ -18,17 +18,17 @@ category_display: Community
 source_repo: EmblemCompany/Agent-skills
 source_path: skills/emblem-memecoin-scout/SKILL.md
 source_url: https://github.com/EmblemCompany/Agent-skills/blob/main/skills/emblem-memecoin-scout/SKILL.md
-fetched_at: '2026-05-31T06:15:01.701627+00:00'
+fetched_at: '2026-06-07T06:22:35.758179+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T06:20:05.383272Z'
+  evaluated_at: '2026-06-07T06:31:50.071084Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621563020 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500207440 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621563020 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500207440 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:14.143334Z'
-indexed_at: '2026-05-31T09:00:14.143340Z'
+  fetched_at: '2026-06-07T10:04:51.405521Z'
+indexed_at: '2026-06-07T10:04:51.405534Z'
 ---

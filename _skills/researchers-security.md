@@ -7,28 +7,28 @@ description: '**Your deliverables**: Source URLs, technical details, attribution
 prompt_preview: "---\nname: researchers-security\ndescription: Researches malware\
   \ analysis, CVEs, attribution reports, and hacker community sources. Use when the\
   \ album subject involves cybersecurity incidents or threat actors.\nargument-hint:\
-  \ <\"research [topic]\" or track-path to verify>\nmodel: claude-sonnet-4-6\nuser-invocable:\
-  \ false\ncontext: fork\nallowed-tools:\n  - Read\n  - Edit\n  - Write\n  - Grep\n\
-  \  - Glob\n  - WebFetch\n  - WebSearch\n---\n\n## Your Task\n\n**Research topic**:\
-  \ $ARGUMENTS\n\nWhen invoked:\n1. Research the sp..."
-full_prompt_length: 9062
+  \ <\"research [topic]\" or track-path to verify>\nmodel: sonnet\neffort: high\n\
+  user-invocable: false\ncontext: fork\nallowed-tools:\n  - Read\n  - Edit\n  - Write\n\
+  \  - Grep\n  - Glob\n  - WebFetch\n  - WebSearch\n---\n\n## Your Task\n\n**Research\
+  \ topic**: $ARGUMENTS\n\nWhen invoked:\n1. Research the..."
+full_prompt_length: 9064
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/researchers-security/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/researchers-security/SKILL.md
-fetched_at: '2026-05-31T06:15:54.861920+00:00'
+fetched_at: '2026-06-07T06:24:22.176819+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:14:44.610784Z'
+  evaluated_at: '2026-06-07T07:32:42.839266Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397a70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc1c10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397a70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc1c10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.361561Z'
-indexed_at: '2026-05-31T09:00:15.361566Z'
+  fetched_at: '2026-06-07T10:04:52.723932Z'
+indexed_at: '2026-06-07T10:04:52.723938Z'
 ---

@@ -1,0 +1,41 @@
+id: shopping-campaign-audit
+slug: shopping-campaign-audit
+name: Shopping Campaign Audit
+description: 1. **Feed coverage first.** Products that never run are revenue you've
+  already paid
+prompt_preview: "---\nname: shopping-campaign-audit\ndescription: Google Ads Shopping\
+  \ / retail audit — product feed coverage, listing-group granularity, zero-impression\
+  \ products, bidding, top wasted spend\nversion: \"1.0.0\"\nauthor: Cogny AI\nrequires:\
+  \ cogny-mcp\nplatforms: [google-ads]\nuser-invocable: true\nargument-hint: \"[campaign\
+  \ name or id]\"\nallowed-tools:\n  - mcp__cogny__google_ads__tool_list_accessible_accounts\n\
+  \  - mcp__cogny__google_ads__tool_execute_gaql\n  - mcp__cogny__google_ads__tool_get_gaql_doc\n\
+  \  - mcp__co..."
+full_prompt_length: 5856
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: cognyai/claude-code-marketing-skills
+source_path: skills/shopping-campaign-audit/SKILL.md
+source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/shopping-campaign-audit/SKILL.md
+fetched_at: '2026-06-07T06:24:40.180572+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T07:43:32.852955Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500342c00 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500342c00 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:52.949875Z'
+indexed_at: '2026-06-07T10:04:52.949881Z'

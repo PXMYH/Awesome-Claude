@@ -12,24 +12,24 @@ prompt_preview: "---\r\nname: create-3d-scene\r\ndescription: >\r\n  Set up a Bl
   \ data pipelines.\r\nlicense: MIT\r\nallowed-tools: Read..."
 full_prompt_length: 12931
 tools_mentioned:
-- python
 - Python
+- python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-3d-scene/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-3d-scene/SKILL.md
-fetched_at: '2026-05-31T06:16:46.447587+00:00'
+fetched_at: '2026-06-07T06:27:16.960371+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:58:35.254255Z'
+  evaluated_at: '2026-06-07T08:57:38.851346Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56212279b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffc0fe0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56212279b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffc0fe0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:16.331074Z'
-indexed_at: '2026-05-31T09:00:16.331079Z'
+  fetched_at: '2026-06-07T10:04:54.499616Z'
+indexed_at: '2026-06-07T10:04:54.499621Z'
 ---

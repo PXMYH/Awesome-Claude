@@ -16,25 +16,25 @@ prompt_preview: '---
   compatibility: Requires Node.js >=...'
 full_prompt_length: 15953
 tools_mentioned:
+- Node.js
 - react
 - React
-- Node.js
 category: community
 category_display: Community
 source_repo: EmblemCompany/Agent-skills
 source_path: skills/emblem-ai-agent-wallet/SKILL.md
 source_url: https://github.com/EmblemCompany/Agent-skills/blob/main/skills/emblem-ai-agent-wallet/SKILL.md
-fetched_at: '2026-05-31T06:15:00.977883+00:00'
+fetched_at: '2026-06-07T06:22:34.513801+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T06:19:16.815045Z'
+  evaluated_at: '2026-06-07T06:31:00.846399Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213972c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33d40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213972c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33d40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,5 +44,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:14.125045Z'
-indexed_at: '2026-05-31T09:00:14.125051Z'
+  fetched_at: '2026-06-07T10:04:51.385351Z'
+indexed_at: '2026-06-07T10:04:51.385356Z'

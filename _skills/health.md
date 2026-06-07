@@ -1,0 +1,59 @@
+---
+id: health
+slug: health
+name: /harness:health
+description: Print final health status. If critical issues remain that couldn't be
+  auto-corrected, warn the user.
+prompt_preview: '---
+
+  name: harness:health
+
+  description: "Use when the user wants to check dataset quality, diagnose eval issues,
+  or before running evolve. Checks size, difficulty distribution, dead examples, coverage,
+  and splits. Auto-corrects issues found."
+
+  allowed-tools: [Read, Write, Edit, Bash, Glob, Grep, Agent, AskUserQuestion]
+
+  ---
+
+
+  # /harness:health
+
+
+  Check eval dataset quality and auto-correct issues. Can be run independently or
+  is invoked by `/harness:evolve` before the iteration loop.
+
+
+  ## Prerequisites...'
+full_prompt_length: 3872
+tools_mentioned:
+- Python
+- python
+category: community
+category_display: Community
+source_repo: raphaelchristi/harness-evolver
+source_path: skills/health/SKILL.md
+source_url: https://github.com/raphaelchristi/harness-evolver/blob/main/skills/health/SKILL.md
+fetched_at: '2026-06-07T06:28:32.295614+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T09:45:15.955415Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0f140 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0f140 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:55.494813Z'
+indexed_at: '2026-06-07T10:04:55.494818Z'
+---

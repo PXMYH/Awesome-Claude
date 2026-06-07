@@ -1,0 +1,52 @@
+---
+id: s4h-temporal-futures-mapping
+slug: s4h-temporal-futures-mapping
+name: Temporal Futures Mapping
+description: '- **Question:** "Futures mapped. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-temporal-futures-mapping
+
+  description: "Explores possible, probable, and preferable futures using scenario
+  thinking. Use when asked about ''scenario planning'', ''futures thinking'', ''possible
+  futures'', ''how might this play out'', ''futures cone'', or ''what could happen''."
+
+  ---
+
+
+  # Temporal Futures Mapping
+
+
+  The future is not a single path — it is a cone of possibilities that narrows as
+  time passes and choices are made. Scenario thinking does not predict the future;
+  it maps the cone so that p...'
+full_prompt_length: 4844
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-temporal-futures-mapping/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-temporal-futures-mapping/SKILL.md
+fetched_at: '2026-06-07T06:26:09.208483+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:27:56.491295Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc01a0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc01a0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.874673Z'
+indexed_at: '2026-06-07T10:04:53.874678Z'
+---

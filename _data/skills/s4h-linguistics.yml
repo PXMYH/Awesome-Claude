@@ -1,0 +1,52 @@
+id: s4h-linguistics
+slug: s4h-linguistics
+name: Linguistics
+description: '**Output:** Semantic trajectory — original meaning, current meaning(s),
+  mechanism of drift, who benefits from the drift, and what the shift costs or enables.'
+prompt_preview: '---
+
+  name: s4h-linguistics
+
+  description: "Entry point for the linguistics toolkit. Routes to the right linguistics
+  skill based on your situation. Use when you say ''linguistics'', ''how is this framed'',
+  ''what does this word really mean'', ''what is implied here'', ''what does this
+  word carry'', ''how has this term changed'', or want language analysis applied without
+  knowing which specific tool fits."
+
+  ---
+
+
+  # Linguistics
+
+
+  Examines language as a system of meaning — not just what words say, but what they
+  frame,...'
+full_prompt_length: 5704
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-linguistics/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-linguistics/SKILL.md
+fetched_at: '2026-06-07T06:25:54.695097+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:18:26.449685Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2b70 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2b70 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.678453Z'
+indexed_at: '2026-06-07T10:04:53.678458Z'

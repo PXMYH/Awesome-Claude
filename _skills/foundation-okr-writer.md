@@ -23,17 +23,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/foundation-okr-writer/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/foundation-okr-writer/SKILL.md
-fetched_at: '2026-05-31T06:17:23.021956+00:00'
+fetched_at: '2026-06-07T06:28:20.980721+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:39:02.716981Z'
+  evaluated_at: '2026-06-07T09:38:20.621460Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33d10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33d10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:17.221237Z'
-indexed_at: '2026-05-31T09:00:17.221243Z'
+  fetched_at: '2026-06-07T10:04:55.348652Z'
+indexed_at: '2026-06-07T10:04:55.348658Z'
 ---

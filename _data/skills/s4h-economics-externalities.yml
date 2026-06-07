@@ -1,0 +1,51 @@
+id: s4h-economics-externalities
+slug: s4h-economics-externalities
+name: 'Economics: Externalities'
+description: '- **Question:** "Externalities mapped. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-economics-externalities
+
+  description: "Identifies costs and benefits not borne by the decision-maker — and
+  how to internalise them. Triggers: ''externality'', ''who else is affected'', ''costs
+  falling on others'', ''side effects'', ''spillover'', ''the market isn''t accounting
+  for this'', ''negative externality'', ''positive externality'', ''social cost vs.
+  private cost'', ''Pigou'', any situation where the person deciding does not bear
+  all the consequences."
+
+  ---
+
+
+  # Economics: Externalities
+
+
+  A.C. Pigou''...'
+full_prompt_length: 9643
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-economics-externalities/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-economics-externalities/SKILL.md
+fetched_at: '2026-06-07T06:25:26.612912+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:10:01.583148Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8be90 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8be90 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.504205Z'
+indexed_at: '2026-06-07T10:04:53.504210Z'

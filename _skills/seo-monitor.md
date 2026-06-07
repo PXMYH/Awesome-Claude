@@ -1,0 +1,42 @@
+---
+id: seo-monitor
+slug: seo-monitor
+name: SEO Monitor
+description: 'Top 3 Actions:'
+prompt_preview: "---\nname: seo-monitor\ndescription: Monitor SEO rankings, queries,\
+  \ and indexing via Search Console MCP\nversion: \"1.0.0\"\nauthor: Cogny AI\nrequires:\
+  \ cogny-mcp\nplatforms: [search-console]\nuser-invocable: true\nargument-hint: \"\
+  [overview|queries|pages|indexing]\"\nallowed-tools:\n  - mcp__cogny__search_console__*\n\
+  \  - mcp__cogny__create_finding\n  - WebFetch\n  - WebSearch\n---\n\n# SEO Monitor\n\
+  \nMonitor your website's search performance using live Google Search Console data\
+  \ via Cogny's MCP server.\n\n**Requires:*..."
+full_prompt_length: 2284
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: cognyai/claude-code-marketing-skills
+source_path: skills/seo-monitor/SKILL.md
+source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/seo-monitor/SKILL.md
+fetched_at: '2026-06-07T06:24:39.987371+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T07:43:24.765663Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450018d580 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450018d580 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:52.947164Z'
+indexed_at: '2026-06-07T10:04:52.947170Z'
+---

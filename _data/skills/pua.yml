@@ -1,0 +1,44 @@
+id: pua
+slug: pua
+name: PUA 我们不养闲 Agent，一个提高agent积极性的skill。
+description: '- `/pua:pro` — 自进化基线 + /pua 指令系统 + Compaction 保护'
+prompt_preview: '---
+
+  name: pua
+
+  description: "Use when the user explicitly requests PUA mode or signals frustration,
+  repeated failures (2+), passive behavior, quality complaints, unverified completion,
+  giving up, or asks to try harder/change approach. Common triggers: ''try harder'',
+  ''figure it out'', ''stop giving up'', ''you keep failing'', ''加油'', ''别偷懒'', ''你再试试'',
+  ''为什么还不行'', ''你怎么又失败了'', ''又错了'', ''质量太差'', ''换个方法'', ''stop spinning'', ''you broke
+  it'', ''/pua'', ''PUA模式''. Do not trigger for normal first-attempt coding or information
+  req...'
+full_prompt_length: 17480
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: tanweai/pua
+source_path: skills/pua/SKILL.md
+source_url: https://github.com/tanweai/pua/blob/main/skills/pua/SKILL.md
+fetched_at: '2026-06-07T06:28:50.136791+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T09:51:44.609017Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33530 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33530 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:55.629123Z'
+indexed_at: '2026-06-07T10:04:55.629129Z'

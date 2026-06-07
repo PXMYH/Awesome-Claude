@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/deploy-searxng/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/deploy-searxng/SKILL.md
-fetched_at: '2026-05-31T06:16:49.417195+00:00'
+fetched_at: '2026-06-07T06:27:22.077695+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:01:57.838883Z'
+  evaluated_at: '2026-06-07T09:01:01.383368Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d39b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c140 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d39b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c140 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:16.404779Z'
-indexed_at: '2026-05-31T09:00:16.404784Z'
+  fetched_at: '2026-06-07T10:04:54.570645Z'
+indexed_at: '2026-06-07T10:04:54.570654Z'
 ---

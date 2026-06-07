@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/observe-insect-behavior/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/observe-insect-behavior/SKILL.md
-fetched_at: '2026-05-31T06:17:02.735379+00:00'
+fetched_at: '2026-06-07T06:27:45.770471+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:17:17.028552Z'
+  evaluated_at: '2026-06-07T09:16:19.494529Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56212240e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88b00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56212240e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88b00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:16.741078Z'
-indexed_at: '2026-05-31T09:00:16.741083Z'
+  fetched_at: '2026-06-07T10:04:54.889854Z'
+indexed_at: '2026-06-07T10:04:54.889859Z'
 ---

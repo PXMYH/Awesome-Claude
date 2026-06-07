@@ -1,0 +1,44 @@
+---
+id: email-report
+slug: email-report
+name: Email Report
+description: '- **Open rate is noisy** since Apple MPP. Always report CTR and CTOR
+  alongside. If open rate moves >5pp but CTOR doesn''t, it''s probably MPP population
+  change, not real behavior.'
+prompt_preview: "---\nname: email-report\ndescription: Auto-generate the weekly or\
+  \ monthly email performance report in three formats — Slack update, CEO email, board-deck\
+  \ section — from real ESP data\nversion: \"1.0.0\"\nauthor: Cogny AI\nrequires:\
+  \ cogny-mcp\nplatforms: [klaviyo, mailchimp, rule, get-a-newsletter]\nuser-invocable:\
+  \ true\nargument-hint: \"[weekly|monthly] [slack|ceo|deck|all]\"\nallowed-tools:\n\
+  \  # Cogny Cloud (aggregated) namespace\n  - mcp__cogny__klaviyo__*\n  - mcp__cogny__mailchimp__*\n\
+  \  - mcp__cogny__rule__*..."
+full_prompt_length: 9196
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: cognyai/claude-code-marketing-skills
+source_path: skills/email-report/SKILL.md
+source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/email-report/SKILL.md
+fetched_at: '2026-06-07T06:24:34.449691+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T07:39:38.034783Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc21b0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc21b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:52.868012Z'
+indexed_at: '2026-06-07T10:04:52.868017Z'
+---

@@ -1,0 +1,56 @@
+---
+id: s4h-creativity
+slug: s4h-creativity
+name: Creativity
+description: 'Close with synthesis: what do the tools, taken together, reveal that
+  no single tool showed on its own? What is the single most important direction? What
+  is the concrete next step?'
+prompt_preview: '---
+
+  name: s4h-creativity
+
+  description: "Entry point for the creativity toolkit. Routes to the right creative
+  thinking technique based on your situation. Use when you say ''creativity'', ''think
+  creatively'', ''I need fresh ideas'', ''help me think differently'', ''I''m stuck'',
+  or want creative help without knowing which specific tool applies. For comprehensive
+  multi-method sessions, this runs them in sequence."
+
+  ---
+
+
+  # Creativity
+
+
+  Applies creative thinking to any challenge. Diagnoses what kind of creative w...'
+full_prompt_length: 10001
+tools_mentioned:
+- go
+- rest
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-creativity/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-creativity/SKILL.md
+fetched_at: '2026-06-07T06:25:22.985091+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:07:42.892634Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8b080 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8b080 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.456474Z'
+indexed_at: '2026-06-07T10:04:53.456479Z'
+---

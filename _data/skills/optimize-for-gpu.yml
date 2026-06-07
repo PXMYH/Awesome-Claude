@@ -15,24 +15,24 @@ prompt_preview: '---
   search, GPUDirect Storage file IO, int...'
 full_prompt_length: 34167
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/optimize-for-gpu/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/optimize-for-gpu/SKILL.md
-fetched_at: '2026-05-31T06:15:10.540107+00:00'
+fetched_at: '2026-06-07T06:22:57.546579+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T06:30:39.555877Z'
+  evaluated_at: '2026-06-07T06:44:30.663473Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56214fc560 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8ac90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56214fc560 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8ac90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +42,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:14.378857Z'
-indexed_at: '2026-05-31T09:00:14.378863Z'
+  fetched_at: '2026-06-07T10:04:51.683378Z'
+indexed_at: '2026-06-07T10:04:51.683384Z'

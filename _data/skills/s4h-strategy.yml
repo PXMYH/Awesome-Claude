@@ -1,0 +1,53 @@
+id: s4h-strategy
+slug: s4h-strategy
+name: Strategy
+description: Strategy skills are for competitive and adversarial contexts. For purely
+  cooperative situations where parties share objectives, the decision and systems
+  categories are more appropriate.
+prompt_preview: '---
+
+  name: s4h-strategy
+
+  description: "Routes to the right strategy skill for any adversarial or competitive
+  reasoning situation. Triggers: ''how do I beat X'', ''competitive strategy'', ''outmaneuver'',
+  ''I''m up against'', ''position myself'', ''what''s my play here'', any situation
+  involving competitive pressure, adversarial dynamics, negotiation, or resource-constrained
+  contest."
+
+  ---
+
+
+  # Strategy
+
+
+  Sun Tzu''s central insight: "The victorious warrior wins first and then goes to
+  war, while the defeated warrior g...'
+full_prompt_length: 4918
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-strategy/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-strategy/SKILL.md
+fetched_at: '2026-06-07T06:26:07.811480+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:26:59.322526Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc66ff0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc66ff0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.855067Z'
+indexed_at: '2026-06-07T10:04:53.855073Z'

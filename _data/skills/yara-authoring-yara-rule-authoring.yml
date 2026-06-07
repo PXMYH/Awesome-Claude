@@ -20,17 +20,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/yara-authoring/skills/yara-rule-authoring/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/yara-authoring/skills/yara-rule-authoring/SKILL.md
-fetched_at: '2026-05-31T06:17:44.675543+00:00'
+fetched_at: '2026-06-07T06:29:15.127706+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:57:23.602090Z'
+  evaluated_at: '2026-06-07T10:01:52.626817Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621225a90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d100 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621225a90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d100 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:17.629591Z'
-indexed_at: '2026-05-31T09:00:17.629598Z'
+  fetched_at: '2026-06-07T10:04:55.847683Z'
+indexed_at: '2026-06-07T10:04:55.847689Z'

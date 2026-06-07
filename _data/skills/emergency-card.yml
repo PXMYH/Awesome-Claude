@@ -46,24 +46,24 @@ prompt_preview: '---
   3. **P2 - 一般信息**：血型、年龄、...'
 full_prompt_length: 10841
 tools_mentioned:
-- python
 - javascript
+- python
 category: community
 category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/emergency-card/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/emergency-card/SKILL.md
-fetched_at: '2026-05-31T06:16:13.222833+00:00'
+fetched_at: '2026-06-07T06:25:11.322945+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:32:14.099348Z'
+  evaluated_at: '2026-06-07T08:00:17.837774Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc3e60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc3e60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -73,5 +73,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.739126Z'
-indexed_at: '2026-05-31T09:00:15.739132Z'
+  fetched_at: '2026-06-07T10:04:53.299655Z'
+indexed_at: '2026-06-07T10:04:53.299661Z'

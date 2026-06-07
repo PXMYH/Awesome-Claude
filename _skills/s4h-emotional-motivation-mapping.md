@@ -1,0 +1,54 @@
+---
+id: s4h-emotional-motivation-mapping
+slug: s4h-emotional-motivation-mapping
+name: Emotional Motivation Mapping
+description: '- **Question:** "Motivations mapped. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-emotional-motivation-mapping
+
+  description: "Maps what genuinely drives different people — beyond stated reasons
+  and job descriptions. Use when incentives seem misaligned or individual behaviour
+  is hard to predict. TRIGGERS: ''what motivates them'', ''motivation map'', ''why
+  are they behaving like this'', ''what drives this person'', ''understand the incentives''."
+
+  ---
+
+
+  # Emotional Motivation Mapping
+
+
+  People tell you what they think they should want. They behave according to what
+  they
+
+  actually...'
+full_prompt_length: 6563
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-emotional-motivation-mapping/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-emotional-motivation-mapping/SKILL.md
+fetched_at: '2026-06-07T06:25:27.648681+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:10:41.996798Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8afc0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8afc0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.518236Z'
+indexed_at: '2026-06-07T10:04:53.518242Z'
+---

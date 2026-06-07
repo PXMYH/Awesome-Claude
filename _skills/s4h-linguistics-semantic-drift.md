@@ -1,0 +1,50 @@
+---
+id: s4h-linguistics-semantic-drift
+slug: s4h-linguistics-semantic-drift
+name: 'Linguistics: Semantic Drift'
+description: '- **Question:** "Semantic trajectory mapped. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-linguistics-semantic-drift
+
+  description: "Tracks how meanings shift over time or across groups — concept creep,
+  definition drift, and what it costs when words change. Use when you say ''this word
+  doesn''t mean what it used to'', ''people are using this term differently now'',
+  ''this definition has been captured'', ''concept creep'', ''the word has been weaponised'',
+  ''we need to define our terms'', or when a key term is contested or means different
+  things to different audiences."
+
+  ---
+
+
+  # Linguist...'
+full_prompt_length: 9856
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-linguistics-semantic-drift/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-linguistics-semantic-drift/SKILL.md
+fetched_at: '2026-06-07T06:25:54.490799+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:18:18.371566Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc64050 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc64050 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.675601Z'
+indexed_at: '2026-06-07T10:04:53.675607Z'
+---

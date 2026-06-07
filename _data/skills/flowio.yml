@@ -13,24 +13,24 @@ prompt_preview: "---\nname: flowio\ndescription: Parse FCS (Flow Cytometry Stand
   \ FCS metadata, extract event data, and c..."
 full_prompt_length: 16787
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/flowio/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/flowio/SKILL.md
-fetched_at: '2026-05-31T06:15:06.199986+00:00'
+fetched_at: '2026-06-07T06:22:49.572798+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T06:24:58.043721Z'
+  evaluated_at: '2026-06-07T06:38:53.695953Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621a7b7a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc675f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621a7b7a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc675f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:14.254662Z'
-indexed_at: '2026-05-31T09:00:14.254673Z'
+  fetched_at: '2026-06-07T10:04:51.561642Z'
+indexed_at: '2026-06-07T10:04:51.561648Z'

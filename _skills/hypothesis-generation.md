@@ -13,24 +13,24 @@ prompt_preview: "---\nname: hypothesis-generation\ndescription: Structured hypot
   \ MIT license\nmetadata:\n  ve..."
 full_prompt_length: 13854
 tools_mentioned:
-- python
 - go
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/hypothesis-generation/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/hypothesis-generation/SKILL.md
-fetched_at: '2026-05-31T06:15:07.682527+00:00'
+fetched_at: '2026-06-07T06:22:52.204980+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T06:26:52.689868Z'
+  evaluated_at: '2026-06-07T06:40:47.429808Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621b9e0c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67500 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621b9e0c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67500 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:14.297170Z'
-indexed_at: '2026-05-31T09:00:14.297176Z'
+  fetched_at: '2026-06-07T10:04:51.602813Z'
+indexed_at: '2026-06-07T10:04:51.602818Z'
 ---

@@ -1,0 +1,52 @@
+---
+id: s4h-evolution-variation-selection
+slug: s4h-evolution-variation-selection
+name: 'Evolution: Variation-Selection'
+description: '- **Question:** "Population dynamics mapped. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-evolution-variation-selection
+
+  description: "Applies the variation-selection-retention triad to understand how
+  populations and strategies adapt over time. Triggers: ''how does this evolve'',
+  ''what gets selected for'', ''why do some strategies persist and others die out'',
+  ''population dynamics'', ''selection pressure'', ''what survives in this environment'',
+  ''who wins over time''."
+
+  ---
+
+
+  # Evolution: Variation-Selection
+
+
+  Darwin''s central insight was not about progress — it was about fit. Populat...'
+full_prompt_length: 10031
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-evolution-variation-selection/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-evolution-variation-selection/SKILL.md
+fetched_at: '2026-06-07T06:25:32.341945+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:13:48.991351Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500342f60 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500342f60 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.582922Z'
+indexed_at: '2026-06-07T10:04:53.582927Z'
+---

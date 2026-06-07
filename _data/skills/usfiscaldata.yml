@@ -12,25 +12,25 @@ prompt_preview: "---\nname: usfiscaldata\ndescription: Query the U.S. Treasury F
   ---\n\n# U.S. Treasury Fiscal D..."
 full_prompt_length: 6862
 tools_mentioned:
-- python
 - REST
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/usfiscaldata/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/usfiscaldata/SKILL.md
-fetched_at: '2026-05-31T06:15:17.335026+00:00'
+fetched_at: '2026-06-07T06:23:09.938293+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T06:39:13.001471Z'
+  evaluated_at: '2026-06-07T06:53:04.533103Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fd760 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45000a1760 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fd760 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45000a1760 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:14.568418Z'
-indexed_at: '2026-05-31T09:00:14.568424Z'
+  fetched_at: '2026-06-07T10:04:51.881084Z'
+indexed_at: '2026-06-07T10:04:51.881090Z'

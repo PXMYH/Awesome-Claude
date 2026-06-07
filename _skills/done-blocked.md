@@ -1,0 +1,43 @@
+---
+id: done-blocked
+slug: done-blocked
+name: DONE / BLOCKED Reporting Contract
+description: '- Writing both DONE and BLOCKED in the same report ("DONE but blocked
+  on X"). Pick one. If you''re blocked, the work isn''t done.'
+prompt_preview: "---\nname: done-blocked\ndescription: Reusable reporting contract\
+  \ for any agent that hands work back to the pipeline. Forces ONE of two terminal\
+  \ statuses (DONE or BLOCKED) with a specific evidence shape. Stops vague \"probably\
+  \ finished\" and \"kind of stuck\" verdicts.\nwhen_to_use: |\n  Apply to every terminal\
+  \ verdict an agent writes — the last line of a spawned agent run, the top of a report\
+  \ file, or the summary appended to a Beads task comment. Specifically:\n  - architect\
+  \ ARCH doc completion → DONE o..."
+full_prompt_length: 5130
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: avelikiy/great_cto
+source_path: skills/done-blocked/SKILL.md
+source_url: https://github.com/avelikiy/great_cto/blob/main/skills/done-blocked/SKILL.md
+fetched_at: '2026-06-07T06:24:10.910453+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T07:25:57.653736Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc0b00 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc0b00 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:52.578559Z'
+indexed_at: '2026-06-07T10:04:52.578564Z'
+---

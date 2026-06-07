@@ -1,0 +1,50 @@
+---
+id: lsp-refactor
+slug: lsp-refactor
+name: lsp-refactor
+description: '## lsp-refactor Complete'
+prompt_preview: '---
+
+  name: lsp-refactor
+
+  description: End-to-end safe refactor workflow — blast-radius analysis, speculative
+  preview, apply to disk, verify build, run affected tests. Inlines lsp-impact + lsp-safe-edit
+  + lsp-verify + lsp-test-correlation into one coordinated sequence.
+
+  argument-hint: "[symbol-or-file] [intent]"
+
+  user-invocable: true
+
+  allowed-tools: mcp__lsp__blast_radius mcp__lsp__preview_edit mcp__lsp__simulate_chain
+  mcp__lsp__get_diagnostics mcp__lsp__run_build mcp__lsp__run_tests mcp__lsp__get_tes...'
+full_prompt_length: 11023
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: blackwell-systems/agent-lsp
+source_path: skills/lsp-refactor/SKILL.md
+source_url: https://github.com/blackwell-systems/agent-lsp/blob/main/skills/lsp-refactor/SKILL.md
+fetched_at: '2026-06-07T06:24:28.554829+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T07:36:47.446744Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32e40 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32e40 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:52.809349Z'
+indexed_at: '2026-06-07T10:04:52.809354Z'
+---

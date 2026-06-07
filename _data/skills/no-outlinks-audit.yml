@@ -1,0 +1,48 @@
+id: no-outlinks-audit
+slug: no-outlinks-audit
+name: 'SKILL: Dead-End Pages — No Outgoing Internal Links Audit'
+description: TOTAL_PAGES          = len(LIST_ALL)
+prompt_preview: "---\nname: no-outlinks-audit\ndescription: >\n  Runs a full dead-end\
+  \ page audit for any website. Discovers all blog/content pages,\n  detects which\
+  \ ones have zero outgoing links to any URL on the same domain, fetches\n  keywords,\
+  \ clusters pages by topic, and generates 3 outgoing link suggestions per\n  dead-end\
+  \ page with anchor text, placement guidance, and ready-to-paste context copy.\n\
+  \  Outputs a styled HTML report matching report-style-reference.html. Automatically\n\
+  \  detects site framework (Next.js,..."
+full_prompt_length: 24444
+tools_mentioned:
+- go
+- javascript
+- JavaScript
+- React
+- Vue
+- PHP
+- python
+- Angular
+category: community
+category_display: Community
+source_repo: Infrasity-Labs/dev-gtm-claude-skills
+source_path: skills/no-outlinks-audit/SKILL.md
+source_url: https://github.com/Infrasity-Labs/dev-gtm-claude-skills/blob/main/skills/no-outlinks-audit/SKILL.md
+fetched_at: '2026-06-07T06:22:39.240704+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T06:33:19.378681Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500331520 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500331520 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:51.439945Z'
+indexed_at: '2026-06-07T10:04:51.439950Z'

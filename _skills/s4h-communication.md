@@ -1,0 +1,55 @@
+---
+id: s4h-communication
+slug: s4h-communication
+name: Communication
+description: '**Output:** Objection map — stakeholder, surface objection, underlying
+  concern, and how to address it. Flags unresolvable objections the presenter must
+  prepare for.'
+prompt_preview: '---
+
+  name: s4h-communication
+
+  description: "Entry point for the communication toolkit. Routes to the right communication
+  skill based on your situation. Use when you say ''communication'', ''how do I say
+  this'', ''will this land'', ''which channel'', ''what will they push back on'',
+  ''does this make sense'', or want communication help without knowing which specific
+  tool fits."
+
+  ---
+
+
+  # Communication
+
+
+  Applies communication thinking to any message, proposal, or delivery decision. Diagnoses
+  what kind of communicati...'
+full_prompt_length: 5151
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-communication/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-communication/SKILL.md
+fetched_at: '2026-06-07T06:25:19.407570+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:05:17.147515Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc3fb0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc3fb0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.405916Z'
+indexed_at: '2026-06-07T10:04:53.405921Z'
+---

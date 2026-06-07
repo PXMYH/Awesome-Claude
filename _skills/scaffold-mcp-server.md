@@ -12,28 +12,28 @@ prompt_preview: "---\r\nname: scaffold-mcp-server\r\ndescription: >\r\n  Scaffol
   \ a tool surface to test with Claude C..."
 full_prompt_length: 13463
 tools_mentioned:
-- Node.js
+- TypeScript
+- Python
 - python
+- Node.js
 - Docker
 - typescript
-- Python
-- TypeScript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/scaffold-mcp-server/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/scaffold-mcp-server/SKILL.md
-fetched_at: '2026-05-31T06:17:10.555072+00:00'
+fetched_at: '2026-06-07T06:27:59.478784+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:26:04.260791Z'
+  evaluated_at: '2026-06-07T09:25:08.960444Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d32c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8b650 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d32c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8b650 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:16.935483Z'
-indexed_at: '2026-05-31T09:00:16.935488Z'
+  fetched_at: '2026-06-07T10:04:55.074065Z'
+indexed_at: '2026-06-07T10:04:55.074070Z'
 ---

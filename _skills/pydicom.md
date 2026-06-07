@@ -15,24 +15,24 @@ prompt_preview: '---
   imaging datasets. Applies to tasks involving medical im...'
 full_prompt_length: 13204
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pydicom/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pydicom/SKILL.md
-fetched_at: '2026-05-31T06:15:12.545945+00:00'
+fetched_at: '2026-06-07T06:23:01.264537+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T06:33:15.405313Z'
+  evaluated_at: '2026-06-07T06:47:05.589442Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621bb3620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8ad80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621bb3620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8ad80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:14.435925Z'
-indexed_at: '2026-05-31T09:00:14.435940Z'
+  fetched_at: '2026-06-07T10:04:51.751148Z'
+indexed_at: '2026-06-07T10:04:51.751154Z'
 ---

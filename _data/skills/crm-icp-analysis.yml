@@ -1,0 +1,40 @@
+id: crm-icp-analysis
+slug: crm-icp-analysis
+name: CRM ICP Analysis
+description: 'Action types for ICP analysis:'
+prompt_preview: "---\nname: crm-icp-analysis\ndescription: Analyze HubSpot CRM data\
+  \ to build a data-driven Ideal Customer Profile from closed-won deals, contacts,\
+  \ and companies\nversion: \"1.0.0\"\nauthor: Cogny AI\nplatforms: [hubspot]\nuser-invocable:\
+  \ true\nargument-hint: \"[full|companies|contacts|deals]\"\nallowed-tools:\n  -\
+  \ mcp__cogny__hubspot__*\n  - mcp__cogny__create_finding\n  - Bash\n  - Read\n \
+  \ - Write\n---\n\n# CRM ICP Analysis\n\nBuild a data-driven Ideal Customer Profile\
+  \ by analyzing closed-won deals, associated contac..."
+full_prompt_length: 8703
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: cognyai/claude-code-marketing-skills
+source_path: skills/crm-icp-analysis/SKILL.md
+source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/crm-icp-analysis/SKILL.md
+fetched_at: '2026-06-07T06:24:33.256584+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T07:38:49.028969Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500248080 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500248080 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:52.851287Z'
+indexed_at: '2026-06-07T10:04:52.851292Z'

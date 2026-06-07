@@ -1,0 +1,65 @@
+---
+id: security-guide
+slug: security-guide
+name: ShellWard Security Deployment Guide / 安全部署指南
+description: '## Response Style'
+prompt_preview: '---
+
+  name: security-guide
+
+  description: OpenClaw 安全部署指南 / Security deployment guide — help users secure their
+  OpenClaw installation
+
+  user-invocable: true
+
+  disable-model-invocation: false
+
+  ---
+
+
+  # ShellWard Security Deployment Guide / 安全部署指南
+
+
+  When the user invokes this skill, provide a complete security deployment checklist
+  based on the following best practices. Check the current system state using available
+  tools and give actionable recommendations.
+
+
+  ## Security Checklist
+
+
+  ### 1. Network Control / 网络控...'
+full_prompt_length: 2574
+tools_mentioned:
+- Node.js
+- docker
+- Docker
+- aws
+category: community
+category_display: Community
+source_repo: jnMetaCode/shellward
+source_path: skills/security-guide/SKILL.md
+source_url: https://github.com/jnMetaCode/shellward/blob/main/skills/security-guide/SKILL.md
+fetched_at: '2026-06-07T06:26:38.301337+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:38:24.380497Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8b6e0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8b6e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:54.093022Z'
+indexed_at: '2026-06-07T10:04:54.093028Z'
+---

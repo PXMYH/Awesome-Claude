@@ -1,0 +1,54 @@
+---
+id: s4h-evolution
+slug: s4h-evolution
+name: Evolution
+description: '**Output:** Arms race structure, escalation trajectory, asymmetries,
+  exit conditions, and strategic implication.'
+prompt_preview: '---
+
+  name: s4h-evolution
+
+  description: "Entry point for the evolution thinking toolkit. Routes to the right
+  evolution skill based on your situation. Use when you say ''evolution'', ''natural
+  selection'', ''how does this population change over time'', ''why does this strategy
+  persist'', ''what niche am I competing in'', ''fitness landscape'', ''arms race'',
+  ''coevolution'', or want evolutionary thinking applied without knowing which specific
+  tool fits."
+
+  ---
+
+
+  # Evolution
+
+
+  Applies evolutionary reasoning to understan...'
+full_prompt_length: 6411
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-evolution/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-evolution/SKILL.md
+fetched_at: '2026-06-07T06:25:32.554717+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:13:57.074449Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8acc0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8acc0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.585749Z'
+indexed_at: '2026-06-07T10:04:53.585755Z'
+---

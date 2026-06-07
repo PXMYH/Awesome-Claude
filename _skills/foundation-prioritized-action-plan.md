@@ -1,0 +1,48 @@
+---
+id: foundation-prioritized-action-plan
+slug: foundation-prioritized-action-plan
+name: Prioritized Action Plan
+description: See `references/EXAMPLE.md` for one fully worked plan (Complicated domain),
+  and `references/` example files for Complex cases.
+prompt_preview: '---
+
+  name: foundation-prioritized-action-plan
+
+  description: Produce a comprehensive, evidence-grounded prioritized action plan
+  from any PM input (notes, transcripts, drafts, executive asks, Slack threads, or
+  a raw situation). Outputs one saveable document with an executive summary, input
+  mirror, situation classification (Cynefin), the binding constraint (Theory of Constraints),
+  prioritized questions and open decisions, a ranked action plan with the critical
+  effort plus follow-ons, risks and pre-mo...'
+full_prompt_length: 22842
+tools_mentioned:
+- go
+- rest
+category: community
+category_display: Community
+source_repo: product-on-purpose/pm-skills
+source_path: skills/foundation-prioritized-action-plan/SKILL.md
+source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/foundation-prioritized-action-plan/SKILL.md
+fetched_at: '2026-06-07T06:28:21.451899+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T09:38:37.172401Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc64b30 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc64b30 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:55.354353Z'
+indexed_at: '2026-06-07T10:04:55.354359Z'
+---

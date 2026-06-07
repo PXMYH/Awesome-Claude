@@ -1,0 +1,46 @@
+---
+id: anti-patterns
+slug: anti-patterns
+name: SDLC anti-patterns to reject
+description: '- Hobby projects, learning exercises — anti-patterns are about scale'
+prompt_preview: "---\nname: anti-patterns\ndescription: Catalogue of known SDLC anti-patterns\
+  \ that great_cto agents must actively reject when reviewing architecture, plans,\
+  \ code, or post-mortems. Used by architect (pre-impl), pm (planning), senior-dev\
+  \ (impl), l3-support (post-incident).\nwhen_to_use: |\n  Apply when:\n  - architect\
+  \ is writing ARCH/ADR and might be tempted by a known bad pattern\n  - pm is decomposing\
+  \ tasks and the breakdown smells like a known failure mode\n  - senior-dev is implementing\
+  \ and considers..."
+full_prompt_length: 5591
+tools_mentioned:
+- Redis
+- rest
+- Kubernetes
+- GraphQL
+category: community
+category_display: Community
+source_repo: avelikiy/great_cto
+source_path: skills/anti-patterns/SKILL.md
+source_url: https://github.com/avelikiy/great_cto/blob/main/skills/anti-patterns/SKILL.md
+fetched_at: '2026-06-07T06:24:09.711748+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T07:25:06.198220Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc3aa0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc3aa0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:52.561882Z'
+indexed_at: '2026-06-07T10:04:52.561888Z'
+---

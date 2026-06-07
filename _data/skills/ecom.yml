@@ -18,17 +18,17 @@ category_display: Community
 source_repo: takechanman1228/claude-ecom
 source_path: skills/ecom/SKILL.md
 source_url: https://github.com/takechanman1228/claude-ecom/blob/main/skills/ecom/SKILL.md
-fetched_at: '2026-05-31T06:17:33.147603+00:00'
+fetched_at: '2026-06-07T06:28:46.160469+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:47:37.229885Z'
+  evaluated_at: '2026-06-07T09:50:15.683370Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56215b5640 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88620 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56215b5640 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88620 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:17.411069Z'
-indexed_at: '2026-05-31T09:00:17.411075Z'
+  fetched_at: '2026-06-07T10:04:55.598629Z'
+indexed_at: '2026-06-07T10:04:55.598634Z'

@@ -1,0 +1,42 @@
+id: caveman
+slug: caveman
+name: caveman — spec encoding
+description: If cutting a word loses a fact, keep it. Caveman is compression, not
+  amputation.
+prompt_preview: "---\nname: caveman\ndescription: |\n  Caveman encoding for SPEC.md\
+  \ and spec-adjacent writes. Loaded by /spec, /build,\n  /check. Cuts tokens ~75%\
+  \ vs prose while staying precise. Triggers on any write\n  to SPEC.md or when user\
+  \ says \"caveman\", \"compress this\", \"be brief\".\n---\n\n# caveman — spec encoding\n\
+  \nApplies to SPEC.md writes, spec-referencing prose, backprop entries.\nDoes NOT\
+  \ apply to code, error strings, commit messages, PR descriptions.\n\n## GRAMMAR\n\
+  \n- Drop articles (a, an, the).\n- Drop filler (j..."
+full_prompt_length: 2882
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: JuliusBrussee/blueprint
+source_path: skills/caveman/SKILL.md
+source_url: https://github.com/JuliusBrussee/blueprint/blob/main/skills/caveman/SKILL.md
+fetched_at: '2026-06-07T06:22:41.300232+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T06:34:01.560547Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffefc4d0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffefc4d0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:51.454283Z'
+indexed_at: '2026-06-07T10:04:51.454289Z'

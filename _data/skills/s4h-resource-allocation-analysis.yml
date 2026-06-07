@@ -1,0 +1,50 @@
+id: s4h-resource-allocation-analysis
+slug: s4h-resource-allocation-analysis
+name: Resource Allocation Analysis
+description: '- **Question:** "Allocation analysed. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-resource-allocation-analysis
+
+  description: "Distributes limited resources across competing needs — making the
+  trade-offs explicit rather than implicit. Triggers: ''resource allocation'', ''how
+  do we distribute this'', ''competing priorities'', ''trade-off analysis'', ''how
+  do we split this'', ''allocation decision''."
+
+  ---
+
+
+  # Resource Allocation Analysis
+
+
+  Every allocation is a trade-off — giving to one thing means giving less to another.
+  The problem is that most allocations are made implicitly,...'
+full_prompt_length: 4734
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-resource-allocation-analysis/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-resource-allocation-analysis/SKILL.md
+fetched_at: '2026-06-07T06:26:03.265416+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:24:00.774568Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc31d30 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc31d30 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.793726Z'
+indexed_at: '2026-06-07T10:04:53.793731Z'

@@ -1,0 +1,42 @@
+---
+id: prose-style
+slug: prose-style
+name: Prose style — writing contract for agent reports
+description: The board's `readVerdicts()` parses every report. Marketing voice breaks
+prompt_preview: "---\nname: prose-style\ndescription: Reusable writing-style contract\
+  \ for agent outputs (reports, ARCH docs, verdicts, threat models). Forces direct\
+  \ prose with concrete evidence, no marketing voice, no hedge words. The single most-referenced\
+  \ skill across the pipeline — used by 28 agents.\nwhen_to_use: |\n  Apply to every\
+  \ agent that writes a human-readable artefact:\n  - architect ARCH-*.md, ADR-*.md\n\
+  \  - pm PLAN-*.md\n  - qa-engineer QA-*.md reports\n  - security-officer CSO audit\
+  \ reports\n  - 18 reviewer..."
+full_prompt_length: 4130
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: avelikiy/great_cto
+source_path: skills/prose-style/SKILL.md
+source_url: https://github.com/avelikiy/great_cto/blob/main/skills/prose-style/SKILL.md
+fetched_at: '2026-06-07T06:24:12.238515+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T07:26:46.166679Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500331520 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500331520 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:52.595610Z'
+indexed_at: '2026-06-07T10:04:52.595615Z'
+---

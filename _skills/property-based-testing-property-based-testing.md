@@ -28,17 +28,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/property-based-testing/skills/property-based-testing/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/property-based-testing/skills/property-based-testing/SKILL.md
-fetched_at: '2026-05-31T06:17:39.475677+00:00'
+fetched_at: '2026-06-07T06:29:03.957946+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:52:06.003783Z'
+  evaluated_at: '2026-06-07T09:56:36.449204Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621c86930 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32f30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621c86930 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32f30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:17.509846Z'
-indexed_at: '2026-05-31T09:00:17.509852Z'
+  fetched_at: '2026-06-07T10:04:55.733452Z'
+indexed_at: '2026-06-07T10:04:55.733462Z'
 ---

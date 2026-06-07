@@ -7,28 +7,28 @@ description: '**Your deliverables**: Source URLs, official quotes, verified numb
 prompt_preview: "---\nname: researchers-gov\ndescription: Researches DOJ/FBI/SEC press\
   \ releases, agency statements, and government sources. Use when research needs official\
   \ government records or agency documentation.\nargument-hint: <\"research [topic]\"\
-  \ or track-path to verify>\nmodel: claude-sonnet-4-6\nuser-invocable: false\ncontext:\
-  \ fork\nallowed-tools:\n  - Read\n  - Edit\n  - Write\n  - Grep\n  - Glob\n  - WebFetch\n\
-  \  - WebSearch\n---\n\n## Your Task\n\n**Research topic**: $ARGUMENTS\n\nWhen invoked:\n\
-  1. Research the specified to..."
-full_prompt_length: 8306
+  \ or track-path to verify>\nmodel: sonnet\neffort: high\nuser-invocable: false\n\
+  context: fork\nallowed-tools:\n  - Read\n  - Edit\n  - Write\n  - Grep\n  - Glob\n\
+  \  - WebFetch\n  - WebSearch\n---\n\n## Your Task\n\n**Research topic**: $ARGUMENTS\n\
+  \nWhen invoked:\n1. Research the specified..."
+full_prompt_length: 8308
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/researchers-gov/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/researchers-gov/SKILL.md
-fetched_at: '2026-05-31T06:15:54.372088+00:00'
+fetched_at: '2026-06-07T06:24:21.234159+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:14:04.186849Z'
+  evaluated_at: '2026-06-07T07:32:02.404536Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621ac36b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc1c10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621ac36b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc1c10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.346498Z'
-indexed_at: '2026-05-31T09:00:15.346504Z'
+  fetched_at: '2026-06-07T10:04:52.709251Z'
+indexed_at: '2026-06-07T10:04:52.709257Z'
 ---

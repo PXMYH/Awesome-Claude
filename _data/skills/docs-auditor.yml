@@ -1,0 +1,43 @@
+id: docs-auditor
+slug: docs-auditor
+name: Docs Auditor Skill
+description: '- **Subdomain docs** (e.g. `docs.stripe.com`): always also check root
+  domain (`stripe.com`) for'
+prompt_preview: "---\nname: docs-auditor\ndescription: >\n  Audits any developer documentation\
+  \ site across 33 checks in 7 categories and produces a\n  scored report (out of\
+  \ 100) with Pass / Warn / Fail status per check. Use this skill whenever\n  a user\
+  \ provides a docs URL and asks to audit it, review it, score it, check its quality,\n\
+  \  or evaluate it for AI discoverability, SEO, structure, content, or completeness.\
+  \ Also trigger\n  when the user says \"run a docs audit\", \"audit these docs\"\
+  , \"check this documentation\",..."
+full_prompt_length: 12034
+tools_mentioned:
+- go
+- Python
+category: community
+category_display: Community
+source_repo: Infrasity-Labs/dev-gtm-claude-skills
+source_path: skills/docs-auditor/SKILL.md
+source_url: https://github.com/Infrasity-Labs/dev-gtm-claude-skills/blob/main/skills/docs-auditor/SKILL.md
+fetched_at: '2026-06-07T06:22:38.620002+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T06:32:55.089023Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45002b9f70 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45002b9f70 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:51.431380Z'
+indexed_at: '2026-06-07T10:04:51.431385Z'

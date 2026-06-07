@@ -1,0 +1,56 @@
+---
+id: s4h-information
+slug: s4h-information
+name: Information
+description: '**Output:** Entropy assessment of the source, identification of high-
+  and low-information elements, and implications for how much weight each piece of
+  input should carry.'
+prompt_preview: '---
+
+  name: s4h-information
+
+  description: "Entry point for the information theory toolkit. Routes to the right
+  information skill based on your situation. Use when you say ''information'', ''signal
+  vs noise'', ''what matters here'', ''too much data'', ''what can be cut'', ''redundancy'',
+  ''uncertainty'', ''surprise'', ''how much information does this actually contain'',
+  or want information-theoretic thinking applied without knowing which specific tool
+  fits."
+
+  ---
+
+
+  # Information
+
+
+  Applies information theory to problems...'
+full_prompt_length: 6646
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-information/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-information/SKILL.md
+fetched_at: '2026-06-07T06:25:37.008984+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:16:57.186259Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc66660 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc66660 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.647415Z'
+indexed_at: '2026-06-07T10:04:53.647420Z'
+---

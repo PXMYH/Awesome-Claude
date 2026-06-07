@@ -13,24 +13,24 @@ prompt_preview: "---\nname: matchms\ndescription: Spectral similarity and compou
   ## Overview\n\nMatchms is an ope..."
 full_prompt_length: 7025
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/matchms/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/matchms/SKILL.md
-fetched_at: '2026-05-31T06:15:09.064573+00:00'
+fetched_at: '2026-06-07T06:22:54.790676+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T06:28:40.798905Z'
+  evaluated_at: '2026-06-07T06:42:36.495824Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56219316d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450016a5a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56219316d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450016a5a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:14.337049Z'
-indexed_at: '2026-05-31T09:00:14.337055Z'
+  fetched_at: '2026-06-07T10:04:51.642349Z'
+indexed_at: '2026-06-07T10:04:51.642356Z'
 ---

@@ -1,0 +1,42 @@
+---
+id: google-workspace
+slug: google-workspace
+name: Google Workspace CLI
+description: '- If `gws` is missing: tell the user to install Google Workspace CLI.'
+prompt_preview: "---\nname: google-workspace\ndescription: Use Google Workspace CLI\
+  \ (`gws`) for Drive, Docs, Sheets, Gmail, Calendar, Chat, and related Workspace\
+  \ API tasks.\nhomepage: https://github.com/googleworkspace/cli\nmetadata:\n  openclaw:\n\
+  \    toolNames: [google_workspace, gws]\n    capabilities: [google-workspace, google-docs,\
+  \ google-drive, google-sheets, gmail, google-calendar, google-chat]\n    requires:\n\
+  \      bins: [gws]\n---\n\n# Google Workspace CLI\n\nUse `gws` when the task is\
+  \ about Google Workspace resources..."
+full_prompt_length: 2717
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: swarmclawai/swarmclaw
+source_path: skills/google-workspace/SKILL.md
+source_url: https://github.com/swarmclawai/swarmclaw/blob/main/skills/google-workspace/SKILL.md
+fetched_at: '2026-06-07T06:28:42.292404+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T09:49:10.824970Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33bc0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33bc0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:55.576362Z'
+indexed_at: '2026-06-07T10:04:55.576368Z'
+---

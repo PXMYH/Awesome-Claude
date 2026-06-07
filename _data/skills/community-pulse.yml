@@ -1,0 +1,42 @@
+id: community-pulse
+slug: community-pulse
+name: Community Pulse — Discord weekly digest
+description: 1. **One guild per run.** If the bot is in multiple, pick one and analyse
+  it
+prompt_preview: "---\nname: community-pulse\ndescription: Weekly read on Discord community\
+  \ health — joins, active channels, top contributors, themes, and unanswered questions\n\
+  version: \"1.0.0\"\nauthor: Cogny AI\nplatforms: [discord]\nuser-invocable: true\n\
+  argument-hint: \"\"\nallowed-tools:\n  # Discord MCP read tools (via Cogny MCP Proxy)\n\
+  \  - mcp__cogny__discord__get_current_user\n  - mcp__cogny__discord__list_guilds\n\
+  \  - mcp__cogny__discord__get_guild\n  - mcp__cogny__discord__list_guild_channels\n\
+  \  - mcp__cogny__discord__ge..."
+full_prompt_length: 9734
+tools_mentioned:
+- rest
+category: community
+category_display: Community
+source_repo: cognyai/claude-code-marketing-skills
+source_path: skills/community-pulse/SKILL.md
+source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/community-pulse/SKILL.md
+fetched_at: '2026-06-07T06:24:32.671645+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T07:38:24.769647Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc64050 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc64050 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:52.842866Z'
+indexed_at: '2026-06-07T10:04:52.842872Z'

@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/acquisition-channel-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/acquisition-channel-advisor/SKILL.md
-fetched_at: '2026-05-31T06:16:03.113972+00:00'
+fetched_at: '2026-06-07T06:24:52.683627+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:22:42.903189Z'
+  evaluated_at: '2026-06-07T07:50:34.316413Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211ff590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8a390 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211ff590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8a390 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.534658Z'
-indexed_at: '2026-05-31T09:00:15.534664Z'
+  fetched_at: '2026-06-07T10:04:53.095688Z'
+indexed_at: '2026-06-07T10:04:53.095693Z'
 ---

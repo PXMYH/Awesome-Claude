@@ -6,28 +6,28 @@ description: '**Your deliverables**: Personal background, direct quotes, charact
 prompt_preview: "---\nname: researchers-biographical\ndescription: Researches personal\
   \ backgrounds, interviews, motivations, and humanizing details. Use when research\
   \ needs biographical context about people involved in the album's subject.\nargument-hint:\
-  \ <\"research [topic]\" or track-path to verify>\nmodel: claude-sonnet-4-6\nuser-invocable:\
-  \ false\ncontext: fork\nallowed-tools:\n  - Read\n  - Edit\n  - Write\n  - Grep\n\
-  \  - Glob\n  - WebFetch\n  - WebSearch\n---\n\n## Your Task\n\n**Research topic**:\
-  \ $ARGUMENTS\n\nWhen invoked:\n1. Re..."
-full_prompt_length: 9382
+  \ <\"research [topic]\" or track-path to verify>\nmodel: sonnet\neffort: high\n\
+  user-invocable: false\ncontext: fork\nallowed-tools:\n  - Read\n  - Edit\n  - Write\n\
+  \  - Grep\n  - Glob\n  - WebFetch\n  - WebSearch\n---\n\n## Your Task\n\n**Research\
+  \ topic**: $ARGUMENTS\n\nWhen invoked:\n1...."
+full_prompt_length: 9384
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/researchers-biographical/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/researchers-biographical/SKILL.md
-fetched_at: '2026-05-31T06:15:54.173597+00:00'
+fetched_at: '2026-06-07T06:24:20.859319+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:13:47.111714Z'
+  evaluated_at: '2026-06-07T07:31:45.954552Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621396750 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65c40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621396750 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65c40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.340309Z'
-indexed_at: '2026-05-31T09:00:15.340316Z'
+  fetched_at: '2026-06-07T10:04:52.703268Z'
+indexed_at: '2026-06-07T10:04:52.703274Z'

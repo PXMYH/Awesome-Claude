@@ -1,0 +1,54 @@
+---
+id: s4h-emotional
+slug: s4h-emotional
+name: Emotional
+description: '**Output:** Trust audit across four dimensions, with specific evidence
+  for each. Priority actions that most efficiently rebuild trust.'
+prompt_preview: '---
+
+  name: s4h-emotional
+
+  description: "Entry point for the emotional intelligence toolkit. Routes to the
+  right emotional skill based on your situation. Use when you say ''emotional'', ''why
+  are they behaving like this'', ''what motivates them'', ''why the resistance'',
+  ''what do they really want'', ''trust issues'', or want emotional/interpersonal
+  reasoning applied without knowing which specific tool fits."
+
+  ---
+
+
+  # Emotional
+
+
+  Applies emotional intelligence to interpersonal and organizational situations. Diagn...'
+full_prompt_length: 5301
+tools_mentioned:
+- Go
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-emotional/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-emotional/SKILL.md
+fetched_at: '2026-06-07T06:25:28.449363+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:11:14.825257Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc896a0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc896a0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.529579Z'
+indexed_at: '2026-06-07T10:04:53.529584Z'
+---

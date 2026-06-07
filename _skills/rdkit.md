@@ -13,24 +13,24 @@ prompt_preview: "---\nname: rdkit\ndescription: Cheminformatics toolkit for fine
   \ Toolkit\n\n#..."
 full_prompt_length: 20449
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/rdkit/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/rdkit/SKILL.md
-fetched_at: '2026-05-31T06:15:13.951386+00:00'
+fetched_at: '2026-06-07T06:23:03.760007+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T06:35:00.983026Z'
+  evaluated_at: '2026-06-07T06:48:51.451436Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621575880 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88470 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621575880 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88470 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:14.475284Z'
-indexed_at: '2026-05-31T09:00:14.475290Z'
+  fetched_at: '2026-06-07T10:04:51.789062Z'
+indexed_at: '2026-06-07T10:04:51.789068Z'
 ---

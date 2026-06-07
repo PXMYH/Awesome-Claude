@@ -1,0 +1,40 @@
+id: linkedin-micro-campaigns
+slug: linkedin-micro-campaigns
+name: LinkedIn Micro Campaigns
+description: 'Action types for micro-campaigns:'
+prompt_preview: "---\nname: linkedin-micro-campaigns\ndescription: Create precision-targeted\
+  \ LinkedIn ad campaigns for specific ICP segments — translates CRM data to LinkedIn\
+  \ targeting\nversion: \"1.0.0\"\nauthor: Cogny AI\nplatforms: [hubspot, linkedin-ads]\n\
+  user-invocable: true\nargument-hint: \"<ICP description or segment>\"\nallowed-tools:\n\
+  \  # HubSpot CRM tools (for ICP data extraction)\n  - mcp__cogny__hubspot__*\n \
+  \ # LinkedIn Ads tools\n  - mcp__cogny__linkedin_ads__*\n  # Findings\n  - mcp__cogny__create_finding\n\
+  \  - Bash..."
+full_prompt_length: 12256
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: cognyai/claude-code-marketing-skills
+source_path: skills/linkedin-micro-campaigns/SKILL.md
+source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/linkedin-micro-campaigns/SKILL.md
+fetched_at: '2026-06-07T06:24:38.016753+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T07:42:03.882828Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45003e7bc0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45003e7bc0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:52.918687Z'
+indexed_at: '2026-06-07T10:04:52.918692Z'

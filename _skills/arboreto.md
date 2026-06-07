@@ -13,24 +13,24 @@ prompt_preview: "---\nname: arboreto\ndescription: Infer gene regulatory network
   # Arboreto\n\n## Overview\n\nArboreto is a Pyth..."
 full_prompt_length: 8457
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/arboreto/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/arboreto/SKILL.md
-fetched_at: '2026-05-31T06:15:03.010654+00:00'
+fetched_at: '2026-06-07T06:22:43.603844+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T06:20:53.905716Z'
+  evaluated_at: '2026-06-07T06:34:50.661967Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621b73b60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67e90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621b73b60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67e90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:14.161504Z'
-indexed_at: '2026-05-31T09:00:14.161515Z'
+  fetched_at: '2026-06-07T10:04:51.472594Z'
+indexed_at: '2026-06-07T10:04:51.472600Z'
 ---

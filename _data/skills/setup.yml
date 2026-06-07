@@ -5,11 +5,11 @@ description: '- **Be specific** - show exact commands for their environment'
 prompt_preview: "---\nname: setup\ndescription: Detects your Python environment and\
   \ guides you through installing plugin dependencies. Use on first-time setup or\
   \ when MCP server fails to start.\nargument-hint: <blank for full check | \"mcp\"\
-  \ | \"mastering\" | \"document-hunter\">\nmodel: claude-haiku-4-5-20251001\nallowed-tools:\n\
-  \  - Bash\n---\n\nBase directory for this skill: ${CLAUDE_PLUGIN_BASE_DIR}\n\n##\
-  \ Your Task\n\nGuide the user through installing bitwize-music plugin dependencies\
-  \ based on their Python environment and reque..."
-full_prompt_length: 5765
+  \ | \"mastering\" | \"document-hunter\">\nmodel: haiku\nallowed-tools:\n  - Bash\n\
+  ---\n\nBase directory for this skill: ${CLAUDE_PLUGIN_BASE_DIR}\n\n## Your Task\n\
+  \nGuide the user through installing bitwize-music plugin dependencies based on their\
+  \ Python environment and requested components.\n\n--..."
+full_prompt_length: 5745
 tools_mentioned:
 - Python
 category: community
@@ -17,17 +17,17 @@ category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/setup/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/setup/SKILL.md
-fetched_at: '2026-05-31T06:15:55.348824+00:00'
+fetched_at: '2026-06-07T06:24:23.088251+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:15:25.070667Z'
+  evaluated_at: '2026-06-07T07:33:23.371085Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d1f10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc1970 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d1f10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc1970 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.376658Z'
-indexed_at: '2026-05-31T09:00:15.376664Z'
+  fetched_at: '2026-06-07T10:04:52.738601Z'
+indexed_at: '2026-06-07T10:04:52.738607Z'

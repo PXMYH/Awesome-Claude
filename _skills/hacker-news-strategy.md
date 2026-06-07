@@ -12,26 +12,26 @@ prompt_preview: "---\nname: hacker-news-strategy\ndescription: When the user wan
   \ works, what gets you flagged, and how to bui..."
 full_prompt_length: 10846
 tools_mentioned:
-- SQLite
-- TypeScript
 - Rust
 - Node.js
+- TypeScript
+- SQLite
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/hacker-news-strategy/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/hacker-news-strategy/SKILL.md
-fetched_at: '2026-05-31T06:16:27.606273+00:00'
+fetched_at: '2026-06-07T06:26:44.545235+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:42:56.032132Z'
+  evaluated_at: '2026-06-07T08:41:46.946768Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621225d60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32ff0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621225d60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32ff0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.982701Z'
-indexed_at: '2026-05-31T09:00:15.982706Z'
+  fetched_at: '2026-06-07T10:04:54.165776Z'
+indexed_at: '2026-06-07T10:04:54.165782Z'
 ---

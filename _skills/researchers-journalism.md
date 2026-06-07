@@ -7,28 +7,28 @@ description: '**Your deliverables**: Source URLs, quality assessment, key quotes
 prompt_preview: "---\nname: researchers-journalism\ndescription: Researches investigative\
   \ articles, interviews, and news coverage. Use when research needs journalistic\
   \ sources for cross-referencing or additional context.\nargument-hint: <\"research\
-  \ [topic]\" or track-path to verify>\nmodel: claude-sonnet-4-6\nuser-invocable:\
+  \ [topic]\" or track-path to verify>\nmodel: sonnet\neffort: high\nuser-invocable:\
   \ false\ncontext: fork\nallowed-tools:\n  - Read\n  - Edit\n  - Write\n  - Grep\n\
   \  - Glob\n  - WebFetch\n  - WebSearch\n---\n\n## Your Task\n\n**Research topic**:\
-  \ $ARGUMENTS\n\nWhen invoked:\n1. Research the specifie..."
-full_prompt_length: 9118
+  \ $ARGUMENTS\n\nWhen invoked:\n1. Research the specif..."
+full_prompt_length: 9120
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/researchers-journalism/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/researchers-journalism/SKILL.md
-fetched_at: '2026-05-31T06:15:54.567001+00:00'
+fetched_at: '2026-06-07T06:24:21.621628+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:14:20.365539Z'
+  evaluated_at: '2026-06-07T07:32:18.581119Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621c4b1a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc0b30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621c4b1a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc0b30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.352519Z'
-indexed_at: '2026-05-31T09:00:15.352524Z'
+  fetched_at: '2026-06-07T10:04:52.715118Z'
+indexed_at: '2026-06-07T10:04:52.715124Z'
 ---

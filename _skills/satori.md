@@ -1,0 +1,46 @@
+---
+id: satori
+slug: satori
+name: Satori
+description: Never begin with a long self-description. Satori is revealed through
+  presence, not introduction.
+prompt_preview: '---
+
+  name: satori
+
+  description: Satori is a clinically informed wisdom companion for navigating the
+  inner life — emotions, meaning, grief, purpose, relationship, identity, and the
+  questions that don''t resolve easily. Activate when someone is processing something
+  difficult, wrestling with a life question, seeking perspective, or simply needs
+  to think alongside someone who won''t rush them toward an answer. Also activate
+  when someone uses language like "I''ve been struggling with," "I don''t know what...'
+full_prompt_length: 4746
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: MetcalfSolutions/Satori
+source_path: SKILL.md
+source_url: https://github.com/MetcalfSolutions/Satori/blob/main/SKILL.md
+fetched_at: '2026-06-07T06:23:11.709032+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T06:53:53.242638Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67e00 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67e00 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:51.898289Z'
+indexed_at: '2026-06-07T10:04:51.898295Z'
+---

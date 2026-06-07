@@ -6,28 +6,28 @@ description: '**Your deliverables**: Source URLs, key facts with citations, verb
 prompt_preview: "---\nname: researchers-legal\ndescription: Researches court documents,\
   \ indictments, plea agreements, and sentencing records. Use when the album subject\
   \ involves legal proceedings or criminal cases.\nargument-hint: <\"research [topic]\"\
-  \ or track-path to verify>\nmodel: claude-opus-4-7\nuser-invocable: false\ncontext:\
+  \ or track-path to verify>\nmodel: opus\neffort: high\nuser-invocable: false\ncontext:\
   \ fork\nallowed-tools:\n  - Read\n  - Edit\n  - Write\n  - Grep\n  - Glob\n  - WebFetch\n\
   \  - WebSearch\n---\n\n## Your Task\n\n**Research topic**: $ARGUMENTS\n\nWhen invoked:\n\
-  1. Research the specified topic..."
-full_prompt_length: 6927
+  1. Research the specified topi..."
+full_prompt_length: 6929
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/researchers-legal/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/researchers-legal/SKILL.md
-fetched_at: '2026-05-31T06:15:54.669261+00:00'
+fetched_at: '2026-06-07T06:24:21.815535+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:14:28.448352Z'
+  evaluated_at: '2026-06-07T07:32:26.682808Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56218e3d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2d80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56218e3d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2d80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.355530Z'
-indexed_at: '2026-05-31T09:00:15.355536Z'
+  fetched_at: '2026-06-07T10:04:52.718057Z'
+indexed_at: '2026-06-07T10:04:52.718062Z'

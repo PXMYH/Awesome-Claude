@@ -12,25 +12,25 @@ prompt_preview: "---\r\nname: create-github-release\r\ndescription: >\r\n  Creat
   allowed-tools: Read Write Edit Bash Grep Glob\r\nm..."
 full_prompt_length: 6636
 tools_mentioned:
-- Node.js
 - Rust
+- Node.js
 - Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-github-release/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-github-release/SKILL.md
-fetched_at: '2026-05-31T06:16:46.900757+00:00'
+fetched_at: '2026-06-07T06:27:17.768784+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:59:07.639154Z'
+  evaluated_at: '2026-06-07T08:58:11.163236Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621224290 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffc0fe0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621224290 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffc0fe0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:16.343202Z'
-indexed_at: '2026-05-31T09:00:16.343208Z'
+  fetched_at: '2026-06-07T10:04:54.510926Z'
+indexed_at: '2026-06-07T10:04:54.510932Z'
 ---

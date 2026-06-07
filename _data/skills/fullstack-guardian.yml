@@ -15,29 +15,29 @@ prompt_preview: '---
 full_prompt_length: 5808
 tools_mentioned:
 - go
-- python
-- REST
-- GraphQL
-- Docker
-- typescript
-- react
 - websocket
+- python
+- GraphQL
+- REST
+- Docker
+- react
+- typescript
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/fullstack-guardian/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/fullstack-guardian/SKILL.md
-fetched_at: '2026-05-31T06:16:20.306687+00:00'
+fetched_at: '2026-06-07T06:26:28.935962+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:37:08.296457Z'
+  evaluated_at: '2026-06-07T08:35:49.497239Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d0c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc0380 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d0c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc0380 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,5 +47,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.852172Z'
-indexed_at: '2026-05-31T09:00:15.852178Z'
+  fetched_at: '2026-06-07T10:04:54.039102Z'
+indexed_at: '2026-06-07T10:04:54.039108Z'

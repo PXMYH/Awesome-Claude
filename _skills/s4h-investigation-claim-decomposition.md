@@ -1,0 +1,50 @@
+---
+id: s4h-investigation-claim-decomposition
+slug: s4h-investigation-claim-decomposition
+name: 'Investigation: Claim Decomposition'
+description: '- **Question:** "Claims decomposed. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-investigation-claim-decomposition
+
+  description: "Breaks a complex claim into its smallest independently verifiable
+  parts, classifies each sub-claim, and identifies which parts carry the most logical
+  load. Use when a claim feels too big to verify as a unit — ''what exactly is this
+  claiming'', ''break this down'', ''what are the hidden assumptions in this statement'',
+  ''this seems like multiple claims at once'', ''what would I need to verify to believe
+  this''."
+
+  ---
+
+
+  # Investigation: Claim Decom...'
+full_prompt_length: 7665
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-investigation-claim-decomposition/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-investigation-claim-decomposition/SKILL.md
+fetched_at: '2026-06-07T06:25:37.209331+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:17:05.286159Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc1250 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc1250 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.650246Z'
+indexed_at: '2026-06-07T10:04:53.650251Z'
+---

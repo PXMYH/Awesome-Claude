@@ -22,17 +22,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/trailmark/skills/crypto-protocol-diagram/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/trailmark/skills/crypto-protocol-diagram/SKILL.md
-fetched_at: '2026-05-31T06:17:43.208600+00:00'
+fetched_at: '2026-06-07T06:29:11.957661+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:55:53.972316Z'
+  evaluated_at: '2026-06-07T10:00:23.667781Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fdaf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc66720 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fdaf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc66720 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:17.596097Z'
-indexed_at: '2026-05-31T09:00:17.596102Z'
+  fetched_at: '2026-06-07T10:04:55.816088Z'
+indexed_at: '2026-06-07T10:04:55.816094Z'
 ---

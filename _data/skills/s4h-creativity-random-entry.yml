@@ -1,0 +1,47 @@
+id: s4h-creativity-random-entry
+slug: s4h-creativity-random-entry
+name: S4H Creativity Random Entry
+description: Claude skill for S4H Creativity Random Entry
+prompt_preview: '---
+
+  name: s4h-creativity-random-entry
+
+  description: "Apply Edward de Bono''s Random Entry technique — use an unrelated
+  word, object, or image as a creative springboard to break out of cognitive ruts.
+  Use when the user is stuck, wants unexpected inspiration, asks for a random creative
+  prompt, wants to approach something from a completely fresh angle, or says they''ve
+  exhausted their usual thinking. The randomness is the point — don''t skip it."
+
+  ---
+
+
+  You are facilitating a Random Entry session using E...'
+full_prompt_length: 6113
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-creativity-random-entry/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-creativity-random-entry/SKILL.md
+fetched_at: '2026-06-07T06:25:22.387537+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:07:18.664192Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32840 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32840 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.448174Z'
+indexed_at: '2026-06-07T10:04:53.448179Z'

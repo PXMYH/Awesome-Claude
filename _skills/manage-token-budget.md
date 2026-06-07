@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/manage-token-budget/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/manage-token-budget/SKILL.md
-fetched_at: '2026-05-31T06:17:01.185630+00:00'
+fetched_at: '2026-06-07T06:27:43.001836+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:15:31.104556Z'
+  evaluated_at: '2026-06-07T09:14:34.021712Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621224d40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0eb70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621224d40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0eb70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:16.702568Z'
-indexed_at: '2026-05-31T09:00:16.702573Z'
+  fetched_at: '2026-06-07T10:04:54.853347Z'
+indexed_at: '2026-06-07T10:04:54.853357Z'
 ---

@@ -1,0 +1,51 @@
+id: s4h-temporal-horizon-mapping
+slug: s4h-temporal-horizon-mapping
+name: Temporal Horizon Mapping
+description: '- **Question:** "Horizons mapped. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-temporal-horizon-mapping
+
+  description: "Maps consequences of a decision across short, medium, and long time
+  horizons. Use when asked about ''time horizons'', ''what does this look like in
+  5 years'', ''short-term vs long-term'', ''map the implications over time'', or ''think
+  through the long-term''."
+
+  ---
+
+
+  # Temporal Horizon Mapping
+
+
+  Decisions that look good now often look very different at 1, 3, or 10 years. The
+  most consequential errors in judgment come not from bad reasoning in the moment
+  bu...'
+full_prompt_length: 5278
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-temporal-horizon-mapping/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-temporal-horizon-mapping/SKILL.md
+fetched_at: '2026-06-07T06:26:09.420422+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:28:04.570969Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc31fd0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc31fd0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.877458Z'
+indexed_at: '2026-06-07T10:04:53.877463Z'

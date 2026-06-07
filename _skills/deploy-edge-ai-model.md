@@ -20,17 +20,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/deploy-edge-ai-model/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/deploy-edge-ai-model/SKILL.md
-fetched_at: '2026-05-31T06:16:49.186244+00:00'
+fetched_at: '2026-06-07T06:27:21.666900+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:01:41.656300Z'
+  evaluated_at: '2026-06-07T09:00:45.123425Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397b60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0dd00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621397b60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0dd00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:16.398768Z'
-indexed_at: '2026-05-31T09:00:16.398773Z'
+  fetched_at: '2026-06-07T10:04:54.564812Z'
+indexed_at: '2026-06-07T10:04:54.564817Z'
 ---

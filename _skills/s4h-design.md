@@ -1,0 +1,55 @@
+---
+id: s4h-design
+slug: s4h-design
+name: Design
+description: '**Output:** Inventory of elements, job each element does, what can be
+  removed without function loss, what is truly load-bearing, and the simplified form
+  with reasoning.'
+prompt_preview: '---
+
+  name: s4h-design
+
+  description: "Entry point for the design thinking toolkit. Routes to the right design
+  skill based on your situation. Use when you say ''design'', ''user needs'', ''what
+  do people actually want'', ''design constraints'', ''prototype and iterate'', ''simplify
+  this'', ''remove what''s unnecessary'', or want design thinking applied without
+  knowing which specific tool fits."
+
+  ---
+
+
+  # Design
+
+
+  Applies design thinking to problems of form, function, and fit — finding what people
+  actually need, using...'
+full_prompt_length: 6021
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-design/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-design/SKILL.md
+fetched_at: '2026-06-07T06:25:25.279646+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:09:04.152214Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33920 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33920 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.484592Z'
+indexed_at: '2026-06-07T10:04:53.484598Z'
+---

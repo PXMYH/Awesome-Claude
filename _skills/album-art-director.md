@@ -7,28 +7,28 @@ description: '**Your deliverable**: Album art concept + AI generation prompt rea
 prompt_preview: "---\nname: album-art-director\ndescription: Creates visual concepts\
   \ for album artwork and generates AI art prompts. Use during planning for concept\
   \ discussion, or after all tracks are Final for actual artwork generation.\nargument-hint:\
-  \ <album-path or \"create art concept for [album]\">\nmodel: claude-sonnet-4-6\n\
+  \ <album-path or \"create art concept for [album]\">\nmodel: sonnet\neffort: medium\n\
   allowed-tools:\n  - Read\n  - Edit\n  - Write\n  - Grep\n  - Glob\n  - bitwize-music-mcp\n\
   ---\n\n## Your Task\n\n**Input**: $ARGUMENTS\n\nWhen invoked:\n1. Read album concept,\
-  \ tracklist, and themes\n2. Desig..."
-full_prompt_length: 11759
+  \ tracklist, and themes\n2. D..."
+full_prompt_length: 11763
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/album-art-director/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/album-art-director/SKILL.md
-fetched_at: '2026-05-31T06:15:50.863985+00:00'
+fetched_at: '2026-06-07T06:24:14.873204+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:09:26.497898Z'
+  evaluated_at: '2026-06-07T07:27:26.716571Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fc9b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45000df080 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fc9b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45000df080 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.244058Z'
-indexed_at: '2026-05-31T09:00:15.244064Z'
+  fetched_at: '2026-06-07T10:04:52.609557Z'
+indexed_at: '2026-06-07T10:04:52.609563Z'
 ---

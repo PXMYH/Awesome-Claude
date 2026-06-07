@@ -1,0 +1,50 @@
+id: s4h-temporal-timing-analysis
+slug: s4h-temporal-timing-analysis
+name: Temporal Timing Analysis
+description: '- **Question:** "Timing analysed. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-temporal-timing-analysis
+
+  description: "Assesses whether now is the right time to act, wait, or prepare. Use
+  when asked ''is now the right time'', ''should we wait'', ''are we too early'',
+  ''timing this decision'', ''when to move'', or ''momentum''."
+
+  ---
+
+
+  # Temporal Timing Analysis
+
+
+  Timing is often as consequential as the decision itself. The right action at the
+  wrong time fails — too early before conditions are ready, too late after the window
+  has closed. Most timing judgments are made implici...'
+full_prompt_length: 4570
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-temporal-timing-analysis/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-temporal-timing-analysis/SKILL.md
+fetched_at: '2026-06-07T06:26:09.630703+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:28:12.883667Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88230 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88230 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.880212Z'
+indexed_at: '2026-06-07T10:04:53.880218Z'

@@ -1,0 +1,45 @@
+---
+id: s4h-logic-council
+slug: s4h-logic-council
+name: Logic Council
+description: '- **Question:** "Council verdict in. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-logic-council
+
+  description: "Run a reasoning problem, argument, plan, or decision through a council
+  of 5 logical reasoning advisors who analyze it from distinct reasoning frameworks,
+  peer-review each other, and synthesize a verdict on whether the reasoning holds.
+  MANDATORY TRIGGERS: ''logic council this'', ''run the logic council'', ''pressure-test
+  this reasoning'', ''is my thinking sound''. STRONG TRIGGERS: any complex argument
+  where the conclusion matters, a plan with non-obvious dependen...'
+full_prompt_length: 9562
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-logic-council/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-logic-council/SKILL.md
+fetched_at: '2026-06-07T06:25:55.906023+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:19:15.276932Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc3f80 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc3f80 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.695728Z'
+indexed_at: '2026-06-07T10:04:53.695734Z'
+---

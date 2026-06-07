@@ -1,0 +1,49 @@
+id: lsp-concurrency-audit
+slug: lsp-concurrency-audit
+name: lsp-concurrency-audit
+description: 4. **Read vs write detection is heuristic.** Determining whether a method
+prompt_preview: '---
+
+  name: lsp-concurrency-audit
+
+  description: Concurrency safety audit for a type or file. Maps all fields, traces
+  which are accessed from concurrent contexts (goroutines, threads, async tasks),
+  and flags fields that lack synchronization. Produces a field-level safety report.
+  Language-agnostic across 4 concurrency families.
+
+  argument-hint: "<file-path> [--type <TypeName>]"
+
+  user-invocable: true
+
+  allowed-tools: mcp__lsp__start_lsp mcp__lsp__open_document mcp__lsp__blast_radius
+  mcp__lsp__find_callers...'
+full_prompt_length: 5900
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: blackwell-systems/agent-lsp
+source_path: skills/lsp-concurrency-audit/SKILL.md
+source_url: https://github.com/blackwell-systems/agent-lsp/blob/main/skills/lsp-concurrency-audit/SKILL.md
+fetched_at: '2026-06-07T06:24:25.456035+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T07:34:37.591260Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45005511c0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45005511c0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:52.764563Z'
+indexed_at: '2026-06-07T10:04:52.764568Z'

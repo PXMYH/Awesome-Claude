@@ -13,25 +13,25 @@ prompt_preview: "---\nname: zarr-python\ndescription: Chunked N-D arrays for clo
   \ K-Dense Inc.\n---\n\n# Zarr..."
 full_prompt_length: 20736
 tools_mentioned:
-- python
 - AWS
+- python
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/zarr-python/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/zarr-python/SKILL.md
-fetched_at: '2026-05-31T06:15:17.889813+00:00'
+fetched_at: '2026-06-07T06:23:10.921943+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T06:39:54.349752Z'
+  evaluated_at: '2026-06-07T06:53:45.019782Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621226600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff31280 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621226600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff31280 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:14.583414Z'
-indexed_at: '2026-05-31T09:00:14.583419Z'
+  fetched_at: '2026-06-07T10:04:51.895381Z'
+indexed_at: '2026-06-07T10:04:51.895387Z'
 ---

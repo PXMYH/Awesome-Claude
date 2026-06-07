@@ -1,0 +1,53 @@
+id: s4h-game-theory
+slug: s4h-game-theory
+name: Game Theory
+description: 'Related categories: `/s4h-strategy` (contextual wisdom for acting within
+  games), `/s4h-decision` (single-player choice without strategic interaction), `/s4h-social`
+  (power dynamics and coalition polit...'
+prompt_preview: '---
+
+  name: s4h-game-theory
+
+  description: "Routes to the right game-theory skill for your strategic situation.
+  Triggers: ''game theory'', ''strategic interaction'', ''what will they do'', ''payoff
+  analysis'', ''how do I think about this strategically'', ''incentive design'', ''cooperation
+  problem'', ''bidding strategy'', any situation where the best choice depends on
+  what others choose."
+
+  ---
+
+
+  # Game Theory
+
+
+  Your best move depends on what they''ll do — and their best move depends on what
+  you''ll do. This interdepende...'
+full_prompt_length: 5094
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-game-theory/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-game-theory/SKILL.md
+fetched_at: '2026-06-07T06:25:34.192469+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:15:01.849663Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc1b80 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc1b80 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.608065Z'
+indexed_at: '2026-06-07T10:04:53.608071Z'

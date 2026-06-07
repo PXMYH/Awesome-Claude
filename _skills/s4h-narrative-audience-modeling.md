@@ -1,0 +1,52 @@
+---
+id: s4h-narrative-audience-modeling
+slug: s4h-narrative-audience-modeling
+name: Narrative Audience Modeling
+description: '- **Question:** "Narrative audience modelled. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-narrative-audience-modeling
+
+  description: "Maps the audience''s current beliefs, real goals, fears, and threshold
+  conditions before communicating with them. Use when asked to ''model the audience'',
+  ''audience analysis'', ''who am I talking to'', ''what do they care about'', or
+  ''why aren''t they getting it''."
+
+  ---
+
+
+  # Narrative Audience Modeling
+
+
+  Communication fails at the receiver, not the sender. The most common communication
+  failure is not poor evidence or unclear logic — it is delivering a...'
+full_prompt_length: 4474
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-narrative-audience-modeling/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-narrative-audience-modeling/SKILL.md
+fetched_at: '2026-06-07T06:25:57.809534+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:20:28.325015Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc333e0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc333e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.720661Z'
+indexed_at: '2026-06-07T10:04:53.720667Z'
+---

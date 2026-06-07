@@ -12,24 +12,24 @@ prompt_preview: "---\nname: pymatgen\ndescription: Materials science toolkit. Cr
   \ analyze, and manipulate crystal structu..."
 full_prompt_length: 20036
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pymatgen/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pymatgen/SKILL.md
-fetched_at: '2026-05-31T06:15:12.855489+00:00'
+fetched_at: '2026-06-07T06:23:01.843845+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T06:33:39.764487Z'
+  evaluated_at: '2026-06-07T06:47:29.947815Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56221979b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33890 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56221979b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33890 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:14.445256Z'
-indexed_at: '2026-05-31T09:00:14.445262Z'
+  fetched_at: '2026-06-07T10:04:51.759926Z'
+indexed_at: '2026-06-07T10:04:51.759931Z'
 ---

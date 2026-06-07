@@ -12,25 +12,25 @@ prompt_preview: "---\nname: competitor-tracking\ndescription: |\n  Systematic co
   \ battlecard\", \"compete against\", \"vs..."
 full_prompt_length: 9106
 tools_mentioned:
-- Azure
 - AWS
 - GCP
+- Azure
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/competitor-tracking/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/competitor-tracking/SKILL.md
-fetched_at: '2026-05-31T06:16:25.120613+00:00'
+fetched_at: '2026-06-07T06:26:40.001890+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:40:14.392577Z'
+  evaluated_at: '2026-06-07T08:39:04.789779Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56212265a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0da00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56212265a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0da00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.920999Z'
-indexed_at: '2026-05-31T09:00:15.921005Z'
+  fetched_at: '2026-06-07T10:04:54.107366Z'
+indexed_at: '2026-06-07T10:04:54.107372Z'
 ---

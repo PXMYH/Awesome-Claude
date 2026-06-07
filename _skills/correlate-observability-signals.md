@@ -15,25 +15,25 @@ tools_mentioned:
 - go
 - Go
 - python
-- flask
 - Python
+- flask
 - Flask
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/correlate-observability-signals/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/correlate-observability-signals/SKILL.md
-fetched_at: '2026-05-31T06:16:46.208898+00:00'
+fetched_at: '2026-06-07T06:27:16.452244+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:58:19.080213Z'
+  evaluated_at: '2026-06-07T08:57:22.371964Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621225c40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c560 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621225c40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c560 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:16.324964Z'
-indexed_at: '2026-05-31T09:00:16.324970Z'
+  fetched_at: '2026-06-07T10:04:54.493774Z'
+indexed_at: '2026-06-07T10:04:54.493780Z'
 ---

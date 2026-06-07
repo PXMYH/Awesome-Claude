@@ -1,0 +1,43 @@
+id: s4h-creativity-assumption-excavator
+slug: s4h-creativity-assumption-excavator
+name: S4H Creativity Assumption Excavator
+description: Claude skill for S4H Creativity Assumption Excavator
+prompt_preview: '---
+
+  name: s4h-creativity-assumption-excavator
+
+  description: "Surface and challenge the hidden assumptions in any problem, plan,
+  or framing. Use when the user feels stuck despite trying multiple approaches, a
+  problem seems intractable, a plan keeps failing for unclear reasons, something ''obvious''
+  keeps producing unexpected results, or before using any other creative thinking
+  tool when the problem itself might be wrongly framed. This is the prerequisite skill
+  — run it when the ground itself might b...'
+full_prompt_length: 7364
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-creativity-assumption-excavator/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-creativity-assumption-excavator/SKILL.md
+fetched_at: '2026-06-07T06:25:20.814618+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:06:13.738492Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff7d5b0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff7d5b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.425765Z'
+indexed_at: '2026-06-07T10:04:53.425771Z'

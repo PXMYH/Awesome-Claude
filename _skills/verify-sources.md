@@ -5,29 +5,29 @@ name: Source Verification Skill
 description: '- **Never auto-verify** — this skill exists specifically for human review'
 prompt_preview: "---\nname: verify-sources\ndescription: Captures human source verification\
   \ for tracks, timestamps it, and updates track files. Use when sources need human\
-  \ review before generation.\nargument-hint: <album-name>\nmodel: claude-sonnet-4-6\n\
-  allowed-tools:\n  - Read\n  - Edit\n  - Glob\n  - Grep\n  - Bash\n  - bitwize-music-mcp\n\
+  \ review before generation.\nargument-hint: <album-name>\nmodel: sonnet\neffort:\
+  \ low\nallowed-tools:\n  - Read\n  - Edit\n  - Glob\n  - Grep\n  - Bash\n  - bitwize-music-mcp\n\
   ---\n\n## Your Task\n\n**Input**: $ARGUMENTS (album name)\n\nGuide the user through\
   \ source verification for all tracks with pending sources in the specified album.\n\
   \n---\n\n# Source Verification..."
-full_prompt_length: 5313
+full_prompt_length: 5314
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/verify-sources/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/verify-sources/SKILL.md
-fetched_at: '2026-05-31T06:15:56.038114+00:00'
+fetched_at: '2026-06-07T06:24:24.171110+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:16:21.822443Z'
+  evaluated_at: '2026-06-07T07:34:13.193782Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621cfbb60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500630590 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621cfbb60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500630590 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.397463Z'
-indexed_at: '2026-05-31T09:00:15.397469Z'
+  fetched_at: '2026-06-07T10:04:52.755940Z'
+indexed_at: '2026-06-07T10:04:52.755945Z'
 ---

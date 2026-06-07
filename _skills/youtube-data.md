@@ -1,0 +1,51 @@
+---
+id: youtube-data
+slug: youtube-data
+name: YouTube Data
+description: 'Free tier: 100 credits, 300 req/min.'
+prompt_preview: '---
+
+  name: youtube-data
+
+  description: "Use when structured YouTube data is needed: pasted video/channel/playlist
+  links, transcripts for analysis, video metadata, channel upload history, search
+  results, or playlist contents — without Google API quotas or OAuth. Triggers on
+  YouTube URLs, creator names, topic research, or any request needing YouTube content,
+  even if not mentioned explicitly. Not for uploads, account management, or written-source-only
+  research."
+
+  version: "1.5.0"
+
+  user-invocable: true
+
+  c...'
+full_prompt_length: 6256
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: ZeroPointRepo/youtube-skills
+source_path: skills/youtube-data/SKILL.md
+source_url: https://github.com/ZeroPointRepo/youtube-skills/blob/main/skills/youtube-data/SKILL.md
+fetched_at: '2026-06-07T06:24:01.372515+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T07:22:07.371770Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff7d5b0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff7d5b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:52.499231Z'
+indexed_at: '2026-06-07T10:04:52.499236Z'
+---

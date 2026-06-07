@@ -13,25 +13,25 @@ prompt_preview: "---\nname: api-onboarding\ndescription: |\n  Reduce time-to-fir
 full_prompt_length: 12521
 tools_mentioned:
 - javascript
-- React
 - Vue
 - Go
+- React
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/api-onboarding/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/api-onboarding/SKILL.md
-fetched_at: '2026-05-31T06:16:24.643879+00:00'
+fetched_at: '2026-06-07T06:26:39.414793+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:39:50.018036Z'
+  evaluated_at: '2026-06-07T08:38:40.526180Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56212273e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65f40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56212273e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65f40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.911922Z'
-indexed_at: '2026-05-31T09:00:15.911932Z'
+  fetched_at: '2026-06-07T10:04:54.098735Z'
+indexed_at: '2026-06-07T10:04:54.098740Z'
 ---

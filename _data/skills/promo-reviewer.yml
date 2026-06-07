@@ -5,28 +5,28 @@ description: 1. **Read platform-rules.md** at invocation start for current limit
 prompt_preview: "---\nname: promo-reviewer\ndescription: Reviews and iterates on social\
   \ media copy in album promo/ files. Use after populating promo templates and before\
   \ release to polish platform-specific posts.\nargument-hint: <album-name> [platform]\n\
-  model: claude-sonnet-4-6\nallowed-tools:\n  - Read\n  - Edit\n  - Glob\n  - Grep\n\
-  \  - bitwize-music-mcp\n---\n\n# Promo Reviewer Skill\n\nInteractive review and\
-  \ polish of social media copy in album `promo/` files. Walk through each post, approve\
-  \ or revise, and write polished re..."
-full_prompt_length: 9849
+  model: sonnet\neffort: medium\nallowed-tools:\n  - Read\n  - Edit\n  - Glob\n  -\
+  \ Grep\n  - bitwize-music-mcp\n---\n\n# Promo Reviewer Skill\n\nInteractive review\
+  \ and polish of social media copy in album `promo/` files. Walk through each post,\
+  \ approve or revise, and write polishe..."
+full_prompt_length: 9853
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/promo-reviewer/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/promo-reviewer/SKILL.md
-fetched_at: '2026-05-31T06:15:53.412646+00:00'
+fetched_at: '2026-06-07T06:24:19.546017+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:12:50.450796Z'
+  evaluated_at: '2026-06-07T07:30:49.339096Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fff20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2c90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fff20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2c90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.319118Z'
-indexed_at: '2026-05-31T09:00:15.319124Z'
+  fetched_at: '2026-06-07T10:04:52.682888Z'
+indexed_at: '2026-06-07T10:04:52.682894Z'

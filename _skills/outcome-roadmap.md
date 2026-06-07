@@ -1,0 +1,42 @@
+---
+id: outcome-roadmap
+slug: outcome-roadmap
+name: Outcome Roadmap — from features to results
+description: 'When the pm agent receives a feature list without a PRD:'
+prompt_preview: "---\nname: outcome-roadmap\ndescription: \"Transform an output-focused\
+  \ roadmap (feature list) into an outcome-focused one. Rewrites initiatives as outcome\
+  \ statements reflecting user and business impact. Use when a roadmap lists features\
+  \ instead of results, when making a roadmap more strategic, or when communicating\
+  \ what success looks like vs what will be built.\"\nwhen_to_use: |\n  Apply when:\n\
+  \  - CTO provides a feature list and asks \"what should we do next quarter\"\n \
+  \ - pm agent receives a roadmap ful..."
+full_prompt_length: 5170
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: avelikiy/great_cto
+source_path: skills/outcome-roadmap/SKILL.md
+source_url: https://github.com/avelikiy/great_cto/blob/main/skills/outcome-roadmap/SKILL.md
+fetched_at: '2026-06-07T06:24:11.663175+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T07:26:21.896460Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500573aa0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500573aa0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:52.587214Z'
+indexed_at: '2026-06-07T10:04:52.587220Z'
+---

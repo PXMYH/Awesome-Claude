@@ -1,0 +1,53 @@
+---
+id: s4h-network-weak-ties
+slug: s4h-network-weak-ties
+name: 'Network: Weak Ties'
+description: '- **Question:** "Structural holes mapped. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-network-weak-ties
+
+  description: "Maps bridging connections across structural holes — the counterintuitive
+  power of loose connections. Use when asked ''where are the silos'', ''why are we
+  missing information'', ''how do I find opportunities'', ''who are the connectors'',
+  ''why are teams not collaborating'', ''what bridges are missing'', or when the question
+  involves information flow, cross-functional collaboration, or network position as
+  a competitive advantage."
+
+  ---
+
+
+  # Network: Weak Ties
+
+
+  In 19...'
+full_prompt_length: 8627
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-network-weak-ties/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-network-weak-ties/SKILL.md
+fetched_at: '2026-06-07T06:25:59.591745+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:21:34.077285Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88da0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88da0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.743070Z'
+indexed_at: '2026-06-07T10:04:53.743075Z'
+---

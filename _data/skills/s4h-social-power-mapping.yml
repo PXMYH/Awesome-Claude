@@ -1,0 +1,51 @@
+id: s4h-social-power-mapping
+slug: s4h-social-power-mapping
+name: Power Mapping
+description: '- **Question:** "Power mapped. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-social-power-mapping
+
+  description: "Maps who holds power — formal authority, informal influence, gatekeeping,
+  expertise — and how it flows. Triggers: ''power map'', ''who has power here'', ''who
+  actually decides'', ''map the politics'', ''who do I need to get on board'', ''who
+  are the gatekeepers''."
+
+  ---
+
+
+  # Power Mapping
+
+
+  Org charts describe formal authority. Power is different. It includes informal influence
+  (whose opinion shifts decisions), gatekeeping (who controls access), and expertise
+  (wh...'
+full_prompt_length: 4402
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-social-power-mapping/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-social-power-mapping/SKILL.md
+fetched_at: '2026-06-07T06:26:05.740142+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:25:38.339069Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88320 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88320 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.827209Z'
+indexed_at: '2026-06-07T10:04:53.827215Z'

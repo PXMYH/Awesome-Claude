@@ -12,25 +12,25 @@ prompt_preview: "---\nname: diagramming-code\ndescription: >\n  Generates Mermai
   \ diagrams.\n---\n\n# Diagramming Cod..."
 full_prompt_length: 5757
 tools_mentioned:
-- python
 - Rust
 - rust
+- python
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/trailmark/skills/diagramming-code/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/trailmark/skills/diagramming-code/SKILL.md
-fetched_at: '2026-05-31T06:17:43.318733+00:00'
+fetched_at: '2026-06-07T06:29:12.155848+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:56:02.060833Z'
+  evaluated_at: '2026-06-07T10:00:31.772022Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621224a70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d040 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621224a70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d040 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:17.599271Z'
-indexed_at: '2026-05-31T09:00:17.599278Z'
+  fetched_at: '2026-06-07T10:04:55.819014Z'
+indexed_at: '2026-06-07T10:04:55.819019Z'
 ---

@@ -1,0 +1,53 @@
+---
+id: s4h-game-theory-equilibrium
+slug: s4h-game-theory-equilibrium
+name: 'Game Theory: Equilibrium Analysis'
+description: '- **Question:** "Equilibrium found. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-game-theory-equilibrium
+
+  description: "Finds the stable outcome of a strategic interaction — the point where
+  no player can improve their result by changing their strategy alone. Triggers: ''Nash
+  equilibrium'', ''dominant strategy'', ''what''s the stable outcome'', ''equilibrium
+  analysis'', ''payoff matrix'', ''what will rational players do'', ''where will this
+  land''."
+
+  ---
+
+
+  # Game Theory: Equilibrium Analysis
+
+
+  John Nash''s central insight: in any finite game, there exists at least one outcome
+  — the...'
+full_prompt_length: 7480
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-game-theory-equilibrium/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-game-theory-equilibrium/SKILL.md
+fetched_at: '2026-06-07T06:25:33.141226+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:14:21.373856Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc0230 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc0230 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.594086Z'
+indexed_at: '2026-06-07T10:04:53.594091Z'
+---

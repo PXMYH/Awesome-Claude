@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/conscientiousness/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/conscientiousness/SKILL.md
-fetched_at: '2026-05-31T06:16:45.503023+00:00'
+fetched_at: '2026-06-07T06:27:15.202509+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:57:30.286879Z'
+  evaluated_at: '2026-06-07T08:56:33.890930Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621227890 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45000dc380 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621227890 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45000dc380 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:16.307027Z'
-indexed_at: '2026-05-31T09:00:16.307032Z'
+  fetched_at: '2026-06-07T10:04:54.476884Z'
+indexed_at: '2026-06-07T10:04:54.476889Z'

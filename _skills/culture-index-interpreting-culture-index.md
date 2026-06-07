@@ -24,17 +24,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/culture-index/skills/interpreting-culture-index/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/culture-index/skills/interpreting-culture-index/SKILL.md
-fetched_at: '2026-05-31T06:17:36.959452+00:00'
+fetched_at: '2026-06-07T06:28:57.683803+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:50:12.463786Z'
+  evaluated_at: '2026-06-07T09:54:35.082977Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56212249b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65700 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56212249b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65700 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:17.468110Z'
-indexed_at: '2026-05-31T09:00:17.468122Z'
+  fetched_at: '2026-06-07T10:04:55.690254Z'
+indexed_at: '2026-06-07T10:04:55.690259Z'
 ---

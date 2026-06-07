@@ -1,0 +1,52 @@
+---
+id: s4h-design-constraints
+slug: s4h-design-constraints
+name: 'Design: Design Constraints'
+description: '- **Question:** "Constraints mapped. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-design-constraints
+
+  description: "Uses constraints productively — maps hard limits, soft preferences,
+  and how the tightest constraints define the solution space. Triggers: ''what are
+  the design constraints'', ''map the constraints'', ''what are we working within'',
+  ''what''s fixed'', ''constraint-driven design'', ''what does the solution space
+  look like'', ''working within limits''."
+
+  ---
+
+
+  # Design: Design Constraints
+
+
+  Every design problem has a solution space — the set of forms that could satisfy...'
+full_prompt_length: 7532
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-design-constraints/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-design-constraints/SKILL.md
+fetched_at: '2026-06-07T06:25:24.461950+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:08:31.822269Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33da0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33da0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.473416Z'
+indexed_at: '2026-06-07T10:04:53.473421Z'
+---

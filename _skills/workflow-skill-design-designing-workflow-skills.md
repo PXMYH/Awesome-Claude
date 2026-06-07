@@ -18,17 +18,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/workflow-skill-design/skills/designing-workflow-skills/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/workflow-skill-design/skills/designing-workflow-skills/SKILL.md
-fetched_at: '2026-05-31T06:17:44.502478+00:00'
+fetched_at: '2026-06-07T06:29:14.741465+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:57:15.527308Z'
+  evaluated_at: '2026-06-07T10:01:44.552261Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621225880 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8bc20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621225880 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8bc20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:17.626571Z'
-indexed_at: '2026-05-31T09:00:17.626577Z'
+  fetched_at: '2026-06-07T10:04:55.844770Z'
+indexed_at: '2026-06-07T10:04:55.844775Z'
 ---

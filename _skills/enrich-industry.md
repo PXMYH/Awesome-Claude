@@ -14,24 +14,24 @@ prompt_preview: "---\nname: enrich-industry\ndescription: \"Backfill contact-lev
   \ have industry populated at hig..."
 full_prompt_length: 6945
 tools_mentioned:
-- python
 - Go
+- python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/enrich-industry/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/enrich-industry/SKILL.md
-fetched_at: '2026-05-31T06:15:23.802533+00:00'
+fetched_at: '2026-06-07T06:23:20.083244+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T06:43:51.818906Z'
+  evaluated_at: '2026-06-07T06:57:49.462163Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d0dd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc335c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d0dd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc335c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:14.671059Z'
-indexed_at: '2026-05-31T09:00:14.671065Z'
+  fetched_at: '2026-06-07T10:04:51.982896Z'
+indexed_at: '2026-06-07T10:04:51.982901Z'
 ---

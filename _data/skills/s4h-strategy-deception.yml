@@ -1,0 +1,50 @@
+id: s4h-strategy-deception
+slug: s4h-strategy-deception
+name: 'Strategy: Deception'
+description: '- **Question:** "Deception strategy mapped. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-strategy-deception
+
+  description: "Manages information asymmetry in legitimate competitive contexts —
+  what to protect, what impressions work in your favor, and what your opponent may
+  be concealing from you. Triggers: ''conceal my position'', ''information asymmetry'',
+  ''misdirection'', ''what should I reveal vs conceal'', ''negotiation deception'',
+  ''strategic ambiguity'', ''manage what they know about me'', ''read their signals''."
+
+  ---
+
+
+  # Strategy: Deception
+
+
+  Sun Tzu''s most provocative statement: "...'
+full_prompt_length: 7105
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-strategy-deception/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-strategy-deception/SKILL.md
+fetched_at: '2026-06-07T06:26:06.361638+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:26:02.594294Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8b2f0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8b2f0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.835530Z'
+indexed_at: '2026-06-07T10:04:53.835536Z'

@@ -12,24 +12,24 @@ prompt_preview: "---\r\nname: script-blender-automation\r\ndescription: >\r\n  W
   \ data pipelines and APIs.\r\nlicense: MI..."
 full_prompt_length: 15807
 tools_mentioned:
-- python
 - Python
+- python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/script-blender-automation/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/script-blender-automation/SKILL.md
-fetched_at: '2026-05-31T06:17:11.137748+00:00'
+fetched_at: '2026-06-07T06:28:00.483905+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:26:44.778665Z'
+  evaluated_at: '2026-06-07T09:25:50.203024Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213965a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc660f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213965a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc660f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:16.950445Z'
-indexed_at: '2026-05-31T09:00:16.950451Z'
+  fetched_at: '2026-06-07T10:04:55.088391Z'
+indexed_at: '2026-06-07T10:04:55.088396Z'
 ---

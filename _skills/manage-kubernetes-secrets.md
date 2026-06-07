@@ -12,31 +12,31 @@ prompt_preview: "---\nname: manage-kubernetes-secrets\ndescription: >\n  Impleme
   \ AWS Secrets Manager or Azure\n  Key V..."
 full_prompt_length: 17608
 tools_mentioned:
+- AWS
 - rest
-- kubernetes
-- aws
 - Azure
 - azure
-- Rest
-- AWS
-- GCP
+- aws
 - Kubernetes
+- GCP
+- kubernetes
+- Rest
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/manage-kubernetes-secrets/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/manage-kubernetes-secrets/SKILL.md
-fetched_at: '2026-05-31T06:17:00.732679+00:00'
+fetched_at: '2026-06-07T06:27:42.176737+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:14:57.765456Z'
+  evaluated_at: '2026-06-07T09:14:01.272869Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fd1f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0f200 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56211fd1f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0f200 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:16.690675Z'
-indexed_at: '2026-05-31T09:00:16.690686Z'
+  fetched_at: '2026-06-07T10:04:54.841964Z'
+indexed_at: '2026-06-07T10:04:54.841969Z'
 ---

@@ -76,17 +76,17 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/skin-health-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/skin-health-analyzer/SKILL.md
-fetched_at: '2026-05-31T06:16:14.430424+00:00'
+fetched_at: '2026-06-07T06:25:13.649667+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:33:51.884983Z'
+  evaluated_at: '2026-06-07T08:01:54.956900Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d1ee0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc648f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d1ee0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc648f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -96,6 +96,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.775609Z'
-indexed_at: '2026-05-31T09:00:15.775615Z'
+  fetched_at: '2026-06-07T10:04:53.334576Z'
+indexed_at: '2026-06-07T10:04:53.334582Z'
 ---

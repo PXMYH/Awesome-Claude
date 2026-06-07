@@ -1,0 +1,48 @@
+id: s4h-economics-margin
+slug: s4h-economics-margin
+name: 'Economics: Marginal Thinking'
+description: '- **Question:** "Marginal analysis done. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-economics-margin
+
+  description: "Applies marginal thinking: the relevant decision is the next unit,
+  not the average or the sunk cost. Triggers: ''should we do more of this'', ''should
+  we expand'', ''should we cut'', ''marginal cost'', ''sunk cost'', ''we''ve already
+  invested so much'', ''average cost'', ''is this worth continuing'', ''how much should
+  we produce'', ''at what point should we stop'', any decision about quantity, scale,
+  or whether to continue an existing commitment."
+
+  ---
+
+
+  # Economics: Margin...'
+full_prompt_length: 8700
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-economics-margin/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-economics-margin/SKILL.md
+fetched_at: '2026-06-07T06:25:27.068962+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:10:17.750813Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67da0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67da0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.509783Z'
+indexed_at: '2026-06-07T10:04:53.509789Z'

@@ -12,25 +12,25 @@ prompt_preview: "---\r\nname: maintain-hand-tools\r\ndescription: >\r\n  Maintai
   \ spring for pre-season readiness checks..."
 full_prompt_length: 13465
 tools_mentioned:
-- Rust
 - go
 - rust
+- Rust
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/maintain-hand-tools/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/maintain-hand-tools/SKILL.md
-fetched_at: '2026-05-31T06:16:59.779104+00:00'
+fetched_at: '2026-06-07T06:27:40.584837+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T08:13:52.247562Z'
+  evaluated_at: '2026-06-07T09:12:56.504263Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621224620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0da30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5621224620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0da30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:16.667066Z'
-indexed_at: '2026-05-31T09:00:16.667071Z'
+  fetched_at: '2026-06-07T10:04:54.819495Z'
+indexed_at: '2026-06-07T10:04:54.819501Z'
 ---

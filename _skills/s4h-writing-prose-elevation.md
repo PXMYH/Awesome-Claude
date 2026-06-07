@@ -1,0 +1,54 @@
+---
+id: s4h-writing-prose-elevation
+slug: s4h-writing-prose-elevation
+name: 'Writing: Prose Elevation'
+description: '- **Question:** "Prose elevated. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-writing-prose-elevation
+
+  description: "Raises the quality of competent but flat prose by targeting abstraction,
+  weak verbs, and sensory absence. Use when writing is error-free but doesn''t sing
+  — when it reads as competent but not compelling. Triggers: ''the writing is flat'',
+  ''prose elevation'', ''competent but not compelling'', ''lift this writing'', ''the
+  prose needs work but isn''t broken'', ''make this sing'', ''the prose is fine but
+  forgettable''."
+
+  ---
+
+
+  # Writing: Prose Elevation
+
+
+  Prose elev...'
+full_prompt_length: 8101
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-writing-prose-elevation/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-writing-prose-elevation/SKILL.md
+fetched_at: '2026-06-07T06:26:12.294397+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:29:58.973573Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc66330 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc66330 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.916337Z'
+indexed_at: '2026-06-07T10:04:53.916343Z'
+---

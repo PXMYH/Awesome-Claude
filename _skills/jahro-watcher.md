@@ -21,17 +21,17 @@ category_display: Community
 source_repo: jahro-console/unity-agent-skills
 source_path: skills/jahro-watcher/SKILL.md
 source_url: https://github.com/jahro-console/unity-agent-skills/blob/main/skills/jahro-watcher/SKILL.md
-fetched_at: '2026-05-31T06:16:18.028673+00:00'
+fetched_at: '2026-06-07T06:26:24.158742+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T07:35:53.354350Z'
+  evaluated_at: '2026-06-07T08:34:36.296669Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc3560 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d3da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc3560 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:15.824809Z'
-indexed_at: '2026-05-31T09:00:15.824815Z'
+  fetched_at: '2026-06-07T10:04:54.013060Z'
+indexed_at: '2026-06-07T10:04:54.013066Z'
 ---

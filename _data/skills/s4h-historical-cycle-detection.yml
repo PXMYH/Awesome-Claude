@@ -1,0 +1,52 @@
+id: s4h-historical-cycle-detection
+slug: s4h-historical-cycle-detection
+name: Historical Cycle Detection
+description: '- **Question:** "Historical cycles detected. What''s next?"'
+prompt_preview: '---
+
+  name: s4h-historical-cycle-detection
+
+  description: "Identifies what recurring cycle the current situation is an instance
+  of — and where in that cycle you currently are. TRIGGERS: ''what cycle is this'',
+  ''where are we in the cycle'', ''is this a bubble'', ''what comes next'', ''have
+  we been here before''."
+
+  ---
+
+
+  # Historical Cycle Detection
+
+
+  Most situations that feel unprecedented are instances of recognisable cycles. The
+
+  value of cycle identification is not prediction — cycles don''t produce certainties...'
+full_prompt_length: 6737
+tools_mentioned:
+- Go
+category: community
+category_display: Community
+source_repo: human-avatar/skills-for-humanity
+source_path: skills/s4h-historical-cycle-detection/SKILL.md
+source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-historical-cycle-detection/SKILL.md
+fetched_at: '2026-06-07T06:25:34.363351+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T08:15:09.938722Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff60aa0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff60aa0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:53.610935Z'
+indexed_at: '2026-06-07T10:04:53.610941Z'

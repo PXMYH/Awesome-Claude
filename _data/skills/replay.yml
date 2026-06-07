@@ -1,0 +1,55 @@
+id: replay
+slug: replay
+name: Session Replay and Search
+description: '- The skip-the-image rule still applies: by default, do NOT include
+  the GIF reference (first line of the original markdown) when pasting into a PR.
+  Committing a binary GIF bloats git history. Only inc...'
+prompt_preview: '---
+
+  name: replay
+
+  description: Find, analyze, and share AI coding sessions with vibe-replay. Use when
+  the user asks for a replay, wants to find a past session, run a session retro, share
+  Cursor/Claude/Codex session context, or attach session context to a PR.
+
+  allowed-tools: Bash(npx *) Bash(grep *) Bash(ls *) Bash(cat *) Bash(cp *) Bash(gh
+  *)
+
+  argument-hint: [session-path-or-search-query]
+
+  ---
+
+
+  # Session Replay and Search
+
+
+  This skill helps agents find local AI coding sessions, generate shareable rep...'
+full_prompt_length: 13097
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: tuo-lei/vibe-replay
+source_path: skills/replay/SKILL.md
+source_url: https://github.com/tuo-lei/vibe-replay/blob/main/skills/replay/SKILL.md
+fetched_at: '2026-06-07T06:29:16.451934+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-07T10:02:08.791114Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0f050 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0f050 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-07T10:04:55.853786Z'
+indexed_at: '2026-06-07T10:04:55.853792Z'

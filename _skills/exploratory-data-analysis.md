@@ -15,24 +15,24 @@ prompt_preview: '---
   microscopy, spectroscop...'
 full_prompt_length: 14317
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/exploratory-data-analysis/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/exploratory-data-analysis/SKILL.md
-fetched_at: '2026-05-31T06:15:06.091862+00:00'
+fetched_at: '2026-06-07T06:22:49.373530+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-05-31T06:24:49.960306Z'
+  evaluated_at: '2026-06-07T06:38:45.610123Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d0cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffefc5c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f56213d0cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffefc5c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-05-31T09:00:14.251523Z'
-indexed_at: '2026-05-31T09:00:14.251530Z'
+  fetched_at: '2026-06-07T10:04:51.558799Z'
+indexed_at: '2026-06-07T10:04:51.558805Z'
 ---
