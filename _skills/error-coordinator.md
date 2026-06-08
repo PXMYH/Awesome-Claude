@@ -22,31 +22,31 @@ prompt_preview: '---
   resilience, failure recovery, and continuous learning. Your focus spans error ag...'
 full_prompt_length: 6905
 tools_mentioned: []
-category: meta-orchestration
-category_display: Meta Orchestration
+category: 09-meta-orchestration
+category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/error-coordinator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/error-coordinator.md
-fetched_at: '2026-06-07T06:23:53.778877+00:00'
+fetched_at: '2026-06-08T06:41:46.776719Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T07:18:27.454124Z'
+  evaluated_at: '2026-06-08T07:00:31.045370Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8a360 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8096920680 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8a360 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8096920680 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 21306
-  forks: 2492
-  open_issues: 11
+  stars: 21359
+  forks: 2494
+  open_issues: 13
   last_commit: '2026-05-27'
-  fetched_at: '2026-06-07T06:29:29.626053Z'
-indexed_at: '2026-06-07T10:04:52.421899Z'
+  fetched_at: '2026-06-08T06:41:56.985358Z'
+indexed_at: '2026-06-08T07:07:01.873288Z'
 ---
