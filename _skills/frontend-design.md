@@ -2,52 +2,55 @@
 id: frontend-design
 slug: frontend-design
 name: Frontend Design
-description: Claude skill for Frontend Design
+description: 'Keep the register conversational and tuned: plain verbs, sentence case,
+  no filler, with tone matched to the brand and the audience. Let each element do
+  exactly one job. A label labels, an example demo...'
 prompt_preview: '---
 
   name: frontend-design
 
-  description: Create distinctive, production-grade frontend interfaces with high
-  design quality. Use this skill when the user asks to build web components, pages,
-  artifacts, posters, or applications (examples include websites, landing pages, dashboards,
-  React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates
-  creative, polished code and UI design that avoids generic AI aesthetics.
+  description: Guidance for distinctive, intentional visual design when building new
+  UI or reshaping an existing one. Helps with aesthetic direction, typography, and
+  making choices that don''t read as templated defaults.
 
   license: Complete terms in LICENSE.txt
 
   ---
 
 
-  This skill guides...'
-full_prompt_length: 4440
-tools_mentioned:
-- Vue
-- React
+  # Frontend Design
+
+
+  Approach this as the design lead at a small studio known for giving every client
+  a visual identity that could not be mistaken for anyone else''s. This client has
+  already rejected proposals that...'
+full_prompt_length: 8250
+tools_mentioned: []
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/frontend-design/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md
-fetched_at: '2026-06-09T06:07:59.886411Z'
+fetched_at: '2026-06-10T06:23:12.277973Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-09T06:30:14.295404Z'
+  evaluated_at: '2026-06-10T06:45:36.418542Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd6c8ac9d30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efcee02b590 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd6c8ac9d30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7efcee02b590 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 148199
-  forks: 17490
-  open_issues: 946
-  last_commit: '2026-06-07'
-  fetched_at: '2026-06-09T06:08:06.912474Z'
-indexed_at: '2026-06-09T06:33:36.668816Z'
+  stars: 148681
+  forks: 17547
+  open_issues: 948
+  last_commit: '2026-06-09'
+  fetched_at: '2026-06-10T06:23:24.802149Z'
+indexed_at: '2026-06-10T06:48:54.524312Z'
 ---
