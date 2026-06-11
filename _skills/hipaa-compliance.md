@@ -29,26 +29,26 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/hipaa-compliance.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/hipaa-compliance.md
-fetched_at: '2026-06-10T06:22:57.316246Z'
+fetched_at: '2026-06-11T06:47:38.039920Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-10T06:38:26.854147Z'
+  evaluated_at: '2026-06-11T07:03:12.755289Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efcee020e00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7db9ddb770 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7efcee020e00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7db9ddb770 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 21500
-  forks: 2512
+  stars: 21573
+  forks: 2522
   open_issues: 14
   last_commit: '2026-05-27'
-  fetched_at: '2026-06-10T06:23:24.112887Z'
-indexed_at: '2026-06-10T06:48:54.394850Z'
+  fetched_at: '2026-06-11T06:48:14.592937Z'
+indexed_at: '2026-06-11T07:13:52.402065Z'
 ---
