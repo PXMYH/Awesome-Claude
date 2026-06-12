@@ -26,26 +26,26 @@ category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/content-quality-editor.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/content-quality-editor.md
-fetched_at: '2026-06-11T06:47:42.970316Z'
+fetched_at: '2026-06-12T06:40:12.250214Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-11T07:04:51.170177Z'
+  evaluated_at: '2026-06-12T06:56:55.368649Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7db9d80a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fcace85fef0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f7db9d80a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fcace85fef0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 21573
-  forks: 2522
-  open_issues: 14
+  stars: 21636
+  forks: 2529
+  open_issues: 16
   last_commit: '2026-05-27'
-  fetched_at: '2026-06-11T06:48:14.592937Z'
-indexed_at: '2026-06-11T07:13:52.434002Z'
+  fetched_at: '2026-06-12T06:40:29.185826Z'
+indexed_at: '2026-06-12T07:05:36.377022Z'
 ---
