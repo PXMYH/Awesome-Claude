@@ -27,26 +27,26 @@ category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/license-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/license-engineer.md
-fetched_at: '2026-06-12T06:40:12.953581Z'
+fetched_at: '2026-06-13T06:15:24.325258Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-12T06:57:28.084357Z'
+  evaluated_at: '2026-06-13T06:32:38.666590Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fcace743e00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9debb42c90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fcace743e00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9debb42c90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 21636
-  forks: 2529
-  open_issues: 16
+  stars: 21687
+  forks: 2535
+  open_issues: 15
   last_commit: '2026-05-27'
-  fetched_at: '2026-06-12T06:40:29.185826Z'
-indexed_at: '2026-06-12T07:05:36.389533Z'
+  fetched_at: '2026-06-13T06:15:40.182392Z'
+indexed_at: '2026-06-13T06:40:46.557265Z'
 ---
