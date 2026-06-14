@@ -3,35 +3,35 @@ id: diffdock
 slug: diffdock
 name: 'DiffDock: Molecular Docking with Diffusion Models'
 description: '- **GitHub Repository**: https://github.com/gcorso/DiffDock'
-prompt_preview: "---\nname: diffdock\ndescription: Diffusion-based molecular docking.\
-  \ Predict protein-ligand binding poses from PDB/SMILES, confidence scores, virtual\
-  \ screening, for structure-based drug design. Not for affinity prediction.\nlicense:\
-  \ MIT license\nmetadata:\n  version: \"1.0\"\n  skill-author: K-Dense Inc.\n---\n\
-  \n# DiffDock: Molecular Docking with Diffusion Models\n\n## Overview\n\nDiffDock\
-  \ is a diffusion-based deep learning tool for molecular docking that predicts 3D\
-  \ binding poses of small molecule ligands to..."
-full_prompt_length: 15442
+prompt_preview: "---\nname: diffdock\ndescription: DiffDock and DiffDock-L molecular\
+  \ docking. Use for protein-small-molecule pose prediction from PDB or sequence plus\
+  \ SMILES/SDF/MOL2, batch docking, virtual screening, and pose-confidence interpretation.\
+  \ Not for binding affinity prediction.\nallowed-tools:\n  - Read\n  - Write\n  -\
+  \ Edit\n  - Bash\n  - Glob\n  - Grep\ncompatibility: Requires the DiffDock repository,\
+  \ Python 3.9 environment from upstream environment.yml or the official Docker image,\
+  \ RDKit, PyTorch/PyG, and op..."
+full_prompt_length: 16372
 tools_mentioned:
 - Docker
+- docker
 - python
 - Python
-- docker
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/diffdock/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/diffdock/SKILL.md
-fetched_at: '2026-06-07T06:22:48.166190+00:00'
+fetched_at: '2026-06-14T06:38:12.239541+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:37:57.032920Z'
+  evaluated_at: '2026-06-14T06:51:17.117176Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450047b0e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3c5a60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450047b0e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3c5a60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.541221Z'
-indexed_at: '2026-06-07T10:04:51.541227Z'
+  fetched_at: '2026-06-14T10:18:24.503985Z'
+indexed_at: '2026-06-14T10:18:24.503989Z'
 ---

@@ -1,15 +1,16 @@
 id: implement-diffusion-network
 slug: implement-diffusion-network
 name: Implement a Diffusion Network
-description: Claude skill for Implement a Diffusion Network
-prompt_preview: "---\r\nname: implement-diffusion-network\r\ndescription: >\r\n  Implement\
-  \ a generative diffusion model (DDPM or score-based) with noise\r\n  scheduling,\
-  \ U-Net architecture, training loop, and sampling procedures\r\n  including DDIM\
-  \ acceleration. Use when building a generative model for\r\n  image, audio, or molecular\
-  \ synthesis; implementing DDPM from a research\r\n  paper; adding a custom noise\
-  \ schedule or conditioning mechanism; replacing\r\n  a GAN-based generator with\
-  \ a diffusion alternative; or prototyping..."
-full_prompt_length: 18758
+description: '- `analyze-diffusion-dynamics` - mathematical foundations of the diffusion
+  SDE that DDPM discretizes'
+prompt_preview: "---\nname: implement-diffusion-network\ndescription: >\n  Implement\
+  \ a generative diffusion model (DDPM or score-based) with noise\n  scheduling, U-Net\
+  \ architecture, training loop, and sampling procedures\n  including DDIM acceleration.\
+  \ Use when building a generative model for\n  image, audio, or molecular synthesis;\
+  \ implementing DDPM from a research\n  paper; adding a custom noise schedule or\
+  \ conditioning mechanism; replacing\n  a GAN-based generator with a diffusion alternative;\
+  \ or prototyping before..."
+full_prompt_length: 18315
 tools_mentioned:
 - go
 - Docker
@@ -19,17 +20,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/implement-diffusion-network/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/implement-diffusion-network/SKILL.md
-fetched_at: '2026-06-07T06:27:36.207520+00:00'
+fetched_at: '2026-06-14T06:41:19.759025+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:10:05.027878Z'
+  evaluated_at: '2026-06-14T09:23:28.543012Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0ec60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11b530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0ec60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11b530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.759760Z'
-indexed_at: '2026-06-07T10:04:54.759765Z'
+  fetched_at: '2026-06-14T10:18:26.988388Z'
+indexed_at: '2026-06-14T10:18:26.988392Z'

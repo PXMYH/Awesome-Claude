@@ -1,15 +1,16 @@
 id: mineral-identification
 slug: mineral-identification
 name: Mineral Identification
-description: Claude skill for Mineral Identification
-prompt_preview: "---\r\nname: mineral-identification\r\ndescription: >\r\n  Field\
-  \ identification of minerals and ores using hardness, streak, luster,\r\n  cleavage,\
-  \ crystal habit, and simple chemical tests. Covers the systematic\r\n  elimination\
-  \ methodology, Mohs scale application, and common ore indicators\r\n  for precious\
-  \ metals, gemstones, and industrial minerals. Use when encountering\r\n  an unknown\
-  \ rock or mineral specimen, when prospecting and assessing whether a\r\n  site shows\
-  \ valuable mineral indicators, when disting..."
-full_prompt_length: 9901
+description: '- `gold-washing` — alluvial gold recovery uses mineral identification
+  skills to read stream deposits and assess gold-bearing gravels'
+prompt_preview: "---\nname: mineral-identification\ndescription: >\n  Field identification\
+  \ of minerals and ores using hardness, streak, luster,\n  cleavage, crystal habit,\
+  \ and simple chemical tests. Covers the systematic\n  elimination methodology, Mohs\
+  \ scale application, and common ore indicators\n  for precious metals, gemstones,\
+  \ and industrial minerals. Use when encountering\n  an unknown rock or mineral specimen,\
+  \ when prospecting and assessing whether a\n  site shows valuable mineral indicators,\
+  \ when distinguishing..."
+full_prompt_length: 9695
 tools_mentioned:
 - rust
 category: community
@@ -17,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/mineral-identification/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/mineral-identification/SKILL.md
-fetched_at: '2026-06-07T06:27:44.051313+00:00'
+fetched_at: '2026-06-14T06:41:25.061044+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:15:14.707417Z'
+  evaluated_at: '2026-06-14T09:28:37.305377Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0ecf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f58860 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0ecf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f58860 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.867234Z'
-indexed_at: '2026-06-07T10:04:54.867240Z'
+  fetched_at: '2026-06-14T10:18:27.071840Z'
+indexed_at: '2026-06-14T10:18:27.071845Z'

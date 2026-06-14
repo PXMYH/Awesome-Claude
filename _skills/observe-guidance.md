@@ -2,32 +2,33 @@
 id: observe-guidance
 slug: observe-guidance
 name: Observe (Guidance)
-description: Claude skill for Observe (Guidance)
-prompt_preview: "---\r\nname: observe-guidance\r\ndescription: >\r\n  Guide a person\
-  \ in systematic observation of systems, patterns, or\r\n  phenomena. AI coaches\
-  \ neutral attention, field notes methodology,\r\n  pattern recognition, hypothesis\
-  \ formation, and structured reporting\r\n  for debugging, research, and system understanding.\
-  \ Use when a person\r\n  wants to understand a system's behavior before intervening,\
-  \ when someone\r\n  keeps jumping to conclusions and needs the discipline of observation\
-  \ first,\r\n  when preparing an..."
-full_prompt_length: 14088
+description: '- `observe` — the AI self-directed variant for sustained neutral pattern
+  recognition across systems'
+prompt_preview: "---\nname: observe-guidance\ndescription: >\n  Guide a person in\
+  \ systematic observation of systems, patterns, or\n  phenomena. AI coaches neutral\
+  \ attention, field notes methodology,\n  pattern recognition, hypothesis formation,\
+  \ and structured reporting\n  for debugging, research, and system understanding.\
+  \ Use when a person\n  wants to understand a system's behavior before intervening,\
+  \ when someone\n  keeps jumping to conclusions and needs the discipline of observation\
+  \ first,\n  when preparing an evidence..."
+full_prompt_length: 13894
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/observe-guidance/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/observe-guidance/SKILL.md
-fetched_at: '2026-06-07T06:27:45.557990+00:00'
+fetched_at: '2026-06-14T06:41:26.064670+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:16:11.408189Z'
+  evaluated_at: '2026-06-14T09:29:34.887176Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8abd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0823f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8abd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0823f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.887068Z'
-indexed_at: '2026-06-07T10:04:54.887074Z'
+  fetched_at: '2026-06-14T10:18:27.087384Z'
+indexed_at: '2026-06-14T10:18:27.087388Z'
 ---

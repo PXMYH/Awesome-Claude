@@ -2,34 +2,34 @@
 id: create-spatial-visualization
 slug: create-spatial-visualization
 name: Create Spatial Visualization
-description: Claude skill for Create Spatial Visualization
-prompt_preview: "---\r\nname: create-spatial-visualization\r\ndescription: >\r\n \
-  \ Create interactive maps, elevation profiles, and spatial visualizations\r\n  from\
-  \ GPX tracks, waypoints, or route data using R (sf, leaflet, tmap)\r\n  or Observable\
-  \ (D3, deck.gl). Covers data import, coordinate system\r\n  handling, map styling,\
-  \ and export to HTML or image formats. Use when\r\n  visualizing a planned or completed\
-  \ tour route on an interactive map,\r\n  creating elevation profiles for hiking\
-  \ or cycling routes, overlaying\r\n  waypoin..."
-full_prompt_length: 12327
+description: '- `plan-tour-route` — generate the route data that this skill visualizes'
+prompt_preview: "---\nname: create-spatial-visualization\ndescription: >\n  Create\
+  \ interactive maps, elevation profiles, and spatial visualizations\n  from GPX tracks,\
+  \ waypoints, or route data using R (sf, leaflet, tmap)\n  or Observable (D3, deck.gl).\
+  \ Covers data import, coordinate system\n  handling, map styling, and export to\
+  \ HTML or image formats. Use when\n  visualizing a planned or completed tour route\
+  \ on an interactive map,\n  creating elevation profiles for hiking or cycling routes,\
+  \ overlaying\n  waypoints and PO..."
+full_prompt_length: 12076
 tools_mentioned:
-- javascript
 - JavaScript
+- javascript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-spatial-visualization/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-spatial-visualization/SKILL.md
-fetched_at: '2026-06-07T06:27:19.370190+00:00'
+fetched_at: '2026-06-14T06:41:08.132215+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:59:15.808783Z'
+  evaluated_at: '2026-06-14T09:12:39.688443Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb5df0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3fda60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb5df0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3fda60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.533747Z'
-indexed_at: '2026-06-07T10:04:54.533752Z'
+  fetched_at: '2026-06-14T10:18:26.813647Z'
+indexed_at: '2026-06-14T10:18:26.813652Z'
 ---

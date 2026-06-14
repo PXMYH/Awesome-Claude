@@ -13,26 +13,26 @@ prompt_preview: '---
   ultrasound), anonymizing DICOM files, working with DICOM metadata and tags, converting
   DICOM images to other formats, handling compressed DICOM data, or processing medical
   imaging datasets. Applies to tasks involving medical im...'
-full_prompt_length: 13204
+full_prompt_length: 13209
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pydicom/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pydicom/SKILL.md
-fetched_at: '2026-06-07T06:23:01.264537+00:00'
+fetched_at: '2026-06-14T06:38:20.837661+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:47:05.589442Z'
+  evaluated_at: '2026-06-14T07:00:39.995359Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8ad80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187afb3d10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8ad80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187afb3d10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.751148Z'
-indexed_at: '2026-06-07T10:04:51.751154Z'
+  fetched_at: '2026-06-14T10:18:24.656008Z'
+indexed_at: '2026-06-14T10:18:24.656013Z'
 ---

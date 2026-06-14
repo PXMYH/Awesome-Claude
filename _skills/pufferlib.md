@@ -3,33 +3,39 @@ id: pufferlib
 slug: pufferlib
 name: PufferLib - High-Performance Reinforcement Learning
 description: '- Official docs: https://puffer.ai/docs.html'
-prompt_preview: "---\nname: pufferlib\ndescription: High-performance reinforcement\
-  \ learning framework optimized for speed and scale. Use when you need fast parallel\
-  \ training, vectorized environments, multi-agent systems, or integration with game\
-  \ environments (Atari, Procgen, NetHack). Achieves 2-10x speedups over standard\
-  \ implementations. For quick prototyping or standard algorithm implementations with\
-  \ extensive documentation, use stable-baselines3 instead.\nlicense: MIT license\n\
-  metadata:\n  version: \"1.0\"\n  skill-a..."
-full_prompt_length: 13508
+prompt_preview: '---
+
+  name: pufferlib
+
+  description: High-performance reinforcement learning framework optimized for speed
+  and scale. Use when you need fast parallel training, vectorized environments, multi-agent
+  systems, or integration with game environments (Atari, Procgen, NetHack). Achieves
+  2-10x speedups over standard implementations. For quick prototyping or standard
+  algorithm implementations with extensive documentation, use stable-baselines3 instead.
+
+  license: MIT license
+
+  metadata: {"version": "1.0", "skill-...'
+full_prompt_length: 13513
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pufferlib/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pufferlib/SKILL.md
-fetched_at: '2026-06-07T06:23:00.848783+00:00'
+fetched_at: '2026-06-14T06:38:20.566012+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:46:49.428899Z'
+  evaluated_at: '2026-06-14T07:00:23.524364Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450038f9e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083b60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450038f9e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083b60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.745374Z'
-indexed_at: '2026-06-07T10:04:51.745384Z'
+  fetched_at: '2026-06-14T10:18:24.651671Z'
+indexed_at: '2026-06-14T10:18:24.651675Z'
 ---

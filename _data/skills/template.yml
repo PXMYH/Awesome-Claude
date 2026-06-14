@@ -12,26 +12,26 @@ prompt_preview: "---\nname: skill-name-here\ndescription: >\n  One to three sent
   metadata:\n  author: Your Name\n  version:..."
 full_prompt_length: 2670
 tools_mentioned:
-- TypeScript
 - Docker
-- Python
 - Rust
+- Python
+- TypeScript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/_template/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/_template/SKILL.md
-fetched_at: '2026-06-07T06:26:59.699793+00:00'
+fetched_at: '2026-06-14T06:40:55.333917+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:46:48.971248Z'
+  evaluated_at: '2026-06-14T09:00:10.804075Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33b90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7bc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33b90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7bc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.272327Z'
-indexed_at: '2026-06-07T10:04:54.272341Z'
+  fetched_at: '2026-06-14T10:18:26.609100Z'
+indexed_at: '2026-06-14T10:18:26.609104Z'

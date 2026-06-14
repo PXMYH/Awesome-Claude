@@ -2,15 +2,16 @@
 id: mindfulness
 slug: mindfulness
 name: Cultivate Defensive Mindfulness
-description: Claude skill for Cultivate Defensive Mindfulness
-prompt_preview: "---\r\nname: mindfulness\r\ndescription: >\r\n  Cultivate defensive\
-  \ situational awareness, threat assessment, and mental\r\n  clarity under pressure.\
-  \ Covers the Cooper color code awareness system,\r\n  body language reading and\
-  \ intent detection, verbal de-escalation, moving\r\n  mindfulness in public spaces,\
-  \ combat focus and the OODA loop, rapid\r\n  grounding techniques for acute stress,\
-  \ context-specific integration, and\r\n  ongoing review and refinement of awareness\
-  \ skills. Use when entering\r\n  unfamiliar or..."
-full_prompt_length: 25634
+description: '- `aikido` — physical techniques for when de-escalation fails; blending
+  and redirection principles mirror verbal de-escalation'
+prompt_preview: "---\nname: mindfulness\ndescription: >\n  Cultivate defensive situational\
+  \ awareness, threat assessment, and mental\n  clarity under pressure. Covers the\
+  \ Cooper color code awareness system,\n  body language reading and intent detection,\
+  \ verbal de-escalation, moving\n  mindfulness in public spaces, combat focus and\
+  \ the OODA loop, rapid\n  grounding techniques for acute stress, context-specific\
+  \ integration, and\n  ongoing review and refinement of awareness skills. Use when\
+  \ entering\n  unfamiliar or potentia..."
+full_prompt_length: 25329
 tools_mentioned:
 - go
 category: community
@@ -18,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/mindfulness/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/mindfulness/SKILL.md
-fetched_at: '2026-06-07T06:27:43.836068+00:00'
+fetched_at: '2026-06-14T06:41:24.910825+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:15:06.335078Z'
+  evaluated_at: '2026-06-14T09:28:29.221406Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0dc10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5adb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0dc10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5adb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.864459Z'
-indexed_at: '2026-06-07T10:04:54.864464Z'
+  fetched_at: '2026-06-14T10:18:27.069607Z'
+indexed_at: '2026-06-14T10:18:27.069612Z'
 ---

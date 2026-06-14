@@ -1,32 +1,32 @@
 id: implement-audit-trail
 slug: implement-audit-trail
 name: Implement Audit Trail
-description: Claude skill for Implement Audit Trail
-prompt_preview: "---\r\nname: implement-audit-trail\r\ndescription: >\r\n  Implement\
-  \ audit trail functionality for R projects in regulated\r\n  environments. Covers\
-  \ logging, provenance tracking, electronic\r\n  signatures, data integrity checks,\
-  \ and 21 CFR Part 11 compliance. Use\r\n  when an R analysis requires electronic\
-  \ records compliance (21 CFR Part 11),\r\n  when you need to track who did what\
-  \ and when in an analysis, when\r\n  implementing data provenance tracking, or when\
-  \ creating tamper-evident\r\n  analysis logs for reg..."
-full_prompt_length: 10906
+description: '- `setup-gxp-r-project` - project structure for validated environments'
+prompt_preview: "---\nname: implement-audit-trail\ndescription: >\n  Implement audit\
+  \ trail functionality for R projects in regulated\n  environments. Covers logging,\
+  \ provenance tracking, electronic\n  signatures, data integrity checks, and 21 CFR\
+  \ Part 11 compliance. Use\n  when an R analysis requires electronic records compliance\
+  \ (21 CFR Part 11),\n  when you need to track who did what and when in an analysis,\
+  \ when\n  implementing data provenance tracking, or when creating tamper-evident\n\
+  \  analysis logs for regulatory s..."
+full_prompt_length: 10621
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/implement-audit-trail/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/implement-audit-trail/SKILL.md
-fetched_at: '2026-06-07T06:27:36.012973+00:00'
+fetched_at: '2026-06-14T06:41:19.618223+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:09:56.951541Z'
+  evaluated_at: '2026-06-14T09:23:20.453764Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc885f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082fc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc885f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082fc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.756949Z'
-indexed_at: '2026-06-07T10:04:54.756954Z'
+  fetched_at: '2026-06-14T10:18:26.986226Z'
+indexed_at: '2026-06-14T10:18:26.986234Z'

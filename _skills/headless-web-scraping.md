@@ -11,31 +11,31 @@ prompt_preview: "---\nname: headless-web-scraping\ndescription: >\n  Extract dat
   \ with CSS selectors. Use when WebFetch is insufficient for\n  JS-rendered pages,\
   \ anti-bot-protected sites, or structured multi-element\n  extraction requiring\
   \ DOM traversal.\nlicense: MIT\nallowed-tools: Bash..."
-full_prompt_length: 12006
+full_prompt_length: 11976
 tools_mentioned:
-- JavaScript
-- React
+- GraphQL
 - Vue
 - Python
-- python
-- GraphQL
+- JavaScript
 - graphql
+- python
+- React
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/headless-web-scraping/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/headless-web-scraping/SKILL.md
-fetched_at: '2026-06-07T06:27:34.525007+00:00'
+fetched_at: '2026-06-14T06:41:18.621498+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:09:00.275603Z'
+  evaluated_at: '2026-06-14T09:22:23.755996Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb51f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11a870 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb51f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11a870 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.737133Z'
-indexed_at: '2026-06-07T10:04:54.737139Z'
+  fetched_at: '2026-06-14T10:18:26.970745Z'
+indexed_at: '2026-06-14T10:18:26.970749Z'
 ---

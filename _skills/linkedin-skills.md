@@ -28,17 +28,17 @@ category_display: Community
 source_repo: sergebulaev/linkedin-skills
 source_path: SKILL.md
 source_url: https://github.com/sergebulaev/linkedin-skills/blob/main/SKILL.md
-fetched_at: '2026-06-07T06:28:40.157997+00:00'
+fetched_at: '2026-06-14T06:42:04.509386+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:48:38.468645Z'
+  evaluated_at: '2026-06-14T10:02:01.549059Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8bf50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f59370 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8bf50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f59370 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.565146Z'
-indexed_at: '2026-06-07T10:04:55.565151Z'
+  fetched_at: '2026-06-14T10:18:27.619805Z'
+indexed_at: '2026-06-14T10:18:27.619810Z'
 ---

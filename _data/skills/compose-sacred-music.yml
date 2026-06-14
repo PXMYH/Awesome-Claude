@@ -1,32 +1,33 @@
 id: compose-sacred-music
 slug: compose-sacred-music
 name: Compose Sacred Music
-description: Claude skill for Compose Sacred Music
-prompt_preview: "---\r\nname: compose-sacred-music\r\ndescription: >\r\n  Compose\
-  \ or analyze sacred music in Hildegard von Bingen's distinctive modal\r\n  style.\
-  \ Covers modal selection, melodic contour (wide-range melodies),\r\n  text-setting\
-  \ (syllabic and melismatic), neumatic notation, and liturgical\r\n  context for\
-  \ antiphons, sequences, and responsories. Use when composing a\r\n  new piece in\
-  \ Hildegardian style, analyzing an existing chant for structure\r\n  and mode, researching\
-  \ medieval modal music, preparing to perform o..."
-full_prompt_length: 15581
+description: '- `practice-viriditas` — Hildegard''s music is an expression of viriditas
+  (greening life force)'
+prompt_preview: "---\nname: compose-sacred-music\ndescription: >\n  Compose or analyze\
+  \ sacred music in Hildegard von Bingen's distinctive modal\n  style. Covers modal\
+  \ selection, melodic contour (wide-range melodies),\n  text-setting (syllabic and\
+  \ melismatic), neumatic notation, and liturgical\n  context for antiphons, sequences,\
+  \ and responsories. Use when composing a\n  new piece in Hildegardian style, analyzing\
+  \ an existing chant for structure\n  and mode, researching medieval modal music,\
+  \ preparing to perform or teach..."
+full_prompt_length: 15275
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/compose-sacred-music/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/compose-sacred-music/SKILL.md
-fetched_at: '2026-06-07T06:27:12.166619+00:00'
+fetched_at: '2026-06-14T06:41:03.453066+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:54:38.990773Z'
+  evaluated_at: '2026-06-14T09:08:02.718043Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32f00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f58f20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32f00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f58f20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.436694Z'
-indexed_at: '2026-06-07T10:04:54.436699Z'
+  fetched_at: '2026-06-14T10:18:26.739175Z'
+indexed_at: '2026-06-14T10:18:26.739179Z'

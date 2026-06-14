@@ -2,14 +2,22 @@ id: timesfm-forecasting
 slug: timesfm-forecasting
 name: TimesFM Forecasting
 description: '# Covariates regression check:'
-prompt_preview: "---\nname: timesfm-forecasting\ndescription: Zero-shot time series\
-  \ forecasting with Google's TimesFM foundation model. Use for any univariate time\
-  \ series (sales, sensors, energy, vitals, weather) without training a custom model.\
-  \ Supports CSV/DataFrame/array inputs with point forecasts and prediction intervals.\
-  \ Includes a preflight system checker script to verify RAM/GPU before first use.\n\
-  allowed-tools: Read Write Edit Bash\nlicense: Apache-2.0 license\nmetadata:\n  version:\
-  \ \"1.0\"\n  skill-author: Clay..."
-full_prompt_length: 29978
+prompt_preview: '---
+
+  name: timesfm-forecasting
+
+  description: Zero-shot time series forecasting with Google''s TimesFM foundation
+  model. Use for any univariate time series (sales, sensors, energy, vitals, weather)
+  without training a custom model. Supports CSV/DataFrame/array inputs with point
+  forecasts and prediction intervals. Includes a preflight system checker script to
+  verify RAM/GPU before first use.
+
+  allowed-tools: Read Write Edit Bash
+
+  license: Apache-2.0 license
+
+  metadata: {"version": "1.0", "skill-author": "C...'
+full_prompt_length: 29984
 tools_mentioned:
 - python
 - Python
@@ -18,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/timesfm-forecasting/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/timesfm-forecasting/SKILL.md
-fetched_at: '2026-06-07T06:23:08.749180+00:00'
+fetched_at: '2026-06-14T06:38:25.980609+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:52:15.297931Z'
+  evaluated_at: '2026-06-14T07:05:58.507147Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32a50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11b020 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32a50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11b020 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.862091Z'
-indexed_at: '2026-06-07T10:04:51.862100Z'
+  fetched_at: '2026-06-14T10:18:24.741384Z'
+indexed_at: '2026-06-14T10:18:24.741388Z'

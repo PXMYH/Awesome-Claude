@@ -2,15 +2,16 @@
 id: forage-plants
 slug: forage-plants
 name: Forage Plants
-description: Claude skill for Forage Plants
-prompt_preview: "---\r\nname: forage-plants\r\ndescription: >\r\n  Identify and safely\
-  \ gather edible and useful wild plants. Covers safety rules\r\n  and deadly plant\
-  \ recognition, habitat reading, multi-feature identification\r\n  methodology, the\
-  \ universal edibility test, sustainable harvesting practices,\r\n  preparation methods,\
-  \ reaction monitoring, and building knowledge with\r\n  beginner-friendly universal\
-  \ species. Use when supplementing food supply in a\r\n  wilderness or survival setting,\
-  \ needing medicinal or utility pl..."
-full_prompt_length: 22039
+description: '- `make-fire` — required for cooking foraged plants; many species need
+  boiling or roasting to be safe or palatable'
+prompt_preview: "---\nname: forage-plants\ndescription: >\n  Identify and safely gather\
+  \ edible and useful wild plants. Covers safety rules\n  and deadly plant recognition,\
+  \ habitat reading, multi-feature identification\n  methodology, the universal edibility\
+  \ test, sustainable harvesting practices,\n  preparation methods, reaction monitoring,\
+  \ and building knowledge with\n  beginner-friendly universal species. Use when supplementing\
+  \ food supply in a\n  wilderness or survival setting, needing medicinal or utility\
+  \ plants, id..."
+full_prompt_length: 21660
 tools_mentioned:
 - rest
 category: community
@@ -18,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/forage-plants/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/forage-plants/SKILL.md
-fetched_at: '2026-06-07T06:27:30.761293+00:00'
+fetched_at: '2026-06-14T06:41:15.989741+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:06:33.445155Z'
+  evaluated_at: '2026-06-14T09:19:57.430353Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc327b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083620 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc327b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083620 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.686912Z'
-indexed_at: '2026-06-07T10:04:54.686917Z'
+  fetched_at: '2026-06-14T10:18:26.931543Z'
+indexed_at: '2026-06-14T10:18:26.931547Z'
 ---

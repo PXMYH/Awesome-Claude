@@ -2,15 +2,16 @@
 id: verify-agent-output
 slug: verify-agent-output
 name: Verify Agent Output
-description: Claude skill for Verify Agent Output
-prompt_preview: "---\r\nname: verify-agent-output\r\ndescription: >\r\n  Validate\
-  \ deliverables and build evidence trails when work passes between\r\n  agents. Covers\
-  \ expected outcome specification before execution, structured\r\n  evidence generation\
-  \ during execution, deliverable validation against\r\n  external anchors after execution,\
-  \ fidelity checks for compressed or\r\n  summarized outputs, trust boundary classification,\
-  \ and structured\r\n  disagreement reporting on verification failure. Use when coordinating\r\
-  \n  multi-agent..."
-full_prompt_length: 18375
+description: '- `fail-early-pattern` — complementary: fail-early catches bad input
+  at the start; verify-agent-output catches bad output at the end'
+prompt_preview: "---\nname: verify-agent-output\ndescription: >\n  Validate deliverables\
+  \ and build evidence trails when work passes between\n  agents. Covers expected\
+  \ outcome specification before execution, structured\n  evidence generation during\
+  \ execution, deliverable validation against\n  external anchors after execution,\
+  \ fidelity checks for compressed or\n  summarized outputs, trust boundary classification,\
+  \ and structured\n  disagreement reporting on verification failure. Use when coordinating\n\
+  \  multi-agent workflow..."
+full_prompt_length: 18008
 tools_mentioned:
 - Docker
 category: community
@@ -18,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/verify-agent-output/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/verify-agent-output/SKILL.md
-fetched_at: '2026-06-07T06:28:11.302089+00:00'
+fetched_at: '2026-06-14T06:41:43.952587+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:33:01.840148Z'
+  evaluated_at: '2026-06-14T09:46:21.245428Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32d80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3464b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32d80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3464b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.238783Z'
-indexed_at: '2026-06-07T10:04:55.238788Z'
+  fetched_at: '2026-06-14T10:18:27.364015Z'
+indexed_at: '2026-06-14T10:18:27.364024Z'
 ---

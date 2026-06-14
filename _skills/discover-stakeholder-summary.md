@@ -7,27 +7,27 @@ prompt_preview: "---\nname: discover-stakeholder-summary\ndescription: Documents
   \ needs, concerns, and influence for a project or initiative. Use when starting\
   \ projects, managing complex stakeholder relationships, or ensuring alignment across\
   \ organizational boundaries.\nlicense: Apache-2.0\nmetadata:\n  phase: discover\n\
-  \  version: \"2.0.0\"\n  updated: 2026-01-26\n  category: research\n  frameworks:\
+  \  version: \"2.1.0\"\n  updated: 2026-06-10\n  category: research\n  frameworks:\
   \ [triple-diamond, lean-startup, design-thinking]\n  author: product-on-purpose\n\
   ---\n<!-- PM-Skills | https://github.c..."
-full_prompt_length: 3488
+full_prompt_length: 4147
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/discover-stakeholder-summary/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/discover-stakeholder-summary/SKILL.md
-fetched_at: '2026-06-07T06:28:19.846767+00:00'
+fetched_at: '2026-06-14T06:41:49.931257+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:37:32.140732Z'
+  evaluated_at: '2026-06-14T09:50:48.336973Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb54c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a118a70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb54c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a118a70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.331600Z'
-indexed_at: '2026-06-07T10:04:55.331606Z'
+  fetched_at: '2026-06-14T10:18:27.435731Z'
+indexed_at: '2026-06-14T10:18:27.435736Z'
 ---

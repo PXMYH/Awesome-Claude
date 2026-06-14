@@ -2,32 +2,33 @@
 id: generate-status-report
 slug: generate-status-report
 name: Generate a Project Status Report
-description: Claude skill for Generate a Project Status Report
-prompt_preview: "---\r\nname: generate-status-report\r\ndescription: >\r\n  Generate\
-  \ a project status report by reading existing artifacts (charter,\r\n  backlog,\
-  \ sprint plan, WBS), calculating metrics, identifying blockers,\r\n  and summarizing\
-  \ progress with RAG indicators for schedule, scope, budget,\r\n  and quality. Use\
-  \ at the end of a sprint or reporting period, when stakeholders\r\n  request a health\
-  \ update, before steering committee or governance meetings,\r\n  or when a new blocker\
-  \ or risk materializes mid-project.\r\nlic..."
-full_prompt_length: 8639
+description: '- `draft-project-charter` — charter provides milestones and success
+  criteria for status tracking'
+prompt_preview: "---\nname: generate-status-report\ndescription: >\n  Generate a project\
+  \ status report by reading existing artifacts (charter,\n  backlog, sprint plan,\
+  \ WBS), calculating metrics, identifying blockers,\n  and summarizing progress with\
+  \ RAG indicators for schedule, scope, budget,\n  and quality. Use at the end of\
+  \ a sprint or reporting period, when stakeholders\n  request a health update, before\
+  \ steering committee or governance meetings,\n  or when a new blocker or risk materializes\
+  \ mid-project.\nlicense: MIT..."
+full_prompt_length: 8412
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/generate-status-report/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/generate-status-report/SKILL.md
-fetched_at: '2026-06-07T06:27:33.274851+00:00'
+fetched_at: '2026-06-14T06:41:17.682153+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:08:11.801763Z'
+  evaluated_at: '2026-06-14T09:21:35.145686Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8a0c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11b140 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8a0c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11b140 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.720447Z'
-indexed_at: '2026-06-07T10:04:54.720453Z'
+  fetched_at: '2026-06-14T10:18:26.957691Z'
+indexed_at: '2026-06-14T10:18:26.957695Z'
 ---

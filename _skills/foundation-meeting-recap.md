@@ -12,12 +12,8 @@ prompt_preview: '---
   action view at the end). Auto-populates topic skeleton from a sibling meeting-agenda
   when available and reconciles planned vs. actual topics. Accepts transcripts from
   Zoom, Meet, Otter, Fireflies, Krisp MCP, or manual notes; runs on variable-quality
-  input without blocking.
-
-  license: Apache-2.0
-
-  metadata:...'
-full_prompt_length: 8127
+  input without blocking. For synthesizing user research...'
+full_prompt_length: 8224
 tools_mentioned:
 - go
 category: community
@@ -25,17 +21,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/foundation-meeting-recap/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/foundation-meeting-recap/SKILL.md
-fetched_at: '2026-06-07T06:28:20.641590+00:00'
+fetched_at: '2026-06-14T06:41:50.460646+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:38:04.460475Z'
+  evaluated_at: '2026-06-14T09:51:20.753452Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32c00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11b2f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32c00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11b2f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.343001Z'
-indexed_at: '2026-06-07T10:04:55.343006Z'
+  fetched_at: '2026-06-14T10:18:27.444587Z'
+indexed_at: '2026-06-14T10:18:27.444592Z'
 ---

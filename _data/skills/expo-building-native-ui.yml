@@ -9,28 +9,28 @@ prompt_preview: "---\nname: building-native-ui\ndescription: Complete guide for 
   ```\nreferences/\n  animations.md          Reanimated: entering, exiting, layout,\
   \ scroll-driven, gestures\n  controls.md            Native iOS: Switch, Slider,\
   \ SegmentedControl, DateTimePicker, Picker..."
-full_prompt_length: 10434
+full_prompt_length: 10433
 tools_mentioned:
-- SQLite
-- Go
 - react
+- Go
+- SQLite
 - React
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/building-native-ui/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/building-native-ui/SKILL.md
-fetched_at: '2026-06-07T06:25:04.554603+00:00'
+fetched_at: '2026-06-14T06:39:44.961035+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T07:57:27.885350Z'
+  evaluated_at: '2026-06-14T08:11:05.958833Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc887d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7e60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc887d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7e60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:53.239924Z'
-indexed_at: '2026-06-07T10:04:53.239930Z'
+  fetched_at: '2026-06-14T10:18:25.810696Z'
+indexed_at: '2026-06-14T10:18:25.810701Z'

@@ -13,27 +13,27 @@ prompt_preview: "---\nname: technical-tutorials\ndescription: When the user want
 full_prompt_length: 11467
 tools_mentioned:
 - go
-- javascript
-- JavaScript
 - Go
-- Node.js
+- JavaScript
 - REST
+- Node.js
+- javascript
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/technical-tutorials/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/technical-tutorials/SKILL.md
-fetched_at: '2026-06-07T06:26:45.665985+00:00'
+fetched_at: '2026-06-14T06:40:43.831080+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:42:35.770383Z'
+  evaluated_at: '2026-06-14T08:55:59.894851Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc31dc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5a7e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc31dc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5a7e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.183709Z'
-indexed_at: '2026-06-07T10:04:54.183715Z'
+  fetched_at: '2026-06-14T10:18:26.542112Z'
+indexed_at: '2026-06-14T10:18:26.542117Z'
 ---

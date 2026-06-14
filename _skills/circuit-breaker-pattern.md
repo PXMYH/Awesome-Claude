@@ -2,32 +2,33 @@
 id: circuit-breaker-pattern
 slug: circuit-breaker-pattern
 name: Circuit Breaker Pattern
-description: Claude skill for Circuit Breaker Pattern
-prompt_preview: "---\r\nname: circuit-breaker-pattern\r\ndescription: >\r\n  Implement\
-  \ circuit breaker logic for agentic tool calls — tracking tool health,\r\n  transitioning\
-  \ between closed/open/half-open states, reducing task scope when\r\n  tools fail,\
-  \ routing to alternatives via capability maps, and enforcing failure\r\n  budgets\
-  \ to prevent error accumulation. Separates orchestration (deciding what\r\n  to\
-  \ attempt) from execution (calling tools), following the expeditor pattern.\r\n\
-  \  Use when building agents that depend on m..."
-full_prompt_length: 24323
+description: '- `fail-early-pattern` — complementary pattern: fail-early validates
+  inputs before work begins; circuit-breaker manages failures during work'
+prompt_preview: "---\nname: circuit-breaker-pattern\ndescription: >\n  Implement circuit\
+  \ breaker logic for agentic tool calls — tracking tool health,\n  transitioning\
+  \ between closed/open/half-open states, reducing task scope when\n  tools fail,\
+  \ routing to alternatives via capability maps, and enforcing failure\n  budgets\
+  \ to prevent error accumulation. Separates orchestration (deciding what\n  to attempt)\
+  \ from execution (calling tools), following the expeditor pattern.\n  Use when building\
+  \ agents that depend on multiple..."
+full_prompt_length: 23871
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/circuit-breaker-pattern/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/circuit-breaker-pattern/SKILL.md
-fetched_at: '2026-06-07T06:27:11.215676+00:00'
+fetched_at: '2026-06-14T06:41:02.910304+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:54:06.653151Z'
+  evaluated_at: '2026-06-14T09:07:30.330068Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ede80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ede80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.425327Z'
-indexed_at: '2026-06-07T10:04:54.425332Z'
+  fetched_at: '2026-06-14T10:18:26.730284Z'
+indexed_at: '2026-06-14T10:18:26.730289Z'
 ---

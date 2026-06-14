@@ -2,15 +2,16 @@
 id: make-fire
 slug: make-fire
 name: Make Fire
-description: Claude skill for Make Fire
-prompt_preview: "---\r\nname: make-fire\r\ndescription: >\r\n  Start and maintain\
-  \ a fire using friction, spark, and solar methods.\r\n  Covers site selection, material\
-  \ grading (tinder/kindling/fuel), fire lay\r\n  construction (teepee, log cabin,\
-  \ platform), ignition techniques (ferro rod,\r\n  flint & steel, bow drill), flame\
-  \ nurturing, and Leave No Trace extinguishing.\r\n  Use when needing warmth, light,\
-  \ or a signal in a wilderness setting, when\r\n  boiling water for purification,\
-  \ when cooking foraged food, or in an emergenc..."
-full_prompt_length: 13878
+description: '- `purify-water` — boiling water requires a sustained fire; the boiling
+  method depends on this skill'
+prompt_preview: "---\nname: make-fire\ndescription: >\n  Start and maintain a fire\
+  \ using friction, spark, and solar methods.\n  Covers site selection, material grading\
+  \ (tinder/kindling/fuel), fire lay\n  construction (teepee, log cabin, platform),\
+  \ ignition techniques (ferro rod,\n  flint & steel, bow drill), flame nurturing,\
+  \ and Leave No Trace extinguishing.\n  Use when needing warmth, light, or a signal\
+  \ in a wilderness setting, when\n  boiling water for purification, when cooking\
+  \ foraged food, or in an emergency\n  surv..."
+full_prompt_length: 13655
 tools_mentioned:
 - Go
 category: community
@@ -18,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/make-fire/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/make-fire/SKILL.md
-fetched_at: '2026-06-07T06:27:40.786131+00:00'
+fetched_at: '2026-06-14T06:41:22.774129+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:13:04.586610Z'
+  evaluated_at: '2026-06-14T09:26:26.594691Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb5df0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f59070 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb5df0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f59070 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.822325Z'
-indexed_at: '2026-06-07T10:04:54.822331Z'
+  fetched_at: '2026-06-14T10:18:27.036605Z'
+indexed_at: '2026-06-14T10:18:27.036609Z'
 ---

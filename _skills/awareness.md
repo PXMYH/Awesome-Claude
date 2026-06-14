@@ -2,32 +2,33 @@
 id: awareness
 slug: awareness
 name: Awareness
-description: Claude skill for Awareness
-prompt_preview: "---\r\nname: awareness\r\ndescription: >\r\n  AI situational awareness\
-  \ — internal threat detection for hallucination risk,\r\n  scope creep, and context\
-  \ degradation. Maps Cooper color codes to reasoning\r\n  states and OODA loop to\
-  \ real-time decisions. Use during any task where\r\n  reasoning quality matters,\
-  \ when operating in unfamiliar territory, after\r\n  detecting early warning signs\
-  \ such as an uncertain fact or suspicious tool\r\n  result, or before high-stakes\
-  \ output like irreversible changes or architec..."
-full_prompt_length: 19245
+description: '- `mindfulness` — the human practice that this skill maps to AI reasoning;
+  physical situational awareness principles inform cognitive threat detection'
+prompt_preview: "---\nname: awareness\ndescription: >\n  AI situational awareness\
+  \ — internal threat detection for hallucination risk,\n  scope creep, and context\
+  \ degradation. Maps Cooper color codes to reasoning\n  states and OODA loop to real-time\
+  \ decisions. Use during any task where\n  reasoning quality matters, when operating\
+  \ in unfamiliar territory, after\n  detecting early warning signs such as an uncertain\
+  \ fact or suspicious tool\n  result, or before high-stakes output like irreversible\
+  \ changes or architectural..."
+full_prompt_length: 18973
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/awareness/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/awareness/SKILL.md
-fetched_at: '2026-06-07T06:27:05.921680+00:00'
+fetched_at: '2026-06-14T06:40:59.619965+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:50:52.626847Z'
+  evaluated_at: '2026-06-14T09:04:14.409480Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc0830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7a40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc0830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7a40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.357421Z'
-indexed_at: '2026-06-07T10:04:54.357427Z'
+  fetched_at: '2026-06-14T10:18:26.674665Z'
+indexed_at: '2026-06-14T10:18:26.674669Z'
 ---

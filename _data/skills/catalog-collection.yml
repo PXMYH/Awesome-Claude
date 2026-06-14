@@ -1,15 +1,16 @@
 id: catalog-collection
 slug: catalog-collection
 name: Catalog Collection
-description: Claude skill for Catalog Collection
-prompt_preview: "---\r\nname: catalog-collection\r\ndescription: >\r\n  Catalog and\
-  \ classify materials using standard library systems. Covers\r\n  descriptive cataloging,\
-  \ subject headings, call number assignment using Dewey\r\n  Decimal and Library\
-  \ of Congress Classification, MARC record basics, shelf\r\n  organization, and authority\
-  \ control for consistent access points. Use when\r\n  organizing a personal, institutional,\
-  \ or community library from scratch,\r\n  assigning call numbers and subject headings\
-  \ to new acquisitions, re..."
-full_prompt_length: 13681
+description: '- `preserve-materials` — Conservation of cataloged materials to maintain
+  their condition'
+prompt_preview: "---\nname: catalog-collection\ndescription: >\n  Catalog and classify\
+  \ materials using standard library systems. Covers\n  descriptive cataloging, subject\
+  \ headings, call number assignment using Dewey\n  Decimal and Library of Congress\
+  \ Classification, MARC record basics, shelf\n  organization, and authority control\
+  \ for consistent access points. Use when\n  organizing a personal, institutional,\
+  \ or community library from scratch,\n  assigning call numbers and subject headings\
+  \ to new acquisitions, reclassify..."
+full_prompt_length: 13414
 tools_mentioned:
 - Python
 category: community
@@ -17,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/catalog-collection/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/catalog-collection/SKILL.md
-fetched_at: '2026-06-07T06:27:09.813282+00:00'
+fetched_at: '2026-06-14T06:41:02.086322+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:53:18.172034Z'
+  evaluated_at: '2026-06-14T09:06:40.624485Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc31e80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a119340 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc31e80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a119340 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.408555Z'
-indexed_at: '2026-06-07T10:04:54.408561Z'
+  fetched_at: '2026-06-14T10:18:26.717221Z'
+indexed_at: '2026-06-14T10:18:26.717225Z'

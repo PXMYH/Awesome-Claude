@@ -13,7 +13,7 @@ prompt_preview: '---
   run locally or submit to schedulers (LSF/Slurm/PBS/SGE), and triage execution failures.
   Triggers on requests to run pacsomatic, prepare launch commands/scripts, perform
   dry-run checks, or troubleshoot pipeline startup and sched...'
-full_prompt_length: 5045
+full_prompt_length: 5056
 tools_mentioned:
 - python
 category: scientific
@@ -21,17 +21,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pacsomatic/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pacsomatic/SKILL.md
-fetched_at: '2026-06-07T06:22:57.743566+00:00'
+fetched_at: '2026-06-14T06:38:18.438590+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:44:38.756798Z'
+  evaluated_at: '2026-06-14T06:58:05.191567Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc898b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a5ae720 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc898b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a5ae720 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.686348Z'
-indexed_at: '2026-06-07T10:04:51.686353Z'
+  fetched_at: '2026-06-14T10:18:24.614569Z'
+indexed_at: '2026-06-14T10:18:24.614573Z'
 ---

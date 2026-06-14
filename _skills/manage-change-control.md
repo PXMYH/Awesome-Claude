@@ -2,32 +2,33 @@
 id: manage-change-control
 slug: manage-change-control
 name: Manage Change Control
-description: Claude skill for Manage Change Control
-prompt_preview: "---\r\nname: manage-change-control\r\ndescription: >\r\n  Manage\
-  \ change control for validated computerized systems. Covers change\r\n  request\
-  \ triage (emergency, standard, minor), impact assessment on validated\r\n  state,\
-  \ revalidation scope determination, approval workflows, implementation\r\n  tracking,\
-  \ and post-change verification. Use when a validated system requires\r\n  a software\
-  \ upgrade, patch, or configuration change; when infrastructure\r\n  changes affect\
-  \ validated systems; when a CAPA requires syste..."
-full_prompt_length: 10755
+description: '- `design-compliance-architecture` — defines the governance framework
+  including change control board'
+prompt_preview: "---\nname: manage-change-control\ndescription: >\n  Manage change\
+  \ control for validated computerized systems. Covers change\n  request triage (emergency,\
+  \ standard, minor), impact assessment on validated\n  state, revalidation scope\
+  \ determination, approval workflows, implementation\n  tracking, and post-change\
+  \ verification. Use when a validated system requires\n  a software upgrade, patch,\
+  \ or configuration change; when infrastructure\n  changes affect validated systems;\
+  \ when a CAPA requires system modifi..."
+full_prompt_length: 10526
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/manage-change-control/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/manage-change-control/SKILL.md
-fetched_at: '2026-06-07T06:27:41.406596+00:00'
+fetched_at: '2026-06-14T06:41:23.176565+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:13:28.826645Z'
+  evaluated_at: '2026-06-14T09:26:50.864338Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0fc20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083e90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0fc20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083e90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.830664Z'
-indexed_at: '2026-06-07T10:04:54.830669Z'
+  fetched_at: '2026-06-14T10:18:27.043051Z'
+indexed_at: '2026-06-14T10:18:27.043055Z'
 ---

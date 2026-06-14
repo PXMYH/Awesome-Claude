@@ -22,17 +22,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/discover-market-sizing/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/discover-market-sizing/SKILL.md
-fetched_at: '2026-06-07T06:28:19.656069+00:00'
+fetched_at: '2026-06-14T06:41:49.790925+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:37:24.059657Z'
+  evaluated_at: '2026-06-14T09:50:40.259216Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33b90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ec440 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33b90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ec440 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.328822Z'
-indexed_at: '2026-06-07T10:04:55.328827Z'
+  fetched_at: '2026-06-14T10:18:27.433573Z'
+indexed_at: '2026-06-14T10:18:27.433577Z'
 ---

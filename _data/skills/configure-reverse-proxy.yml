@@ -1,36 +1,37 @@
 id: configure-reverse-proxy
 slug: configure-reverse-proxy
 name: Configure Reverse Proxy
-description: Claude skill for Configure Reverse Proxy
-prompt_preview: "---\r\nname: configure-reverse-proxy\r\ndescription: >\r\n  Configure\
-  \ reverse proxy patterns across multiple tools including Nginx,\r\n  Traefik, and\
-  \ ShinyProxy. Covers WebSocket proxying, path-based and\r\n  host-based routing,\
-  \ SSL termination, and Docker label auto-discovery.\r\n  Use when routing multiple\
-  \ services behind a single entry point, proxying\r\n  WebSocket connections (Shiny,\
-  \ Socket.IO), auto-discovering Docker services\r\n  with Traefik labels, or adding\
-  \ SSL termination to services that don't\r\n  h..."
-full_prompt_length: 8366
+description: '- `configure-nginx` - detailed Nginx configuration with SSL and security
+  headers'
+prompt_preview: "---\nname: configure-reverse-proxy\ndescription: >\n  Configure reverse\
+  \ proxy patterns across multiple tools including Nginx,\n  Traefik, and ShinyProxy.\
+  \ Covers WebSocket proxying, path-based and\n  host-based routing, SSL termination,\
+  \ and Docker label auto-discovery.\n  Use when routing multiple services behind\
+  \ a single entry point, proxying\n  WebSocket connections (Shiny, Socket.IO), auto-discovering\
+  \ Docker services\n  with Traefik labels, or adding SSL termination to services\
+  \ that don't\n  handle TLS..."
+full_prompt_length: 8090
 tools_mentioned:
-- docker
+- websocket
 - WebSocket
 - Docker
-- websocket
+- docker
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/configure-reverse-proxy/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/configure-reverse-proxy/SKILL.md
-fetched_at: '2026-06-07T06:27:14.991058+00:00'
+fetched_at: '2026-06-14T06:41:05.264385+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:56:25.637999Z'
+  evaluated_at: '2026-06-14T09:09:48.934222Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffc0fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a5aea20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffc0fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a5aea20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.474014Z'
-indexed_at: '2026-06-07T10:04:54.474020Z'
+  fetched_at: '2026-06-14T10:18:26.767825Z'
+indexed_at: '2026-06-14T10:18:26.767834Z'

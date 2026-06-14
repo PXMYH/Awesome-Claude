@@ -1,32 +1,33 @@
 id: survey-theoretical-literature
 slug: survey-theoretical-literature
 name: Survey Theoretical Literature
-description: Claude skill for Survey Theoretical Literature
-prompt_preview: "---\r\nname: survey-theoretical-literature\r\ndescription: >\r\n\
-  \  Survey and synthesize theoretical literature on a specific topic, identifying\r\
-  \n  seminal papers, key results, open problems, and cross-domain connections.\r\n\
-  \  Use when starting research on an unfamiliar theoretical topic, writing a\r\n\
-  \  literature review for a paper or thesis, identifying open problems and\r\n  research\
-  \ gaps, finding cross-domain connections, or evaluating the novelty\r\n  of a proposed\
-  \ theoretical contribution against existin..."
-full_prompt_length: 14408
+description: '- `formulate-quantum-problem` -- formulate specific problems identified
+  during the literature survey'
+prompt_preview: "---\nname: survey-theoretical-literature\ndescription: >\n  Survey\
+  \ and synthesize theoretical literature on a specific topic, identifying\n  seminal\
+  \ papers, key results, open problems, and cross-domain connections.\n  Use when\
+  \ starting research on an unfamiliar theoretical topic, writing a\n  literature\
+  \ review for a paper or thesis, identifying open problems and\n  research gaps,\
+  \ finding cross-domain connections, or evaluating the novelty\n  of a proposed theoretical\
+  \ contribution against existing work...."
+full_prompt_length: 14174
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/survey-theoretical-literature/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/survey-theoretical-literature/SKILL.md
-fetched_at: '2026-06-07T06:28:06.589442+00:00'
+fetched_at: '2026-06-14T06:41:40.736010+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:29:54.432287Z'
+  evaluated_at: '2026-06-14T09:43:14.982351Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8a540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5bf20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8a540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5bf20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.173732Z'
-indexed_at: '2026-06-07T10:04:55.173737Z'
+  fetched_at: '2026-06-14T10:18:27.313631Z'
+indexed_at: '2026-06-14T10:18:27.313637Z'

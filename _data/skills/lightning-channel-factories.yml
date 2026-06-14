@@ -30,17 +30,17 @@ category_display: Community
 source_repo: 8144225309/superscalar-mcp
 source_path: skills/lightning-channel-factories/SKILL.md
 source_url: https://github.com/8144225309/superscalar-mcp/blob/master/skills/lightning-channel-factories/SKILL.md
-fetched_at: '2026-06-07T06:22:29.069635+00:00'
+fetched_at: '2026-06-14T06:37:57.867077+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:29:55.393351Z'
+  evaluated_at: '2026-06-14T06:43:08.203975Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500630590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a76ee40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500630590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a76ee40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,5 +50,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.362200Z'
-indexed_at: '2026-06-07T10:04:51.362205Z'
+  fetched_at: '2026-06-14T10:18:24.371092Z'
+indexed_at: '2026-06-14T10:18:24.371097Z'

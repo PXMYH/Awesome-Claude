@@ -12,26 +12,26 @@ prompt_preview: "---\nname: anti-patterns\ndescription: Catalogue of known SDLC 
   \ and considers..."
 full_prompt_length: 5591
 tools_mentioned:
-- Redis
-- rest
-- Kubernetes
 - GraphQL
+- Kubernetes
+- rest
+- Redis
 category: community
 category_display: Community
 source_repo: avelikiy/great_cto
 source_path: skills/anti-patterns/SKILL.md
 source_url: https://github.com/avelikiy/great_cto/blob/main/skills/anti-patterns/SKILL.md
-fetched_at: '2026-06-07T06:24:09.711748+00:00'
+fetched_at: '2026-06-14T06:39:06.602905+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T07:25:06.198220Z'
+  evaluated_at: '2026-06-14T07:38:44.160393Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc3aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a6f57f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc3aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a6f57f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:52.561882Z'
-indexed_at: '2026-06-07T10:04:52.561888Z'
+  fetched_at: '2026-06-14T10:18:25.286099Z'
+indexed_at: '2026-06-14T10:18:25.286104Z'
 ---

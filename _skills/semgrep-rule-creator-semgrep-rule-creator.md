@@ -2,7 +2,7 @@
 id: semgrep-rule-creator-semgrep-rule-creator
 slug: semgrep-rule-creator-semgrep-rule-creator
 name: Semgrep Rule Creator
-description: 1. [Rule Syntax](https://raw.githubusercontent.com/semgrep/semgrep-docs/refs/heads/main/docs/writing-rules/rule-syntax.md)
+description: 1. [Rule Syntax](https://raw.githubusercontent.com/semgrep/semgrep-docs/refs/heads/main/docs/writing-rules/rule-syntax.mdx)
 prompt_preview: '---
 
   name: semgrep-rule-creator
@@ -30,7 +30,7 @@ prompt_preview: '---
   - Writing Semgrep rules for specific bug patterns
 
   - Writing rules to detect se...'
-full_prompt_length: 7287
+full_prompt_length: 7292
 tools_mentioned:
 - python
 category: security
@@ -38,17 +38,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/semgrep-rule-creator/skills/semgrep-rule-creator/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/semgrep-rule-creator/skills/semgrep-rule-creator/SKILL.md
-fetched_at: '2026-06-07T06:29:05.343445+00:00'
+fetched_at: '2026-06-14T06:42:23.162012+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:57:01.120129Z'
+  evaluated_at: '2026-06-14T10:10:33.295784Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc64ad0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5ae10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc64ad0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5ae10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -58,6 +58,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.742128Z'
-indexed_at: '2026-06-07T10:04:55.742133Z'
+  fetched_at: '2026-06-14T10:18:27.760122Z'
+indexed_at: '2026-06-14T10:18:27.760127Z'
 ---

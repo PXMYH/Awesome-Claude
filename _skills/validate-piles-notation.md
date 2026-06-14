@@ -2,32 +2,32 @@
 id: validate-piles-notation
 slug: validate-piles-notation
 name: Validate PILES Notation
-description: Claude skill for Validate PILES Notation
-prompt_preview: "---\r\nname: validate-piles-notation\r\ndescription: >\r\n  Parse\
-  \ and validate PILES (Puzzle Input Line Entry System) notation for\r\n  specifying\
-  \ piece fusion groups in jigsawR. Covers syntax validation,\r\n  parsing into group\
-  \ lists, plain-language explanation, adjacency\r\n  verification against puzzle\
-  \ results, and round-trip serialization. Use\r\n  when validating user-supplied\
-  \ PILES strings before passing to\r\n  generate_puzzle(), debugging fusion group\
-  \ issues, explaining the notation\r\n  to users, or test..."
-full_prompt_length: 6204
+description: '- `generate-puzzle` — generate puzzles with fusion groups'
+prompt_preview: "---\nname: validate-piles-notation\ndescription: >\n  Parse and validate\
+  \ PILES (Puzzle Input Line Entry System) notation for\n  specifying piece fusion\
+  \ groups in jigsawR. Covers syntax validation,\n  parsing into group lists, plain-language\
+  \ explanation, adjacency\n  verification against puzzle results, and round-trip\
+  \ serialization. Use\n  when validating user-supplied PILES strings before passing\
+  \ to\n  generate_puzzle(), debugging fusion group issues, explaining the notation\n\
+  \  to users, or testing round..."
+full_prompt_length: 6042
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/validate-piles-notation/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/validate-piles-notation/SKILL.md
-fetched_at: '2026-06-07T06:28:10.682491+00:00'
+fetched_at: '2026-06-14T06:41:43.526711+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:32:37.376326Z'
+  evaluated_at: '2026-06-14T09:45:56.996335Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0cd70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082240 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0cd70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082240 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.230375Z'
-indexed_at: '2026-06-07T10:04:55.230381Z'
+  fetched_at: '2026-06-14T10:18:27.357536Z'
+indexed_at: '2026-06-14T10:18:27.357541Z'
 ---

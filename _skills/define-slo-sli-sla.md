@@ -11,27 +11,27 @@ prompt_preview: "---\nname: define-slo-sli-sla\ndescription: >\n  Establish Serv
   \ for\n  customer-facing services, balancing feature velocity against system reliability\
   \ through error\n  budgets, migrating from arbitrary uptime goals to data-driven\
   \ metrics, or implement..."
-full_prompt_length: 14638
+full_prompt_length: 14650
 tools_mentioned:
 - Docker
-- python
 - docker
+- python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/define-slo-sli-sla/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/define-slo-sli-sla/SKILL.md
-fetched_at: '2026-06-07T06:27:21.426512+00:00'
+fetched_at: '2026-06-14T06:41:09.566867+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:00:37.047963Z'
+  evaluated_at: '2026-06-14T09:14:00.918822Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8b650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5b260 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8b650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5b260 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.561949Z'
-indexed_at: '2026-06-07T10:04:54.561954Z'
+  fetched_at: '2026-06-14T10:18:26.835501Z'
+indexed_at: '2026-06-14T10:18:26.835505Z'
 ---

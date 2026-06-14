@@ -1,32 +1,32 @@
 id: format-apa-report
 slug: format-apa-report
 name: Format APA Report
-description: Claude skill for Format APA Report
-prompt_preview: "---\r\nname: format-apa-report\r\ndescription: >\r\n  Format a Quarto\
-  \ or R Markdown report following APA 7th edition style.\r\n  Covers apaquarto/papaja\
-  \ packages, title page, abstracts, citations,\r\n  tables, figures, and reference\
-  \ formatting. Use when writing an academic\r\n  paper in APA format, creating a\
-  \ psychology or social science research\r\n  report, generating reproducible manuscripts\
-  \ with embedded analysis,\r\n  or preparing a thesis or dissertation chapter.\r\n\
-  license: MIT\r\nallowed-tools: Read Write E..."
-full_prompt_length: 8224
+description: '- `create-quarto-report` - general Quarto document creation'
+prompt_preview: "---\nname: format-apa-report\ndescription: >\n  Format a Quarto or\
+  \ R Markdown report following APA 7th edition style.\n  Covers apaquarto/papaja\
+  \ packages, title page, abstracts, citations,\n  tables, figures, and reference\
+  \ formatting. Use when writing an academic\n  paper in APA format, creating a psychology\
+  \ or social science research\n  report, generating reproducible manuscripts with\
+  \ embedded analysis,\n  or preparing a thesis or dissertation chapter.\nlicense:\
+  \ MIT\nallowed-tools: Read Write Edit Bash G..."
+full_prompt_length: 7985
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/format-apa-report/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/format-apa-report/SKILL.md
-fetched_at: '2026-06-07T06:27:31.575484+00:00'
+fetched_at: '2026-06-14T06:41:16.571719+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:07:05.755266Z'
+  evaluated_at: '2026-06-14T09:20:30.044211Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33020 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11b920 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33020 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11b920 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.698085Z'
-indexed_at: '2026-06-07T10:04:54.698090Z'
+  fetched_at: '2026-06-14T10:18:26.940331Z'
+indexed_at: '2026-06-14T10:18:26.940336Z'

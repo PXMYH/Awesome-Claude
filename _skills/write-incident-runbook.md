@@ -11,7 +11,7 @@ prompt_preview: "---\nname: write-incident-runbook\ndescription: >\n  Create str
   \ an on-call\n  rotation, reducing MTTR with clear diagnostic steps, creating training\
   \ materials for new\n  team members, or linking alert annotations directly to resolution\
   \ procedures.\nl..."
-full_prompt_length: 13741
+full_prompt_length: 13757
 tools_mentioned:
 - go
 - AWS
@@ -20,17 +20,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/write-incident-runbook/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/write-incident-runbook/SKILL.md
-fetched_at: '2026-06-07T06:28:12.529144+00:00'
+fetched_at: '2026-06-14T06:41:44.851763+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:33:51.276519Z'
+  evaluated_at: '2026-06-14T09:47:09.791563Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0ec90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f594f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0ec90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f594f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.255767Z'
-indexed_at: '2026-06-07T10:04:55.255773Z'
+  fetched_at: '2026-06-14T10:18:27.377303Z'
+indexed_at: '2026-06-14T10:18:27.377307Z'
 ---

@@ -13,24 +13,24 @@ prompt_preview: "---\nname: cleanup-lead-owners\ndescription: \"Remove non-emplo
   \ fall through the cracks.\n\n## Prerequisites\n\n-..."
 full_prompt_length: 2769
 tools_mentioned:
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/cleanup-lead-owners/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/cleanup-lead-owners/SKILL.md
-fetched_at: '2026-06-07T06:23:18.510528+00:00'
+fetched_at: '2026-06-14T06:38:33.404057+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:56:36.363002Z'
+  evaluated_at: '2026-06-14T07:10:18.377462Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32d80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083fb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32d80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083fb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.956323Z'
-indexed_at: '2026-06-07T10:04:51.956329Z'
+  fetched_at: '2026-06-14T10:18:24.812199Z'
+indexed_at: '2026-06-14T10:18:24.812203Z'
 ---

@@ -2,32 +2,33 @@
 id: troubleshoot-separation
 slug: troubleshoot-separation
 name: Troubleshoot a Chromatographic Separation
-description: Claude skill for Troubleshoot a Chromatographic Separation
-prompt_preview: "---\r\nname: troubleshoot-separation\r\ndescription: >\r\n  Systematically\
-  \ diagnose and resolve chromatographic separation problems:\r\n  document symptoms,\
-  \ identify root causes for peak shape and retention anomalies,\r\n  evaluate matrix\
-  \ effects, and implement targeted fixes using a one-variable-at-a-time\r\n  approach\
-  \ for GC and HPLC systems.\r\nlicense: MIT\r\nallowed-tools: Read Grep Glob WebFetch\
-  \ WebSearch\r\nmetadata:\r\n  author: Philipp Thoss\r\n  version: \"1.0\"\r\n  domain:\
-  \ chromatography\r\n  complexity: interm..."
-full_prompt_length: 13719
+description: '- `interpret-chromatogram` -- understanding the chromatographic data
+  that reveals separation problems'
+prompt_preview: "---\nname: troubleshoot-separation\ndescription: >\n  Systematically\
+  \ diagnose and resolve chromatographic separation problems:\n  document symptoms,\
+  \ identify root causes for peak shape and retention anomalies,\n  evaluate matrix\
+  \ effects, and implement targeted fixes using a one-variable-at-a-time\n  approach\
+  \ for GC and HPLC systems.\nlicense: MIT\nallowed-tools: Read Grep Glob WebFetch\
+  \ WebSearch\nmetadata:\n  author: Philipp Thoss\n  version: \"1.0\"\n  domain: chromatography\n\
+  \  complexity: intermediate\n  lang..."
+full_prompt_length: 13544
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/troubleshoot-separation/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/troubleshoot-separation/SKILL.md
-fetched_at: '2026-06-07T06:28:09.655704+00:00'
+fetched_at: '2026-06-14T06:41:42.841635+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:31:56.310607Z'
+  evaluated_at: '2026-06-14T09:45:16.526844Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8a600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f59a30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8a600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f59a30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.216205Z'
-indexed_at: '2026-06-07T10:04:55.216210Z'
+  fetched_at: '2026-06-14T10:18:27.346516Z'
+indexed_at: '2026-06-14T10:18:27.346520Z'
 ---

@@ -7,11 +7,8 @@ prompt_preview: '---
 
   name: pro
 
-  description: "PUA Pro extensions: self-evolution tracking, compaction state protection,
-  KPI reporting, leaderboard, and /pua:pua commands. Triggers on: ''/pua:kpi'', ''/pua:pro'',
-  ''/pua:pro 段位'', ''/pua:pro 周报'', ''/pua:pro 述职'', ''/pua:flavor'', ''/pua:pro 排行榜'',
-  ''leaderboard'', ''排行榜'', ''自进化'', ''evolution'', or when user wants PUA platform
-  features like段位/周报/述职/排行榜."
+  description: "PUA Pro extensions: self-evolution notes, compaction state continuity,
+  KPI-style summaries, flavor switching, and feedback tools."
 
   license: MIT
 
@@ -27,25 +24,36 @@ prompt_preview: '---
   ## 自进化协议
 
 
-  "今天最好的表现，是...'
-full_prompt_length: 4260
+  "今天最好的表现，是明天最低的要求"——这不是旁白，这是机制。
+
+
+  - 读取 `~/.pua/evolution.md`（详见 `references/evolution-protocol.md`）
+
+  - 存在 → 加载基线 + 已内化模式。内化模式是默认义务，做了不标 [PUA生效]，不做则退化警告
+
+  - 不存在 → 首次启动，创建初始模板
+
+  - 任务完成时比对：超越 → 刷新基线 / 达标 → 保持 / 低于 → 退化警告（不降基线）
+
+  -...'
+full_prompt_length: 4051
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: tanweai/pua
 source_path: skills/pro/SKILL.md
 source_url: https://github.com/tanweai/pua/blob/main/skills/pro/SKILL.md
-fetched_at: '2026-06-07T06:28:49.327132+00:00'
+fetched_at: '2026-06-14T06:42:12.025365+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:51:12.301430Z'
+  evaluated_at: '2026-06-14T10:04:43.520248Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8baa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11bfb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8baa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11bfb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -55,6 +63,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.617907Z'
-indexed_at: '2026-06-07T10:04:55.617916Z'
+  fetched_at: '2026-06-14T10:18:27.663434Z'
+indexed_at: '2026-06-14T10:18:27.663439Z'
 ---

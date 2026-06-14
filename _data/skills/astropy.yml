@@ -2,35 +2,42 @@ id: astropy
 slug: astropy
 name: Astropy
 description: 'For detailed information on specific modules:'
-prompt_preview: "---\nname: astropy\ndescription: Core Python library for astronomy\
-  \ and astrophysics workflows that need Astropy APIs, including units/quantities,\
-  \ coordinates, FITS I/O, tables, time systems, WCS, and cosmology. Use when implementing\
-  \ or debugging astronomical data analysis code with Astropy.\nlicense: BSD-3-Clause\
-  \ license\nmetadata:\n  version: \"1.1\"\n  skill-author: K-Dense Inc.\n---\n\n\
-  # Astropy\n\n## Overview\n\nAstropy is the core Python package for astronomy, providing\
-  \ essential functionality for astrono..."
-full_prompt_length: 12789
+prompt_preview: '---
+
+  name: astropy
+
+  description: Core Python library for astronomy and astrophysics workflows that need
+  Astropy APIs, including units/quantities, coordinates, FITS I/O, tables, time systems,
+  WCS, and cosmology. Use when implementing or debugging astronomical data analysis
+  code with Astropy.
+
+  license: BSD-3-Clause license
+
+  compatibility: Requires Python 3.11+ with astropy installed (uv for package installation).
+  Some features (object name resolution, site lookups, remote FITS reads, IERS updates)
+  nee...'
+full_prompt_length: 14474
 tools_mentioned:
 - Angular
-- Python
-- python
 - angular
+- python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/astropy/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/astropy/SKILL.md
-fetched_at: '2026-06-07T06:22:43.795564+00:00'
+fetched_at: '2026-06-14T06:38:09.348776+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:34:58.740926Z'
+  evaluated_at: '2026-06-14T06:48:16.491110Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500111c70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ee120 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500111c70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ee120 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +47,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.475629Z'
-indexed_at: '2026-06-07T10:04:51.475635Z'
+  fetched_at: '2026-06-14T10:18:24.455749Z'
+indexed_at: '2026-06-14T10:18:24.455754Z'

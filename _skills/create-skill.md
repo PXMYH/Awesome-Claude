@@ -12,27 +12,27 @@ prompt_preview: "---\nname: create-skill\ndescription: >\n  Create a new SKILL.m
   \ format, or standardizing a workflo..."
 full_prompt_length: 18734
 tools_mentioned:
-- TypeScript
-- Rust
 - Python
-- rest
 - Docker
+- Rust
+- rest
+- TypeScript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-skill/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-skill/SKILL.md
-fetched_at: '2026-06-07T06:27:19.158457+00:00'
+fetched_at: '2026-06-14T06:41:07.997185+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:59:07.721941Z'
+  evaluated_at: '2026-06-14T09:12:31.605166Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0db50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3ab620 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0db50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3ab620 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.530870Z'
-indexed_at: '2026-06-07T10:04:54.530876Z'
+  fetched_at: '2026-06-14T10:18:26.811457Z'
+indexed_at: '2026-06-14T10:18:26.811465Z'
 ---

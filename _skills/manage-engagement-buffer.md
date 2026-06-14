@@ -11,7 +11,7 @@ prompt_preview: "---\nname: manage-engagement-buffer\ndescription: >\n  Manage a
   \ observation/action cadence,\n  this skill manages the queue between beats.\nlicense:\
   \ MIT\nallowed-tools: Read Write Edit Bash Grep Glob\nmetadata:\n  author: Philipp\
   \ Thoss\n  version: \"1.0\"\n  domain: gener..."
-full_prompt_length: 17098
+full_prompt_length: 17064
 tools_mentioned:
 - rest
 category: community
@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/manage-engagement-buffer/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/manage-engagement-buffer/SKILL.md
-fetched_at: '2026-06-07T06:27:41.786935+00:00'
+fetched_at: '2026-06-14T06:41:23.456936+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:13:45.113901Z'
+  evaluated_at: '2026-06-14T09:27:07.042458Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb5130 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0823f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb5130 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0823f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.836230Z'
-indexed_at: '2026-06-07T10:04:54.836235Z'
+  fetched_at: '2026-06-14T10:18:27.047419Z'
+indexed_at: '2026-06-14T10:18:27.047424Z'
 ---

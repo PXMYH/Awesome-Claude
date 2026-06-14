@@ -1,15 +1,16 @@
 id: study-hebrew-letters
 slug: study-hebrew-letters
 name: Study Hebrew Letters
-description: Claude skill for Study Hebrew Letters
-prompt_preview: "---\r\nname: study-hebrew-letters\r\ndescription: >\r\n  Study the\
-  \ twenty-two Hebrew letters as mystical symbols. Covers\r\n  letter forms, numerical\
-  \ values, elemental/planetary/zodiacal\r\n  correspondences, Sefer Yetzirah attributions,\
-  \ and contemplative\r\n  letter meditation techniques. Use when studying a specific\
-  \ letter's\r\n  mystical dimensions beyond its linguistic function, learning the\r\
-  \n  Sefer Yetzirah classification of mothers, doubles, and simples,\r\n  needing\
-  \ correspondences for a letter's elemen..."
-full_prompt_length: 16024
+description: '- `read-tree-of-life` — Each letter corresponds to a path on the Tree;
+  understanding the path context deepens letter study'
+prompt_preview: "---\nname: study-hebrew-letters\ndescription: >\n  Study the twenty-two\
+  \ Hebrew letters as mystical symbols. Covers\n  letter forms, numerical values,\
+  \ elemental/planetary/zodiacal\n  correspondences, Sefer Yetzirah attributions,\
+  \ and contemplative\n  letter meditation techniques. Use when studying a specific\
+  \ letter's\n  mystical dimensions beyond its linguistic function, learning the\n\
+  \  Sefer Yetzirah classification of mothers, doubles, and simples,\n  needing correspondences\
+  \ for a letter's element, planet..."
+full_prompt_length: 15754
 tools_mentioned:
 - Angular
 category: community
@@ -17,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/study-hebrew-letters/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/study-hebrew-letters/SKILL.md
-fetched_at: '2026-06-07T06:28:05.968273+00:00'
+fetched_at: '2026-06-14T06:41:40.232282+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:29:30.199077Z'
+  evaluated_at: '2026-06-14T09:42:50.718856Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0fe90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082ea0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0fe90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082ea0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.165360Z'
-indexed_at: '2026-06-07T10:04:55.165369Z'
+  fetched_at: '2026-06-14T10:18:27.306963Z'
+indexed_at: '2026-06-14T10:18:27.306968Z'

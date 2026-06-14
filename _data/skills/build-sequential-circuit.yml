@@ -1,32 +1,33 @@
 id: build-sequential-circuit
 slug: build-sequential-circuit
 name: Build Sequential Circuit
-description: Claude skill for Build Sequential Circuit
-prompt_preview: "---\r\nname: build-sequential-circuit\r\ndescription: >\r\n  Build\
-  \ sequential (stateful) logic circuits including latches, flip-flops,\r\n  registers,\
-  \ counters, and finite state machines. Covers SR latch, D and JK\r\n  flip-flops,\
-  \ binary/BCD/ring counters, and Mealy/Moore FSM design with\r\n  clock signal and\
-  \ timing analysis. Use when a circuit must remember past\r\n  inputs, count events,\
-  \ or implement a state-dependent control sequence.\r\nlicense: MIT\r\nallowed-tools:\
-  \ Read Grep Glob WebFetch WebSearch\r\nmetadat..."
-full_prompt_length: 15488
+description: '- `design-logic-circuit` -- design the combinational excitation and
+  output logic blocks'
+prompt_preview: "---\nname: build-sequential-circuit\ndescription: >\n  Build sequential\
+  \ (stateful) logic circuits including latches, flip-flops,\n  registers, counters,\
+  \ and finite state machines. Covers SR latch, D and JK\n  flip-flops, binary/BCD/ring\
+  \ counters, and Mealy/Moore FSM design with\n  clock signal and timing analysis.\
+  \ Use when a circuit must remember past\n  inputs, count events, or implement a\
+  \ state-dependent control sequence.\nlicense: MIT\nallowed-tools: Read Grep Glob\
+  \ WebFetch WebSearch\nmetadata:\n  autho..."
+full_prompt_length: 15267
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/build-sequential-circuit/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/build-sequential-circuit/SKILL.md
-fetched_at: '2026-06-07T06:27:09.193789+00:00'
+fetched_at: '2026-06-14T06:41:01.673070+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:52:53.919446Z'
+  evaluated_at: '2026-06-14T09:06:16.359490Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc31e50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0efa10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc31e50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0efa10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.400215Z'
-indexed_at: '2026-06-07T10:04:54.400224Z'
+  fetched_at: '2026-06-14T10:18:26.710767Z'
+indexed_at: '2026-06-14T10:18:26.710772Z'

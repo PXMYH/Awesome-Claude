@@ -2,15 +2,16 @@
 id: solve-electromagnetic-induction
 slug: solve-electromagnetic-induction
 name: Solve Electromagnetic Induction
-description: Claude skill for Solve Electromagnetic Induction
-prompt_preview: "---\r\nname: solve-electromagnetic-induction\r\ndescription: >\r\n\
-  \  Solve problems involving changing magnetic flux using Faraday's law, Lenz's\r\
-  \n  law, motional EMF, mutual and self-inductance, and RL circuit transients.\r\n\
-  \  Use when computing induced EMF from time-varying B-fields or moving\r\n  conductors,\
-  \ determining current direction via Lenz's law, analyzing\r\n  inductance and energy\
-  \ storage in magnetic fields, or solving RL circuit\r\n  differential equations\
-  \ for switching transients.\r\nlicense: MIT\r\na..."
-full_prompt_length: 15959
+description: '- `analyze-magnetic-field` -- compute the B-field from current distributions
+  that serve as the flux source'
+prompt_preview: "---\nname: solve-electromagnetic-induction\ndescription: >\n  Solve\
+  \ problems involving changing magnetic flux using Faraday's law, Lenz's\n  law,\
+  \ motional EMF, mutual and self-inductance, and RL circuit transients.\n  Use when\
+  \ computing induced EMF from time-varying B-fields or moving\n  conductors, determining\
+  \ current direction via Lenz's law, analyzing\n  inductance and energy storage in\
+  \ magnetic fields, or solving RL circuit\n  differential equations for switching\
+  \ transients.\nlicense: MIT\nallowed-too..."
+full_prompt_length: 15720
 tools_mentioned:
 - angular
 category: community
@@ -18,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/solve-electromagnetic-induction/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/solve-electromagnetic-induction/SKILL.md
-fetched_at: '2026-06-07T06:28:05.352959+00:00'
+fetched_at: '2026-06-14T06:41:39.834877+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:29:05.934665Z'
+  evaluated_at: '2026-06-14T09:42:26.173365Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0e390 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083290 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0e390 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083290 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.156901Z'
-indexed_at: '2026-06-07T10:04:55.156906Z'
+  fetched_at: '2026-06-14T10:18:27.300361Z'
+indexed_at: '2026-06-14T10:18:27.300366Z'
 ---

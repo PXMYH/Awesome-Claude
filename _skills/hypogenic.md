@@ -3,34 +3,40 @@ id: hypogenic
 slug: hypogenic
 name: Hypogenic
 description: 'Assets directory is available for:'
-prompt_preview: "---\nname: hypogenic\ndescription: Automated LLM-driven hypothesis\
-  \ generation and testing on tabular datasets. Use when you want to systematically\
-  \ explore hypotheses about patterns in empirical data (e.g., deception detection,\
-  \ content analysis). Combines literature insights with data-driven hypothesis testing.\
-  \ For manual hypothesis formulation use hypothesis-generation; for creative ideation\
-  \ use scientific-brainstorming.\nlicense: MIT license\nmetadata:\n  version: \"\
-  1.0\"\n  skill-author: K-Dense Inc...."
-full_prompt_length: 21752
+prompt_preview: '---
+
+  name: hypogenic
+
+  description: Automated LLM-driven hypothesis generation and testing on tabular datasets.
+  Use when you want to systematically explore hypotheses about patterns in empirical
+  data (e.g., deception detection, content analysis). Combines literature insights
+  with data-driven hypothesis testing. For manual hypothesis formulation use hypothesis-generation;
+  for creative ideation use scientific-brainstorming.
+
+  license: MIT license
+
+  metadata: {"version": "1.0", "skill-author": "K-Dense In...'
+full_prompt_length: 21757
 tools_mentioned:
+- python
 - Redis
 - Python
-- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/hypogenic/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/hypogenic/SKILL.md
-fetched_at: '2026-06-07T06:22:52.020908+00:00'
+fetched_at: '2026-06-14T06:38:14.793931+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:40:39.354217Z'
+  evaluated_at: '2026-06-14T06:54:07.982005Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500207f50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083e90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500207f50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083e90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.599698Z'
-indexed_at: '2026-06-07T10:04:51.599703Z'
+  fetched_at: '2026-06-14T10:18:24.549739Z'
+indexed_at: '2026-06-14T10:18:24.549743Z'
 ---

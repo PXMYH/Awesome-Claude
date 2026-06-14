@@ -11,27 +11,27 @@ prompt_preview: "---\nname: render-icon-pipeline\ndescription: >\n  Run the viz 
   \ — never call Rscript directly.\nlicense: MIT\nallowed-tools: Read Bash Grep Glob\n\
   metadata:\n  author: Philipp Thoss\n  version: \"1.1\"\n  domain: visualization\n\
   \  complexity: basic\n  language: multi..."
-full_prompt_length: 8153
+full_prompt_length: 8138
 tools_mentioned:
+- Docker
 - Node.js
 - docker
-- Docker
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/render-icon-pipeline/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/render-icon-pipeline/SKILL.md
-fetched_at: '2026-06-07T06:27:55.018189+00:00'
+fetched_at: '2026-06-14T06:41:33.036379+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:22:17.850424Z'
+  evaluated_at: '2026-06-14T09:35:40.115278Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc66ae0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0edf40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc66ae0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0edf40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.014871Z'
-indexed_at: '2026-06-07T10:04:55.014876Z'
+  fetched_at: '2026-06-14T10:18:27.187026Z'
+indexed_at: '2026-06-14T10:18:27.187031Z'
 ---

@@ -3,33 +3,39 @@ slug: biopython
 name: 'Biopython: Computational Molecular Biology in Python'
 description: The modular reference documentation ensures detailed, searchable information
   for every major Biopython capability.
-prompt_preview: "---\nname: biopython\ndescription: Comprehensive molecular biology\
-  \ toolkit. Use for sequence manipulation, file parsing (FASTA/GenBank/PDB), phylogenetics,\
-  \ and programmatic NCBI/PubMed access (Bio.Entrez). Best for batch processing, custom\
-  \ bioinformatics pipelines, BLAST automation. For quick lookups use gget; for multi-service\
-  \ integration use bioservices.\nlicense: Unknown\nmetadata:\n  version: \"1.0\"\n\
-  \  skill-author: K-Dense Inc.\n---\n\n# Biopython: Computational Molecular Biology\
-  \ in Python\n\n## Overvi..."
-full_prompt_length: 14736
+prompt_preview: '---
+
+  name: biopython
+
+  description: Comprehensive molecular biology toolkit. Use for sequence manipulation,
+  file parsing (FASTA/GenBank/PDB), phylogenetics, and programmatic NCBI/PubMed access
+  (Bio.Entrez). Best for batch processing, custom bioinformatics pipelines, BLAST
+  automation. For quick lookups use gget; for multi-service integration use bioservices.
+
+  allowed-tools: Read Write Edit Bash
+
+  compatibility: Requires Python 3.10+, NumPy, and Biopython. Entrez and web BLAST
+  examples require network a...'
+full_prompt_length: 16391
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/biopython/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/biopython/SKILL.md
-fetched_at: '2026-06-07T06:22:44.815330+00:00'
+fetched_at: '2026-06-14T06:38:09.947144+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:35:39.181135Z'
+  evaluated_at: '2026-06-14T06:48:56.952123Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c6d50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c6d50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +45,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.490608Z'
-indexed_at: '2026-06-07T10:04:51.490614Z'
+  fetched_at: '2026-06-14T10:18:24.466777Z'
+indexed_at: '2026-06-14T10:18:24.466784Z'

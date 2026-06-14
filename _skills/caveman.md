@@ -19,17 +19,17 @@ category_display: Community
 source_repo: JuliusBrussee/blueprint
 source_path: skills/caveman/SKILL.md
 source_url: https://github.com/JuliusBrussee/blueprint/blob/main/skills/caveman/SKILL.md
-fetched_at: '2026-06-07T06:22:41.300232+00:00'
+fetched_at: '2026-06-14T06:38:07.528579+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:34:01.560547Z'
+  evaluated_at: '2026-06-14T06:47:11.756118Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffefc4d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a4e55b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffefc4d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a4e55b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.454283Z'
-indexed_at: '2026-06-07T10:04:51.454289Z'
+  fetched_at: '2026-06-14T10:18:24.438177Z'
+indexed_at: '2026-06-14T10:18:24.438182Z'
 ---

@@ -2,34 +2,35 @@
 id: appraise-gemstone
 slug: appraise-gemstone
 name: Appraise Gemstone
-description: Claude skill for Appraise Gemstone
-prompt_preview: "---\r\nname: appraise-gemstone\r\ndescription: >\r\n  Appraise gemstone\
-  \ value using the four Cs (color, clarity, cut, carat),\r\n  origin assessment,\
-  \ treatment detection, and market factor analysis.\r\n  Advisory educational guidance\
-  \ only — not a certified appraisal. Use when\r\n  understanding factors that determine\
-  \ a gemstone's value, pre-screening\r\n  stones before a professional appraisal,\
-  \ evaluating whether a seller's asking\r\n  price is reasonable, learning gemstone\
-  \ grading methodology, or understanding..."
-full_prompt_length: 20881
+description: '- `identify-gemstone` — Positive species identification is the prerequisite
+  for appraisal; misidentification invalidates the entire assessment'
+prompt_preview: "---\nname: appraise-gemstone\ndescription: >\n  Appraise gemstone\
+  \ value using the four Cs (color, clarity, cut, carat),\n  origin assessment, treatment\
+  \ detection, and market factor analysis.\n  Advisory educational guidance only —\
+  \ not a certified appraisal. Use when\n  understanding factors that determine a\
+  \ gemstone's value, pre-screening\n  stones before a professional appraisal, evaluating\
+  \ whether a seller's asking\n  price is reasonable, learning gemstone grading methodology,\
+  \ or understanding\n  how t..."
+full_prompt_length: 20543
 tools_mentioned:
-- Ruby
 - ruby
+- Ruby
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/appraise-gemstone/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/appraise-gemstone/SKILL.md
-fetched_at: '2026-06-07T06:27:03.460791+00:00'
+fetched_at: '2026-06-14T06:40:57.879051+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:49:15.464954Z'
+  evaluated_at: '2026-06-14T09:02:36.785268Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc38f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4aa0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc38f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4aa0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.323498Z'
-indexed_at: '2026-06-07T10:04:54.323505Z'
+  fetched_at: '2026-06-14T10:18:26.648515Z'
+indexed_at: '2026-06-14T10:18:26.648520Z'
 ---

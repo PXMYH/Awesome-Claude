@@ -19,17 +19,17 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/google-calendar/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/google-calendar/SKILL.md
-fetched_at: '2026-06-07T06:28:36.685598+00:00'
+fetched_at: '2026-06-14T06:42:02.299837+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:46:37.189094Z'
+  evaluated_at: '2026-06-14T10:00:00.139946Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0f9b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083ec0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0f9b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083ec0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.523053Z'
-indexed_at: '2026-06-07T10:04:55.523058Z'
+  fetched_at: '2026-06-14T10:18:27.587393Z'
+indexed_at: '2026-06-14T10:18:27.587398Z'
 ---

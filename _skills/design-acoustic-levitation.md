@@ -2,32 +2,33 @@
 id: design-acoustic-levitation
 slug: design-acoustic-levitation
 name: Design Acoustic Levitation
-description: Claude skill for Design Acoustic Levitation
-prompt_preview: "---\r\nname: design-acoustic-levitation\r\ndescription: >\r\n  Design\
-  \ an acoustic levitation system that uses standing waves to trap and\r\n  suspend\
-  \ small objects at pressure nodes. Covers ultrasonic transducer\r\n  selection,\
-  \ standing wave formation between a transducer and reflector,\r\n  node spacing\
-  \ and trapping position calculation, acoustic radiation pressure\r\n  analysis,\
-  \ and phased array configurations for multi-axis manipulation.\r\n  Use when designing\
-  \ contactless sample handling for chemistry, biol..."
-full_prompt_length: 17251
+description: '- `evaluate-levitation-mechanism` -- compare acoustic levitation with
+  magnetic, electrostatic, and aerodynamic alternatives'
+prompt_preview: "---\nname: design-acoustic-levitation\ndescription: >\n  Design an\
+  \ acoustic levitation system that uses standing waves to trap and\n  suspend small\
+  \ objects at pressure nodes. Covers ultrasonic transducer\n  selection, standing\
+  \ wave formation between a transducer and reflector,\n  node spacing and trapping\
+  \ position calculation, acoustic radiation pressure\n  analysis, and phased array\
+  \ configurations for multi-axis manipulation.\n  Use when designing contactless\
+  \ sample handling for chemistry, biology,\n  m..."
+full_prompt_length: 17049
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/design-acoustic-levitation/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/design-acoustic-levitation/SKILL.md
-fetched_at: '2026-06-07T06:27:23.539901+00:00'
+fetched_at: '2026-06-14T06:41:10.970378+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:01:58.214991Z'
+  evaluated_at: '2026-06-14T09:15:21.819874Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc89b20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082030 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc89b20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082030 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.590398Z'
-indexed_at: '2026-06-07T10:04:54.590403Z'
+  fetched_at: '2026-06-14T10:18:26.857331Z'
+indexed_at: '2026-06-14T10:18:26.857335Z'
 ---

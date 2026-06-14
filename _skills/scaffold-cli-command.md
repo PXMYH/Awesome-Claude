@@ -11,26 +11,26 @@ prompt_preview: "---\nname: scaffold-cli-command\ndescription: >\n  Scaffold a n
   \ testing. Use when adding a command to an\n  existing Commander.js CLI, designing\
   \ a new CLI tool from scratch, or\n  standardizing command structure across a multi-command\
   \ CLI.\nlicense: MIT\nallowed..."
-full_prompt_length: 11196
+full_prompt_length: 11183
 tools_mentioned:
-- TypeScript
 - javascript
+- TypeScript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/scaffold-cli-command/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/scaffold-cli-command/SKILL.md
-fetched_at: '2026-06-07T06:27:59.240196+00:00'
+fetched_at: '2026-06-14T06:41:35.696332+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:25:00.877428Z'
+  evaluated_at: '2026-06-14T09:38:22.578975Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc666c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082f90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc666c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082f90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.071194Z'
-indexed_at: '2026-06-07T10:04:55.071199Z'
+  fetched_at: '2026-06-14T10:18:27.231127Z'
+indexed_at: '2026-06-14T10:18:27.231132Z'
 ---

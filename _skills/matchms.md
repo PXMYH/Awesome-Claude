@@ -4,33 +4,50 @@ slug: matchms
 name: Matchms
 description: Load these references as needed for detailed information about specific
   matchms capabilities.
-prompt_preview: "---\nname: matchms\ndescription: Spectral similarity and compound\
-  \ identification for metabolomics. Use for comparing mass spectra, computing similarity\
-  \ scores (cosine, modified cosine), and identifying unknown compounds from spectral\
-  \ libraries. Best for metabolite identification, spectral matching, library searching.\
-  \ For full LC-MS/MS proteomics pipelines use pyopenms.\nlicense: Apache-2.0 license\n\
-  metadata:\n  version: \"1.0\"\n  skill-author: K-Dense Inc.\n---\n\n# Matchms\n\n\
-  ## Overview\n\nMatchms is an ope..."
-full_prompt_length: 7025
+prompt_preview: '---
+
+  name: matchms
+
+  description: Spectral similarity and compound identification for metabolomics. Use
+  for comparing mass spectra, computing similarity scores (cosine, modified cosine),
+  and identifying unknown compounds from spectral libraries. Best for metabolite identification,
+  spectral matching, library searching. For full LC-MS/MS proteomics pipelines use
+  pyopenms.
+
+  license: Apache-2.0 license
+
+  metadata: {"version": "1.0", "skill-author": "K-Dense Inc."}
+
+  ---
+
+
+  # Matchms
+
+
+  ## Overview
+
+
+  Matchms is a...'
+full_prompt_length: 7030
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/matchms/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/matchms/SKILL.md
-fetched_at: '2026-06-07T06:22:54.790676+00:00'
+fetched_at: '2026-06-14T06:38:16.578381+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:42:36.495824Z'
+  evaluated_at: '2026-06-14T06:56:03.358302Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450016a5a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a77e030 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450016a5a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a77e030 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.642349Z'
-indexed_at: '2026-06-07T10:04:51.642356Z'
+  fetched_at: '2026-06-14T10:18:24.581649Z'
+indexed_at: '2026-06-14T10:18:24.581653Z'
 ---

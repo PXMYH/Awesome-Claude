@@ -1,35 +1,36 @@
 id: metal
 slug: metal
 name: Metal
-description: Claude skill for Metal
-prompt_preview: "---\r\nname: metal\r\ndescription: >\r\n  Extract the conceptual\
-  \ essence of a repository as skills, agents, and teams —\r\n  the project's roles,\
-  \ procedures, and coordination patterns expressed as\r\n  agentskills.io-standard\
-  \ definitions. Reads an arbitrary codebase and produces\r\n  generalized definitions\
-  \ that capture WHAT the project does and WHO operates it,\r\n  without replicating\
-  \ HOW it does it. Use when onboarding to a new codebase and\r\n  wanting to understand\
-  \ its conceptual architecture, when bootstr..."
-full_prompt_length: 20437
+description: '- `athanor` — When metal reveals the project needs transformation, not
+  just essence extraction'
+prompt_preview: "---\nname: metal\ndescription: >\n  Extract the conceptual essence\
+  \ of a repository as skills, agents, and teams —\n  the project's roles, procedures,\
+  \ and coordination patterns expressed as\n  agentskills.io-standard definitions.\
+  \ Reads an arbitrary codebase and produces\n  generalized definitions that capture\
+  \ WHAT the project does and WHO operates it,\n  without replicating HOW it does\
+  \ it. Use when onboarding to a new codebase and\n  wanting to understand its conceptual\
+  \ architecture, when bootstrapping a..."
+full_prompt_length: 20137
 tools_mentioned:
 - go
-- React
 - PostgreSQL
+- React
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/metal/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/metal/SKILL.md
-fetched_at: '2026-06-07T06:27:43.619470+00:00'
+fetched_at: '2026-06-14T06:41:24.759007+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:14:58.253278Z'
+  evaluated_at: '2026-06-14T09:28:21.116043Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc89220 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082060 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc89220 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082060 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.861681Z'
-indexed_at: '2026-06-07T10:04:54.861686Z'
+  fetched_at: '2026-06-14T10:18:27.067201Z'
+indexed_at: '2026-06-14T10:18:27.067205Z'

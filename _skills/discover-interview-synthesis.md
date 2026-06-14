@@ -6,28 +6,28 @@ description: See `references/EXAMPLE.md` for a completed example.
 prompt_preview: "---\nname: discover-interview-synthesis\ndescription: Synthesizes\
   \ user research interviews into actionable insights, patterns, and recommendations.\
   \ Use after conducting user interviews, customer calls, or usability sessions to\
-  \ extract and communicate findings.\nlicense: Apache-2.0\nmetadata:\n  phase: discover\n\
-  \  version: \"2.0.0\"\n  updated: 2026-01-26\n  category: research\n  frameworks:\
-  \ [triple-diamond, lean-startup, design-thinking]\n  author: product-on-purpose\n\
-  ---\n<!-- PM-Skills | https://github.com/..."
-full_prompt_length: 3309
+  \ extract and communicate findings across participants. Distinct from foundation-meeting-recap,\
+  \ which summarizes one internal meeting for its attendees; this skill aggregates\
+  \ research conversations into evidence-backed findings.\nlicense: Apache-2.0\nmetadata:\n\
+  \  phase: discover..."
+full_prompt_length: 4043
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/discover-interview-synthesis/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/discover-interview-synthesis/SKILL.md
-fetched_at: '2026-06-07T06:28:19.110430+00:00'
+fetched_at: '2026-06-14T06:41:49.516616+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:37:07.901507Z'
+  evaluated_at: '2026-06-14T09:50:24.084963Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67ef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0eeb70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67ef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0eeb70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.323240Z'
-indexed_at: '2026-06-07T10:04:55.323246Z'
+  fetched_at: '2026-06-14T10:18:27.429251Z'
+indexed_at: '2026-06-14T10:18:27.429259Z'
 ---

@@ -2,32 +2,33 @@
 id: write-testthat-tests
 slug: write-testthat-tests
 name: Write testthat Tests
-description: Claude skill for Write testthat Tests
-prompt_preview: "---\r\nname: write-testthat-tests\r\ndescription: >\r\n  Write comprehensive\
-  \ testthat (edition 3) tests for R package functions.\r\n  Covers test organization,\
-  \ expectations, fixtures, mocking, snapshot\r\n  tests, parameterized tests, and\
-  \ achieving high coverage. Use when adding\r\n  tests for new package functions,\
-  \ increasing test coverage for existing\r\n  code, writing regression tests for\
-  \ bug fixes, or setting up test\r\n  infrastructure for a package that lacks it.\r\
-  \nlicense: MIT\r\nallowed-tools: Read Write..."
-full_prompt_length: 9411
+description: '- `create-r-package` - set up test infrastructure as part of package
+  creation'
+prompt_preview: "---\nname: write-testthat-tests\ndescription: >\n  Write comprehensive\
+  \ testthat (edition 3) tests for R package functions.\n  Covers test organization,\
+  \ expectations, fixtures, mocking, snapshot\n  tests, parameterized tests, and achieving\
+  \ high coverage. Use when adding\n  tests for new package functions, increasing\
+  \ test coverage for existing\n  code, writing regression tests for bug fixes, or\
+  \ setting up test\n  infrastructure for a package that lacks it.\nlicense: MIT\n\
+  allowed-tools: Read Write Edit Bash..."
+full_prompt_length: 9142
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/write-testthat-tests/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/write-testthat-tests/SKILL.md
-fetched_at: '2026-06-07T06:28:13.123560+00:00'
+fetched_at: '2026-06-14T06:41:45.252599+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:34:15.955071Z'
+  evaluated_at: '2026-06-14T09:47:34.063666Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c080 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0830b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c080 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0830b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.264245Z'
-indexed_at: '2026-06-07T10:04:55.264250Z'
+  fetched_at: '2026-06-14T10:18:27.383861Z'
+indexed_at: '2026-06-14T10:18:27.383866Z'
 ---

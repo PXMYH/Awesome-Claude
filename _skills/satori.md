@@ -21,17 +21,17 @@ category_display: Community
 source_repo: MetcalfSolutions/Satori
 source_path: SKILL.md
 source_url: https://github.com/MetcalfSolutions/Satori/blob/main/SKILL.md
-fetched_at: '2026-06-07T06:23:11.709032+00:00'
+fetched_at: '2026-06-14T06:38:28.262472+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:53:53.242638Z'
+  evaluated_at: '2026-06-14T07:07:35.827692Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67e00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083170 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67e00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083170 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.898289Z'
-indexed_at: '2026-06-07T10:04:51.898295Z'
+  fetched_at: '2026-06-14T10:18:24.767649Z'
+indexed_at: '2026-06-14T10:18:24.767653Z'
 ---

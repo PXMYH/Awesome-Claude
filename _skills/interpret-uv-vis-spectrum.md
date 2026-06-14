@@ -2,32 +2,33 @@
 id: interpret-uv-vis-spectrum
 slug: interpret-uv-vis-spectrum
 name: Interpret UV-Vis Spectrum
-description: Claude skill for Interpret UV-Vis Spectrum
-prompt_preview: "---\r\nname: interpret-uv-vis-spectrum\r\ndescription: >\r\n  Systematically\
-  \ interpret ultraviolet-visible absorption spectra to identify\r\n  chromophores,\
-  \ classify electronic transitions, apply Woodward-Fieser rules\r\n  for conjugated\
-  \ systems, and perform quantitative analysis using the\r\n  Beer-Lambert law.\r\n\
-  license: MIT\r\nallowed-tools: Read Grep Glob WebFetch WebSearch\r\nmetadata:\r\n\
-  \  author: Philipp Thoss\r\n  version: \"1.0\"\r\n  domain: spectroscopy\r\n  complexity:\
-  \ intermediate\r\n  language: natural\r\n  tags..."
-full_prompt_length: 12562
+description: '- `interpret-nmr-spectrum` -- determine molecular connectivity to support
+  chromophore identification'
+prompt_preview: "---\nname: interpret-uv-vis-spectrum\ndescription: >\n  Systematically\
+  \ interpret ultraviolet-visible absorption spectra to identify\n  chromophores,\
+  \ classify electronic transitions, apply Woodward-Fieser rules\n  for conjugated\
+  \ systems, and perform quantitative analysis using the\n  Beer-Lambert law.\nlicense:\
+  \ MIT\nallowed-tools: Read Grep Glob WebFetch WebSearch\nmetadata:\n  author: Philipp\
+  \ Thoss\n  version: \"1.0\"\n  domain: spectroscopy\n  complexity: intermediate\n\
+  \  language: natural\n  tags: spectroscopy,..."
+full_prompt_length: 12263
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/interpret-uv-vis-spectrum/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/interpret-uv-vis-spectrum/SKILL.md
-fetched_at: '2026-06-07T06:27:38.867429+00:00'
+fetched_at: '2026-06-14T06:41:21.531217+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:11:51.790547Z'
+  evaluated_at: '2026-06-14T09:25:13.785780Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffc0dd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5bc80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffc0dd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5bc80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.797099Z'
-indexed_at: '2026-06-07T10:04:54.797108Z'
+  fetched_at: '2026-06-14T10:18:27.016974Z'
+indexed_at: '2026-06-14T10:18:27.016978Z'
 ---

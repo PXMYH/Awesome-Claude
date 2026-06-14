@@ -2,32 +2,33 @@
 id: athanor
 slug: athanor
 name: Athanor
-description: Claude skill for Athanor
-prompt_preview: "---\r\nname: athanor\r\ndescription: >\r\n  Four-stage alchemical\
-  \ code transmutation — nigredo (decomposition), albedo\r\n  (purification), citrinitas\
-  \ (illumination), rubedo (synthesis) — with meditate\r\n  and heal checkpoints between\
-  \ stages. Transforms tangled or legacy code into\r\n  optimized, well-structured\
-  \ output through systematic material analysis. Use\r\n  when transforming legacy\
-  \ code into modern equivalents, refactoring deeply\r\n  tangled modules where incremental\
-  \ fixes keep failing, converting a c..."
-full_prompt_length: 12124
+description: '- `transmute` — Lighter-weight transformation for single functions or
+  small modules'
+prompt_preview: "---\nname: athanor\ndescription: >\n  Four-stage alchemical code\
+  \ transmutation — nigredo (decomposition), albedo\n  (purification), citrinitas\
+  \ (illumination), rubedo (synthesis) — with meditate\n  and heal checkpoints between\
+  \ stages. Transforms tangled or legacy code into\n  optimized, well-structured output\
+  \ through systematic material analysis. Use\n  when transforming legacy code into\
+  \ modern equivalents, refactoring deeply\n  tangled modules where incremental fixes\
+  \ keep failing, converting a codebase..."
+full_prompt_length: 11921
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/athanor/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/athanor/SKILL.md
-fetched_at: '2026-06-07T06:27:04.869519+00:00'
+fetched_at: '2026-06-14T06:40:58.936549+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:50:12.181753Z'
+  evaluated_at: '2026-06-14T09:03:33.929073Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc3350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4860 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc3350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4860 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.343167Z'
-indexed_at: '2026-06-07T10:04:54.343176Z'
+  fetched_at: '2026-06-14T10:18:26.663786Z'
+indexed_at: '2026-06-14T10:18:26.663794Z'
 ---

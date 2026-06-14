@@ -2,32 +2,33 @@
 id: construct-geometric-figure
 slug: construct-geometric-figure
 name: Construct a Geometric Figure
-description: Claude skill for Construct a Geometric Figure
-prompt_preview: "---\r\nname: construct-geometric-figure\r\ndescription: >\r\n  Perform\
-  \ a ruler-and-compass construction with step-by-step justification\r\n  for each\
-  \ operation, producing a constructible geometric figure from given\r\n  elements.\
-  \ Covers classical Euclidean constructions including perpendicular\r\n  bisectors,\
-  \ angle bisectors, parallel lines, regular polygons, and\r\n  tangent lines. Use\
-  \ when given geometric elements (points, segments, angles)\r\n  and asked to produce\
-  \ a Euclidean construction, verify constructi..."
-full_prompt_length: 12389
+description: '- `solve-trigonometric-problem` - trigonometric analysis often motivates
+  or verifies constructions'
+prompt_preview: "---\nname: construct-geometric-figure\ndescription: >\n  Perform\
+  \ a ruler-and-compass construction with step-by-step justification\n  for each operation,\
+  \ producing a constructible geometric figure from given\n  elements. Covers classical\
+  \ Euclidean constructions including perpendicular\n  bisectors, angle bisectors,\
+  \ parallel lines, regular polygons, and\n  tangent lines. Use when given geometric\
+  \ elements (points, segments, angles)\n  and asked to produce a Euclidean construction,\
+  \ verify constructibility,..."
+full_prompt_length: 12194
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/construct-geometric-figure/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/construct-geometric-figure/SKILL.md
-fetched_at: '2026-06-07T06:27:15.416096+00:00'
+fetched_at: '2026-06-14T06:41:05.524777+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:56:41.976998Z'
+  evaluated_at: '2026-06-14T09:10:05.127231Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c080 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f596d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c080 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f596d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.479686Z'
-indexed_at: '2026-06-07T10:04:54.479691Z'
+  fetched_at: '2026-06-14T10:18:26.772294Z'
+indexed_at: '2026-06-14T10:18:26.772299Z'
 ---

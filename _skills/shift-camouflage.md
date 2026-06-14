@@ -2,34 +2,35 @@
 id: shift-camouflage
 slug: shift-camouflage
 name: Shift Camouflage
-description: Claude skill for Shift Camouflage
-prompt_preview: "---\r\nname: shift-camouflage\r\ndescription: >\r\n  Implement cuttlefish-inspired\
-  \ adaptive interfaces — polymorphic APIs,\r\n  context-aware behavior, feature flags,\
-  \ and attack surface reduction.\r\n  Covers environmental assessment, chromatophore\
-  \ mapping, dynamic interface\r\n  generation, behavioral polymorphism, and pattern\
-  \ disruption for systems\r\n  that must present different faces to different observers.\
-  \ Use when a system\r\n  must present different interfaces to different consumers,\
-  \ when reducing attac..."
-full_prompt_length: 14759
+description: '- `assess-form` — surface adaptation may resolve pressure identified
+  in form assessment without requiring deep transformation'
+prompt_preview: "---\nname: shift-camouflage\ndescription: >\n  Implement cuttlefish-inspired\
+  \ adaptive interfaces — polymorphic APIs,\n  context-aware behavior, feature flags,\
+  \ and attack surface reduction.\n  Covers environmental assessment, chromatophore\
+  \ mapping, dynamic interface\n  generation, behavioral polymorphism, and pattern\
+  \ disruption for systems\n  that must present different faces to different observers.\
+  \ Use when a system\n  must present different interfaces to different consumers,\
+  \ when reducing attack\n  surf..."
+full_prompt_length: 14528
 tools_mentioned:
-- kubernetes
 - Kubernetes
+- kubernetes
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/shift-camouflage/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/shift-camouflage/SKILL.md
-fetched_at: '2026-06-07T06:28:04.293020+00:00'
+fetched_at: '2026-06-14T06:41:39.163615+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:28:25.523794Z'
+  evaluated_at: '2026-06-14T09:41:45.245489Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0e000 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f59400 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0e000 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f59400 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.142900Z'
-indexed_at: '2026-06-07T10:04:55.142906Z'
+  fetched_at: '2026-06-14T10:18:27.289406Z'
+indexed_at: '2026-06-14T10:18:27.289411Z'
 ---

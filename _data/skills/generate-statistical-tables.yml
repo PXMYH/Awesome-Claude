@@ -1,32 +1,32 @@
 id: generate-statistical-tables
 slug: generate-statistical-tables
 name: Generate Statistical Tables
-description: Claude skill for Generate Statistical Tables
-prompt_preview: "---\r\nname: generate-statistical-tables\r\ndescription: >\r\n  Generate\
-  \ publication-ready statistical tables using gt, kableExtra,\r\n  or flextable.\
-  \ Covers descriptive statistics, regression results,\r\n  ANOVA tables, correlation\
-  \ matrices, and APA formatting. Use when\r\n  creating descriptive statistics tables,\
-  \ formatting regression or\r\n  ANOVA output, building correlation matrices, producing\
-  \ APA-style\r\n  tables for academic papers, or generating tables for Quarto and\r\
-  \n  R Markdown documents.\r\nlicense:..."
-full_prompt_length: 7890
+description: '- `format-apa-report` - tables within APA manuscripts'
+prompt_preview: "---\nname: generate-statistical-tables\ndescription: >\n  Generate\
+  \ publication-ready statistical tables using gt, kableExtra,\n  or flextable. Covers\
+  \ descriptive statistics, regression results,\n  ANOVA tables, correlation matrices,\
+  \ and APA formatting. Use when\n  creating descriptive statistics tables, formatting\
+  \ regression or\n  ANOVA output, building correlation matrices, producing APA-style\n\
+  \  tables for academic papers, or generating tables for Quarto and\n  R Markdown\
+  \ documents.\nlicense: MIT\nallowe..."
+full_prompt_length: 7653
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/generate-statistical-tables/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/generate-statistical-tables/SKILL.md
-fetched_at: '2026-06-07T06:27:33.070902+00:00'
+fetched_at: '2026-06-14T06:41:17.546021+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:08:03.716747Z'
+  evaluated_at: '2026-06-14T09:21:26.684841Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc89130 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3d83e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc89130 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3d83e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.717625Z'
-indexed_at: '2026-06-07T10:04:54.717631Z'
+  fetched_at: '2026-06-14T10:18:26.955545Z'
+indexed_at: '2026-06-14T10:18:26.955549Z'

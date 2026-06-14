@@ -2,34 +2,34 @@
 id: write-claude-md
 slug: write-claude-md
 name: Write CLAUDE.md
-description: Claude skill for Write CLAUDE.md
-prompt_preview: "---\r\nname: write-claude-md\r\ndescription: >\r\n  Create an effective\
-  \ CLAUDE.md file that provides project-specific\r\n  instructions to AI coding assistants.\
-  \ Covers structure, common\r\n  sections, do/don't patterns, and integration with\
-  \ MCP servers\r\n  and agent definitions. Use when starting a new project where\
-  \ AI\r\n  assistants will be used, improving AI behavior on an existing project,\r\
-  \n  documenting project conventions and constraints, or integrating MCP\r\n  servers\
-  \ or agent definitions into a projec..."
-full_prompt_length: 8636
+description: '- `create-r-package` - CLAUDE.md as part of package setup'
+prompt_preview: "---\nname: write-claude-md\ndescription: >\n  Create an effective\
+  \ CLAUDE.md file that provides project-specific\n  instructions to AI coding assistants.\
+  \ Covers structure, common\n  sections, do/don't patterns, and integration with\
+  \ MCP servers\n  and agent definitions. Use when starting a new project where AI\n\
+  \  assistants will be used, improving AI behavior on an existing project,\n  documenting\
+  \ project conventions and constraints, or integrating MCP\n  servers or agent definitions\
+  \ into a project workflo..."
+full_prompt_length: 8405
 tools_mentioned:
-- TypeScript
 - Node.js
+- TypeScript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/write-claude-md/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/write-claude-md/SKILL.md
-fetched_at: '2026-06-07T06:28:11.911159+00:00'
+fetched_at: '2026-06-14T06:41:44.441178+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:33:27.051438Z'
+  evaluated_at: '2026-06-14T09:46:45.495809Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0f380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a118830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0f380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a118830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.247219Z'
-indexed_at: '2026-06-07T10:04:55.247225Z'
+  fetched_at: '2026-06-14T10:18:27.370666Z'
+indexed_at: '2026-06-14T10:18:27.370673Z'
 ---

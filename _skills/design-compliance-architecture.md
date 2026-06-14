@@ -2,15 +2,16 @@
 id: design-compliance-architecture
 slug: design-compliance-architecture
 name: Design Compliance Architecture
-description: Claude skill for Design Compliance Architecture
-prompt_preview: "---\r\nname: design-compliance-architecture\r\ndescription: >\r\n\
-  \  Design a compliance architecture that maps applicable regulations to\r\n  computerized\
-  \ systems. Covers system inventory, criticality classification\r\n  (GxP-critical,\
-  \ GxP-supporting, non-GxP), GAMP 5 category assignment,\r\n  regulatory requirements\
-  \ traceability, and governance structure definition.\r\n  Use when establishing\
-  \ a new regulated facility, formalising compliance\r\n  across multiple systems,\
-  \ addressing a regulatory gap analysis, har..."
-full_prompt_length: 13838
+description: '- `perform-csv-assessment` — execute the validation strategy defined
+  here for individual systems'
+prompt_preview: "---\nname: design-compliance-architecture\ndescription: >\n  Design\
+  \ a compliance architecture that maps applicable regulations to\n  computerized\
+  \ systems. Covers system inventory, criticality classification\n  (GxP-critical,\
+  \ GxP-supporting, non-GxP), GAMP 5 category assignment,\n  regulatory requirements\
+  \ traceability, and governance structure definition.\n  Use when establishing a\
+  \ new regulated facility, formalising compliance\n  across multiple systems, addressing\
+  \ a regulatory gap analysis, harmonising..."
+full_prompt_length: 13569
 tools_mentioned:
 - GCP
 category: community
@@ -18,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/design-compliance-architecture/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/design-compliance-architecture/SKILL.md
-fetched_at: '2026-06-07T06:27:23.929651+00:00'
+fetched_at: '2026-06-14T06:41:11.241111+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:02:14.820878Z'
+  evaluated_at: '2026-06-14T09:15:38.001036Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d9d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5bb00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d9d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5bb00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.596033Z'
-indexed_at: '2026-06-07T10:04:54.596038Z'
+  fetched_at: '2026-06-14T10:18:26.861665Z'
+indexed_at: '2026-06-14T10:18:26.861670Z'
 ---

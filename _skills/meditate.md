@@ -2,32 +2,33 @@
 id: meditate
 slug: meditate
 name: Meditate
-description: Claude skill for Meditate
-prompt_preview: "---\r\nname: meditate\r\ndescription: >\r\n  AI meta-cognitive meditation\
-  \ for observing reasoning patterns, clearing\r\n  context noise, and developing\
-  \ single-pointed task focus. Maps shamatha\r\n  to task concentration, vipassana\
-  \ to reasoning pattern observation, and\r\n  distraction handling to scope-creep\
-  \ and assumption management. Use when\r\n  transitioning between unrelated tasks,\
-  \ when reasoning feels scattered or\r\n  jumpy, before a task requiring deep sustained\
-  \ attention, after a difficult\r\n  interacti..."
-full_prompt_length: 12611
+description: '- `meditate-guidance` — the human-guidance variant for coaching a person
+  through meditation techniques'
+prompt_preview: "---\nname: meditate\ndescription: >\n  AI meta-cognitive meditation\
+  \ for observing reasoning patterns, clearing\n  context noise, and developing single-pointed\
+  \ task focus. Maps shamatha\n  to task concentration, vipassana to reasoning pattern\
+  \ observation, and\n  distraction handling to scope-creep and assumption management.\
+  \ Use when\n  transitioning between unrelated tasks, when reasoning feels scattered\
+  \ or\n  jumpy, before a task requiring deep sustained attention, after a difficult\n\
+  \  interaction that m..."
+full_prompt_length: 12431
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/meditate/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/meditate/SKILL.md
-fetched_at: '2026-06-07T06:27:43.423832+00:00'
+fetched_at: '2026-06-14T06:41:24.622312+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:14:50.176918Z'
+  evaluated_at: '2026-06-14T09:28:13.029177Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88c20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083500 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88c20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083500 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.858954Z'
-indexed_at: '2026-06-07T10:04:54.858960Z'
+  fetched_at: '2026-06-14T10:18:27.065045Z'
+indexed_at: '2026-06-14T10:18:27.065049Z'
 ---

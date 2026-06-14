@@ -2,37 +2,37 @@
 id: analyze-codebase-workflow
 slug: analyze-codebase-workflow
 name: Analyze Codebase Workflow
-description: Claude skill for Analyze Codebase Workflow
-prompt_preview: "---\r\nname: analyze-codebase-workflow\r\ndescription: >\r\n  Analyze\
-  \ an arbitrary codebase to auto-detect workflows, data pipelines,\r\n  and file\
-  \ dependencies using putior's put_auto() engine. Produces an\r\n  annotation plan\
-  \ that maps detected I/O patterns to source files across\r\n  30+ supported languages\
-  \ with 902 auto-detection patterns. Use when\r\n  onboarding onto an unfamiliar\
-  \ codebase to understand data flow, starting\r\n  putior integration in a project\
-  \ without existing annotations, auditing a\r\n  pr..."
-full_prompt_length: 8781
+description: '- `install-putior` — prerequisite: putior must be installed first'
+prompt_preview: "---\nname: analyze-codebase-workflow\ndescription: >\n  Analyze an\
+  \ arbitrary codebase to auto-detect workflows, data pipelines,\n  and file dependencies\
+  \ using putior's put_auto() engine. Produces an\n  annotation plan that maps detected\
+  \ I/O patterns to source files across\n  30+ supported languages with 902 auto-detection\
+  \ patterns. Use when\n  onboarding onto an unfamiliar codebase to understand data\
+  \ flow, starting\n  putior integration in a project without existing annotations,\
+  \ auditing a\n  project's d..."
+full_prompt_length: 8567
 tools_mentioned:
-- javascript
-- JavaScript
-- python
 - Python
+- JavaScript
 - rest
+- javascript
+- python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/analyze-codebase-workflow/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/analyze-codebase-workflow/SKILL.md
-fetched_at: '2026-06-07T06:27:01.141930+00:00'
+fetched_at: '2026-06-14T06:40:56.328012+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:47:45.977267Z'
+  evaluated_at: '2026-06-14T09:01:07.559623Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2a20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c5a90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2a20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c5a90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.292109Z'
-indexed_at: '2026-06-07T10:04:54.292114Z'
+  fetched_at: '2026-06-14T10:18:26.624219Z'
+indexed_at: '2026-06-14T10:18:26.624224Z'
 ---

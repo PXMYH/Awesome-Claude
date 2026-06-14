@@ -15,24 +15,24 @@ prompt_preview: "---\nname: enrich-company-name\ndescription: \"Populate missing
 full_prompt_length: 7941
 tools_mentioned:
 - go
-- python
 - Go
+- python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/enrich-company-name/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/enrich-company-name/SKILL.md
-fetched_at: '2026-06-07T06:23:19.897593+00:00'
+fetched_at: '2026-06-14T06:38:34.500571+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:57:41.299900Z'
+  evaluated_at: '2026-06-14T07:11:23.129452Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500706750 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ec530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500706750 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ec530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.979833Z'
-indexed_at: '2026-06-07T10:04:51.979842Z'
+  fetched_at: '2026-06-14T10:18:24.830344Z'
+indexed_at: '2026-06-14T10:18:24.830348Z'
 ---

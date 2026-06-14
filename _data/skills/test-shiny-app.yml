@@ -1,32 +1,32 @@
 id: test-shiny-app
 slug: test-shiny-app
 name: Test Shiny App
-description: Claude skill for Test Shiny App
-prompt_preview: "---\r\nname: test-shiny-app\r\ndescription: >\r\n  Test Shiny applications\
-  \ using shinytest2 for end-to-end browser tests\r\n  and testServer() for unit-testing\
-  \ module server logic. Covers snapshot\r\n  testing, CI integration, and mocking\
-  \ external services. Use when adding\r\n  tests to an existing Shiny application,\
-  \ setting up a testing strategy for\r\n  a new Shiny project, writing regression\
-  \ tests before refactoring Shiny\r\n  code, or integrating Shiny app tests into\
-  \ CI/CD pipelines.\r\nlicense: MIT\r\nallowed-..."
-full_prompt_length: 8499
+description: '- `build-shiny-module` — create testable modules with clear interfaces'
+prompt_preview: "---\nname: test-shiny-app\ndescription: >\n  Test Shiny applications\
+  \ using shinytest2 for end-to-end browser tests\n  and testServer() for unit-testing\
+  \ module server logic. Covers snapshot\n  testing, CI integration, and mocking external\
+  \ services. Use when adding\n  tests to an existing Shiny application, setting up\
+  \ a testing strategy for\n  a new Shiny project, writing regression tests before\
+  \ refactoring Shiny\n  code, or integrating Shiny app tests into CI/CD pipelines.\n\
+  license: MIT\nallowed-tools: Rea..."
+full_prompt_length: 8264
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/test-shiny-app/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/test-shiny-app/SKILL.md
-fetched_at: '2026-06-07T06:28:08.015168+00:00'
+fetched_at: '2026-06-14T06:41:41.756022+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:30:51.205821Z'
+  evaluated_at: '2026-06-14T09:44:11.646021Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c9e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5a870 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c9e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5a870 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.193532Z'
-indexed_at: '2026-06-07T10:04:55.193544Z'
+  fetched_at: '2026-06-14T10:18:27.328842Z'
+indexed_at: '2026-06-14T10:18:27.328846Z'

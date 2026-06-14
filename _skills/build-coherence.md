@@ -2,15 +2,16 @@
 id: build-coherence
 slug: build-coherence
 name: Build Coherence
-description: Claude skill for Build Coherence
-prompt_preview: "---\r\nname: build-coherence\r\ndescription: >\r\n  AI multi-path\
-  \ reasoning coherence using bee democracy — independent evaluation\r\n  of competing\
-  \ approaches, waggle dance as reasoning-out-loud, quorum sensing\r\n  for confidence\
-  \ thresholds, and deadlock resolution. Use when forage-solutions\r\n  has identified\
-  \ multiple valid approaches and a selection must be made, when\r\n  oscillating\
-  \ between options without committing, when justifying an architecture\r\n  or tool\
-  \ choice with structured reasoning, or befor..."
-full_prompt_length: 13554
+description: '- `build-consensus` — the multi-agent consensus model that this skill
+  adapts to single-agent reasoning'
+prompt_preview: "---\nname: build-coherence\ndescription: >\n  AI multi-path reasoning\
+  \ coherence using bee democracy — independent evaluation\n  of competing approaches,\
+  \ waggle dance as reasoning-out-loud, quorum sensing\n  for confidence thresholds,\
+  \ and deadlock resolution. Use when forage-solutions\n  has identified multiple\
+  \ valid approaches and a selection must be made, when\n  oscillating between options\
+  \ without committing, when justifying an architecture\n  or tool choice with structured\
+  \ reasoning, or before an irr..."
+full_prompt_length: 13360
 tools_mentioned:
 - go
 category: community
@@ -18,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/build-coherence/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/build-coherence/SKILL.md
-fetched_at: '2026-06-07T06:27:07.586759+00:00'
+fetched_at: '2026-06-14T06:41:00.704602+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:51:57.339519Z'
+  evaluated_at: '2026-06-14T09:05:19.449331Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33c50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0edd30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33c50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0edd30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.380243Z'
-indexed_at: '2026-06-07T10:04:54.380249Z'
+  fetched_at: '2026-06-14T10:18:26.695381Z'
+indexed_at: '2026-06-14T10:18:26.695387Z'
 ---

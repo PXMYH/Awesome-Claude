@@ -2,34 +2,34 @@
 id: create-r-dockerfile
 slug: create-r-dockerfile
 name: Create R Dockerfile
-description: Claude skill for Create R Dockerfile
-prompt_preview: "---\r\nname: create-r-dockerfile\r\ndescription: >\r\n  Create a\
-  \ Dockerfile for R projects using rocker base images. Covers\r\n  system dependency\
-  \ installation, R package installation, renv\r\n  integration, and optimized layer\
-  \ ordering for fast rebuilds. Use when\r\n  containerizing an R application or analysis,\
-  \ creating reproducible R\r\n  environments, deploying R-based services (Shiny,\
-  \ Plumber, MCP server),\r\n  or setting up consistent development environments across\
-  \ machines.\r\nlicense: MIT\r\nallowed-tools:..."
-full_prompt_length: 6498
+description: '- `setup-docker-compose` - orchestrate multiple containers'
+prompt_preview: "---\nname: create-r-dockerfile\ndescription: >\n  Create a Dockerfile\
+  \ for R projects using rocker base images. Covers\n  system dependency installation,\
+  \ R package installation, renv\n  integration, and optimized layer ordering for\
+  \ fast rebuilds. Use when\n  containerizing an R application or analysis, creating\
+  \ reproducible R\n  environments, deploying R-based services (Shiny, Plumber, MCP\
+  \ server),\n  or setting up consistent development environments across machines.\n\
+  license: MIT\nallowed-tools: Read Writ..."
+full_prompt_length: 6285
 tools_mentioned:
-- docker
 - Docker
+- docker
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-r-dockerfile/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-r-dockerfile/SKILL.md
-fetched_at: '2026-06-07T06:27:18.759890+00:00'
+fetched_at: '2026-06-14T06:41:07.718493+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:58:51.554988Z'
+  evaluated_at: '2026-06-14T09:12:15.372504Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb5100 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3ab620 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb5100 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3ab620 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.525234Z'
-indexed_at: '2026-06-07T10:04:54.525240Z'
+  fetched_at: '2026-06-14T10:18:26.807193Z'
+indexed_at: '2026-06-14T10:18:26.807197Z'
 ---

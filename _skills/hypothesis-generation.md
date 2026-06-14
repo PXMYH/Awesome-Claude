@@ -4,14 +4,22 @@ slug: hypothesis-generation
 name: Scientific Hypothesis Generation
 description: 'When preparing hypothesis-driven research for publication, consult the
   **venue-templates** skill for writing style guidance:'
-prompt_preview: "---\nname: hypothesis-generation\ndescription: Structured hypothesis\
-  \ formulation from observations. Use when you have experimental observations or\
-  \ data and need to formulate testable hypotheses with predictions, propose mechanisms,\
-  \ and design experiments to test them. Follows scientific method framework. For\
-  \ open-ended ideation use scientific-brainstorming; for automated LLM-driven hypothesis\
-  \ testing on datasets use hypogenic.\nallowed-tools: Read Write Edit Bash\nlicense:\
-  \ MIT license\nmetadata:\n  ve..."
-full_prompt_length: 13854
+prompt_preview: '---
+
+  name: hypothesis-generation
+
+  description: Structured hypothesis formulation from observations. Use when you have
+  experimental observations or data and need to formulate testable hypotheses with
+  predictions, propose mechanisms, and design experiments to test them. Follows scientific
+  method framework. For open-ended ideation use scientific-brainstorming; for automated
+  LLM-driven hypothesis testing on datasets use hypogenic.
+
+  allowed-tools: Read Write Edit Bash
+
+  license: MIT license
+
+  required_envir...'
+full_prompt_length: 14214
 tools_mentioned:
 - go
 - python
@@ -20,17 +28,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/hypothesis-generation/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/hypothesis-generation/SKILL.md
-fetched_at: '2026-06-07T06:22:52.204980+00:00'
+fetched_at: '2026-06-14T06:38:14.913048+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:40:47.429808Z'
+  evaluated_at: '2026-06-14T06:54:16.062130Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67500 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7140 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67500 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7140 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.602813Z'
-indexed_at: '2026-06-07T10:04:51.602818Z'
+  fetched_at: '2026-06-14T10:18:24.551878Z'
+indexed_at: '2026-06-14T10:18:24.551883Z'
 ---

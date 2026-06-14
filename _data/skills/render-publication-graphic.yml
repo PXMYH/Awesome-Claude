@@ -1,34 +1,35 @@
 id: render-publication-graphic
 slug: render-publication-graphic
 name: Render Publication Graphic
-description: Claude skill for Render Publication Graphic
-prompt_preview: "---\r\nname: render-publication-graphic\r\ndescription: >\r\n  Produce\
-  \ publication-ready 2D graphics with proper DPI, color profiles,\r\n  typography,\
-  \ and export formats for print and digital media. Use when\r\n  preparing figures\
-  \ for academic journal submission, creating graphics for\r\n  print publications,\
-  \ ensuring graphics meet publisher technical specifications,\r\n  exporting visualizations\
-  \ for web with proper optimization, or creating\r\n  multi-format exports from a\
-  \ single source.\r\nlicense: MIT\r\nallowed..."
-full_prompt_length: 15805
+description: '- **[create-2d-composition](../create-2d-composition/SKILL.md)**: Creating
+  the source graphics'
+prompt_preview: "---\nname: render-publication-graphic\ndescription: >\n  Produce\
+  \ publication-ready 2D graphics with proper DPI, color profiles,\n  typography,\
+  \ and export formats for print and digital media. Use when\n  preparing figures\
+  \ for academic journal submission, creating graphics for\n  print publications,\
+  \ ensuring graphics meet publisher technical specifications,\n  exporting visualizations\
+  \ for web with proper optimization, or creating\n  multi-format exports from a single\
+  \ source.\nlicense: MIT\nallowed-tools: Re..."
+full_prompt_length: 15291
 tools_mentioned:
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/render-publication-graphic/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/render-publication-graphic/SKILL.md
-fetched_at: '2026-06-07T06:27:55.215987+00:00'
+fetched_at: '2026-06-14T06:41:33.167817+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:22:25.936890Z'
+  evaluated_at: '2026-06-14T09:35:48.199942Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ec1a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ec1a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.017794Z'
-indexed_at: '2026-06-07T10:04:55.017799Z'
+  fetched_at: '2026-06-14T10:18:27.189285Z'
+indexed_at: '2026-06-14T10:18:27.189290Z'

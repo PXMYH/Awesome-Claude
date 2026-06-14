@@ -2,14 +2,17 @@ id: deliver-edge-cases
 slug: deliver-edge-cases
 name: Edge Cases
 description: See `references/EXAMPLE.md` for a completed example.
-prompt_preview: "---\nname: deliver-edge-cases\ndescription: Documents edge cases,\
-  \ error states, boundary conditions, and recovery paths for a feature. Use during\
-  \ specification to ensure comprehensive coverage, or during QA planning to identify\
-  \ test scenarios.\nlicense: Apache-2.0\nmetadata:\n  phase: deliver\n  version:\
-  \ \"2.0.0\"\n  updated: 2026-01-26\n  category: specification\n  frameworks: [triple-diamond,\
-  \ lean-startup, design-thinking]\n  author: product-on-purpose\n---\n<!-- PM-Skills\
-  \ | https://github.com/product-on-pu..."
-full_prompt_length: 3192
+prompt_preview: '---
+
+  name: deliver-edge-cases
+
+  description: Documents edge cases, error states, boundary conditions, race conditions,
+  and recovery paths for a feature - the systematic catalog of what can go wrong and
+  the failure modes to design for. Use during specification to map the failure surface
+  and ensure comprehensive coverage, or during QA planning to identify boundary and
+  limit scenarios to test. Distinct from deliver-acceptance-criteria, which writes
+  story-level Given/When/Then checks; this skill produc...'
+full_prompt_length: 4342
 tools_mentioned:
 - go
 category: community
@@ -17,17 +20,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/deliver-edge-cases/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/deliver-edge-cases/SKILL.md
-fetched_at: '2026-06-07T06:28:17.053204+00:00'
+fetched_at: '2026-06-14T06:41:48.373694+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:35:46.343174Z'
+  evaluated_at: '2026-06-14T09:49:03.056113Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc89970 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3464b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc89970 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3464b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.295376Z'
-indexed_at: '2026-06-07T10:04:55.295382Z'
+  fetched_at: '2026-06-14T10:18:27.407542Z'
+indexed_at: '2026-06-14T10:18:27.407546Z'

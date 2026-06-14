@@ -15,27 +15,27 @@ prompt_preview: '---
   when migrating from Vue 2 Options API to Composition API i...'
 full_prompt_length: 6061
 tools_mentioned:
-- javascript
-- JavaScript
-- TypeScript
 - Vue
+- JavaScript
 - vue
+- javascript
+- TypeScript
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/vue-expert-js/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/vue-expert-js/SKILL.md
-fetched_at: '2026-06-07T06:26:36.851133+00:00'
+fetched_at: '2026-06-14T06:40:36.945580+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:38:07.434834Z'
+  evaluated_at: '2026-06-14T08:51:31.801525Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8a840 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a118a70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8a840 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a118a70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.087266Z'
-indexed_at: '2026-06-07T10:04:54.087272Z'
+  fetched_at: '2026-06-14T10:18:26.468239Z'
+indexed_at: '2026-06-14T10:18:26.468244Z'
 ---

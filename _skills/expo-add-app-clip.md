@@ -23,24 +23,24 @@ prompt_preview: '---
   an Apple App Site Association (...'
 full_prompt_length: 8629
 tools_mentioned:
-- TypeScript
 - React
+- TypeScript
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/add-app-clip/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/add-app-clip/SKILL.md
-fetched_at: '2026-06-07T06:25:04.389111+00:00'
+fetched_at: '2026-06-14T06:39:44.845802+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T07:57:19.794736Z'
+  evaluated_at: '2026-06-14T08:10:57.869352Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8b110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0edeb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8b110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0edeb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:53.236967Z'
-indexed_at: '2026-06-07T10:04:53.236977Z'
+  fetched_at: '2026-06-14T10:18:25.808456Z'
+indexed_at: '2026-06-14T10:18:25.808461Z'
 ---

@@ -10,24 +10,24 @@ prompt_preview: "---\nname: integrate-gestalt\ndescription: >\n  Form a coherent
   \ the candidate whole for premature\n  closure, and articulates the insight in a\
   \ single sentence no single domain\n  could have produced. Use after expand-awareness\
   \ has surfaced raw multi-dom..."
-full_prompt_length: 12237
+full_prompt_length: 12241
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/integrate-gestalt/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/integrate-gestalt/SKILL.md
-fetched_at: '2026-06-07T06:27:37.635736+00:00'
+fetched_at: '2026-06-14T06:41:20.717677+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:11:02.095933Z'
+  evaluated_at: '2026-06-14T09:24:25.263293Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32c00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5a4e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32c00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5a4e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.779841Z'
-indexed_at: '2026-06-07T10:04:54.779847Z'
+  fetched_at: '2026-06-14T10:18:27.003957Z'
+indexed_at: '2026-06-14T10:18:27.003961Z'

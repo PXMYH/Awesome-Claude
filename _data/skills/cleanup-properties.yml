@@ -11,24 +11,24 @@ prompt_preview: "---\nname: cleanup-properties\ndescription: \"Archive or delete
   \ makes data mapping harder.\n\n## Prerequisites\n\n-..."
 full_prompt_length: 2836
 tools_mentioned:
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/cleanup-properties/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/cleanup-properties/SKILL.md
-fetched_at: '2026-06-07T06:23:18.864333+00:00'
+fetched_at: '2026-06-14T06:38:33.629843+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:56:52.740982Z'
+  evaluated_at: '2026-06-14T07:10:34.600765Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc89760 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c6e70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc89760 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c6e70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.962098Z'
-indexed_at: '2026-06-07T10:04:51.962103Z'
+  fetched_at: '2026-06-14T10:18:24.816700Z'
+indexed_at: '2026-06-14T10:18:24.816705Z'

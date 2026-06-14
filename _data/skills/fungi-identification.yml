@@ -1,15 +1,16 @@
 id: fungi-identification
 slug: fungi-identification
 name: Fungi Identification
-description: Claude skill for Fungi Identification
-prompt_preview: "---\r\nname: fungi-identification\r\ndescription: >\r\n  Field identification\
-  \ of fungi using morphological features, spore prints,\r\n  habitat analysis, and\
-  \ seasonal context with a safety-first approach. Covers\r\n  cap, gill, stem, and\
-  \ spore characteristics, look-alike differentiation,\r\n  toxicity risk assessment,\
-  \ and the critical rule of absolute certainty before\r\n  consumption. Use when\
-  \ encountering an unknown fungus, foraging for edible\r\n  mushrooms and needing\
-  \ to confirm species before consumption,..."
-full_prompt_length: 10519
+description: '- `mushroom-cultivation` — growing known species eliminates identification
+  risk entirely'
+prompt_preview: "---\nname: fungi-identification\ndescription: >\n  Field identification\
+  \ of fungi using morphological features, spore prints,\n  habitat analysis, and\
+  \ seasonal context with a safety-first approach. Covers\n  cap, gill, stem, and\
+  \ spore characteristics, look-alike differentiation,\n  toxicity risk assessment,\
+  \ and the critical rule of absolute certainty before\n  consumption. Use when encountering\
+  \ an unknown fungus, foraging for edible\n  mushrooms and needing to confirm species\
+  \ before consumption, assessin..."
+full_prompt_length: 10319
 tools_mentioned:
 - rust
 category: community
@@ -17,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/fungi-identification/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/fungi-identification/SKILL.md
-fetched_at: '2026-06-07T06:27:32.674963+00:00'
+fetched_at: '2026-06-14T06:41:17.281258+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:07:47.557211Z'
+  evaluated_at: '2026-06-14T09:21:10.501997Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11a6f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11a6f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.712039Z'
-indexed_at: '2026-06-07T10:04:54.712048Z'
+  fetched_at: '2026-06-14T10:18:26.951220Z'
+indexed_at: '2026-06-14T10:18:26.951225Z'

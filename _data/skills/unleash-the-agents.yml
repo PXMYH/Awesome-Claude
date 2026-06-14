@@ -10,7 +10,7 @@ prompt_preview: "---\nname: unleash-the-agents\ndescription: >\n  Launch all ava
   \ diverse perspectives are more valuable\n  than deep expertise. Produces a ranked\
   \ hypothesis set with convergence\n  analysis and adversarial refinement.\nlicense:\
   \ MIT\nallowed-tools: Read Write Edit B..."
-full_prompt_length: 16775
+full_prompt_length: 16767
 tools_mentioned:
 - REST
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/unleash-the-agents/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/unleash-the-agents/SKILL.md
-fetched_at: '2026-06-07T06:28:09.851818+00:00'
+fetched_at: '2026-06-14T06:41:42.973475+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:32:04.633171Z'
+  evaluated_at: '2026-06-14T09:45:24.616846Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0e0c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11b290 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0e0c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11b290 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.219014Z'
-indexed_at: '2026-06-07T10:04:55.219019Z'
+  fetched_at: '2026-06-14T10:18:27.348709Z'
+indexed_at: '2026-06-14T10:18:27.348713Z'

@@ -2,15 +2,16 @@
 id: implement-electronic-signatures
 slug: implement-electronic-signatures
 name: Implement Electronic Signatures
-description: Claude skill for Implement Electronic Signatures
-prompt_preview: "---\r\nname: implement-electronic-signatures\r\ndescription: >\r\n\
-  \  Implement electronic signatures compliant with 21 CFR Part 11 Subpart C\r\n \
-  \ and EU Annex 11. Covers signature manifestation (signer, date/time, meaning),\r\
-  \n  signature-to-record binding, biometric vs non-biometric controls, policy\r\n\
-  \  creation, and user certification requirements. Use when a computerized system\r\
-  \n  requires legally binding electronic signatures for GxP records, when replacing\r\
-  \n  wet-ink signatures in regulated workflows,..."
-full_prompt_length: 14643
+description: '- `design-compliance-architecture` — maps e-signature requirements across
+  systems'
+prompt_preview: "---\nname: implement-electronic-signatures\ndescription: >\n  Implement\
+  \ electronic signatures compliant with 21 CFR Part 11 Subpart C\n  and EU Annex\
+  \ 11. Covers signature manifestation (signer, date/time, meaning),\n  signature-to-record\
+  \ binding, biometric vs non-biometric controls, policy\n  creation, and user certification\
+  \ requirements. Use when a computerized system\n  requires legally binding electronic\
+  \ signatures for GxP records, when replacing\n  wet-ink signatures in regulated\
+  \ workflows, when imp..."
+full_prompt_length: 14377
 tools_mentioned:
 - go
 category: community
@@ -18,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/implement-electronic-signatures/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/implement-electronic-signatures/SKILL.md
-fetched_at: '2026-06-07T06:27:36.412866+00:00'
+fetched_at: '2026-06-14T06:41:19.900660+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:10:13.111226Z'
+  evaluated_at: '2026-06-14T09:23:36.633520Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8abd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a118d10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8abd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a118d10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.762637Z'
-indexed_at: '2026-06-07T10:04:54.762643Z'
+  fetched_at: '2026-06-14T10:18:26.990594Z'
+indexed_at: '2026-06-14T10:18:26.990598Z'
 ---

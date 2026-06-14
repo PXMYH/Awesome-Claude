@@ -1,15 +1,16 @@
 id: conduct-gxp-audit
 slug: conduct-gxp-audit
 name: Conduct GxP Audit
-description: Claude skill for Conduct GxP Audit
-prompt_preview: "---\r\nname: conduct-gxp-audit\r\ndescription: >\r\n  Conduct a GxP\
-  \ audit of computerized systems and processes. Covers audit\r\n  planning, opening\
-  \ meetings, evidence collection, finding classification\r\n  (critical/major/minor),\
-  \ CAPA generation, closing meetings, report writing,\r\n  and follow-up verification.\
-  \ Use for scheduled internal audits, supplier\r\n  qualification audits, pre-inspection\
-  \ readiness assessments, for-cause\r\n  audits triggered by deviations or data integrity\
-  \ concerns, or periodic\r\n  co..."
-full_prompt_length: 11503
+description: '- `perform-csv-assessment` — full CSV lifecycle assessment (URS through
+  validation summary)'
+prompt_preview: "---\nname: conduct-gxp-audit\ndescription: >\n  Conduct a GxP audit\
+  \ of computerized systems and processes. Covers audit\n  planning, opening meetings,\
+  \ evidence collection, finding classification\n  (critical/major/minor), CAPA generation,\
+  \ closing meetings, report writing,\n  and follow-up verification. Use for scheduled\
+  \ internal audits, supplier\n  qualification audits, pre-inspection readiness assessments,\
+  \ for-cause\n  audits triggered by deviations or data integrity concerns, or periodic\n\
+  \  compliance..."
+full_prompt_length: 11195
 tools_mentioned:
 - GCP
 category: community
@@ -17,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/conduct-gxp-audit/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/conduct-gxp-audit/SKILL.md
-fetched_at: '2026-06-07T06:27:12.581041+00:00'
+fetched_at: '2026-06-14T06:41:03.745539+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:54:55.459243Z'
+  evaluated_at: '2026-06-14T09:08:18.950405Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d940 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f59c10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d940 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f59c10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.442446Z'
-indexed_at: '2026-06-07T10:04:54.442451Z'
+  fetched_at: '2026-06-14T10:18:26.743664Z'
+indexed_at: '2026-06-14T10:18:26.743669Z'

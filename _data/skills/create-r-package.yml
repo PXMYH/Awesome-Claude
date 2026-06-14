@@ -1,32 +1,32 @@
 id: create-r-package
 slug: create-r-package
 name: Create R Package
-description: Claude skill for Create R Package
-prompt_preview: "---\r\nname: create-r-package\r\ndescription: >\r\n  Scaffold a new\
-  \ R package with complete structure including DESCRIPTION,\r\n  NAMESPACE, testthat,\
-  \ roxygen2, renv, Git, GitHub Actions CI, and\r\n  development configuration files\
-  \ (.Rprofile, .Renviron.example, CLAUDE.md).\r\n  Follows usethis conventions and\
-  \ tidyverse style. Use when starting a new R\r\n  package from scratch, converting\
-  \ loose R scripts into a structured package,\r\n  or setting up a package skeleton\
-  \ for collaborative development.\r\nlicense: M..."
-full_prompt_length: 6670
+description: '- `write-roxygen-docs` - document the functions you create'
+prompt_preview: "---\nname: create-r-package\ndescription: >\n  Scaffold a new R package\
+  \ with complete structure including DESCRIPTION,\n  NAMESPACE, testthat, roxygen2,\
+  \ renv, Git, GitHub Actions CI, and\n  development configuration files (.Rprofile,\
+  \ .Renviron.example, CLAUDE.md).\n  Follows usethis conventions and tidyverse style.\
+  \ Use when starting a new R\n  package from scratch, converting loose R scripts\
+  \ into a structured package,\n  or setting up a package skeleton for collaborative\
+  \ development.\nlicense: MIT\nallowe..."
+full_prompt_length: 6479
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-r-package/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-r-package/SKILL.md
-fetched_at: '2026-06-07T06:27:18.962893+00:00'
+fetched_at: '2026-06-14T06:41:07.854694+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:58:59.639984Z'
+  evaluated_at: '2026-06-14T09:12:23.461680Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff7d8b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0837a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff7d8b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0837a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.528091Z'
-indexed_at: '2026-06-07T10:04:54.528096Z'
+  fetched_at: '2026-06-14T10:18:26.809349Z'
+indexed_at: '2026-06-14T10:18:26.809354Z'

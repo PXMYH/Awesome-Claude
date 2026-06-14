@@ -2,32 +2,32 @@
 id: build-parameterized-report
 slug: build-parameterized-report
 name: Build Parameterized Report
-description: Claude skill for Build Parameterized Report
-prompt_preview: "---\r\nname: build-parameterized-report\r\ndescription: >\r\n  Create\
-  \ parameterized Quarto or R Markdown reports that can be rendered\r\n  with different\
-  \ inputs to generate multiple variations. Covers parameter\r\n  definitions, programmatic\
-  \ rendering, and batch generation. Use when\r\n  generating the same report for\
-  \ different departments, regions, or time\r\n  periods; creating client-specific\
-  \ reports from a single template;\r\n  building dashboards that filter to specific\
-  \ subsets; or automating\r\n  recurring..."
-full_prompt_length: 7078
+description: '- `create-quarto-report` - base Quarto document setup'
+prompt_preview: "---\nname: build-parameterized-report\ndescription: >\n  Create parameterized\
+  \ Quarto or R Markdown reports that can be rendered\n  with different inputs to\
+  \ generate multiple variations. Covers parameter\n  definitions, programmatic rendering,\
+  \ and batch generation. Use when\n  generating the same report for different departments,\
+  \ regions, or time\n  periods; creating client-specific reports from a single template;\n\
+  \  building dashboards that filter to specific subsets; or automating\n  recurring\
+  \ reports w..."
+full_prompt_length: 6867
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/build-parameterized-report/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/build-parameterized-report/SKILL.md
-fetched_at: '2026-06-07T06:27:08.717890+00:00'
+fetched_at: '2026-06-14T06:41:01.404151+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:52:37.749106Z'
+  evaluated_at: '2026-06-14T09:06:00.168376Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32f00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a1199a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32f00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a1199a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.394604Z'
-indexed_at: '2026-06-07T10:04:54.394609Z'
+  fetched_at: '2026-06-14T10:18:26.706483Z'
+indexed_at: '2026-06-14T10:18:26.706488Z'
 ---

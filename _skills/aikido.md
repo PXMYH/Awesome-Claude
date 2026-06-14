@@ -2,32 +2,33 @@
 id: aikido
 slug: aikido
 name: Practice Aikido
-description: Claude skill for Practice Aikido
-prompt_preview: "---\r\nname: aikido\r\ndescription: >\r\n  Practice aikido as a defensive\
-  \ martial art emphasizing harmony, redirection,\r\n  and controlled resolution.\
-  \ Covers centering and grounding, ukemi (safe\r\n  falling and rolling), core techniques\
-  \ (irimi-nage, shiho-nage, kote-gaeshi,\r\n  ikkyo), blending and tai sabaki (body\
-  \ movement), randori (multiple attacker\r\n  practice), weapons awareness, and applying\
-  \ principles off the mat. Use when\r\n  learning a defensive martial art that prioritizes\
-  \ de-escalation, develop..."
-full_prompt_length: 17539
+description: '- `tai-chi` — complementary internal martial art; shares the principle
+  of yielding to overcome force, with emphasis on solo cultivation'
+prompt_preview: "---\nname: aikido\ndescription: >\n  Practice aikido as a defensive\
+  \ martial art emphasizing harmony, redirection,\n  and controlled resolution. Covers\
+  \ centering and grounding, ukemi (safe\n  falling and rolling), core techniques\
+  \ (irimi-nage, shiho-nage, kote-gaeshi,\n  ikkyo), blending and tai sabaki (body\
+  \ movement), randori (multiple attacker\n  practice), weapons awareness, and applying\
+  \ principles off the mat. Use when\n  learning a defensive martial art that prioritizes\
+  \ de-escalation, developing\n  th..."
+full_prompt_length: 17304
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/aikido/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/aikido/SKILL.md
-fetched_at: '2026-06-07T06:27:00.735145+00:00'
+fetched_at: '2026-06-14T06:40:56.044455+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:47:29.806497Z'
+  evaluated_at: '2026-06-14T09:00:51.380020Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc18b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c46e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc18b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c46e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.286410Z'
-indexed_at: '2026-06-07T10:04:54.286419Z'
+  fetched_at: '2026-06-14T10:18:26.619811Z'
+indexed_at: '2026-06-14T10:18:26.619816Z'
 ---

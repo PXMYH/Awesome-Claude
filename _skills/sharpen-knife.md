@@ -2,15 +2,16 @@
 id: sharpen-knife
 slug: sharpen-knife
 name: Sharpen Knife
-description: Claude skill for Sharpen Knife
-prompt_preview: "---\r\nname: sharpen-knife\r\ndescription: >\r\n  Sharpen and maintain\
-  \ knives using whetstones, field stones, and improvised\r\n  abrasives. Covers blade\
-  \ anatomy, bevel assessment, whetstone technique\r\n  (coarse to fine progression),\
-  \ stropping, sharpness testing, field sharpening\r\n  methods, and ongoing edge\
-  \ maintenance. Use when a knife fails the fingernail\r\n  test, when cutting tasks\
-  \ require excessive pressure, before a trip where a\r\n  sharp blade is essential,\
-  \ after heavy use, or when a blade has vis..."
-full_prompt_length: 21070
+description: '- `make-fire` — a sharp knife is essential for processing tinder, kindling,
+  and feathersticks; fire-making and knife maintenance are companion skills'
+prompt_preview: "---\nname: sharpen-knife\ndescription: >\n  Sharpen and maintain\
+  \ knives using whetstones, field stones, and improvised\n  abrasives. Covers blade\
+  \ anatomy, bevel assessment, whetstone technique\n  (coarse to fine progression),\
+  \ stropping, sharpness testing, field sharpening\n  methods, and ongoing edge maintenance.\
+  \ Use when a knife fails the fingernail\n  test, when cutting tasks require excessive\
+  \ pressure, before a trip where a\n  sharp blade is essential, after heavy use,\
+  \ or when a blade has visible nic..."
+full_prompt_length: 20695
 tools_mentioned:
 - go
 category: community
@@ -18,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/sharpen-knife/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/sharpen-knife/SKILL.md
-fetched_at: '2026-06-07T06:28:04.074576+00:00'
+fetched_at: '2026-06-14T06:41:39.011398+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:28:17.332624Z'
+  evaluated_at: '2026-06-14T09:41:37.148302Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb52e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a71f5f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb52e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a71f5f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.140134Z'
-indexed_at: '2026-06-07T10:04:55.140140Z'
+  fetched_at: '2026-06-14T10:18:27.287202Z'
+indexed_at: '2026-06-14T10:18:27.287207Z'
 ---

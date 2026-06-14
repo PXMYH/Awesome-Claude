@@ -1,32 +1,32 @@
 id: validate-statistical-output
 slug: validate-statistical-output
 name: Validate Statistical Output
-description: Claude skill for Validate Statistical Output
-prompt_preview: "---\r\nname: validate-statistical-output\r\ndescription: >\r\n  Validate\
-  \ statistical analysis output through double programming,\r\n  independent verification,\
-  \ and reference comparison. Covers comparison\r\n  methodology, tolerance definitions,\
-  \ and deviation handling for regulated\r\n  environments. Use when validating primary\
-  \ or secondary endpoint analyses\r\n  for regulatory submissions, performing double\
-  \ programming (R vs SAS or\r\n  independent R implementations), verifying that analysis\
-  \ code produces\r\n  co..."
-full_prompt_length: 10959
+description: '- `setup-gxp-r-project` - project structure for validated work'
+prompt_preview: "---\nname: validate-statistical-output\ndescription: >\n  Validate\
+  \ statistical analysis output through double programming,\n  independent verification,\
+  \ and reference comparison. Covers comparison\n  methodology, tolerance definitions,\
+  \ and deviation handling for regulated\n  environments. Use when validating primary\
+  \ or secondary endpoint analyses\n  for regulatory submissions, performing double\
+  \ programming (R vs SAS or\n  independent R implementations), verifying that analysis\
+  \ code produces\n  correct res..."
+full_prompt_length: 10695
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/validate-statistical-output/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/validate-statistical-output/SKILL.md
-fetched_at: '2026-06-07T06:28:11.087656+00:00'
+fetched_at: '2026-06-14T06:41:43.810328+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:32:53.588624Z'
+  evaluated_at: '2026-06-14T09:46:13.164038Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c4a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3464b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c4a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3464b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.235971Z'
-indexed_at: '2026-06-07T10:04:55.235976Z'
+  fetched_at: '2026-06-14T10:18:27.361854Z'
+indexed_at: '2026-06-14T10:18:27.361858Z'

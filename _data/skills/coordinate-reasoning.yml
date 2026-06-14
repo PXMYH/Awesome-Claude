@@ -1,32 +1,33 @@
 id: coordinate-reasoning
 slug: coordinate-reasoning
 name: Coordinate Reasoning
-description: Claude skill for Coordinate Reasoning
-prompt_preview: "---\r\nname: coordinate-reasoning\r\ndescription: >\r\n  AI internal\
-  \ coordination using stigmergic signals — managing information\r\n  freshness in\
-  \ context and memory, decay rates for assumption staleness,\r\n  and emergent coherent\
-  \ behavior from simple local protocols. Use during\r\n  complex tasks where multiple\
-  \ sub-tasks must coordinate, when context has\r\n  grown long and information freshness\
-  \ is uncertain, after context compression\r\n  when information may have been lost,\
-  \ or when sub-task outputs need to..."
-full_prompt_length: 15192
+description: '- `coordinate-swarm` — the multi-agent coordination model that this
+  skill adapts to single-agent reasoning'
+prompt_preview: "---\nname: coordinate-reasoning\ndescription: >\n  AI internal coordination\
+  \ using stigmergic signals — managing information\n  freshness in context and memory,\
+  \ decay rates for assumption staleness,\n  and emergent coherent behavior from simple\
+  \ local protocols. Use during\n  complex tasks where multiple sub-tasks must coordinate,\
+  \ when context has\n  grown long and information freshness is uncertain, after context\
+  \ compression\n  when information may have been lost, or when sub-task outputs need\
+  \ to feed..."
+full_prompt_length: 14974
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/coordinate-reasoning/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/coordinate-reasoning/SKILL.md
-fetched_at: '2026-06-07T06:27:16.016716+00:00'
+fetched_at: '2026-06-14T06:41:05.925894+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:57:06.213702Z'
+  evaluated_at: '2026-06-14T09:10:29.426699Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d310 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187aa6a3f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d310 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187aa6a3f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.488155Z'
-indexed_at: '2026-06-07T10:04:54.488161Z'
+  fetched_at: '2026-06-14T10:18:26.778818Z'
+indexed_at: '2026-06-14T10:18:26.778823Z'

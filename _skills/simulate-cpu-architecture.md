@@ -2,15 +2,16 @@
 id: simulate-cpu-architecture
 slug: simulate-cpu-architecture
 name: Simulate CPU Architecture
-description: Claude skill for Simulate CPU Architecture
-prompt_preview: "---\r\nname: simulate-cpu-architecture\r\ndescription: >\r\n  Design\
-  \ and simulate a minimal CPU from scratch: define an instruction set\r\n  architecture\
-  \ (ISA), build the datapath (ALU, register file, program counter,\r\n  memory interface),\
-  \ design the control unit (hardwired or microprogrammed),\r\n  implement the fetch-decode-execute\
-  \ cycle, and verify by tracing a small\r\n  program clock cycle by clock cycle.\
-  \ The capstone \"computer inside a computer\"\r\n  exercise that composes combinational\
-  \ and sequential b..."
-full_prompt_length: 21838
+description: '- `design-logic-circuit` -- design the ALU, multiplexers, decoders,
+  and other combinational blocks'
+prompt_preview: "---\nname: simulate-cpu-architecture\ndescription: >\n  Design and\
+  \ simulate a minimal CPU from scratch: define an instruction set\n  architecture\
+  \ (ISA), build the datapath (ALU, register file, program counter,\n  memory interface),\
+  \ design the control unit (hardwired or microprogrammed),\n  implement the fetch-decode-execute\
+  \ cycle, and verify by tracing a small\n  program clock cycle by clock cycle. The\
+  \ capstone \"computer inside a computer\"\n  exercise that composes combinational\
+  \ and sequential building..."
+full_prompt_length: 21533
 tools_mentioned:
 - JavaScript
 - Python
@@ -19,17 +20,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/simulate-cpu-architecture/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/simulate-cpu-architecture/SKILL.md
-fetched_at: '2026-06-07T06:28:04.945344+00:00'
+fetched_at: '2026-06-14T06:41:39.560162+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:28:49.767124Z'
+  evaluated_at: '2026-06-14T09:42:09.965397Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb51c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f58da0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb51c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f58da0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.151257Z'
-indexed_at: '2026-06-07T10:04:55.151262Z'
+  fetched_at: '2026-06-14T10:18:27.295931Z'
+indexed_at: '2026-06-14T10:18:27.295935Z'
 ---

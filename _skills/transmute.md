@@ -2,38 +2,39 @@
 id: transmute
 slug: transmute
 name: Transmute
-description: Claude skill for Transmute
-prompt_preview: "---\r\nname: transmute\r\ndescription: >\r\n  Transform a single\
-  \ function, module, or data structure from one form to\r\n  another while preserving\
-  \ its essential behavior. Lighter-weight than the full\r\n  athanor cycle, suitable\
-  \ for targeted conversions where the input and output\r\n  forms are well-understood.\
-  \ Use when converting a function between languages,\r\n  shifting a module between\
-  \ paradigms, migrating an API consumer to a new\r\n  version, converting data formats,\
-  \ or replacing a dependency — when the..."
-full_prompt_length: 7961
+description: '- `athanor` — Full four-stage transformation for systems too large for
+  a single transmute'
+prompt_preview: "---\nname: transmute\ndescription: >\n  Transform a single function,\
+  \ module, or data structure from one form to\n  another while preserving its essential\
+  \ behavior. Lighter-weight than the full\n  athanor cycle, suitable for targeted\
+  \ conversions where the input and output\n  forms are well-understood. Use when\
+  \ converting a function between languages,\n  shifting a module between paradigms,\
+  \ migrating an API consumer to a new\n  version, converting data formats, or replacing\
+  \ a dependency — when the\n  trans..."
+full_prompt_length: 7817
 tools_mentioned:
-- Java
-- JavaScript
-- TypeScript
-- Python
 - GraphQL
+- Python
+- JavaScript
 - REST
+- Java
+- TypeScript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/transmute/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/transmute/SKILL.md
-fetched_at: '2026-06-07T06:28:09.063588+00:00'
+fetched_at: '2026-06-14T06:41:42.440859+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:31:32.012433Z'
+  evaluated_at: '2026-06-14T09:44:52.116756Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc89a60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f59190 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc89a60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f59190 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.207762Z'
-indexed_at: '2026-06-07T10:04:55.207768Z'
+  fetched_at: '2026-06-14T10:18:27.339877Z'
+indexed_at: '2026-06-14T10:18:27.339881Z'
 ---

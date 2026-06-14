@@ -11,24 +11,24 @@ prompt_preview: "---\nname: monitor-binary-version-baselines\ndescription: >\n  
   \ and per-version baseline records. Use when\n  tracking a feature's lifecycle across\
   \ releases, when probing for\n  dark-launched or removed capabilities, or when verifying\
   \ that a scanning\n  tool it..."
-full_prompt_length: 14204
+full_prompt_length: 14220
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/monitor-binary-version-baselines/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/monitor-binary-version-baselines/SKILL.md
-fetched_at: '2026-06-07T06:27:44.531796+00:00'
+fetched_at: '2026-06-14T06:41:25.354432+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:15:30.903592Z'
+  evaluated_at: '2026-06-14T09:28:53.621926Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5adb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5adb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.872825Z'
-indexed_at: '2026-06-07T10:04:54.872831Z'
+  fetched_at: '2026-06-14T10:18:27.076281Z'
+indexed_at: '2026-06-14T10:18:27.076286Z'
 ---

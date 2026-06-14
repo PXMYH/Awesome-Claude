@@ -2,34 +2,31 @@ id: utility-pm-skill-auditor
 slug: utility-pm-skill-auditor
 name: PM Skill Auditor (Dispatch Skill)
 description: '- Canonical sub-agent definition: [`agents/pm-skill-auditor.md`](../../agents/pm-skill-auditor.md)'
-prompt_preview: '---
-
-  name: utility-pm-skill-auditor
-
-  description: Run a repo-wide cross-cutting governance audit via the pm-skill-auditor
-  sub-agent. Dispatches natively on Claude Code with the pm-skills plugin (invokes
-  @agent-pm-skills:pm-skill-auditor); on non-Claude clients (Codex CLI, Cursor, Windsurf,
-  Copilot, Gemini CLI) reads agents/pm-skill-auditor.md and executes the system prompt
-  inline. Returns a layered audit report (full findings + Status Summary prose + Status
-  YAML envelope per master plan D26) with...'
-full_prompt_length: 4896
+prompt_preview: "---\nname: utility-pm-skill-auditor\ndescription: Run a repo-wide\
+  \ cross-cutting governance audit via the pm-skill-auditor sub-agent. Aggregates\
+  \ the enforcing validator suite, re-derives aggregate counters, and surfaces cross-cutting\
+  \ issues no single validator catches, graded P0/P1/P2/P3 with a machine-readable\
+  \ status. Use for pre-release readiness checks or a periodic repo health audit.\n\
+  license: Apache-2.0\nmetadata:\n  classification: utility\n  version: \"1.0.1\"\n\
+  \  updated: 2026-06-10\n  category: gov..."
+full_prompt_length: 4684
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/utility-pm-skill-auditor/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/utility-pm-skill-auditor/SKILL.md
-fetched_at: '2026-06-07T06:28:27.493850+00:00'
+fetched_at: '2026-06-14T06:41:55.272543+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:42:49.495058Z'
+  evaluated_at: '2026-06-14T09:56:05.002523Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65f40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ef0e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65f40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ef0e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.444388Z'
-indexed_at: '2026-06-07T10:04:55.444394Z'
+  fetched_at: '2026-06-14T10:18:27.523410Z'
+indexed_at: '2026-06-14T10:18:27.523414Z'

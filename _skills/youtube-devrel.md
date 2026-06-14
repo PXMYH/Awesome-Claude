@@ -13,29 +13,29 @@ prompt_preview: "---\nname: youtube-devrel\ndescription: When the user wants to 
 full_prompt_length: 11858
 tools_mentioned:
 - go
-- AWS
-- JavaScript
-- React
-- Rust
-- Node.js
-- REST
 - Docker
+- Rust
+- JavaScript
+- REST
+- AWS
+- Node.js
+- React
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/youtube-devrel/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/youtube-devrel/SKILL.md
-fetched_at: '2026-06-07T06:26:46.248673+00:00'
+fetched_at: '2026-06-14T06:40:44.373058+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:43:00.031741Z'
+  evaluated_at: '2026-06-14T08:56:24.162597Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc335f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0eed20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc335f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0eed20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.192511Z'
-indexed_at: '2026-06-07T10:04:54.192517Z'
+  fetched_at: '2026-06-14T10:18:26.548735Z'
+indexed_at: '2026-06-14T10:18:26.548739Z'
 ---

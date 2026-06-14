@@ -2,32 +2,33 @@
 id: create-work-breakdown-structure
 slug: create-work-breakdown-structure
 name: Create a Work Breakdown Structure
-description: Claude skill for Create a Work Breakdown Structure
-prompt_preview: "---\r\nname: create-work-breakdown-structure\r\ndescription: >\r\n\
-  \  Create a Work Breakdown Structure (WBS) and WBS Dictionary from project\r\n \
-  \ charter deliverables. Covers hierarchical decomposition, WBS coding,\r\n  effort\
-  \ estimation, dependency identification, and critical path candidates.\r\n  Use\
-  \ after a project charter is approved, when planning a classic or waterfall\r\n\
-  \  project with defined deliverables, breaking a large initiative into manageable\r\
-  \n  work packages, or establishing a basis for effort..."
-full_prompt_length: 7529
+description: '- `draft-project-charter` — provides the scope and deliverables that
+  feed WBS decomposition'
+prompt_preview: "---\nname: create-work-breakdown-structure\ndescription: >\n  Create\
+  \ a Work Breakdown Structure (WBS) and WBS Dictionary from project\n  charter deliverables.\
+  \ Covers hierarchical decomposition, WBS coding,\n  effort estimation, dependency\
+  \ identification, and critical path candidates.\n  Use after a project charter is\
+  \ approved, when planning a classic or waterfall\n  project with defined deliverables,\
+  \ breaking a large initiative into manageable\n  work packages, or establishing\
+  \ a basis for effort estimat..."
+full_prompt_length: 7353
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-work-breakdown-structure/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-work-breakdown-structure/SKILL.md
-fetched_at: '2026-06-07T06:27:19.780280+00:00'
+fetched_at: '2026-06-14T06:41:08.402849+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:59:32.191778Z'
+  evaluated_at: '2026-06-14T09:12:55.863517Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb53d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5b8f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb53d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5b8f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.539408Z'
-indexed_at: '2026-06-07T10:04:54.539414Z'
+  fetched_at: '2026-06-14T10:18:26.817996Z'
+indexed_at: '2026-06-14T10:18:26.818001Z'
 ---

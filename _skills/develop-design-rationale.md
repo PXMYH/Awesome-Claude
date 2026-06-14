@@ -7,27 +7,27 @@ prompt_preview: "---\nname: develop-design-rationale\ndescription: Documents the
   \ behind design decisions including alternatives considered, trade-offs evaluated,\
   \ and principles applied. Use when making significant UX decisions, aligning with\
   \ stakeholders on design direction, or preserving design context for future reference.\n\
-  license: Apache-2.0\nmetadata:\n  phase: develop\n  version: \"2.0.0\"\n  updated:\
-  \ 2026-01-26\n  category: specification\n  frameworks: [triple-diamond, lean-startup,\
+  license: Apache-2.0\nmetadata:\n  phase: develop\n  version: \"2.1.0\"\n  updated:\
+  \ 2026-06-10\n  category: specification\n  frameworks: [triple-diamond, lean-startup,\
   \ design-thinking]\n  auth..."
-full_prompt_length: 3375
+full_prompt_length: 4108
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/develop-design-rationale/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/develop-design-rationale/SKILL.md
-fetched_at: '2026-06-07T06:28:18.204581+00:00'
+fetched_at: '2026-06-14T06:41:49.109010+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:36:35.539920Z'
+  evaluated_at: '2026-06-14T09:49:51.556933Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc661b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ef020 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc661b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ef020 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.312065Z'
-indexed_at: '2026-06-07T10:04:55.312070Z'
+  fetched_at: '2026-06-14T10:18:27.420545Z'
+indexed_at: '2026-06-14T10:18:27.420550Z'
 ---

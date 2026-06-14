@@ -14,25 +14,25 @@ prompt_preview: "---\nname: build-grafana-dashboards\ndescription: >\n  Create p
 full_prompt_length: 15686
 tools_mentioned:
 - Docker
-- kubernetes
-- python
 - docker
+- python
+- kubernetes
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/build-grafana-dashboards/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/build-grafana-dashboards/SKILL.md
-fetched_at: '2026-06-07T06:27:08.400845+00:00'
+fetched_at: '2026-06-14T06:41:01.274318+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:52:29.672409Z'
+  evaluated_at: '2026-06-14T09:05:52.066057Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc1d30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ede50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc1d30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ede50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.391699Z'
-indexed_at: '2026-06-07T10:04:54.391705Z'
+  fetched_at: '2026-06-14T10:18:26.704273Z'
+indexed_at: '2026-06-14T10:18:26.704278Z'
 ---

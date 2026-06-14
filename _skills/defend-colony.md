@@ -2,15 +2,16 @@
 id: defend-colony
 slug: defend-colony
 name: Defend Colony
-description: Claude skill for Defend Colony
-prompt_preview: "---\r\nname: defend-colony\r\ndescription: >\r\n  Implement layered\
-  \ collective defense using alarm signaling, role mobilization,\r\n  and proportional\
-  \ response. Covers threat detection, alert propagation, immune\r\n  response patterns,\
-  \ escalation tiers, and post-incident recovery for distributed\r\n  systems and\
-  \ organizations. Use when designing defense-in-depth where no single\r\n  guardian\
-  \ covers all threats, building incident response that scales with severity,\r\n\
-  \  or when current defense is over-reactive t..."
-full_prompt_length: 13932
+description: '- `coordinate-swarm` — foundational coordination patterns that support
+  alarm signaling and mobilization'
+prompt_preview: "---\nname: defend-colony\ndescription: >\n  Implement layered collective\
+  \ defense using alarm signaling, role mobilization,\n  and proportional response.\
+  \ Covers threat detection, alert propagation, immune\n  response patterns, escalation\
+  \ tiers, and post-incident recovery for distributed\n  systems and organizations.\
+  \ Use when designing defense-in-depth where no single\n  guardian covers all threats,\
+  \ building incident response that scales with severity,\n  or when current defense\
+  \ is over-reactive to every..."
+full_prompt_length: 13719
 tools_mentioned:
 - go
 category: community
@@ -18,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/defend-colony/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/defend-colony/SKILL.md
-fetched_at: '2026-06-07T06:27:21.237342+00:00'
+fetched_at: '2026-06-14T06:41:09.413741+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:00:28.973719Z'
+  evaluated_at: '2026-06-14T09:13:52.820626Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d9d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3fda60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d9d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3fda60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.559187Z'
-indexed_at: '2026-06-07T10:04:54.559193Z'
+  fetched_at: '2026-06-14T10:18:26.833334Z'
+indexed_at: '2026-06-14T10:18:26.833343Z'
 ---

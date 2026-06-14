@@ -2,32 +2,32 @@
 id: create-quarto-report
 slug: create-quarto-report
 name: Create Quarto Report
-description: Claude skill for Create Quarto Report
-prompt_preview: "---\r\nname: create-quarto-report\r\ndescription: >\r\n  Create a\
-  \ Quarto document for reproducible reports, presentations, or\r\n  websites. Covers\
-  \ YAML configuration, code chunk options, output\r\n  formats, cross-references,\
-  \ and rendering. Use when creating a\r\n  reproducible analysis report, building\
-  \ a presentation with embedded\r\n  code, generating HTML, PDF, or Word documents\
-  \ from code, or migrating\r\n  an existing R Markdown document to Quarto.\r\nlicense:\
-  \ MIT\r\nallowed-tools: Read Write Edit Bash Grep Gl..."
-full_prompt_length: 7040
+description: '- `format-apa-report` - APA-formatted academic reports'
+prompt_preview: "---\nname: create-quarto-report\ndescription: >\n  Create a Quarto\
+  \ document for reproducible reports, presentations, or\n  websites. Covers YAML\
+  \ configuration, code chunk options, output\n  formats, cross-references, and rendering.\
+  \ Use when creating a\n  reproducible analysis report, building a presentation with\
+  \ embedded\n  code, generating HTML, PDF, or Word documents from code, or migrating\n\
+  \  an existing R Markdown document to Quarto.\nlicense: MIT\nallowed-tools: Read\
+  \ Write Edit Bash Grep Glob\nmetadat..."
+full_prompt_length: 6819
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-quarto-report/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-quarto-report/SKILL.md
-fetched_at: '2026-06-07T06:27:18.557605+00:00'
+fetched_at: '2026-06-14T06:41:07.581077+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:58:43.481282Z'
+  evaluated_at: '2026-06-14T09:12:07.290482Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0ce30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3fd1f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0ce30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3fd1f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.522462Z'
-indexed_at: '2026-06-07T10:04:54.522468Z'
+  fetched_at: '2026-06-14T10:18:26.805073Z'
+indexed_at: '2026-06-14T10:18:26.805078Z'
 ---

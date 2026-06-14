@@ -1,35 +1,34 @@
 ---
 id: ecom
 slug: ecom
-name: ecom -- Ecommerce Business Review Toolkit
-description: 'Modules: `loader`, `metrics`, `decomposition`, `cohort`, `product`,'
-prompt_preview: "---\nname: ecom\nversion: 0.1.0\ndescription: >\n  Claude-powered\
-  \ ecommerce business review toolkit for D2C stores.\n  Single command: review. Analyzes\
-  \ order transaction data across multiple\n  time periods (30d/90d/365d), produces\
-  \ KPI trees with health signals,\n  structured findings, and concrete action plans.\n\
-  \  Triggers on: \"ecommerce review\", \"store review\", \"store health\",\n  \"\
-  revenue analysis\", \"customer analysis\", \"product analysis\",\n  \"business review\"\
-  .\nargument-hint: \"review [30d|90d|365d]\"\nall..."
-full_prompt_length: 20266
+name: ecom — Ecommerce Business Review Toolkit
+description: '- Never present numbers without interpretation — always explain why'
+prompt_preview: "---\nname: ecom\ndescription: >\n  Ecommerce business review for\
+  \ D2C stores from order transaction CSVs.\n  Runs the bundled Python engine (KPI\
+  \ trees, ~30 pass/watch/fail health\n  checks, 30d/90d/365d windows), then interprets\
+  \ the results: either a\n  full narrative business review written to REVIEW.md,\
+  \ or an inline\n  answer to a focused question.\nwhen_to_use: >\n  Use for \"ecommerce\
+  \ review\", \"store review\", \"store health\", \"business\n  review\", revenue/customer/product\
+  \ analysis of an online store, or..."
+full_prompt_length: 7850
 tools_mentioned:
-- go
 - Python
 category: community
 category_display: Community
 source_repo: takechanman1228/claude-ecom
 source_path: skills/ecom/SKILL.md
 source_url: https://github.com/takechanman1228/claude-ecom/blob/main/skills/ecom/SKILL.md
-fetched_at: '2026-06-07T06:28:46.160469+00:00'
+fetched_at: '2026-06-14T06:42:09.340595+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:50:15.683370Z'
+  evaluated_at: '2026-06-14T10:03:38.641828Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11b320 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11b320 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.598629Z'
-indexed_at: '2026-06-07T10:04:55.598634Z'
+  fetched_at: '2026-06-14T10:18:27.646298Z'
+indexed_at: '2026-06-14T10:18:27.646303Z'
 ---

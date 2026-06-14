@@ -1,32 +1,33 @@
 id: assess-ip-landscape
 slug: assess-ip-landscape
 name: Assess IP Landscape
-description: Claude skill for Assess IP Landscape
-prompt_preview: "---\r\nname: assess-ip-landscape\r\ndescription: >\r\n  Map the intellectual\
-  \ property landscape for a technology domain or product\r\n  area. Covers patent\
-  \ cluster analysis, white space identification, competitor\r\n  IP portfolio assessment,\
-  \ freedom-to-operate preliminary screening, and\r\n  strategic IP positioning recommendations.\
-  \ Use before starting R&D in a new\r\n  technology area, when evaluating market\
-  \ entry against incumbents with strong\r\n  patent portfolios, preparing for investment\
-  \ due diligence, i..."
-full_prompt_length: 11965
+description: '- `search-prior-art` — Detailed prior art search for specific inventions
+  or patent validity challenges'
+prompt_preview: "---\nname: assess-ip-landscape\ndescription: >\n  Map the intellectual\
+  \ property landscape for a technology domain or product\n  area. Covers patent cluster\
+  \ analysis, white space identification, competitor\n  IP portfolio assessment, freedom-to-operate\
+  \ preliminary screening, and\n  strategic IP positioning recommendations. Use before\
+  \ starting R&D in a new\n  technology area, when evaluating market entry against\
+  \ incumbents with strong\n  patent portfolios, preparing for investment due diligence,\
+  \ informing..."
+full_prompt_length: 11761
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/assess-ip-landscape/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/assess-ip-landscape/SKILL.md
-fetched_at: '2026-06-07T06:27:04.451311+00:00'
+fetched_at: '2026-06-14T06:40:58.657593+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:49:56.006700Z'
+  evaluated_at: '2026-06-14T09:03:17.733957Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ed2b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ed2b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.337547Z'
-indexed_at: '2026-06-07T10:04:54.337552Z'
+  fetched_at: '2026-06-14T10:18:26.659398Z'
+indexed_at: '2026-06-14T10:18:26.659403Z'

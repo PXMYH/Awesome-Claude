@@ -1,32 +1,33 @@
 id: survey-insect-population
 slug: survey-insect-population
 name: Survey Insect Population
-description: Claude skill for Survey Insect Population
-prompt_preview: "---\r\nname: survey-insect-population\r\ndescription: >\r\n  Design\
-  \ and execute insect population surveys covering survey design, sampling\r\n  methods,\
-  \ field execution, specimen identification, diversity index calculation\r\n  including\
-  \ Shannon-Wiener and Simpson indices, statistical analysis, and\r\n  reporting.\
-  \ Covers defining survey objectives, selecting study sites, determining\r\n  sampling\
-  \ intensity and replication, choosing sampling methods appropriate to\r\n  target\
-  \ taxa, standardizing collection effor..."
-full_prompt_length: 25071
+description: '- `collect-preserve-specimens` — collection methods, preservation, and
+  labeling standards for the specimens gathered during surveys'
+prompt_preview: "---\nname: survey-insect-population\ndescription: >\n  Design and\
+  \ execute insect population surveys covering survey design, sampling\n  methods,\
+  \ field execution, specimen identification, diversity index calculation\n  including\
+  \ Shannon-Wiener and Simpson indices, statistical analysis, and\n  reporting. Covers\
+  \ defining survey objectives, selecting study sites, determining\n  sampling intensity\
+  \ and replication, choosing sampling methods appropriate to\n  target taxa, standardizing\
+  \ collection effort, recor..."
+full_prompt_length: 24640
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/survey-insect-population/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/survey-insect-population/SKILL.md
-fetched_at: '2026-06-07T06:28:06.375393+00:00'
+fetched_at: '2026-06-14T06:41:40.506273+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:29:46.354397Z'
+  evaluated_at: '2026-06-14T09:43:06.895257Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0ecf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5bfe0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0ecf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5bfe0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.170928Z'
-indexed_at: '2026-06-07T10:04:55.170934Z'
+  fetched_at: '2026-06-14T10:18:27.311389Z'
+indexed_at: '2026-06-14T10:18:27.311394Z'

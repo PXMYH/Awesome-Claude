@@ -4,14 +4,22 @@ name: Scholar Evaluation
 description: '**Abstract:** ScholarEval is a retrieval augmented evaluation framework
   that assesses research ideas based on two fundamental criteria: soundness (the empirical
   validity of proposed methods based on e...'
-prompt_preview: "---\nname: scholar-evaluation\ndescription: Systematically evaluate\
-  \ scholarly work using the ScholarEval framework, providing structured assessment\
-  \ across research quality dimensions including problem formulation, methodology,\
-  \ analysis, and writing with quantitative scoring and actionable feedback.\nlicense:\
-  \ MIT license\nmetadata:\n  version: \"1.0\"\n  skill-author: K-Dense Inc.\n---\n\
-  \n# Scholar Evaluation\n\n## Overview\n\nApply the ScholarEval framework to systematically\
-  \ evaluate scholarly and research wor..."
-full_prompt_length: 12273
+prompt_preview: '---
+
+  name: scholar-evaluation
+
+  description: Systematically evaluate scholarly work using the ScholarEval framework,
+  providing structured assessment across research quality dimensions including problem
+  formulation, methodology, analysis, and writing with quantitative scoring and actionable
+  feedback.
+
+  license: MIT license
+
+  required_environment_variables: [{"name": "OPENROUTER_API_KEY", "prompt": "OpenRouter
+  API key for the skill''s LLM-powered steps.", "required_for": "optional features"}]
+
+  metadata: {"...'
+full_prompt_length: 12633
 tools_mentioned:
 - python
 - Python
@@ -20,17 +28,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/scholar-evaluation/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/scholar-evaluation/SKILL.md
-fetched_at: '2026-06-07T06:23:04.730440+00:00'
+fetched_at: '2026-06-14T06:38:23.318077+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:49:32.711871Z'
+  evaluated_at: '2026-06-14T07:03:05.602492Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffefe450 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ec7a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffefe450 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ec7a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +48,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.803722Z'
-indexed_at: '2026-06-07T10:04:51.803728Z'
+  fetched_at: '2026-06-14T10:18:24.695537Z'
+indexed_at: '2026-06-14T10:18:24.695541Z'

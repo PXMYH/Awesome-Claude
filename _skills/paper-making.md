@@ -2,32 +2,33 @@
 id: paper-making
 slug: paper-making
 name: Paper Making
-description: Claude skill for Paper Making
-prompt_preview: "---\r\nname: paper-making\r\ndescription: >\r\n  Handcraft paper\
-  \ from plant fibres — fibre harvesting, pulping, sheet\r\n  forming with a mould\
-  \ and deckle, pressing, and drying. Covers fibre\r\n  sources (cotton, kozo, abaca,\
-  \ recycled paper), beating methods, sizing,\r\n  and decorative techniques. Use\
-  \ when making handmade paper for art,\r\n  stationery, or bookbinding, when creating\
-  \ unique textured or embedded paper\r\n  for special projects, or when learning\
-  \ traditional paper making as a craft\r\n  practice.\r\nl..."
-full_prompt_length: 9369
+description: '- `forage-plants` — fibre plants can be foraged in the wild; understanding
+  plant anatomy helps identify suitable fibre sources'
+prompt_preview: "---\nname: paper-making\ndescription: >\n  Handcraft paper from plant\
+  \ fibres — fibre harvesting, pulping, sheet\n  forming with a mould and deckle,\
+  \ pressing, and drying. Covers fibre\n  sources (cotton, kozo, abaca, recycled paper),\
+  \ beating methods, sizing,\n  and decorative techniques. Use when making handmade\
+  \ paper for art,\n  stationery, or bookbinding, when creating unique textured or\
+  \ embedded paper\n  for special projects, or when learning traditional paper making\
+  \ as a craft\n  practice.\nlicense: MI..."
+full_prompt_length: 9169
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/paper-making/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/paper-making/SKILL.md
-fetched_at: '2026-06-07T06:27:47.695886+00:00'
+fetched_at: '2026-06-14T06:41:27.563210+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:17:32.364901Z'
+  evaluated_at: '2026-06-14T09:30:55.935341Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0f260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0821b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0f260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0821b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.915687Z'
-indexed_at: '2026-06-07T10:04:54.915693Z'
+  fetched_at: '2026-06-14T10:18:27.109819Z'
+indexed_at: '2026-06-14T10:18:27.109823Z'
 ---

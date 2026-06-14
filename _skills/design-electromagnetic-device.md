@@ -2,32 +2,33 @@
 id: design-electromagnetic-device
 slug: design-electromagnetic-device
 name: Design Electromagnetic Device
-description: Claude skill for Design Electromagnetic Device
-prompt_preview: "---\r\nname: design-electromagnetic-device\r\ndescription: >\r\n\
-  \  Design practical electromagnetic devices including electromagnets, DC and\r\n\
-  \  brushless motors, generators, and transformers by bridging theory to\r\n  application.\
-  \ Use when sizing a solenoid or toroidal electromagnet for a\r\n  target field or\
-  \ force, selecting motor topology and computing torque and\r\n  efficiency, designing\
-  \ a transformer for a given voltage ratio and power\r\n  rating, or analyzing losses\
-  \ from copper resistance, core hysteres..."
-full_prompt_length: 19502
+description: '- `analyze-magnetic-field` -- compute the B-field from the designed
+  current distribution for detailed field analysis'
+prompt_preview: "---\nname: design-electromagnetic-device\ndescription: >\n  Design\
+  \ practical electromagnetic devices including electromagnets, DC and\n  brushless\
+  \ motors, generators, and transformers by bridging theory to\n  application. Use\
+  \ when sizing a solenoid or toroidal electromagnet for a\n  target field or force,\
+  \ selecting motor topology and computing torque and\n  efficiency, designing a transformer\
+  \ for a given voltage ratio and power\n  rating, or analyzing losses from copper\
+  \ resistance, core hysteresis, and..."
+full_prompt_length: 19209
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/design-electromagnetic-device/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/design-electromagnetic-device/SKILL.md
-fetched_at: '2026-06-07T06:27:24.150276+00:00'
+fetched_at: '2026-06-14T06:41:11.372118+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:02:22.892690Z'
+  evaluated_at: '2026-06-14T09:15:46.100253Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc335f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11b5f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc335f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11b5f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.598868Z'
-indexed_at: '2026-06-07T10:04:54.598877Z'
+  fetched_at: '2026-06-14T10:18:26.863919Z'
+indexed_at: '2026-06-14T10:18:26.863924Z'
 ---

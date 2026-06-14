@@ -3,17 +3,14 @@ id: utility-pm-workflow-orchestrator
 slug: utility-pm-workflow-orchestrator
 name: PM Workflow Orchestrator (Dispatch Skill)
 description: '- Canonical sub-agent definition: [`agents/pm-workflow-orchestrator.md`](../../agents/pm-workflow-orchestrator.md)'
-prompt_preview: '---
-
-  name: utility-pm-workflow-orchestrator
-
-  description: Run an ordered sequence of pm-skills against one input via the pm-workflow-orchestrator
-  sub-agent, pausing for go/no-go and stopping on a failed or empty step. Dispatches
-  natively on Claude Code with the pm-skills plugin (invokes @agent-pm-skills:pm-workflow-orchestrator,
-  which delegates each step through the Skill tool); on non-Claude clients (Codex
-  CLI, Cursor, Windsurf, Copilot, Gemini CLI) reads agents/pm-workflow-orchestrator.md
-  and wa...'
-full_prompt_length: 9464
+prompt_preview: "---\nname: utility-pm-workflow-orchestrator\ndescription: Run an\
+  \ ordered sequence of pm-skills against one input, pausing for go/no-go and stopping\
+  \ on a failed or empty step. Accepts a saved prioritized action plan (Mode A) or\
+  \ an ad-hoc named chain (Mode B; the chain command routes here). Explicit invocation\
+  \ only; run --dry-run first while the native path is EXPERIMENTAL. To author a durable\
+  \ workflow instead, use utility-pm-workflow-builder.\nlicense: Apache-2.0\nmetadata:\n\
+  \  classification: utility..."
+full_prompt_length: 9660
 tools_mentioned:
 - go
 category: community
@@ -21,17 +18,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/utility-pm-workflow-orchestrator/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/utility-pm-workflow-orchestrator/SKILL.md
-fetched_at: '2026-06-07T06:28:28.200829+00:00'
+fetched_at: '2026-06-14T06:41:55.850320+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:43:22.272128Z'
+  evaluated_at: '2026-06-14T09:56:45.496467Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67bf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0eede0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67bf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0eede0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.455690Z'
-indexed_at: '2026-06-07T10:04:55.455695Z'
+  fetched_at: '2026-06-14T10:18:27.534385Z'
+indexed_at: '2026-06-14T10:18:27.534390Z'
 ---

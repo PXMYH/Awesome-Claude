@@ -15,26 +15,26 @@ prompt_preview: '---
   staging, ICD coding, EEG events), instantiating models (Transformer, RETAIN, GAMENet,
   SafeDrug, MICRON, StageNet, AdaCare, CNN/RNN/MLP), training with the PyHealth Trainer,
   computing clinical metrics, and using medical code...'
-full_prompt_length: 7329
+full_prompt_length: 7334
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pyhealth/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pyhealth/SKILL.md
-fetched_at: '2026-06-07T06:23:01.459396+00:00'
+fetched_at: '2026-06-14T06:38:20.959278+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:47:13.668211Z'
+  evaluated_at: '2026-06-14T07:00:48.081994Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc880e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ed430 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc880e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ed430 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.754011Z'
-indexed_at: '2026-06-07T10:04:51.754017Z'
+  fetched_at: '2026-06-14T10:18:24.658140Z'
+indexed_at: '2026-06-14T10:18:24.658145Z'
 ---

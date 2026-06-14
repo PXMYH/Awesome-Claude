@@ -2,32 +2,32 @@
 id: validate-analytical-method
 slug: validate-analytical-method
 name: Validate an Analytical Method
-description: Claude skill for Validate an Analytical Method
-prompt_preview: "---\r\nname: validate-analytical-method\r\ndescription: >\r\n  Validate\
-  \ a chromatographic analytical method per ICH Q2(R2) guidelines:\r\n  define the\
-  \ validation scope by method category, establish specificity through\r\n  forced\
-  \ degradation, determine linearity and range, assess accuracy and precision,\r\n\
-  \  and establish detection limits and robustness for regulatory submission.\r\n\
-  license: MIT\r\nallowed-tools: Read Grep Glob WebFetch WebSearch\r\nmetadata:\r\n\
-  \  author: Philipp Thoss\r\n  version: \"1.0\"\r\n  domain:..."
-full_prompt_length: 16179
+description: '- `develop-gc-method` -- GC method development that precedes validation'
+prompt_preview: "---\nname: validate-analytical-method\ndescription: >\n  Validate\
+  \ a chromatographic analytical method per ICH Q2(R2) guidelines:\n  define the validation\
+  \ scope by method category, establish specificity through\n  forced degradation,\
+  \ determine linearity and range, assess accuracy and precision,\n  and establish\
+  \ detection limits and robustness for regulatory submission.\nlicense: MIT\nallowed-tools:\
+  \ Read Grep Glob WebFetch WebSearch\nmetadata:\n  author: Philipp Thoss\n  version:\
+  \ \"1.0\"\n  domain: chromatograp..."
+full_prompt_length: 15936
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/validate-analytical-method/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/validate-analytical-method/SKILL.md
-fetched_at: '2026-06-07T06:28:10.481607+00:00'
+fetched_at: '2026-06-14T06:41:43.388400+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:32:28.889110Z'
+  evaluated_at: '2026-06-14T09:45:48.892577Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32d80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11bb60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32d80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11bb60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.227564Z'
-indexed_at: '2026-06-07T10:04:55.227569Z'
+  fetched_at: '2026-06-14T10:18:27.355361Z'
+indexed_at: '2026-06-14T10:18:27.355365Z'
 ---

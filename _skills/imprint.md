@@ -17,27 +17,27 @@ prompt_preview: '---
 full_prompt_length: 15156
 tools_mentioned:
 - go
-- React
 - Vue
-- rest
-- vue
 - react
+- vue
+- rest
+- React
 category: community
 category_display: Community
 source_repo: ilang-ai/Imprint
 source_path: skills/imprint/SKILL.md
 source_url: https://github.com/ilang-ai/Imprint/blob/main/skills/imprint/SKILL.md
-fetched_at: '2026-06-07T06:26:15.238469+00:00'
+fetched_at: '2026-06-14T06:40:22.214597+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:31:28.838250Z'
+  evaluated_at: '2026-06-14T08:44:54.379950Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2840 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c5070 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2840 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c5070 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:53.947254Z'
-indexed_at: '2026-06-07T10:04:53.947259Z'
+  fetched_at: '2026-06-14T10:18:26.360630Z'
+indexed_at: '2026-06-14T10:18:26.360634Z'
 ---

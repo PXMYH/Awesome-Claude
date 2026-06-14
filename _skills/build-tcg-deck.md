@@ -2,32 +2,33 @@
 id: build-tcg-deck
 slug: build-tcg-deck
 name: Build TCG Deck
-description: Claude skill for Build TCG Deck
-prompt_preview: "---\r\nname: build-tcg-deck\r\ndescription: >\r\n  Build a competitive\
-  \ or casual trading card game deck. Covers archetype\r\n  selection, mana/energy\
-  \ curve analysis, win condition identification,\r\n  meta-game positioning, and\
-  \ sideboard construction for Pokemon TCG, Magic:\r\n  The Gathering, Flesh and Blood,\
-  \ and other TCGs. Use when building a new deck\r\n  for a tournament format or casual\
-  \ play, adapting an existing deck to a changed\r\n  meta-game, evaluating whether\
-  \ a new set warrants a deck change, or con..."
-full_prompt_length: 9438
+description: '- `grade-tcg-card` — Card condition assessment for tournament legality
+  and collection value'
+prompt_preview: "---\nname: build-tcg-deck\ndescription: >\n  Build a competitive\
+  \ or casual trading card game deck. Covers archetype\n  selection, mana/energy curve\
+  \ analysis, win condition identification,\n  meta-game positioning, and sideboard\
+  \ construction for Pokemon TCG, Magic:\n  The Gathering, Flesh and Blood, and other\
+  \ TCGs. Use when building a new deck\n  for a tournament format or casual play,\
+  \ adapting an existing deck to a changed\n  meta-game, evaluating whether a new\
+  \ set warrants a deck change, or converting..."
+full_prompt_length: 9257
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/build-tcg-deck/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/build-tcg-deck/SKILL.md
-fetched_at: '2026-06-07T06:27:09.599318+00:00'
+fetched_at: '2026-06-14T06:41:01.950760+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:53:10.090924Z'
+  evaluated_at: '2026-06-14T09:06:32.532189Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2ba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a118cb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2ba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a118cb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.405790Z'
-indexed_at: '2026-06-07T10:04:54.405795Z'
+  fetched_at: '2026-06-14T10:18:26.715081Z'
+indexed_at: '2026-06-14T10:18:26.715086Z'
 ---

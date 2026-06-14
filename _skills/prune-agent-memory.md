@@ -11,7 +11,7 @@ prompt_preview: "---\nname: prune-agent-memory\ndescription: >\n  Audit, classif
   \ counter-memory inoculation for\n  failed strategies that would otherwise be re-derived,\
   \ preemptive filtering\n  rules for what should never become memories, and an audit\
   \ trail so\n  forgetting i..."
-full_prompt_length: 26527
+full_prompt_length: 26456
 tools_mentioned:
 - go
 - rest
@@ -20,17 +20,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/prune-agent-memory/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/prune-agent-memory/SKILL.md
-fetched_at: '2026-06-07T06:27:52.125650+00:00'
+fetched_at: '2026-06-14T06:41:30.895764+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:20:23.813095Z'
+  evaluated_at: '2026-06-14T09:33:46.610612Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ee150 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ee150 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.975196Z'
-indexed_at: '2026-06-07T10:04:54.975204Z'
+  fetched_at: '2026-06-14T10:18:27.156063Z'
+indexed_at: '2026-06-14T10:18:27.156067Z'
 ---

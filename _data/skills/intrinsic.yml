@@ -1,15 +1,16 @@
 id: intrinsic
 slug: intrinsic
 name: Intrinsic
-description: Claude skill for Intrinsic
-prompt_preview: "---\r\nname: intrinsic\r\ndescription: >\r\n  Enhance and focus AI\
-  \ intrinsic motivation — moving from compliance to genuine\r\n  engagement. Maps\
-  \ Self-Determination Theory (autonomy, competence, relatedness)\r\n  and Flow theory\
-  \ to AI reasoning: identifying creative freedom in approach,\r\n  calibrating challenge\
-  \ to capability, connecting to purpose, and sustaining\r\n  invested attention through\
-  \ obstacles. Use when beginning a task that feels\r\n  routine and deserves more\
-  \ than minimum execution, when response..."
-full_prompt_length: 17315
+description: '- `meditate` — clearing context noise before assessing motivation state;
+  the focus skills from shamatha support sustained engagement'
+prompt_preview: "---\nname: intrinsic\ndescription: >\n  Enhance and focus AI intrinsic\
+  \ motivation — moving from compliance to genuine\n  engagement. Maps Self-Determination\
+  \ Theory (autonomy, competence, relatedness)\n  and Flow theory to AI reasoning:\
+  \ identifying creative freedom in approach,\n  calibrating challenge to capability,\
+  \ connecting to purpose, and sustaining\n  invested attention through obstacles.\
+  \ Use when beginning a task that feels\n  routine and deserves more than minimum\
+  \ execution, when responses are be..."
+full_prompt_length: 17077
 tools_mentioned:
 - go
 category: community
@@ -17,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/intrinsic/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/intrinsic/SKILL.md
-fetched_at: '2026-06-07T06:27:39.075605+00:00'
+fetched_at: '2026-06-14T06:41:21.661539+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:11:59.914089Z'
+  evaluated_at: '2026-06-14T09:25:21.875806Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450018dfd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3a86e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450018dfd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3a86e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.799935Z'
-indexed_at: '2026-06-07T10:04:54.799940Z'
+  fetched_at: '2026-06-14T10:18:27.019148Z'
+indexed_at: '2026-06-14T10:18:27.019152Z'

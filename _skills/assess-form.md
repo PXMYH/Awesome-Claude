@@ -2,15 +2,16 @@
 id: assess-form
 slug: assess-form
 name: Assess Form
-description: Claude skill for Assess Form
-prompt_preview: "---\r\nname: assess-form\r\ndescription: >\r\n  Evaluate a system's\
-  \ current structural form, identify transformation pressure,\r\n  and classify transformation\
-  \ readiness. Covers structural inventory, pressure\r\n  mapping, rigidity assessment,\
-  \ change capacity estimation, and readiness\r\n  classification for architectural\
-  \ metamorphosis. Use before any significant\r\n  architectural change to understand\
-  \ the starting point, when a system feels\r\n  stuck without clear reasons, when\
-  \ external pressure from growth o..."
-full_prompt_length: 15032
+description: '- `adapt-architecture` — the primary transformation skill; assess-form
+  determines readiness for it'
+prompt_preview: "---\nname: assess-form\ndescription: >\n  Evaluate a system's current\
+  \ structural form, identify transformation pressure,\n  and classify transformation\
+  \ readiness. Covers structural inventory, pressure\n  mapping, rigidity assessment,\
+  \ change capacity estimation, and readiness\n  classification for architectural\
+  \ metamorphosis. Use before any significant\n  architectural change to understand\
+  \ the starting point, when a system feels\n  stuck without clear reasons, when external\
+  \ pressure from growth or tech d..."
+full_prompt_length: 14806
 tools_mentioned:
 - go
 category: community
@@ -18,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/assess-form/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/assess-form/SKILL.md
-fetched_at: '2026-06-07T06:27:04.049075+00:00'
+fetched_at: '2026-06-14T06:40:58.356647+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:49:39.850525Z'
+  evaluated_at: '2026-06-14T09:03:01.542402Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc333b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c66f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc333b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c66f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.331928Z'
-indexed_at: '2026-06-07T10:04:54.331934Z'
+  fetched_at: '2026-06-14T10:18:26.655028Z'
+indexed_at: '2026-06-14T10:18:26.655036Z'
 ---

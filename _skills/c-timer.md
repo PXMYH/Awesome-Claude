@@ -42,17 +42,17 @@ category_display: Community
 source_repo: daxaur/openpaw
 source_path: skills/c-timer/SKILL.md
 source_url: https://github.com/daxaur/openpaw/blob/main/skills/c-timer/SKILL.md
-fetched_at: '2026-06-07T06:24:50.639527+00:00'
+fetched_at: '2026-06-14T06:39:35.301342+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T07:49:45.792412Z'
+  evaluated_at: '2026-06-14T08:03:23.564538Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32780 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3ab680 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32780 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3ab680 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -62,6 +62,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:53.078832Z'
-indexed_at: '2026-06-07T10:04:53.078838Z'
+  fetched_at: '2026-06-14T10:18:25.687476Z'
+indexed_at: '2026-06-14T10:18:25.687480Z'
 ---

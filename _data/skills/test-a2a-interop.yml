@@ -1,15 +1,15 @@
 id: test-a2a-interop
 slug: test-a2a-interop
 name: Test A2A Interoperability
-description: Claude skill for Test A2A Interoperability
-prompt_preview: "---\r\nname: test-a2a-interop\r\ndescription: >\r\n  Test A2A interoperability\
-  \ between agents by validating Agent Card conformance,\r\n  exercising all task\
-  \ lifecycle states, and verifying streaming and error handling.\r\n  Use when verifying\
-  \ a new A2A server implementation before deployment, validating\r\n  interoperability\
-  \ between two or more A2A agents, running conformance tests in\r\n  CI/CD for A2A\
-  \ services, debugging failures in multi-agent A2A workflows, or\r\n  certifying\
-  \ that an agent meets A2A protoco..."
-full_prompt_length: 16172
+description: '- `design-a2a-agent-card` - design the Agent Card being tested'
+prompt_preview: "---\nname: test-a2a-interop\ndescription: >\n  Test A2A interoperability\
+  \ between agents by validating Agent Card conformance,\n  exercising all task lifecycle\
+  \ states, and verifying streaming and error handling.\n  Use when verifying a new\
+  \ A2A server implementation before deployment, validating\n  interoperability between\
+  \ two or more A2A agents, running conformance tests in\n  CI/CD for A2A services,\
+  \ debugging failures in multi-agent A2A workflows, or\n  certifying that an agent\
+  \ meets A2A protocol requir..."
+full_prompt_length: 15708
 tools_mentioned:
 - typescript
 category: community
@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/test-a2a-interop/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/test-a2a-interop/SKILL.md
-fetched_at: '2026-06-07T06:28:07.617188+00:00'
+fetched_at: '2026-06-14T06:41:41.486081+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:30:35.025446Z'
+  evaluated_at: '2026-06-14T09:43:55.444350Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc89850 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083290 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc89850 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083290 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.187753Z'
-indexed_at: '2026-06-07T10:04:55.187759Z'
+  fetched_at: '2026-06-14T10:18:27.324496Z'
+indexed_at: '2026-06-14T10:18:27.324501Z'

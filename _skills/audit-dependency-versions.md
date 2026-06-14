@@ -2,37 +2,38 @@
 id: audit-dependency-versions
 slug: audit-dependency-versions
 name: Audit Dependency Versions
-description: Claude skill for Audit Dependency Versions
-prompt_preview: "---\r\nname: audit-dependency-versions\r\ndescription: >\r\n  Audit\
-  \ project dependencies for version staleness, security vulnerabilities,\r\n  and\
-  \ compatibility issues. Covers lock file analysis, upgrade path planning,\r\n  and\
-  \ breaking change assessment. Use before a release to ensure dependencies\r\n  are\
-  \ current and secure, during periodic maintenance reviews, after receiving\r\n \
-  \ a security advisory, when upgrading to a new language version, before\r\n  submitting\
-  \ to CRAN or npm, or when inheriting a projec..."
-full_prompt_length: 12832
+description: '- `apply-semantic-versioning` -- Version bumps may be triggered by dependency
+  upgrades'
+prompt_preview: "---\nname: audit-dependency-versions\ndescription: >\n  Audit project\
+  \ dependencies for version staleness, security vulnerabilities,\n  and compatibility\
+  \ issues. Covers lock file analysis, upgrade path planning,\n  and breaking change\
+  \ assessment. Use before a release to ensure dependencies\n  are current and secure,\
+  \ during periodic maintenance reviews, after receiving\n  a security advisory, when\
+  \ upgrading to a new language version, before\n  submitting to CRAN or npm, or when\
+  \ inheriting a project to ass..."
+full_prompt_length: 12496
 tools_mentioned:
-- Rust
 - Python
-- Node.js
-- rest
 - Docker
+- Rust
+- rest
+- Node.js
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/audit-dependency-versions/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/audit-dependency-versions/SKILL.md
-fetched_at: '2026-06-07T06:27:05.311170+00:00'
+fetched_at: '2026-06-14T06:40:59.205496+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:50:28.342200Z'
+  evaluated_at: '2026-06-14T09:03:50.120115Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc39e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4680 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc39e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4680 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.348687Z'
-indexed_at: '2026-06-07T10:04:54.348692Z'
+  fetched_at: '2026-06-14T10:18:26.668095Z'
+indexed_at: '2026-06-14T10:18:26.668100Z'
 ---

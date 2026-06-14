@@ -2,15 +2,16 @@
 id: review-web-design
 slug: review-web-design
 name: Review Web Design
-description: Claude skill for Review Web Design
-prompt_preview: "---\r\nname: review-web-design\r\ndescription: >\r\n  Review web\
-  \ design for layout quality, typography, colour usage, spacing,\r\n  responsive\
-  \ behaviour, brand consistency, and visual hierarchy. Covers\r\n  design principles\
-  \ evaluation and improvement recommendations. Use when\r\n  reviewing a design mockup\
-  \ before development, assessing an implemented\r\n  site for design quality, providing\
-  \ feedback during a design review session,\r\n  evaluating brand consistency, or\
-  \ checking responsive behaviour across breakp..."
-full_prompt_length: 10845
+description: '- `review-ux-ui` — usability, interaction patterns, and accessibility
+  (complementary to visual design)'
+prompt_preview: "---\nname: review-web-design\ndescription: >\n  Review web design\
+  \ for layout quality, typography, colour usage, spacing,\n  responsive behaviour,\
+  \ brand consistency, and visual hierarchy. Covers\n  design principles evaluation\
+  \ and improvement recommendations. Use when\n  reviewing a design mockup before\
+  \ development, assessing an implemented\n  site for design quality, providing feedback\
+  \ during a design review session,\n  evaluating brand consistency, or checking responsive\
+  \ behaviour across breakpoints.\nl..."
+full_prompt_length: 10583
 tools_mentioned:
 - typescript
 category: community
@@ -18,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/review-web-design/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/review-web-design/SKILL.md
-fetched_at: '2026-06-07T06:27:58.202006+00:00'
+fetched_at: '2026-06-14T06:41:35.029867+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:24:19.697762Z'
+  evaluated_at: '2026-06-14T09:37:42.129297Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33320 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082f30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33320 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082f30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.057101Z'
-indexed_at: '2026-06-07T10:04:55.057106Z'
+  fetched_at: '2026-06-14T10:18:27.220146Z'
+indexed_at: '2026-06-14T10:18:27.220150Z'
 ---

@@ -18,17 +18,17 @@ category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/reddit-launch-video/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/reddit-launch-video/SKILL.md
-fetched_at: '2026-06-07T06:24:39.193722+00:00'
+fetched_at: '2026-06-14T06:39:27.488634+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T07:42:52.412704Z'
+  evaluated_at: '2026-06-14T07:56:27.699857Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff7d430 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a6dbc80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff7d430 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a6dbc80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:52.935657Z'
-indexed_at: '2026-06-07T10:04:52.935663Z'
+  fetched_at: '2026-06-14T10:18:25.576955Z'
+indexed_at: '2026-06-14T10:18:25.576960Z'
 ---

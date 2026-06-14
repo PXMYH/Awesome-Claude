@@ -12,24 +12,24 @@ prompt_preview: "---\nname: cleanup-lists\ndescription: \"Audit and remove unuse
   \ actually matter.\n\n## Prerequisites\n\n- HubSp..."
 full_prompt_length: 2599
 tools_mentioned:
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/cleanup-lists/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/cleanup-lists/SKILL.md
-fetched_at: '2026-06-07T06:23:18.697750+00:00'
+fetched_at: '2026-06-14T06:38:33.516123+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:56:44.438228Z'
+  evaluated_at: '2026-06-14T07:10:26.475593Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc66750 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c5fd0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc66750 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c5fd0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.959238Z'
-indexed_at: '2026-06-07T10:04:51.959244Z'
+  fetched_at: '2026-06-14T10:18:24.814487Z'
+indexed_at: '2026-06-14T10:18:24.814491Z'
 ---

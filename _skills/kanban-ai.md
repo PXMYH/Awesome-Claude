@@ -29,17 +29,17 @@ category_display: Community
 source_repo: mattjoyce/kanban-skill
 source_path: skills/kanban-ai/SKILL.md
 source_url: https://github.com/mattjoyce/kanban-skill/blob/master/skills/kanban-ai/SKILL.md
-fetched_at: '2026-06-07T06:26:50.457452+00:00'
+fetched_at: '2026-06-14T06:40:47.995917+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:43:40.755466Z'
+  evaluated_at: '2026-06-14T08:57:04.627983Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc329f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11a420 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc329f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11a420 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.206982Z'
-indexed_at: '2026-06-07T10:04:54.206988Z'
+  fetched_at: '2026-06-14T10:18:26.559686Z'
+indexed_at: '2026-06-14T10:18:26.559691Z'
 ---

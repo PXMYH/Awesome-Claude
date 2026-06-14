@@ -7,32 +7,34 @@ prompt_preview: '---
 
   name: networkx
 
-  description: Comprehensive toolkit for creating, analyzing, and visualizing complex
-  networks and graphs in Python. Use when working with network/graph data structures,
-  analyzing relationships between entities, computing graph algorithms (shortest paths,
-  centrality, clustering), detecting communities, generating synthetic networks, or
-  visualizing network topologies. Applicable to social networks, biological networks,
-  transportation systems, citation networks, and any domain inv...'
-full_prompt_length: 12723
+  description: Create, analyze, and visualize complex networks and graphs in Python
+  with NetworkX. Use when working with network/graph data structures, computing graph
+  algorithms (shortest paths, centrality, clustering), detecting communities, generating
+  synthetic networks (random, scale-free, small-world), reading/writing graph file
+  formats, or drawing network topologies. Common applications include social, biological,
+  transportation, and citation networks.
+
+  license: 3-clause BS...'
+full_prompt_length: 13482
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/networkx/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/networkx/SKILL.md
-fetched_at: '2026-06-07T06:22:56.157040+00:00'
+fetched_at: '2026-06-14T06:38:17.444375+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:43:33.674255Z'
+  evaluated_at: '2026-06-14T06:57:00.024259Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67950 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ec5c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67950 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ec5c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.662742Z'
-indexed_at: '2026-06-07T10:04:51.662748Z'
+  fetched_at: '2026-06-14T10:18:24.596815Z'
+indexed_at: '2026-06-14T10:18:24.596819Z'
 ---

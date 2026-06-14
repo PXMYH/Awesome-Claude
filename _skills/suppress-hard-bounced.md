@@ -12,24 +12,24 @@ prompt_preview: "---\nname: suppress-hard-bounced\ndescription: >\n  Identify an
   \ Every email sent to them fails, wastes s..."
 full_prompt_length: 12128
 tools_mentioned:
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/suppress-hard-bounced/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/suppress-hard-bounced/SKILL.md
-fetched_at: '2026-06-07T06:23:22.447090+00:00'
+fetched_at: '2026-06-14T06:38:36.345950+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:59:34.632339Z'
+  evaluated_at: '2026-06-14T07:13:16.611163Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2630 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a7b0140 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2630 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a7b0140 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:52.020831Z'
-indexed_at: '2026-06-07T10:04:52.020836Z'
+  fetched_at: '2026-06-14T10:18:24.862396Z'
+indexed_at: '2026-06-14T10:18:24.862400Z'
 ---

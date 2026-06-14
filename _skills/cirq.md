@@ -3,36 +3,46 @@ id: cirq
 slug: cirq
 name: Cirq - Quantum Computing with Python
 description: '**Noisy simulation too slow:**'
-prompt_preview: "---\nname: cirq\ndescription: Google quantum computing framework.\
-  \ Use when targeting Google Quantum AI hardware, designing noise-aware circuits,\
-  \ or running quantum characterization experiments. Best for Google hardware, noise\
-  \ modeling, and low-level circuit design. For IBM hardware use qiskit; for quantum\
-  \ ML with autodiff use pennylane; for physics simulations use qutip.\nlicense: Apache-2.0\
-  \ license\nallowed-tools: Read Write Edit Bash\nmetadata:\n  version: \"1.0\"\n\
-  \  skill-author: K-Dense Inc.\n---\n\n# C..."
-full_prompt_length: 12204
+prompt_preview: '---
+
+  name: cirq
+
+  description: Google quantum computing framework. Use when targeting Google Quantum
+  AI hardware, designing noise-aware circuits, or running quantum characterization
+  experiments. Best for Google hardware, noise modeling, and low-level circuit design.
+  For IBM hardware use qiskit; for quantum ML with autodiff use pennylane; for physics
+  simulations use qutip.
+
+  license: Apache-2.0 license
+
+  allowed-tools: Read Write Edit Bash
+
+  metadata: {"version": "1.0", "skill-author": "K-Dense Inc."}
+
+  ---...'
+full_prompt_length: 12209
 tools_mentioned:
 - Azure
-- azure
 - Python
-- python
+- azure
 - GCP
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/cirq/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/cirq/SKILL.md
-fetched_at: '2026-06-07T06:22:45.550707+00:00'
+fetched_at: '2026-06-14T06:38:10.464516+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:36:11.501548Z'
+  evaluated_at: '2026-06-14T06:49:30.353382Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67e90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a346570 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67e90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a346570 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.502545Z'
-indexed_at: '2026-06-07T10:04:51.502551Z'
+  fetched_at: '2026-06-14T10:18:24.475640Z'
+indexed_at: '2026-06-14T10:18:24.475644Z'
 ---

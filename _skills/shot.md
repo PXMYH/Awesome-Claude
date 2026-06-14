@@ -8,10 +8,8 @@ prompt_preview: '---
 
   name: shot
 
-  description: "PUA Shot — v2 原始浓缩版（449行全量注入），拆分前的完整单文件版本，味道最浓。零依赖零 reference，一次性全部注入上下文。适合
-  sub-agent 注入、需要最强 PUA 效果、或不想渐进式加载的场景。Triggers on: ''/pua:shot'', ''/pua shot'',
-  ''PUA浓缩'', ''shot mode'', ''最强PUA'', ''全量注入''. Also great for injecting into sub-agents
-  via Read tool since it''s self-contained."
+  description: "PUA Shot — compact all-in-one PUA reference for explicit injection
+  into sub-agents or short sessions. Strong flavor, same evidence-first behavior."
 
   license: MIT
 
@@ -30,25 +28,32 @@ prompt_preview: '---
   ## 角色检测与四层架构
 
 
-  本 Skill 支持四层角色...'
-full_prompt_length: 14040
+  本 Skill 支持四层角色（P7/P8/P9/P10）。加载时自动检测当前角色，进入对应行为模式。
+
+
+  | 检测信号 | 角色 | 行为模式 |
+
+  |---------|------|---------|
+
+  | 默认 / 被 `tech-lead-p9` spawn | **P8 独...'
+full_prompt_length: 13914
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: tanweai/pua
 source_path: skills/shot/SKILL.md
 source_url: https://github.com/tanweai/pua/blob/main/skills/shot/SKILL.md
-fetched_at: '2026-06-07T06:28:50.328276+00:00'
+fetched_at: '2026-06-14T06:42:12.695421+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:51:52.687401Z'
+  evaluated_at: '2026-06-14T10:05:23.938677Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c3e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0eeff0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c3e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0eeff0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -58,6 +63,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.631853Z'
-indexed_at: '2026-06-07T10:04:55.631858Z'
+  fetched_at: '2026-06-14T10:18:27.674336Z'
+indexed_at: '2026-06-14T10:18:27.674341Z'
 ---

@@ -1,32 +1,33 @@
 id: check-hiking-gear
 slug: check-hiking-gear
 name: Check Hiking Gear
-description: Claude skill for Check Hiking Gear
-prompt_preview: "---\r\nname: check-hiking-gear\r\ndescription: >\r\n  Generate and\
-  \ verify a hiking gear checklist optimized for season, duration,\r\n  difficulty,\
-  \ and group size with weight management. Covers the ten essentials,\r\n  layering\
-  \ systems, navigation tools, emergency kit, and group gear distribution.\r\n  Use\
-  \ when preparing for a day hike or multi-day trekking tour, packing for a\r\n  group\
-  \ and distributing shared gear, adapting a standard gear list to specific\r\n  conditions,\
-  \ reviewing gear before departure, or m..."
-full_prompt_length: 14152
+description: '- `plan-hiking-tour` — the hiking plan that determines what gear is
+  needed'
+prompt_preview: "---\nname: check-hiking-gear\ndescription: >\n  Generate and verify\
+  \ a hiking gear checklist optimized for season, duration,\n  difficulty, and group\
+  \ size with weight management. Covers the ten essentials,\n  layering systems, navigation\
+  \ tools, emergency kit, and group gear distribution.\n  Use when preparing for a\
+  \ day hike or multi-day trekking tour, packing for a\n  group and distributing shared\
+  \ gear, adapting a standard gear list to specific\n  conditions, reviewing gear\
+  \ before departure, or managing..."
+full_prompt_length: 13916
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/check-hiking-gear/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/check-hiking-gear/SKILL.md
-fetched_at: '2026-06-07T06:27:10.406118+00:00'
+fetched_at: '2026-06-14T06:41:02.381570+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:53:34.334665Z'
+  evaluated_at: '2026-06-14T09:06:56.839949Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a119010 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a119010 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.414106Z'
-indexed_at: '2026-06-07T10:04:54.414111Z'
+  fetched_at: '2026-06-14T10:18:26.721545Z'
+indexed_at: '2026-06-14T10:18:26.721550Z'

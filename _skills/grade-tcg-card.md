@@ -2,15 +2,16 @@
 id: grade-tcg-card
 slug: grade-tcg-card
 name: Grade TCG Card
-description: Claude skill for Grade TCG Card
-prompt_preview: "---\r\nname: grade-tcg-card\r\ndescription: >\r\n  Grade a trading\
-  \ card using PSA, BGS, or CGC standards. Covers observation-first\r\n  assessment\
-  \ (adapted from meditate's unbiased observation), centering measurement,\r\n  surface\
-  \ analysis, edge and corner evaluation, and final grade assignment with\r\n  confidence\
-  \ interval. Supports Pokemon, MTG, Flesh and Blood, and Kayou cards.\r\n  Use when\
-  \ evaluating a card before professional grading submission, pre-screening\r\n  a\
-  \ collection for high-grade candidates, s..."
-full_prompt_length: 10222
+description: '- `build-tcg-deck` — Deck building where card condition affects tournament
+  legality'
+prompt_preview: "---\nname: grade-tcg-card\ndescription: >\n  Grade a trading card\
+  \ using PSA, BGS, or CGC standards. Covers observation-first\n  assessment (adapted\
+  \ from meditate's unbiased observation), centering measurement,\n  surface analysis,\
+  \ edge and corner evaluation, and final grade assignment with\n  confidence interval.\
+  \ Supports Pokemon, MTG, Flesh and Blood, and Kayou cards.\n  Use when evaluating\
+  \ a card before professional grading submission, pre-screening\n  a collection for\
+  \ high-grade candidates, settling..."
+full_prompt_length: 10033
 tools_mentioned:
 - go
 category: community
@@ -18,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/grade-tcg-card/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/grade-tcg-card/SKILL.md
-fetched_at: '2026-06-07T06:27:34.118602+00:00'
+fetched_at: '2026-06-14T06:41:18.339185+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:08:44.106858Z'
+  evaluated_at: '2026-06-14T09:22:07.564264Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d400 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0834d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d400 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0834d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.731593Z'
-indexed_at: '2026-06-07T10:04:54.731598Z'
+  fetched_at: '2026-06-14T10:18:26.966430Z'
+indexed_at: '2026-06-14T10:18:26.966434Z'
 ---

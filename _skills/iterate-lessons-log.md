@@ -4,30 +4,30 @@ slug: iterate-lessons-log
 name: Lessons Log
 description: See `references/EXAMPLE.md` for a completed example.
 prompt_preview: "---\nname: iterate-lessons-log\ndescription: Creates a structured\
-  \ lessons learned entry for organizational memory. Use after projects, incidents,\
-  \ or significant learnings to capture knowledge for future teams and initiatives.\n\
-  license: Apache-2.0\nmetadata:\n  phase: iterate\n  version: \"2.0.0\"\n  updated:\
-  \ 2026-01-26\n  category: reflection\n  frameworks: [triple-diamond, lean-startup,\
-  \ design-thinking]\n  author: product-on-purpose\n---\n<!-- PM-Skills | https://github.com/product-on-purpose/pm-skills\
-  \ | Apa..."
-full_prompt_length: 3169
+  \ lessons learned entry for organizational memory. Use after an incident, a completed\
+  \ project, or a significant learning to record knowledge for future teams and initiatives.\
+  \ Distinct from iterate-retrospective, which facilitates the team ceremony; this\
+  \ skill writes the durable lessons entry that outlives it.\nlicense: Apache-2.0\n\
+  metadata:\n  phase: iterate\n  version: \"2.1.0\"\n  updated: 2026-06-10\n  category:\
+  \ reflection\n  frameworks: [t..."
+full_prompt_length: 3980
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/iterate-lessons-log/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/iterate-lessons-log/SKILL.md
-fetched_at: '2026-06-07T06:28:21.835983+00:00'
+fetched_at: '2026-06-14T06:41:51.369211+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:38:53.346476Z'
+  evaluated_at: '2026-06-14T09:52:09.348788Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc320c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11ba40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc320c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11ba40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.360204Z'
-indexed_at: '2026-06-07T10:04:55.360210Z'
+  fetched_at: '2026-06-14T10:18:27.457949Z'
+indexed_at: '2026-06-14T10:18:27.457954Z'
 ---

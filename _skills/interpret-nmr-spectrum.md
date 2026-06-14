@@ -2,32 +2,33 @@
 id: interpret-nmr-spectrum
 slug: interpret-nmr-spectrum
 name: Interpret NMR Spectrum
-description: Claude skill for Interpret NMR Spectrum
-prompt_preview: "---\r\nname: interpret-nmr-spectrum\r\ndescription: >\r\n  Systematically\
-  \ interpret nuclear magnetic resonance spectra (1H, 13C, DEPT,\r\n  and 2D experiments)\
-  \ to elucidate molecular structure. Covers chemical shift\r\n  assignment, coupling\
-  \ pattern analysis, integration, and correlation of\r\n  multi-dimensional data\
-  \ into coherent structural proposals.\r\nlicense: MIT\r\nallowed-tools: Read Grep\
-  \ Glob WebFetch WebSearch\r\nmetadata:\r\n  author: Philipp Thoss\r\n  version:\
-  \ \"1.0\"\r\n  domain: spectroscopy\r\n  complexity:..."
-full_prompt_length: 13302
+description: '- `interpret-ir-spectrum` -- identify functional groups to constrain
+  NMR-based structure proposals'
+prompt_preview: "---\nname: interpret-nmr-spectrum\ndescription: >\n  Systematically\
+  \ interpret nuclear magnetic resonance spectra (1H, 13C, DEPT,\n  and 2D experiments)\
+  \ to elucidate molecular structure. Covers chemical shift\n  assignment, coupling\
+  \ pattern analysis, integration, and correlation of\n  multi-dimensional data into\
+  \ coherent structural proposals.\nlicense: MIT\nallowed-tools: Read Grep Glob WebFetch\
+  \ WebSearch\nmetadata:\n  author: Philipp Thoss\n  version: \"1.0\"\n  domain: spectroscopy\n\
+  \  complexity: advanced\n  l..."
+full_prompt_length: 12994
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/interpret-nmr-spectrum/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/interpret-nmr-spectrum/SKILL.md
-fetched_at: '2026-06-07T06:27:38.447348+00:00'
+fetched_at: '2026-06-14T06:41:21.257849+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:11:35.617022Z'
+  evaluated_at: '2026-06-14T09:24:57.612785Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8a8a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187affb320 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8a8a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187affb320 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.791492Z'
-indexed_at: '2026-06-07T10:04:54.791497Z'
+  fetched_at: '2026-06-14T10:18:27.012643Z'
+indexed_at: '2026-06-14T10:18:27.012647Z'
 ---

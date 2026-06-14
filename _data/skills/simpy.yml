@@ -3,33 +3,49 @@ slug: simpy
 name: SimPy - Discrete-Event Simulation
 description: '- **Manufacturing**: Machine scheduling, production lines, inventory
   management'
-prompt_preview: "---\nname: simpy\ndescription: Process-based discrete-event simulation\
-  \ framework in Python. Use this skill when building simulations of systems with\
-  \ processes, queues, resources, and time-based events such as manufacturing systems,\
-  \ service operations, network traffic, logistics, or any system where entities interact\
-  \ with shared resources over time.\nlicense: MIT license\nmetadata:\n  version:\
-  \ \"1.0\"\n  skill-author: K-Dense Inc.\n---\n\n# SimPy - Discrete-Event Simulation\n\
-  \n## Overview\n\nSimPy is a process-..."
-full_prompt_length: 12180
+prompt_preview: '---
+
+  name: simpy
+
+  description: Process-based discrete-event simulation framework in Python. Use this
+  skill when building simulations of systems with processes, queues, resources, and
+  time-based events such as manufacturing systems, service operations, network traffic,
+  logistics, or any system where entities interact with shared resources over time.
+
+  license: MIT license
+
+  metadata: {"version": "1.0", "skill-author": "K-Dense Inc."}
+
+  ---
+
+
+  # SimPy - Discrete-Event Simulation
+
+
+  ## Overview
+
+
+  SimPy is a pro...'
+full_prompt_length: 12185
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/simpy/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/simpy/SKILL.md
-fetched_at: '2026-06-07T06:23:07.514383+00:00'
+fetched_at: '2026-06-14T06:38:25.133049+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:51:26.766182Z'
+  evaluated_at: '2026-06-14T07:05:01.751253Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32a50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4470 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32a50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4470 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +55,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.844508Z'
-indexed_at: '2026-06-07T10:04:51.844514Z'
+  fetched_at: '2026-06-14T10:18:24.726168Z'
+indexed_at: '2026-06-14T10:18:24.726173Z'

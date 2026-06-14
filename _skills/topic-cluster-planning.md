@@ -31,17 +31,17 @@ category_display: Community
 source_repo: inhouseseo/superseo-skills
 source_path: skills/topic-cluster-planning/SKILL.md
 source_url: https://github.com/inhouseseo/superseo-skills/blob/main/skills/topic-cluster-planning/SKILL.md
-fetched_at: '2026-06-07T06:26:19.191336+00:00'
+fetched_at: '2026-06-14T06:40:25.216145+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:33:07.280770Z'
+  evaluated_at: '2026-06-14T08:46:31.653494Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc31fd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082030 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc31fd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082030 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:53.981376Z'
-indexed_at: '2026-06-07T10:04:53.981381Z'
+  fetched_at: '2026-06-14T10:18:26.387143Z'
+indexed_at: '2026-06-14T10:18:26.387147Z'
 ---

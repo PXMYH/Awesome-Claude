@@ -2,15 +2,16 @@
 id: design-training-program
 slug: design-training-program
 name: Design Training Program
-description: Claude skill for Design Training Program
-prompt_preview: "---\r\nname: design-training-program\r\ndescription: >\r\n  Design\
-  \ a GxP training programme covering training needs analysis by role,\r\n  curriculum\
-  \ design (regulatory awareness, system-specific, data integrity),\r\n  competency\
-  \ assessment criteria, training record retention, and retraining\r\n  triggers for\
-  \ SOP revisions and incidents. Use when a new validated system\r\n  requires user\
-  \ training before go-live, an audit finding cites inadequate\r\n  training, organisational\
-  \ changes introduce new roles, a perio..."
-full_prompt_length: 12852
+description: '- `write-standard-operating-procedure` — SOPs drive training content
+  and retraining triggers'
+prompt_preview: "---\nname: design-training-program\ndescription: >\n  Design a GxP\
+  \ training programme covering training needs analysis by role,\n  curriculum design\
+  \ (regulatory awareness, system-specific, data integrity),\n  competency assessment\
+  \ criteria, training record retention, and retraining\n  triggers for SOP revisions\
+  \ and incidents. Use when a new validated system\n  requires user training before\
+  \ go-live, an audit finding cites inadequate\n  training, organisational changes\
+  \ introduce new roles, a periodic prog..."
+full_prompt_length: 12594
 tools_mentioned:
 - go
 - GCP
@@ -19,17 +20,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/design-training-program/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/design-training-program/SKILL.md
-fetched_at: '2026-06-07T06:27:25.157899+00:00'
+fetched_at: '2026-06-14T06:41:12.064888+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:03:03.304781Z'
+  evaluated_at: '2026-06-14T09:16:26.564787Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8aab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11aa20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8aab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11aa20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.613061Z'
-indexed_at: '2026-06-07T10:04:54.613066Z'
+  fetched_at: '2026-06-14T10:18:26.874829Z'
+indexed_at: '2026-06-14T10:18:26.874833Z'
 ---

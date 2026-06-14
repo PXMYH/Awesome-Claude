@@ -12,26 +12,26 @@ prompt_preview: '---
   recommendations that inform computational approach decisions such as whether to
   use parallel processing (joblib, multiprocessing), out-of-core computing (Dask,
   Zarr), GPU acceleration (PyTorch, JAX), or memory-effic...'
-full_prompt_length: 9844
+full_prompt_length: 9849
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/get-available-resources/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/get-available-resources/SKILL.md
-fetched_at: '2026-06-07T06:22:50.650429+00:00'
+fetched_at: '2026-06-14T06:38:13.933861+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:39:42.551016Z'
+  evaluated_at: '2026-06-14T06:53:11.325866Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff62ba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a9eb260 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff62ba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a9eb260 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.579117Z'
-indexed_at: '2026-06-07T10:04:51.579123Z'
+  fetched_at: '2026-06-14T10:18:24.534441Z'
+indexed_at: '2026-06-14T10:18:24.534445Z'

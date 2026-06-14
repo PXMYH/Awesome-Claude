@@ -36,17 +36,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/git-cleanup/skills/git-cleanup/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/git-cleanup/skills/git-cleanup/SKILL.md
-fetched_at: '2026-06-07T06:29:01.922063+00:00'
+fetched_at: '2026-06-14T06:42:21.133093+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:55:56.047423Z'
+  evaluated_at: '2026-06-14T10:09:28.047581Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc66060 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11a8d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc66060 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11a8d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -56,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.718997Z'
-indexed_at: '2026-06-07T10:04:55.719002Z'
+  fetched_at: '2026-06-14T10:18:27.742167Z'
+indexed_at: '2026-06-14T10:18:27.742172Z'
 ---

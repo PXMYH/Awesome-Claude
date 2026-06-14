@@ -21,17 +21,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/entry-point-analyzer/skills/entry-point-analyzer/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/entry-point-analyzer/skills/entry-point-analyzer/SKILL.md
-fetched_at: '2026-06-07T06:29:00.124391+00:00'
+fetched_at: '2026-06-14T06:42:20.018234+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:55:23.670037Z'
+  evaluated_at: '2026-06-14T10:08:55.712984Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0eeae0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0eeae0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.707705Z'
-indexed_at: '2026-06-07T10:04:55.707710Z'
+  fetched_at: '2026-06-14T10:18:27.733332Z'
+indexed_at: '2026-06-14T10:18:27.733336Z'
 ---

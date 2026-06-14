@@ -18,7 +18,7 @@ prompt_preview: '---
   license: MIT license
 
   compatibility: Analytical guidance needs no network. Op...'
-full_prompt_length: 23560
+full_prompt_length: 23565
 tools_mentioned:
 - python
 category: scientific
@@ -26,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/scientific-critical-thinking/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/scientific-critical-thinking/SKILL.md
-fetched_at: '2026-06-07T06:23:05.118571+00:00'
+fetched_at: '2026-06-14T06:38:23.553889+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:49:49.021987Z'
+  evaluated_at: '2026-06-14T07:03:21.776043Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450059e3f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3797f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450059e3f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3797f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.809692Z'
-indexed_at: '2026-06-07T10:04:51.809698Z'
+  fetched_at: '2026-06-14T10:18:24.700036Z'
+indexed_at: '2026-06-14T10:18:24.700040Z'
 ---

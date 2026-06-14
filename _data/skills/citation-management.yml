@@ -2,14 +2,22 @@ id: citation-management
 slug: citation-management
 name: Citation Management
 description: ''
-prompt_preview: "---\nname: citation-management\ndescription: Comprehensive citation\
-  \ management for academic research. Search Google Scholar and PubMed for papers,\
-  \ extract accurate metadata, validate citations, and generate properly formatted\
-  \ BibTeX entries. This skill should be used when you need to find papers, verify\
-  \ citation information, convert DOIs to BibTeX, or ensure reference accuracy in\
-  \ scientific writing.\nallowed-tools: Read Write Edit Bash\nlicense: MIT License\n\
-  metadata:\n  version: \"1.0\"\n  skill-author:..."
-full_prompt_length: 32607
+prompt_preview: '---
+
+  name: citation-management
+
+  description: Comprehensive citation management for academic research. Search Google
+  Scholar and PubMed for papers, extract accurate metadata, validate citations, and
+  generate properly formatted BibTeX entries. This skill should be used when you need
+  to find papers, verify citation information, convert DOIs to BibTeX, or ensure reference
+  accuracy in scientific writing.
+
+  allowed-tools: Read Write Edit Bash
+
+  license: MIT License
+
+  required_environment_variables: [{"name":...'
+full_prompt_length: 40844
 tools_mentioned:
 - python
 - Python
@@ -18,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/citation-management/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/citation-management/SKILL.md
-fetched_at: '2026-06-07T06:22:45.750694+00:00'
+fetched_at: '2026-06-14T06:38:10.590838+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:36:19.591442Z'
+  evaluated_at: '2026-06-14T06:49:38.443548Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff62240 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7f20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff62240 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7f20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.505526Z'
-indexed_at: '2026-06-07T10:04:51.505532Z'
+  fetched_at: '2026-06-14T10:18:24.477839Z'
+indexed_at: '2026-06-14T10:18:24.477843Z'

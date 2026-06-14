@@ -27,17 +27,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-narrative-audience-modeling/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-narrative-audience-modeling/SKILL.md
-fetched_at: '2026-06-07T06:25:57.809534+00:00'
+fetched_at: '2026-06-14T06:40:10.330905+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:20:28.325015Z'
+  evaluated_at: '2026-06-14T08:33:56.935098Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc333e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ed8b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc333e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ed8b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:53.720661Z'
-indexed_at: '2026-06-07T10:04:53.720667Z'
+  fetched_at: '2026-06-14T10:18:26.185188Z'
+indexed_at: '2026-06-14T10:18:26.185192Z'
 ---

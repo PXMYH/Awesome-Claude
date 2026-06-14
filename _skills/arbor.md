@@ -1,0 +1,49 @@
+---
+id: arbor
+slug: arbor
+name: Arbor — Autonomous Optimization via Hypothesis Tree Refinement
+description: '- `references/htr-methodology.md` — deeper explanation of HTR, the node
+  structure, the six steps, and the paper''s empirical lessons (ablations, transfer,
+  cost). Read when you want the rationale behind...'
+prompt_preview: '---
+
+  name: arbor
+
+  description: Autonomously improve a real artifact (code, training recipe, agent
+  harness, data pipeline, prompt) against an objective and an evaluator, using Hypothesis
+  Tree Refinement (HTR) from the Arbor paper. Use this whenever someone wants to iteratively
+  optimize something over many experiments without overfitting — e.g. "get my model''s
+  eval score up", "improve this agent/harness", "tune this pipeline", "beat the baseline
+  on this benchmark", "run a search over approaches and...'
+full_prompt_length: 13612
+tools_mentioned:
+- python
+- rest
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: skills/arbor/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/arbor/SKILL.md
+fetched_at: '2026-06-14T06:38:09.117551+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-14T06:48:00.318615Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c60f0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c60f0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-14T10:18:24.451240Z'
+indexed_at: '2026-06-14T10:18:24.451245Z'
+---

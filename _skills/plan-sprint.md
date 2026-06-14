@@ -2,32 +2,33 @@
 id: plan-sprint
 slug: plan-sprint
 name: Plan a Sprint
-description: Claude skill for Plan a Sprint
-prompt_preview: "---\r\nname: plan-sprint\r\ndescription: >\r\n  Plan a sprint by\
-  \ refining backlog items, defining a sprint goal, calculating\r\n  team capacity,\
-  \ selecting items, and decomposing them into tasks. Produces\r\n  a SPRINT-PLAN.md\
-  \ with goal, selected items, task breakdown, and capacity\r\n  allocation. Use when\
-  \ starting a new sprint in a Scrum or agile project,\r\n  re-planning after significant\
-  \ scope change, transitioning from ad-hoc work\r\n  to structured sprint cadence,\
-  \ or after backlog grooming when items are r..."
-full_prompt_length: 9505
+description: '- `manage-backlog` — maintain and prioritize the product backlog that
+  feeds sprint planning'
+prompt_preview: "---\nname: plan-sprint\ndescription: >\n  Plan a sprint by refining\
+  \ backlog items, defining a sprint goal, calculating\n  team capacity, selecting\
+  \ items, and decomposing them into tasks. Produces\n  a SPRINT-PLAN.md with goal,\
+  \ selected items, task breakdown, and capacity\n  allocation. Use when starting\
+  \ a new sprint in a Scrum or agile project,\n  re-planning after significant scope\
+  \ change, transitioning from ad-hoc work\n  to structured sprint cadence, or after\
+  \ backlog grooming when items are ready\n  f..."
+full_prompt_length: 9291
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/plan-sprint/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/plan-sprint/SKILL.md
-fetched_at: '2026-06-07T06:27:49.563014+00:00'
+fetched_at: '2026-06-14T06:41:29.059719+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:18:46.057900Z'
+  evaluated_at: '2026-06-14T09:32:09.417458Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0ee40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082120 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0ee40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082120 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.941024Z'
-indexed_at: '2026-06-07T10:04:54.941029Z'
+  fetched_at: '2026-06-14T10:18:27.129486Z'
+indexed_at: '2026-06-14T10:18:27.129491Z'
 ---

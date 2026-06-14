@@ -2,15 +2,16 @@
 id: gold-washing
 slug: gold-washing
 name: Gold Washing
-description: Claude skill for Gold Washing
-prompt_preview: "---\r\nname: gold-washing\r\ndescription: >\r\n  Alluvial gold recovery\
-  \ using panning, sluicing, and classification.\r\n  Covers site reading (geological\
-  \ indicators, stream dynamics, pay streak\r\n  location), panning technique, sluice\
-  \ box operation, and responsible\r\n  extraction practices. Use when prospecting\
-  \ in an area with known or\r\n  suspected alluvial gold deposits, sampling a stream\
-  \ to test for gold\r\n  presence, maximizing recovery during recreational panning,\
-  \ or assessing a\r\n  site's gold potentia..."
-full_prompt_length: 9600
+description: '- `mineral-identification` — understanding rock and mineral types helps
+  read geological indicators that point to gold-bearing areas'
+prompt_preview: "---\nname: gold-washing\ndescription: >\n  Alluvial gold recovery\
+  \ using panning, sluicing, and classification.\n  Covers site reading (geological\
+  \ indicators, stream dynamics, pay streak\n  location), panning technique, sluice\
+  \ box operation, and responsible\n  extraction practices. Use when prospecting in\
+  \ an area with known or\n  suspected alluvial gold deposits, sampling a stream to\
+  \ test for gold\n  presence, maximizing recovery during recreational panning, or\
+  \ assessing a\n  site's gold potential before..."
+full_prompt_length: 9402
 tools_mentioned:
 - rust
 category: community
@@ -18,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/gold-washing/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/gold-washing/SKILL.md
-fetched_at: '2026-06-07T06:27:33.923267+00:00'
+fetched_at: '2026-06-14T06:41:18.197813+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:08:36.029692Z'
+  evaluated_at: '2026-06-14T09:21:59.473211Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32ab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3d83e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32ab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3d83e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.728826Z'
-indexed_at: '2026-06-07T10:04:54.728832Z'
+  fetched_at: '2026-06-14T10:18:26.964237Z'
+indexed_at: '2026-06-14T10:18:26.964241Z'
 ---

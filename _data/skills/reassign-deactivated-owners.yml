@@ -12,24 +12,24 @@ prompt_preview: "---\nname: reassign-deactivated-owners\ndescription: >\n  Reass
 full_prompt_length: 18303
 tools_mentioned:
 - go
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/reassign-deactivated-owners/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/reassign-deactivated-owners/SKILL.md
-fetched_at: '2026-06-07T06:23:21.523875+00:00'
+fetched_at: '2026-06-14T06:38:35.645225+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:58:54.146041Z'
+  evaluated_at: '2026-06-14T07:12:36.147967Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88b90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ec440 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88b90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ec440 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:52.006268Z'
-indexed_at: '2026-06-07T10:04:52.006274Z'
+  fetched_at: '2026-06-14T10:18:24.850956Z'
+indexed_at: '2026-06-14T10:18:24.850960Z'

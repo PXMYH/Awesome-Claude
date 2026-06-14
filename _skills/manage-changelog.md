@@ -2,15 +2,16 @@
 id: manage-changelog
 slug: manage-changelog
 name: Manage Changelog
-description: Claude skill for Manage Changelog
-prompt_preview: "---\r\nname: manage-changelog\r\ndescription: >\r\n  Maintain a changelog\
-  \ following Keep a Changelog format. Covers\r\n  entry categorization (Added, Changed,\
-  \ Deprecated, Removed, Fixed,\r\n  Security), version section management, and unreleased\
-  \ tracking. Use when\r\n  starting a new project that needs a changelog, adding\
-  \ entries after\r\n  completing features or fixes, preparing a release by promoting\
-  \ Unreleased\r\n  entries to a versioned section, or converting a free-form changelog\
-  \ to\r\n  Keep a Changelog for..."
-full_prompt_length: 10178
+description: '- `apply-semantic-versioning` -- Determine the version number that pairs
+  with changelog entries'
+prompt_preview: "---\nname: manage-changelog\ndescription: >\n  Maintain a changelog\
+  \ following Keep a Changelog format. Covers\n  entry categorization (Added, Changed,\
+  \ Deprecated, Removed, Fixed,\n  Security), version section management, and unreleased\
+  \ tracking. Use when\n  starting a new project that needs a changelog, adding entries\
+  \ after\n  completing features or fixes, preparing a release by promoting Unreleased\n\
+  \  entries to a versioned section, or converting a free-form changelog to\n  Keep\
+  \ a Changelog format.\nlice..."
+full_prompt_length: 9921
 tools_mentioned:
 - go
 category: community
@@ -18,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/manage-changelog/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/manage-changelog/SKILL.md
-fetched_at: '2026-06-07T06:27:41.590771+00:00'
+fetched_at: '2026-06-14T06:41:23.310602+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:13:37.025853Z'
+  evaluated_at: '2026-06-14T09:26:58.948581Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0f710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082a50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0f710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082a50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.833457Z'
-indexed_at: '2026-06-07T10:04:54.833463Z'
+  fetched_at: '2026-06-14T10:18:27.045246Z'
+indexed_at: '2026-06-14T10:18:27.045251Z'
 ---

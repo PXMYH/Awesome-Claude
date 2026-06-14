@@ -2,15 +2,16 @@
 id: remote-viewing-guidance
 slug: remote-viewing-guidance
 name: Remote View (Guidance)
-description: Claude skill for Remote View (Guidance)
-prompt_preview: "---\r\nname: remote-viewing-guidance\r\ndescription: >\r\n  Guide\
-  \ a person through a Coordinate Remote Viewing (CRV) session\r\n  following the\
-  \ Stargate/SRI protocol. AI acts as the monitor/tasker role,\r\n  managing protocol\
-  \ progression, catching Analytical Overlay (AOL), and\r\n  redirecting the viewer\
-  \ through stages I-VI. Use when a person wants to\r\n  practice CRV and needs a\
-  \ monitor to manage the session protocol, when\r\n  training a viewer through the\
-  \ staged CRV process, facilitating a structured\r\n  int..."
-full_prompt_length: 15963
+description: '- `remote-viewing` — the AI self-directed variant for approaching unknown
+  problems without preconceptions'
+prompt_preview: "---\nname: remote-viewing-guidance\ndescription: >\n  Guide a person\
+  \ through a Coordinate Remote Viewing (CRV) session\n  following the Stargate/SRI\
+  \ protocol. AI acts as the monitor/tasker role,\n  managing protocol progression,\
+  \ catching Analytical Overlay (AOL), and\n  redirecting the viewer through stages\
+  \ I-VI. Use when a person wants to\n  practice CRV and needs a monitor to manage\
+  \ the session protocol, when\n  training a viewer through the staged CRV process,\
+  \ facilitating a structured\n  intuitive pe..."
+full_prompt_length: 15722
 tools_mentioned:
 - Go
 - angular
@@ -19,17 +20,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/remote-viewing-guidance/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/remote-viewing-guidance/SKILL.md
-fetched_at: '2026-06-07T06:27:54.408834+00:00'
+fetched_at: '2026-06-14T06:41:32.599025+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:21:53.139079Z'
+  evaluated_at: '2026-06-14T09:35:15.784794Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65ee0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a119ac0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65ee0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a119ac0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.006297Z'
-indexed_at: '2026-06-07T10:04:55.006319Z'
+  fetched_at: '2026-06-14T10:18:27.180294Z'
+indexed_at: '2026-06-14T10:18:27.180299Z'
 ---

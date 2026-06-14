@@ -2,32 +2,32 @@
 id: resolve-git-conflicts
 slug: resolve-git-conflicts
 name: Resolve Git Conflicts
-description: Claude skill for Resolve Git Conflicts
-prompt_preview: "---\r\nname: resolve-git-conflicts\r\ndescription: >\r\n  Resolve\
-  \ merge and rebase conflicts with safe recovery strategies.\r\n  Covers identifying\
-  \ conflict sources, reading conflict markers,\r\n  choosing resolution strategies,\
-  \ and continuing or aborting operations\r\n  safely. Use when a git merge, rebase,\
-  \ cherry-pick, or stash pop reports\r\n  conflicts, when a git pull results in conflicting\
-  \ changes, or when you\r\n  need to safely abort and restart a failed merge or rebase\
-  \ operation.\r\nlicense: MIT\r\nallowed..."
-full_prompt_length: 7575
+description: '- `commit-changes` - committing after conflict resolution'
+prompt_preview: "---\nname: resolve-git-conflicts\ndescription: >\n  Resolve merge\
+  \ and rebase conflicts with safe recovery strategies.\n  Covers identifying conflict\
+  \ sources, reading conflict markers,\n  choosing resolution strategies, and continuing\
+  \ or aborting operations\n  safely. Use when a git merge, rebase, cherry-pick, or\
+  \ stash pop reports\n  conflicts, when a git pull results in conflicting changes,\
+  \ or when you\n  need to safely abort and restart a failed merge or rebase operation.\n\
+  license: MIT\nallowed-tools: Re..."
+full_prompt_length: 7352
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/resolve-git-conflicts/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/resolve-git-conflicts/SKILL.md
-fetched_at: '2026-06-07T06:27:56.293984+00:00'
+fetched_at: '2026-06-14T06:41:33.823075+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:23:06.354011Z'
+  evaluated_at: '2026-06-14T09:36:29.134145Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc64d70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a119ac0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc64d70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a119ac0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.031938Z'
-indexed_at: '2026-06-07T10:04:55.031943Z'
+  fetched_at: '2026-06-14T10:18:27.200300Z'
+indexed_at: '2026-06-14T10:18:27.200305Z'
 ---

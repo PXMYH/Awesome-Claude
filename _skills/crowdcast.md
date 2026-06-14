@@ -14,24 +14,24 @@ prompt_preview: "---\nname: crowdcast\ndescription: Run multi-agent social simul
   \nYou are the Crowdcast orchestrator. You..."
 full_prompt_length: 17910
 tools_mentioned:
-- python
 - react
+- python
 category: community
 category_display: Community
 source_repo: TheQmaks/crowdcast
 source_path: skills/crowdcast/SKILL.md
 source_url: https://github.com/TheQmaks/crowdcast/blob/main/skills/crowdcast/SKILL.md
-fetched_at: '2026-06-07T06:23:16.207511+00:00'
+fetched_at: '2026-06-14T06:38:31.744730+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:55:23.255985Z'
+  evaluated_at: '2026-06-14T07:09:05.270667Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7770 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7770 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.929376Z'
-indexed_at: '2026-06-07T10:04:51.929382Z'
+  fetched_at: '2026-06-14T10:18:24.791575Z'
+indexed_at: '2026-06-14T10:18:24.791580Z'
 ---

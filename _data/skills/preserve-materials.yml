@@ -1,15 +1,16 @@
 id: preserve-materials
 slug: preserve-materials
 name: Preserve Materials
-description: Claude skill for Preserve Materials
-prompt_preview: "---\r\nname: preserve-materials\r\ndescription: >\r\n  Preserve and\
-  \ conserve library and archival materials. Covers environmental\r\n  controls (temperature,\
-  \ humidity, light), handling procedures, book repair\r\n  techniques (torn pages,\
-  \ loose spines, foxing), acid-free storage, digitization\r\n  for preservation,\
-  \ and disaster recovery planning. Use when establishing\r\n  preservation practices\
-  \ for a new or existing collection, when materials show\r\n  signs of deterioration,\
-  \ when setting up environmental contr..."
-full_prompt_length: 16662
+description: '- `catalog-collection` — Catalog records should note preservation actions
+  and condition'
+prompt_preview: "---\nname: preserve-materials\ndescription: >\n  Preserve and conserve\
+  \ library and archival materials. Covers environmental\n  controls (temperature,\
+  \ humidity, light), handling procedures, book repair\n  techniques (torn pages,\
+  \ loose spines, foxing), acid-free storage, digitization\n  for preservation, and\
+  \ disaster recovery planning. Use when establishing\n  preservation practices for\
+  \ a new or existing collection, when materials show\n  signs of deterioration, when\
+  \ setting up environmental controls for..."
+full_prompt_length: 16367
 tools_mentioned:
 - rest
 category: community
@@ -17,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/preserve-materials/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/preserve-materials/SKILL.md
-fetched_at: '2026-06-07T06:27:51.255718+00:00'
+fetched_at: '2026-06-14T06:41:30.340673+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:19:51.413098Z'
+  evaluated_at: '2026-06-14T09:33:14.236693Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45000dc380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ec320 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45000dc380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ec320 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.963736Z'
-indexed_at: '2026-06-07T10:04:54.963742Z'
+  fetched_at: '2026-06-14T10:18:27.147148Z'
+indexed_at: '2026-06-14T10:18:27.147153Z'

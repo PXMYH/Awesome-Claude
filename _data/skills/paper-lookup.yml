@@ -12,7 +12,7 @@ prompt_preview: '---
   for papers, citations, DOI/PMID lookups, abstracts, full text, open access, preprints,
   citation graphs, author search, or any scholarly literature query. Triggers on mentions
   of any supported database or requests like "find pape...'
-full_prompt_length: 9652
+full_prompt_length: 9657
 tools_mentioned:
 - REST
 category: scientific
@@ -20,17 +20,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/paper-lookup/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/paper-lookup/SKILL.md
-fetched_at: '2026-06-07T06:22:57.939785+00:00'
+fetched_at: '2026-06-14T06:38:18.560481+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:44:46.846910Z'
+  evaluated_at: '2026-06-14T06:58:13.283402Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450018dfd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3c7410 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450018dfd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3c7410 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.689139Z'
-indexed_at: '2026-06-07T10:04:51.689145Z'
+  fetched_at: '2026-06-14T10:18:24.616724Z'
+indexed_at: '2026-06-14T10:18:24.616728Z'

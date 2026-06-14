@@ -42,17 +42,17 @@ category_display: Community
 source_repo: raphaelchristi/harness-evolver
 source_path: skills/status/SKILL.md
 source_url: https://github.com/raphaelchristi/harness-evolver/blob/main/skills/status/SKILL.md
-fetched_at: '2026-06-07T06:28:32.699334+00:00'
+fetched_at: '2026-06-14T06:41:59.050396+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:45:24.130532Z'
+  evaluated_at: '2026-06-14T09:58:47.040993Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d970 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5b500 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d970 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5b500 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -62,6 +62,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.497583Z'
-indexed_at: '2026-06-07T10:04:55.497589Z'
+  fetched_at: '2026-06-14T10:18:27.567587Z'
+indexed_at: '2026-06-14T10:18:27.567592Z'
 ---

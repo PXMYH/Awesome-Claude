@@ -1,32 +1,33 @@
 id: analyze-prime-numbers
 slug: analyze-prime-numbers
 name: Analyze Prime Numbers
-description: Claude skill for Analyze Prime Numbers
-prompt_preview: "---\r\nname: analyze-prime-numbers\r\ndescription: >\r\n  Analyze\
-  \ prime numbers using primality tests, factorization algorithms,\r\n  prime distribution\
-  \ analysis, and sieve methods. Covers trial division,\r\n  Miller-Rabin, Sieve of\
-  \ Eratosthenes, and the Prime Number Theorem.\r\n  Use when determining whether\
-  \ an integer is prime or composite, finding\r\n  prime factorizations, counting\
-  \ or listing primes up to a bound, or\r\n  investigating prime properties within\
-  \ a number-theoretic proof or\r\n  computation.\r\nlic..."
-full_prompt_length: 11740
+description: '- `solve-modular-arithmetic` -- Modular arithmetic underpins Miller-Rabin
+  and many factorization methods'
+prompt_preview: "---\nname: analyze-prime-numbers\ndescription: >\n  Analyze prime\
+  \ numbers using primality tests, factorization algorithms,\n  prime distribution\
+  \ analysis, and sieve methods. Covers trial division,\n  Miller-Rabin, Sieve of\
+  \ Eratosthenes, and the Prime Number Theorem.\n  Use when determining whether an\
+  \ integer is prime or composite, finding\n  prime factorizations, counting or listing\
+  \ primes up to a bound, or\n  investigating prime properties within a number-theoretic\
+  \ proof or\n  computation.\nlicense: MIT..."
+full_prompt_length: 11410
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/analyze-prime-numbers/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/analyze-prime-numbers/SKILL.md
-fetched_at: '2026-06-07T06:27:02.391284+00:00'
+fetched_at: '2026-06-14T06:40:57.180216+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:48:34.709862Z'
+  evaluated_at: '2026-06-14T09:01:56.347801Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4f80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4f80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.309213Z'
-indexed_at: '2026-06-07T10:04:54.309218Z'
+  fetched_at: '2026-06-14T10:18:26.637416Z'
+indexed_at: '2026-06-14T10:18:26.637420Z'

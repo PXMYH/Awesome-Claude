@@ -3,30 +3,30 @@ slug: deliver-user-stories
 name: User Stories
 description: See `references/EXAMPLE.md` for a completed example.
 prompt_preview: "---\nname: deliver-user-stories\ndescription: Generates user stories\
-  \ with clear acceptance criteria from product requirements or feature descriptions.\
-  \ Use when breaking down features for sprint planning, writing tickets, or communicating\
-  \ requirements to engineering.\nlicense: Apache-2.0\nmetadata:\n  phase: deliver\n\
-  \  version: \"2.0.0\"\n  updated: 2026-01-26\n  category: specification\n  frameworks:\
-  \ [triple-diamond, lean-startup, design-thinking]\n  author: product-on-purpose\n\
-  ---\n<!-- PM-Skills | https://g..."
-full_prompt_length: 3231
+  \ in the standard persona, action, benefit story format from product requirements\
+  \ or feature descriptions. Use when breaking a feature into stories for sprint planning,\
+  \ writing tickets, or communicating scope to engineering. For testable Given/When/Then\
+  \ acceptance criteria on a story, use deliver-acceptance-criteria; for boundary\
+  \ and failure scenarios, use deliver-edge-cases.\nlicense: Apache-2.0\nmetadata:\n\
+  \  phase: deliver\n  version..."
+full_prompt_length: 4205
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/deliver-user-stories/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/deliver-user-stories/SKILL.md
-fetched_at: '2026-06-07T06:28:17.802674+00:00'
+fetched_at: '2026-06-14T06:41:48.836296+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:36:18.854916Z'
+  evaluated_at: '2026-06-14T09:49:35.384072Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb5be0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ef140 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb5be0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ef140 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.306485Z'
-indexed_at: '2026-06-07T10:04:55.306494Z'
+  fetched_at: '2026-06-14T10:18:27.416228Z'
+indexed_at: '2026-06-14T10:18:27.416232Z'

@@ -1,32 +1,32 @@
 id: write-roxygen-docs
 slug: write-roxygen-docs
 name: Write Roxygen Documentation
-description: Claude skill for Write Roxygen Documentation
-prompt_preview: "---\r\nname: write-roxygen-docs\r\ndescription: >\r\n  Write roxygen2\
-  \ documentation for R package functions, datasets, and\r\n  classes. Covers all\
-  \ standard tags, cross-references, examples,\r\n  and generating NAMESPACE entries.\
-  \ Follows tidyverse documentation style.\r\n  Use when adding documentation to new\
-  \ exported functions, documenting\r\n  internal helpers or datasets, documenting\
-  \ S3/S4/R6 classes and methods,\r\n  or fixing documentation-related R CMD check\
-  \ notes.\r\nlicense: MIT\r\nallowed-tools: Read Write..."
-full_prompt_length: 7207
+description: '- `create-r-package` - initial package setup including roxygen configuration'
+prompt_preview: "---\nname: write-roxygen-docs\ndescription: >\n  Write roxygen2 documentation\
+  \ for R package functions, datasets, and\n  classes. Covers all standard tags, cross-references,\
+  \ examples,\n  and generating NAMESPACE entries. Follows tidyverse documentation\
+  \ style.\n  Use when adding documentation to new exported functions, documenting\n\
+  \  internal helpers or datasets, documenting S3/S4/R6 classes and methods,\n  or\
+  \ fixing documentation-related R CMD check notes.\nlicense: MIT\nallowed-tools:\
+  \ Read Write Edit Bash..."
+full_prompt_length: 6983
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/write-roxygen-docs/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/write-roxygen-docs/SKILL.md
-fetched_at: '2026-06-07T06:28:12.716410+00:00'
+fetched_at: '2026-06-14T06:41:44.981497+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:33:59.346966Z'
+  evaluated_at: '2026-06-14T09:47:17.891365Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0e450 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a1185c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0e450 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a1185c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.258639Z'
-indexed_at: '2026-06-07T10:04:55.258644Z'
+  fetched_at: '2026-06-14T10:18:27.379499Z'
+indexed_at: '2026-06-14T10:18:27.379504Z'

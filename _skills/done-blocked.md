@@ -18,17 +18,17 @@ category_display: Community
 source_repo: avelikiy/great_cto
 source_path: skills/done-blocked/SKILL.md
 source_url: https://github.com/avelikiy/great_cto/blob/main/skills/done-blocked/SKILL.md
-fetched_at: '2026-06-07T06:24:10.910453+00:00'
+fetched_at: '2026-06-14T06:39:07.433213+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T07:25:57.653736Z'
+  evaluated_at: '2026-06-14T07:39:32.791302Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc0b00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a520530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc0b00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a520530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:52.578559Z'
-indexed_at: '2026-06-07T10:04:52.578564Z'
+  fetched_at: '2026-06-14T10:18:25.299349Z'
+indexed_at: '2026-06-14T10:18:25.299353Z'
 ---

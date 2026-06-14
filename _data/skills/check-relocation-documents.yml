@@ -1,32 +1,33 @@
 id: check-relocation-documents
 slug: check-relocation-documents
 name: Check Relocation Documents
-description: Claude skill for Check Relocation Documents
-prompt_preview: "---\r\nname: check-relocation-documents\r\ndescription: >\r\n  Verify\
-  \ document completeness for each bureaucratic step of an EU/DACH\r\n  relocation,\
-  \ flagging missing items and translation requirements. Use after\r\n  creating a\
-  \ relocation plan and before beginning bureaucratic procedures, when\r\n  preparing\
-  \ for a specific appointment (Buergeramt, Finanzamt), when unsure\r\n  which documents\
-  \ need certified translation or apostille, after receiving a\r\n  rejection or request\
-  \ for additional documents, or as a p..."
-full_prompt_length: 14896
+description: '- [plan-eu-relocation](../plan-eu-relocation/SKILL.md) -- Create the
+  relocation plan that feeds into this document check'
+prompt_preview: "---\nname: check-relocation-documents\ndescription: >\n  Verify document\
+  \ completeness for each bureaucratic step of an EU/DACH\n  relocation, flagging\
+  \ missing items and translation requirements. Use after\n  creating a relocation\
+  \ plan and before beginning bureaucratic procedures, when\n  preparing for a specific\
+  \ appointment (Buergeramt, Finanzamt), when unsure\n  which documents need certified\
+  \ translation or apostille, after receiving a\n  rejection or request for additional\
+  \ documents, or as a periodic..."
+full_prompt_length: 14655
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/check-relocation-documents/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/check-relocation-documents/SKILL.md
-fetched_at: '2026-06-07T06:27:10.609234+00:00'
+fetched_at: '2026-06-14T06:41:02.516020+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:53:42.427701Z'
+  evaluated_at: '2026-06-14T09:07:04.935698Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65580 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a119340 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65580 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a119340 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.416903Z'
-indexed_at: '2026-06-07T10:04:54.416908Z'
+  fetched_at: '2026-06-14T10:18:26.723764Z'
+indexed_at: '2026-06-14T10:18:26.723773Z'

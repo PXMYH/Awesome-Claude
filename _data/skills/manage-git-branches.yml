@@ -1,32 +1,32 @@
 id: manage-git-branches
 slug: manage-git-branches
 name: Manage Git Branches
-description: Claude skill for Manage Git Branches
-prompt_preview: "---\r\nname: manage-git-branches\r\ndescription: >\r\n  Create, track,\
-  \ switch, sync, and clean up Git branches. Covers\r\n  naming conventions, safe\
-  \ branch switching with stash, upstream\r\n  synchronization, and pruning merged\
-  \ branches. Use when starting work\r\n  on a new feature or bug fix, switching between\
-  \ tasks on different\r\n  branches, keeping a feature branch up to date with main,\
-  \ or cleaning\r\n  up branches after merging pull requests.\r\nlicense: MIT\r\n\
-  allowed-tools: Read Write Edit Bash Grep Glob\r\nme..."
-full_prompt_length: 7477
+description: '- `commit-changes` - committing work on branches'
+prompt_preview: "---\nname: manage-git-branches\ndescription: >\n  Create, track,\
+  \ switch, sync, and clean up Git branches. Covers\n  naming conventions, safe branch\
+  \ switching with stash, upstream\n  synchronization, and pruning merged branches.\
+  \ Use when starting work\n  on a new feature or bug fix, switching between tasks\
+  \ on different\n  branches, keeping a feature branch up to date with main, or cleaning\n\
+  \  up branches after merging pull requests.\nlicense: MIT\nallowed-tools: Read Write\
+  \ Edit Bash Grep Glob\nmetadata:\n  a..."
+full_prompt_length: 7235
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/manage-git-branches/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/manage-git-branches/SKILL.md
-fetched_at: '2026-06-07T06:27:41.982083+00:00'
+fetched_at: '2026-06-14T06:41:23.602140+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:13:53.196834Z'
+  evaluated_at: '2026-06-14T09:27:15.197080Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0f2f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083020 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0f2f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083020 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.839186Z'
-indexed_at: '2026-06-07T10:04:54.839192Z'
+  fetched_at: '2026-06-14T10:18:27.049672Z'
+indexed_at: '2026-06-14T10:18:27.049677Z'

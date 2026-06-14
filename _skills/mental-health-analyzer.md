@@ -48,17 +48,17 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/mental-health-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/mental-health-analyzer/SKILL.md
-fetched_at: '2026-06-07T06:25:12.482289+00:00'
+fetched_at: '2026-06-14T06:39:50.405127+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:01:06.433427Z'
+  evaluated_at: '2026-06-14T08:14:36.621887Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc0650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4dd0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc0650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4dd0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -68,6 +68,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:53.317172Z'
-indexed_at: '2026-06-07T10:04:53.317178Z'
+  fetched_at: '2026-06-14T10:18:25.867290Z'
+indexed_at: '2026-06-14T10:18:25.867295Z'
 ---

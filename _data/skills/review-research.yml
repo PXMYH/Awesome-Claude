@@ -1,32 +1,32 @@
 id: review-research
 slug: review-research
 name: Review Research
-description: Claude skill for Review Research
-prompt_preview: "---\r\nname: review-research\r\ndescription: >\r\n  Conduct a peer\
-  \ review of research methodology, experimental design, and\r\n  manuscript quality.\
-  \ Covers methodology evaluation, statistical appropriateness,\r\n  reproducibility\
-  \ assessment, bias identification, and constructive feedback.\r\n  Use when reviewing\
-  \ a manuscript, preprint, or internal research report,\r\n  evaluating a research\
-  \ proposal or study protocol, assessing evidence quality\r\n  behind a claim, or\
-  \ reviewing a thesis chapter or dissertation..."
-full_prompt_length: 9708
+description: '- `review-data-analysis` — deeper focus on data quality and model validation'
+prompt_preview: "---\nname: review-research\ndescription: >\n  Conduct a peer review\
+  \ of research methodology, experimental design, and\n  manuscript quality. Covers\
+  \ methodology evaluation, statistical appropriateness,\n  reproducibility assessment,\
+  \ bias identification, and constructive feedback.\n  Use when reviewing a manuscript,\
+  \ preprint, or internal research report,\n  evaluating a research proposal or study\
+  \ protocol, assessing evidence quality\n  behind a claim, or reviewing a thesis\
+  \ chapter or dissertation section...."
+full_prompt_length: 9479
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/review-research/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/review-research/SKILL.md
-fetched_at: '2026-06-07T06:27:57.329841+00:00'
+fetched_at: '2026-06-14T06:41:34.489766+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:23:46.807064Z'
+  evaluated_at: '2026-06-14T09:37:09.574452Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc338f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082210 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc338f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082210 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.045895Z'
-indexed_at: '2026-06-07T10:04:55.045900Z'
+  fetched_at: '2026-06-14T10:18:27.211285Z'
+indexed_at: '2026-06-14T10:18:27.211290Z'

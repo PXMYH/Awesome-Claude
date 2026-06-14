@@ -1,34 +1,35 @@
 id: identify-gemstone
 slug: identify-gemstone
 name: Identify Gemstone
-description: Claude skill for Identify Gemstone
-prompt_preview: "---\r\nname: identify-gemstone\r\ndescription: >\r\n  Identify gemstones\
-  \ using optical properties, physical tests, and\r\n  inclusion analysis. Covers\
-  \ refractive index, specific gravity,\r\n  pleochroism, spectroscopy indicators,\
-  \ and common simulant detection.\r\n  Use when identifying an unknown gemstone,\
-  \ verifying a seller's claim about\r\n  species identity, distinguishing natural\
-  \ stones from simulants or synthetics,\r\n  building gemological literacy through\
-  \ structured observation, or identifying\r\n  rough m..."
-full_prompt_length: 16959
+description: '- `cut-gemstone` — Identification determines safe cutting parameters
+  and orientation requirements for the species'
+prompt_preview: "---\nname: identify-gemstone\ndescription: >\n  Identify gemstones\
+  \ using optical properties, physical tests, and\n  inclusion analysis. Covers refractive\
+  \ index, specific gravity,\n  pleochroism, spectroscopy indicators, and common simulant\
+  \ detection.\n  Use when identifying an unknown gemstone, verifying a seller's claim\
+  \ about\n  species identity, distinguishing natural stones from simulants or synthetics,\n\
+  \  building gemological literacy through structured observation, or identifying\n\
+  \  rough material b..."
+full_prompt_length: 16688
 tools_mentioned:
-- Ruby
 - angular
+- Ruby
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/identify-gemstone/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/identify-gemstone/SKILL.md
-fetched_at: '2026-06-07T06:27:35.358130+00:00'
+fetched_at: '2026-06-14T06:41:19.208880+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:09:32.602641Z'
+  evaluated_at: '2026-06-14T09:22:56.173607Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88980 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a118c20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88980 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a118c20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.748422Z'
-indexed_at: '2026-06-07T10:04:54.748427Z'
+  fetched_at: '2026-06-14T10:18:26.979542Z'
+indexed_at: '2026-06-14T10:18:26.979546Z'

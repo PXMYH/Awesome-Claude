@@ -4,31 +4,31 @@ name: 'deepTools: NGS Data Analysis Toolkit'
 description: '- **File validation first**: Always validate input files before analysis'
 prompt_preview: "---\nname: deeptools\ndescription: NGS analysis toolkit. BAM to bigWig\
   \ conversion, QC (correlation, PCA, fingerprints), heatmaps/profiles (TSS, peaks),\
-  \ for ChIP-seq, RNA-seq, ATAC-seq visualization.\nlicense: BSD license\nmetadata:\n\
-  \  version: \"1.0\"\n  skill-author: K-Dense Inc.\n---\n\n# deepTools: NGS Data\
-  \ Analysis Toolkit\n\n## Overview\n\ndeepTools is a comprehensive suite of Python\
-  \ command-line tools designed for processing and analyzing high-throughput sequencing\
-  \ data. Use deepTools to perform quality..."
-full_prompt_length: 17979
+  \ for ChIP-seq, RNA-seq, ATAC-seq visualization.\nlicense: BSD license\nallowed-tools:\n\
+  \  - Read\n  - Write\n  - Edit\n  - Bash\ncompatibility: Requires Python >3.8 and\
+  \ deepTools 3.5.6-compatible dependencies. The upstream project recommends conda/bioconda\
+  \ for full dependency resolution; repo examples use uv with pinned PyPI installs\
+  \ for reproducible comman..."
+full_prompt_length: 19164
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/deeptools/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/deeptools/SKILL.md
-fetched_at: '2026-06-07T06:22:47.487054+00:00'
+fetched_at: '2026-06-14T06:38:11.885832+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:37:32.766691Z'
+  evaluated_at: '2026-06-14T06:50:51.321486Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff7d8b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a71f5f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff7d8b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a71f5f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.532133Z'
-indexed_at: '2026-06-07T10:04:51.532139Z'
+  fetched_at: '2026-06-14T10:18:24.497360Z'
+indexed_at: '2026-06-14T10:18:24.497364Z'

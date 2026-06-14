@@ -1,15 +1,16 @@
 id: decommission-validated-system
 slug: decommission-validated-system
 name: Decommission Validated System
-description: Claude skill for Decommission Validated System
-prompt_preview: "---\r\nname: decommission-validated-system\r\ndescription: >\r\n\
-  \  Decommission a validated computerized system at end-of-life. Covers data\r\n\
-  \  retention assessment by regulation, data migration validation (mapping,\r\n \
-  \ transformation, reconciliation), archival strategy, access revocation,\r\n  documentation\
-  \ archival, and stakeholder notification. Use when a validated\r\n  system is being\
-  \ replaced, reaching end-of-life without replacement, vendor\r\n  support is discontinued,\
-  \ multiple systems are consolidating..."
-full_prompt_length: 10769
+description: '- `design-compliance-architecture` — update the system inventory and
+  compliance architecture after decommission'
+prompt_preview: "---\nname: decommission-validated-system\ndescription: >\n  Decommission\
+  \ a validated computerized system at end-of-life. Covers data\n  retention assessment\
+  \ by regulation, data migration validation (mapping,\n  transformation, reconciliation),\
+  \ archival strategy, access revocation,\n  documentation archival, and stakeholder\
+  \ notification. Use when a validated\n  system is being replaced, reaching end-of-life\
+  \ without replacement, vendor\n  support is discontinued, multiple systems are consolidating,\
+  \ or reg..."
+full_prompt_length: 10559
 tools_mentioned:
 - go
 - GCP
@@ -18,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/decommission-validated-system/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/decommission-validated-system/SKILL.md
-fetched_at: '2026-06-07T06:27:21.008728+00:00'
+fetched_at: '2026-06-14T06:41:09.260132+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:00:20.897152Z'
+  evaluated_at: '2026-06-14T09:13:44.732997Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0f470 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082ed0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0f470 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082ed0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.556359Z'
-indexed_at: '2026-06-07T10:04:54.556365Z'
+  fetched_at: '2026-06-14T10:18:26.831095Z'
+indexed_at: '2026-06-14T10:18:26.831099Z'

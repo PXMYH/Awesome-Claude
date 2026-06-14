@@ -2,39 +2,40 @@
 id: annotate-source-files
 slug: annotate-source-files
 name: Annotate Source Files
-description: Claude skill for Annotate Source Files
-prompt_preview: "---\r\nname: annotate-source-files\r\ndescription: >\r\n  Add PUT\
-  \ workflow annotations to source files using the correct\r\n  language-specific\
-  \ comment prefix. Covers annotation syntax, skeleton\r\n  generation via put_generate(),\
-  \ multiline annotations, .internal\r\n  variables, and validation. Supports 30+\
-  \ languages with automatic\r\n  comment prefix detection. Use after analyzing a\
-  \ codebase and having an\r\n  annotation plan, when adding workflow documentation\
-  \ to new or existing\r\n  source files, or when docum..."
-full_prompt_length: 12404
+description: '- `analyze-codebase-workflow` — prerequisite: produces the annotation
+  plan this skill follows'
+prompt_preview: "---\nname: annotate-source-files\ndescription: >\n  Add PUT workflow\
+  \ annotations to source files using the correct\n  language-specific comment prefix.\
+  \ Covers annotation syntax, skeleton\n  generation via put_generate(), multiline\
+  \ annotations, .internal\n  variables, and validation. Supports 30+ languages with\
+  \ automatic\n  comment prefix detection. Use after analyzing a codebase and having\
+  \ an\n  annotation plan, when adding workflow documentation to new or existing\n\
+  \  source files, or when documenting da..."
+full_prompt_length: 12131
 tools_mentioned:
 - go
-- javascript
-- Rust
-- Python
 - Go
+- Python
+- Rust
 - Java
 - typescript
+- javascript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/annotate-source-files/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/annotate-source-files/SKILL.md
-fetched_at: '2026-06-07T06:27:02.800918+00:00'
+fetched_at: '2026-06-14T06:40:57.457310+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:48:51.202948Z'
+  evaluated_at: '2026-06-14T09:02:12.528654Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2e40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ef440 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2e40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ef440 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.314958Z'
-indexed_at: '2026-06-07T10:04:54.314964Z'
+  fetched_at: '2026-06-14T10:18:26.641846Z'
+indexed_at: '2026-06-14T10:18:26.641851Z'
 ---

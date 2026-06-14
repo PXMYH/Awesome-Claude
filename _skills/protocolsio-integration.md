@@ -14,26 +14,26 @@ prompt_preview: '---
   comments; organize workspaces; upload and manage files; or integrate protocols.io
   functionality into workflows. Applicable for protocol discovery, collaborative protocol
   development, experiment tracking, lab protocol m...'
-full_prompt_length: 14905
+full_prompt_length: 14910
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/protocolsio-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/protocolsio-integration/SKILL.md
-fetched_at: '2026-06-07T06:23:00.633810+00:00'
+fetched_at: '2026-06-14T06:38:20.452169+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:46:41.354177Z'
+  evaluated_at: '2026-06-14T07:00:15.417234Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8a630 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8a630 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.742427Z'
-indexed_at: '2026-06-07T10:04:51.742432Z'
+  fetched_at: '2026-06-14T10:18:24.649424Z'
+indexed_at: '2026-06-14T10:18:24.649429Z'
 ---

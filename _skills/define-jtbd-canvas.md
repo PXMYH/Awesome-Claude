@@ -7,10 +7,10 @@ prompt_preview: "---\nname: define-jtbd-canvas\ndescription: Creates a Jobs to b
   \ Done canvas capturing the functional, emotional, and social dimensions of a customer\
   \ job. Use when deeply understanding customer motivations, designing for jobs, or\
   \ reframing product positioning.\nlicense: Apache-2.0\nmetadata:\n  phase: define\n\
-  \  version: \"2.0.0\"\n  updated: 2026-01-26\n  category: problem-framing\n  frameworks:\
+  \  version: \"2.1.0\"\n  updated: 2026-06-10\n  category: problem-framing\n  frameworks:\
   \ [triple-diamond, lean-startup, design-thinking]\n  author: product-on-purpose\n\
   ---\n<!-- PM-Skills | https://github..."
-full_prompt_length: 3491
+full_prompt_length: 4327
 tools_mentioned:
 - Go
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/define-jtbd-canvas/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/define-jtbd-canvas/SKILL.md
-fetched_at: '2026-06-07T06:28:16.162043+00:00'
+fetched_at: '2026-06-14T06:41:47.796252+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:35:05.025904Z'
+  evaluated_at: '2026-06-14T09:48:22.605734Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc89250 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083110 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc89250 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083110 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.280939Z'
-indexed_at: '2026-06-07T10:04:55.280945Z'
+  fetched_at: '2026-06-14T10:18:27.396725Z'
+indexed_at: '2026-06-14T10:18:27.396730Z'
 ---

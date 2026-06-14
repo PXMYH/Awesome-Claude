@@ -2,36 +2,36 @@
 id: deploy-to-vercel
 slug: deploy-to-vercel
 name: Deploy to Vercel
-description: Claude skill for Deploy to Vercel
-prompt_preview: "---\r\nname: deploy-to-vercel\r\ndescription: >\r\n  Deploy a Next.js\
-  \ application to Vercel. Covers project linking,\r\n  environment variables, preview\
-  \ deployments, custom domains,\r\n  and production deployment configuration. Use\
-  \ when deploying a Next.js\r\n  app for the first time, setting up preview deployments\
-  \ for pull requests,\r\n  configuring custom domains, or managing environment variables\
-  \ in\r\n  a production Vercel deployment.\r\nlicense: MIT\r\nallowed-tools: Read\
-  \ Write Edit Bash Grep Glob\r\nmetadata:..."
-full_prompt_length: 6611
+description: '- `scaffold-nextjs-app` - create the app to deploy'
+prompt_preview: "---\nname: deploy-to-vercel\ndescription: >\n  Deploy a Next.js application\
+  \ to Vercel. Covers project linking,\n  environment variables, preview deployments,\
+  \ custom domains,\n  and production deployment configuration. Use when deploying\
+  \ a Next.js\n  app for the first time, setting up preview deployments for pull requests,\n\
+  \  configuring custom domains, or managing environment variables in\n  a production\
+  \ Vercel deployment.\nlicense: MIT\nallowed-tools: Read Write Edit Bash Grep Glob\n\
+  metadata:\n  author: Ph..."
+full_prompt_length: 6431
 tools_mentioned:
-- TypeScript
-- Node.js
 - Go
+- Node.js
 - typescript
+- TypeScript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/deploy-to-vercel/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/deploy-to-vercel/SKILL.md
-fetched_at: '2026-06-07T06:27:22.882592+00:00'
+fetched_at: '2026-06-14T06:41:10.544124+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:01:33.727340Z'
+  evaluated_at: '2026-06-14T09:14:57.551219Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d460 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5af30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d460 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5af30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.581961Z'
-indexed_at: '2026-06-07T10:04:54.581967Z'
+  fetched_at: '2026-06-14T10:18:26.850879Z'
+indexed_at: '2026-06-14T10:18:26.850884Z'
 ---

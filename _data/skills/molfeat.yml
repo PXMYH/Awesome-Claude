@@ -2,33 +2,47 @@ id: molfeat
 slug: molfeat
 name: Molfeat - Molecular Featurization Hub
 description: '- **Official Documentation**: https://molfeat-docs.datamol.io/'
-prompt_preview: "---\nname: molfeat\ndescription: Molecular featurization for ML (100+\
-  \ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert\
-  \ SMILES to features, for QSAR and molecular ML.\nlicense: Apache-2.0 license\n\
-  allowed-tools: Read Write Edit Bash\ncompatibility: Requires Python 3.9–3.10 (molfeat\
-  \ 0.11.0 does not support 3.11+). Requires datamol, PyTorch, and optional extras\
-  \ for GNN/transformer models.\nmetadata:\n  version: \"1.0\"\n  skill-author: K-Dense\
-  \ Inc.\n---\n\n# Molfeat - Molecular Fea..."
-full_prompt_length: 16371
+prompt_preview: '---
+
+  name: molfeat
+
+  description: Molecular featurization for ML (100+ featurizers). ECFP, MACCS, descriptors,
+  pretrained models (ChemBERTa), convert SMILES to features, for QSAR and molecular
+  ML.
+
+  license: Apache-2.0 license
+
+  allowed-tools: Read Write Edit Bash
+
+  compatibility: Requires Python 3.9–3.10 (molfeat 0.11.0 does not support 3.11+).
+  Requires datamol, PyTorch, and optional extras for GNN/transformer models.
+
+  metadata: {"version": "1.0", "skill-author": "K-Dense Inc."}
+
+  ---
+
+
+  # Molfeat - Molecula...'
+full_prompt_length: 16376
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/molfeat/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/molfeat/SKILL.md
-fetched_at: '2026-06-07T06:22:55.969256+00:00'
+fetched_at: '2026-06-14T06:38:17.328270+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:43:25.531639Z'
+  evaluated_at: '2026-06-14T06:56:51.915057Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450038f8c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a91ca70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450038f8c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a91ca70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +52,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.659740Z'
-indexed_at: '2026-06-07T10:04:51.659746Z'
+  fetched_at: '2026-06-14T10:18:24.594656Z'
+indexed_at: '2026-06-14T10:18:24.594661Z'

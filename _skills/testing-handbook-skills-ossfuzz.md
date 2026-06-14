@@ -13,28 +13,28 @@ prompt_preview: "---\nname: ossfuzz\ntype: technique\ndescription: >\n  OSS-Fuzz
 full_prompt_length: 16124
 tools_mentioned:
 - go
-- rust
-- Rust
 - Python
-- python
-- docker
 - Docker
+- Rust
+- docker
+- rust
+- python
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/ossfuzz/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/ossfuzz/SKILL.md
-fetched_at: '2026-06-07T06:29:10.699437+00:00'
+fetched_at: '2026-06-14T06:42:27.295223+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:59:43.266063Z'
+  evaluated_at: '2026-06-14T10:13:15.096543Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc889e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11a660 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc889e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11a660 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.801255Z'
-indexed_at: '2026-06-07T10:04:55.801260Z'
+  fetched_at: '2026-06-14T10:18:27.806974Z'
+indexed_at: '2026-06-14T10:18:27.806979Z'
 ---

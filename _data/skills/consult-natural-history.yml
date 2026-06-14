@@ -1,15 +1,16 @@
 id: consult-natural-history
 slug: consult-natural-history
 name: Consult Natural History
-description: Claude skill for Consult Natural History
-prompt_preview: "---\r\nname: consult-natural-history\r\ndescription: >\r\n  Reference\
-  \ Hildegard von Bingen's Physica natural history knowledge. Covers\r\n  classification\
-  \ of plants, stones, animals, fish, birds, elements, and trees\r\n  with their medicinal,\
-  \ symbolic, and practical properties. Enables cross-\r\n  referencing between categories\
-  \ and application guidance. Use when exploring\r\n  a specific plant, stone, or\
-  \ animal from Hildegard's perspective, researching\r\n  medieval natural history\
-  \ and cosmology, cross-referenc..."
-full_prompt_length: 17753
+description: '- `formulate-herbal-remedy` — Uses *Physica* Book I (Plants) as primary
+  source'
+prompt_preview: "---\nname: consult-natural-history\ndescription: >\n  Reference Hildegard\
+  \ von Bingen's Physica natural history knowledge. Covers\n  classification of plants,\
+  \ stones, animals, fish, birds, elements, and trees\n  with their medicinal, symbolic,\
+  \ and practical properties. Enables cross-\n  referencing between categories and\
+  \ application guidance. Use when exploring\n  a specific plant, stone, or animal\
+  \ from Hildegard's perspective, researching\n  medieval natural history and cosmology,\
+  \ cross-referencing prop..."
+full_prompt_length: 17420
 tools_mentioned:
 - rest
 category: community
@@ -17,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/consult-natural-history/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/consult-natural-history/SKILL.md
-fetched_at: '2026-06-07T06:27:15.621337+00:00'
+fetched_at: '2026-06-14T06:41:05.657179+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:56:50.053251Z'
+  evaluated_at: '2026-06-14T09:10:13.225530Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500b97f80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f585c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500b97f80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f585c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.482526Z'
-indexed_at: '2026-06-07T10:04:54.482532Z'
+  fetched_at: '2026-06-14T10:18:26.774458Z'
+indexed_at: '2026-06-14T10:18:26.774462Z'

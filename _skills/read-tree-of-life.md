@@ -2,32 +2,33 @@
 id: read-tree-of-life
 slug: read-tree-of-life
 name: Read Tree of Life
-description: Claude skill for Read Tree of Life
-prompt_preview: "---\r\nname: read-tree-of-life\r\ndescription: >\r\n  Navigate the\
-  \ Kabbalistic Tree of Life (Etz Chaim) — explore the ten\r\n  sephirot, twenty-two\
-  \ paths, four worlds, and three pillars. Covers\r\n  correspondences, contemplative\
-  \ exercises, and structural analysis. Use\r\n  when exploring a sephira's attributes\
-  \ and divine names, studying structural\r\n  relationships between sephirot, learning\
-  \ the four worlds (Atzilut through\r\n  Assiah), tracing a path's Hebrew letter\
-  \ and tarot attributions, or using\r\n  the T..."
-full_prompt_length: 15847
+description: '- `apply-gematria` — Compute numerical values of divine names and sephirotic
+  titles for deeper analysis'
+prompt_preview: "---\nname: read-tree-of-life\ndescription: >\n  Navigate the Kabbalistic\
+  \ Tree of Life (Etz Chaim) — explore the ten\n  sephirot, twenty-two paths, four\
+  \ worlds, and three pillars. Covers\n  correspondences, contemplative exercises,\
+  \ and structural analysis. Use\n  when exploring a sephira's attributes and divine\
+  \ names, studying structural\n  relationships between sephirot, learning the four\
+  \ worlds (Atzilut through\n  Assiah), tracing a path's Hebrew letter and tarot attributions,\
+  \ or using\n  the Tree as a..."
+full_prompt_length: 15587
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/read-tree-of-life/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/read-tree-of-life/SKILL.md
-fetched_at: '2026-06-07T06:27:53.186276+00:00'
+fetched_at: '2026-06-14T06:41:31.767413+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:21:04.662858Z'
+  evaluated_at: '2026-06-14T09:34:27.249790Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc655e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ed940 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc655e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ed940 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.989234Z'
-indexed_at: '2026-06-07T10:04:54.989239Z'
+  fetched_at: '2026-06-14T10:18:27.166954Z'
+indexed_at: '2026-06-14T10:18:27.166959Z'
 ---

@@ -2,15 +2,16 @@
 id: analyze-magnetic-levitation
 slug: analyze-magnetic-levitation
 name: Analyze Magnetic Levitation
-description: Claude skill for Analyze Magnetic Levitation
-prompt_preview: "---\r\nname: analyze-magnetic-levitation\r\ndescription: >\r\n  Analyze\
-  \ magnetic levitation systems by applying Earnshaw's theorem to determine\r\n  whether\
-  \ passive static levitation is possible, then identifying the appropriate\r\n  circumvention\
-  \ mechanism (diamagnetic, superconducting, active feedback, or\r\n  spin-stabilized).\
-  \ Use when evaluating maglev transport, magnetic bearings,\r\n  superconducting\
-  \ levitation, diamagnetic suspension, or Levitron-type devices.\r\n  Covers force\
-  \ balance calculations, stab..."
-full_prompt_length: 17786
+description: '- `evaluate-levitation-mechanism` -- comparative analysis to select
+  the best levitation approach for an application'
+prompt_preview: "---\nname: analyze-magnetic-levitation\ndescription: >\n  Analyze\
+  \ magnetic levitation systems by applying Earnshaw's theorem to determine\n  whether\
+  \ passive static levitation is possible, then identifying the appropriate\n  circumvention\
+  \ mechanism (diamagnetic, superconducting, active feedback, or\n  spin-stabilized).\
+  \ Use when evaluating maglev transport, magnetic bearings,\n  superconducting levitation,\
+  \ diamagnetic suspension, or Levitron-type devices.\n  Covers force balance calculations,\
+  \ stability an..."
+full_prompt_length: 17579
 tools_mentioned:
 - angular
 category: community
@@ -18,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/analyze-magnetic-levitation/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/analyze-magnetic-levitation/SKILL.md
-fetched_at: '2026-06-07T06:27:02.154100+00:00'
+fetched_at: '2026-06-14T06:40:57.046338+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:48:26.635086Z'
+  evaluated_at: '2026-06-14T09:01:48.247520Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2ab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4560 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc2ab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4560 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.306376Z'
-indexed_at: '2026-06-07T10:04:54.306381Z'
+  fetched_at: '2026-06-14T10:18:26.635231Z'
+indexed_at: '2026-06-14T10:18:26.635235Z'
 ---

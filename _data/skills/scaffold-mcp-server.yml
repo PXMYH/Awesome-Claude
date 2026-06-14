@@ -1,38 +1,39 @@
 id: scaffold-mcp-server
 slug: scaffold-mcp-server
 name: Scaffold MCP Server
-description: Claude skill for Scaffold MCP Server
-prompt_preview: "---\r\nname: scaffold-mcp-server\r\ndescription: >\r\n  Scaffold\
-  \ a new MCP server from tool specifications using the official SDK\r\n  (TypeScript\
-  \ or Python), including transport configuration, tool handlers,\r\n  and test harness.\
-  \ Use when you have a tool specification and need a working\r\n  server, when starting\
-  \ a new MCP server project and want correct structure\r\n  from the start, when\
-  \ migrating an existing tool integration to the MCP\r\n  protocol, or when prototyping\
-  \ a tool surface to test with Claude C..."
-full_prompt_length: 13463
+description: '- `analyze-codebase-for-mcp` - generate the tool specification this
+  skill consumes'
+prompt_preview: "---\nname: scaffold-mcp-server\ndescription: >\n  Scaffold a new\
+  \ MCP server from tool specifications using the official SDK\n  (TypeScript or Python),\
+  \ including transport configuration, tool handlers,\n  and test harness. Use when\
+  \ you have a tool specification and need a working\n  server, when starting a new\
+  \ MCP server project and want correct structure\n  from the start, when migrating\
+  \ an existing tool integration to the MCP\n  protocol, or when prototyping a tool\
+  \ surface to test with Claude Code befo..."
+full_prompt_length: 13080
 tools_mentioned:
-- TypeScript
 - Python
-- python
-- Node.js
 - Docker
 - typescript
+- Node.js
+- python
+- TypeScript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/scaffold-mcp-server/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/scaffold-mcp-server/SKILL.md
-fetched_at: '2026-06-07T06:27:59.478784+00:00'
+fetched_at: '2026-06-14T06:41:35.835441+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:25:08.960444Z'
+  evaluated_at: '2026-06-14T09:38:30.667632Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8b650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083290 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8b650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083290 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +43,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.074065Z'
-indexed_at: '2026-06-07T10:04:55.074070Z'
+  fetched_at: '2026-06-14T10:18:27.234446Z'
+indexed_at: '2026-06-14T10:18:27.234452Z'

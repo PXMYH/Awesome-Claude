@@ -20,28 +20,28 @@ prompt_preview: '---
   URIs.
 
   metad...'
-full_prompt_length: 15147
+full_prompt_length: 15152
 tools_mentioned:
 - AWS
-- Python
-- python
 - Azure
+- python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/polars-bio/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/polars-bio/SKILL.md
-fetched_at: '2026-06-07T06:22:59.662152+00:00'
+fetched_at: '2026-06-14T06:38:19.784912+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:45:59.929483Z'
+  evaluated_at: '2026-06-14T06:59:34.157145Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8ab40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187affb320 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8ab40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187affb320 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,5 +51,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.726688Z'
-indexed_at: '2026-06-07T10:04:51.726697Z'
+  fetched_at: '2026-06-14T10:18:24.638455Z'
+indexed_at: '2026-06-14T10:18:24.638459Z'

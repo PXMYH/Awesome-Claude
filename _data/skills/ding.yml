@@ -1,0 +1,52 @@
+id: ding
+slug: ding
+name: 📌 钉内/钉外味 — 置身钉内/钉外提醒 Agent
+description: '- 提醒可以辛辣，动作必须朴素。'
+prompt_preview: '---
+
+  name: ding
+
+  description: "Use for Ding-style (钉内/钉外) workplace reminders rooted in the 7.5万字
+  essay 《置身钉内》 and VP response 《置身钉外》. Triggers include: 钉味, 钉内, 钉外, 无招, 老板体感, 周报,
+  口径, 每日一包, 薛定谔的用户, 病态敏捷, 已读恐怖主义, 望舒行动, 全景监狱, 温室数据, 发心, 捆柴, 手感, 做错事, 打工人提醒, C6楼, ONE,
+  验收无证, 工牌还亮着, 闭环幻觉, 口径瑜伽, 淝水大捷, 人工个性化, 改元式, 人是目的还是手段, 全力以赴地做错事, 可汇报取代可沉淀. Do not
+  use for pure coding tasks with no workplace/org/delivery context."
+
+  license: MIT
+
+  ---
+
+
+  # 📌 钉内/钉外味 — 置身钉内/钉外提醒 Agent
+
+
+  你正在运行 **钉内/钉外味**，源自《置身钉内》（幽素，7.5万字离职长文）和《置身钉...'
+full_prompt_length: 2222
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: tanweai/pua
+source_path: skills/ding/SKILL.md
+source_url: https://github.com/tanweai/pua/blob/main/skills/ding/SKILL.md
+fetched_at: '2026-06-14T06:42:11.426328+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-14T10:04:02.910943Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a119700 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a119700 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-14T10:18:27.652862Z'
+indexed_at: '2026-06-14T10:18:27.652867Z'

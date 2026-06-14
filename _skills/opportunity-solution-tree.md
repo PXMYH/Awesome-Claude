@@ -19,17 +19,17 @@ category_display: Community
 source_repo: avelikiy/great_cto
 source_path: skills/opportunity-solution-tree/SKILL.md
 source_url: https://github.com/avelikiy/great_cto/blob/main/skills/opportunity-solution-tree/SKILL.md
-fetched_at: '2026-06-07T06:24:11.488825+00:00'
+fetched_at: '2026-06-14T06:39:07.747774+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T07:26:13.817117Z'
+  evaluated_at: '2026-06-14T07:39:48.949287Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff90320 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187abbfc20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff90320 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187abbfc20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:52.584236Z'
-indexed_at: '2026-06-07T10:04:52.584245Z'
+  fetched_at: '2026-06-14T10:18:25.303848Z'
+indexed_at: '2026-06-14T10:18:25.303853Z'
 ---

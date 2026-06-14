@@ -13,28 +13,28 @@ prompt_preview: "---\nname: provision-infrastructure-terraform\ndescription: >\n
 full_prompt_length: 14053
 tools_mentioned:
 - go
-- AWS
 - Azure
-- aws
 - Kubernetes
-- GCP
+- AWS
 - kubernetes
+- GCP
+- aws
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/provision-infrastructure-terraform/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/provision-infrastructure-terraform/SKILL.md
-fetched_at: '2026-06-07T06:27:51.910596+00:00'
+fetched_at: '2026-06-14T06:41:30.736591+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:20:15.740204Z'
+  evaluated_at: '2026-06-14T09:33:38.525238Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67e90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3fd700 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67e90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3fd700 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.972188Z'
-indexed_at: '2026-06-07T10:04:54.972194Z'
+  fetched_at: '2026-06-14T10:18:27.153745Z'
+indexed_at: '2026-06-14T10:18:27.153749Z'
 ---

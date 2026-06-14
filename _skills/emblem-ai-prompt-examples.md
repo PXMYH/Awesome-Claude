@@ -29,17 +29,17 @@ category_display: Community
 source_repo: EmblemCompany/Agent-skills
 source_path: skills/emblem-ai-prompt-examples/SKILL.md
 source_url: https://github.com/EmblemCompany/Agent-skills/blob/main/skills/emblem-ai-prompt-examples/SKILL.md
-fetched_at: '2026-06-07T06:22:34.718187+00:00'
+fetched_at: '2026-06-14T06:38:02.979685+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:31:08.928500Z'
+  evaluated_at: '2026-06-14T06:44:21.641322Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500bf8bf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3ab740 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4500bf8bf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3ab740 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.388219Z'
-indexed_at: '2026-06-07T10:04:51.388224Z'
+  fetched_at: '2026-06-14T10:18:24.391142Z'
+indexed_at: '2026-06-14T10:18:24.391147Z'
 ---

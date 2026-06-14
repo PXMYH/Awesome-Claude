@@ -27,29 +27,29 @@ prompt_preview: '---
 full_prompt_length: 8040
 tools_mentioned:
 - go
-- rust
-- Rust
-- TypeScript
-- Python
 - Go
-- python
+- Python
 - Docker
+- Rust
+- rust
+- python
+- TypeScript
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/devcontainer-setup/skills/devcontainer-setup/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/devcontainer-setup/skills/devcontainer-setup/SKILL.md
-fetched_at: '2026-06-07T06:28:58.549498+00:00'
+fetched_at: '2026-06-14T06:42:18.869471+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:54:51.273671Z'
+  evaluated_at: '2026-06-14T10:08:23.382300Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc663f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0eeab0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc663f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0eeab0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -59,6 +59,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.696086Z'
-indexed_at: '2026-06-07T10:04:55.696092Z'
+  fetched_at: '2026-06-14T10:18:27.724339Z'
+indexed_at: '2026-06-14T10:18:27.724344Z'
 ---

@@ -13,7 +13,7 @@ prompt_preview: '---
   asks "what''s my thinking style", "analyze how this person reasons", "cognitive
   profile", "thinking pattern", "DHDNA", "digital DNA", or wants to understand the
   mind behind any text. Also trigger when the user provides text a...'
-full_prompt_length: 9632
+full_prompt_length: 9637
 tools_mentioned:
 - go
 category: scientific
@@ -21,17 +21,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/dhdna-profiler/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/dhdna-profiler/SKILL.md
-fetched_at: '2026-06-07T06:22:47.979354+00:00'
+fetched_at: '2026-06-14T06:38:12.119104+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:37:48.928688Z'
+  evaluated_at: '2026-06-14T06:51:09.035023Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67b30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a9d6330 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67b30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a9d6330 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.538091Z'
-indexed_at: '2026-06-07T10:04:51.538099Z'
+  fetched_at: '2026-06-14T10:18:24.501785Z'
+indexed_at: '2026-06-14T10:18:24.501789Z'
 ---

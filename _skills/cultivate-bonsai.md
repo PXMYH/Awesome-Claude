@@ -2,32 +2,33 @@
 id: cultivate-bonsai
 slug: cultivate-bonsai
 name: Cultivate Bonsai
-description: Claude skill for Cultivate Bonsai
-prompt_preview: "---\r\nname: cultivate-bonsai\r\ndescription: >\r\n  Cultivate bonsai\
-  \ trees from species selection through long-term seasonal care.\r\n  Covers species\
-  \ suitability, structural and maintenance pruning, wiring technique,\r\n  repotting\
-  \ protocol, soil mix preparation, seasonal care schedules, and\r\n  contemplative\
-  \ sitting practice. Use when selecting a species for a first or next\r\n  bonsai,\
-  \ performing structural or maintenance pruning, repotting when roots are\r\n  circling\
-  \ or growth has stalled, wiring branche..."
-full_prompt_length: 14431
+description: '- `prepare-soil` — Soil mix preparation overlaps with bonsai substrate
+  knowledge'
+prompt_preview: "---\nname: cultivate-bonsai\ndescription: >\n  Cultivate bonsai trees\
+  \ from species selection through long-term seasonal care.\n  Covers species suitability,\
+  \ structural and maintenance pruning, wiring technique,\n  repotting protocol, soil\
+  \ mix preparation, seasonal care schedules, and\n  contemplative sitting practice.\
+  \ Use when selecting a species for a first or next\n  bonsai, performing structural\
+  \ or maintenance pruning, repotting when roots are\n  circling or growth has stalled,\
+  \ wiring branches for sh..."
+full_prompt_length: 14161
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/cultivate-bonsai/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/cultivate-bonsai/SKILL.md
-fetched_at: '2026-06-07T06:27:20.183010+00:00'
+fetched_at: '2026-06-14T06:41:08.675261+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:59:48.577935Z'
+  evaluated_at: '2026-06-14T09:13:12.057534Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3fd340 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3fd340 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.545128Z'
-indexed_at: '2026-06-07T10:04:54.545133Z'
+  fetched_at: '2026-06-14T10:18:26.822364Z'
+indexed_at: '2026-06-14T10:18:26.822369Z'
 ---

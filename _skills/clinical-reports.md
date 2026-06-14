@@ -3,14 +3,21 @@ id: clinical-reports
 slug: clinical-reports
 name: Clinical Report Writing
 description: ''
-prompt_preview: "---\nname: clinical-reports\ndescription: Write comprehensive clinical\
-  \ reports including case reports (CARE guidelines), diagnostic reports (radiology/pathology/lab),\
-  \ clinical trial reports (ICH-E3, SAE, CSR), and patient documentation (SOAP, H&P,\
-  \ discharge summaries). Full support with templates, regulatory compliance (HIPAA,\
-  \ FDA, ICH-GCP), and validation tools.\nallowed-tools: Read Write Edit Bash\nlicense:\
-  \ MIT License\nmetadata:\n  version: \"1.0\"\n  skill-author: K-Dense Inc.\n---\n\
-  \n# Clinical Report..."
-full_prompt_length: 39701
+prompt_preview: '---
+
+  name: clinical-reports
+
+  description: Write comprehensive clinical reports including case reports (CARE guidelines),
+  diagnostic reports (radiology/pathology/lab), clinical trial reports (ICH-E3, SAE,
+  CSR), and patient documentation (SOAP, H&P, discharge summaries). Full support with
+  templates, regulatory compliance (HIPAA, FDA, ICH-GCP), and validation tools.
+
+  allowed-tools: Read Write Edit Bash
+
+  license: MIT License
+
+  required_environment_variables: [{"name": "OPENROUTER_API_KEY", "prompt": "Open...'
+full_prompt_length: 40061
 tools_mentioned:
 - GCP
 - python
@@ -19,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/clinical-reports/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/clinical-reports/SKILL.md
-fetched_at: '2026-06-07T06:22:46.159581+00:00'
+fetched_at: '2026-06-14T06:38:10.913359+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:36:35.789837Z'
+  evaluated_at: '2026-06-14T06:49:54.622999Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450047bb60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a5ae720 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f450047bb60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a5ae720 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.511367Z'
-indexed_at: '2026-06-07T10:04:51.511373Z'
+  fetched_at: '2026-06-14T10:18:24.482139Z'
+indexed_at: '2026-06-14T10:18:24.482144Z'
 ---

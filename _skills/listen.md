@@ -2,32 +2,33 @@
 id: listen
 slug: listen
 name: Listen
-description: Claude skill for Listen
-prompt_preview: "---\r\nname: listen\r\ndescription: >\r\n  Deep receptive attention\
-  \ to extract intent beyond literal words. Maps\r\n  active listening from counseling\
-  \ psychology to AI reasoning: clearing\r\n  assumptions, attending to full signal,\
-  \ parsing multiple layers (literal,\r\n  procedural, emotional, contextual, constraint,\
-  \ meta), reflecting\r\n  understanding, noticing what is unsaid, and integrating\
-  \ the whole picture.\r\n  Use when a user's request feels ambiguous, when context\
-  \ suggests something\r\n  different from th..."
-full_prompt_length: 12951
+description: '- `listen-guidance` — the human-guidance variant for coaching a person
+  in developing active listening skills'
+prompt_preview: "---\nname: listen\ndescription: >\n  Deep receptive attention to\
+  \ extract intent beyond literal words. Maps\n  active listening from counseling\
+  \ psychology to AI reasoning: clearing\n  assumptions, attending to full signal,\
+  \ parsing multiple layers (literal,\n  procedural, emotional, contextual, constraint,\
+  \ meta), reflecting\n  understanding, noticing what is unsaid, and integrating the\
+  \ whole picture.\n  Use when a user's request feels ambiguous, when context suggests\
+  \ something\n  different from the literal..."
+full_prompt_length: 12772
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/listen/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/listen/SKILL.md
-fetched_at: '2026-06-07T06:27:40.379215+00:00'
+fetched_at: '2026-06-14T06:41:22.506293+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:12:48.427377Z'
+  evaluated_at: '2026-06-14T09:26:10.416234Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d880 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187afdfe60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d880 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187afdfe60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.816753Z'
-indexed_at: '2026-06-07T10:04:54.816758Z'
+  fetched_at: '2026-06-14T10:18:27.032237Z'
+indexed_at: '2026-06-14T10:18:27.032241Z'
 ---

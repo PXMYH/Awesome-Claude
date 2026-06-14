@@ -28,17 +28,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/dimensional-analysis/skills/dimensional-analysis/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/dimensional-analysis/skills/dimensional-analysis/SKILL.md
-fetched_at: '2026-06-07T06:28:59.357721+00:00'
+fetched_at: '2026-06-14T06:42:19.370317+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:55:07.446818Z'
+  evaluated_at: '2026-06-14T10:08:39.551266Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65eb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ee960 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65eb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ee960 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.702018Z'
-indexed_at: '2026-06-07T10:04:55.702023Z'
+  fetched_at: '2026-06-14T10:18:27.728933Z'
+indexed_at: '2026-06-14T10:18:27.728938Z'
 ---

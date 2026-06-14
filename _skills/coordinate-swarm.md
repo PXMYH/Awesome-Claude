@@ -2,15 +2,16 @@
 id: coordinate-swarm
 slug: coordinate-swarm
 name: Coordinate Swarm
-description: Claude skill for Coordinate Swarm
-prompt_preview: "---\r\nname: coordinate-swarm\r\ndescription: >\r\n  Apply collective\
-  \ intelligence coordination patterns — stigmergy, local rules,\r\n  and quorum sensing\
-  \ — to organize distributed systems, teams, or workflows\r\n  without centralized\
-  \ control. Covers signal design, agent autonomy boundaries,\r\n  emergent behavior\
-  \ cultivation, and feedback loop tuning. Use when designing\r\n  distributed systems\
-  \ without a coordination bottleneck, organizing teams that\r\n  must self-coordinate,\
-  \ building event-driven architectur..."
-full_prompt_length: 12703
+description: '- `forage-resources` — applies swarm coordination specifically to resource
+  search and explore-exploit tradeoffs'
+prompt_preview: "---\nname: coordinate-swarm\ndescription: >\n  Apply collective intelligence\
+  \ coordination patterns — stigmergy, local rules,\n  and quorum sensing — to organize\
+  \ distributed systems, teams, or workflows\n  without centralized control. Covers\
+  \ signal design, agent autonomy boundaries,\n  emergent behavior cultivation, and\
+  \ feedback loop tuning. Use when designing\n  distributed systems without a coordination\
+  \ bottleneck, organizing teams that\n  must self-coordinate, building event-driven\
+  \ architectures with..."
+full_prompt_length: 12514
 tools_mentioned:
 - kubernetes
 category: community
@@ -18,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/coordinate-swarm/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/coordinate-swarm/SKILL.md
-fetched_at: '2026-06-07T06:27:16.227022+00:00'
+fetched_at: '2026-06-14T06:41:06.056651+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:57:14.289866Z'
+  evaluated_at: '2026-06-14T09:10:37.647393Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0dc10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a5761e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0dc10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a5761e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.490962Z'
-indexed_at: '2026-06-07T10:04:54.490967Z'
+  fetched_at: '2026-06-14T10:18:26.780990Z'
+indexed_at: '2026-06-14T10:18:26.780995Z'
 ---

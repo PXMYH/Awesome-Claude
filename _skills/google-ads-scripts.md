@@ -12,24 +12,24 @@ prompt_preview: "---\nname: google-ads-scripts\ndescription: Google Ads Scripts 
   \  - mcp__cogny__go..."
 full_prompt_length: 34207
 tools_mentioned:
-- javascript
 - JavaScript
+- javascript
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/google-ads-scripts/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/google-ads-scripts/SKILL.md
-fetched_at: '2026-06-07T06:24:36.219728+00:00'
+fetched_at: '2026-06-14T06:39:25.461927+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T07:40:51.099064Z'
+  evaluated_at: '2026-06-14T07:54:25.525463Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc66900 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3a86e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc66900 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3a86e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:52.893436Z'
-indexed_at: '2026-06-07T10:04:52.893441Z'
+  fetched_at: '2026-06-14T10:18:25.543276Z'
+indexed_at: '2026-06-14T10:18:25.543281Z'
 ---

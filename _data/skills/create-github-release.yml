@@ -1,15 +1,15 @@
 id: create-github-release
 slug: create-github-release
 name: Create GitHub Release
-description: Claude skill for Create GitHub Release
-prompt_preview: "---\r\nname: create-github-release\r\ndescription: >\r\n  Create\
-  \ a GitHub release with proper tagging, release notes,\r\n  and optional build artifacts.\
-  \ Covers semantic versioning,\r\n  changelog generation, and GitHub CLI usage. Use\
-  \ when marking a stable\r\n  version of software for distribution, publishing a\
-  \ new library or\r\n  application version, creating release notes for stakeholders,\
-  \ or\r\n  distributing build artifacts (binaries, tarballs).\r\nlicense: MIT\r\n\
-  allowed-tools: Read Write Edit Bash Grep Glob\r\nm..."
-full_prompt_length: 6636
+description: '- `commit-changes` - staging and committing workflow'
+prompt_preview: "---\nname: create-github-release\ndescription: >\n  Create a GitHub\
+  \ release with proper tagging, release notes,\n  and optional build artifacts. Covers\
+  \ semantic versioning,\n  changelog generation, and GitHub CLI usage. Use when marking\
+  \ a stable\n  version of software for distribution, publishing a new library or\n\
+  \  application version, creating release notes for stakeholders, or\n  distributing\
+  \ build artifacts (binaries, tarballs).\nlicense: MIT\nallowed-tools: Read Write\
+  \ Edit Bash Grep Glob\nmetadata:..."
+full_prompt_length: 6413
 tools_mentioned:
 - Rust
 - Node.js
@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-github-release/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-github-release/SKILL.md
-fetched_at: '2026-06-07T06:27:17.768784+00:00'
+fetched_at: '2026-06-14T06:41:07.010448+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:58:11.163236Z'
+  evaluated_at: '2026-06-14T09:11:34.643947Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffc0fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5a180 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffc0fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5a180 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.510926Z'
-indexed_at: '2026-06-07T10:04:54.510932Z'
+  fetched_at: '2026-06-14T10:18:26.796360Z'
+indexed_at: '2026-06-14T10:18:26.796365Z'

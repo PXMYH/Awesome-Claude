@@ -16,17 +16,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/weekly-cleanup-routine/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/weekly-cleanup-routine/SKILL.md
-fetched_at: '2026-06-07T06:23:22.619473+00:00'
+fetched_at: '2026-06-14T06:38:36.461254+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:59:42.754339Z'
+  evaluated_at: '2026-06-14T07:13:24.712199Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc66030 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11aab0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc66030 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11aab0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:52.023687Z'
-indexed_at: '2026-06-07T10:04:52.023692Z'
+  fetched_at: '2026-06-14T10:18:24.864603Z'
+indexed_at: '2026-06-14T10:18:24.864611Z'

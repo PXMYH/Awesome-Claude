@@ -13,24 +13,24 @@ prompt_preview: "---\nname: cleanup-deals\ndescription: \"Standardize deal pipel
   \n- HubSpot API token in `.e..."
 full_prompt_length: 3157
 tools_mentioned:
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/cleanup-deals/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/cleanup-deals/SKILL.md
-fetched_at: '2026-06-07T06:23:18.125713+00:00'
+fetched_at: '2026-06-14T06:38:33.178334+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:56:20.191431Z'
+  evaluated_at: '2026-06-14T07:10:01.970636Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff324b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7380 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff324b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7380 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.950519Z'
-indexed_at: '2026-06-07T10:04:51.950528Z'
+  fetched_at: '2026-06-14T10:18:24.807650Z'
+indexed_at: '2026-06-14T10:18:24.807655Z'
 ---

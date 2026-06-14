@@ -2,32 +2,32 @@
 id: setup-gxp-r-project
 slug: setup-gxp-r-project
 name: Set Up GxP R Project
-description: Claude skill for Set Up GxP R Project
-prompt_preview: "---\r\nname: setup-gxp-r-project\r\ndescription: >\r\n  Set up an\
-  \ R project structure compliant with GxP regulations\r\n  (21 CFR Part 11, EU Annex\
-  \ 11). Covers validated environments,\r\n  qualification documentation, change control,\
-  \ and electronic records\r\n  requirements. Use when starting an R analysis project\
-  \ in a regulated\r\n  environment (pharma, biotech, medical devices), setting up\
-  \ R for clinical\r\n  trial analysis, creating a validated computing environment\
-  \ for regulatory\r\n  submissions, or implemen..."
-full_prompt_length: 11023
+description: '- `write-validation-documentation` - detailed validation document creation'
+prompt_preview: "---\nname: setup-gxp-r-project\ndescription: >\n  Set up an R project\
+  \ structure compliant with GxP regulations\n  (21 CFR Part 11, EU Annex 11). Covers\
+  \ validated environments,\n  qualification documentation, change control, and electronic\
+  \ records\n  requirements. Use when starting an R analysis project in a regulated\n\
+  \  environment (pharma, biotech, medical devices), setting up R for clinical\n \
+  \ trial analysis, creating a validated computing environment for regulatory\n  submissions,\
+  \ or implementing 21 C..."
+full_prompt_length: 10767
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/setup-gxp-r-project/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/setup-gxp-r-project/SKILL.md
-fetched_at: '2026-06-07T06:28:02.482685+00:00'
+fetched_at: '2026-06-14T06:41:37.900238+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:27:12.173640Z'
+  evaluated_at: '2026-06-14T09:40:32.410432Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ec650 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ec650 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.117216Z'
-indexed_at: '2026-06-07T10:04:55.117221Z'
+  fetched_at: '2026-06-14T10:18:27.269589Z'
+indexed_at: '2026-06-14T10:18:27.269593Z'
 ---

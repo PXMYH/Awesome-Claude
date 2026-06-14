@@ -15,26 +15,26 @@ prompt_preview: '---
   open quantum systems use qutip.
 
   license: Apache-2.0 license...'
-full_prompt_length: 8350
+full_prompt_length: 8355
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pennylane/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pennylane/SKILL.md
-fetched_at: '2026-06-07T06:22:59.269207+00:00'
+fetched_at: '2026-06-14T06:38:19.423836+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:45:43.765851Z'
+  evaluated_at: '2026-06-14T06:59:09.887760Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8af00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ed370 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc8af00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ed370 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.716197Z'
-indexed_at: '2026-06-07T10:04:51.716205Z'
+  fetched_at: '2026-06-14T10:18:24.631953Z'
+indexed_at: '2026-06-14T10:18:24.631958Z'
 ---

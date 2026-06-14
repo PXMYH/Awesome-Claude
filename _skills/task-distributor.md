@@ -23,31 +23,31 @@ prompt_preview: '---
   priority scheduling, and resource optimization with emphasis on...'
 full_prompt_length: 6668
 tools_mentioned: []
-category: 09-meta-orchestration
-category_display: 09 Meta Orchestration
+category: meta-orchestration
+category_display: Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/task-distributor.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/task-distributor.md
-fetched_at: '2026-06-13T06:15:27.527525Z'
+fetched_at: '2026-06-14T06:38:55.772316+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-13T06:34:56.762735Z'
+  evaluated_at: '2026-06-14T07:32:47.267324Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9debb42840 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ede20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9debb42840 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ede20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 21687
-  forks: 2535
-  open_issues: 15
+  stars: 21749
+  forks: 2542
+  open_issues: 17
   last_commit: '2026-05-27'
-  fetched_at: '2026-06-13T06:15:40.182392Z'
-indexed_at: '2026-06-13T06:40:46.608653Z'
+  fetched_at: '2026-06-14T06:42:42.237777Z'
+indexed_at: '2026-06-14T10:18:25.189612Z'
 ---

@@ -1,36 +1,36 @@
 id: optimize-docker-build-cache
 slug: optimize-docker-build-cache
 name: Optimize Docker Build Cache
-description: Claude skill for Optimize Docker Build Cache
-prompt_preview: "---\r\nname: optimize-docker-build-cache\r\ndescription: >\r\n  Optimize\
-  \ Docker build times using layer caching, multi-stage builds,\r\n  BuildKit features,\
-  \ and dependency-first copy patterns. Applicable to R,\r\n  Node.js, and Python\
-  \ projects. Use when Docker builds are slow due to\r\n  repeated package installations,\
-  \ when rebuilds reinstall all dependencies\r\n  on every code change, when image\
-  \ sizes are unnecessarily large, or when\r\n  CI/CD pipeline builds are a bottleneck.\r\
-  \nlicense: MIT\r\nallowed-tools: Re..."
-full_prompt_length: 7916
+description: '- `create-r-dockerfile` - initial Dockerfile creation'
+prompt_preview: "---\nname: optimize-docker-build-cache\ndescription: >\n  Optimize\
+  \ Docker build times using layer caching, multi-stage builds,\n  BuildKit features,\
+  \ and dependency-first copy patterns. Applicable to R,\n  Node.js, and Python projects.\
+  \ Use when Docker builds are slow due to\n  repeated package installations, when\
+  \ rebuilds reinstall all dependencies\n  on every code change, when image sizes\
+  \ are unnecessarily large, or when\n  CI/CD pipeline builds are a bottleneck.\n\
+  license: MIT\nallowed-tools: Read Write E..."
+full_prompt_length: 7686
 tools_mentioned:
+- Docker
 - Node.js
 - docker
-- Docker
 - Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/optimize-docker-build-cache/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/optimize-docker-build-cache/SKILL.md
-fetched_at: '2026-06-07T06:27:46.406430+00:00'
+fetched_at: '2026-06-14T06:41:26.622356+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:16:43.823998Z'
+  evaluated_at: '2026-06-14T09:30:07.362435Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32780 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3fd280 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32780 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3fd280 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.898492Z'
-indexed_at: '2026-06-07T10:04:54.898498Z'
+  fetched_at: '2026-06-14T10:18:27.096327Z'
+indexed_at: '2026-06-14T10:18:27.096336Z'

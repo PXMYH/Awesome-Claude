@@ -2,35 +2,35 @@
 id: build-custom-mcp-server
 slug: build-custom-mcp-server
 name: Build Custom MCP Server
-description: Claude skill for Build Custom MCP Server
-prompt_preview: "---\r\nname: build-custom-mcp-server\r\ndescription: >\r\n  Build\
-  \ a custom MCP (Model Context Protocol) server that exposes\r\n  domain-specific\
-  \ tools to AI assistants. Covers server implementation\r\n  in Node.js or R, tool\
-  \ definitions, transport configuration, and testing\r\n  with Claude Code. Use when\
-  \ you need to expose custom functionality beyond\r\n  what mcptools provides, when\
-  \ building specialized domain-specific AI\r\n  integrations, or when wrapping existing\
-  \ APIs or services as MCP tools.\r\nlicense: MI..."
-full_prompt_length: 10050
+description: '- `configure-mcp-server` - connect the built server to clients'
+prompt_preview: "---\nname: build-custom-mcp-server\ndescription: >\n  Build a custom\
+  \ MCP (Model Context Protocol) server that exposes\n  domain-specific tools to AI\
+  \ assistants. Covers server implementation\n  in Node.js or R, tool definitions,\
+  \ transport configuration, and testing\n  with Claude Code. Use when you need to\
+  \ expose custom functionality beyond\n  what mcptools provides, when building specialized\
+  \ domain-specific AI\n  integrations, or when wrapping existing APIs or services\
+  \ as MCP tools.\nlicense: MIT\nallowed..."
+full_prompt_length: 9771
 tools_mentioned:
+- Docker
 - Node.js
 - javascript
-- Docker
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/build-custom-mcp-server/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/build-custom-mcp-server/SKILL.md
-fetched_at: '2026-06-07T06:27:07.991125+00:00'
+fetched_at: '2026-06-14T06:41:00.994985+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:52:13.498347Z'
+  evaluated_at: '2026-06-14T09:05:35.880196Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc64620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ed760 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc64620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ed760 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.385865Z'
-indexed_at: '2026-06-07T10:04:54.385871Z'
+  fetched_at: '2026-06-14T10:18:26.699806Z'
+indexed_at: '2026-06-14T10:18:26.699811Z'
 ---

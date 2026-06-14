@@ -13,26 +13,26 @@ prompt_preview: '---
   (2) creating Quality Manuals, (3) developing required procedures and work instructions,
   (4) preparing Medical Device Files, (5) understanding ISO 13485 requirements, or
   (6) identifying missing documentation f...'
-full_prompt_length: 23256
+full_prompt_length: 23261
 tools_mentioned:
-- python
 - Go
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/iso-13485-certification/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/iso-13485-certification/SKILL.md
-fetched_at: '2026-06-07T06:22:52.764361+00:00'
+fetched_at: '2026-06-14T06:38:15.322261+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:41:12.095282Z'
+  evaluated_at: '2026-06-14T06:54:40.337525Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67a10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7170 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67a10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7170 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +42,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.611689Z'
-indexed_at: '2026-06-07T10:04:51.611694Z'
+  fetched_at: '2026-06-14T10:18:24.558545Z'
+indexed_at: '2026-06-14T10:18:24.558550Z'

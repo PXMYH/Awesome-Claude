@@ -1,15 +1,16 @@
 id: fit-drift-diffusion-model
 slug: fit-drift-diffusion-model
 name: Fit a Drift-Diffusion Model
-description: Claude skill for Fit a Drift-Diffusion Model
-prompt_preview: "---\r\nname: fit-drift-diffusion-model\r\ndescription: >\r\n  Fit\
-  \ cognitive drift-diffusion models (Ratcliff DDM) to reaction time and\r\n  accuracy\
-  \ data with parameter estimation (drift rate, boundary separation,\r\n  non-decision\
-  \ time), model comparison, and parameter recovery validation.\r\n  Use when modeling\
-  \ binary decision-making with reaction time data, estimating\r\n  cognitive parameters\
-  \ from experimental data, comparing sequential sampling\r\n  model variants, or\
-  \ decomposing speed-accuracy tradeoff ef..."
-full_prompt_length: 16178
+description: '- `analyze-diffusion-dynamics` - mathematical analysis of the diffusion
+  process underlying the DDM'
+prompt_preview: "---\nname: fit-drift-diffusion-model\ndescription: >\n  Fit cognitive\
+  \ drift-diffusion models (Ratcliff DDM) to reaction time and\n  accuracy data with\
+  \ parameter estimation (drift rate, boundary separation,\n  non-decision time),\
+  \ model comparison, and parameter recovery validation.\n  Use when modeling binary\
+  \ decision-making with reaction time data, estimating\n  cognitive parameters from\
+  \ experimental data, comparing sequential sampling\n  model variants, or decomposing\
+  \ speed-accuracy tradeoff effects in..."
+full_prompt_length: 15733
 tools_mentioned:
 - python
 - Python
@@ -18,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/fit-drift-diffusion-model/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/fit-drift-diffusion-model/SKILL.md
-fetched_at: '2026-06-07T06:27:30.329355+00:00'
+fetched_at: '2026-06-14T06:41:15.583039+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:06:17.282206Z'
+  evaluated_at: '2026-06-14T09:19:41.247262Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083110 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083110 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.681194Z'
-indexed_at: '2026-06-07T10:04:54.681199Z'
+  fetched_at: '2026-06-14T10:18:26.927141Z'
+indexed_at: '2026-06-14T10:18:26.927145Z'

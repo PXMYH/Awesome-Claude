@@ -2,32 +2,33 @@
 id: assess-context
 slug: assess-context
 name: Assess Context
-description: Claude skill for Assess Context
-prompt_preview: "---\r\nname: assess-context\r\ndescription: >\r\n  AI context assessment\
-  \ — evaluating problem malleability, mapping structural\r\n  rigidity versus flexibility,\
-  \ analyzing transformation pressure, and estimating\r\n  capacity to adapt. Use\
-  \ when a complex task feels stuck and it is unclear\r\n  whether to push through\
-  \ or pivot, before a significant approach change to\r\n  assess whether the current\
-  \ reasoning structure can support it, when accumulated\r\n  workarounds suggest\
-  \ the underlying approach may be wrong,..."
-full_prompt_length: 16915
+description: '- `assess-form` — the multi-system assessment model that this skill
+  adapts to AI reasoning context'
+prompt_preview: "---\nname: assess-context\ndescription: >\n  AI context assessment\
+  \ — evaluating problem malleability, mapping structural\n  rigidity versus flexibility,\
+  \ analyzing transformation pressure, and estimating\n  capacity to adapt. Use when\
+  \ a complex task feels stuck and it is unclear\n  whether to push through or pivot,\
+  \ before a significant approach change to\n  assess whether the current reasoning\
+  \ structure can support it, when accumulated\n  workarounds suggest the underlying\
+  \ approach may be wrong, or as a..."
+full_prompt_length: 16674
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/assess-context/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/assess-context/SKILL.md
-fetched_at: '2026-06-07T06:27:03.861090+00:00'
+fetched_at: '2026-06-14T06:40:58.193217+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:49:31.769200Z'
+  evaluated_at: '2026-06-14T09:02:53.434503Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33b00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c57c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33b00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c57c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.329137Z'
-indexed_at: '2026-06-07T10:04:54.329142Z'
+  fetched_at: '2026-06-14T10:18:26.652841Z'
+indexed_at: '2026-06-14T10:18:26.652846Z'
 ---

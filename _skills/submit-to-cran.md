@@ -2,32 +2,32 @@
 id: submit-to-cran
 slug: submit-to-cran
 name: Submit to CRAN
-description: Claude skill for Submit to CRAN
-prompt_preview: "---\r\nname: submit-to-cran\r\ndescription: >\r\n  Complete procedure\
-  \ for submitting an R package to CRAN, including\r\n  pre-submission checks (local,\
-  \ win-builder, R-hub), cran-comments.md\r\n  preparation, URL and spell checking,\
-  \ and the submission itself.\r\n  Covers first submissions and updates. Use when\
-  \ a package is ready for\r\n  initial CRAN release, when submitting an updated version\
-  \ of an existing\r\n  CRAN package, or when re-submitting after receiving CRAN reviewer\
-  \ feedback.\r\nlicense: MIT\r\nallowed-t..."
-full_prompt_length: 7486
+description: '- `release-package-version` - version bumping and git tagging'
+prompt_preview: "---\nname: submit-to-cran\ndescription: >\n  Complete procedure for\
+  \ submitting an R package to CRAN, including\n  pre-submission checks (local, win-builder,\
+  \ R-hub), cran-comments.md\n  preparation, URL and spell checking, and the submission\
+  \ itself.\n  Covers first submissions and updates. Use when a package is ready for\n\
+  \  initial CRAN release, when submitting an updated version of an existing\n  CRAN\
+  \ package, or when re-submitting after receiving CRAN reviewer feedback.\nlicense:\
+  \ MIT\nallowed-tools: Read..."
+full_prompt_length: 7264
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/submit-to-cran/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/submit-to-cran/SKILL.md
-fetched_at: '2026-06-07T06:28:06.166603+00:00'
+fetched_at: '2026-06-14T06:41:40.368791+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:29:38.267828Z'
+  evaluated_at: '2026-06-14T09:42:58.809292Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c290 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5ad50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c290 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5ad50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.168170Z'
-indexed_at: '2026-06-07T10:04:55.168176Z'
+  fetched_at: '2026-06-14T10:18:27.309197Z'
+indexed_at: '2026-06-14T10:18:27.309202Z'
 ---

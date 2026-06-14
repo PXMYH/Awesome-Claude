@@ -1,42 +1,42 @@
 id: create-dockerfile
 slug: create-dockerfile
 name: Create Dockerfile
-description: Claude skill for Create Dockerfile
-prompt_preview: "---\r\nname: create-dockerfile\r\ndescription: >\r\n  Create general-purpose\
-  \ Dockerfiles for Node.js, Python, Go, Rust, and Java\r\n  projects. Covers base\
-  \ image selection, dependency installation, user\r\n  permissions, COPY patterns,\
-  \ ENTRYPOINT vs CMD, and .dockerignore. Use when\r\n  containerizing an application\
-  \ for the first time, creating a consistent\r\n  build/runtime environment, preparing\
-  \ an app for cloud deployment or Docker\r\n  Compose, or when no existing Dockerfile\
-  \ is present in the project.\r\nlic..."
-full_prompt_length: 6565
+description: '- `create-r-dockerfile` - R-specific Dockerfile using rocker images'
+prompt_preview: "---\nname: create-dockerfile\ndescription: >\n  Create general-purpose\
+  \ Dockerfiles for Node.js, Python, Go, Rust, and Java\n  projects. Covers base image\
+  \ selection, dependency installation, user\n  permissions, COPY patterns, ENTRYPOINT\
+  \ vs CMD, and .dockerignore. Use when\n  containerizing an application for the first\
+  \ time, creating a consistent\n  build/runtime environment, preparing an app for\
+  \ cloud deployment or Docker\n  Compose, or when no existing Dockerfile is present\
+  \ in the project.\nlicense: MIT..."
+full_prompt_length: 6289
 tools_mentioned:
 - go
-- rust
-- java
-- Rust
-- Python
-- python
 - Go
-- Node.js
+- Python
+- Docker
+- Rust
 - docker
 - Java
+- java
+- rust
+- Node.js
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-dockerfile/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-dockerfile/SKILL.md
-fetched_at: '2026-06-07T06:27:17.363152+00:00'
+fetched_at: '2026-06-14T06:41:06.737089+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:57:55.006906Z'
+  evaluated_at: '2026-06-14T09:11:18.453617Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0cb30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5a780 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0cb30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5a780 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.505195Z'
-indexed_at: '2026-06-07T10:04:54.505200Z'
+  fetched_at: '2026-06-14T10:18:26.791979Z'
+indexed_at: '2026-06-14T10:18:26.791983Z'

@@ -2,32 +2,33 @@
 id: analyze-magnetic-field
 slug: analyze-magnetic-field
 name: Analyze Magnetic Field
-description: Claude skill for Analyze Magnetic Field
-prompt_preview: "---\r\nname: analyze-magnetic-field\r\ndescription: >\r\n  Calculate\
-  \ and visualize magnetic fields produced by current distributions\r\n  using the\
-  \ Biot-Savart law, Ampere's law, and magnetic dipole approximations.\r\n  Use when\
-  \ computing B-fields from arbitrary current geometries, exploiting\r\n  symmetry\
-  \ with Ampere's law, analyzing superposition of multiple sources,\r\n  or characterizing\
-  \ magnetic materials through permeability, B-H curves,\r\n  and hysteresis behavior.\r\
-  \nlicense: MIT\r\nallowed-tools: Read Gre..."
-full_prompt_length: 15724
+description: '- `solve-electromagnetic-induction` -- use the computed B-field to analyze
+  time-varying flux and induced EMF'
+prompt_preview: "---\nname: analyze-magnetic-field\ndescription: >\n  Calculate and\
+  \ visualize magnetic fields produced by current distributions\n  using the Biot-Savart\
+  \ law, Ampere's law, and magnetic dipole approximations.\n  Use when computing B-fields\
+  \ from arbitrary current geometries, exploiting\n  symmetry with Ampere's law, analyzing\
+  \ superposition of multiple sources,\n  or characterizing magnetic materials through\
+  \ permeability, B-H curves,\n  and hysteresis behavior.\nlicense: MIT\nallowed-tools:\
+  \ Read Grep Glob Web..."
+full_prompt_length: 15492
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/analyze-magnetic-field/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/analyze-magnetic-field/SKILL.md
-fetched_at: '2026-06-07T06:27:01.954096+00:00'
+fetched_at: '2026-06-14T06:40:56.906449+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:48:18.554949Z'
+  evaluated_at: '2026-06-14T09:01:39.940697Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65340 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c5c70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc65340 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c5c70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.303584Z'
-indexed_at: '2026-06-07T10:04:54.303589Z'
+  fetched_at: '2026-06-14T10:18:26.633055Z'
+indexed_at: '2026-06-14T10:18:26.633063Z'
 ---

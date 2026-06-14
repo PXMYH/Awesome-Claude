@@ -1,15 +1,15 @@
 id: investigate-capa-root-cause
 slug: investigate-capa-root-cause
 name: Investigate CAPA Root Cause
-description: Claude skill for Investigate CAPA Root Cause
-prompt_preview: "---\r\nname: investigate-capa-root-cause\r\ndescription: >\r\n  Investigate\
-  \ root causes and manage CAPAs (Corrective and Preventive Actions)\r\n  for compliance\
-  \ deviations. Covers investigation method selection (5-Why,\r\n  fishbone, fault\
-  \ tree), structured root cause analysis, corrective vs\r\n  preventive action design,\
-  \ effectiveness verification, and trend analysis.\r\n  Use when an audit finding\
-  \ requires a CAPA, when a deviation or incident\r\n  occurs in a validated system,\
-  \ when a regulatory observation ne..."
-full_prompt_length: 12931
+description: '- `conduct-gxp-audit` — audits generate findings that require CAPAs'
+prompt_preview: "---\nname: investigate-capa-root-cause\ndescription: >\n  Investigate\
+  \ root causes and manage CAPAs (Corrective and Preventive Actions)\n  for compliance\
+  \ deviations. Covers investigation method selection (5-Why,\n  fishbone, fault tree),\
+  \ structured root cause analysis, corrective vs\n  preventive action design, effectiveness\
+  \ verification, and trend analysis.\n  Use when an audit finding requires a CAPA,\
+  \ when a deviation or incident\n  occurs in a validated system, when a regulatory\
+  \ observation needs a fo..."
+full_prompt_length: 12660
 tools_mentioned:
 - go
 category: community
@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/investigate-capa-root-cause/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/investigate-capa-root-cause/SKILL.md
-fetched_at: '2026-06-07T06:27:39.294938+00:00'
+fetched_at: '2026-06-14T06:41:21.798182+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:12:07.994367Z'
+  evaluated_at: '2026-06-14T09:25:29.961825Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0ef90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a94e7e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0ef90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a94e7e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.802714Z'
-indexed_at: '2026-06-07T10:04:54.802720Z'
+  fetched_at: '2026-06-14T10:18:27.021351Z'
+indexed_at: '2026-06-14T10:18:27.021355Z'

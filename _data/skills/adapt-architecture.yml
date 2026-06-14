@@ -1,32 +1,33 @@
 id: adapt-architecture
 slug: adapt-architecture
 name: Adapt Architecture
-description: Claude skill for Adapt Architecture
-prompt_preview: "---\r\nname: adapt-architecture\r\ndescription: >\r\n  Execute structural\
-  \ metamorphosis using strangler fig migration, chrysalis\r\n  phases, and interface\
-  \ preservation. Covers transformation planning, parallel\r\n  running, progressive\
-  \ cutover, rollback design, and post-metamorphosis\r\n  stabilization for system\
-  \ architecture evolution. Use when assess-form has\r\n  classified the system as\
-  \ READY for transformation, when migrating from\r\n  monolith to microservices,\
-  \ when replacing a core subsystem while depen..."
-full_prompt_length: 14187
+description: '- `assess-form` — prerequisite assessment that determines if the system
+  is ready for transformation'
+prompt_preview: "---\nname: adapt-architecture\ndescription: >\n  Execute structural\
+  \ metamorphosis using strangler fig migration, chrysalis\n  phases, and interface\
+  \ preservation. Covers transformation planning, parallel\n  running, progressive\
+  \ cutover, rollback design, and post-metamorphosis\n  stabilization for system architecture\
+  \ evolution. Use when assess-form has\n  classified the system as READY for transformation,\
+  \ when migrating from\n  monolith to microservices, when replacing a core subsystem\
+  \ while dependents..."
+full_prompt_length: 13964
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/adapt-architecture/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/adapt-architecture/SKILL.md
-fetched_at: '2026-06-07T06:26:59.896968+00:00'
+fetched_at: '2026-06-14T06:40:55.473759+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:46:57.058146Z'
+  evaluated_at: '2026-06-14T09:00:18.883276Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d670 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c5190 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d670 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c5190 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.275221Z'
-indexed_at: '2026-06-07T10:04:54.275226Z'
+  fetched_at: '2026-06-14T10:18:26.611307Z'
+indexed_at: '2026-06-14T10:18:26.611311Z'

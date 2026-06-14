@@ -2,35 +2,36 @@
 id: plan-release-cycle
 slug: plan-release-cycle
 name: Plan Release Cycle
-description: Claude skill for Plan Release Cycle
-prompt_preview: "---\r\nname: plan-release-cycle\r\ndescription: >\r\n  Plan a software\
-  \ release cycle with milestones, feature freezes,\r\n  release candidates, and go/no-go\
-  \ criteria. Covers calendar-based\r\n  and feature-based release strategies. Use\
-  \ when starting planning for a\r\n  major or minor version release, transitioning\
-  \ from ad-hoc to structured\r\n  release cadence, coordinating a release across\
-  \ multiple teams or components,\r\n  defining quality gates for a regulated project,\
-  \ or planning the first\r\n  public release..."
-full_prompt_length: 12311
+description: '- `apply-semantic-versioning` -- Determine the version number for the
+  planned release'
+prompt_preview: "---\nname: plan-release-cycle\ndescription: >\n  Plan a software\
+  \ release cycle with milestones, feature freezes,\n  release candidates, and go/no-go\
+  \ criteria. Covers calendar-based\n  and feature-based release strategies. Use when\
+  \ starting planning for a\n  major or minor version release, transitioning from\
+  \ ad-hoc to structured\n  release cadence, coordinating a release across multiple\
+  \ teams or components,\n  defining quality gates for a regulated project, or planning\
+  \ the first\n  public release (v1.0.0)..."
+full_prompt_length: 12052
 tools_mentioned:
 - go
-- Node.js
 - Go
+- Node.js
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/plan-release-cycle/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/plan-release-cycle/SKILL.md
-fetched_at: '2026-06-07T06:27:49.157399+00:00'
+fetched_at: '2026-06-14T06:41:28.710552+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:18:29.888842Z'
+  evaluated_at: '2026-06-14T09:31:53.216651Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d220 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f58aa0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0d220 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f58aa0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.935386Z'
-indexed_at: '2026-06-07T10:04:54.935392Z'
+  fetched_at: '2026-06-14T10:18:27.125140Z'
+indexed_at: '2026-06-14T10:18:27.125144Z'
 ---

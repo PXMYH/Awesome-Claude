@@ -2,15 +2,16 @@
 id: analyze-generative-diffusion-model
 slug: analyze-generative-diffusion-model
 name: Analyze a Generative Diffusion Model
-description: Claude skill for Analyze a Generative Diffusion Model
-prompt_preview: "---\r\nname: analyze-generative-diffusion-model\r\ndescription: >\r\
-  \n  Analyze pre-trained generative diffusion models (Stable Diffusion, DALL-E,\r\
-  \n  Flux) by computing quality metrics (FID, IS, CLIP score, precision/recall),\r\
-  \n  inspecting noise schedules, extracting and visualizing attention maps, and\r\
-  \n  probing latent spaces. Use when evaluating a pre-trained generative diffusion\r\
-  \n  model's output quality, comparing noise schedule variants, analyzing\r\n  cross-attention\
-  \ patterns for text-conditioned g..."
-full_prompt_length: 15922
+description: '- `implement-diffusion-network` - building diffusion models that this
+  skill evaluates'
+prompt_preview: "---\nname: analyze-generative-diffusion-model\ndescription: >\n \
+  \ Analyze pre-trained generative diffusion models (Stable Diffusion, DALL-E,\n \
+  \ Flux) by computing quality metrics (FID, IS, CLIP score, precision/recall),\n\
+  \  inspecting noise schedules, extracting and visualizing attention maps, and\n\
+  \  probing latent spaces. Use when evaluating a pre-trained generative diffusion\n\
+  \  model's output quality, comparing noise schedule variants, analyzing\n  cross-attention\
+  \ patterns for text-conditioned generatio..."
+full_prompt_length: 15560
 tools_mentioned:
 - python
 category: community
@@ -18,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/analyze-generative-diffusion-model/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/analyze-generative-diffusion-model/SKILL.md
-fetched_at: '2026-06-07T06:27:01.548012+00:00'
+fetched_at: '2026-06-14T06:40:56.648663+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:48:02.406956Z'
+  evaluated_at: '2026-06-14T09:01:23.746838Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc0140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4a40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffcc0140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4a40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.297824Z'
-indexed_at: '2026-06-07T10:04:54.297830Z'
+  fetched_at: '2026-06-14T10:18:26.628657Z'
+indexed_at: '2026-06-14T10:18:26.628661Z'
 ---

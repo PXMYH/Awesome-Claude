@@ -7,27 +7,27 @@ prompt_preview: "---\nname: foundation-persona\ndescription: Generates an eviden
   \ product or marketing persona using the canonical v2.5 output contract. Use when\
   \ shaping artifact perspective, stress-testing decisions, or framing product and\
   \ GTM strategy.\nlicense: Apache-2.0\nmetadata:\n  classification: foundation\n\
-  \  version: \"2.5.0\"\n  updated: 2026-03-02\n  category: research\n  frameworks:\
+  \  version: \"2.6.0\"\n  updated: 2026-06-10\n  category: research\n  frameworks:\
   \ [triple-diamond, lean-startup, design-thinking]\n  author: product-on-purpose\n\
   ---\n<!-- PM-Skills | https://github.com/..."
-full_prompt_length: 3886
+full_prompt_length: 4480
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/foundation-persona/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/foundation-persona/SKILL.md
-fetched_at: '2026-06-07T06:28:21.236170+00:00'
+fetched_at: '2026-06-14T06:41:50.953603+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:38:28.706385Z'
+  evaluated_at: '2026-06-14T09:51:45.013196Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc339e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ecb00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc339e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ecb00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.351557Z'
-indexed_at: '2026-06-07T10:04:55.351563Z'
+  fetched_at: '2026-06-14T10:18:27.451273Z'
+indexed_at: '2026-06-14T10:18:27.451281Z'
 ---

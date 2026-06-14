@@ -7,27 +7,27 @@ prompt_preview: "---\nname: develop-solution-brief\ndescription: Creates a conci
   \ one-page solution overview that communicates the proposed approach, key decisions,\
   \ and trade-offs. Use when pitching solutions to stakeholders, aligning teams on\
   \ approach, or documenting solution intent before detailed specification.\nlicense:\
-  \ Apache-2.0\nmetadata:\n  phase: develop\n  version: \"2.0.0\"\n  updated: 2026-01-26\n\
+  \ Apache-2.0\nmetadata:\n  phase: develop\n  version: \"2.1.0\"\n  updated: 2026-06-10\n\
   \  category: ideation\n  frameworks: [triple-diamond, lean-startup, design-thinking]\n\
   \  author: product-on-purpose\n--..."
-full_prompt_length: 3216
+full_prompt_length: 3842
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/develop-solution-brief/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/develop-solution-brief/SKILL.md
-fetched_at: '2026-06-07T06:28:18.403588+00:00'
+fetched_at: '2026-06-14T06:41:49.205219+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:36:43.627509Z'
+  evaluated_at: '2026-06-14T09:49:59.750852Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc648f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ecb60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc648f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ecb60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.314850Z'
-indexed_at: '2026-06-07T10:04:55.314855Z'
+  fetched_at: '2026-06-14T10:18:27.422721Z'
+indexed_at: '2026-06-14T10:18:27.422725Z'
 ---

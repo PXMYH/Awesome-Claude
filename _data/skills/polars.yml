@@ -3,35 +3,43 @@ slug: polars
 name: Polars
 description: Load these references as needed when users require detailed information
   about specific topics.
-prompt_preview: "---\nname: polars\ndescription: Fast in-memory DataFrame library\
-  \ for datasets that fit in RAM. Use when pandas is too slow but data still fits\
-  \ in memory. Lazy evaluation, parallel execution, Apache Arrow backend. Best for\
-  \ 1-100GB datasets, ETL pipelines, faster pandas replacement. For larger-than-RAM\
-  \ data use dask or vaex.\nlicense: https://github.com/pola-rs/polars/blob/main/LICENSE\n\
-  metadata:\n  version: \"1.0\"\n  skill-author: K-Dense Inc.\n---\n\n# Polars\n\n\
-  ## Overview\n\nPolars is a lightning-fast DataF..."
-full_prompt_length: 9446
+prompt_preview: '---
+
+  name: polars
+
+  description: High-performance DataFrame library for Python ETL, analytics, and pandas
+  migration. Use for expression-based data manipulation with lazy query optimization,
+  parallel execution, streaming out-of-core processing, Arrow interoperability, and
+  optional GPU execution.
+
+  license: https://github.com/pola-rs/polars/blob/main/LICENSE
+
+  allowed-tools: Read
+
+  compatibility: Requires Python 3.10+ for polars 1.41.x. Install with uv pip install;
+  optional extras enable Excel, database, c...'
+full_prompt_length: 9801
 tools_mentioned:
-- Rust
-- Python
-- python
 - Azure
+- Rust
+- python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/polars/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/polars/SKILL.md
-fetched_at: '2026-06-07T06:22:59.852395+00:00'
+fetched_at: '2026-06-14T06:38:19.910539+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:46:08.015187Z'
+  evaluated_at: '2026-06-14T06:59:42.284285Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff63590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ed7c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff63590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ed7c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +49,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.730804Z'
-indexed_at: '2026-06-07T10:04:51.730810Z'
+  fetched_at: '2026-06-14T10:18:24.640712Z'
+indexed_at: '2026-06-14T10:18:24.640716Z'

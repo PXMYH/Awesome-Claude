@@ -1,32 +1,33 @@
 id: generate-workflow-diagram
 slug: generate-workflow-diagram
 name: Generate Workflow Diagram
-description: Claude skill for Generate Workflow Diagram
-prompt_preview: "---\r\nname: generate-workflow-diagram\r\ndescription: >\r\n  Generate\
-  \ themed Mermaid flowchart diagrams from putior workflow data.\r\n  Covers theme\
-  \ selection (9 themes including 4 colorblind-safe), output\r\n  modes (console,\
-  \ file, clipboard, raw), interactive features (clickable\r\n  nodes, source info),\
-  \ and embedding in README, Quarto, and R Markdown.\r\n  Use after annotating source\
-  \ files and ready to produce a visual diagram,\r\n  when regenerating a diagram\
-  \ after workflow changes, or when switching\r\n  th..."
-full_prompt_length: 11095
+description: '- `annotate-source-files` — prerequisite: files must be annotated before
+  diagram generation'
+prompt_preview: "---\nname: generate-workflow-diagram\ndescription: >\n  Generate\
+  \ themed Mermaid flowchart diagrams from putior workflow data.\n  Covers theme selection\
+  \ (9 themes including 4 colorblind-safe), output\n  modes (console, file, clipboard,\
+  \ raw), interactive features (clickable\n  nodes, source info), and embedding in\
+  \ README, Quarto, and R Markdown.\n  Use after annotating source files and ready\
+  \ to produce a visual diagram,\n  when regenerating a diagram after workflow changes,\
+  \ or when switching\n  themes or o..."
+full_prompt_length: 10817
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/generate-workflow-diagram/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/generate-workflow-diagram/SKILL.md
-fetched_at: '2026-06-07T06:27:33.710378+00:00'
+fetched_at: '2026-06-14T06:41:18.062098+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:08:27.954473Z'
+  evaluated_at: '2026-06-14T09:21:51.377364Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb51f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f59730 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb51f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f59730 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.726013Z'
-indexed_at: '2026-06-07T10:04:54.726019Z'
+  fetched_at: '2026-06-14T10:18:26.962046Z'
+indexed_at: '2026-06-14T10:18:26.962050Z'

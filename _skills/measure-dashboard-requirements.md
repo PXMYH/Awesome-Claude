@@ -7,27 +7,27 @@ prompt_preview: "---\nname: measure-dashboard-requirements\ndescription: Specifi
   \ requirements for an analytics dashboard including metrics, visualizations, filters,\
   \ and data sources. Use when requesting dashboards from data teams, defining KPI\
   \ tracking, or documenting reporting needs.\nlicense: Apache-2.0\nmetadata:\n  phase:\
-  \ measure\n  version: \"2.0.0\"\n  updated: 2026-01-26\n  category: validation\n\
+  \ measure\n  version: \"2.1.0\"\n  updated: 2026-06-10\n  category: validation\n\
   \  frameworks: [triple-diamond, lean-startup, design-thinking]\n  author: product-on-purpose\n\
   ---\n<!-- PM-Skills | https://..."
-full_prompt_length: 3229
+full_prompt_length: 3998
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/measure-dashboard-requirements/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/measure-dashboard-requirements/SKILL.md
-fetched_at: '2026-06-07T06:28:22.600975+00:00'
+fetched_at: '2026-06-14T06:41:51.869278+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:39:26.418690Z'
+  evaluated_at: '2026-06-14T09:52:41.860422Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33e60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0831a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33e60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0831a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.371522Z'
-indexed_at: '2026-06-07T10:04:55.371528Z'
+  fetched_at: '2026-06-14T10:18:27.466601Z'
+indexed_at: '2026-06-14T10:18:27.466606Z'
 ---

@@ -4,14 +4,20 @@ slug: infographics
 name: Infographics
 description: Use this skill to create professional, accessible, and visually compelling
   infographics using the power of Nano Banana Pro AI with intelligent quality review.
-prompt_preview: "---\nname: infographics\ndescription: \"Create professional infographics\
-  \ using Nano Banana Pro AI with smart iterative refinement. Uses Gemini 3 Pro for\
-  \ quality review. Integrates research-lookup and web search for accurate data. Supports\
-  \ 10 infographic types, 8 industry styles, and colorblind-safe palettes.\"\nallowed-tools:\
-  \ Read Write Edit Bash\nmetadata:\n  version: \"1.0\"\n---\n\n# Infographics\n\n\
-  ## Overview\n\nInfographics are visual representations of information, data, or\
-  \ knowledge designed to present..."
-full_prompt_length: 17812
+prompt_preview: '---
+
+  name: infographics
+
+  description: "Create professional infographics using Nano Banana Pro AI with smart
+  iterative refinement. Uses Gemini 3 Pro for quality review. Integrates research-lookup
+  and web search for accurate data. Supports 10 infographic types, 8 industry styles,
+  and colorblind-safe palettes."
+
+  allowed-tools: Read Write Edit Bash
+
+  required_environment_variables: [{"name": "OPENROUTER_API_KEY", "prompt": "OpenRouter
+  API key for the skill''s LLM-powered steps.", "required_for": "optional...'
+full_prompt_length: 18169
 tools_mentioned:
 - go
 - python
@@ -20,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/infographics/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/infographics/SKILL.md
-fetched_at: '2026-06-07T06:22:52.572051+00:00'
+fetched_at: '2026-06-14T06:38:15.179635+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:41:03.597553Z'
+  evaluated_at: '2026-06-14T06:54:32.263594Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff62300 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7f50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fff62300 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7f50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.608736Z'
-indexed_at: '2026-06-07T10:04:51.608742Z'
+  fetched_at: '2026-06-14T10:18:24.556332Z'
+indexed_at: '2026-06-14T10:18:24.556337Z'
 ---

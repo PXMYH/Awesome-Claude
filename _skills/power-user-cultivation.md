@@ -14,24 +14,24 @@ full_prompt_length: 16963
 tools_mentioned:
 - AWS
 - GCP
-- Docker
 - docker
+- Docker
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/power-user-cultivation/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/power-user-cultivation/SKILL.md
-fetched_at: '2026-06-07T06:26:45.109415+00:00'
+fetched_at: '2026-06-14T06:40:43.321861+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:42:11.190739Z'
+  evaluated_at: '2026-06-14T08:55:34.786514Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f58740 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc88bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f58740 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.174631Z'
-indexed_at: '2026-06-07T10:04:54.174636Z'
+  fetched_at: '2026-06-14T10:18:26.535278Z'
+indexed_at: '2026-06-14T10:18:26.535283Z'
 ---

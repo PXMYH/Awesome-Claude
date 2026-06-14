@@ -16,26 +16,26 @@ prompt_preview: '---
   BLI/SPR assays, thermostability assays, or wants to submit protein sequences for
   experimental characterization. Also trigger when code imports `adaptyv`, `adaptyv_sdk`,
   or `FoundryClient`, or references `f...'
-full_prompt_length: 8800
+full_prompt_length: 8805
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/adaptyv/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/adaptyv/SKILL.md
-fetched_at: '2026-06-07T06:22:43.026030+00:00'
+fetched_at: '2026-06-14T06:38:08.747985+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:34:26.187414Z'
+  evaluated_at: '2026-06-14T06:47:36.018949Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45000a1190 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7e60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45000a1190 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7e60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.462965Z'
-indexed_at: '2026-06-07T10:04:51.462973Z'
+  fetched_at: '2026-06-14T10:18:24.444720Z'
+indexed_at: '2026-06-14T10:18:24.444727Z'
 ---

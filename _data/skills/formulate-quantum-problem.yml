@@ -1,15 +1,16 @@
 id: formulate-quantum-problem
 slug: formulate-quantum-problem
 name: Formulate Quantum Problem
-description: Claude skill for Formulate Quantum Problem
-prompt_preview: "---\r\nname: formulate-quantum-problem\r\ndescription: >\r\n  Formulate\
-  \ a quantum mechanics or quantum chemistry problem with proper\r\n  mathematical\
-  \ framework including Hilbert space, operators, boundary conditions,\r\n  and approximation\
-  \ method selection. Use when setting up a quantum mechanics\r\n  problem for analytic\
-  \ or numerical solution, formulating a quantum chemistry\r\n  calculation, translating\
-  \ a physical scenario into the Schrodinger or Dirac\r\n  formalism, or choosing\
-  \ between perturbation theory,..."
-full_prompt_length: 13237
+description: '- `derive-theoretical-result` -- derive analytic results from the formulated
+  problem'
+prompt_preview: "---\nname: formulate-quantum-problem\ndescription: >\n  Formulate\
+  \ a quantum mechanics or quantum chemistry problem with proper\n  mathematical framework\
+  \ including Hilbert space, operators, boundary conditions,\n  and approximation\
+  \ method selection. Use when setting up a quantum mechanics\n  problem for analytic\
+  \ or numerical solution, formulating a quantum chemistry\n  calculation, translating\
+  \ a physical scenario into the Schrodinger or Dirac\n  formalism, or choosing between\
+  \ perturbation theory, variati..."
+full_prompt_length: 13034
 tools_mentioned:
 - angular
 category: community
@@ -17,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/formulate-quantum-problem/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/formulate-quantum-problem/SKILL.md
-fetched_at: '2026-06-07T06:27:32.476183+00:00'
+fetched_at: '2026-06-14T06:41:17.140744+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:07:39.479272Z'
+  evaluated_at: '2026-06-14T09:21:02.426663Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb52b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11b140 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb52b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11b140 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.709221Z'
-indexed_at: '2026-06-07T10:04:54.709227Z'
+  fetched_at: '2026-06-14T10:18:26.949042Z'
+indexed_at: '2026-06-14T10:18:26.949047Z'

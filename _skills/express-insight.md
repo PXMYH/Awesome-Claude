@@ -11,24 +11,24 @@ prompt_preview: "---\nname: express-insight\ndescription: >\n  Communicate an in
   \ a structured\n  procedure for choosing the right form, expressing the gestalt\
   \ with honest\n  attribution, and inviting productive challenge. Use after integrate-gestalt\n\
   \  has formed..."
-full_prompt_length: 14824
+full_prompt_length: 14806
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/express-insight/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/express-insight/SKILL.md
-fetched_at: '2026-06-07T06:27:29.624225+00:00'
+fetched_at: '2026-06-14T06:41:15.156845+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:05:53.050173Z'
+  evaluated_at: '2026-06-14T09:19:16.976599Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32f30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187ab44c80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc32f30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187ab44c80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.672502Z'
-indexed_at: '2026-06-07T10:04:54.672508Z'
+  fetched_at: '2026-06-14T10:18:26.920545Z'
+indexed_at: '2026-06-14T10:18:26.920553Z'
 ---

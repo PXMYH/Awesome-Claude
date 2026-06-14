@@ -14,7 +14,7 @@ prompt_preview: '---
   synthesis, or comprehensive literature searches across biomedical, scientific, and
   technical domains. Creates professionally formatted markdown documents and PDFs
   with verified citations in multiple citation styles (APA, Natu...'
-full_prompt_length: 28034
+full_prompt_length: 29099
 tools_mentioned:
 - python
 - Python
@@ -23,17 +23,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/literature-review/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/literature-review/SKILL.md
-fetched_at: '2026-06-07T06:22:54.009423+00:00'
+fetched_at: '2026-06-14T06:38:16.038347+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T06:42:02.320190Z'
+  evaluated_at: '2026-06-14T06:55:30.986725Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45001115b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7170 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45001115b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7170 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:51.629471Z'
-indexed_at: '2026-06-07T10:04:51.629477Z'
+  fetched_at: '2026-06-14T10:18:24.572742Z'
+indexed_at: '2026-06-14T10:18:24.572747Z'
 ---

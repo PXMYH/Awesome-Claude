@@ -4,30 +4,30 @@ slug: define-hypothesis
 name: Hypothesis
 description: See `references/EXAMPLE.md` for a completed example.
 prompt_preview: "---\nname: define-hypothesis\ndescription: Defines a testable hypothesis\
-  \ with clear success metrics and validation approach. Use when forming assumptions\
-  \ to test, designing experiments, or aligning team on what success looks like.\n\
-  license: Apache-2.0\nmetadata:\n  phase: define\n  version: \"2.0.0\"\n  updated:\
-  \ 2026-01-26\n  category: ideation\n  frameworks: [triple-diamond, lean-startup,\
-  \ design-thinking]\n  author: product-on-purpose\n---\n<!-- PM-Skills | https://github.com/product-on-purpose/pm-skills\
-  \ | A..."
-full_prompt_length: 3073
+  \ with clear success metrics and a validation approach. Use when forming assumptions\
+  \ to test or aligning a team on what success looks like, before any experiment is\
+  \ designed. To design the A/B test or experiment that will validate the hypothesis,\
+  \ use measure-experiment-design.\nlicense: Apache-2.0\nmetadata:\n  phase: define\n\
+  \  version: \"2.1.0\"\n  updated: 2026-06-10\n  category: ideation\n  frameworks:\
+  \ [triple-diamond, lean-startup,..."
+full_prompt_length: 3863
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/define-hypothesis/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/define-hypothesis/SKILL.md
-fetched_at: '2026-06-07T06:28:15.973881+00:00'
+fetched_at: '2026-06-14T06:41:47.698544+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:34:56.939758Z'
+  evaluated_at: '2026-06-14T09:48:14.499132Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a1195b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc33620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a1195b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.278164Z'
-indexed_at: '2026-06-07T10:04:55.278173Z'
+  fetched_at: '2026-06-14T10:18:27.394594Z'
+indexed_at: '2026-06-14T10:18:27.394599Z'
 ---

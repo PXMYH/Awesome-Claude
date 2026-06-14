@@ -1,34 +1,34 @@
 id: deploy-searxng
 slug: deploy-searxng
 name: Deploy SearXNG
-description: Claude skill for Deploy SearXNG
-prompt_preview: "---\r\nname: deploy-searxng\r\ndescription: >\r\n  Deploy a self-hosted\
-  \ SearXNG meta search engine via Docker Compose.\r\n  Covers settings.yml configuration,\
-  \ engine selection, result proxying,\r\n  Nginx frontend, persistence, and updates.\
-  \ Use when setting up a private\r\n  search engine without tracking, aggregating\
-  \ results from multiple providers,\r\n  running a shared search instance for a team\
-  \ or organisation, or replacing\r\n  reliance on a single search provider.\r\nlicense:\
-  \ MIT\r\nallowed-tools: Read Write..."
-full_prompt_length: 6843
+description: '- `setup-compose-stack` - general Docker Compose patterns used here'
+prompt_preview: "---\nname: deploy-searxng\ndescription: >\n  Deploy a self-hosted\
+  \ SearXNG meta search engine via Docker Compose.\n  Covers settings.yml configuration,\
+  \ engine selection, result proxying,\n  Nginx frontend, persistence, and updates.\
+  \ Use when setting up a private\n  search engine without tracking, aggregating results\
+  \ from multiple providers,\n  running a shared search instance for a team or organisation,\
+  \ or replacing\n  reliance on a single search provider.\nlicense: MIT\nallowed-tools:\
+  \ Read Write Edit Bash..."
+full_prompt_length: 6558
 tools_mentioned:
-- docker
 - Docker
+- docker
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/deploy-searxng/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/deploy-searxng/SKILL.md
-fetched_at: '2026-06-07T06:27:22.077695+00:00'
+fetched_at: '2026-06-14T06:41:09.968957+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:01:01.383368Z'
+  evaluated_at: '2026-06-14T09:14:25.199399Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5ac30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffb0c140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5ac30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.570645Z'
-indexed_at: '2026-06-07T10:04:54.570654Z'
+  fetched_at: '2026-06-14T10:18:26.842115Z'
+indexed_at: '2026-06-14T10:18:26.842119Z'

@@ -27,17 +27,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-information-entropy/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-information-entropy/SKILL.md
-fetched_at: '2026-06-07T06:25:36.385985+00:00'
+fetched_at: '2026-06-14T06:40:06.349144+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T08:16:32.939614Z'
+  evaluated_at: '2026-06-14T08:30:01.487616Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4260 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc67cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4260 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:53.639083Z'
-indexed_at: '2026-06-07T10:04:53.639089Z'
+  fetched_at: '2026-06-14T10:18:26.118888Z'
+indexed_at: '2026-06-14T10:18:26.118893Z'
 ---

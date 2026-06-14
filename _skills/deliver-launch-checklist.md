@@ -7,10 +7,10 @@ prompt_preview: "---\nname: deliver-launch-checklist\ndescription: Creates a com
   \ pre-launch checklist covering engineering, design, marketing, support, legal,\
   \ and operations readiness. Use before releasing features, products, or major updates\
   \ to ensure nothing is missed.\nlicense: Apache-2.0\nmetadata:\n  phase: deliver\n\
-  \  version: \"2.0.0\"\n  updated: 2026-01-26\n  category: coordination\n  frameworks:\
+  \  version: \"2.1.0\"\n  updated: 2026-06-10\n  category: coordination\n  frameworks:\
   \ [triple-diamond, lean-startup, design-thinking]\n  author: product-on-purpose\n\
   ---\n<!-- PM-Skills | https://gith..."
-full_prompt_length: 2922
+full_prompt_length: 3717
 tools_mentioned:
 - Go
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/deliver-launch-checklist/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/deliver-launch-checklist/SKILL.md
-fetched_at: '2026-06-07T06:28:17.257847+00:00'
+fetched_at: '2026-06-14T06:41:48.471842+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:35:54.596273Z'
+  evaluated_at: '2026-06-14T09:49:11.140022Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc893a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3fdee0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc893a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3fdee0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:55.298141Z'
-indexed_at: '2026-06-07T10:04:55.298146Z'
+  fetched_at: '2026-06-14T10:18:27.409676Z'
+indexed_at: '2026-06-14T10:18:27.409680Z'
 ---

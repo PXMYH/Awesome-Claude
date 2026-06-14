@@ -1,15 +1,16 @@
 id: formulate-herbal-remedy
 slug: formulate-herbal-remedy
 name: Formulate Herbal Remedy
-description: Claude skill for Formulate Herbal Remedy
-prompt_preview: "---\r\nname: formulate-herbal-remedy\r\ndescription: >\r\n  Prepare\
-  \ herbal remedies from Hildegard von Bingen's Physica. Covers plant\r\n  identification,\
-  \ preparation methods (tinctures, poultices, infusions, decoctions),\r\n  dosage\
-  \ guidance, contraindications, and safety review based on 12th-century\r\n  medieval\
-  \ pharmacopeia. Use when needing an herbal remedy for a specific\r\n  ailment using\
-  \ Hildegardian pharmacopeia, seeking guidance on preparation\r\n  methods and dosage,\
-  \ researching medieval herbal medic..."
-full_prompt_length: 14525
+description: '- `assess-holistic-health` — Temperament assessment informs plant selection
+  (cold constitution → warming plants)'
+prompt_preview: "---\nname: formulate-herbal-remedy\ndescription: >\n  Prepare herbal\
+  \ remedies from Hildegard von Bingen's Physica. Covers plant\n  identification,\
+  \ preparation methods (tinctures, poultices, infusions, decoctions),\n  dosage guidance,\
+  \ contraindications, and safety review based on 12th-century\n  medieval pharmacopeia.\
+  \ Use when needing an herbal remedy for a specific\n  ailment using Hildegardian\
+  \ pharmacopeia, seeking guidance on preparation\n  methods and dosage, researching\
+  \ medieval herbal medicine, or..."
+full_prompt_length: 14264
 tools_mentioned:
 - rest
 category: community
@@ -17,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/formulate-herbal-remedy/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/formulate-herbal-remedy/SKILL.md
-fetched_at: '2026-06-07T06:27:31.975216+00:00'
+fetched_at: '2026-06-14T06:41:16.863527+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:07:21.938589Z'
+  evaluated_at: '2026-06-14T09:20:46.223096Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb52b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083980 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44fffb52b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083980 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.703651Z'
-indexed_at: '2026-06-07T10:04:54.703657Z'
+  fetched_at: '2026-06-14T10:18:26.944599Z'
+indexed_at: '2026-06-14T10:18:26.944603Z'

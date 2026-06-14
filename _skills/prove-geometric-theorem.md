@@ -2,32 +2,33 @@
 id: prove-geometric-theorem
 slug: prove-geometric-theorem
 name: Prove a Geometric Theorem
-description: Claude skill for Prove a Geometric Theorem
-prompt_preview: "---\r\nname: prove-geometric-theorem\r\ndescription: >\r\n  Prove\
-  \ geometric theorems using Euclidean axiomatic methods, coordinate\r\n  geometry,\
-  \ or vector methods with rigorous step-by-step logical structure.\r\n  Covers direct\
-  \ proof, proof by contradiction, coordinate proofs, vector\r\n  proofs, and handling\
-  \ of special cases and degenerate configurations.\r\n  Use when given a geometric\
-  \ statement to prove, verifying a conjecture,\r\n  establishing a lemma, converting\
-  \ geometric intuition into a rigorous proof,..."
-full_prompt_length: 17598
+description: '- `construct-geometric-figure` - constructions and proofs are complementary:
+  constructions demonstrate existence, proofs establish properties'
+prompt_preview: "---\nname: prove-geometric-theorem\ndescription: >\n  Prove geometric\
+  \ theorems using Euclidean axiomatic methods, coordinate\n  geometry, or vector\
+  \ methods with rigorous step-by-step logical structure.\n  Covers direct proof,\
+  \ proof by contradiction, coordinate proofs, vector\n  proofs, and handling of special\
+  \ cases and degenerate configurations.\n  Use when given a geometric statement to\
+  \ prove, verifying a conjecture,\n  establishing a lemma, converting geometric intuition\
+  \ into a rigorous proof,\n  or co..."
+full_prompt_length: 17312
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/prove-geometric-theorem/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/prove-geometric-theorem/SKILL.md
-fetched_at: '2026-06-07T06:27:51.672342+00:00'
+fetched_at: '2026-06-14T06:41:30.602496+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-07T09:20:07.663352Z'
+  evaluated_at: '2026-06-14T09:33:30.427321Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc66570 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a644f50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f44ffc66570 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a644f50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-07T10:04:54.969410Z'
-indexed_at: '2026-06-07T10:04:54.969416Z'
+  fetched_at: '2026-06-14T10:18:27.151543Z'
+indexed_at: '2026-06-14T10:18:27.151547Z'
 ---
