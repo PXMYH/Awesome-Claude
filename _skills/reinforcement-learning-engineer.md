@@ -29,26 +29,26 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/reinforcement-learning-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/reinforcement-learning-engineer.md
-fetched_at: '2026-06-15T07:18:35.497892Z'
+fetched_at: '2026-06-16T07:25:21.032974Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-15T07:30:55.001095Z'
+  evaluated_at: '2026-06-16T07:37:37.736759Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe8c4fb3d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb9bfb5ee70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe8c4fb3d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb9bfb5ee70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 21795
-  forks: 2546
-  open_issues: 17
-  last_commit: '2026-05-27'
-  fetched_at: '2026-06-15T07:18:56.444940Z'
-indexed_at: '2026-06-15T07:44:14.320610Z'
+  stars: 21878
+  forks: 2559
+  open_issues: 16
+  last_commit: '2026-06-15'
+  fetched_at: '2026-06-16T07:25:41.619192Z'
+indexed_at: '2026-06-16T07:51:00.561374Z'
 ---

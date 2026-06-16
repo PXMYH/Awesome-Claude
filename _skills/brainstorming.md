@@ -32,26 +32,26 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/brainstorming/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md
-fetched_at: '2026-06-15T07:18:52.687244Z'
+fetched_at: '2026-06-16T07:25:37.883260Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-15T07:42:28.005970Z'
+  evaluated_at: '2026-06-16T07:49:14.524761Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe8c43dacc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb9c01c30b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe8c43dacc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb9c01c30b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 228158
-  forks: 20298
-  open_issues: 283
-  last_commit: '2026-05-29'
-  fetched_at: '2026-06-15T07:18:57.288188Z'
-indexed_at: '2026-06-15T07:44:14.569581Z'
+  stars: 229148
+  forks: 20385
+  open_issues: 284
+  last_commit: '2026-06-15'
+  fetched_at: '2026-06-16T07:25:42.456758Z'
+indexed_at: '2026-06-16T07:51:00.806656Z'
 ---
