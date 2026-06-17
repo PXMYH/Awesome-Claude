@@ -9,8 +9,7 @@ prompt_preview: '---
   name: using-superpowers
 
   description: Use when starting any conversation - establishes how to find and use
-  skills, requiring Skill tool invocation before ANY response including clarifying
-  questions
+  skills, requiring skill invocation before ANY response including clarifying questions
 
   ---
 
@@ -28,34 +27,34 @@ prompt_preview: '---
   you ABSOLUTELY MUST invoke the skill.
 
 
-  IF A SKILL APPLIES TO YOUR TASK, YO...'
-full_prompt_length: 5405
+  IF A SKILL APPLIES TO YOUR TASK, YOU DO...'
+full_prompt_length: 5881
 tools_mentioned: []
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/using-superpowers/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md
-fetched_at: '2026-06-16T07:25:40.232088Z'
+fetched_at: '2026-06-17T07:08:36.134103Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-16T07:50:35.786500Z'
+  evaluated_at: '2026-06-17T07:33:41.154887Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb9bfef7860 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd09b444890 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb9bfef7860 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd09b444890 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 229148
-  forks: 20385
-  open_issues: 284
-  last_commit: '2026-06-15'
-  fetched_at: '2026-06-16T07:25:42.456758Z'
-indexed_at: '2026-06-16T07:51:00.835217Z'
+  stars: 230194
+  forks: 20464
+  open_issues: 285
+  last_commit: '2026-06-17'
+  fetched_at: '2026-06-17T07:08:40.421059Z'
+indexed_at: '2026-06-17T07:34:06.586474Z'
 ---

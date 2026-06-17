@@ -16,40 +16,42 @@ prompt_preview: '---
   # Subagent-Driven Development
 
 
-  Execute plan by dispatching fresh subagent per task, with two-stage review after
-  each: spec compliance review first, then code quality review.
+  Execute plan by dispatching a fresh implementer subagent per task, a task review
+  (spec compliance + code quality) after each, and a broad whole-branch review at
+  the end.
 
 
   **Why subagents:** You delegate tasks to specialized agents with isolated context.
-  By precisely crafting their instructions and context, you ensure they stay focused
-  and succeed at th...'
-full_prompt_length: 12526
-tools_mentioned: []
+  By precisely crafting their instructions and context, you ensure they sta...'
+full_prompt_length: 21408
+tools_mentioned:
+- go
+- rest
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/subagent-driven-development/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md
-fetched_at: '2026-06-16T07:25:39.281810Z'
+fetched_at: '2026-06-17T07:08:33.710378Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-16T07:50:03.309811Z'
+  evaluated_at: '2026-06-17T07:33:08.324717Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb9c01fa540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd09b87ebd0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb9c01fa540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd09b87ebd0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 229148
-  forks: 20385
-  open_issues: 284
-  last_commit: '2026-06-15'
-  fetched_at: '2026-06-16T07:25:42.456758Z'
-indexed_at: '2026-06-16T07:51:00.823841Z'
+  stars: 230194
+  forks: 20464
+  open_issues: 285
+  last_commit: '2026-06-17'
+  fetched_at: '2026-06-17T07:08:40.421059Z'
+indexed_at: '2026-06-17T07:34:06.575926Z'
 ---

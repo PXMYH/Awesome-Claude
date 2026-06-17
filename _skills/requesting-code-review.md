@@ -2,7 +2,7 @@
 id: requesting-code-review
 slug: requesting-code-review
 name: Requesting Code Review
-description: 'See template at: requesting-code-review/code-reviewer.md'
+description: 'See template at: [code-reviewer.md](code-reviewer.md)'
 prompt_preview: '---
 
   name: requesting-code-review
@@ -23,33 +23,33 @@ prompt_preview: '---
 
 
   **Core principle:** Re...'
-full_prompt_length: 2806
+full_prompt_length: 2824
 tools_mentioned: []
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/requesting-code-review/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/requesting-code-review/SKILL.md
-fetched_at: '2026-06-16T07:25:39.045177Z'
+fetched_at: '2026-06-17T07:08:33.050154Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-16T07:49:55.175038Z'
+  evaluated_at: '2026-06-17T07:33:00.143174Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb9c0244c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd09b655c40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb9c0244c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd09b655c40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 229148
-  forks: 20385
-  open_issues: 284
-  last_commit: '2026-06-15'
-  fetched_at: '2026-06-16T07:25:42.456758Z'
-indexed_at: '2026-06-16T07:51:00.820943Z'
+  stars: 230194
+  forks: 20464
+  open_issues: 285
+  last_commit: '2026-06-17'
+  fetched_at: '2026-06-17T07:08:40.421059Z'
+indexed_at: '2026-06-17T07:34:06.573348Z'
 ---

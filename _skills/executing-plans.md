@@ -27,33 +27,33 @@ prompt_preview: '---
 
   **Note:** Tell your human partner that Superpowers works much better with access
   to subagents. The quality of its work will be significantly higher if run on a p...'
-full_prompt_length: 2469
+full_prompt_length: 2600
 tools_mentioned: []
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/executing-plans/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/executing-plans/SKILL.md
-fetched_at: '2026-06-16T07:25:38.329976Z'
+fetched_at: '2026-06-17T07:08:31.245575Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-16T07:49:30.820234Z'
+  evaluated_at: '2026-06-17T07:32:35.436549Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb9bfe4bbf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd09b87dfa0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb9bfe4bbf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd09b87dfa0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 229148
-  forks: 20385
-  open_issues: 284
-  last_commit: '2026-06-15'
-  fetched_at: '2026-06-16T07:25:42.456758Z'
-indexed_at: '2026-06-16T07:51:00.812430Z'
+  stars: 230194
+  forks: 20464
+  open_issues: 285
+  last_commit: '2026-06-17'
+  fetched_at: '2026-06-17T07:08:40.421059Z'
+indexed_at: '2026-06-17T07:34:06.565683Z'
 ---
