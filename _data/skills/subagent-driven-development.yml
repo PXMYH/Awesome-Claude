@@ -22,7 +22,7 @@ prompt_preview: '---
 
   **Why subagents:** You delegate tasks to specialized agents with isolated context.
   By precisely crafting their instructions and context, you ensure they sta...'
-full_prompt_length: 21408
+full_prompt_length: 21540
 tools_mentioned:
 - go
 - rest
@@ -31,25 +31,25 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/subagent-driven-development/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md
-fetched_at: '2026-06-18T06:51:10.960745Z'
+fetched_at: '2026-06-19T07:05:44.397924Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-18T07:16:45.383503Z'
+  evaluated_at: '2026-06-19T07:30:18.805737Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fcf73b63d70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f775f94b5f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fcf73b63d70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f775f94b5f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 231467
-  forks: 20571
-  open_issues: 268
-  last_commit: '2026-06-17'
-  fetched_at: '2026-06-18T06:51:17.409775Z'
-indexed_at: '2026-06-18T07:17:43.220084Z'
+  stars: 232650
+  forks: 20660
+  open_issues: 269
+  last_commit: '2026-06-18'
+  fetched_at: '2026-06-19T07:05:50.968928Z'
+indexed_at: '2026-06-19T07:31:17.038470Z'

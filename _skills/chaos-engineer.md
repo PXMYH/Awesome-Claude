@@ -29,26 +29,26 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/chaos-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/chaos-engineer.md
-fetched_at: '2026-06-18T06:50:25.966274Z'
+fetched_at: '2026-06-19T07:04:56.549081Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-18T07:00:36.888609Z'
+  evaluated_at: '2026-06-19T07:14:22.224669Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fcf73cdf1a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f775fc0a660 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fcf73cdf1a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f775fc0a660 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 22024
-  forks: 2576
-  open_issues: 18
+  stars: 22073
+  forks: 2582
+  open_issues: 19
   last_commit: '2026-06-16'
-  fetched_at: '2026-06-18T06:51:16.089457Z'
-indexed_at: '2026-06-18T07:17:42.917424Z'
+  fetched_at: '2026-06-19T07:05:49.392576Z'
+indexed_at: '2026-06-19T07:31:16.689717Z'
 ---
