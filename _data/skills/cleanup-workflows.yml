@@ -12,24 +12,24 @@ prompt_preview: "---\nname: cleanup-workflows\ndescription: \"Audit and remove i
   \ is actually running...."
 full_prompt_length: 2659
 tools_mentioned:
-- python
 - Python
+- python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/cleanup-workflows/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/cleanup-workflows/SKILL.md
-fetched_at: '2026-06-14T06:38:33.747774+00:00'
+fetched_at: '2026-06-21T06:49:34.112882+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T07:10:42.693738Z'
+  evaluated_at: '2026-06-21T07:22:09.603834Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083500 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c77830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083500 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c77830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.818944Z'
-indexed_at: '2026-06-14T10:18:24.818953Z'
+  fetched_at: '2026-06-21T10:33:59.837102Z'
+indexed_at: '2026-06-21T10:33:59.837108Z'

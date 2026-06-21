@@ -13,24 +13,24 @@ prompt_preview: "---\nname: cleanup-forms\ndescription: \"Audit and remove unuse
   \ or reports.\n\n## Prerequisi..."
 full_prompt_length: 2471
 tools_mentioned:
-- python
 - Python
+- python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/cleanup-forms/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/cleanup-forms/SKILL.md
-fetched_at: '2026-06-14T06:38:33.290053+00:00'
+fetched_at: '2026-06-21T06:49:33.684603+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T07:10:10.293585Z'
+  evaluated_at: '2026-06-21T07:21:36.713180Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a686d80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa0c82f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a686d80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa0c82f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.809926Z'
-indexed_at: '2026-06-14T10:18:24.809931Z'
+  fetched_at: '2026-06-21T10:33:59.825652Z'
+indexed_at: '2026-06-21T10:33:59.825659Z'
 ---

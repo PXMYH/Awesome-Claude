@@ -27,17 +27,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-sensory-signal-detection/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-sensory-signal-detection/SKILL.md
-fetched_at: '2026-06-14T06:40:14.772437+00:00'
+fetched_at: '2026-06-21T06:51:10.676527+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T08:38:16.411611Z'
+  evaluated_at: '2026-06-21T08:51:12.696645Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ec140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9aca1b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ec140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9aca1b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:26.254773Z'
-indexed_at: '2026-06-14T10:18:26.254777Z'
+  fetched_at: '2026-06-21T10:34:01.722326Z'
+indexed_at: '2026-06-21T10:34:01.722339Z'
 ---

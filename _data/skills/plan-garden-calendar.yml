@@ -12,24 +12,24 @@ prompt_preview: "---\nname: plan-garden-calendar\ndescription: >\n  Plan garden 
   \ lunar or biodynamic tim..."
 full_prompt_length: 16034
 tools_mentioned:
-- Rest
 - rest
+- Rest
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/plan-garden-calendar/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/plan-garden-calendar/SKILL.md
-fetched_at: '2026-06-14T06:41:28.346544+00:00'
+fetched_at: '2026-06-21T06:52:20.115978+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:31:36.399704Z'
+  evaluated_at: '2026-06-21T09:46:11.605351Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f58380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac9b20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f58380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac9b20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.120738Z'
-indexed_at: '2026-06-14T10:18:27.120742Z'
+  fetched_at: '2026-06-21T10:34:02.879006Z'
+indexed_at: '2026-06-21T10:34:02.879012Z'

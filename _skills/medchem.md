@@ -21,24 +21,24 @@ prompt_preview: '---
   metadata: {"version": "1...'
 full_prompt_length: 10728
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/medchem/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/medchem/SKILL.md
-fetched_at: '2026-06-14T06:38:16.950796+00:00'
+fetched_at: '2026-06-21T06:49:18.595186+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T06:56:27.631252Z'
+  evaluated_at: '2026-06-21T07:07:51.498616Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c77b00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c77b00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.588078Z'
-indexed_at: '2026-06-14T10:18:24.588082Z'
+  fetched_at: '2026-06-21T10:33:59.540672Z'
+indexed_at: '2026-06-21T10:33:59.540678Z'
 ---

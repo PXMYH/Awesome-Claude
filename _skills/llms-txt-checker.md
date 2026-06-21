@@ -18,17 +18,17 @@ category_display: Community
 source_repo: Infrasity-Labs/dev-gtm-claude-skills
 source_path: skills/llms-txt-checker/SKILL.md
 source_url: https://github.com/Infrasity-Labs/dev-gtm-claude-skills/blob/main/skills/llms-txt-checker/SKILL.md
-fetched_at: '2026-06-14T06:38:06.066066+00:00'
+fetched_at: '2026-06-21T06:49:07.680221+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T06:46:23.159209Z'
+  evaluated_at: '2026-06-21T06:57:10.589289Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a5761e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9f536b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a5761e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9f536b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.424611Z'
-indexed_at: '2026-06-14T10:18:24.424616Z'
+  fetched_at: '2026-06-21T10:33:59.318451Z'
+indexed_at: '2026-06-21T10:33:59.318457Z'
 ---

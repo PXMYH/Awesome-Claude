@@ -21,17 +21,17 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/monitoring-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/monitoring-expert/SKILL.md
-fetched_at: '2026-06-14T06:40:33.620246+00:00'
+fetched_at: '2026-06-21T06:51:28.525089+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T08:49:30.061450Z'
+  evaluated_at: '2026-06-21T09:02:35.087063Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4ce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c75d60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4ce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c75d60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:26.436010Z'
-indexed_at: '2026-06-14T10:18:26.436014Z'
+  fetched_at: '2026-06-21T10:34:01.962152Z'
+indexed_at: '2026-06-21T10:34:01.962174Z'
 ---

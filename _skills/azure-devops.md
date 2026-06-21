@@ -13,25 +13,25 @@ prompt_preview: "---\nname: azure-devops\ndescription: |\n  Manage Azure DevOps 
 full_prompt_length: 16785
 tools_mentioned:
 - Azure
-- azure
 - REST
+- azure
 - python
 category: community
 category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/azure-devops/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/azure-devops/SKILL.md
-fetched_at: '2026-06-14T06:42:01.883010+00:00'
+fetched_at: '2026-06-21T06:52:50.984736+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:59:27.685499Z'
+  evaluated_at: '2026-06-21T10:14:40.627783Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97e60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97e60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.578735Z'
-indexed_at: '2026-06-14T10:18:27.578740Z'
+  fetched_at: '2026-06-21T10:34:03.479722Z'
+indexed_at: '2026-06-21T10:34:03.479728Z'
 ---

@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/research-word-etymology/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/research-word-etymology/SKILL.md
-fetched_at: '2026-06-14T06:41:33.694919+00:00'
+fetched_at: '2026-06-21T06:52:24.939627+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:36:21.055416Z'
+  evaluated_at: '2026-06-21T09:51:13.200661Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ed760 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9acaa50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ed760 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9acaa50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.198087Z'
-indexed_at: '2026-06-14T10:18:27.198092Z'
+  fetched_at: '2026-06-21T10:34:02.988014Z'
+indexed_at: '2026-06-21T10:34:02.988022Z'
 ---

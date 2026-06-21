@@ -19,17 +19,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/trailmark/skills/graph-evolution/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/trailmark/skills/graph-evolution/SKILL.md
-fetched_at: '2026-06-14T06:42:28.716181+00:00'
+fetched_at: '2026-06-21T06:53:15.193825+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T10:14:21.417249Z'
+  evaluated_at: '2026-06-21T10:29:46.585457Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5baa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97560 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5baa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97560 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.825272Z'
-indexed_at: '2026-06-14T10:18:27.825276Z'
+  fetched_at: '2026-06-21T10:34:03.803626Z'
+indexed_at: '2026-06-21T10:34:03.803635Z'
 ---

@@ -12,24 +12,24 @@ prompt_preview: "---\nname: setup-automl-pipeline\ndescription: >\n  Configure a
 full_prompt_length: 8525
 tools_mentioned:
 - SQLite
-- python
 - Python
+- python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/setup-automl-pipeline/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/setup-automl-pipeline/SKILL.md
-fetched_at: '2026-06-14T06:41:37.182921+00:00'
+fetched_at: '2026-06-21T06:52:28.280408+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:39:51.985177Z'
+  evaluated_at: '2026-06-21T09:54:48.187451Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a118500 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c969c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a118500 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c969c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.258618Z'
-indexed_at: '2026-06-14T10:18:27.258623Z'
+  fetched_at: '2026-06-21T10:34:03.063143Z'
+indexed_at: '2026-06-21T10:34:03.063149Z'

@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/scaffold-shiny-app/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/scaffold-shiny-app/SKILL.md
-fetched_at: '2026-06-14T06:41:36.093600+00:00'
+fetched_at: '2026-06-21T06:52:27.249234+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:38:46.849964Z'
+  evaluated_at: '2026-06-21T09:53:41.346504Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5abd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c94ad0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5abd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c94ad0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.240991Z'
-indexed_at: '2026-06-14T10:18:27.240996Z'
+  fetched_at: '2026-06-21T10:34:03.040187Z'
+indexed_at: '2026-06-21T10:34:03.040193Z'
 ---

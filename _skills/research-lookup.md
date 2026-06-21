@@ -16,24 +16,24 @@ prompt_preview: '---
   searches, to openrouter.ai (OPENROUTER_API_KEY)...'
 full_prompt_length: 23875
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/research-lookup/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/research-lookup/SKILL.md
-fetched_at: '2026-06-14T06:38:22.854918+00:00'
+fetched_at: '2026-06-21T06:49:23.959555+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T07:02:41.345256Z'
+  evaluated_at: '2026-06-21T07:14:07.845537Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3444d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97b30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3444d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97b30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.688757Z'
-indexed_at: '2026-06-14T10:18:24.688762Z'
+  fetched_at: '2026-06-21T10:33:59.670504Z'
+indexed_at: '2026-06-21T10:33:59.670510Z'
 ---

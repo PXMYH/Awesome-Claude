@@ -18,24 +18,24 @@ prompt_preview: '---
   Use `uv pip insta...'
 full_prompt_length: 20359
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/statsmodels/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/statsmodels/SKILL.md
-fetched_at: '2026-06-14T06:38:25.624866+00:00'
+fetched_at: '2026-06-21T06:49:26.428092+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T07:05:34.242041Z'
+  evaluated_at: '2026-06-21T07:16:59.438243Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082cf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa2307a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082cf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa2307a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.734838Z'
-indexed_at: '2026-06-14T10:18:24.734843Z'
+  fetched_at: '2026-06-21T10:33:59.729342Z'
+indexed_at: '2026-06-21T10:33:59.729348Z'
 ---

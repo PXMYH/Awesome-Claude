@@ -9,24 +9,24 @@ prompt_preview: "---\nname: build\ndescription: |\n  Plan-then-execute implement
   \ when the user asks\n  to build, implement, execute the spec, or tackle a specific\
   \ §T task\n  (`build §T.3`, `build --next`, `implement next task`, `run the build`).\n\
   \  Expects SPEC.md to exist; i..."
-full_prompt_length: 2499
+full_prompt_length: 3112
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: JuliusBrussee/blueprint
 source_path: skills/build/SKILL.md
 source_url: https://github.com/JuliusBrussee/blueprint/blob/main/skills/build/SKILL.md
-fetched_at: '2026-06-14T06:38:07.403304+00:00'
+fetched_at: '2026-06-21T06:49:09.223605+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T06:47:03.677111Z'
+  evaluated_at: '2026-06-21T06:57:51.192777Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0837d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa553860 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0837d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa553860 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.436011Z'
-indexed_at: '2026-06-14T10:18:24.436015Z'
+  fetched_at: '2026-06-21T10:33:59.333005Z'
+indexed_at: '2026-06-21T10:33:59.333010Z'

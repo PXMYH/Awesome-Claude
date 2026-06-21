@@ -12,30 +12,30 @@ prompt_preview: "---\nname: no-outlinks-audit\ndescription: >\n  Runs a full dea
   \  detects site framework (Next.js,..."
 full_prompt_length: 24444
 tools_mentioned:
-- go
-- Angular
-- Vue
-- PHP
-- JavaScript
 - javascript
-- python
+- Angular
+- PHP
+- Vue
 - React
+- python
+- go
+- JavaScript
 category: community
 category_display: Community
 source_repo: Infrasity-Labs/dev-gtm-claude-skills
 source_path: skills/no-outlinks-audit/SKILL.md
 source_url: https://github.com/Infrasity-Labs/dev-gtm-claude-skills/blob/main/skills/no-outlinks-audit/SKILL.md
-fetched_at: '2026-06-14T06:38:06.204558+00:00'
+fetched_at: '2026-06-21T06:49:07.810827+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T06:46:31.239956Z'
+  evaluated_at: '2026-06-21T06:57:18.707144Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a62ca10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c74ef0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a62ca10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c74ef0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.426863Z'
-indexed_at: '2026-06-14T10:18:24.426867Z'
+  fetched_at: '2026-06-21T10:33:59.321316Z'
+indexed_at: '2026-06-21T10:33:59.321322Z'
 ---

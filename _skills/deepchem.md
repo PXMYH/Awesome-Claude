@@ -20,24 +20,24 @@ prompt_preview: '---
   compatibility: Requires Python...'
 full_prompt_length: 19384
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/deepchem/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/deepchem/SKILL.md
-fetched_at: '2026-06-14T06:38:11.767573+00:00'
+fetched_at: '2026-06-21T06:49:13.685113+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T06:50:43.214554Z'
+  evaluated_at: '2026-06-21T07:02:04.148943Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3c5a60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c94cb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3c5a60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c94cb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.495251Z'
-indexed_at: '2026-06-14T10:18:24.495256Z'
+  fetched_at: '2026-06-21T10:33:59.420419Z'
+indexed_at: '2026-06-21T10:33:59.420425Z'
 ---

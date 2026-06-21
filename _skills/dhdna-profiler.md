@@ -21,17 +21,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/dhdna-profiler/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/dhdna-profiler/SKILL.md
-fetched_at: '2026-06-14T06:38:12.119104+00:00'
+fetched_at: '2026-06-21T06:49:14.019616+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T06:51:09.035023Z'
+  evaluated_at: '2026-06-21T07:02:29.131394Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a9d6330 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97b00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a9d6330 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97b00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.501785Z'
-indexed_at: '2026-06-14T10:18:24.501789Z'
+  fetched_at: '2026-06-21T10:33:59.428807Z'
+indexed_at: '2026-06-21T10:33:59.428814Z'
 ---

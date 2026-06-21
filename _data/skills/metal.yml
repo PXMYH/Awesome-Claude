@@ -12,25 +12,25 @@ prompt_preview: "---\nname: metal\ndescription: >\n  Extract the conceptual esse
   \ architecture, when bootstrapping a..."
 full_prompt_length: 20137
 tools_mentioned:
-- go
 - PostgreSQL
+- go
 - React
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/metal/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/metal/SKILL.md
-fetched_at: '2026-06-14T06:41:24.759007+00:00'
+fetched_at: '2026-06-21T06:52:16.910755+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:28:21.116043Z'
+  evaluated_at: '2026-06-21T09:42:51.799122Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082060 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c96e10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082060 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c96e10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.067201Z'
-indexed_at: '2026-06-14T10:18:27.067205Z'
+  fetched_at: '2026-06-21T10:34:02.810014Z'
+indexed_at: '2026-06-21T10:34:02.810020Z'

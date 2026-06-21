@@ -21,26 +21,26 @@ prompt_preview: '---
   Architecture Icons. Optionally export to PNG, SVG, or PDF with embedded XML...'
 full_prompt_length: 13374
 tools_mentioned:
-- go
-- AWS
-- gRPC
 - aws
+- AWS
+- go
+- gRPC
 category: infrastructure
 category_display: Infrastructure
 source_repo: vidanov/aws-architecture-diagram-skill
 source_path: skills/aws-architecture-diagram/SKILL.md
 source_url: https://github.com/vidanov/aws-architecture-diagram-skill/blob/main/skills/aws-architecture-diagram/SKILL.md
-fetched_at: '2026-06-14T06:42:32.191507+00:00'
+fetched_at: '2026-06-21T06:53:18.434013+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T10:15:50.404549Z'
+  evaluated_at: '2026-06-21T10:31:15.964954Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082450 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c96ab0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082450 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c96ab0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,5 +50,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.849386Z'
-indexed_at: '2026-06-14T10:18:27.849391Z'
+  fetched_at: '2026-06-21T10:34:03.835347Z'
+indexed_at: '2026-06-21T10:34:03.835353Z'

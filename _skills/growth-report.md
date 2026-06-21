@@ -18,17 +18,17 @@ category_display: Community
 source_repo: Infrasity-Labs/dev-gtm-claude-skills
 source_path: skills/growth-report/SKILL.md
 source_url: https://github.com/Infrasity-Labs/dev-gtm-claude-skills/blob/main/skills/growth-report/SKILL.md
-fetched_at: '2026-06-14T06:38:05.930857+00:00'
+fetched_at: '2026-06-21T06:49:07.548223+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T06:46:15.064206Z'
+  evaluated_at: '2026-06-21T06:57:02.473753Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c77080 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c77080 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.422380Z'
-indexed_at: '2026-06-14T10:18:24.422388Z'
+  fetched_at: '2026-06-21T10:33:59.315620Z'
+indexed_at: '2026-06-21T10:33:59.315627Z'
 ---

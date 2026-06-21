@@ -12,24 +12,24 @@ prompt_preview: "---\nname: appraise-gemstone\ndescription: >\n  Appraise gemsto
   \ or understanding\n  how t..."
 full_prompt_length: 20543
 tools_mentioned:
-- ruby
 - Ruby
+- ruby
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/appraise-gemstone/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/appraise-gemstone/SKILL.md
-fetched_at: '2026-06-14T06:40:57.879051+00:00'
+fetched_at: '2026-06-21T06:51:50.792029+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:02:36.785268Z'
+  evaluated_at: '2026-06-21T09:15:53.662949Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9b017f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c4aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9b017f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:26.648515Z'
-indexed_at: '2026-06-14T10:18:26.648520Z'
+  fetched_at: '2026-06-21T10:34:02.244150Z'
+indexed_at: '2026-06-21T10:34:02.244177Z'

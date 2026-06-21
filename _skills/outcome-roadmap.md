@@ -17,17 +17,17 @@ category_display: Community
 source_repo: avelikiy/great_cto
 source_path: skills/outcome-roadmap/SKILL.md
 source_url: https://github.com/avelikiy/great_cto/blob/main/skills/outcome-roadmap/SKILL.md
-fetched_at: '2026-06-14T06:39:07.886194+00:00'
+fetched_at: '2026-06-21T06:50:06.357071+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T07:39:57.035534Z'
+  evaluated_at: '2026-06-21T07:51:42.430060Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a4e5880 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c971a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a4e5880 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c971a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:25.306138Z'
-indexed_at: '2026-06-14T10:18:25.306143Z'
+  fetched_at: '2026-06-21T10:34:00.473137Z'
+indexed_at: '2026-06-21T10:34:00.473142Z'
 ---

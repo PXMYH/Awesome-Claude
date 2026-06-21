@@ -16,24 +16,24 @@ prompt_preview: '---
   development, experiment tracking, lab protocol m...'
 full_prompt_length: 14910
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/protocolsio-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/protocolsio-integration/SKILL.md
-fetched_at: '2026-06-14T06:38:20.452169+00:00'
+fetched_at: '2026-06-21T06:49:21.875964+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T07:00:15.417234Z'
+  evaluated_at: '2026-06-21T07:11:41.266860Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c77da0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c77da0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.649424Z'
-indexed_at: '2026-06-14T10:18:24.649429Z'
+  fetched_at: '2026-06-21T10:33:59.620210Z'
+indexed_at: '2026-06-21T10:33:59.620217Z'
 ---

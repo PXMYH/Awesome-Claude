@@ -13,24 +13,24 @@ prompt_preview: "---\nname: create-segment-lists\ndescription: \"Create business
   \ of segment-bas..."
 full_prompt_length: 4903
 tools_mentioned:
-- python
 - Python
+- python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/create-segment-lists/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/create-segment-lists/SKILL.md
-fetched_at: '2026-06-14T06:38:33.984272+00:00'
+fetched_at: '2026-06-21T06:49:34.325978+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T07:10:58.858705Z'
+  evaluated_at: '2026-06-21T07:22:26.071183Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083500 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9f50b90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083500 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9f50b90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.823556Z'
-indexed_at: '2026-06-14T10:18:24.823560Z'
+  fetched_at: '2026-06-21T10:33:59.843120Z'
+indexed_at: '2026-06-21T10:33:59.843126Z'
 ---

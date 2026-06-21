@@ -21,17 +21,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/deliver-edge-cases/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/deliver-edge-cases/SKILL.md
-fetched_at: '2026-06-14T06:41:48.373694+00:00'
+fetched_at: '2026-06-21T06:52:38.467762+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:49:03.056113Z'
+  evaluated_at: '2026-06-21T10:04:02.519616Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3464b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9fa5280 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3464b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9fa5280 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.407542Z'
-indexed_at: '2026-06-14T10:18:27.407546Z'
+  fetched_at: '2026-06-21T10:34:03.257173Z'
+indexed_at: '2026-06-21T10:34:03.257178Z'
 ---

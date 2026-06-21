@@ -13,25 +13,25 @@ prompt_preview: "---\nname: api-docs-quality-report\ndescription: >\n  Audits an
   \ this skill whenever a user provides..."
 full_prompt_length: 9893
 tools_mentioned:
-- JavaScript
-- FastAPI
 - rest
+- FastAPI
+- JavaScript
 category: community
 category_display: Community
 source_repo: Infrasity-Labs/dev-gtm-claude-skills
 source_path: skills/api-docs-quality-report/SKILL.md
 source_url: https://github.com/Infrasity-Labs/dev-gtm-claude-skills/blob/main/skills/api-docs-quality-report/SKILL.md
-fetched_at: '2026-06-14T06:38:05.227109+00:00'
+fetched_at: '2026-06-21T06:49:06.889457+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T06:45:34.453718Z'
+  evaluated_at: '2026-06-21T06:56:21.688081Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3c7440 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9f53740 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3c7440 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9f53740 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.411191Z'
-indexed_at: '2026-06-14T10:18:24.411196Z'
+  fetched_at: '2026-06-21T10:33:59.300632Z'
+indexed_at: '2026-06-21T10:33:59.300638Z'
 ---

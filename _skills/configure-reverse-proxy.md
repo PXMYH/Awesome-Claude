@@ -13,26 +13,26 @@ prompt_preview: "---\nname: configure-reverse-proxy\ndescription: >\n  Configure
   \ that don't\n  handle TLS..."
 full_prompt_length: 8090
 tools_mentioned:
+- Docker
 - websocket
 - WebSocket
-- Docker
 - docker
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/configure-reverse-proxy/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/configure-reverse-proxy/SKILL.md
-fetched_at: '2026-06-14T06:41:05.264385+00:00'
+fetched_at: '2026-06-21T06:51:57.914143+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:09:48.934222Z'
+  evaluated_at: '2026-06-21T09:23:07.501893Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a5aea20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c33740 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a5aea20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c33740 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:26.767825Z'
-indexed_at: '2026-06-14T10:18:26.767834Z'
+  fetched_at: '2026-06-21T10:34:02.399228Z'
+indexed_at: '2026-06-21T10:34:02.399234Z'
 ---

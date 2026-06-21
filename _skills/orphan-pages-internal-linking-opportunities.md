@@ -1,36 +1,34 @@
 ---
 id: orphan-pages-internal-linking-opportunities
 slug: orphan-pages-internal-linking-opportunities
-name: Try the most common sitemap locations
-description: If the user asks for any of the above, explain it is a different audit
-  type not covered
+name: Orphan Page Audit & Interlinking Brief Generator
+description: '- **Never hardcode `/blog/`** — always detect the URL pattern from the
+  actual sitemap'
 prompt_preview: "---\nname: orphan-pages-internal-linking-opportunities\ndescription:\
-  \ >\n  Runs a full orphan page audit for any website using Ahrefs only. Discovers\
-  \ all blog/content\n  pages, finds which ones receive zero incoming internal links\
-  \ (orphan pages), fetches keywords,\n  clusters pages by topic, and generates 3\
-  \ linking suggestions per orphan with anchor text and\n  placement guidance. Outputs\
-  \ a styled HTML report matching report-style-reference.html.\n  Trigger when a user\
-  \ provides a domain or URL and asks..."
-full_prompt_length: 20628
+  \ Audit any domain for orphan blog pages, map internal links across all blog posts,\
+  \ generate keyword-backed interlinking briefs via DataForSEO, and produce a self-contained\
+  \ downloadable HTML report. Invoke with the target domain as the argument.\narguments:\n\
+  \  - name: domain\n    description: The domain to audit (e.g. example.com or https://www.example.com)\n\
+  \    required: true\nexample_invocation: /orphan-pages-internal-linking-opportun..."
+full_prompt_length: 11205
 tools_mentioned:
-- JAVASCRIPT
 - JavaScript
 category: community
 category_display: Community
 source_repo: Infrasity-Labs/dev-gtm-claude-skills
 source_path: skills/orphan-pages-internal-linking-opportunities/SKILL.md
 source_url: https://github.com/Infrasity-Labs/dev-gtm-claude-skills/blob/main/skills/orphan-pages-internal-linking-opportunities/SKILL.md
-fetched_at: '2026-06-14T06:38:06.350438+00:00'
+fetched_at: '2026-06-21T06:49:07.937329+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T06:46:39.410235Z'
+  evaluated_at: '2026-06-21T06:57:26.821324Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c5730 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c76030 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c5730 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c76030 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.429218Z'
-indexed_at: '2026-06-14T10:18:24.429222Z'
+  fetched_at: '2026-06-21T10:33:59.324308Z'
+indexed_at: '2026-06-21T10:33:59.324314Z'
 ---

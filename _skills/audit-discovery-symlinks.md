@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/audit-discovery-symlinks/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/audit-discovery-symlinks/SKILL.md
-fetched_at: '2026-06-14T06:40:59.344309+00:00'
+fetched_at: '2026-06-21T06:51:52.124286+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:03:58.218927Z'
+  evaluated_at: '2026-06-21T09:17:15.599063Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c5ca0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c94800 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c5ca0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c94800 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:26.670333Z'
-indexed_at: '2026-06-14T10:18:26.670338Z'
+  fetched_at: '2026-06-21T10:34:02.276990Z'
+indexed_at: '2026-06-21T10:34:02.277003Z'
 ---

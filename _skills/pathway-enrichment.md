@@ -15,26 +15,26 @@ prompt_preview: '---
   (ORA / Enrichr / Fisher / hypergeometric), ranked Gene Set...'
 full_prompt_length: 12562
 tools_mentioned:
+- Python
 - GO
 - go
 - python
-- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pathway-enrichment/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pathway-enrichment/SKILL.md
-fetched_at: '2026-06-14T06:38:19.073561+00:00'
+fetched_at: '2026-06-21T06:49:20.588688+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T06:58:45.635784Z'
+  evaluated_at: '2026-06-21T07:10:11.698230Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a5ae720 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9f50830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a5ae720 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9f50830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.625348Z'
-indexed_at: '2026-06-14T10:18:24.625353Z'
+  fetched_at: '2026-06-21T10:33:59.588996Z'
+indexed_at: '2026-06-21T10:33:59.589002Z'
 ---

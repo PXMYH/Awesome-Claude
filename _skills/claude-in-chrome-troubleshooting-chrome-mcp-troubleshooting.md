@@ -34,17 +34,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/claude-in-chrome-troubleshooting/skills/chrome-mcp-troubleshooting/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/claude-in-chrome-troubleshooting/skills/chrome-mcp-troubleshooting/SKILL.md
-fetched_at: '2026-06-14T06:42:17.868118+00:00'
+fetched_at: '2026-06-21T06:53:05.316936+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T10:07:51.033734Z'
+  evaluated_at: '2026-06-21T10:23:11.543255Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a1183e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c32780 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a1183e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c32780 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.715003Z'
-indexed_at: '2026-06-14T10:18:27.715008Z'
+  fetched_at: '2026-06-21T10:34:03.658824Z'
+indexed_at: '2026-06-21T10:34:03.658831Z'
 ---

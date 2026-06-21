@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/ornament-style-mono/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/ornament-style-mono/SKILL.md
-fetched_at: '2026-06-14T06:41:27.338050+00:00'
+fetched_at: '2026-06-21T06:52:19.278910+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:30:47.835408Z'
+  evaluated_at: '2026-06-21T09:45:22.233381Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac8980 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac8980 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.107599Z'
-indexed_at: '2026-06-14T10:18:27.107603Z'
+  fetched_at: '2026-06-21T10:34:02.861925Z'
+indexed_at: '2026-06-21T10:34:02.861931Z'
 ---

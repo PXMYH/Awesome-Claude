@@ -1,0 +1,42 @@
+id: redact-visualization-for-disclosure
+slug: redact-visualization-for-disclosure
+name: Redact Visualization for Disclosure
+description: '- `enforce-redaction-gate` — the verification step every redaction transform
+  ends on; also defines the shape deny-list the mapping table derives from'
+prompt_preview: "---\nname: redact-visualization-for-disclosure\ndescription: >\n\
+  \  Redact rendered visual artifacts — Mermaid diagrams, SVGs, and HTML\n  dashboards\
+  \ — before public disclosure, using an ordered longest-first\n  mapping table (specific\
+  \ label, then namespace label, then catch-all\n  placeholder) that swaps sensitive\
+  \ identifiers for descriptive stand-ins while\n  preserving structure, node ids,\
+  \ and teaching value. Covers whole-word\n  identifier replacement, node-label-vs-node-id\
+  \ discrimination, re-renderin..."
+full_prompt_length: 9839
+tools_mentioned:
+- python
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/redact-visualization-for-disclosure/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/redact-visualization-for-disclosure/SKILL.md
+fetched_at: '2026-06-21T06:52:23.113165+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-21T09:49:19.455952Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac8a70 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac8a70 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-21T10:34:02.944849Z'
+indexed_at: '2026-06-21T10:34:02.944854Z'

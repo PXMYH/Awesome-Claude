@@ -18,27 +18,27 @@ prompt_preview: '---
   id.", "required_for": "full functionality"}, {"name"...'
 full_prompt_length: 15707
 tools_mentioned:
-- Django
-- Python
-- python
-- FastAPI
 - Flask
+- Django
+- python
+- Python
+- FastAPI
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/modal/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/modal/SKILL.md
-fetched_at: '2026-06-14T06:38:17.084429+00:00'
+fetched_at: '2026-06-21T06:49:18.707676+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T06:56:35.740313Z'
+  evaluated_at: '2026-06-21T07:07:59.623837Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c77500 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c77500 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.590258Z'
-indexed_at: '2026-06-14T10:18:24.590263Z'
+  fetched_at: '2026-06-21T10:33:59.543449Z'
+indexed_at: '2026-06-21T10:33:59.543455Z'
 ---

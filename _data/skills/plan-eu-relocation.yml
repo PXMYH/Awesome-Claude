@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/plan-eu-relocation/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/plan-eu-relocation/SKILL.md
-fetched_at: '2026-06-14T06:41:28.109944+00:00'
+fetched_at: '2026-06-21T06:52:19.988028+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:31:28.310976Z'
+  evaluated_at: '2026-06-21T09:46:03.471753Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0821e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac8380 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0821e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac8380 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.118547Z'
-indexed_at: '2026-06-14T10:18:27.118556Z'
+  fetched_at: '2026-06-21T10:34:02.876189Z'
+indexed_at: '2026-06-21T10:34:02.876199Z'

@@ -1,0 +1,43 @@
+---
+id: stakeholder-mapping
+slug: stakeholder-mapping
+name: Stakeholder Mapping
+description: '- [stakeholder-identification](../stakeholder-identification/SKILL.md)
+  — prerequisite: build the full stakeholder list before prioritizing'
+prompt_preview: "---\nname: stakeholder-mapping\ndescription: Prioritize stakeholders\
+  \ using two complementary grids. Use when setting engagement strategy and surfacing\
+  \ whose voice needs elevating after stakeholder identification.\nintent: >-\n  Run\
+  \ two complementary 2x2 grids — Power × Interest (sets engagement strategy per\n\
+  \  stakeholder) and Impact × Power (surfaces who bears consequences but lacks voice)\
+  \ —\n  then compare outputs to reveal blind spots and plan quadrant migration. The\
+  \ grids\n  answer different questi..."
+full_prompt_length: 13079
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: deanpeters/Product-Manager-Skills
+source_path: skills/stakeholder-mapping/SKILL.md
+source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/stakeholder-mapping/SKILL.md
+fetched_at: '2026-06-21T06:50:38.421009+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-21T08:22:05.611042Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c33530 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c33530 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-21T10:34:01.109938Z'
+indexed_at: '2026-06-21T10:34:01.109944Z'
+---

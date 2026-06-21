@@ -12,24 +12,24 @@ prompt_preview: "---\nname: sheet-music-publisher\ndescription: Converts mastere
   \      url: https://www.lunaverus..."
 full_prompt_length: 7336
 tools_mentioned:
-- python
 - Python
+- python
 category: community
 category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/sheet-music-publisher/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/sheet-music-publisher/SKILL.md
-fetched_at: '2026-06-14T06:39:16.280158+00:00'
+fetched_at: '2026-06-21T06:50:13.962833+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T07:47:07.061287Z'
+  evaluated_at: '2026-06-21T07:59:02.676897Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a686d80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa4a2300 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a686d80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa4a2300 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:25.423779Z'
-indexed_at: '2026-06-14T10:18:25.423784Z'
+  fetched_at: '2026-06-21T10:34:00.628487Z'
+indexed_at: '2026-06-21T10:34:00.628493Z'
 ---

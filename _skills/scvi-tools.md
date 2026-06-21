@@ -28,24 +28,24 @@ prompt_preview: '---
   scvi-tools is a comprehensiv...'
 full_prompt_length: 8296
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/scvi-tools/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/scvi-tools/SKILL.md
-fetched_at: '2026-06-14T06:38:24.755781+00:00'
+fetched_at: '2026-06-21T06:49:25.605393+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T07:04:37.446715Z'
+  evaluated_at: '2026-06-21T07:16:02.585928Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c6510 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c96060 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c6510 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c96060 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -55,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.719439Z'
-indexed_at: '2026-06-14T10:18:24.719443Z'
+  fetched_at: '2026-06-21T10:33:59.709698Z'
+indexed_at: '2026-06-21T10:33:59.709704Z'
 ---

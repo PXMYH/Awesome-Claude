@@ -13,25 +13,25 @@ prompt_preview: "---\nname: setup-compose-stack\ndescription: >\n  Configure gen
 full_prompt_length: 6835
 tools_mentioned:
 - Docker
-- redis
-- docker
 - postgresql
+- docker
+- redis
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/setup-compose-stack/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/setup-compose-stack/SKILL.md
-fetched_at: '2026-06-14T06:41:37.318264+00:00'
+fetched_at: '2026-06-21T06:52:28.408738+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:40:00.075228Z'
+  evaluated_at: '2026-06-21T09:54:56.311786Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a118080 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c963f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a118080 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c963f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.260803Z'
-indexed_at: '2026-06-14T10:18:27.260807Z'
+  fetched_at: '2026-06-21T10:34:03.065974Z'
+indexed_at: '2026-06-21T10:34:03.065980Z'
 ---

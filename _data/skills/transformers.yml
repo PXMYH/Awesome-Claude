@@ -19,24 +19,24 @@ prompt_preview: '---
   or private Hub models need...'
 full_prompt_length: 7045
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/transformers/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/transformers/SKILL.md
-fetched_at: '2026-06-14T06:38:26.433498+00:00'
+fetched_at: '2026-06-21T06:49:27.107527+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T07:06:22.972203Z'
+  evaluated_at: '2026-06-21T07:17:48.166746Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3aadb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa1756d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3aadb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa1756d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.748019Z'
-indexed_at: '2026-06-14T10:18:24.748023Z'
+  fetched_at: '2026-06-21T10:33:59.746123Z'
+indexed_at: '2026-06-21T10:33:59.746129Z'

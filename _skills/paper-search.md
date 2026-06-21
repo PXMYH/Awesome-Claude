@@ -17,17 +17,17 @@ category_display: Community
 source_repo: ykdojo/paper-search
 source_path: skills/paper-search/SKILL.md
 source_url: https://github.com/ykdojo/paper-search/blob/main/skills/paper-search/SKILL.md
-fetched_at: '2026-06-14T06:42:37.012965+00:00'
+fetched_at: '2026-06-21T06:53:23.010376+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T10:17:19.458633Z'
+  evaluated_at: '2026-06-21T10:32:45.600470Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5aa20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c96270 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5aa20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c96270 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.872585Z'
-indexed_at: '2026-06-14T10:18:27.872590Z'
+  fetched_at: '2026-06-21T10:34:03.865760Z'
+indexed_at: '2026-06-21T10:34:03.865765Z'
 ---

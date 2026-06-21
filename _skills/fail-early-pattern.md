@@ -12,27 +12,27 @@ prompt_preview: "---\nname: fail-early-pattern\ndescription: >\n  Apply the fail
   \ code that silently\n  produces wr..."
 full_prompt_length: 13092
 tools_mentioned:
-- Python
+- typescript
 - Docker
 - Rust
-- typescript
 - TypeScript
+- Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/fail-early-pattern/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/fail-early-pattern/SKILL.md
-fetched_at: '2026-06-14T06:41:15.299737+00:00'
+fetched_at: '2026-06-21T06:52:07.565096+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:19:25.067671Z'
+  evaluated_at: '2026-06-21T09:33:04.740733Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac8410 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac8410 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:26.922762Z'
-indexed_at: '2026-06-14T10:18:26.922767Z'
+  fetched_at: '2026-06-21T10:34:02.607086Z'
+indexed_at: '2026-06-21T10:34:02.607091Z'
 ---

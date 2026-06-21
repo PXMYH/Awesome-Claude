@@ -7,26 +7,26 @@ prompt_preview: "---\nname: utility-pm-skill-validate\ndescription: Audits an ex
   \ a structured validation report with pass/fail checks, severity-graded findings,\
   \ and actionable recommendations. Use when checking whether a skill meets repo standards\
   \ before shipping or after making changes.\nlicense: Apache-2.0\nmetadata:\n  classification:\
-  \ utility\n  version: \"1.0.0\"\n  updated: 2026-04-03\n  category: coordination\n\
+  \ utility\n  version: \"1.1.0\"\n  updated: 2026-06-15\n  category: coordination\n\
   \  frameworks: [triple-di..."
-full_prompt_length: 11274
+full_prompt_length: 13051
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/utility-pm-skill-validate/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/utility-pm-skill-validate/SKILL.md
-fetched_at: '2026-06-14T06:41:55.585796+00:00'
+fetched_at: '2026-06-21T06:52:45.066097+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:56:29.307529Z'
+  evaluated_at: '2026-06-21T10:11:41.532677Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3fd3a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97c20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a3fd3a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97c20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.530070Z'
-indexed_at: '2026-06-14T10:18:27.530075Z'
+  fetched_at: '2026-06-21T10:34:03.416844Z'
+indexed_at: '2026-06-21T10:34:03.416850Z'

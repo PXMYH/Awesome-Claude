@@ -12,25 +12,25 @@ prompt_preview: "---\nname: discovery-process\ndescription: Run a full discovery
   \ explore problem..."
 full_prompt_length: 18676
 tools_mentioned:
-- go
 - Go
 - GO
+- go
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/discovery-process/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/discovery-process/SKILL.md
-fetched_at: '2026-06-14T06:39:37.970251+00:00'
+fetched_at: '2026-06-21T06:50:34.633147+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T08:05:33.085075Z'
+  evaluated_at: '2026-06-21T08:17:45.131476Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a118f80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c76720 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a118f80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c76720 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:25.721848Z'
-indexed_at: '2026-06-14T10:18:25.721853Z'
+  fetched_at: '2026-06-21T10:34:01.019412Z'
+indexed_at: '2026-06-21T10:34:01.019418Z'
 ---

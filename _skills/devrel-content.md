@@ -12,32 +12,32 @@ prompt_preview: "---\nname: devrel-content\ndescription: When the user wants to 
   \ posts, tutorials, documentation, and..."
 full_prompt_length: 11258
 tools_mentioned:
-- go
-- Go
-- Python
-- Rust
-- react
-- JavaScript
 - PostgreSQL
+- javascript
+- Go
 - typescript
 - rust
+- react
 - Node.js
+- Rust
+- TypeScript
+- python
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/devrel-content/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/devrel-content/SKILL.md
-fetched_at: '2026-06-14T06:40:41.936583+00:00'
+fetched_at: '2026-06-21T06:51:36.530623+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T08:54:30.079312Z'
+  evaluated_at: '2026-06-21T09:07:36.233263Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11b710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9acac60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11b710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9acac60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:26.517079Z'
-indexed_at: '2026-06-14T10:18:26.517083Z'
+  fetched_at: '2026-06-21T10:34:02.069122Z'
+indexed_at: '2026-06-21T10:34:02.069133Z'
 ---

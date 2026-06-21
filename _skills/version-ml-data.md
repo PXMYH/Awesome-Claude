@@ -14,26 +14,26 @@ prompt_preview: "---\nname: version-ml-data\ndescription: >\n  Version machine l
 full_prompt_length: 11163
 tools_mentioned:
 - Azure
-- Python
+- aws
 - AWS
 - python
-- aws
+- Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/version-ml-data/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/version-ml-data/SKILL.md
-fetched_at: '2026-06-14T06:41:44.170223+00:00'
+fetched_at: '2026-06-21T06:52:34.542652+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:46:29.322748Z'
+  evaluated_at: '2026-06-21T10:01:26.974388Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f59a30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9fa5dc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f59a30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9fa5dc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.366247Z'
-indexed_at: '2026-06-14T10:18:27.366252Z'
+  fetched_at: '2026-06-21T10:34:03.203112Z'
+indexed_at: '2026-06-21T10:34:03.203118Z'
 ---

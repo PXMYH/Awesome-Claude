@@ -1,0 +1,41 @@
+id: redact-wire-capture
+slug: redact-wire-capture
+name: Redact Wire Capture
+description: '- `enforce-redaction-gate` — the verification step this skill ends on;
+  supplies the structure-aware tier for tokens nested in request/response bodies'
+prompt_preview: "---\nname: redact-wire-capture\ndescription: >\n  Redact a network/MITM\
+  \ capture directory — JSONL, JSON, logs, HAR-style dumps\n  — in place before it\
+  \ can be referenced publicly, scrubbing credential tokens,\n  API keys, service\
+  \ ids, UUIDs, emails, home paths, usernames, and device or\n  session hashes while\
+  \ preserving token-class prefixes for analysis and leaving\n  public identifiers\
+  \ untouched. Covers class-preserving substitution, an\n  idempotent re-runnable\
+  \ pass, distinguishing a secret from a publ..."
+full_prompt_length: 8852
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/redact-wire-capture/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/redact-wire-capture/SKILL.md
+fetched_at: '2026-06-21T06:52:23.239637+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-21T09:49:27.608615Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c75070 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c75070 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-21T10:34:02.947788Z'
+indexed_at: '2026-06-21T10:34:02.947794Z'

@@ -11,7 +11,7 @@ prompt_preview: "---\nname: create-glyph\ndescription: >\n  Create R-based picto
   \ via the build pipeline, and visual\n  verification of the neon-glow output. Use\
   \ when a new entity has been added and\n  needs a visual icon for the force-graph\
   \ visualization, an existing glyp..."
-full_prompt_length: 15962
+full_prompt_length: 15959
 tools_mentioned:
 - go
 - flask
@@ -20,17 +20,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-glyph/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-glyph/SKILL.md
-fetched_at: '2026-06-14T06:41:07.178358+00:00'
+fetched_at: '2026-06-21T06:51:59.770454+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:11:42.732799Z'
+  evaluated_at: '2026-06-21T09:25:02.368120Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187ab46de0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c76810 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187ab46de0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c76810 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:26.798513Z'
-indexed_at: '2026-06-14T10:18:26.798518Z'
+  fetched_at: '2026-06-21T10:34:02.439024Z'
+indexed_at: '2026-06-21T10:34:02.439030Z'
 ---

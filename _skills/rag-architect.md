@@ -18,17 +18,17 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/rag-architect/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/rag-architect/SKILL.md
-fetched_at: '2026-06-14T06:40:34.755264+00:00'
+fetched_at: '2026-06-21T06:51:29.546571+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T08:50:02.446341Z'
+  evaluated_at: '2026-06-21T09:03:07.593092Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ed3a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c969f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ed3a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c969f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:26.444556Z'
-indexed_at: '2026-06-14T10:18:26.444560Z'
+  fetched_at: '2026-06-21T10:34:01.973488Z'
+indexed_at: '2026-06-21T10:34:01.973494Z'
 ---

@@ -18,17 +18,17 @@ category_display: Community
 source_repo: Infrasity-Labs/dev-gtm-claude-skills
 source_path: skills/brief-outline-generator/SKILL.md
 source_url: https://github.com/Infrasity-Labs/dev-gtm-claude-skills/blob/main/skills/brief-outline-generator/SKILL.md
-fetched_at: '2026-06-14T06:38:05.497414+00:00'
+fetched_at: '2026-06-21T06:49:07.149111+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T06:45:50.632718Z'
+  evaluated_at: '2026-06-21T06:56:37.940736Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a62ca10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9f539b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a62ca10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9f539b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.415724Z'
-indexed_at: '2026-06-14T10:18:24.415728Z'
+  fetched_at: '2026-06-21T10:33:59.306605Z'
+indexed_at: '2026-06-21T10:33:59.306612Z'

@@ -14,27 +14,27 @@ prompt_preview: "---\nname: remote-viewing\ndescription: >\n  AI intuitive explo
 full_prompt_length: 15235
 tools_mentioned:
 - Django
-- Python
-- JavaScript
-- Java
-- React
 - TypeScript
+- React
+- Python
+- Java
+- JavaScript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/remote-viewing/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/remote-viewing/SKILL.md
-fetched_at: '2026-06-14T06:41:32.736938+00:00'
+fetched_at: '2026-06-21T06:52:24.013480+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:35:23.876638Z'
+  evaluated_at: '2026-06-21T09:50:16.341418Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a119cd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c77560 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a119cd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c77560 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.182530Z'
-indexed_at: '2026-06-14T10:18:27.182534Z'
+  fetched_at: '2026-06-21T10:34:02.964915Z'
+indexed_at: '2026-06-21T10:34:02.964921Z'
 ---

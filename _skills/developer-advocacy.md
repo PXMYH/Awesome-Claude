@@ -12,28 +12,28 @@ prompt_preview: "---\nname: developer-advocacy\ndescription: When the user wants
   \ advocacy activities: conference talks, live c..."
 full_prompt_length: 12262
 tools_mentioned:
-- GraphQL
-- Kubernetes
-- REST
-- AWS
 - rest
+- GraphQL
+- AWS
+- Kubernetes
 - React
+- REST
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/developer-advocacy/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/developer-advocacy/SKILL.md
-fetched_at: '2026-06-14T06:40:40.092116+00:00'
+fetched_at: '2026-06-21T06:51:34.781721+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T08:53:00.934314Z'
+  evaluated_at: '2026-06-21T09:06:06.887665Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5b920 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9acaf60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5b920 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9acaf60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:26.492517Z'
-indexed_at: '2026-06-14T10:18:26.492522Z'
+  fetched_at: '2026-06-21T10:34:02.036643Z'
+indexed_at: '2026-06-21T10:34:02.036648Z'
 ---

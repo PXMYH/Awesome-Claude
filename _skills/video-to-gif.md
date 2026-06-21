@@ -19,17 +19,17 @@ category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/video-to-gif/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/video-to-gif/SKILL.md
-fetched_at: '2026-06-14T06:39:28.859881+00:00'
+fetched_at: '2026-06-21T06:50:26.285108+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T07:57:48.594928Z'
+  evaluated_at: '2026-06-21T08:09:57.976235Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c95f10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c95f10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:25.599458Z'
-indexed_at: '2026-06-14T10:18:25.599462Z'
+  fetched_at: '2026-06-21T10:34:00.859673Z'
+indexed_at: '2026-06-21T10:34:00.859680Z'
 ---

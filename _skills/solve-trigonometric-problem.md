@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/solve-trigonometric-problem/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/solve-trigonometric-problem/SKILL.md
-fetched_at: '2026-06-14T06:41:40.096075+00:00'
+fetched_at: '2026-06-21T06:52:30.914402+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:42:42.368017Z'
+  evaluated_at: '2026-06-21T09:57:39.006775Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5b320 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c33c50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5b320 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c33c50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.304755Z'
-indexed_at: '2026-06-14T10:18:27.304759Z'
+  fetched_at: '2026-06-21T10:34:03.123102Z'
+indexed_at: '2026-06-21T10:34:03.123107Z'
 ---

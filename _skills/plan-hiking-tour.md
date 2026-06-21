@@ -13,24 +13,24 @@ prompt_preview: "---\nname: plan-hiking-tour\ndescription: >\n  Plan a hiking to
   \ hiking times, or\n  plannin..."
 full_prompt_length: 15680
 tools_mentioned:
-- go
 - rest
+- go
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/plan-hiking-tour/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/plan-hiking-tour/SKILL.md
-fetched_at: '2026-06-14T06:41:28.479724+00:00'
+fetched_at: '2026-06-21T06:52:20.244836+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:31:44.873250Z'
+  evaluated_at: '2026-06-21T09:46:19.730107Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082120 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa3159d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a082120 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa3159d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.122946Z'
-indexed_at: '2026-06-14T10:18:27.122950Z'
+  fetched_at: '2026-06-21T10:34:02.881858Z'
+indexed_at: '2026-06-21T10:34:02.881864Z'
 ---

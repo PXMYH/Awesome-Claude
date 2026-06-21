@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/read-tree-of-life/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/read-tree-of-life/SKILL.md
-fetched_at: '2026-06-14T06:41:31.767413+00:00'
+fetched_at: '2026-06-21T06:52:22.850988+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:34:27.249790Z'
+  evaluated_at: '2026-06-21T09:49:03.106876Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ed940 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9fa55b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ed940 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9fa55b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.166954Z'
-indexed_at: '2026-06-14T10:18:27.166959Z'
+  fetched_at: '2026-06-21T10:34:02.939059Z'
+indexed_at: '2026-06-21T10:34:02.939065Z'
 ---

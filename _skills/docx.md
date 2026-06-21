@@ -13,37 +13,37 @@ prompt_preview: '---
   like tables of contents, headings, page numbers, or letterheads. Also use when extracting
   or reorganizing content from .docx files, inserting or replacing images in documents,
   performing find-and-replace in Word files, working with...'
-full_prompt_length: 20056
+full_prompt_length: 20085
 tools_mentioned:
 - Python
+- javascript
 - JavaScript
 - python
-- javascript
-category: official
-category_display: Official Anthropic Skills
-source_repo: anthropics/skills
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/docx/SKILL.md
-source_url: https://github.com/anthropics/skills/blob/main/skills/docx/SKILL.md
-fetched_at: '2026-06-20T06:19:46.899415Z'
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/docx/SKILL.md
+fetched_at: '2026-06-21T06:49:14.366185+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-20T06:41:59.087360Z'
+  evaluated_at: '2026-06-21T07:02:53.493956Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc55e7b38f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaab97a40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc55e7b38f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaab97a40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 152935
-  forks: 18021
-  open_issues: 969
-  last_commit: '2026-06-09'
-  fetched_at: '2026-06-20T06:19:58.914958Z'
-indexed_at: '2026-06-20T06:45:23.915355Z'
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-21T10:33:59.437415Z'
+indexed_at: '2026-06-21T10:33:59.437421Z'
 ---

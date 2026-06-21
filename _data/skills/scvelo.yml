@@ -27,24 +27,24 @@ prompt_preview: '---
   scVelo is the leading Python package for RNA velocity analysis in s...'
 full_prompt_length: 10294
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/scvelo/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/scvelo/SKILL.md
-fetched_at: '2026-06-14T06:38:24.637774+00:00'
+fetched_at: '2026-06-21T06:49:25.495097+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T07:04:29.345931Z'
+  evaluated_at: '2026-06-21T07:15:54.368149Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a5aea20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c76390 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a5aea20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c76390 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -54,5 +54,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.717224Z'
-indexed_at: '2026-06-14T10:18:24.717228Z'
+  fetched_at: '2026-06-21T10:33:59.706864Z'
+indexed_at: '2026-06-21T10:33:59.706874Z'

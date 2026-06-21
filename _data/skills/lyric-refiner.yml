@@ -12,24 +12,24 @@ prompt_preview: "---\nname: lyric-refiner\ndescription: Autonomous multi-pass ly
   \ target scope**:\n   - I..."
 full_prompt_length: 15002
 tools_mentioned:
-- go
 - rest
+- go
 category: community
 category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/lyric-refiner/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/lyric-refiner/SKILL.md
-fetched_at: '2026-06-14T06:39:12.586011+00:00'
+fetched_at: '2026-06-21T06:50:10.499678+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T07:43:03.448346Z'
+  evaluated_at: '2026-06-21T07:54:57.726666Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c96570 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c7e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c96570 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:25.357214Z'
-indexed_at: '2026-06-14T10:18:25.357219Z'
+  fetched_at: '2026-06-21T10:34:00.541427Z'
+indexed_at: '2026-06-21T10:34:00.541433Z'

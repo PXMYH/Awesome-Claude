@@ -38,17 +38,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/semgrep-rule-creator/skills/semgrep-rule-creator/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/semgrep-rule-creator/skills/semgrep-rule-creator/SKILL.md
-fetched_at: '2026-06-14T06:42:23.162012+00:00'
+fetched_at: '2026-06-21T06:53:10.109913+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T10:10:33.295784Z'
+  evaluated_at: '2026-06-21T10:25:56.723092Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5ae10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9fa5f10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f5ae10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9fa5f10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -58,6 +58,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.760122Z'
-indexed_at: '2026-06-14T10:18:27.760127Z'
+  fetched_at: '2026-06-21T10:34:03.721125Z'
+indexed_at: '2026-06-21T10:34:03.721133Z'
 ---

@@ -13,27 +13,27 @@ prompt_preview: "---\nname: repair-broken-references\ndescription: >\n  Find and
   \ in the project.\nlicens..."
 full_prompt_length: 11321
 tools_mentioned:
-- Python
-- Docker
-- JavaScript
 - javascript
+- Docker
 - TypeScript
+- Python
+- JavaScript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/repair-broken-references/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/repair-broken-references/SKILL.md
-fetched_at: '2026-06-14T06:41:33.438757+00:00'
+fetched_at: '2026-06-21T06:52:24.686171+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:36:04.825660Z'
+  evaluated_at: '2026-06-21T09:50:56.944435Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a118c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c774a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a118c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c774a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.193683Z'
-indexed_at: '2026-06-14T10:18:27.193688Z'
+  fetched_at: '2026-06-21T10:34:02.979431Z'
+indexed_at: '2026-06-21T10:34:02.979437Z'
 ---

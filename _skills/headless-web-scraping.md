@@ -15,27 +15,27 @@ full_prompt_length: 11976
 tools_mentioned:
 - GraphQL
 - Vue
-- Python
-- JavaScript
-- graphql
-- python
 - React
+- python
+- Python
+- graphql
+- JavaScript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/headless-web-scraping/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/headless-web-scraping/SKILL.md
-fetched_at: '2026-06-14T06:41:18.621498+00:00'
+fetched_at: '2026-06-21T06:52:10.404516+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:22:23.755996Z'
+  evaluated_at: '2026-06-21T09:36:06.962783Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11a870 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac8260 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11a870 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac8260 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:26.970745Z'
-indexed_at: '2026-06-14T10:18:26.970749Z'
+  fetched_at: '2026-06-21T10:34:02.670360Z'
+indexed_at: '2026-06-21T10:34:02.670366Z'
 ---

@@ -12,27 +12,27 @@ prompt_preview: "---\nname: cloud-uploader\ndescription: Uploads promo videos an
   \nAfter generating promo videos with `/bitwize-music:pr..."
 full_prompt_length: 8534
 tools_mentioned:
-- Python
 - PYTHON
+- aws
 - AWS
 - python
-- aws
+- Python
 category: community
 category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/cloud-uploader/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/cloud-uploader/SKILL.md
-fetched_at: '2026-06-14T06:39:11.379872+00:00'
+fetched_at: '2026-06-21T06:50:09.363394+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T07:41:42.264175Z'
+  evaluated_at: '2026-06-21T07:53:36.165470Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a98b1d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97800 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a98b1d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97800 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:25.335029Z'
-indexed_at: '2026-06-14T10:18:25.335034Z'
+  fetched_at: '2026-06-21T10:34:00.512810Z'
+indexed_at: '2026-06-21T10:34:00.512816Z'
 ---

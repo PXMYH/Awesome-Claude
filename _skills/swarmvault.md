@@ -19,17 +19,17 @@ category_display: Community
 source_repo: swarmclawai/swarmclaw
 source_path: skills/swarmvault/SKILL.md
 source_url: https://github.com/swarmclawai/swarmclaw/blob/main/skills/swarmvault/SKILL.md
-fetched_at: '2026-06-14T06:42:07.624697+00:00'
+fetched_at: '2026-06-21T06:52:56.337569+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T10:03:30.523453Z'
+  evaluated_at: '2026-06-21T10:18:46.208857Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a71f710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9acacf0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a71f710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9acacf0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.644091Z'
-indexed_at: '2026-06-14T10:18:27.644096Z'
+  fetched_at: '2026-06-21T10:34:03.565645Z'
+indexed_at: '2026-06-21T10:34:03.565657Z'
 ---

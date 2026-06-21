@@ -13,30 +13,30 @@ prompt_preview: "---\nname: optimize-cloud-costs\ndescription: >\n  Implement cl
   \ with\n  actual usage,..."
 full_prompt_length: 17853
 tools_mentioned:
-- Azure
-- azure
-- Kubernetes
-- AWS
 - gcp
 - kubernetes
-- GCP
+- Azure
+- azure
 - aws
+- AWS
+- GCP
+- Kubernetes
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/optimize-cloud-costs/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/optimize-cloud-costs/SKILL.md
-fetched_at: '2026-06-14T06:41:26.489007+00:00'
+fetched_at: '2026-06-21T06:52:18.497532+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:29:59.278501Z'
+  evaluated_at: '2026-06-21T09:44:29.905859Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f58b90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c74aa0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f58b90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c74aa0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.093961Z'
-indexed_at: '2026-06-14T10:18:27.093965Z'
+  fetched_at: '2026-06-21T10:34:02.844437Z'
+indexed_at: '2026-06-21T10:34:02.844443Z'
 ---

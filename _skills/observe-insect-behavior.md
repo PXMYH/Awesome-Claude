@@ -13,24 +13,24 @@ prompt_preview: "---\nname: observe-insect-behavior\ndescription: >\n  Conduct s
   \ timestamped event\n  r..."
 full_prompt_length: 21420
 tools_mentioned:
-- Rest
 - rest
+- Rest
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/observe-insect-behavior/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/observe-insect-behavior/SKILL.md
-fetched_at: '2026-06-14T06:41:26.197250+00:00'
+fetched_at: '2026-06-21T06:52:18.241983+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:29:43.095526Z'
+  evaluated_at: '2026-06-21T09:44:13.619831Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f590d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c32b40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f590d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c32b40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.089541Z'
-indexed_at: '2026-06-14T10:18:27.089546Z'
+  fetched_at: '2026-06-21T10:34:02.838695Z'
+indexed_at: '2026-06-21T10:34:02.838701Z'
 ---

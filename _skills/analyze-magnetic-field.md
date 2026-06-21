@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/analyze-magnetic-field/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/analyze-magnetic-field/SKILL.md
-fetched_at: '2026-06-14T06:40:56.906449+00:00'
+fetched_at: '2026-06-21T06:51:49.824109+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:01:39.940697Z'
+  evaluated_at: '2026-06-21T09:14:55.931940Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c5c70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9b03560 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c5c70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9b03560 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:26.633055Z'
-indexed_at: '2026-06-14T10:18:26.633063Z'
+  fetched_at: '2026-06-21T10:34:02.223551Z'
+indexed_at: '2026-06-21T10:34:02.223557Z'
 ---

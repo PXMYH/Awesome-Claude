@@ -12,24 +12,24 @@ prompt_preview: "---\nname: run-chaos-experiment\ndescription: >\n  Design and e
   \ MIT\nallowed-tools:..."
 full_prompt_length: 9977
 tools_mentioned:
-- Kubernetes
 - Redis
+- Kubernetes
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/run-chaos-experiment/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/run-chaos-experiment/SKILL.md
-fetched_at: '2026-06-14T06:41:35.423966+00:00'
+fetched_at: '2026-06-21T06:52:26.608122+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:38:06.397290Z'
+  evaluated_at: '2026-06-21T09:52:59.312373Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11aab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac9af0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a11aab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac9af0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.226769Z'
-indexed_at: '2026-06-14T10:18:27.226774Z'
+  fetched_at: '2026-06-21T10:34:03.025913Z'
+indexed_at: '2026-06-21T10:34:03.025918Z'
 ---

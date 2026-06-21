@@ -14,26 +14,26 @@ prompt_preview: "---\nname: ornament-style-color\ndescription: >\n  Design polyc
   \ exploring how historica..."
 full_prompt_length: 24133
 tools_mentioned:
-- azure
-- rust
 - rest
+- rust
 - ruby
+- azure
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/ornament-style-color/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/ornament-style-color/SKILL.md
-fetched_at: '2026-06-14T06:41:27.049422+00:00'
+fetched_at: '2026-06-21T06:52:19.004950+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T09:30:31.648224Z'
+  evaluated_at: '2026-06-21T09:45:04.755859Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f58590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9eee4b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1879f58590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9eee4b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:27.103034Z'
-indexed_at: '2026-06-14T10:18:27.103039Z'
+  fetched_at: '2026-06-21T10:34:02.856043Z'
+indexed_at: '2026-06-21T10:34:02.856049Z'
 ---

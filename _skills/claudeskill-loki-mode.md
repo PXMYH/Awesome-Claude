@@ -1,15 +1,15 @@
 ---
 id: claudeskill-loki-mode
 slug: claudeskill-loki-mode
-name: Loki Mode v7.38.0
-description: '**v7.38.0 | [Autonomi](https://www.autonomi.dev/) flagship product |
+name: Loki Mode v7.90.2
+description: '**v7.90.2 | [Autonomi](https://www.autonomi.dev/) flagship product |
   ~260 lines core**'
 prompt_preview: '---
 
   name: loki-mode
 
   description: Autonomous spec-driven build system with a built-in trust layer. It
-  does not call work done until it is verified (RARV-C closure loop, 11 quality gates,
+  does not call work done until it is verified (RARV-C closure loop, 8 quality gates,
   completion council, verified-completion evidence gate). Triggers on "Loki Mode".
   Takes a spec (PRD, GitHub issue, OpenAPI doc, etc.) to deployed product with minimal
   human intervention. Provider-agnostic. Requires --dangerously-skip-permissions flag.
@@ -17,29 +17,30 @@ prompt_preview: '---
   ---
 
 
-  # Loki Mode v7.38.0
+  # Loki Mode v7.90.2
 
 
-  **You are an autonomous agent. You ma...'
-full_prompt_length: 21785
+  **You are an autonomous agent. You mak...'
+full_prompt_length: 23312
 tools_mentioned:
 - Docker
+- docker
 category: community
 category_display: Community
 source_repo: asklokesh/claudeskill-loki-mode
 source_path: SKILL.md
 source_url: https://github.com/asklokesh/claudeskill-loki-mode/blob/main/SKILL.md
-fetched_at: '2026-06-14T06:39:05.897571+00:00'
+fetched_at: '2026-06-21T06:50:04.139805+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T07:38:36.072890Z'
+  evaluated_at: '2026-06-21T07:50:13.093010Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a76d580 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c954c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a76d580 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c954c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:25.283951Z'
-indexed_at: '2026-06-14T10:18:25.283956Z'
+  fetched_at: '2026-06-21T10:34:00.441465Z'
+indexed_at: '2026-06-21T10:34:00.441471Z'
 ---

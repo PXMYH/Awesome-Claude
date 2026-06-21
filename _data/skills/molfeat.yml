@@ -25,24 +25,24 @@ prompt_preview: '---
   # Molfeat - Molecula...'
 full_prompt_length: 16376
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/molfeat/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/molfeat/SKILL.md
-fetched_at: '2026-06-14T06:38:17.328270+00:00'
+fetched_at: '2026-06-21T06:49:18.946443+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T06:56:51.915057Z'
+  evaluated_at: '2026-06-21T07:08:15.869761Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a91ca70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9eee4b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a91ca70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9eee4b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -52,5 +52,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.594656Z'
-indexed_at: '2026-06-14T10:18:24.594661Z'
+  fetched_at: '2026-06-21T10:33:59.549141Z'
+indexed_at: '2026-06-21T10:33:59.549147Z'

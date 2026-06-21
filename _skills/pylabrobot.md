@@ -30,24 +30,24 @@ prompt_preview: '---
   PyLabRobo...'
 full_prompt_length: 8214
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pylabrobot/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pylabrobot/SKILL.md
-fetched_at: '2026-06-14T06:38:21.078132+00:00'
+fetched_at: '2026-06-21T06:49:22.456650+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T07:00:56.155565Z'
+  evaluated_at: '2026-06-21T07:12:21.855280Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ef4a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaab97c80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0ef4a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaab97c80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.660417Z'
-indexed_at: '2026-06-14T10:18:24.660422Z'
+  fetched_at: '2026-06-21T10:33:59.634297Z'
+indexed_at: '2026-06-21T10:33:59.634303Z'
 ---

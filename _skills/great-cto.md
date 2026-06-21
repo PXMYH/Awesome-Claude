@@ -12,32 +12,32 @@ prompt_preview: "---\nname: great_cto\ndescription: Use when the CTO describes a
   \nYou are the chief of staff for th..."
 full_prompt_length: 47845
 tools_mentioned:
-- go
-- GraphQL
-- Go
-- Angular
-- Django
+- rest
 - SQLite
-- Python
+- ruby
+- Angular
 - PHP
-- JavaScript
+- Go
+- GraphQL
+- Django
 - Java
+- TypeScript
 category: community
 category_display: Community
 source_repo: avelikiy/great_cto
 source_path: skills/great_cto/SKILL.md
 source_url: https://github.com/avelikiy/great_cto/blob/main/skills/great_cto/SKILL.md
-fetched_at: '2026-06-14T06:39:07.608130+00:00'
+fetched_at: '2026-06-21T06:50:05.967667+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T07:39:40.875398Z'
+  evaluated_at: '2026-06-21T07:51:26.209088Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a7ca090 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa0c8230 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a7ca090 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa0c8230 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:25.301573Z'
-indexed_at: '2026-06-14T10:18:25.301578Z'
+  fetched_at: '2026-06-21T10:34:00.467231Z'
+indexed_at: '2026-06-21T10:34:00.467238Z'
 ---

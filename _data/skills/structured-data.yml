@@ -12,24 +12,24 @@ prompt_preview: "---\nname: structured-data\ndescription: Schema.org Structured 
 full_prompt_length: 23708
 tools_mentioned:
 - php
-- React
 - typescript
+- React
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/structured-data/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/structured-data/SKILL.md
-fetched_at: '2026-06-14T06:39:28.319325+00:00'
+fetched_at: '2026-06-21T06:50:25.600671+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T07:57:16.264603Z'
+  evaluated_at: '2026-06-21T08:09:16.730361Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97bf0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97bf0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:25.590379Z'
-indexed_at: '2026-06-14T10:18:25.590384Z'
+  fetched_at: '2026-06-21T10:34:00.845117Z'
+indexed_at: '2026-06-21T10:34:00.845123Z'

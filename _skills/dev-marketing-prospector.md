@@ -13,24 +13,24 @@ prompt_preview: "---\nname: dev-marketing-prospector\ndescription: >\n  Prospect
   give me leads for\", \"build a prospect list\", or..."
 full_prompt_length: 10383
 tools_mentioned:
-- go
 - Docker
+- go
 category: community
 category_display: Community
 source_repo: Infrasity-Labs/dev-gtm-claude-skills
 source_path: skills/dev-marketing-prospector/SKILL.md
 source_url: https://github.com/Infrasity-Labs/dev-gtm-claude-skills/blob/main/skills/dev-marketing-prospector/SKILL.md
-fetched_at: '2026-06-14T06:38:05.634185+00:00'
+fetched_at: '2026-06-21T06:49:07.289759+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T06:45:58.719589Z'
+  evaluated_at: '2026-06-21T06:56:46.222912Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c5160 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c741a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c5160 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c741a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.418030Z'
-indexed_at: '2026-06-14T10:18:24.418034Z'
+  fetched_at: '2026-06-21T10:33:59.309637Z'
+indexed_at: '2026-06-21T10:33:59.309648Z'
 ---

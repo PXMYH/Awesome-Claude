@@ -24,17 +24,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/hugging-science/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/hugging-science/SKILL.md
-fetched_at: '2026-06-14T06:38:14.651343+00:00'
+fetched_at: '2026-06-21T06:49:16.502729+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T06:53:59.896960Z'
+  evaluated_at: '2026-06-21T07:05:21.735084Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa36f9b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a083bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa36f9b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.547438Z'
-indexed_at: '2026-06-14T10:18:24.547443Z'
+  fetched_at: '2026-06-21T10:33:59.488546Z'
+indexed_at: '2026-06-21T10:33:59.488552Z'
 ---

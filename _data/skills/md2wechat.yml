@@ -21,24 +21,24 @@ prompt_preview: '---
 
   Use this skill to operate the `md2wechat` CLI. Keep the skill focused on execution
   decisions....'
-full_prompt_length: 9752
+full_prompt_length: 10096
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: geekjourneyx/md2wechat-skill
 source_path: skills/md2wechat/SKILL.md
 source_url: https://github.com/geekjourneyx/md2wechat-skill/blob/main/skills/md2wechat/SKILL.md
-fetched_at: '2026-06-14T06:39:47.187937+00:00'
+fetched_at: '2026-06-21T06:50:44.006923+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T08:12:59.435341Z'
+  evaluated_at: '2026-06-21T08:25:45.967030Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c6ba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97050 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c6ba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97050 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,5 +48,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:25.841121Z'
-indexed_at: '2026-06-14T10:18:25.841128Z'
+  fetched_at: '2026-06-21T10:34:01.186744Z'
+indexed_at: '2026-06-21T10:34:01.186751Z'

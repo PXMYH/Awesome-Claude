@@ -29,25 +29,25 @@ prompt_preview: '---
   data management. Access notebooks, manage entries and attachments, g...'
 full_prompt_length: 9461
 tools_mentioned:
+- Python
 - REST
 - python
-- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/labarchive-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/labarchive-integration/SKILL.md
-fetched_at: '2026-06-14T06:38:15.437449+00:00'
+fetched_at: '2026-06-21T06:49:17.199821+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T06:54:48.432634Z'
+  evaluated_at: '2026-06-21T07:06:12.650296Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c5bb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9f53680 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c5bb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9f53680 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.560808Z'
-indexed_at: '2026-06-14T10:18:24.560812Z'
+  fetched_at: '2026-06-21T10:33:59.505940Z'
+indexed_at: '2026-06-21T10:33:59.505947Z'
 ---

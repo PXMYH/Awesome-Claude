@@ -28,24 +28,24 @@ prompt_preview: '---
   technique for visualization and general non-linear dimensionality reduct...'
 full_prompt_length: 16988
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/umap-learn/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/umap-learn/SKILL.md
-fetched_at: '2026-06-14T06:38:26.728116+00:00'
+fetched_at: '2026-06-21T06:49:27.348209+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T07:06:39.160156Z'
+  evaluated_at: '2026-06-21T07:18:04.404946Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c51f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa176060 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a0c51f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa176060 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -55,5 +55,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.752310Z'
-indexed_at: '2026-06-14T10:18:24.752314Z'
+  fetched_at: '2026-06-21T10:33:59.751667Z'
+indexed_at: '2026-06-21T10:33:59.751673Z'

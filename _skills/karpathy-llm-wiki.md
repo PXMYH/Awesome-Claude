@@ -29,17 +29,17 @@ category_display: Community
 source_repo: Astro-Han/karpathy-llm-wiki
 source_path: SKILL.md
 source_url: https://github.com/Astro-Han/karpathy-llm-wiki/blob/main/SKILL.md
-fetched_at: '2026-06-14T06:38:00.152328+00:00'
+fetched_at: '2026-06-21T06:49:02.005477+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-14T06:43:40.898789Z'
+  evaluated_at: '2026-06-21T06:54:27.082297Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a347230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa2c76b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f187a347230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa2c76b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-14T10:18:24.380062Z'
-indexed_at: '2026-06-14T10:18:24.380066Z'
+  fetched_at: '2026-06-21T10:33:59.259456Z'
+indexed_at: '2026-06-21T10:33:59.259465Z'
 ---
