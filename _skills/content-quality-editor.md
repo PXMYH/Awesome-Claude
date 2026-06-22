@@ -21,31 +21,31 @@ prompt_preview: '---
   text and make it indistinguishable from writing by a thoughtful human. You use...'
 full_prompt_length: 2196
 tools_mentioned: []
-category: business-product
-category_display: Business Product
+category: 08-business-product
+category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/content-quality-editor.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/content-quality-editor.md
-fetched_at: '2026-06-21T06:49:51.863653+00:00'
+fetched_at: '2026-06-22T07:22:27.745628Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T07:41:31.301463Z'
+  evaluated_at: '2026-06-22T07:39:10.008470Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9f209e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2adc48b8c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9f209e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2adc48b8c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 22178
-  forks: 2591
+  stars: 22235
+  forks: 2598
   open_issues: 21
   last_commit: '2026-06-16'
-  fetched_at: '2026-06-21T06:53:28.143780Z'
-indexed_at: '2026-06-21T10:34:00.257278Z'
+  fetched_at: '2026-06-22T07:22:41.102638Z'
+indexed_at: '2026-06-22T07:47:53.559464Z'
 ---

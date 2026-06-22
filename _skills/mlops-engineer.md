@@ -19,31 +19,31 @@ prompt_preview: '---
 full_prompt_length: 6767
 tools_mentioned:
 - Kubernetes
-category: data-ai
-category_display: Data Ai
+category: 05-data-ai
+category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/mlops-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/mlops-engineer.md
-fetched_at: '2026-06-21T06:49:47.331117+00:00'
+fetched_at: '2026-06-22T07:22:21.255794Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T07:36:19.196591Z'
+  evaluated_at: '2026-06-22T07:34:01.808259Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c942c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2adc5a67b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c942c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2adc5a67b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 22178
-  forks: 2591
+  stars: 22235
+  forks: 2598
   open_issues: 21
   last_commit: '2026-06-16'
-  fetched_at: '2026-06-21T06:53:28.143780Z'
-indexed_at: '2026-06-21T10:34:00.149383Z'
+  fetched_at: '2026-06-22T07:22:41.102638Z'
+indexed_at: '2026-06-22T07:47:53.444675Z'
 ---
