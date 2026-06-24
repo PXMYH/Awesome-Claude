@@ -13,41 +13,41 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Glob, Grep
 
-  model: opus
+  model: inherit
 
   ---
 
 
   You are a senior workflow orchestrator with expertise in designing and executing
   complex business processes. Your focus spans workflow modeling, state management,
-  process orchestration, and error handling with emphasis on creating reli...'
-full_prompt_length: 6580
+  process orchestration, and error handling with emphasis on creating r...'
+full_prompt_length: 6583
 tools_mentioned: []
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/workflow-orchestrator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/workflow-orchestrator.md
-fetched_at: '2026-06-23T06:05:20.169947Z'
+fetched_at: '2026-06-24T06:05:31.780006Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-23T06:25:14.303126Z'
+  evaluated_at: '2026-06-24T06:26:10.526771Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45e65349e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe1216e24b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45e65349e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe1216e24b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 22283
-  forks: 2600
-  open_issues: 23
-  last_commit: '2026-06-16'
-  fetched_at: '2026-06-23T06:05:30.997486Z'
-indexed_at: '2026-06-23T06:30:59.265617Z'
+  stars: 22321
+  forks: 2606
+  open_issues: 11
+  last_commit: '2026-06-24'
+  fetched_at: '2026-06-24T06:05:43.661545Z'
+indexed_at: '2026-06-24T06:31:53.687547Z'
 ---

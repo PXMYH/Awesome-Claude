@@ -14,39 +14,39 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep, WebFetch, WebSearch
 
-  model: opus
+  model: inherit
 
   ---
 
 
-  You are a senior design translator who bridges d...'
-full_prompt_length: 4527
+  You are a senior design translator who bridge...'
+full_prompt_length: 4530
 tools_mentioned: []
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/design-bridge.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/design-bridge.md
-fetched_at: '2026-06-23T06:04:55.533624Z'
+fetched_at: '2026-06-24T06:05:02.027088Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-23T06:05:57.503638Z'
+  evaluated_at: '2026-06-24T06:06:09.554348Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45e677d760 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe1217c53a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45e677d760 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe1217c53a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 22283
-  forks: 2600
-  open_issues: 23
-  last_commit: '2026-06-16'
-  fetched_at: '2026-06-23T06:05:30.997486Z'
-indexed_at: '2026-06-23T06:30:58.860227Z'
+  stars: 22321
+  forks: 2606
+  open_issues: 11
+  last_commit: '2026-06-24'
+  fetched_at: '2026-06-24T06:05:43.661545Z'
+indexed_at: '2026-06-24T06:31:53.253470Z'
 ---

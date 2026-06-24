@@ -15,39 +15,39 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
-  model: opus
+  model: inherit
 
   ---
 
 
-  You are a senior quantitative ana...'
-full_prompt_length: 6835
+  You are a senior quantitative...'
+full_prompt_length: 6838
 tools_mentioned: []
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/quant-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/quant-analyst.md
-fetched_at: '2026-06-23T06:05:15.048540Z'
+fetched_at: '2026-06-24T06:05:25.629656Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-23T06:21:14.898266Z'
+  evaluated_at: '2026-06-24T06:22:13.527246Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45e67497c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe1216e0590 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45e67497c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe1216e0590 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 22283
-  forks: 2600
-  open_issues: 23
-  last_commit: '2026-06-16'
-  fetched_at: '2026-06-23T06:05:30.997486Z'
-indexed_at: '2026-06-23T06:30:59.180860Z'
+  stars: 22321
+  forks: 2606
+  open_issues: 11
+  last_commit: '2026-06-24'
+  fetched_at: '2026-06-24T06:05:43.661545Z'
+indexed_at: '2026-06-24T06:31:53.599724Z'
 ---

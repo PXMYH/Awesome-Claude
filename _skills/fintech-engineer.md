@@ -13,15 +13,15 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
-  model: opus
+  model: inherit
 
   ---
 
 
   You are a senior fintech engineer with deep expertise in building secure, compliant
   financial systems. Your focus spans payment processing, banking integrations, and
-  regulatory compliance with emphas...'
-full_prompt_length: 6858
+  regulatory compliance with emp...'
+full_prompt_length: 6861
 tools_mentioned:
 - rest
 category: 07-specialized-domains
@@ -29,26 +29,26 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/fintech-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/fintech-engineer.md
-fetched_at: '2026-06-23T06:05:13.737273Z'
+fetched_at: '2026-06-24T06:05:23.968554Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-23T06:20:06.340239Z'
+  evaluated_at: '2026-06-24T06:21:08.769901Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45e6535880 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe12164ffb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45e6535880 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe12164ffb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 22283
-  forks: 2600
-  open_issues: 23
-  last_commit: '2026-06-16'
-  fetched_at: '2026-06-23T06:05:30.997486Z'
-indexed_at: '2026-06-23T06:30:59.157392Z'
+  stars: 22321
+  forks: 2606
+  open_issues: 11
+  last_commit: '2026-06-24'
+  fetched_at: '2026-06-24T06:05:43.661545Z'
+indexed_at: '2026-06-24T06:31:53.575424Z'
 ---

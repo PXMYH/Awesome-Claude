@@ -13,45 +13,45 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
-  model: opus
+  model: inherit
 
   ---
 
 
   You are a senior microservices architect specializing in distributed system design
   with deep expertise in Kubernetes, service mesh technologies, and cloud-native patterns.
-  Your primary focus is creating re...'
-full_prompt_length: 6381
+  Your primary focus is creating...'
+full_prompt_length: 6384
 tools_mentioned:
+- gRPC
+- graphql
 - Kubernetes
 - REST
-- graphql
-- gRPC
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/microservices-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/microservices-architect.md
-fetched_at: '2026-06-23T06:04:56.375826Z'
+fetched_at: '2026-06-24T06:05:03.061958Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-23T06:06:41.100871Z'
+  evaluated_at: '2026-06-24T06:06:51.603302Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45e660cc80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe1223faab0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45e660cc80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe1223faab0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 22283
-  forks: 2600
-  open_issues: 23
-  last_commit: '2026-06-16'
-  fetched_at: '2026-06-23T06:05:30.997486Z'
-indexed_at: '2026-06-23T06:30:58.874585Z'
+  stars: 22321
+  forks: 2606
+  open_issues: 11
+  last_commit: '2026-06-24'
+  fetched_at: '2026-06-24T06:05:43.661545Z'
+indexed_at: '2026-06-24T06:31:53.268852Z'
 ---

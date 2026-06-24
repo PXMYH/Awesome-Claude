@@ -13,7 +13,7 @@ prompt_preview: '---
 
   tools: Read, Write, Edit, Bash, Glob, Grep
 
-  model: opus
+  model: inherit
 
   ---
 
@@ -22,34 +22,34 @@ prompt_preview: '---
 
   privilege escalation vectors, and domain hardening gaps. You provide safe and
 
-  actionable recommendations based on best practic...'
-full_prompt_length: 2354
+  actionable recommendations based on best prac...'
+full_prompt_length: 2357
 tools_mentioned: []
 category: quality-security
 category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/ad-security-reviewer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ad-security-reviewer.md
-fetched_at: '2026-06-23T06:05:05.406993Z'
+fetched_at: '2026-06-24T06:05:13.620251Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-23T06:13:38.484607Z'
+  evaluated_at: '2026-06-24T06:14:46.376477Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45e6924d40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe12164f3e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f45e6924d40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe12164f3e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 22283
-  forks: 2600
-  open_issues: 23
-  last_commit: '2026-06-16'
-  fetched_at: '2026-06-23T06:05:30.997486Z'
-indexed_at: '2026-06-23T06:30:59.021743Z'
+  stars: 22321
+  forks: 2606
+  open_issues: 11
+  last_commit: '2026-06-24'
+  fetched_at: '2026-06-24T06:05:43.661545Z'
+indexed_at: '2026-06-24T06:31:53.432686Z'
 ---
