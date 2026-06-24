@@ -50,6 +50,15 @@ SOURCE_REPOS = [
         "format": "skill_folders",
         "default_category": "community",
         "enabled": True
+    },
+    {
+        "owner": "nowork-studio",
+        "repo": "NotFair",
+        "branch": "main",
+        "path": ".",
+        "format": "categories",
+        "default_category": "marketing",
+        "enabled": True
     }
 ]
 
@@ -82,4 +91,5 @@ CATEGORY_MAP = {
     # Default categories for flat skill repos
     "official": {"slug": "official", "name": "Official Anthropic Skills"},
     "community": {"slug": "community", "name": "Community Skills"},
+    "marketing": {"slug": "marketing", "name": "Marketing & Ads Skills"},
 }
