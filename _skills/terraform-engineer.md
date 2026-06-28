@@ -23,36 +23,36 @@ prompt_preview: '---
   development, state management, security compliance,...'
 full_prompt_length: 6898
 tools_mentioned:
-- AWS
 - kubernetes
+- Kubernetes
 - GCP
 - Azure
-- Kubernetes
+- AWS
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/terraform-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/terraform-engineer.md
-fetched_at: '2026-06-27T05:52:23.143137Z'
+fetched_at: '2026-06-28T06:16:11.899685+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-27T06:00:44.172568Z'
+  evaluated_at: '2026-06-28T06:58:56.745644Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fba4186b110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262e510 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fba4186b110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262e510 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 22448
-  forks: 2616
+  stars: 22494
+  forks: 2623
   open_issues: 2
   last_commit: '2026-06-24'
-  fetched_at: '2026-06-27T05:53:03.503285Z'
-indexed_at: '2026-06-27T06:18:41.789101Z'
+  fetched_at: '2026-06-28T06:20:03.071838Z'
+indexed_at: '2026-06-28T10:04:25.959933Z'
 ---

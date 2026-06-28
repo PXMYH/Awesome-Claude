@@ -16,24 +16,24 @@ prompt_preview: '---
   effort plus follow-ons, risks and pre-mo...'
 full_prompt_length: 22842
 tools_mentioned:
-- rest
 - go
+- rest
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/foundation-prioritized-action-plan/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/foundation-prioritized-action-plan/SKILL.md
-fetched_at: '2026-06-21T06:52:40.808921+00:00'
+fetched_at: '2026-06-28T06:19:16.935367+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T10:06:54.032341Z'
+  evaluated_at: '2026-06-28T09:36:16.718145Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9acbd10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2b01040 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9acbd10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2b01040 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:03.315794Z'
-indexed_at: '2026-06-21T10:34:03.315800Z'
+  fetched_at: '2026-06-28T10:04:29.418419Z'
+indexed_at: '2026-06-28T10:04:29.418424Z'
 ---

@@ -1,0 +1,47 @@
+---
+id: foundation-build-risk-review
+slug: foundation-build-risk-review
+name: Build Risk Review
+description: Adapted from `bin1874/before-you-build-skill` (Apache-2.0), repositioned
+  PM-neutral. The source skill's external case-memory API call and translate-to-user-language
+  behavior are removed.
+prompt_preview: '---
+
+  name: foundation-build-risk-review
+
+  description: Runs a fast pre-build risk review on a product idea, feature request,
+  or scope change, naming the single assumption most likely to make it fail and returning
+  a clear verdict (build small, validate first, pivot first, or don''t build yet)
+  with a no-code validation step. Use before committing build effort, when triaging
+  whether to honor a feature request, or when deciding whether to expand scope, ahead
+  of writing a PRD. For a launched product''s pi...'
+full_prompt_length: 6758
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: product-on-purpose/pm-skills
+source_path: skills/foundation-build-risk-review/SKILL.md
+source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/foundation-build-risk-review/SKILL.md
+fetched_at: '2026-06-28T06:19:15.955993+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-28T09:35:11.652861Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d57c0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d57c0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-28T10:04:29.394557Z'
+indexed_at: '2026-06-28T10:04:29.394563Z'
+---

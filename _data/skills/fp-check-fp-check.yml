@@ -8,8 +8,10 @@ prompt_preview: '---
   name: fp-check
 
   description: "Systematically verifies suspected security bugs to eliminate false
-  positives. Produces TRUE POSITIVE or FALSE POSITIVE verdicts with documented evidence
-  for each bug."
+  positives, producing a TRUE POSITIVE or FALSE POSITIVE verdict with documented evidence
+  for each. Use when asked whether a specific finding is real, exploitable, or a false
+  positive, or to verify or validate a suspected vulnerability — not for hunting or
+  discovering new bugs."
 
   allowed-tools: Read Grep Glob LSP Bash Task Write Edit AskUserQuestion TaskCreate
   TaskUpdate TaskList TaskGet
@@ -17,35 +19,25 @@ prompt_preview: '---
   ---
 
 
-  # False Positive Check
-
-
-  ## When to Use
-
-
-  - "Is this bug real?" or "is this a true positive?"
-
-  - "Is this a false positive?" or "verify this finding"
-
-  - "Check if this vulnerability is exp...'
-full_prompt_length: 6524
+  # False...'
+full_prompt_length: 6723
 tools_mentioned: []
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/fp-check/skills/fp-check/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/fp-check/skills/fp-check/SKILL.md
-fetched_at: '2026-06-21T06:53:07.631361+00:00'
+fetched_at: '2026-06-28T06:19:44.226193+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T10:24:35.011253Z'
+  evaluated_at: '2026-06-28T09:54:47.584805Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9aca5d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262ccb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9aca5d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262ccb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -55,5 +47,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:03.692588Z'
-indexed_at: '2026-06-21T10:34:03.692594Z'
+  fetched_at: '2026-06-28T10:04:29.803668Z'
+indexed_at: '2026-06-28T10:04:29.803681Z'

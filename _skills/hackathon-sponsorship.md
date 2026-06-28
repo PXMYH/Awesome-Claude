@@ -17,17 +17,17 @@ category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/hackathon-sponsorship/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/hackathon-sponsorship/SKILL.md
-fetched_at: '2026-06-21T06:51:37.099665+00:00'
+fetched_at: '2026-06-28T06:18:05.483697+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T09:08:12.229306Z'
+  evaluated_at: '2026-06-28T08:36:59.419368Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac8c50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2803a70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac8c50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2803a70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:02.081139Z'
-indexed_at: '2026-06-21T10:34:02.081145Z'
+  fetched_at: '2026-06-28T10:04:28.122110Z'
+indexed_at: '2026-06-28T10:04:28.122115Z'
 ---

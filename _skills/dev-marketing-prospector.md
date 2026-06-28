@@ -11,7 +11,7 @@ prompt_preview: "---\nname: dev-marketing-prospector\ndescription: >\n  Prospect
   \ any other tech vertical) and wants a list of prospect\n  companies to target.\
   \ Also trigger when the user says \"prospect for\", \"find\n  companies in\", \"\
   give me leads for\", \"build a prospect list\", or..."
-full_prompt_length: 10383
+full_prompt_length: 11325
 tools_mentioned:
 - Docker
 - go
@@ -20,17 +20,17 @@ category_display: Community
 source_repo: Infrasity-Labs/dev-gtm-claude-skills
 source_path: skills/dev-marketing-prospector/SKILL.md
 source_url: https://github.com/Infrasity-Labs/dev-gtm-claude-skills/blob/main/skills/dev-marketing-prospector/SKILL.md
-fetched_at: '2026-06-21T06:49:07.289759+00:00'
+fetched_at: '2026-06-28T06:15:35.371659+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T06:56:46.222912Z'
+  evaluated_at: '2026-06-28T06:23:22.918128Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c741a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a3994830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c741a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a3994830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:33:59.309637Z'
-indexed_at: '2026-06-21T10:33:59.309648Z'
+  fetched_at: '2026-06-28T10:04:25.164724Z'
+indexed_at: '2026-06-28T10:04:25.164737Z'
 ---

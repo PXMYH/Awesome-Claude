@@ -11,24 +11,24 @@ prompt_preview: "---\nname: outline\ndescription: \"Search, read, and manage Out
   \ and manage documents in any Outline w..."
 full_prompt_length: 4556
 tools_mentioned:
-- Go
 - Python
+- Go
 category: community
 category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/outline/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/outline/SKILL.md
-fetched_at: '2026-06-21T06:52:52.706559+00:00'
+fetched_at: '2026-06-28T06:19:28.794726+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T10:16:58.939295Z'
+  evaluated_at: '2026-06-28T09:46:17.801112Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a26d1940 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a26d1940 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:03.528151Z'
-indexed_at: '2026-06-21T10:34:03.528176Z'
+  fetched_at: '2026-06-28T10:04:29.638924Z'
+indexed_at: '2026-06-28T10:04:29.638930Z'

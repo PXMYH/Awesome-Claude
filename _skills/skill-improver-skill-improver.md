@@ -22,17 +22,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/skill-improver/skills/skill-improver/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/skill-improver/skills/skill-improver/SKILL.md
-fetched_at: '2026-06-21T06:53:10.878654+00:00'
+fetched_at: '2026-06-28T06:19:46.920181+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T10:26:21.079589Z'
+  evaluated_at: '2026-06-28T09:56:33.153068Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9b03d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2797830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9b03d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2797830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:03.730419Z'
-indexed_at: '2026-06-21T10:34:03.730425Z'
+  fetched_at: '2026-06-28T10:04:29.842870Z'
+indexed_at: '2026-06-28T10:04:29.842876Z'
 ---

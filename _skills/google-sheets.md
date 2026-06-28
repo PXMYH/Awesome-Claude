@@ -18,17 +18,17 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/google-sheets/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/google-sheets/SKILL.md
-fetched_at: '2026-06-21T06:52:51.796238+00:00'
+fetched_at: '2026-06-28T06:19:28.171436+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T10:15:45.768780Z'
+  evaluated_at: '2026-06-28T09:45:04.454171Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c77fb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a26d1a30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c77fb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a26d1a30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:03.502469Z'
-indexed_at: '2026-06-21T10:34:03.502475Z'
+  fetched_at: '2026-06-28T10:04:29.612551Z'
+indexed_at: '2026-06-28T10:04:29.612557Z'
 ---

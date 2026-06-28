@@ -1,0 +1,44 @@
+id: vertical-construction
+slug: vertical-construction
+name: 'Vertical: construction — don''t spec it naive'
+description: These pair with [[vertical-onboarding]] (importing the contractor's existing
+  jobs, subs, and
+prompt_preview: '---
+
+  name: vertical-construction
+
+  description: Domain knowledge for the construction vertical (contractors, field
+  crews) so architect and pm don''t spec construction products naively. Covers the
+  vocabulary (bid vs estimate, takeoff, retainage, change order, AIA G702/G703, lien
+  waiver, draw schedule), the non-obvious money rules that incumbents like Procore
+  price out of reach for small contractors, what a naive build gets wrong (no assemblies,
+  ignored retainage, ungated sub payments), and the entiti...'
+full_prompt_length: 11009
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: avelikiy/great_cto
+source_path: skills/vertical-construction/SKILL.md
+source_url: https://github.com/avelikiy/great_cto/blob/main/skills/vertical-construction/SKILL.md
+fetched_at: '2026-06-28T06:16:36.449610+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-28T07:19:34.725181Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28012b0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28012b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-28T10:04:26.413437Z'
+indexed_at: '2026-06-28T10:04:26.413443Z'

@@ -21,17 +21,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/setup-prometheus-monitoring/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/setup-prometheus-monitoring/SKILL.md
-fetched_at: '2026-06-21T06:52:29.156008+00:00'
+fetched_at: '2026-06-28T06:19:04.024227+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T09:55:45.247945Z'
+  evaluated_at: '2026-06-28T09:24:02.153182Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c767b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28034a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c767b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28034a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:03.083081Z'
-indexed_at: '2026-06-21T10:34:03.083087Z'
+  fetched_at: '2026-06-28T10:04:29.171905Z'
+indexed_at: '2026-06-28T10:04:29.171912Z'
 ---

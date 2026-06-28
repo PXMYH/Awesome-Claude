@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-work-breakdown-structure/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-work-breakdown-structure/SKILL.md
-fetched_at: '2026-06-21T06:52:00.928683+00:00'
+fetched_at: '2026-06-28T06:18:30.212752+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T09:26:16.100625Z'
+  evaluated_at: '2026-06-28T08:54:53.136271Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c776e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2be9550 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c776e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2be9550 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:02.464108Z'
-indexed_at: '2026-06-21T10:34:02.464113Z'
+  fetched_at: '2026-06-28T10:04:28.520310Z'
+indexed_at: '2026-06-28T10:04:28.520316Z'
 ---

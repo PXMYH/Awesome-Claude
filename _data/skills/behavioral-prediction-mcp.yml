@@ -6,6 +6,8 @@ prompt_preview: '---
 
   name: chainaware-behavioral-prediction
 
+  version: 1.0.0
+
   license: MIT
 
   description: "Use this skill whenever a user asks about wallet safety, fraud risk,
@@ -13,31 +15,33 @@ prompt_preview: '---
   scoring, AML checks,  token ranking by holder quality, airdrop screening, lending
   risk, token launch auditing,  or AI agent trust scoring. Triggers on questions like:
   is this wallet safe?, will this pool rug pull?, what will this address do next?,  score
-  this wallet, dete...'
-full_prompt_length: 28776
+  th...'
+full_prompt_length: 36359
 tools_mentioned:
-- javascript
-- Go
-- Node.js
-- python
 - Python
 - go
+- javascript
+- Go
+- AWS
+- aws
+- Node.js
+- python
 category: community
 category_display: Community
 source_repo: ChainAware/behavioral-prediction-mcp
 source_path: SKILL.md
 source_url: https://github.com/ChainAware/behavioral-prediction-mcp/blob/main/SKILL.md
-fetched_at: '2026-06-21T06:49:03.258974+00:00'
+fetched_at: '2026-06-28T06:15:31.579854+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T06:54:43.320814Z'
+  evaluated_at: '2026-06-28T06:21:17.849065Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9eec5c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2797c80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9eec5c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2797c80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,5 +51,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:33:59.265766Z'
-indexed_at: '2026-06-21T10:33:59.265772Z'
+  fetched_at: '2026-06-28T10:04:25.118975Z'
+indexed_at: '2026-06-28T10:04:25.118981Z'

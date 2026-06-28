@@ -13,28 +13,28 @@ prompt_preview: "---\nname: tidy-project-structure\ndescription: >\n  Organize p
   \ directories.\nlicense:..."
 full_prompt_length: 10208
 tools_mentioned:
-- Django
+- Python
 - Rust
+- JavaScript
+- Django
 - TypeScript
 - React
-- Python
-- JavaScript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/tidy-project-structure/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/tidy-project-structure/SKILL.md
-fetched_at: '2026-06-21T06:52:32.629314+00:00'
+fetched_at: '2026-06-28T06:19:08.135350+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T09:59:24.647823Z'
+  evaluated_at: '2026-06-28T09:27:41.119045Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d45c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d45c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:03.160177Z'
-indexed_at: '2026-06-21T10:34:03.160183Z'
+  fetched_at: '2026-06-28T10:04:29.252700Z'
+indexed_at: '2026-06-28T10:04:29.252706Z'
 ---

@@ -12,24 +12,24 @@ prompt_preview: "---\nname: review\ndescription: |\n  Adversarial senior review 
   \ high-blast-radius, when the user says \"revie..."
 full_prompt_length: 3833
 tools_mentioned:
-- GO
 - go
+- GO
 category: community
 category_display: Community
 source_repo: JuliusBrussee/blueprint
 source_path: skills/review/SKILL.md
 source_url: https://github.com/JuliusBrussee/blueprint/blob/main/skills/review/SKILL.md
-fetched_at: '2026-06-21T06:49:09.990611+00:00'
+fetched_at: '2026-06-28T06:15:37.739536+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T06:58:39.957941Z'
+  evaluated_at: '2026-06-28T06:25:17.026805Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c776e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d5fa0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c776e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d5fa0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:33:59.349724Z'
-indexed_at: '2026-06-21T10:33:59.349730Z'
+  fetched_at: '2026-06-28T10:04:25.207524Z'
+indexed_at: '2026-06-28T10:04:25.207530Z'
 ---

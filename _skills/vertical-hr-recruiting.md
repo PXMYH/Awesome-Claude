@@ -1,0 +1,44 @@
+---
+id: vertical-hr-recruiting
+slug: vertical-hr-recruiting
+name: 'Vertical: HR & recruiting — don''t spec it naive'
+description: '- [[vertical-onboarding]] — the import-first onboarding funnel; the
+  offer→onboard'
+prompt_preview: "---\nname: vertical-hr-recruiting\ndescription: Domain-knowledge\
+  \ primer for the HR & recruiting vertical (ATS, onboarding, workforce scheduling,\
+  \ engagement). Applied by architect/pm during spec authoring so they aren't naive\
+  \ about hiring pipelines, the admitted offer→onboard data-carry gap, EEO/I-9 compliance,\
+  \ and shift-coverage rules. Stops the four products from being specced as generic\
+  \ CRUD when the domain has hard legal and workflow constraints.\nwhen_to_use: |\n\
+  \  Apply when:\n  - architect write..."
+full_prompt_length: 8842
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: avelikiy/great_cto
+source_path: skills/vertical-hr-recruiting/SKILL.md
+source_url: https://github.com/avelikiy/great_cto/blob/main/skills/vertical-hr-recruiting/SKILL.md
+fetched_at: '2026-06-28T06:16:37.152793+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-28T07:20:07.071091Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2801220 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2801220 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-28T10:04:26.425696Z'
+indexed_at: '2026-06-28T10:04:26.425701Z'
+---

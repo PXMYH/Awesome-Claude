@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/run-puzzle-tests/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/run-puzzle-tests/SKILL.md
-fetched_at: '2026-06-21T06:52:26.734418+00:00'
+fetched_at: '2026-06-28T06:19:01.022739+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T09:53:07.646222Z'
+  evaluated_at: '2026-06-28T09:21:26.373297Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9eee4b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262d4c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9eee4b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262d4c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:03.028758Z'
-indexed_at: '2026-06-21T10:34:03.028763Z'
+  fetched_at: '2026-06-28T10:04:29.114661Z'
+indexed_at: '2026-06-28T10:04:29.114667Z'
 ---

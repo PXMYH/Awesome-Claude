@@ -27,17 +27,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-writing-arc-design/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-writing-arc-design/SKILL.md
-fetched_at: '2026-06-21T06:51:14.209600+00:00'
+fetched_at: '2026-06-28T06:17:42.941727+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T08:54:52.972485Z'
+  evaluated_at: '2026-06-28T08:23:45.704239Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9aca4b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2f52f00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9aca4b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2f52f00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:01.800281Z'
-indexed_at: '2026-06-21T10:34:01.800287Z'
+  fetched_at: '2026-06-28T10:04:27.830816Z'
+indexed_at: '2026-06-28T10:04:27.830822Z'
 ---

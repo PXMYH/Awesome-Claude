@@ -22,17 +22,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/matlab/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/matlab/SKILL.md
-fetched_at: '2026-06-21T06:49:18.361823+00:00'
+fetched_at: '2026-06-28T06:15:45.772920+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T07:07:34.816330Z'
+  evaluated_at: '2026-06-28T06:34:06.707043Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c95070 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28036b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c95070 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28036b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:33:59.535003Z'
-indexed_at: '2026-06-21T10:33:59.535009Z'
+  fetched_at: '2026-06-28T10:04:25.404827Z'
+indexed_at: '2026-06-28T10:04:25.404833Z'
 ---

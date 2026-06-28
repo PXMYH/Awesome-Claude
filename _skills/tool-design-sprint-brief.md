@@ -14,24 +14,24 @@ prompt_preview: "---\nname: tool-design-sprint-brief\ndescription: Pre-sprint br
   \  version: \"0.1.0\"..."
 full_prompt_length: 10471
 tools_mentioned:
-- Go
 - go
+- Go
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/tool-design-sprint-brief/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/tool-design-sprint-brief/SKILL.md
-fetched_at: '2026-06-21T06:52:42.305057+00:00'
+fetched_at: '2026-06-28T06:19:18.820161+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T10:08:42.520638Z'
+  evaluated_at: '2026-06-28T09:38:02.580793Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9aca6f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262c8f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9aca6f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262c8f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:03.352277Z'
-indexed_at: '2026-06-21T10:34:03.352283Z'
+  fetched_at: '2026-06-28T10:04:29.457068Z'
+indexed_at: '2026-06-28T10:04:29.457074Z'
 ---

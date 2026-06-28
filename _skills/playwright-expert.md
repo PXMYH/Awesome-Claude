@@ -19,17 +19,17 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/playwright-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/playwright-expert/SKILL.md
-fetched_at: '2026-06-21T06:51:29.088630+00:00'
+fetched_at: '2026-06-28T06:17:57.291712+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T09:02:59.462496Z'
+  evaluated_at: '2026-06-28T08:31:48.235023Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9b00aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262f860 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9b00aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262f860 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:01.970610Z'
-indexed_at: '2026-06-21T10:34:01.970616Z'
+  fetched_at: '2026-06-28T10:04:28.007794Z'
+indexed_at: '2026-06-28T10:04:28.007799Z'
 ---

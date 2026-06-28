@@ -11,26 +11,26 @@ prompt_preview: "---\nname: diffdock\ndescription: DiffDock and DiffDock-L molec
   \ RDKit, PyTorch/PyG, and op..."
 full_prompt_length: 16372
 tools_mentioned:
-- Python
 - docker
 - Docker
+- Python
 - python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/diffdock/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/diffdock/SKILL.md
-fetched_at: '2026-06-21T06:49:14.135170+00:00'
+fetched_at: '2026-06-28T06:15:41.652432+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T07:02:37.255945Z'
+  evaluated_at: '2026-06-28T06:29:12.811035Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa2c74d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2aae0f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa2c74d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2aae0f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:33:59.431671Z'
-indexed_at: '2026-06-21T10:33:59.431677Z'
+  fetched_at: '2026-06-28T10:04:25.296333Z'
+indexed_at: '2026-06-28T10:04:25.296338Z'

@@ -15,24 +15,24 @@ prompt_preview: '---
   read of our assumptions'', ''separate what we know...'
 full_prompt_length: 8196
 tools_mentioned:
-- rest
 - go
+- rest
 category: community
 category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-epistemology-epistemic-status/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-epistemology-epistemic-status/SKILL.md
-fetched_at: '2026-06-21T06:50:57.556209+00:00'
+fetched_at: '2026-06-28T06:17:28.515611+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T08:37:43.339475Z'
+  evaluated_at: '2026-06-28T08:06:30.170626Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c778c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d66f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c778c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d66f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:01.439410Z'
-indexed_at: '2026-06-21T10:34:01.439415Z'
+  fetched_at: '2026-06-28T10:04:27.449403Z'
+indexed_at: '2026-06-28T10:04:27.449409Z'
 ---

@@ -26,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/what-if-oracle/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/what-if-oracle/SKILL.md
-fetched_at: '2026-06-21T06:49:27.840691+00:00'
+fetched_at: '2026-06-28T06:15:54.595100+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T07:18:37.211836Z'
+  evaluated_at: '2026-06-28T06:45:05.371696Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9eee570 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2f52f00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9eee570 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2f52f00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:33:59.762740Z'
-indexed_at: '2026-06-21T10:33:59.762750Z'
+  fetched_at: '2026-06-28T10:04:25.652282Z'
+indexed_at: '2026-06-28T10:04:25.652293Z'
 ---

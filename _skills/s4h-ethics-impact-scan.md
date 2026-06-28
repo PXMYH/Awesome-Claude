@@ -20,24 +20,24 @@ prompt_preview: '---
   # Ethi...'
 full_prompt_length: 5606
 tools_mentioned:
-- Go
 - go
+- Go
 category: community
 category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-ethics-impact-scan/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-ethics-impact-scan/SKILL.md
-fetched_at: '2026-06-21T06:50:59.156661+00:00'
+fetched_at: '2026-06-28T06:17:29.974794+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T08:39:22.159539Z'
+  evaluated_at: '2026-06-28T08:08:11.270793Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97410 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2800fb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97410 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2800fb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:01.472615Z'
-indexed_at: '2026-06-21T10:34:01.472621Z'
+  fetched_at: '2026-06-28T10:04:27.484932Z'
+indexed_at: '2026-06-28T10:04:27.484937Z'
 ---

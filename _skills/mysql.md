@@ -12,8 +12,8 @@ prompt_preview: "---\nname: mysql\ndescription: \"Execute read-only SQL queries 
   \  version: \"1.0\"\n---\n\n# MySQL R..."
 full_prompt_length: 4131
 tools_mentioned:
-- Python
 - MySQL
+- Python
 - mysql
 - python
 category: community
@@ -21,17 +21,17 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/mysql/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/mysql/SKILL.md
-fetched_at: '2026-06-21T06:52:52.501637+00:00'
+fetched_at: '2026-06-28T06:19:28.653184+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T10:16:42.683810Z'
+  evaluated_at: '2026-06-28T09:46:01.432358Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c33cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d4c80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c33cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d4c80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:03.522445Z'
-indexed_at: '2026-06-21T10:34:03.522450Z'
+  fetched_at: '2026-06-28T10:04:29.633045Z'
+indexed_at: '2026-06-28T10:04:29.633051Z'
 ---

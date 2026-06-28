@@ -10,24 +10,24 @@ prompt_preview: "---\nname: prd-development\ndescription: Build a structured PRD
   \ creation by orchestrating problem framing, user research synthesis, solution definition,\
   \ and success criteria into a cohesive document. Use this to move from scattered\
   \ notes and Slack threads t..."
-full_prompt_length: 22963
+full_prompt_length: 23988
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/prd-development/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/prd-development/SKILL.md
-fetched_at: '2026-06-21T06:50:36.682149+00:00'
+fetched_at: '2026-06-28T06:17:09.111888+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T08:20:03.421754Z'
+  evaluated_at: '2026-06-28T07:48:48.548537Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac8cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2802ea0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac8cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2802ea0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:01.067568Z'
-indexed_at: '2026-06-21T10:34:01.067574Z'
+  fetched_at: '2026-06-28T10:04:27.059637Z'
+indexed_at: '2026-06-28T10:04:27.059642Z'
 ---

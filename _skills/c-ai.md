@@ -42,24 +42,24 @@ prompt_preview: '---
   l...'
 full_prompt_length: 1581
 tools_mentioned:
-- Rust
 - Docker
+- Rust
 category: community
 category_display: Community
 source_repo: daxaur/openpaw
 source_path: skills/c-ai/SKILL.md
 source_url: https://github.com/daxaur/openpaw/blob/main/skills/c-ai/SKILL.md
-fetched_at: '2026-06-21T06:50:27.960178+00:00'
+fetched_at: '2026-06-28T06:16:59.960267+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T08:10:38.831290Z'
+  evaluated_at: '2026-06-28T07:39:08.328316Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97a70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d7b90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97a70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d7b90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -69,6 +69,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:00.874096Z'
-indexed_at: '2026-06-21T10:34:00.874102Z'
+  fetched_at: '2026-06-28T10:04:26.850147Z'
+indexed_at: '2026-06-28T10:04:26.850153Z'
 ---

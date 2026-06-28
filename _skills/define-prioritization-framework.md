@@ -23,17 +23,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/define-prioritization-framework/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/define-prioritization-framework/SKILL.md
-fetched_at: '2026-06-21T06:52:38.136485+00:00'
+fetched_at: '2026-06-28T06:19:13.840970+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T10:03:38.106862Z'
+  evaluated_at: '2026-06-28T09:31:53.527676Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c33dd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262d100 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c33dd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262d100 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:03.248711Z'
-indexed_at: '2026-06-21T10:34:03.248718Z'
+  fetched_at: '2026-06-28T10:04:29.344947Z'
+indexed_at: '2026-06-28T10:04:29.344953Z'
 ---

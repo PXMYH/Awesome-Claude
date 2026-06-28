@@ -12,24 +12,24 @@ prompt_preview: "---\nname: altitude-horizon-framework\ndescription: Understand 
   \ zone is creating friction,..."
 full_prompt_length: 14517
 tools_mentioned:
-- rest
 - go
+- rest
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/altitude-horizon-framework/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/altitude-horizon-framework/SKILL.md
-fetched_at: '2026-06-21T06:50:33.680507+00:00'
+fetched_at: '2026-06-28T06:17:05.972031+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T08:16:38.154065Z'
+  evaluated_at: '2026-06-28T07:45:07.796187Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac9370 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262e780 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac9370 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262e780 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:00.996722Z'
-indexed_at: '2026-06-21T10:34:00.996728Z'
+  fetched_at: '2026-06-28T10:04:26.979173Z'
+indexed_at: '2026-06-28T10:04:26.979178Z'
 ---

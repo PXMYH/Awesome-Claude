@@ -2,8 +2,8 @@
 id: tweetclaw
 slug: tweetclaw
 name: TweetClaw
-description: '- Use `explore` first to discover endpoints before calling `tweetclaw`
-  - saves tokens and avoids guessing'
+description: 1. Confirm `SKILL.md` still has a narrow purpose, clear activation contexts,
+  declared capabilities, owner, license, output shape, risks, and mitigations.
 prompt_preview: '---
 
   name: tweetclaw
@@ -18,26 +18,26 @@ prompt_preview: '---
   read_when: ["Installing or configuring the TweetClaw OpenClaw plugin","Using Xquik
   from OpenClaw with explicit user approval","Checking TweetClaw pricing, credentials,
   permissions, or s...'
-full_prompt_length: 30624
+full_prompt_length: 32947
 tools_mentioned:
-- rest
 - go
+- rest
 category: community
 category_display: Community
 source_repo: Xquik-dev/tweetclaw
 source_path: skills/tweetclaw/SKILL.md
 source_url: https://github.com/Xquik-dev/tweetclaw/blob/master/skills/tweetclaw/SKILL.md
-fetched_at: '2026-06-21T06:49:56.398772+00:00'
+fetched_at: '2026-06-28T06:16:25.669000+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T07:46:08.612093Z'
+  evaluated_at: '2026-06-28T07:12:31.448603Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c769c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262dbb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c769c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262dbb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:00.353071Z'
-indexed_at: '2026-06-21T10:34:00.353077Z'
+  fetched_at: '2026-06-28T10:04:26.260138Z'
+indexed_at: '2026-06-28T10:04:26.260144Z'
 ---

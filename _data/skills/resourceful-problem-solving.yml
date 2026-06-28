@@ -36,17 +36,17 @@ category_display: Community
 source_repo: swarmclawai/swarmclaw
 source_path: skills/resourceful-problem-solving/SKILL.md
 source_url: https://github.com/swarmclawai/swarmclaw/blob/main/skills/resourceful-problem-solving/SKILL.md
-fetched_at: '2026-06-21T06:52:55.839486+00:00'
+fetched_at: '2026-06-28T06:19:31.919562+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T10:18:21.503431Z'
+  evaluated_at: '2026-06-28T09:47:38.869094Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c33680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a26d0410 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c33680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a26d0410 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -56,5 +56,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:03.556912Z'
-indexed_at: '2026-06-21T10:34:03.556918Z'
+  fetched_at: '2026-06-28T10:04:29.668465Z'
+indexed_at: '2026-06-28T10:04:29.668475Z'

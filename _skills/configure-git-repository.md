@@ -12,25 +12,25 @@ prompt_preview: "---\nname: configure-git-repository\ndescription: >\n  Configur
   \ Read Write Edit Bash Grep Glo..."
 full_prompt_length: 7077
 tools_mentioned:
-- Python
 - TypeScript
+- Python
 - Node.js
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/configure-git-repository/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/configure-git-repository/SKILL.md
-fetched_at: '2026-06-21T06:51:57.139407+00:00'
+fetched_at: '2026-06-28T06:18:26.460316+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T09:22:18.759579Z'
+  evaluated_at: '2026-06-28T08:50:56.925853Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa6105f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27967b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa6105f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27967b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:02.382094Z'
-indexed_at: '2026-06-21T10:34:02.382100Z'
+  fetched_at: '2026-06-28T10:04:28.433212Z'
+indexed_at: '2026-06-28T10:04:28.433218Z'
 ---

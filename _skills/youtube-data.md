@@ -26,17 +26,17 @@ category_display: Community
 source_repo: ZeroPointRepo/youtube-skills
 source_path: skills/youtube-data/SKILL.md
 source_url: https://github.com/ZeroPointRepo/youtube-skills/blob/main/skills/youtube-data/SKILL.md
-fetched_at: '2026-06-21T06:49:58.776118+00:00'
+fetched_at: '2026-06-28T06:16:27.866635+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T07:47:21.748322Z'
+  evaluated_at: '2026-06-28T07:13:44.399717Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c77ad0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28022d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c77ad0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28022d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:00.378110Z'
-indexed_at: '2026-06-21T10:34:00.378116Z'
+  fetched_at: '2026-06-28T10:04:26.286651Z'
+indexed_at: '2026-06-28T10:04:26.286656Z'
 ---

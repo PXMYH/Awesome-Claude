@@ -17,17 +17,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/iterate-retrospective/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/iterate-retrospective/SKILL.md
-fetched_at: '2026-06-21T06:52:41.472724+00:00'
+fetched_at: '2026-06-28T06:19:17.870932+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T10:07:42.929335Z'
+  evaluated_at: '2026-06-28T09:37:05.950832Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9acb830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2800fb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9acb830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2800fb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:03.332642Z'
-indexed_at: '2026-06-21T10:34:03.332647Z'
+  fetched_at: '2026-06-28T10:04:29.436462Z'
+indexed_at: '2026-06-28T10:04:29.436468Z'
 ---

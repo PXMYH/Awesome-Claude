@@ -19,29 +19,29 @@ prompt_preview: '---
   mcp__lsp__format_document mcp__lsp__get_diagnostics mcp__lsp__open_document mcp__l...'
 full_prompt_length: 5774
 tools_mentioned:
-- Go
-- typescript
-- rust
-- Rust
-- TypeScript
 - Python
+- typescript
 - go
+- Go
+- rust
+- TypeScript
+- Rust
 category: community
 category_display: Community
 source_repo: blackwell-systems/agent-lsp
 source_path: skills/lsp-generate/SKILL.md
 source_url: https://github.com/blackwell-systems/agent-lsp/blob/main/skills/lsp-generate/SKILL.md
-fetched_at: '2026-06-21T06:50:16.590684+00:00'
+fetched_at: '2026-06-28T06:16:48.600683+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T08:01:30.905689Z'
+  evaluated_at: '2026-06-28T07:30:02.205976Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9fa51f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2c240e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9fa51f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2c240e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:00.682015Z'
-indexed_at: '2026-06-21T10:34:00.682021Z'
+  fetched_at: '2026-06-28T10:04:26.643226Z'
+indexed_at: '2026-06-28T10:04:26.643232Z'
 ---

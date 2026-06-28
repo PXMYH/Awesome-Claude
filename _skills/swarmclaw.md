@@ -14,24 +14,24 @@ prompt_preview: "---\nname: swarmclaw\ndescription: AI agent runtime and multi-a
   \ files, and session data are stored on t..."
 full_prompt_length: 7828
 tools_mentioned:
-- REST
 - JavaScript
+- REST
 category: community
 category_display: Community
 source_repo: swarmclawai/swarmclaw
 source_path: skills/swarmclaw/SKILL.md
 source_url: https://github.com/swarmclawai/swarmclaw/blob/main/skills/swarmclaw/SKILL.md
-fetched_at: '2026-06-21T06:52:56.213482+00:00'
+fetched_at: '2026-06-28T06:19:32.540481+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T10:18:37.756582Z'
+  evaluated_at: '2026-06-28T09:47:55.050528Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c33e90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2797770 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c33e90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2797770 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:03.562680Z'
-indexed_at: '2026-06-21T10:34:03.562686Z'
+  fetched_at: '2026-06-28T10:04:29.674428Z'
+indexed_at: '2026-06-28T10:04:29.674434Z'
 ---

@@ -1,0 +1,45 @@
+id: vertical-creator
+slug: vertical-creator
+name: 'Vertical: marketing & creator — undercut the take-rate, own the white space'
+description: 'When applied, contribute a **Domain model** note to the architecture
+  doc capturing: the'
+prompt_preview: '---
+
+  name: vertical-creator
+
+  description: Domain-knowledge primer for the marketing & creator vertical (creators,
+  newsletter writers, podcasters, course sellers) so architect/pm don''t spec naively
+  against incumbents (Substack ~10%, Patreon 8–12%, Kajabi $149+, beehiiv, Buffer/Hootsuite/Later).
+  Supplies the vocabulary, the non-obvious take-rate/red-ocean rules, the entities
+  a real scheduler/analytics/monetization/sponsorship product must model, and the
+  per-product wedge — with sponsorship-crm flagg...'
+full_prompt_length: 10468
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: avelikiy/great_cto
+source_path: skills/vertical-creator/SKILL.md
+source_url: https://github.com/avelikiy/great_cto/blob/main/skills/vertical-creator/SKILL.md
+fetched_at: '2026-06-28T06:16:36.567469+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-06-28T07:19:42.816339Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2ac8ad0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2ac8ad0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-28T10:04:26.416749Z'
+indexed_at: '2026-06-28T10:04:26.416754Z'

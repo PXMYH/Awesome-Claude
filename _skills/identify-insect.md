@@ -13,24 +13,24 @@ prompt_preview: "---\nname: identify-insect\ndescription: >\n  Identify insects 
   \ assessment framework. Use when you..."
 full_prompt_length: 24784
 tools_mentioned:
-- rest
 - go
+- rest
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/identify-insect/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/identify-insect/SKILL.md
-fetched_at: '2026-06-21T06:52:11.124383+00:00'
+fetched_at: '2026-06-28T06:18:40.907456+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T09:36:48.088449Z'
+  evaluated_at: '2026-06-28T09:05:20.371683Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa45aba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2803bf0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaaa45aba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2803bf0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:02.684915Z'
-indexed_at: '2026-06-21T10:34:02.684922Z'
+  fetched_at: '2026-06-28T10:04:28.751012Z'
+indexed_at: '2026-06-28T10:04:28.751018Z'
 ---

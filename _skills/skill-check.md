@@ -2,8 +2,7 @@
 id: skill-check
 slug: skill-check
 name: SkillCheck (Free)
-description: Skills can also be distributed via the `/v1/skills` API endpoint. See
-  [agentskills.io](https://agentskills.io) for the specification.
+description: '### 8.1 Has Example Section'
 prompt_preview: '---
 
   name: skill-check
@@ -18,29 +17,25 @@ prompt_preview: '---
   license: MIT
 
   allowed-tools: Rea...'
-full_prompt_length: 33925
+full_prompt_length: 15096
 tools_mentioned:
-- Go
-- Azure
 - Python
-- go
-- REST
 category: community
 category_display: Community
 source_repo: olgasafonova/SkillCheck-Free
 source_path: skills/skill-check/SKILL.md
 source_url: https://github.com/olgasafonova/SkillCheck-Free/blob/main/skills/skill-check/SKILL.md
-fetched_at: '2026-06-21T06:51:46.998151+00:00'
+fetched_at: '2026-06-28T06:18:16.166418+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T09:13:10.324372Z'
+  evaluated_at: '2026-06-28T08:41:45.588147Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c94290 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2802c00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c94290 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2802c00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:02.185593Z'
-indexed_at: '2026-06-21T10:34:02.185606Z'
+  fetched_at: '2026-06-28T10:04:28.227596Z'
+indexed_at: '2026-06-28T10:04:28.227601Z'
 ---

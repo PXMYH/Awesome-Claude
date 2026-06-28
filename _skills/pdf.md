@@ -2,7 +2,7 @@
 id: pdf
 slug: pdf
 name: PDF Processing Guide
-description: '- For advanced pypdfium2 usage, see REFERENCE.md'
+description: '- For advanced pypdfium2 usage, see reference.md'
 prompt_preview: '---
 
   name: pdf
@@ -15,36 +15,36 @@ prompt_preview: '---
   or asks to produce one, use this skill.
 
   license: Proprietary. LICENSE.txt h...'
-full_prompt_length: 8035
+full_prompt_length: 8064
 tools_mentioned:
+- Python
 - JavaScript
 - python
-- Python
-category: official
-category_display: Official Anthropic Skills
-source_repo: anthropics/skills
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pdf/SKILL.md
-source_url: https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md
-fetched_at: '2026-06-27T05:52:53.531444Z'
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pdf/SKILL.md
+fetched_at: '2026-06-28T06:15:48.026717+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-27T06:15:47.791219Z'
+  evaluated_at: '2026-06-28T06:36:48.935537Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fba41743770 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2797680 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fba41743770 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2797680 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 155641
-  forks: 18331
-  open_issues: 986
-  last_commit: '2026-06-09'
-  fetched_at: '2026-06-27T05:53:04.191357Z'
-indexed_at: '2026-06-27T06:18:42.024314Z'
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-06-28T10:04:25.469949Z'
+indexed_at: '2026-06-28T10:04:25.469954Z'
 ---

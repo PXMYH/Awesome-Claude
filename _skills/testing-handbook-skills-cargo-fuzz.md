@@ -12,24 +12,24 @@ prompt_preview: "---\nname: cargo-fuzz\ntype: fuzzer\ndescription: >\n  cargo-fu
   \ like AddressSanitizer.\n\n## When to Use\n\ncar..."
 full_prompt_length: 11488
 tools_mentioned:
-- Rust
 - rust
+- Rust
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/cargo-fuzz/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/cargo-fuzz/SKILL.md
-fetched_at: '2026-06-21T06:53:12.895601+00:00'
+fetched_at: '2026-06-28T06:19:48.368236+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T10:27:34.234363Z'
+  evaluated_at: '2026-06-28T09:57:46.112614Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9b03b00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2797dd0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9b03b00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2797dd0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:03.756843Z'
-indexed_at: '2026-06-21T10:34:03.756850Z'
+  fetched_at: '2026-06-28T10:04:29.870395Z'
+indexed_at: '2026-06-28T10:04:29.870400Z'
 ---

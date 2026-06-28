@@ -27,17 +27,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-narrative-tension-mapping/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-narrative-tension-mapping/SKILL.md
-fetched_at: '2026-06-21T06:51:06.849616+00:00'
+fetched_at: '2026-06-28T06:17:36.630071+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T08:47:14.615267Z'
+  evaluated_at: '2026-06-28T08:16:06.120234Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c32a80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262fd10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c32a80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262fd10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:01.638087Z'
-indexed_at: '2026-06-21T10:34:01.638092Z'
+  fetched_at: '2026-06-28T10:04:27.663680Z'
+indexed_at: '2026-06-28T10:04:27.663685Z'
 ---

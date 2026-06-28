@@ -12,27 +12,27 @@ prompt_preview: "---\nname: label-training-data\ndescription: >\n  Set up system
   \ active learni..."
 full_prompt_length: 8328
 tools_mentioned:
+- Python
 - PostgreSQL
 - docker
 - Docker
 - python
-- Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/label-training-data/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/label-training-data/SKILL.md
-fetched_at: '2026-06-21T06:52:13.598945+00:00'
+fetched_at: '2026-06-28T06:18:43.953955+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T09:39:22.720478Z'
+  evaluated_at: '2026-06-28T09:07:54.117470Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c95cd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28020c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c95cd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28020c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:02.739947Z'
-indexed_at: '2026-06-21T10:34:02.739953Z'
+  fetched_at: '2026-06-28T10:04:28.807998Z'
+indexed_at: '2026-06-28T10:04:28.808004Z'
 ---

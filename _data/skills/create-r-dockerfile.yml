@@ -11,24 +11,24 @@ prompt_preview: "---\nname: create-r-dockerfile\ndescription: >\n  Create a Dock
   license: MIT\nallowed-tools: Read Writ..."
 full_prompt_length: 6285
 tools_mentioned:
-- Docker
 - docker
+- Docker
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-r-dockerfile/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-r-dockerfile/SKILL.md
-fetched_at: '2026-06-21T06:52:00.283764+00:00'
+fetched_at: '2026-06-28T06:18:29.501147+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T09:25:34.841942Z'
+  evaluated_at: '2026-06-28T08:54:12.401757Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c75940 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262c860 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c75940 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262c860 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:02.450234Z'
-indexed_at: '2026-06-21T10:34:02.450240Z'
+  fetched_at: '2026-06-28T10:04:28.505432Z'
+indexed_at: '2026-06-28T10:04:28.505438Z'

@@ -20,25 +20,25 @@ prompt_preview: '---
   m...'
 full_prompt_length: 4823
 tools_mentioned:
-- Go
-- go
 - TypeScript
+- go
+- Go
 category: community
 category_display: Community
 source_repo: blackwell-systems/agent-lsp
 source_path: skills/lsp-onboard/SKILL.md
 source_url: https://github.com/blackwell-systems/agent-lsp/blob/main/skills/lsp-onboard/SKILL.md
-fetched_at: '2026-06-21T06:50:17.140539+00:00'
+fetched_at: '2026-06-28T06:16:49.284286+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T08:02:11.650114Z'
+  evaluated_at: '2026-06-28T07:30:42.662233Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac95b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262c800 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac95b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262c800 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:00.696329Z'
-indexed_at: '2026-06-21T10:34:00.696343Z'
+  fetched_at: '2026-06-28T10:04:26.658324Z'
+indexed_at: '2026-06-28T10:04:26.658330Z'
 ---

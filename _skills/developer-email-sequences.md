@@ -13,25 +13,25 @@ prompt_preview: "---\nname: developer-email-sequences\ndescription: When the use
   \ email sequences that developers actually read. No..."
 full_prompt_length: 12204
 tools_mentioned:
-- Python
 - TypeScript
+- Python
 - python
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/developer-email-sequences/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/developer-email-sequences/SKILL.md
-fetched_at: '2026-06-21T06:51:35.386509+00:00'
+fetched_at: '2026-06-28T06:18:03.355491+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T09:06:31.231188Z'
+  evaluated_at: '2026-06-28T08:35:22.177268Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c766f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262c920 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c766f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262c920 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:02.045411Z'
-indexed_at: '2026-06-21T10:34:02.045416Z'
+  fetched_at: '2026-06-28T10:04:28.085308Z'
+indexed_at: '2026-06-28T10:04:28.085317Z'
 ---

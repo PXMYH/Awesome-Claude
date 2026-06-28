@@ -11,28 +11,28 @@ prompt_preview: '---
   universal cross-platform components (Host, Column, Row, Button, Text, List, and
   more imported from @expo/ui), drop-in replacements for popular React Native community
   libraries (BottomSheet, DateTimePicker, Slider, Menu, etc.), and platform-specific
-  SwiftUI (@expo/ui/swift-ui) and Jetpack Compose (@expo/ui/jetpack-...'
-full_prompt_length: 3790
+  SwiftUI (@expo/ui/swift-ui, iOS only) and Jetpack Compose (@expo/u...'
+full_prompt_length: 4426
 tools_mentioned:
-- Go
 - react
 - React
+- Go
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-ui/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-ui/SKILL.md
-fetched_at: '2026-06-21T06:50:42.983011+00:00'
+fetched_at: '2026-06-28T06:17:15.107732+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T08:25:13.445988Z'
+  evaluated_at: '2026-06-28T07:53:56.636993Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97b30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d6d50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9c97b30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d6d50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +42,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:01.175527Z'
-indexed_at: '2026-06-21T10:34:01.175533Z'
+  fetched_at: '2026-06-28T10:04:27.171809Z'
+indexed_at: '2026-06-28T10:04:27.171816Z'

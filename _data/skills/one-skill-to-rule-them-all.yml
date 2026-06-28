@@ -11,24 +11,24 @@ prompt_preview: "---\nname: task-observer\ndescription: >\n  Monitors task execu
   \ skill observations, improvements, the..."
 full_prompt_length: 73222
 tools_mentioned:
-- rest
 - go
+- rest
 category: community
 category_display: Community
 source_repo: rebelytics/one-skill-to-rule-them-all
 source_path: SKILL.md
 source_url: https://github.com/rebelytics/one-skill-to-rule-them-all/blob/main/SKILL.md
-fetched_at: '2026-06-21T06:52:48.953629+00:00'
+fetched_at: '2026-06-28T06:19:25.664054+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-21T10:14:07.868143Z'
+  evaluated_at: '2026-06-28T09:43:26.817490Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac95e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2803e60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fbaa9ac95e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2803e60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-21T10:34:03.468141Z'
-indexed_at: '2026-06-21T10:34:03.468147Z'
+  fetched_at: '2026-06-28T10:04:29.577097Z'
+indexed_at: '2026-06-28T10:04:29.577103Z'
