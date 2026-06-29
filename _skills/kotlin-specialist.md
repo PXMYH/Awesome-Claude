@@ -23,35 +23,36 @@ prompt_preview: '---
   applications with Ktor. Your focus empha...'
 full_prompt_length: 7347
 tools_mentioned:
-- typescript
 - java
-- rust
 - WebSocket
+- typescript
+- rust
+- JUnit
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/kotlin-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/kotlin-specialist.md
-fetched_at: '2026-06-28T06:16:07.962030+00:00'
+fetched_at: '2026-06-29T06:44:57.192982Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T06:54:52.712009Z'
+  evaluated_at: '2026-06-29T06:49:14.709931Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262d820 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f46938a39e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262d820 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f46938a39e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 22494
-  forks: 2623
-  open_issues: 2
+  stars: 22536
+  forks: 2624
+  open_issues: 3
   last_commit: '2026-06-24'
-  fetched_at: '2026-06-28T06:20:03.071838Z'
-indexed_at: '2026-06-28T10:04:25.870121Z'
+  fetched_at: '2026-06-29T06:45:49.791024Z'
+indexed_at: '2026-06-29T07:10:58.240907Z'
 ---

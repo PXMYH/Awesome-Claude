@@ -23,39 +23,39 @@ prompt_preview: '---
 full_prompt_length: 7381
 tools_mentioned:
 - Angular
-- typescript
-- Node.js
 - GraphQL
-- Vue
+- react
 - javascript
-- JavaScript
-- rust
 - WebSocket
+- typescript
+- Vue
+- rust
 - TypeScript
+- JavaScript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/typescript-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/typescript-pro.md
-fetched_at: '2026-06-28T06:16:09.959361+00:00'
+fetched_at: '2026-06-29T06:45:01.203618Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T06:56:54.888582Z'
+  evaluated_at: '2026-06-29T06:51:17.413964Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d6ea0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f46936f4140 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d6ea0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f46936f4140 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 22494
-  forks: 2623
-  open_issues: 2
+  stars: 22536
+  forks: 2624
+  open_issues: 3
   last_commit: '2026-06-24'
-  fetched_at: '2026-06-28T06:20:03.071838Z'
-indexed_at: '2026-06-28T10:04:25.915295Z'
+  fetched_at: '2026-06-29T06:45:49.791024Z'
+indexed_at: '2026-06-29T07:10:58.294525Z'
