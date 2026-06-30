@@ -23,41 +23,41 @@ prompt_preview: '---
   spans web development, data science,...'
 full_prompt_length: 8536
 tools_mentioned:
-- python
-- Flask
-- WebSocket
-- pytest
-- typescript
-- rust
-- FastAPI
-- Docker
-- Redis
 - Pytest
+- rust
+- WebSocket
+- Redis
+- python
+- typescript
+- Python
+- pytest
+- Docker
+- Flask
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/python-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/python-pro.md
-fetched_at: '2026-06-29T06:44:59.033656Z'
+fetched_at: '2026-06-30T06:09:51.530168Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-29T06:50:11.932782Z'
+  evaluated_at: '2026-06-30T06:14:51.562940Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f46935dfc50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe11cffb9e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f46935dfc50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe11cffb9e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 22536
-  forks: 2624
-  open_issues: 3
+  stars: 22588
+  forks: 2629
+  open_issues: 5
   last_commit: '2026-06-24'
-  fetched_at: '2026-06-29T06:45:49.791024Z'
-indexed_at: '2026-06-29T07:10:58.269438Z'
+  fetched_at: '2026-06-30T06:10:25.167279Z'
+indexed_at: '2026-06-30T06:35:50.759416Z'
 ---
