@@ -24,36 +24,36 @@ prompt_preview: '---
 full_prompt_length: 10663
 tools_mentioned:
 - PHP
-- Redis
 - php
-- redis
+- Redis
 - Docker
+- redis
 - docker
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/symfony-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/symfony-specialist.md
-fetched_at: '2026-06-30T06:09:52.874417Z'
+fetched_at: '2026-07-01T06:24:53.125574Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-30T06:15:49.312006Z'
+  evaluated_at: '2026-07-01T06:31:01.558044Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe11ca66d50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe303801af0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe11ca66d50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe303801af0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 22588
-  forks: 2629
-  open_issues: 5
+  stars: 22641
+  forks: 2631
+  open_issues: 0
   last_commit: '2026-06-24'
-  fetched_at: '2026-06-30T06:10:25.167279Z'
-indexed_at: '2026-06-30T06:35:50.780028Z'
+  fetched_at: '2026-07-01T06:25:42.642073Z'
+indexed_at: '2026-07-01T06:51:51.800408Z'
 ---

@@ -1,9 +1,8 @@
 ---
 id: using-superpowers
 slug: using-superpowers
-name: Using Skills
-description: Instructions say WHAT, not HOW. "Add X" or "Fix Y" doesn't mean skip
-  workflows.
+name: Using Superpowers
+description: Claude skill for Using Superpowers
 prompt_preview: '---
 
   name: using-superpowers
@@ -16,7 +15,7 @@ prompt_preview: '---
 
   <SUBAGENT-STOP>
 
-  If you were dispatched as a subagent to execute a specific task, skip this skill.
+  If you were dispatched as a subagent to execute a specific task, ignore this skill.
 
   </SUBAGENT-STOP>
 
@@ -27,34 +26,34 @@ prompt_preview: '---
   you ABSOLUTELY MUST invoke the skill.
 
 
-  IF A SKILL APPLIES TO YOUR TASK, YOU DO...'
-full_prompt_length: 5881
+  IF A SKILL APPLIES TO YOUR TASK, YOU D...'
+full_prompt_length: 3051
 tools_mentioned: []
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/using-superpowers/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md
-fetched_at: '2026-06-30T06:10:23.670248Z'
+fetched_at: '2026-07-01T06:25:40.395262Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-30T06:35:25.580163Z'
+  evaluated_at: '2026-07-01T06:51:27.276878Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe11cfda180 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe303fbf530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe11cfda180 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe303fbf530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 241731
-  forks: 21460
-  open_issues: 292
-  last_commit: '2026-06-18'
-  fetched_at: '2026-06-30T06:10:26.146745Z'
-indexed_at: '2026-06-30T06:35:51.190476Z'
+  stars: 242785
+  forks: 21544
+  open_issues: 298
+  last_commit: '2026-06-30'
+  fetched_at: '2026-07-01T06:25:44.015397Z'
+indexed_at: '2026-07-01T06:51:52.252474Z'
 ---
