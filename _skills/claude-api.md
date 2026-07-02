@@ -2,9 +2,9 @@
 id: claude-api
 slug: claude-api
 name: Building LLM-Powered Applications with Claude
-description: '- Don''t truncate inputs when passing files or content to the API. If
-  the content is too long to fit in the context window, notify the user and discuss
-  options (chunking, summarization, etc.) rather th...'
+description: '- **No `ANTHROPIC_API_KEY` ≠ no credentials.** Don''t bail or ask the
+  user for a key just because the env var is unset — run `ant auth status` first.
+  After `ant auth login`, a bare `Anthropic()` client...'
 prompt_preview: "---\nname: claude-api\ndescription: |-\n  Reference for the Claude\
   \ API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents,\
   \ caching, token counting, model migration.\n  TRIGGER — read BEFORE opening the\
@@ -12,43 +12,43 @@ prompt_preview: "---\nname: claude-api\ndescription: |-\n  Reference for the Cla
   \ prompt names Claude/Anthropic in any form (Claude, Anthropic, Fable, Opus, Sonnet,\
   \ Haiku, `anthropic`, `@anthropic-ai`, `claude-*`, `us.anthropic.*`, `[1m]`); the\
   \ user asks about an LLM (pricing/mod..."
-full_prompt_length: 70617
+full_prompt_length: 73299
 tools_mentioned:
-- php
-- aws
-- Java
-- rest
 - java
-- REST
+- PHP
+- Python
+- python
+- go
+- typescript
+- aws
 - GCP
-- Go
-- AWS
-- ruby
+- Rest
+- php
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/claude-api/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/claude-api/SKILL.md
-fetched_at: '2026-07-01T06:25:29.299072Z'
+fetched_at: '2026-07-02T05:57:54.000355Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-01T06:47:11.955890Z'
+  evaluated_at: '2026-07-02T06:19:27.166613Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe3036deb10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f528703eae0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe3036deb10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f528703eae0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 157093
-  forks: 18505
-  open_issues: 992
-  last_commit: '2026-06-27'
-  fetched_at: '2026-07-01T06:25:43.331755Z'
-indexed_at: '2026-07-01T06:51:52.175718Z'
+  stars: 157431
+  forks: 18551
+  open_issues: 991
+  last_commit: '2026-07-01'
+  fetched_at: '2026-07-02T05:58:00.587925Z'
+indexed_at: '2026-07-02T06:23:07.345535Z'
 ---
