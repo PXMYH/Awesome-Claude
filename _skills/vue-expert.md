@@ -23,37 +23,37 @@ prompt_preview: '---
   optimization, and full-stack development with emphasis...'
 full_prompt_length: 6502
 tools_mentioned:
-- typescript
-- Vue
-- vue
-- JavaScript
-- TypeScript
 - javascript
+- vue
+- Vue
+- typescript
+- TypeScript
+- JavaScript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/vue-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/vue-expert.md
-fetched_at: '2026-07-02T05:57:35.064779Z'
+fetched_at: '2026-07-03T05:51:38.954075Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-02T06:03:33.653459Z'
+  evaluated_at: '2026-07-03T05:57:41.311482Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5287161100 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd1cd26bb30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5287161100 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd1cd26bb30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 22696
-  forks: 2641
+  stars: 22752
+  forks: 2650
   open_issues: 0
   last_commit: '2026-06-24'
-  fetched_at: '2026-07-02T05:58:00.147478Z'
-indexed_at: '2026-07-02T06:23:06.996731Z'
+  fetched_at: '2026-07-03T05:52:05.583353Z'
+indexed_at: '2026-07-03T06:17:24.350733Z'
 ---

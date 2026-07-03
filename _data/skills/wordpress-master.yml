@@ -22,40 +22,40 @@ prompt_preview: '---
   You are a senior WordPre...'
 full_prompt_length: 7559
 tools_mentioned:
-- React
-- Redis
-- PHP
-- Vue
-- Docker
-- MySQL
-- GraphQL
-- Javascript
 - Kubernetes
+- MySQL
+- Javascript
+- PHP
+- Docker
+- React
 - REST
+- Vue
+- Redis
+- GraphQL
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/wordpress-master.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/wordpress-master.md
-fetched_at: '2026-07-02T05:57:49.318254Z'
+fetched_at: '2026-07-03T05:51:54.030014Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-02T06:15:55.538150Z'
+  evaluated_at: '2026-07-03T06:10:08.103032Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f52879b3e60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd1cd3d6a50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f52879b3e60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd1cd3d6a50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 22696
-  forks: 2641
+  stars: 22752
+  forks: 2650
   open_issues: 0
   last_commit: '2026-06-24'
-  fetched_at: '2026-07-02T05:58:00.147478Z'
-indexed_at: '2026-07-02T06:23:07.267642Z'
+  fetched_at: '2026-07-03T05:52:05.583353Z'
+indexed_at: '2026-07-03T06:17:24.610947Z'
