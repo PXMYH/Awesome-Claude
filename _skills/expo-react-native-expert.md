@@ -23,37 +23,37 @@ prompt_preview: '---
   spans app...'
 full_prompt_length: 9735
 tools_mentioned:
-- react
-- React
 - typescript
 - TypeScript
 - JavaScript
 - Jest
+- React
+- react
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/expo-react-native-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/expo-react-native-expert.md
-fetched_at: '2026-07-03T05:51:35.464805Z'
+fetched_at: '2026-07-04T05:43:36.347592Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-03T05:54:41.781124Z'
+  evaluated_at: '2026-07-04T05:46:46.328452Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd1ce0dfd10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff4bbc60e00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd1ce0dfd10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff4bbc60e00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 22752
-  forks: 2650
-  open_issues: 0
+  stars: 22808
+  forks: 2654
+  open_issues: 1
   last_commit: '2026-06-24'
-  fetched_at: '2026-07-03T05:52:05.583353Z'
-indexed_at: '2026-07-03T06:17:24.285051Z'
+  fetched_at: '2026-07-04T05:44:10.431956Z'
+indexed_at: '2026-07-04T06:09:24.106547Z'
 ---
