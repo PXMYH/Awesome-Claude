@@ -3,14 +3,14 @@ id: acquisition-channel-advisor
 slug: acquisition-channel-advisor
 name: Acquisition Channel Advisor
 description: Claude skill for Acquisition Channel Advisor
-prompt_preview: "---\nname: acquisition-channel-advisor\ndescription: Evaluate acquisition\
-  \ channels using unit economics, customer quality, and scalability. Use when deciding\
-  \ whether to scale, test, or kill a growth channel.\nintent: >-\n  Guide product\
-  \ managers through evaluating whether to scale, test, or kill an acquisition channel\
-  \ based on unit economics (CAC, LTV, payback), customer quality (retention, NRR),\
-  \ and scalability (magic number, volume potential). Use this to make data-driven\
-  \ go-to-market decisions an..."
-full_prompt_length: 21205
+prompt_preview: "---\nname: acquisition-channel-advisor\nargument-hint: \"[channel\
+  \ to evaluate]\"\ndescription: Evaluate acquisition channels using unit economics,\
+  \ customer quality, and scalability. Use when deciding whether to scale, test, or\
+  \ kill a growth channel.\nintent: >-\n  Guide product managers through evaluating\
+  \ whether to scale, test, or kill an acquisition channel based on unit economics\
+  \ (CAC, LTV, payback), customer quality (retention, NRR), and scalability (magic\
+  \ number, volume potential). Use this to mak..."
+full_prompt_length: 22023
 tools_mentioned:
 - go
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/acquisition-channel-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/acquisition-channel-advisor/SKILL.md
-fetched_at: '2026-06-28T06:17:05.735315+00:00'
+fetched_at: '2026-07-05T06:04:03.758043+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:44:51.622578Z'
+  evaluated_at: '2026-07-05T07:32:42.117109Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2797a10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670e360 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2797a10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670e360 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:26.973217Z'
-indexed_at: '2026-06-28T10:04:26.973227Z'
+  fetched_at: '2026-07-05T09:51:16.052725Z'
+indexed_at: '2026-07-05T09:51:16.052731Z'
 ---

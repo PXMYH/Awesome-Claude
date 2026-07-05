@@ -3,31 +3,31 @@ id: user-story
 slug: user-story
 name: User Story
 description: Claude skill for User Story
-prompt_preview: "---\nname: user-story\ndescription: Create user stories with Mike\
-  \ Cohn format and Gherkin acceptance criteria. Use when turning user needs into\
-  \ development-ready work with clear outcomes and testable conditions.\nintent: >-\n\
-  \  Create clear, concise user stories that combine Mike Cohn's user story format\
-  \ with Gherkin-style acceptance criteria. Use this to translate user needs into\
-  \ actionable development work that focuses on outcomes, ensures shared understanding\
-  \ between product and engineering, and p..."
-full_prompt_length: 10685
+prompt_preview: "---\nname: user-story\nargument-hint: \"[feature or user need]\"\n\
+  description: Create user stories with Mike Cohn format and Gherkin acceptance criteria.\
+  \ Use when turning user needs into development-ready work with clear outcomes and\
+  \ testable conditions.\nintent: >-\n  Create clear, concise user stories that combine\
+  \ Mike Cohn's user story format with Gherkin-style acceptance criteria. Use this\
+  \ to translate user needs into actionable development work that focuses on outcomes,\
+  \ ensures shared understandin..."
+full_prompt_length: 11407
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/user-story/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/user-story/SKILL.md
-fetched_at: '2026-06-28T06:17:11.612069+00:00'
+fetched_at: '2026-07-05T06:04:10.150466+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:51:38.646073Z'
+  evaluated_at: '2026-07-05T07:39:36.879559Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28017f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673b8c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28017f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673b8c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.121240Z'
-indexed_at: '2026-06-28T10:04:27.121253Z'
+  fetched_at: '2026-07-05T09:51:16.197895Z'
+indexed_at: '2026-07-05T09:51:16.197901Z'
 ---

@@ -10,26 +10,26 @@ prompt_preview: "---\nname: altitude-horizon-framework\ndescription: Understand 
   \ (how wide you zoom out) and **Horizon** (how far ahead you look). Use this to\
   \ understand what actually changes in the transition, diagnose which transition\
   \ zone is creating friction,..."
-full_prompt_length: 14517
+full_prompt_length: 15323
 tools_mentioned:
-- go
 - rest
+- go
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/altitude-horizon-framework/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/altitude-horizon-framework/SKILL.md
-fetched_at: '2026-06-28T06:17:05.972031+00:00'
+fetched_at: '2026-07-05T06:04:04.118197+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:45:07.796187Z'
+  evaluated_at: '2026-07-05T07:33:06.492535Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262e780 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e40b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262e780 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e40b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:26.979173Z'
-indexed_at: '2026-06-28T10:04:26.979178Z'
+  fetched_at: '2026-07-05T09:51:16.061395Z'
+indexed_at: '2026-07-05T09:51:16.061400Z'
 ---

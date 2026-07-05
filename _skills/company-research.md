@@ -3,14 +3,14 @@ id: company-research
 slug: company-research
 name: Company Research
 description: Claude skill for Company Research
-prompt_preview: "---\nname: company-research\ndescription: Create a company research\
-  \ brief with executive quotes, product strategy, and org context. Use when preparing\
-  \ for interviews, competitive analysis, partnerships, or market-entry work.\nintent:\
-  \ >-\n  Create a comprehensive company profile that extracts executive insights,\
-  \ product strategy, transformation initiatives, and organizational dynamics from\
-  \ publicly available sources. Use this to understand competitive landscape, evaluate\
-  \ partnership opportunities, be..."
-full_prompt_length: 13969
+prompt_preview: "---\nname: company-research\nargument-hint: \"[company name] [purpose]\"\
+  \ndescription: Create a company research brief with executive quotes, product strategy,\
+  \ and org context. Use when preparing for interviews, competitive analysis, partnerships,\
+  \ or market-entry work.\nintent: >-\n  Create a comprehensive company profile that\
+  \ extracts executive insights, product strategy, transformation initiatives, and\
+  \ organizational dynamics from publicly available sources. Use this to understand\
+  \ competitive landsca..."
+full_prompt_length: 14671
 tools_mentioned:
 - Go
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/company-research/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/company-research/SKILL.md
-fetched_at: '2026-06-28T06:17:06.297923+00:00'
+fetched_at: '2026-07-05T06:04:04.494666+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:45:32.049821Z'
+  evaluated_at: '2026-07-05T07:33:30.890298Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262e210 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63071bfbc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262e210 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63071bfbc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:26.988000Z'
-indexed_at: '2026-06-28T10:04:26.988006Z'
+  fetched_at: '2026-07-05T09:51:16.069928Z'
+indexed_at: '2026-07-05T09:51:16.069934Z'
 ---

@@ -2,14 +2,14 @@ id: director-readiness-advisor
 slug: director-readiness-advisor
 name: Director Readiness Advisor
 description: Claude skill for Director Readiness Advisor
-prompt_preview: "---\nname: director-readiness-advisor\ndescription: Guide the PM-to-Director\
-  \ transition across preparing, interviewing, landing, and recalibrating. Use when\
-  \ leadership scope is changing and you need practical coaching.\nintent: >-\n  Guide\
-  \ PMs and Directors through the specific challenges of the PM-to-Director transition\
-  \ using adaptive questions and targeted coaching. Diagnoses where you are in the\
-  \ journey and delivers practical, war-story-backed guidance calibrated to your situation\
-  \ — not generic l..."
-full_prompt_length: 18465
+prompt_preview: "---\nname: director-readiness-advisor\nargument-hint: \"[where you\
+  \ are: preparing | interviewing | landed | recalibrating]\"\ndescription: Guide\
+  \ the PM-to-Director transition across preparing, interviewing, landing, and recalibrating.\
+  \ Use when leadership scope is changing and you need practical coaching.\nintent:\
+  \ >-\n  Guide PMs and Directors through the specific challenges of the PM-to-Director\
+  \ transition using adaptive questions and targeted coaching. Diagnoses where you\
+  \ are in the journey and delive..."
+full_prompt_length: 19320
 tools_mentioned:
 - go
 category: community
@@ -17,17 +17,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/director-readiness-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/director-readiness-advisor/SKILL.md
-fetched_at: '2026-06-28T06:17:06.859899+00:00'
+fetched_at: '2026-07-05T06:04:05.088054+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:46:13.723993Z'
+  evaluated_at: '2026-07-05T07:34:11.591422Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2797380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a3d40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2797380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a3d40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.002857Z'
-indexed_at: '2026-06-28T10:04:27.002870Z'
+  fetched_at: '2026-07-05T09:51:16.084181Z'
+indexed_at: '2026-07-05T09:51:16.084187Z'

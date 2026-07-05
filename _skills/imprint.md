@@ -2,42 +2,42 @@
 id: imprint
 slug: imprint
 name: Imprint
-description: Gets better every session. Corrections become permanent preferences.
-  Lessons become permanent immunity. The more you use it, the less you need to explain.
+description: Sharper every session. Corrections become permanent preferences. Lessons
+  become
 prompt_preview: '---
 
   name: imprint
 
   description: "Your habits, imprinted on AI. Learns how you work from conversation,
-  builds a portable profile, applies it across every session, project, and platform.
-  Use this skill whenever the user starts a new session, opens a project, writes code,
-  reviews code, debugs, plans features, writes commits, generates documents, or does
-  anything related to work. If .dna.md does not exist yet, start the onboarding conversation
-  before doing anything else. This skill should be active i...'
-full_prompt_length: 15156
+  builds a portable profile, and applies judgment that adapts to you: when to act,
+  when to check with you, when to follow the project''s rules over your own defaults.
+  Use this skill whenever the user starts a new session, opens a project, writes or
+  reviews code, debugs, plans, or writes commits. If .dna.md does not exist yet, start
+  the onboarding conversation before doing anything else. Active in al...'
+full_prompt_length: 18742
 tools_mentioned:
-- go
-- Vue
-- vue
-- react
 - React
 - rest
+- Vue
+- react
+- go
+- vue
 category: community
 category_display: Community
 source_repo: ilang-ai/Imprint
 source_path: skills/imprint/SKILL.md
 source_url: https://github.com/ilang-ai/Imprint/blob/main/skills/imprint/SKILL.md
-fetched_at: '2026-06-28T06:17:45.993254+00:00'
+fetched_at: '2026-07-05T06:04:50.673184+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T08:26:45.083652Z'
+  evaluated_at: '2026-07-05T08:14:55.608098Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d5790 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306575a00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d5790 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306575a00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.896202Z'
-indexed_at: '2026-06-28T10:04:27.896208Z'
+  fetched_at: '2026-07-05T09:51:16.945882Z'
+indexed_at: '2026-07-05T09:51:16.945888Z'
 ---

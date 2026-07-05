@@ -1,14 +1,14 @@
 id: expo-expo-dev-client
 slug: expo-expo-dev-client
 name: iOS (requires Xcode)
-description: '**Check EAS CLI version:**'
+description: '```bash'
 prompt_preview: '---
 
   name: expo-dev-client
 
-  description: Build and distribute Expo development clients locally or via TestFlight
+  description: Build Expo app for development
 
-  version: 1.0.0
+  version: 1.1.0
 
   license: MIT
 
@@ -23,12 +23,10 @@ prompt_preview: '---
   ## Important: When Development Clients Are Needed
 
 
-  **Only create development clients when your app requires custom native code.** Most
-  apps work fine in Expo Go.
-
-
-  You need a dev c...'
-full_prompt_length: 3515
+  **Development clients are the recommended setup for any real or production app.**
+  Expo Go is a playground for learning and quick experiments with the native libraries
+  it...'
+full_prompt_length: 3714
 tools_mentioned:
 - Go
 category: community
@@ -36,17 +34,17 @@ category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-dev-client/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-dev-client/SKILL.md
-fetched_at: '2026-06-28T06:17:14.644476+00:00'
+fetched_at: '2026-07-05T06:04:13.620868+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:53:16.219007Z'
+  evaluated_at: '2026-07-05T07:41:22.805132Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d5f10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673bbc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d5f10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673bbc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -56,5 +54,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.157043Z'
-indexed_at: '2026-06-28T10:04:27.157049Z'
+  fetched_at: '2026-07-05T09:51:16.235354Z'
+indexed_at: '2026-07-05T09:51:16.235359Z'

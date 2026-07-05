@@ -16,30 +16,30 @@ prompt_preview: '---
   a workflow to HPC/SLURM or cloud (AWS Batch, Google B...'
 full_prompt_length: 12182
 tools_mentioned:
-- java
 - Java
-- Python
-- Azure
-- Kubernetes
-- docker
-- AWS
+- java
 - Docker
+- AWS
+- docker
+- Python
+- Kubernetes
+- Azure
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/nextflow/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/nextflow/SKILL.md
-fetched_at: '2026-06-28T06:15:46.748937+00:00'
+fetched_at: '2026-07-05T06:02:43.347329+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T06:35:19.494941Z'
+  evaluated_at: '2026-07-05T06:22:28.724868Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a3997320 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630706cad0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a3997320 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630706cad0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:25.433557Z'
-indexed_at: '2026-06-28T10:04:25.433566Z'
+  fetched_at: '2026-07-05T09:51:14.529550Z'
+indexed_at: '2026-07-05T09:51:14.529557Z'
 ---

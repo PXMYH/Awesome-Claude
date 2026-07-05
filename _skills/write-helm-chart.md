@@ -12,28 +12,28 @@ prompt_preview: "---\nname: write-helm-chart\ndescription: >\n  Create productio
   \ managing\n  complex mu..."
 full_prompt_length: 12867
 tools_mentioned:
-- kubernetes
-- Kubernetes
-- docker
-- go
-- Go
 - postgresql
+- Go
+- go
+- kubernetes
+- docker
+- Kubernetes
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/write-helm-chart/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/write-helm-chart/SKILL.md
-fetched_at: '2026-06-28T06:19:10.630672+00:00'
+fetched_at: '2026-07-05T06:06:11.484949+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T09:30:16.194213Z'
+  evaluated_at: '2026-07-05T09:18:46.300258Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d56d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63067386b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d56d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63067386b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:29.309690Z'
-indexed_at: '2026-06-28T10:04:29.309695Z'
+  fetched_at: '2026-07-05T09:51:18.302593Z'
+indexed_at: '2026-07-05T09:51:18.302599Z'
 ---

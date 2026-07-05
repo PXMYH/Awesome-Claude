@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/navigate-dach-bureaucracy/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/navigate-dach-bureaucracy/SKILL.md
-fetched_at: '2026-06-28T06:18:48.953516+00:00'
+fetched_at: '2026-07-05T06:05:53.473090+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T09:12:21.693133Z'
+  evaluated_at: '2026-07-05T09:00:43.186139Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2ac9220 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670e510 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2ac9220 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670e510 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:28.906619Z'
-indexed_at: '2026-06-28T10:04:28.906625Z'
+  fetched_at: '2026-07-05T09:51:17.917866Z'
+indexed_at: '2026-07-05T09:51:17.917872Z'
 ---

@@ -29,17 +29,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-emotional-motivation-mapping/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-emotional-motivation-mapping/SKILL.md
-fetched_at: '2026-06-28T06:17:27.952548+00:00'
+fetched_at: '2026-07-05T06:04:29.095982+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T08:05:49.095503Z'
+  evaluated_at: '2026-07-05T07:54:04.556191Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28024b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673be90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28024b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673be90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.434264Z'
-indexed_at: '2026-06-28T10:04:27.434269Z'
+  fetched_at: '2026-07-05T09:51:16.503101Z'
+indexed_at: '2026-07-05T09:51:16.503108Z'
 ---

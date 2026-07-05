@@ -13,27 +13,27 @@ prompt_preview: "---\nname: aflpp\ntype: fuzzer\ndescription: >\n  AFL++ is a fo
   \ fuzzing efforts.\n\n## When to Us..."
 full_prompt_length: 19785
 tools_mentioned:
-- Python
-- docker
-- Docker
-- Rust
 - rest
+- Docker
+- docker
+- Python
+- Rust
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/aflpp/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/aflpp/SKILL.md
-fetched_at: '2026-06-28T06:19:48.171820+00:00'
+fetched_at: '2026-07-05T06:06:52.745634+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T09:57:29.915865Z'
+  evaluated_at: '2026-07-05T09:44:18.500443Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28009b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306577320 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28009b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306577320 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:29.864198Z'
-indexed_at: '2026-06-28T10:04:29.864207Z'
+  fetched_at: '2026-07-05T09:51:18.839379Z'
+indexed_at: '2026-07-05T09:51:18.839385Z'
 ---

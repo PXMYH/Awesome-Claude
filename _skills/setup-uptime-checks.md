@@ -12,26 +12,26 @@ prompt_preview: "---\nname: setup-uptime-checks\ndescription: >\n  Configure ext
   \ for uptime reporting.\nlicen..."
 full_prompt_length: 11545
 tools_mentioned:
-- docker
 - redis
-- Docker
 - Kubernetes
+- docker
+- Docker
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/setup-uptime-checks/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/setup-uptime-checks/SKILL.md
-fetched_at: '2026-06-28T06:19:04.660866+00:00'
+fetched_at: '2026-07-05T06:06:05.812266+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T09:24:34.514869Z'
+  evaluated_at: '2026-07-05T09:13:01.724595Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2797380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e4650 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2797380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e4650 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:29.183961Z'
-indexed_at: '2026-06-28T10:04:29.183967Z'
+  fetched_at: '2026-07-05T09:51:18.181445Z'
+indexed_at: '2026-07-05T09:51:18.181450Z'
 ---

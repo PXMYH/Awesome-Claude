@@ -21,26 +21,26 @@ prompt_preview: '---
   optional extras enable Excel, database, c...'
 full_prompt_length: 9801
 tools_mentioned:
-- Azure
 - Python
-- Rust
 - python
+- Rust
+- Azure
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/polars/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/polars/SKILL.md
-fetched_at: '2026-06-28T06:15:48.653615+00:00'
+fetched_at: '2026-07-05T06:02:45.457642+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T06:37:38.179920Z'
+  evaluated_at: '2026-07-05T06:24:56.112336Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d5a60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e6390 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d5a60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e6390 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:25.487644Z'
-indexed_at: '2026-06-28T10:04:25.487650Z'
+  fetched_at: '2026-07-05T09:51:14.581988Z'
+indexed_at: '2026-07-05T09:51:14.581994Z'
 ---

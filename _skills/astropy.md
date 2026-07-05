@@ -19,26 +19,26 @@ prompt_preview: '---
   nee...'
 full_prompt_length: 14474
 tools_mentioned:
-- angular
-- Angular
 - Python
 - python
+- angular
+- Angular
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/astropy/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/astropy/SKILL.md
-fetched_at: '2026-06-28T06:15:39.227373+00:00'
+fetched_at: '2026-07-05T06:02:35.423711+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T06:26:13.641032Z'
+  evaluated_at: '2026-07-05T06:13:20.216979Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2801e20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670e1e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2801e20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670e1e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:25.230399Z'
-indexed_at: '2026-06-28T10:04:25.230405Z'
+  fetched_at: '2026-07-05T09:51:14.333167Z'
+indexed_at: '2026-07-05T09:51:14.333173Z'
 ---

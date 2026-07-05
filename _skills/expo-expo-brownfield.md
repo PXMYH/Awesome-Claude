@@ -22,25 +22,25 @@ prompt_preview: '---
   Native incrementally, as opposed to a **greenfield** app that is React...'
 full_prompt_length: 3599
 tools_mentioned:
-- Node.js
-- JavaScript
 - React
+- JavaScript
+- Node.js
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-brownfield/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-brownfield/SKILL.md
-fetched_at: '2026-06-28T06:17:14.352144+00:00'
+fetched_at: '2026-07-05T06:04:13.262727+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:52:51.748730Z'
+  evaluated_at: '2026-07-05T07:40:58.452760Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262cdd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673aab0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262cdd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673aab0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.148170Z'
-indexed_at: '2026-06-28T10:04:27.148176Z'
+  fetched_at: '2026-07-05T09:51:16.226830Z'
+indexed_at: '2026-07-05T09:51:16.226836Z'
 ---

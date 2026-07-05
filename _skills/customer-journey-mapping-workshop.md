@@ -3,31 +3,31 @@ id: customer-journey-mapping-workshop
 slug: customer-journey-mapping-workshop
 name: Opportunities (Ranked by Impact)
 description: '**Skill type:** Interactive'
-prompt_preview: "---\nname: customer-journey-mapping-workshop\ndescription: Run a\
-  \ customer journey mapping workshop with adaptive questions and outputs. Use when\
-  \ you need to map stages, actions, emotions, pain points, and opportunities for\
-  \ a persona and scenario.\nintent: >-\n  Guide product managers through creating\
-  \ a customer journey map by asking adaptive questions about the actor (persona),\
-  \ scenario/goal, journey phases, actions/emotions, and opportunities for improvement.\
-  \ Use this to visualize the end-to-end cu..."
-full_prompt_length: 17792
+prompt_preview: "---\nname: customer-journey-mapping-workshop\nargument-hint: \"[persona]\
+  \ [scenario]\"\ndescription: Run a customer journey mapping workshop with adaptive\
+  \ questions and outputs. Use when you need to map stages, actions, emotions, pain\
+  \ points, and opportunities for a persona and scenario.\nintent: >-\n  Guide product\
+  \ managers through creating a customer journey map by asking adaptive questions\
+  \ about the actor (persona), scenario/goal, journey phases, actions/emotions, and\
+  \ opportunities for improvement. U..."
+full_prompt_length: 18568
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/customer-journey-mapping-workshop/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/customer-journey-mapping-workshop/SKILL.md
-fetched_at: '2026-06-28T06:17:06.625176+00:00'
+fetched_at: '2026-07-05T06:04:04.849264+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:45:56.310770Z'
+  evaluated_at: '2026-07-05T07:33:55.367382Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d4050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a3d40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d4050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a3d40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:26.996858Z'
-indexed_at: '2026-06-28T10:04:26.996864Z'
+  fetched_at: '2026-07-05T09:51:16.078428Z'
+indexed_at: '2026-07-05T09:51:16.078434Z'
 ---

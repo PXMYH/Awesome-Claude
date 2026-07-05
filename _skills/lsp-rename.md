@@ -25,24 +25,24 @@ prompt_preview: '---
 full_prompt_length: 7365
 tools_mentioned:
 - rust
-- go
 - typescript
+- go
 category: community
 category_display: Community
 source_repo: blackwell-systems/agent-lsp
 source_path: skills/lsp-rename/SKILL.md
 source_url: https://github.com/blackwell-systems/agent-lsp/blob/main/skills/lsp-rename/SKILL.md
-fetched_at: '2026-06-28T06:16:49.532819+00:00'
+fetched_at: '2026-07-05T06:03:47.866831+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:30:58.822397Z'
+  evaluated_at: '2026-07-05T07:18:48.119564Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262c050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670c650 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262c050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670c650 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:26.664154Z'
-indexed_at: '2026-06-28T10:04:26.664160Z'
+  fetched_at: '2026-07-05T09:51:15.762411Z'
+indexed_at: '2026-07-05T09:51:15.762417Z'
 ---

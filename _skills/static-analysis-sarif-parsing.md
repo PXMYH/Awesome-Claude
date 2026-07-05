@@ -12,28 +12,28 @@ prompt_preview: "---\nname: sarif-parsing\ndescription: >-\n  Parses and process
   ---\n\n# SARIF Parsing Best Practices\n\nYou ar..."
 full_prompt_length: 15137
 tools_mentioned:
-- Python
-- go
 - Go
-- JavaScript
-- Node.js
+- go
 - python
+- Node.js
+- Python
+- JavaScript
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/static-analysis/skills/sarif-parsing/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/sarif-parsing/SKILL.md
-fetched_at: '2026-06-28T06:19:47.464647+00:00'
+fetched_at: '2026-07-05T06:06:51.902959+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T09:56:57.551930Z'
+  evaluated_at: '2026-07-05T09:43:45.349725Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28009b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673a780 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28009b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673a780 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:29.851964Z'
-indexed_at: '2026-06-28T10:04:29.851969Z'
+  fetched_at: '2026-07-05T09:51:18.827574Z'
+indexed_at: '2026-07-05T09:51:18.827580Z'
 ---

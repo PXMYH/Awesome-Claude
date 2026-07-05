@@ -3,31 +3,31 @@ id: problem-statement
 slug: problem-statement
 name: Problem Statement
 description: Claude skill for Problem Statement
-prompt_preview: "---\nname: problem-statement\ndescription: Write a user-centered\
-  \ problem statement with who is blocked, what they are trying to do, why it matters,\
-  \ and how it feels. Use when framing discovery, prioritization, or a PRD.\nintent:\
-  \ >-\n  Articulate a problem from the user's perspective using an empathy-driven\
-  \ framework that captures who they are, what they're trying to do, what's blocking\
-  \ them, why, and how it makes them feel. Use this to align stakeholders on the problem\
-  \ before jumping to solutions, a..."
-full_prompt_length: 9735
+prompt_preview: "---\nname: problem-statement\nargument-hint: \"[user and their struggle]\"\
+  \ndescription: Write a user-centered problem statement with who is blocked, what\
+  \ they are trying to do, why it matters, and how it feels. Use when framing discovery,\
+  \ prioritization, or a PRD.\nintent: >-\n  Articulate a problem from the user's\
+  \ perspective using an empathy-driven framework that captures who they are, what\
+  \ they're trying to do, what's blocking them, why, and how it makes them feel. Use\
+  \ this to align stakeholders on..."
+full_prompt_length: 10489
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/problem-statement/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/problem-statement/SKILL.md
-fetched_at: '2026-06-28T06:17:09.594535+00:00'
+fetched_at: '2026-07-05T06:04:08.015984+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:49:20.914472Z'
+  evaluated_at: '2026-07-05T07:37:18.677828Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2803ef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673a8d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2803ef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673a8d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.071289Z'
-indexed_at: '2026-06-28T10:04:27.071295Z'
+  fetched_at: '2026-07-05T09:51:16.148992Z'
+indexed_at: '2026-07-05T09:51:16.148998Z'
 ---

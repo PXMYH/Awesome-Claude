@@ -3,14 +3,14 @@ id: roadmap-planning
 slug: roadmap-planning
 name: Roadmap Planning
 description: Claude skill for Roadmap Planning
-prompt_preview: "---\nname: roadmap-planning\ndescription: Plan a strategic roadmap\
-  \ across prioritization, epic definition, stakeholder alignment, and sequencing.\
-  \ Use when turning strategy into a release plan that teams can execute.\nintent:\
-  \ >-\n  Guide product managers through strategic roadmap planning by orchestrating\
-  \ prioritization, epic definition, stakeholder alignment, and release sequencing\
-  \ skills into a structured process. Use this to move from disconnected feature requests\
-  \ to a cohesive, outcome-driven roa..."
-full_prompt_length: 18190
+prompt_preview: "---\nname: roadmap-planning\nargument-hint: \"[product and planning\
+  \ horizon]\"\ndescription: Plan a strategic roadmap across prioritization, epic\
+  \ definition, stakeholder alignment, and sequencing. Use when turning strategy into\
+  \ a release plan that teams can execute.\nintent: >-\n  Guide product managers through\
+  \ strategic roadmap planning by orchestrating prioritization, epic definition, stakeholder\
+  \ alignment, and release sequencing skills into a structured process. Use this to\
+  \ move from disconnected fe..."
+full_prompt_length: 18972
 tools_mentioned:
 - go
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/roadmap-planning/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/roadmap-planning/SKILL.md
-fetched_at: '2026-06-28T06:17:10.127748+00:00'
+fetched_at: '2026-07-05T06:04:08.664740+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:50:01.373011Z'
+  evaluated_at: '2026-07-05T07:37:59.271085Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2802b70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670ea80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2802b70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670ea80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.085774Z'
-indexed_at: '2026-06-28T10:04:27.085780Z'
+  fetched_at: '2026-07-05T09:51:16.163053Z'
+indexed_at: '2026-07-05T09:51:16.163059Z'
 ---

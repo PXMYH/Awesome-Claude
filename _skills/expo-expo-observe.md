@@ -9,11 +9,11 @@ prompt_preview: '---
 
   description: Use for anything related to EAS Observe — adding `expo-observe` to
   an Expo project (AppMetricsRoot/ObserveRoot HOC, markInteractive, the useObserve
-  hook, and the Expo Router / React Navigation integrations for per-route metrics),
-  querying via the EAS CLI (`eas observe:metrics-summary`, `observe:metrics`, `observe:routes`,
-  `observe:events`, `observe:versions`), or interpreting the resulting metrics (cold/warm
-  launch, TTR, TTI, navigation cold/warm TTR, update d...'
-full_prompt_length: 2520
+  hook, the Expo Router / React Navigation integrations for per-route metrics, and
+  user-defined events via `Observe.logEvent`), querying via the EAS CLI (`eas observe:metrics-summary`,
+  `observe:metrics`, `observe:routes`, `observe:events`, `observe:versions`), or interpreting
+  the resulting metrics (cold/warm launch,...'
+full_prompt_length: 2683
 tools_mentioned:
 - React
 - react
@@ -22,17 +22,17 @@ category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-observe/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-observe/SKILL.md
-fetched_at: '2026-06-28T06:17:14.903684+00:00'
+fetched_at: '2026-07-05T06:04:13.966991+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:53:40.473331Z'
+  evaluated_at: '2026-07-05T07:41:48.925039Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2803a70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670c530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2803a70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670c530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.165901Z'
-indexed_at: '2026-06-28T10:04:27.165907Z'
+  fetched_at: '2026-07-05T09:51:16.243927Z'
+indexed_at: '2026-07-05T09:51:16.243933Z'
 ---

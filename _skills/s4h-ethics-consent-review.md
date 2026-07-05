@@ -20,17 +20,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-ethics-consent-review/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-ethics-consent-review/SKILL.md
-fetched_at: '2026-06-28T06:17:29.390982+00:00'
+fetched_at: '2026-07-05T06:04:30.786884+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T08:07:27.845320Z'
+  evaluated_at: '2026-07-05T07:55:42.491560Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2801af0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673b530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2801af0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673b530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.470197Z'
-indexed_at: '2026-06-28T10:04:27.470202Z'
+  fetched_at: '2026-07-05T09:51:16.537897Z'
+indexed_at: '2026-07-05T09:51:16.537903Z'
 ---

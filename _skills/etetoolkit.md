@@ -29,24 +29,24 @@ prompt_preview: '---
   tree analysis. Manipulate trees, analyze evolutionary events, visualize results,...'
 full_prompt_length: 17904
 tools_mentioned:
-- sqlite
 - python
+- sqlite
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/etetoolkit/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/etetoolkit/SKILL.md
-fetched_at: '2026-06-28T06:15:42.061590+00:00'
+fetched_at: '2026-07-05T06:02:38.501083+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T06:29:45.213462Z'
+  evaluated_at: '2026-07-05T06:16:53.462669Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2801700 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63069e72f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2801700 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63069e72f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -56,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:25.308511Z'
-indexed_at: '2026-06-28T10:04:25.308517Z'
+  fetched_at: '2026-07-05T09:51:14.407015Z'
+indexed_at: '2026-07-05T09:51:14.407021Z'
 ---

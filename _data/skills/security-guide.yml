@@ -30,26 +30,26 @@ prompt_preview: '---
   ### 1. Network Control / 网络控...'
 full_prompt_length: 2574
 tools_mentioned:
-- docker
-- Docker
 - aws
 - Node.js
+- docker
+- Docker
 category: community
 category_display: Community
 source_repo: jnMetaCode/shellward
 source_path: skills/security-guide/SKILL.md
 source_url: https://github.com/jnMetaCode/shellward/blob/main/skills/security-guide/SKILL.md
-fetched_at: '2026-06-28T06:18:00.492210+00:00'
+fetched_at: '2026-07-05T06:05:06.625228+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T08:33:43.309353Z'
+  evaluated_at: '2026-07-05T08:21:56.665496Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d4110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a3bf0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d4110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a3bf0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -59,5 +59,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:28.049132Z'
-indexed_at: '2026-06-28T10:04:28.049138Z'
+  fetched_at: '2026-07-05T09:51:17.092596Z'
+indexed_at: '2026-07-05T09:51:17.092602Z'

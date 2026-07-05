@@ -23,24 +23,24 @@ prompt_preview: '---
   | jq -r ''[.sessionId, .project] | @tsv''`
 
   2. Find half-clone-conversation.sh with bash: `find ~/.claude -name "half...'
-full_prompt_length: 1313
+full_prompt_length: 1486
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: ykdojo/claude-code-tips
 source_path: skills/half-clone/SKILL.md
 source_url: https://github.com/ykdojo/claude-code-tips/blob/main/skills/half-clone/SKILL.md
-fetched_at: '2026-06-28T06:19:55.703375+00:00'
+fetched_at: '2026-07-05T06:07:03.175931+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T10:02:14.315969Z'
+  evaluated_at: '2026-07-05T09:49:03.660223Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a26d0bf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e5ca0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a26d0bf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e5ca0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:29.970231Z'
-indexed_at: '2026-06-28T10:04:29.970237Z'
+  fetched_at: '2026-07-05T09:51:18.941141Z'
+indexed_at: '2026-07-05T09:51:18.941146Z'
 ---

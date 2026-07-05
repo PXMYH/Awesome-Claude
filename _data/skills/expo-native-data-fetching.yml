@@ -9,7 +9,7 @@ prompt_preview: "---\nname: native-data-fetching\ndescription: Use when implemen
   \n**You MUST use this skill for ANY networking work including API requests, data\
   \ fetching, caching, or network debugging.**\n\n## References\n\nConsult these resources\
   \ as needed:\n\n```\nreferences/\n  ex..."
-full_prompt_length: 11641
+full_prompt_length: 11639
 tools_mentioned:
 - TypeScript
 - JavaScript
@@ -20,17 +20,17 @@ category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/native-data-fetching/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/native-data-fetching/SKILL.md
-fetched_at: '2026-06-28T06:17:15.204261+00:00'
+fetched_at: '2026-07-05T06:04:14.309886+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:54:04.738722Z'
+  evaluated_at: '2026-07-05T07:42:13.312275Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2803b00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673bfb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2803b00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673bfb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.174656Z'
-indexed_at: '2026-06-28T10:04:27.174662Z'
+  fetched_at: '2026-07-05T09:51:16.252499Z'
+indexed_at: '2026-07-05T09:51:16.252505Z'

@@ -19,17 +19,17 @@ category_display: Community
 source_repo: takechanman1228/claude-persona
 source_path: skills/persona/SKILL.md
 source_url: https://github.com/takechanman1228/claude-persona/blob/main/skills/persona/SKILL.md
-fetched_at: '2026-06-28T06:19:35.072962+00:00'
+fetched_at: '2026-07-05T06:06:38.273981+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T09:48:19.376868Z'
+  evaluated_at: '2026-07-05T09:35:57.486989Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d55e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670f770 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d55e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670f770 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:29.683374Z'
-indexed_at: '2026-06-28T10:04:29.683383Z'
+  fetched_at: '2026-07-05T09:51:18.662370Z'
+indexed_at: '2026-07-05T09:51:18.662375Z'
 ---

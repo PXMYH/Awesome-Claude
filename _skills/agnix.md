@@ -36,17 +36,17 @@ category_display: Community
 source_repo: avifenesh/agnix
 source_path: skills/agnix/SKILL.md
 source_url: https://github.com/avifenesh/agnix/blob/main/skills/agnix/SKILL.md
-fetched_at: '2026-06-28T06:16:39.052689+00:00'
+fetched_at: '2026-07-05T06:03:37.455655+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:21:12.402292Z'
+  evaluated_at: '2026-07-05T07:08:59.672651Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2801610 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306b796a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2801610 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306b796a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -56,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:26.448980Z'
-indexed_at: '2026-06-28T10:04:26.448986Z'
+  fetched_at: '2026-07-05T09:51:15.555039Z'
+indexed_at: '2026-07-05T09:51:15.555045Z'
 ---

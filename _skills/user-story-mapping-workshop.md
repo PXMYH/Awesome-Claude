@@ -3,31 +3,31 @@ id: user-story-mapping-workshop
 slug: user-story-mapping-workshop
 name: 'User Story Map: [Scope from Q1]'
 description: '**Skill type:** Interactive'
-prompt_preview: "---\nname: user-story-mapping-workshop\ndescription: Run a user story\
-  \ mapping workshop with adaptive questions and a structured map output. Use when\
-  \ you need backbone activities, tasks, and release slices for a workflow.\nintent:\
-  \ >-\n  Guide product managers through creating a user story map by asking adaptive\
-  \ questions about the system, users, workflow, and priorities—then generating a\
-  \ two-dimensional map with backbone (activities), user tasks, and release slices.\
-  \ Use this to move from flat backlog..."
-full_prompt_length: 15644
+prompt_preview: "---\nname: user-story-mapping-workshop\nargument-hint: \"[system\
+  \ or workflow]\"\ndescription: Run a user story mapping workshop with adaptive questions\
+  \ and a structured map output. Use when you need backbone activities, tasks, and\
+  \ release slices for a workflow.\nintent: >-\n  Guide product managers through creating\
+  \ a user story map by asking adaptive questions about the system, users, workflow,\
+  \ and priorities—then generating a two-dimensional map with backbone (activities),\
+  \ user tasks, and release slic..."
+full_prompt_length: 16377
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/user-story-mapping-workshop/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/user-story-mapping-workshop/SKILL.md
-fetched_at: '2026-06-28T06:17:11.236644+00:00'
+fetched_at: '2026-07-05T06:04:09.803505+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:51:14.398704Z'
+  evaluated_at: '2026-07-05T07:39:12.428836Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28038f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670fce0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28038f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670fce0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.112494Z'
-indexed_at: '2026-06-28T10:04:27.112500Z'
+  fetched_at: '2026-07-05T09:51:16.189377Z'
+indexed_at: '2026-07-05T09:51:16.189391Z'
 ---

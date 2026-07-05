@@ -3,31 +3,31 @@ id: pestel-analysis
 slug: pestel-analysis
 name: Pestel Analysis
 description: Claude skill for Pestel Analysis
-prompt_preview: "---\nname: pestel-analysis\ndescription: Analyze political, economic,\
-  \ social, technological, environmental, and legal forces. Use when external market\
-  \ shifts could materially affect a product, roadmap, or strategy.\nintent: >-\n\
-  \  Conduct a systematic analysis of macro-environmental factors—Political, Economic,\
-  \ Social, Technological, Environmental, and Legal—that could impact your product\
-  \ or project. Use this to identify external opportunities and threats, inform strategic\
-  \ planning, assess market ent..."
-full_prompt_length: 13242
+prompt_preview: "---\nname: pestel-analysis\nargument-hint: \"[product or market]\"\
+  \ndescription: Analyze political, economic, social, technological, environmental,\
+  \ and legal forces. Use when external market shifts could materially affect a product,\
+  \ roadmap, or strategy.\nintent: >-\n  Conduct a systematic analysis of macro-environmental\
+  \ factors—Political, Economic, Social, Technological, Environmental, and Legal—that\
+  \ could impact your product or project. Use this to identify external opportunities\
+  \ and threats, inform..."
+full_prompt_length: 13977
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/pestel-analysis/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pestel-analysis/SKILL.md
-fetched_at: '2026-06-28T06:17:08.451258+00:00'
+fetched_at: '2026-07-05T06:04:06.794475+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:47:59.831836Z'
+  evaluated_at: '2026-07-05T07:35:57.349676Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262cd10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670ec60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262cd10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670ec60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.042112Z'
-indexed_at: '2026-06-28T10:04:27.042119Z'
+  fetched_at: '2026-07-05T09:51:16.120856Z'
+indexed_at: '2026-07-05T09:51:16.120862Z'
 ---

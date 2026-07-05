@@ -17,17 +17,17 @@ category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/ga4-bigquery-schema/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/ga4-bigquery-schema/SKILL.md
-fetched_at: '2026-06-28T06:16:53.867175+00:00'
+fetched_at: '2026-07-05T06:03:52.070430+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:33:57.538634Z'
+  evaluated_at: '2026-07-05T07:21:48.890443Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2e23680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306a1d4c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2e23680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306a1d4c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:26.729857Z'
-indexed_at: '2026-06-28T10:04:26.729867Z'
+  fetched_at: '2026-07-05T09:51:15.825422Z'
+indexed_at: '2026-07-05T09:51:15.825428Z'
 ---

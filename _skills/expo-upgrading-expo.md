@@ -30,26 +30,26 @@ prompt_preview: '---
   - ./references/native-tabs.md -- SDK +55: Native tabs...'
 full_prompt_length: 5797
 tools_mentioned:
+- Go
+- React
 - sqlite
 - react
-- React
-- Go
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/upgrading-expo/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/upgrading-expo/SKILL.md
-fetched_at: '2026-06-28T06:17:15.307603+00:00'
+fetched_at: '2026-07-05T06:04:14.417414+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:54:12.826646Z'
+  evaluated_at: '2026-07-05T07:42:21.435865Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262c890 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673bfb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262c890 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673bfb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -59,6 +59,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.177704Z'
-indexed_at: '2026-06-28T10:04:27.177710Z'
+  fetched_at: '2026-07-05T09:51:16.255417Z'
+indexed_at: '2026-07-05T09:51:16.255423Z'
 ---

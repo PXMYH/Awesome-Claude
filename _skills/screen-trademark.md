@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/screen-trademark/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/screen-trademark/SKILL.md
-fetched_at: '2026-06-28T06:19:01.879939+00:00'
+fetched_at: '2026-07-05T06:06:03.474395+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T09:22:14.926192Z'
+  evaluated_at: '2026-07-05T09:10:42.486307Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28002f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673b140 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28002f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673b140 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:29.132712Z'
-indexed_at: '2026-06-28T10:04:29.132718Z'
+  fetched_at: '2026-07-05T09:51:18.131819Z'
+indexed_at: '2026-07-05T09:51:18.131832Z'
 ---

@@ -2,14 +2,14 @@ id: ai-shaped-readiness-advisor
 slug: ai-shaped-readiness-advisor
 name: Ai Shaped Readiness Advisor
 description: Claude skill for Ai Shaped Readiness Advisor
-prompt_preview: "---\nname: ai-shaped-readiness-advisor\ndescription: Assess whether\
-  \ your product work is AI-first or AI-shaped. Use when evaluating AI maturity and\
-  \ choosing the next team capability to build.\nintent: >-\n  Assess whether your\
-  \ product work is **\"AI-first\"** (using AI to automate existing tasks faster)\
-  \ or **\"AI-shaped\"** (fundamentally redesigning how product teams operate around\
-  \ AI capabilities). Use this to evaluate your readiness across **5 essential PM\
-  \ competencies for 2026**, identify gaps, and..."
-full_prompt_length: 42144
+prompt_preview: "---\nname: ai-shaped-readiness-advisor\nargument-hint: \"[team or\
+  \ workflow context]\"\ndescription: Assess whether your product work is AI-first\
+  \ or AI-shaped. Use when evaluating AI maturity and choosing the next team capability\
+  \ to build.\nintent: >-\n  Assess whether your product work is **\"AI-first\"**\
+  \ (using AI to automate existing tasks faster) or **\"AI-shaped\"** (fundamentally\
+  \ redesigning how product teams operate around AI capabilities). Use this to evaluate\
+  \ your readiness across **5 essential PM..."
+full_prompt_length: 42942
 tools_mentioned:
 - rest
 category: community
@@ -17,17 +17,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/ai-shaped-readiness-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/ai-shaped-readiness-advisor/SKILL.md
-fetched_at: '2026-06-28T06:17:05.870363+00:00'
+fetched_at: '2026-07-05T06:04:04.011222+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:44:59.707177Z'
+  evaluated_at: '2026-07-05T07:32:58.360650Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262f380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63071bfbc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262f380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63071bfbc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:26.976212Z'
-indexed_at: '2026-06-28T10:04:26.976218Z'
+  fetched_at: '2026-07-05T09:51:16.058526Z'
+indexed_at: '2026-07-05T09:51:16.058532Z'

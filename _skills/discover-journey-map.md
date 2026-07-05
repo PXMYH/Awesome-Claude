@@ -17,17 +17,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/discover-journey-map/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/discover-journey-map/SKILL.md
-fetched_at: '2026-06-28T06:19:15.602994+00:00'
+fetched_at: '2026-07-05T06:06:16.801228+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T09:33:47.305009Z'
+  evaluated_at: '2026-07-05T09:22:18.834053Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262f1a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670c080 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262f1a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670c080 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:29.385801Z'
-indexed_at: '2026-06-28T10:04:29.385813Z'
+  fetched_at: '2026-07-05T09:51:18.375790Z'
+indexed_at: '2026-07-05T09:51:18.375796Z'
 ---

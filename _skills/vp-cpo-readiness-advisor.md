@@ -3,14 +3,14 @@ id: vp-cpo-readiness-advisor
 slug: vp-cpo-readiness-advisor
 name: Vp Cpo Readiness Advisor
 description: Claude skill for Vp Cpo Readiness Advisor
-prompt_preview: "---\nname: vp-cpo-readiness-advisor\ndescription: Guide the transition\
-  \ to VP or CPO across preparing, interviewing, landing, and recalibrating. Use when\
-  \ executive product scope is changing fast.\nintent: >-\n  Guide Directors and senior\
-  \ product leaders through the specific challenges of the transition to VP or CPO\
-  \ using adaptive questions and targeted coaching. Diagnoses where you are in the\
-  \ journey and delivers practical, lived-experience coaching calibrated to your situation\
-  \ — not generic executiv..."
-full_prompt_length: 24792
+prompt_preview: "---\nname: vp-cpo-readiness-advisor\nargument-hint: \"[where you\
+  \ are in the transition]\"\ndescription: Guide the transition to VP or CPO across\
+  \ preparing, interviewing, landing, and recalibrating. Use when executive product\
+  \ scope is changing fast.\nintent: >-\n  Guide Directors and senior product leaders\
+  \ through the specific challenges of the transition to VP or CPO using adaptive\
+  \ questions and targeted coaching. Diagnoses where you are in the journey and delivers\
+  \ practical, lived-experience coaching..."
+full_prompt_length: 25583
 tools_mentioned:
 - go
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/vp-cpo-readiness-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/vp-cpo-readiness-advisor/SKILL.md
-fetched_at: '2026-06-28T06:17:11.765598+00:00'
+fetched_at: '2026-07-05T06:04:10.287345+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:51:46.727068Z'
+  evaluated_at: '2026-07-05T07:39:45.004974Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28035c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670ff80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28035c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670ff80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.124072Z'
-indexed_at: '2026-06-28T10:04:27.124078Z'
+  fetched_at: '2026-07-05T09:51:16.200599Z'
+indexed_at: '2026-07-05T09:51:16.200604Z'
 ---

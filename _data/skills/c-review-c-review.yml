@@ -12,7 +12,7 @@ prompt_preview: '---
   or hunting integer overflow / use-after-free / race conditions in userspace code.
 
   allowed-tools: Agent AskUserQuestion SendMessage TaskCreate TaskUpdate TaskList
-  TaskGet Grep Glob Read Write Bash
+  Read Write Bash
 
   ---
 
@@ -20,29 +20,30 @@ prompt_preview: '---
   # C/C++ Security Review
 
 
-  Runs...'
-full_prompt_length: 24410
+  Runs in the main conver...'
+full_prompt_length: 39177
 tools_mentioned:
+- rest
 - Java
+- Go
 - Python
 - Rust
-- Go
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/c-review/skills/c-review/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/c-review/skills/c-review/SKILL.md
-fetched_at: '2026-06-28T06:19:41.536044+00:00'
+fetched_at: '2026-07-05T06:06:44.658786+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T09:53:18.554781Z'
+  evaluated_at: '2026-07-05T09:39:57.093492Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a26d0050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306577500 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a26d0050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306577500 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -52,5 +53,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:29.770172Z'
-indexed_at: '2026-06-28T10:04:29.770178Z'
+  fetched_at: '2026-07-05T09:51:18.746106Z'
+indexed_at: '2026-07-05T09:51:18.746112Z'

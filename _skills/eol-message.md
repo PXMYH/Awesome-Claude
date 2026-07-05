@@ -3,31 +3,31 @@ id: eol-message
 slug: eol-message
 name: Eol Message
 description: Claude skill for Eol Message
-prompt_preview: "---\nname: eol-message\ndescription: Write a clear, empathetic EOL\
-  \ announcement with rationale, customer impact, and next steps. Use when retiring\
-  \ a product, feature, or plan without creating avoidable confusion.\nintent: >-\n\
-  \  Craft a clear, empathetic End-of-Life (EOL) message that communicates product\
-  \ or feature discontinuation, explains the rationale, addresses customer impact,\
-  \ provides transition support, and positions the replacement solution. Use this\
-  \ to maintain customer trust during difficu..."
-full_prompt_length: 12586
+prompt_preview: "---\nname: eol-message\nargument-hint: \"[product or feature being\
+  \ retired]\"\ndescription: Write a clear, empathetic EOL announcement with rationale,\
+  \ customer impact, and next steps. Use when retiring a product, feature, or plan\
+  \ without creating avoidable confusion.\nintent: >-\n  Craft a clear, empathetic\
+  \ End-of-Life (EOL) message that communicates product or feature discontinuation,\
+  \ explains the rationale, addresses customer impact, provides transition support,\
+  \ and positions the replacement solution..."
+full_prompt_length: 13404
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/eol-message/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/eol-message/SKILL.md
-fetched_at: '2026-06-28T06:17:07.196575+00:00'
+fetched_at: '2026-07-05T06:04:05.447764+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:46:38.006791Z'
+  evaluated_at: '2026-07-05T07:34:36.140314Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262c380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670c3b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262c380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670c3b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.011687Z'
-indexed_at: '2026-06-28T10:04:27.011693Z'
+  fetched_at: '2026-07-05T09:51:16.092664Z'
+indexed_at: '2026-07-05T09:51:16.092670Z'
 ---

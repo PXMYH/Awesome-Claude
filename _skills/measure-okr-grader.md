@@ -22,17 +22,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/measure-okr-grader/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/measure-okr-grader/SKILL.md
-fetched_at: '2026-06-28T06:19:18.576439+00:00'
+fetched_at: '2026-07-05T06:06:19.771842+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T09:37:46.417732Z'
+  evaluated_at: '2026-07-05T09:25:19.159864Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262eea0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e7e60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262eea0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e7e60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:29.451170Z'
-indexed_at: '2026-06-28T10:04:29.451176Z'
+  fetched_at: '2026-07-05T09:51:18.438218Z'
+indexed_at: '2026-07-05T09:51:18.438224Z'
 ---

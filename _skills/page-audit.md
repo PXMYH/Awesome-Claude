@@ -24,24 +24,24 @@ prompt_preview: '---
   top 3 competitors, and...'
 full_prompt_length: 13763
 tools_mentioned:
-- rest
 - Go
+- rest
 category: community
 category_display: Community
 source_repo: inhouseseo/superseo-skills
 source_path: skills/page-audit/SKILL.md
 source_url: https://github.com/inhouseseo/superseo-skills/blob/main/skills/page-audit/SKILL.md
-fetched_at: '2026-06-28T06:17:48.754358+00:00'
+fetched_at: '2026-07-05T06:04:53.318087+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T08:28:06.979738Z'
+  evaluated_at: '2026-07-05T08:16:19.708459Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d61e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670e840 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d61e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670e840 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.926453Z'
-indexed_at: '2026-06-28T10:04:27.926459Z'
+  fetched_at: '2026-07-05T09:51:16.974481Z'
+indexed_at: '2026-07-05T09:51:16.974487Z'
 ---

@@ -3,31 +3,31 @@ id: positioning-statement
 slug: positioning-statement
 name: Positioning Statement
 description: Claude skill for Positioning Statement
-prompt_preview: "---\nname: positioning-statement\ndescription: Create a Geoffrey\
-  \ Moore-style positioning statement. Use when clarifying who you serve, what problem\
-  \ you solve, your category, and why you're different from alternatives.\nintent:\
-  \ >-\n  Create a Geoffrey Moore-style positioning statement that clearly articulates\
-  \ who your product serves, what need it addresses, how it's categorized, what benefit\
-  \ it delivers, and how it differs from alternatives. Use this when you need to align\
-  \ stakeholders on product str..."
-full_prompt_length: 9528
+prompt_preview: "---\nname: positioning-statement\nargument-hint: \"[product] [target\
+  \ customer]\"\ndescription: Create a Geoffrey Moore-style positioning statement.\
+  \ Use when clarifying who you serve, what problem you solve, your category, and\
+  \ why you're different from alternatives.\nintent: >-\n  Create a Geoffrey Moore-style\
+  \ positioning statement that clearly articulates who your product serves, what need\
+  \ it addresses, how it's categorized, what benefit it delivers, and how it differs\
+  \ from alternatives. Use this when..."
+full_prompt_length: 10305
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/positioning-statement/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/positioning-statement/SKILL.md
-fetched_at: '2026-06-28T06:17:08.891789+00:00'
+fetched_at: '2026-07-05T06:04:07.318545+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:48:32.325529Z'
+  evaluated_at: '2026-07-05T07:36:29.847008Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28023c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673a660 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28023c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673a660 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.053824Z'
-indexed_at: '2026-06-28T10:04:27.053830Z'
+  fetched_at: '2026-07-05T09:51:16.132154Z'
+indexed_at: '2026-07-05T09:51:16.132168Z'
 ---

@@ -13,24 +13,24 @@ prompt_preview: "---\nname: docs-auditor\ndescription: >\n  Audits any developer
   , \"check this documentation\",..."
 full_prompt_length: 12034
 tools_mentioned:
-- go
 - Python
+- go
 category: community
 category_display: Community
 source_repo: Infrasity-Labs/dev-gtm-claude-skills
 source_path: skills/docs-auditor/SKILL.md
 source_url: https://github.com/Infrasity-Labs/dev-gtm-claude-skills/blob/main/skills/docs-auditor/SKILL.md
-fetched_at: '2026-06-28T06:15:35.490453+00:00'
+fetched_at: '2026-07-05T06:02:31.134289+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T06:23:31.010579Z'
+  evaluated_at: '2026-07-05T06:10:36.306693Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d4d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63071a39e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d4d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63071a39e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:25.167798Z'
-indexed_at: '2026-06-28T10:04:25.167804Z'
+  fetched_at: '2026-07-05T09:51:14.275793Z'
+indexed_at: '2026-07-05T09:51:14.275799Z'
 ---

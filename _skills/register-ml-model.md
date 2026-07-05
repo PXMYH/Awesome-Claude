@@ -12,28 +12,28 @@ prompt_preview: "---\nname: register-ml-model\ndescription: >\n  Register traine
   \ rolling back to previous version..."
 full_prompt_length: 9734
 tools_mentioned:
-- MySQL
-- Python
-- PostgreSQL
-- SQLite
 - postgresql
 - python
+- Python
+- MySQL
+- PostgreSQL
+- SQLite
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/register-ml-model/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/register-ml-model/SKILL.md
-fetched_at: '2026-06-28T06:18:55.796819+00:00'
+fetched_at: '2026-07-05T06:05:59.368611+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T09:18:11.271512Z'
+  evaluated_at: '2026-07-05T09:06:36.334556Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2802a50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306a1d160 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2802a50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306a1d160 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:29.042334Z'
-indexed_at: '2026-06-28T10:04:29.042341Z'
+  fetched_at: '2026-07-05T09:51:18.043717Z'
+indexed_at: '2026-07-05T09:51:18.043732Z'
 ---

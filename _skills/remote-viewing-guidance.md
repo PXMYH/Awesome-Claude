@@ -13,24 +13,24 @@ prompt_preview: "---\nname: remote-viewing-guidance\ndescription: >\n  Guide a p
   \ facilitating a structured\n  intuitive pe..."
 full_prompt_length: 15722
 tools_mentioned:
-- angular
 - Go
+- angular
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/remote-viewing-guidance/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/remote-viewing-guidance/SKILL.md
-fetched_at: '2026-06-28T06:18:56.170144+00:00'
+fetched_at: '2026-07-05T06:05:59.635090+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T09:18:27.440871Z'
+  evaluated_at: '2026-07-05T09:06:53.365996Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262e2d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306738350 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262e2d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306738350 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:29.048383Z'
-indexed_at: '2026-06-28T10:04:29.048389Z'
+  fetched_at: '2026-07-05T09:51:18.049552Z'
+indexed_at: '2026-07-05T09:51:18.049558Z'
 ---

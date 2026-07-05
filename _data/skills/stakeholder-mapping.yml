@@ -3,31 +3,31 @@ slug: stakeholder-mapping
 name: Stakeholder Mapping
 description: '- [stakeholder-identification](../stakeholder-identification/SKILL.md)
   — prerequisite: build the full stakeholder list before prioritizing'
-prompt_preview: "---\nname: stakeholder-mapping\ndescription: Prioritize stakeholders\
-  \ using two complementary grids. Use when setting engagement strategy and surfacing\
-  \ whose voice needs elevating after stakeholder identification.\nintent: >-\n  Run\
-  \ two complementary 2x2 grids — Power × Interest (sets engagement strategy per\n\
-  \  stakeholder) and Impact × Power (surfaces who bears consequences but lacks voice)\
-  \ —\n  then compare outputs to reveal blind spots and plan quadrant migration. The\
-  \ grids\n  answer different questi..."
-full_prompt_length: 13079
+prompt_preview: "---\nname: stakeholder-mapping\nargument-hint: \"[stakeholder list\
+  \ or initiative]\"\ndescription: Prioritize stakeholders using two complementary\
+  \ grids. Use when setting engagement strategy and surfacing whose voice needs elevating\
+  \ after stakeholder identification.\nintent: >-\n  Run two complementary 2x2 grids\
+  \ — Power × Interest (sets engagement strategy per\n  stakeholder) and Impact ×\
+  \ Power (surfaces who bears consequences but lacks voice) —\n  then compare outputs\
+  \ to reveal blind spots and plan quadr..."
+full_prompt_length: 13878
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/stakeholder-mapping/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/stakeholder-mapping/SKILL.md
-fetched_at: '2026-06-28T06:17:10.908923+00:00'
+fetched_at: '2026-07-05T06:04:09.443164+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:50:49.984530Z'
+  evaluated_at: '2026-07-05T07:38:48.043663Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28038c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673ba40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28038c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673ba40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.103693Z'
-indexed_at: '2026-06-28T10:04:27.103699Z'
+  fetched_at: '2026-07-05T09:51:16.180247Z'
+indexed_at: '2026-07-05T09:51:16.180253Z'

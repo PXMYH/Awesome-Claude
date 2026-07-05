@@ -19,17 +19,17 @@ category_display: Community
 source_repo: luoyuctl/agenttrace
 source_path: skills/agenttrace-session-audit/SKILL.md
 source_url: https://github.com/luoyuctl/agenttrace/blob/master/skills/agenttrace-session-audit/SKILL.md
-fetched_at: '2026-06-28T06:18:10.112095+00:00'
+fetched_at: '2026-07-05T06:05:15.388827+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T08:38:52.948946Z'
+  evaluated_at: '2026-07-05T08:27:12.337783Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a26d2690 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673b710 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a26d2690 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673b710 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:28.165188Z'
-indexed_at: '2026-06-28T10:04:28.165194Z'
+  fetched_at: '2026-07-05T09:51:17.204889Z'
+indexed_at: '2026-07-05T09:51:17.204895Z'
 ---

@@ -15,31 +15,31 @@ prompt_preview: "---\nname: aws-cdk-development\ndescription: AWS Cloud Developm
 full_prompt_length: 9990
 tools_mentioned:
 - Java
-- Python
 - REST
-- typescript
-- Go
-- AWS
-- JavaScript
-- aws
 - TypeScript
+- Go
+- typescript
 - python
+- AWS
+- Python
+- aws
+- JavaScript
 category: infrastructure
 category_display: Infrastructure
 source_repo: zxkane/aws-skills
 source_path: plugins/aws-iac/skills/aws-cdk-development/SKILL.md
 source_url: https://github.com/zxkane/aws-skills/blob/main/plugins/aws-iac/skills/aws-cdk-development/SKILL.md
-fetched_at: '2026-06-28T06:20:01.205298+00:00'
+fetched_at: '2026-07-05T06:07:08.853188+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T10:04:08.642542Z'
+  evaluated_at: '2026-07-05T09:50:57.698384Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a26d0170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306738770 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a26d0170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306738770 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:30.011691Z'
-indexed_at: '2026-06-28T10:04:30.011698Z'
+  fetched_at: '2026-07-05T09:51:18.980962Z'
+indexed_at: '2026-07-05T09:51:18.980968Z'
 ---

@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/choose-loop-wakeup-interval/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/choose-loop-wakeup-interval/SKILL.md
-fetched_at: '2026-06-28T06:18:24.707073+00:00'
+fetched_at: '2026-07-05T06:05:29.899181+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T08:49:11.136175Z'
+  evaluated_at: '2026-07-05T08:37:24.615478Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2a7e210 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306a1d0d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2a7e210 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306a1d0d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:28.393595Z'
-indexed_at: '2026-06-28T10:04:28.393600Z'
+  fetched_at: '2026-07-05T09:51:17.420495Z'
+indexed_at: '2026-07-05T09:51:17.420501Z'
 ---

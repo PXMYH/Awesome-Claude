@@ -3,14 +3,14 @@ id: recommendation-canvas
 slug: recommendation-canvas
 name: Recommendation Canvas
 description: Claude skill for Recommendation Canvas
-prompt_preview: "---\nname: recommendation-canvas\ndescription: Evaluate an AI product\
-  \ idea across outcomes, hypotheses, risks, and positioning. Use when deciding whether\
-  \ an AI solution deserves investment or recommendation.\nintent: >-\n  Evaluate\
-  \ and propose AI product solutions using a structured canvas that assesses business\
-  \ outcomes, customer outcomes, problem framing, solution hypotheses, positioning,\
-  \ risks, and value justification. Use this to build a comprehensive, defensible\
-  \ recommendation for stakeholders..."
-full_prompt_length: 13785
+prompt_preview: "---\nname: recommendation-canvas\nargument-hint: \"[AI product idea]\"\
+  \ndescription: Evaluate an AI product idea across outcomes, hypotheses, risks, and\
+  \ positioning. Use when deciding whether an AI solution deserves investment or recommendation.\n\
+  intent: >-\n  Evaluate and propose AI product solutions using a structured canvas\
+  \ that assesses business outcomes, customer outcomes, problem framing, solution\
+  \ hypotheses, positioning, risks, and value justification. Use this to build a comprehensive,\
+  \ defensib..."
+full_prompt_length: 14508
 tools_mentioned:
 - go
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/recommendation-canvas/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/recommendation-canvas/SKILL.md
-fetched_at: '2026-06-28T06:17:10.028743+00:00'
+fetched_at: '2026-07-05T06:04:08.516920+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:49:53.278124Z'
+  evaluated_at: '2026-07-05T07:37:51.159533Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2800a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306738c80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2800a40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306738c80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.082845Z'
-indexed_at: '2026-06-28T10:04:27.082850Z'
+  fetched_at: '2026-07-05T09:51:16.160207Z'
+indexed_at: '2026-07-05T09:51:16.160221Z'
 ---

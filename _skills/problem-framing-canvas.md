@@ -3,31 +3,31 @@ id: problem-framing-canvas
 slug: problem-framing-canvas
 name: 'Problem Framing Canvas: [Problem Name]'
 description: '**Skill type:** Interactive'
-prompt_preview: "---\nname: problem-framing-canvas\ndescription: Guide teams through\
-  \ MITRE's Problem Framing Canvas. Use when you need a clearer problem statement\
-  \ before jumping to solutions.\nintent: >-\n  Guide product managers through the\
-  \ MITRE Problem Framing Canvas process by asking structured questions across three\
-  \ phases: Look Inward (examine your own assumptions and biases), Look Outward (understand\
-  \ who experiences the problem and who doesn't), and Reframe (synthesize insights\
-  \ into an actionable problem stat..."
-full_prompt_length: 17156
+prompt_preview: "---\nname: problem-framing-canvas\nargument-hint: \"[problem area]\"\
+  \ndescription: Guide teams through MITRE's Problem Framing Canvas. Use when you\
+  \ need a clearer problem statement before jumping to solutions.\nintent: >-\n  Guide\
+  \ product managers through the MITRE Problem Framing Canvas process by asking structured\
+  \ questions across three phases: Look Inward (examine your own assumptions and biases),\
+  \ Look Outward (understand who experiences the problem and who doesn't), and Reframe\
+  \ (synthesize insights..."
+full_prompt_length: 17902
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/problem-framing-canvas/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/problem-framing-canvas/SKILL.md
-fetched_at: '2026-06-28T06:17:09.461358+00:00'
+fetched_at: '2026-07-05T06:04:07.910061+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:49:12.828493Z'
+  evaluated_at: '2026-07-05T07:37:10.557448Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2802030 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306739370 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2802030 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306739370 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.068389Z'
-indexed_at: '2026-06-28T10:04:27.068395Z'
+  fetched_at: '2026-07-05T09:51:16.146215Z'
+indexed_at: '2026-07-05T09:51:16.146221Z'
 ---

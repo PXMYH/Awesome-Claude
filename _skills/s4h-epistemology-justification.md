@@ -21,17 +21,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-epistemology-justification/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-epistemology-justification/SKILL.md
-fetched_at: '2026-06-28T06:17:28.621688+00:00'
+fetched_at: '2026-07-05T06:04:29.949142+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T08:06:38.278486Z'
+  evaluated_at: '2026-07-05T07:54:53.354412Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2796ab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673b740 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2796ab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673b740 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.452457Z'
-indexed_at: '2026-06-28T10:04:27.452468Z'
+  fetched_at: '2026-07-05T09:51:16.520558Z'
+indexed_at: '2026-07-05T09:51:16.520564Z'
 ---

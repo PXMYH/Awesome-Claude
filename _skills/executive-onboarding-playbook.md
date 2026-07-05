@@ -3,14 +3,14 @@ id: executive-onboarding-playbook
 slug: executive-onboarding-playbook
 name: Executive Onboarding Playbook
 description: Claude skill for Executive Onboarding Playbook
-prompt_preview: "---\nname: executive-onboarding-playbook\ndescription: Plan a VP\
-  \ or CPO 30-60-90 day diagnostic onboarding path. Use when entering a new executive\
-  \ product role and avoiding premature change.\nintent: >-\n  Structure the first\
-  \ 90 days of a VP or CPO transition as a diagnostic process, not an execution sprint.\
-  \ The single most common failure in senior product leadership transitions is acting\
-  \ before understanding — changing structures, replacing people, or announcing strategy\
-  \ before building the evidenc..."
-full_prompt_length: 18527
+prompt_preview: "---\nname: executive-onboarding-playbook\nargument-hint: \"[role\
+  \ and company context]\"\ndescription: Plan a VP or CPO 30-60-90 day diagnostic\
+  \ onboarding path. Use when entering a new executive product role and avoiding premature\
+  \ change.\nintent: >-\n  Structure the first 90 days of a VP or CPO transition as\
+  \ a diagnostic process, not an execution sprint. The single most common failure\
+  \ in senior product leadership transitions is acting before understanding — changing\
+  \ structures, replacing people, or ann..."
+full_prompt_length: 19380
 tools_mentioned:
 - rest
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/executive-onboarding-playbook/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/executive-onboarding-playbook/SKILL.md
-fetched_at: '2026-06-28T06:17:07.532693+00:00'
+fetched_at: '2026-07-05T06:04:05.798665+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:47:03.216639Z'
+  evaluated_at: '2026-07-05T07:35:00.478282Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262dfa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e7710 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a262dfa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e7710 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.021368Z'
-indexed_at: '2026-06-28T10:04:27.021374Z'
+  fetched_at: '2026-07-05T09:51:16.101018Z'
+indexed_at: '2026-07-05T09:51:16.101025Z'
 ---

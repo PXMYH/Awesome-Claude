@@ -17,17 +17,17 @@ category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/crm-icp-analysis/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/crm-icp-analysis/SKILL.md
-fetched_at: '2026-06-28T06:16:52.823716+00:00'
+fetched_at: '2026-07-05T06:03:51.146392+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:32:52.815816Z'
+  evaluated_at: '2026-07-05T07:20:42.469060Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2e23680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306daac60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2e23680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306daac60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:26.706079Z'
-indexed_at: '2026-06-28T10:04:26.706085Z'
+  fetched_at: '2026-07-05T09:51:15.802529Z'
+indexed_at: '2026-07-05T09:51:15.802535Z'
 ---

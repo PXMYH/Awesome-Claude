@@ -3,32 +3,33 @@ id: context-engineering-advisor
 slug: context-engineering-advisor
 name: 'Context Manifest: [Product/Feature Name]'
 description: '### Technical References'
-prompt_preview: "---\nname: context-engineering-advisor\ndescription: Diagnose context\
-  \ stuffing vs. context engineering. Use when an AI workflow feels bloated, brittle,\
-  \ or hard to steer reliably.\nintent: >-\n  Guide product managers through diagnosing\
-  \ whether they're doing **context stuffing** (jamming volume without intent) or\
-  \ **context engineering** (shaping structure for attention). Use this to identify\
-  \ context boundaries, fix \"Context Hoarding Disorder,\" and implement tactical\
-  \ practices like bounded domains, ep..."
-full_prompt_length: 31565
+prompt_preview: "---\nname: context-engineering-advisor\nargument-hint: \"[AI workflow\
+  \ to diagnose]\"\ndescription: Diagnose context stuffing vs. context engineering.\
+  \ Use when an AI workflow feels bloated, brittle, or hard to steer reliably.\nintent:\
+  \ >-\n  Guide product managers through diagnosing whether they're doing **context\
+  \ stuffing** (jamming volume without intent) or **context engineering** (shaping\
+  \ structure for attention). Use this to identify context boundaries, fix \"Context\
+  \ Hoarding Disorder,\" and implement..."
+full_prompt_length: 32350
 tools_mentioned:
 - rest
+- go
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/context-engineering-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/context-engineering-advisor/SKILL.md
-fetched_at: '2026-06-28T06:17:06.399598+00:00'
+fetched_at: '2026-07-05T06:04:04.616989+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:45:40.133410Z'
+  evaluated_at: '2026-07-05T07:33:39.128519Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2797380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e40b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2797380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e40b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:26.990919Z'
-indexed_at: '2026-06-28T10:04:26.990925Z'
+  fetched_at: '2026-07-05T09:51:16.072683Z'
+indexed_at: '2026-07-05T09:51:16.072689Z'
 ---

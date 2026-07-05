@@ -19,17 +19,17 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/mssql/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/mssql/SKILL.md
-fetched_at: '2026-06-28T06:19:28.584425+00:00'
+fetched_at: '2026-07-05T06:06:31.748836+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T09:45:53.333510Z'
+  evaluated_at: '2026-07-05T09:33:30.157429Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d7680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670f2f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a27d7680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670f2f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:29.630131Z'
-indexed_at: '2026-06-28T10:04:29.630136Z'
+  fetched_at: '2026-07-05T09:51:18.611202Z'
+indexed_at: '2026-07-05T09:51:18.611208Z'
 ---

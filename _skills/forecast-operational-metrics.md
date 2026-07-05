@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/forecast-operational-metrics/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/forecast-operational-metrics/SKILL.md
-fetched_at: '2026-06-28T06:18:38.261684+00:00'
+fetched_at: '2026-07-05T06:05:43.651278+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T09:02:35.944772Z'
+  evaluated_at: '2026-07-05T08:50:51.054916Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2803770 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306a28fe0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2803770 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306a28fe0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:28.691367Z'
-indexed_at: '2026-06-28T10:04:28.691376Z'
+  fetched_at: '2026-07-05T09:51:17.706826Z'
+indexed_at: '2026-07-05T09:51:17.706832Z'
 ---

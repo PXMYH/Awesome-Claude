@@ -3,40 +3,36 @@ id: database-lookup
 slug: database-lookup
 name: Database Lookup
 description: '### Social Sciences & Demographics'
-prompt_preview: '---
-
-  name: database-lookup
-
-  description: Deterministically query 78 public scientific, biomedical, materials
-  science, regulatory, finance, and demographics databases through documented REST
-  APIs. Use for reproducible lookups of compounds, genes, proteins, pathways, variants,
-  clinical trials, patents, economic indicators, structures, astronomy objects, environmental
-  records, or database-backed scientific facts when endpoints, filters, pagination,
-  and provenance need to be explicit.
-
-  allowed-tools: R...'
-full_prompt_length: 32492
+prompt_preview: "---\nname: database-lookup\ndescription: Query documented public\
+  \ database APIs with explicit endpoints, filters, pagination, and provenance. Use\
+  \ when a scientific, regulatory, financial, or other database-backed fact must be\
+  \ retrieved reproducibly from a named source rather than inferred from general knowledge.\n\
+  allowed-tools: Read Bash\nlicense: MIT\nmetadata:\n  version: \"1.2\"\n  skill-author:\
+  \ \"K-Dense Inc.\"\n---\n\n# Database Lookup\n\nThis skill catalogs 78 public databases\
+  \ with documented API access pa..."
+full_prompt_length: 34642
 tools_mentioned:
-- GraphQL
-- REST
 - graphql
+- REST
 - GO
+- GraphQL
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/database-lookup/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/database-lookup/SKILL.md
-fetched_at: '2026-06-28T06:15:41.009917+00:00'
+fetched_at: '2026-07-05T06:02:37.277450+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T06:28:24.053240Z'
+  evaluated_at: '2026-07-05T06:15:31.090869Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2802c90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306b470b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2802c90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306b470b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:25.278394Z'
-indexed_at: '2026-06-28T10:04:25.278400Z'
+  fetched_at: '2026-07-05T09:51:14.378455Z'
+indexed_at: '2026-07-05T09:51:14.378461Z'
 ---

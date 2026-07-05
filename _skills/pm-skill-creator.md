@@ -3,31 +3,31 @@ id: pm-skill-creator
 slug: pm-skill-creator
 name: Pm Skill Creator
 description: Claude skill for Pm Skill Creator
-prompt_preview: "---\nname: pm-skill-creator\ndescription: Design a new PM skill through\
-  \ guided conversation. Use when you have raw content or an idea and want to shape\
-  \ it into a compliant skill.\nintent: >-\n  Walk through the full skill design process\
-  \ interactively — from raw idea or content to a structured, repo-compliant SKILL.md\
-  \ draft. Asks adaptive questions to determine skill type, scope, structure, and\
-  \ content, then generates a ready-to-validate draft.\ntype: interactive\ntheme:\
-  \ meta-authoring\nbest_for:\n  - \"T..."
-full_prompt_length: 15206
+prompt_preview: "---\nname: pm-skill-creator\nargument-hint: \"[idea or raw content]\"\
+  \ndescription: Design a new PM skill through guided conversation. Use when you have\
+  \ raw content or an idea and want to shape it into a compliant skill.\nintent: >-\n\
+  \  Walk through the full skill design process interactively — from raw idea or content\
+  \ to a structured, repo-compliant SKILL.md draft. Asks adaptive questions to determine\
+  \ skill type, scope, structure, and content, then generates a ready-to-validate\
+  \ draft.\ntype: interactive..."
+full_prompt_length: 16419
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/pm-skill-creator/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pm-skill-creator/SKILL.md
-fetched_at: '2026-06-28T06:17:08.567371+00:00'
+fetched_at: '2026-07-05T06:04:06.946836+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:48:07.921700Z'
+  evaluated_at: '2026-07-05T07:36:05.466558Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28015e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306738b00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28015e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306738b00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:27.045060Z'
-indexed_at: '2026-06-28T10:04:27.045066Z'
+  fetched_at: '2026-07-05T09:51:16.123642Z'
+indexed_at: '2026-07-05T09:51:16.123648Z'
 ---

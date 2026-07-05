@@ -17,17 +17,17 @@ category_display: Community
 source_repo: avelikiy/great_cto
 source_path: skills/prose-style/SKILL.md
 source_url: https://github.com/avelikiy/great_cto/blob/main/skills/prose-style/SKILL.md
-fetched_at: '2026-06-28T06:16:35.961455+00:00'
+fetched_at: '2026-07-05T06:03:33.912293+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T07:19:02.388422Z'
+  evaluated_at: '2026-07-05T07:06:40.514840Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2be9400 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670ec60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2be9400 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670ec60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:26.401848Z'
-indexed_at: '2026-06-28T10:04:26.401859Z'
+  fetched_at: '2026-07-05T09:51:15.506496Z'
+indexed_at: '2026-07-05T09:51:15.506502Z'
 ---

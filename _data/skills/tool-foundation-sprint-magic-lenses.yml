@@ -18,17 +18,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/tool-foundation-sprint-magic-lenses/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/tool-foundation-sprint-magic-lenses/SKILL.md
-fetched_at: '2026-06-28T06:19:20.278438+00:00'
+fetched_at: '2026-07-05T06:06:21.677201+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T09:39:39.801273Z'
+  evaluated_at: '2026-07-05T09:27:13.241629Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2797e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306739370 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a2797e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306739370 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:29.494042Z'
-indexed_at: '2026-06-28T10:04:29.494047Z'
+  fetched_at: '2026-07-05T09:51:18.479821Z'
+indexed_at: '2026-07-05T09:51:18.479827Z'

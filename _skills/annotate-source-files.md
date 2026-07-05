@@ -14,28 +14,28 @@ prompt_preview: "---\nname: annotate-source-files\ndescription: >\n  Add PUT wor
 full_prompt_length: 12131
 tools_mentioned:
 - Java
-- Python
-- typescript
+- Go
 - go
 - javascript
-- Go
+- typescript
+- Python
 - Rust
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/annotate-source-files/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/annotate-source-files/SKILL.md
-fetched_at: '2026-06-28T06:18:19.768461+00:00'
+fetched_at: '2026-07-05T06:05:24.821186+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-06-28T08:44:07.973531Z'
+  evaluated_at: '2026-07-05T08:32:22.579581Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28018b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306574f80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f13a28018b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306574f80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-06-28T10:04:28.283369Z'
-indexed_at: '2026-06-28T10:04:28.283375Z'
+  fetched_at: '2026-07-05T09:51:17.314038Z'
+indexed_at: '2026-07-05T09:51:17.314044Z'
 ---
