@@ -21,31 +21,31 @@ prompt_preview: '---
   merge conflict resolution, and team collaboration with emphasis on maintaining...'
 full_prompt_length: 6681
 tools_mentioned: []
-category: developer-experience
-category_display: Developer Experience
+category: 06-developer-experience
+category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/git-workflow-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/git-workflow-manager.md
-fetched_at: '2026-07-05T06:03:14.050938+00:00'
+fetched_at: '2026-07-06T06:26:47.628745Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T06:51:35.968158Z'
+  evaluated_at: '2026-07-06T06:39:54.635876Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670d2b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f54e59fe9c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670d2b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f54e59fe9c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 22870
-  forks: 2674
-  open_issues: 2
+  stars: 22926
+  forks: 2681
+  open_issues: 1
   last_commit: '2026-06-24'
-  fetched_at: '2026-07-05T06:07:10.871087Z'
-indexed_at: '2026-07-05T09:51:15.175027Z'
+  fetched_at: '2026-07-06T06:27:17.990125Z'
+indexed_at: '2026-07-06T06:52:26.614165Z'
 ---

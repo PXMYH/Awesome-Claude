@@ -24,31 +24,31 @@ prompt_preview: '---
 full_prompt_length: 6741
 tools_mentioned:
 - Python
-category: research-analysis
-category_display: Research Analysis
+category: 10-research-analysis
+category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/data-researcher.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/data-researcher.md
-fetched_at: '2026-07-05T06:03:20.992191+00:00'
+fetched_at: '2026-07-06T06:27:01.734815Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T06:58:55.467849Z'
+  evaluated_at: '2026-07-06T06:47:17.373808Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e6840 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f54e59febd0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e6840 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f54e59febd0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 22870
-  forks: 2674
-  open_issues: 2
+  stars: 22926
+  forks: 2681
+  open_issues: 1
   last_commit: '2026-06-24'
-  fetched_at: '2026-07-05T06:07:10.871087Z'
-indexed_at: '2026-07-05T09:51:15.345082Z'
+  fetched_at: '2026-07-06T06:27:17.990125Z'
+indexed_at: '2026-07-06T06:52:26.779048Z'
 ---
