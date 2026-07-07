@@ -23,37 +23,37 @@ prompt_preview: '---
   You are a senior security eng...'
 full_prompt_length: 7888
 tools_mentioned:
-- AWS
-- GCP
-- Kubernetes
 - rest
+- GCP
 - Azure
+- AWS
+- Kubernetes
 - kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/security-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/security-engineer.md
-fetched_at: '2026-07-06T06:26:37.239325Z'
+fetched_at: '2026-07-07T06:06:15.275660Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-06T06:34:29.720476Z'
+  evaluated_at: '2026-07-07T06:14:14.195991Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f54e60c3020 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1ded3b3e60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f54e60c3020 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1ded3b3e60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 22926
-  forks: 2681
-  open_issues: 1
+  stars: 22971
+  forks: 2683
+  open_issues: 2
   last_commit: '2026-06-24'
-  fetched_at: '2026-07-06T06:27:17.990125Z'
-indexed_at: '2026-07-06T06:52:26.494280Z'
+  fetched_at: '2026-07-07T06:06:57.307802Z'
+indexed_at: '2026-07-07T06:32:09.297699Z'
 ---
