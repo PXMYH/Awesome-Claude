@@ -23,40 +23,40 @@ prompt_preview: '---
 full_prompt_length: 6432
 tools_mentioned:
 - WebSocket
-- Django
+- Python
+- django
+- pytest
+- python
+- redis
 - GraphQL
 - REST
+- Django
 - Redis
-- Python
-- redis
-- pytest
-- django
-- python
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/django-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/django-developer.md
-fetched_at: '2026-07-08T05:19:46.921113Z'
+fetched_at: '2026-07-10T06:01:50.234663Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-08T05:23:21.357766Z'
+  evaluated_at: '2026-07-10T06:05:12.953061Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa996261e50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4e88321eb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa996261e50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4e88321eb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 23017
-  forks: 2687
+  stars: 23131
+  forks: 2700
   open_issues: 2
-  last_commit: '2026-07-07'
-  fetched_at: '2026-07-08T05:21:15.464491Z'
-indexed_at: '2026-07-08T05:46:50.549369Z'
+  last_commit: '2026-07-08'
+  fetched_at: '2026-07-10T06:03:07.392856Z'
+indexed_at: '2026-07-10T06:28:06.132045Z'
 ---
