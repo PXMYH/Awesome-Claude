@@ -40,7 +40,7 @@
   avg_rating: 3.0
 - slug: official
   name: Official Anthropic Skills
-  count: 16
+  count: 17
   avg_rating: 3.0
 - slug: quality-security
   name: Quality & Security
