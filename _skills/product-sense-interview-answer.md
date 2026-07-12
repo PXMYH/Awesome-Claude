@@ -12,24 +12,24 @@ prompt_preview: "---\nname: product-sense-interview-answer\nargument-hint: \"[in
   \ Use this to practice..."
 full_prompt_length: 11839
 tools_mentioned:
-- Go
 - rest
+- Go
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/product-sense-interview-answer/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/product-sense-interview-answer/SKILL.md
-fetched_at: '2026-07-05T06:04:08.130728+00:00'
+fetched_at: '2026-07-12T05:32:27.968527+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T07:37:26.791878Z'
+  evaluated_at: '2026-07-12T07:08:42.193847Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670c8f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e33230 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670c8f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e33230 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:16.151738Z'
-indexed_at: '2026-07-05T09:51:16.151744Z'
+  fetched_at: '2026-07-12T09:23:54.912786Z'
+indexed_at: '2026-07-12T09:23:54.912792Z'
 ---

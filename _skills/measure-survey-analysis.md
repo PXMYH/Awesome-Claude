@@ -8,26 +8,26 @@ prompt_preview: "---\nname: measure-survey-analysis\ndescription: Analyze survey
   \ status, thematic clustering of open-text responses, statistical confidence labels,\
   \ prioritized recommendations, and what-NOT-to-conclude warnings. Refuses to overstate\
   \ statistical significance from weak samples or biased instruments.\nlicense: Apache-2.0\n\
-  metadata:\n  phase: measure\n  version: \"1.0.0\"\n  updated: 2026-05-21\n  category:\
+  metadata:\n  phase: measure\n  version: \"1.2.0\"\n  updated: 2026-07-05\n  category:\
   \ research\n  fra..."
-full_prompt_length: 11387
+full_prompt_length: 12295
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/measure-survey-analysis/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/measure-survey-analysis/SKILL.md
-fetched_at: '2026-07-05T06:06:19.912008+00:00'
+fetched_at: '2026-07-12T05:35:24.865444+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T09:25:27.274300Z'
+  evaluated_at: '2026-07-12T08:57:27.757284Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e4890 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6ec30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e4890 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6ec30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:18.441096Z'
-indexed_at: '2026-07-05T09:51:18.441102Z'
+  fetched_at: '2026-07-12T09:23:57.223056Z'
+indexed_at: '2026-07-12T09:23:57.223062Z'
 ---

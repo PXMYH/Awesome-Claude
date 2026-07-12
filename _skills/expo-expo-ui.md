@@ -7,33 +7,33 @@ prompt_preview: '---
 
   name: expo-ui
 
-  description: "Build native UI with the @expo/ui package: real SwiftUI on iOS and
-  Jetpack Compose on Android rendered from React in an Expo or React Native app. Covers
-  universal cross-platform components (Host, Column, Row, Button, Text, List, and
-  more imported from @expo/ui), drop-in replacements for popular React Native community
-  libraries (BottomSheet, DateTimePicker, Slider, Menu, etc.), and platform-specific
-  SwiftUI (@expo/ui/swift-ui, iOS only) and Jetpack Compose (@expo/u...'
-full_prompt_length: 4426
+  description: "Framework (OSS). Build native UI with the @expo/ui package: real SwiftUI
+  on iOS and Jetpack Compose on Android rendered from React in an Expo or React Native
+  app. Covers universal cross-platform components (Host, Column, Row, Button, Text,
+  List, and more imported from @expo/ui), drop-in replacements for popular React Native
+  community libraries (BottomSheet, DateTimePicker, Slider, Menu, etc.), and platform-specific
+  SwiftUI (@expo/ui/swift-ui, iOS only) and Jetpack...'
+full_prompt_length: 4443
 tools_mentioned:
-- Go
-- React
 - react
+- React
+- Go
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-ui/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-ui/SKILL.md
-fetched_at: '2026-07-05T06:04:14.195940+00:00'
+fetched_at: '2026-07-12T05:32:38.171064+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T07:42:05.185936Z'
+  evaluated_at: '2026-07-12T07:13:45.138582Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a3b00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e336b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a3b00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e336b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:16.249731Z'
-indexed_at: '2026-07-05T09:51:16.249739Z'
+  fetched_at: '2026-07-12T09:23:55.019093Z'
+indexed_at: '2026-07-12T09:23:55.019099Z'
 ---

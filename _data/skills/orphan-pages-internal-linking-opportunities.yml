@@ -17,17 +17,17 @@ category_display: Community
 source_repo: Infrasity-Labs/dev-gtm-claude-skills
 source_path: skills/orphan-pages-internal-linking-opportunities/SKILL.md
 source_url: https://github.com/Infrasity-Labs/dev-gtm-claude-skills/blob/main/skills/orphan-pages-internal-linking-opportunities/SKILL.md
-fetched_at: '2026-07-05T06:02:31.683131+00:00'
+fetched_at: '2026-07-12T05:30:31.074598+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T06:11:09.068548Z'
+  evaluated_at: '2026-07-12T05:41:55.745731Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e6c60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdd9a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e6c60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdd9a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:14.287499Z'
-indexed_at: '2026-07-05T09:51:14.287505Z'
+  fetched_at: '2026-07-12T09:23:53.069877Z'
+indexed_at: '2026-07-12T09:23:53.069883Z'

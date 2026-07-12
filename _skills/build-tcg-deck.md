@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/build-tcg-deck/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/build-tcg-deck/SKILL.md
-fetched_at: '2026-07-05T06:05:29.205279+00:00'
+fetched_at: '2026-07-12T05:34:28.305620+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T08:36:44.014520Z'
+  evaluated_at: '2026-07-12T08:08:17.247411Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a3bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00642dc2f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a3bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00642dc2f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:17.406176Z'
-indexed_at: '2026-07-05T09:51:17.406181Z'
+  fetched_at: '2026-07-12T09:23:56.176403Z'
+indexed_at: '2026-07-12T09:23:56.176409Z'
 ---

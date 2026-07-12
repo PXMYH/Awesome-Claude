@@ -13,25 +13,25 @@ prompt_preview: "---\nname: review-codebase\ndescription: >\n  Multi-phase deep 
   \ review\n  complexity: advanced\n  langu..."
 full_prompt_length: 9535
 tools_mentioned:
+- Rest
 - rest
 - Docker
-- Rest
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/review-codebase/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/review-codebase/SKILL.md
-fetched_at: '2026-07-05T06:06:01.144779+00:00'
+fetched_at: '2026-07-12T05:34:58.841860+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T09:08:22.941910Z'
+  evaluated_at: '2026-07-12T08:40:02.472102Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306738e60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdf290 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306738e60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdf290 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:18.081732Z'
-indexed_at: '2026-07-05T09:51:18.081738Z'
+  fetched_at: '2026-07-12T09:23:56.852907Z'
+indexed_at: '2026-07-12T09:23:56.852913Z'
 ---

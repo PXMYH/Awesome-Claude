@@ -13,24 +13,24 @@ prompt_preview: "---\nname: rest\ndescription: >\n  AI intentional non-action â€
   \  problem.\nlice..."
 full_prompt_length: 6998
 tools_mentioned:
-- rest
 - Rest
+- rest
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/rest/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/rest/SKILL.md
-fetched_at: '2026-07-05T06:06:01.016357+00:00'
+fetched_at: '2026-07-12T05:34:58.719637+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T09:08:14.824272Z'
+  evaluated_at: '2026-07-12T08:39:54.358187Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673ab10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdcc20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673ab10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdcc20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:18.078818Z'
-indexed_at: '2026-07-05T09:51:18.078824Z'
+  fetched_at: '2026-07-12T09:23:56.850008Z'
+indexed_at: '2026-07-12T09:23:56.850020Z'
 ---

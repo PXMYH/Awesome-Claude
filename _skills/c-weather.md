@@ -47,17 +47,17 @@ category_display: Community
 source_repo: daxaur/openpaw
 source_path: skills/c-weather/SKILL.md
 source_url: https://github.com/daxaur/openpaw/blob/main/skills/c-weather/SKILL.md
-fetched_at: '2026-07-05T06:04:02.995932+00:00'
+fetched_at: '2026-07-12T05:32:22.773028+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T07:32:34.002133Z'
+  evaluated_at: '2026-07-12T07:03:39.346605Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a3fb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a3fb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -67,6 +67,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:16.049913Z'
-indexed_at: '2026-07-05T09:51:16.049919Z'
+  fetched_at: '2026-07-12T09:23:54.805893Z'
+indexed_at: '2026-07-12T09:23:54.805898Z'
 ---

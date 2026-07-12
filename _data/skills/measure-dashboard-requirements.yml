@@ -3,30 +3,30 @@ slug: measure-dashboard-requirements
 name: Dashboard Requirements
 description: See `references/EXAMPLE.md` for a completed example.
 prompt_preview: "---\nname: measure-dashboard-requirements\ndescription: Specifies\
-  \ requirements for an analytics dashboard including metrics, visualizations, filters,\
-  \ and data sources. Use when requesting dashboards from data teams, defining KPI\
-  \ tracking, or documenting reporting needs.\nlicense: Apache-2.0\nmetadata:\n  phase:\
-  \ measure\n  version: \"2.1.0\"\n  updated: 2026-06-10\n  category: validation\n\
-  \  frameworks: [triple-diamond, lean-startup, design-thinking]\n  author: product-on-purpose\n\
-  ---\n<!-- PM-Skills | https://..."
-full_prompt_length: 3998
+  \ what questions a dashboard must answer and the metrics, visualizations, filters,\
+  \ and data sources it needs, so data teams build something that informs decisions\
+  \ rather than displaying numbers. Use when requesting a dashboard or formalizing\
+  \ ad-hoc reporting. For the event tracking that feeds the dashboard, use measure-instrumentation-spec\
+  \ instead; instrument first, visualize second.\nlicense: Apache-2.0\nmetadata:\n\
+  \  phase: measure\n  ve..."
+full_prompt_length: 4178
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/measure-dashboard-requirements/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/measure-dashboard-requirements/SKILL.md
-fetched_at: '2026-07-05T06:06:19.212614+00:00'
+fetched_at: '2026-07-12T05:35:24.209593+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T09:24:45.859038Z'
+  evaluated_at: '2026-07-12T08:56:47.125417Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306738920 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6ed50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306738920 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6ed50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:18.426954Z'
-indexed_at: '2026-07-05T09:51:18.426959Z'
+  fetched_at: '2026-07-12T09:23:57.208851Z'
+indexed_at: '2026-07-12T09:23:57.208856Z'

@@ -21,24 +21,24 @@ prompt_preview: '---
   # LinkedIn Marketing Sk...'
 full_prompt_length: 7980
 tools_mentioned:
-- Python
 - REST
+- Python
 category: community
 category_display: Community
 source_repo: sergebulaev/linkedin-skills
 source_path: SKILL.md
 source_url: https://github.com/sergebulaev/linkedin-skills/blob/main/SKILL.md
-fetched_at: '2026-07-05T06:06:32.864866+00:00'
+fetched_at: '2026-07-12T05:35:46.396745+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T09:34:11.811912Z'
+  evaluated_at: '2026-07-12T09:06:52.187263Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a2e10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fde330 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a2e10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fde330 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:18.625249Z'
-indexed_at: '2026-07-05T09:51:18.625255Z'
+  fetched_at: '2026-07-12T09:23:57.420274Z'
+indexed_at: '2026-07-12T09:23:57.420280Z'
 ---

@@ -25,17 +25,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-creativity-lateral-thinking/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-creativity-lateral-thinking/SKILL.md
-fetched_at: '2026-07-05T06:04:25.122540+00:00'
+fetched_at: '2026-07-12T05:32:58.219646+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T07:50:07.664284Z'
+  evaluated_at: '2026-07-12T07:21:33.869007Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e7260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00648fbb90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e7260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00648fbb90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:16.419673Z'
-indexed_at: '2026-07-05T09:51:16.419688Z'
+  fetched_at: '2026-07-12T09:23:55.187012Z'
+indexed_at: '2026-07-12T09:23:55.187017Z'
 ---

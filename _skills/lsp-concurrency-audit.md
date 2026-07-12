@@ -26,17 +26,17 @@ category_display: Community
 source_repo: blackwell-systems/agent-lsp
 source_path: skills/lsp-concurrency-audit/SKILL.md
 source_url: https://github.com/blackwell-systems/agent-lsp/blob/main/skills/lsp-concurrency-audit/SKILL.md
-fetched_at: '2026-07-05T06:03:45.602883+00:00'
+fetched_at: '2026-07-12T05:32:02.293763+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T07:16:29.375374Z'
+  evaluated_at: '2026-07-12T06:47:33.625047Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63069673b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00649fe510 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63069673b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00649fe510 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:15.713785Z'
-indexed_at: '2026-07-05T09:51:15.713790Z'
+  fetched_at: '2026-07-12T09:23:54.466997Z'
+indexed_at: '2026-07-12T09:23:54.467003Z'
 ---

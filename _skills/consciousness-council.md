@@ -22,17 +22,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/consciousness-council/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/consciousness-council/SKILL.md
-fetched_at: '2026-07-05T06:02:37.043918+00:00'
+fetched_at: '2026-07-12T05:30:44.320631+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T06:15:14.383759Z'
+  evaluated_at: '2026-07-12T05:46:02.758104Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6307597f80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00642485f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6307597f80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00642485f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:14.372742Z'
-indexed_at: '2026-07-05T09:51:14.372748Z'
+  fetched_at: '2026-07-12T09:23:53.156807Z'
+indexed_at: '2026-07-12T09:23:53.156813Z'
 ---

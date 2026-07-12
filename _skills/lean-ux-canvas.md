@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/lean-ux-canvas/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/lean-ux-canvas/SKILL.md
-fetched_at: '2026-07-05T06:04:06.437092+00:00'
+fetched_at: '2026-07-12T05:32:26.369287+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T07:35:41.079613Z'
+  evaluated_at: '2026-07-12T07:06:55.860983Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e6930 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdcc20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e6930 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdcc20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:16.115158Z'
-indexed_at: '2026-07-05T09:51:16.115164Z'
+  fetched_at: '2026-07-12T09:23:54.875594Z'
+indexed_at: '2026-07-12T09:23:54.875600Z'
 ---

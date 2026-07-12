@@ -22,27 +22,27 @@ prompt_preview: '---
   Combinatorial Testing)....'
 full_prompt_length: 10928
 tools_mentioned:
-- python
-- Python
 - MySQL
 - PostgreSQL
+- python
+- Python
 - SQLite
 category: community
 category_display: Community
 source_repo: omkamal/pypict-claude-skill
 source_path: SKILL.md
 source_url: https://github.com/omkamal/pypict-claude-skill/blob/main/SKILL.md
-fetched_at: '2026-07-05T06:05:22.123353+00:00'
+fetched_at: '2026-07-12T05:34:17.152275+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T08:30:11.500812Z'
+  evaluated_at: '2026-07-12T08:01:35.114508Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306576090 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00640002c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306576090 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00640002c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -52,5 +52,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:17.267285Z'
-indexed_at: '2026-07-05T09:51:17.267293Z'
+  fetched_at: '2026-07-12T09:23:56.033394Z'
+indexed_at: '2026-07-12T09:23:56.033400Z'

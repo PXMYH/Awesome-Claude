@@ -13,24 +13,24 @@ prompt_preview: "---\nname: onekgpd\ndescription: >\n  Query the 1000 Genomes Pr
   \ individuals\n  in a gene or region, t..."
 full_prompt_length: 18452
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/onekgpd/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/onekgpd/SKILL.md
-fetched_at: '2026-07-05T06:02:43.567494+00:00'
+fetched_at: '2026-07-12T05:30:50.608404+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T06:22:45.210126Z'
+  evaluated_at: '2026-07-12T05:53:33.781171Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306b471a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00642af530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306b471a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00642af530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:14.535518Z'
-indexed_at: '2026-07-05T09:51:14.535524Z'
+  fetched_at: '2026-07-12T09:23:53.317044Z'
+indexed_at: '2026-07-12T09:23:53.317050Z'
 ---

@@ -14,24 +14,24 @@ prompt_preview: "---\nname: jahro-watcher\ndescription: >\n  Analyzes C# fields 
   ## Workflow\n\n1. **Analyze** the u..."
 full_prompt_length: 7913
 tools_mentioned:
-- angular
 - Angular
+- angular
 category: community
 category_display: Community
 source_repo: jahro-console/unity-agent-skills
 source_path: skills/jahro-watcher/SKILL.md
 source_url: https://github.com/jahro-console/unity-agent-skills/blob/main/skills/jahro-watcher/SKILL.md
-fetched_at: '2026-07-05T06:04:57.469224+00:00'
+fetched_at: '2026-07-12T05:33:34.831213+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T08:18:06.968740Z'
+  evaluated_at: '2026-07-12T07:49:35.044358Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e4230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002750 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e4230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002750 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:17.012213Z'
-indexed_at: '2026-07-05T09:51:17.012219Z'
+  fetched_at: '2026-07-12T09:23:55.778182Z'
+indexed_at: '2026-07-12T09:23:55.778188Z'
 ---

@@ -12,24 +12,24 @@ prompt_preview: "---\nname: delete-no-email-contacts\ndescription: >\n  Delete c
   \ purpose in a HubSpot Marketing Hub insta..."
 full_prompt_length: 9358
 tools_mentioned:
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/delete-no-email-contacts/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/delete-no-email-contacts/SKILL.md
-fetched_at: '2026-07-05T06:02:59.070998+00:00'
+fetched_at: '2026-07-12T05:31:08.344718+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T06:36:31.886313Z'
+  evaluated_at: '2026-07-12T06:07:20.345125Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e5e20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000770 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e5e20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000770 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:14.829104Z'
-indexed_at: '2026-07-05T09:51:14.829110Z'
+  fetched_at: '2026-07-12T09:23:53.610631Z'
+indexed_at: '2026-07-12T09:23:53.610637Z'
 ---

@@ -12,24 +12,24 @@ prompt_preview: "---\nname: containerize-mcp-server\ndescription: >\n  Container
   \ an MCP server to other developers.\nlice..."
 full_prompt_length: 6911
 tools_mentioned:
-- docker
 - Docker
+- docker
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/containerize-mcp-server/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/containerize-mcp-server/SKILL.md
-fetched_at: '2026-07-05T06:05:33.076994+00:00'
+fetched_at: '2026-07-12T05:34:32.174565+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T08:40:31.490824Z'
+  evaluated_at: '2026-07-12T08:12:09.676676Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e54f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064003800 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e54f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064003800 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:17.487298Z'
-indexed_at: '2026-07-05T09:51:17.487304Z'
+  fetched_at: '2026-07-12T09:23:56.258388Z'
+indexed_at: '2026-07-12T09:23:56.258394Z'
 ---

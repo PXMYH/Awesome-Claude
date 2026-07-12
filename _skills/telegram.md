@@ -1,0 +1,45 @@
+---
+id: telegram
+slug: telegram
+name: Telegram
+description: '```bash'
+prompt_preview: '---
+
+  name: telegram
+
+  description: "Send Telegram messages, files, and alerts via bot API; read replies;
+  ask questions with inline buttons and wait for the answer (approve-from-phone).
+  Supports multiple bots and named chat targets. Use when the user wants to send a
+  Telegram message or alert, get notified on Telegram when a task finishes or needs
+  input, ask for approval via Telegram, or wire Telegram notifications into hooks,
+  cron jobs, or CI. Triggers: ''telegram'', ''send me a telegram'', ''alert me on...'
+full_prompt_length: 2569
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: sanjay3290/ai-skills
+source_path: skills/telegram/SKILL.md
+source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/telegram/SKILL.md
+fetched_at: '2026-07-12T05:35:45.536594+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-07-12T09:06:35.928589Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e30350 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e30350 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-07-12T09:23:57.414943Z'
+indexed_at: '2026-07-12T09:23:57.414949Z'
+---

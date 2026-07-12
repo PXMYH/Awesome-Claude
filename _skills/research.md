@@ -17,17 +17,17 @@ category_display: Community
 source_repo: JuliusBrussee/blueprint
 source_path: skills/research/SKILL.md
 source_url: https://github.com/JuliusBrussee/blueprint/blob/main/skills/research/SKILL.md
-fetched_at: '2026-07-05T06:02:33.748234+00:00'
+fetched_at: '2026-07-12T05:30:33.786323+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T06:12:14.626470Z'
+  evaluated_at: '2026-07-12T05:43:01.450823Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6307597fb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064682030 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6307597fb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064682030 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:14.310353Z'
-indexed_at: '2026-07-05T09:51:14.310359Z'
+  fetched_at: '2026-07-12T09:23:53.092850Z'
+indexed_at: '2026-07-12T09:23:53.092856Z'
 ---

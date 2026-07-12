@@ -12,28 +12,28 @@ prompt_preview: "---\nname: technical-tutorials\ndescription: When the user want
   \ handling, progressive complexity, troubleshooting se..."
 full_prompt_length: 11467
 tools_mentioned:
-- REST
-- Go
 - go
 - javascript
 - Node.js
+- Go
 - JavaScript
+- REST
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/technical-tutorials/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/technical-tutorials/SKILL.md
-fetched_at: '2026-07-05T06:05:11.934290+00:00'
+fetched_at: '2026-07-12T05:33:50.607222+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T08:26:13.254417Z'
+  evaluated_at: '2026-07-12T07:57:37.912337Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306576f00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6d0a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306576f00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6d0a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:17.184073Z'
-indexed_at: '2026-07-05T09:51:17.184079Z'
+  fetched_at: '2026-07-12T09:23:55.950614Z'
+indexed_at: '2026-07-12T09:23:55.950624Z'
 ---

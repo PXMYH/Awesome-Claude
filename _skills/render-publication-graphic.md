@@ -13,24 +13,24 @@ prompt_preview: "---\nname: render-publication-graphic\ndescription: >\n  Produc
   \ source.\nlicense: MIT\nallowed-tools: Re..."
 full_prompt_length: 15291
 tools_mentioned:
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/render-publication-graphic/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/render-publication-graphic/SKILL.md
-fetched_at: '2026-07-05T06:06:00.188801+00:00'
+fetched_at: '2026-07-12T05:34:57.936493+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T09:07:26.054914Z'
+  evaluated_at: '2026-07-12T08:39:05.683077Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a2e40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e31f70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a2e40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e31f70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:18.061269Z'
-indexed_at: '2026-07-05T09:51:18.061275Z'
+  fetched_at: '2026-07-12T09:23:56.832496Z'
+indexed_at: '2026-07-12T09:23:56.832502Z'
 ---

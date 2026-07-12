@@ -21,17 +21,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/analyze-tensegrity-system/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/analyze-tensegrity-system/SKILL.md
-fetched_at: '2026-07-05T06:05:24.689902+00:00'
+fetched_at: '2026-07-12T05:34:23.913497+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T08:32:14.468061Z'
+  evaluated_at: '2026-07-12T08:03:37.817755Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306575430 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fde3f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306575430 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fde3f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:17.311077Z'
-indexed_at: '2026-07-05T09:51:17.311083Z'
+  fetched_at: '2026-07-12T09:23:56.077206Z'
+indexed_at: '2026-07-12T09:23:56.077211Z'
 ---

@@ -13,24 +13,24 @@ prompt_preview: "---\nname: decommission-validated-system\ndescription: >\n  Dec
   \ or reg..."
 full_prompt_length: 10559
 tools_mentioned:
-- GCP
 - go
+- GCP
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/decommission-validated-system/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/decommission-validated-system/SKILL.md
-fetched_at: '2026-07-05T06:05:36.668443+00:00'
+fetched_at: '2026-07-12T05:34:35.524080+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T08:44:02.759075Z'
+  evaluated_at: '2026-07-12T08:15:41.060817Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306a28f80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002360 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306a28f80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002360 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:17.562487Z'
-indexed_at: '2026-07-05T09:51:17.562493Z'
+  fetched_at: '2026-07-12T09:23:56.333633Z'
+indexed_at: '2026-07-12T09:23:56.333639Z'
 ---

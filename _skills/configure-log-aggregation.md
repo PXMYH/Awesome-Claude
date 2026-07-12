@@ -13,11 +13,11 @@ prompt_preview: "---\nname: configure-log-aggregation\ndescription: >\n  Set up 
   \ or\n  troubleshooting p..."
 full_prompt_length: 14986
 tools_mentioned:
-- Go
-- go
 - Docker
-- python
+- go
 - docker
+- python
+- Go
 - Python
 - aws
 - Kubernetes
@@ -26,17 +26,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/configure-log-aggregation/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/configure-log-aggregation/SKILL.md
-fetched_at: '2026-07-05T06:05:31.995260+00:00'
+fetched_at: '2026-07-12T05:34:31.128417+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T08:39:26.512905Z'
+  evaluated_at: '2026-07-12T08:11:04.351440Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e7b30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064301ee0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e7b30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064301ee0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:17.464039Z'
-indexed_at: '2026-07-05T09:51:17.464045Z'
+  fetched_at: '2026-07-12T09:23:56.234862Z'
+indexed_at: '2026-07-12T09:23:56.234867Z'
 ---

@@ -1,0 +1,55 @@
+---
+id: expo-expo-web-to-native
+slug: expo-expo-web-to-native
+name: Web to Native
+description: '- [`./references/false-friends.md`](./references/false-friends.md) —
+  web idiom → native equivalent + the gotcha for each. The lookup for steps 3–5, and
+  for any web dev unlearning idioms.'
+prompt_preview: '---
+
+  name: expo-web-to-native
+
+  description: Framework (OSS). Migrate an existing web React app to a native iOS/Android
+  app with Expo. Use when the user wants to turn a website into a mobile app, port
+  a Next.js/Vite/CRA React codebase to React Native, reuse web code on native incrementally,
+  or asks how web idioms (the DOM, CSS, React Router, localStorage, window) map to
+  native. This is the end-to-end migration guide; use the `expo-dom` skill for the
+  DOM-component mechanism itself.
+
+  version: 1.0.0
+
+  li...'
+full_prompt_length: 9747
+tools_mentioned:
+- rest
+- react
+- React
+- Go
+category: community
+category_display: Community
+source_repo: expo/skills
+source_path: plugins/expo/skills/expo-web-to-native/SKILL.md
+source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-web-to-native/SKILL.md
+fetched_at: '2026-07-12T05:32:38.382617+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-07-12T07:14:01.594699Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e336b0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e336b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-07-12T09:23:55.024671Z'
+indexed_at: '2026-07-12T09:23:55.024676Z'
+---

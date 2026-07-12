@@ -12,24 +12,24 @@ prompt_preview: "---\nname: matplotlib\ndescription: Low-level plotting library 
   \ Write\n  - Bash\nlicense: https://githu..."
 full_prompt_length: 12259
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/matplotlib/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/matplotlib/SKILL.md
-fetched_at: '2026-07-05T06:02:42.363110+00:00'
+fetched_at: '2026-07-12T05:30:49.461424+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T06:21:23.170305Z'
+  evaluated_at: '2026-07-12T05:52:12.398956Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a3fb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000770 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a3fb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000770 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:14.501963Z'
-indexed_at: '2026-07-05T09:51:14.501970Z'
+  fetched_at: '2026-07-12T09:23:53.288252Z'
+indexed_at: '2026-07-12T09:23:53.288257Z'
 ---

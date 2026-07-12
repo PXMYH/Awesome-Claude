@@ -28,24 +28,24 @@ prompt_preview: '---
   Phylogenetic analysis reconstructs the evolutionary history of b...'
 full_prompt_length: 13899
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/phylogenetics/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/phylogenetics/SKILL.md
-fetched_at: '2026-07-05T06:02:45.094230+00:00'
+fetched_at: '2026-07-12T05:30:52.065586+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T06:24:31.156775Z'
+  evaluated_at: '2026-07-12T05:55:20.084496Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306ff77a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00646235f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306ff77a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00646235f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -55,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:14.573143Z'
-indexed_at: '2026-07-05T09:51:14.573148Z'
+  fetched_at: '2026-07-12T09:23:53.354456Z'
+indexed_at: '2026-07-12T09:23:53.354462Z'
 ---

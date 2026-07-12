@@ -17,24 +17,24 @@ prompt_preview: '---
   on this benchmark", "run a search over approaches and...'
 full_prompt_length: 13612
 tools_mentioned:
-- python
 - rest
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/arbor/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/arbor/SKILL.md
-fetched_at: '2026-07-05T06:02:35.184622+00:00'
+fetched_at: '2026-07-12T05:30:42.480669+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T06:13:03.967635Z'
+  evaluated_at: '2026-07-12T05:43:50.220176Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e6b70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdc2f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e6b70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdc2f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:14.327229Z'
-indexed_at: '2026-07-05T09:51:14.327235Z'
+  fetched_at: '2026-07-12T09:23:53.109721Z'
+indexed_at: '2026-07-12T09:23:53.109735Z'
 ---

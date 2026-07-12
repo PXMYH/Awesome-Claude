@@ -12,28 +12,28 @@ prompt_preview: "---\nname: Linear\ndescription: Managing Linear issues, project
   \ and teams in Linear.\n\n--..."
 full_prompt_length: 23201
 tools_mentioned:
-- graphql
+- GraphQL
+- javascript
 - Go
 - TypeScript
-- javascript
-- GraphQL
 - Rust
+- graphql
 category: community
 category_display: Community
 source_repo: wrsmith108/linear-claude-skill
 source_path: SKILL.md
 source_url: https://github.com/wrsmith108/linear-claude-skill/blob/main/SKILL.md
-fetched_at: '2026-07-05T06:07:01.434458+00:00'
+fetched_at: '2026-07-12T05:37:43.120243+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T09:48:30.936638Z'
+  evaluated_at: '2026-07-12T09:21:09.913629Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670c200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdcb60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670c200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdcb60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:18.929991Z'
-indexed_at: '2026-07-05T09:51:18.929997Z'
+  fetched_at: '2026-07-12T09:23:57.731859Z'
+indexed_at: '2026-07-12T09:23:57.731865Z'
 ---

@@ -30,24 +30,24 @@ prompt_preview: '---
   `.evolver.json` must exi...'
 full_prompt_length: 14113
 tools_mentioned:
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: raphaelchristi/harness-evolver
 source_path: skills/evolve/SKILL.md
 source_url: https://github.com/raphaelchristi/harness-evolver/blob/main/skills/evolve/SKILL.md
-fetched_at: '2026-07-05T06:06:26.127819+00:00'
+fetched_at: '2026-07-12T05:35:34.087704+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T09:30:38.601741Z'
+  evaluated_at: '2026-07-12T09:02:45.903326Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e5b80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064301610 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e5b80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064301610 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -57,5 +57,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:18.551920Z'
-indexed_at: '2026-07-05T09:51:18.551926Z'
+  fetched_at: '2026-07-12T09:23:57.335878Z'
+indexed_at: '2026-07-12T09:23:57.335884Z'

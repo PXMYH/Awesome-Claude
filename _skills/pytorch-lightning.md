@@ -21,24 +21,24 @@ prompt_preview: '---
   GPU tr...'
 full_prompt_length: 7494
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pytorch-lightning/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pytorch-lightning/SKILL.md
-fetched_at: '2026-07-05T06:02:47.322208+00:00'
+fetched_at: '2026-07-12T05:30:54.223259+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T06:27:09.375927Z'
+  evaluated_at: '2026-07-12T05:57:56.096060Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670f0b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064003530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670f0b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064003530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:14.627985Z'
-indexed_at: '2026-07-05T09:51:14.627999Z'
+  fetched_at: '2026-07-12T09:23:53.409395Z'
+indexed_at: '2026-07-12T09:23:53.409401Z'
 ---

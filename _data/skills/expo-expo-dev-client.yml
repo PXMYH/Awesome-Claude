@@ -6,7 +6,9 @@ prompt_preview: '---
 
   name: expo-dev-client
 
-  description: Build Expo app for development
+  description: Framework (OSS). Build and distribute Expo development clients locally
+  or via TestFlight for internal testing. For production TestFlight releases and store
+  submission, use the eas-app-stores skill.
 
   version: 1.1.0
 
@@ -20,13 +22,8 @@ prompt_preview: '---
   app.
 
 
-  ## Important: When Development Clients Are Needed
-
-
-  **Development clients are the recommended setup for any real or production app.**
-  Expo Go is a playground for learning and quick experiments with the native libraries
-  it...'
-full_prompt_length: 3714
+  > **Free locally; cloud builds are paid.** `expo-dev-...'
+full_prompt_length: 4187
 tools_mentioned:
 - Go
 category: community
@@ -34,17 +31,17 @@ category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-dev-client/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-dev-client/SKILL.md
-fetched_at: '2026-07-05T06:04:13.620868+00:00'
+fetched_at: '2026-07-12T05:32:37.327776+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T07:41:22.805132Z'
+  evaluated_at: '2026-07-12T07:12:47.316607Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673bbc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064001bb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673bbc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064001bb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -54,5 +51,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:16.235354Z'
-indexed_at: '2026-07-05T09:51:16.235359Z'
+  fetched_at: '2026-07-12T09:23:54.999495Z'
+indexed_at: '2026-07-12T09:23:54.999500Z'

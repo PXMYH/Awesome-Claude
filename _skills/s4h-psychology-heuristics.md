@@ -27,17 +27,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-psychology-heuristics/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-psychology-heuristics/SKILL.md
-fetched_at: '2026-07-05T06:04:41.962233+00:00'
+fetched_at: '2026-07-12T05:33:14.091992+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T08:06:53.382905Z'
+  evaluated_at: '2026-07-12T07:38:20.675007Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e56a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e33800 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e56a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e33800 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:16.777343Z'
-indexed_at: '2026-07-05T09:51:16.777349Z'
+  fetched_at: '2026-07-12T09:23:55.542883Z'
+indexed_at: '2026-07-12T09:23:55.542890Z'
 ---

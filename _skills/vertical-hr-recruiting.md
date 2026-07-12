@@ -19,17 +19,17 @@ category_display: Community
 source_repo: avelikiy/great_cto
 source_path: skills/vertical-hr-recruiting/SKILL.md
 source_url: https://github.com/avelikiy/great_cto/blob/main/skills/vertical-hr-recruiting/SKILL.md
-fetched_at: '2026-07-05T06:03:35.512628+00:00'
+fetched_at: '2026-07-12T05:31:51.583151+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T07:07:54.514319Z'
+  evaluated_at: '2026-07-12T06:38:58.764001Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670d610 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e31eb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670d610 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e31eb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:15.532202Z'
-indexed_at: '2026-07-05T09:51:15.532208Z'
+  fetched_at: '2026-07-12T09:23:54.285028Z'
+indexed_at: '2026-07-12T09:23:54.285034Z'
 ---

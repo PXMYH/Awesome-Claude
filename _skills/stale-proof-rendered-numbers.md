@@ -1,0 +1,45 @@
+---
+id: stale-proof-rendered-numbers
+slug: stale-proof-rendered-numbers
+name: Stale-Proof Rendered Numbers
+description: '- `generative-recipe-dsl` - data-driven artifact generation; this skill
+  keeps the numbers those generated artifacts display honest'
+prompt_preview: "---\nname: stale-proof-rendered-numbers\ndescription: >\n  Make every\
+  \ measured number displayed in a generated artifact resolve\n  from source files\
+  \ at build time, so stale numbers fail the build\n  instead of rendering silently.\
+  \ Displayed figures become {metric.key}\n  placeholders; a single extractor reads\
+  \ the real measurement artifacts\n  (results JSON, run logs, ledgers) and emits\
+  \ a stats.json of\n  value/source/as-of entries; the renderer substitutes at build\
+  \ and\n  hard-fails on any missing key. Co..."
+full_prompt_length: 16969
+tools_mentioned:
+- python
+- Python
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/stale-proof-rendered-numbers/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/stale-proof-rendered-numbers/SKILL.md
+fetched_at: '2026-07-12T05:35:04.826659+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-07-12T08:46:18.880019Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00640009b0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00640009b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-07-12T09:23:56.987448Z'
+indexed_at: '2026-07-12T09:23:56.987454Z'
+---

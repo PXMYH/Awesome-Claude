@@ -4,30 +4,30 @@ slug: define-opportunity-tree
 name: Opportunity Solution Tree
 description: See `references/EXAMPLE.md` for a completed example.
 prompt_preview: "---\nname: define-opportunity-tree\ndescription: Creates an opportunity\
-  \ solution tree mapping desired outcomes to opportunities and potential solutions.\
-  \ Use for outcome-driven product discovery, prioritization, or communicating product\
-  \ strategy.\nlicense: Apache-2.0\nmetadata:\n  phase: define\n  version: \"2.1.0\"\
-  \n  updated: 2026-06-10\n  category: problem-framing\n  frameworks: [triple-diamond,\
-  \ lean-startup, design-thinking]\n  author: product-on-purpose\n---\n<!-- PM-Skills\
-  \ | https://github.com/product-on..."
-full_prompt_length: 4202
+  \ solution tree connecting a desired outcome to customer opportunities and candidate\
+  \ solutions, preventing solution-first jumps in continuous discovery. Use when structuring\
+  \ scattered feature ideas or communicating how the roadmap traces to outcomes. For\
+  \ ranking an existing flat list of candidates, use define-prioritization-framework\
+  \ instead; this skill discovers the list, it does not score one.\nlicense: Apache-2.0\n\
+  metadata:\n  p..."
+full_prompt_length: 4425
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/define-opportunity-tree/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/define-opportunity-tree/SKILL.md
-fetched_at: '2026-07-05T06:06:14.762224+00:00'
+fetched_at: '2026-07-12T05:35:19.956527+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T09:20:16.474641Z'
+  evaluated_at: '2026-07-12T08:52:17.627346Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670cb00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fde750 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670cb00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fde750 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:18.333631Z'
-indexed_at: '2026-07-05T09:51:18.333645Z'
+  fetched_at: '2026-07-12T09:23:57.115083Z'
+indexed_at: '2026-07-12T09:23:57.115088Z'
 ---

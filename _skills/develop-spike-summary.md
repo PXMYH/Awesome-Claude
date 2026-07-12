@@ -4,30 +4,30 @@ slug: develop-spike-summary
 name: Spike Summary
 description: See `references/EXAMPLE.md` for a completed example.
 prompt_preview: "---\nname: develop-spike-summary\ndescription: Documents the results\
-  \ of a time-boxed technical or design exploration (spike). Use after completing\
-  \ a spike to capture learnings, findings, and recommendations for the team.\nlicense:\
-  \ Apache-2.0\nmetadata:\n  phase: develop\n  version: \"2.1.0\"\n  updated: 2026-06-10\n\
-  \  category: coordination\n  frameworks: [triple-diamond, lean-startup, design-thinking]\n\
-  \  author: product-on-purpose\n---\n<!-- PM-Skills | https://github.com/product-on-purpose/pm-skills\
-  \ | Apache..."
-full_prompt_length: 3785
+  \ of a completed technical or design spike, capturing the original question, approach,\
+  \ evidence-backed findings, and a clear proceed-or-not recommendation so the team\
+  \ does not re-litigate the exploration. Use once a time-boxed investigation has\
+  \ concluded. For the architecture decision the spike informs, use develop-adr instead;\
+  \ for research-based exploration, use discover-interview-synthesis.\nlicense: Apache-2.0\n\
+  metadata:\n  phase:..."
+full_prompt_length: 4027
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/develop-spike-summary/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/develop-spike-summary/SKILL.md
-fetched_at: '2026-07-05T06:06:16.402059+00:00'
+fetched_at: '2026-07-12T05:35:21.481670+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T09:21:54.296847Z'
+  evaluated_at: '2026-07-12T08:53:55.871004Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e5730 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063f97500 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e5730 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063f97500 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:18.367240Z'
-indexed_at: '2026-07-05T09:51:18.367246Z'
+  fetched_at: '2026-07-12T09:23:57.149158Z'
+indexed_at: '2026-07-12T09:23:57.149164Z'
 ---

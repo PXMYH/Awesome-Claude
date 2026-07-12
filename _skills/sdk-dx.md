@@ -12,32 +12,32 @@ prompt_preview: "---\nname: sdk-dx\ndescription: |\n  Design SDKs that developer
   \ \"migration guides\", \"client library design\", \"making SDKs f..."
 full_prompt_length: 13369
 tools_mentioned:
-- Django
-- Go
-- TypeScript
+- javascript
 - go
 - python
-- typescript
-- javascript
-- Ruby
+- Go
 - Python
+- TypeScript
+- typescript
+- Django
 - JavaScript
+- Ruby
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/sdk-dx/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/sdk-dx/SKILL.md
-fetched_at: '2026-07-05T06:05:11.805526+00:00'
+fetched_at: '2026-07-12T05:33:50.487643+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T08:26:03.347931Z'
+  evaluated_at: '2026-07-12T07:57:29.800001Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63065758b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e316a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63065758b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e316a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:17.180964Z'
-indexed_at: '2026-07-05T09:51:17.180970Z'
+  fetched_at: '2026-07-12T09:23:55.947535Z'
+indexed_at: '2026-07-12T09:23:55.947541Z'
 ---

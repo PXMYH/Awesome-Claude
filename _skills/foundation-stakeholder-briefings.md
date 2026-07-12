@@ -14,7 +14,7 @@ prompt_preview: '---
   UX, PMM, sales, CS, legal, data, or a custom audience). Every briefing is a traceable
   projection of the master, so the versions never disagree. Use when one piece of
   work must reach several...'
-full_prompt_length: 8011
+full_prompt_length: 8018
 tools_mentioned:
 - go
 category: community
@@ -22,17 +22,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/foundation-stakeholder-briefings/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/foundation-stakeholder-briefings/SKILL.md
-fetched_at: '2026-07-05T06:06:18.441997+00:00'
+fetched_at: '2026-07-12T05:35:23.407969+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T09:23:56.644610Z'
+  evaluated_at: '2026-07-12T08:55:58.269682Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673a720 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e31580 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673a720 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e31580 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:18.410042Z'
-indexed_at: '2026-07-05T09:51:18.410047Z'
+  fetched_at: '2026-07-12T09:23:57.191947Z'
+indexed_at: '2026-07-12T09:23:57.191953Z'
 ---

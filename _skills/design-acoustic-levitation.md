@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/design-acoustic-levitation/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/design-acoustic-levitation/SKILL.md
-fetched_at: '2026-07-05T06:05:38.307087+00:00'
+fetched_at: '2026-07-12T05:34:37.088068+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T08:45:40.819229Z'
+  evaluated_at: '2026-07-12T08:17:18.748046Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670fcb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002e40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670fcb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002e40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:17.597019Z'
-indexed_at: '2026-07-05T09:51:17.597025Z'
+  fetched_at: '2026-07-12T09:23:56.368276Z'
+indexed_at: '2026-07-12T09:23:56.368281Z'
 ---

@@ -33,24 +33,24 @@ prompt_preview: '---
   # Crea...'
 full_prompt_length: 4199
 tools_mentioned:
-- React
 - react
+- React
 category: community
 category_display: Community
 source_repo: daxaur/openpaw
 source_path: skills/c-video-edit/SKILL.md
 source_url: https://github.com/daxaur/openpaw/blob/main/skills/c-video-edit/SKILL.md
-fetched_at: '2026-07-05T06:04:02.593459+00:00'
+fetched_at: '2026-07-12T05:32:22.404682+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T07:32:09.390500Z'
+  evaluated_at: '2026-07-12T07:03:14.945317Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e5bb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdc860 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e5bb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdc860 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -60,6 +60,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:16.041441Z'
-indexed_at: '2026-07-05T09:51:16.041448Z'
+  fetched_at: '2026-07-12T09:23:54.797140Z'
+indexed_at: '2026-07-12T09:23:54.797146Z'
 ---

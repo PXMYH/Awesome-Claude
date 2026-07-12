@@ -15,24 +15,24 @@ prompt_preview: '---
   with a no-code validation step. Use before committing build effort, when triaging
   whether to honor a feature request, or when deciding whether to expand scope, ahead
   of writing a PRD. For a launched product''s pi...'
-full_prompt_length: 6758
+full_prompt_length: 6765
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/foundation-build-risk-review/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/foundation-build-risk-review/SKILL.md
-fetched_at: '2026-07-05T06:06:17.205377+00:00'
+fetched_at: '2026-07-12T05:35:22.264970+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T09:22:43.453619Z'
+  evaluated_at: '2026-07-12T08:54:44.881140Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673b4d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6c8f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673b4d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6c8f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:18.384155Z'
-indexed_at: '2026-07-05T09:51:18.384161Z'
+  fetched_at: '2026-07-12T09:23:57.166080Z'
+indexed_at: '2026-07-12T09:23:57.166086Z'
 ---

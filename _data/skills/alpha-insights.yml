@@ -14,26 +14,26 @@ prompt_preview: '---
   → Research → Insights → Report → Iteration)."...'
 full_prompt_length: 63096
 tools_mentioned:
-- Go
 - python
-- Python
 - go
+- Python
+- Go
 category: community
 category_display: Community
 source_repo: Ericyoung-183/alpha-insights
 source_path: SKILL.md
 source_url: https://github.com/Ericyoung-183/alpha-insights/blob/main/SKILL.md
-fetched_at: '2026-07-05T06:02:29.885925+00:00'
+fetched_at: '2026-07-12T05:30:29.140454+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T06:09:54.866082Z'
+  evaluated_at: '2026-07-12T05:40:42.316159Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63075dfe60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064623680 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63075dfe60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064623680 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,5 +43,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:14.261252Z'
-indexed_at: '2026-07-05T09:51:14.261258Z'
+  fetched_at: '2026-07-12T09:23:53.043205Z'
+indexed_at: '2026-07-12T09:23:53.043211Z'

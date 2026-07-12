@@ -12,7 +12,7 @@ prompt_preview: '---
   and where contradictions have emerged. Produces a plain-text timeline, themes with
   confidence markers, stakeholder position tracking, consolidated decision list, contradiction
   flags, open items, narrative summary,...'
-full_prompt_length: 8299
+full_prompt_length: 8298
 tools_mentioned:
 - go
 category: community
@@ -20,17 +20,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/foundation-meeting-synthesize/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/foundation-meeting-synthesize/SKILL.md
-fetched_at: '2026-07-05T06:06:17.881977+00:00'
+fetched_at: '2026-07-12T05:35:22.895021+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T09:23:24.102672Z'
+  evaluated_at: '2026-07-12T08:55:25.803190Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673b8c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6c440 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630673b8c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6c440 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:18.398559Z'
-indexed_at: '2026-07-05T09:51:18.398565Z'
+  fetched_at: '2026-07-12T09:23:57.180514Z'
+indexed_at: '2026-07-12T09:23:57.180520Z'

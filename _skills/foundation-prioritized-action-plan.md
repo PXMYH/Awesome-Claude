@@ -14,7 +14,7 @@ prompt_preview: '---
   mirror, situation classification (Cynefin), the binding constraint (Theory of Constraints),
   prioritized questions and open decisions, a ranked action plan with the critical
   effort plus follow-ons, risks and pre-mo...'
-full_prompt_length: 22842
+full_prompt_length: 23202
 tools_mentioned:
 - rest
 - go
@@ -23,17 +23,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/foundation-prioritized-action-plan/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/foundation-prioritized-action-plan/SKILL.md
-fetched_at: '2026-07-05T06:06:18.315467+00:00'
+fetched_at: '2026-07-12T05:35:23.280063+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T09:23:48.511264Z'
+  evaluated_at: '2026-07-12T08:55:50.137036Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a3da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e33470 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a3da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e33470 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:18.407142Z'
-indexed_at: '2026-07-05T09:51:18.407148Z'
+  fetched_at: '2026-07-12T09:23:57.189050Z'
+indexed_at: '2026-07-12T09:23:57.189056Z'
 ---

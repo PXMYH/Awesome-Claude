@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/generate-tour-report/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/generate-tour-report/SKILL.md
-fetched_at: '2026-07-05T06:05:44.987608+00:00'
+fetched_at: '2026-07-12T05:34:43.357812+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T08:52:12.601095Z'
+  evaluated_at: '2026-07-12T08:23:52.529301Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306a1d0d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00642afb90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306a1d0d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00642afb90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:17.735449Z'
-indexed_at: '2026-07-05T09:51:17.735455Z'
+  fetched_at: '2026-07-12T09:23:56.506655Z'
+indexed_at: '2026-07-12T09:23:56.506660Z'
 ---

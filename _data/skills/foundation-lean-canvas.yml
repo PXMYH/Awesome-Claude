@@ -14,24 +14,24 @@ prompt_preview: '---
   stress-testing an existing strategy, comparing strategic options side-by-side, or
   aligning a team on business-model assumptions. Works as a strategic hub that cross-links
   to deeper PM skills without duplicating t...'
-full_prompt_length: 11598
+full_prompt_length: 11832
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/foundation-lean-canvas/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/foundation-lean-canvas/SKILL.md
-fetched_at: '2026-07-05T06:06:17.339693+00:00'
+fetched_at: '2026-07-12T05:35:22.386916+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T09:22:51.578187Z'
+  evaluated_at: '2026-07-12T08:54:53.189285Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306739fd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6d430 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306739fd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6d430 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:18.387116Z'
-indexed_at: '2026-07-05T09:51:18.387122Z'
+  fetched_at: '2026-07-12T09:23:57.169016Z'
+indexed_at: '2026-07-12T09:23:57.169027Z'

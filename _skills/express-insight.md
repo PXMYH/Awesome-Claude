@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/express-insight/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/express-insight/SKILL.md
-fetched_at: '2026-07-05T06:05:42.511377+00:00'
+fetched_at: '2026-07-12T05:34:41.012460+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T08:49:45.564121Z'
+  evaluated_at: '2026-07-12T08:21:23.606663Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e5a60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f006430d520 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e5a60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f006430d520 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:17.683589Z'
-indexed_at: '2026-07-05T09:51:17.683595Z'
+  fetched_at: '2026-07-12T09:23:56.454765Z'
+indexed_at: '2026-07-12T09:23:56.454771Z'
 ---

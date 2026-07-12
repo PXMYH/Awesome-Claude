@@ -19,24 +19,24 @@ prompt_preview: '---
   examples require network a...'
 full_prompt_length: 16391
 tools_mentioned:
-- Python
 - python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/biopython/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/biopython/SKILL.md
-fetched_at: '2026-07-05T06:02:35.994581+00:00'
+fetched_at: '2026-07-12T05:30:43.296436+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T06:14:01.052377Z'
+  evaluated_at: '2026-07-12T05:44:48.643123Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670c260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000410 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670c260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000410 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:14.347503Z'
-indexed_at: '2026-07-05T09:51:14.347510Z'
+  fetched_at: '2026-07-12T09:23:53.130380Z'
+indexed_at: '2026-07-12T09:23:53.130386Z'
 ---

@@ -24,25 +24,25 @@ prompt_preview: '---
   If...'
 full_prompt_length: 7980
 tools_mentioned:
-- vue
 - rest
 - react
+- vue
 category: community
 category_display: Community
 source_repo: inhouseseo/superseo-skills
 source_path: skills/featured-snippet-optimizer/SKILL.md
 source_url: https://github.com/inhouseseo/superseo-skills/blob/main/skills/featured-snippet-optimizer/SKILL.md
-fetched_at: '2026-07-05T06:04:52.650404+00:00'
+fetched_at: '2026-07-12T05:33:29.236134+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T08:15:47.199974Z'
+  evaluated_at: '2026-07-12T07:47:13.380486Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670ecc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6e690 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670ecc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6e690 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:16.962882Z'
-indexed_at: '2026-07-05T09:51:16.962888Z'
+  fetched_at: '2026-07-12T09:23:55.728579Z'
+indexed_at: '2026-07-12T09:23:55.728585Z'
 ---

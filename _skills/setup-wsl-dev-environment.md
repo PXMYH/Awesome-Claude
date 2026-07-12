@@ -12,26 +12,26 @@ prompt_preview: "---\nname: setup-wsl-dev-environment\ndescription: >\n  Set up 
   license: MIT\nallowed-tools: Read Write Edit..."
 full_prompt_length: 8943
 tools_mentioned:
-- Python
 - python
-- Node.js
 - Docker
+- Python
+- Node.js
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/setup-wsl-dev-environment/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/setup-wsl-dev-environment/SKILL.md
-fetched_at: '2026-07-05T06:06:05.946532+00:00'
+fetched_at: '2026-07-12T05:35:03.509204+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T09:13:09.839556Z'
+  evaluated_at: '2026-07-12T08:44:57.561527Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670e4e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00640023f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670e4e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00640023f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:18.184323Z'
-indexed_at: '2026-07-05T09:51:18.184330Z'
+  fetched_at: '2026-07-12T09:23:56.958254Z'
+indexed_at: '2026-07-12T09:23:56.958260Z'
 ---

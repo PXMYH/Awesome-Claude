@@ -11,24 +11,24 @@ prompt_preview: "---\nname: create-agent\ndescription: >\n  Create a new agent d
   \ Use when adding a new specialized agent to the library,\n  defining a persona\
   \ for a Claude Code subagent, or creating a\n  domain-specific assistant with curated\
   \ skills and tools.\nli..."
-full_prompt_length: 14375
+full_prompt_length: 14425
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-agent/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-agent/SKILL.md
-fetched_at: '2026-07-05T06:05:33.890994+00:00'
+fetched_at: '2026-07-12T05:34:32.931973+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T08:41:20.239552Z'
+  evaluated_at: '2026-07-12T08:12:58.409311Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e6450 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00640011f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e6450 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00640011f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:17.504836Z'
-indexed_at: '2026-07-05T09:51:17.504842Z'
+  fetched_at: '2026-07-12T09:23:56.276092Z'
+indexed_at: '2026-07-12T09:23:56.276098Z'
 ---

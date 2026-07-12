@@ -9,24 +9,24 @@ prompt_preview: "---\nname: pre-generation-check\ndescription: Validates all pre
   \ check\" or \"ready to generate\".\nargument-hint: <album-name or track-path>\n\
   model: haiku\nprerequisites:\n  - lyric-writer\n  - lyric-reviewer\n  - pronunciation-specialist\n\
   allowed-tools:\n  - Rea..."
-full_prompt_length: 7173
+full_prompt_length: 7581
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/pre-generation-check/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/pre-generation-check/SKILL.md
-fetched_at: '2026-07-05T06:03:41.262345+00:00'
+fetched_at: '2026-07-12T05:31:57.717068+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T07:12:24.693090Z'
+  evaluated_at: '2026-07-12T06:43:28.228117Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306b796a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064301340 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306b796a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064301340 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:15.626847Z'
-indexed_at: '2026-07-05T09:51:15.626853Z'
+  fetched_at: '2026-07-12T09:23:54.380095Z'
+indexed_at: '2026-07-12T09:23:54.380101Z'

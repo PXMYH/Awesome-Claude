@@ -2,15 +2,16 @@
 id: reddit-fetch
 slug: reddit-fetch
 name: Reddit Fetch
-description: '- **Fast path, often fails:** plain curl JSON (host or safeclaw container)
-  with a browser `User-Agent` is faster when it works, but usually 403s now (changing
-  the UA doesn''t help). Worth one quick try...'
+description: '- **Don''t fire parallel requests** - run them sequentially with `sleep
+  2`/`sleep 3` (or brief pauses between navigations). Fetch one listing, parse it,
+  then fetch threads one at a time.'
 prompt_preview: '---
 
   name: reddit-fetch
 
-  description: Fetch content from Reddit using the curl JSON API. Use when accessing
-  Reddit URLs, researching topics on Reddit, or when Reddit returns 403/blocked errors.
+  description: Fetch content from Reddit via its JSON API using a browser session
+  (DuckDuckGo-hop unlock). Use when accessing Reddit URLs, researching topics on Reddit,
+  or when Reddit returns 403/blocked errors.
 
   ---
 
@@ -18,15 +19,10 @@ prompt_preview: '---
   # Reddit Fetch
 
 
-  Reddit''s public JSON API works by appending `.json` to any Reddit URL. All `curl`
-  examples below need a browser `User-Agent` header - export it once and reuse it:
-
-
-  ```bash
-
-  UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
-  Chrome/120.0.0.0 Safari/537.36...'
-full_prompt_length: 5291
+  Reddit''s public JSON API works by appending `.json` to any Reddit URL — but Reddit
+  now hard-blocks automated access. **curl 403s essentially every time (host AND container,
+  regardless of User-Agent), and even a cold Playwright navigation to `redd...'
+full_prompt_length: 5476
 tools_mentioned:
 - rest
 - go
@@ -35,17 +31,17 @@ category_display: Community
 source_repo: ykdojo/claude-code-tips
 source_path: skills/reddit-fetch/SKILL.md
 source_url: https://github.com/ykdojo/claude-code-tips/blob/main/skills/reddit-fetch/SKILL.md
-fetched_at: '2026-07-05T06:07:03.539521+00:00'
+fetched_at: '2026-07-12T05:37:47.517713+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T09:49:28.289654Z'
+  evaluated_at: '2026-07-12T09:22:07.152596Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e77d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e30a40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e77d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e30a40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -55,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:18.949483Z'
-indexed_at: '2026-07-05T09:51:18.949488Z'
+  fetched_at: '2026-07-12T09:23:57.751584Z'
+indexed_at: '2026-07-12T09:23:57.751594Z'
 ---

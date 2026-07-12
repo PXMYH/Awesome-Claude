@@ -23,17 +23,17 @@ category_display: Community
 source_repo: junshi-research/research-junshi
 source_path: SKILL.md
 source_url: https://github.com/junshi-research/research-junshi/blob/main/SKILL.md
-fetched_at: '2026-07-05T06:05:13.170655+00:00'
+fetched_at: '2026-07-12T05:33:51.692997+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T08:26:47.986983Z'
+  evaluated_at: '2026-07-12T07:58:10.417800Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306739d30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e318b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306739d30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e318b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:17.196080Z'
-indexed_at: '2026-07-05T09:51:17.196086Z'
+  fetched_at: '2026-07-12T09:23:55.962617Z'
+indexed_at: '2026-07-12T09:23:55.962624Z'
 ---

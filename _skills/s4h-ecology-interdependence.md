@@ -27,17 +27,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-ecology-interdependence/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-ecology-interdependence/SKILL.md
-fetched_at: '2026-07-05T06:04:27.717720+00:00'
+fetched_at: '2026-07-12T05:33:00.633534+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T07:52:43.026301Z'
+  evaluated_at: '2026-07-12T07:24:09.467266Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a3080 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6cc20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066a3080 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6cc20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:16.474393Z'
-indexed_at: '2026-07-05T09:51:16.474399Z'
+  fetched_at: '2026-07-12T09:23:55.242613Z'
+indexed_at: '2026-07-12T09:23:55.242620Z'
 ---

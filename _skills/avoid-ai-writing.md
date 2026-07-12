@@ -15,12 +15,12 @@ prompt_preview: '---
   profile (casual / professional / technical / warm / blunt), and an iterate-to-convergence
   pass.
 
-  version: 3.10.0
+  version: 3.15.0
 
   license: MIT
 
   compatibility: Any...'
-full_prompt_length: 61664
+full_prompt_length: 68957
 tools_mentioned:
 - AWS
 - rest
@@ -30,17 +30,17 @@ category_display: Documentation
 source_repo: conorbronsdon/avoid-ai-writing
 source_path: SKILL.md
 source_url: https://github.com/conorbronsdon/avoid-ai-writing/blob/main/SKILL.md
-fetched_at: '2026-07-05T06:03:56.898807+00:00'
+fetched_at: '2026-07-12T05:32:14.311787+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T07:26:50.851081Z'
+  evaluated_at: '2026-07-12T06:57:55.160906Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670fcb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064301520 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670fcb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064301520 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:15.932678Z'
-indexed_at: '2026-07-05T09:51:15.932684Z'
+  fetched_at: '2026-07-12T09:23:54.687589Z'
+indexed_at: '2026-07-12T09:23:54.687595Z'
 ---

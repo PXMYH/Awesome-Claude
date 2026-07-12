@@ -13,24 +13,24 @@ prompt_preview: "---\nname: fit-drift-diffusion-model\ndescription: >\n  Fit cog
   \ speed-accuracy tradeoff effects in..."
 full_prompt_length: 15733
 tools_mentioned:
-- Python
 - python
+- Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/fit-drift-diffusion-model/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/fit-drift-diffusion-model/SKILL.md
-fetched_at: '2026-07-05T06:05:42.941814+00:00'
+fetched_at: '2026-07-12T05:34:41.425781+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T08:50:09.952465Z'
+  evaluated_at: '2026-07-12T08:21:50.119875Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306f1e660 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e32000 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306f1e660 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e32000 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:17.692424Z'
-indexed_at: '2026-07-05T09:51:17.692437Z'
+  fetched_at: '2026-07-12T09:23:56.463441Z'
+indexed_at: '2026-07-12T09:23:56.463447Z'
 ---

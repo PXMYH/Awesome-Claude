@@ -29,17 +29,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-constraint-workaround-mapping/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-constraint-workaround-mapping/SKILL.md
-fetched_at: '2026-07-05T06:04:24.211514+00:00'
+fetched_at: '2026-07-12T05:32:57.315491+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T07:49:10.571510Z'
+  evaluated_at: '2026-07-12T07:20:36.104719Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e5580 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e31dc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e5580 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e31dc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:16.399845Z'
-indexed_at: '2026-07-05T09:51:16.399851Z'
+  fetched_at: '2026-07-12T09:23:55.166607Z'
+indexed_at: '2026-07-12T09:23:55.166612Z'
 ---

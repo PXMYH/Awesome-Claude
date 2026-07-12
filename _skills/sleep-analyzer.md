@@ -72,17 +72,17 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/sleep-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/sleep-analyzer/SKILL.md
-fetched_at: '2026-07-05T06:04:19.801150+00:00'
+fetched_at: '2026-07-12T05:32:47.436622+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T07:45:21.508184Z'
+  evaluated_at: '2026-07-12T07:16:45.755764Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e48c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063f97680 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63066e48c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063f97680 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -92,6 +92,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:16.318864Z'
-indexed_at: '2026-07-05T09:51:16.318870Z'
+  fetched_at: '2026-07-12T09:23:55.083491Z'
+indexed_at: '2026-07-12T09:23:55.083497Z'
 ---

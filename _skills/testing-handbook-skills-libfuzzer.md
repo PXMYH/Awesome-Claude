@@ -19,17 +19,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/libfuzzer/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/libfuzzer/SKILL.md
-fetched_at: '2026-07-05T06:06:54.019585+00:00'
+fetched_at: '2026-07-12T05:37:12.673328+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T09:45:32.208277Z'
+  evaluated_at: '2026-07-12T09:18:10.306438Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306574c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002630 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306574c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002630 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:18.866044Z'
-indexed_at: '2026-07-05T09:51:18.866050Z'
+  fetched_at: '2026-07-12T09:23:57.667026Z'
+indexed_at: '2026-07-12T09:23:57.667032Z'
 ---

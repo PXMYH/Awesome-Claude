@@ -18,17 +18,17 @@ category_display: Community
 source_repo: avelikiy/great_cto
 source_path: skills/cost-model/SKILL.md
 source_url: https://github.com/avelikiy/great_cto/blob/main/skills/cost-model/SKILL.md
-fetched_at: '2026-07-05T06:03:31.218406+00:00'
+fetched_at: '2026-07-12T05:31:47.580714+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T07:04:46.482822Z'
+  evaluated_at: '2026-07-12T06:35:49.927957Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670ffe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00647b2c00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f630670ffe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00647b2c00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:15.466609Z'
-indexed_at: '2026-07-05T09:51:15.466615Z'
+  fetched_at: '2026-07-12T09:23:54.219033Z'
+indexed_at: '2026-07-12T09:23:54.219039Z'
 ---

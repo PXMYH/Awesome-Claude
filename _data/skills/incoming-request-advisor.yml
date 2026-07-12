@@ -1,0 +1,41 @@
+id: incoming-request-advisor
+slug: incoming-request-advisor
+name: Incoming Request Advisor
+description: Claude skill for Incoming Request Advisor
+prompt_preview: "---\nname: incoming-request-advisor\nargument-hint: \"[paste or describe\
+  \ the incoming message + who sent it]\"\ndescription: \"Decode an incoming message\
+  \ into a structured breakdown that separates the literal ask from the job-to-be-done.\
+  \ Use before replying to a loaded Slack ping, email, mandate, or escalation.\"\n\
+  intent: >-\n  Act as a chief-of-staff-grade analyst that decodes an incoming message\
+  \ into a structured breakdown, separating the literal ask from the job-to-be-done\
+  \ underneath it, reading sende..."
+full_prompt_length: 13167
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: deanpeters/Product-Manager-Skills
+source_path: skills/incoming-request-advisor/SKILL.md
+source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/incoming-request-advisor/SKILL.md
+fetched_at: '2026-07-12T05:32:26.136222+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-07-12T07:06:39.599161Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdee40 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdee40 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-07-12T09:23:54.869928Z'
+indexed_at: '2026-07-12T09:23:54.869934Z'

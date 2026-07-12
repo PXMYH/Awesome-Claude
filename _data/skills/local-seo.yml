@@ -19,17 +19,17 @@ category_display: Community
 source_repo: avelikiy/great_cto
 source_path: skills/local-seo/SKILL.md
 source_url: https://github.com/avelikiy/great_cto/blob/main/skills/local-seo/SKILL.md
-fetched_at: '2026-07-05T06:03:32.720648+00:00'
+fetched_at: '2026-07-12T05:31:48.804359+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T07:05:43.429227Z'
+  evaluated_at: '2026-07-12T06:36:46.784056Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306daaff0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e329c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306daaff0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e329c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:15.486494Z'
-indexed_at: '2026-07-05T09:51:15.486500Z'
+  fetched_at: '2026-07-12T09:23:54.239198Z'
+indexed_at: '2026-07-12T09:23:54.239204Z'

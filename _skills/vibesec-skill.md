@@ -27,31 +27,31 @@ prompt_preview: '---
 full_prompt_length: 24743
 tools_mentioned:
 - php
-- React
-- Vue
-- WebSocket
-- Java
-- java
-- PHP
-- javascript
-- python
+- GraphQL
 - AWS
+- javascript
+- Vue
+- PHP
+- Java
+- Node.js
+- React
+- java
 category: community
 category_display: Community
 source_repo: BehiSecc/VibeSec-Skill
 source_path: SKILL.md
 source_url: https://github.com/BehiSecc/VibeSec-Skill/blob/main/SKILL.md
-fetched_at: '2026-07-05T06:02:26.510189+00:00'
+fetched_at: '2026-07-12T05:30:23.747292+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T06:08:17.055112Z'
+  evaluated_at: '2026-07-12T05:39:03.912328Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63069e5580 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00644d1610 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f63069e5580 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00644d1610 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -61,6 +61,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:14.226951Z'
-indexed_at: '2026-07-05T09:51:14.226957Z'
+  fetched_at: '2026-07-12T09:23:53.006887Z'
+indexed_at: '2026-07-12T09:23:53.006896Z'
 ---

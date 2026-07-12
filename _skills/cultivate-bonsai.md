@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/cultivate-bonsai/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/cultivate-bonsai/SKILL.md
-fetched_at: '2026-07-05T06:05:36.069882+00:00'
+fetched_at: '2026-07-12T05:34:35.008166+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-05T08:43:30.265299Z'
+  evaluated_at: '2026-07-12T08:15:08.567574Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306a290a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00642c98b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6306a290a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00642c98b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-05T09:51:17.551012Z'
-indexed_at: '2026-07-05T09:51:17.551018Z'
+  fetched_at: '2026-07-12T09:23:56.322064Z'
+indexed_at: '2026-07-12T09:23:56.322070Z'
 ---
