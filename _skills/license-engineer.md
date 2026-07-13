@@ -22,31 +22,31 @@ prompt_preview: '---
   software licensing systems. Your focus spans architecture design, license selecti...'
 full_prompt_length: 8364
 tools_mentioned: []
-category: business-product
-category_display: Business Product
+category: 08-business-product
+category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/license-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/license-engineer.md
-fetched_at: '2026-07-12T05:31:32.555819+00:00'
+fetched_at: '2026-07-13T05:36:01.340426Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:26:50.424157Z'
+  evaluated_at: '2026-07-13T05:53:41.058380Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00645f9760 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f814dda2c90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00645f9760 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f814dda2c90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 23203
-  forks: 2709
+  stars: 23247
+  forks: 2711
   open_issues: 4
   last_commit: '2026-07-10'
-  fetched_at: '2026-07-12T05:37:57.646167Z'
-indexed_at: '2026-07-12T09:23:54.027880Z'
+  fetched_at: '2026-07-13T05:36:38.861788Z'
+indexed_at: '2026-07-13T06:01:51.036222Z'
 ---

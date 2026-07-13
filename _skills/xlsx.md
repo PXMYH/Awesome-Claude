@@ -7,45 +7,41 @@ prompt_preview: '---
 
   name: xlsx
 
-  description: "Create, edit, analyze, or convert Excel spreadsheets (.xlsx, .xlsm)
-  where the workbook file is the primary deliverable. Use for formulas, formatting,
-  financial models, multi-sheet workbooks, and tabular cleanup exported to Excel.
-  Also applies to .csv/.tsv when the user wants spreadsheet output. Do NOT use for
-  Word documents, HTML reports, standalone Python scripts, database pipelines, or
-  Google Sheets API work."
-
-  allowed-tools: Read Write Edit Bash Grep Glob
-
-  license:...'
-full_prompt_length: 12177
+  description: "Use this skill any time a spreadsheet file is the primary input or
+  output. This means any task where the user wants to: open, read, edit, or fix an
+  existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas,
+  formatting, charting, cleaning messy data); create a new spreadsheet from scratch
+  or from other data sources; or convert between tabular file formats. Trigger especially
+  when the user references a spreadsheet file by name or path — even c...'
+full_prompt_length: 11455
 tools_mentioned:
-- python
 - Python
-category: scientific
-category_display: Scientific
-source_repo: K-Dense-AI/claude-scientific-skills
+- python
+category: official
+category_display: Official Anthropic Skills
+source_repo: anthropics/skills
 source_path: skills/xlsx/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/xlsx/SKILL.md
-fetched_at: '2026-07-12T05:30:59.029413+00:00'
+source_url: https://github.com/anthropics/skills/blob/main/skills/xlsx/SKILL.md
+fetched_at: '2026-07-13T05:36:23.145060Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:03:32.179279Z'
+  evaluated_at: '2026-07-13T05:59:55.774380Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064682f90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f814df485c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064682f90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f814df485c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 0
-  forks: 0
-  open_issues: 0
-  last_commit: null
-  fetched_at: '2026-07-12T09:23:53.528299Z'
-indexed_at: '2026-07-12T09:23:53.528305Z'
+  stars: 160640
+  forks: 18958
+  open_issues: 1021
+  last_commit: '2026-07-01'
+  fetched_at: '2026-07-13T05:36:39.286892Z'
+indexed_at: '2026-07-13T06:01:51.182402Z'
 ---
