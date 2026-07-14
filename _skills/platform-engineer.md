@@ -23,33 +23,33 @@ prompt_preview: '---
   You are a senior platform engineer with deep expertise...'
 full_prompt_length: 7555
 tools_mentioned:
-- GraphQL
 - kubernetes
+- GraphQL
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/platform-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/platform-engineer.md
-fetched_at: '2026-07-13T05:35:34.308497Z'
+fetched_at: '2026-07-14T04:49:32.186119Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-13T05:43:46.174366Z'
+  evaluated_at: '2026-07-14T04:57:00.922320Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f814e070f50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe53c207bc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f814e070f50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe53c207bc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 23247
-  forks: 2711
+  stars: 23290
+  forks: 2717
   open_issues: 4
   last_commit: '2026-07-10'
-  fetched_at: '2026-07-13T05:36:38.861788Z'
-indexed_at: '2026-07-13T06:01:50.799365Z'
+  fetched_at: '2026-07-14T04:49:57.639582Z'
+indexed_at: '2026-07-14T05:16:05.338487Z'
 ---
