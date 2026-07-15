@@ -26,26 +26,26 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/doc-coauthoring/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/doc-coauthoring/SKILL.md
-fetched_at: '2026-07-14T04:49:51.216006Z'
+fetched_at: '2026-07-15T04:50:58.188120Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-14T05:12:34.315572Z'
+  evaluated_at: '2026-07-15T05:12:41.241335Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe53be3fef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2e7a402e70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe53be3fef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2e7a402e70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 160923
-  forks: 18997
-  open_issues: 1021
+  stars: 161203
+  forks: 19043
+  open_issues: 1029
   last_commit: '2026-07-01'
-  fetched_at: '2026-07-14T04:49:58.062448Z'
-indexed_at: '2026-07-14T05:16:05.660679Z'
+  fetched_at: '2026-07-15T04:51:07.233599Z'
+indexed_at: '2026-07-15T05:16:15.521865Z'
 ---
