@@ -24,32 +24,32 @@ prompt_preview: '---
   By precisely crafting their instructions and context, you ensure they sta...'
 full_prompt_length: 21540
 tools_mentioned:
-- go
 - rest
+- go
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/subagent-driven-development/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md
-fetched_at: '2026-07-17T05:12:52.820862Z'
+fetched_at: '2026-07-18T04:47:42.551096Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-17T05:37:20.640566Z'
+  evaluated_at: '2026-07-18T05:11:58.985227Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f391b097140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe84dbeb560 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f391b097140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe84dbeb560 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 256102
-  forks: 22803
-  open_issues: 318
+  stars: 256735
+  forks: 22860
+  open_issues: 320
   last_commit: '2026-07-02'
-  fetched_at: '2026-07-17T05:12:57.186567Z'
-indexed_at: '2026-07-17T05:38:18.758109Z'
+  fetched_at: '2026-07-18T04:47:45.235654Z'
+indexed_at: '2026-07-18T05:12:56.841643Z'

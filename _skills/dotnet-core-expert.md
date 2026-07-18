@@ -24,34 +24,34 @@ prompt_preview: '---
 full_prompt_length: 6438
 tools_mentioned:
 - GraphQL
+- Docker
 - Kubernetes
 - gRPC
-- Docker
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/dotnet-core-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/dotnet-core-expert.md
-fetched_at: '2026-07-17T05:11:57.404288Z'
+fetched_at: '2026-07-18T04:47:14.172941Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-17T05:15:09.462346Z'
+  evaluated_at: '2026-07-18T04:49:56.185170Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f391adaac90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe84d61e8a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f391adaac90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe84d61e8a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 23422
-  forks: 2728
+  stars: 23453
+  forks: 2733
   open_issues: 4
   last_commit: '2026-07-10'
-  fetched_at: '2026-07-17T05:12:56.141836Z'
-indexed_at: '2026-07-17T05:38:18.321905Z'
+  fetched_at: '2026-07-18T04:47:44.483379Z'
+indexed_at: '2026-07-18T05:12:56.335092Z'
 ---
