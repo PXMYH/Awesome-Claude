@@ -19,24 +19,24 @@ prompt_preview: '---
   API key for the skill''s LLM-powered steps.", "required_for": "optional...'
 full_prompt_length: 18169
 tools_mentioned:
-- go
 - python
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/infographics/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/infographics/SKILL.md
-fetched_at: '2026-07-12T05:30:47.993558+00:00'
+fetched_at: '2026-07-19T05:19:51.037589+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T05:50:25.982013Z'
+  evaluated_at: '2026-07-19T05:37:16.133865Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000bf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c05f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000bf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c05f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.250350Z'
-indexed_at: '2026-07-12T09:23:53.250356Z'
+  fetched_at: '2026-07-19T09:13:17.000502Z'
+indexed_at: '2026-07-19T09:13:17.000508Z'
 ---

@@ -7,10 +7,10 @@ prompt_preview: "---\nname: quarterly-database-cleanup\ndescription: \"Run a com
   \ quarterly CRM audit covering list health, bounce monitoring, data quality, scoring\
   \ calibration, engagement metrics, and property cleanup. Produces a health report\
   \ with quarter-over-quarter trend comparison.\"\nlicense: MIT\nmetadata:\n  author:\
-  \ tomgranot\n  version: \"1.0\"\n  category: ongoing-maintenance\n---\n\n# Quarterly\
+  \ tomgranot\n  version: \"1.1\"\n  category: ongoing-maintenance\n---\n\n# Quarterly\
   \ Database Cleanup\n\nA structured quarterly audit that catches data drift before\
   \ it becomes a crisis. Run this at t..."
-full_prompt_length: 3450
+full_prompt_length: 3498
 tools_mentioned:
 - Python
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/quarterly-database-cleanup/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/quarterly-database-cleanup/SKILL.md
-fetched_at: '2026-07-12T05:31:09.644593+00:00'
+fetched_at: '2026-07-19T05:20:10.261632+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:08:42.133094Z'
+  evaluated_at: '2026-07-19T05:55:43.798897Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00649fe510 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2109da090 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00649fe510 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2109da090 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.639860Z'
-indexed_at: '2026-07-12T09:23:53.639866Z'
+  fetched_at: '2026-07-19T09:13:17.424486Z'
+indexed_at: '2026-07-19T09:13:17.424492Z'
 ---

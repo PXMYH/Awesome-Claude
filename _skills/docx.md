@@ -2,46 +2,48 @@
 id: docx
 slug: docx
 name: DOCX creation, editing, and analysis
-description: '`docx` (npm, preinstalled — install only if `require(''docx'')` fails)
-  · `pandoc` · LibreOffice (`soffice`) · `pdftoppm` (Poppler)'
+description: '- **pandoc**: Text extraction'
 prompt_preview: '---
 
   name: docx
 
   description: "Use this skill whenever the user wants to create, read, edit, or manipulate
-  Word documents (.docx files) or Word templates (.dotx files). Triggers include:
-  any mention of ''Word doc'', ''word document'', ''.docx'', ''.dotx'', or requests
-  to produce professional documents with formatting like tables of contents, headings,
-  page numbers, or letterheads. Also use when extracting or reorganizing content from
-  .docx or .dotx files, inserting or replacing images in documents, perfor...'
-full_prompt_length: 6868
+  Word documents (.docx files). Triggers include: any mention of ''Word doc'', ''word
+  document'', ''.docx'', or requests to produce professional documents with formatting
+  like tables of contents, headings, page numbers, or letterheads. Also use when extracting
+  or reorganizing content from .docx files, inserting or replacing images in documents,
+  performing find-and-replace in Word files, working with...'
+full_prompt_length: 20085
 tools_mentioned:
+- javascript
+- Python
 - python
-category: official
-category_display: Official Anthropic Skills
-source_repo: anthropics/skills
+- JavaScript
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/docx/SKILL.md
-source_url: https://github.com/anthropics/skills/blob/main/skills/docx/SKILL.md
-fetched_at: '2026-07-18T04:47:38.628886Z'
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/docx/SKILL.md
+fetched_at: '2026-07-19T05:19:48.463564+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-18T05:09:30.147299Z'
+  evaluated_at: '2026-07-19T05:34:17.231708Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe84d622a20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0aa0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe84d622a20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0aa0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 162173
-  forks: 19215
-  open_issues: 1036
-  last_commit: '2026-07-17'
-  fetched_at: '2026-07-18T04:47:44.880947Z'
-indexed_at: '2026-07-18T05:12:56.786923Z'
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-07-19T09:13:16.932836Z'
+indexed_at: '2026-07-19T09:13:16.932841Z'
 ---

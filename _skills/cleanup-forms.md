@@ -7,30 +7,30 @@ description: '- Establish a naming convention: `[TEAM] - Purpose - Version` (e.g
 prompt_preview: "---\nname: cleanup-forms\ndescription: \"Audit and remove unused,\
   \ test, or deprecated forms from HubSpot. Identifies forms with zero submissions,\
   \ forms not embedded on any page, and test forms left over from development.\"\n\
-  license: MIT\nmetadata:\n  author: tomgranot\n  version: \"1.0\"\n  category: ongoing-maintenance\n\
+  license: MIT\nmetadata:\n  author: tomgranot\n  version: \"1.1\"\n  category: ongoing-maintenance\n\
   ---\n\n# Cleanup Forms\n\nAudit HubSpot forms to remove unused and test forms. Stale\
   \ forms clutter the forms dashboard and can cause confusion when building workflows\
   \ or reports.\n\n## Prerequisi..."
-full_prompt_length: 2471
+full_prompt_length: 3349
 tools_mentioned:
-- python
 - Python
+- python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/cleanup-forms/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/cleanup-forms/SKILL.md
-fetched_at: '2026-07-12T05:31:07.434942+00:00'
+fetched_at: '2026-07-19T05:20:08.114830+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:06:23.336627Z'
+  evaluated_at: '2026-07-19T05:53:17.314597Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002b40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c25a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002b40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c25a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.590521Z'
-indexed_at: '2026-07-12T09:23:53.590527Z'
+  fetched_at: '2026-07-19T09:13:17.368473Z'
+indexed_at: '2026-07-19T09:13:17.368479Z'
 ---

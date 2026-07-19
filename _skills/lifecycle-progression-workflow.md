@@ -9,27 +9,28 @@ prompt_preview: "---\nname: lifecycle-progression-workflow\ndescription: \"Build
   \ to automate contact progression through the sales funnel: Lead to MQL to SQL to\
   \ Opportunity to Customer. Each transition is triggered by a specific event (score\
   \ threshold, meeting booked, deal created, deal won).\"\nlicense: MIT\nmetadata:\n\
-  \  author: tomgranot\n  version: \"1.0\"\n  category: automation-workflows\n---\n\
+  \  author: tomgranot\n  version: \"1.1\"\n  category: automation-workflows\n---\n\
   \n# Lifecycle Stage Progression Workflow\n\nAutomate the contact journey through\
   \ the sales funnel with four progression w..."
-full_prompt_length: 8082
-tools_mentioned: []
+full_prompt_length: 8196
+tools_mentioned:
+- Python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/lifecycle-progression-workflow/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/lifecycle-progression-workflow/SKILL.md
-fetched_at: '2026-07-12T05:31:09.260397+00:00'
+fetched_at: '2026-07-19T05:20:09.918500+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:08:17.748198Z'
+  evaluated_at: '2026-07-19T05:55:19.522235Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00646b6930 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210189670 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00646b6930 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210189670 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.630961Z'
-indexed_at: '2026-07-12T09:23:53.630967Z'
+  fetched_at: '2026-07-19T09:13:17.415065Z'
+indexed_at: '2026-07-19T09:13:17.415070Z'
 ---

@@ -16,24 +16,24 @@ prompt_preview: '---
   many blog posts does X have vs Y", "how fresh is conte...'
 full_prompt_length: 15435
 tools_mentioned:
-- JavaScript
 - python
+- JavaScript
 category: community
 category_display: Community
 source_repo: Infrasity-Labs/dev-gtm-claude-skills
 source_path: skills/blog-post-counter/SKILL.md
 source_url: https://github.com/Infrasity-Labs/dev-gtm-claude-skills/blob/main/skills/blog-post-counter/SKILL.md
-fetched_at: '2026-07-12T05:30:30.130181+00:00'
+fetched_at: '2026-07-19T05:19:40.973911+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T05:40:58.562412Z'
+  evaluated_at: '2026-07-19T05:27:52.717920Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064623680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210188b00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064623680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210188b00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.048989Z'
-indexed_at: '2026-07-12T09:23:53.048995Z'
+  fetched_at: '2026-07-19T09:13:16.787502Z'
+indexed_at: '2026-07-19T09:13:16.787508Z'
 ---

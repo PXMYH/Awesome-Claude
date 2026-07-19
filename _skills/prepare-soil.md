@@ -20,17 +20,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/prepare-soil/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/prepare-soil/SKILL.md
-fetched_at: '2026-07-12T05:34:55.094784+00:00'
+fetched_at: '2026-07-19T05:23:17.943948+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:36:06.873790Z'
+  evaluated_at: '2026-07-19T08:25:35.776144Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002a80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f2ea0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002a80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f2ea0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:56.767259Z'
-indexed_at: '2026-07-12T09:23:56.767264Z'
+  fetched_at: '2026-07-19T09:13:20.837718Z'
+indexed_at: '2026-07-19T09:13:20.837724Z'
 ---

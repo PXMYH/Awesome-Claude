@@ -13,26 +13,26 @@ prompt_preview: "---\nname: generative-recipe-dsl\ndescription: >\n  Design a ge
   \ seed recipes, a..."
 full_prompt_length: 20463
 tools_mentioned:
+- Go
+- Python
 - JavaScript
 - go
-- Python
-- Go
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/generative-recipe-dsl/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/generative-recipe-dsl/SKILL.md
-fetched_at: '2026-07-12T05:34:43.627594+00:00'
+fetched_at: '2026-07-19T05:23:07.089651+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:24:08.756578Z'
+  evaluated_at: '2026-07-19T08:13:31.427942Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fde2a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0590 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fde2a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0590 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:56.512367Z'
-indexed_at: '2026-07-12T09:23:56.512373Z'
+  fetched_at: '2026-07-19T09:13:20.552694Z'
+indexed_at: '2026-07-19T09:13:20.552699Z'
 ---

@@ -18,26 +18,26 @@ prompt_preview: '---
   metad...'
 full_prompt_length: 36860
 tools_mentioned:
-- python
 - AWS
 - Python
+- python
 - GCP
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/imaging-data-commons/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/imaging-data-commons/SKILL.md
-fetched_at: '2026-07-12T05:30:47.882196+00:00'
+fetched_at: '2026-07-19T05:19:50.923190+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T05:50:17.865428Z'
+  evaluated_at: '2026-07-19T05:37:08.044873Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064dbfa10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b3e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064dbfa10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b3e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.247407Z'
-indexed_at: '2026-07-12T09:23:53.247413Z'
+  fetched_at: '2026-07-19T09:13:16.997421Z'
+indexed_at: '2026-07-19T09:13:16.997427Z'
 ---

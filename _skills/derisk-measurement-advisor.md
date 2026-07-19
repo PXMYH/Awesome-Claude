@@ -19,17 +19,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/derisk-measurement-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/derisk-measurement-advisor/SKILL.md
-fetched_at: '2026-07-12T05:32:24.826424+00:00'
+fetched_at: '2026-07-19T05:21:14.041977+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:05:09.409216Z'
+  evaluated_at: '2026-07-19T06:53:11.219775Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002b70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2107aee10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002b70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2107aee10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:54.837986Z'
-indexed_at: '2026-07-12T09:23:54.837992Z'
+  fetched_at: '2026-07-19T09:13:18.723384Z'
+indexed_at: '2026-07-19T09:13:18.723395Z'
 ---

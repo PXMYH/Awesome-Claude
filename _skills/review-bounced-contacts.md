@@ -8,11 +8,11 @@ description: Run weekly, ideally Monday morning. Should take 5-15 minutes depend
 prompt_preview: "---\nname: review-bounced-contacts\ndescription: \"Weekly manual\
   \ review of contacts with 3+ bounce events. Decide whether to delete or attempt\
   \ recovery for each flagged contact. Prevents over-suppression while removing truly\
-  \ bad data.\"\nlicense: MIT\nmetadata:\n  author: tomgranot\n  version: \"1.0\"\n\
+  \ bad data.\"\nlicense: MIT\nmetadata:\n  author: tomgranot\n  version: \"1.1\"\n\
   \  category: ongoing-maintenance\n---\n\n# Review Bounced Contacts\n\nA weekly manual\
   \ review process for contacts flagged with 3+ bounces. The bounce monitoring workflow\
   \ auto-suppresses these contacts, but a human..."
-full_prompt_length: 3018
+full_prompt_length: 3407
 tools_mentioned:
 - python
 category: community
@@ -20,17 +20,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/review-bounced-contacts/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/review-bounced-contacts/SKILL.md
-fetched_at: '2026-07-12T05:31:09.917208+00:00'
+fetched_at: '2026-07-19T05:20:10.506743+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:08:58.638630Z'
+  evaluated_at: '2026-07-19T05:56:00.255706Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00649fe510 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2106b2e70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00649fe510 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2106b2e70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.645641Z'
-indexed_at: '2026-07-12T09:23:53.645647Z'
+  fetched_at: '2026-07-19T09:13:17.430719Z'
+indexed_at: '2026-07-19T09:13:17.430724Z'
 ---

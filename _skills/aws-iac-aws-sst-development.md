@@ -15,27 +15,27 @@ prompt_preview: '---
   sst.config.ts, $config, $transform, $interpolate, sst.aws.*, sst.Secret, Pulumi/...'
 full_prompt_length: 10696
 tools_mentioned:
-- AWS
-- Python
 - Go
-- aws
+- AWS
 - TypeScript
+- Python
+- aws
 category: infrastructure
 category_display: Infrastructure
 source_repo: zxkane/aws-skills
 source_path: plugins/aws-iac/skills/aws-sst-development/SKILL.md
 source_url: https://github.com/zxkane/aws-skills/blob/main/plugins/aws-iac/skills/aws-sst-development/SKILL.md
-fetched_at: '2026-07-12T05:37:55.800721+00:00'
+fetched_at: '2026-07-19T05:24:46.597146+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T09:23:44.575663Z'
+  evaluated_at: '2026-07-19T09:13:08.402169Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e30ce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018ac60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e30ce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018ac60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:57.786762Z'
-indexed_at: '2026-07-12T09:23:57.786768Z'
+  fetched_at: '2026-07-19T09:13:21.928748Z'
+indexed_at: '2026-07-19T09:13:21.928753Z'
 ---

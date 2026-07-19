@@ -26,32 +26,32 @@ prompt_preview: '---
   ## When...'
 full_prompt_length: 9912
 tools_mentioned:
-- php
-- go
-- javascript
-- PHP
-- Java
-- Node.js
-- Python
 - Go
+- Ruby
+- php
+- ruby
 - java
 - TypeScript
+- PHP
+- go
+- python
+- Node.js
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/constant-time-analysis/skills/constant-time-analysis/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/constant-time-analysis/skills/constant-time-analysis/SKILL.md
-fetched_at: '2026-07-12T05:36:10.536986+00:00'
+fetched_at: '2026-07-19T05:24:04.852923+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T09:12:52.589204Z'
+  evaluated_at: '2026-07-19T09:02:18.374755Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6d700 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1e20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6d700 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1e20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -61,6 +61,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:57.551227Z'
-indexed_at: '2026-07-12T09:23:57.551233Z'
+  fetched_at: '2026-07-19T09:13:21.681490Z'
+indexed_at: '2026-07-19T09:13:21.681495Z'
 ---

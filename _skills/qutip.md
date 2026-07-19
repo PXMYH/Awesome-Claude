@@ -23,24 +23,24 @@ prompt_preview: '---
   # QuTiP: Quantum To...'
 full_prompt_length: 9042
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/qutip/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/qutip/SKILL.md
-fetched_at: '2026-07-12T05:30:54.560811+00:00'
+fetched_at: '2026-07-19T05:19:57.748808+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T05:58:20.699802Z'
+  evaluated_at: '2026-07-19T05:45:09.152580Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00642486e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210189970 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00642486e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210189970 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.418096Z'
-indexed_at: '2026-07-12T09:23:53.418102Z'
+  fetched_at: '2026-07-19T09:13:17.183643Z'
+indexed_at: '2026-07-19T09:13:17.183649Z'
 ---

@@ -15,24 +15,24 @@ prompt_preview: '---
   SPR target onboarding, fluorescent pixel art,...'
 full_prompt_length: 7324
 tools_mentioned:
-- go
 - Go
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/ginkgo-cloud-lab/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/ginkgo-cloud-lab/SKILL.md
-fetched_at: '2026-07-12T05:30:47.070122+00:00'
+fetched_at: '2026-07-19T05:19:50.088936+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T05:49:20.993269Z'
+  evaluated_at: '2026-07-19T05:36:11.047211Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00640018b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0260 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00640018b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0260 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +42,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.227089Z'
-indexed_at: '2026-07-12T09:23:53.227099Z'
+  fetched_at: '2026-07-19T09:13:16.975668Z'
+indexed_at: '2026-07-19T09:13:16.975675Z'

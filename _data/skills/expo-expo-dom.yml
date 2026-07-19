@@ -24,26 +24,26 @@ prompt_preview: '---
   rendering as-is on web. This enables using web-only libraries like `recharts`, `react-syntax-highl...'
 full_prompt_length: 9774
 tools_mentioned:
+- react
 - JavaScript
 - javascript
 - React
-- react
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-dom/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-dom/SKILL.md
-fetched_at: '2026-07-12T05:32:37.454625+00:00'
+fetched_at: '2026-07-19T05:21:23.591453+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:12:55.439860Z'
+  evaluated_at: '2026-07-19T07:02:01.891203Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064003170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21048f4a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064003170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21048f4a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -53,5 +53,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:55.002232Z'
-indexed_at: '2026-07-12T09:23:55.002238Z'
+  fetched_at: '2026-07-19T09:13:18.923696Z'
+indexed_at: '2026-07-19T09:13:18.923702Z'

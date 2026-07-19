@@ -13,24 +13,24 @@ prompt_preview: "---\nname: create-3d-scene\ndescription: >\n  Set up a Blender 
   allowed-tools: Read Write Edit..."
 full_prompt_length: 12528
 tools_mentioned:
-- python
 - Python
+- python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-3d-scene/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-3d-scene/SKILL.md
-fetched_at: '2026-07-12T05:34:32.803637+00:00'
+fetched_at: '2026-07-19T05:22:56.962587+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:12:50.285641Z'
+  evaluated_at: '2026-07-19T08:02:16.456800Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064001550 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1880 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064001550 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1880 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:56.273116Z'
-indexed_at: '2026-07-12T09:23:56.273122Z'
+  fetched_at: '2026-07-19T09:13:20.291583Z'
+indexed_at: '2026-07-19T09:13:20.291589Z'
 ---

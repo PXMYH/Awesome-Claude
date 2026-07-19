@@ -19,24 +19,24 @@ prompt_preview: '---
   no network; optional figures via the scientific-schematics skill...'
 full_prompt_length: 36467
 tools_mentioned:
-- go
 - python
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/research-grants/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/research-grants/SKILL.md
-fetched_at: '2026-07-12T05:30:54.796255+00:00'
+fetched_at: '2026-07-19T05:19:57.960801+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T05:58:36.962997Z'
+  evaluated_at: '2026-07-19T05:45:25.332753Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018a390 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018a390 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.423875Z'
-indexed_at: '2026-07-12T09:23:53.423881Z'
+  fetched_at: '2026-07-19T09:13:17.189901Z'
+indexed_at: '2026-07-19T09:13:17.189907Z'

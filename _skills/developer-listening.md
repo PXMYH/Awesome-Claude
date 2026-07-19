@@ -13,24 +13,24 @@ prompt_preview: "---\nname: developer-listening\ndescription: |\n  Monitor what 
   \ devtools\",\n  \"find developer conversations\", \"mo..."
 full_prompt_length: 7680
 tools_mentioned:
-- go
 - kubernetes
+- go
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/developer-listening/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/developer-listening/SKILL.md
-fetched_at: '2026-07-12T05:33:46.747605+00:00'
+fetched_at: '2026-07-19T05:22:33.762959+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:55:18.829169Z'
+  evaluated_at: '2026-07-19T07:44:35.472798Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e30a70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f1400 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e30a70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f1400 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:55.899441Z'
-indexed_at: '2026-07-12T09:23:55.899446Z'
+  fetched_at: '2026-07-19T09:13:19.888962Z'
+indexed_at: '2026-07-19T09:13:19.888967Z'
 ---

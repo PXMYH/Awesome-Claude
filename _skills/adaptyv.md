@@ -18,24 +18,24 @@ prompt_preview: '---
   or `FoundryClient`, or references `f...'
 full_prompt_length: 8805
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/adaptyv/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/adaptyv/SKILL.md
-fetched_at: '2026-07-12T05:30:42.128175+00:00'
+fetched_at: '2026-07-19T05:19:45.120942+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T05:43:25.829580Z'
+  evaluated_at: '2026-07-19T05:30:20.475097Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b230 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b230 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.101285Z'
-indexed_at: '2026-07-12T09:23:53.101291Z'
+  fetched_at: '2026-07-19T09:13:16.842715Z'
+indexed_at: '2026-07-19T09:13:16.842725Z'
 ---

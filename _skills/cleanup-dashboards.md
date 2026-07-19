@@ -7,7 +7,7 @@ description: '- Assign a dashboard owner for each core dashboard — someone res
 prompt_preview: "---\nname: cleanup-dashboards\ndescription: \"Audit and consolidate\
   \ HubSpot reporting dashboards. Identifies unused, duplicate, or outdated dashboards.\
   \ Must be performed manually — no dashboard API is available.\"\nlicense: MIT\n\
-  metadata:\n  author: tomgranot\n  version: \"1.0\"\n  category: ongoing-maintenance\n\
+  metadata:\n  author: tomgranot\n  version: \"1.1\"\n  category: ongoing-maintenance\n\
   ---\n\n# Cleanup Dashboards\n\nAudit HubSpot dashboards to remove clutter and consolidate\
   \ reporting. Too many dashboards means nobody uses any of them effectively.\n\n\
   ## Important Limitation\n\nHubSpot does..."
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/cleanup-dashboards/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/cleanup-dashboards/SKILL.md
-fetched_at: '2026-07-12T05:31:07.180689+00:00'
+fetched_at: '2026-07-19T05:20:07.877789+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:06:07.082366Z'
+  evaluated_at: '2026-07-19T05:53:01.114879Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002ea0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c09e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002ea0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c09e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.584699Z'
-indexed_at: '2026-07-12T09:23:53.584705Z'
+  fetched_at: '2026-07-19T09:13:17.362311Z'
+indexed_at: '2026-07-19T09:13:17.362317Z'
 ---

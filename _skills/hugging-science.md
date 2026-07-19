@@ -17,24 +17,24 @@ prompt_preview: '---
   discover and use resources via `datasets`, `transformers`,...'
 full_prompt_length: 9780
 tools_mentioned:
-- go
 - python
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/hugging-science/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/hugging-science/SKILL.md
-fetched_at: '2026-07-12T05:30:47.538415+00:00'
+fetched_at: '2026-07-19T05:19:50.566177+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T05:49:53.484756Z'
+  evaluated_at: '2026-07-19T05:36:43.785669Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00642afe00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0b00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00642afe00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0b00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.238626Z'
-indexed_at: '2026-07-12T09:23:53.238631Z'
+  fetched_at: '2026-07-19T09:13:16.988103Z'
+indexed_at: '2026-07-19T09:13:16.988108Z'
 ---

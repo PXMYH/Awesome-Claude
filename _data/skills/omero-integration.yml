@@ -17,24 +17,24 @@ prompt_preview: '---
   "OMERO server port (default 4064).", "required_for": "optional features"}, {"name":...'
 full_prompt_length: 8842
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/omero-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/omero-integration/SKILL.md
-fetched_at: '2026-07-12T05:30:50.498278+00:00'
+fetched_at: '2026-07-19T05:19:53.574622+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T05:53:25.657017Z'
+  evaluated_at: '2026-07-19T05:40:14.670090Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064dbfa10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2106b0830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064dbfa10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2106b0830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,5 +44,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.314131Z'
-indexed_at: '2026-07-12T09:23:53.314138Z'
+  fetched_at: '2026-07-19T09:13:17.067611Z'
+indexed_at: '2026-07-19T09:13:17.067616Z'

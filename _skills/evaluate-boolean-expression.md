@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/evaluate-boolean-expression/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/evaluate-boolean-expression/SKILL.md
-fetched_at: '2026-07-12T05:34:39.959021+00:00'
+fetched_at: '2026-07-19T05:23:03.610443+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:20:17.926308Z'
+  evaluated_at: '2026-07-19T08:09:43.912817Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000a70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3770 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000a70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3770 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:56.431777Z'
-indexed_at: '2026-07-12T09:23:56.431783Z'
+  fetched_at: '2026-07-19T09:13:20.460905Z'
+indexed_at: '2026-07-19T09:13:20.460910Z'
 ---

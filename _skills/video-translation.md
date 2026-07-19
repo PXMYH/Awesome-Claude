@@ -45,17 +45,17 @@ category_display: Community
 source_repo: NoizAI/skills
 source_path: skills/video-translation/SKILL.md
 source_url: https://github.com/NoizAI/skills/blob/main/skills/video-translation/SKILL.md
-fetched_at: '2026-07-12T05:31:01.441919+00:00'
+fetched_at: '2026-07-19T05:20:04.466361+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:04:53.905141Z'
+  evaluated_at: '2026-07-19T05:51:39.999850Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064683050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064683050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -65,6 +65,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.556748Z'
-indexed_at: '2026-07-12T09:23:53.556754Z'
+  fetched_at: '2026-07-19T09:13:17.331324Z'
+indexed_at: '2026-07-19T09:13:17.331330Z'
 ---

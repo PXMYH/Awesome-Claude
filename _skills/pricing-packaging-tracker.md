@@ -1,0 +1,44 @@
+---
+id: pricing-packaging-tracker
+slug: pricing-packaging-tracker
+name: Pricing & Packaging Tracker
+description: '- [`autonomous-investigation`](../autonomous-investigation/SKILL.md)
+  (Workflow) — the governing protocol'
+prompt_preview: "---\nname: pricing-packaging-tracker\nargument-hint: \"[competitor\
+  \ set, and prior capture if one exists]\"\ndescription: \"Track competitor pricing\
+  \ and packaging as a diffable time series. Use when monitoring tiers, gates, limits,\
+  \ and price moves on a monthly or quarterly cadence.\"\nintent: >-\n  Capture competitor\
+  \ public pricing pages into a stable schema, diff against the prior capture, and\n\
+  \  report tier changes, price moves, feature-gate shifts, and packaging restructures\
+  \ with URLs and\n  dates — beca..."
+full_prompt_length: 9293
+tools_mentioned:
+- rest
+category: community
+category_display: Community
+source_repo: deanpeters/Product-Manager-Skills
+source_path: skills/pricing-packaging-tracker/SKILL.md
+source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pricing-packaging-tracker/SKILL.md
+fetched_at: '2026-07-19T05:21:17.426968+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-07-19T06:56:59.434711Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21014fb90 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21014fb90 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-07-19T09:13:18.809304Z'
+indexed_at: '2026-07-19T09:13:18.809310Z'
+---

@@ -16,27 +16,27 @@ prompt_preview: '---
   RNA-seq reads or quant output and wants a complete, reproducible diffe...'
 full_prompt_length: 14560
 tools_mentioned:
+- Go
 - docker
 - go
 - python
 - Python
-- Go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/bulk-rnaseq/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/bulk-rnaseq/SKILL.md
-fetched_at: '2026-07-12T05:30:43.512719+00:00'
+fetched_at: '2026-07-19T05:19:46.534591+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T05:45:04.877844Z'
+  evaluated_at: '2026-07-19T05:31:58.151544Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00647b3bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3620 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00647b3bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3620 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.136222Z'
-indexed_at: '2026-07-12T09:23:53.136228Z'
+  fetched_at: '2026-07-19T09:13:16.879528Z'
+indexed_at: '2026-07-19T09:13:16.879533Z'
 ---

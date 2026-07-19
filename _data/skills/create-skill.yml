@@ -9,29 +9,29 @@ prompt_preview: "---\nname: create-skill\ndescription: >\n  Create a new SKILL.m
   \  Use when codifying a repeatable procedure for agents, adding a new\n  capability\
   \ to the skills library, converting a guide or runbook into\n  agent-consumable\
   \ format, or standardizing a workflo..."
-full_prompt_length: 18798
+full_prompt_length: 19163
 tools_mentioned:
-- Docker
-- Python
 - TypeScript
-- Rust
+- Docker
 - rest
+- Rust
+- Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-skill/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-skill/SKILL.md
-fetched_at: '2026-07-12T05:34:34.242324+00:00'
+fetched_at: '2026-07-19T05:22:58.288021+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:14:19.651925Z'
+  evaluated_at: '2026-07-19T08:03:46.593729Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00640014c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210188980 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00640014c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210188980 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:56.304755Z'
-indexed_at: '2026-07-12T09:23:56.304761Z'
+  fetched_at: '2026-07-19T09:13:20.325690Z'
+indexed_at: '2026-07-19T09:13:20.325696Z'

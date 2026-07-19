@@ -33,24 +33,24 @@ full_prompt_length: 2574
 tools_mentioned:
 - Docker
 - docker
-- Node.js
 - aws
+- Node.js
 category: community
 category_display: Community
 source_repo: jnMetaCode/shellward
 source_path: skills/security-guide/SKILL.md
 source_url: https://github.com/jnMetaCode/shellward/blob/main/skills/security-guide/SKILL.md
-fetched_at: '2026-07-12T05:33:43.746946+00:00'
+fetched_at: '2026-07-19T05:22:30.767244+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:53:24.694837Z'
+  evaluated_at: '2026-07-19T07:42:37.136705Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdd520 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f21e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdd520 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f21e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -60,6 +60,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:55.858671Z'
-indexed_at: '2026-07-12T09:23:55.858677Z'
+  fetched_at: '2026-07-19T09:13:19.844886Z'
+indexed_at: '2026-07-19T09:13:19.844892Z'
 ---

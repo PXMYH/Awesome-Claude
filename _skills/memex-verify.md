@@ -13,25 +13,25 @@ prompt_preview: "---\nname: memex-verify\ndescription: >\n  Run the local pre-co
   \ up and `.env` is sourced.\n  This is a v..."
 full_prompt_length: 8581
 tools_mentioned:
-- rust
 - Rust
 - docker
+- rust
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/memex-verify/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/memex-verify/SKILL.md
-fetched_at: '2026-07-12T05:34:50.139348+00:00'
+fetched_at: '2026-07-19T05:23:13.284135+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:30:56.350345Z'
+  evaluated_at: '2026-07-19T08:20:27.115983Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00644243e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b260 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00644243e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b260 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:56.656959Z'
-indexed_at: '2026-07-12T09:23:56.656964Z'
+  fetched_at: '2026-07-19T09:13:20.712740Z'
+indexed_at: '2026-07-19T09:13:20.712746Z'
 ---

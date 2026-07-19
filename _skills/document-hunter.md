@@ -12,26 +12,26 @@ prompt_preview: "---\nname: document-hunter\ndescription: Searches and retrieves
   \      purpose: Browser for..."
 full_prompt_length: 7158
 tools_mentioned:
+- Python
+- python
 - JavaScript
 - go
-- python
-- Python
 category: community
 category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/document-hunter/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/document-hunter/SKILL.md
-fetched_at: '2026-07-12T05:31:55.660625+00:00'
+fetched_at: '2026-07-19T05:20:48.016230+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:41:17.711901Z'
+  evaluated_at: '2026-07-19T06:28:36.467308Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e33530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018a7b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e33530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018a7b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:54.333899Z'
-indexed_at: '2026-07-12T09:23:54.333905Z'
+  fetched_at: '2026-07-19T09:13:18.168715Z'
+indexed_at: '2026-07-19T09:13:18.168720Z'
 ---

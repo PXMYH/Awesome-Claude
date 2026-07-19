@@ -37,17 +37,17 @@ category_display: Community
 source_repo: imbue-ai/blueprint
 source_path: skills/blueprint-generate/SKILL.md
 source_url: https://github.com/imbue-ai/blueprint/blob/main/skills/blueprint-generate/SKILL.md
-fetched_at: '2026-07-12T05:33:23.539633+00:00'
+fetched_at: '2026-07-19T05:21:57.305585+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:46:32.794573Z'
+  evaluated_at: '2026-07-19T07:35:48.219981Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdf230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b6b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdf230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b6b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:55.714284Z'
-indexed_at: '2026-07-12T09:23:55.714290Z'
+  fetched_at: '2026-07-19T09:13:19.691679Z'
+indexed_at: '2026-07-19T09:13:19.691685Z'
 ---

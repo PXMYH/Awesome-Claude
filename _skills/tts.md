@@ -21,17 +21,17 @@ category_display: Community
 source_repo: NoizAI/skills
 source_path: skills/tts/SKILL.md
 source_url: https://github.com/NoizAI/skills/blob/main/skills/tts/SKILL.md
-fetched_at: '2026-07-12T05:31:01.332646+00:00'
+fetched_at: '2026-07-19T05:20:04.345859+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:04:45.755473Z'
+  evaluated_at: '2026-07-19T05:51:31.894908Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064003800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c14f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064003800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c14f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.553981Z'
-indexed_at: '2026-07-12T09:23:53.553986Z'
+  fetched_at: '2026-07-19T09:13:17.328346Z'
+indexed_at: '2026-07-19T09:13:17.328352Z'
 ---

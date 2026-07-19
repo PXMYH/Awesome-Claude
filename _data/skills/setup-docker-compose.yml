@@ -11,26 +11,26 @@ prompt_preview: "---\nname: setup-docker-compose\ndescription: >\n  Configure Do
   \ R projects.\nlicense: MIT\na..."
 full_prompt_length: 6811
 tools_mentioned:
-- PostgreSQL
-- docker
-- postgresql
 - Docker
+- docker
+- PostgreSQL
+- postgresql
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/setup-docker-compose/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/setup-docker-compose/SKILL.md
-fetched_at: '2026-07-12T05:35:02.335103+00:00'
+fetched_at: '2026-07-19T05:23:24.681203+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:43:43.918178Z'
+  evaluated_at: '2026-07-19T08:33:11.861386Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f006424b1a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1c10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f006424b1a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1c10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:56.931928Z'
-indexed_at: '2026-07-12T09:23:56.931934Z'
+  fetched_at: '2026-07-19T09:13:21.014948Z'
+indexed_at: '2026-07-19T09:13:21.014954Z'

@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/meditate-guidance/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/meditate-guidance/SKILL.md
-fetched_at: '2026-07-12T05:34:49.614579+00:00'
+fetched_at: '2026-07-19T05:23:12.811450+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:30:23.859615Z'
+  evaluated_at: '2026-07-19T08:19:54.152008Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064003860 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018ad20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064003860 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018ad20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:56.645385Z'
-indexed_at: '2026-07-12T09:23:56.645397Z'
+  fetched_at: '2026-07-19T09:13:20.700312Z'
+indexed_at: '2026-07-19T09:13:20.700318Z'
 ---

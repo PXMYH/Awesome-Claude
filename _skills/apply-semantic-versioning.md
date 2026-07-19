@@ -21,17 +21,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/apply-semantic-versioning/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/apply-semantic-versioning/SKILL.md
-fetched_at: '2026-07-12T05:34:24.308003+00:00'
+fetched_at: '2026-07-19T05:22:48.947024+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:04:03.229441Z'
+  evaluated_at: '2026-07-19T07:53:26.090042Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6d430 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210189a60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6d430 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210189a60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:56.086137Z'
-indexed_at: '2026-07-12T09:23:56.086143Z'
+  fetched_at: '2026-07-19T09:13:20.089349Z'
+indexed_at: '2026-07-19T09:13:20.089354Z'
 ---

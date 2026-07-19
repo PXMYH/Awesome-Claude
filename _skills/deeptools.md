@@ -12,24 +12,24 @@ prompt_preview: "---\nname: deeptools\ndescription: NGS analysis toolkit. BAM to
   \ for reproducible comman..."
 full_prompt_length: 19164
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/deeptools/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/deeptools/SKILL.md
-fetched_at: '2026-07-12T05:30:44.939375+00:00'
+fetched_at: '2026-07-19T05:19:47.899831+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T05:46:43.722988Z'
+  evaluated_at: '2026-07-19T05:33:36.659234Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00651725a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0ef0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00651725a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0ef0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.171495Z'
-indexed_at: '2026-07-12T09:23:53.171501Z'
+  fetched_at: '2026-07-19T09:13:16.917384Z'
+indexed_at: '2026-07-19T09:13:16.917390Z'
 ---

@@ -13,27 +13,27 @@ prompt_preview: "---\nname: configure-api-gateway\ndescription: >\n  Deploy and 
   \ API versioning,\n  o..."
 full_prompt_length: 14539
 tools_mentioned:
-- Docker
 - kubernetes
-- PostgreSQL
 - Kubernetes
+- PostgreSQL
+- Docker
 - Redis
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/configure-api-gateway/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/configure-api-gateway/SKILL.md
-fetched_at: '2026-07-12T05:34:30.532772+00:00'
+fetched_at: '2026-07-19T05:22:54.997060+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:10:39.520924Z'
+  evaluated_at: '2026-07-19T08:00:05.645934Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdd010 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018bce0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdd010 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018bce0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:56.225999Z'
-indexed_at: '2026-07-12T09:23:56.226005Z'
+  fetched_at: '2026-07-19T09:13:20.241156Z'
+indexed_at: '2026-07-19T09:13:20.241165Z'
 ---

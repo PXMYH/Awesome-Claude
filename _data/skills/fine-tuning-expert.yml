@@ -20,17 +20,17 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/fine-tuning-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/fine-tuning-expert/SKILL.md
-fetched_at: '2026-07-12T05:33:37.802523+00:00'
+fetched_at: '2026-07-19T05:22:16.369477+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:50:40.322429Z'
+  evaluated_at: '2026-07-19T07:39:54.266082Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00640020f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2180 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00640020f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2180 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:55.801620Z'
-indexed_at: '2026-07-12T09:23:55.801626Z'
+  fetched_at: '2026-07-19T09:13:19.784091Z'
+indexed_at: '2026-07-19T09:13:19.784097Z'

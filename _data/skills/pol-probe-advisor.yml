@@ -11,24 +11,24 @@ prompt_preview: "---\nname: pol-probe-advisor\nargument-hint: \"[hypothesis or r
   \ risk or test a narrow hypothe..."
 full_prompt_length: 21075
 tools_mentioned:
-- Flask
 - Python
+- Flask
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/pol-probe-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pol-probe-advisor/SKILL.md
-fetched_at: '2026-07-12T05:32:26.973245+00:00'
+fetched_at: '2026-07-19T05:21:16.627316+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:07:29.022523Z'
+  evaluated_at: '2026-07-19T06:56:02.410990Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063f97680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f0830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063f97680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f0830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:54.887152Z'
-indexed_at: '2026-07-12T09:23:54.887157Z'
+  fetched_at: '2026-07-19T09:13:18.787970Z'
+indexed_at: '2026-07-19T09:13:18.787976Z'

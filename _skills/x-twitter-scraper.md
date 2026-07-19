@@ -7,34 +7,41 @@ prompt_preview: '---
 
   name: x-twitter-scraper
 
-  description: "Use when the user needs X (Twitter) data through Xquik: REST API integration,
-  MCP setup, SDK setup, tweet search, user lookup, timeline reads, follower export,
-  media download, monitoring, webhooks, bulk extraction, giveaway draws, or confirmation-gated
-  publishing workflows. Trigger with requests like \"search tweets\", \"export followers\",
-  \"set up Xquik MCP\", or \"monitor this X account\". Read-only by default, API-key
-  only, no X login material, and e...'
-full_prompt_length: 20950
+  description: "Use Xquik for X/Twitter REST, MCP, SDKs, search, exports, monitoring
+  & approved publishing. Not affiliated with X Corp. Trigger for tweet search, user
+  lookup, timelines, follower exports, media, webhooks, bulk extraction, giveaways,
+  or MCP setup. Read-only by default. Require explicit approval for writes, private
+  reads, monitors, webhooks & metered bulk jobs."
+
+  allowed-tools: WebFetch
+
+  argument-hint: "[Xquik task, target, or setup goal]"
+
+  version: "2.5.3"
+
+  a...'
+full_prompt_length: 21421
 tools_mentioned:
-- TypeScript
 - REST
-- python
 - Python
+- python
+- TypeScript
 category: community
 category_display: Community
 source_repo: Xquik-dev/x-twitter-scraper
 source_path: skills/x-twitter-scraper/SKILL.md
 source_url: https://github.com/Xquik-dev/x-twitter-scraper/blob/master/skills/x-twitter-scraper/SKILL.md
-fetched_at: '2026-07-12T05:31:38.446476+00:00'
+fetched_at: '2026-07-19T05:20:32.607553+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:31:03.452448Z'
+  evaluated_at: '2026-07-19T06:18:27.357812Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdf1a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018a0f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdf1a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018a0f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:54.118240Z'
-indexed_at: '2026-07-12T09:23:54.118247Z'
+  fetched_at: '2026-07-19T09:13:17.942024Z'
+indexed_at: '2026-07-19T09:13:17.942030Z'
 ---

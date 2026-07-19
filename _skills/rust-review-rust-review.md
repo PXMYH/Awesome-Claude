@@ -24,25 +24,25 @@ prompt_preview: '---
   Runs in the main conversation (invok...'
 full_prompt_length: 43919
 tools_mentioned:
-- rust
-- Rust
 - rest
+- Rust
+- rust
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/rust-review/skills/rust-review/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/rust-review/skills/rust-review/SKILL.md
-fetched_at: '2026-07-12T05:36:42.014846+00:00'
+fetched_at: '2026-07-19T05:24:20.718568+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T09:15:11.025657Z'
+  evaluated_at: '2026-07-19T09:04:36.829470Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6dfa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0cb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6dfa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0cb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:57.601102Z'
-indexed_at: '2026-07-12T09:23:57.601108Z'
+  fetched_at: '2026-07-19T09:13:21.734191Z'
+indexed_at: '2026-07-19T09:13:21.734197Z'
 ---

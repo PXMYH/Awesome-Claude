@@ -13,25 +13,25 @@ prompt_preview: "---\nname: power-user-cultivation\ndescription: When the user w
 full_prompt_length: 16963
 tools_mentioned:
 - AWS
-- Docker
 - docker
+- Docker
 - GCP
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/power-user-cultivation/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/power-user-cultivation/SKILL.md
-fetched_at: '2026-07-12T05:33:50.233589+00:00'
+fetched_at: '2026-07-19T05:22:35.861183+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:57:13.567918Z'
+  evaluated_at: '2026-07-19T07:46:32.399580Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6c680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c15b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6c680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c15b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:55.941331Z'
-indexed_at: '2026-07-12T09:23:55.941337Z'
+  fetched_at: '2026-07-19T09:13:19.933562Z'
+indexed_at: '2026-07-19T09:13:19.933567Z'
 ---

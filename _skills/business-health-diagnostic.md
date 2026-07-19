@@ -17,17 +17,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/business-health-diagnostic/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/business-health-diagnostic/SKILL.md
-fetched_at: '2026-07-12T05:32:24.107379+00:00'
+fetched_at: '2026-07-19T05:21:12.985468+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:04:20.407583Z'
+  evaluated_at: '2026-07-19T06:51:58.332331Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064001430 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0680 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064001430 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0680 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:54.820598Z'
-indexed_at: '2026-07-12T09:23:54.820604Z'
+  fetched_at: '2026-07-19T09:13:18.695449Z'
+indexed_at: '2026-07-19T09:13:18.695454Z'
 ---

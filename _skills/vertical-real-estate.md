@@ -21,17 +21,17 @@ category_display: Community
 source_repo: avelikiy/great_cto
 source_path: skills/vertical-real-estate/SKILL.md
 source_url: https://github.com/avelikiy/great_cto/blob/main/skills/vertical-real-estate/SKILL.md
-fetched_at: '2026-07-12T05:31:52.203211+00:00'
+fetched_at: '2026-07-19T05:20:45.033885+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:39:31.779924Z'
+  evaluated_at: '2026-07-19T06:26:50.894029Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e31670 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1550 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e31670 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1550 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:54.296615Z'
-indexed_at: '2026-07-12T09:23:54.296622Z'
+  fetched_at: '2026-07-19T09:13:18.129415Z'
+indexed_at: '2026-07-19T09:13:18.129421Z'
 ---

@@ -19,17 +19,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/stakeholder-engagement-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/stakeholder-engagement-advisor/SKILL.md
-fetched_at: '2026-07-12T05:32:29.824607+00:00'
+fetched_at: '2026-07-19T05:21:18.852956+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:09:47.581078Z'
+  evaluated_at: '2026-07-19T06:58:38.593946Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21048d5e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21048d5e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:54.935782Z'
-indexed_at: '2026-07-12T09:23:54.935788Z'
+  fetched_at: '2026-07-19T09:13:18.846063Z'
+indexed_at: '2026-07-19T09:13:18.846069Z'
 ---

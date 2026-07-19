@@ -6,27 +6,28 @@ prompt_preview: "---\nname: bounce-monitoring-workflow\ndescription: \"Build a w
   \ to protect sender reputation through automated bounce monitoring. Auto-suppresses\
   \ contacts above a configurable bounce threshold, alerts on hard bounces, and flags\
   \ high-bounce contacts for weekly manual review.\"\nlicense: MIT\nmetadata:\n  author:\
-  \ tomgranot\n  version: \"1.0\"\n  category: automation-workflows\n---\n\n# Bounce\
+  \ tomgranot\n  version: \"1.1\"\n  category: automation-workflows\n---\n\n# Bounce\
   \ Monitoring Workflow\n\nProtect your email sender reputation with automated bounce\
   \ detection and suppression. This w..."
-full_prompt_length: 7435
-tools_mentioned: []
+full_prompt_length: 7400
+tools_mentioned:
+- Python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/bounce-monitoring-workflow/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/bounce-monitoring-workflow/SKILL.md
-fetched_at: '2026-07-12T05:31:06.785383+00:00'
+fetched_at: '2026-07-19T05:20:07.518469+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:05:42.712461Z'
+  evaluated_at: '2026-07-19T05:52:36.865295Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e303b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018a510 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e303b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018a510 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.575773Z'
-indexed_at: '2026-07-12T09:23:53.575784Z'
+  fetched_at: '2026-07-19T09:13:17.352967Z'
+indexed_at: '2026-07-19T09:13:17.352972Z'

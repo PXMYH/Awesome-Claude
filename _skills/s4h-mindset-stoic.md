@@ -21,17 +21,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-mindset-stoic/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-mindset-stoic/SKILL.md
-fetched_at: '2026-07-12T05:33:10.988454+00:00'
+fetched_at: '2026-07-19T05:21:45.999490+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:35:04.305995Z'
+  evaluated_at: '2026-07-19T07:24:26.238286Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdeff0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101890a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdeff0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101890a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:55.473455Z'
-indexed_at: '2026-07-12T09:23:55.473461Z'
+  fetched_at: '2026-07-19T09:13:19.436319Z'
+indexed_at: '2026-07-19T09:13:19.436325Z'
 ---

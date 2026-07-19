@@ -1,0 +1,43 @@
+---
+id: assess-github-repo-security
+slug: assess-github-repo-security
+name: Assess GitHub Repository Security
+description: '- `harden-github-repo-security` - apply the fixes this audit surfaces'
+prompt_preview: "---\nname: assess-github-repo-security\ndescription: >\n  Read-only\
+  \ audit of a GitHub repository's security posture. Gathers ref\n  protection (rulesets\
+  \ AND classic branch protection), Actions token\n  permissions, code and supply-chain\
+  \ features (Dependabot, secret\n  scanning, push protection, CodeQL), and repo hygiene\
+  \ toggles via\n  `gh api`, then classifies findings against essential / recommended\
+  \ /\n  advanced tiers into a PASS/GAP report. Makes NO changes. Use when\n  reviewing\
+  \ a repo before open-so..."
+full_prompt_length: 19076
+tools_mentioned:
+- rest
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/assess-github-repo-security/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/assess-github-repo-security/SKILL.md
+fetched_at: '2026-07-19T05:22:49.583420+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-07-19T07:54:07.569500Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2104c55e0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2104c55e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-07-19T09:13:20.104772Z'
+indexed_at: '2026-07-19T09:13:20.104778Z'
+---

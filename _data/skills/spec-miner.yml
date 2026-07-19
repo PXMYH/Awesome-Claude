@@ -21,17 +21,17 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/spec-miner/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/spec-miner/SKILL.md
-fetched_at: '2026-07-12T05:33:41.644626+00:00'
+fetched_at: '2026-07-19T05:22:28.817923+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:52:43.308486Z'
+  evaluated_at: '2026-07-19T07:41:56.650369Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00640006b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f1190 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00640006b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f1190 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:55.844590Z'
-indexed_at: '2026-07-12T09:23:55.844595Z'
+  fetched_at: '2026-07-19T09:13:19.829578Z'
+indexed_at: '2026-07-19T09:13:19.829584Z'

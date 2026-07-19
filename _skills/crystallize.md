@@ -17,17 +17,17 @@ category_display: Community
 source_repo: avelikiy/great_cto
 source_path: skills/crystallize/SKILL.md
 source_url: https://github.com/avelikiy/great_cto/blob/main/skills/crystallize/SKILL.md
-fetched_at: '2026-07-12T05:31:47.818216+00:00'
+fetched_at: '2026-07-19T05:20:40.668636+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:35:58.051702Z'
+  evaluated_at: '2026-07-19T06:23:19.265381Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f006424a510 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21014fc80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f006424a510 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21014fc80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:54.221899Z'
-indexed_at: '2026-07-12T09:23:54.221905Z'
+  fetched_at: '2026-07-19T09:13:18.050525Z'
+indexed_at: '2026-07-19T09:13:18.050539Z'
 ---

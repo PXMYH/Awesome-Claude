@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/coordinate-swarm/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/coordinate-swarm/SKILL.md
-fetched_at: '2026-07-12T05:34:32.427722+00:00'
+fetched_at: '2026-07-19T05:22:56.598120+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:12:25.947741Z'
+  evaluated_at: '2026-07-19T08:01:52.156138Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fddee0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210188ec0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fddee0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210188ec0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:56.264249Z'
-indexed_at: '2026-07-12T09:23:56.264255Z'
+  fetched_at: '2026-07-19T09:13:20.282133Z'
+indexed_at: '2026-07-19T09:13:20.282139Z'
 ---

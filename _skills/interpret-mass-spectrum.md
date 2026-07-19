@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/interpret-mass-spectrum/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/interpret-mass-spectrum/SKILL.md
-fetched_at: '2026-07-12T05:34:46.479512+00:00'
+fetched_at: '2026-07-19T05:23:09.904912+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:27:08.559078Z'
+  evaluated_at: '2026-07-19T08:16:38.648140Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064003d40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101891c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064003d40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101891c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:56.576401Z'
-indexed_at: '2026-07-12T09:23:56.576407Z'
+  fetched_at: '2026-07-19T09:13:20.625232Z'
+indexed_at: '2026-07-19T09:13:20.625237Z'
 ---

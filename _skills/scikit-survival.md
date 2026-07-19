@@ -15,24 +15,24 @@ prompt_preview: '---
   survival analysis workflow with the scikit-survival library...'
 full_prompt_length: 14982
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/scikit-survival/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/scikit-survival/SKILL.md
-fetched_at: '2026-07-12T05:30:56.323760+00:00'
+fetched_at: '2026-07-19T05:19:59.507948+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:00:23.000197Z'
+  evaluated_at: '2026-07-19T05:47:11.794705Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000dd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018af90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000dd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018af90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.461679Z'
-indexed_at: '2026-07-12T09:23:53.461685Z'
+  fetched_at: '2026-07-19T09:13:17.230515Z'
+indexed_at: '2026-07-19T09:13:17.230521Z'
 ---

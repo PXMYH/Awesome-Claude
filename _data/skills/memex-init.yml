@@ -12,25 +12,25 @@ prompt_preview: "---\nname: memex-init\ndescription: >\n  Run the memex session-
   \ the store/db) — this is the..."
 full_prompt_length: 8601
 tools_mentioned:
-- Rust
 - Docker
+- Rust
 - docker
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/memex-init/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/memex-init/SKILL.md
-fetched_at: '2026-07-12T05:34:49.894158+00:00'
+fetched_at: '2026-07-19T05:23:13.053013+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:30:40.103336Z'
+  evaluated_at: '2026-07-19T08:20:10.599935Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064003770 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3dd0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064003770 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3dd0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:56.651139Z'
-indexed_at: '2026-07-12T09:23:56.651146Z'
+  fetched_at: '2026-07-19T09:13:20.706547Z'
+indexed_at: '2026-07-19T09:13:20.706553Z'

@@ -6,30 +6,30 @@ description: '- Run this quarterly as part of the database cleanup routine.'
 prompt_preview: "---\nname: cleanup-lists\ndescription: \"Audit and remove unused,\
   \ empty, or duplicate list definitions from HubSpot. Identifies lists with zero\
   \ members, lists not used by any workflow or email, and overlapping list criteria.\"\
-  \nlicense: MIT\nmetadata:\n  author: tomgranot\n  version: \"1.0\"\n  category:\
+  \nlicense: MIT\nmetadata:\n  author: tomgranot\n  version: \"1.1\"\n  category:\
   \ ongoing-maintenance\n---\n\n# Cleanup Lists\n\nAudit HubSpot lists to remove clutter.\
   \ Unused lists slow down the UI, confuse team members, and can mask the lists that\
-  \ actually matter.\n\n## Prerequisites\n\n- HubSp..."
-full_prompt_length: 2599
+  \ actually matter.\n\n## Prerequisites\n\n- A Hub..."
+full_prompt_length: 3287
 tools_mentioned:
-- python
 - Python
+- python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/cleanup-lists/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/cleanup-lists/SKILL.md
-fetched_at: '2026-07-12T05:31:07.699489+00:00'
+fetched_at: '2026-07-19T05:20:08.355585+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:06:39.579625Z'
+  evaluated_at: '2026-07-19T05:53:33.537782Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e300b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0110 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e300b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0110 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.596264Z'
-indexed_at: '2026-07-12T09:23:53.596271Z'
+  fetched_at: '2026-07-19T09:13:17.374648Z'
+indexed_at: '2026-07-19T09:13:17.374653Z'
 ---

@@ -31,17 +31,17 @@ category_display: Community
 source_repo: inhouseseo/superseo-skills
 source_path: skills/page-audit/SKILL.md
 source_url: https://github.com/inhouseseo/superseo-skills/blob/main/skills/page-audit/SKILL.md
-fetched_at: '2026-07-12T05:33:30.040180+00:00'
+fetched_at: '2026-07-19T05:21:59.450465+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:47:48.236788Z'
+  evaluated_at: '2026-07-19T07:37:01.729392Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002990 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b890 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002990 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b890 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:55.740227Z'
-indexed_at: '2026-07-12T09:23:55.740232Z'
+  fetched_at: '2026-07-19T09:13:19.719058Z'
+indexed_at: '2026-07-19T09:13:19.719064Z'
 ---

@@ -9,30 +9,31 @@ prompt_preview: "---\nname: enrich-company-name\ndescription: \"Populate missing
   \ company name fields from associated company records using a HubSpot workflow with\
   \ optional API backfill. Ensures contacts inherit their company name for segmentation,\
   \ personalization, and ICP classification.\"\nlicense: MIT\nmetadata:\n  author:\
-  \ tomgranot\n  version: \"1.0\"\n  category: data-enrichment\n---\n\n# Enrich Contact\
+  \ tomgranot\n  version: \"1.1\"\n  category: data-enrichment\n---\n\n# Enrich Contact\
   \ Company Name from Associated Company\n\nPopulate missing contact-level company\
   \ name fields by copying the value fr..."
-full_prompt_length: 7941
+full_prompt_length: 8523
 tools_mentioned:
-- go
-- python
 - Go
+- Python
+- python
+- go
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/enrich-company-name/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/enrich-company-name/SKILL.md
-fetched_at: '2026-07-12T05:31:08.608002+00:00'
+fetched_at: '2026-07-19T05:20:09.349880+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:07:37.016366Z'
+  evaluated_at: '2026-07-19T05:54:38.698320Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e316a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0c80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e316a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0c80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.616338Z'
-indexed_at: '2026-07-12T09:23:53.616344Z'
+  fetched_at: '2026-07-19T09:13:17.399453Z'
+indexed_at: '2026-07-19T09:13:17.399459Z'
 ---

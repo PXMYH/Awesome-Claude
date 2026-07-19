@@ -32,17 +32,17 @@ category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-router/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-router/SKILL.md
-fetched_at: '2026-07-12T05:32:37.913017+00:00'
+fetched_at: '2026-07-19T05:21:24.123892+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:13:28.864250Z'
+  evaluated_at: '2026-07-19T07:02:42.385974Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064003170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b860 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064003170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b860 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:55.013675Z'
-indexed_at: '2026-07-12T09:23:55.013681Z'
+  fetched_at: '2026-07-19T09:13:18.939189Z'
+indexed_at: '2026-07-19T09:13:18.939199Z'
 ---

@@ -11,25 +11,24 @@ prompt_preview: "---\nname: agenttrace-session-audit\ndescription: Audit local A
   \ traces for cost, tokens, tool failures, latency, anomalies, health, diffs, or\
   \ CI gates.\nlicense: MIT\nmetadata:\n  short-description: Audit AI agent session\
   \ health\n---\n\n# agenttrace Session..."
-full_prompt_length: 2280
-tools_mentioned:
-- go
+full_prompt_length: 2635
+tools_mentioned: []
 category: community
 category_display: Community
 source_repo: luoyuctl/agenttrace
 source_path: skills/agenttrace-session-audit/SKILL.md
 source_url: https://github.com/luoyuctl/agenttrace/blob/master/skills/agenttrace-session-audit/SKILL.md
-fetched_at: '2026-07-12T05:33:54.018831+00:00'
+fetched_at: '2026-07-19T05:22:39.590820+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:58:34.774745Z'
+  evaluated_at: '2026-07-19T07:47:55.083512Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6dee0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1850 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6dee0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1850 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:55.971330Z'
-indexed_at: '2026-07-12T09:23:55.971335Z'
+  fetched_at: '2026-07-19T09:13:19.965551Z'
+indexed_at: '2026-07-19T09:13:19.965556Z'
 ---

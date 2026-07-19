@@ -23,25 +23,25 @@ prompt_preview: '---
   compatibility: Requires the agent-lsp MCP server (github.com/blackwell-systems/agen...'
 full_prompt_length: 4794
 tools_mentioned:
+- Go
 - Rust
 - go
-- Go
 category: community
 category_display: Community
 source_repo: blackwell-systems/agent-lsp
 source_path: skills/lsp-docs/SKILL.md
 source_url: https://github.com/blackwell-systems/agent-lsp/blob/main/skills/lsp-docs/SKILL.md
-fetched_at: '2026-07-12T05:32:02.679441+00:00'
+fetched_at: '2026-07-19T05:20:54.615340+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:47:57.975383Z'
+  evaluated_at: '2026-07-19T06:35:16.077436Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000560 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c06e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000560 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c06e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:54.475587Z'
-indexed_at: '2026-07-12T09:23:54.475593Z'
+  fetched_at: '2026-07-19T09:13:18.318796Z'
+indexed_at: '2026-07-19T09:13:18.318801Z'
 ---

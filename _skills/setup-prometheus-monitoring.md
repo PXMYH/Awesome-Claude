@@ -13,25 +13,25 @@ prompt_preview: "---\nname: setup-prometheus-monitoring\ndescription: >\n  Confi
   \ solutions to a mo..."
 full_prompt_length: 15791
 tools_mentioned:
-- kubernetes
 - Kubernetes
+- kubernetes
 - python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/setup-prometheus-monitoring/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/setup-prometheus-monitoring/SKILL.md
-fetched_at: '2026-07-12T05:35:02.851271+00:00'
+fetched_at: '2026-07-19T05:23:25.137004+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:44:16.424522Z'
+  evaluated_at: '2026-07-19T08:33:44.866118Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdcb00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1280 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdcb00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1280 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:56.943677Z'
-indexed_at: '2026-07-12T09:23:56.943683Z'
+  fetched_at: '2026-07-19T09:13:21.027556Z'
+indexed_at: '2026-07-19T09:13:21.027562Z'
 ---

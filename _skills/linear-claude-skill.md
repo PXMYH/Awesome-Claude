@@ -5,17 +5,17 @@ name: Linear
 description: '**External:** [Linear MCP Documentation](https://linear.app/docs/mcp.md)'
 prompt_preview: "---\nname: Linear\ndescription: Managing Linear issues, projects,\
   \ and teams. Use when working with Linear tasks, creating issues, updating status,\
-  \ querying projects, or managing team workflows.\nversion: 3.4.0\nauthor: Ryan Smith\
+  \ querying projects, or managing team workflows.\nversion: 3.4.1\nauthor: Ryan Smith\
   \ <ryan@smithhorn.ca>\ntags:\n  - linear\n  - issue-tracking\n  - project-management\n\
   \  - mcp\n  - graphql\n  - workflow\nallowed-tools:\n  - mcp__linear\n  - WebFetch(domain:linear.app)\n\
   \  - Bash\n---\n\n# Linear\n\nTools and workflows for managing issues, projects,\
   \ and teams in Linear.\n\n--..."
 full_prompt_length: 23201
 tools_mentioned:
-- GraphQL
-- javascript
 - Go
+- GraphQL
 - TypeScript
+- javascript
 - Rust
 - graphql
 category: community
@@ -23,17 +23,17 @@ category_display: Community
 source_repo: wrsmith108/linear-claude-skill
 source_path: SKILL.md
 source_url: https://github.com/wrsmith108/linear-claude-skill/blob/main/SKILL.md
-fetched_at: '2026-07-12T05:37:43.120243+00:00'
+fetched_at: '2026-07-19T05:24:39.395688+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T09:21:09.913629Z'
+  evaluated_at: '2026-07-19T09:10:33.926209Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdcb60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018be30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdcb60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018be30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:57.731859Z'
-indexed_at: '2026-07-12T09:23:57.731865Z'
+  fetched_at: '2026-07-19T09:13:21.870816Z'
+indexed_at: '2026-07-19T09:13:21.870821Z'
 ---

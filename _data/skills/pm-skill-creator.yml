@@ -9,24 +9,24 @@ prompt_preview: "---\nname: pm-skill-creator\nargument-hint: \"[idea or raw cont
   \ to a structured, repo-compliant SKILL.md draft. Asks adaptive questions to determine\
   \ skill type, scope, structure, and content, then generates a ready-to-validate\
   \ draft.\ntype: interactive..."
-full_prompt_length: 16419
+full_prompt_length: 16801
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/pm-skill-creator/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pm-skill-creator/SKILL.md
-fetched_at: '2026-07-12T05:32:26.856669+00:00'
+fetched_at: '2026-07-19T05:21:16.501833+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:07:20.895867Z'
+  evaluated_at: '2026-07-19T06:55:54.333506Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064301610 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f3a70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064301610 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f3a70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:54.884326Z'
-indexed_at: '2026-07-12T09:23:54.884332Z'
+  fetched_at: '2026-07-19T09:13:18.784937Z'
+indexed_at: '2026-07-19T09:13:18.784946Z'

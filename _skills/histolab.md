@@ -21,24 +21,24 @@ prompt_preview: '---
   and Linux or macOS. Samp...'
 full_prompt_length: 22040
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/histolab/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/histolab/SKILL.md
-fetched_at: '2026-07-12T05:30:47.413402+00:00'
+fetched_at: '2026-07-19T05:19:50.452947+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T05:49:45.350340Z'
+  evaluated_at: '2026-07-19T05:36:35.679906Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00642afe00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0140 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00642afe00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0140 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.235653Z'
-indexed_at: '2026-07-12T09:23:53.235659Z'
+  fetched_at: '2026-07-19T09:13:16.984904Z'
+indexed_at: '2026-07-19T09:13:16.984910Z'
 ---

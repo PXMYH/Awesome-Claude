@@ -18,17 +18,17 @@ category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/winback-engine/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/winback-engine/SKILL.md
-fetched_at: '2026-07-12T05:32:13.686904+00:00'
+fetched_at: '2026-07-19T05:21:05.218025+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:57:47.021286Z'
+  evaluated_at: '2026-07-19T06:45:02.534199Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21098f290 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21098f290 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:54.684737Z'
-indexed_at: '2026-07-12T09:23:54.684743Z'
+  fetched_at: '2026-07-19T09:13:18.539852Z'
+indexed_at: '2026-07-19T09:13:18.539862Z'
 ---

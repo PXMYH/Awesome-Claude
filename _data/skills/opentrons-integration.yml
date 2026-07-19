@@ -27,25 +27,25 @@ prompt_preview: '---
   Opentrons is a Python-bas...'
 full_prompt_length: 14735
 tools_mentioned:
+- Python
 - python
 - go
-- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/opentrons-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/opentrons-integration/SKILL.md
-fetched_at: '2026-07-12T05:30:50.826114+00:00'
+fetched_at: '2026-07-19T05:19:53.920815+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T05:53:50.019687Z'
+  evaluated_at: '2026-07-19T05:40:39.273504Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00642aebd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b440 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00642aebd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b440 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -55,5 +55,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.323050Z'
-indexed_at: '2026-07-12T09:23:53.323056Z'
+  fetched_at: '2026-07-19T09:13:17.076826Z'
+indexed_at: '2026-07-19T09:13:17.076831Z'

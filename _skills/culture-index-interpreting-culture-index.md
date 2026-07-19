@@ -17,24 +17,24 @@ prompt_preview: '---
   allowed-tools...'
 full_prompt_length: 13993
 tools_mentioned:
-- python
 - Go
+- python
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/culture-index/skills/interpreting-culture-index/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/culture-index/skills/interpreting-culture-index/SKILL.md
-fetched_at: '2026-07-12T05:36:13.124315+00:00'
+fetched_at: '2026-07-19T05:24:05.052909+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T09:13:00.743488Z'
+  evaluated_at: '2026-07-19T09:02:26.505879Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6da90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1490 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e6da90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1490 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:57.554311Z'
-indexed_at: '2026-07-12T09:23:57.554317Z'
+  fetched_at: '2026-07-19T09:13:21.684767Z'
+indexed_at: '2026-07-19T09:13:21.684773Z'
 ---

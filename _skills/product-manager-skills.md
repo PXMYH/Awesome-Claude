@@ -34,17 +34,17 @@ category_display: Community
 source_repo: Digidai/product-manager-skills
 source_path: SKILL.md
 source_url: https://github.com/Digidai/product-manager-skills/blob/main/SKILL.md
-fetched_at: '2026-07-12T05:30:24.920521+00:00'
+fetched_at: '2026-07-19T05:19:37.916203+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T05:39:20.197434Z'
+  evaluated_at: '2026-07-19T05:26:12.986082Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f006454bf20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210473650 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f006454bf20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210473650 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.013626Z'
-indexed_at: '2026-07-12T09:23:53.013632Z'
+  fetched_at: '2026-07-19T09:13:16.750912Z'
+indexed_at: '2026-07-19T09:13:16.750917Z'
 ---

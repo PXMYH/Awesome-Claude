@@ -14,24 +14,24 @@ prompt_preview: "---\nname: buyer-eval\nversion: 3.5.0\ndescription: |\n  Struct
   \  - WebFetch\n  - AskUserQuestion\n---..."
 full_prompt_length: 11818
 tools_mentioned:
-- go
 - Python
+- go
 category: community
 category_display: Community
 source_repo: salespeak-ai/buyer-eval-skill
 source_path: SKILL.md
 source_url: https://github.com/salespeak-ai/buyer-eval-skill/blob/main/SKILL.md
-fetched_at: '2026-07-12T05:35:41.151103+00:00'
+fetched_at: '2026-07-19T05:23:46.942177+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T09:03:26.524910Z'
+  evaluated_at: '2026-07-19T08:52:55.929805Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdfa10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2630 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdfa10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2630 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:57.350109Z'
-indexed_at: '2026-07-12T09:23:57.350115Z'
+  fetched_at: '2026-07-19T09:13:21.467421Z'
+indexed_at: '2026-07-19T09:13:21.467427Z'
 ---

@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/repair-damage/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/repair-damage/SKILL.md
-fetched_at: '2026-07-12T05:34:58.325071+00:00'
+fetched_at: '2026-07-19T05:23:20.952711+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:39:30.022537Z'
+  evaluated_at: '2026-07-19T08:28:58.759397Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e30d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f3fe0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e30d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f3fe0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:56.841358Z'
-indexed_at: '2026-07-12T09:23:56.841363Z'
+  fetched_at: '2026-07-19T09:13:20.917068Z'
+indexed_at: '2026-07-19T09:13:20.917074Z'
 ---

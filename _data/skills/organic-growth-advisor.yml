@@ -17,17 +17,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/organic-growth-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/organic-growth-advisor/SKILL.md
-fetched_at: '2026-07-12T05:32:26.620859+00:00'
+fetched_at: '2026-07-19T05:21:16.147648+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:07:03.998947Z'
+  evaluated_at: '2026-07-19T06:55:30.071693Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fde960 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f0830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fde960 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f0830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:54.878475Z'
-indexed_at: '2026-07-12T09:23:54.878486Z'
+  fetched_at: '2026-07-19T09:13:18.775798Z'
+indexed_at: '2026-07-19T09:13:18.775804Z'

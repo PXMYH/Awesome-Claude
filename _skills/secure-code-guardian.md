@@ -15,24 +15,24 @@ prompt_preview: '---
   OWASP Top 10 prevention, secure session...'
 full_prompt_length: 7018
 tools_mentioned:
-- typescript
 - Node.js
+- typescript
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/secure-code-guardian/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/secure-code-guardian/SKILL.md
-fetched_at: '2026-07-12T05:33:41.207278+00:00'
+fetched_at: '2026-07-19T05:22:28.404231+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:52:10.180696Z'
+  evaluated_at: '2026-07-19T07:41:24.090923Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e32c60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210a9a840 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e32c60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210a9a840 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:55.833114Z'
-indexed_at: '2026-07-12T09:23:55.833125Z'
+  fetched_at: '2026-07-19T09:13:19.817386Z'
+indexed_at: '2026-07-19T09:13:19.817391Z'
 ---

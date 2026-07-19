@@ -3,49 +3,31 @@ slug: genre-creator
 name: Genre Creator
 description: '1. **Factual accuracy**: All years, album names, artist names must be
   correct. Omit rather than guess. Use WebSearch to verify.'
-prompt_preview: '---
-
-  name: genre-creator
-
-  description: Create new genre documentation files for the bitwize-music genre library.
-  Use when the user wants to add a genre, says "/genre-creator", "neues Genre erstellen",
-  "Genre hinzufuegen", "add genre", or asks to create genre documentation. Takes a
-  genre name as argument.
-
-  model: sonnet
-
-  effort: medium
-
-  argument-hint: <genre-name e.g. "Math Rock" or "Nu-Metal">
-
-  ---
-
-
-  # Genre Creator
-
-
-  ## Your Task
-
-
-  Create a new genre README.md for the bitwize-music genre library at `${C...'
-full_prompt_length: 5871
+prompt_preview: "---\nname: genre-creator\ndescription: Create new genre documentation\
+  \ files for the bitwize-music genre library. Use when the user wants to add a genre,\
+  \ says \"/genre-creator\", \"neues Genre erstellen\", \"Genre hinzufuegen\", \"\
+  add genre\", or asks to create genre documentation. Takes a genre name as argument.\n\
+  model: sonnet\neffort: medium\nargument-hint: <genre-name e.g. \"Math Rock\" or\
+  \ \"Nu-Metal\">\nallowed-tools:\n  - Read\n  - Edit\n  - Write\n  - Glob\n  - WebSearch\n\
+  ---\n\n# Genre Creator\n\n## Your Task\n\nCreate..."
+full_prompt_length: 5937
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/genre-creator/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/genre-creator/SKILL.md
-fetched_at: '2026-07-12T05:31:55.927293+00:00'
+fetched_at: '2026-07-19T05:20:48.250020+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:41:33.953051Z'
+  evaluated_at: '2026-07-19T06:28:52.629039Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e31cd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21059e2a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e31cd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21059e2a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -55,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:54.339655Z'
-indexed_at: '2026-07-12T09:23:54.339661Z'
+  fetched_at: '2026-07-19T09:13:18.174841Z'
+indexed_at: '2026-07-19T09:13:18.174847Z'

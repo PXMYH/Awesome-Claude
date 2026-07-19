@@ -1,0 +1,42 @@
+id: connect-hubspot-mcp
+slug: connect-hubspot-mcp
+name: Connect Claude Code to HubSpot via MCP
+description: 1. **MCP access is user-scoped.** Claude can do exactly what your HubSpot
+  user can do — no more, no less. Bulk-risky operations are naturally bounded by the
+  scopes you grant; grant write scopes delibe...
+prompt_preview: "---\nname: connect-hubspot-mcp\ndescription: \"Connect Claude Code\
+  \ to HubSpot's official remote MCP server for natural-language CRM reads and writes.\
+  \ Covers OAuth setup, scope selection, verification, and when to use MCP versus\
+  \ this repo's API scripts.\"\nlicense: MIT\nmetadata:\n  author: tomgranot\n  version:\
+  \ \"1.1\"\n  category: audit-planning\n---\n\n# Connect Claude Code to HubSpot via\
+  \ MCP\n\nSet up HubSpot's official remote MCP server so Claude can read and write\
+  \ CRM records conversationally — look up a c..."
+full_prompt_length: 4674
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: TomGranot/hubspot-admin-skills
+source_path: skills/connect-hubspot-mcp/SKILL.md
+source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/connect-hubspot-mcp/SKILL.md
+fetched_at: '2026-07-19T05:20:08.720335+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-07-19T05:53:57.806661Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210189c40 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210189c40 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-07-19T09:13:17.383829Z'
+indexed_at: '2026-07-19T09:13:17.383834Z'

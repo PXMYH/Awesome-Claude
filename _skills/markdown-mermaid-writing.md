@@ -26,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/markdown-mermaid-writing/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/markdown-mermaid-writing/SKILL.md
-fetched_at: '2026-07-12T05:30:48.902862+00:00'
+fetched_at: '2026-07-19T05:19:51.961149+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T05:51:31.744424Z'
+  evaluated_at: '2026-07-19T05:38:21.043889Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064001d90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3680 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064001d90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3680 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.273750Z'
-indexed_at: '2026-07-12T09:23:53.273756Z'
+  fetched_at: '2026-07-19T09:13:17.025164Z'
+indexed_at: '2026-07-19T09:13:17.025170Z'
 ---

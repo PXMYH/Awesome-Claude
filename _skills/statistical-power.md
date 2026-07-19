@@ -15,25 +15,25 @@ prompt_preview: '---
   regression, plus simulation-based (Monte Carlo) power for de...'
 full_prompt_length: 14318
 tools_mentioned:
+- Python
 - python
 - go
-- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/statistical-power/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/statistical-power/SKILL.md
-fetched_at: '2026-07-12T05:30:57.291977+00:00'
+fetched_at: '2026-07-19T05:20:00.439274+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:01:29.545025Z'
+  evaluated_at: '2026-07-19T05:48:16.932816Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00649fe300 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2107e2900 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00649fe300 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2107e2900 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.484756Z'
-indexed_at: '2026-07-12T09:23:53.484761Z'
+  fetched_at: '2026-07-19T09:13:17.255566Z'
+indexed_at: '2026-07-19T09:13:17.255572Z'
 ---

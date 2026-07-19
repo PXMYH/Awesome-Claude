@@ -6,30 +6,30 @@ description: '- Run this quarterly as part of the database cleanup routine.'
 prompt_preview: "---\nname: cleanup-properties\ndescription: \"Archive or delete unused\
   \ custom properties across all HubSpot object types (contacts, companies, deals).\
   \ Identifies Salesforce sync properties, test/temp properties, and obsolete form\
-  \ fields.\"\nlicense: MIT\nmetadata:\n  author: tomgranot\n  version: \"1.0\"\n\
+  \ fields.\"\nlicense: MIT\nmetadata:\n  author: tomgranot\n  version: \"1.1\"\n\
   \  category: ongoing-maintenance\n---\n\n# Cleanup Properties\n\nRemove or archive\
   \ unused custom properties. Property bloat slows down forms, confuses users, and\
   \ makes data mapping harder.\n\n## Prerequisites\n\n-..."
-full_prompt_length: 2836
+full_prompt_length: 3520
 tools_mentioned:
-- python
 - Python
+- python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/cleanup-properties/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/cleanup-properties/SKILL.md
-fetched_at: '2026-07-12T05:31:07.829505+00:00'
+fetched_at: '2026-07-19T05:20:08.469740+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:06:47.706149Z'
+  evaluated_at: '2026-07-19T05:53:41.633245Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002000 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1070 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064002000 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1070 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.599073Z'
-indexed_at: '2026-07-12T09:23:53.599079Z'
+  fetched_at: '2026-07-19T09:13:17.377698Z'
+indexed_at: '2026-07-19T09:13:17.377704Z'
 ---

@@ -13,24 +13,24 @@ prompt_preview: "---\nname: heal-guidance\ndescription: >\n  Guide a person thro
   \ imbalance (fatigue, emotional\n  stag..."
 full_prompt_length: 18660
 tools_mentioned:
-- Rest
 - rest
+- Rest
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/heal-guidance/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/heal-guidance/SKILL.md
-fetched_at: '2026-07-12T05:34:44.276394+00:00'
+fetched_at: '2026-07-19T05:23:07.843868+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:24:49.499104Z'
+  evaluated_at: '2026-07-19T08:14:20.181130Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00649c67e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b7d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00649c67e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b7d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:56.526968Z'
-indexed_at: '2026-07-12T09:23:56.526974Z'
+  fetched_at: '2026-07-19T09:13:20.571708Z'
+indexed_at: '2026-07-19T09:13:20.571714Z'
 ---

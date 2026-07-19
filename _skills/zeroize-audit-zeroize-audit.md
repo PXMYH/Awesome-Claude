@@ -18,26 +18,26 @@ prompt_preview: '---
   mcp__serena__find_symbol mcp__serena__find_referencing_symbols mcp__serena__get_symbols_over...'
 full_prompt_length: 20911
 tools_mentioned:
-- rust
 - Rust
 - Python
+- rust
 - RUST
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/zeroize-audit/skills/zeroize-audit/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/zeroize-audit/skills/zeroize-audit/SKILL.md
-fetched_at: '2026-07-12T05:37:26.387470+00:00'
+fetched_at: '2026-07-19T05:24:34.661301+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T09:20:37.377235Z'
+  evaluated_at: '2026-07-19T09:10:01.582519Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fde270 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210189d00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fde270 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210189d00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:57.720049Z'
-indexed_at: '2026-07-12T09:23:57.720055Z'
+  fetched_at: '2026-07-19T09:13:21.858495Z'
+indexed_at: '2026-07-19T09:13:21.858500Z'
 ---

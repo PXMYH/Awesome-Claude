@@ -7,30 +7,30 @@ description: '- Use a consistent naming convention: `[Category] - Segment Name` 
 prompt_preview: "---\nname: create-segment-lists\ndescription: \"Create business segment\
   \ lists in HubSpot for customers, partners, competitors, employees, ICP tiers, and\
   \ industries. Enables segment-based targeting, suppression, and analytics.\"\nlicense:\
-  \ MIT\nmetadata:\n  author: tomgranot\n  version: \"1.0\"\n  category: ongoing-maintenance\n\
+  \ MIT\nmetadata:\n  author: tomgranot\n  version: \"1.1\"\n  category: ongoing-maintenance\n\
   ---\n\n# Create Segment Lists\n\nBuild a library of segment lists that enable targeted\
   \ marketing, accurate reporting, and proper suppression. These lists form the foundation\
   \ of segment-bas..."
-full_prompt_length: 4903
+full_prompt_length: 5365
 tools_mentioned:
-- python
 - Python
+- python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/create-segment-lists/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/create-segment-lists/SKILL.md
-fetched_at: '2026-07-12T05:31:08.217864+00:00'
+fetched_at: '2026-07-19T05:20:08.983161+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:07:12.215808Z'
+  evaluated_at: '2026-07-19T05:54:13.978669Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e31910 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c13d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e31910 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c13d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.607739Z'
-indexed_at: '2026-07-12T09:23:53.607745Z'
+  fetched_at: '2026-07-19T09:13:17.390153Z'
+indexed_at: '2026-07-19T09:13:17.390158Z'
 ---

@@ -18,17 +18,17 @@ category_display: Community
 source_repo: avelikiy/great_cto
 source_path: skills/skeptical-triage/SKILL.md
 source_url: https://github.com/avelikiy/great_cto/blob/main/skills/skeptical-triage/SKILL.md
-fetched_at: '2026-07-12T05:31:50.332165+00:00'
+fetched_at: '2026-07-19T05:20:43.008151+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:37:52.763152Z'
+  evaluated_at: '2026-07-19T06:25:13.333877Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00648ef500 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c35f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00648ef500 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c35f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:54.262111Z'
-indexed_at: '2026-07-12T09:23:54.262117Z'
+  fetched_at: '2026-07-19T09:13:18.092960Z'
+indexed_at: '2026-07-19T09:13:18.092966Z'
 ---

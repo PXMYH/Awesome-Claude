@@ -20,17 +20,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/prune-agent-memory/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/prune-agent-memory/SKILL.md
-fetched_at: '2026-07-12T05:34:55.752589+00:00'
+fetched_at: '2026-07-19T05:23:18.548520+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:36:47.477751Z'
+  evaluated_at: '2026-07-19T08:26:16.661414Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdcfb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f06e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdcfb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f06e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:56.782078Z'
-indexed_at: '2026-07-12T09:23:56.782084Z'
+  fetched_at: '2026-07-19T09:13:20.853620Z'
+indexed_at: '2026-07-19T09:13:20.853626Z'
 ---

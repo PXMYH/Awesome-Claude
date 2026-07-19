@@ -20,24 +20,24 @@ prompt_preview: '---
   metadata: {"v...'
 full_prompt_length: 20678
 tools_mentioned:
-- python
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/scanpy/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/scanpy/SKILL.md
-fetched_at: '2026-07-12T05:30:55.143480+00:00'
+fetched_at: '2026-07-19T05:19:58.332610+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T05:59:01.359342Z'
+  evaluated_at: '2026-07-19T05:45:49.606173Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064001a90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2104707a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064001a90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2104707a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.432722Z'
-indexed_at: '2026-07-12T09:23:53.432728Z'
+  fetched_at: '2026-07-19T09:13:17.199281Z'
+indexed_at: '2026-07-19T09:13:17.199287Z'
 ---

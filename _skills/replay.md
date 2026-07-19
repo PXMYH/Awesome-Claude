@@ -32,17 +32,17 @@ category_display: Community
 source_repo: tuo-lei/vibe-replay
 source_path: skills/replay/SKILL.md
 source_url: https://github.com/tuo-lei/vibe-replay/blob/main/skills/replay/SKILL.md
-fetched_at: '2026-07-12T05:37:27.208266+00:00'
+fetched_at: '2026-07-19T05:24:35.369134+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T09:20:45.525677Z'
+  evaluated_at: '2026-07-19T09:10:09.662521Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdc200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2107aedb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdc200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2107aedb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:57.723126Z'
-indexed_at: '2026-07-12T09:23:57.723132Z'
+  fetched_at: '2026-07-19T09:13:21.861679Z'
+indexed_at: '2026-07-19T09:13:21.861685Z'
 ---

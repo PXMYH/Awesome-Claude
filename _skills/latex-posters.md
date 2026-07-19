@@ -25,17 +25,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/latex-posters/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/latex-posters/SKILL.md
-fetched_at: '2026-07-12T05:30:48.561817+00:00'
+fetched_at: '2026-07-19T05:19:51.610299+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T05:51:07.354540Z'
+  evaluated_at: '2026-07-19T05:37:56.666411Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdc170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c13d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdc170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c13d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.264958Z'
-indexed_at: '2026-07-12T09:23:53.264964Z'
+  fetched_at: '2026-07-19T09:13:17.015908Z'
+indexed_at: '2026-07-19T09:13:17.015914Z'
 ---

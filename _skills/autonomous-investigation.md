@@ -1,0 +1,44 @@
+---
+id: autonomous-investigation
+slug: autonomous-investigation
+name: Autonomous Investigation Protocol
+description: '- [`intelligence-collection-disciplines`](../intelligence-collection-disciplines/SKILL.md)
+  (Component) —'
+prompt_preview: "---\nname: autonomous-investigation\ndescription: \"The protocol\
+  \ behind every investigation skill. Use when AI research must proceed without you:\
+  \ search-plan gate, Fact/Inference/Assumption labels, confidence stacking, diffable\
+  \ outputs.\"\nintent: >-\n  Provide the canonical contract for autonomous research\
+  \ skills: a bounded question budget, a search-plan\n  gate, three-level evidence\
+  \ labeling, do-not-invent lists, just-enough output, stable diffable schemas,\n\
+  \  and confidence stacking — so investigatio..."
+full_prompt_length: 12310
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: deanpeters/Product-Manager-Skills
+source_path: skills/autonomous-investigation/SKILL.md
+source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/autonomous-investigation/SKILL.md
+fetched_at: '2026-07-19T05:21:12.737571+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-07-19T06:51:41.330651Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3b00 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3b00 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-07-19T09:13:18.689393Z'
+indexed_at: '2026-07-19T09:13:18.689398Z'
+---

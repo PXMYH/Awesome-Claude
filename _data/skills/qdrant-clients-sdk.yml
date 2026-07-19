@@ -12,32 +12,32 @@ prompt_preview: "---\nname: qdrant-clients-sdk\ndescription: \"Qdrant provides c
   \ · In..."
 full_prompt_length: 3006
 tools_mentioned:
-- go
-- Java
-- rust
-- Python
 - Go
+- gRPC
+- grpc
 - java
 - TypeScript
-- Rust
+- go
+- REST
+- rust
 - python
-- JavaScript
+- typescript
 category: community
 category_display: Community
 source_repo: qdrant/skills
 source_path: skills/qdrant-clients-sdk/SKILL.md
 source_url: https://github.com/qdrant/skills/blob/main/skills/qdrant-clients-sdk/SKILL.md
-fetched_at: '2026-07-12T05:35:29.473027+00:00'
+fetched_at: '2026-07-19T05:23:42.739592+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T09:01:16.358719Z'
+  evaluated_at: '2026-07-19T08:50:45.408587Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e32d50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c22a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e32d50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c22a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,5 +47,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:57.304436Z'
-indexed_at: '2026-07-12T09:23:57.304442Z'
+  fetched_at: '2026-07-19T09:13:21.418133Z'
+indexed_at: '2026-07-19T09:13:21.418138Z'

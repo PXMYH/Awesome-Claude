@@ -1,0 +1,42 @@
+id: harden-github-repo-security
+slug: harden-github-repo-security
+name: Harden GitHub Repository Security
+description: '- `assess-github-repo-security` - the read-only companion; always run
+  this first'
+prompt_preview: "---\nname: harden-github-repo-security\ndescription: >\n  Apply GitHub\
+  \ repository security protections tier by tier — rulesets,\n  read-only Actions\
+  \ token, secret scanning + push protection, Dependabot,\n  and (gated) required\
+  \ status checks / required PR with a GitHub App bypass\n  for a CI auto-commit bot.\
+  \ Mutating and confirmation-gated: always assess\n  first, apply the zero-downside\
+  \ baseline, then decide required checks\n  separately. Use when hardening a public\
+  \ user-owned repo after an audit,\n  whe..."
+full_prompt_length: 20112
+tools_mentioned:
+- REST
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/harden-github-repo-security/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/harden-github-repo-security/SKILL.md
+fetched_at: '2026-07-19T05:23:07.575079+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-07-19T08:14:04.011695Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2104c5610 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2104c5610 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-07-19T09:13:20.565371Z'
+indexed_at: '2026-07-19T09:13:20.565377Z'

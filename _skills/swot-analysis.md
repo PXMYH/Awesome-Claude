@@ -1,0 +1,44 @@
+---
+id: swot-analysis
+slug: swot-analysis
+name: SWOT Analysis (Evidence-Cited)
+description: '- [`autonomous-investigation`](../autonomous-investigation/SKILL.md)
+  (Workflow) — the governing protocol'
+prompt_preview: "---\nname: swot-analysis\nargument-hint: \"[company and scope, and\
+  \ the decision it supports]\"\ndescription: \"Build an evidence-cited SWOT of one\
+  \ company — yours or a competitor's — from public sources, ending with the S-O/W-T\
+  \ crossings. Use for strategy reviews, board prep, or competitor depth.\"\nintent:\
+  \ >-\n  An evidence-cited SWOT from the public record: strengths and weaknesses\
+  \ from documented capability\n  and customer voice, opportunities and threats from\
+  \ market and macro signals — every entry lab..."
+full_prompt_length: 10156
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: deanpeters/Product-Manager-Skills
+source_path: skills/swot-analysis/SKILL.md
+source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/swot-analysis/SKILL.md
+fetched_at: '2026-07-19T05:21:19.305409+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-07-19T06:59:11.283769Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21048d5e0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21048d5e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-07-19T09:13:18.858683Z'
+indexed_at: '2026-07-19T09:13:18.858688Z'
+---

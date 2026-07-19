@@ -24,24 +24,24 @@ prompt_preview: '---
   and link up to the hub. Done right, this...'
 full_prompt_length: 6495
 tools_mentioned:
-- go
 - Go
+- go
 category: community
 category_display: Community
 source_repo: inhouseseo/superseo-skills
 source_path: skills/topic-cluster-planning/SKILL.md
 source_url: https://github.com/inhouseseo/superseo-skills/blob/main/skills/topic-cluster-planning/SKILL.md
-fetched_at: '2026-07-12T05:33:30.408577+00:00'
+fetched_at: '2026-07-19T05:21:59.685668+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:48:04.466695Z'
+  evaluated_at: '2026-07-19T07:37:18.428150Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e32930 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210188980 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e32930 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210188980 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:55.746187Z'
-indexed_at: '2026-07-12T09:23:55.746198Z'
+  fetched_at: '2026-07-19T09:13:19.725456Z'
+indexed_at: '2026-07-19T09:13:19.725461Z'
 ---

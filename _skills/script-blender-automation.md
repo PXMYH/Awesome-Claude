@@ -13,24 +13,24 @@ prompt_preview: "---\nname: script-blender-automation\ndescription: >\n  Write B
   \ and APIs.\nlicense: MIT\nallowed..."
 full_prompt_length: 15312
 tools_mentioned:
-- python
 - Python
+- python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/script-blender-automation/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/script-blender-automation/SKILL.md
-fetched_at: '2026-07-12T05:35:01.272517+00:00'
+fetched_at: '2026-07-19T05:23:23.731286+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:42:37.958804Z'
+  evaluated_at: '2026-07-19T08:32:06.614124Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdf3b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2104c5730 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdf3b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2104c5730 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:56.908405Z'
-indexed_at: '2026-07-12T09:23:56.908411Z'
+  fetched_at: '2026-07-19T09:13:20.989487Z'
+indexed_at: '2026-07-19T09:13:20.989492Z'
 ---

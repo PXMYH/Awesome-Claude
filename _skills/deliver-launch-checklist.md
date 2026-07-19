@@ -12,24 +12,24 @@ prompt_preview: "---\nname: deliver-launch-checklist\ndescription: Creates a cro
   \  version: \"2.2.0\"\n  updated:..."
 full_prompt_length: 3877
 tools_mentioned:
-- go
 - Go
+- go
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/deliver-launch-checklist/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/deliver-launch-checklist/SKILL.md
-fetched_at: '2026-07-12T05:35:20.584417+00:00'
+fetched_at: '2026-07-19T05:23:34.676607+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:52:58.847848Z'
+  evaluated_at: '2026-07-19T08:42:25.383189Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e335c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b560 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e335c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b560 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:57.129278Z'
-indexed_at: '2026-07-12T09:23:57.129284Z'
+  fetched_at: '2026-07-19T09:13:21.227952Z'
+indexed_at: '2026-07-19T09:13:21.227958Z'
 ---

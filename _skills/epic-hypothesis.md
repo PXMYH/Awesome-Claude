@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/epic-hypothesis/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/epic-hypothesis/SKILL.md
-fetched_at: '2026-07-12T05:32:25.538299+00:00'
+fetched_at: '2026-07-19T05:21:14.752326+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:05:58.377275Z'
+  evaluated_at: '2026-07-19T06:53:59.941217Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fde000 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f02f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fde000 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f02f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:54.855327Z'
-indexed_at: '2026-07-12T09:23:54.855332Z'
+  fetched_at: '2026-07-19T09:13:18.741802Z'
+indexed_at: '2026-07-19T09:13:18.741808Z'
 ---

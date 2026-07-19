@@ -20,25 +20,25 @@ prompt_preview: '---
   {"name": "DX_ASSET_BWA", "prompt": "Optio...'
 full_prompt_length: 11198
 tools_mentioned:
-- python
 - Docker
 - Python
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/dnanexus-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/dnanexus-integration/SKILL.md
-fetched_at: '2026-07-12T05:30:45.386964+00:00'
+fetched_at: '2026-07-19T05:19:48.355396+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T05:47:16.301057Z'
+  evaluated_at: '2026-07-19T05:34:09.016233Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00640020c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210470b90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f00640020c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210470b90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.183460Z'
-indexed_at: '2026-07-12T09:23:53.183466Z'
+  fetched_at: '2026-07-19T09:13:16.929798Z'
+indexed_at: '2026-07-19T09:13:16.929803Z'
 ---

@@ -1,0 +1,43 @@
+---
+id: pestel-delta-monitor
+slug: pestel-delta-monitor
+name: PESTEL Delta Monitor
+description: '- [`pestel-analysis`](../pestel-analysis/SKILL.md) (Component) — builds
+  the baseline this monitor'
+prompt_preview: "---\nname: pestel-delta-monitor\nargument-hint: \"[prior PESTEL analysis,\
+  \ and any suspected events since]\"\ndescription: \"Quarterly re-scan of a prior\
+  \ PESTEL analysis. Use when checking which macro factors moved, which assumptions\
+  \ broke, and what's new — turning PESTEL from a workshop artifact into a radar.\"\
+  \nintent: >-\n  Refresh a PESTEL analysis by diffing each factor against the prior\
+  \ run and reporting material\n  movement only — regulation passed, thresholds crossed,\
+  \ technology matured, assumption..."
+full_prompt_length: 9845
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: deanpeters/Product-Manager-Skills
+source_path: skills/pestel-delta-monitor/SKILL.md
+source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pestel-delta-monitor/SKILL.md
+fetched_at: '2026-07-19T05:21:16.372866+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-07-19T06:55:46.251903Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21048f4a0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21048f4a0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-07-19T09:13:18.781904Z'
+indexed_at: '2026-07-19T09:13:18.781909Z'
+---

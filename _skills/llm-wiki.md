@@ -13,25 +13,25 @@ prompt_preview: "---\nname: llm-wiki\ndescription: |\n  Build and maintain an LL
   \ this into the knowledge b..."
 full_prompt_length: 18845
 tools_mentioned:
-- sqlite
 - rest
 - python
+- sqlite
 category: community
 category_display: Community
 source_repo: praneybehl/llm-wiki-plugin
 source_path: skills/llm-wiki/SKILL.md
 source_url: https://github.com/praneybehl/llm-wiki-plugin/blob/main/skills/llm-wiki/SKILL.md
-fetched_at: '2026-07-12T05:35:11.280332+00:00'
+fetched_at: '2026-07-19T05:23:33.109568+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:51:52.974609Z'
+  evaluated_at: '2026-07-19T08:41:20.397585Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fde570 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018a090 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fde570 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018a090 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:57.106501Z'
-indexed_at: '2026-07-12T09:23:57.106507Z'
+  fetched_at: '2026-07-19T09:13:21.203010Z'
+indexed_at: '2026-07-19T09:13:21.203015Z'
 ---

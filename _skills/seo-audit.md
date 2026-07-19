@@ -16,17 +16,17 @@ category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/seo-audit/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/seo-audit/SKILL.md
-fetched_at: '2026-07-12T05:32:12.264188+00:00'
+fetched_at: '2026-07-19T05:21:03.851668+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:56:17.371299Z'
+  evaluated_at: '2026-07-19T06:43:33.449220Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063f97fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210472480 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063f97fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210472480 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,6 +36,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:54.652842Z'
-indexed_at: '2026-07-12T09:23:54.652848Z'
+  fetched_at: '2026-07-19T09:13:18.505494Z'
+indexed_at: '2026-07-19T09:13:18.505499Z'
 ---

@@ -18,25 +18,25 @@ prompt_preview: '---
   metadata: {"version": "1.0", "skill-author": "K-Dense In...'
 full_prompt_length: 21757
 tools_mentioned:
-- python
 - Python
+- python
 - Redis
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/hypogenic/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/hypogenic/SKILL.md
-fetched_at: '2026-07-12T05:30:47.657329+00:00'
+fetched_at: '2026-07-19T05:19:50.688534+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T05:50:01.615140Z'
+  evaluated_at: '2026-07-19T05:36:51.883919Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064001700 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21014fec0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064001700 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21014fec0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.241632Z'
-indexed_at: '2026-07-12T09:23:53.241638Z'
+  fetched_at: '2026-07-19T09:13:16.991299Z'
+indexed_at: '2026-07-19T09:13:16.991304Z'
 ---

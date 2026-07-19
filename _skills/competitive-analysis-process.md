@@ -1,0 +1,44 @@
+---
+id: competitive-analysis-process
+slug: competitive-analysis-process
+name: Competitive Analysis Process
+description: '- [`market-landscape-scan`](../market-landscape-scan/SKILL.md) (Workflow)
+  — Step 1'
+prompt_preview: "---\nname: competitive-analysis-process\nargument-hint: \"[competitor\
+  \ set or market, and the decision this analysis supports]\"\ndescription: \"Orchestrate\
+  \ a complete competitive analysis across six steps, from landscape to strategic\
+  \ direction. Use when you need the full picture, not a single scan or card.\"\n\
+  intent: >-\n  The umbrella workflow for competitive analysis: six analytical steps\
+  \ — landscape overview, product\n  comparison, customer-need fulfillment, business\
+  \ baseline, perception and positionin..."
+full_prompt_length: 13385
+tools_mentioned:
+- react
+category: community
+category_display: Community
+source_repo: deanpeters/Product-Manager-Skills
+source_path: skills/competitive-analysis-process/SKILL.md
+source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/competitive-analysis-process/SKILL.md
+fetched_at: '2026-07-19T05:21:13.349103+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-07-19T06:52:22.603357Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2106b18b0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2106b18b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-07-19T09:13:18.704568Z'
+indexed_at: '2026-07-19T09:13:18.704574Z'
+---

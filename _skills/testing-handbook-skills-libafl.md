@@ -13,24 +13,24 @@ prompt_preview: "---\nname: libafl\ntype: fuzzer\ndescription: >\n  LibAFL is a 
   \ for libFuzzer or as a library to build..."
 full_prompt_length: 16907
 tools_mentioned:
-- rust
 - Rust
+- rust
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/libafl/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/libafl/SKILL.md
-fetched_at: '2026-07-12T05:37:12.560565+00:00'
+fetched_at: '2026-07-19T05:24:24.998038+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T09:18:02.182010Z'
+  evaluated_at: '2026-07-19T09:07:27.702228Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdd400 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1820 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdd400 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1820 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:57.664053Z'
-indexed_at: '2026-07-12T09:23:57.664066Z'
+  fetched_at: '2026-07-19T09:13:21.799835Z'
+indexed_at: '2026-07-19T09:13:21.799840Z'
 ---

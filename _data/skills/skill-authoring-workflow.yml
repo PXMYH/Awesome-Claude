@@ -9,7 +9,7 @@ prompt_preview: "---\nname: skill-authoring-workflow\nargument-hint: \"[source c
   \ notes, workshop content, or half-baked prompt dumps into compliant `skills/<skill-name>/SKILL.md`\
   \ assets that actually pass validation and belong in this repo.\ntype: workflow\n\
   best_for:\n  -..."
-full_prompt_length: 7443
+full_prompt_length: 7857
 tools_mentioned:
 - rest
 category: community
@@ -17,17 +17,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/skill-authoring-workflow/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/skill-authoring-workflow/SKILL.md
-fetched_at: '2026-07-12T05:32:29.690386+00:00'
+fetched_at: '2026-07-19T05:21:18.734835+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:09:39.455366Z'
+  evaluated_at: '2026-07-19T06:58:30.516463Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e32d80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21079d760 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e32d80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21079d760 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:54.932925Z'
-indexed_at: '2026-07-12T09:23:54.932932Z'
+  fetched_at: '2026-07-19T09:13:18.843018Z'
+indexed_at: '2026-07-19T09:13:18.843024Z'

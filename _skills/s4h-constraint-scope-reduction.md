@@ -29,17 +29,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-constraint-scope-reduction/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-constraint-scope-reduction/SKILL.md
-fetched_at: '2026-07-12T05:32:57.187268+00:00'
+fetched_at: '2026-07-19T05:21:33.159273+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T07:20:27.985386Z'
+  evaluated_at: '2026-07-19T07:09:47.042810Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000d70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f3e00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064000d70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f3e00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:55.163673Z'
-indexed_at: '2026-07-12T09:23:55.163679Z'
+  fetched_at: '2026-07-19T09:13:19.101924Z'
+indexed_at: '2026-07-19T09:13:19.101930Z'
 ---

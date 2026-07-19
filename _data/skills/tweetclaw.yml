@@ -7,17 +7,17 @@ prompt_preview: '---
 
   name: tweetclaw
 
-  description: "Safety-reviewed guide for @xquik/tweetclaw, the Xquik OpenClaw plugin
-  for structured X/Twitter workflows. Covers setup, credential boundaries, explicit
-  approval for writes and paid actions, spending limits, private-data handling, and
-  monitor controls."
+  description: "Safety-reviewed guide for the Xquik TweetClaw plugin. Not affiliated
+  with X Corp. Covers setup, approvals, credentials, private data, spending limits,
+  and monitors."
 
   homepage: https://xquik.com
 
   read_when: ["Installing or configuring the TweetClaw OpenClaw plugin","Using Xquik
   from OpenClaw with explicit user approval","Checking TweetClaw pricing, credentials,
-  permissions, or s...'
-full_prompt_length: 32947
+  permissions, or safety boundaries","Planning X/Twitter reads, writes, extractions,
+  draws, or monitors sa...'
+full_prompt_length: 31420
 tools_mentioned:
 - rest
 - go
@@ -26,17 +26,17 @@ category_display: Community
 source_repo: Xquik-dev/tweetclaw
 source_path: skills/tweetclaw/SKILL.md
 source_url: https://github.com/Xquik-dev/tweetclaw/blob/master/skills/tweetclaw/SKILL.md
-fetched_at: '2026-07-12T05:31:37.081704+00:00'
+fetched_at: '2026-07-19T05:20:31.889822+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:30:55.327252Z'
+  evaluated_at: '2026-07-19T06:18:19.265645Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064001130 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f31a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0064001130 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f31a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:54.115350Z'
-indexed_at: '2026-07-12T09:23:54.115357Z'
+  fetched_at: '2026-07-19T09:13:17.939027Z'
+indexed_at: '2026-07-19T09:13:17.939033Z'

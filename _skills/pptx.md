@@ -1,52 +1,47 @@
 ---
 id: pptx
 slug: pptx
-name: PPTX creation, editing, and analysis
-description: '`pptxgenjs` (npm, preinstalled — install only if `require(''pptxgenjs'')`
-  fails) · `markitdown[pptx]`, `Pillow`, `defusedxml`, `lxml` (pip — text dump, thumbnail,
-  clean, validate) · LibreOffice (`soffic...'
+name: PPTX Skill
+description: '- `pip install "markitdown[pptx]"` - text extraction'
 prompt_preview: '---
 
   name: pptx
 
-  description: "Use this skill any time a .pptx or .potx file is involved in any way
-  — as input, output, or both. This includes: creating slide decks, pitch decks, or
-  presentations; reading, parsing, or extracting text from any .pptx or .potx file
-  (even if the extracted content will be used elsewhere, like in an email or summary);
-  editing, modifying, or updating existing presentations; combining or splitting slide
-  files; working with templates (.potx), layouts, speaker notes, or com...'
-full_prompt_length: 20647
+  description: "Use this skill any time a .pptx file is involved in any way — as input,
+  output, or both. This includes: creating slide decks, pitch decks, or presentations;
+  reading, parsing, or extracting text from any .pptx file (even if the extracted
+  content will be used elsewhere, like in an email or summary); editing, modifying,
+  or updating existing presentations; combining or splitting slide files; working
+  with templates, layouts, speaker notes, or comments. Trigger whenever th...'
+full_prompt_length: 9157
 tools_mentioned:
-- Python
-- react
-- go
-- python
 - rest
-category: official
-category_display: Official Anthropic Skills
-source_repo: anthropics/skills
+- python
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pptx/SKILL.md
-source_url: https://github.com/anthropics/skills/blob/main/skills/pptx/SKILL.md
-fetched_at: '2026-07-18T04:47:39.673468Z'
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pptx/SKILL.md
+fetched_at: '2026-07-19T05:19:55.792785+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-18T05:10:10.678491Z'
+  evaluated_at: '2026-07-19T05:42:50.042005Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe84d6280e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210473620 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe84d6280e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210473620 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 162173
-  forks: 19215
-  open_issues: 1036
-  last_commit: '2026-07-17'
-  fetched_at: '2026-07-18T04:47:44.880947Z'
-indexed_at: '2026-07-18T05:12:56.802132Z'
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-07-19T09:13:17.131509Z'
+indexed_at: '2026-07-19T09:13:17.131515Z'
 ---

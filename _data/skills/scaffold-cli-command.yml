@@ -12,24 +12,24 @@ prompt_preview: "---\nname: scaffold-cli-command\ndescription: >\n  Scaffold a n
   \ CLI.\nlicense: MIT\nallowed..."
 full_prompt_length: 11183
 tools_mentioned:
-- TypeScript
 - javascript
+- TypeScript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/scaffold-cli-command/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/scaffold-cli-command/SKILL.md
-fetched_at: '2026-07-12T05:35:00.494950+00:00'
+fetched_at: '2026-07-19T05:23:23.018982+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:41:48.584586Z'
+  evaluated_at: '2026-07-19T08:31:17.651449Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdddf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3a70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063fdddf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3a70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:56.890883Z'
-indexed_at: '2026-07-12T09:23:56.890889Z'
+  fetched_at: '2026-07-19T09:13:20.970541Z'
+indexed_at: '2026-07-19T09:13:20.970546Z'

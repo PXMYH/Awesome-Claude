@@ -7,30 +7,31 @@ description: '- Use folders in the workflows dashboard to organize by team, purp
 prompt_preview: "---\nname: cleanup-workflows\ndescription: \"Audit and remove inactive,\
   \ test, or deprecated workflows from HubSpot. Identifies workflows that have never\
   \ enrolled contacts, workflows turned off for 90+ days, and test workflows.\"\n\
-  license: MIT\nmetadata:\n  author: tomgranot\n  version: \"1.0\"\n  category: ongoing-maintenance\n\
+  license: MIT\nmetadata:\n  author: tomgranot\n  version: \"1.1\"\n  category: ongoing-maintenance\n\
   ---\n\n# Cleanup Workflows\n\nAudit HubSpot workflows to remove dead weight. Unused\
   \ workflows clutter the automation dashboard and make it harder to understand what\
   \ is actually running...."
-full_prompt_length: 2659
+full_prompt_length: 3859
 tools_mentioned:
-- python
 - Python
+- python
+- go
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/cleanup-workflows/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/cleanup-workflows/SKILL.md
-fetched_at: '2026-07-12T05:31:07.960612+00:00'
+fetched_at: '2026-07-19T05:20:08.600886+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T06:06:55.822911Z'
+  evaluated_at: '2026-07-19T05:53:49.716030Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e30320 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2c90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e30320 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2c90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:53.601904Z'
-indexed_at: '2026-07-12T09:23:53.601910Z'
+  fetched_at: '2026-07-19T09:13:17.380744Z'
+indexed_at: '2026-07-19T09:13:17.380749Z'
 ---

@@ -20,17 +20,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/implement-gitops-workflow/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/implement-gitops-workflow/SKILL.md
-fetched_at: '2026-07-12T05:34:45.449865+00:00'
+fetched_at: '2026-07-19T05:23:08.939596+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-12T08:26:03.544735Z'
+  evaluated_at: '2026-07-19T08:15:33.106683Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e323c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b140 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0063e323c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b140 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-12T09:23:56.553042Z'
-indexed_at: '2026-07-12T09:23:56.553048Z'
+  fetched_at: '2026-07-19T09:13:20.599916Z'
+indexed_at: '2026-07-19T09:13:20.599921Z'
 ---
