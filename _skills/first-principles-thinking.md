@@ -22,31 +22,31 @@ prompt_preview: '---
 full_prompt_length: 4208
 tools_mentioned:
 - go
-category: research-analysis
-category_display: Research Analysis
+category: 10-research-analysis
+category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/first-principles-thinking.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/first-principles-thinking.md
-fetched_at: '2026-07-19T05:20:30.401078+00:00'
+fetched_at: '2026-07-20T05:38:11.492834Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T06:17:22.241479Z'
+  evaluated_at: '2026-07-20T05:58:27.178868Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f3d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fdc1df6ad80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f3d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fdc1df6ad80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 23484
-  forks: 2740
-  open_issues: 4
+  stars: 23520
+  forks: 2744
+  open_issues: 5
   last_commit: '2026-07-10'
-  fetched_at: '2026-07-19T05:24:48.410834Z'
-indexed_at: '2026-07-19T09:13:17.917716Z'
+  fetched_at: '2026-07-20T05:38:20.789207Z'
+indexed_at: '2026-07-20T06:03:28.337660Z'
 ---
