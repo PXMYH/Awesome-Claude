@@ -27,26 +27,26 @@ category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/error-coordinator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/error-coordinator.md
-fetched_at: '2026-07-22T05:17:57.758127Z'
+fetched_at: '2026-07-23T05:23:22.593219Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-22T05:36:46.906996Z'
+  evaluated_at: '2026-07-23T05:42:09.277736Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb4d292b470 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fea10d07a40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb4d292b470 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fea10d07a40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 23580
-  forks: 2753
-  open_issues: 5
+  stars: 23608
+  forks: 2755
+  open_issues: 6
   last_commit: '2026-07-10'
-  fetched_at: '2026-07-22T05:18:08.656940Z'
-indexed_at: '2026-07-22T05:43:16.504644Z'
+  fetched_at: '2026-07-23T05:23:34.033898Z'
+indexed_at: '2026-07-23T05:48:40.656691Z'
 ---
