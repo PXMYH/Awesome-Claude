@@ -17,39 +17,47 @@ prompt_preview: '---
 
 
   Dispatch a code reviewer subagent to catch issues before they cascade. The reviewer
-  gets precisely crafted context for evaluation — never your session''s history. This
-  keeps the reviewer focused on the work product, not your thought process, and preserves
-  your own context for continued work.
+  gets precisely crafted context for evaluation — never your session''s history.
 
 
-  **Core principle:** Re...'
-full_prompt_length: 2824
+  **Core principle:** Review early, review often.
+
+
+  ## When to Request Review
+
+
+  **Mandatory:**
+
+  - After each task in subagent-driven development
+
+  - After comp...'
+full_prompt_length: 2952
 tools_mentioned: []
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/requesting-code-review/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/requesting-code-review/SKILL.md
-fetched_at: '2026-07-23T05:23:31.313990Z'
+fetched_at: '2026-07-24T05:19:04.031490Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-23T05:47:34.999251Z'
+  evaluated_at: '2026-07-24T05:43:09.772785Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fea11086f30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0d11d4b230 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fea11086f30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0d11d4b230 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 259567
-  forks: 23142
-  open_issues: 332
-  last_commit: '2026-07-02'
-  fetched_at: '2026-07-23T05:23:34.922235Z'
-indexed_at: '2026-07-23T05:48:40.769445Z'
+  stars: 260174
+  forks: 23196
+  open_issues: 315
+  last_commit: '2026-07-24'
+  fetched_at: '2026-07-24T05:19:07.633933Z'
+indexed_at: '2026-07-24T05:44:15.516636Z'
 ---

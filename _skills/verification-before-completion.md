@@ -2,7 +2,7 @@
 id: verification-before-completion
 slug: verification-before-completion
 name: Verification Before Completion
-description: This is non-negotiable.
+description: '**Rule applies to:**'
 prompt_preview: '---
 
   name: verification-before-completion
@@ -20,40 +20,45 @@ prompt_preview: '---
   ## Overview
 
 
-  Claiming work is complete without verification is dishonesty, not efficiency.
-
-
   **Core principle:** Evidence before claims, always.
 
 
-  **Violating the letter of this rule...'
-full_prompt_length: 4149
+  **Violating the letter of this rule is violating the spirit of this rule.**
+
+
+  ## The Iron Law
+
+
+  ```
+
+  NO COMPLETION CLA...'
+full_prompt_length: 3598
 tools_mentioned: []
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/verification-before-completion/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/verification-before-completion/SKILL.md
-fetched_at: '2026-07-23T05:23:32.896152Z'
+fetched_at: '2026-07-24T05:19:05.686565Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-23T05:48:23.931828Z'
+  evaluated_at: '2026-07-24T05:43:58.406504Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fea113fe4b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0d1234a750 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fea113fe4b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0d1234a750 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 259567
-  forks: 23142
-  open_issues: 332
-  last_commit: '2026-07-02'
-  fetched_at: '2026-07-23T05:23:34.922235Z'
-indexed_at: '2026-07-23T05:48:40.786303Z'
+  stars: 260174
+  forks: 23196
+  open_issues: 315
+  last_commit: '2026-07-24'
+  fetched_at: '2026-07-24T05:19:07.633933Z'
+indexed_at: '2026-07-24T05:44:15.534749Z'
 ---

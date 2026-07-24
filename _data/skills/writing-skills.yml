@@ -1,46 +1,60 @@
 id: writing-skills
 slug: writing-skills
 name: Writing Skills
-description: If you follow TDD for code, follow it for skills. It's the same discipline
-  applied to documentation.
-prompt_preview: "---\nname: writing-skills\ndescription: Use when creating new skills,\
-  \ editing existing skills, or verifying skills work before deployment\n---\n\n#\
-  \ Writing Skills\n\n## Overview\n\n**Writing skills IS Test-Driven Development applied\
-  \ to process documentation.**\n\n**Personal skills live in your runtime's skills\
-  \ directory** \n\nYou write test cases (pressure scenarios with subagents), watch\
-  \ them fail (baseline behavior), write the skill (documentation), watch tests pass\
-  \ (agents comply), and refactor (close loo..."
-full_prompt_length: 26329
+description: '**Optimize for this flow** - put searchable terms early and often.'
+prompt_preview: '---
+
+  name: writing-skills
+
+  description: Use when creating new skills, editing existing skills, or verifying
+  skills work before deployment
+
+  ---
+
+
+  # Writing Skills
+
+
+  ## Overview
+
+
+  **Writing skills IS Test-Driven Development applied to process documentation.**
+
+
+  **Personal skills live in your runtime''s skills directory** (`~/.claude/skills/`
+  on Claude Code) — see [codex-tools.md](../using-superpowers/references/codex-tools.md)
+  or [gemini-tools.md](../using-superpowers/references/gemini-tools.md) for the p...'
+full_prompt_length: 26260
 tools_mentioned:
-- go
+- TypeScript
 - JavaScript
 - React
 - Python
-- TypeScript
+- go
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/writing-skills/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/writing-skills/SKILL.md
-fetched_at: '2026-07-23T05:23:33.346582Z'
+fetched_at: '2026-07-24T05:19:06.260545Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-23T05:48:40.106840Z'
+  evaluated_at: '2026-07-24T05:44:14.840408Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fea112227b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0d11c6a150 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fea112227b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0d11c6a150 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 259567
-  forks: 23142
-  open_issues: 332
-  last_commit: '2026-07-02'
-  fetched_at: '2026-07-23T05:23:34.922235Z'
-indexed_at: '2026-07-23T05:48:40.792132Z'
+  stars: 260174
+  forks: 23196
+  open_issues: 315
+  last_commit: '2026-07-24'
+  fetched_at: '2026-07-24T05:19:07.633933Z'
+indexed_at: '2026-07-24T05:44:15.540701Z'

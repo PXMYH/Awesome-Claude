@@ -1,7 +1,7 @@
 id: executing-plans
 slug: executing-plans
 name: Executing Plans
-description: '**Required workflow skills:**'
+description: '## Remember'
 prompt_preview: '---
 
   name: executing-plans
@@ -25,33 +25,33 @@ prompt_preview: '---
 
 
   **Note:** Tell your human partner that Superpowers works much better with access
-  to subagents. The quality of its work will be significantly higher if run on a p...'
-full_prompt_length: 2588
+  to subagents (Claude Code, Codex CLI, Codex App, Copilot CLI, and Gemini CLI all...'
+full_prompt_length: 2305
 tools_mentioned: []
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/executing-plans/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/executing-plans/SKILL.md
-fetched_at: '2026-07-23T05:23:30.589640Z'
+fetched_at: '2026-07-24T05:19:03.122442Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-23T05:47:10.630033Z'
+  evaluated_at: '2026-07-24T05:42:45.493743Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fea10cafb90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0d11d49400 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fea10cafb90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0d11d49400 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 259567
-  forks: 23142
-  open_issues: 332
-  last_commit: '2026-07-02'
-  fetched_at: '2026-07-23T05:23:34.922235Z'
-indexed_at: '2026-07-23T05:48:40.761235Z'
+  stars: 260174
+  forks: 23196
+  open_issues: 315
+  last_commit: '2026-07-24'
+  fetched_at: '2026-07-24T05:19:07.633933Z'
+indexed_at: '2026-07-24T05:44:15.507652Z'
