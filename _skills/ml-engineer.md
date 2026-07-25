@@ -23,33 +23,33 @@ prompt_preview: '---
   monitoring with emphasis on building production-ready ML syst...'
 full_prompt_length: 6463
 tools_mentioned:
-- REST
 - gRPC
+- REST
 category: 05-data-ai
 category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/ml-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/ml-engineer.md
-fetched_at: '2026-07-24T05:18:45.151472Z'
+fetched_at: '2026-07-25T05:13:27.773798Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-24T05:30:17.491259Z'
+  evaluated_at: '2026-07-25T05:25:21.366105Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0d11c68350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc263a49b20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0d11c68350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc263a49b20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 23649
-  forks: 2760
+  stars: 23691
+  forks: 2759
   open_issues: 6
   last_commit: '2026-07-10'
-  fetched_at: '2026-07-24T05:19:06.910415Z'
-indexed_at: '2026-07-24T05:44:15.227836Z'
+  fetched_at: '2026-07-25T05:14:08.617320Z'
+indexed_at: '2026-07-25T05:39:20.985929Z'
 ---
