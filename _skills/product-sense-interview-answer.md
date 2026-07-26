@@ -19,17 +19,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/product-sense-interview-answer/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/product-sense-interview-answer/SKILL.md
-fetched_at: '2026-07-19T05:21:17.903049+00:00'
+fetched_at: '2026-07-26T05:32:13.524340+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T06:57:32.330886Z'
+  evaluated_at: '2026-07-26T07:08:30.870517Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f3bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce7500 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f3bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce7500 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:18.821658Z'
-indexed_at: '2026-07-19T09:13:18.821663Z'
+  fetched_at: '2026-07-26T09:24:29.297455Z'
+indexed_at: '2026-07-26T09:24:29.297461Z'
 ---

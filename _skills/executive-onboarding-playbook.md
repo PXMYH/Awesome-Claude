@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/executive-onboarding-playbook/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/executive-onboarding-playbook/SKILL.md
-fetched_at: '2026-07-19T05:21:14.870951+00:00'
+fetched_at: '2026-07-26T05:32:09.831772+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T06:54:08.026159Z'
+  evaluated_at: '2026-07-26T07:05:07.588027Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f2bd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6300 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f2bd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6300 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:18.744846Z'
-indexed_at: '2026-07-19T09:13:18.744852Z'
+  fetched_at: '2026-07-26T09:24:29.222824Z'
+indexed_at: '2026-07-26T09:24:29.222830Z'
 ---

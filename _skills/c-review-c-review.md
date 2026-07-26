@@ -24,27 +24,27 @@ prompt_preview: '---
   Runs in the main conver...'
 full_prompt_length: 39177
 tools_mentioned:
-- Go
 - rest
-- Rust
-- Python
+- Go
 - Java
+- Python
+- Rust
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/c-review/skills/c-review/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/c-review/skills/c-review/SKILL.md
-fetched_at: '2026-07-19T05:24:04.361383+00:00'
+fetched_at: '2026-07-26T05:35:04.999974+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T09:02:02.018562Z'
+  evaluated_at: '2026-07-26T09:13:03.693548Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018a270 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1c920 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018a270 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1c920 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:21.675227Z'
-indexed_at: '2026-07-19T09:13:21.675233Z'
+  fetched_at: '2026-07-26T09:24:32.038226Z'
+indexed_at: '2026-07-26T09:24:32.038232Z'
 ---

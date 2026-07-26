@@ -1,8 +1,8 @@
 id: docx
 slug: docx
 name: DOCX creation, editing, and analysis
-description: '`docx` (npm, preinstalled — install only if `require(''docx'')` fails)
-  · `pandoc` · LibreOffice (`soffice`) · `pdftoppm` (Poppler)'
+description: '*This skill is created and maintained by [Anthropic](https://github.com/anthropics/skills/tree/main/skills/docx).
+  Vendored here unmodified except for frontmatter metadata; see LICENSE.txt for terms.*'
 prompt_preview: '---
 
   name: docx
@@ -13,33 +13,33 @@ prompt_preview: '---
   to produce professional documents with formatting like tables of contents, headings,
   page numbers, or letterheads. Also use when extracting or reorganizing content from
   .docx or .dotx files, inserting or replacing images in documents, perfor...'
-full_prompt_length: 6868
+full_prompt_length: 7209
 tools_mentioned:
 - python
-category: official
-category_display: Official Anthropic Skills
-source_repo: anthropics/skills
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/docx/SKILL.md
-source_url: https://github.com/anthropics/skills/blob/main/skills/docx/SKILL.md
-fetched_at: '2026-07-25T05:13:59.861418Z'
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/docx/SKILL.md
+fetched_at: '2026-07-26T05:30:29.900021+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-25T05:35:57.313781Z'
+  evaluated_at: '2026-07-26T05:45:03.635212Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc263b652e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf1a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc263b652e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf1a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 163995
-  forks: 19470
-  open_issues: 1050
-  last_commit: '2026-07-24'
-  fetched_at: '2026-07-25T05:14:09.056104Z'
-indexed_at: '2026-07-25T05:39:21.222675Z'
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-07-26T09:24:27.462323Z'
+indexed_at: '2026-07-26T09:24:27.462329Z'

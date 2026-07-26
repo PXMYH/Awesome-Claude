@@ -10,32 +10,32 @@ prompt_preview: "---\nname: setup-local-kubernetes\ndescription: >\n  Set up a l
   \  rebuild and redeploy workflows. Use when needing a local Kubernetes environment\
   \ for\n  development, testing manifests or Helm charts before production deployment,\
   \ wanting fast\n  automatic..."
-full_prompt_length: 15588
+full_prompt_length: 15099
 tools_mentioned:
-- kubernetes
 - redis
-- Kubernetes
-- docker
-- PostgreSQL
 - Docker
+- PostgreSQL
 - python
+- kubernetes
+- docker
+- Kubernetes
 - Redis
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/setup-local-kubernetes/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/setup-local-kubernetes/SKILL.md
-fetched_at: '2026-07-19T05:23:25.017623+00:00'
+fetched_at: '2026-07-26T05:34:19.543202+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T08:33:36.784853Z'
+  evaluated_at: '2026-07-26T08:44:34.997920Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2db0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce4650 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2db0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce4650 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,5 +45,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:21.024216Z'
-indexed_at: '2026-07-19T09:13:21.024221Z'
+  fetched_at: '2026-07-26T09:24:31.408607Z'
+indexed_at: '2026-07-26T09:24:31.408612Z'

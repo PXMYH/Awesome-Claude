@@ -2,18 +2,21 @@
 id: neurokit2
 slug: neurokit2
 name: NeuroKit2
-description: '- Official Documentation: https://neuropsychology.github.io/NeuroKit/'
+description: '- [PyPI 0.2.13](https://pypi.org/project/neurokit2/)'
 prompt_preview: '---
 
   name: neurokit2
 
-  description: Comprehensive biosignal processing toolkit for analyzing physiological
-  data including ECG, EEG, EDA, RSP, PPG, EMG, and EOG signals. Use this skill when
-  processing cardiovascular signals, brain activity, electrodermal responses, respiratory
-  patterns, muscle activity, or eye movements. Applicable for heart rate variability
-  analysis, event-related potentials, complexity measures, autonomic nervous system
-  assessment, psychophysiology research, and multi-modal physio...'
-full_prompt_length: 12031
+  description: Use NeuroKit2 to build or audit reproducible research workflows for
+  physiological time-series preprocessing, event/interval analysis, multimodal alignment,
+  variability, and complexity. Trigger when code imports neurokit2 or needs its current
+  APIs, schemas, and method-aware validation—not for diagnosis or device validation.
+
+  license: MIT
+
+  compatibility: Python 3.10+ and uv; pinned workflows use NeuroKit2 0.2.13. Core
+  processing needs NumPy, SciPy, pandas, scikit-lea...'
+full_prompt_length: 13358
 tools_mentioned:
 - Python
 - python
@@ -22,17 +25,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/neurokit2/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/neurokit2/SKILL.md
-fetched_at: '2026-07-19T05:19:53.239009+00:00'
+fetched_at: '2026-07-26T05:30:35.018661+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:39:50.007729Z'
+  evaluated_at: '2026-07-26T05:50:45.070215Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210afe3c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e79fa0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210afe3c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e79fa0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.058476Z'
-indexed_at: '2026-07-19T09:13:17.058485Z'
+  fetched_at: '2026-07-26T09:24:27.594766Z'
+indexed_at: '2026-07-26T09:24:27.594772Z'
 ---

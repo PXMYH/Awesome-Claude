@@ -2,7 +2,7 @@
 id: expo-expo-ui
 slug: expo-expo-ui
 name: Expo UI (`@expo/ui`)
-description: '```'
+description: '## Submitting Feedback'
 prompt_preview: '---
 
   name: expo-ui
@@ -13,27 +13,27 @@ prompt_preview: '---
   List, and more imported from @expo/ui), drop-in replacements for popular React Native
   community libraries (BottomSheet, DateTimePicker, Slider, Menu, etc.), and platform-specific
   SwiftUI (@expo/ui/swift-ui, iOS only) and Jetpack...'
-full_prompt_length: 4443
+full_prompt_length: 4802
 tools_mentioned:
-- react
 - Go
 - React
+- react
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-ui/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-ui/SKILL.md
-fetched_at: '2026-07-19T05:21:24.439505+00:00'
+fetched_at: '2026-07-26T05:32:21.212698+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T07:03:06.907148Z'
+  evaluated_at: '2026-07-26T07:14:16.029039Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2f30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7a810 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2f30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7a810 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:18.948327Z'
-indexed_at: '2026-07-19T09:13:18.948333Z'
+  fetched_at: '2026-07-26T09:24:29.421636Z'
+indexed_at: '2026-07-26T09:24:29.421641Z'
 ---

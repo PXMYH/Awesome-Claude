@@ -11,24 +11,24 @@ prompt_preview: "---\nname: ga4-events\ndescription: GA4 Event Implementation Re
   \  - Write\n  # GA4 tools (when connected via Cogny MCP)\n  - mcp__cogny__google_analytics_4__tool_list_account_summaries..."
 full_prompt_length: 20798
 tools_mentioned:
-- python
 - javascript
+- python
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/ga4-events/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/ga4-events/SKILL.md
-fetched_at: '2026-07-19T05:21:00.872575+00:00'
+fetched_at: '2026-07-26T05:31:53.644946+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T06:40:17.646854Z'
+  evaluated_at: '2026-07-26T06:51:16.744062Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2107261b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce4230 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2107261b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce4230 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:18.431101Z'
-indexed_at: '2026-07-19T09:13:18.431106Z'
+  fetched_at: '2026-07-26T09:24:28.923715Z'
+indexed_at: '2026-07-26T09:24:28.923720Z'
 ---

@@ -28,17 +28,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/cobrapy/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/cobrapy/SKILL.md
-fetched_at: '2026-07-19T05:19:47.230557+00:00'
+fetched_at: '2026-07-26T05:30:28.581803+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:32:47.740068Z'
+  evaluated_at: '2026-07-26T05:43:34.192591Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21077bf20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16087acb00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21077bf20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16087acb00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:16.898777Z'
-indexed_at: '2026-07-19T09:13:16.898786Z'
+  fetched_at: '2026-07-26T09:24:27.419799Z'
+indexed_at: '2026-07-26T09:24:27.419804Z'
 ---

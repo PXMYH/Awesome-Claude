@@ -20,17 +20,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/workflows-as-code/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/workflows-as-code/SKILL.md
-fetched_at: '2026-07-19T05:20:11.496747+00:00'
+fetched_at: '2026-07-26T05:30:55.119950+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:57:07.321202Z'
+  evaluated_at: '2026-07-26T06:07:59.876832Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2107fa180 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608153e30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2107fa180 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608153e30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.455481Z'
-indexed_at: '2026-07-19T09:13:17.455487Z'
+  fetched_at: '2026-07-26T09:24:27.975577Z'
+indexed_at: '2026-07-26T09:24:27.975583Z'
 ---

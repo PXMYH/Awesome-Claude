@@ -2,27 +2,21 @@
 id: scientific-visualization
 slug: scientific-visualization
 name: Scientific Visualization
-description: Use this skill to ensure scientific figures meet the highest publication
-  standards while remaining accessible to all readers.
+description: '- [ ] Raw data/images and transformation code are preserved.'
 prompt_preview: '---
 
   name: scientific-visualization
 
-  description: Meta-skill for publication-ready figures. Use when creating journal
-  submission figures requiring multi-panel layouts, significance annotations, error
-  bars, colorblind-safe palettes, and specific journal formatting (Nature, Science,
-  Cell). Orchestrates matplotlib/seaborn/plotly with publication styles. For quick
-  exploration use seaborn or plotly directly.
+  description: Create and audit truthful, accessible, publication-ready scientific
+  figures with Matplotlib, Seaborn, or Plotly. Use for figure design, multi-panel
+  layouts, uncertainty and missing-data displays, color/contrast review, image metadata
+  validation, and journal export planning.
 
-  license: MIT license
+  license: MIT
 
-  metadata: {"version": "1.0", "skill-author": "K-Dense Inc."}
-
-  ---
-
-
-  # Scient...'
-full_prompt_length: 25490
+  compatibility: Requires Python 3.11+ and uv for pinned examples. Bundled CLIs are
+  network-free and load Matplotlib, Pillow, or pypdf only when needed. Plotly static...'
+full_prompt_length: 12639
 tools_mentioned:
 - Python
 - python
@@ -31,17 +25,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/scientific-visualization/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/scientific-visualization/SKILL.md
-fetched_at: '2026-07-19T05:19:59.020190+00:00'
+fetched_at: '2026-07-26T05:30:41.023987+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:46:39.414021Z'
+  evaluated_at: '2026-07-26T05:57:31.741351Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1580 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6060 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1580 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6060 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.217807Z'
-indexed_at: '2026-07-19T09:13:17.217817Z'
+  fetched_at: '2026-07-26T09:24:27.742101Z'
+indexed_at: '2026-07-26T09:24:27.742107Z'
 ---

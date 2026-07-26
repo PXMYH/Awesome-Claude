@@ -2,48 +2,51 @@
 id: xlsx
 slug: xlsx
 name: XLSX creation, editing, and analysis
-description: '`openpyxl`, `pandas`, `markitdown` (pip, preinstalled — install only
-  if an import fails or the command is missing) · LibreOffice (`soffice`, auto-configured
-  for sandboxed environments via `scripts/off...'
+description: '*This skill is created and maintained by [Anthropic](https://github.com/anthropics/skills/tree/main/skills/xlsx).
+  Vendored here unmodified except for frontmatter metadata; see LICENSE.txt for terms.*'
 prompt_preview: '---
 
   name: xlsx
 
-  description: "Use this skill any time a spreadsheet file is the primary input or
-  output. This means any task where the user wants to: open, read, edit, or fix an
-  existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.g., adding columns, computing
-  formulas, formatting, charting, cleaning messy data); create a new spreadsheet from
-  scratch or from other data sources; or convert between tabular file formats. Trigger
-  especially when the user references a spreadsheet file by name or path —...'
-full_prompt_length: 8542
+  description: "Create, edit, analyze, or convert Excel spreadsheets (.xlsx, .xlsm,
+  .xltx) where the workbook file is the primary deliverable. Use for formulas, formatting,
+  financial models, multi-sheet workbooks, and tabular cleanup exported to Excel.
+  Also applies to .csv/.tsv when the user wants spreadsheet output. Do NOT use for
+  Word documents, HTML reports, standalone Python scripts, database pipelines, or
+  Google Sheets API work."
+
+  allowed-tools: Read Write Edit Bash Grep Glob
+
+  li...'
+full_prompt_length: 8544
 tools_mentioned:
-- python
 - Python
-category: official
-category_display: Official Anthropic Skills
-source_repo: anthropics/skills
+- python
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/xlsx/SKILL.md
-source_url: https://github.com/anthropics/skills/blob/main/skills/xlsx/SKILL.md
-fetched_at: '2026-07-25T05:14:02.795239Z'
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/xlsx/SKILL.md
+fetched_at: '2026-07-26T05:30:44.330019+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-25T05:37:26.962935Z'
+  evaluated_at: '2026-07-26T06:01:11.033877Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc263a4a1e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eae690 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc263a4a1e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eae690 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 163995
-  forks: 19470
-  open_issues: 1050
-  last_commit: '2026-07-24'
-  fetched_at: '2026-07-25T05:14:09.056104Z'
-indexed_at: '2026-07-25T05:39:21.255651Z'
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-07-26T09:24:27.822557Z'
+indexed_at: '2026-07-26T09:24:27.822562Z'
 ---

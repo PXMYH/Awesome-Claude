@@ -17,17 +17,17 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/atlassian-mcp/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/atlassian-mcp/SKILL.md
-fetched_at: '2026-07-19T05:22:04.419570+00:00'
+fetched_at: '2026-07-26T05:33:07.858645+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T07:39:05.150447Z'
+  evaluated_at: '2026-07-26T07:50:09.176090Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210189d30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e79ee0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210189d30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e79ee0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:19.765712Z'
-indexed_at: '2026-07-19T09:13:19.765717Z'
+  fetched_at: '2026-07-26T09:24:30.208607Z'
+indexed_at: '2026-07-26T09:24:30.208612Z'
 ---

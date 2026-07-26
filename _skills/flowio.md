@@ -1,34 +1,16 @@
 ---
 id: flowio
 slug: flowio
-name: 'FlowIO: Flow Cytometry Standard File Handler'
-description: FlowIO provides essential FCS file handling capabilities for flow cytometry
-  workflows. Use it for parsing, metadata extraction, and file creation. For simple
-  file operations and data extraction, FlowI...
-prompt_preview: '---
-
-  name: flowio
-
-  description: Parse FCS (Flow Cytometry Standard) files v2.0-3.1. Extract events
-  as NumPy arrays, read metadata/channels, convert to CSV/DataFrame, for flow cytometry
-  data preprocessing.
-
-  license: BSD-3-Clause license
-
-  metadata: {"version": "1.0", "skill-author": "K-Dense Inc."}
-
-  ---
-
-
-  # FlowIO: Flow Cytometry Standard File Handler
-
-
-  ## Overview
-
-
-  FlowIO is a lightweight Python library for reading and writing Flow Cytometry Standard
-  (FCS) files. Parse FCS metadata, extract event data,...'
-full_prompt_length: 16792
+name: FlowIO
+description: '- Never claim FlowIO applies compensation or gating.'
+prompt_preview: "---\nname: flowio\ndescription: Read, inspect, and write Flow Cytometry\
+  \ Standard (FCS) 2.0, 3.0, and 3.1 files with FlowIO. Use for low-level FCS metadata\
+  \ and channel inspection, NumPy event extraction, multi-dataset files, table export,\
+  \ and FCS 3.1 creation; use FlowKit for compensation, cytometry transforms, gating,\
+  \ or FlowJo workspaces.\nallowed-tools:\n  - Read\n  - Write\n  - Bash\nlicense:\
+  \ BSD-3-Clause license\ncompatibility: Requires Python 3.9-3.13, uv, and FlowIO\
+  \ 1.4.0. NumPy is installed with..."
+full_prompt_length: 10964
 tools_mentioned:
 - Python
 - python
@@ -37,17 +19,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/flowio/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/flowio/SKILL.md
-fetched_at: '2026-07-19T05:19:49.180028+00:00'
+fetched_at: '2026-07-26T05:30:30.611669+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:35:06.309620Z'
+  evaluated_at: '2026-07-26T05:45:52.471397Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2090 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eafdd0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2090 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eafdd0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -57,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:16.951301Z'
-indexed_at: '2026-07-19T09:13:16.951307Z'
+  fetched_at: '2026-07-26T09:24:27.480420Z'
+indexed_at: '2026-07-26T09:24:27.480430Z'
 ---

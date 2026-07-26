@@ -1,18 +1,21 @@
 id: exploratory-data-analysis
 slug: exploratory-data-analysis
 name: Exploratory Data Analysis
-description: '### assets/'
+description: '- Python [`csv`](https://docs.python.org/3/library/csv.html) and'
 prompt_preview: '---
 
   name: exploratory-data-analysis
 
-  description: Perform comprehensive exploratory data analysis on scientific data
-  files across 200+ file formats. This skill should be used when analyzing any scientific
-  data file to understand its structure, content, quality, and characteristics. Automatically
-  detects file type and generates detailed markdown reports with format-specific analysis,
-  quality metrics, and downstream analysis recommendations. Covers chemistry, bioinformatics,
-  microscopy, spectroscop...'
-full_prompt_length: 14322
+  description: "Perform bounded, local exploratory analysis of explicitly supported
+  scientific files. Use for redacted CSV/TSV/JSON profiles; optional NumPy, HDF5,
+  FASTA/FASTQ, and basic image metadata inspection; missingness/leakage audits; outlier
+  and transformation sensitivity; and rigorous EDA report scaffolds. Other domain
+  formats are reference-only and unknown formats fail closed."
+
+  license: MIT
+
+  compatibility: Bundled core CLIs require Python 3.11+ and are...'
+full_prompt_length: 12631
 tools_mentioned:
 - Python
 - python
@@ -21,17 +24,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/exploratory-data-analysis/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/exploratory-data-analysis/SKILL.md
-fetched_at: '2026-07-19T05:19:49.066848+00:00'
+fetched_at: '2026-07-26T05:30:30.489291+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:34:58.218457Z'
+  evaluated_at: '2026-07-26T05:45:44.381631Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2570 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608152c60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2570 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608152c60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +44,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:16.948293Z'
-indexed_at: '2026-07-19T09:13:16.948298Z'
+  fetched_at: '2026-07-26T09:24:27.477441Z'
+indexed_at: '2026-07-26T09:24:27.477447Z'

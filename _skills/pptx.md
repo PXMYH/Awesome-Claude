@@ -2,9 +2,8 @@
 id: pptx
 slug: pptx
 name: PPTX creation, editing, and analysis
-description: '`pptxgenjs` (npm, preinstalled — install only if `require(''pptxgenjs'')`
-  fails) · `markitdown[pptx]`, `Pillow`, `defusedxml`, `lxml` (pip — text dump, thumbnail,
-  clean, validate) · LibreOffice (`soffic...'
+description: '*This skill is created and maintained by [Anthropic](https://github.com/anthropics/skills/tree/main/skills/pptx).
+  Vendored here unmodified except for frontmatter metadata; see LICENSE.txt for terms.*'
 prompt_preview: '---
 
   name: pptx
@@ -15,38 +14,38 @@ prompt_preview: '---
   (even if the extracted content will be used elsewhere, like in an email or summary);
   editing, modifying, or updating existing presentations; combining or splitting slide
   files; working with templates (.potx), layouts, speaker notes, or com...'
-full_prompt_length: 20647
+full_prompt_length: 20988
 tools_mentioned:
-- Python
-- react
-- python
-- go
 - rest
-category: official
-category_display: Official Anthropic Skills
-source_repo: anthropics/skills
+- go
+- Python
+- python
+- react
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pptx/SKILL.md
-source_url: https://github.com/anthropics/skills/blob/main/skills/pptx/SKILL.md
-fetched_at: '2026-07-25T05:14:01.173936Z'
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pptx/SKILL.md
+fetched_at: '2026-07-26T05:30:37.624824+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-25T05:36:38.434425Z'
+  evaluated_at: '2026-07-26T05:53:43.972928Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc264246660 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e78080 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc264246660 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e78080 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 163995
-  forks: 19470
-  open_issues: 1050
-  last_commit: '2026-07-24'
-  fetched_at: '2026-07-25T05:14:09.056104Z'
-indexed_at: '2026-07-25T05:39:21.237799Z'
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-07-26T09:24:27.659650Z'
+indexed_at: '2026-07-26T09:24:27.659656Z'
 ---

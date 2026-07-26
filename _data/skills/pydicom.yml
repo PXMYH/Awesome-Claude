@@ -1,18 +1,15 @@
 id: pydicom
 slug: pydicom
-name: Pydicom
-description: 'Official pydicom documentation: https://pydicom.github.io/pydicom/dev/'
-prompt_preview: '---
-
-  name: pydicom
-
-  description: Python library for working with DICOM (Digital Imaging and Communications
-  in Medicine) files. Use this skill when reading, writing, or modifying medical imaging
-  data in DICOM format, extracting pixel data from medical images (CT, MRI, X-ray,
-  ultrasound), anonymizing DICOM files, working with DICOM metadata and tags, converting
-  DICOM images to other formats, handling compressed DICOM data, or processing medical
-  imaging datasets. Applies to tasks involving medical im...'
-full_prompt_length: 13209
+name: pydicom
+description: '- [pydicom 3.0.2 on PyPI](https://pypi.org/project/pydicom/) — released'
+prompt_preview: "---\nname: pydicom\ndescription: Use pydicom to read, inspect, write,\
+  \ transform, and safely preflight local DICOM datasets and pixel data. Applies to\
+  \ DICOM metadata, transfer syntaxes, compression plugins, frames, private elements,\
+  \ JSON, and bounded de-identification review.\nlicense: MIT\ncompatibility: Python\
+  \ 3.10+ with pydicom 3.0.2; optional pinned NumPy, Pillow, and pixel plugins. Helper\
+  \ CLIs are local-only and require authorized data.\nmetadata:\n  version: \"1.1\"\
+  \n  skill-author: \"K-Dense Inc.\"..."
+full_prompt_length: 15869
 tools_mentioned:
 - Python
 - python
@@ -21,17 +18,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pydicom/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pydicom/SKILL.md
-fetched_at: '2026-07-19T05:19:56.351109+00:00'
+fetched_at: '2026-07-26T05:30:38.218339+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:43:31.515605Z'
+  evaluated_at: '2026-07-26T05:54:24.664843Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018aff0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7b470 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018aff0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7b470 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.146889Z'
-indexed_at: '2026-07-19T09:13:17.146895Z'
+  fetched_at: '2026-07-26T09:24:27.674398Z'
+indexed_at: '2026-07-26T09:24:27.674403Z'

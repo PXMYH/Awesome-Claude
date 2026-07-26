@@ -26,35 +26,35 @@ prompt_preview: '---
   or [gemini-tools.md](../using-superpowers/references/gemini-tools.md) for the p...'
 full_prompt_length: 26260
 tools_mentioned:
-- TypeScript
-- Python
 - go
-- JavaScript
 - React
+- JavaScript
+- Python
+- TypeScript
 category: community
-category_display: Community Skills
+category_display: Community
 source_repo: obra/superpowers
 source_path: skills/writing-skills/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/writing-skills/SKILL.md
-fetched_at: '2026-07-25T05:14:07.973813Z'
+fetched_at: '2026-07-26T05:33:29.775332+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-25T05:39:20.597638Z'
+  evaluated_at: '2026-07-26T08:00:43.870613Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc263b6abd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7a8d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc263b6abd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7a8d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 260669
-  forks: 23251
-  open_issues: 319
+  stars: 261194
+  forks: 23309
+  open_issues: 322
   last_commit: '2026-07-24'
-  fetched_at: '2026-07-25T05:14:09.357152Z'
-indexed_at: '2026-07-25T05:39:21.297037Z'
+  fetched_at: '2026-07-26T05:35:39.484046Z'
+indexed_at: '2026-07-26T09:24:30.440829Z'

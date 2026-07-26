@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/mindfulness/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/mindfulness/SKILL.md
-fetched_at: '2026-07-19T05:23:13.757723+00:00'
+fetched_at: '2026-07-26T05:34:06.560636+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T08:20:59.634602Z'
+  evaluated_at: '2026-07-26T08:31:50.940750Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1dc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16081a5e20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1dc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16081a5e20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:20.725142Z'
-indexed_at: '2026-07-19T09:13:20.725147Z'
+  fetched_at: '2026-07-26T09:24:31.125089Z'
+indexed_at: '2026-07-26T09:24:31.125095Z'
 ---

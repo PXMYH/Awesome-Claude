@@ -10,24 +10,24 @@ prompt_preview: "---\nname: prepare-print-model\ndescription: >\n  Export and op
   \ printable before slicing, troubleshooting models\n  that fail to slice correctly,\
   \ optimizing part orientation for strength or\n  surface finish, or converting between\
   \ model formats while pres..."
-full_prompt_length: 13785
+full_prompt_length: 14334
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/prepare-print-model/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/prepare-print-model/SKILL.md
-fetched_at: '2026-07-19T05:23:17.829947+00:00'
+fetched_at: '2026-07-26T05:34:11.129032+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T08:25:27.687523Z'
+  evaluated_at: '2026-07-26T08:36:19.217733Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f3260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce7230 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f3260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce7230 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:20.834575Z'
-indexed_at: '2026-07-19T09:13:20.834581Z'
+  fetched_at: '2026-07-26T09:24:31.224188Z'
+indexed_at: '2026-07-26T09:24:31.224193Z'

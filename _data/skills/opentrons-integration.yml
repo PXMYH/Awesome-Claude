@@ -1,51 +1,41 @@
 id: opentrons-integration
 slug: opentrons-integration
 name: Opentrons Integration
-description: For example protocol templates, see `scripts/` directory.
+description: '| Reference | Use it for |'
 prompt_preview: '---
 
   name: opentrons-integration
 
-  description: Official Opentrons Protocol API for OT-2 and Flex robots. Use when
-  writing protocols specifically for Opentrons hardware with full access to Protocol
-  API v2 features. Best for production Opentrons protocols, official API compatibility.
-  For multi-vendor automation or broader equipment control use pylabrobot.
+  description: Author, review, migrate, simulate, and troubleshoot official Opentrons
+  Python Protocol API v2 protocols for Flex and OT-2 robots. Use for robot-specific
+  liquid handling, deck and labware setup, pipettes, modules, runtime parameters,
+  liquid classes, and Opentrons App analysis. Use pylabrobot instead when one workflow
+  must support multiple robot vendors.
 
-  license: Unknown
+  license: MIT
 
-  metadata: {"version": "1.0", "skill-author": "K-Dense Inc."}
-
-  ---
-
-
-  # Opentrons Integration
-
-
-  ## Overview
-
-
-  Opentrons is a Python-bas...'
-full_prompt_length: 14735
+  compatibility: Requires Python 3.10+ and uv for local simulation. Flex examples
+  target...'
+full_prompt_length: 12927
 tools_mentioned:
 - Python
 - python
-- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/opentrons-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/opentrons-integration/SKILL.md
-fetched_at: '2026-07-19T05:19:53.920815+00:00'
+fetched_at: '2026-07-26T05:30:35.741144+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:40:39.273504Z'
+  evaluated_at: '2026-07-26T05:51:34.153460Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b440 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160828deb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b440 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160828deb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -55,5 +45,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.076826Z'
-indexed_at: '2026-07-19T09:13:17.076831Z'
+  fetched_at: '2026-07-26T09:24:27.612754Z'
+indexed_at: '2026-07-26T09:24:27.612759Z'

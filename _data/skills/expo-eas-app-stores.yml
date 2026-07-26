@@ -1,7 +1,7 @@
 id: expo-eas-app-stores
 slug: expo-eas-app-stores
 name: App Store Deployment
-description: '# View submission status'
+description: '## Submitting Feedback'
 prompt_preview: '---
 
   name: eas-app-stores
@@ -12,24 +12,24 @@ prompt_preview: '---
   Store metadata and ASO. Use whenever the user wants to deploy, release, or ship
   an app to production or the app stores, is preparing a production build, running
   eas build or eas submit, shipping to TestFlight, bumping ver...'
-full_prompt_length: 4435
+full_prompt_length: 4801
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/eas-app-stores/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/eas-app-stores/SKILL.md
-fetched_at: '2026-07-19T05:21:22.514357+00:00'
+fetched_at: '2026-07-26T05:32:19.081089+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T07:00:40.508331Z'
+  evaluated_at: '2026-07-26T07:11:46.029517Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210473da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eade50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210473da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eade50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:18.892608Z'
-indexed_at: '2026-07-19T09:13:18.892614Z'
+  fetched_at: '2026-07-26T09:24:29.369035Z'
+indexed_at: '2026-07-26T09:24:29.369040Z'

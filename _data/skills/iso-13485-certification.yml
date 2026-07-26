@@ -1,38 +1,40 @@
 id: iso-13485-certification
 slug: iso-13485-certification
-name: ISO 13485 Certification Documentation Assistant
-description: '**Need help?** Start by describing your situation: what stage you''re
-  at, what you have, and what you need to create.'
+name: ISO 13485 QMS Evidence Preparation
+description: '- `references/iso-13485-requirements.md` — process/evidence framework
+  and assurance boundaries'
 prompt_preview: '---
 
   name: iso-13485-certification
 
-  description: Comprehensive toolkit for preparing ISO 13485 certification documentation
-  for medical device Quality Management Systems. Use when users need help with ISO
-  13485 QMS documentation, including (1) conducting gap analysis of existing documentation,
-  (2) creating Quality Manuals, (3) developing required procedures and work instructions,
-  (4) preparing Medical Device Files, (5) understanding ISO 13485 requirements, or
-  (6) identifying missing documentation f...'
-full_prompt_length: 23261
+  description: Prepare and structurally review ISO 13485 QMS scope, controlled documentation,
+  and local evidence manifests. Use for ISO 13485 certification-readiness documentation
+  or for separating related FDA QMSR, MDSAP, and EU MDR/IVDR evidence boundaries;
+  not for legal applicability, compliance, or certification decisions.
+
+  license: MIT
+
+  compatibility: Python 3.11+; bundled CLIs use only the standard library and bounded
+  local JSON/Markdown files, with no network...'
+full_prompt_length: 12298
 tools_mentioned:
-- Go
-- python
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/iso-13485-certification/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/iso-13485-certification/SKILL.md
-fetched_at: '2026-07-19T05:19:51.152735+00:00'
+fetched_at: '2026-07-26T05:30:32.899553+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:37:24.217745Z'
+  evaluated_at: '2026-07-26T05:48:18.580501Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1580 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608150aa0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1580 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608150aa0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +44,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.003608Z'
-indexed_at: '2026-07-19T09:13:17.003614Z'
+  fetched_at: '2026-07-26T09:24:27.541846Z'
+indexed_at: '2026-07-26T09:24:27.541851Z'

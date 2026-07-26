@@ -18,17 +18,17 @@ category_display: Community
 source_repo: avelikiy/great_cto
 source_path: skills/vertical-restaurants/SKILL.md
 source_url: https://github.com/avelikiy/great_cto/blob/main/skills/vertical-restaurants/SKILL.md
-fetched_at: '2026-07-19T05:20:45.252674+00:00'
+fetched_at: '2026-07-26T05:31:35.832606+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T06:26:58.978842Z'
+  evaluated_at: '2026-07-26T06:37:54.823807Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eac980 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eac980 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:18.132390Z'
-indexed_at: '2026-07-19T09:13:18.132396Z'
+  fetched_at: '2026-07-26T09:24:28.634998Z'
+indexed_at: '2026-07-26T09:24:28.635003Z'
 ---

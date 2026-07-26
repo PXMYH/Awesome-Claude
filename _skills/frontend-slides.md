@@ -30,28 +30,28 @@ prompt_preview: '---
 full_prompt_length: 28057
 tools_mentioned:
 - Go
-- React
-- react
 - go
-- python
 - Node.js
+- React
 - Python
+- python
+- react
 category: community
 category_display: Community
 source_repo: zarazhangrui/frontend-slides
 source_path: SKILL.md
 source_url: https://github.com/zarazhangrui/frontend-slides/blob/main/SKILL.md
-fetched_at: '2026-07-19T05:24:45.085083+00:00'
+fetched_at: '2026-07-26T05:35:34.680891+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T09:12:27.843553Z'
+  evaluated_at: '2026-07-26T09:23:38.437922Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210188fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eac2c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210188fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eac2c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -61,6 +61,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:21.913086Z'
-indexed_at: '2026-07-19T09:13:21.913091Z'
+  fetched_at: '2026-07-26T09:24:32.273440Z'
+indexed_at: '2026-07-26T09:24:32.273446Z'
 ---

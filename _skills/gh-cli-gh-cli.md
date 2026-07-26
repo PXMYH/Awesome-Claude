@@ -38,17 +38,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/gh-cli/skills/gh-cli/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/gh-cli/skills/gh-cli/SKILL.md
-fetched_at: '2026-07-19T05:24:19.025848+00:00'
+fetched_at: '2026-07-26T05:35:09.671423+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T09:03:39.790326Z'
+  evaluated_at: '2026-07-26T09:14:40.934560Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2b70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1e0f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2b70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1e0f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -58,6 +58,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:21.712607Z'
-indexed_at: '2026-07-19T09:13:21.712613Z'
+  fetched_at: '2026-07-26T09:24:32.075257Z'
+indexed_at: '2026-07-26T09:24:32.075263Z'
 ---

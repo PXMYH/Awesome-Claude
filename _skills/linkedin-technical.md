@@ -12,29 +12,29 @@ prompt_preview: "---\nname: linkedin-technical\ndescription: When the user wants
   \ deals. This skill covers technical content t..."
 full_prompt_length: 12140
 tools_mentioned:
-- kubernetes
-- Kubernetes
-- MongoDB
+- Docker
 - PostgreSQL
 - postgresql
-- Docker
+- MongoDB
+- kubernetes
 - Redis
+- Kubernetes
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/linkedin-technical/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/linkedin-technical/SKILL.md
-fetched_at: '2026-07-19T05:22:35.578317+00:00'
+fetched_at: '2026-07-26T05:33:21.787484+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T07:46:15.359516Z'
+  evaluated_at: '2026-07-26T07:57:12.201723Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f1eb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1ef30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f1eb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1ef30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:19.927153Z'
-indexed_at: '2026-07-19T09:13:19.927159Z'
+  fetched_at: '2026-07-26T09:24:30.363217Z'
+indexed_at: '2026-07-26T09:24:30.363223Z'
 ---

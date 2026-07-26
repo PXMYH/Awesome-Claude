@@ -1,33 +1,23 @@
 id: matchms
 slug: matchms
 name: Matchms
-description: Load these references as needed for detailed information about specific
-  matchms capabilities.
+description: '- Never compare raw queries against differently processed references.'
 prompt_preview: '---
 
   name: matchms
 
-  description: Spectral similarity and compound identification for metabolomics. Use
-  for comparing mass spectra, computing similarity scores (cosine, modified cosine),
-  and identifying unknown compounds from spectral libraries. Best for metabolite identification,
-  spectral matching, library searching. For full LC-MS/MS proteomics pipelines use
-  pyopenms.
+  description: Process, clean, compare, and search tandem mass spectra with matchms.
+  Use for MS/MS file I/O, metadata harmonization, peak filtering, spectral similarity,
+  library matching, score matrices, and molecular-similarity networks. Use pyopenms
+  instead for LC-MS feature detection or proteomics pipelines.
 
-  license: Apache-2.0 license
+  allowed-tools: Read Write Edit Bash
 
-  metadata: {"version": "1.0", "skill-author": "K-Dense Inc."}
+  license: Apache-2.0
 
-  ---
-
-
-  # Matchms
-
-
-  ## Overview
-
-
-  Matchms is a...'
-full_prompt_length: 7030
+  compatibility: Requires Python >=3.10,<3.15, uv, and matchms 0.33.1. Local file
+  workflows need no credentials; meta...'
+full_prompt_length: 10518
 tools_mentioned:
 - Python
 - python
@@ -36,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/matchms/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/matchms/SKILL.md
-fetched_at: '2026-07-19T05:19:52.306618+00:00'
+fetched_at: '2026-07-26T05:30:34.082776+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:38:45.317025Z'
+  evaluated_at: '2026-07-26T05:49:39.623971Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21014ff20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e790a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21014ff20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e790a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -56,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.034442Z'
-indexed_at: '2026-07-19T09:13:17.034448Z'
+  fetched_at: '2026-07-26T09:24:27.571533Z'
+indexed_at: '2026-07-26T09:24:27.571538Z'

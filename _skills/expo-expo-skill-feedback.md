@@ -2,36 +2,35 @@
 id: expo-expo-skill-feedback
 slug: expo-expo-skill-feedback
 name: Expo Skill Feedback
-description: '**Never enable it on your own.** If a feedback send was refused because
-  telemetry is off,'
+description: '## Submitting Feedback'
 prompt_preview: '---
 
   name: expo-skill-feedback
 
-  description: Framework (OSS). Submit feedback on an Expo skill — or on Expo itself
-  — or turn the bundled anonymous usage telemetry on or off (off by default / opt-in;
-  the user saying "enable Expo skills telemetry" in conversation is the switch). Use
-  when an Expo skill was useful, confusing, broken, missing context, or worth improving;
-  when something fell short because of Expo (an SDK bug or confusing framework behavior)
-  rather than the skill; or when the user wants...'
-full_prompt_length: 3065
+  description: ''Submit feedback on an Expo skill—or Expo itself—and control bundled
+  anonymous usage telemetry (off by default / opt-in). Submit feedback with: npx --yes
+  submit-expo-feedback@latest "ACTIONABLE_FEEDBACK". Optionally add either or both:
+  --category "CATEGORY" and --subject "SUBJECT". Replace the uppercase placeholders
+  before running. Use when a skill was useful, confusing, broken, missing context,
+  or worth improving; when Expo, Expo CLI, EAS CLI, docs, or...'
+full_prompt_length: 2779
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-skill-feedback/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-skill-feedback/SKILL.md
-fetched_at: '2026-07-19T05:21:24.219714+00:00'
+fetched_at: '2026-07-26T05:32:20.987243+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T07:02:50.475136Z'
+  evaluated_at: '2026-07-26T07:13:59.392751Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101894f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eace30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101894f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eace30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:18.942145Z'
-indexed_at: '2026-07-19T09:13:18.942151Z'
+  fetched_at: '2026-07-26T09:24:29.415721Z'
+indexed_at: '2026-07-26T09:24:29.415727Z'
 ---

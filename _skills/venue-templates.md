@@ -2,36 +2,40 @@
 id: venue-templates
 slug: venue-templates
 name: Venue Templates
-description: ''
+description: 1. replace year-specific claims only after checking official sources;
 prompt_preview: '---
 
   name: venue-templates
 
-  description: Access comprehensive LaTeX templates, formatting requirements, and
-  submission guidelines for major scientific publication venues (Nature, Science,
-  PLOS, IEEE, ACM), academic conferences (NeurIPS, ICML, CVPR, CHI), research posters,
-  and grant proposals (NSF, NIH, DOE, DARPA). This skill should be used when preparing
-  manuscripts for journal submission, conference papers, research posters, or grant
-  proposals and need venue-specific formatting requirements and...'
-full_prompt_length: 23617
+  description: Prepare journal manuscripts, conference papers, research posters, and
+  grant documents using venue-specific formatting guidance and bundled LaTeX scaffolds.
+  Use when selecting an official template, checking current page or anonymity rules,
+  adapting academic writing to a venue, or inspecting a submission PDF.
+
+  license: MIT license
+
+  compatibility: Requires Python 3.11+ for helper scripts; LaTeX and Poppler command-line
+  tools are optional for compilation and PDF...'
+full_prompt_length: 10777
 tools_mentioned:
+- Python
 - python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/venue-templates/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/venue-templates/SKILL.md
-fetched_at: '2026-07-19T05:20:01.944049+00:00'
+fetched_at: '2026-07-26T05:30:44.100670+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:50:02.472912Z'
+  evaluated_at: '2026-07-26T06:00:54.816991Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eae600 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eae600 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.295298Z'
-indexed_at: '2026-07-19T09:13:17.295304Z'
+  fetched_at: '2026-07-26T09:24:27.816533Z'
+indexed_at: '2026-07-26T09:24:27.816538Z'
 ---

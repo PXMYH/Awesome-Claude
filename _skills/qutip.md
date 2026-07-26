@@ -1,46 +1,43 @@
 ---
 id: qutip
 slug: qutip
-name: 'QuTiP: Quantum Toolbox in Python'
-description: '- Documentation: https://qutip.readthedocs.io/'
+name: QuTiP 5
+description: '- [QuTiP 5.3.0 PyPI metadata](https://pypi.org/project/qutip/)'
 prompt_preview: '---
 
   name: qutip
 
-  description: Quantum physics simulation library for open quantum systems. Use when
-  studying master equations, Lindblad dynamics, decoherence, quantum optics, or cavity
-  QED. Best for physics research, open system dynamics, and educational simulations.
-  NOT for circuit-based quantum computing—use qiskit, cirq, or pennylane for quantum
-  algorithms and hardware execution.
+  description: Simulate and audit closed and open quantum-system models with QuTiP
+  5, including deterministic, trajectory, steady-state, spectral, and phase-space
+  workflows. Use for local quantum-dynamics work where physical assumptions, dimensions,
+  and numerical convergence must be explicit.
 
-  license: BSD-3-Clause license
+  license: MIT
 
-  metadata: {"version": "1.0", "skill-author": "K-Dense Inc."}
-
-  ---
-
-
-  # QuTiP: Quantum To...'
-full_prompt_length: 9042
+  compatibility: Requires Python 3.11+, uv, and qutip==5.3.0 for executable simulations.
+  Bundled planners and all script help run with the Python standard library; plotting
+  requires...'
+full_prompt_length: 12836
 tools_mentioned:
 - Python
 - python
+- angular
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/qutip/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/qutip/SKILL.md
-fetched_at: '2026-07-19T05:19:57.748808+00:00'
+fetched_at: '2026-07-26T05:30:39.676885+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:45:09.152580Z'
+  evaluated_at: '2026-07-26T05:56:02.083487Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210189970 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e78c50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210189970 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e78c50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.183643Z'
-indexed_at: '2026-07-19T09:13:17.183649Z'
+  fetched_at: '2026-07-26T09:24:27.709547Z'
+indexed_at: '2026-07-26T09:24:27.709553Z'
 ---

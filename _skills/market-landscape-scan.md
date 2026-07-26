@@ -19,17 +19,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/market-landscape-scan/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/market-landscape-scan/SKILL.md
-fetched_at: '2026-07-19T05:21:15.929290+00:00'
+fetched_at: '2026-07-26T05:32:11.201071+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T06:55:21.992588Z'
+  evaluated_at: '2026-07-26T07:06:20.938758Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f3530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e79d60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f3530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e79d60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:18.772728Z'
-indexed_at: '2026-07-19T09:13:18.772734Z'
+  fetched_at: '2026-07-26T09:24:29.249983Z'
+indexed_at: '2026-07-26T09:24:29.249989Z'
 ---

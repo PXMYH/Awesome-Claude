@@ -1,33 +1,26 @@
 ---
 id: pysam
 slug: pysam
-name: Pysam
-description: 'Official documentation: https://pysam.readthedocs.io/'
+name: pysam
+description: '- Treating numeric `VariantFile.fetch()` coordinates as 1-based'
 prompt_preview: '---
 
   name: pysam
 
-  description: Genomic file toolkit. Read/write SAM/BAM/CRAM alignments, VCF/BCF variants,
-  FASTA/FASTQ sequences, extract regions, calculate coverage, for NGS data processing
-  pipelines.
+  description: Python/HTSlib workflows for genomic files. Use when reading, querying,
+  filtering, or writing SAM/BAM/CRAM, VCF/BCF, FASTA/FASTQ, or tabix data with pysam,
+  including pileup, coverage, indexing, and CRAM references.
 
-  license: MIT license
+  license: MIT
 
-  metadata: {"version": "1.0", "skill-author": "K-Dense Inc."}
+  allowed-tools: Read, Write, Edit, Bash
 
-  ---
+  compatibility: Requires Python 3.8–3.14 and pysam 0.24.0. Bundled scripts use local
+  files. CRAM decoding may require the matching reference FASTA or an explicitly configured
+  REF_PATH/REF_CACHE.
 
-
-  # Pysam
-
-
-  ## Overview
-
-
-  Pysam is a Python module for reading, manipulating, and writing genomic datasets.
-  Read/write SAM/BAM/CRAM alignment files, VCF/BCF variant files, and FASTA/FASTQ
-  sequences with a Pythonic int...'
-full_prompt_length: 10003
+  metadata:...'
+full_prompt_length: 11588
 tools_mentioned:
 - Python
 - python
@@ -36,17 +29,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pysam/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pysam/SKILL.md
-fetched_at: '2026-07-19T05:19:57.175551+00:00'
+fetched_at: '2026-07-26T05:30:39.078887+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:44:28.197783Z'
+  evaluated_at: '2026-07-26T05:55:21.473747Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210189490 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e78bf0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210189490 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e78bf0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -56,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.168402Z'
-indexed_at: '2026-07-19T09:13:17.168408Z'
+  fetched_at: '2026-07-26T09:24:27.694925Z'
+indexed_at: '2026-07-26T09:24:27.694935Z'
 ---

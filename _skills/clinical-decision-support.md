@@ -1,38 +1,42 @@
 ---
 id: clinical-decision-support
 slug: clinical-decision-support
-name: Clinical Decision Support Documents
-description: ''
+name: Clinical Decision-Support Research and Evaluation
+description: '- `references/README.md` — scope and navigation'
 prompt_preview: '---
 
   name: clinical-decision-support
 
-  description: Generate professional clinical decision support (CDS) documents for
-  pharmaceutical and clinical research settings, including patient cohort analyses
-  (biomarker-stratified with outcomes) and treatment recommendation reports (evidence-based
-  guidelines with decision algorithms). Supports GRADE evidence grading, statistical
-  analysis (hazard ratios, survival curves, waterfall plots), biomarker integration,
-  and regulatory compliance. Outputs publication...'
-full_prompt_length: 26771
+  description: Prepare and validate research-only clinical decision-support evaluation,
+  evidence-profile, cohort, survival, biomarker/model, privacy, and governance artifacts.
+  Use for aggregate or synthetic research documentation and traceability—not patient
+  care or live clinical operation.
+
+  license: MIT
+
+  compatibility: Python 3.11+; local files only; bundled scripts use the standard
+  library and require no network, credentials, API keys, LLMs, or image services.
+
+  m...'
+full_prompt_length: 12218
 tools_mentioned:
-- python
-- GCP
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/clinical-decision-support/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/clinical-decision-support/SKILL.md
-fetched_at: '2026-07-19T05:19:47.010264+00:00'
+fetched_at: '2026-07-26T05:30:28.352565+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:32:30.989398Z'
+  evaluated_at: '2026-07-26T05:43:17.999888Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2690 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ead6d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2690 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ead6d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:16.892621Z'
-indexed_at: '2026-07-19T09:13:16.892627Z'
+  fetched_at: '2026-07-26T09:24:27.413874Z'
+indexed_at: '2026-07-26T09:24:27.413880Z'
 ---

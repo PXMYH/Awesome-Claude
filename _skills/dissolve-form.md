@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/dissolve-form/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/dissolve-form/SKILL.md
-fetched_at: '2026-07-19T05:23:02.408593+00:00'
+fetched_at: '2026-07-26T05:33:52.815267+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T08:08:22.667865Z'
+  evaluated_at: '2026-07-26T08:19:11.682407Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2106b0830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7a570 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2106b0830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7a570 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:20.430407Z'
-indexed_at: '2026-07-19T09:13:20.430413Z'
+  fetched_at: '2026-07-26T09:24:30.850019Z'
+indexed_at: '2026-07-26T09:24:30.850024Z'
 ---

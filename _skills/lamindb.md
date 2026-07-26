@@ -28,30 +28,30 @@ prompt_preview: '---
   LaminDB is an open-source, lineage-native lakehouse for biology...'
 full_prompt_length: 16130
 tools_mentioned:
-- GO
-- AWS
-- PostgreSQL
 - REST
-- python
+- GO
+- PostgreSQL
 - SQLite
-- gcp
 - Python
+- python
+- AWS
+- gcp
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/lamindb/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/lamindb/SKILL.md
-fetched_at: '2026-07-19T05:19:51.374743+00:00'
+fetched_at: '2026-07-26T05:30:33.128231+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:37:40.414664Z'
+  evaluated_at: '2026-07-26T05:48:34.768940Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21054a120 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eac920 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21054a120 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eac920 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -61,6 +61,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.009845Z'
-indexed_at: '2026-07-19T09:13:17.009850Z'
+  fetched_at: '2026-07-26T09:24:27.547838Z'
+indexed_at: '2026-07-26T09:24:27.547848Z'
 ---

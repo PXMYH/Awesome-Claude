@@ -2,8 +2,7 @@
 id: expo-expo-examples
 slug: expo-expo-examples
 name: Expo Examples
-description: '- `./references/catalog.md` — categorized snapshot of the example library
-  for fast triage.'
+description: '## Submitting Feedback'
 prompt_preview: '---
 
   name: expo-examples
@@ -16,7 +15,7 @@ prompt_preview: '---
   --example`.
 
   allowed-tools: "Read,Bash(gh api:*),Bash(git clone:...'
-full_prompt_length: 6185
+full_prompt_length: 6550
 tools_mentioned:
 - SQLite
 category: community
@@ -24,17 +23,17 @@ category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-examples/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-examples/SKILL.md
-fetched_at: '2026-07-19T05:21:23.705642+00:00'
+fetched_at: '2026-07-26T05:32:20.403778+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T07:02:09.979396Z'
+  evaluated_at: '2026-07-26T07:13:16.839557Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018acf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf680 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018acf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf680 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:18.926741Z'
-indexed_at: '2026-07-19T09:13:18.926746Z'
+  fetched_at: '2026-07-26T09:24:29.401143Z'
+indexed_at: '2026-07-26T09:24:29.401149Z'
 ---

@@ -17,25 +17,25 @@ prompt_preview: '---
   checklists, editing comments, task links, time tracking, atta...'
 full_prompt_length: 96444
 tools_mentioned:
-- react
 - Node.js
 - go
+- react
 category: community
 category_display: Community
 source_repo: krodak/clickup-cli
 source_path: skills/clickup-cli/SKILL.md
 source_url: https://github.com/krodak/clickup-cli/blob/main/skills/clickup-cli/SKILL.md
-fetched_at: '2026-07-19T05:22:38.168843+00:00'
+fetched_at: '2026-07-26T05:33:24.940871+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T07:47:38.899810Z'
+  evaluated_at: '2026-07-26T07:58:33.681038Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f1dc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1e8a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f1dc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1e8a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:19.959273Z'
-indexed_at: '2026-07-19T09:13:19.959278Z'
+  fetched_at: '2026-07-26T09:24:30.394087Z'
+indexed_at: '2026-07-26T09:24:30.394093Z'
 ---

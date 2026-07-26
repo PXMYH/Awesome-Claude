@@ -11,7 +11,7 @@ prompt_preview: "---\nname: setup-service-mesh\ndescription: >\n  Deploy and con
   \ integration\n  with monitoring tools. Use when microservices need encrypted service-to-service\
   \ communication,\n  fine-grained traffic control for canary or A/B deployments,\
   \ observabili..."
-full_prompt_length: 13848
+full_prompt_length: 13457
 tools_mentioned:
 - Kubernetes
 - kubernetes
@@ -20,17 +20,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/setup-service-mesh/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/setup-service-mesh/SKILL.md
-fetched_at: '2026-07-19T05:23:25.383381+00:00'
+fetched_at: '2026-07-26T05:34:19.948652+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T08:34:01.088974Z'
+  evaluated_at: '2026-07-26T08:44:59.339292Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f2ab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1f380 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f2ab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1f380 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:21.033848Z'
-indexed_at: '2026-07-19T09:13:21.033858Z'
+  fetched_at: '2026-07-26T09:24:31.417692Z'
+indexed_at: '2026-07-26T09:24:31.417698Z'
 ---

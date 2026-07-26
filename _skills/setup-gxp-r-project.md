@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/setup-gxp-r-project/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/setup-gxp-r-project/SKILL.md
-fetched_at: '2026-07-19T05:23:24.902535+00:00'
+fetched_at: '2026-07-26T05:34:19.407691+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T08:33:28.695770Z'
+  evaluated_at: '2026-07-26T08:44:26.871151Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1be0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1e870 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1be0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1e870 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:21.021151Z'
-indexed_at: '2026-07-19T09:13:21.021156Z'
+  fetched_at: '2026-07-26T09:24:31.405662Z'
+indexed_at: '2026-07-26T09:24:31.405667Z'
 ---

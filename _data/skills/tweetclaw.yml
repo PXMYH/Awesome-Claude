@@ -17,7 +17,7 @@ prompt_preview: '---
   from OpenClaw with explicit user approval","Checking TweetClaw pricing, credentials,
   permissions, or safety boundaries","Planning X/Twitter reads, writes, extractions,
   draws, or monitors sa...'
-full_prompt_length: 31420
+full_prompt_length: 28918
 tools_mentioned:
 - rest
 - go
@@ -26,17 +26,17 @@ category_display: Community
 source_repo: Xquik-dev/tweetclaw
 source_path: skills/tweetclaw/SKILL.md
 source_url: https://github.com/Xquik-dev/tweetclaw/blob/master/skills/tweetclaw/SKILL.md
-fetched_at: '2026-07-19T05:20:31.889822+00:00'
+fetched_at: '2026-07-26T05:31:19.644329+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T06:18:19.265645Z'
+  evaluated_at: '2026-07-26T06:29:14.258218Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f31a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6930 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f31a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6930 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.939027Z'
-indexed_at: '2026-07-19T09:13:17.939033Z'
+  fetched_at: '2026-07-26T09:24:28.446325Z'
+indexed_at: '2026-07-26T09:24:28.446331Z'

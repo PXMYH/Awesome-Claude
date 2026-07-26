@@ -30,17 +30,17 @@ category_display: Community
 source_repo: inhouseseo/superseo-skills
 source_path: skills/semantic-gap-analysis/SKILL.md
 source_url: https://github.com/inhouseseo/superseo-skills/blob/main/skills/semantic-gap-analysis/SKILL.md
-fetched_at: '2026-07-19T05:21:59.572436+00:00'
+fetched_at: '2026-07-26T05:33:02.064288+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T07:37:10.339438Z'
+  evaluated_at: '2026-07-26T07:48:15.489303Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b8f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b8f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:19.722248Z'
-indexed_at: '2026-07-19T09:13:19.722272Z'
+  fetched_at: '2026-07-26T09:24:30.166845Z'
+indexed_at: '2026-07-26T09:24:30.166857Z'
 ---

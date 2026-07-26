@@ -11,32 +11,32 @@ prompt_preview: "---\nname: optimize-cloud-costs\ndescription: >\n  Implement cl
   \ reporting, and continuous optimization practices. Use when cloud costs are\n \
   \ growing without proportional business value, when resource requests are misaligned\
   \ with\n  actual usage,..."
-full_prompt_length: 17853
+full_prompt_length: 17324
 tools_mentioned:
-- kubernetes
-- Kubernetes
+- aws
+- gcp
+- azure
+- Azure
 - AWS
 - GCP
-- azure
-- gcp
-- aws
-- Azure
+- kubernetes
+- Kubernetes
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/optimize-cloud-costs/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/optimize-cloud-costs/SKILL.md
-fetched_at: '2026-07-19T05:23:15.144759+00:00'
+fetched_at: '2026-07-26T05:34:08.068479+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T08:22:29.087344Z'
+  evaluated_at: '2026-07-26T08:33:20.601952Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f3d70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16082fd700 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f3d70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16082fd700 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:20.764841Z'
-indexed_at: '2026-07-19T09:13:20.764847Z'
+  fetched_at: '2026-07-26T09:24:31.158036Z'
+indexed_at: '2026-07-26T09:24:31.158041Z'
 ---

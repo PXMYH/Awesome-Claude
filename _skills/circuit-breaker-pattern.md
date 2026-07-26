@@ -11,24 +11,24 @@ prompt_preview: "---\nname: circuit-breaker-pattern\ndescription: >\n  Implement
   \ to prevent error accumulation. Separates orchestration (deciding what\n  to attempt)\
   \ from execution (calling tools), following the expeditor pattern.\n  Use when building\
   \ agents that depend on multiple..."
-full_prompt_length: 23871
+full_prompt_length: 23300
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/circuit-breaker-pattern/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/circuit-breaker-pattern/SKILL.md
-fetched_at: '2026-07-19T05:22:53.780955+00:00'
+fetched_at: '2026-07-26T05:33:42.658779+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T07:58:44.528548Z'
+  evaluated_at: '2026-07-26T08:09:32.783567Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018a7b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608558170 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018a7b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608558170 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:20.209941Z'
-indexed_at: '2026-07-19T09:13:20.209947Z'
+  fetched_at: '2026-07-26T09:24:30.635105Z'
+indexed_at: '2026-07-26T09:24:30.635110Z'
 ---

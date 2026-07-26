@@ -21,17 +21,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/assign-unowned-contacts/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/assign-unowned-contacts/SKILL.md
-fetched_at: '2026-07-19T05:20:07.164988+00:00'
+fetched_at: '2026-07-26T05:30:49.756974+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:52:12.524839Z'
+  evaluated_at: '2026-07-26T06:03:05.063608Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210548260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16084fbe00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210548260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16084fbe00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.343586Z'
-indexed_at: '2026-07-19T09:13:17.343592Z'
+  fetched_at: '2026-07-26T09:24:27.864555Z'
+indexed_at: '2026-07-26T09:24:27.864561Z'

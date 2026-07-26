@@ -10,25 +10,26 @@ prompt_preview: "---\nname: setup\ndescription: Detects your Python environment 
   ---\n\nBase directory for this skill: ${CLAUDE_PLUGIN_BASE_DIR}\n\n## Your Task\n\
   \nGuide the user through installing bitwize-music plugin dependencies based on their\
   \ Python environment and requested components.\n\n--..."
-full_prompt_length: 5745
+full_prompt_length: 7250
 tools_mentioned:
 - Python
+- python
 category: community
 category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/setup/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/setup/SKILL.md
-fetched_at: '2026-07-19T05:20:52.511768+00:00'
+fetched_at: '2026-07-26T05:31:44.471933+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T06:33:38.656855Z'
+  evaluated_at: '2026-07-26T06:44:33.328029Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210188c20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e78080 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210188c20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e78080 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:18.282285Z'
-indexed_at: '2026-07-19T09:13:18.282291Z'
+  fetched_at: '2026-07-26T09:24:28.779884Z'
+indexed_at: '2026-07-26T09:24:28.779890Z'
 ---

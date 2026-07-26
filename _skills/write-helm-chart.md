@@ -2,7 +2,7 @@
 id: write-helm-chart
 slug: write-helm-chart
 name: Write Helm Chart
-description: '**On failure:**'
+description: '- `deploy-to-kubernetes` - Deploying the resources a chart templates'
 prompt_preview: "---\nname: write-helm-chart\ndescription: >\n  Create production-ready\
   \ Helm charts for Kubernetes application deployment with templating,\n  values management,\
   \ chart dependencies, hooks, and testing. Covers chart structure, Go\n  template\
@@ -10,30 +10,30 @@ prompt_preview: "---\nname: write-helm-chart\ndescription: >\n  Create productio
   \  for maintainable and reusable charts. Use when packaging a Kubernetes application\
   \ for\n  repeatable deployments, parameterizing manifests for multiple environments,\
   \ managing\n  complex mu..."
-full_prompt_length: 12867
+full_prompt_length: 16111
 tools_mentioned:
 - Go
-- kubernetes
-- Kubernetes
-- docker
-- postgresql
 - go
+- postgresql
+- kubernetes
+- docker
+- Kubernetes
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/write-helm-chart/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/write-helm-chart/SKILL.md
-fetched_at: '2026-07-19T05:23:31.048297+00:00'
+fetched_at: '2026-07-26T05:34:26.875783+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T08:40:15.448144Z'
+  evaluated_at: '2026-07-26T08:51:14.266029Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21014fe30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce7530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21014fe30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce7530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:21.178294Z'
-indexed_at: '2026-07-19T09:13:21.178299Z'
+  fetched_at: '2026-07-26T09:24:31.556634Z'
+indexed_at: '2026-07-26T09:24:31.556640Z'
 ---

@@ -21,25 +21,26 @@ prompt_preview: '---
   Build and maintain a personal knowledge base using LLMs. You manage two directories:
   `raw/` (immutable source material) and `wiki/` (compiled knowledge articles). Sources
   go into raw/...'
-full_prompt_length: 9505
+full_prompt_length: 14254
 tools_mentioned:
+- rest
 - go
 category: community
 category_display: Community
 source_repo: Astro-Han/karpathy-llm-wiki
 source_path: SKILL.md
 source_url: https://github.com/Astro-Han/karpathy-llm-wiki/blob/main/SKILL.md
-fetched_at: '2026-07-19T05:19:36.027307+00:00'
+fetched_at: '2026-07-26T05:30:16.388564+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:25:48.631926Z'
+  evaluated_at: '2026-07-26T05:36:36.584016Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2109fb8c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16082c83b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2109fb8c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16082c83b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:16.741666Z'
-indexed_at: '2026-07-19T09:13:16.741671Z'
+  fetched_at: '2026-07-26T09:24:27.268514Z'
+indexed_at: '2026-07-26T09:24:27.268520Z'
 ---

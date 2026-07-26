@@ -27,17 +27,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/torch-geometric/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/torch-geometric/SKILL.md
-fetched_at: '2026-07-19T05:20:01.143422+00:00'
+fetched_at: '2026-07-26T05:30:43.285460+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:49:05.553489Z'
+  evaluated_at: '2026-07-26T05:59:58.031319Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2109fb8f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eae330 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2109fb8f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eae330 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.274047Z'
-indexed_at: '2026-07-19T09:13:17.274052Z'
+  fetched_at: '2026-07-26T09:24:27.795661Z'
+indexed_at: '2026-07-26T09:24:27.795667Z'
 ---

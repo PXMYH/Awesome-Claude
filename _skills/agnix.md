@@ -9,7 +9,7 @@ prompt_preview: '---
 
   description: "Use when user asks to ''lint agent configs'', ''validate skills'',
   ''check CLAUDE.md'', ''validate hooks'', ''lint MCP''. Validates agent configuration
-  files against 437 rules."
+  files against 443 rules."
 
   allowed-tools: Bash(agnix:*), Bash(cargo:*), Read, Glob, Grep
 
@@ -36,17 +36,17 @@ category_display: Community
 source_repo: avifenesh/agnix
 source_path: skills/agnix/SKILL.md
 source_url: https://github.com/avifenesh/agnix/blob/main/skills/agnix/SKILL.md
-fetched_at: '2026-07-19T05:20:46.344195+00:00'
+fetched_at: '2026-07-26T05:31:37.262125+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T06:27:23.237663Z'
+  evaluated_at: '2026-07-26T06:38:19.246076Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21014fbf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160816d5e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21014fbf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160816d5e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -56,6 +56,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:18.141429Z'
-indexed_at: '2026-07-19T09:13:18.141438Z'
+  fetched_at: '2026-07-26T09:24:28.643720Z'
+indexed_at: '2026-07-26T09:24:28.643725Z'
 ---

@@ -19,17 +19,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-ethics-bias-check/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-ethics-bias-check/SKILL.md
-fetched_at: '2026-07-19T05:21:38.740124+00:00'
+fetched_at: '2026-07-26T05:32:38.059005+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T07:16:11.632949Z'
+  evaluated_at: '2026-07-26T07:27:23.764477Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ead3a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ead3a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:19.253768Z'
-indexed_at: '2026-07-19T09:13:19.253774Z'
+  fetched_at: '2026-07-26T09:24:29.707380Z'
+indexed_at: '2026-07-26T09:24:29.707386Z'

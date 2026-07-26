@@ -11,30 +11,30 @@ prompt_preview: "---\nname: tidy-project-structure\ndescription: >\n  Organize p
   \ examples, configuration files have multiplied\n  across dev/staging/prod, deprecated\
   \ files remain in the project root, or\n  naming conventions are inconsistent across\
   \ directories.\nlicense:..."
-full_prompt_length: 10208
+full_prompt_length: 9997
 tools_mentioned:
-- Django
 - React
-- TypeScript
-- Rust
-- Python
 - JavaScript
+- Python
+- TypeScript
+- Django
+- Rust
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/tidy-project-structure/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/tidy-project-structure/SKILL.md
-fetched_at: '2026-07-19T05:23:28.584736+00:00'
+fetched_at: '2026-07-26T05:34:23.893576+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T08:37:32.024385Z'
+  evaluated_at: '2026-07-26T08:48:30.334267Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3890 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6a80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3890 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6a80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:21.115209Z'
-indexed_at: '2026-07-19T09:13:21.115215Z'
+  fetched_at: '2026-07-26T09:24:31.495860Z'
+indexed_at: '2026-07-26T09:24:31.495866Z'
 ---

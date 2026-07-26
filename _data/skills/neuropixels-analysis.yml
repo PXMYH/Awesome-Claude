@@ -24,17 +24,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/neuropixels-analysis/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/neuropixels-analysis/SKILL.md
-fetched_at: '2026-07-19T05:19:53.344921+00:00'
+fetched_at: '2026-07-26T05:30:35.148318+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:39:58.093752Z'
+  evaluated_at: '2026-07-26T05:50:53.267286Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210189850 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16082c9700 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210189850 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16082c9700 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,5 +44,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.061442Z'
-indexed_at: '2026-07-19T09:13:17.061448Z'
+  fetched_at: '2026-07-26T09:24:27.597659Z'
+indexed_at: '2026-07-26T09:24:27.597665Z'

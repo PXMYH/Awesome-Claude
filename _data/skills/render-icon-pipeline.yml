@@ -12,25 +12,25 @@ prompt_preview: "---\nname: render-icon-pipeline\ndescription: >\n  Run the viz 
   \  complexity: basic\n  language: multi..."
 full_prompt_length: 8138
 tools_mentioned:
+- Node.js
 - Docker
 - docker
-- Node.js
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/render-icon-pipeline/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/render-icon-pipeline/SKILL.md
-fetched_at: '2026-07-19T05:23:20.471122+00:00'
+fetched_at: '2026-07-26T05:34:14.175958+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T08:28:26.399703Z'
+  evaluated_at: '2026-07-26T08:39:18.505520Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f1730 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce7530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f1730 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce7530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:20.904270Z'
-indexed_at: '2026-07-19T09:13:20.904276Z'
+  fetched_at: '2026-07-26T09:24:31.291057Z'
+indexed_at: '2026-07-26T09:24:31.291062Z'

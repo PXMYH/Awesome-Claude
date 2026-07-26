@@ -12,27 +12,27 @@ prompt_preview: "---\nname: address-sanitizer\ntype: technique\ndescription: >\n
   \ use-after-free errors, and other mem..."
 full_prompt_length: 11272
 tools_mentioned:
+- rust
 - Go
 - go
-- rust
-- Rust
 - Java
+- Rust
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/address-sanitizer/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/address-sanitizer/SKILL.md
-fetched_at: '2026-07-19T05:24:23.517010+00:00'
+fetched_at: '2026-07-26T05:35:16.288121+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T09:06:14.212569Z'
+  evaluated_at: '2026-07-26T09:17:14.930933Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2870 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1fef0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2870 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1fef0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:21.771582Z'
-indexed_at: '2026-07-19T09:13:21.771588Z'
+  fetched_at: '2026-07-26T09:24:32.132875Z'
+indexed_at: '2026-07-26T09:24:32.132880Z'
 ---

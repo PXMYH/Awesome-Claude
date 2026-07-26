@@ -10,27 +10,28 @@ prompt_preview: "---\nname: llm-wiki\ndescription: |\n  Build and maintain an LL
   \ against accumulated notes, lint or audit such a base, or initialize a new one.\
   \ Trigger on phrases like \"add this to my wiki\", \"ingest this paper\", \"compile\
   \ this into the knowledge b..."
-full_prompt_length: 18845
+full_prompt_length: 20183
 tools_mentioned:
 - rest
 - python
 - sqlite
+- SQLite
 category: community
 category_display: Community
 source_repo: praneybehl/llm-wiki-plugin
 source_path: skills/llm-wiki/SKILL.md
 source_url: https://github.com/praneybehl/llm-wiki-plugin/blob/main/skills/llm-wiki/SKILL.md
-fetched_at: '2026-07-19T05:23:33.109568+00:00'
+fetched_at: '2026-07-26T05:34:29.299658+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T08:41:20.397585Z'
+  evaluated_at: '2026-07-26T08:52:19.272717Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018a090 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e79580 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018a090 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e79580 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:21.203010Z'
-indexed_at: '2026-07-19T09:13:21.203015Z'
+  fetched_at: '2026-07-26T09:24:31.580408Z'
+indexed_at: '2026-07-26T09:24:31.580414Z'

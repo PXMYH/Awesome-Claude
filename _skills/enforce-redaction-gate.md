@@ -11,24 +11,24 @@ prompt_preview: "---\nname: enforce-redaction-gate\ndescription: >\n  Statically
   \ JSON/HTML/SVG/Markdown/code and asserts\n  sensitive content cannot appear in\
   \ meaningful positions — with a strict\n  exit-code contract, label-only output\
   \ that never echoes the patterns..."
-full_prompt_length: 12605
+full_prompt_length: 15933
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/enforce-redaction-gate/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/enforce-redaction-gate/SKILL.md
-fetched_at: '2026-07-19T05:23:03.121522+00:00'
+fetched_at: '2026-07-26T05:33:53.679788+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T08:09:11.469611Z'
+  evaluated_at: '2026-07-26T08:20:00.391782Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1e50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce7ef0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1e50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce7ef0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:20.448599Z'
-indexed_at: '2026-07-19T09:13:20.448605Z'
+  fetched_at: '2026-07-26T09:24:30.867893Z'
+indexed_at: '2026-07-26T09:24:30.867899Z'
 ---

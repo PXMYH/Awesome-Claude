@@ -1,7 +1,7 @@
 id: expo-expo-brownfield
 slug: expo-expo-brownfield
 name: Expo Brownfield
-description: Pin the same Expo SDK across both the RN project and any embedded dependencies.
+description: '## Submitting Feedback'
 prompt_preview: '---
 
   name: expo-brownfield
@@ -19,27 +19,27 @@ prompt_preview: '---
 
   A **brownfield** app is an existing native iOS or Android app that adopts React
   Native incrementally, as opposed to a **greenfield**...'
-full_prompt_length: 3616
+full_prompt_length: 3983
 tools_mentioned:
 - Node.js
-- JavaScript
 - React
+- JavaScript
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-brownfield/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-brownfield/SKILL.md
-fetched_at: '2026-07-19T05:21:23.274802+00:00'
+fetched_at: '2026-07-26T05:32:19.925668+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T07:01:37.633550Z'
+  evaluated_at: '2026-07-26T07:12:44.437297Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018bce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16082fd700 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018bce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16082fd700 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,5 +49,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:18.914474Z'
-indexed_at: '2026-07-19T09:13:18.914479Z'
+  fetched_at: '2026-07-26T09:24:29.389423Z'
+indexed_at: '2026-07-26T09:24:29.389429Z'

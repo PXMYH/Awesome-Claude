@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/grade-tcg-card/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/grade-tcg-card/SKILL.md
-fetched_at: '2026-07-19T05:23:07.330510+00:00'
+fetched_at: '2026-07-26T05:33:58.943742+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T08:13:47.830591Z'
+  evaluated_at: '2026-07-26T08:24:37.285494Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21077bf20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160841c050 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21077bf20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160841c050 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:20.559180Z'
-indexed_at: '2026-07-19T09:13:20.559186Z'
+  fetched_at: '2026-07-26T09:24:30.968503Z'
+indexed_at: '2026-07-26T09:24:30.968509Z'
 ---

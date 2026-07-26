@@ -22,17 +22,17 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/whatsapp/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/whatsapp/SKILL.md
-fetched_at: '2026-07-19T05:23:51.563766+00:00'
+fetched_at: '2026-07-26T05:34:49.577892+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T08:56:12.388010Z'
+  evaluated_at: '2026-07-26T09:07:15.102798Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101888f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7ba10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101888f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7ba10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:21.544561Z'
-indexed_at: '2026-07-19T09:13:21.544566Z'
+  fetched_at: '2026-07-26T09:24:31.909239Z'
+indexed_at: '2026-07-26T09:24:31.909245Z'
 ---

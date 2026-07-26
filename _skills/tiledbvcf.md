@@ -28,29 +28,29 @@ prompt_preview: '---
   efficient storage and retrieval of genomic variant-call d...'
 full_prompt_length: 14552
 tools_mentioned:
-- docker
-- azure
-- Docker
-- python
 - rest
+- Docker
+- azure
 - Python
+- python
 - Azure
+- docker
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/tiledbvcf/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/tiledbvcf/SKILL.md
-fetched_at: '2026-07-19T05:20:00.919198+00:00'
+fetched_at: '2026-07-26T05:30:43.049416+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:48:49.275449Z'
+  evaluated_at: '2026-07-26T05:59:41.842917Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c26c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160849e240 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c26c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160849e240 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -60,6 +60,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.267980Z'
-indexed_at: '2026-07-19T09:13:17.267986Z'
+  fetched_at: '2026-07-26T09:24:27.789701Z'
+indexed_at: '2026-07-26T09:24:27.789707Z'
 ---

@@ -16,26 +16,26 @@ prompt_preview: '---
 full_prompt_length: 44684
 tools_mentioned:
 - React
-- react
-- python
 - Vue
 - Python
+- python
+- react
 category: community
 category_display: Community
 source_repo: avelikiy/great_cto
 source_path: skills/ui-ux-pro-max/SKILL.md
 source_url: https://github.com/avelikiy/great_cto/blob/main/skills/ui-ux-pro-max/SKILL.md
-fetched_at: '2026-07-19T05:20:43.698268+00:00'
+fetched_at: '2026-07-26T05:31:33.530973+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T06:25:37.617922Z'
+  evaluated_at: '2026-07-26T06:36:33.792603Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018be90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7ba10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018be90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7ba10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:18.101948Z'
-indexed_at: '2026-07-19T09:13:18.101953Z'
+  fetched_at: '2026-07-26T09:24:28.605619Z'
+indexed_at: '2026-07-26T09:24:28.605624Z'
 ---

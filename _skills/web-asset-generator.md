@@ -23,27 +23,27 @@ prompt_preview: '---
   app ico...'
 full_prompt_length: 26385
 tools_mentioned:
-- vue
-- python
-- typescript
 - Vue
 - Python
+- python
+- vue
+- typescript
 category: community
 category_display: Community
 source_repo: alonw0/web-asset-generator
 source_path: skills/web-asset-generator/SKILL.md
 source_url: https://github.com/alonw0/web-asset-generator/blob/main/skills/web-asset-generator/SKILL.md
-fetched_at: '2026-07-19T05:20:36.572028+00:00'
+fetched_at: '2026-07-26T05:31:25.155797+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T06:20:37.444475Z'
+  evaluated_at: '2026-07-26T06:31:33.134417Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eacbc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eacbc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.989953Z'
-indexed_at: '2026-07-19T09:13:17.989958Z'
+  fetched_at: '2026-07-26T09:24:28.496208Z'
+indexed_at: '2026-07-26T09:24:28.496213Z'
 ---

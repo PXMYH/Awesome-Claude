@@ -22,17 +22,17 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/security-reviewer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/security-reviewer/SKILL.md
-fetched_at: '2026-07-19T05:22:28.521620+00:00'
+fetched_at: '2026-07-26T05:33:13.822099+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T07:41:32.190440Z'
+  evaluated_at: '2026-07-26T07:52:35.482918Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2104c5a30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1fd70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2104c5a30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1fd70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:19.820440Z'
-indexed_at: '2026-07-19T09:13:19.820446Z'
+  fetched_at: '2026-07-26T09:24:30.261973Z'
+indexed_at: '2026-07-26T09:24:30.261978Z'
 ---

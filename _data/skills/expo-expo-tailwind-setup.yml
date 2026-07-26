@@ -1,7 +1,7 @@
 id: expo-expo-tailwind-setup
 slug: expo-expo-tailwind-setup
 name: Tailwind CSS Setup for Expo with react-native-css
-description: '```tsx'
+description: '## Submitting Feedback'
 prompt_preview: '---
 
   name: expo-tailwind-setup
@@ -32,28 +32,28 @@ prompt_preview: '---
   - **Tailwind CSS v4** - Modern CSS-first configuration
 
   - **react-native-css** - CSS...'
-full_prompt_length: 11931
+full_prompt_length: 12302
 tools_mentioned:
-- react
-- React
-- JavaScript
 - TypeScript
+- React
+- react
+- JavaScript
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-tailwind-setup/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-tailwind-setup/SKILL.md
-fetched_at: '2026-07-19T05:21:24.333921+00:00'
+fetched_at: '2026-07-26T05:32:21.103635+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T07:02:58.555765Z'
+  evaluated_at: '2026-07-26T07:14:07.475807Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b410 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160849d910 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018b410 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160849d910 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -63,5 +63,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:18.945176Z'
-indexed_at: '2026-07-19T09:13:18.945181Z'
+  fetched_at: '2026-07-26T09:24:29.418626Z'
+indexed_at: '2026-07-26T09:24:29.418631Z'

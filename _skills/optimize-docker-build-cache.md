@@ -12,26 +12,26 @@ prompt_preview: "---\nname: optimize-docker-build-cache\ndescription: >\n  Optim
   license: MIT\nallowed-tools: Read Write E..."
 full_prompt_length: 7686
 tools_mentioned:
-- Docker
-- Python
-- docker
 - Node.js
+- Python
+- Docker
+- docker
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/optimize-docker-build-cache/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/optimize-docker-build-cache/SKILL.md
-fetched_at: '2026-07-19T05:23:15.257908+00:00'
+fetched_at: '2026-07-26T05:34:08.202425+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T08:22:37.294815Z'
+  evaluated_at: '2026-07-26T08:33:28.699570Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2104707a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16081a5e20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2104707a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16081a5e20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:20.768107Z'
-indexed_at: '2026-07-19T09:13:20.768112Z'
+  fetched_at: '2026-07-26T09:24:31.161092Z'
+indexed_at: '2026-07-26T09:24:31.161098Z'
 ---

@@ -17,17 +17,17 @@ category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/demand-gen-audit/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/demand-gen-audit/SKILL.md
-fetched_at: '2026-07-19T05:21:00.208416+00:00'
+fetched_at: '2026-07-26T05:31:52.948945+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T06:39:37.013877Z'
+  evaluated_at: '2026-07-26T06:50:36.215778Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c35c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce5070 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c35c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce5070 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:18.415891Z'
-indexed_at: '2026-07-19T09:13:18.415901Z'
+  fetched_at: '2026-07-26T09:24:28.908845Z'
+indexed_at: '2026-07-26T09:24:28.908851Z'
 ---

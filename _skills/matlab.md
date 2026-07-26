@@ -1,38 +1,36 @@
 ---
 id: matlab
 slug: matlab
-name: MATLAB/Octave Scientific Computing
-description: '- MATLAB Documentation: https://www.mathworks.com/help/matlab/'
-prompt_preview: '---
-
-  name: matlab
-
-  description: MATLAB and GNU Octave numerical computing for matrix operations, data
-  analysis, visualization, and scientific computing. Use when writing MATLAB/Octave
-  scripts for linear algebra, signal processing, image processing, differential equations,
-  optimization, statistics, or creating scientific visualizations. Also use when the
-  user needs help with MATLAB syntax, functions, or wants to convert between MATLAB
-  and Python code. Scripts can be executed with MATLAB or the open...'
-full_prompt_length: 9240
+name: MATLAB and GNU Octave
+description: '- [MATLAB R2026a documentation](https://www.mathworks.com/help/matlab/)'
+prompt_preview: "---\nname: matlab\ndescription: Build, review, migrate, and safely\
+  \ plan MATLAB or GNU Octave numerical workflows, including arrays, tabular/time\
+  \ data, tests, projects, graphics, MAT files, and explicit Python interoperability.\n\
+  license: MIT\ncompatibility: >-\n  Documentation is pinned where noted to proprietary\
+  \ MATLAB R2026a and free\n  GNU Octave 11.3.0. Bundled Python CLIs require Python\
+  \ 3.11+ and run locally\n  without MATLAB or Octave; optional MAT inventory uses\
+  \ scipy and/or h5py.\nallowed-tools:..."
+full_prompt_length: 14328
 tools_mentioned:
 - Python
 - python
+- Java
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/matlab/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/matlab/SKILL.md
-fetched_at: '2026-07-19T05:19:52.444110+00:00'
+fetched_at: '2026-07-26T05:30:34.205990+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:38:53.399427Z'
+  evaluated_at: '2026-07-26T05:49:47.720216Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018a0f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eadd90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018a0f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eadd90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.037439Z'
-indexed_at: '2026-07-19T09:13:17.037444Z'
+  fetched_at: '2026-07-26T09:24:27.574382Z'
+indexed_at: '2026-07-26T09:24:27.574388Z'
 ---

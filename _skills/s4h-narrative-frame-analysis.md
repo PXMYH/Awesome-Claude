@@ -28,17 +28,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-narrative-frame-analysis/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-narrative-frame-analysis/SKILL.md
-fetched_at: '2026-07-19T05:21:46.378496+00:00'
+fetched_at: '2026-07-26T05:32:46.720563+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T07:24:50.532417Z'
+  evaluated_at: '2026-07-26T07:35:55.435304Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1b20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16081a5640 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c1b20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16081a5640 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:19.445357Z'
-indexed_at: '2026-07-19T09:13:19.445363Z'
+  fetched_at: '2026-07-26T09:24:29.895700Z'
+indexed_at: '2026-07-26T09:24:29.895706Z'
 ---

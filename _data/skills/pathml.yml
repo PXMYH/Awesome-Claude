@@ -1,51 +1,41 @@
 id: pathml
 slug: pathml
 name: PathML
-description: Load these references as needed when working on specific computational
-  pathology tasks.
+description: '- PyPI metadata: https://pypi.org/project/pathml/3.0.5/'
 prompt_preview: '---
 
   name: pathml
 
-  description: Full-featured computational pathology toolkit. Use for advanced WSI
-  analysis including multiplexed immunofluorescence (CODEX, Vectra), nucleus segmentation,
-  tissue graph construction, and ML model training on pathology data. Supports 160+
-  slide formats. For simple tile extraction from H&E slides, histolab may be simpler.
+  description: "Use PathML for local, research-only computational pathology workflows:
+  load and tile slides, build preprocessing and QC pipelines, manage h5path data,
+  quantify multiplex images, construct spatial graphs, and plan bounded model inference."
 
-  license: GPL-2.0 license
+  license: MIT
 
-  metadata: {"version": "1.0", "skill-author": "K-Dense Inc."}
-
-  ---
-
-
-  # PathML
-
-
-  ## Overview
-
-
-  PathML is a comprehensive Python...'
-full_prompt_length: 7387
+  compatibility: PathML 3.0.5 is the latest PyPI release and targets Python 3.10-3.12;
+  installation needs uv plus platform libraries for OpenSlide, BLAS/LAPACK, and Java/Bio-Formats.
+  Bundled Python 3.10+ CLIs are local,...'
+full_prompt_length: 10194
 tools_mentioned:
 - Python
 - python
+- Java
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pathml/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pathml/SKILL.md
-fetched_at: '2026-07-19T05:19:54.636101+00:00'
+fetched_at: '2026-07-26T05:30:36.451323+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:41:28.165642Z'
+  evaluated_at: '2026-07-26T05:52:22.881942Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2109fb8f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e3fcb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2109fb8f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e3fcb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -55,5 +45,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.100392Z'
-indexed_at: '2026-07-19T09:13:17.100398Z'
+  fetched_at: '2026-07-26T09:24:27.630288Z'
+indexed_at: '2026-07-26T09:24:27.630293Z'

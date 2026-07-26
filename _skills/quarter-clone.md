@@ -1,0 +1,55 @@
+---
+id: quarter-clone
+slug: quarter-clone
+name: Quarter Clone
+description: Claude skill for Quarter Clone
+prompt_preview: '---
+
+  name: quarter-clone
+
+  description: Clone the last quarter of the current conversation, discarding earlier
+  context to reduce token usage while preserving recent work.
+
+  ---
+
+
+  Clone the last quarter of the current conversation, discarding earlier context to
+  reduce token usage while preserving recent work.
+
+
+  Steps:
+
+  1. Get the current session ID and project path: `tail -1 ~/.claude/history.jsonl
+  | jq -r ''[.sessionId, .project] | @tsv''`
+
+  2. Find half-clone-conversation.sh with bash: `find ~/.claude -nam...'
+full_prompt_length: 1602
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: ykdojo/claude-code-tips
+source_path: skills/quarter-clone/SKILL.md
+source_url: https://github.com/ykdojo/claude-code-tips/blob/main/skills/quarter-clone/SKILL.md
+fetched_at: '2026-07-26T05:35:30.583378+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-07-26T09:22:33.654868Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eadeb0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eadeb0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-07-26T09:24:32.250260Z'
+indexed_at: '2026-07-26T09:24:32.250265Z'
+---

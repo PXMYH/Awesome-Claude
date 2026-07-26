@@ -13,24 +13,24 @@ prompt_preview: "---\nname: create-workflow\ndescription: >\n  Author a new agen
   \ Use when y..."
 full_prompt_length: 14287
 tools_mentioned:
-- JavaScript
 - TypeScript
+- JavaScript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-workflow/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-workflow/SKILL.md
-fetched_at: '2026-07-19T05:22:58.769606+00:00'
+fetched_at: '2026-07-26T05:33:48.296889+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T08:04:18.976118Z'
+  evaluated_at: '2026-07-26T08:15:06.417477Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210188dd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce7d10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210188dd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce7d10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:20.338199Z'
-indexed_at: '2026-07-19T09:13:20.338205Z'
+  fetched_at: '2026-07-26T09:24:30.759531Z'
+indexed_at: '2026-07-26T09:24:30.759537Z'
 ---

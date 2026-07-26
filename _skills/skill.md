@@ -15,24 +15,24 @@ prompt_preview: '---
   close cards, manage plans, and get support. Use when the user wants to create or
   manage virtual payment cards for AI agents, fund their AgentCard wallet, pay for
   online purchases, shop on their behalf, set up agent spending, or con...'
-full_prompt_length: 20222
+full_prompt_length: 20204
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: agent-cards/skill
 source_path: SKILL.md
 source_url: https://github.com/agent-cards/skill/blob/main/SKILL.md
-fetched_at: '2026-07-19T05:20:35.948830+00:00'
+fetched_at: '2026-07-26T05:31:24.405480+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T06:20:29.352816Z'
+  evaluated_at: '2026-07-26T06:31:24.865497Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21079d760 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ead490 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21079d760 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ead490 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.986902Z'
-indexed_at: '2026-07-19T09:13:17.986908Z'
+  fetched_at: '2026-07-26T09:24:28.493246Z'
+indexed_at: '2026-07-26T09:24:28.493252Z'
 ---

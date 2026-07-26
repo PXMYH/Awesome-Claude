@@ -2,9 +2,7 @@
 id: expo-eas-update-insights
 slug: expo-eas-update-insights
 name: EAS Update Insights
-description: '- **Unique users across platforms** may double-count users who run the
-  same publish on both iOS and Android. The same caveat applies to `otaTotalUniqueUsers`
-  in channel insights, which is a sum over `...'
+description: '## Submitting Feedback'
 prompt_preview: '---
 
   name: eas-update-insights
@@ -28,24 +26,24 @@ prompt_preview: '---
 
 
   > **EAS service -...'
-full_prompt_length: 11694
+full_prompt_length: 12065
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/eas-update-insights/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/eas-update-insights/SKILL.md
-fetched_at: '2026-07-19T05:21:22.943930+00:00'
+fetched_at: '2026-07-26T05:32:19.558288+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T07:01:13.333973Z'
+  evaluated_at: '2026-07-26T07:12:20.148342Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2107251c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160886f110 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2107251c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160886f110 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -55,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:18.904950Z'
-indexed_at: '2026-07-19T09:13:18.904955Z'
+  fetched_at: '2026-07-26T09:24:29.380687Z'
+indexed_at: '2026-07-26T09:24:29.380692Z'
 ---

@@ -26,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/tamarind/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/tamarind/SKILL.md
-fetched_at: '2026-07-19T05:20:00.803012+00:00'
+fetched_at: '2026-07-26T05:30:42.907935+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:48:41.186775Z'
+  evaluated_at: '2026-07-26T05:59:33.726047Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0bf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eae300 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0bf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eae300 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.264799Z'
-indexed_at: '2026-07-19T09:13:17.264804Z'
+  fetched_at: '2026-07-26T09:24:27.786577Z'
+indexed_at: '2026-07-26T09:24:27.786582Z'
 ---

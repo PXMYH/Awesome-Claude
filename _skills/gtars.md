@@ -1,52 +1,44 @@
 ---
 id: gtars
 slug: gtars
-name: 'Gtars: Genomic Tools and Algorithms in Rust'
-description: '```bash'
+name: Gtars
+description: '- `references/python-api.md` — exact Python 0.9.2 imports and behavior'
 prompt_preview: '---
 
   name: gtars
 
-  description: High-performance toolkit for genomic interval analysis in Rust with
-  Python bindings. Use when working with genomic regions, BED files, coverage tracks,
-  overlap detection, tokenization for ML models, or fragment analysis in computational
-  genomics and machine learning applications.
+  description: Use Gtars for local genomic interval models and set algebra, overlaps
+  and counts, consensus and coverage, tokenization, fragment processing, and refget/BEDbase
+  planning across Python, Rust, and the CLI.
 
-  license: Unknown
+  license: MIT
 
-  metadata: {"version": "1.0", "skill-author": "K-Dense Inc."}
-
-  ---
-
-
-  # Gtars: Genomic Tools and Algorithms in Rust
-
-
-  ## Overview
-
-
-  Gtars is a high-performance Rust toolkit for ma...'
-full_prompt_length: 7823
+  compatibility: Python bindings require Python 3.10+ and gtars 0.9.2. The Rust meta-crate
+  and gtars-cli are 0.9.0 and require a Rust toolchain supporting Edition 2024; upstream
+  declares no rust-version. Bundled audit CLIs use only Python 3.10+ standard lib...'
+full_prompt_length: 12260
 tools_mentioned:
-- Rust
+- rust
+- rest
 - Python
 - python
+- Rust
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/gtars/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/gtars/SKILL.md
-fetched_at: '2026-07-19T05:19:50.309863+00:00'
+fetched_at: '2026-07-26T05:30:32.044107+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:36:27.585212Z'
+  evaluated_at: '2026-07-26T05:47:21.736395Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2ba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160856c260 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2ba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160856c260 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -56,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:16.981848Z'
-indexed_at: '2026-07-19T09:13:16.981854Z'
+  fetched_at: '2026-07-26T09:24:27.520145Z'
+indexed_at: '2026-07-26T09:24:27.520150Z'
 ---

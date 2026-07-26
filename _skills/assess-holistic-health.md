@@ -15,24 +15,24 @@ full_prompt_length: 17704
 tools_mentioned:
 - rest
 - Go
-- Rest
 - go
+- Rest
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/assess-holistic-health/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/assess-holistic-health/SKILL.md
-fetched_at: '2026-07-19T05:22:49.707985+00:00'
+fetched_at: '2026-07-26T05:33:38.128258+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T07:54:15.662704Z'
+  evaluated_at: '2026-07-26T08:05:04.471967Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210189550 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16081a5220 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210189550 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16081a5220 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:20.107798Z'
-indexed_at: '2026-07-19T09:13:20.107804Z'
+  fetched_at: '2026-07-26T09:24:30.535625Z'
+indexed_at: '2026-07-26T09:24:30.535631Z'
 ---

@@ -20,17 +20,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/create-segment-lists/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/create-segment-lists/SKILL.md
-fetched_at: '2026-07-19T05:20:08.983161+00:00'
+fetched_at: '2026-07-26T05:30:51.899868+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:54:13.978669Z'
+  evaluated_at: '2026-07-26T06:05:09.773282Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c13d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7bc50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c13d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7bc50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.390153Z'
-indexed_at: '2026-07-19T09:13:17.390158Z'
+  fetched_at: '2026-07-26T09:24:27.910738Z'
+indexed_at: '2026-07-26T09:24:27.910743Z'
 ---

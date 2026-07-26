@@ -2,7 +2,8 @@
 id: pdf
 slug: pdf
 name: PDF Processing Guide
-description: '- For advanced pypdfium2 usage, see REFERENCE.md'
+description: '*This skill is created and maintained by [Anthropic](https://github.com/anthropics/skills/tree/main/skills/pdf).
+  Vendored here unmodified except for frontmatter metadata and the case of the `reference...'
 prompt_preview: '---
 
   name: pdf
@@ -15,36 +16,36 @@ prompt_preview: '---
   or asks to produce one, use this skill.
 
   license: Proprietary. LICENSE.txt h...'
-full_prompt_length: 8035
+full_prompt_length: 8459
 tools_mentioned:
-- JavaScript
 - Python
 - python
-category: official
-category_display: Official Anthropic Skills
-source_repo: anthropics/skills
+- JavaScript
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pdf/SKILL.md
-source_url: https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md
-fetched_at: '2026-07-25T05:14:00.923385Z'
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pdf/SKILL.md
+fetched_at: '2026-07-26T05:30:36.686342+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-25T05:36:30.181724Z'
+  evaluated_at: '2026-07-26T05:52:39.079556Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc263b65cd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16083f0e90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc263b65cd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16083f0e90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 163995
-  forks: 19470
-  open_issues: 1050
-  last_commit: '2026-07-24'
-  fetched_at: '2026-07-25T05:14:09.056104Z'
-indexed_at: '2026-07-25T05:39:21.234882Z'
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-07-26T09:24:27.636095Z'
+indexed_at: '2026-07-26T09:24:27.636101Z'
 ---

@@ -1,38 +1,34 @@
 id: shap
 slug: shap
-name: SHAP (SHapley Additive exPlanations)
-description: This skill provides comprehensive coverage of SHAP for model interpretability
-  across all use cases and model types.
-prompt_preview: '---
-
-  name: shap
-
-  description: Model interpretability and explainability using SHAP (SHapley Additive
-  exPlanations). Use this skill when explaining machine learning model predictions,
-  computing feature importance, generating SHAP plots (waterfall, beeswarm, bar, scatter,
-  force, heatmap), debugging models, analyzing model bias or fairness, comparing models,
-  or implementing explainable AI. Works with tree-based models (XGBoost, LightGBM,
-  Random Forest), deep learning (TensorFlow, PyTorch), linear mod...'
-full_prompt_length: 18425
+name: SHAP
+description: '- Documentation: https://shap.readthedocs.io/en/latest/'
+prompt_preview: "---\nname: shap\ndescription: Explain and audit machine-learning\
+  \ predictions with SHAP. Use for selecting SHAP explainers and maskers, computing\
+  \ and validating feature attributions, handling multi-output explanations, and producing\
+  \ local or global SHAP visualizations.\nlicense: MIT\ncompatibility: Requires Python\
+  \ 3.12+ and uv for SHAP 0.52.0; model-specific libraries are optional.\nallowed-tools:\
+  \ \"Read Bash\"\nmetadata:\n  version: \"2.0\"\n  skill-author: K-Dense Inc.\n---\n\
+  \n# SHAP\n\nUse SHAP to describe how..."
+full_prompt_length: 12886
 tools_mentioned:
+- Python
 - python
-- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/shap/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/shap/SKILL.md
-fetched_at: '2026-07-19T05:19:59.964862+00:00'
+fetched_at: '2026-07-26T05:30:42.038592+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:47:44.524940Z'
+  evaluated_at: '2026-07-26T05:58:37.061869Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21014fe00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160895d040 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21014fe00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160895d040 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.242849Z'
-indexed_at: '2026-07-19T09:13:17.242854Z'
+  fetched_at: '2026-07-26T09:24:27.765845Z'
+indexed_at: '2026-07-26T09:24:27.765850Z'

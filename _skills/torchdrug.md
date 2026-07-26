@@ -2,30 +2,23 @@
 id: torchdrug
 slug: torchdrug
 name: TorchDrug
-description: Each reference provides comprehensive coverage of its domain with examples,
-  best practices, and common use cases.
+description: '- [TorchDrug 0.2.1 documentation](https://torchdrug.ai/docs/)'
 prompt_preview: '---
 
   name: torchdrug
 
-  description: PyTorch-native graph neural networks for molecules and proteins. Use
-  when building custom GNN architectures for drug discovery, protein modeling, or
-  knowledge graph reasoning. Best for custom model development, protein property prediction,
-  retrosynthesis. For pre-trained models and diverse featurizers use deepchem; for
-  benchmark datasets use pytdc.
+  description: Build and troubleshoot TorchDrug 0.2.1 workflows for molecular graphs,
+  property prediction, self-supervised pretraining, molecule generation, retrosynthesis,
+  protein representation learning, and knowledge graph reasoning. Use when code imports
+  torchdrug or needs its datasets, models, tasks, or Engine.
 
   license: Apache-2.0 license
 
-  metadata: {"version": "1.0", "skill-author": "K-Dense Inc."}
+  compatibility: TorchDrug 0.2.1 requires Python 3.7-3.10 and supports PyTorch 1.8-2.0.
+  Apple Silicon is CPU-only; MPS is unsupported.
 
-  ---
-
-
-  # TorchDrug
-
-
-  ## Overvi...'
-full_prompt_length: 15137
+  all...'
+full_prompt_length: 9136
 tools_mentioned:
 - Python
 - python
@@ -34,17 +27,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/torchdrug/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/torchdrug/SKILL.md
-fetched_at: '2026-07-19T05:20:01.257649+00:00'
+fetched_at: '2026-07-26T05:30:43.398067+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:49:13.635072Z'
+  evaluated_at: '2026-07-26T06:00:06.210719Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2300 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf0e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2300 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf0e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -54,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.277142Z'
-indexed_at: '2026-07-19T09:13:17.277147Z'
+  fetched_at: '2026-07-26T09:24:27.798742Z'
+indexed_at: '2026-07-26T09:24:27.798748Z'
 ---

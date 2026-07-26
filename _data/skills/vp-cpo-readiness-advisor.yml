@@ -17,17 +17,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/vp-cpo-readiness-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/vp-cpo-readiness-advisor/SKILL.md
-fetched_at: '2026-07-19T05:21:20.108750+00:00'
+fetched_at: '2026-07-26T05:32:16.138062+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T07:00:08.138199Z'
+  evaluated_at: '2026-07-26T07:11:05.516924Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f1d30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ead790 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f1d30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ead790 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:18.879964Z'
-indexed_at: '2026-07-19T09:13:18.879969Z'
+  fetched_at: '2026-07-26T09:24:29.353929Z'
+indexed_at: '2026-07-26T09:24:29.353934Z'

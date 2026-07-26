@@ -18,27 +18,27 @@ prompt_preview: '---
   Nielsen''s heuristi...'
 full_prompt_length: 144972
 tools_mentioned:
-- React
-- react
 - go
-- vue
+- React
 - Vue
+- vue
+- react
 category: community
 category_display: Community
 source_repo: Ashutos1997/claude-design-auditor-skill
 source_path: SKILL.md
 source_url: https://github.com/Ashutos1997/claude-design-auditor-skill/blob/main/SKILL.md
-fetched_at: '2026-07-19T05:19:35.455502+00:00'
+fetched_at: '2026-07-26T05:30:15.795182+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:25:40.522867Z'
+  evaluated_at: '2026-07-26T05:36:28.487239Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2104724e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7a3f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2104724e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7a3f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:16.738549Z'
-indexed_at: '2026-07-19T09:13:16.738555Z'
+  fetched_at: '2026-07-26T09:24:27.265515Z'
+indexed_at: '2026-07-26T09:24:27.265520Z'
 ---

@@ -11,7 +11,7 @@ prompt_preview: "---\nname: escalate-issues\ndescription: >\n  Triage maintenanc
   \ unsafe to delete, configuration changes requiring domain\n  expertise, breaking\
   \ changes detected during cleanup, complex refactoring needed,\n  or security-sensitive\
   \ findings such as hardcoded secrets or vuln..."
-full_prompt_length: 10779
+full_prompt_length: 10776
 tools_mentioned:
 - python
 category: community
@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/escalate-issues/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/escalate-issues/SKILL.md
-fetched_at: '2026-07-19T05:23:03.357556+00:00'
+fetched_at: '2026-07-26T05:33:54.034946+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T08:09:27.741716Z'
+  evaluated_at: '2026-07-26T08:20:16.714356Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2d80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7af30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c2d80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7af30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:20.454780Z'
-indexed_at: '2026-07-19T09:13:20.454786Z'
+  fetched_at: '2026-07-26T09:24:30.873814Z'
+indexed_at: '2026-07-26T09:24:30.873820Z'
 ---

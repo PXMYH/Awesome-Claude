@@ -15,24 +15,24 @@ prompt_preview: '---
   pattern selection — distinct from cod...'
 full_prompt_length: 4730
 tools_mentioned:
-- PostgreSQL
 - MongoDB
+- PostgreSQL
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/architecture-designer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/architecture-designer/SKILL.md
-fetched_at: '2026-07-19T05:22:04.319915+00:00'
+fetched_at: '2026-07-26T05:33:07.725591+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T07:38:57.061744Z'
+  evaluated_at: '2026-07-26T07:50:01.072687Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eade80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c0aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eade80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:19.762650Z'
-indexed_at: '2026-07-19T09:13:19.762656Z'
+  fetched_at: '2026-07-26T09:24:30.205652Z'
+indexed_at: '2026-07-26T09:24:30.205657Z'
 ---

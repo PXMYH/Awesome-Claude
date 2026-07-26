@@ -11,24 +11,24 @@ prompt_preview: "---\nname: expand-awareness\ndescription: >\n  Structured proce
   \ Like Baars' Global Workspace — consciousness as\n  broadcast rather than spotlight.\
   \ Use after meditation has cleared noise, when\n  a problem spans multiple domains\
   \ that need to be perceived togethe..."
-full_prompt_length: 20920
+full_prompt_length: 20912
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/expand-awareness/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/expand-awareness/SKILL.md
-fetched_at: '2026-07-19T05:23:04.346440+00:00'
+fetched_at: '2026-07-26T05:33:55.290008+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T08:10:32.709098Z'
+  evaluated_at: '2026-07-26T08:21:21.658544Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2104c5730 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce4bc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2104c5730 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce4bc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:20.479173Z'
-indexed_at: '2026-07-19T09:13:20.479179Z'
+  fetched_at: '2026-07-26T09:24:30.897503Z'
+indexed_at: '2026-07-26T09:24:30.897509Z'
 ---

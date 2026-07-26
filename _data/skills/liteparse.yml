@@ -18,27 +18,27 @@ prompt_preview: '---
   allowed-tool...'
 full_prompt_length: 9326
 tools_mentioned:
-- TypeScript
-- python
 - Node.js
-- Rust
 - Python
+- python
+- TypeScript
+- Rust
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/liteparse/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/liteparse/SKILL.md
-fetched_at: '2026-07-19T05:19:51.730658+00:00'
+fetched_at: '2026-07-26T05:30:33.485560+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:38:04.872470Z'
+  evaluated_at: '2026-07-26T05:48:59.046596Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210472de0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16088e55b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210472de0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16088e55b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,5 +48,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.018896Z'
-indexed_at: '2026-07-19T09:13:17.018902Z'
+  fetched_at: '2026-07-26T09:24:27.556710Z'
+indexed_at: '2026-07-26T09:24:27.556715Z'

@@ -17,25 +17,25 @@ prompt_preview: '---
   pi-interview (interactive forms)...'
 full_prompt_length: 5250
 tools_mentioned:
-- Docker
 - Node.js
 - TypeScript
+- Docker
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pi-agent/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pi-agent/SKILL.md
-fetched_at: '2026-07-19T05:19:55.344517+00:00'
+fetched_at: '2026-07-26T05:30:37.140587+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:42:17.276443Z'
+  evaluated_at: '2026-07-26T05:53:11.503720Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210473620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7b230 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210473620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7b230 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.118971Z'
-indexed_at: '2026-07-19T09:13:17.118977Z'
+  fetched_at: '2026-07-26T09:24:27.647835Z'
+indexed_at: '2026-07-26T09:24:27.647841Z'
 ---

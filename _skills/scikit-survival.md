@@ -1,19 +1,17 @@
 ---
 id: scikit-survival
 slug: scikit-survival
-name: 'scikit-survival: Survival Analysis in Python'
-description: '# Kernels'
-prompt_preview: '---
-
-  name: scikit-survival
-
-  description: Comprehensive toolkit for survival analysis and time-to-event modeling
-  in Python using scikit-survival. Use this skill when working with censored survival
-  data, performing time-to-event analysis, fitting Cox models, Random Survival Forests,
-  Gradient Boosting models, or Survival SVMs, evaluating survival predictions with
-  concordance index or Brier score, handling competing risks, or implementing any
-  survival analysis workflow with the scikit-survival library...'
-full_prompt_length: 14982
+name: scikit-survival
+description: '- [PyPI 0.28.0](https://pypi.org/project/scikit-survival/) — released
+  2026-07-05.'
+prompt_preview: "---\nname: scikit-survival\ndescription: Build, evaluate, and audit\
+  \ right-censored or competing-risk survival workflows with scikit-survival, including\
+  \ leakage-safe preprocessing, model selection, probability prediction, and censoring-aware\
+  \ metrics.\nlicense: MIT\ncompatibility: Requires Python 3.11+, uv, and the pinned\
+  \ scikit-survival 0.28.0 stack for executable examples. Bundled CLIs are local and\
+  \ network-free by default.\nallowed-tools: Read, Write, Edit, Bash\nmetadata:\n\
+  \  version: \"1.1\"\n  skill-au..."
+full_prompt_length: 13594
 tools_mentioned:
 - Python
 - python
@@ -22,17 +20,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/scikit-survival/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/scikit-survival/SKILL.md
-fetched_at: '2026-07-19T05:19:59.507948+00:00'
+fetched_at: '2026-07-26T05:30:41.495532+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:47:11.794705Z'
+  evaluated_at: '2026-07-26T05:58:04.423329Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018af90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6ab0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21018af90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6ab0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.230515Z'
-indexed_at: '2026-07-19T09:13:17.230521Z'
+  fetched_at: '2026-07-26T09:24:27.753809Z'
+indexed_at: '2026-07-26T09:24:27.753815Z'
 ---

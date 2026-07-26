@@ -17,17 +17,17 @@ category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/linkedin-micro-campaigns/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/linkedin-micro-campaigns/SKILL.md
-fetched_at: '2026-07-19T05:21:02.723410+00:00'
+fetched_at: '2026-07-26T05:31:55.859897+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T06:42:20.353437Z'
+  evaluated_at: '2026-07-26T06:53:19.312884Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaccb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c3da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaccb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:18.476887Z'
-indexed_at: '2026-07-19T09:13:18.476897Z'
+  fetched_at: '2026-07-26T09:24:28.968841Z'
+indexed_at: '2026-07-26T09:24:28.968847Z'
 ---

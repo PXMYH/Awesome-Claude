@@ -2,8 +2,7 @@
 id: expo-expo-app-clip
 slug: expo-expo-app-clip
 name: Add an App Clip to an Expo App
-description: '- ./references/native-module.md — Local Expo module to detect App Clip
-  context and present the SKOverlay install prompt'
+description: '## Submitting Feedback'
 prompt_preview: '---
 
   name: expo-app-clip
@@ -22,26 +21,26 @@ prompt_preview: '---
   > **Requirements.** Adding the App Clip target is open source. Shipping one requires
   an Apple Developer Program membership and App Store review, and the AASA file must
   be served...'
-full_prompt_length: 9056
+full_prompt_length: 9421
 tools_mentioned:
-- React
 - TypeScript
+- React
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-app-clip/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-app-clip/SKILL.md
-fetched_at: '2026-07-19T05:21:23.152012+00:00'
+fetched_at: '2026-07-26T05:32:19.803338+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T07:01:29.534090Z'
+  evaluated_at: '2026-07-26T07:12:36.328353Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210473da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ead730 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210473da0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ead730 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:18.911304Z'
-indexed_at: '2026-07-19T09:13:18.911309Z'
+  fetched_at: '2026-07-26T09:24:29.386500Z'
+indexed_at: '2026-07-26T09:24:29.386505Z'
 ---

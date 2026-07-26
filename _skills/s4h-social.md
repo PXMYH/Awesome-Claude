@@ -29,17 +29,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-social/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-social/SKILL.md
-fetched_at: '2026-07-19T05:21:50.915071+00:00'
+fetched_at: '2026-07-26T05:32:51.982470+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T07:29:59.120426Z'
+  evaluated_at: '2026-07-26T07:41:04.596342Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f0d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eae4b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101f0d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eae4b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:19.561552Z'
-indexed_at: '2026-07-19T09:13:19.561564Z'
+  fetched_at: '2026-07-26T09:24:30.009947Z'
+indexed_at: '2026-07-26T09:24:30.009953Z'
 ---

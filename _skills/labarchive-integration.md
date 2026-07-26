@@ -2,52 +2,36 @@
 id: labarchive-integration
 slug: labarchive-integration
 name: LabArchives Integration
-description: '- `api_reference.md`: Comprehensive API endpoint documentation with
-  parameters and examples'
-prompt_preview: '---
-
-  name: labarchive-integration
-
-  description: Electronic lab notebook API integration. Access notebooks, manage entries/attachments,
-  backup notebooks, integrate with Protocols.io/Jupyter/REDCap, for programmatic ELN
-  workflows.
-
-  license: Unknown
-
-  metadata: {"version": "1.0", "skill-author": "K-Dense Inc."}
-
-  ---
-
-
-  # LabArchives Integration
-
-
-  ## Overview
-
-
-  LabArchives is an electronic lab notebook platform for research documentation and
-  data management. Access notebooks, manage entries and attachments, g...'
-full_prompt_length: 9461
+description: '- [`references/api_reference.md`](references/api_reference.md) — ELN
+  versus'
+prompt_preview: "---\nname: labarchive-integration\ndescription: Securely integrate\
+  \ with the official LabArchives ELN REST-like API and Inventory API v1. Use for\
+  \ regional endpoint selection, signed-request construction, user authorization and\
+  \ UID flows, local LA container validation, and verified LabArchives integration\
+  \ workflows.\nlicense: MIT\ncompatibility: >-\n  Requires Python 3.11+ and uv for\
+  \ bundled local tools, plus network access for\n  official documentation or remote\
+  \ API calls. LabArchives issues an Access..."
+full_prompt_length: 9732
 tools_mentioned:
+- rest
 - REST
 - Python
-- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/labarchive-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/labarchive-integration/SKILL.md
-fetched_at: '2026-07-19T05:19:51.257660+00:00'
+fetched_at: '2026-07-26T05:30:33.015669+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:37:32.305737Z'
+  evaluated_at: '2026-07-26T05:48:26.690314Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21014fb90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eac1a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21014fb90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eac1a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -57,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:17.006765Z'
-indexed_at: '2026-07-19T09:13:17.006771Z'
+  fetched_at: '2026-07-26T09:24:27.544834Z'
+indexed_at: '2026-07-26T09:24:27.544840Z'
 ---

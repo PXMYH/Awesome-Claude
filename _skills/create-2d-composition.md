@@ -11,7 +11,7 @@ prompt_preview: "---\nname: create-2d-composition\ndescription: >\n  Compose 2D 
   \ production of badges or visual\n  assets, building custom chart types not in standard\
   \ libraries, or batch\n  generating graphics with parameter variations.\nlicense:\
   \ MIT\nallowed-tool..."
-full_prompt_length: 12270
+full_prompt_length: 12175
 tools_mentioned:
 - Python
 - python
@@ -20,17 +20,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-2d-composition/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-2d-composition/SKILL.md
-fetched_at: '2026-07-19T05:22:56.838602+00:00'
+fetched_at: '2026-07-26T05:33:46.098907+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T08:02:08.370242Z'
+  evaluated_at: '2026-07-26T08:12:55.727094Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101880b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16081a50a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101880b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16081a50a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:20.288469Z'
-indexed_at: '2026-07-19T09:13:20.288475Z'
+  fetched_at: '2026-07-26T09:24:30.711322Z'
+indexed_at: '2026-07-26T09:24:30.711328Z'
 ---

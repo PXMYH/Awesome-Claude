@@ -15,24 +15,24 @@ prompt_preview: '---
   X", or any time a user pastes a URL alongside words like...'
 full_prompt_length: 13708
 tools_mentioned:
-- Docker
 - Python
+- Docker
 category: community
 category_display: Community
 source_repo: Infrasity-Labs/dev-gtm-claude-skills
 source_path: skills/sdk-docs-auditor/SKILL.md
 source_url: https://github.com/Infrasity-Labs/dev-gtm-claude-skills/blob/main/skills/sdk-docs-auditor/SKILL.md
-fetched_at: '2026-07-19T05:19:41.949292+00:00'
+fetched_at: '2026-07-26T05:30:22.751479+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T05:28:58.128453Z'
+  evaluated_at: '2026-07-26T05:39:43.231153Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210922930 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160856fbc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff210922930 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160856fbc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +42,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:16.812490Z'
-indexed_at: '2026-07-19T09:13:16.812500Z'
+  fetched_at: '2026-07-26T09:24:27.337434Z'
+indexed_at: '2026-07-26T09:24:27.337439Z'

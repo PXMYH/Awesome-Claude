@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/develop-hplc-method/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/develop-hplc-method/SKILL.md
-fetched_at: '2026-07-19T05:23:02.286706+00:00'
+fetched_at: '2026-07-26T05:33:52.665968+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T08:08:14.549835Z'
+  evaluated_at: '2026-07-26T08:19:03.579413Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c12e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e3fda0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff2101c12e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e3fda0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:20.427363Z'
-indexed_at: '2026-07-19T09:13:20.427372Z'
+  fetched_at: '2026-07-26T09:24:30.847027Z'
+indexed_at: '2026-07-26T09:24:30.847033Z'
 ---

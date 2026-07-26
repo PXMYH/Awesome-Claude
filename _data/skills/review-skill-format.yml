@@ -10,24 +10,24 @@ prompt_preview: "---\nname: review-skill-format\ndescription: >\n  Review a SKIL
   \ an existing skill has been modified and\n  requires re-validation, performing\
   \ a batch audit of all skills in a domain,\n  or reviewing a contributor's skill\
   \ submission in a pull request.\nlicense:..."
-full_prompt_length: 12034
+full_prompt_length: 12980
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/review-skill-format/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/review-skill-format/SKILL.md
-fetched_at: '2026-07-19T05:23:21.929478+00:00'
+fetched_at: '2026-07-26T05:34:15.969187+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-19T08:30:04.015659Z'
+  evaluated_at: '2026-07-26T08:41:04.030016Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21077bf20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1f050 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff21077bf20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1f050 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-19T09:13:20.942051Z'
-indexed_at: '2026-07-19T09:13:20.942057Z'
+  fetched_at: '2026-07-26T09:24:31.330274Z'
+indexed_at: '2026-07-26T09:24:31.330280Z'
