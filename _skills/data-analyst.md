@@ -23,31 +23,31 @@ prompt_preview: '---
 full_prompt_length: 6876
 tools_mentioned:
 - Python
-category: data-ai
-category_display: Data Ai
+category: 05-data-ai
+category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/data-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/data-analyst.md
-fetched_at: '2026-07-26T05:31:07.524268+00:00'
+fetched_at: '2026-07-27T05:48:15.699231Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T06:18:29.670965Z'
+  evaluated_at: '2026-07-27T05:58:58.116580Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e78cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f27eb46b800 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e78cb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f27eb46b800 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 23718
-  forks: 2762
+  stars: 23756
+  forks: 2764
   open_issues: 6
   last_commit: '2026-07-10'
-  fetched_at: '2026-07-26T05:35:38.538297Z'
-indexed_at: '2026-07-26T09:24:28.210710Z'
+  fetched_at: '2026-07-27T05:48:37.950628Z'
+indexed_at: '2026-07-27T06:13:53.369370Z'
 ---

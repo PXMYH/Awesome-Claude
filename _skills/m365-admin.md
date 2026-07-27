@@ -24,31 +24,31 @@ prompt_preview: '---
 full_prompt_length: 1825
 tools_mentioned:
 - azure
-category: specialized-domains
-category_display: Specialized Domains
+category: 07-specialized-domains
+category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/m365-admin.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/m365-admin.md
-fetched_at: '2026-07-26T05:31:12.468556+00:00'
+fetched_at: '2026-07-27T05:48:21.337951Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T06:23:15.812774Z'
+  evaluated_at: '2026-07-27T06:03:46.064152Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce4050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f27eb46b7d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce4050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f27eb46b7d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 23718
-  forks: 2762
+  stars: 23756
+  forks: 2764
   open_issues: 6
   last_commit: '2026-07-10'
-  fetched_at: '2026-07-26T05:35:38.538297Z'
-indexed_at: '2026-07-26T09:24:28.315023Z'
+  fetched_at: '2026-07-27T05:48:37.950628Z'
+indexed_at: '2026-07-27T06:13:53.477431Z'
 ---

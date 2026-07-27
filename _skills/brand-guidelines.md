@@ -31,30 +31,30 @@ full_prompt_length: 2235
 tools_mentioned:
 - python
 category: official
-category_display: Official
+category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/brand-guidelines/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/brand-guidelines/SKILL.md
-fetched_at: '2026-07-26T05:31:26.014846+00:00'
+fetched_at: '2026-07-27T05:48:29.093805Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T06:31:49.361377Z'
+  evaluated_at: '2026-07-27T06:09:54.109095Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160845e720 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f27eb4681a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160845e720 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f27eb4681a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 164184
-  forks: 19496
-  open_issues: 1050
+  stars: 164398
+  forks: 19531
+  open_issues: 1054
   last_commit: '2026-07-24'
-  fetched_at: '2026-07-26T05:35:39.016112Z'
-indexed_at: '2026-07-26T09:24:28.502131Z'
+  fetched_at: '2026-07-27T05:48:38.374126Z'
+indexed_at: '2026-07-27T06:13:53.617684Z'
 ---

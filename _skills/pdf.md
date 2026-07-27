@@ -2,8 +2,7 @@
 id: pdf
 slug: pdf
 name: PDF Processing Guide
-description: '*This skill is created and maintained by [Anthropic](https://github.com/anthropics/skills/tree/main/skills/pdf).
-  Vendored here unmodified except for frontmatter metadata and the case of the `reference...'
+description: '- For advanced pypdfium2 usage, see REFERENCE.md'
 prompt_preview: '---
 
   name: pdf
@@ -16,36 +15,36 @@ prompt_preview: '---
   or asks to produce one, use this skill.
 
   license: Proprietary. LICENSE.txt h...'
-full_prompt_length: 8459
+full_prompt_length: 8035
 tools_mentioned:
-- Python
 - python
+- Python
 - JavaScript
-category: scientific
-category_display: Scientific
-source_repo: K-Dense-AI/claude-scientific-skills
+category: official
+category_display: Official Anthropic Skills
+source_repo: anthropics/skills
 source_path: skills/pdf/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pdf/SKILL.md
-fetched_at: '2026-07-26T05:30:36.686342+00:00'
+source_url: https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md
+fetched_at: '2026-07-27T05:48:31.326952Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:52:39.079556Z'
+  evaluated_at: '2026-07-27T06:11:02.400082Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16083f0e90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f27eb4696a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16083f0e90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f27eb4696a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 0
-  forks: 0
-  open_issues: 0
-  last_commit: null
-  fetched_at: '2026-07-26T09:24:27.636095Z'
-indexed_at: '2026-07-26T09:24:27.636101Z'
+  stars: 164398
+  forks: 19531
+  open_issues: 1054
+  last_commit: '2026-07-24'
+  fetched_at: '2026-07-27T05:48:38.374126Z'
+indexed_at: '2026-07-27T06:13:53.642300Z'
 ---
