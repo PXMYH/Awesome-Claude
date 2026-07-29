@@ -22,34 +22,34 @@ prompt_preview: '---
   management, parallel execution control, and fault tolerance with emphasis o...'
 full_prompt_length: 6796
 tools_mentioned:
-- GraphQL
 - REST
 - WebSocket
+- GraphQL
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/multi-agent-coordinator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/multi-agent-coordinator.md
-fetched_at: '2026-07-28T05:13:34.190292Z'
+fetched_at: '2026-07-29T05:20:18.523861Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-28T05:33:01.238442Z'
+  evaluated_at: '2026-07-29T05:39:39.259980Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2a88666f60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2b01db2cf0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2a88666f60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2b01db2cf0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 23786
-  forks: 2764
-  open_issues: 6
+  stars: 23815
+  forks: 2768
+  open_issues: 7
   last_commit: '2026-07-10'
-  fetched_at: '2026-07-28T05:13:54.274098Z'
-indexed_at: '2026-07-28T05:39:11.228800Z'
+  fetched_at: '2026-07-29T05:20:31.019028Z'
+indexed_at: '2026-07-29T05:45:48.242149Z'
 ---

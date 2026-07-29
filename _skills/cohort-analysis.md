@@ -26,26 +26,26 @@ category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/cohort-analysis.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/cohort-analysis.md
-fetched_at: '2026-07-28T05:13:35.757946Z'
+fetched_at: '2026-07-29T05:20:19.588238Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-28T05:33:42.209348Z'
+  evaluated_at: '2026-07-29T05:40:20.018664Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2a88666690 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2b01a6acc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2a88666690 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2b01a6acc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 23786
-  forks: 2764
-  open_issues: 6
+  stars: 23815
+  forks: 2768
+  open_issues: 7
   last_commit: '2026-07-10'
-  fetched_at: '2026-07-28T05:13:54.274098Z'
-indexed_at: '2026-07-28T05:39:11.243775Z'
+  fetched_at: '2026-07-29T05:20:31.019028Z'
+indexed_at: '2026-07-29T05:45:48.257452Z'
 ---
