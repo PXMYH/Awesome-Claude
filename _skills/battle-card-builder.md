@@ -19,17 +19,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/battle-card-builder/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/battle-card-builder/SKILL.md
-fetched_at: '2026-07-26T05:32:07.454231+00:00'
+fetched_at: '2026-08-02T05:27:30.111211+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T07:02:49.674747Z'
+  evaluated_at: '2026-08-02T07:01:37.966534Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eac440 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ace1de50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eac440 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ace1de50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:29.172727Z'
-indexed_at: '2026-07-26T09:24:29.172733Z'
+  fetched_at: '2026-08-02T09:26:14.578386Z'
+indexed_at: '2026-08-02T09:26:14.578395Z'
 ---

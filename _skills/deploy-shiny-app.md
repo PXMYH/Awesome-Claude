@@ -12,25 +12,25 @@ prompt_preview: "---\nname: deploy-shiny-app\ndescription: >\n  Deploy Shiny app
   \ MIT\nallowed-tools: Read W..."
 full_prompt_length: 7811
 tools_mentioned:
-- Kubernetes
 - Docker
+- Kubernetes
 - docker
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/deploy-shiny-app/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/deploy-shiny-app/SKILL.md
-fetched_at: '2026-07-26T05:33:50.019142+00:00'
+fetched_at: '2026-08-02T05:29:39.673298+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:16:45.453048Z'
+  evaluated_at: '2026-08-02T08:16:30.684087Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16081a5130 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4ac00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16081a5130 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4ac00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.795677Z'
-indexed_at: '2026-07-26T09:24:30.795687Z'
+  fetched_at: '2026-08-02T09:26:15.983371Z'
+indexed_at: '2026-08-02T09:26:15.983377Z'
 ---

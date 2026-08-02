@@ -17,7 +17,7 @@ prompt_preview: '---
   compatibility: Bundled CLIs require Python 3.11+ and use the standard library; HDF5/netCDF4
   metadata tools lazily use h5py when available. Simulation examples target fluidsim
   0.9.0...'
-full_prompt_length: 11600
+full_prompt_length: 11580
 tools_mentioned:
 - Python
 - python
@@ -26,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/fluidsim/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/fluidsim/SKILL.md
-fetched_at: '2026-07-26T05:30:30.852989+00:00'
+fetched_at: '2026-08-02T05:25:25.482777+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:46:00.576916Z'
+  evaluated_at: '2026-08-02T05:42:26.729871Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7b620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeeea0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7b620 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeeea0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.484797Z'
-indexed_at: '2026-07-26T09:24:27.484806Z'
+  fetched_at: '2026-08-02T09:26:13.089943Z'
+indexed_at: '2026-08-02T09:26:13.089949Z'
 ---

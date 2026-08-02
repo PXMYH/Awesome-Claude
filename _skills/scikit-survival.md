@@ -9,9 +9,9 @@ prompt_preview: "---\nname: scikit-survival\ndescription: Build, evaluate, and a
   \ leakage-safe preprocessing, model selection, probability prediction, and censoring-aware\
   \ metrics.\nlicense: MIT\ncompatibility: Requires Python 3.11+, uv, and the pinned\
   \ scikit-survival 0.28.0 stack for executable examples. Bundled CLIs are local and\
-  \ network-free by default.\nallowed-tools: Read, Write, Edit, Bash\nmetadata:\n\
-  \  version: \"1.1\"\n  skill-au..."
-full_prompt_length: 13594
+  \ network-free by default.\nallowed-tools: Read Write Edit Bash\nmetadata:\n  version:\
+  \ \"1.1\"\n  skill-autho..."
+full_prompt_length: 13591
 tools_mentioned:
 - Python
 - python
@@ -20,17 +20,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/scikit-survival/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/scikit-survival/SKILL.md
-fetched_at: '2026-07-26T05:30:41.495532+00:00'
+fetched_at: '2026-08-02T05:25:42.913450+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:58:04.423329Z'
+  evaluated_at: '2026-08-02T05:55:38.274677Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6ab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad561010 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6ab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad561010 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.753809Z'
-indexed_at: '2026-07-26T09:24:27.753815Z'
+  fetched_at: '2026-08-02T09:26:13.340932Z'
+indexed_at: '2026-08-02T09:26:13.340938Z'
 ---

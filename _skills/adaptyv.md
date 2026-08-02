@@ -8,15 +8,13 @@ prompt_preview: '---
 
   name: adaptyv
 
-  author: "K-Dense, Inc."
-
   description: "How to use the Adaptyv Bio Foundry API and Python SDK for protein
   experiment design, submission, and results retrieval. Use this skill whenever the
   user mentions Adaptyv, Foundry API, protein binding assays, protein screening experiments,
   BLI/SPR assays, thermostability assays, or wants to submit protein sequences for
   experimental characterization. Also trigger when code imports `adaptyv`, `adaptyv_sdk`,
-  or `FoundryClient`, or references `f...'
-full_prompt_length: 8805
+  or `FoundryClient`, or references `foundry-api-public.adapty...'
+full_prompt_length: 8776
 tools_mentioned:
 - Python
 - python
@@ -25,17 +23,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/adaptyv/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/adaptyv/SKILL.md
-fetched_at: '2026-07-26T05:30:26.371976+00:00'
+fetched_at: '2026-08-02T05:25:18.912139+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:41:05.107515Z'
+  evaluated_at: '2026-08-02T05:37:22.944774Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e78920 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acdcb8c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e78920 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acdcb8c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.366725Z'
-indexed_at: '2026-07-26T09:24:27.366731Z'
+  fetched_at: '2026-08-02T09:26:12.988744Z'
+indexed_at: '2026-08-02T09:26:12.988753Z'
 ---

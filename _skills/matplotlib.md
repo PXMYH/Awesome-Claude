@@ -3,14 +3,20 @@ id: matplotlib
 slug: matplotlib
 name: Matplotlib
 description: '- Official documentation: https://matplotlib.org/'
-prompt_preview: "---\nname: matplotlib\ndescription: Low-level plotting library for\
-  \ full customization. Use when you need fine-grained control over every plot element,\
-  \ creating novel plot types, or integrating with specific scientific workflows.\
-  \ Export to PNG/PDF/SVG for publication. For quick statistical plots use seaborn;\
-  \ for interactive plots use plotly; for publication-ready multi-panel figures with\
-  \ journal styling, use scientific-visualization.\nallowed-tools:\n  - Read\n  -\
-  \ Write\n  - Bash\nlicense: https://githu..."
-full_prompt_length: 12259
+prompt_preview: '---
+
+  name: matplotlib
+
+  description: Low-level plotting library for full customization. Use when you need
+  fine-grained control over every plot element, creating novel plot types, or integrating
+  with specific scientific workflows. Export to PNG/PDF/SVG for publication. For quick
+  statistical plots use seaborn; for interactive plots use plotly; for publication-ready
+  multi-panel figures with journal styling, use scientific-visualization.
+
+  allowed-tools: Read Write Bash
+
+  license: https://github.com/matplo...'
+full_prompt_length: 12242
 tools_mentioned:
 - Python
 - python
@@ -19,17 +25,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/matplotlib/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/matplotlib/SKILL.md
-fetched_at: '2026-07-26T05:30:34.318117+00:00'
+fetched_at: '2026-08-02T05:25:31.037650+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:49:55.825780Z'
+  evaluated_at: '2026-08-02T05:46:37.452832Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaecc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad0b20c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaecc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad0b20c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.577301Z'
-indexed_at: '2026-07-26T09:24:27.577312Z'
+  fetched_at: '2026-08-02T09:26:13.169925Z'
+indexed_at: '2026-08-02T09:26:13.169930Z'
 ---

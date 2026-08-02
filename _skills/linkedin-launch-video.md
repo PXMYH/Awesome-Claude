@@ -17,17 +17,17 @@ category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/linkedin-launch-video/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/linkedin-launch-video/SKILL.md
-fetched_at: '2026-07-26T05:31:55.684886+00:00'
+fetched_at: '2026-08-02T05:27:15.440153+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T06:53:11.214900Z'
+  evaluated_at: '2026-08-02T06:51:56.034909Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce65d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef800 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce65d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef800 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:28.965750Z'
-indexed_at: '2026-07-26T09:24:28.965758Z'
+  fetched_at: '2026-08-02T09:26:14.398777Z'
+indexed_at: '2026-08-02T09:26:14.398783Z'
 ---

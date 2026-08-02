@@ -19,7 +19,7 @@ prompt_preview: '---
   allowed-tools: Read Write Edit Bash
 
   compatibility: Requires Python 3.8+ and seaborn 0.13.2-compatible dependen...'
-full_prompt_length: 22469
+full_prompt_length: 9706
 tools_mentioned:
 - Python
 - python
@@ -28,17 +28,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/seaborn/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/seaborn/SKILL.md
-fetched_at: '2026-07-26T05:30:41.919512+00:00'
+fetched_at: '2026-08-02T05:25:43.483669+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:58:28.968881Z'
+  evaluated_at: '2026-08-02T05:56:02.924530Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16085f6fc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b980 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16085f6fc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b980 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.762783Z'
-indexed_at: '2026-07-26T09:24:27.762789Z'
+  fetched_at: '2026-08-02T09:26:13.348759Z'
+indexed_at: '2026-08-02T09:26:13.348765Z'
 ---

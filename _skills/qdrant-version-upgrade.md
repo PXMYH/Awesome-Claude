@@ -34,17 +34,17 @@ category_display: Community
 source_repo: qdrant/skills
 source_path: skills/qdrant-version-upgrade/SKILL.md
 source_url: https://github.com/qdrant/skills/blob/main/skills/qdrant-version-upgrade/SKILL.md
-fetched_at: '2026-07-26T05:34:41.359268+00:00'
+fetched_at: '2026-08-02T05:30:46.215659+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T09:02:54.472842Z'
+  evaluated_at: '2026-08-02T09:03:15.142987Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1ddf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb188f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1ddf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb188f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:31.814453Z'
-indexed_at: '2026-07-26T09:24:31.814459Z'
+  fetched_at: '2026-08-02T09:26:16.860749Z'
+indexed_at: '2026-08-02T09:26:16.860755Z'
 ---

@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/resolve-git-conflicts/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/resolve-git-conflicts/SKILL.md
-fetched_at: '2026-07-26T05:34:14.992001+00:00'
+fetched_at: '2026-08-02T05:30:12.286987+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:40:07.282258Z'
+  evaluated_at: '2026-08-02T08:40:12.749147Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e79310 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a090 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e79310 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a090 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:31.309255Z'
-indexed_at: '2026-07-26T09:24:31.309261Z'
+  fetched_at: '2026-08-02T09:26:16.427908Z'
+indexed_at: '2026-08-02T09:26:16.427914Z'
 ---

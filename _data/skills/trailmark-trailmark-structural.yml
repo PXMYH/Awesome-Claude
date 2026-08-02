@@ -6,22 +6,13 @@ prompt_preview: '---
 
   name: trailmark-structural
 
-  description: "Runs full Trailmark structural analysis on Trailmark 0.2.x by building
-  a graph, running `preanalysis()`, and reporting hotspots, taint, blast radius, privilege
-  boundaries, and attack surface. Use when vivisect needs detailed structural data
-  for a target. Triggers: structural analysis, blast radius, taint analysis, complexity
-  hotspots."
-
-  allowed-tools: Bash Read Grep Glob
-
-  ---
-
-
-  # Trailmark Structural Analysis
-
-
-  Builds a Trailmark graph and runs `engine.pr...'
-full_prompt_length: 3931
+  description: "Runs full Trailmark structural analysis by building a graph, running
+  `preanalysis()`, and reporting hotspots, taint, blast radius, privilege boundaries,
+  attack surface, and version-gated Trailmark 0.4+/0.5+ data such as proxy counts,
+  subgraph edges, type/reference summaries, and entrypoint attributes. Use when vivisect
+  needs detailed structural data for a target. Triggers: structural analysis, blast
+  radius, taint analysis, complexity hotspots, proxy n...'
+full_prompt_length: 6156
 tools_mentioned:
 - python
 category: security
@@ -29,17 +20,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/trailmark/skills/trailmark-structural/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/trailmark/skills/trailmark-structural/SKILL.md
-fetched_at: '2026-07-26T05:35:20.785240+00:00'
+fetched_at: '2026-08-02T05:31:32.238051+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T09:20:06.908303Z'
+  evaluated_at: '2026-08-02T09:21:40.779652Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7ae40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ac98a330 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7ae40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ac98a330 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:32.196985Z'
-indexed_at: '2026-07-26T09:24:32.196991Z'
+  fetched_at: '2026-08-02T09:26:17.206440Z'
+indexed_at: '2026-08-02T09:26:17.206446Z'

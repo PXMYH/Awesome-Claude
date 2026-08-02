@@ -1,42 +1,42 @@
 id: generate-image
 slug: generate-image
 name: Generate Image
-description: '- **scientific-schematics**: Use for technical diagrams, flowcharts,
-  circuits, pathways'
+description: '- `scientific-schematics` — technical diagrams, flowcharts, circuits,
+  pathways'
 prompt_preview: '---
 
   name: generate-image
 
-  description: Generate or edit images using AI models (FLUX, Nano Banana 2). Use
-  for general-purpose image generation including photos, illustrations, artwork, visual
-  assets, concept art, and any image that is not a technical diagram or schematic.
-  For flowcharts, circuits, pathways, and technical diagrams, use the scientific-schematics
-  skill instead.
+  description: Generate or edit images with AI models through the OpenRouter Image
+  API (Gemini, Seedream, Recraft, GPT-Image, Riverflow). Use for photos, illustrations,
+  artwork, concept art, visual assets, logos, and image editing or compositing from
+  reference images. For flowcharts, circuits, pathways, and other technical diagrams,
+  use the scientific-schematics skill instead.
 
-  license: MIT license
+  license: MIT
 
-  compatibility: Requires an OpenRouter API key
-
-  metadata: {"version": "1.0", "skill-author": "K-Dense In...'
-full_prompt_length: 7068
+  compatibility: Requires Python 3.9+ and network access to openrouter.ai. The bundled...'
+full_prompt_length: 14436
 tools_mentioned:
+- go
+- Python
 - python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/generate-image/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/generate-image/SKILL.md
-fetched_at: '2026-07-26T05:30:30.969429+00:00'
+fetched_at: '2026-08-02T05:25:25.651091+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:46:08.816531Z'
+  evaluated_at: '2026-08-02T05:42:34.891999Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e78aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf46ff0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e78aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf46ff0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.489630Z'
-indexed_at: '2026-07-26T09:24:27.489638Z'
+  fetched_at: '2026-08-02T09:26:13.092449Z'
+indexed_at: '2026-08-02T09:26:13.092455Z'

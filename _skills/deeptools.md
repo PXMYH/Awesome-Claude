@@ -3,14 +3,21 @@ id: deeptools
 slug: deeptools
 name: 'deepTools: NGS Data Analysis Toolkit'
 description: '- **File validation first**: Always validate input files before analysis'
-prompt_preview: "---\nname: deeptools\ndescription: NGS analysis toolkit. BAM to bigWig\
-  \ conversion, QC (correlation, PCA, fingerprints), heatmaps/profiles (TSS, peaks),\
-  \ for ChIP-seq, RNA-seq, ATAC-seq visualization.\nlicense: BSD license\nallowed-tools:\n\
-  \  - Read\n  - Write\n  - Edit\n  - Bash\ncompatibility: Requires Python >3.8 and\
-  \ deepTools 3.5.6-compatible dependencies. The upstream project recommends conda/bioconda\
-  \ for full dependency resolution; repo examples use uv with pinned PyPI installs\
-  \ for reproducible comman..."
-full_prompt_length: 19164
+prompt_preview: '---
+
+  name: deeptools
+
+  description: NGS analysis toolkit. BAM to bigWig conversion, QC (correlation, PCA,
+  fingerprints), heatmaps/profiles (TSS, peaks), for ChIP-seq, RNA-seq, ATAC-seq visualization.
+
+  license: BSD license
+
+  allowed-tools: Read Write Edit Bash
+
+  compatibility: Requires Python >3.8 and deepTools 3.5.6-compatible dependencies.
+  The upstream project recommends conda/bioconda for full dependency resolution; repo
+  examples use uv with pinned PyPI installs for reproducible command-line workflows...'
+full_prompt_length: 15320
 tools_mentioned:
 - Python
 - python
@@ -19,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/deeptools/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/deeptools/SKILL.md
-fetched_at: '2026-07-26T05:30:29.309395+00:00'
+fetched_at: '2026-08-02T05:25:23.325886+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:44:22.806450Z'
+  evaluated_at: '2026-08-02T05:40:47.539078Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eae7e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18590 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eae7e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18590 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.439803Z'
-indexed_at: '2026-07-26T09:24:27.439812Z'
+  fetched_at: '2026-08-02T09:26:13.055690Z'
+indexed_at: '2026-08-02T09:26:13.055696Z'
 ---

@@ -13,7 +13,7 @@ prompt_preview: '---
   and machine learning on large datasets. Apply when users need to work with large
   CSV/HDF5/Arrow/Parquet files, perform fast statistics on massive datasets, create
   visualizations of big data, or build ML pipelines that do not fit in memor...'
-full_prompt_length: 7946
+full_prompt_length: 7941
 tools_mentioned:
 - Python
 - python
@@ -22,17 +22,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/vaex/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/vaex/SKILL.md
-fetched_at: '2026-07-26T05:30:43.981732+00:00'
+fetched_at: '2026-08-02T05:25:46.741083+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T06:00:46.707764Z'
+  evaluated_at: '2026-08-02T05:58:34.591393Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eadcd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1aba0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eadcd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1aba0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.813609Z'
-indexed_at: '2026-07-26T09:24:27.813619Z'
+  fetched_at: '2026-08-02T09:26:13.395783Z'
+indexed_at: '2026-08-02T09:26:13.395789Z'
 ---

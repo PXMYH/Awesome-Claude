@@ -12,24 +12,24 @@ prompt_preview: "---\nname: ruzzy\ntype: fuzzer\ndescription: >\n  Ruzzy is a co
   **Choose Ruzzy when:**\n- Fuz..."
 full_prompt_length: 11936
 tools_mentioned:
-- Ruby
 - ruby
+- Ruby
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/ruzzy/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/ruzzy/SKILL.md
-fetched_at: '2026-07-26T05:35:18.698893+00:00'
+fetched_at: '2026-08-02T05:31:29.402148+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T09:18:53.224338Z'
+  evaluated_at: '2026-08-02T09:20:00.890597Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6090 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ac988530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6090 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ac988530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:32.169903Z'
-indexed_at: '2026-07-26T09:24:32.169908Z'
+  fetched_at: '2026-08-02T09:26:17.175544Z'
+indexed_at: '2026-08-02T09:26:17.175549Z'
 ---

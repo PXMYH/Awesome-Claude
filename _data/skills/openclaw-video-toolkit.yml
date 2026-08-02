@@ -12,26 +12,26 @@ prompt_preview: "---\nname: video_toolkit\ndescription: Create professional vide
   \ toolkit uses open-source AI models on cloud GPUs (Modal or RunPod) for..."
 full_prompt_length: 24107
 tools_mentioned:
-- Python
+- docker
 - React
 - typescript
-- docker
+- Python
 category: community
 category_display: Community
 source_repo: digitalsamba/claude-code-video-toolkit
 source_path: skills/openclaw-video-toolkit/SKILL.md
 source_url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/main/skills/openclaw-video-toolkit/SKILL.md
-fetched_at: '2026-07-26T05:32:17.207152+00:00'
+fetched_at: '2026-08-02T05:27:42.431795+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T07:11:21.739749Z'
+  evaluated_at: '2026-08-02T07:10:23.116147Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16082fd700 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee630 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16082fd700 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee630 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:29.359849Z'
-indexed_at: '2026-07-26T09:24:29.359855Z'
+  fetched_at: '2026-08-02T09:26:14.738152Z'
+indexed_at: '2026-08-02T09:26:14.738159Z'

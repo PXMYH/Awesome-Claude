@@ -18,7 +18,7 @@ prompt_preview: '---
 
   compatibility: Requires Python 3.11+ and uv. Examples target AnnData 0.12.16, with
   experimental APIs clear...'
-full_prompt_length: 11925
+full_prompt_length: 11920
 tools_mentioned:
 - Python
 - python
@@ -27,17 +27,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/anndata/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/anndata/SKILL.md
-fetched_at: '2026-07-26T05:30:26.612034+00:00'
+fetched_at: '2026-08-02T05:25:19.423514+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:41:21.483099Z'
+  evaluated_at: '2026-08-02T05:37:47.433182Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e79a30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaec650 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e79a30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaec650 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.372540Z'
-indexed_at: '2026-07-26T09:24:27.372546Z'
+  fetched_at: '2026-08-02T09:26:12.996623Z'
+indexed_at: '2026-08-02T09:26:12.996629Z'
 ---

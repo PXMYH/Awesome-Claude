@@ -21,17 +21,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/memex-init/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/memex-init/SKILL.md
-fetched_at: '2026-07-26T05:34:05.749078+00:00'
+fetched_at: '2026-08-02T05:29:59.459837+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:31:01.597314Z'
+  evaluated_at: '2026-08-02T08:31:00.665587Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1c9e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1be60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1c9e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1be60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:31.107402Z'
-indexed_at: '2026-07-26T09:24:31.107407Z'
+  fetched_at: '2026-08-02T09:26:16.254134Z'
+indexed_at: '2026-08-02T09:26:16.254140Z'
 ---

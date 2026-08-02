@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/construct-geometric-figure/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/construct-geometric-figure/SKILL.md
-fetched_at: '2026-07-26T05:33:45.242528+00:00'
+fetched_at: '2026-08-02T05:29:33.151964+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:12:06.755937Z'
+  evaluated_at: '2026-08-02T08:11:51.732411Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7a8a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48560 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7a8a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48560 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.693048Z'
-indexed_at: '2026-07-26T09:24:30.693054Z'
+  fetched_at: '2026-08-02T09:26:15.895759Z'
+indexed_at: '2026-08-02T09:26:15.895772Z'
 ---

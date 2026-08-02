@@ -2,22 +2,14 @@ id: scientific-slides
 slug: scientific-slides
 name: Scientific Slides
 description: '**Remember**:'
-prompt_preview: '---
-
-  name: scientific-slides
-
-  description: Build slide decks and presentations for research talks. Use this for
-  making PowerPoint slides, conference presentations, seminar talks, research presentations,
-  thesis defense slides, or any scientific talk. Provides slide structure, design
-  templates, timing guidance, and visual validation. Works with PowerPoint and LaTeX
-  Beamer.
-
-  allowed-tools: Read Write Edit Bash
-
-  license: MIT license
-
-  required_environment_variables: [{"name": "OPENROUTER_API_KEY", "prompt...'
-full_prompt_length: 47544
+prompt_preview: "---\nname: scientific-slides\ndescription: Build slide decks and\
+  \ presentations for research talks. Use this for making PowerPoint slides, conference\
+  \ presentations, seminar talks, research presentations, thesis defense slides, or\
+  \ any scientific talk. Provides slide structure, design templates, timing guidance,\
+  \ and visual validation. Works with PowerPoint and LaTeX Beamer.\nallowed-tools:\
+  \ Read Write Edit Bash\nlicense: MIT license\nmetadata:\n  version: \"1.7\"\n  skill-author:\
+  \ K-Dense Inc.\n  openclaw:..."
+full_prompt_length: 20553
 tools_mentioned:
 - python
 category: scientific
@@ -25,17 +17,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/scientific-slides/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/scientific-slides/SKILL.md
-fetched_at: '2026-07-26T05:30:40.908078+00:00'
+fetched_at: '2026-08-02T05:25:41.991618+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:57:23.634026Z'
+  evaluated_at: '2026-08-02T05:54:57.400072Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaca40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf43fe0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaca40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf43fe0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.739202Z'
-indexed_at: '2026-07-26T09:24:27.739207Z'
+  fetched_at: '2026-08-02T09:26:13.328018Z'
+indexed_at: '2026-08-02T09:26:13.328024Z'

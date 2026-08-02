@@ -18,26 +18,26 @@ prompt_preview: '---
   li...'
 full_prompt_length: 10117
 tools_mentioned:
-- rest
-- Go
 - React
 - react
+- rest
+- Go
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-web-to-native/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-web-to-native/SKILL.md
-fetched_at: '2026-07-26T05:32:21.441666+00:00'
+fetched_at: '2026-08-02T05:27:47.764479+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T07:14:32.218686Z'
+  evaluated_at: '2026-08-02T07:13:31.893183Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e79c40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49eb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e79c40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49eb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,5 +47,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:29.427506Z'
-indexed_at: '2026-07-26T09:24:29.427512Z'
+  fetched_at: '2026-08-02T09:26:14.796376Z'
+indexed_at: '2026-08-02T09:26:14.796382Z'

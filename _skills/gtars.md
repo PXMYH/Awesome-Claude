@@ -16,29 +16,29 @@ prompt_preview: '---
   compatibility: Python bindings require Python 3.10+ and gtars 0.9.2. The Rust meta-crate
   and gtars-cli are 0.9.0 and require a Rust toolchain supporting Edition 2024; upstream
   declares no rust-version. Bundled audit CLIs use only Python 3.10+ standard lib...'
-full_prompt_length: 12260
+full_prompt_length: 12249
 tools_mentioned:
 - rust
-- rest
 - Python
-- python
 - Rust
+- rest
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/gtars/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/gtars/SKILL.md
-fetched_at: '2026-07-26T05:30:32.044107+00:00'
+fetched_at: '2026-08-02T05:25:27.450123+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:47:21.736395Z'
+  evaluated_at: '2026-08-02T05:43:58.232035Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160856c260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad17ca40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160856c260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad17ca40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.520145Z'
-indexed_at: '2026-07-26T09:24:27.520150Z'
+  fetched_at: '2026-08-02T09:26:13.118684Z'
+indexed_at: '2026-08-02T09:26:13.118690Z'
 ---

@@ -5,22 +5,14 @@ name: Parallel Web Toolkit
 description: Long-running commands support `--no-wait` followed by a capability-specific
   `poll`. Poll at most three times with `--timeout 540` (27 minutes total). If the
   task still has not completed, stop, report ...
-prompt_preview: '---
-
-  name: parallel-web
-
-  description: "Use Parallel CLI for web search, URL extraction, deep research, structured
-  data enrichment, entity discovery, and recurring web monitoring. Best for requests
-  that explicitly need current web evidence, academic-source discovery, repeated entity
-  lookups, exhaustive reports, or ongoing change tracking."
-
-  license: MIT
-
-  compatibility: Requires parallel-cli and internet access.
-
-  metadata: {"version": "1.2", "author": "K-Dense, Inc.", "openclaw": {"primaryEnv":
-  "PARALL...'
-full_prompt_length: 6192
+prompt_preview: "---\nname: parallel-web\ndescription: \"Use Parallel CLI for web\
+  \ search, URL extraction, deep research, structured data enrichment, entity discovery,\
+  \ and recurring web monitoring. Best for requests that explicitly need current web\
+  \ evidence, academic-source discovery, repeated entity lookups, exhaustive reports,\
+  \ or ongoing change tracking.\"\nlicense: MIT\ncompatibility: Requires parallel-cli\
+  \ and internet access.\nmetadata:\n  version: \"1.2\"\n  author: K-Dense, Inc.\n\
+  \  openclaw:\n    primaryEnv: PARALLEL_AP..."
+full_prompt_length: 6187
 tools_mentioned:
 - JavaScript
 category: scientific
@@ -28,17 +20,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/parallel-web/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/parallel-web/SKILL.md
-fetched_at: '2026-07-26T05:30:36.337413+00:00'
+fetched_at: '2026-08-02T05:25:34.474644+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:52:14.648075Z'
+  evaluated_at: '2026-08-02T05:49:23.362972Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608375700 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad02cef0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608375700 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad02cef0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.627299Z'
-indexed_at: '2026-07-26T09:24:27.627304Z'
+  fetched_at: '2026-08-02T09:26:13.222035Z'
+indexed_at: '2026-08-02T09:26:13.222041Z'
 ---

@@ -13,25 +13,25 @@ prompt_preview: "---\nname: hacker-news-strategy\ndescription: When the user wan
 full_prompt_length: 10846
 tools_mentioned:
 - Node.js
-- TypeScript
 - Rust
+- TypeScript
 - SQLite
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/hacker-news-strategy/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/hacker-news-strategy/SKILL.md
-fetched_at: '2026-07-26T05:33:21.651058+00:00'
+fetched_at: '2026-08-02T05:29:04.407887+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T07:57:04.104739Z'
+  evaluated_at: '2026-08-02T07:56:37.041358Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1d0a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48b00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1d0a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48b00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.360146Z'
-indexed_at: '2026-07-26T09:24:30.360151Z'
+  fetched_at: '2026-08-02T09:26:15.603953Z'
+indexed_at: '2026-08-02T09:26:15.603959Z'
 ---

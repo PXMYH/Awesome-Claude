@@ -19,28 +19,28 @@ prompt_preview: '---
 
   compatibility: Requires Python 3.10+ for polars 1.41.x. Install with uv pip install;
   optional extras enable Excel, database, c...'
-full_prompt_length: 9801
+full_prompt_length: 9796
 tools_mentioned:
+- Rust
 - Python
 - python
 - Azure
-- Rust
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/polars/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/polars/SKILL.md
-fetched_at: '2026-07-26T05:30:37.383488+00:00'
+fetched_at: '2026-08-02T05:25:36.567130+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:53:27.765259Z'
+  evaluated_at: '2026-08-02T05:50:55.962708Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaedf70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaedf70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.653886Z'
-indexed_at: '2026-07-26T09:24:27.653892Z'
+  fetched_at: '2026-08-02T09:26:13.250893Z'
+indexed_at: '2026-08-02T09:26:13.250898Z'
 ---

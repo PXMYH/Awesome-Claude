@@ -1,0 +1,50 @@
+---
+id: uncertainty-and-units
+slug: uncertainty-and-units
+name: Uncertainty and units
+description: '- [JCGM 100:2008, Evaluation of measurement data — Guide to the expression
+  of'
+prompt_preview: '---
+
+  name: uncertainty-and-units
+
+  description: Track physical units and propagate measurement uncertainty in scientific
+  calculations using pint and uncertainties. Use for unit conversion and dimensional
+  checking, GUM uncertainty budgets, Type A and Type B evaluation, coverage factors
+  and expanded uncertainty, Monte Carlo propagation, significant-figure and plus-minus
+  reporting, error propagation through curve fits, CODATA constants, auditing Python
+  code for stripped units or broken uncertainty pro...'
+full_prompt_length: 18851
+tools_mentioned:
+- go
+- rest
+- Python
+- python
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: skills/uncertainty-and-units/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/uncertainty-and-units/SKILL.md
+fetched_at: '2026-08-02T05:25:46.400822+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-08-02T05:58:18.019062Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeed80 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeed80 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-08-02T09:26:13.390475Z'
+indexed_at: '2026-08-02T09:26:13.390481Z'
+---

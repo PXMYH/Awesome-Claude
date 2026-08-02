@@ -12,30 +12,30 @@ prompt_preview: "---\nname: review-software-architecture\ndescription: >\n  Revi
   \ or evaluating readiness for signifi..."
 full_prompt_length: 11918
 tools_mentioned:
+- Redis
+- JavaScript
+- GraphQL
+- Python
+- PostgreSQL
 - REST
 - gRPC
-- PostgreSQL
-- JavaScript
-- Python
-- Redis
-- GraphQL
 - TypeScript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/review-software-architecture/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/review-software-architecture/SKILL.md
-fetched_at: '2026-07-26T05:34:16.112723+00:00'
+fetched_at: '2026-08-02T05:30:13.898151+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:41:12.145812Z'
+  evaluated_at: '2026-08-02T08:41:19.281827Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1cc50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18c80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1cc50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18c80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,5 +45,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:31.333281Z'
-indexed_at: '2026-07-26T09:24:31.333286Z'
+  fetched_at: '2026-08-02T09:26:16.448332Z'
+indexed_at: '2026-08-02T09:26:16.448337Z'

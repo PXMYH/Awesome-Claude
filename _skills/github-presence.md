@@ -15,25 +15,25 @@ tools_mentioned:
 - rust
 - go
 - django
+- react
 - javascript
 - python
-- react
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/github-presence/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/github-presence/SKILL.md
-fetched_at: '2026-07-26T05:33:21.379508+00:00'
+fetched_at: '2026-08-02T05:29:04.027025+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T07:56:47.891703Z'
+  evaluated_at: '2026-08-02T07:56:20.507812Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1c260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee450 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1c260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee450 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.354186Z'
-indexed_at: '2026-07-26T09:24:30.354192Z'
+  fetched_at: '2026-08-02T09:26:15.598682Z'
+indexed_at: '2026-08-02T09:26:15.598687Z'
 ---

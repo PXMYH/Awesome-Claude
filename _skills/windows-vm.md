@@ -27,25 +27,25 @@ prompt_preview: '---
   in Docker with KVM acceleration. The VM is accessible via SSH only — no RDP or GUI...'
 full_prompt_length: 9988
 tools_mentioned:
-- Node.js
 - Docker
+- Node.js
 - docker
 category: community
 category_display: Community
 source_repo: obra/superpowers-lab
 source_path: skills/windows-vm/SKILL.md
 source_url: https://github.com/obra/superpowers-lab/blob/main/skills/windows-vm/SKILL.md
-fetched_at: '2026-07-26T05:33:30.913286+00:00'
+fetched_at: '2026-08-02T05:29:15.032398+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:01:16.767491Z'
+  evaluated_at: '2026-08-02T08:00:51.133879Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160849f530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4a3c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160849f530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4a3c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -55,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.452622Z'
-indexed_at: '2026-07-26T09:24:30.452628Z'
+  fetched_at: '2026-08-02T09:26:15.686122Z'
+indexed_at: '2026-08-02T09:26:15.686127Z'
 ---

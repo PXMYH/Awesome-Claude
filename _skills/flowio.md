@@ -3,14 +3,22 @@ id: flowio
 slug: flowio
 name: FlowIO
 description: '- Never claim FlowIO applies compensation or gating.'
-prompt_preview: "---\nname: flowio\ndescription: Read, inspect, and write Flow Cytometry\
-  \ Standard (FCS) 2.0, 3.0, and 3.1 files with FlowIO. Use for low-level FCS metadata\
-  \ and channel inspection, NumPy event extraction, multi-dataset files, table export,\
-  \ and FCS 3.1 creation; use FlowKit for compensation, cytometry transforms, gating,\
-  \ or FlowJo workspaces.\nallowed-tools:\n  - Read\n  - Write\n  - Bash\nlicense:\
-  \ BSD-3-Clause license\ncompatibility: Requires Python 3.9-3.13, uv, and FlowIO\
-  \ 1.4.0. NumPy is installed with..."
-full_prompt_length: 10964
+prompt_preview: '---
+
+  name: flowio
+
+  description: Read, inspect, and write Flow Cytometry Standard (FCS) 2.0, 3.0, and
+  3.1 files with FlowIO. Use for low-level FCS metadata and channel inspection, NumPy
+  event extraction, multi-dataset files, table export, and FCS 3.1 creation; use FlowKit
+  for compensation, cytometry transforms, gating, or FlowJo workspaces.
+
+  allowed-tools: Read Write Bash
+
+  license: BSD-3-Clause license
+
+  compatibility: Requires Python 3.9-3.13, uv, and FlowIO 1.4.0. NumPy is installed
+  with FlowIO; pand...'
+full_prompt_length: 10947
 tools_mentioned:
 - Python
 - python
@@ -19,17 +27,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/flowio/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/flowio/SKILL.md
-fetched_at: '2026-07-26T05:30:30.611669+00:00'
+fetched_at: '2026-08-02T05:25:25.318415+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:45:52.471397Z'
+  evaluated_at: '2026-08-02T05:42:18.565070Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eafdd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf46ff0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eafdd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf46ff0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.480420Z'
-indexed_at: '2026-07-26T09:24:27.480430Z'
+  fetched_at: '2026-08-02T09:26:13.087391Z'
+indexed_at: '2026-08-02T09:26:13.087397Z'
 ---

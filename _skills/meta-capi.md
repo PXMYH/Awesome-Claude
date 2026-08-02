@@ -12,28 +12,28 @@ prompt_preview: "---\nname: meta-capi\ndescription: Meta Conversions API (CAPI) 
   \ mcp__cogny__meta_ads__tool_get_insight..."
 full_prompt_length: 24922
 tools_mentioned:
+- AWS
+- Python
+- javascript
 - node.js
 - Node.js
-- javascript
-- Python
 - python
-- AWS
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/meta-capi/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/meta-capi/SKILL.md
-fetched_at: '2026-07-26T05:31:55.999279+00:00'
+fetched_at: '2026-08-02T05:27:15.837782+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T06:53:27.407402Z'
+  evaluated_at: '2026-08-02T06:52:12.352937Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce7980 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce7980 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:28.971782Z'
-indexed_at: '2026-07-26T09:24:28.971788Z'
+  fetched_at: '2026-08-02T09:26:14.403909Z'
+indexed_at: '2026-08-02T09:26:14.403915Z'
 ---

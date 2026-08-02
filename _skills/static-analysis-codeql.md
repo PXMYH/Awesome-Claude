@@ -13,31 +13,31 @@ prompt_preview: "---\nname: codeql\ndescription: >-\n  Scans a codebase for secu
   \ data extension models and processing CodeQL SARIF outp..."
 full_prompt_length: 15475
 tools_mentioned:
-- Go
-- go
-- Java
-- Ruby
 - JavaScript
-- Python
-- python
-- TypeScript
+- Go
 - Django
+- Python
+- go
+- python
+- Java
+- TypeScript
+- Ruby
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/static-analysis/skills/codeql/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/codeql/SKILL.md
-fetched_at: '2026-07-26T05:35:15.043811+00:00'
+fetched_at: '2026-08-02T05:31:25.475397+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T09:16:42.541305Z'
+  evaluated_at: '2026-08-02T09:17:49.264867Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1fa40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1aed0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1fa40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1aed0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:32.120473Z'
-indexed_at: '2026-07-26T09:24:32.120479Z'
+  fetched_at: '2026-08-02T09:26:17.133103Z'
+indexed_at: '2026-08-02T09:26:17.133112Z'
 ---

@@ -13,25 +13,25 @@ prompt_preview: "---\nname: apple-container\ndescription: |\n  Apple's open-sour
   \ or container networking on\n  ma..."
 full_prompt_length: 8701
 tools_mentioned:
-- Kubernetes
 - Docker
+- Kubernetes
 - docker
 category: community
 category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/apple-container/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/apple-container/SKILL.md
-fetched_at: '2026-07-26T05:34:45.831660+00:00'
+fetched_at: '2026-08-02T05:30:51.159078+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T09:04:07.675969Z'
+  evaluated_at: '2026-08-02T09:04:28.630897Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce60f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ace29010 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce60f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ace29010 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:31.841254Z'
-indexed_at: '2026-07-26T09:24:31.841259Z'
+  fetched_at: '2026-08-02T09:26:16.883835Z'
+indexed_at: '2026-08-02T09:26:16.883840Z'
 ---

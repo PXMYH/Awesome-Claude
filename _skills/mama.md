@@ -40,17 +40,17 @@ category_display: Community
 source_repo: tanweai/pua
 source_path: skills/mama/SKILL.md
 source_url: https://github.com/tanweai/pua/blob/main/skills/mama/SKILL.md
-fetched_at: '2026-07-26T05:34:58.399934+00:00'
+fetched_at: '2026-08-02T05:31:05.365570+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T09:09:32.887564Z'
+  evaluated_at: '2026-08-02T09:10:15.118765Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e78ad0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49850 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e78ad0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49850 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -60,6 +60,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:31.959992Z'
-indexed_at: '2026-07-26T09:24:31.959998Z'
+  fetched_at: '2026-08-02T09:26:16.990455Z'
+indexed_at: '2026-08-02T09:26:16.990460Z'
 ---

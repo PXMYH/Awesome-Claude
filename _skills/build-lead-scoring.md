@@ -14,24 +14,24 @@ prompt_preview: "---\nname: build-lead-scoring\ndescription: \"Create a comprehe
   \ and an Engagement score (behavioral si..."
 full_prompt_length: 12682
 tools_mentioned:
-- Go
 - python
+- Go
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/build-lead-scoring/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/build-lead-scoring/SKILL.md
-fetched_at: '2026-07-26T05:30:50.379472+00:00'
+fetched_at: '2026-08-02T05:25:53.981950+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T06:03:37.585772Z'
+  evaluated_at: '2026-08-02T06:01:27.304043Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7b890 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeff80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7b890 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeff80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.876978Z'
-indexed_at: '2026-07-26T09:24:27.876984Z'
+  fetched_at: '2026-08-02T09:26:13.450906Z'
+indexed_at: '2026-08-02T09:26:13.450911Z'
 ---

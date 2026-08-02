@@ -12,24 +12,24 @@ prompt_preview: "---\nname: usage-based-pricing\ndescription: |\n  Design pricin
   \ surprise bills or confusing metrics.\n\n##..."
 full_prompt_length: 13478
 tools_mentioned:
-- go
 - AWS
+- go
 category: community
 category_display: Community
 source_repo: jonathimer/devmarketing-skills
 source_path: skills/usage-based-pricing/SKILL.md
 source_url: https://github.com/jonathimer/devmarketing-skills/blob/main/skills/usage-based-pricing/SKILL.md
-fetched_at: '2026-07-26T05:33:22.939090+00:00'
+fetched_at: '2026-08-02T05:29:06.206674+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T07:58:00.949905Z'
+  evaluated_at: '2026-08-02T07:57:34.282202Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7a810 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a0f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7a810 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a0f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.381800Z'
-indexed_at: '2026-07-26T09:24:30.381805Z'
+  fetched_at: '2026-08-02T09:26:15.623335Z'
+indexed_at: '2026-08-02T09:26:15.623341Z'
 ---

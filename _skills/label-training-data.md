@@ -15,24 +15,24 @@ tools_mentioned:
 - Docker
 - PostgreSQL
 - Python
-- python
 - docker
+- python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/label-training-data/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/label-training-data/SKILL.md
-fetched_at: '2026-07-26T05:34:02.913601+00:00'
+fetched_at: '2026-08-02T05:29:55.542648+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:28:18.184613Z'
+  evaluated_at: '2026-08-02T08:28:16.186113Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce5ca0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaefb90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce5ca0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaefb90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:31.048498Z'
-indexed_at: '2026-07-26T09:24:31.048503Z'
+  fetched_at: '2026-08-02T09:26:16.202692Z'
+indexed_at: '2026-08-02T09:26:16.202698Z'
 ---

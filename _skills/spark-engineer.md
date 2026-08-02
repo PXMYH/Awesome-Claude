@@ -18,17 +18,17 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/spark-engineer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/spark-engineer/SKILL.md
-fetched_at: '2026-07-26T05:33:14.083338+00:00'
+fetched_at: '2026-08-02T05:28:54.409348+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T07:52:51.680759Z'
+  evaluated_at: '2026-08-02T07:52:23.549155Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608150aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaefc80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608150aa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaefc80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.267857Z'
-indexed_at: '2026-07-26T09:24:30.267862Z'
+  fetched_at: '2026-08-02T09:26:15.521685Z'
+indexed_at: '2026-08-02T09:26:15.521691Z'
 ---

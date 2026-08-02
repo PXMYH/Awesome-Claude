@@ -17,24 +17,24 @@ prompt_preview: '---
 
   compatibility: Requires the BGPT MCP server configured in the agent host (npx mcp-remote
   or npx bgpt-m...'
-full_prompt_length: 2859
+full_prompt_length: 2848
 tools_mentioned: []
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/bgpt-paper-search/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/bgpt-paper-search/SKILL.md
-fetched_at: '2026-07-26T05:30:27.350547+00:00'
+fetched_at: '2026-08-02T05:25:20.483393+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:42:10.488216Z'
+  evaluated_at: '2026-08-02T05:38:36.394466Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160856fbc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad1de5a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160856fbc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad1de5a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.390441Z'
-indexed_at: '2026-07-26T09:24:27.390446Z'
+  fetched_at: '2026-08-02T09:26:13.013200Z'
+indexed_at: '2026-08-02T09:26:13.013210Z'
 ---

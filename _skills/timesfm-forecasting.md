@@ -2,23 +2,16 @@
 id: timesfm-forecasting
 slug: timesfm-forecasting
 name: TimesFM Forecasting
-description: '# Covariates regression check:'
-prompt_preview: '---
-
-  name: timesfm-forecasting
-
-  description: Zero-shot time series forecasting with Google''s TimesFM foundation
-  model. Use for any univariate time series (sales, sensors, energy, vitals, weather)
-  without training a custom model. Supports CSV/DataFrame/array inputs with point
-  forecasts and prediction intervals. Includes a preflight system checker script to
-  verify RAM/GPU before first use.
-
-  allowed-tools: Read Write Edit Bash
-
-  license: Apache-2.0 license
-
-  metadata: {"version": "1.0", "skill-author": "C...'
-full_prompt_length: 29984
+description: '- **Paper**: [A Decoder-Only Foundation Model for Time-Series Forecasting](https://arxiv.org/abs/2310.10688)
+  (ICML 2024)'
+prompt_preview: "---\nname: timesfm-forecasting\ndescription: Zero-shot time series\
+  \ forecasting with Google's TimesFM foundation model. Use for any univariate time\
+  \ series (sales, sensors, energy, vitals, weather) without training a custom model.\
+  \ Supports CSV/DataFrame/array inputs with point forecasts and prediction intervals.\
+  \ Includes a preflight system checker script to verify RAM/GPU before first use.\n\
+  allowed-tools: Read Write Edit Bash\nlicense: Apache-2.0 license\nmetadata:\n  version:\
+  \ \"1.2\"\n  skill-author: Clay..."
+full_prompt_length: 15420
 tools_mentioned:
 - Python
 - python
@@ -27,17 +20,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/timesfm-forecasting/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/timesfm-forecasting/SKILL.md
-fetched_at: '2026-07-26T05:30:43.170461+00:00'
+fetched_at: '2026-08-02T05:25:45.310374+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:59:49.936126Z'
+  evaluated_at: '2026-08-02T05:57:28.980172Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608558170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acde5940 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608558170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acde5940 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.792735Z'
-indexed_at: '2026-07-26T09:24:27.792741Z'
+  fetched_at: '2026-08-02T09:26:13.374839Z'
+indexed_at: '2026-08-02T09:26:13.374845Z'
 ---

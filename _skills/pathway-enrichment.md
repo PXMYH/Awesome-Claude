@@ -13,28 +13,28 @@ prompt_preview: '---
   marker genes, proteomics hits) and wants to know which biological pathways, GO terms,
   or gene sets are over-represented or enriched. Covers over-representation analysis
   (ORA / Enrichr / Fisher / hypergeometric), ranked Gene Set...'
-full_prompt_length: 12562
+full_prompt_length: 12557
 tools_mentioned:
-- GO
+- go
 - Python
 - python
-- go
+- GO
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pathway-enrichment/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pathway-enrichment/SKILL.md
-fetched_at: '2026-07-26T05:30:36.565314+00:00'
+fetched_at: '2026-08-02T05:25:35.003633+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:52:30.975665Z'
+  evaluated_at: '2026-08-02T05:49:49.356829Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e79c10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1ba40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e79c10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1ba40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.633132Z'
-indexed_at: '2026-07-26T09:24:27.633138Z'
+  fetched_at: '2026-08-02T09:26:13.229950Z'
+indexed_at: '2026-08-02T09:26:13.229956Z'
 ---

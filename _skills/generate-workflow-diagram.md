@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/generate-workflow-diagram/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/generate-workflow-diagram/SKILL.md
-fetched_at: '2026-07-26T05:33:58.478029+00:00'
+fetched_at: '2026-08-02T05:29:50.013921+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:24:12.829796Z'
+  evaluated_at: '2026-08-02T08:24:09.615042Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce61e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad1aee40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce61e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad1aee40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.959491Z'
-indexed_at: '2026-07-26T09:24:30.959496Z'
+  fetched_at: '2026-08-02T09:26:16.124994Z'
+indexed_at: '2026-08-02T09:26:16.125000Z'
 ---

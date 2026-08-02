@@ -33,17 +33,17 @@ category_display: Community
 source_repo: hqhq1025/skill-optimizer
 source_path: skills/skill-generalizer/SKILL.md
 source_url: https://github.com/hqhq1025/skill-optimizer/blob/main/skills/skill-generalizer/SKILL.md
-fetched_at: '2026-07-26T05:32:23.665543+00:00'
+fetched_at: '2026-08-02T05:27:50.319083+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T07:14:56.519296Z'
+  evaluated_at: '2026-08-02T07:13:56.711113Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eacce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18770 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eacce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18770 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:29.436346Z'
-indexed_at: '2026-07-26T09:24:29.436351Z'
+  fetched_at: '2026-08-02T09:26:14.804042Z'
+indexed_at: '2026-08-02T09:26:14.804048Z'
 ---

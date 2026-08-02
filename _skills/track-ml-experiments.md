@@ -12,32 +12,32 @@ prompt_preview: "---\nname: track-ml-experiments\ndescription: >\n  Set up MLflo
   \ or\n  building reproducible ML..."
 full_prompt_length: 9908
 tools_mentioned:
-- MySQL
 - Docker
 - sqlite
-- aws
-- PostgreSQL
 - SQLite
-- Python
-- python
 - Azure
+- Python
+- PostgreSQL
 - docker
+- aws
+- python
+- MySQL
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/track-ml-experiments/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/track-ml-experiments/SKILL.md
-fetched_at: '2026-07-26T05:34:24.021299+00:00'
+fetched_at: '2026-08-02T05:30:23.967476+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:48:38.429221Z'
+  evaluated_at: '2026-08-02T08:48:54.284228Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6ae0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48c20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6ae0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48c20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:31.499001Z'
-indexed_at: '2026-07-26T09:24:31.499007Z'
+  fetched_at: '2026-08-02T09:26:16.590004Z'
+indexed_at: '2026-08-02T09:26:16.590010Z'
 ---

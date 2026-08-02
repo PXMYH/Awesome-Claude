@@ -17,7 +17,7 @@ prompt_preview: '---
   compatibility: Requires Python 3.10+ and scikit-bio 0.7+ (uv pip install scikit-bio).
   NumPy 2.0+ is required. Optional matplotlib/seaborn/plotly for plotting; biom-format
   for BIOM tables; polars/anndata for tab...'
-full_prompt_length: 19473
+full_prompt_length: 19468
 tools_mentioned:
 - Python
 - python
@@ -26,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/scikit-bio/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/scikit-bio/SKILL.md
-fetched_at: '2026-07-26T05:30:41.256123+00:00'
+fetched_at: '2026-08-02T05:25:42.481442+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:57:48.231370Z'
+  evaluated_at: '2026-08-02T05:55:21.901475Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160816e090 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf45250 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160816e090 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf45250 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.747935Z'
-indexed_at: '2026-07-26T09:24:27.747941Z'
+  fetched_at: '2026-08-02T09:26:13.335814Z'
+indexed_at: '2026-08-02T09:26:13.335820Z'

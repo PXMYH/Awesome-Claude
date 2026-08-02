@@ -29,17 +29,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-decision-reversibility-analysis/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-decision-reversibility-analysis/SKILL.md
-fetched_at: '2026-07-26T05:32:34.241319+00:00'
+fetched_at: '2026-08-02T05:28:03.587659+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T07:23:34.611584Z'
+  evaluated_at: '2026-08-02T07:22:36.432071Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce4140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a960 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce4140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a960 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:29.624406Z'
-indexed_at: '2026-07-26T09:24:29.624411Z'
+  fetched_at: '2026-08-02T09:26:14.966701Z'
+indexed_at: '2026-08-02T09:26:14.966706Z'
 ---

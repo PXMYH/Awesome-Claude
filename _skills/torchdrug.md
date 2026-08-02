@@ -27,17 +27,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/torchdrug/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/torchdrug/SKILL.md
-fetched_at: '2026-07-26T05:30:43.398067+00:00'
+fetched_at: '2026-08-02T05:25:45.686211+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T06:00:06.210719Z'
+  evaluated_at: '2026-08-02T05:57:45.325424Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf0e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad0b2c60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf0e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad0b2c60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.798742Z'
-indexed_at: '2026-07-26T09:24:27.798748Z'
+  fetched_at: '2026-08-02T09:26:13.380150Z'
+indexed_at: '2026-08-02T09:26:13.380156Z'
 ---

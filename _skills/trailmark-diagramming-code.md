@@ -10,27 +10,27 @@ prompt_preview: "---\nname: diagramming-code\ndescription: >\n  Generates Mermai
   \ call graphs, generating class diagrams, creating\n  dependency maps, producing\
   \ complexity heatmaps, or visualizing data flow\n  and attack surface paths as Mermaid\
   \ diagrams.\n---\n\n# Diagramming Cod..."
-full_prompt_length: 5757
+full_prompt_length: 6716
 tools_mentioned:
+- Rust
 - rust
 - python
-- Rust
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/trailmark/skills/diagramming-code/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/trailmark/skills/diagramming-code/SKILL.md
-fetched_at: '2026-07-26T05:35:19.936440+00:00'
+fetched_at: '2026-08-02T05:31:30.585985+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T09:19:34.523402Z'
+  evaluated_at: '2026-08-02T09:20:42.893779Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce40b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49130 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce40b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49130 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:32.184983Z'
-indexed_at: '2026-07-26T09:24:32.184989Z'
+  fetched_at: '2026-08-02T09:26:17.188672Z'
+indexed_at: '2026-08-02T09:26:17.188678Z'
 ---

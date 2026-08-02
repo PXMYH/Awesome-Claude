@@ -6,31 +6,32 @@ prompt_preview: '---
 
   name: paper-lookup
 
-  description: Search 10 academic literature APIs for papers, preprints, citations,
+  description: Search 11 academic literature APIs for papers, preprints, citations,
   and open-access full text, and return results with reproducible provenance. Covers
-  PubMed, PMC (full text), bioRxiv, medRxiv, arXiv, OpenAlex, Crossref, Semantic Scholar,
-  CORE, Unpaywall. Use when searching for papers, citations, DOI/PMID/arXiv lookups,
-  abstracts, full text, open-access PDFs, preprints, citation graphs, author publications,
-  or any scholarly literature query. Triggers on menti...'
-full_prompt_length: 14698
+  PubMed, PMC (full text), Europe PMC (full-text and preprint search), bioRxiv, medRxiv,
+  arXiv, OpenAlex, Crossref, Semantic Scholar, CORE, Unpaywall. Use when searching
+  for papers, citations, DOI/PMID/arXiv lookups, abstracts, full text, open-access
+  PDFs, preprints, citation graphs, author publications, or any s...'
+full_prompt_length: 21205
 tools_mentioned:
-- REST
+- rest
+- Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/paper-lookup/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/paper-lookup/SKILL.md
-fetched_at: '2026-07-26T05:30:36.102061+00:00'
+fetched_at: '2026-08-02T05:25:33.950315+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:51:58.453128Z'
+  evaluated_at: '2026-08-02T05:48:58.812602Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7bfb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed0d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7bfb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed0d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.621583Z'
-indexed_at: '2026-07-26T09:24:27.621589Z'
+  fetched_at: '2026-08-02T09:26:13.214411Z'
+indexed_at: '2026-08-02T09:26:13.214417Z'

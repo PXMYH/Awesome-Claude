@@ -14,25 +14,25 @@ prompt_preview: "---\nname: build-smart-lists\ndescription: \"Create foundationa
   \ as the foundation for all marketing campai..."
 full_prompt_length: 13414
 tools_mentioned:
-- Go
 - Python
 - python
+- Go
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/build-smart-lists/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/build-smart-lists/SKILL.md
-fetched_at: '2026-07-26T05:30:50.512955+00:00'
+fetched_at: '2026-08-02T05:25:54.246003+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T06:03:45.699975Z'
+  evaluated_at: '2026-08-02T06:01:35.481057Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16088e6660 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a450 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16088e6660 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a450 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.880074Z'
-indexed_at: '2026-07-26T09:24:27.880079Z'
+  fetched_at: '2026-08-02T09:26:13.453563Z'
+indexed_at: '2026-08-02T09:26:13.453568Z'
 ---

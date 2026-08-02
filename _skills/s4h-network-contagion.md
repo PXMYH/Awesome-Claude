@@ -28,17 +28,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-network-contagion/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-network-contagion/SKILL.md
-fetched_at: '2026-07-26T05:32:47.392776+00:00'
+fetched_at: '2026-08-02T05:28:21.877767+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T07:36:36.201543Z'
+  evaluated_at: '2026-08-02T07:35:49.524755Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16080edb50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18cb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16080edb50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18cb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:29.910675Z'
-indexed_at: '2026-07-26T09:24:29.910681Z'
+  fetched_at: '2026-08-02T09:26:15.212099Z'
+indexed_at: '2026-08-02T09:26:15.212104Z'
 ---

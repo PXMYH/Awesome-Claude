@@ -20,17 +20,17 @@ category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/telegram/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/telegram/SKILL.md
-fetched_at: '2026-07-26T05:34:49.378036+00:00'
+fetched_at: '2026-08-02T05:30:55.145860+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T09:07:06.005501Z'
+  evaluated_at: '2026-08-02T09:07:29.958605Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e788c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef260 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e788c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef260 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:31.906405Z'
-indexed_at: '2026-07-26T09:24:31.906411Z'
+  fetched_at: '2026-08-02T09:26:16.939575Z'
+indexed_at: '2026-08-02T09:26:16.939580Z'
 ---

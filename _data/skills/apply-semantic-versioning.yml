@@ -13,24 +13,24 @@ prompt_preview: "---\nname: apply-semantic-versioning\ndescription: >\n  Apply s
 full_prompt_length: 8713
 tools_mentioned:
 - Node.js
-- Python
 - Rust
+- Python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/apply-semantic-versioning/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/apply-semantic-versioning/SKILL.md
-fetched_at: '2026-07-26T05:33:37.246205+00:00'
+fetched_at: '2026-08-02T05:29:22.435545+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:04:15.747138Z'
+  evaluated_at: '2026-08-02T08:03:52.663683Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160849f530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49940 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160849f530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49940 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.517585Z'
-indexed_at: '2026-07-26T09:24:30.517590Z'
+  fetched_at: '2026-08-02T09:26:15.744038Z'
+indexed_at: '2026-08-02T09:26:15.744044Z'

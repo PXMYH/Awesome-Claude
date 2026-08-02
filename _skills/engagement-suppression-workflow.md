@@ -19,17 +19,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/engagement-suppression-workflow/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/engagement-suppression-workflow/SKILL.md
-fetched_at: '2026-07-26T05:30:52.157883+00:00'
+fetched_at: '2026-08-02T05:25:56.504616+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T06:05:25.968730Z'
+  evaluated_at: '2026-08-02T06:03:15.207677Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eac860 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad0de540 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eac860 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad0de540 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.916805Z'
-indexed_at: '2026-07-26T09:24:27.916810Z'
+  fetched_at: '2026-08-02T09:26:13.485051Z'
+indexed_at: '2026-08-02T09:26:13.485057Z'
 ---

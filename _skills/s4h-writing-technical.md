@@ -25,17 +25,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-writing-technical/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-writing-technical/SKILL.md
-fetched_at: '2026-07-26T05:32:57.235822+00:00'
+fetched_at: '2026-08-02T05:28:34.428487+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T07:45:56.459020Z'
+  evaluated_at: '2026-08-02T07:45:16.282289Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeeff0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeeff0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.117064Z'
-indexed_at: '2026-07-26T09:24:30.117069Z'
+  fetched_at: '2026-08-02T09:26:15.388234Z'
+indexed_at: '2026-08-02T09:26:15.388239Z'
 ---

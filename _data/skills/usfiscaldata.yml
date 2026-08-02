@@ -3,27 +3,14 @@ slug: usfiscaldata
 name: U.S. Treasury Fiscal Data API
 description: '- **[api-basics.md](references/api-basics.md)** — URL structure, HTTP
   methods, versioning, data types'
-prompt_preview: '---
-
-  name: usfiscaldata
-
-  description: Query the U.S. Treasury Fiscal Data REST API for federal financial
-  data. No API key required. Use for national debt (Debt to the Penny), Daily Treasury
-  Statements, Monthly Treasury Statements, Treasury securities auctions, interest
-  rates, foreign exchange rates, savings bonds, or U.S. government revenue and spending
-  statistics.
-
-  license: MIT
-
-  allowed-tools: Read Write Edit Bash
-
-  metadata: {"version": "1.1", "skill-author": "K-Dense Inc."}
-
-  ---
-
-
-  # U.S. Treasury Fis...'
-full_prompt_length: 6867
+prompt_preview: "---\nname: usfiscaldata\ndescription: Query the U.S. Treasury Fiscal\
+  \ Data REST API for federal financial data. No API key required. Use for national\
+  \ debt (Debt to the Penny), Daily Treasury Statements, Monthly Treasury Statements,\
+  \ Treasury securities auctions, interest rates, foreign exchange rates, savings\
+  \ bonds, or U.S. government revenue and spending statistics.\nlicense: MIT\nallowed-tools:\
+  \ Read Write Edit Bash\nmetadata:\n  version: \"1.1\"\n  skill-author: K-Dense Inc.\n\
+  ---\n\n# U.S. Treasury Fiscal D..."
+full_prompt_length: 6862
 tools_mentioned:
 - REST
 - Python
@@ -33,17 +20,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/usfiscaldata/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/usfiscaldata/SKILL.md
-fetched_at: '2026-07-26T05:30:43.867270+00:00'
+fetched_at: '2026-08-02T05:25:46.565253+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T06:00:38.606685Z'
+  evaluated_at: '2026-08-02T05:58:26.375372Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eae1b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acde5940 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eae1b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acde5940 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -53,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.810561Z'
-indexed_at: '2026-07-26T09:24:27.810566Z'
+  fetched_at: '2026-08-02T09:26:13.393118Z'
+indexed_at: '2026-08-02T09:26:13.393123Z'

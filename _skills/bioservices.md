@@ -18,28 +18,28 @@ prompt_preview: '---
 
   compatibility: Requires Python 3.9–3.12 and internet access to 40+ bioinformatics
   we...'
-full_prompt_length: 11713
+full_prompt_length: 12124
 tools_mentioned:
 - REST
-- GO
 - Python
 - python
+- GO
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/bioservices/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/bioservices/SKILL.md
-fetched_at: '2026-07-26T05:30:27.737129+00:00'
+fetched_at: '2026-08-02T05:25:21.072459+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:42:37.340587Z'
+  evaluated_at: '2026-08-02T05:39:01.212071Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf470 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad5e8a10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf470 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad5e8a10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.399273Z'
-indexed_at: '2026-07-26T09:24:27.399278Z'
+  fetched_at: '2026-08-02T09:26:13.020959Z'
+indexed_at: '2026-08-02T09:26:13.020964Z'
 ---

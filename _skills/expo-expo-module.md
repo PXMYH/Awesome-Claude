@@ -15,25 +15,25 @@ prompt_preview: '---
   2.0 macros; use expo-migrate-module (from the expo-experiment...'
 full_prompt_length: 6334
 tools_mentioned:
-- TypeScript
 - React
 - typescript
+- TypeScript
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-module/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-module/SKILL.md
-fetched_at: '2026-07-26T05:32:20.514774+00:00'
+fetched_at: '2026-08-02T05:27:46.468486+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T07:13:25.100126Z'
+  evaluated_at: '2026-08-02T07:12:25.923057Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608515670 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48650 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608515670 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48650 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:29.404012Z'
-indexed_at: '2026-07-26T09:24:29.404018Z'
+  fetched_at: '2026-08-02T09:26:14.776033Z'
+indexed_at: '2026-08-02T09:26:14.776039Z'
 ---

@@ -3,42 +3,36 @@ id: modal
 slug: modal
 name: Modal
 description: Read these files when detailed information is needed beyond this overview.
-prompt_preview: '---
-
-  name: modal
-
-  description: Modal is a serverless cloud platform for running Python on demand,
-  including on-demand GPUs. Use when deploying or serving AI/ML models, running GPU-accelerated
-  workloads (training, fine-tuning, inference), serving web endpoints, scheduling
-  batch jobs, or scaling Python code to cloud containers with the Modal SDK.
-
-  license: Apache-2.0
-
-  required_environment_variables: [{"name": "MODAL_TOKEN_ID", "prompt": "Modal token
-  id.", "required_for": "full functionality"}, {"name"...'
-full_prompt_length: 15707
+prompt_preview: "---\nname: modal\ndescription: Modal is a serverless cloud platform\
+  \ for running Python on demand, including on-demand GPUs. Use when deploying or\
+  \ serving AI/ML models, running GPU-accelerated workloads (training, fine-tuning,\
+  \ inference), serving web endpoints, scheduling batch jobs, or scaling Python code\
+  \ to cloud containers with the Modal SDK.\nlicense: Apache-2.0\nmetadata:\n  version:\
+  \ \"1.2\"\n  skill-author: K-Dense Inc.\n  openclaw:\n    envVars:\n    - name:\
+  \ MODAL_TOKEN_ID\n      required: true..."
+full_prompt_length: 15366
 tools_mentioned:
-- FastAPI
-- Python
-- python
 - Django
+- Python
 - Flask
+- FastAPI
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/modal/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/modal/SKILL.md
-fetched_at: '2026-07-26T05:30:34.550117+00:00'
+fetched_at: '2026-08-02T05:25:31.399084+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:50:12.355113Z'
+  evaluated_at: '2026-08-02T05:46:53.820622Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16084cb800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad9975c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16084cb800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad9975c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.583060Z'
-indexed_at: '2026-07-26T09:24:27.583065Z'
+  fetched_at: '2026-08-02T09:26:13.175050Z'
+indexed_at: '2026-08-02T09:26:13.175056Z'
 ---

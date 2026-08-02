@@ -10,26 +10,26 @@ prompt_preview: "---\nname: design-cli-output\ndescription: >\n  Design terminal
   \ output variants, and\n  cross-terminal compatibility. Use when building a new\
   \ CLI reporter module,\n  adding warm narrative output to an existing tool, standardizing\
   \ output\n  across mul..."
-full_prompt_length: 10585
+full_prompt_length: 14865
 tools_mentioned:
-- javascript
 - TypeScript
+- javascript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/design-cli-output/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/design-cli-output/SKILL.md
-fetched_at: '2026-07-26T05:33:51.249725+00:00'
+fetched_at: '2026-08-02T05:29:40.907636+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:17:42.627502Z'
+  evaluated_at: '2026-08-02T08:17:28.095392Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16080edb50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48ef0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16080edb50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48ef0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.816798Z'
-indexed_at: '2026-07-26T09:24:30.816803Z'
+  fetched_at: '2026-08-02T09:26:16.001379Z'
+indexed_at: '2026-08-02T09:26:16.001385Z'
 ---

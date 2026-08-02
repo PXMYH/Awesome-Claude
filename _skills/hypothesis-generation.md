@@ -27,17 +27,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/hypothesis-generation/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/hypothesis-generation/SKILL.md
-fetched_at: '2026-07-26T05:30:32.517085+00:00'
+fetched_at: '2026-08-02T05:25:28.180348+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:47:54.285797Z'
+  evaluated_at: '2026-08-02T05:44:32.215999Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eac8f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acfd2660 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eac8f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acfd2660 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.532717Z'
-indexed_at: '2026-07-26T09:24:27.532723Z'
+  fetched_at: '2026-08-02T09:26:13.129296Z'
+indexed_at: '2026-08-02T09:26:13.129302Z'
 ---

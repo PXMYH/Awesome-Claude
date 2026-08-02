@@ -3,55 +3,39 @@ id: lamindb
 slug: lamindb
 name: LaminDB
 description: '- **Official Documentation**: https://docs.lamin.ai'
-prompt_preview: '---
-
-  name: lamindb
-
-  description: Use when working with LaminDB, the open-source lineage-native lakehouse
-  for biological datasets and models. Covers setup, artifact registration, query/search,
-  lineage tracking, validation, ontology-backed annotation with Bionty, collections,
-  branches, storage, and workflow integrations.
-
-  license: Apache-2.0 license
-
-  metadata: {"version": "1.1", "skill-author": "K-Dense Inc."}
-
-  ---
-
-
-  # LaminDB
-
-
-  ## Overview
-
-
-  LaminDB is an open-source, lineage-native lakehouse for biology...'
-full_prompt_length: 16130
+prompt_preview: "---\nname: lamindb\ndescription: Use when working with LaminDB, the\
+  \ open-source lineage-native lakehouse for biological datasets and models. Covers\
+  \ setup, artifact registration, query/search, lineage tracking, validation, ontology-backed\
+  \ annotation with Bionty, collections, branches, storage, and workflow integrations.\n\
+  license: Apache-2.0 license\nmetadata:\n  version: \"1.1\"\n  skill-author: K-Dense\
+  \ Inc.\n---\n\n# LaminDB\n\n## Overview\n\nLaminDB is an open-source, lineage-native\
+  \ lakehouse for biology. It..."
+full_prompt_length: 16125
 tools_mentioned:
-- REST
 - GO
-- PostgreSQL
 - SQLite
-- Python
-- python
 - AWS
+- Python
+- PostgreSQL
+- REST
 - gcp
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/lamindb/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/lamindb/SKILL.md
-fetched_at: '2026-07-26T05:30:33.128231+00:00'
+fetched_at: '2026-08-02T05:25:29.128863+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:48:34.768940Z'
+  evaluated_at: '2026-08-02T05:45:15.016822Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eac920 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acfd2660 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eac920 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acfd2660 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -61,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.547838Z'
-indexed_at: '2026-07-26T09:24:27.547848Z'
+  fetched_at: '2026-08-02T09:26:13.143540Z'
+indexed_at: '2026-08-02T09:26:13.143546Z'
 ---

@@ -2,7 +2,9 @@
 id: research-grants
 slug: research-grants
 name: Research Grant Writing
-description: ''
+description: '**Final Note**: Grant writing is both an art and a science. Success
+  requires not only excellent research ideas but also clear communication, strategic
+  positioning, and meticulous attention to detail. ...'
 prompt_preview: '---
 
   name: research-grants
@@ -18,26 +20,25 @@ prompt_preview: '---
 
   compatibility: Works in Agent Skills-compatible hosts. Grant-writing guidance needs
   no network; optional figures via the scientific-schematics skill...'
-full_prompt_length: 36467
+full_prompt_length: 13264
 tools_mentioned:
 - python
-- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/research-grants/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/research-grants/SKILL.md
-fetched_at: '2026-07-26T05:30:39.923727+00:00'
+fetched_at: '2026-08-02T05:25:40.366615+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:56:18.289358Z'
+  evaluated_at: '2026-08-02T05:53:47.948229Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608375220 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19fa0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608375220 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19fa0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.715366Z'
-indexed_at: '2026-07-26T09:24:27.715371Z'
+  fetched_at: '2026-08-02T09:26:13.306408Z'
+indexed_at: '2026-08-02T09:26:13.306418Z'
 ---

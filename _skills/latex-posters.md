@@ -4,20 +4,14 @@ slug: latex-posters
 name: LaTeX Research Posters
 description: Load these templates and customize for your specific research and conference
   requirements.
-prompt_preview: '---
-
-  name: latex-posters
-
-  description: "Create professional research posters in LaTeX using beamerposter,
-  tikzposter, or baposter. Support for conference presentations, academic posters,
-  and scientific communication. Includes layout design, color schemes, multi-column
-  formats, figure integration, and poster-specific best practices for visual communication."
-
-  allowed-tools: Read Write Edit Bash
-
-  required_environment_variables: [{"name": "OPENROUTER_API_KEY", "prompt": "OpenRouter
-  API key for the skil...'
-full_prompt_length: 59384
+prompt_preview: "---\nname: latex-posters\ndescription: \"Create professional research\
+  \ posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference\
+  \ presentations, academic posters, and scientific communication. Includes layout\
+  \ design, color schemes, multi-column formats, figure integration, and poster-specific\
+  \ best practices for visual communication.\"\nallowed-tools: Read Write Edit Bash\n\
+  metadata:\n  version: \"1.6\"\n  openclaw:\n    primaryEnv: OPENROUTER_API_KEY\n\
+  \    envVars:\n    - name: OPENROU..."
+full_prompt_length: 15457
 tools_mentioned:
 - python
 category: scientific
@@ -25,17 +19,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/latex-posters/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/latex-posters/SKILL.md
-fetched_at: '2026-07-26T05:30:33.370773+00:00'
+fetched_at: '2026-08-02T05:25:29.531705+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:48:50.955817Z'
+  evaluated_at: '2026-08-02T05:45:31.388814Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160895fce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18f20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160895fce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18f20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.553784Z'
-indexed_at: '2026-07-26T09:24:27.553790Z'
+  fetched_at: '2026-08-02T09:26:13.148794Z'
+indexed_at: '2026-08-02T09:26:13.148802Z'
 ---

@@ -15,7 +15,7 @@ prompt_preview: '---
   optimize something over many experiments without overfitting — e.g. "get my model''s
   eval score up", "improve this agent/harness", "tune this pipeline", "beat the baseline
   on this benchmark", "run a search over approaches and...'
-full_prompt_length: 13612
+full_prompt_length: 13607
 tools_mentioned:
 - rest
 - python
@@ -24,17 +24,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/arbor/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/arbor/SKILL.md
-fetched_at: '2026-07-26T05:30:26.761870+00:00'
+fetched_at: '2026-08-02T05:25:19.602897+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:41:29.572946Z'
+  evaluated_at: '2026-08-02T05:37:55.584637Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf6b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef9e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf6b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef9e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.375492Z'
-indexed_at: '2026-07-26T09:24:27.375497Z'
+  fetched_at: '2026-08-02T09:26:12.999257Z'
+indexed_at: '2026-08-02T09:26:12.999264Z'
 ---

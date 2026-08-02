@@ -18,17 +18,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/bounce-monitoring-workflow/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/bounce-monitoring-workflow/SKILL.md
-fetched_at: '2026-07-26T05:30:50.235688+00:00'
+fetched_at: '2026-08-02T05:25:53.803362+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T06:03:29.382271Z'
+  evaluated_at: '2026-08-02T06:01:19.116466Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eacb60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed700 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eacb60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed700 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.873975Z'
-indexed_at: '2026-07-26T09:24:27.873981Z'
+  fetched_at: '2026-08-02T09:26:13.448353Z'
+indexed_at: '2026-08-02T09:26:13.448359Z'
 ---

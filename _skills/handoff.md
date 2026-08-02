@@ -17,17 +17,17 @@ category_display: Community
 source_repo: ykdojo/claude-code-tips
 source_path: skills/handoff/SKILL.md
 source_url: https://github.com/ykdojo/claude-code-tips/blob/main/skills/handoff/SKILL.md
-fetched_at: '2026-07-26T05:35:30.118393+00:00'
+fetched_at: '2026-08-02T05:31:42.685474+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T09:22:09.354833Z'
+  evaluated_at: '2026-08-02T09:23:53.484072Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eac7a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ac988140 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eac7a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ac988140 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:32.241502Z'
-indexed_at: '2026-07-26T09:24:32.241507Z'
+  fetched_at: '2026-08-02T09:26:17.247473Z'
+indexed_at: '2026-08-02T09:26:17.247478Z'
 ---

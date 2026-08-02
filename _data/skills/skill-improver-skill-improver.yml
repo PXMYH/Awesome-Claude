@@ -14,24 +14,24 @@ prompt_preview: '---
   directly."
 
   allowed-tools: Task Read Edit Write Glob Grep...'
-full_prompt_length: 5876
+full_prompt_length: 5707
 tools_mentioned: []
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/skill-improver/skills/skill-improver/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/skill-improver/skills/skill-improver/SKILL.md
-fetched_at: '2026-07-26T05:35:14.359108+00:00'
+fetched_at: '2026-08-02T05:31:24.710290+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T09:16:26.350830Z'
+  evaluated_at: '2026-08-02T09:17:31.541488Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1e8d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1bce0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1e8d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1bce0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:32.114513Z'
-indexed_at: '2026-07-26T09:24:32.114525Z'
+  fetched_at: '2026-08-02T09:26:17.128009Z'
+indexed_at: '2026-08-02T09:26:17.128016Z'

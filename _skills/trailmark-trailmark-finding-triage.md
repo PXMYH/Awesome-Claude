@@ -1,0 +1,46 @@
+---
+id: trailmark-trailmark-finding-triage
+slug: trailmark-trailmark-finding-triage
+name: Trailmark Finding Triage
+description: '- "Use Trailmark finding triage on `src/Vault.sol:148`; I think withdraw
+  can'
+prompt_preview: '---
+
+  name: trailmark-finding-triage
+
+  description: "Performs graph-assisted triage of a single security finding, SARIF
+  result, weAudit annotation, suspicious function, or report excerpt using Trailmark
+  reachability, entrypoint paths, taint, privilege-boundary, blast-radius, caller/callee,
+  and neighborhood evidence. Use when deciding whether one candidate issue is reachable,
+  prioritizing a finding before PoC work, preparing evidence for exploit validation,
+  or checking whether a static-analysis resul...'
+full_prompt_length: 5813
+tools_mentioned: []
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/trailmark/skills/trailmark-finding-triage/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/trailmark/skills/trailmark-finding-triage/SKILL.md
+fetched_at: '2026-08-02T05:31:31.806367+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-08-02T09:21:24.253138Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ac98be30 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ac98be30 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-08-02T09:26:17.201450Z'
+indexed_at: '2026-08-02T09:26:17.201456Z'
+---

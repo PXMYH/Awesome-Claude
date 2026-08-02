@@ -14,12 +14,12 @@ prompt_preview: '---
 
   license: MIT
 
-  allowed-tools: Read, Write, Edit, Bash
+  allowed-tools: Read Write Edit Bash
 
   compatibility: Requires uv, CPython 3.11, PyTDC 1.1.15, and setuptools 80.9.0 for
   its legacy pkg_resources runtime import. Dataset, benchmark, checkpoint, and remote-oracle
-  operations require network/storage rev...'
-full_prompt_length: 12365
+  operations require network/storage review...'
+full_prompt_length: 12362
 tools_mentioned:
 - Python
 - python
@@ -28,17 +28,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pytdc/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pytdc/SKILL.md
-fetched_at: '2026-07-26T05:30:39.202572+00:00'
+fetched_at: '2026-08-02T05:25:39.302673+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:55:29.567192Z'
+  evaluated_at: '2026-08-02T05:52:58.956633Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608515b20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed1f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608515b20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed1f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.697799Z'
-indexed_at: '2026-07-26T09:24:27.697805Z'
+  fetched_at: '2026-08-02T09:26:13.290752Z'
+indexed_at: '2026-08-02T09:26:13.290757Z'
 ---

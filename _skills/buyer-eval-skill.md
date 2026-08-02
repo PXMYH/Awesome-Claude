@@ -21,17 +21,17 @@ category_display: Community
 source_repo: salespeak-ai/buyer-eval-skill
 source_path: SKILL.md
 source_url: https://github.com/salespeak-ai/buyer-eval-skill/blob/main/SKILL.md
-fetched_at: '2026-07-26T05:34:44.964563+00:00'
+fetched_at: '2026-08-02T05:30:50.221683+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T09:03:59.579753Z'
+  evaluated_at: '2026-08-02T09:04:20.465021Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6480 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad121f40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6480 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad121f40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:31.838236Z'
-indexed_at: '2026-07-26T09:24:31.838242Z'
+  fetched_at: '2026-08-02T09:26:16.881202Z'
+indexed_at: '2026-08-02T09:26:16.881208Z'
 ---

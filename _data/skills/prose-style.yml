@@ -9,24 +9,24 @@ prompt_preview: "---\nname: prose-style\ndescription: Reusable writing-style con
   \ agent that writes a human-readable artefact:\n  - architect ARCH-*.md, ADR-*.md\n\
   \  - pm PLAN-*.md\n  - qa-engineer QA-*.md reports\n  - security-officer CSO audit\
   \ reports\n  - 18 reviewer..."
-full_prompt_length: 4130
+full_prompt_length: 4142
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: avelikiy/great_cto
 source_path: skills/prose-style/SKILL.md
 source_url: https://github.com/avelikiy/great_cto/blob/main/skills/prose-style/SKILL.md
-fetched_at: '2026-07-26T05:31:32.859746+00:00'
+fetched_at: '2026-08-02T05:26:47.407889+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T06:36:01.372641Z'
+  evaluated_at: '2026-08-02T06:34:25.528215Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf440 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1bf80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf440 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1bf80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:28.594029Z'
-indexed_at: '2026-07-26T09:24:28.594034Z'
+  fetched_at: '2026-08-02T09:26:14.066175Z'
+indexed_at: '2026-08-02T09:26:14.066181Z'

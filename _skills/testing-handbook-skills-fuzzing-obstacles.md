@@ -12,24 +12,24 @@ prompt_preview: "---\nname: fuzzing-obstacles\ntype: technique\ndescription: >\n
   \ to patch your System Under Test (S..."
 full_prompt_length: 15501
 tools_mentioned:
-- rust
 - Rust
+- rust
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/fuzzing-obstacles/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/fuzzing-obstacles/SKILL.md
-fetched_at: '2026-07-26T05:35:17.866534+00:00'
+fetched_at: '2026-08-02T05:31:28.241097+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T09:18:12.083715Z'
+  evaluated_at: '2026-08-02T09:19:19.846294Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1dc10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49280 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1dc10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49280 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:32.154451Z'
-indexed_at: '2026-07-26T09:24:32.154456Z'
+  fetched_at: '2026-08-02T09:26:17.162372Z'
+indexed_at: '2026-08-02T09:26:17.162377Z'
 ---

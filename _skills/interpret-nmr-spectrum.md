@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/interpret-nmr-spectrum/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/interpret-nmr-spectrum/SKILL.md
-fetched_at: '2026-07-26T05:34:02.223257+00:00'
+fetched_at: '2026-08-02T05:29:54.584150+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:27:37.402094Z'
+  evaluated_at: '2026-08-02T08:27:35.422765Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1cb90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19640 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607d1cb90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19640 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:31.033801Z'
-indexed_at: '2026-07-26T09:24:31.033812Z'
+  fetched_at: '2026-08-02T09:26:16.189830Z'
+indexed_at: '2026-08-02T09:26:16.189836Z'
 ---

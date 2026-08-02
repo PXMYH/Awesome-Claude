@@ -3,39 +3,40 @@ id: pi-agent
 slug: pi-agent
 name: Pi Agent
 description: These references summarize the Pi documentation at `https://pi.dev/docs/latest`
-  and each docs page found under it as of this skill version, plus the package pages
-  for `pi-subagents`, `pi-mcp-adapter`,...
+  and every docs page found under it as of this skill version, plus the package pages
+  for `pi-subagents`, `pi-mcp-adapter`...
 prompt_preview: '---
 
   name: pi-agent
 
   description: Build with and use Pi, the minimal terminal coding harness. Use for
-  installing Pi, configuring providers/models/settings, creating Pi skills/extensions/packages/themes/prompt
-  templates, embedding Pi through the SDK, integrating over RPC or JSON event streams,
-  parsing sessions, developing custom Pi providers and TUI components, or using ecosystem
-  packages such as pi-subagents (delegation/orchestration), pi-mcp-adapter (MCP servers),
-  pi-interview (interactive forms)...'
-full_prompt_length: 5250
+  installing Pi, configuring providers/models/settings/environment variables, creating
+  Pi skills/extensions/packages/themes/prompt templates, embedding Pi through the
+  SDK, integrating over RPC or JSON event streams, parsing sessions, running local
+  models through the llama.cpp router, developing custom Pi providers and TUI components,
+  or using ecosystem packages such as pi-subagents (delegation/orche...'
+full_prompt_length: 6110
 tools_mentioned:
-- Node.js
-- TypeScript
 - Docker
+- Node.js
+- go
+- TypeScript
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pi-agent/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pi-agent/SKILL.md
-fetched_at: '2026-07-26T05:30:37.140587+00:00'
+fetched_at: '2026-08-02T05:25:35.895970+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:53:11.503720Z'
+  evaluated_at: '2026-08-02T05:50:30.481595Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7b230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acdcbdd0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7b230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acdcbdd0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.647835Z'
-indexed_at: '2026-07-26T09:24:27.647841Z'
+  fetched_at: '2026-08-02T09:26:13.242963Z'
+indexed_at: '2026-08-02T09:26:13.242969Z'
 ---

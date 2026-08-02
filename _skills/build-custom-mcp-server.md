@@ -12,25 +12,25 @@ prompt_preview: "---\nname: build-custom-mcp-server\ndescription: >\n  Build a c
   \ as MCP tools.\nlicense: MIT\nallowed..."
 full_prompt_length: 9771
 tools_mentioned:
+- Docker
 - Node.js
 - javascript
-- Docker
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/build-custom-mcp-server/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/build-custom-mcp-server/SKILL.md
-fetched_at: '2026-07-26T05:33:40.724930+00:00'
+fetched_at: '2026-08-02T05:29:26.885142+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:07:38.984287Z'
+  evaluated_at: '2026-08-02T08:07:19.944673Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e79910 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaedd00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e79910 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaedd00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.592974Z'
-indexed_at: '2026-07-26T09:24:30.592979Z'
+  fetched_at: '2026-08-02T09:26:15.809992Z'
+indexed_at: '2026-08-02T09:26:15.809998Z'
 ---

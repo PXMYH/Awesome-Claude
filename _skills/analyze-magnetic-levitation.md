@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/analyze-magnetic-levitation/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/analyze-magnetic-levitation/SKILL.md
-fetched_at: '2026-07-26T05:33:36.567170+00:00'
+fetched_at: '2026-08-02T05:29:21.569727+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:03:34.978932Z'
+  evaluated_at: '2026-08-02T08:03:11.592811Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7aba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4a9f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7aba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4a9f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.502640Z'
-indexed_at: '2026-07-26T09:24:30.502646Z'
+  fetched_at: '2026-08-02T09:26:15.730781Z'
+indexed_at: '2026-08-02T09:26:15.730787Z'
 ---

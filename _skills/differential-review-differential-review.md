@@ -18,17 +18,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/differential-review/skills/differential-review/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/differential-review/skills/differential-review/SKILL.md
-fetched_at: '2026-07-26T05:35:07.293547+00:00'
+fetched_at: '2026-08-02T05:31:16.087591+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T09:13:52.284317Z'
+  evaluated_at: '2026-08-02T09:14:37.324760Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608150b60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19700 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608150b60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19700 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:32.057120Z'
-indexed_at: '2026-07-26T09:24:32.057127Z'
+  fetched_at: '2026-08-02T09:26:17.073767Z'
+indexed_at: '2026-08-02T09:26:17.073772Z'
 ---

@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/basic-obedience/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/basic-obedience/SKILL.md
-fetched_at: '2026-07-26T05:33:39.346901+00:00'
+fetched_at: '2026-08-02T05:29:25.109000+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:06:17.784972Z'
+  evaluated_at: '2026-08-02T08:05:57.544830Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16081a5940 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeeea0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16081a5940 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeeea0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.562886Z'
-indexed_at: '2026-07-26T09:24:30.562892Z'
+  fetched_at: '2026-08-02T09:26:15.783596Z'
+indexed_at: '2026-08-02T09:26:15.783602Z'

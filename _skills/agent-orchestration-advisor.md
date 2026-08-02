@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/agent-orchestration-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/agent-orchestration-advisor/SKILL.md
-fetched_at: '2026-07-26T05:32:06.757843+00:00'
+fetched_at: '2026-08-02T05:27:29.323413+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T07:02:09.111546Z'
+  evaluated_at: '2026-08-02T07:00:57.186344Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaff80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad3eb2f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaff80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad3eb2f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:29.157833Z'
-indexed_at: '2026-07-26T09:24:29.157838Z'
+  fetched_at: '2026-08-02T09:26:14.565552Z'
+indexed_at: '2026-08-02T09:26:14.565558Z'
 ---

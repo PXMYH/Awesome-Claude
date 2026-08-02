@@ -1,0 +1,46 @@
+id: analytical-method-validation
+slug: analytical-method-validation
+name: Analytical Method Validation
+description: '- `assets/validation-protocol-template.md` — protocol structure with
+  criteria stated up front'
+prompt_preview: '---
+
+  name: analytical-method-validation
+
+  description: Plan, execute, and document validation, verification, and transfer
+  of analytical procedures under the governing framework - ICH Q2(R2) and Q14, USP
+  <1220>/<1225>/<1226>, ICH M10 bioanalytical, CLSI EP, or ISO/IEC 17025. Use for
+  HPLC, LC-MS/MS, GC, CE, ICP-MS, dissolution, qNMR, qPCR, NIR, and ligand binding
+  or cell-based assays whenever the question is whether a procedure is fit for its
+  intended purpose. Triggers include "method validation", "a...'
+full_prompt_length: 16082
+tools_mentioned:
+- Python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: skills/analytical-method-validation/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/analytical-method-validation/SKILL.md
+fetched_at: '2026-08-02T05:25:19.261421+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-08-02T05:37:39.273002Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19010 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19010 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-08-02T09:26:12.993926Z'
+indexed_at: '2026-08-02T09:26:12.993931Z'

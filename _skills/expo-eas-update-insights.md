@@ -33,17 +33,17 @@ category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/eas-update-insights/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/eas-update-insights/SKILL.md
-fetched_at: '2026-07-26T05:32:19.558288+00:00'
+fetched_at: '2026-08-02T05:27:45.246936+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T07:12:20.148342Z'
+  evaluated_at: '2026-08-02T07:11:20.658123Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160886f110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acd9b8f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160886f110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acd9b8f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:29.380687Z'
-indexed_at: '2026-07-26T09:24:29.380692Z'
+  fetched_at: '2026-08-02T09:26:14.755949Z'
+indexed_at: '2026-08-02T09:26:14.755958Z'
 ---

@@ -33,33 +33,32 @@ prompt_preview: '---
   Run the project''s full test suite (`npm test` / `cargo test` / `p...'
 full_prompt_length: 6976
 tools_mentioned:
-- pytest
 - go
 category: community
-category_display: Community Skills
+category_display: Community
 source_repo: obra/superpowers
 source_path: skills/finishing-a-development-branch/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/finishing-a-development-branch/SKILL.md
-fetched_at: '2026-08-01T05:25:27.519950Z'
+fetched_at: '2026-08-02T05:29:12.130809+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-01T05:49:13.686616Z'
+  evaluated_at: '2026-08-02T07:58:55.847334Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f70682d8c50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4a960 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f70682d8c50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4a960 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 264523
-  forks: 23609
-  open_issues: 310
+  stars: 264851
+  forks: 23648
+  open_issues: 317
   last_commit: '2026-07-28'
-  fetched_at: '2026-08-01T05:25:31.470425Z'
-indexed_at: '2026-08-01T05:50:38.530345Z'
+  fetched_at: '2026-08-02T05:31:52.955171Z'
+indexed_at: '2026-08-02T09:26:15.649702Z'
 ---

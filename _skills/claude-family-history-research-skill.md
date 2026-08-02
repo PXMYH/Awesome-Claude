@@ -42,17 +42,17 @@ category_display: Community
 source_repo: emaynard/claude-family-history-research-skill
 source_path: SKILL.md
 source_url: https://github.com/emaynard/claude-family-history-research-skill/blob/main/SKILL.md
-fetched_at: '2026-07-26T05:32:17.830847+00:00'
+fetched_at: '2026-08-02T05:27:43.152801+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T07:11:29.836501Z'
+  evaluated_at: '2026-08-02T07:10:31.292258Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160886f140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeff80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160886f140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeff80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -62,6 +62,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:29.363003Z'
-indexed_at: '2026-07-26T09:24:29.363013Z'
+  fetched_at: '2026-08-02T09:26:14.740838Z'
+indexed_at: '2026-08-02T09:26:14.740844Z'
 ---

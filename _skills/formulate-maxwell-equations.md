@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/formulate-maxwell-equations/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/formulate-maxwell-equations/SKILL.md
-fetched_at: '2026-07-26T05:33:57.522917+00:00'
+fetched_at: '2026-08-02T05:29:48.801230+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:23:16.025148Z'
+  evaluated_at: '2026-08-02T08:23:12.032564Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce4bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad0b0080 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce4bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad0b0080 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.938811Z'
-indexed_at: '2026-07-26T09:24:30.938816Z'
+  fetched_at: '2026-08-02T09:26:16.106969Z'
+indexed_at: '2026-08-02T09:26:16.106974Z'
 ---

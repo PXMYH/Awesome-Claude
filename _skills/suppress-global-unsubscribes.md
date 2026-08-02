@@ -19,17 +19,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/suppress-global-unsubscribes/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/suppress-global-unsubscribes/SKILL.md
-fetched_at: '2026-07-26T05:30:54.502241+00:00'
+fetched_at: '2026-08-02T05:25:59.207838+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T06:07:27.468878Z'
+  evaluated_at: '2026-08-02T06:05:18.746070Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16086c6930 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad59fa10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16086c6930 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad59fa10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.963399Z'
-indexed_at: '2026-07-26T09:24:27.963405Z'
+  fetched_at: '2026-08-02T09:26:13.524840Z'
+indexed_at: '2026-08-02T09:26:13.524845Z'
 ---

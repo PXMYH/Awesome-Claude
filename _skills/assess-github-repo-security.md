@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/assess-github-repo-security/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/assess-github-repo-security/SKILL.md
-fetched_at: '2026-07-26T05:33:37.989917+00:00'
+fetched_at: '2026-08-02T05:29:23.316516+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:04:56.362995Z'
+  evaluated_at: '2026-08-02T08:04:36.059802Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce5be0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee810 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce5be0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee810 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.532614Z'
-indexed_at: '2026-07-26T09:24:30.532619Z'
+  fetched_at: '2026-08-02T09:26:15.757266Z'
+indexed_at: '2026-08-02T09:26:15.757272Z'
 ---

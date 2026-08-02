@@ -22,24 +22,24 @@ prompt_preview: '---
   compatibil...'
 full_prompt_length: 5844
 tools_mentioned:
-- React
 - react
+- React
 category: community
 category_display: Community
 source_repo: EmblemCompany/Agent-skills
 source_path: skills/emblem-ai-prompt-examples/SKILL.md
 source_url: https://github.com/EmblemCompany/Agent-skills/blob/main/skills/emblem-ai-prompt-examples/SKILL.md
-fetched_at: '2026-07-26T05:30:19.202230+00:00'
+fetched_at: '2026-08-02T05:25:10.265125+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:37:17.132545Z'
+  evaluated_at: '2026-08-02T05:33:33.252096Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160886f140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad070cb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160886f140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad070cb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.283450Z'
-indexed_at: '2026-07-26T09:24:27.283456Z'
+  fetched_at: '2026-08-02T09:26:12.904781Z'
+indexed_at: '2026-08-02T09:26:12.904787Z'
 ---

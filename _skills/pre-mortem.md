@@ -12,24 +12,24 @@ prompt_preview: "---\nname: pre-mortem\ndescription: Imagine the project has alr
   \ when threat-modeling\n  - any time..."
 full_prompt_length: 6571
 tools_mentioned:
-- go
 - AWS
+- go
 category: community
 category_display: Community
 source_repo: avelikiy/great_cto
 source_path: skills/pre-mortem/SKILL.md
 source_url: https://github.com/avelikiy/great_cto/blob/main/skills/pre-mortem/SKILL.md
-fetched_at: '2026-07-26T05:31:32.727370+00:00'
+fetched_at: '2026-08-02T05:26:47.139472+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T06:35:53.278405Z'
+  evaluated_at: '2026-08-02T06:34:17.372619Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaec30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad0b2c60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaec30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad0b2c60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:28.591072Z'
-indexed_at: '2026-07-26T09:24:28.591077Z'
+  fetched_at: '2026-08-02T09:26:14.063584Z'
+indexed_at: '2026-08-02T09:26:14.063590Z'
 ---

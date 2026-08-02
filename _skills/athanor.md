@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/athanor/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/athanor/SKILL.md
-fetched_at: '2026-07-26T05:33:38.533673+00:00'
+fetched_at: '2026-08-02T05:29:24.020990+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:05:28.875641Z'
+  evaluated_at: '2026-08-02T08:05:08.633004Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce4ce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4a4e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce4ce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4a4e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.544827Z'
-indexed_at: '2026-07-26T09:24:30.544833Z'
+  fetched_at: '2026-08-02T09:26:15.767849Z'
+indexed_at: '2026-08-02T09:26:15.767855Z'
 ---

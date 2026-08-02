@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-r-dockerfile/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-r-dockerfile/SKILL.md
-fetched_at: '2026-07-26T05:33:47.478215+00:00'
+fetched_at: '2026-08-02T05:29:36.213270+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:14:17.375370Z'
+  evaluated_at: '2026-08-02T08:14:02.536878Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce4ce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4bfb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce4ce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4bfb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.741501Z'
-indexed_at: '2026-07-26T09:24:30.741506Z'
+  fetched_at: '2026-08-02T09:26:15.937094Z'
+indexed_at: '2026-08-02T09:26:15.937100Z'
 ---

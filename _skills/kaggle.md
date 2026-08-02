@@ -26,17 +26,17 @@ category_display: Community
 source_repo: shepsci/kaggle-skill
 source_path: skills/kaggle/SKILL.md
 source_url: https://github.com/shepsci/kaggle-skill/blob/main/skills/kaggle/SKILL.md
-fetched_at: '2026-07-26T05:34:51.066914+00:00'
+fetched_at: '2026-08-02T05:30:56.944169+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T09:07:31.273629Z'
+  evaluated_at: '2026-08-02T09:07:54.381295Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6420 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed730 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6420 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed730 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:31.915228Z'
-indexed_at: '2026-07-26T09:24:31.915234Z'
+  fetched_at: '2026-08-02T09:26:16.947130Z'
+indexed_at: '2026-08-02T09:26:16.947136Z'
 ---

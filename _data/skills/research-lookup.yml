@@ -13,7 +13,7 @@ prompt_preview: '---
   Search by default, Parallel Extract for source verification, Parallel Research for
   explicitly deep/exhaustive work, optional explicit Parallel Chat, and optional Perplexity
   only when requested or allowed as a failure fallb...'
-full_prompt_length: 13526
+full_prompt_length: 13524
 tools_mentioned:
 - python
 category: scientific
@@ -21,17 +21,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/research-lookup/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/research-lookup/SKILL.md
-fetched_at: '2026-07-26T05:30:40.043820+00:00'
+fetched_at: '2026-08-02T05:25:40.535178+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:56:26.380881Z'
+  evaluated_at: '2026-08-02T05:53:58.625563Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e78c50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef950 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e78c50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef950 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.718193Z'
-indexed_at: '2026-07-26T09:24:27.718198Z'
+  fetched_at: '2026-08-02T09:26:13.309091Z'
+indexed_at: '2026-08-02T09:26:13.309097Z'

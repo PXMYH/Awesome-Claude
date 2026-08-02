@@ -2,8 +2,9 @@
 id: avoid-ai-writing
 slug: avoid-ai-writing
 name: Avoid AI Writing — Audit & Rewrite
-description: The replacement table provides defaults, not mandates. If a flagged word
-  is clearly the right choice in context, preserve it.
+description: '**Why it belongs here rather than in the pattern catalog.** These are
+  constraints on the editor, not detections on the text. A first-person aside is not
+  a flag when the author wrote it; it is a failur...'
 prompt_preview: '---
 
   name: avoid-ai-writing
@@ -15,32 +16,32 @@ prompt_preview: '---
   profile (casual / professional / technical / warm / blunt), and an iterate-to-convergence
   pass.
 
-  version: 3.18.0
+  version: 3.22.1
 
   license: MIT
 
   compatibility: Any...'
-full_prompt_length: 75555
+full_prompt_length: 88200
 tools_mentioned:
 - rest
-- go
 - AWS
+- go
 category: documentation
 category_display: Documentation
 source_repo: conorbronsdon/avoid-ai-writing
 source_path: SKILL.md
 source_url: https://github.com/conorbronsdon/avoid-ai-writing/blob/main/SKILL.md
-fetched_at: '2026-07-26T05:31:59.342865+00:00'
+fetched_at: '2026-08-02T05:27:19.985316+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T06:56:12.246493Z'
+  evaluated_at: '2026-08-02T06:54:55.792191Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160828d550 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49430 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f160828d550 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49430 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:29.031336Z'
-indexed_at: '2026-07-26T09:24:29.031341Z'
+  fetched_at: '2026-08-02T09:26:14.455642Z'
+indexed_at: '2026-08-02T09:26:14.455648Z'
 ---

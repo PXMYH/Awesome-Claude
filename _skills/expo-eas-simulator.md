@@ -13,26 +13,26 @@ prompt_preview: '---
   a simulator they can''t run locally - ''run my app on a cloud simulator'', ''use
   eas simulator to run/install/screenshot my app'', ''I''m on Linux/Cursor and need
   an iOS device'', ''no sim on this box / headless CI'', ''let an agent cl...'
-full_prompt_length: 18451
+full_prompt_length: 21368
 tools_mentioned:
-- Go
 - go
+- Go
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/eas-simulator/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/eas-simulator/SKILL.md
-fetched_at: '2026-07-26T05:32:19.442444+00:00'
+fetched_at: '2026-08-02T05:27:45.078201+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T07:12:12.046341Z'
+  evaluated_at: '2026-08-02T07:11:12.487334Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16086a2600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4b770 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16086a2600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4b770 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:29.377754Z'
-indexed_at: '2026-07-26T09:24:29.377759Z'
+  fetched_at: '2026-08-02T09:26:14.753453Z'
+indexed_at: '2026-08-02T09:26:14.753458Z'
 ---

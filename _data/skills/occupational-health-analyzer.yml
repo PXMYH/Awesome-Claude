@@ -43,17 +43,17 @@ category_display: Community
 source_repo: huifer/Claude-Ally-Health
 source_path: skills/occupational-health-analyzer/SKILL.md
 source_url: https://github.com/huifer/Claude-Ally-Health/blob/main/skills/occupational-health-analyzer/SKILL.md
-fetched_at: '2026-07-26T05:32:26.238439+00:00'
+fetched_at: '2026-08-02T05:27:53.370886+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T07:16:33.803948Z'
+  evaluated_at: '2026-08-02T07:15:35.127300Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7be90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48a10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7be90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48a10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -63,5 +63,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:29.472576Z'
-indexed_at: '2026-07-26T09:24:29.472581Z'
+  fetched_at: '2026-08-02T09:26:14.835206Z'
+indexed_at: '2026-08-02T09:26:14.835211Z'

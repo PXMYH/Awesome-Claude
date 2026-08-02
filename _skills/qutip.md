@@ -19,25 +19,25 @@ prompt_preview: '---
   requires...'
 full_prompt_length: 12836
 tools_mentioned:
+- angular
 - Python
 - python
-- angular
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/qutip/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/qutip/SKILL.md
-fetched_at: '2026-07-26T05:30:39.676885+00:00'
+fetched_at: '2026-08-02T05:25:40.016683+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:56:02.083487Z'
+  evaluated_at: '2026-08-02T05:53:31.634104Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e78c50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed550 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e78c50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed550 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.709547Z'
-indexed_at: '2026-07-26T09:24:27.709553Z'
+  fetched_at: '2026-08-02T09:26:13.301246Z'
+indexed_at: '2026-08-02T09:26:13.301252Z'
 ---

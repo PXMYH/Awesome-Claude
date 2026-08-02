@@ -27,24 +27,24 @@ prompt_preview: '---
   You are a naming strategist. You help users...'
 full_prompt_length: 14469
 tools_mentioned:
-- Go
 - go
+- Go
 category: community
 category_display: Community
 source_repo: glacierphonk/naming
 source_path: SKILL.md
 source_url: https://github.com/glacierphonk/naming/blob/main/SKILL.md
-fetched_at: '2026-07-26T05:32:22.893108+00:00'
+fetched_at: '2026-08-02T05:27:49.485769+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T07:14:48.421024Z'
+  evaluated_at: '2026-08-02T07:13:48.564077Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608793590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef560 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608793590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef560 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:29.433448Z'
-indexed_at: '2026-07-26T09:24:29.433453Z'
+  fetched_at: '2026-08-02T09:26:14.801546Z'
+indexed_at: '2026-08-02T09:26:14.801552Z'
 ---

@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/document-insect-sighting/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/document-insect-sighting/SKILL.md
-fetched_at: '2026-07-26T05:33:52.948079+00:00'
+fetched_at: '2026-08-02T05:29:43.292339+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:19:19.777849Z'
+  evaluated_at: '2026-08-02T08:19:06.635961Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6f00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4bd40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6f00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4bd40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.852961Z'
-indexed_at: '2026-07-26T09:24:30.852967Z'
+  fetched_at: '2026-08-02T09:26:16.032337Z'
+indexed_at: '2026-08-02T09:26:16.032342Z'
 ---

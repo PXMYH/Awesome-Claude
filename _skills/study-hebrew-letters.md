@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/study-hebrew-letters/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/study-hebrew-letters/SKILL.md
-fetched_at: '2026-07-26T05:34:21.994930+00:00'
+fetched_at: '2026-08-02T05:30:21.556956+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:46:53.093750Z'
+  evaluated_at: '2026-08-02T08:47:04.097482Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce78c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18230 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce78c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18230 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:31.460023Z'
-indexed_at: '2026-07-26T09:24:31.460029Z'
+  fetched_at: '2026-08-02T09:26:16.556891Z'
+indexed_at: '2026-08-02T09:26:16.556896Z'
 ---

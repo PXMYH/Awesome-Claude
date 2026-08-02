@@ -15,27 +15,27 @@ prompt_preview: '---
   compatibility: PathML 3.0.5 is the latest PyPI release and targets Python 3.10-3.12;
   installation needs uv plus platform libraries for OpenSlide, BLAS/LAPACK, and Java/Bio-Formats.
   Bundled Python 3.10+ CLIs are local,...'
-full_prompt_length: 10194
+full_prompt_length: 10190
 tools_mentioned:
-- Python
 - python
+- Python
 - Java
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pathml/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pathml/SKILL.md
-fetched_at: '2026-07-26T05:30:36.451323+00:00'
+fetched_at: '2026-08-02T05:25:34.639889+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:52:22.881942Z'
+  evaluated_at: '2026-08-02T05:49:31.616324Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e3fcb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaec800 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e3fcb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaec800 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,5 +45,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.630288Z'
-indexed_at: '2026-07-26T09:24:27.630293Z'
+  fetched_at: '2026-08-02T09:26:13.224728Z'
+indexed_at: '2026-08-02T09:26:13.224733Z'

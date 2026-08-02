@@ -3,31 +3,31 @@ id: ru-text
 slug: ru-text
 name: ru-text — Russian Text Quality
 description: '- [ ] Quotes: «» primary, „“ nested'
-prompt_preview: "---\nname: ru-text\ndescription: >\n  Use when writing, editing,\
-  \ or reviewing Russian-language text, or when user\n  mentions ru-text. Covers typography,\
-  \ info-style, editorial, UX writing, business\n  correspondence, AI-text cleanup.\
-  \ Auto-activates on Russian text output.\nmetadata:\n  openclaw:\n    always: true\n\
-  \    emoji: \"\\U0001F4DD\"\n    homepage: \"https://ru-text.org\"\n---\n\n# ru-text\
-  \ — Russian Text Quality\n\nIndependent Russian text quality reference by Arseniy\
-  \ Kamyshev.\nWith gratitude to the authors..."
-full_prompt_length: 3612
+prompt_preview: "---\nname: ru-text\ndescription: >\n  Russian text quality. Triggers:\
+  \ вычитай, проверь текст, поправь, отредактируй,\n  причеши, ru-text. Also any Russian\
+  \ output. Typography, info-style, editorial,\n  UX writing, business correspondence,\
+  \ AI-text cleanup.\nmetadata:\n  openclaw:\n    always: true\n    emoji: \"\\U0001F4DD\"\
+  \n    homepage: \"https://ru-text.org\"\n---\n\n# ru-text — Russian Text Quality\n\
+  \nIndependent Russian text quality reference by Arseniy Kamyshev.\nWith gratitude\
+  \ to the authors whose work shaped..."
+full_prompt_length: 3919
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: talkstream/ru-text
-source_path: SKILL.md
-source_url: https://github.com/talkstream/ru-text/blob/main/SKILL.md
-fetched_at: '2026-07-26T05:34:57.519531+00:00'
+source_path: skills/ru-text/SKILL.md
+source_url: https://github.com/talkstream/ru-text/blob/main/skills/ru-text/SKILL.md
+fetched_at: '2026-08-02T05:31:04.290514+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T09:09:16.681502Z'
+  evaluated_at: '2026-08-02T09:09:58.693308Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6b10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49b50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce6b10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49b50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:31.954079Z'
-indexed_at: '2026-07-26T09:24:31.954085Z'
+  fetched_at: '2026-08-02T09:26:16.985297Z'
+indexed_at: '2026-08-02T09:26:16.985303Z'
 ---

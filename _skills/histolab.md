@@ -19,7 +19,7 @@ prompt_preview: '---
 
   compatibility: Requires Python 3.8–3.11 (histolab 0.7.0), OpenSlide system libraries,
   and Linux or macOS. Samp...'
-full_prompt_length: 22040
+full_prompt_length: 9216
 tools_mentioned:
 - Python
 - python
@@ -28,17 +28,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/histolab/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/histolab/SKILL.md
-fetched_at: '2026-07-26T05:30:32.163036+00:00'
+fetched_at: '2026-08-02T05:25:27.624687+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:47:29.826817Z'
+  evaluated_at: '2026-08-02T05:44:06.391114Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ead1f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeec30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ead1f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeec30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.523637Z'
-indexed_at: '2026-07-26T09:24:27.523643Z'
+  fetched_at: '2026-08-02T09:26:13.121322Z'
+indexed_at: '2026-08-02T09:26:13.121332Z'
 ---

@@ -12,25 +12,25 @@ prompt_preview: "---\nname: labarchive-integration\ndescription: Securely integr
   \ API calls. LabArchives issues an Access..."
 full_prompt_length: 9732
 tools_mentioned:
-- rest
 - REST
+- rest
 - Python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/labarchive-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/labarchive-integration/SKILL.md
-fetched_at: '2026-07-26T05:30:33.015669+00:00'
+fetched_at: '2026-08-02T05:25:28.948841+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:48:26.690314Z'
+  evaluated_at: '2026-08-02T05:45:05.748710Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eac1a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a510 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eac1a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a510 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.544834Z'
-indexed_at: '2026-07-26T09:24:27.544840Z'
+  fetched_at: '2026-08-02T09:26:13.140894Z'
+indexed_at: '2026-08-02T09:26:13.140900Z'

@@ -13,24 +13,24 @@ prompt_preview: "---\nname: sandbox-self-test\ndescription: \"Verify the entire 
   \ Purpose\n\nEvery skill in this repo mu..."
 full_prompt_length: 9057
 tools_mentioned:
-- GO
 - Python
+- GO
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/sandbox-self-test/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/sandbox-self-test/SKILL.md
-fetched_at: '2026-07-26T05:30:53.881216+00:00'
+fetched_at: '2026-08-02T05:25:58.678062+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T06:07:03.168838Z'
+  evaluated_at: '2026-08-02T06:04:54.244346Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce7f80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49cd0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce7f80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49cd0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.953992Z'
-indexed_at: '2026-07-26T09:24:27.953997Z'
+  fetched_at: '2026-08-02T09:26:13.516828Z'
+indexed_at: '2026-08-02T09:26:13.516837Z'

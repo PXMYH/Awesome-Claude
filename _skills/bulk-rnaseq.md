@@ -14,29 +14,29 @@ prompt_preview: '---
   differential expression (pydeseq2), pathway/GSEA enrichment (pathway-enrichment),
   and publication figures (scientific-visualization). Use whenever the user has bulk
   RNA-seq reads or quant output and wants a complete, reproducible diffe...'
-full_prompt_length: 14560
+full_prompt_length: 14555
 tools_mentioned:
 - Go
-- go
 - Python
-- python
+- go
 - docker
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/bulk-rnaseq/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/bulk-rnaseq/SKILL.md
-fetched_at: '2026-07-26T05:30:27.857865+00:00'
+fetched_at: '2026-08-02T05:25:21.242681+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:42:45.452901Z'
+  evaluated_at: '2026-08-02T05:39:09.401001Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eafd10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf79490 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eafd10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf79490 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.402225Z'
-indexed_at: '2026-07-26T09:24:27.402230Z'
+  fetched_at: '2026-08-02T09:26:13.023528Z'
+indexed_at: '2026-08-02T09:26:13.023533Z'
 ---

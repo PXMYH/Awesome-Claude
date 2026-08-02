@@ -20,17 +20,17 @@ category_display: Community
 source_repo: NoizAI/skills
 source_path: skills/speech-to-text/SKILL.md
 source_url: https://github.com/NoizAI/skills/blob/main/skills/speech-to-text/SKILL.md
-fetched_at: '2026-07-26T05:30:46.514888+00:00'
+fetched_at: '2026-08-02T05:25:49.624615+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T06:02:07.886988Z'
+  evaluated_at: '2026-08-02T05:59:56.735161Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608153680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18770 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1608153680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18770 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.843688Z'
-indexed_at: '2026-07-26T09:24:27.843701Z'
+  fetched_at: '2026-08-02T09:26:13.421903Z'
+indexed_at: '2026-08-02T09:26:13.421908Z'
 ---

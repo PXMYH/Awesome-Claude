@@ -11,7 +11,7 @@ prompt_preview: "---\nname: graph-evolution\ndescription: >\n  Compares Trailmar
   \ boundary modifications that text diffs\n  miss. Use when comparing code between\
   \ commits or tags, analyzing structural\n  evolution, detecting attack surface growth,\
   \ reviewing what changed between\n  aud..."
-full_prompt_length: 11137
+full_prompt_length: 11438
 tools_mentioned:
 - python
 category: security
@@ -19,17 +19,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/trailmark/skills/graph-evolution/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/trailmark/skills/graph-evolution/SKILL.md
-fetched_at: '2026-07-26T05:35:20.415347+00:00'
+fetched_at: '2026-08-02T05:31:31.044068+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T09:19:50.721458Z'
+  evaluated_at: '2026-08-02T09:20:59.173946Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce43b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ace1d160 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce43b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ace1d160 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:32.190960Z'
-indexed_at: '2026-07-26T09:24:32.190966Z'
+  fetched_at: '2026-08-02T09:26:17.193835Z'
+indexed_at: '2026-08-02T09:26:17.193840Z'
 ---

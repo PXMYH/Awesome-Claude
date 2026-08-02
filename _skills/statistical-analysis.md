@@ -14,7 +14,7 @@ prompt_preview: '---
   experimental or survey data, check statistical assumptions, compute required sample
   sizes, or write up results - even if they never name a specific test. Covers t-tests,
   ANOVA, chi-square, correlation, regression, non...'
-full_prompt_length: 19889
+full_prompt_length: 19884
 tools_mentioned:
 - Python
 - python
@@ -23,17 +23,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/statistical-analysis/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/statistical-analysis/SKILL.md
-fetched_at: '2026-07-26T05:30:42.401237+00:00'
+fetched_at: '2026-08-02T05:25:44.225071+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:59:01.347647Z'
+  evaluated_at: '2026-08-02T05:56:35.781999Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16083f0e90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad122bd0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16083f0e90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad122bd0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.774673Z'
-indexed_at: '2026-07-26T09:24:27.774679Z'
+  fetched_at: '2026-08-02T09:26:13.359175Z'
+indexed_at: '2026-08-02T09:26:13.359184Z'
 ---

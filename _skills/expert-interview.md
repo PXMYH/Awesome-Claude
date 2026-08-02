@@ -29,17 +29,17 @@ category_display: Community
 source_repo: inhouseseo/superseo-skills
 source_path: skills/expert-interview/SKILL.md
 source_url: https://github.com/inhouseseo/superseo-skills/blob/main/skills/expert-interview/SKILL.md
-fetched_at: '2026-07-26T05:33:01.049685+00:00'
+fetched_at: '2026-08-02T05:28:38.555386+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T07:47:25.958064Z'
+  evaluated_at: '2026-08-02T07:46:51.243660Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eadcd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed160 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eadcd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed160 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +49,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.149061Z'
-indexed_at: '2026-07-26T09:24:30.149067Z'
+  fetched_at: '2026-08-02T09:26:15.416136Z'
+indexed_at: '2026-08-02T09:26:15.416141Z'
 ---

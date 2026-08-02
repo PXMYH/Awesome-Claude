@@ -18,27 +18,27 @@ prompt_preview: '---
   compatibility: Requires Python 3.10+ and uv for the pinned upstream package. Bundled
   local audit tools use only the Python standard library for JSON; YAML input requires
   exactl...'
-full_prompt_length: 11723
+full_prompt_length: 11718
 tools_mentioned:
+- Redis
 - Python
 - python
-- Redis
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/hypogenic/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/hypogenic/SKILL.md
-fetched_at: '2026-07-26T05:30:32.399721+00:00'
+fetched_at: '2026-08-02T05:25:27.985380+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:47:46.209445Z'
+  evaluated_at: '2026-08-02T05:44:23.000129Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ead310 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb192b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ead310 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb192b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.529761Z'
-indexed_at: '2026-07-26T09:24:27.529767Z'
+  fetched_at: '2026-08-02T09:26:13.126731Z'
+indexed_at: '2026-08-02T09:26:13.126737Z'
 ---

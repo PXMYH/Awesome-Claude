@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/coordinate-reasoning/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/coordinate-reasoning/SKILL.md
-fetched_at: '2026-07-26T05:33:45.683382+00:00'
+fetched_at: '2026-08-02T05:29:33.742932+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:12:31.068753Z'
+  evaluated_at: '2026-08-02T08:12:16.190263Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce59d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaec590 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce59d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaec590 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.702115Z'
-indexed_at: '2026-07-26T09:24:30.702121Z'
+  fetched_at: '2026-08-02T09:26:15.903460Z'
+indexed_at: '2026-08-02T09:26:15.903465Z'
 ---

@@ -19,17 +19,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/intel-discipline-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/intel-discipline-advisor/SKILL.md
-fetched_at: '2026-07-26T05:32:10.651849+00:00'
+fetched_at: '2026-08-02T05:27:34.050197+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T07:05:48.543262Z'
+  evaluated_at: '2026-08-02T07:04:42.961090Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7b080 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1be60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7b080 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1be60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:29.237830Z'
-indexed_at: '2026-07-26T09:24:29.237836Z'
+  fetched_at: '2026-08-02T09:26:14.634286Z'
+indexed_at: '2026-08-02T09:26:14.634292Z'
 ---

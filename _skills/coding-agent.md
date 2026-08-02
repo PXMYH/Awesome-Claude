@@ -17,17 +17,17 @@ category_display: Community
 source_repo: swarmclawai/swarmclaw
 source_path: skills/coding-agent/SKILL.md
 source_url: https://github.com/swarmclawai/swarmclaw/blob/main/skills/coding-agent/SKILL.md
-fetched_at: '2026-07-26T05:34:51.963074+00:00'
+fetched_at: '2026-08-02T05:30:57.892158+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T09:07:39.359461Z'
+  evaluated_at: '2026-08-02T09:08:02.523636Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e787a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4aa20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e787a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4aa20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:31.918148Z'
-indexed_at: '2026-07-26T09:24:31.918154Z'
+  fetched_at: '2026-08-02T09:26:16.949646Z'
+indexed_at: '2026-08-02T09:26:16.949651Z'
 ---

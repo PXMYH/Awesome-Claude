@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/conduct-gxp-audit/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/conduct-gxp-audit/SKILL.md
-fetched_at: '2026-07-26T05:33:43.502618+00:00'
+fetched_at: '2026-08-02T05:29:30.538598+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:10:21.391608Z'
+  evaluated_at: '2026-08-02T08:10:05.136594Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16081a5640 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4a1e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16081a5640 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4a1e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:30.653283Z'
-indexed_at: '2026-07-26T09:24:30.653288Z'
+  fetched_at: '2026-08-02T09:26:15.861808Z'
+indexed_at: '2026-08-02T09:26:15.861813Z'
 ---

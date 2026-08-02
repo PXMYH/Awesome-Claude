@@ -17,17 +17,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/manage-renv-dependencies/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/manage-renv-dependencies/SKILL.md
-fetched_at: '2026-07-26T05:34:05.036005+00:00'
+fetched_at: '2026-08-02T05:29:58.477692+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:30:21.012737Z'
+  evaluated_at: '2026-08-02T08:30:19.655240Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7a7b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b9b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7a7b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b9b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:31.092738Z'
-indexed_at: '2026-07-26T09:24:31.092743Z'
+  fetched_at: '2026-08-02T09:26:16.241114Z'
+indexed_at: '2026-08-02T09:26:16.241120Z'
 ---

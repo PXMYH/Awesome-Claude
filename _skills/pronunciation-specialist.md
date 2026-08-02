@@ -17,17 +17,17 @@ category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/pronunciation-specialist/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/pronunciation-specialist/SKILL.md
-fetched_at: '2026-07-26T05:31:42.239111+00:00'
+fetched_at: '2026-08-02T05:26:58.417546+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T06:42:23.338539Z'
+  evaluated_at: '2026-08-02T06:41:03.302660Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7a930 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaefe90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607e7a930 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaefe90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:28.732359Z'
-indexed_at: '2026-07-26T09:24:28.732365Z'
+  fetched_at: '2026-08-02T09:26:14.188942Z'
+indexed_at: '2026-08-02T09:26:14.188951Z'
 ---

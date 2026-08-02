@@ -20,27 +20,27 @@ prompt_preview: '---
   NumPyro or BlackJAX samplers require separately pinned JAX-compatible dependencies.
 
   license: Ap...'
-full_prompt_length: 17404
+full_prompt_length: 10679
 tools_mentioned:
+- Rust
 - Python
 - python
-- Rust
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pymc/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pymc/SKILL.md
-fetched_at: '2026-07-26T05:30:38.697915+00:00'
+fetched_at: '2026-08-02T05:25:38.630660+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T05:54:57.086702Z'
+  evaluated_at: '2026-08-02T05:52:26.265121Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acdcad50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607eaf830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acdcad50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:27.686053Z'
-indexed_at: '2026-07-26T09:24:27.686059Z'
+  fetched_at: '2026-08-02T09:26:13.280289Z'
+indexed_at: '2026-08-02T09:26:13.280295Z'
 ---

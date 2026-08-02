@@ -21,17 +21,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/foundation-lean-canvas/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/foundation-lean-canvas/SKILL.md
-fetched_at: '2026-07-26T05:34:33.043925+00:00'
+fetched_at: '2026-08-02T05:30:34.850170+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-07-26T08:55:18.397549Z'
+  evaluated_at: '2026-08-02T08:55:35.244388Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce7e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48170 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1607ce7e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48170 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-07-26T09:24:31.645469Z'
-indexed_at: '2026-07-26T09:24:31.645476Z'
+  fetched_at: '2026-08-02T09:26:16.714466Z'
+indexed_at: '2026-08-02T09:26:16.714471Z'
