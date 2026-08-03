@@ -1,43 +1,56 @@
 ---
 id: brainstorming
 slug: brainstorming
-name: brainstorming
-description: The panel is ~$0.30–0.60 per idea (one Opus + one Sonnet + one Haiku
-  + one Kimi
-prompt_preview: "---\nname: brainstorming\ndescription: Structured idea generation\
-  \ + multi-LLM debate for the product-owner stage. Diverge (generate genuinely different\
-  \ bets), debate (a 4-persona panel on 4 models argues over 2 rounds), converge (synthesize\
-  \ a recommendation). Used by product-owner before architect; available to architect\
-  \ for design-space exploration.\nwhen_to_use: |\n  Apply when:\n  - product-owner\
-  \ is turning a raw idea/problem into a validated brief\n  - the decision is \"what/whether\
-  \ to build\", not..."
-full_prompt_length: 4635
-tools_mentioned: []
+name: Brainstorming Ideas Into Designs
+description: 'If they agree to the companion, read the detailed guide before proceeding:'
+prompt_preview: '---
+
+  name: brainstorming
+
+  description: "You MUST use this before any creative work - creating features, building
+  components, adding functionality, or modifying behavior. Explores user intent, requirements
+  and design before implementation."
+
+  ---
+
+
+  # Brainstorming Ideas Into Designs
+
+
+  Help turn ideas into fully formed designs and specs through natural collaborative
+  dialogue.
+
+
+  Start by understanding the current project context, then ask questions one at a
+  time to refine the idea. Once you understand wha...'
+full_prompt_length: 10005
+tools_mentioned:
+- go
 category: community
-category_display: Community
-source_repo: avelikiy/great_cto
+category_display: Community Skills
+source_repo: obra/superpowers
 source_path: skills/brainstorming/SKILL.md
-source_url: https://github.com/avelikiy/great_cto/blob/main/skills/brainstorming/SKILL.md
-fetched_at: '2026-08-02T05:26:44.102837+00:00'
+source_url: https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md
+fetched_at: '2026-08-03T05:40:18.562819Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:32:20.943786Z'
+  evaluated_at: '2026-08-03T06:03:46.170987Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acdc8c20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6bd137fbc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acdc8c20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6bd137fbc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 0
-  forks: 0
-  open_issues: 0
-  last_commit: null
-  fetched_at: '2026-08-02T09:26:14.027211Z'
-indexed_at: '2026-08-02T09:26:14.027217Z'
+  stars: 265259
+  forks: 23691
+  open_issues: 324
+  last_commit: '2026-07-28'
+  fetched_at: '2026-08-03T05:40:23.559885Z'
+indexed_at: '2026-08-03T06:05:35.177844Z'
 ---

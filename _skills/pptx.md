@@ -2,8 +2,9 @@
 id: pptx
 slug: pptx
 name: PPTX creation, editing, and analysis
-description: '*This skill is created and maintained by [Anthropic](https://github.com/anthropics/skills/tree/main/skills/pptx).
-  Vendored here unmodified except for frontmatter metadata; see LICENSE.txt for terms.*'
+description: '`pptxgenjs` (npm, preinstalled — install only if `require(''pptxgenjs'')`
+  fails) · `markitdown[pptx]`, `Pillow`, `defusedxml`, `lxml` (pip — text dump, thumbnail,
+  clean, validate) · LibreOffice (`soffic...'
 prompt_preview: '---
 
   name: pptx
@@ -14,38 +15,38 @@ prompt_preview: '---
   (even if the extracted content will be used elsewhere, like in an email or summary);
   editing, modifying, or updating existing presentations; combining or splitting slide
   files; working with templates (.potx), layouts, speaker notes, or com...'
-full_prompt_length: 20980
+full_prompt_length: 20647
 tools_mentioned:
-- Python
 - go
+- Python
 - react
 - rest
 - python
-category: scientific
-category_display: Scientific
-source_repo: K-Dense-AI/claude-scientific-skills
+category: official
+category_display: Official Anthropic Skills
+source_repo: anthropics/skills
 source_path: skills/pptx/SKILL.md
-source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pptx/SKILL.md
-fetched_at: '2026-08-02T05:25:36.917803+00:00'
+source_url: https://github.com/anthropics/skills/blob/main/skills/pptx/SKILL.md
+fetched_at: '2026-08-03T05:40:16.603715Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:51:12.505319Z'
+  evaluated_at: '2026-08-03T06:02:49.180162Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19940 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6bd0a95610 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19940 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f6bd0a95610 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 0
-  forks: 0
-  open_issues: 0
-  last_commit: null
-  fetched_at: '2026-08-02T09:26:13.256698Z'
-indexed_at: '2026-08-02T09:26:13.256704Z'
+  stars: 165863
+  forks: 19736
+  open_issues: 1058
+  last_commit: '2026-07-24'
+  fetched_at: '2026-08-03T05:40:23.174072Z'
+indexed_at: '2026-08-03T06:05:35.156502Z'
 ---
