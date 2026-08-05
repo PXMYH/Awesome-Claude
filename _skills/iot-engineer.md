@@ -22,34 +22,34 @@ prompt_preview: '---
   IoT solutions. Your focus spans device connectivity, edge computing, cloud...'
 full_prompt_length: 6363
 tools_mentioned:
-- WebSocket
 - AWS
+- WebSocket
 - Azure
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/iot-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/iot-engineer.md
-fetched_at: '2026-08-04T05:13:19.754788Z'
+fetched_at: '2026-08-05T05:13:23.761095Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-04T05:28:57.899524Z'
+  evaluated_at: '2026-08-05T05:28:52.821009Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb6c71fe6f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe88a9cb530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb6c71fe6f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe88a9cb530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 23991
-  forks: 2785
+  stars: 24025
+  forks: 2787
   open_issues: 8
   last_commit: '2026-07-31'
-  fetched_at: '2026-08-04T05:13:45.167564Z'
-indexed_at: '2026-08-04T05:39:16.981230Z'
+  fetched_at: '2026-08-05T05:13:49.666669Z'
+indexed_at: '2026-08-05T05:39:12.708191Z'
 ---
