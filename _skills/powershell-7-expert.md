@@ -26,33 +26,33 @@ prompt_preview: '---
   ## Core...'
 full_prompt_length: 2303
 tools_mentioned:
-- azure
 - Azure
+- azure
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/powershell-7-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/powershell-7-expert.md
-fetched_at: '2026-08-06T05:14:55.005945Z'
+fetched_at: '2026-08-07T04:24:05.439133Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-06T05:20:21.762133Z'
+  evaluated_at: '2026-08-07T04:28:48.285866Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f268e3d84a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f67bddbfbc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f268e3d84a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f67bddbfbc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24050
-  forks: 2788
-  open_issues: 8
+  stars: 24080
+  forks: 2793
+  open_issues: 9
   last_commit: '2026-07-31'
-  fetched_at: '2026-08-06T05:16:03.106163Z'
-indexed_at: '2026-08-06T05:41:48.279836Z'
+  fetched_at: '2026-08-07T04:24:34.407869Z'
+indexed_at: '2026-08-07T04:49:39.048554Z'
 ---

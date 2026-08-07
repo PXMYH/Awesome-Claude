@@ -14,41 +14,41 @@ prompt_preview: "---\nname: claude-api\ndescription: |-\n  Reference for the Cla
   \ user asks about an LLM (pricing/mod..."
 full_prompt_length: 70976
 tools_mentioned:
-- php
-- AWS
-- GCP
-- aws
-- Ruby
-- Rust
 - TypeScript
-- typescript
-- go
+- AWS
 - REST
+- Rust
+- Ruby
+- PHP
+- Python
+- ruby
+- go
+- aws
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/claude-api/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/claude-api/SKILL.md
-fetched_at: '2026-08-06T05:15:44.900282Z'
+fetched_at: '2026-08-07T04:24:26.610908Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-06T05:38:04.590240Z'
+  evaluated_at: '2026-08-07T04:45:59.287818Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f268e3d9fd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f67bd96f350 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f268e3d9fd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f67bd96f350 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 166530
-  forks: 19831
-  open_issues: 1062
+  stars: 166749
+  forks: 19859
+  open_issues: 1066
   last_commit: '2026-07-24'
-  fetched_at: '2026-08-06T05:16:03.832288Z'
-indexed_at: '2026-08-06T05:41:48.490439Z'
+  fetched_at: '2026-08-07T04:24:34.780410Z'
+indexed_at: '2026-08-07T04:49:39.434650Z'
 ---
