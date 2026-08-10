@@ -17,36 +17,36 @@ prompt_preview: '---
   files; working with templates (.potx), layouts, speaker notes, or com...'
 full_prompt_length: 20647
 tools_mentioned:
+- Python
 - go
 - rest
-- Python
-- python
 - react
+- python
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/pptx/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/pptx/SKILL.md
-fetched_at: '2026-08-08T03:23:42.721116Z'
+fetched_at: '2026-08-10T03:51:59.017405Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-08T03:46:44.098038Z'
+  evaluated_at: '2026-08-10T04:14:35.143646Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39ad466810 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f168c9057c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f39ad466810 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f168c9057c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 166907
-  forks: 19888
-  open_issues: 1065
+  stars: 167265
+  forks: 19957
+  open_issues: 1069
   last_commit: '2026-08-07'
-  fetched_at: '2026-08-08T03:23:52.859267Z'
-indexed_at: '2026-08-08T03:49:32.684101Z'
+  fetched_at: '2026-08-10T03:52:07.323117Z'
+indexed_at: '2026-08-10T04:17:17.886408Z'
 ---
