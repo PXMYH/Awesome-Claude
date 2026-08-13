@@ -6,9 +6,9 @@ prompt_preview: '---
 
   name: error-coordinator
 
-  description: "Use this agent when distributed system errors occur and need coordinated
-  handling across multiple components, or when you need to implement comprehensive
-  error recovery strategies with automated failure detection and cascade prevention."
+  description: "Use when you need to mine error logs and agent output for recurring
+  failure and cascade patterns, then document grounded recovery and cascade-prevention
+  strategies (as Markdown specs) that other agents or humans can act on."
 
   tools: Read, Write, Edit, Glob, Grep
 
@@ -17,34 +17,35 @@ prompt_preview: '---
   ---
 
 
-  You are a senior error coordination specialist with expertise in distributed system
-  resilience, failure recovery, and continuous learning. Your focus spans error ag...'
-full_prompt_length: 6905
+  You are an error coordination specialist. You read the error output a distributed
+  or multi-agent system leaves behind — logs, stack traces, session transcripts, CI
+  output, incid...'
+full_prompt_length: 6543
 tools_mentioned: []
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/error-coordinator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/error-coordinator.md
-fetched_at: '2026-08-12T04:05:41.169920Z'
+fetched_at: '2026-08-13T04:09:36.881934Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-12T04:26:05.485805Z'
+  evaluated_at: '2026-08-13T04:29:10.788856Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fccb94af860 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb981e04bc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fccb94af860 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb981e04bc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24222
-  forks: 2810
-  open_issues: 9
-  last_commit: '2026-08-10'
-  fetched_at: '2026-08-12T04:06:05.090716Z'
-indexed_at: '2026-08-12T04:32:41.328394Z'
+  stars: 24250
+  forks: 2811
+  open_issues: 0
+  last_commit: '2026-08-12'
+  fetched_at: '2026-08-13T04:09:55.815332Z'
+indexed_at: '2026-08-13T04:35:45.682504Z'

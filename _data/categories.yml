@@ -4,15 +4,15 @@
   avg_rating: 3.0
 - slug: 06-developer-experience
   name: 06 Developer Experience
-  count: 15
+  count: 16
   avg_rating: 3.0
 - slug: 07-specialized-domains
   name: 07 Specialized Domains
-  count: 14
+  count: 16
   avg_rating: 3.0
 - slug: 08-business-product
   name: 08 Business Product
-  count: 16
+  count: 17
   avg_rating: 3.0
 - slug: 09-meta-orchestration
   name: 09 Meta Orchestration

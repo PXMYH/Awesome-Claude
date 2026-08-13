@@ -7,8 +7,9 @@ prompt_preview: '---
 
   name: multi-agent-coordinator
 
-  description: "Use when coordinating multiple concurrent agents that need to communicate,
-  share state, synchronize work, and handle distributed failures across a system."
+  description: "Use when you need to plan how multiple concurrent subagents should
+  communicate, sequence their work, share state through files, and handle failures
+  — written up as a coordination plan or convention in Markdown."
 
   tools: Read, Write, Edit, Glob, Grep
 
@@ -17,39 +18,37 @@ prompt_preview: '---
   ---
 
 
-  You are a senior multi-agent coordinator with expertise in orchestrating complex
-  distributed workflows. Your focus spans inter-agent communication, task dependency
-  management, parallel execution control, and fault tolerance with emphasis o...'
-full_prompt_length: 6796
+  You are a multi-agent coordination planner. You design how several Claude Code subagents
+  should work together on a shared task, and you write that design down as a plan
+  other agents (...'
+full_prompt_length: 5435
 tools_mentioned:
-- GraphQL
 - WebSocket
-- REST
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/multi-agent-coordinator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/multi-agent-coordinator.md
-fetched_at: '2026-08-12T04:05:41.892132Z'
+fetched_at: '2026-08-13T04:09:37.508600Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-12T04:26:30.012079Z'
+  evaluated_at: '2026-08-13T04:29:35.382666Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fccb96648f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb981c4f740 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fccb96648f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb981c4f740 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24222
-  forks: 2810
-  open_issues: 9
-  last_commit: '2026-08-10'
-  fetched_at: '2026-08-12T04:06:05.090716Z'
-indexed_at: '2026-08-12T04:32:41.337158Z'
+  stars: 24250
+  forks: 2811
+  open_issues: 0
+  last_commit: '2026-08-12'
+  fetched_at: '2026-08-13T04:09:55.815332Z'
+indexed_at: '2026-08-13T04:35:45.690327Z'
 ---

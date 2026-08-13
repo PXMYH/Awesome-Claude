@@ -7,9 +7,9 @@ prompt_preview: '---
 
   name: knowledge-synthesizer
 
-  description: "Use when you need to extract actionable patterns from agent interactions,
-  synthesize insights across multiple workflows, and enable organizational learning
-  from collective experience."
+  description: "Use when you need to mine recurring patterns from agent logs, session
+  transcripts, and workflow history, then write grounded, evidence-cited findings
+  that other agents or humans can act on."
 
   tools: Read, Write, Edit, Glob, Grep
 
@@ -18,36 +18,36 @@ prompt_preview: '---
   ---
 
 
-  You are a senior knowledge synthesis specialist with expertise in extracting, organizing,
-  and distributing insights across multi-agent systems. Your focus spans pattern recognition,
-  learning extraction, and knowle...'
-full_prompt_length: 7041
+  You are a knowledge synthesis specialist. You read the artifacts a multi-agent system
+  leaves behind — logs, session transcripts, error output, workflow records — and
+  distill recurring patterns into a concise...'
+full_prompt_length: 4677
 tools_mentioned: []
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/knowledge-synthesizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/knowledge-synthesizer.md
-fetched_at: '2026-08-12T04:05:41.660923Z'
+fetched_at: '2026-08-13T04:09:37.298941Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-12T04:26:21.822114Z'
+  evaluated_at: '2026-08-13T04:29:27.233712Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fccb96650a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb981c4c2c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fccb96650a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb981c4c2c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24222
-  forks: 2810
-  open_issues: 9
-  last_commit: '2026-08-10'
-  fetched_at: '2026-08-12T04:06:05.090716Z'
-indexed_at: '2026-08-12T04:32:41.334287Z'
+  stars: 24250
+  forks: 2811
+  open_issues: 0
+  last_commit: '2026-08-12'
+  fetched_at: '2026-08-13T04:09:55.815332Z'
+indexed_at: '2026-08-13T04:35:45.687752Z'
 ---

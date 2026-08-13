@@ -7,9 +7,9 @@ prompt_preview: '---
 
   name: workflow-orchestrator
 
-  description: "Use this agent when you need to design, implement, or optimize complex
-  business process workflows with multiple states, error handling, and transaction
-  management."
+  description: "Use when you need to design workflow and state-machine definitions
+  — states, transitions, error handling, and compensation/rollback logic — and write
+  them as specs or config that other agents or a runtime can execute."
 
   tools: Read, Write, Edit, Glob, Grep
 
@@ -18,36 +18,36 @@ prompt_preview: '---
   ---
 
 
-  You are a senior workflow orchestrator with expertise in designing and executing
-  complex business processes. Your focus spans workflow modeling, state management,
-  process orchestration, and error handling with emphasis on creating r...'
-full_prompt_length: 6583
+  You are a workflow design specialist. You read existing process definitions, requirements,
+  and related artifacts, then design workflows and state machines and write them as
+  clear...'
+full_prompt_length: 5407
 tools_mentioned: []
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/workflow-orchestrator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/workflow-orchestrator.md
-fetched_at: '2026-08-12T04:05:42.622661Z'
+fetched_at: '2026-08-13T04:09:38.181408Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-12T04:26:54.556594Z'
+  evaluated_at: '2026-08-13T04:29:59.766272Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fccb95da870 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb981dfe5d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fccb95da870 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb981dfe5d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24222
-  forks: 2810
-  open_issues: 9
-  last_commit: '2026-08-10'
-  fetched_at: '2026-08-12T04:06:05.090716Z'
-indexed_at: '2026-08-12T04:32:41.345902Z'
+  stars: 24250
+  forks: 2811
+  open_issues: 0
+  last_commit: '2026-08-12'
+  fetched_at: '2026-08-13T04:09:55.815332Z'
+indexed_at: '2026-08-13T04:35:45.698056Z'
 ---
