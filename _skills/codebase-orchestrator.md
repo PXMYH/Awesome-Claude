@@ -23,33 +23,33 @@ prompt_preview: '---
   ope...'
 full_prompt_length: 6958
 tools_mentioned:
-- Docker
 - docker
+- Docker
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/codebase-orchestrator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/codebase-orchestrator.md
-fetched_at: '2026-08-13T04:09:36.416517Z'
+fetched_at: '2026-08-14T04:06:05.738126Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-13T04:28:54.257380Z'
+  evaluated_at: '2026-08-14T04:25:11.876951Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb981c4eab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0f30824590 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb981c4eab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0f30824590 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24250
-  forks: 2811
-  open_issues: 0
+  stars: 24281
+  forks: 2818
+  open_issues: 2
   last_commit: '2026-08-12'
-  fetched_at: '2026-08-13T04:09:55.815332Z'
-indexed_at: '2026-08-13T04:35:45.677268Z'
+  fetched_at: '2026-08-14T04:06:22.520536Z'
+indexed_at: '2026-08-14T04:31:58.350100Z'
 ---
