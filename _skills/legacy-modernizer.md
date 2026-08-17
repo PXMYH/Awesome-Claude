@@ -27,26 +27,26 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/legacy-modernizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/legacy-modernizer.md
-fetched_at: '2026-08-15T02:49:34.436939Z'
+fetched_at: '2026-08-17T02:57:11.889525Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-15T03:03:05.629428Z'
+  evaluated_at: '2026-08-17T03:10:36.703280Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86ddd24fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f95dab66900 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86ddd24fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f95dab66900 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24314
-  forks: 2827
-  open_issues: 3
+  stars: 24382
+  forks: 2834
+  open_issues: 4
   last_commit: '2026-08-12'
-  fetched_at: '2026-08-15T02:50:07.141236Z'
-indexed_at: '2026-08-15T03:15:55.318216Z'
+  fetched_at: '2026-08-17T02:57:34.535775Z'
+indexed_at: '2026-08-17T03:23:29.534257Z'
 ---
