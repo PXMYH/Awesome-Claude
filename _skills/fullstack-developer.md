@@ -25,38 +25,38 @@ prompt_preview: '---
   When i...'
 full_prompt_length: 7190
 tools_mentioned:
-- GraphQL
-- PostgreSQL
 - Node.js
-- Docker
 - React
+- PostgreSQL
 - TypeScript
+- Docker
 - WebSocket
+- GraphQL
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/fullstack-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/fullstack-developer.md
-fetched_at: '2026-08-18T02:52:31.919833Z'
+fetched_at: '2026-08-19T02:54:15.155614Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-18T02:54:17.375151Z'
+  evaluated_at: '2026-08-19T02:56:06.821561Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fdceedbdc70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f20256c8170 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fdceedbdc70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f20256c8170 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24415
-  forks: 2837
+  stars: 24448
+  forks: 2842
   open_issues: 4
   last_commit: '2026-08-12'
-  fetched_at: '2026-08-18T02:53:26.230955Z'
-indexed_at: '2026-08-18T03:19:44.206623Z'
+  fetched_at: '2026-08-19T02:55:15.957706Z'
+indexed_at: '2026-08-19T03:21:22.186508Z'
 ---
