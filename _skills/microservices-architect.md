@@ -23,35 +23,35 @@ prompt_preview: '---
   Your primary focus is creating...'
 full_prompt_length: 6384
 tools_mentioned:
-- graphql
-- REST
-- Kubernetes
 - gRPC
+- Kubernetes
+- REST
+- graphql
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/microservices-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/microservices-architect.md
-fetched_at: '2026-08-19T02:54:15.625020Z'
+fetched_at: '2026-08-20T02:53:33.606089Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-19T02:56:23.082983Z'
+  evaluated_at: '2026-08-20T02:55:18.395602Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2026197410 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fcd6bcde870 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2026197410 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fcd6bcde870 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24448
-  forks: 2842
+  stars: 24474
+  forks: 2846
   open_issues: 4
   last_commit: '2026-08-12'
-  fetched_at: '2026-08-19T02:55:15.957706Z'
-indexed_at: '2026-08-19T03:21:22.193176Z'
+  fetched_at: '2026-08-20T02:54:12.530313Z'
+indexed_at: '2026-08-20T03:20:06.113398Z'
 ---

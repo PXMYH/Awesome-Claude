@@ -28,26 +28,26 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/penetration-tester.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/penetration-tester.md
-fetched_at: '2026-08-19T02:54:31.732882Z'
+fetched_at: '2026-08-20T02:53:45.205146Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-19T03:04:34.702844Z'
+  evaluated_at: '2026-08-20T03:03:26.053849Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f202554fb90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fcd6b9dbb60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f202554fb90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fcd6b9dbb60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24448
-  forks: 2842
+  stars: 24474
+  forks: 2846
   open_issues: 4
   last_commit: '2026-08-12'
-  fetched_at: '2026-08-19T02:55:15.957706Z'
-indexed_at: '2026-08-19T03:21:22.395025Z'
+  fetched_at: '2026-08-20T02:54:12.530313Z'
+indexed_at: '2026-08-20T03:20:06.282737Z'
 ---

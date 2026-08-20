@@ -28,26 +28,26 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/blockchain-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/blockchain-developer.md
-fetched_at: '2026-08-19T02:54:43.273393Z'
+fetched_at: '2026-08-20T02:53:52.417581Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-19T03:09:36.783463Z'
+  evaluated_at: '2026-08-20T03:08:26.451305Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2025491b20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fcd6ba64140 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2025491b20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fcd6ba64140 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24448
-  forks: 2842
+  stars: 24474
+  forks: 2846
   open_issues: 4
   last_commit: '2026-08-12'
-  fetched_at: '2026-08-19T02:55:15.957706Z'
-indexed_at: '2026-08-19T03:21:22.511801Z'
+  fetched_at: '2026-08-20T02:54:12.530313Z'
+indexed_at: '2026-08-20T03:20:06.386188Z'
 ---
