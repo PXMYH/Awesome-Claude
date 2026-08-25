@@ -23,36 +23,36 @@ prompt_preview: '---
   and cross-platform...'
 full_prompt_length: 7221
 tools_mentioned:
-- Kubernetes
 - azure
+- JavaScript
 - gRPC
 - Azure
-- JavaScript
+- Kubernetes
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/csharp-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/csharp-developer.md
-fetched_at: '2026-08-24T03:00:03.675396Z'
+fetched_at: '2026-08-25T02:55:35.786079Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-24T03:02:41.213932Z'
+  evaluated_at: '2026-08-25T02:58:24.500830Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3ebad66690 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8418e65a30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3ebad66690 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8418e65a30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24577
-  forks: 2853
-  open_issues: 7
+  stars: 24605
+  forks: 2856
+  open_issues: 9
   last_commit: '2026-08-12'
-  fetched_at: '2026-08-24T03:00:42.041813Z'
-indexed_at: '2026-08-24T03:26:41.995562Z'
+  fetched_at: '2026-08-25T02:56:27.807917Z'
+indexed_at: '2026-08-25T03:22:44.287718Z'
 ---

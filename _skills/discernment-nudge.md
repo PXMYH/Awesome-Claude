@@ -12,33 +12,33 @@ prompt_preview: "---\nname: discernment-nudge\ndescription: >\n  After you give 
   \  tied to something specific in what y..."
 full_prompt_length: 10492
 tools_mentioned:
-- rest
 - go
+- rest
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/discernment-nudge/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/discernment-nudge/SKILL.md
-fetched_at: '2026-08-24T03:00:33.972417Z'
+fetched_at: '2026-08-25T02:56:16.428117Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-24T03:23:02.918859Z'
+  evaluated_at: '2026-08-25T03:19:02.124716Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3ebb2ca270 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8418d4b0e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f3ebb2ca270 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8418d4b0e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 171208
-  forks: 20344
-  open_issues: 1145
+  stars: 171393
+  forks: 20367
+  open_issues: 1149
   last_commit: '2026-08-21'
-  fetched_at: '2026-08-24T03:00:42.409506Z'
-indexed_at: '2026-08-24T03:26:42.450971Z'
+  fetched_at: '2026-08-25T02:56:28.378816Z'
+indexed_at: '2026-08-25T03:22:44.738790Z'
 ---
