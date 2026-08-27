@@ -29,26 +29,26 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/mobile-app-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/mobile-app-developer.md
-fetched_at: '2026-08-26T03:01:59.134630Z'
+fetched_at: '2026-08-27T12:20:40.076043Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-26T03:18:11.323569Z'
+  evaluated_at: '2026-08-27T12:36:43.279367Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe21794f500 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd29221e9f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe21794f500 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd29221e9f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24637
-  forks: 2860
+  stars: 24669
+  forks: 2858
   open_issues: 9
   last_commit: '2026-08-12'
-  fetched_at: '2026-08-26T03:02:26.657568Z'
-indexed_at: '2026-08-26T03:28:49.019578Z'
+  fetched_at: '2026-08-27T12:21:00.788923Z'
+indexed_at: '2026-08-27T12:47:15.194251Z'
 ---

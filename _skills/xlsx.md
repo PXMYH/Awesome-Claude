@@ -24,26 +24,26 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/xlsx/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/xlsx/SKILL.md
-fetched_at: '2026-08-26T03:02:20.027670Z'
+fetched_at: '2026-08-27T12:20:56.018241Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-26T03:26:50.750703Z'
+  evaluated_at: '2026-08-27T12:45:20.564058Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe2178f31a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd292682720 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe2178f31a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd292682720 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 171607
-  forks: 20386
-  open_issues: 1172
+  stars: 171975
+  forks: 20443
+  open_issues: 1180
   last_commit: '2026-08-21'
-  fetched_at: '2026-08-26T03:02:27.198890Z'
-indexed_at: '2026-08-26T03:28:49.199075Z'
+  fetched_at: '2026-08-27T12:21:01.226862Z'
+indexed_at: '2026-08-27T12:47:15.375729Z'
 ---
