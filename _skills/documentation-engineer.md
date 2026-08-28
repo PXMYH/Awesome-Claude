@@ -27,26 +27,26 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/documentation-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/documentation-engineer.md
-fetched_at: '2026-08-27T12:20:35.306060Z'
+fetched_at: '2026-08-28T13:46:43.416794Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-27T12:33:41.331169Z'
+  evaluated_at: '2026-08-28T13:59:57.447626Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd29222bbf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc4b452a0c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd29222bbf0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc4b452a0c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24669
-  forks: 2858
-  open_issues: 9
+  stars: 24710
+  forks: 2863
+  open_issues: 10
   last_commit: '2026-08-12'
-  fetched_at: '2026-08-27T12:21:00.788923Z'
-indexed_at: '2026-08-27T12:47:15.131423Z'
+  fetched_at: '2026-08-28T13:47:19.323279Z'
+indexed_at: '2026-08-28T14:13:28.206725Z'
 ---
