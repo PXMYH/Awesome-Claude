@@ -26,26 +26,26 @@ category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/backlog-grooming.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/backlog-grooming.md
-fetched_at: '2026-08-28T13:46:51.894524Z'
+fetched_at: '2026-08-29T08:37:34.281418Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-28T14:03:55.360374Z'
+  evaluated_at: '2026-08-29T08:54:16.627680Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc4b4529c10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb44c4648f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc4b4529c10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb44c4648f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24710
-  forks: 2863
+  stars: 24725
+  forks: 2864
   open_issues: 10
   last_commit: '2026-08-12'
-  fetched_at: '2026-08-28T13:47:19.323279Z'
-indexed_at: '2026-08-28T14:13:28.293759Z'
+  fetched_at: '2026-08-29T08:37:55.083773Z'
+indexed_at: '2026-08-29T09:03:44.995570Z'
 ---

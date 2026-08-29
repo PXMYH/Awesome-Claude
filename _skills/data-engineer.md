@@ -23,34 +23,34 @@ prompt_preview: '---
   data platforms. Your focus spans pipeline archit...'
 full_prompt_length: 6548
 tools_mentioned:
+- AWS
 - Kubernetes
 - Azure
-- AWS
 category: 05-data-ai
 category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/data-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/data-engineer.md
-fetched_at: '2026-08-28T13:46:39.023433Z'
+fetched_at: '2026-08-29T08:37:24.576241Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-28T13:57:54.596716Z'
+  evaluated_at: '2026-08-29T08:48:19.961377Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc4b452ba10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb44c46b950 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc4b452ba10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb44c46b950 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24710
-  forks: 2863
+  stars: 24725
+  forks: 2864
   open_issues: 10
   last_commit: '2026-08-12'
-  fetched_at: '2026-08-28T13:47:19.323279Z'
-indexed_at: '2026-08-28T14:13:28.162643Z'
+  fetched_at: '2026-08-29T08:37:55.083773Z'
+indexed_at: '2026-08-29T09:03:44.868976Z'
 ---
