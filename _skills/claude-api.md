@@ -12,43 +12,43 @@ prompt_preview: "---\nname: claude-api\ndescription: |-\n  Reference for the Cla
   \ prompt names Claude/Anthropic in any form (Claude, Anthropic, Fable, Opus, Sonnet,\
   \ Haiku, `anthropic`, `@anthropic-ai`, `claude-*`, `us.anthropic.*`, `[1m]`); the\
   \ user asks about an LLM (pricing/mod..."
-full_prompt_length: 75045
+full_prompt_length: 85677
 tools_mentioned:
-- Python
-- java
-- ruby
-- Rust
-- go
-- PHP
 - REST
+- aws
+- ruby
 - Go
+- PHP
+- Ruby
+- typescript
+- GCP
+- Java
 - rest
-- TypeScript
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/claude-api/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/claude-api/SKILL.md
-fetched_at: '2026-09-01T07:16:02.751868Z'
+fetched_at: '2026-09-02T06:48:43.518103Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-01T07:38:32.385671Z'
+  evaluated_at: '2026-09-02T07:11:03.847090Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fed06fad5b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1a897af620 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fed06fad5b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1a897af620 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 172867
-  forks: 20528
-  open_issues: 1195
-  last_commit: '2026-08-21'
-  fetched_at: '2026-09-01T07:16:18.342563Z'
-indexed_at: '2026-09-01T07:42:23.333814Z'
+  stars: 173073
+  forks: 20546
+  open_issues: 1199
+  last_commit: '2026-09-01'
+  fetched_at: '2026-09-02T06:48:58.346786Z'
+indexed_at: '2026-09-02T07:14:51.735468Z'
 ---

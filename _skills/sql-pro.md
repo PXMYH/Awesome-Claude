@@ -23,36 +23,36 @@ prompt_preview: '---
   MySQL, SQL Server, Oracle), specializing in complex query d...'
 full_prompt_length: 7410
 tools_mentioned:
-- java
-- python
 - MySQL
 - PostgreSQL
 - rest
+- python
+- java
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/sql-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/sql-pro.md
-fetched_at: '2026-09-01T07:15:23.316073Z'
+fetched_at: '2026-09-02T06:48:07.472254Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-01T07:21:22.525377Z'
+  evaluated_at: '2026-09-02T06:54:00.183309Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fed0745b9b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1a897b3da0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fed0745b9b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1a897b3da0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24773
-  forks: 2867
+  stars: 24795
+  forks: 2871
   open_issues: 10
-  last_commit: '2026-08-12'
-  fetched_at: '2026-09-01T07:16:17.667068Z'
-indexed_at: '2026-09-01T07:42:22.956806Z'
+  last_commit: '2026-09-01'
+  fetched_at: '2026-09-02T06:48:57.673475Z'
+indexed_at: '2026-09-02T07:14:51.351086Z'
 ---
