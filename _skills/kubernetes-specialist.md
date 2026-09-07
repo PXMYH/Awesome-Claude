@@ -29,26 +29,26 @@ category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/kubernetes-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/kubernetes-specialist.md
-fetched_at: '2026-09-05T06:40:21.127179Z'
+fetched_at: '2026-09-07T06:59:44.967005Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-05T06:48:13.695054Z'
+  evaluated_at: '2026-09-07T07:07:14.659803Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2170b6bec0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5bab5884a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2170b6bec0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5bab5884a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24866
-  forks: 2877
-  open_issues: 11
+  stars: 24899
+  forks: 2879
+  open_issues: 12
   last_commit: '2026-09-04'
-  fetched_at: '2026-09-05T06:41:14.789020Z'
-indexed_at: '2026-09-05T07:07:28.426348Z'
+  fetched_at: '2026-09-07T07:00:27.703490Z'
+indexed_at: '2026-09-07T07:26:20.688970Z'
 ---

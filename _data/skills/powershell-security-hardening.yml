@@ -29,25 +29,25 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/powershell-security-hardening.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/powershell-security-hardening.md
-fetched_at: '2026-09-05T06:40:27.548112Z'
+fetched_at: '2026-09-07T06:59:49.968335Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-05T06:50:57.395837Z'
+  evaluated_at: '2026-09-07T07:09:57.837151Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2170c28410 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5bab2abef0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2170c28410 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5bab2abef0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24866
-  forks: 2877
-  open_issues: 11
+  stars: 24899
+  forks: 2879
+  open_issues: 12
   last_commit: '2026-09-04'
-  fetched_at: '2026-09-05T06:41:14.789020Z'
-indexed_at: '2026-09-05T07:07:28.471687Z'
+  fetched_at: '2026-09-07T07:00:27.703490Z'
+indexed_at: '2026-09-07T07:26:20.749553Z'

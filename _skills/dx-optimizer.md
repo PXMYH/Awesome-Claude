@@ -27,26 +27,26 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/dx-optimizer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/dx-optimizer.md
-fetched_at: '2026-09-05T06:40:34.608441Z'
+fetched_at: '2026-09-07T06:59:56.080862Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-05T06:54:05.920328Z'
+  evaluated_at: '2026-09-07T07:13:04.148465Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2170c28230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5bab3088f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2170c28230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5bab3088f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24866
-  forks: 2877
-  open_issues: 11
+  stars: 24899
+  forks: 2879
+  open_issues: 12
   last_commit: '2026-09-04'
-  fetched_at: '2026-09-05T06:41:14.789020Z'
-indexed_at: '2026-09-05T07:07:28.521093Z'
+  fetched_at: '2026-09-07T07:00:27.703490Z'
+indexed_at: '2026-09-07T07:26:20.821124Z'
 ---
