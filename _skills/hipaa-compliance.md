@@ -21,34 +21,34 @@ prompt_preview: '---
   Your job is to help product and engineering teams understand their obligation...'
 full_prompt_length: 4973
 tools_mentioned:
-- Azure
 - GCP
 - AWS
+- Azure
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/hipaa-compliance.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/hipaa-compliance.md
-fetched_at: '2026-09-07T07:00:00.726561Z'
+fetched_at: '2026-09-08T06:54:57.009413Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-07T07:15:30.002137Z'
+  evaluated_at: '2026-09-08T07:10:55.324420Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5bab3087a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa53906acf0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5bab3087a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa53906acf0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24899
-  forks: 2879
-  open_issues: 12
-  last_commit: '2026-09-04'
-  fetched_at: '2026-09-07T07:00:27.703490Z'
-indexed_at: '2026-09-07T07:26:20.875537Z'
+  stars: 24924
+  forks: 2886
+  open_issues: 13
+  last_commit: '2026-09-07'
+  fetched_at: '2026-09-08T06:55:25.558390Z'
+indexed_at: '2026-09-08T07:22:00.279382Z'
 ---
