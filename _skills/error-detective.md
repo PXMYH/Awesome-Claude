@@ -28,26 +28,26 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/error-detective.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/error-detective.md
-fetched_at: '2026-09-09T07:03:31.052739Z'
+fetched_at: '2026-09-10T07:00:12.244638Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-09T07:12:56.024598Z'
+  evaluated_at: '2026-09-10T07:10:11.204160Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f91d8bbe4b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1bafe26c00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f91d8bbe4b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1bafe26c00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24954
-  forks: 2887
+  stars: 24973
+  forks: 2889
   open_issues: 13
   last_commit: '2026-09-07'
-  fetched_at: '2026-09-09T07:03:59.359287Z'
-indexed_at: '2026-09-09T07:29:54.852081Z'
+  fetched_at: '2026-09-10T07:01:04.878217Z'
+indexed_at: '2026-09-10T07:27:23.559682Z'
 ---
