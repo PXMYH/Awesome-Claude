@@ -23,37 +23,37 @@ prompt_preview: '---
   Spring Boot, microservices architecture, and reactive pro...'
 full_prompt_length: 7653
 tools_mentioned:
-- Java
-- JUnit
-- java
-- Kubernetes
-- REST
 - rest
+- JUnit
+- REST
+- Kubernetes
+- Java
+- java
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/java-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/java-architect.md
-fetched_at: '2026-09-10T06:59:55.714833Z'
+fetched_at: '2026-09-11T06:59:32.041981Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-10T07:04:16.352759Z'
+  evaluated_at: '2026-09-11T07:03:40.224697Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1bafe27e90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8b522dd400 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1bafe27e90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8b522dd400 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 24973
-  forks: 2889
+  stars: 25000
+  forks: 2890
   open_issues: 13
   last_commit: '2026-09-07'
-  fetched_at: '2026-09-10T07:01:04.878217Z'
-indexed_at: '2026-09-10T07:27:23.429400Z'
+  fetched_at: '2026-09-11T07:00:30.626089Z'
+indexed_at: '2026-09-11T07:26:35.286617Z'
 ---
