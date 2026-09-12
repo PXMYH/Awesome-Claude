@@ -50,26 +50,26 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/test-driven-development/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/test-driven-development/SKILL.md
-fetched_at: '2026-09-11T07:00:27.044899Z'
+fetched_at: '2026-09-12T06:51:23.453717Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-11T07:25:53.127704Z'
+  evaluated_at: '2026-09-12T07:16:33.426403Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8b52094710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe8ce9e4200 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8b52094710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe8ce9e4200 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 284877
-  forks: 25484
-  open_issues: 350
+  stars: 285492
+  forks: 25531
+  open_issues: 356
   last_commit: '2026-08-12'
-  fetched_at: '2026-09-11T07:00:31.889093Z'
-indexed_at: '2026-09-11T07:26:35.788830Z'
+  fetched_at: '2026-09-12T06:51:26.466608Z'
+indexed_at: '2026-09-12T07:17:14.705528Z'
 ---

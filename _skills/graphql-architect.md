@@ -24,34 +24,34 @@ prompt_preview: '---
 full_prompt_length: 6553
 tools_mentioned:
 - GraphQL
+- REST
 - graphql
 - WebSocket
-- REST
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/graphql-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/graphql-architect.md
-fetched_at: '2026-09-11T06:59:27.435826Z'
+fetched_at: '2026-09-12T06:50:46.235943Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-11T07:01:29.597561Z'
+  evaluated_at: '2026-09-12T06:52:23.341395Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8b52311d00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe8cf08f380 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8b52311d00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fe8cf08f380 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25000
-  forks: 2890
+  stars: 25018
+  forks: 2889
   open_issues: 13
   last_commit: '2026-09-07'
-  fetched_at: '2026-09-11T07:00:30.626089Z'
-indexed_at: '2026-09-11T07:26:35.235711Z'
+  fetched_at: '2026-09-12T06:51:25.535022Z'
+indexed_at: '2026-09-12T07:17:14.149255Z'
 ---
