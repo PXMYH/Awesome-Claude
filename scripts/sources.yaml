@@ -52,5 +52,9 @@ repos:
     category: marketing
     description: SEO and GEO optimization skills
 
+  - repo: nowork-studio/NotFair
+    category: marketing
+    description: Open-source Claude Code skills for SEO, GEO, Google Ads, and Meta Ads; connects to Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP
+
   - repo: littleben/awesomeAgentskills
     description: Agent skills collection (EN/CN)
