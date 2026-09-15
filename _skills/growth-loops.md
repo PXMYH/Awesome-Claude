@@ -26,26 +26,26 @@ category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/growth-loops.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/growth-loops.md
-fetched_at: '2026-09-14T07:33:42.348205Z'
+fetched_at: '2026-09-15T07:11:19.414499Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-14T07:51:09.865219Z'
+  evaluated_at: '2026-09-15T07:29:12.062588Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16208e3d70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f301533f830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f16208e3d70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f301533f830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25054
-  forks: 2901
-  open_issues: 15
-  last_commit: '2026-09-07'
-  fetched_at: '2026-09-14T07:34:05.159189Z'
-indexed_at: '2026-09-14T07:59:57.278026Z'
+  stars: 25082
+  forks: 2903
+  open_issues: 0
+  last_commit: '2026-09-14'
+  fetched_at: '2026-09-15T07:11:42.645414Z'
+indexed_at: '2026-09-15T07:38:14.956385Z'
 ---
