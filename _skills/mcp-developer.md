@@ -22,33 +22,33 @@ prompt_preview: '---
   Your focus spans protocol implementation, SDK usage, integratio...'
 full_prompt_length: 6940
 tools_mentioned:
-- TypeScript
 - Python
+- TypeScript
 category: 06-developer-experience
 category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/mcp-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/mcp-developer.md
-fetched_at: '2026-09-16T07:14:16.447757Z'
+fetched_at: '2026-09-17T07:09:36.424972Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-16T07:28:27.108053Z'
+  evaluated_at: '2026-09-17T07:23:13.205253Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f144bd680b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff30d923e60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f144bd680b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff30d923e60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25105
-  forks: 2902
+  stars: 25138
+  forks: 2903
   open_issues: 0
   last_commit: '2026-09-14'
-  fetched_at: '2026-09-16T07:14:53.159350Z'
-indexed_at: '2026-09-16T07:41:40.135136Z'
+  fetched_at: '2026-09-17T07:09:58.701307Z'
+indexed_at: '2026-09-17T07:36:10.976866Z'
 ---

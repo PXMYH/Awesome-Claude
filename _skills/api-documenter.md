@@ -24,34 +24,34 @@ prompt_preview: '---
 full_prompt_length: 6328
 tools_mentioned:
 - WebSocket
-- GraphQL
-- gRPC
 - REST
+- gRPC
+- GraphQL
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/api-documenter.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/api-documenter.md
-fetched_at: '2026-09-16T07:14:18.858347Z'
+fetched_at: '2026-09-17T07:09:38.022221Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-16T07:29:33.311350Z'
+  evaluated_at: '2026-09-17T07:24:17.899168Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f144c5b3e60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff30c99cfb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f144c5b3e60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff30c99cfb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25105
-  forks: 2902
+  stars: 25138
+  forks: 2903
   open_issues: 0
   last_commit: '2026-09-14'
-  fetched_at: '2026-09-16T07:14:53.159350Z'
-indexed_at: '2026-09-16T07:41:40.159485Z'
+  fetched_at: '2026-09-17T07:09:58.701307Z'
+indexed_at: '2026-09-17T07:36:10.994563Z'
 ---
