@@ -28,26 +28,26 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/risk-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/risk-manager.md
-fetched_at: '2026-09-17T07:09:40.403598Z'
+fetched_at: '2026-09-19T07:02:05.844516Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-17T07:26:03.095795Z'
+  evaluated_at: '2026-09-19T07:18:49.979342Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff30cace240 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f268f7b2c30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff30cace240 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f268f7b2c30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25138
-  forks: 2903
+  stars: 25192
+  forks: 2907
   open_issues: 0
   last_commit: '2026-09-14'
-  fetched_at: '2026-09-17T07:09:58.701307Z'
-indexed_at: '2026-09-17T07:36:11.022514Z'
+  fetched_at: '2026-09-19T07:02:33.394878Z'
+indexed_at: '2026-09-19T07:29:15.919809Z'
 ---

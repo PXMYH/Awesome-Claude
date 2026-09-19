@@ -29,26 +29,26 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/machine-learning-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/machine-learning-engineer.md
-fetched_at: '2026-09-17T07:09:33.494916Z'
+fetched_at: '2026-09-19T07:01:56.631244Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-17T07:21:11.764779Z'
+  evaluated_at: '2026-09-19T07:13:55.276698Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff30cad3f20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f268f7b2c30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff30cad3f20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f268f7b2c30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25138
-  forks: 2903
+  stars: 25192
+  forks: 2907
   open_issues: 0
   last_commit: '2026-09-14'
-  fetched_at: '2026-09-17T07:09:58.701307Z'
-indexed_at: '2026-09-17T07:36:10.944153Z'
+  fetched_at: '2026-09-19T07:02:33.394878Z'
+indexed_at: '2026-09-19T07:29:15.845203Z'
 ---
