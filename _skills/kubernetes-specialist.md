@@ -22,33 +22,33 @@ prompt_preview: '---
   workload orchestration, security hardening, and performance optimization with emphasis...'
 full_prompt_length: 6912
 tools_mentioned:
-- kubernetes
 - Kubernetes
+- kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/kubernetes-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/kubernetes-specialist.md
-fetched_at: '2026-09-19T07:01:48.377584Z'
+fetched_at: '2026-09-21T07:37:09.772366Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-19T07:09:41.158835Z'
+  evaluated_at: '2026-09-21T07:44:48.490378Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f268f42b530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0d5f42b020 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f268f42b530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f0d5f42b020 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25192
-  forks: 2907
+  stars: 25228
+  forks: 2914
   open_issues: 0
   last_commit: '2026-09-14'
-  fetched_at: '2026-09-19T07:02:33.394878Z'
-indexed_at: '2026-09-19T07:29:15.777010Z'
+  fetched_at: '2026-09-21T07:37:45.766163Z'
+indexed_at: '2026-09-21T08:04:07.615264Z'
 ---
