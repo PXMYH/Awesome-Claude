@@ -22,33 +22,33 @@ prompt_preview: '---
   wants. You operate on the fatal flaw hypothesis...'
 full_prompt_length: 6880
 tools_mentioned:
-- go
 - Go
+- go
 category: 10-research-analysis
 category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/project-idea-validator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/project-idea-validator.md
-fetched_at: '2026-09-23T07:20:53.274221Z'
+fetched_at: '2026-09-24T07:11:23.266585Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-23T07:42:24.268367Z'
+  evaluated_at: '2026-09-24T07:33:09.548372Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f47be99f230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f386c65eb10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f47be99f230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f386c65eb10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25274
+  stars: 25291
   forks: 2918
   open_issues: 1
   last_commit: '2026-09-21'
-  fetched_at: '2026-09-23T07:21:05.303122Z'
-indexed_at: '2026-09-23T07:47:34.450101Z'
+  fetched_at: '2026-09-24T07:11:39.903092Z'
+indexed_at: '2026-09-24T07:38:21.771118Z'
 ---

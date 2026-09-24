@@ -25,34 +25,34 @@ full_prompt_length: 7347
 tools_mentioned:
 - JUnit
 - rust
+- WebSocket
 - typescript
 - java
-- WebSocket
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/kotlin-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/kotlin-specialist.md
-fetched_at: '2026-09-23T07:20:28.696226Z'
+fetched_at: '2026-09-24T07:10:50.904103Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-23T07:24:45.979602Z'
+  evaluated_at: '2026-09-24T07:15:22.193158Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f47be66ad50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f386c79a1b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f47be66ad50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f386c79a1b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25274
+  stars: 25291
   forks: 2918
   open_issues: 1
   last_commit: '2026-09-21'
-  fetched_at: '2026-09-23T07:21:05.303122Z'
-indexed_at: '2026-09-23T07:47:34.015988Z'
+  fetched_at: '2026-09-24T07:11:39.903092Z'
+indexed_at: '2026-09-24T07:38:21.569394Z'
 ---
