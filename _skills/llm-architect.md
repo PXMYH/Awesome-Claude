@@ -28,26 +28,26 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/llm-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/llm-architect.md
-fetched_at: '2026-09-24T07:11:04.474236Z'
+fetched_at: '2026-09-25T07:07:00.212296Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-24T07:22:54.432713Z'
+  evaluated_at: '2026-09-25T07:18:48.550809Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f386cdbfbc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8aff8b8440 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f386cdbfbc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8aff8b8440 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25291
-  forks: 2918
+  stars: 25311
+  forks: 2920
   open_issues: 1
   last_commit: '2026-09-21'
-  fetched_at: '2026-09-24T07:11:39.903092Z'
-indexed_at: '2026-09-24T07:38:21.653790Z'
+  fetched_at: '2026-09-25T07:07:35.935198Z'
+indexed_at: '2026-09-25T07:34:14.331728Z'
 ---

@@ -31,26 +31,26 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/frontend-design/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md
-fetched_at: '2026-09-24T07:11:28.330200Z'
+fetched_at: '2026-09-25T07:07:24.327143Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-24T07:34:56.112987Z'
+  evaluated_at: '2026-09-25T07:30:49.248594Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f386c546810 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8aff8bb1a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f386c546810 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8aff8bb1a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 177863
-  forks: 21068
-  open_issues: 1280
-  last_commit: '2026-09-10'
-  fetched_at: '2026-09-24T07:11:40.523465Z'
-indexed_at: '2026-09-24T07:38:21.791692Z'
+  stars: 178026
+  forks: 21093
+  open_issues: 1291
+  last_commit: '2026-09-24'
+  fetched_at: '2026-09-25T07:07:36.485483Z'
+indexed_at: '2026-09-25T07:34:14.502386Z'
 ---

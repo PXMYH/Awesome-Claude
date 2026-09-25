@@ -30,26 +30,26 @@ category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/dispatching-parallel-agents/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/dispatching-parallel-agents/SKILL.md
-fetched_at: '2026-09-24T07:11:33.846447Z'
+fetched_at: '2026-09-25T07:07:30.033783Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-24T07:36:42.548139Z'
+  evaluated_at: '2026-09-25T07:32:35.959006Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f386cbfb890 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8aff9e00b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f386cbfb890 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8aff9e00b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 290856
-  forks: 26028
-  open_issues: 398
+  stars: 291319
+  forks: 26066
+  open_issues: 402
   last_commit: '2026-09-19'
-  fetched_at: '2026-09-24T07:11:41.236842Z'
-indexed_at: '2026-09-24T07:38:21.812802Z'
+  fetched_at: '2026-09-25T07:07:37.089887Z'
+indexed_at: '2026-09-25T07:34:14.526165Z'
 ---
