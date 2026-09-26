@@ -31,33 +31,33 @@ prompt_preview: '---
   ### Azur...'
 full_prompt_length: 1924
 tools_mentioned:
-- Azure
 - azure
+- Azure
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/azure-infra-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/azure-infra-engineer.md
-fetched_at: '2026-09-25T07:06:50.680285Z'
+fetched_at: '2026-09-26T07:03:49.258047Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-25T07:13:37.164670Z'
+  evaluated_at: '2026-09-26T07:10:21.825864Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8aff9df440 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4dd9e8d880 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8aff9df440 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4dd9e8d880 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25311
-  forks: 2920
-  open_issues: 1
+  stars: 25331
+  forks: 2924
+  open_issues: 2
   last_commit: '2026-09-21'
-  fetched_at: '2026-09-25T07:07:35.935198Z'
-indexed_at: '2026-09-25T07:34:14.262161Z'
+  fetched_at: '2026-09-26T07:04:23.071954Z'
+indexed_at: '2026-09-26T07:30:51.818413Z'
 ---

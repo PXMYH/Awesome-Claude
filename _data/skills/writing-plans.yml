@@ -18,43 +18,40 @@ prompt_preview: '---
   ## Overview
 
 
-  Write comprehensive implementation plans assuming the engineer has zero context
-  for our codebase and questionable taste. Document everything they need to know:
-  which files to touch for each task, code, testing, docs they might need to check,
-  how to test it. Give them the whole plan as bite-sized tasks. DRY. YAGNI. TDD. Frequent
-  commits.
-
-
-  Ass...'
-full_prompt_length: 9068
+  Write implementation plans for an engineer who has not seen this codebase or this
+  spec. Assume they write idiomatic code in the project''s language once they know
+  the exact interface and the exact test, and that they will make a reasonable choice
+  wherever the plan leaves one open. What they cannot know is what you decided: which
+  files, which...'
+full_prompt_length: 10317
 tools_mentioned:
-- go
-- python
 - pytest
+- python
+- go
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/writing-plans/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/writing-plans/SKILL.md
-fetched_at: '2026-09-25T07:07:34.714215Z'
+fetched_at: '2026-09-26T07:04:22.063106Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-25T07:34:05.895654Z'
+  evaluated_at: '2026-09-26T07:30:43.383322Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8affd52f60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4dda1faf60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8affd52f60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4dda1faf60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 291319
-  forks: 26066
-  open_issues: 402
-  last_commit: '2026-09-19'
-  fetched_at: '2026-09-25T07:07:37.089887Z'
-indexed_at: '2026-09-25T07:34:14.546407Z'
+  stars: 291750
+  forks: 26112
+  open_issues: 404
+  last_commit: '2026-09-25'
+  fetched_at: '2026-09-26T07:04:23.970989Z'
+indexed_at: '2026-09-26T07:30:52.313389Z'
