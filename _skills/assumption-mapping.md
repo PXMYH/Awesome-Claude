@@ -27,26 +27,26 @@ category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/assumption-mapping.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/assumption-mapping.md
-fetched_at: '2026-09-26T07:04:04.807967Z'
+fetched_at: '2026-09-28T08:12:45.299762Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-26T07:20:57.405203Z'
+  evaluated_at: '2026-09-28T08:29:33.041796Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4dda353020 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86d2fdec30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f4dda353020 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86d2fdec30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25331
-  forks: 2924
-  open_issues: 2
+  stars: 25369
+  forks: 2930
+  open_issues: 3
   last_commit: '2026-09-21'
-  fetched_at: '2026-09-26T07:04:23.071954Z'
-indexed_at: '2026-09-26T07:30:52.073766Z'
+  fetched_at: '2026-09-28T08:13:01.407992Z'
+indexed_at: '2026-09-28T08:39:25.640010Z'
 ---
