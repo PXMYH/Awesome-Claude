@@ -27,26 +27,26 @@ category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/scrum-master.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/scrum-master.md
-fetched_at: '2026-09-28T08:12:46.974674Z'
+fetched_at: '2026-09-29T07:52:47.209944Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-28T08:31:18.400972Z'
+  evaluated_at: '2026-09-29T08:11:23.818190Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86d2b68560 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5ed1e6ade0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f86d2b68560 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5ed1e6ade0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25369
-  forks: 2930
+  stars: 25391
+  forks: 2932
   open_issues: 3
   last_commit: '2026-09-21'
-  fetched_at: '2026-09-28T08:13:01.407992Z'
-indexed_at: '2026-09-28T08:39:25.682682Z'
+  fetched_at: '2026-09-29T07:53:01.658436Z'
+indexed_at: '2026-09-29T08:19:31.390959Z'
 ---
