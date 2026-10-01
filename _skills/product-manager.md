@@ -22,33 +22,33 @@ prompt_preview: '---
   user research, feature prioritization, and go-to-market execution...'
 full_prompt_length: 6541
 tools_mentioned:
-- go
 - Go
+- go
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/product-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/product-manager.md
-fetched_at: '2026-09-30T07:58:39.188209Z'
+fetched_at: '2026-10-01T08:18:50.900560Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-09-30T08:18:18.985390Z'
+  evaluated_at: '2026-10-01T08:37:05.559918Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f110ba3dca0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc68811ffe0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f110ba3dca0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc68811ffe0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25412
-  forks: 2935
+  stars: 25435
+  forks: 2940
   open_issues: 3
   last_commit: '2026-09-21'
-  fetched_at: '2026-09-30T07:59:05.911654Z'
-indexed_at: '2026-09-30T08:26:59.947209Z'
+  fetched_at: '2026-10-01T08:19:13.696546Z'
+indexed_at: '2026-10-01T08:45:36.627348Z'
 ---
