@@ -36,25 +36,25 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/slack-gif-creator/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/slack-gif-creator/SKILL.md
-fetched_at: '2026-10-01T08:19:04.827358Z'
+fetched_at: '2026-10-02T07:56:18.295742Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-01T08:43:02.200144Z'
+  evaluated_at: '2026-10-02T08:20:16.533408Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc688125460 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f94feb4dcd0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fc688125460 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f94feb4dcd0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 179222
-  forks: 21186
-  open_issues: 1390
+  stars: 179362
+  forks: 21210
+  open_issues: 1393
   last_commit: '2026-09-29'
-  fetched_at: '2026-10-01T08:19:14.492288Z'
-indexed_at: '2026-10-01T08:45:36.778600Z'
+  fetched_at: '2026-10-02T07:56:24.551015Z'
+indexed_at: '2026-10-02T08:22:51.231174Z'
