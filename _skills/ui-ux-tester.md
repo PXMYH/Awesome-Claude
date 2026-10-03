@@ -28,26 +28,26 @@ category_display: Quality & Security
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/04-quality-security/ui-ux-tester.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/04-quality-security/ui-ux-tester.md
-fetched_at: '2026-10-02T07:55:58.502835Z'
+fetched_at: '2026-10-03T07:34:51.400656Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-02T08:06:43.403617Z'
+  evaluated_at: '2026-10-03T07:45:51.451256Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f94fec75d00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5ceb0180b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f94fec75d00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5ceb0180b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25454
+  stars: 25468
   forks: 2944
   open_issues: 3
   last_commit: '2026-09-21'
-  fetched_at: '2026-10-02T07:56:24.081803Z'
-indexed_at: '2026-10-02T08:22:50.901649Z'
+  fetched_at: '2026-10-03T07:35:28.309500Z'
+indexed_at: '2026-10-03T08:02:08.464895Z'
 ---
