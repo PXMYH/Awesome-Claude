@@ -29,26 +29,26 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/x-api-integration.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/x-api-integration.md
-fetched_at: '2026-10-03T07:35:02.677669Z'
+fetched_at: '2026-10-05T08:19:59.212913Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-03T07:52:02.788993Z'
+  evaluated_at: '2026-10-05T08:36:40.816375Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5ceb013830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8265d711f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5ceb013830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8265d711f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25468
-  forks: 2944
-  open_issues: 3
-  last_commit: '2026-09-21'
-  fetched_at: '2026-10-03T07:35:28.309500Z'
-indexed_at: '2026-10-03T08:02:08.616860Z'
+  stars: 25505
+  forks: 2945
+  open_issues: 2
+  last_commit: '2026-10-05'
+  fetched_at: '2026-10-05T08:20:18.867868Z'
+indexed_at: '2026-10-05T08:46:44.244121Z'
 ---
