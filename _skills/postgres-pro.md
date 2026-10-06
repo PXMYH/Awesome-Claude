@@ -28,26 +28,26 @@ category_display: 05 Data Ai
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/05-data-ai/postgres-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/postgres-pro.md
-fetched_at: '2026-10-05T08:19:51.918126Z'
+fetched_at: '2026-10-06T08:33:16.046643Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-05T08:32:05.268076Z'
+  evaluated_at: '2026-10-06T08:45:32.775025Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8265d72870 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8f01517a10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8265d72870 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8f01517a10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25505
-  forks: 2945
+  stars: 25523
+  forks: 2947
   open_issues: 2
   last_commit: '2026-10-05'
-  fetched_at: '2026-10-05T08:20:18.867868Z'
-indexed_at: '2026-10-05T08:46:44.130566Z'
+  fetched_at: '2026-10-06T08:33:40.824613Z'
+indexed_at: '2026-10-06T09:00:07.853033Z'
 ---
