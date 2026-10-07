@@ -23,36 +23,36 @@ prompt_preview: '---
   You are a senior Next.js developer wit...'
 full_prompt_length: 6626
 tools_mentioned:
+- React
 - typescript
 - Docker
-- TypeScript
 - react
-- React
+- TypeScript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/nextjs-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/nextjs-developer.md
-fetched_at: '2026-10-06T08:33:04.646568Z'
+fetched_at: '2026-10-07T08:08:52.050478Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-06T08:37:38.639347Z'
+  evaluated_at: '2026-10-07T08:13:40.589739Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8f01515700 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb5e5030a10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8f01515700 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb5e5030a10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25523
-  forks: 2947
-  open_issues: 2
+  stars: 25552
+  forks: 2950
+  open_issues: 3
   last_commit: '2026-10-05'
-  fetched_at: '2026-10-06T08:33:40.824613Z'
-indexed_at: '2026-10-06T09:00:07.710070Z'
+  fetched_at: '2026-10-07T08:09:40.843525Z'
+indexed_at: '2026-10-07T08:36:10.926755Z'
 ---
