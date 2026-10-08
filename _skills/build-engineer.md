@@ -27,26 +27,26 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/build-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/build-engineer.md
-fetched_at: '2026-10-07T08:09:08.742739Z'
+fetched_at: '2026-10-08T08:24:48.494116Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-07T08:21:56.985240Z'
+  evaluated_at: '2026-10-08T08:37:28.973754Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb5e5030050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2ca2533890 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb5e5030050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2ca2533890 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25552
-  forks: 2950
+  stars: 25576
+  forks: 2951
   open_issues: 3
   last_commit: '2026-10-05'
-  fetched_at: '2026-10-07T08:09:40.843525Z'
-indexed_at: '2026-10-07T08:36:11.128249Z'
+  fetched_at: '2026-10-08T08:25:13.715260Z'
+indexed_at: '2026-10-08T08:51:45.849548Z'
 ---

@@ -25,34 +25,34 @@ full_prompt_length: 7333
 tools_mentioned:
 - PostgreSQL
 - Redis
+- MongoDB
 - rest
 - MySQL
-- MongoDB
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/database-administrator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/database-administrator.md
-fetched_at: '2026-10-07T08:08:56.888579Z'
+fetched_at: '2026-10-08T08:24:39.591231Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-07T08:15:58.538624Z'
+  evaluated_at: '2026-10-08T08:31:30.393135Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb5e5030260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2ca2531310 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fb5e5030260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2ca2531310 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25552
-  forks: 2950
+  stars: 25576
+  forks: 2951
   open_issues: 3
   last_commit: '2026-10-05'
-  fetched_at: '2026-10-07T08:09:40.843525Z'
-indexed_at: '2026-10-07T08:36:10.982787Z'
+  fetched_at: '2026-10-08T08:25:13.715260Z'
+indexed_at: '2026-10-08T08:51:45.706575Z'
 ---
