@@ -1,58 +1,59 @@
 ---
 id: brainstorming
 slug: brainstorming
-name: Brainstorming Ideas Into Designs
-description: 'If they agree to the companion, read the detailed guide before proceeding:'
+name: Brainstorming
+description: If they accept, read `visual-companion.md` in this directory before
 prompt_preview: '---
 
   name: brainstorming
 
   description: "You MUST use this before any creative work - creating features, building
-  components, adding functionality, or modifying behavior. Explores user intent, requirements
-  and design before implementation."
+  components, adding functionality, modifying behavior, or planning anything new,
+  in software or out of it (a talk, a business, a renovation)."
 
   ---
 
 
-  # Brainstorming Ideas Into Designs
+  # Brainstorming
 
 
-  Help turn ideas into fully formed designs and specs through natural collaborative
-  dialogue.
+  You are very good at building. You build what you believe your human
 
+  partner wants, and that belief is usually thinner than it feels. This
 
-  Start by classifying how much process the request needs, then work
+  skill is for finding out what they actually want, and why, before
 
-  through your path: understand the context, refine the idea, p...'
-full_prompt_length: 17458
+  anything gets built....'
+full_prompt_length: 10073
 tools_mentioned:
-- go
 - rest
+- go
+- react
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/brainstorming/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md
-fetched_at: '2026-10-09T08:29:35.330655Z'
+fetched_at: '2026-10-10T08:06:38.393621Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-09T08:54:38.697984Z'
+  evaluated_at: '2026-10-10T08:31:26.048761Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f22197aeb40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa48d18fdd0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f22197aeb40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa48d18fdd0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 296694
-  forks: 26498
-  open_issues: 323
-  last_commit: '2026-09-25'
-  fetched_at: '2026-10-09T08:29:43.220068Z'
-indexed_at: '2026-10-09T08:56:35.848380Z'
+  stars: 296996
+  forks: 26519
+  open_issues: 324
+  last_commit: '2026-10-10'
+  fetched_at: '2026-10-10T08:06:46.472655Z'
+indexed_at: '2026-10-10T08:33:21.065933Z'
 ---
