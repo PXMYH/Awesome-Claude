@@ -12,7 +12,7 @@
   avg_rating: 3.0
 - slug: 08-business-product
   name: 08 Business Product
-  count: 17
+  count: 18
   avg_rating: 3.0
 - slug: 09-meta-orchestration
   name: 09 Meta Orchestration
@@ -44,5 +44,5 @@
   avg_rating: 3.0
 - slug: quality-security
   name: Quality & Security
-  count: 17
+  count: 18
   avg_rating: 3.0

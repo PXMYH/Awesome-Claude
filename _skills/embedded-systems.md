@@ -28,26 +28,26 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/embedded-systems.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/embedded-systems.md
-fetched_at: '2026-10-10T08:06:14.913957Z'
+fetched_at: '2026-10-12T08:36:35.040757Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-10T08:21:36.222460Z'
+  evaluated_at: '2026-10-12T08:51:51.862749Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa48d76ef90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8bd033cfe0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa48d76ef90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8bd033cfe0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25616
-  forks: 2955
-  open_issues: 3
-  last_commit: '2026-10-05'
-  fetched_at: '2026-10-10T08:06:45.577365Z'
-indexed_at: '2026-10-10T08:33:20.833327Z'
+  stars: 25661
+  forks: 2958
+  open_issues: 0
+  last_commit: '2026-10-11'
+  fetched_at: '2026-10-12T08:36:55.350715Z'
+indexed_at: '2026-10-12T09:03:41.759795Z'
 ---
