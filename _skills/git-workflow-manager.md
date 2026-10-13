@@ -26,26 +26,26 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/git-workflow-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/git-workflow-manager.md
-fetched_at: '2026-10-12T08:36:32.344517Z'
+fetched_at: '2026-10-13T08:56:26.051724Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-12T08:50:06.356151Z'
+  evaluated_at: '2026-10-13T09:10:23.401980Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8bd0233b00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fddbdc3bb00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8bd0233b00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fddbdc3bb00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25661
-  forks: 2958
+  stars: 25675
+  forks: 2960
   open_issues: 0
   last_commit: '2026-10-11'
-  fetched_at: '2026-10-12T08:36:55.350715Z'
-indexed_at: '2026-10-12T09:03:41.727429Z'
+  fetched_at: '2026-10-13T08:56:59.378356Z'
+indexed_at: '2026-10-13T09:24:11.668978Z'
 ---
