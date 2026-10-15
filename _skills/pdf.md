@@ -17,34 +17,34 @@ prompt_preview: '---
   license: Proprietary. LICENSE.txt h...'
 full_prompt_length: 8035
 tools_mentioned:
-- JavaScript
 - python
+- JavaScript
 - Python
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/pdf/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md
-fetched_at: '2026-10-14T07:06:16.414533Z'
+fetched_at: '2026-10-15T06:57:15.140784Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-14T07:30:11.569999Z'
+  evaluated_at: '2026-10-15T07:21:13.015191Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8e01253ec0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9469bfe3c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f8e01253ec0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f9469bfe3c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 180989
-  forks: 21449
-  open_issues: 1407
+  stars: 181227
+  forks: 21453
+  open_issues: 1412
   last_commit: '2026-10-09'
-  fetched_at: '2026-10-14T07:06:25.916590Z'
-indexed_at: '2026-10-14T07:33:10.946657Z'
+  fetched_at: '2026-10-15T06:57:22.532126Z'
+indexed_at: '2026-10-15T07:24:12.829615Z'
 ---
