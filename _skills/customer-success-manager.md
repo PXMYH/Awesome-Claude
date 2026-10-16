@@ -28,26 +28,26 @@ category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/customer-success-manager.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/customer-success-manager.md
-fetched_at: '2026-10-15T06:57:04.822403Z'
+fetched_at: '2026-10-16T06:44:06.327720Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-15T07:14:50.309768Z'
+  evaluated_at: '2026-10-16T07:02:07.413039Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f94696c5670 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd7e161b2c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f94696c5670 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd7e161b2c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25732
-  forks: 2972
+  stars: 25749
+  forks: 2981
   open_issues: 0
   last_commit: '2026-10-11'
-  fetched_at: '2026-10-15T06:57:22.026125Z'
-indexed_at: '2026-10-15T07:24:12.663913Z'
+  fetched_at: '2026-10-16T06:44:32.370498Z'
+indexed_at: '2026-10-16T07:11:35.386538Z'
 ---
