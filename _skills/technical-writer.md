@@ -28,26 +28,26 @@ category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/technical-writer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/technical-writer.md
-fetched_at: '2026-10-17T06:33:45.443557Z'
+fetched_at: '2026-10-19T07:18:49.185933Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-17T06:52:55.171964Z'
+  evaluated_at: '2026-10-19T07:38:01.152013Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1f8ab313a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f274fb739b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f1f8ab313a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f274fb739b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25777
-  forks: 2997
+  stars: 25846
+  forks: 3041
   open_issues: 0
   last_commit: '2026-10-11'
-  fetched_at: '2026-10-17T06:34:12.031947Z'
-indexed_at: '2026-10-17T07:01:07.781357Z'
+  fetched_at: '2026-10-19T07:19:16.928949Z'
+indexed_at: '2026-10-19T07:46:12.696197Z'
 ---
