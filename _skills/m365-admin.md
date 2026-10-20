@@ -29,26 +29,26 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/m365-admin.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/m365-admin.md
-fetched_at: '2026-10-19T07:18:42.987834Z'
+fetched_at: '2026-10-20T07:10:15.380190Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-19T07:35:09.102111Z'
+  evaluated_at: '2026-10-20T07:26:54.123602Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f274fb73f50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5d37314bf0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f274fb73f50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5d37314bf0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25846
-  forks: 3041
+  stars: 25877
+  forks: 3072
   open_issues: 0
   last_commit: '2026-10-11'
-  fetched_at: '2026-10-19T07:19:16.928949Z'
-indexed_at: '2026-10-19T07:46:12.634703Z'
+  fetched_at: '2026-10-20T07:10:50.757265Z'
+indexed_at: '2026-10-20T07:37:59.651056Z'
 ---
