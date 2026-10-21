@@ -23,41 +23,41 @@ prompt_preview: '---
   spans microservices...'
 full_prompt_length: 7896
 tools_mentioned:
+- Go
+- REST
+- java
+- go
 - Kubernetes
 - rust
-- Docker
-- go
-- java
-- REST
-- Go
 - python
 - kubernetes
 - gRPC
+- Docker
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/golang-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/golang-pro.md
-fetched_at: '2026-10-20T07:09:45.718061Z'
+fetched_at: '2026-10-21T07:02:53.201567Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-20T07:14:13.220111Z'
+  evaluated_at: '2026-10-21T07:06:53.050324Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5d37315a60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa34144b020 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f5d37315a60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7fa34144b020 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25877
-  forks: 3072
+  stars: 25910
+  forks: 2998
   open_issues: 0
   last_commit: '2026-10-11'
-  fetched_at: '2026-10-20T07:10:50.757265Z'
-indexed_at: '2026-10-20T07:37:59.378445Z'
+  fetched_at: '2026-10-21T07:03:36.592562Z'
+indexed_at: '2026-10-21T07:30:25.934528Z'
 ---
