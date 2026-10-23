@@ -28,26 +28,26 @@ category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/auth-integration-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/auth-integration-engineer.md
-fetched_at: '2026-10-22T07:04:59.297382Z'
+fetched_at: '2026-10-23T06:56:51.207567Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-22T07:06:12.098550Z'
+  evaluated_at: '2026-10-23T06:58:21.239866Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2d95ff80e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7a4ccab28d70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7f2d95ff80e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7a4ccab28d70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25938
-  forks: 2989
-  open_issues: 2
+  stars: 25958
+  forks: 2987
+  open_issues: 3
   last_commit: '2026-10-11'
-  fetched_at: '2026-10-22T07:05:54.270879Z'
-indexed_at: '2026-10-22T07:32:50.523225Z'
+  fetched_at: '2026-10-23T06:58:02.913518Z'
+indexed_at: '2026-10-23T07:25:00.205867Z'
 ---
