@@ -12,33 +12,33 @@ prompt_preview: "---\nname: academy-guide\ndescription: >\n  Stop and check this
   \ connectors, MCP; requests about\n  rolling Clau..."
 full_prompt_length: 7715
 tools_mentioned:
-- go
 - rest
+- go
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/academy-guide/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/academy-guide/SKILL.md
-fetched_at: '2026-10-23T06:57:43.521525Z'
+fetched_at: '2026-10-24T06:52:30.711786Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-23T07:20:29.793282Z'
+  evaluated_at: '2026-10-24T07:15:14.283248Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7a4ccabe24e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7e372beed2e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7a4ccabe24e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7e372beed2e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 183115
-  forks: 21686
-  open_issues: 1430
+  stars: 183355
+  forks: 21714
+  open_issues: 1432
   last_commit: '2026-10-09'
-  fetched_at: '2026-10-23T06:58:03.692138Z'
-indexed_at: '2026-10-23T07:25:00.624500Z'
+  fetched_at: '2026-10-24T06:52:49.952350Z'
+indexed_at: '2026-10-24T07:19:45.184893Z'
 ---

@@ -33,35 +33,35 @@ prompt_preview: '---
   3. Search for ag...'
 full_prompt_length: 3555
 tools_mentioned:
-- typescript
-- PHP
 - python
+- typescript
 - php
+- PHP
 category: 09-meta-orchestration
 category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/agent-installer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/agent-installer.md
-fetched_at: '2026-10-23T06:57:36.030268Z'
+fetched_at: '2026-10-24T06:52:24.377134Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-23T07:17:21.469029Z'
+  evaluated_at: '2026-10-24T07:12:06.119399Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7a4cca6c3f80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7e372bfba780 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7a4cca6c3f80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7e372bfba780 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25958
+  stars: 25984
   forks: 2987
   open_issues: 3
   last_commit: '2026-10-11'
-  fetched_at: '2026-10-23T06:58:02.913518Z'
-indexed_at: '2026-10-23T07:25:00.564020Z'
+  fetched_at: '2026-10-24T06:52:49.178023Z'
+indexed_at: '2026-10-24T07:19:45.111645Z'
 ---
