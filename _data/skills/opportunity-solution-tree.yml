@@ -10,7 +10,7 @@ prompt_preview: "---\nname: opportunity-solution-tree\ndescription: \"Build an O
   \ when multiple opportunities compete, or before writing a PRD for a complex feature\
   \ space.\"\nwhen_to_use: |\n  Apply when:\n  - The team knows the outcome to improve\
   \ but not which opportunity..."
-full_prompt_length: 7223
+full_prompt_length: 7243
 tools_mentioned:
 - go
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: avelikiy/great_cto
 source_path: skills/opportunity-solution-tree/SKILL.md
 source_url: https://github.com/avelikiy/great_cto/blob/main/skills/opportunity-solution-tree/SKILL.md
-fetched_at: '2026-08-02T05:26:46.502506+00:00'
+fetched_at: '2026-10-25T07:16:56.700142+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:33:52.096214Z'
+  evaluated_at: '2026-10-25T08:40:49.539164Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad1ade80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e29b5c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad1ade80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e29b5c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.055753Z'
-indexed_at: '2026-08-02T09:26:14.055759Z'
+  fetched_at: '2026-10-25T12:12:05.700696Z'
+indexed_at: '2026-10-25T12:12:05.700702Z'

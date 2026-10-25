@@ -1,0 +1,42 @@
+id: packer-windows-builder
+slug: packer-windows-builder
+name: Windows Builder
+description: '- [WinRM Communicator](https://developer.hashicorp.com/packer/docs/communicators/winrm)'
+prompt_preview: "---\nname: windows-builder\ndescription: Build Windows images with\
+  \ Packer using WinRM communicator and PowerShell provisioners. Use when creating\
+  \ Windows AMIs, Azure images, or VMware templates.\nmetadata:\n  lifecycle-status:\
+  \ active\n---\n\n# Windows Builder\n\nPlatform-agnostic patterns for building Windows\
+  \ images with Packer.\n\n**Reference:** [WinRM Communicator](https://developer.hashicorp.com/packer/docs/communicators/winrm)\n\
+  \n> **Note:** Windows builds incur significant costs and time. Expect 45-120..."
+full_prompt_length: 4601
+tools_mentioned:
+- azure
+- Azure
+- AWS
+category: community
+category_display: Community
+source_repo: hashicorp/agent-skills
+source_path: plugins/packer/skills/windows-builder/SKILL.md
+source_url: https://github.com/hashicorp/agent-skills/blob/main/plugins/packer/skills/windows-builder/SKILL.md
+fetched_at: '2026-10-25T07:17:49.642979+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:29:28.489987Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2d4740 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2d4740 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.554915Z'
+indexed_at: '2026-10-25T12:12:06.554919Z'

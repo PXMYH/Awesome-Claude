@@ -7,8 +7,7 @@ prompt_preview: '---
 
   name: expo-upgrade
 
-  description: Framework (OSS). Guidelines for upgrading Expo SDK versions and fixing
-  dependency issues
+  description: Guidelines for upgrading Expo SDK versions and fixing dependency issues
 
   version: 1.0.0
 
@@ -28,29 +27,29 @@ prompt_preview: '---
   - ./references/react-compiler.md -- SDK +54: React Compiler setup and migration
   guide
 
-  - ./references/native-tabs.md -- SDK +...'
-full_prompt_length: 6405
+  - ./references/native-tabs.md -- SDK +55: Native tabs c...'
+full_prompt_length: 7703
 tools_mentioned:
-- React
-- react
-- sqlite
 - Go
+- React
+- sqlite
+- react
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-upgrade/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-upgrade/SKILL.md
-fetched_at: '2026-08-02T05:27:47.606046+00:00'
+fetched_at: '2026-10-25T07:17:47.043330+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:13:23.738875Z'
+  evaluated_at: '2026-10-25T09:28:31.817909Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed250 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4fb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed250 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4fb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -60,6 +59,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.793852Z'
-indexed_at: '2026-08-02T09:26:14.793857Z'
+  fetched_at: '2026-10-25T12:12:06.537804Z'
+indexed_at: '2026-10-25T12:12:06.537809Z'
 ---

@@ -2,44 +2,47 @@
 id: nextflow
 slug: nextflow
 name: Nextflow
-description: 'Official docs: Nextflow https://www.nextflow.io/docs/latest/ · nf-core
-  https://nf-co.re/docs/ · Training https://training.nextflow.io/'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: nextflow
 
-  description: Build, run, and debug Nextflow data pipelines and nf-core workflows
-  end to end. Use whenever the user mentions Nextflow, nf-core, .nf files, nextflow.config,
-  DSL2, processes/channels/operators, samplesheets, or wants to run a community pipeline
-  (e.g. nf-core/rnaseq, nf-core/sarek), write or test a module/subworkflow with nf-test,
-  configure executors/containers (Docker, Singularity/Apptainer, Conda, Wave), scale
-  a workflow to HPC/SLURM or cloud (AWS Batch, Google B...'
-full_prompt_length: 12180
+  description: Builds, runs, and debugs Nextflow DSL2 pipelines and nf-core workflows.
+  Use for Nextflow, nf-core, .nf files, nextflow.config, processes/channels/operators,
+  samplesheets, nf-test, modules/subworkflows, container and executor configuration,
+  HPC/SLURM or cloud deployment, and failed or resumed pipeline runs.
+
+  license: Apache-2.0
+
+  compatibility: Requires Bash 3.2+, Java 17-26 and Nextflow. nf-core tools requires
+  Python 3.10+. Containers, scheduler access and network or...'
+full_prompt_length: 14905
 tools_mentioned:
-- Docker
-- Azure
+- Java
+- Kubernetes
+- docker
 - AWS
 - Python
-- Kubernetes
+- Docker
+- Azure
 - java
-- docker
-- Java
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/nextflow/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/nextflow/SKILL.md
-fetched_at: '2026-08-02T05:25:32.425947+00:00'
+fetched_at: '2026-10-25T07:15:54.849702+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:47:42.937762Z'
+  evaluated_at: '2026-10-25T07:49:11.902405Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaefe90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4bf0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaefe90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4bf0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.190753Z'
-indexed_at: '2026-08-02T09:26:13.190760Z'
+  fetched_at: '2026-10-25T12:12:04.791689Z'
+indexed_at: '2026-10-25T12:12:04.791698Z'
 ---

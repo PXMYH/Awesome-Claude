@@ -7,12 +7,11 @@ prompt_preview: '---
 
   name: eas-workflows
 
-  description: EAS service (paid). Helps understand and write EAS workflow YAML files
-  for Expo projects. Use this skill when the user asks about CI/CD or workflows in
-  an Expo or EAS context, mentions .eas/workflows/, or wants help with EAS build pipelines
-  or deployment automation.
+  description: Helps understand and write EAS workflow YAML files for Expo projects.
+  Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context,
+  mentions .eas/workflows/, or wants help with EAS build pipelines or deployment automation.
 
-  allowed-tools: "Read,Write,Bash(node:*)"
+  allowed-tools: "Read,Write,Bash(node:*),Bash(npx *eas-cli@*)"
 
   version: 1.0.0
 
@@ -25,8 +24,8 @@ prompt_preview: '---
 
 
   > **EAS service - costs apply.** EAS Workflows run on Expo Application Services,
-  a paid pro...'
-full_prompt_length: 4231
+  a paid pr...'
+full_prompt_length: 4826
 tools_mentioned:
 - Node.js
 category: community
@@ -34,17 +33,17 @@ category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/eas-workflows/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/eas-workflows/SKILL.md
-fetched_at: '2026-08-02T05:27:45.412118+00:00'
+fetched_at: '2026-10-25T07:17:45.385376+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:11:28.821284Z'
+  evaluated_at: '2026-10-25T09:26:30.167267Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeffe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7e30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeffe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7e30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -54,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.758426Z'
-indexed_at: '2026-08-02T09:26:14.758431Z'
+  fetched_at: '2026-10-25T12:12:06.501375Z'
+indexed_at: '2026-10-25T12:12:06.501379Z'
 ---

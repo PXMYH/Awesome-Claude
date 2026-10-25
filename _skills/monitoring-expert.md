@@ -13,7 +13,7 @@ prompt_preview: '---
   profiling, and plans infrastructure capacity. Use when setting up application monitoring,
   adding observability to services, debugging production issues with logs/metrics/traces,
   running load tests with k6...'
-full_prompt_length: 6162
+full_prompt_length: 6338
 tools_mentioned:
 - Node.js
 category: community
@@ -21,17 +21,17 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/monitoring-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/monitoring-expert/SKILL.md
-fetched_at: '2026-08-02T05:28:51.453117+00:00'
+fetched_at: '2026-10-25T07:18:36.581969+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:50:48.784867Z'
+  evaluated_at: '2026-10-25T10:08:11.918444Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18d70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32cc20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18d70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32cc20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.492865Z'
-indexed_at: '2026-08-02T09:26:15.492871Z'
+  fetched_at: '2026-10-25T12:12:07.245903Z'
+indexed_at: '2026-10-25T12:12:07.245907Z'
 ---

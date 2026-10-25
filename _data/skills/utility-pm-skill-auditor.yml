@@ -7,26 +7,27 @@ prompt_preview: "---\nname: utility-pm-skill-auditor\ndescription: Run a repo-wi
   \ the enforcing validator suite, re-derives aggregate counters, and surfaces cross-cutting\
   \ issues no single validator catches, graded P0/P1/P2/P3 with a machine-readable\
   \ status. Use for pre-release readiness checks or a periodic repo health audit.\n\
-  license: Apache-2.0\nmetadata:\n  classification: utility\n  version: \"1.0.1\"\n\
+  license: Apache-2.0\nmetadata:\n  classification: utility\n  version: \"1.1.0\"\n\
   \  updated: 2026-06-10\n  category: gov..."
-full_prompt_length: 4684
-tools_mentioned: []
+full_prompt_length: 4868
+tools_mentioned:
+- go
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/utility-pm-skill-auditor/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/utility-pm-skill-auditor/SKILL.md
-fetched_at: '2026-08-02T05:30:42.168206+00:00'
+fetched_at: '2026-10-25T07:20:07.846778+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:00:55.339013Z'
+  evaluated_at: '2026-10-25T11:25:34.315899Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeff50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1e810 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeff50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1e810 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.816702Z'
-indexed_at: '2026-08-02T09:26:16.816707Z'
+  fetched_at: '2026-10-25T12:12:08.650985Z'
+indexed_at: '2026-10-25T12:12:08.650990Z'

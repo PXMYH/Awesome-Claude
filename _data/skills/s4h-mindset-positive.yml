@@ -20,17 +20,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-mindset-positive/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-mindset-positive/SKILL.md
-fetched_at: '2026-08-02T05:28:20.135943+00:00'
+fetched_at: '2026-10-25T07:18:13.218665+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:34:25.758293Z'
+  evaluated_at: '2026-10-25T09:51:56.792653Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb185c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1c6b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb185c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1c6b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.186659Z'
-indexed_at: '2026-08-02T09:26:15.186665Z'
+  fetched_at: '2026-10-25T12:12:06.954629Z'
+indexed_at: '2026-10-25T12:12:06.954634Z'

@@ -1,33 +1,32 @@
 id: qdrant-performance-optimization
 slug: qdrant-performance-optimization
 name: Qdrant Performance Optimization
-description: More on memory usage optimization can be found in the [Memory Usage Optimization](memory-usage-optimization/SKILL.md)
-  skill.
+description: Latency and throughput pull opposite ways on segment count.
 prompt_preview: "---\nname: qdrant-performance-optimization\ndescription: \"Navigation\
   \ hub linking sub-skills for proactive Qdrant tuning: search speed, indexing performance,\
   \ and memory usage optimization. Use when planning configuration or capacity changes\
   \ to improve speed and efficiency. For diagnosing an active production slowdown\
   \ or analyzing live metrics, use qdrant-monitoring instead.\"\nallowed-tools:\n\
-  \  - Read\n  - Grep\n  - Glob\n---\n\n\n# Qdrant Performance Optimization\n\nThere\
-  \ are different aspects of Qdrant perf..."
-full_prompt_length: 1939
+  \  - Read\n  - Grep\n  - Glob\n---\n\n\n# Qdrant Performance Optimization\n\nRoute\
+  \ first, then answer. Match the user's..."
+full_prompt_length: 1823
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: qdrant/skills
 source_path: skills/qdrant-performance-optimization/SKILL.md
 source_url: https://github.com/qdrant/skills/blob/main/skills/qdrant-performance-optimization/SKILL.md
-fetched_at: '2026-08-02T05:30:45.607651+00:00'
+fetched_at: '2026-10-25T07:20:10.529947+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:02:49.527873Z'
+  evaluated_at: '2026-10-25T11:27:52.406984Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed2b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4710 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed2b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4710 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.852683Z'
-indexed_at: '2026-08-02T09:26:16.852689Z'
+  fetched_at: '2026-10-25T12:12:08.695258Z'
+indexed_at: '2026-10-25T12:12:08.695262Z'

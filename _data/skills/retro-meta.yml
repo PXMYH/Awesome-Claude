@@ -1,0 +1,50 @@
+id: retro-meta
+slug: retro-meta
+name: ax:retro-meta - deep retro of retros
+description: Output of `ax retro meta` defaults to JSON because the reader is you,
+prompt_preview: '---
+
+  name: retro-meta
+
+  description: Deep retro of retros - investigation pass that surfaces improvements
+  across older retros and the current ax setup. External AI agent drives the reasoning
+  with high thinking enabled. Triggers when user says "deep retro", "investigate ax",
+  "what should I fix in my setup", "retro of retros", or invokes /ax:retro-meta. Use
+  after `ax:retro` if proposals are sparse or you want broader exploration.
+
+  ---
+
+
+  # ax:retro-meta - deep retro of retros
+
+
+  The companion to `ax:retro...'
+full_prompt_length: 7037
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: Necmttn/ax
+source_path: skills/retro-meta/SKILL.md
+source_url: https://github.com/Necmttn/ax/blob/main/skills/retro-meta/SKILL.md
+fetched_at: '2026-10-25T07:16:07.399596+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T08:02:24.001672Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2f52b0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2f52b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:05.019816Z'
+indexed_at: '2026-10-25T12:12:05.019820Z'

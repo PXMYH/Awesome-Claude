@@ -1,0 +1,50 @@
+---
+id: suede-video
+slug: suede-video
+name: Suede AI Video Production
+description: '- Use `suede-social` to choose channel strategy, cadence, and distribution.'
+prompt_preview: '---
+
+  name: suede-video
+
+  description: "Suede AI marketing video production: format choice, scripts, storyboards,
+  AI generation and avatar plans with consent and rights gates, programmatic rendering,
+  edit decision lists, reverse-engineered pacing, platform export specs, and YouTube
+  and video search optimization (titles, chapters, transcripts, VideoObject schema).
+  Use when scripting, generating, editing, or packaging a marketing video, or building
+  a repeatable video pipeline. NOT FOR: the social cale...'
+full_prompt_length: 18634
+tools_mentioned:
+- typescript
+- Python
+- Node.js
+- rest
+- React
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-video/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-video/SKILL.md
+fetched_at: '2026-10-25T07:15:39.615426+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:35:31.977085Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e43be30 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e43be30 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.553916Z'
+indexed_at: '2026-10-25T12:12:04.553920Z'
+---

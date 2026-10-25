@@ -1,0 +1,43 @@
+id: terraform-provider-actions
+slug: terraform-provider-actions
+name: Terraform Provider Actions Implementation Guide
+description: '- [Terraform Plugin Framework Documentation](https://developer.hashicorp.com/terraform/plugin/framework)'
+prompt_preview: "---\nname: provider-actions\ndescription: Implement Terraform Provider\
+  \ actions using the Plugin Framework. Use when developing imperative operations\
+  \ that execute at lifecycle events (before/after create, update, destroy).\nmetadata:\n\
+  \  lifecycle-status: active\n  copyright: Copyright IBM Corp. 2026\n  version: \"\
+  0.0.1\"\n---\n\n# Terraform Provider Actions Implementation Guide\n\n## Overview\n\
+  \nTerraform Actions enable imperative operations during the Terraform lifecycle.\
+  \ Actions are experimental features that..."
+full_prompt_length: 17236
+tools_mentioned:
+- AWS
+- aws
+- go
+category: community
+category_display: Community
+source_repo: hashicorp/agent-skills
+source_path: plugins/terraform/skills/provider-actions/SKILL.md
+source_url: https://github.com/hashicorp/agent-skills/blob/main/plugins/terraform/skills/provider-actions/SKILL.md
+fetched_at: '2026-10-25T07:17:50.096927+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:29:52.737872Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e0579e0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e0579e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.561252Z'
+indexed_at: '2026-10-25T12:12:06.561256Z'

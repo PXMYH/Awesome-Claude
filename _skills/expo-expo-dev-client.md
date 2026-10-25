@@ -7,9 +7,9 @@ prompt_preview: '---
 
   name: expo-dev-client
 
-  description: Framework (OSS). Build and distribute Expo development clients locally
-  or via TestFlight for internal testing. For production TestFlight releases and store
-  submission, use the eas-app-stores skill.
+  description: Build and distribute Expo development clients locally or via TestFlight
+  for internal testing. For production TestFlight releases and store submission, use
+  the eas-app-stores skill.
 
   version: 1.1.0
 
@@ -23,8 +23,8 @@ prompt_preview: '---
   app.
 
 
-  > **Free locally; cloud builds are paid.** `expo-dev-...'
-full_prompt_length: 4554
+  > **Free locally; cloud builds are paid.** `expo-dev-client` itself is...'
+full_prompt_length: 5464
 tools_mentioned:
 - Go
 category: community
@@ -32,17 +32,17 @@ category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-dev-client/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-dev-client/SKILL.md
-fetched_at: '2026-08-02T05:27:46.017001+00:00'
+fetched_at: '2026-10-25T07:17:46.060029+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:12:01.460516Z'
+  evaluated_at: '2026-10-25T09:27:19.029490Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaefd10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8d40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaefd10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8d40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -52,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.768561Z'
-indexed_at: '2026-08-02T09:26:14.768567Z'
+  fetched_at: '2026-10-25T12:12:06.515199Z'
+indexed_at: '2026-10-25T12:12:06.515204Z'
 ---

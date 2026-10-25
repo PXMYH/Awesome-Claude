@@ -1,0 +1,43 @@
+---
+id: commit-push-pr
+slug: commit-push-pr
+name: Commit, Push, and Open PR
+description: Do all of the above in a single message using multiple tool calls. Return
+  the PR URL when done.
+prompt_preview: "---\nname: commit-push-pr\ndescription: Full git workflow - creates\
+  \ branch, commits, pushes, and creates or updates a PR with summary and test plan.\n\
+  user_invocable: true\nallowed-tools:\n  - Bash(git checkout --branch:*)\n  - Bash(git\
+  \ checkout -b:*)\n  - Bash(git add:*)\n  - Bash(git status:*)\n  - Bash(git push:*)\n\
+  \  - Bash(git commit:*)\n  - Bash(gh pr create:*)\n  - Bash(gh pr edit:*)\n  - Bash(gh\
+  \ pr view:*)\n  - Bash(gh pr merge:*)\n---\n\n# Commit, Push, and Open PR\n\n##\
+  \ Context\n\nGather this context first:..."
+full_prompt_length: 2652
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: sneg55/agent-starter
+source_path: skills/commit-push-pr/SKILL.md
+source_url: https://github.com/sneg55/agent-starter/blob/main/skills/commit-push-pr/SKILL.md
+fetched_at: '2026-10-25T07:20:18.899389+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T11:33:19.663446Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee44d0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee44d0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:08.791870Z'
+indexed_at: '2026-10-25T12:12:08.791874Z'
+---

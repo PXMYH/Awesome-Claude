@@ -1,0 +1,46 @@
+---
+id: music-video
+slug: music-video
+name: music-video
+description: '- This skill does not compose music, generate sound effects, or create
+  images and video through an API.'
+prompt_preview: "---\nname: music-video\ndescription: \"Build a music video from an\
+  \ existing song and lyrics, either as p5.js/p5.brush animation or by assembling\
+  \ local images and clips. Use when the user mentions a music video, MV, lyric video,\
+  \ visualizer, storyboard, 音乐视频, 歌词动画, or MV合成. Do not use it to compose the song,\
+  \ generate sound effects, or call an image or video generation API.\"\npermissions:\n\
+  \  - filesystem\n  - network\n---\n\n# music-video\n\nTurn one finished song into\
+  \ a 24fps music video. The song is the mas..."
+full_prompt_length: 6147
+tools_mentioned:
+- Node.js
+- Python
+- JavaScript
+category: community
+category_display: Community
+source_repo: NoizAI/skills
+source_path: skills/music-video/SKILL.md
+source_url: https://github.com/NoizAI/skills/blob/main/skills/music-video/SKILL.md
+fetched_at: '2026-10-25T07:16:09.065724+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T08:03:28.721070Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba9f0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba9f0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:05.037420Z'
+indexed_at: '2026-10-25T12:12:05.037425Z'
+---

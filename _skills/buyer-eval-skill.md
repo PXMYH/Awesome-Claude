@@ -1,37 +1,34 @@
 ---
 id: buyer-eval-skill
 slug: buyer-eval-skill
-name: Detect skill directory
-description: If a system administrator has set `BUYER_EVAL_NO_TELEMETRY=1` or deployed
-  `/etc/salespeak/buyer-eval.json` with `{"locked":true,"consent":false}`, `TELEMETRY_STATE`
-  will be `locked_off` and no consent...
-prompt_preview: "---\nname: buyer-eval\nversion: 3.5.0\ndescription: |\n  Structured\
-  \ B2B software vendor evaluation for buyers. Researches your company,\n  asks domain-expert\
-  \ questions, engages vendor AI agents via the Salespeak Frontdoor\n  API, scores\
-  \ vendors across 7 dimensions, and produces a comparative recommendation\n  with\
-  \ evidence transparency. Use when asked to evaluate, compare, or research B2B\n\
-  \  software vendors.\nallowed-tools:\n  - Bash\n  - Read\n  - Write\n  - WebSearch\n\
-  \  - WebFetch\n  - AskUserQuestion\n---..."
-full_prompt_length: 11818
+name: Buyer Eval
+description: 1. **Deliver the brief in chat** in the order set by `references/report-format.md`.
+prompt_preview: "---\nname: buyer-eval-skill\nversion: 4.1.1\ndescription: |\n  An\
+  \ AI analyst for buying B2B software. Investigates what vendors claim, checks\n\
+  \  the evidence, surfaces contradictions and unanswered questions, and produces\
+  \ a\n  shareable Decision Brief with the questions to ask before you buy. Quick\
+  \ Eval by\n  default; Deep Eval on request. Use when asked to evaluate, compare,\
+  \ vet, or\n  research B2B software vendors.\nallowed-tools:\n  - Bash\n  - Read\n\
+  \  - Write\n  - WebSearch\n  - WebFetch\n  - AskUserQuesti..."
+full_prompt_length: 6999
 tools_mentioned:
 - Python
-- go
 category: community
 category_display: Community
 source_repo: salespeak-ai/buyer-eval-skill
 source_path: SKILL.md
 source_url: https://github.com/salespeak-ai/buyer-eval-skill/blob/main/SKILL.md
-fetched_at: '2026-08-02T05:30:50.221683+00:00'
+fetched_at: '2026-10-25T07:20:14.391885+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:04:20.465021Z'
+  evaluated_at: '2026-10-25T11:29:29.657857Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad121f40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1e570 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad121f40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1e570 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.881202Z'
-indexed_at: '2026-08-02T09:26:16.881208Z'
+  fetched_at: '2026-10-25T12:12:08.723814Z'
+indexed_at: '2026-10-25T12:12:08.723819Z'
 ---

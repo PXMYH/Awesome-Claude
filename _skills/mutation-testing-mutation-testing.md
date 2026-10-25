@@ -1,49 +1,55 @@
 ---
 id: mutation-testing-mutation-testing
 slug: mutation-testing-mutation-testing
-name: Mutation Testing — Campaign Configuration (mewt/muton)
-description: '- **Caught/TestFail**: Tests detected the mutation (good)'
+name: Mutation Testing (mewt/muton)
+description: Severity ranks the *mutation*, not the risk. A low-severity survivor
+  in a fee calculation matters more than a high-severity survivor in a log line —
+  weigh what the mutated code does. Filter with `--se...
 prompt_preview: '---
 
   name: mutation-testing
 
-  description: "Configures mewt or muton mutation testing campaigns — scopes targets,
-  tunes timeouts, and optimizes long-running runs. Use when the user mentions mewt,
-  muton, mutation testing, or wants to configure or optimize a mutation testing campaign."
+  description: "Configures mewt or muton campaigns, analyzes surviving mutants, and
+  investigates bugs exposed by testing gaps. Use when setting up mutation testing,
+  reviewing campaign results, identifying equivalent mutants, or finding bugs from
+  surviving mutations."
 
   allowed-tools: Read Write Bash Grep
+
 
   ---
 
 
-  # Mutation Testing — Campaign Configuration (mewt/muton)
+  # Mutation Testing (mewt/muton)
 
 
-  > **Note**: muton and mewt share identical interfaces but target different languages
-  — mewt for general-purpose languag...'
-full_prompt_length: 2849
+  Routes to the right mutation testing workflow and loads the references that workflow
+  needs.
+
+
+  > **Note**: muton and mewt share identi...'
+full_prompt_length: 6193
 tools_mentioned:
+- javascript
 - sqlite
-- Go
-- TypeScript
 - Rust
-- JavaScript
+- rust
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/mutation-testing/skills/mutation-testing/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/mutation-testing/skills/mutation-testing/SKILL.md
-fetched_at: '2026-08-02T05:31:20.838243+00:00'
+fetched_at: '2026-10-25T07:20:36.991215+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:16:16.722737Z'
+  evaluated_at: '2026-10-25T11:42:32.270147Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1da90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1da90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -53,6 +59,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:17.104336Z'
-indexed_at: '2026-08-02T09:26:17.104342Z'
+  fetched_at: '2026-10-25T12:12:08.957269Z'
+indexed_at: '2026-10-25T12:12:08.957279Z'
 ---

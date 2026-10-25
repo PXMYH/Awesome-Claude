@@ -23,31 +23,31 @@ prompt_preview: '---
   and risk mitigation with emphasis on providing...'
 full_prompt_length: 6646
 tools_mentioned: []
-category: 08-business-product
-category_display: 08 Business Product
+category: business-product
+category_display: Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/legal-advisor.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/legal-advisor.md
-fetched_at: '2026-10-24T06:52:21.521737Z'
+fetched_at: '2026-10-25T07:16:38.261227+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-24T07:10:43.910382Z'
+  evaluated_at: '2026-10-25T08:28:19.301126Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7e372c2db4a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debb890 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7e372c2db4a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debb890 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 25984
-  forks: 2987
-  open_issues: 3
+  stars: 26006
+  forks: 2992
+  open_issues: 4
   last_commit: '2026-10-11'
-  fetched_at: '2026-10-24T06:52:49.178023Z'
-indexed_at: '2026-10-24T07:19:45.081149Z'
+  fetched_at: '2026-10-25T07:21:17.773344Z'
+indexed_at: '2026-10-25T12:12:05.479174Z'
 ---

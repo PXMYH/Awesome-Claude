@@ -1,0 +1,48 @@
+id: dashmotion
+slug: dashmotion
+name: Dashmotion
+description: 'One self-contained `.html`: embedded CSS, inline SVG, no external assets,
+  no JS dependencies — only the ~15-line inline pause/reduced-motion script. Renders
+  correctly opened from the filesystem.'
+prompt_preview: '---
+
+  name: dashmotion
+
+  version: 2.2.4
+
+  description: ''Create dark-themed, animated technical diagrams as self-contained
+  HTML+SVG files — flowcharts whose connectors visibly flow, and architecture diagrams
+  where requests travel as light dots through the system (Diagrid/Temporal landing-page
+  style). Use this skill whenever the user asks for a flowchart, workflow, pipeline,
+  process diagram, state machine, system architecture, infrastructure, cloud, microservices,
+  or network topology diagram — and espec...'
+full_prompt_length: 14135
+tools_mentioned:
+- Python
+category: community
+category_display: Community
+source_repo: csthink/dashmotion
+source_path: skills/dashmotion/SKILL.md
+source_url: https://github.com/csthink/dashmotion/blob/main/skills/dashmotion/SKILL.md
+fetched_at: '2026-10-25T07:17:27.703466+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:09:08.691431Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057e90 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057e90 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.191677Z'
+indexed_at: '2026-10-25T12:12:06.191682Z'

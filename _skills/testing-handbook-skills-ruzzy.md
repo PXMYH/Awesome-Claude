@@ -3,14 +3,27 @@ id: testing-handbook-skills-ruzzy
 slug: testing-handbook-skills-ruzzy
 name: Ruzzy
 description: '**[Fuzzing pure Ruby code](https://github.com/trailofbits/ruzzy#fuzzing-pure-ruby-code)**'
-prompt_preview: "---\nname: ruzzy\ntype: fuzzer\ndescription: >\n  Ruzzy is a coverage-guided\
-  \ Ruby fuzzer by Trail of Bits.\n  Use for fuzzing pure Ruby code and Ruby C extensions.\n\
-  ---\n\n# Ruzzy\n\nRuzzy is a coverage-guided fuzzer for Ruby built on libFuzzer.\
-  \ It enables fuzzing both pure Ruby code and Ruby C extensions with sanitizer support\
-  \ for detecting memory corruption and undefined behavior.\n\n## When to Use\n\n\
-  Ruzzy is currently the only production-ready coverage-guided fuzzer for Ruby.\n\n\
-  **Choose Ruzzy when:**\n- Fuz..."
-full_prompt_length: 11936
+prompt_preview: '---
+
+  name: ruzzy
+
+  type: fuzzer
+
+  description: "Sets up and runs Ruzzy, Trail of Bits'' coverage-guided Ruby fuzzer
+  and the only production-ready one for the language. Covers harness structure, fuzzing
+  pure Ruby and the native C extensions in gems, and sanitizer builds. Use when fuzzing
+  a Ruby library or gem, testing a Ruby C extension for memory safety, or asking how
+  to fuzz Ruby at all."
+
+  ---
+
+
+  # Ruzzy
+
+
+  Ruzzy is a coverage-guided fuzzer for Ruby built on libFuzzer. It enables fuzzing
+  both pure Ruby co...'
+full_prompt_length: 12164
 tools_mentioned:
 - ruby
 - Ruby
@@ -19,17 +32,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/ruzzy/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/ruzzy/SKILL.md
-fetched_at: '2026-08-02T05:31:29.402148+00:00'
+fetched_at: '2026-10-25T07:20:43.136761+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:20:00.890597Z'
+  evaluated_at: '2026-10-25T11:47:49.554867Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ac988530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32cce0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ac988530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32cce0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:17.175544Z'
-indexed_at: '2026-08-02T09:26:17.175549Z'
+  fetched_at: '2026-10-25T12:12:09.050680Z'
+indexed_at: '2026-10-25T12:12:09.050684Z'
 ---

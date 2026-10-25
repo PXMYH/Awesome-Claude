@@ -1,33 +1,41 @@
 id: primekg
 slug: primekg
-name: PrimeKG Knowledge Graph Skill
-description: '### Data Path'
-prompt_preview: "---\nname: primekg\ndescription: Query the Precision Medicine Knowledge\
-  \ Graph (PrimeKG) for multiscale biological data including genes, drugs, diseases,\
-  \ phenotypes, and more.\nlicense: Unknown\nmetadata:\n  version: \"1.1\"\n  skill-author:\
-  \ K-Dense Inc. (PrimeKG original from Harvard MIMS)\n---\n\n# PrimeKG Knowledge\
-  \ Graph Skill\n\n## Overview\n\nPrimeKG is a precision medicine knowledge graph\
-  \ that integrates over 20 primary databases and high-quality scientific literature\
-  \ into a single resource. It contains o..."
-full_prompt_length: 3996
+name: PrimeKG Knowledge Graph
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
+prompt_preview: '---
+
+  name: primekg
+
+  description: Queries a pinned Precision Medicine Knowledge Graph (PrimeKG) CSV for
+  typed gene, drug, disease, and phenotype nodes, direct associations, disease context,
+  and one- or two-hop paths. Use for PrimeKG reproducibility, biological association
+  lookup, and hypothesis generation with relation and data provenance preserved.
+
+  license: Unknown
+
+  compatibility: Requires Python 3.11+ and pandas. Network access is needed only to
+  obtain public metadata/data; local queries need a do...'
+full_prompt_length: 9659
 tools_mentioned:
+- Python
 - python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/primekg/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/primekg/SKILL.md
-fetched_at: '2026-08-02T05:25:37.084597+00:00'
+fetched_at: '2026-10-25T07:15:57.952902+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:51:20.662783Z'
+  evaluated_at: '2026-10-25T07:52:43.946876Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4e30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4e30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +45,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.259439Z'
-indexed_at: '2026-08-02T09:26:13.259444Z'
+  fetched_at: '2026-10-25T12:12:04.853730Z'
+indexed_at: '2026-10-25T12:12:04.853735Z'

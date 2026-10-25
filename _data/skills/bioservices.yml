@@ -1,44 +1,45 @@
 id: bioservices
 slug: bioservices
 name: BioServices
-description: 'For detailed API documentation and advanced features, refer to:'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: bioservices
 
-  description: Unified Python interface to 40+ bioinformatics services. Use when querying
-  multiple databases (UniProt, KEGG, ChEMBL, Reactome) in a single workflow with consistent
-  API. Best for cross-database analysis, ID mapping across services. For quick single-database
-  lookups use gget; for sequence/file manipulation use biopython.
+  description: Provides a Python interface to bioinformatics services including UniProt,
+  KEGG, ChEMBL, Reactome, QuickGO, and UniChem. Used for cross-database protein annotation,
+  pathway retrieval, chemical identifier mapping, and integrated biological data workflows
+  with BioServices.
 
   license: GPLv3 license
 
   allowed-tools: Read Write Edit Bash
 
-  compatibility: Requires Python 3.9–3.12 and internet access to 40+ bioinformatics
-  we...'
-full_prompt_length: 12124
+  compatibility: Requires Python >=3.9,<4 with bioservices==1.16.0 and internet access.
+  EMBL-EBI BLAST submission requires a real contact...'
+full_prompt_length: 11944
 tools_mentioned:
-- REST
+- rest
 - Python
-- python
 - GO
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/bioservices/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/bioservices/SKILL.md
-fetched_at: '2026-08-02T05:25:21.072459+00:00'
+fetched_at: '2026-10-25T07:15:45.857555+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:39:01.212071Z'
+  evaluated_at: '2026-10-25T07:39:18.952665Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad5e8a10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057740 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad5e8a10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057740 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,5 +49,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.020959Z'
-indexed_at: '2026-08-02T09:26:13.020964Z'
+  fetched_at: '2026-10-25T12:12:04.619600Z'
+indexed_at: '2026-10-25T12:12:04.619604Z'

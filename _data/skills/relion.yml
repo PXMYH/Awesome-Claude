@@ -1,0 +1,49 @@
+id: relion
+slug: relion
+name: RELION single-particle refinement
+description: '- [RELION 5.0 installation](https://relion.readthedocs.io/en/release-5.0/Installation.html).'
+prompt_preview: '---
+
+  name: relion
+
+  description: Validates and executes RELION single-particle cryo-EM refinement and
+  half-map postprocessing. Supports STAR optics/acquisition checks, particle-stack
+  consistency, gold-standard half sets, soft-mask validation, diagnostic Fourier shell
+  correlation, and restart guidance.
+
+  license: MIT
+
+  compatibility: Python 3.12+ with numpy, mrcfile and starfile for bundled validation;
+  RELION 5.0.1 CPU/MPI executables for refinement and postprocessing. Native workflows
+  require MPI, Open...'
+full_prompt_length: 8075
+tools_mentioned:
+- Python
+- python
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: skills/relion/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/relion/SKILL.md
+fetched_at: '2026-10-25T07:16:00.550227+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:55:43.747129Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5250 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5250 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.905150Z'
+indexed_at: '2026-10-25T12:12:04.905154Z'

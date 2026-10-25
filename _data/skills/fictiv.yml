@@ -1,0 +1,46 @@
+id: fictiv
+slug: fictiv
+name: 'Fictiv: quote, order and troubleshoot custom parts'
+description: '- **Stage banners, in order:**'
+prompt_preview: '---
+
+  name: fictiv
+
+  description: Operates Fictiv (app.fictiv.com), the on-demand manufacturing platform,
+  end to end in the user''s browser. Covers uploading CAD parts, configuring process,
+  material, finish, threads, tolerances and inspections, getting instant or manual
+  quotes, reading and fixing DFM feedback, choosing lead time and region, checking
+  out and paying (card or PO), tracking orders, reordering, and troubleshooting. Applies
+  when the user mentions Fictiv, wants a part CNC machined, 3D print...'
+full_prompt_length: 14217
+tools_mentioned:
+- Python
+- JavaScript
+- Go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: skills/fictiv/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/fictiv/SKILL.md
+fetched_at: '2026-10-25T07:15:49.238225+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:42:58.409599Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6030 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6030 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.683584Z'
+indexed_at: '2026-10-25T12:12:04.683589Z'

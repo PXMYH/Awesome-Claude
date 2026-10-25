@@ -1,0 +1,48 @@
+---
+id: aesthetic-instrument
+slug: aesthetic-instrument
+name: The instrument panel
+description: 'Related: [`skills/committed-aesthetic/SKILL.md`](../committed-aesthetic/SKILL.md)'
+prompt_preview: '---
+
+  name: aesthetic-instrument
+
+  description: "great_cto''s own committed aesthetic — the instrument panel. Dark
+  five-step surface ladder, exactly one accent, two faces divided by MEANING (Geist
+  speaks, Geist Mono is machine-truth), tabular numerals, and a dash that is not a
+  nought. Twelve checkable rules measured from packages/board and greatcto.systems,
+  not designed for this file. Use when building or extending any great_cto surface
+  — the board, the site, a report, a share page."
+
+  when_to_use: |...'
+full_prompt_length: 7696
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: avelikiy/great_cto
+source_path: skills/aesthetic-instrument/SKILL.md
+source_url: https://github.com/avelikiy/great_cto/blob/main/skills/aesthetic-instrument/SKILL.md
+fetched_at: '2026-10-25T07:16:54.505689+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T08:38:31.271012Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057050 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057050 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:05.660132Z'
+indexed_at: '2026-10-25T12:12:05.660137Z'
+---

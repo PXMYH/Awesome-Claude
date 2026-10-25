@@ -23,24 +23,24 @@ prompt_preview: '---
   Identifies the exact entities, subtopics, predicates, and relationships that are
   missing from your page but present in top-ranking competitors. This is the content
   brief for what to a...'
-full_prompt_length: 5458
+full_prompt_length: 5568
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: inhouseseo/superseo-skills
 source_path: skills/semantic-gap-analysis/SKILL.md
 source_url: https://github.com/inhouseseo/superseo-skills/blob/main/skills/semantic-gap-analysis/SKILL.md
-fetched_at: '2026-08-02T05:28:39.774701+00:00'
+fetched_at: '2026-10-25T07:18:27.957110+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:47:40.111602Z'
+  evaluated_at: '2026-10-25T10:04:57.179444Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49fd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2660c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49fd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2660c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.431967Z'
-indexed_at: '2026-08-02T09:26:15.431972Z'
+  fetched_at: '2026-10-25T12:12:07.186828Z'
+indexed_at: '2026-10-25T12:12:07.186832Z'
 ---

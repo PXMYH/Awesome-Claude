@@ -1,0 +1,48 @@
+---
+id: wondelai-skills-architecture-optimization
+slug: wondelai-skills-architecture-optimization
+name: Architecture Optimization
+description: 'Close the tracker: remaining Next Actions carried into the PERFORMANCE.md
+  ledger and TECH-DEBT.md so nothing is lost. Then route forward: when the pain is
+  fear of change rather than speed, continue wi...'
+prompt_preview: '---
+
+  name: architecture-optimization
+
+  description: ''Guided journey from a working codebase grown slow and tangled to
+  one measurably fast, cleanly bounded, and readable. Orchestrates eight skills phase
+  by phase - working-with-legacy-code, clean-architecture, software-design-philosophy,
+  refactoring-patterns, system-design, ddia-systems, release-it, pragmatic-programmer
+  - every phase carries its method inline so it runs standalone, asking the user questions
+  at every decision point and recording resul...'
+full_prompt_length: 29405
+tools_mentioned:
+- rest
+category: community
+category_display: Community
+source_repo: wondelai/skills
+source_path: plugins/wondelai-skills/skills/architecture-optimization/SKILL.md
+source_url: https://github.com/wondelai/skills/blob/main/plugins/wondelai-skills/skills/architecture-optimization/SKILL.md
+fetched_at: '2026-10-25T07:20:59.823418+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T12:00:27.324830Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1d7f0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1d7f0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:09.261195Z'
+indexed_at: '2026-10-25T12:12:09.261198Z'
+---

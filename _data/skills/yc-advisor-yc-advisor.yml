@@ -1,0 +1,54 @@
+id: yc-advisor-yc-advisor
+slug: yc-advisor-yc-advisor
+name: YC Advisor
+description: 'File naming: `[CODE]-[descriptive-name].md` (e.g., `8z-how-to-get-startup-ideas.md`)'
+prompt_preview: '---
+
+  name: yc-advisor
+
+  description: This skill should be used when the user asks questions about startups,
+  founding decisions, co-founders, fundraising, product development, growth, hiring,
+  or any entrepreneurial advice. It provides access to Y Combinator''s complete library
+  of 443 curated resources including essays by Paul Graham, founder interviews, and
+  startup school lectures. Use this skill to give thorough, research-backed advice
+  on startup decisions.
+
+  ---
+
+
+  # YC Advisor
+
+
+  ## Overview
+
+
+  This skill...'
+full_prompt_length: 6258
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: agent37-platform/agent37-skills-collection
+source_path: plugins/yc-advisor/skills/yc-advisor/SKILL.md
+source_url: https://github.com/agent37-platform/agent37-skills-collection/blob/main/plugins/yc-advisor/skills/yc-advisor/SKILL.md
+fetched_at: '2026-10-25T07:16:49.791154+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T08:35:32.183827Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8470 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8470 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:05.606561Z'
+indexed_at: '2026-10-25T12:12:05.606565Z'

@@ -1,35 +1,36 @@
 ---
 id: audit-api-usage
 slug: audit-api-usage
-name: Audit API Usage Before the 2027 Version Cutoff
-description: 1. **Private app logs are the ground truth.** Code greps miss dynamically-built
+name: Audit API Usage Before the 2027 Cutoffs
+description: 1. **App logs are the ground truth.** Code greps miss dynamically-built
   URLs; the per-app request logs in Settings show what is actually being called.
 prompt_preview: "---\nname: audit-api-usage\ndescription: \"Inventory the integrations,\
-  \ private apps, and internal tooling that call HubSpot APIs, and flag anything on\
-  \ legacy v1-v4 endpoints ahead of HubSpot's March 30, 2027 end of support. Produces\
-  \ a migration checklist to date-based API versions.\"\nlicense: MIT\nmetadata:\n\
-  \  author: tomgranot\n  version: \"1.1\"\n  category: audit-planning\n---\n\n# Audit\
-  \ API Usage Before the 2027 Version Cutoff\n\nIn March 2026 HubSpot replaced semantic\
-  \ API versioning (v1-v4) with date-base..."
-full_prompt_length: 5344
+  \ service keys, legacy private apps, and internal tooling that call HubSpot APIs,\
+  \ and flag anything on legacy v1-v4 endpoints or legacy app architecture ahead of\
+  \ HubSpot's 2027 cutoffs. Produces a migration checklist to date-based API versions\
+  \ and service keys.\"\nlicense: MIT\nmetadata:\n  author: tomgranot\n  version:\
+  \ \"1.2\"\n  category: audit-planning\n---\n\n# Audit API Usage Before the 2027\
+  \ Cutoffs\n\nIn March 2026 HubSpot replaced seman..."
+full_prompt_length: 8065
 tools_mentioned:
+- REST
 - python
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/audit-api-usage/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/audit-api-usage/SKILL.md
-fetched_at: '2026-08-02T05:25:53.445740+00:00'
+fetched_at: '2026-10-25T07:16:13.405773+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:01:02.664705Z'
+  evaluated_at: '2026-10-25T08:05:08.019323Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a4b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6f9100 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a4b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6f9100 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.443060Z'
-indexed_at: '2026-08-02T09:26:13.443066Z'
+  fetched_at: '2026-10-25T12:12:05.065685Z'
+indexed_at: '2026-10-25T12:12:05.065689Z'
 ---

@@ -14,28 +14,27 @@ prompt_preview: '---
   MSA generation, molecular dynamics, permeability, descriptor workflows, and related
   small-molecule or protein modeling tasks. Ideal for programmatic batch screening,
   multi-step chemistry pipelines, and workflows that would otherwise require...'
-full_prompt_length: 13346
+full_prompt_length: 17301
 tools_mentioned:
-- go
-- FastAPI
 - Python
 - python
+- FastAPI
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/rowan/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/rowan/SKILL.md
-fetched_at: '2026-08-02T05:25:40.697586+00:00'
+fetched_at: '2026-10-25T07:16:01.021252+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:54:06.792774Z'
+  evaluated_at: '2026-10-25T07:56:16.151338Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18290 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057d40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18290 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057d40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,5 +44,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.311666Z'
-indexed_at: '2026-08-02T09:26:13.311671Z'
+  fetched_at: '2026-10-25T12:12:04.914276Z'
+indexed_at: '2026-10-25T12:12:04.914281Z'

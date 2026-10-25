@@ -2,24 +2,23 @@
 id: geniml
 slug: geniml
 name: Geniml
-description: Source snapshot and primary-paper links are dated in
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: geniml
 
-  description: "Use Geniml for audited local genomic-interval workflows: validate
+  description: "Supports audited local Geniml genomic-interval workflows: validate
   BED and universe contracts, plan Region2Vec or scEmbed runs, inspect model/tokenizer
   compatibility, and assess consensus universes."
 
   license: MIT
 
-  compatibility: Requires Python 3.10+ and uv. Guidance targets geniml 0.8.4 with
-  gtars 0.9.2; ML workflows need the pinned ml extra and compatible native wheels.
+  compatibility: Requires Python 3.12 and uv for the tested geniml 0.8.4 / gtars 0.10.0
+  stack; scEmbed needs AnnData 0.12.19 with Zarr 2.18.7 and the listed ML packages.
   Bundled planners and inspectors are dependency-free, local-only, and make no network
-  requests.
-
-  a...'
-full_prompt_length: 12937
+  req...'
+full_prompt_length: 16155
 tools_mentioned:
 - Python
 - python
@@ -28,17 +27,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/geniml/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/geniml/SKILL.md
-fetched_at: '2026-08-02T05:25:25.799451+00:00'
+fetched_at: '2026-10-25T07:15:49.966095+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:42:43.067884Z'
+  evaluated_at: '2026-10-25T07:43:47.342040Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad9b04a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e29a720 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad9b04a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e29a720 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.095064Z'
-indexed_at: '2026-08-02T09:26:13.095073Z'
+  fetched_at: '2026-10-25T12:12:04.696932Z'
+indexed_at: '2026-10-25T12:12:04.696940Z'
 ---

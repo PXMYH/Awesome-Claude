@@ -2,22 +2,23 @@
 id: get-available-resources
 slug: get-available-resources
 name: Get Available Resources
-description: Official documentation was refreshed on **2026-07-23**; consult
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: get-available-resources
 
-  description: Detect host inventory and effective CPU, memory, disk, scheduler, container,
-  and accelerator limits when a user asks for resource-aware planning or before a
-  clearly resource-sensitive local workload. Produces a redacted JSON snapshot and
-  conservative planning helpers without stress tests or assuming visible host hardware
-  is usable.
+  description: Detects host inventory and effective CPU, memory, disk, scheduler,
+  container, and accelerator limits when a user asks for resource-aware planning or
+  before a clearly resource-sensitive local workload. Produces a redacted JSON snapshot
+  and conservative planning helpers without stress tests or assuming visible host
+  hardware is usable.
 
   license: MIT
 
   compatibility: Python 3.11+ on Linux, macOS, or Windows; standard library by default,
-  optional psutil 7.2....'
-full_prompt_length: 9379
+  optional psutil 7.2...'
+full_prompt_length: 11675
 tools_mentioned:
 - Python
 - python
@@ -26,17 +27,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/get-available-resources/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/get-available-resources/SKILL.md
-fetched_at: '2026-08-02T05:25:26.682975+00:00'
+fetched_at: '2026-10-25T07:15:50.584488+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:43:24.985512Z'
+  evaluated_at: '2026-10-25T07:44:27.847294Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a030 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e43bbf0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a030 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e43bbf0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.108390Z'
-indexed_at: '2026-08-02T09:26:13.108395Z'
+  fetched_at: '2026-10-25T12:12:04.708935Z'
+indexed_at: '2026-10-25T12:12:04.708940Z'
 ---

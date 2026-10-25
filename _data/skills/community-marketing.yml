@@ -1,0 +1,44 @@
+id: community-marketing
+slug: community-marketing
+name: Community Marketing
+description: '- **referrals**: For structured referral and ambassador incentive programs'
+prompt_preview: '---
+
+  name: community-marketing
+
+  description: "Build and leverage online communities to drive product growth and
+  brand loyalty. Use when the user wants to create a community strategy, grow a Discord
+  or Slack community, manage a forum or subreddit, build brand advocates, increase
+  word-of-mouth, drive community-led growth, engage users post-signup, or turn customers
+  into evangelists. Trigger phrases: \"build a community,\" \"community strategy,\"
+  \"Discord community,\" \"Slack community,\" \"communit...'
+full_prompt_length: 9704
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/community-marketing/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/community-marketing/SKILL.md
+fetched_at: '2026-10-25T07:17:22.608645+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:03:35.410641Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1d460 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1d460 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.107612Z'
+indexed_at: '2026-10-25T12:12:06.107616Z'

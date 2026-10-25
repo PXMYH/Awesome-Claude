@@ -14,30 +14,30 @@ prompt_preview: '---
   Use this skill whenever the user starts a new session, opens a project, writes or
   reviews code, debugs, plans, or writes commits. If .dna.md does not exist yet, start
   the onboarding conversation before doing anything else. Active in al...'
-full_prompt_length: 18742
+full_prompt_length: 18738
 tools_mentioned:
-- React
-- go
-- react
-- rest
 - vue
+- go
 - Vue
+- rest
+- React
+- react
 category: community
 category_display: Community
 source_repo: ilang-ai/Imprint
 source_path: skills/imprint/SKILL.md
 source_url: https://github.com/ilang-ai/Imprint/blob/main/skills/imprint/SKILL.md
-fetched_at: '2026-08-02T05:28:36.232340+00:00'
+fetched_at: '2026-10-25T07:18:25.026853+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:46:09.362893Z'
+  evaluated_at: '2026-10-25T10:03:27.856850Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49430 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1ef00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49430 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1ef00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.403573Z'
-indexed_at: '2026-08-02T09:26:15.403578Z'
+  fetched_at: '2026-10-25T12:12:07.160060Z'
+indexed_at: '2026-10-25T12:12:07.160070Z'
 ---

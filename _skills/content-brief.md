@@ -21,24 +21,24 @@ prompt_preview: '---
   A writer-ready content brief based on real SERP analysis. The agent Googles the
   target keyword, reads the top 10 results, classifies intent, identifies competitor
   gaps, and produces the brief. No keywor...'
-full_prompt_length: 5866
+full_prompt_length: 6037
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: inhouseseo/superseo-skills
 source_path: skills/content-brief/SKILL.md
 source_url: https://github.com/inhouseseo/superseo-skills/blob/main/skills/content-brief/SKILL.md
-fetched_at: '2026-08-02T05:28:38.185721+00:00'
+fetched_at: '2026-10-25T07:18:26.792269+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:46:34.105566Z'
+  evaluated_at: '2026-10-25T10:03:52.175510Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeeea0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1f650 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeeea0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1f650 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.411025Z'
-indexed_at: '2026-08-02T09:26:15.411030Z'
+  fetched_at: '2026-10-25T12:12:07.167109Z'
+indexed_at: '2026-10-25T12:12:07.167114Z'
 ---

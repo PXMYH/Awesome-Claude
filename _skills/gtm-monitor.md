@@ -6,29 +6,28 @@ description: 1. **The diff is the point.** Always compare to last week's snapsho
   a bare
 prompt_preview: "---\nname: gtm-monitor\ndescription: Weekly GTM container check —\
   \ new, edited and removed tags, unpublished draft changes, orphaned tags, workspace\
-  \ status — diffed week-over-week\nversion: \"1.0.0\"\nauthor: Cogny AI\nrequires:\
-  \ cogny-mcp\nplatforms: [google-tag-manager]\nuser-invocable: true\nargument-hint:\
-  \ \"\"\nallowed-tools:\n  - mcp__cogny__google_tag_manager__tool_list_accounts\n\
-  \  - mcp__cogny__google_tag_manager__tool_list_containers\n  - mcp__cogny__google_tag_manager__tool_list_tags\n\
-  \  - mcp__cogny__goog..."
-full_prompt_length: 5293
+  \ status — diffed week-over-week\nversion: \"1.1.2\"\nauthor: Cogny AI\nrequires:\
+  \ cogny-mcp\nplatforms: [google-tag-manager, google-analytics-4, plausible, microsoft-clarity]\n\
+  user-invocable: true\nargument-hint: \"\"\nallowed-tools:\n  - mcp__cogny__refresh_mcp_discovery\n\
+  \  - mcp__cogny__mcp__Google_Tag_Manager__tool_list_accounts\n  - mcp__cogny__mcp__Google_Tag_Man..."
+full_prompt_length: 9729
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/gtm-monitor/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/gtm-monitor/SKILL.md
-fetched_at: '2026-08-02T05:27:14.307109+00:00'
+fetched_at: '2026-10-25T07:17:16.063989+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:51:07.006692Z'
+  evaluated_at: '2026-10-25T08:57:37.386692Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b8c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e43bd40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b8c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e43bd40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.382783Z'
-indexed_at: '2026-08-02T09:26:14.382792Z'
+  fetched_at: '2026-10-25T12:12:06.003762Z'
+indexed_at: '2026-10-25T12:12:06.003767Z'
 ---

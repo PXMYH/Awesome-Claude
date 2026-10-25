@@ -1,0 +1,55 @@
+---
+id: paid-ads-tiktok
+slug: paid-ads-tiktok
+name: Canonical NotFair workflow
+description: Read [`../../paid-ads/paid-ads-tiktok/WORKFLOW.md`](../../paid-ads/paid-ads-tiktok/WORKFLOW.md)
+  completely, then follow it as the active workflow. Normalize that path from the
+  directory containing thi...
+prompt_preview: '---
+
+  name: paid-ads-tiktok
+
+  description: Audit, diagnose, and safely operate connected TikTok Ads accounts through
+  the NotFair MCP. Use for TikTok advertising, Spark Ads, short-form video ads, campaign
+  or ad-group analysis, spend, conversions, targeting, creative, budgets, bids, creator
+  briefs, campaign setup, or approved TikTok Ads changes.
+
+  argument-hint: "<account, campaign, date range, or TikTok Ads goal>"
+
+  ---
+
+
+  # Canonical NotFair workflow
+
+
+  Read [`../../paid-ads/paid-ads-tiktok/WORKFLOW.md`](.....'
+full_prompt_length: 1047
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: nowork-studio/NotFair
+source_path: skills/paid-ads-tiktok/SKILL.md
+source_url: https://github.com/nowork-studio/NotFair/blob/main/skills/paid-ads-tiktok/SKILL.md
+fetched_at: '2026-10-25T07:18:56.831758+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T10:21:35.874139Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1fa10 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1fa10 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:07.479451Z'
+indexed_at: '2026-10-25T12:12:07.479455Z'
+---

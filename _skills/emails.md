@@ -1,0 +1,46 @@
+---
+id: emails
+slug: emails
+name: Email Sequence Design
+description: '- **lead-magnets**: For planning lead magnets that feed into nurture
+  sequences'
+prompt_preview: '---
+
+  name: emails
+
+  description: When the user wants to create or optimize an email sequence, drip campaign,
+  automated email flow, or lifecycle email program. Also use when the user mentions
+  "email sequence," "drip campaign," "nurture sequence," "onboarding emails," "welcome
+  sequence," "re-engagement emails," "email automation," "lifecycle emails," "trigger-based
+  emails," "email funnel," "email workflow," "what emails should I send," "welcome
+  series," or "email cadence." Use this for any multi-emai...'
+full_prompt_length: 11535
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/emails/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/emails/SKILL.md
+fetched_at: '2026-10-25T07:17:23.730131+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:04:56.302633Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee57c0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee57c0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.128313Z'
+indexed_at: '2026-10-25T12:12:06.128317Z'
+---

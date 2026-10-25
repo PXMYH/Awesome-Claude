@@ -10,7 +10,7 @@ prompt_preview: "---\nname: press-release\nargument-hint: \"[product or feature 
   \ Backwards\" methodology to define and communicate a product or feature before\
   \ building it. Use this to align stakeholders on the customer value proposition,\
   \ clarify the problem being solved,..."
-full_prompt_length: 11243
+full_prompt_length: 11683
 tools_mentioned:
 - react
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/press-release/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/press-release/SKILL.md
-fetched_at: '2026-08-02T05:27:36.768412+00:00'
+fetched_at: '2026-10-25T07:17:39.530681+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:06:49.441762Z'
+  evaluated_at: '2026-10-25T09:21:37.172727Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18410 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba450 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18410 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba450 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.672422Z'
-indexed_at: '2026-08-02T09:26:14.672427Z'
+  fetched_at: '2026-10-25T12:12:06.414168Z'
+indexed_at: '2026-10-25T12:12:06.414173Z'
 ---

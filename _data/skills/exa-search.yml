@@ -2,17 +2,14 @@ id: exa-search
 slug: exa-search
 name: Exa Web Toolkit
 description: '- `SKILL.md` — this file (routing and setup)'
-prompt_preview: '---
-
-  name: exa-search
-
-  description: "Web toolkit powered by Exa, tuned for scientific and technical content.
-  Use this skill when the user needs to search the web or fetch/extract URL content.
-  Covers: web search (semantic lookups, research, current info — with optional research-paper
-  category and academic domain filtering) and URL extraction (fetching pages, articles,
-  academic PDFs in batch). Use this skill for web-related tasks when the user wants
-  high-quality search or scholarly filtering via cat...'
-full_prompt_length: 5035
+prompt_preview: "---\nname: exa-search\ndescription: \"Searches scientific and technical\
+  \ web content with Exa and extracts page or PDF text from URLs in batches. Supports\
+  \ scholarly discovery with the publication category and academic domain filters.\
+  \ Applies to requests to search the web, look up current research, fetch a page,\
+  \ or extract an article using Exa.\"\ncompatibility: Requires Python 3.11+, exa-py>=2.23.0,<3,\
+  \ an EXA_API_KEY, and internet access.\nlicense: MIT\nmetadata:\n  version: \"1.4\"\
+  \n  last-reviewed: \"2026-..."
+full_prompt_length: 6356
 tools_mentioned:
 - Python
 - python
@@ -21,17 +18,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/exa-search/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/exa-search/SKILL.md
-fetched_at: '2026-08-02T05:25:24.779785+00:00'
+fetched_at: '2026-10-25T07:15:48.859218+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:41:53.964227Z'
+  evaluated_at: '2026-10-25T07:42:34.037434Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad1f5040 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7ce0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad1f5040 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7ce0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.079578Z'
-indexed_at: '2026-08-02T09:26:13.079584Z'
+  fetched_at: '2026-10-25T12:12:04.676460Z'
+indexed_at: '2026-10-25T12:12:04.676464Z'

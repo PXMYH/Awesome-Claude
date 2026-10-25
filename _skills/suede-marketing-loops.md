@@ -1,0 +1,47 @@
+---
+id: suede-marketing-loops
+slug: suede-marketing-loops
+name: Suede Marketing Loops
+description: '- Use `suede-marketing-plan` for one-off tactics and plans, and `suede-ab-testing`
+  for experimentation.'
+prompt_preview: '---
+
+  name: suede-marketing-loops
+
+  description: "Suede AI recurring marketing workflow design: turns repeatable work
+  into agent-ready loops with a check cadence, action condition, self-check, durable
+  state and dedupe, human checkpoint, stop condition, and output, drawn from a 46-loop
+  catalog across SEO and AI-search visibility, paid, earned, activation, retention,
+  revenue, referral, and ops. Returns a complete loop spec plus scheduling proof or
+  a manual cadence. Use when the user wants repeatable a...'
+full_prompt_length: 11020
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-marketing-loops/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-marketing-loops/SKILL.md
+fetched_at: '2026-10-25T07:15:36.444450+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:32:00.809292Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2d7860 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2d7860 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.499844Z'
+indexed_at: '2026-10-25T12:12:04.499848Z'
+---

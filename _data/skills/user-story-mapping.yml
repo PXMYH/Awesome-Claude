@@ -9,24 +9,24 @@ prompt_preview: "---\nname: user-story-mapping\nargument-hint: \"[product or wor
   \ map that breaks down high-level activities into steps and tasks, organized left-to-right\
   \ as a narrative flow. Use this to build shared understanding across product, design,\
   \ and engineering, priorit..."
-full_prompt_length: 10951
+full_prompt_length: 11388
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/user-story-mapping/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/user-story-mapping/SKILL.md
-fetched_at: '2026-08-02T05:27:40.604194+00:00'
+fetched_at: '2026-10-25T07:17:41.634319+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:09:33.662777Z'
+  evaluated_at: '2026-10-25T09:24:28.778229Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee65d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee65d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.723090Z'
-indexed_at: '2026-08-02T09:26:14.723096Z'
+  fetched_at: '2026-10-25T12:12:06.465609Z'
+indexed_at: '2026-10-25T12:12:06.465613Z'

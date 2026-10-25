@@ -4,14 +4,27 @@ slug: testing-handbook-skills-libfuzzer
 name: libFuzzer
 description: '- [OSS-Fuzz](https://github.com/google/oss-fuzz) - Continuous fuzzing
   for open-source projects (many libFuzzer examples)'
-prompt_preview: "---\nname: libfuzzer\ntype: fuzzer\ndescription: >\n  Coverage-guided\
-  \ fuzzer built into LLVM for C/C++ projects. Use for fuzzing\n  C/C++ code that\
-  \ can be compiled with Clang.\n---\n\n# libFuzzer\n\nlibFuzzer is an in-process,\
-  \ coverage-guided fuzzer that is part of the LLVM project. It's the recommended\
-  \ starting point for fuzzing C/C++ projects due to its simplicity and integration\
-  \ with the LLVM toolchain. While libFuzzer has been in maintenance-only mode since\
-  \ late 2022, it is easier to install and use t..."
-full_prompt_length: 23925
+prompt_preview: '---
+
+  name: libfuzzer
+
+  type: fuzzer
+
+  description: "Sets up and runs libFuzzer, the coverage-guided fuzzer built into
+  LLVM, on C/C++ code that compiles with Clang. Covers harness structure, -fsanitize=fuzzer
+  builds, corpus and dictionary management, sanitizer integration, and campaign triage.
+  Use when writing or debugging an LLVMFuzzerTestOneInput harness, starting fuzzing
+  on a C/C++ library, choosing between libFuzzer and AFL++, or working out why a libFuzzer
+  run finds nothing."
+
+  ---
+
+
+  # libFuzzer
+
+
+  li...'
+full_prompt_length: 24234
 tools_mentioned:
 - AWS
 category: security
@@ -19,17 +32,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/libfuzzer/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/libfuzzer/SKILL.md
-fetched_at: '2026-08-02T05:31:28.995857+00:00'
+fetched_at: '2026-10-25T07:20:42.942158+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:19:44.256471Z'
+  evaluated_at: '2026-10-25T11:47:33.361035Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19400 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb87a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19400 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb87a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:17.170292Z'
-indexed_at: '2026-08-02T09:26:17.170297Z'
+  fetched_at: '2026-10-25T12:12:09.045589Z'
+indexed_at: '2026-10-25T12:12:09.045593Z'
 ---

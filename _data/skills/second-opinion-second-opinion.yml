@@ -1,15 +1,16 @@
 id: second-opinion-second-opinion
 slug: second-opinion-second-opinion
 name: Second Opinion
-description: '**Large diff warning:**'
+description: '- `/second-opinion:second-opinion use Codex to review my uncommitted
+  changes for bugs`'
 prompt_preview: '---
 
   name: second-opinion
 
-  description: "Runs external LLM code reviews (OpenAI Codex or Google Gemini CLI)
-  on uncommitted changes, branch diffs, or specific commits. Use when the user asks
-  for a second opinion, external review, codex review, gemini review, or mentions
-  /second-opinion."
+  description: "Gets independent code reviews from Codex or Antigravity for uncommitted
+  changes, branch diffs, and commits. Use when the user requests an external review,
+  a second opinion on code, a codex review, a gemini review, an antigravity review,
+  or /second-opinion."
 
   allowed-tools: Bash Read Glob Grep AskUserQuestion
 
@@ -19,28 +20,27 @@ prompt_preview: '---
   # Second Opinion
 
 
-  Shell out to external LLM CLIs for an independent code review powered by
+  Run an external CLI review of the user''s selected changes. This skill
 
-  a separate model. Supports OpenAI Codex CLI and Google Gemini CLI....'
-full_prompt_length: 9873
-tools_mentioned:
-- go
+  produces findings; it does not apply fixes or post reviews...'
+full_prompt_length: 5046
+tools_mentioned: []
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/second-opinion/skills/second-opinion/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/second-opinion/skills/second-opinion/SKILL.md
-fetched_at: '2026-08-02T05:31:23.052675+00:00'
+fetched_at: '2026-10-25T07:20:39.948177+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:16:58.508395Z'
+  evaluated_at: '2026-10-25T11:44:58.149343Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1c3b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1c3b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,5 +50,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:17.117489Z'
-indexed_at: '2026-08-02T09:26:17.117495Z'
+  fetched_at: '2026-10-25T12:12:08.997242Z'
+indexed_at: '2026-10-25T12:12:08.997247Z'

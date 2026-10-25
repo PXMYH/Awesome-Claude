@@ -15,7 +15,7 @@ prompt_preview: '---
   empowered-team context and adjusts framing; refuses to fabricate baselines or targets;
   refuses to use OKR scores for compensation; reframes feature-delivery KRs into outcome
   KRs. Use when planning quarterly OKRs, translating...'
-full_prompt_length: 14352
+full_prompt_length: 15472
 tools_mentioned:
 - go
 category: community
@@ -23,17 +23,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/foundation-okr-writer/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/foundation-okr-writer/SKILL.md
-fetched_at: '2026-08-02T05:30:35.726328+00:00'
+fetched_at: '2026-10-25T07:20:03.348669+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:56:16.106814Z'
+  evaluated_at: '2026-10-25T11:20:58.799021Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ace1d8e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5010 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ace1d8e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5010 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.727279Z'
-indexed_at: '2026-08-02T09:26:16.727284Z'
+  fetched_at: '2026-10-25T12:12:08.565382Z'
+indexed_at: '2026-10-25T12:12:08.565387Z'
 ---

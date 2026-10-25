@@ -5,29 +5,29 @@ name: Google Ads Query Language (GAQL) Reference
 description: '- **GAQL Grammar:** https://developers.google.com/google-ads/api/docs/query/grammar'
 prompt_preview: "---\nname: gaql-reference\ndescription: Google Ads Query Language\
   \ (GAQL) Reference — complete syntax, resource types, fields, operators, date macros,\
-  \ and ready-to-use query patterns\nversion: \"1.0.0\"\nauthor: Cogny AI\nplatforms:\
+  \ and ready-to-use query patterns\nversion: \"1.1.1\"\nauthor: Cogny AI\nplatforms:\
   \ []\nuser-invocable: true\nargument-hint: \"<query or topic>\"\nallowed-tools:\n\
   \  - WebSearch\n  - Read\n  - Write\n  - Bash\n  # Google Ads tools (when connected\
-  \ via Cogny MCP)\n  - mcp__cogny__google_ads__tool_execute_gaql\n  - mcp__cogny__google_ads__tool_get_gaql_doc\n\
-  \  - mcp__cogny__..."
-full_prompt_length: 21802
+  \ via Cogny MCP)\n  - mcp__cogny__list_integrations\n  - mcp__cogny__refresh_mcp_discovery\n\
+  \  - mcp__cogny__mcp__Google_Ads__too..."
+full_prompt_length: 23738
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/gaql-reference/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/gaql-reference/SKILL.md
-fetched_at: '2026-08-02T05:27:13.446264+00:00'
+fetched_at: '2026-10-25T07:17:15.400461+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:50:25.545999Z'
+  evaluated_at: '2026-10-25T08:56:56.696854Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19f70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2d4740 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19f70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2d4740 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.363532Z'
-indexed_at: '2026-08-02T09:26:14.363538Z'
+  fetched_at: '2026-10-25T12:12:05.991286Z'
+indexed_at: '2026-10-25T12:12:05.991291Z'
 ---

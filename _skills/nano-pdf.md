@@ -19,17 +19,17 @@ category_display: Community
 source_repo: swarmclawai/swarmclaw
 source_path: skills/nano-pdf/SKILL.md
 source_url: https://github.com/swarmclawai/swarmclaw/blob/main/skills/nano-pdf/SKILL.md
-fetched_at: '2026-08-02T05:30:58.830093+00:00'
+fetched_at: '2026-10-25T07:20:21.716397+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:08:35.297924Z'
+  evaluated_at: '2026-10-25T11:34:50.459573Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee450 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8ea48110 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee450 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8ea48110 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.959749Z'
-indexed_at: '2026-08-02T09:26:16.959755Z'
+  fetched_at: '2026-10-25T12:12:08.816268Z'
+indexed_at: '2026-10-25T12:12:08.816273Z'
 ---

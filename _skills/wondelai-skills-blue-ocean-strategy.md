@@ -1,0 +1,48 @@
+---
+id: wondelai-skills-blue-ocean-strategy
+slug: wondelai-skills-blue-ocean-strategy
+name: Blue Ocean Strategy Framework
+description: '**W. Chan Kim** and **Renée Mauborgne** are professors of strategy at
+  INSEAD and co-directors of the INSEAD Blue Ocean Strategy Institute. *Blue Ocean
+  Strategy* has sold over 4 million copies in 46 la...'
+prompt_preview: '---
+
+  name: blue-ocean-strategy
+
+  description: ''Create uncontested market space using value innovation instead of
+  competing head-to-head. Use when the user mentions "blue ocean", "red ocean", "strategy
+  canvas", "ERRC framework", "value innovation", "non-customers", "buyer utility map",
+  "the market is too crowded", "how do we stand out", or "escape the price war". Also
+  trigger when exploring a new market category, or finding underserved or non-customers.
+  Covers the Four Actions Framework, Six Paths,...'
+full_prompt_length: 13247
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: wondelai/skills
+source_path: plugins/wondelai-skills/skills/blue-ocean-strategy/SKILL.md
+source_url: https://github.com/wondelai/skills/blob/main/plugins/wondelai-skills/skills/blue-ocean-strategy/SKILL.md
+fetched_at: '2026-10-25T07:20:59.948144+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T12:00:35.447663Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba8a0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba8a0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:09.263359Z'
+indexed_at: '2026-10-25T12:12:09.263363Z'
+---

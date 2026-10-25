@@ -2,16 +2,16 @@
 id: scikit-survival
 slug: scikit-survival
 name: scikit-survival
-description: '- [PyPI 0.28.0](https://pypi.org/project/scikit-survival/) — released
-  2026-07-05.'
-prompt_preview: "---\nname: scikit-survival\ndescription: Build, evaluate, and audit\
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
+prompt_preview: "---\nname: scikit-survival\ndescription: Builds, evaluates, and audits\
   \ right-censored or competing-risk survival workflows with scikit-survival, including\
   \ leakage-safe preprocessing, model selection, probability prediction, and censoring-aware\
   \ metrics.\nlicense: MIT\ncompatibility: Requires Python 3.11+, uv, and the pinned\
   \ scikit-survival 0.28.0 stack for executable examples. Bundled CLIs are local and\
   \ network-free by default.\nallowed-tools: Read Write Edit Bash\nmetadata:\n  version:\
-  \ \"1.1\"\n  skill-autho..."
-full_prompt_length: 13591
+  \ \"1.4\"\n  last-rev..."
+full_prompt_length: 16465
 tools_mentioned:
 - Python
 - python
@@ -20,17 +20,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/scikit-survival/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/scikit-survival/SKILL.md
-fetched_at: '2026-08-02T05:25:42.913450+00:00'
+fetched_at: '2026-10-25T07:16:02.278430+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:55:38.274677Z'
+  evaluated_at: '2026-10-25T07:57:45.153264Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad561010 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4e90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad561010 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4e90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.340932Z'
-indexed_at: '2026-08-02T09:26:13.340938Z'
+  fetched_at: '2026-10-25T12:12:04.940760Z'
+indexed_at: '2026-10-25T12:12:04.940765Z'
 ---

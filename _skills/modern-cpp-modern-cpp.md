@@ -1,0 +1,54 @@
+---
+id: modern-cpp-modern-cpp
+slug: modern-cpp-modern-cpp
+name: Modern C++
+description: '- [anti-patterns.md](./references/anti-patterns.md) — Full legacy-to-modern
+  migration table (30+ patterns)'
+prompt_preview: '---
+
+  name: modern-cpp
+
+  description: Guides C++ code toward modern idioms (C++20/23/26). Use when writing
+  new C++ code, modernizing legacy patterns, or working on security-critical C++.
+  Replaces raw pointers with smart pointers, SFINAE with concepts, printf with std::print,
+  error codes with std::expected.
+
+  ---
+
+
+  # Modern C++
+
+
+  Guide for writing modern C++ using C++20, C++23, and C++26 idioms. Focuses on patterns
+  that eliminate vulnerability classes and reduce boilerplate, with a security emphasis
+  from...'
+full_prompt_length: 8632
+tools_mentioned: []
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/modern-cpp/skills/modern-cpp/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/modern-cpp/skills/modern-cpp/SKILL.md
+fetched_at: '2026-10-25T07:20:36.438421+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T11:42:16.107011Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1f440 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1f440 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:08.952588Z'
+indexed_at: '2026-10-25T12:12:08.952594Z'
+---

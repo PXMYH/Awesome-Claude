@@ -1,0 +1,44 @@
+---
+id: terraform-run-acceptance-tests
+slug: terraform-run-acceptance-tests
+name: Run Acceptance Tests
+description: Claude skill for Run Acceptance Tests
+prompt_preview: "---\nname: run-acceptance-tests\ndescription: Guide for running acceptance\
+  \ tests for a Terraform provider. Use this when asked to run an acceptance test\
+  \ or to run a test with the prefix `TestAcc`, when a test fails with missing environment\
+  \ variables, or when diagnosing a failing or suspiciously passing acceptance test.\n\
+  license: MPL-2.0\nmetadata:\n  lifecycle-status: active\n  copyright: Copyright\
+  \ IBM Corp. 2026\n  version: \"0.0.1\"\n---\n\nAn acceptance test is a Go test function\
+  \ with the prefix `TestAcc..."
+full_prompt_length: 3059
+tools_mentioned:
+- Go
+- go
+category: community
+category_display: Community
+source_repo: hashicorp/agent-skills
+source_path: plugins/terraform/skills/run-acceptance-tests/SKILL.md
+source_url: https://github.com/hashicorp/agent-skills/blob/main/plugins/terraform/skills/run-acceptance-tests/SKILL.md
+fetched_at: '2026-10-25T07:17:51.024436+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:30:57.575968Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057950 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057950 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.578242Z'
+indexed_at: '2026-10-25T12:12:06.578251Z'
+---

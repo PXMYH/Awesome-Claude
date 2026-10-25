@@ -1,0 +1,45 @@
+---
+id: suede-lead-magnets
+slug: suede-lead-magnets
+name: Suede AI Lead-Magnet Systems
+description: '- Use `suede-free-tools` for calculators, graders, quizzes, and generators.'
+prompt_preview: '---
+
+  name: suede-lead-magnets
+
+  description: "Suede AI lead-magnet strategy: choosing a format (checklist, template,
+  swipe file, guide, quiz, mini-course, original data), setting useful depth, deciding
+  what to gate and what to publish as an indexable page that earns links and AI citations,
+  landing page and delivery, and measuring qualified capture. Use when the user needs
+  a downloadable or gated resource exchanged for contact details, or wants a lead
+  magnet that also ranks. NOT FOR: interactive cal...'
+full_prompt_length: 13439
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-lead-magnets/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-lead-magnets/SKILL.md
+fetched_at: '2026-10-25T07:15:36.205832+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:31:44.632249Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2d7860 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2d7860 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.495660Z'
+indexed_at: '2026-10-25T12:12:04.495664Z'
+---

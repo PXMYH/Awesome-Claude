@@ -11,31 +11,31 @@ prompt_preview: "---\nname: deploy-ml-model-serving\ndescription: >\n  Deploy ma
   \ between model\n  versions, or migrati..."
 full_prompt_length: 13356
 tools_mentioned:
-- Docker
 - grpc
 - Kubernetes
 - docker
-- REST
-- kubernetes
 - gRPC
-- rest
+- kubernetes
 - python
+- Docker
+- rest
+- REST
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/deploy-ml-model-serving/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/deploy-ml-model-serving/SKILL.md
-fetched_at: '2026-08-02T05:29:39.271067+00:00'
+fetched_at: '2026-10-25T07:19:24.180978+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:16:14.410708Z'
+  evaluated_at: '2026-10-25T10:41:09.464130Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acdcbd10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7d40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acdcbd10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7d40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,5 +45,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.978164Z'
-indexed_at: '2026-08-02T09:26:15.978170Z'
+  fetched_at: '2026-10-25T12:12:07.826682Z'
+indexed_at: '2026-10-25T12:12:07.826687Z'

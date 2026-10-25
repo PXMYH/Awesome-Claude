@@ -1,8 +1,9 @@
 id: redact-wire-capture
 slug: redact-wire-capture
 name: Redact Wire Capture
-description: '- `enforce-redaction-gate` — the verification step this skill ends on;
-  supplies the structure-aware tier for tokens nested in request/response bodies'
+description: '- `enforce-redaction-gate` — how to build a redaction boundary when
+  you hold the deny-list; it teaches the two-tier design this skill''s per-file assertion
+  implements the decidable half of'
 prompt_preview: "---\nname: redact-wire-capture\ndescription: >\n  Redact a network/MITM\
   \ capture directory — JSONL, JSON, logs, HAR-style dumps\n  — in place before it\
   \ can be referenced publicly, scrubbing credential tokens,\n  API keys, service\
@@ -10,24 +11,24 @@ prompt_preview: "---\nname: redact-wire-capture\ndescription: >\n  Redact a netw
   \ preserving token-class prefixes for analysis and leaving\n  public identifiers\
   \ untouched. Covers class-preserving substitution, an\n  idempotent re-runnable\
   \ pass, distinguishing a secret from a publ..."
-full_prompt_length: 8852
+full_prompt_length: 9950
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/redact-wire-capture/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/redact-wire-capture/SKILL.md
-fetched_at: '2026-08-02T05:30:09.397613+00:00'
+fetched_at: '2026-10-25T07:19:44.473208+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:38:17.206315Z'
+  evaluated_at: '2026-10-25T11:02:52.130232Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee870 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5580 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee870 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5580 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.391425Z'
-indexed_at: '2026-08-02T09:26:16.391431Z'
+  fetched_at: '2026-10-25T12:12:08.224839Z'
+indexed_at: '2026-10-25T12:12:08.224845Z'

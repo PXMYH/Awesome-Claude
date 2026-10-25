@@ -11,24 +11,24 @@ prompt_preview: "---\nname: stakeholder-mapping\nargument-hint: \"[stakeholder l
   \ — Power × Interest (sets engagement strategy per\n  stakeholder) and Impact ×\
   \ Power (surfaces who bears consequences but lacks voice) —\n  then compare outputs\
   \ to reveal blind spots and plan quadr..."
-full_prompt_length: 13878
+full_prompt_length: 13931
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/stakeholder-mapping/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/stakeholder-mapping/SKILL.md
-fetched_at: '2026-08-02T05:27:39.626863+00:00'
+fetched_at: '2026-10-25T07:17:41.157424+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:08:52.653617Z'
+  evaluated_at: '2026-10-25T09:23:47.434525Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7bc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7bc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.710397Z'
-indexed_at: '2026-08-02T09:26:14.710404Z'
+  fetched_at: '2026-10-25T12:12:06.452684Z'
+indexed_at: '2026-10-25T12:12:06.452689Z'
 ---

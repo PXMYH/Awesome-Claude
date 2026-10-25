@@ -2,42 +2,46 @@
 id: geomaster
 slug: geomaster
 name: GeoMaster
-description: '**GeoMaster covers everything from basic GIS operations to advanced
-  remote sensing and machine learning.**'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: geomaster
 
-  description: Comprehensive geospatial science skill covering remote sensing, GIS,
-  spatial analysis, machine learning for earth observation, and 30+ scientific domains.
-  Supports satellite imagery processing (Sentinel, Landsat, MODIS, SAR, hyperspectral),
-  vector and raster data operations, spatial statistics, point cloud processing, network
-  analysis, cloud-native workflows (STAC, COG, Planetary Computer), and 8 programming
-  languages (Python, R, Julia, JavaScript, C++, Java, Go,...'
-full_prompt_length: 11760
+  description: Supports geospatial research workflows for remote sensing, vector and
+  raster GIS, spatial statistics, terrain and network analysis, and machine learning
+  for Earth observation. Use when processing satellite imagery, aligning coordinate
+  systems and raster grids, accessing STAC catalogs, analyzing geospatial time series,
+  or implementing scientific GIS workflows in Python, R, Julia, JavaScript, C++, Java,
+  Go, or Rust.
+
+  license: MIT License
+
+  compatibility: Core examples...'
+full_prompt_length: 11289
 tools_mentioned:
-- Go
-- Python
-- python
-- Rust
 - Java
 - JavaScript
+- Python
+- python
+- Go
+- Rust
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/geomaster/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/geomaster/SKILL.md
-fetched_at: '2026-08-02T05:25:26.349002+00:00'
+fetched_at: '2026-10-25T07:15:50.331060+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:43:07.965019Z'
+  evaluated_at: '2026-10-25T07:44:11.661806Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed940 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8eb97f50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed940 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8eb97f50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.103084Z'
-indexed_at: '2026-08-02T09:26:13.103090Z'
+  fetched_at: '2026-10-25T12:12:04.704100Z'
+indexed_at: '2026-10-25T12:12:04.704105Z'
 ---

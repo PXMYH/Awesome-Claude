@@ -1,0 +1,56 @@
+---
+id: paid-ads-chatgpt
+slug: paid-ads-chatgpt
+name: Canonical NotFair workflow
+description: Read [`../../paid-ads/paid-ads-chatgpt/WORKFLOW.md`](../../paid-ads/paid-ads-chatgpt/WORKFLOW.md)
+  completely, then follow it as the active workflow. Normalize that path from the
+  directory containing t...
+prompt_preview: '---
+
+  name: paid-ads-chatgpt
+
+  description: Plan and review ChatGPT Ads experiments without assuming ad inventory,
+  account access, or platform capabilities. Use for ChatGPT advertising, OpenAI ads,
+  conversational ad concepts, ChatGPT campaign plans, or performance reviews from
+  a verified export.
+
+  argument-hint: "<objective, audience, or verified ChatGPT Ads export>"
+
+  ---
+
+
+  # Canonical NotFair workflow
+
+
+  Read [`../../paid-ads/paid-ads-chatgpt/WORKFLOW.md`](../../paid-ads/paid-ads-chatgpt/WORKFLOW.md)
+  com...'
+full_prompt_length: 1006
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: nowork-studio/NotFair
+source_path: skills/paid-ads-chatgpt/SKILL.md
+source_url: https://github.com/nowork-studio/NotFair/blob/main/skills/paid-ads-chatgpt/SKILL.md
+fetched_at: '2026-10-25T07:18:55.745580+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T10:20:14.873252Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1fa10 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1fa10 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:07.457959Z'
+indexed_at: '2026-10-25T12:12:07.457963Z'
+---

@@ -1,0 +1,47 @@
+---
+id: marketing-ideas
+slug: marketing-ideas
+name: Marketing Ideas for SaaS
+description: '- **marketing-plan**: When the user wants a comprehensive plan instead
+  of standalone ideas. Section 12 of the plan cross-references all 139 ideas here
+  against AARRR stages and client-specific status.'
+prompt_preview: '---
+
+  name: marketing-ideas
+
+  description: "When the user needs marketing ideas, inspiration, or strategies for
+  their SaaS or software product. Also use when the user asks for ''marketing ideas,''
+  ''growth ideas,'' ''how to market,'' ''marketing strategies,'' ''marketing tactics,''
+  ''ways to promote,'' ''ideas to grow,'' ''what else can I try,'' ''I don''t know
+  how to market this,'' ''brainstorm marketing,'' or ''what marketing should I do.''
+  Use this as a starting point whenever someone is stuck or looking for inspiratio...'
+full_prompt_length: 5787
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/marketing-ideas/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/marketing-ideas/SKILL.md
+fetched_at: '2026-10-25T07:17:24.671770+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:06:09.485070Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6c00 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6c00 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.146854Z'
+indexed_at: '2026-10-25T12:12:06.146858Z'
+---

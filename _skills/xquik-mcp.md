@@ -1,0 +1,46 @@
+---
+id: xquik-mcp
+slug: xquik-mcp
+name: Xquik MCP
+description: '| Error | Meaning |'
+prompt_preview: '---
+
+  name: xquik-mcp
+
+  description: Connect, verify, and troubleshoot Xquik''s remote MCP server. Use when
+  a user needs MCP setup, OAuth recovery, tool discovery, endpoint execution, or a
+  connection check in ChatGPT, Claude, Codex, Cursor, VS Code, or another compatible
+  client. Covers the endpoint, OAuth and the API key fallback, the docs, search, and
+  execute tools with their inputs and outputs, errors, and the confirmation rules
+  for private, metered, persistent, or state-changing calls. Not affilia...'
+full_prompt_length: 3985
+tools_mentioned:
+- REST
+category: community
+category_display: Community
+source_repo: Xquik-dev/x-twitter-scraper
+source_path: skills/xquik-mcp/SKILL.md
+source_url: https://github.com/Xquik-dev/x-twitter-scraper/blob/master/skills/xquik-mcp/SKILL.md
+fetched_at: '2026-10-25T07:16:44.246647+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T08:33:06.226328Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8c20 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8c20 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:05.563625Z'
+indexed_at: '2026-10-25T12:12:05.563630Z'
+---

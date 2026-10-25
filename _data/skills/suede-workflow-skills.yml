@@ -1,0 +1,45 @@
+id: suede-workflow-skills
+slug: suede-workflow-skills
+name: Suede Workflow Skills
+description: '- Never expose private paths, credentials, secrets, unreleased assets,
+  or'
+prompt_preview: '---
+
+  name: suede-workflow-skills
+
+  description: "Suede AI umbrella router for the full public skill pack: picks the
+  right specialist for any request across search visibility (SEO, AEO, GEO), agent
+  and operations automation, code review and CI, copy and design, launch and app shipping,
+  growth marketing, and creator rights, hands it the request verbatim, and recommends
+  one next move with a ready-to-run prompt when the user asks what to do next. Use
+  when a request crosses two or more lanes, when the u...'
+full_prompt_length: 12541
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-workflow-skills/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-workflow-skills/SKILL.md
+fetched_at: '2026-10-25T07:15:39.851192+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:35:48.153733Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4b00 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4b00 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.558099Z'
+indexed_at: '2026-10-25T12:12:04.558103Z'

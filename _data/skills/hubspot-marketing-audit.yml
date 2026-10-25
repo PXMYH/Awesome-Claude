@@ -1,0 +1,42 @@
+id: hubspot-marketing-audit
+slug: hubspot-marketing-audit
+name: HubSpot Marketing Audit
+description: 'Nothing to roll back: the audit only reads. To remove its output, delete
+  the files it wrote under `reports/`.'
+prompt_preview: "---\nname: hubspot-marketing-audit\ndescription: \"Audit the marketing\
+  \ side of a HubSpot portal: email deliverability, contact data completeness, engagement,\
+  \ lifecycle consistency, and list, workflow, and form sprawl. Read-only. Use when\
+  \ marketing ops owns the cleanup, before a re-engagement or migration project, or\
+  \ when the marketing contact bill keeps climbing.\"\nlicense: MIT\nmetadata:\n \
+  \ author: tomgranot\n  version: \"1.0\"\n  category: audit-planning\n---\n\n# HubSpot\
+  \ Marketing Audit\n\nA read-only audit..."
+full_prompt_length: 5915
+tools_mentioned:
+- Python
+category: community
+category_display: Community
+source_repo: TomGranot/hubspot-admin-skills
+source_path: skills/hubspot-marketing-audit/SKILL.md
+source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/hubspot-marketing-audit/SKILL.md
+fetched_at: '2026-10-25T07:16:16.327827+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T08:08:16.467135Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4740 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4740 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:05.123249Z'
+indexed_at: '2026-10-25T12:12:05.123253Z'

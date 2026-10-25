@@ -1,0 +1,52 @@
+---
+id: campaign-ledger
+slug: campaign-ledger
+name: Campaign Ledger
+description: 1. **No ID, no launch.** Every new campaign goes through `new`.
+prompt_preview: '---
+
+  name: campaign-ledger
+
+  description: Give every campaign an ID and carry it everywhere — allocate IDs, audit
+  ad/email/UTM naming across Google, Meta, LinkedIn, Bing, TikTok and X, and keep
+  one ledger joining spend → leads → deals → revenue per campaign ID
+
+  version: "1.1.3"
+
+  author: Cogny AI
+
+  requires: cogny-mcp
+
+  platforms: [google-ads, bing-ads, apple-search-ads, openai-ads, meta-ads, linkedin-ads,
+  tiktok-ads, x-ads, reddit-ads, snapchat-ads, bidtheatre, ga4, plausible, klaviyo,
+  mailchimp, rule, g...'
+full_prompt_length: 17540
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: cognyai/claude-code-marketing-skills
+source_path: skills/campaign-ledger/SKILL.md
+source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/campaign-ledger/SKILL.md
+fetched_at: '2026-10-25T07:17:12.728647+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T08:54:13.661772Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba390 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba390 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:05.942330Z'
+indexed_at: '2026-10-25T12:12:05.942335Z'
+---

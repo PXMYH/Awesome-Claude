@@ -1,0 +1,47 @@
+---
+id: vibe-creating-prompt
+slug: vibe-creating-prompt
+name: Vibe Creating Prompt Skill
+description: '> **Generating the result:** this skill only writes the prompt. To render
+  it, send the rewritten prompt to any text-to-video model (Seedance, Sora, Kling,
+  Veo, …) — for a one-API option, see [Atlas Cl...'
+prompt_preview: '---
+
+  name: vibe-creating-prompt
+
+  description: Judges whether a user''s input suits the Vibe Creating style of video-prompt
+  writing, and when it does, distills single-scene prompts, multi-shot descriptions,
+  emotional imagery, or mixed input into prompts that are easier for a video model
+  to generate from — while preserving any user-specified dialogue, voiceover, music,
+  sound effects, and other hard constraints. Use when a user wants to turn an idea,
+  story, feeling, or rough/over-specified prompt into...'
+full_prompt_length: 16263
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: Alisa0808/vibe-creating-skill
+source_path: skills/vibe-creating-prompt/SKILL.md
+source_url: https://github.com/Alisa0808/vibe-creating-skill/blob/main/skills/vibe-creating-prompt/SKILL.md
+fetched_at: '2026-10-25T07:15:19.353176+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:21:59.375231Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2d5f10 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2d5f10 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.329082Z'
+indexed_at: '2026-10-25T12:12:04.329087Z'
+---

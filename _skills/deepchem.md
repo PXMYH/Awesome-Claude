@@ -2,23 +2,24 @@
 id: deepchem
 slug: deepchem
 name: DeepChem
-description: '- Official documentation: https://deepchem.readthedocs.io/'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: deepchem
 
-  description: Molecular ML with diverse featurizers and pre-built datasets. Use for
-  property prediction (ADMET, toxicity) with traditional ML or GNNs when you want
-  extensive featurization options and MoleculeNet benchmarks. Best for quick experiments
-  with pre-trained models, diverse molecular representations. For graph-first PyTorch
-  workflows use torchdrug; for benchmark datasets use pytdc.
+  description: Builds molecular property prediction and MoleculeNet workflows with
+  DeepChem, including SMILES featurization, scaffold or grouped holdouts, masked labels,
+  graph models and explicit pretrained encoder transfer. Used for ADMET, toxicity,
+  solubility and chemistry ML when DeepChem data/model contracts and scientific validation
+  are needed.
 
   license: MIT license
 
   allowed-tools: Read Write Edit Bash
 
-  compatibility: Requires Python...'
-full_prompt_length: 9772
+  compatibility: Requires Python 3.11 for the tested DeepChem 2.8.0 stack. M...'
+full_prompt_length: 8967
 tools_mentioned:
 - Python
 - python
@@ -27,17 +28,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/deepchem/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/deepchem/SKILL.md
-fetched_at: '2026-08-02T05:25:23.147758+00:00'
+fetched_at: '2026-10-25T07:15:47.727929+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:40:39.389521Z'
+  evaluated_at: '2026-10-25T07:41:20.771760Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1bf80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2f7c50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1bf80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2f7c50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.053121Z'
-indexed_at: '2026-08-02T09:26:13.053126Z'
+  fetched_at: '2026-10-25T12:12:04.655031Z'
+indexed_at: '2026-10-25T12:12:04.655035Z'
 ---

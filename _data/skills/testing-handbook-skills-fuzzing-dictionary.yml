@@ -2,34 +2,46 @@ id: testing-handbook-skills-fuzzing-dictionary
 slug: testing-handbook-skills-fuzzing-dictionary
 name: Fuzzing Dictionary
 description: '**[OSS-Fuzz Dictionaries](https://github.com/google/oss-fuzz/tree/master/projects)**'
-prompt_preview: "---\nname: fuzzing-dictionary\ntype: technique\ndescription: >\n\
-  \  Fuzzing dictionaries guide fuzzers with domain-specific tokens.\n  Use when fuzzing\
-  \ parsers, protocols, or format-specific code.\n---\n\n# Fuzzing Dictionary\n\n\
-  A fuzzing dictionary provides domain-specific tokens to guide the fuzzer toward\
-  \ interesting inputs. Instead of purely random mutations, the fuzzer incorporates\
-  \ known keywords, magic numbers, protocol commands, and format-specific strings\
-  \ that are more likely to reach deeper code pat..."
-full_prompt_length: 9684
+prompt_preview: '---
+
+  name: fuzzing-dictionary
+
+  type: technique
+
+  description: "Builds and applies fuzzing dictionaries so a fuzzer can produce the
+  keywords, magic bytes, and tokens a target expects. Covers extracting tokens from
+  source, headers, binaries, and specifications, dictionary syntax, and wiring one
+  into libFuzzer or AFL++. Use when fuzzing a parser, protocol, or file format, when
+  coverage stalls at input validation, or when a target compares against fixed strings."
+
+  ---
+
+
+  # Fuzzing Dictionary
+
+
+  A fuzzing dic...'
+full_prompt_length: 9954
 tools_mentioned:
+- Go
 - Rust
 - go
-- Go
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/fuzzing-dictionary/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/fuzzing-dictionary/SKILL.md
-fetched_at: '2026-08-02T05:31:28.060585+00:00'
+fetched_at: '2026-10-25T07:20:42.545284+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:19:11.201375Z'
+  evaluated_at: '2026-10-25T11:47:00.982552Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4bb90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e5e1f70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4bb90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e5e1f70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +51,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:17.159764Z'
-indexed_at: '2026-08-02T09:26:17.159773Z'
+  fetched_at: '2026-10-25T12:12:09.035501Z'
+indexed_at: '2026-10-25T12:12:09.035506Z'

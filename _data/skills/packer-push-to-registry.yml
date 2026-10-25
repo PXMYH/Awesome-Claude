@@ -1,0 +1,41 @@
+id: packer-push-to-registry
+slug: packer-push-to-registry
+name: Push to HCP Packer Registry
+description: '- [HCP Packer Documentation](https://developer.hashicorp.com/hcp/docs/packer)'
+prompt_preview: "---\nname: push-to-registry\ndescription: Push Packer build metadata\
+  \ to HCP Packer registry for tracking and managing image lifecycle. Use when integrating\
+  \ Packer builds with HCP Packer for version control and governance.\nmetadata:\n\
+  \  lifecycle-status: active\n---\n\n# Push to HCP Packer Registry\n\nConfigure Packer\
+  \ templates to push build metadata to HCP Packer registry.\n\n**Reference:** [HCP\
+  \ Packer Registry](https://developer.hashicorp.com/hcp/docs/packer)\n\n> **Note:**\
+  \ HCP Packer is free for basic use...."
+full_prompt_length: 4776
+tools_mentioned:
+- aws
+category: community
+category_display: Community
+source_repo: hashicorp/agent-skills
+source_path: plugins/packer/skills/push-to-registry/SKILL.md
+source_url: https://github.com/hashicorp/agent-skills/blob/main/plugins/packer/skills/push-to-registry/SKILL.md
+fetched_at: '2026-10-25T07:17:49.530336+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:29:20.384623Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1c1a0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1c1a0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.552827Z'
+indexed_at: '2026-10-25T12:12:06.552831Z'

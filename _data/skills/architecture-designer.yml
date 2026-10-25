@@ -12,26 +12,26 @@ prompt_preview: '---
   component interactions, and plan for scalability. Use for system design, architecture
   review, microservices structuring, ADR authoring, scalability planning, and infrastructure
   pattern selection — distinct from cod...'
-full_prompt_length: 4730
+full_prompt_length: 4906
 tools_mentioned:
-- MongoDB
 - PostgreSQL
+- MongoDB
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/architecture-designer/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/architecture-designer/SKILL.md
-fetched_at: '2026-08-02T05:28:45.980302+00:00'
+fetched_at: '2026-10-25T07:18:32.922082+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:49:27.239145Z'
+  evaluated_at: '2026-10-25T10:06:42.929744Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed0a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1c590 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed0a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1c590 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.466466Z'
-indexed_at: '2026-08-02T09:26:15.466472Z'
+  fetched_at: '2026-10-25T12:12:07.219266Z'
+indexed_at: '2026-10-25T12:12:07.219271Z'

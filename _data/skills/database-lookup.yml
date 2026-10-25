@@ -1,37 +1,39 @@
 id: database-lookup
 slug: database-lookup
 name: Database Lookup
-description: '### Social Sciences & Demographics'
-prompt_preview: "---\nname: database-lookup\ndescription: Query documented public\
-  \ database APIs with explicit endpoints, filters, pagination, and provenance. Use\
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
+prompt_preview: "---\nname: database-lookup\ndescription: Queries documented public\
+  \ database APIs with explicit endpoints, filters, pagination, and provenance. Used\
   \ when a scientific, regulatory, financial, or other database-backed fact must be\
   \ retrieved reproducibly from a named source rather than inferred from general knowledge.\n\
-  allowed-tools: Read Bash\nlicense: MIT\nmetadata:\n  version: \"1.3\"\n  skill-author:\
-  \ \"K-Dense Inc.\"\n---\n\n# Database Lookup\n\nThis skill catalogs 78 public databases\
-  \ with documented API access pa..."
-full_prompt_length: 25982
+  allowed-tools: Read Bash\nlicense: MIT\nmetadata:\n  version: \"1.8\"\n  last-reviewed:\
+  \ \"2026-09-30\"\n  skill-author: \"K-Dense Inc.\"\n---\n\n# Database Lookup\n\n\
+  This skill catalogs 80 databases wit..."
+full_prompt_length: 27516
 tools_mentioned:
-- GO
 - GraphQL
 - graphql
 - Python
+- GO
+- rest
 - REST
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/database-lookup/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/database-lookup/SKILL.md
-fetched_at: '2026-08-02T05:25:22.816594+00:00'
+fetched_at: '2026-10-25T07:15:47.359571+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:40:23.054670Z'
+  evaluated_at: '2026-10-25T07:40:56.073409Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad0de540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9ac0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad0de540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9ac0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +43,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.048008Z'
-indexed_at: '2026-08-02T09:26:13.048014Z'
+  fetched_at: '2026-10-25T12:12:04.648080Z'
+indexed_at: '2026-10-25T12:12:04.648085Z'

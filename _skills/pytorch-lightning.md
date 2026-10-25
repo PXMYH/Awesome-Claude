@@ -2,8 +2,8 @@
 id: pytorch-lightning
 slug: pytorch-lightning
 name: PyTorch Lightning
-description: '- `lightning_module.md` - Comprehensive LightningModule guide (methods,
-  hooks, properties)'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: pytorch-lightning
@@ -17,9 +17,9 @@ prompt_preview: '---
 
   license: Apache-2.0 license
 
-  compatibility: Requires Python 3.10+ and lightning 2.6+ (or pytorch-lightning 2.6+).
-  GPU tr...'
-full_prompt_length: 7489
+  compatibility: Requires Python 3.10+ with lightning 2.6.6 and compatible PyTorch.
+  CPU examp...'
+full_prompt_length: 10262
 tools_mentioned:
 - Python
 - python
@@ -28,17 +28,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pytorch-lightning/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pytorch-lightning/SKILL.md
-fetched_at: '2026-08-02T05:25:39.494155+00:00'
+fetched_at: '2026-10-25T07:15:59.860111+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:53:07.163644Z'
+  evaluated_at: '2026-10-25T07:54:55.210449Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19d90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6ae9c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19d90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6ae9c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.293392Z'
-indexed_at: '2026-08-02T09:26:13.293398Z'
+  fetched_at: '2026-10-25T12:12:04.891099Z'
+indexed_at: '2026-10-25T12:12:04.891103Z'
 ---

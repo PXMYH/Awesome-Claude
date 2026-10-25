@@ -1,0 +1,44 @@
+---
+id: seo-page
+slug: seo-page
+name: Canonical NotFair workflow
+description: Read [`../../seo/seo-page/WORKFLOW.md`](../../seo/seo-page/WORKFLOW.md)
+  completely, then follow it as the active workflow. Resolve every relative reference
+  from that file against `../../seo/seo-page/`...
+prompt_preview: "---\nname: seo-page\nargument-hint: \"<URL of the page to analyze,\
+  \ e.g. https://example.com/blog/my-post>\"\ndescription: >\n  Single-page SEO audit:\
+  \ content quality under Google's E-E-A-T framework and\n  Helpful Content guidelines,\
+  \ on-page factors, search intent, technical signals and\n  readability. Pulls GSC\
+  \ data for the page, crawls the live HTML, checks metadata,\n  schema, internal\
+  \ linking and depth, and produces a scored report with fixes. Use\n  whenever the\
+  \ user wants to analyze a specific page..."
+full_prompt_length: 1325
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: nowork-studio/NotFair
+source_path: skills/seo-page/SKILL.md
+source_url: https://github.com/nowork-studio/NotFair/blob/main/skills/seo-page/SKILL.md
+fetched_at: '2026-10-25T07:18:57.715283+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T10:22:32.619649Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1fb30 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1fb30 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:07.494391Z'
+indexed_at: '2026-10-25T12:12:07.494395Z'
+---

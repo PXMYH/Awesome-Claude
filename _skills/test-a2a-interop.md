@@ -10,7 +10,7 @@ prompt_preview: "---\nname: test-a2a-interop\ndescription: >\n  Test A2A interop
   \ two or more A2A agents, running conformance tests in\n  CI/CD for A2A services,\
   \ debugging failures in multi-agent A2A workflows, or\n  certifying that an agent\
   \ meets A2A protocol requir..."
-full_prompt_length: 15708
+full_prompt_length: 15850
 tools_mentioned:
 - typescript
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/test-a2a-interop/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/test-a2a-interop/SKILL.md
-fetched_at: '2026-08-02T05:30:23.121731+00:00'
+fetched_at: '2026-10-25T07:19:53.838130+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:48:12.568515Z'
+  evaluated_at: '2026-10-25T11:12:37.718250Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ace1d6a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1d340 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ace1d6a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1d340 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.577205Z'
-indexed_at: '2026-08-02T09:26:16.577210Z'
+  fetched_at: '2026-10-25T12:12:08.414594Z'
+indexed_at: '2026-10-25T12:12:08.414599Z'
 ---

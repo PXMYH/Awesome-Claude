@@ -1,35 +1,39 @@
 ---
 id: setup
 slug: setup
-name: Setup Assistant
-description: '- **Be specific** - show exact commands for their environment'
-prompt_preview: "---\nname: setup\ndescription: Detects your Python environment and\
-  \ guides you through installing plugin dependencies. Use on first-time setup or\
-  \ when MCP server fails to start.\nargument-hint: <blank for full check | \"mcp\"\
-  \ | \"mastering\" | \"document-hunter\">\nmodel: haiku\nallowed-tools:\n  - Bash\n\
-  ---\n\nBase directory for this skill: ${CLAUDE_PLUGIN_BASE_DIR}\n\n## Your Task\n\
-  \nGuide the user through installing bitwize-music plugin dependencies based on their\
-  \ Python environment and requested components.\n\n--..."
-full_prompt_length: 7250
+name: ax:setup
+description: '- Experiment-loop workflow → use `ax:retro`.'
+prompt_preview: '---
+
+  name: setup
+
+  description: Install + verify ax (the agent experience layer). Triggers when the
+  user says "install ax", "set up ax", "ax not found", "ax doctor", "is ax running",
+  "fix ax install", "first-time ax setup", or any setup question about the ax CLI
+  / skills / daemon. Walks the install via the install.sh + skills.sh + first ingest,
+  validates with `ax doctor`, and points the user at ax:retro (experiment loop) and
+  ax:extract-workflow (reconstruct workflow behind shipped artifacts).
+
+  ---...'
+full_prompt_length: 7846
 tools_mentioned:
-- Python
-- python
+- TypeScript
 category: community
 category_display: Community
-source_repo: bitwize-music-studio/claude-ai-music-skills
+source_repo: Necmttn/ax
 source_path: skills/setup/SKILL.md
-source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/setup/SKILL.md
-fetched_at: '2026-08-02T05:27:01.356681+00:00'
+source_url: https://github.com/Necmttn/ax/blob/main/skills/setup/SKILL.md
+fetched_at: '2026-10-25T07:16:07.640242+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:43:14.693189Z'
+  evaluated_at: '2026-10-25T08:02:40.199565Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaefd40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb80e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaefd40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb80e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.230757Z'
-indexed_at: '2026-08-02T09:26:14.230763Z'
+  fetched_at: '2026-10-25T12:12:05.023767Z'
+indexed_at: '2026-10-25T12:12:05.023771Z'
 ---

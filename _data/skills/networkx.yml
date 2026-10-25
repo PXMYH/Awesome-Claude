@@ -1,20 +1,21 @@
 id: networkx
 slug: networkx
 name: NetworkX
-description: '- **Official Documentation**: https://networkx.org/documentation/latest/'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: networkx
 
-  description: Create, analyze, and visualize complex networks and graphs in Python
+  description: Creates, analyzes, and visualizes complex networks and graphs in Python
   with NetworkX. Use when working with network/graph data structures, computing graph
   algorithms (shortest paths, centrality, clustering), detecting communities, generating
   synthetic networks (random, scale-free, small-world), reading/writing graph file
   formats, or drawing network topologies. Common applications include social, biological,
   transportation, and citation networks.
 
-  license: 3-clause BS...'
-full_prompt_length: 13477
+  license: 3-clause...'
+full_prompt_length: 16981
 tools_mentioned:
 - Python
 - python
@@ -23,17 +24,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/networkx/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/networkx/SKILL.md
-fetched_at: '2026-08-02T05:25:31.930586+00:00'
+fetched_at: '2026-10-25T07:15:54.492580+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:47:18.365361Z'
+  evaluated_at: '2026-10-25T07:48:47.642402Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad5e8a10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e0579e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad5e8a10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e0579e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,5 +44,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.182924Z'
-indexed_at: '2026-08-02T09:26:13.182930Z'
+  fetched_at: '2026-10-25T12:12:04.784575Z'
+indexed_at: '2026-10-25T12:12:04.784579Z'

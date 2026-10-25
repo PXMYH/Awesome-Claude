@@ -1,22 +1,21 @@
 id: scvelo
 slug: scvelo
-name: scVelo — RNA Velocity Analysis
-description: '- **scVelo documentation**: https://scvelo.readthedocs.io/'
+name: scVelo RNA Velocity
+description: Reviewed 2026-10-01 against the [released source](https://github.com/theislab/scvelo/tree/v0.3.4),
 prompt_preview: '---
 
   name: scvelo
 
-  description: RNA velocity analysis with scVelo. Estimate cell state transitions
-  from unspliced/spliced mRNA dynamics, infer trajectory directions, compute latent
-  time, and identify driver genes in single-cell RNA-seq data. Complements Scanpy/scVI-tools
-  for trajectory inference.
+  description: Performs RNA velocity analysis with scVelo from spliced and unspliced
+  single-cell RNA counts. Fits deterministic or dynamical models, examines gene phase
+  portraits, builds velocity graphs, estimates relative latent time, and ranks velocity-associated
+  genes. Use for directional trajectory hypotheses and kinetic-model diagnostics alongside
+  Scanpy; velocity alone does not establish cell fate or causal drivers.
 
   license: BSD-3-Clause
 
-  compatibility: Requires Python 3.10+ with scvelo, scanpy, and anndata. Verified
-  against scvelo 0.3.4, whose dynamical model and pl.scatter need pandas<3 and whose
-  stochastic estimato...'
-full_prompt_length: 10881
+  compatibility: Requires Python 3.13 f...'
+full_prompt_length: 12482
 tools_mentioned:
 - Python
 - python
@@ -25,17 +24,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/scvelo/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/scvelo/SKILL.md
-fetched_at: '2026-08-02T05:25:43.123884+00:00'
+fetched_at: '2026-10-25T07:16:02.400764+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:55:46.447984Z'
+  evaluated_at: '2026-10-25T07:57:53.235900Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad122bd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6a80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad122bd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6a80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,5 +44,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.343539Z'
-indexed_at: '2026-08-02T09:26:13.343545Z'
+  fetched_at: '2026-10-25T12:12:04.943195Z'
+indexed_at: '2026-10-25T12:12:04.943200Z'

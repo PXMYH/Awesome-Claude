@@ -1,0 +1,45 @@
+id: suede-marketing-plan
+slug: suede-marketing-plan
+name: Suede Marketing Plan
+description: '- `suede-product-marketing` for positioning; `suede-customer-research`
+  for voice-of-customer evidence.'
+prompt_preview: '---
+
+  name: suede-marketing-plan
+
+  description: "Suede AI marketing planning in two modes. Shortlist mode scores up
+  to 8 tactics from a 142-idea tactic library (including AI answer visibility, entity
+  consistency, and comparison and pricing pages as search assets) on audience, stage,
+  evidence, capacity, cost, and risk, and returns at most 5 with test, metric, review
+  date, and stop condition. Full plan mode writes a 13-section AARRR operating plan
+  (acquisition, activation, retention, referral, revenue...'
+full_prompt_length: 13406
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-marketing-plan/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-marketing-plan/SKILL.md
+fetched_at: '2026-10-25T07:15:36.565678+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:32:08.889267Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debb410 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debb410 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.501927Z'
+indexed_at: '2026-10-25T12:12:04.501931Z'

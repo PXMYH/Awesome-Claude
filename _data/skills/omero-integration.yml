@@ -1,36 +1,37 @@
 id: omero-integration
 slug: omero-integration
 name: OMERO Integration
-description: '- Confirm server version and its tested OMERO.py pairing.'
-prompt_preview: "---\nname: omero-integration\ndescription: Securely inspect and automate\
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
+prompt_preview: "---\nname: omero-integration\ndescription: Inspects and automates\
   \ microscopy data workflows against OMERO.server with omero-py, BlitzGateway, OMERO\
   \ CLI, tables, annotations, ROIs, rendering, and documented OMERO.web APIs. Use\
-  \ for scoped OMERO inventory, metadata export, import/export planning, or reviewed\
-  \ write workflows.\nlicense: MIT\ncompatibility: >-\n  Requires network access to\
-  \ a user-selected OMERO.server for remote operations.\n  The 2026-07-23 snapshot\
-  \ uses OMERO.py 5.22.1 with ZeroC I..."
-full_prompt_length: 9265
+  \ this skill for scoped OMERO inventory, metadata export, import/export planning,\
+  \ or reviewed write workflows.\nlicense: MIT\ncompatibility: >-\n  Requires network\
+  \ access to a user-selected OMERO.server for remote operations.\n  The server-tested\
+  \ snapshot uses OMERO.py 5.22.1 with..."
+full_prompt_length: 11130
 tools_mentioned:
-- python
-- REST
 - Python
 - Java
+- REST
+- python
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/omero-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/omero-integration/SKILL.md
-fetched_at: '2026-08-02T05:25:32.605619+00:00'
+fetched_at: '2026-10-25T07:15:55.211126+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:47:51.115311Z'
+  evaluated_at: '2026-10-25T07:49:36.157576Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee5d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8cb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee5d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8cb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.193595Z'
-indexed_at: '2026-08-02T09:26:13.193601Z'
+  fetched_at: '2026-10-25T12:12:04.798314Z'
+indexed_at: '2026-10-25T12:12:04.798317Z'

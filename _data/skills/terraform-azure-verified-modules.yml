@@ -1,0 +1,43 @@
+id: terraform-azure-verified-modules
+slug: terraform-azure-verified-modules
+name: Azure Verified Modules (AVM) Requirements
+description: '*Based on: Azure Verified Modules - Terraform Requirements*'
+prompt_preview: "---\nname: azure-verified-modules\ndescription: Azure Verified Modules\
+  \ (AVM) requirements and best practices for developing certified Azure Terraform\
+  \ modules. Use when creating or reviewing Azure modules that need AVM certification.\n\
+  metadata:\n  lifecycle-status: active\n---\n\n# Azure Verified Modules (AVM) Requirements\n\
+  \nThis guide covers the mandatory requirements for Azure Verified Modules certification.\
+  \ These requirements ensure consistency, quality, and maintainability across Azure\
+  \ Terraform modu..."
+full_prompt_length: 16300
+tools_mentioned:
+- azure
+- Go
+- Azure
+category: community
+category_display: Community
+source_repo: hashicorp/agent-skills
+source_path: plugins/terraform/skills/azure-verified-modules/SKILL.md
+source_url: https://github.com/hashicorp/agent-skills/blob/main/plugins/terraform/skills/azure-verified-modules/SKILL.md
+fetched_at: '2026-10-25T07:17:49.885437+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:29:36.568409Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057650 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057650 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.557023Z'
+indexed_at: '2026-10-25T12:12:06.557027Z'

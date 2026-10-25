@@ -10,24 +10,24 @@ prompt_preview: "---\nname: troubleshoot-print-issues\ndescription: >\n  Diagnos
   \ prints have quality defects (stringing, blobs,\n  gaps), dimensional accuracy\
   \ issues occur (warping, elephant foot), layer\n  adhesion fails, or new material\
   \ or hardware changes are causing inconsistent..."
-full_prompt_length: 14940
+full_prompt_length: 14855
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/troubleshoot-print-issues/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/troubleshoot-print-issues/SKILL.md
-fetched_at: '2026-08-02T05:30:24.697212+00:00'
+fetched_at: '2026-10-25T07:19:55.134651+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:49:26.835326Z'
+  evaluated_at: '2026-10-25T11:14:00.616940Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49ca0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9310 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49ca0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9310 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.600365Z'
-indexed_at: '2026-08-02T09:26:16.600370Z'
+  fetched_at: '2026-10-25T12:12:08.439184Z'
+indexed_at: '2026-10-25T12:12:08.439192Z'

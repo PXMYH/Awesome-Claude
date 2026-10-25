@@ -1,0 +1,55 @@
+id: marketing-brain
+slug: marketing-brain
+name: Marketing Brain
+description: 1. **Examples over adjectives.** If the user answers with an adjective,
+  ask for an example.
+prompt_preview: '---
+
+  name: marketing-brain
+
+  description: Build the business "brain" every marketing agent reads first — START-HERE,
+  customer-fit, offers, voice, founder opinions, failed campaigns — by interviewing
+  you and seeding it from your CRM (HubSpot, Pipedrive or Upsales), store (Shopify
+  or WooCommerce) and Stripe, stored in the Cogny context tree
+
+  version: "1.1.3"
+
+  author: Cogny AI
+
+  requires: cogny-mcp
+
+  platforms: [cogny, hubspot, pipedrive, upsales, shopify, woocommerce, stripe]
+
+  user-invocable: true
+
+  argument-...'
+full_prompt_length: 14426
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: cognyai/claude-code-marketing-skills
+source_path: skills/marketing-brain/SKILL.md
+source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/marketing-brain/SKILL.md
+fetched_at: '2026-10-25T07:17:17.136063+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T08:58:42.643729Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9310 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9310 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.023421Z'
+indexed_at: '2026-10-25T12:12:06.023425Z'

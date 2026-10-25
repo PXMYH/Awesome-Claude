@@ -1,0 +1,44 @@
+id: wondelai-skills-grow-app
+slug: wondelai-skills-grow-app
+name: Grow an App
+description: '- When engagement mechanics cannot fix a product held back by broken
+  UX or performance, continue with the `improve-app` skill.'
+prompt_preview: '---
+
+  name: grow-app
+
+  description: ''Guided journey from an app people sign up for and then quietly abandon
+  to a sealed retention engine with a habit loop, an activated first run, and one
+  metric the whole team trusts. Orchestrates eight skills phase by phase - hooked-ux,
+  improve-retention, continuous-discovery, lean-ux, inspired-product, lean-analytics,
+  microinteractions, drive-motivation - asking the user questions at every decision
+  point and recording results in the project docs/ folder (PRODUCT.m...'
+full_prompt_length: 22334
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: wondelai/skills
+source_path: plugins/wondelai-skills/skills/grow-app/SKILL.md
+source_url: https://github.com/wondelai/skills/blob/main/plugins/wondelai-skills/skills/grow-app/SKILL.md
+fetched_at: '2026-10-25T07:21:02.229700+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T12:03:12.396848Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee79b0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee79b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:09.305110Z'
+indexed_at: '2026-10-25T12:12:09.305114Z'

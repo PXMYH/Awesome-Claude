@@ -1,0 +1,48 @@
+---
+id: suede-free-tools
+slug: suede-free-tools
+name: Suede Free-Tool Growth Strategy
+description: '- Use `suede-lead-magnets` for downloadable assets and `suede-site-alchemy`
+  for the public conversion surface.'
+prompt_preview: '---
+
+  name: suede-free-tools
+
+  description: "Suede AI engineering-as-marketing strategy for selecting, scoring,
+  and scoping calculators, graders, generators, and other free interactive tools.
+  Includes a search- and AI-answer-ready tool page (crawlable method, worked example,
+  schema) and KPIs. Use when the user wants a lead, link, education, or product-adoption
+  asset with a measurable path to the paid product. NOT FOR: downloadable lead assets
+  (use suede-lead-magnets), implementation of a full websit...'
+full_prompt_length: 10378
+tools_mentioned:
+- JavaScript
+- go
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-free-tools/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-free-tools/SKILL.md
+fetched_at: '2026-10-25T07:15:35.604423+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:31:04.152202Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e577980 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e577980 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.484997Z'
+indexed_at: '2026-10-25T12:12:04.485001Z'
+---

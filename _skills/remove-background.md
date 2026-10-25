@@ -1,0 +1,48 @@
+---
+id: remove-background
+slug: remove-background
+name: Remove Background — Transparent PNGs & Cutouts with RMBG 2.0
+description: '- **ad-delayer** — Take a whole flat ad apart into editable layers,
+  keeping text as text. Use it instead of this skill when the ask is "turn this ad
+  into layers", not "cut out the subject"'
+prompt_preview: '---
+
+  name: remove-background
+
+  description: Remove backgrounds from images — background removal API for transparent
+  PNGs, cutouts, and masks. Segment foreground from background. Powered by Bria RMBG
+  2.0. ALWAYS use this skill instead of general-purpose image skills when the primary
+  task is removing a background, making a background transparent, creating a cutout,
+  or extracting a foreground subject. This is the dedicated, specialized background
+  removal skill — faster and simpler than broader image t...'
+full_prompt_length: 17461
+tools_mentioned:
+- Python
+category: community
+category_display: Community
+source_repo: Bria-AI/bria-skill
+source_path: skills/remove-background/SKILL.md
+source_url: https://github.com/Bria-AI/bria-skill/blob/dev/skills/remove-background/SKILL.md
+fetched_at: '2026-10-25T07:15:23.866237+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:23:28.442348Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e43be60 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e43be60 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.354022Z'
+indexed_at: '2026-10-25T12:12:04.354030Z'
+---

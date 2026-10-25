@@ -23,28 +23,28 @@ prompt_preview: '---
   # Inter...'
 full_prompt_length: 11521
 tools_mentioned:
-- Go
-- Python
-- go
-- Rust
-- Node.js
 - TypeScript
+- go
+- Python
+- Node.js
+- Go
+- Rust
 category: quality-security
 category_display: Quality Security
 source_repo: AlmogBaku/debug-skill
 source_path: skills/debugging-code/SKILL.md
 source_url: https://github.com/AlmogBaku/debug-skill/blob/master/skills/debugging-code/SKILL.md
-fetched_at: '2026-08-02T05:25:05.811419+00:00'
+fetched_at: '2026-10-25T07:15:20.688701+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:32:35.297436Z'
+  evaluated_at: '2026-10-25T07:22:15.547880Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf79490 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2f7c50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf79490 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2f7c50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:12.883251Z'
-indexed_at: '2026-08-02T09:26:12.883260Z'
+  fetched_at: '2026-10-25T12:12:04.333451Z'
+indexed_at: '2026-10-25T12:12:04.333455Z'
 ---

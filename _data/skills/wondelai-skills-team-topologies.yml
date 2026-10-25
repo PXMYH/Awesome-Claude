@@ -1,0 +1,46 @@
+id: wondelai-skills-team-topologies
+slug: wondelai-skills-team-topologies
+name: Team Topologies
+description: '**Matthew Skelton** is the founder of Conflux, a consultancy for fast
+  flow in software organizations, and co-author of *Team Topologies*. **Manuel Pais**
+  is an independent IT organizational consultant...'
+prompt_preview: '---
+
+  name: team-topologies
+
+  description: ''Organize business and technology teams for fast flow using Skelton
+  & Pais''''s "Team Topologies". Use when the user mentions "team topologies", "Conway''''s
+  law", "platform team", "stream-aligned team", "team boundaries", "cognitive load",
+  "how should we split teams", "who owns this service", "team dependencies", or "reorg".
+  Also trigger when reorganizing engineering teams, aligning team and service boundaries,
+  splitting a monolith and deciding ownership, redu...'
+full_prompt_length: 18859
+tools_mentioned:
+- rest
+category: community
+category_display: Community
+source_repo: wondelai/skills
+source_path: plugins/wondelai-skills/skills/team-topologies/SKILL.md
+source_url: https://github.com/wondelai/skills/blob/main/plugins/wondelai-skills/skills/team-topologies/SKILL.md
+fetched_at: '2026-10-25T07:21:06.728243+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T12:08:16.140824Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4fb0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4fb0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:09.384832Z'
+indexed_at: '2026-10-25T12:12:09.384836Z'

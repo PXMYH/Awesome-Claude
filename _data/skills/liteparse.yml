@@ -1,7 +1,8 @@
 id: liteparse
 slug: liteparse
 name: LiteParse — Local Document Parsing
-description: '- **GitHub**: https://github.com/run-llama/liteparse'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: liteparse
@@ -10,35 +11,35 @@ prompt_preview: '---
   boxes. Use for extracting text from PDFs, DOCX, Office files, and images; running
   OCR on scans; producing layout-preserved JSON for RAG; batch-ingesting folders of
   papers; or rendering pages to PNG for multimodal agents. Distinguishing capabilities
-  are per-token bounding boxes, page raster output, and fully local processing with
-  no cloud API.
+  are spatial text boxes, Markdown, page raster output, and local parsing with optional
+  custom HTTP OCR.
 
   license: Apache-2.0
 
-  allowed-tools: Read Write Edit...'
-full_prompt_length: 9302
+  allowed-tools: Read Writ...'
+full_prompt_length: 12360
 tools_mentioned:
+- TypeScript
 - Python
 - python
-- Rust
 - Node.js
-- TypeScript
+- Rust
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/liteparse/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/liteparse/SKILL.md
-fetched_at: '2026-08-02T05:25:29.718419+00:00'
+fetched_at: '2026-10-25T07:15:52.688359+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:45:39.581004Z'
+  evaluated_at: '2026-10-25T07:46:45.657933Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8eab5a30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8eab5a30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,5 +49,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.151406Z'
-indexed_at: '2026-08-02T09:26:13.151413Z'
+  fetched_at: '2026-10-25T12:12:04.749431Z'
+indexed_at: '2026-10-25T12:12:04.749435Z'

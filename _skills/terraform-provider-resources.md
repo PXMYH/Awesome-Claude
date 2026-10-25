@@ -1,0 +1,44 @@
+---
+id: terraform-provider-resources
+slug: terraform-provider-resources
+name: Terraform Provider Resources Implementation Guide
+description: '- [Terraform Plugin Framework](https://developer.hashicorp.com/terraform/plugin/framework)'
+prompt_preview: "---\nname: provider-resources\ndescription: >-\n  Implement Terraform\
+  \ Provider resources and data sources using the Plugin\n  Framework: CRUD operations,\
+  \ schema design, plan modifiers and validators,\n  not-found handling, waiters for\
+  \ eventually consistent APIs, import support,\n  resource design principles, and\
+  \ required acceptance test coverage. Use when\n  adding or changing a resource or\
+  \ data source, deciding whether an API\n  concept should be a resource, wiring a\
+  \ resource to the provider's\n  config..."
+full_prompt_length: 18248
+tools_mentioned:
+- aws
+- go
+category: community
+category_display: Community
+source_repo: hashicorp/agent-skills
+source_path: plugins/terraform/skills/provider-resources/SKILL.md
+source_url: https://github.com/hashicorp/agent-skills/blob/main/plugins/terraform/skills/provider-resources/SKILL.md
+fetched_at: '2026-10-25T07:17:50.652752+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:30:33.325745Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1fbc0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1fbc0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.571954Z'
+indexed_at: '2026-10-25T12:12:06.571959Z'
+---

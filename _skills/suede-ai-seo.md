@@ -1,0 +1,47 @@
+---
+id: suede-ai-seo
+slug: suede-ai-seo
+name: Suede AI SEO
+description: '- Technical, on-page, and schema-validity audit with scored lanes: `suede-seo-audit`.'
+prompt_preview: '---
+
+  name: suede-ai-seo
+
+  description: "Suede AI answer-engine and generative-engine optimization (AEO/GEO)
+  program for getting a brand cited and recommended in Google AI Overviews and AI
+  Mode, ChatGPT search, Perplexity, Copilot, Gemini, and Claude. Sets AI crawler policy
+  (GPTBot, OAI-SearchBot, ClaudeBot, Claude-SearchBot, PerplexityBot, Google-Extended),
+  entity and knowledge-graph consistency (Organization and Person schema, sameAs),
+  citation-worthy page patterns, off-site consensus, llms.txt an...'
+full_prompt_length: 15558
+tools_mentioned:
+- rest
+- JavaScript
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-ai-seo/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-ai-seo/SKILL.md
+fetched_at: '2026-10-25T07:15:33.035092+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:28:13.925742Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2d77a0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2d77a0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.441056Z'
+indexed_at: '2026-10-25T12:12:04.441061Z'
+---

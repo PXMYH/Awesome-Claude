@@ -1,0 +1,54 @@
+---
+id: closed-lost-revival
+slug: closed-lost-revival
+name: Closed-Lost Revival
+description: 1. **Never invent a reason.** "Unknown" is a valid answer.
+prompt_preview: '---
+
+  name: closed-lost-revival
+
+  description: Re-read every lost deal in your CRM (HubSpot, Pipedrive or Upsales;
+  Salesforce via the CRM layer) with its calls, meetings and notes, replace "not interested"
+  with the real reason plus a reopen condition, then watch for those conditions —
+  a shipped feature, a renewal date, a champion moving, the account coming back to
+  your site — and draft a personal note that quotes the original conversation
+
+  version: "1.2.3"
+
+  author: Cogny AI
+
+  requires: cogny-mcp
+
+  platfor...'
+full_prompt_length: 14346
+tools_mentioned:
+- rest
+- go
+category: community
+category_display: Community
+source_repo: cognyai/claude-code-marketing-skills
+source_path: skills/closed-lost-revival/SKILL.md
+source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/closed-lost-revival/SKILL.md
+fetched_at: '2026-10-25T07:17:12.855598+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T08:54:21.753659Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e0576b0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e0576b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:05.944396Z'
+indexed_at: '2026-10-25T12:12:05.944405Z'
+---

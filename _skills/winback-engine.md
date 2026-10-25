@@ -2,33 +2,33 @@
 id: winback-engine
 slug: winback-engine
 name: Winback Engine
-description: '- **Never suppress before a winback attempt.** Give Tier D subscribers
-  one last chance to re-engage.'
+description: Use `create_ticket` when the workspace has it (Cloud) and `create_finding`
+  otherwise (Solo).
 prompt_preview: "---\nname: winback-engine\ndescription: Find dormant subscribers,\
   \ segment by historical value, draft personalized winback emails per tier, and identify\
-  \ suppression candidates\nversion: \"1.0.0\"\nauthor: Cogny AI\nrequires: cogny-mcp\n\
-  platforms: [klaviyo, mailchimp, rule, get-a-newsletter]\nuser-invocable: true\n\
-  argument-hint: \"[aggressive|standard|conservative]\"\nallowed-tools:\n  # Cogny\
-  \ Cloud (aggregated) namespace\n  - mcp__cogny__klaviyo__*\n  - mcp__cogny__mailchimp__*\n\
-  \  - mcp__cogny__rule__*\n  - mcp__c..."
-full_prompt_length: 9405
+  \ suppression candidates\nversion: \"1.1.2\"\nauthor: Cogny AI\nrequires: cogny-mcp\n\
+  platforms: [klaviyo, mailchimp, rule, get-a-newsletter, brevo, mailerlite, drip,\
+  \ salesforce-marketing-cloud, braze, shopify, woocommerce, stripe]\nuser-invocable:\
+  \ true\nargument-hint: \"[aggressive|standard|conservative]\"\nallowed-tools:\n\
+  \  # Cogny Cloud (aggregated) namespace..."
+full_prompt_length: 23749
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/winback-engine/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/winback-engine/SKILL.md
-fetched_at: '2026-08-02T05:27:19.276901+00:00'
+fetched_at: '2026-10-25T07:17:20.251715+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:54:47.645621Z'
+  evaluated_at: '2026-10-25T09:01:58.325241Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad121640 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb91f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad121640 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb91f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.453084Z'
-indexed_at: '2026-08-02T09:26:14.453093Z'
+  fetched_at: '2026-10-25T12:12:06.081846Z'
+indexed_at: '2026-10-25T12:12:06.081851Z'
 ---

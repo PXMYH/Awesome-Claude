@@ -2,32 +2,33 @@
 id: seo-monitor
 slug: seo-monitor
 name: SEO Monitor
-description: 'Top 3 Actions:'
+description: Use `create_ticket` when the workspace has it (Cloud) and `create_finding`
+  otherwise (Solo).
 prompt_preview: "---\nname: seo-monitor\ndescription: Monitor SEO rankings, queries,\
-  \ and indexing via Search Console MCP\nversion: \"1.0.0\"\nauthor: Cogny AI\nrequires:\
-  \ cogny-mcp\nplatforms: [search-console]\nuser-invocable: true\nargument-hint: \"\
-  [overview|queries|pages|indexing]\"\nallowed-tools:\n  - mcp__cogny__search_console__*\n\
-  \  - mcp__cogny__create_finding\n  - WebFetch\n  - WebSearch\n---\n\n# SEO Monitor\n\
-  \nMonitor your website's search performance using live Google Search Console data\
-  \ via Cogny's MCP server.\n\n**Requires:*..."
-full_prompt_length: 2284
+  \ and indexing via Search Console and/or Bing Webmaster Tools MCP\nversion: \"1.1.2\"\
+  \nauthor: Cogny AI\nrequires: cogny-mcp\nplatforms: [search-console, bing-webmaster]\n\
+  user-invocable: true\nargument-hint: \"[overview|queries|pages|indexing]\"\nallowed-tools:\n\
+  \  - mcp__cogny__refresh_mcp_discovery\n  - mcp__cogny__list_integrations\n  # Search\
+  \ Console (read-only)\n  - mcp__cogny__mcp__Google_Search_Console__tool_list_properties\n\
+  \  - mcp__cogny__m..."
+full_prompt_length: 8698
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/seo-monitor/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/seo-monitor/SKILL.md
-fetched_at: '2026-08-02T05:27:17.484756+00:00'
+fetched_at: '2026-10-25T07:17:18.800746+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:53:26.197124Z'
+  evaluated_at: '2026-10-25T09:00:28.211507Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad254ad0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debb6b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad254ad0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debb6b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.427282Z'
-indexed_at: '2026-08-02T09:26:14.427288Z'
+  fetched_at: '2026-10-25T12:12:06.054626Z'
+indexed_at: '2026-10-25T12:12:06.054631Z'
 ---

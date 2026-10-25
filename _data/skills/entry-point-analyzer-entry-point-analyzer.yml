@@ -12,7 +12,7 @@ prompt_preview: '---
   and generates structured audit reports. Excludes view/pure/read-only functions.
   Use when auditing smart contracts (Solidity, Vyper, Solana/Rust, Move, TON, CosmWasm)
   or when asked to find entry points, audit flows, exter...'
-full_prompt_length: 9575
+full_prompt_length: 10585
 tools_mentioned:
 - Rust
 category: security
@@ -20,17 +20,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/entry-point-analyzer/skills/entry-point-analyzer/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/entry-point-analyzer/skills/entry-point-analyzer/SKILL.md
-fetched_at: '2026-08-02T05:31:17.264891+00:00'
+fetched_at: '2026-10-25T07:20:34.482645+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:15:01.722146Z'
+  evaluated_at: '2026-10-25T11:41:19.496639Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1d7f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1d7f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:17.081456Z'
-indexed_at: '2026-08-02T09:26:17.081464Z'
+  fetched_at: '2026-10-25T12:12:08.935805Z'
+indexed_at: '2026-10-25T12:12:08.935809Z'

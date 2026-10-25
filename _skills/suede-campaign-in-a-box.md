@@ -1,0 +1,48 @@
+---
+id: suede-campaign-in-a-box
+slug: suede-campaign-in-a-box
+name: Suede Campaign In A Box
+description: '- Rights, sample, split, AI-authorship, or clearance gaps surfaced in
+  any lane'
+prompt_preview: '---
+
+  name: suede-campaign-in-a-box
+
+  description: "Suede AI artist campaign rollout for a song, release, era, show, or
+  catalog moment. Use when an artist needs a complete campaign across surfaces (identity,
+  era world, hooks, release stunts, fan rituals, visualizers, merch, setlists, catalog
+  revival, collaborator outreach) or the full announce, tease, release-week, and post-drop
+  package with calendar, email, site copy, search-ready release page, and fan actions.
+  Picks one of twelve lanes or stitches...'
+full_prompt_length: 9163
+tools_mentioned:
+- Go
+- go
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-campaign-in-a-box/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-campaign-in-a-box/SKILL.md
+fetched_at: '2026-10-25T07:15:33.524192+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:28:46.300652Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e265970 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e265970 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.449505Z'
+indexed_at: '2026-10-25T12:12:04.449509Z'
+---

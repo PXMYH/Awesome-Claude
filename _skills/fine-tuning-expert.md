@@ -13,7 +13,7 @@ prompt_preview: '---
   transfer learning, finetuning with Hugging Face PEFT, OpenAI fine-tuning, instruction
   tuning, RLHF, DPO, or quantizing and deploying fine-tuned models. Trigger terms
   include: LoRA, QLoRA, PEFT, finetuning, fine-tu...'
-full_prompt_length: 6604
+full_prompt_length: 6780
 tools_mentioned:
 - python
 category: community
@@ -21,17 +21,17 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/fine-tuning-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/fine-tuning-expert/SKILL.md
-fetched_at: '2026-08-02T05:28:48.860684+00:00'
+fetched_at: '2026-10-25T07:18:34.916233+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:50:24.333317Z'
+  evaluated_at: '2026-10-25T10:07:47.642358Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ac98a2a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057b60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ac98a2a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057b60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.484972Z'
-indexed_at: '2026-08-02T09:26:15.484978Z'
+  fetched_at: '2026-10-25T12:12:07.238677Z'
+indexed_at: '2026-10-25T12:12:07.238681Z'
 ---

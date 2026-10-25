@@ -1,7 +1,8 @@
 id: astropy
 slug: astropy
 name: Astropy
-description: 'For detailed information on specific modules:'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: astropy
@@ -13,31 +14,31 @@ prompt_preview: '---
 
   license: BSD-3-Clause license
 
-  compatibility: Requires Python 3.11+ with astropy installed (uv for package installation).
-  Some features (object name resolution, site lookups, remote FITS reads, IERS updates)
-  nee...'
-full_prompt_length: 14469
+  compatibility: Requires Python 3.11+, Astropy 8.0.1 and NumPy 2+; SciPy for cosmology,
+  matching and fitting (uv for installation). Some features (object name resolution,
+  site looku...'
+full_prompt_length: 17035
 tools_mentioned:
-- Angular
-- angular
 - Python
+- Angular
 - python
+- angular
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/astropy/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/astropy/SKILL.md
-fetched_at: '2026-08-02T05:25:19.974353+00:00'
+fetched_at: '2026-10-25T07:15:45.100846+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:38:11.900177Z'
+  evaluated_at: '2026-10-25T07:38:30.037405Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1ac90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057b60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1ac90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057b60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,5 +48,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.005299Z'
-indexed_at: '2026-08-02T09:26:13.005306Z'
+  fetched_at: '2026-10-25T12:12:04.605166Z'
+indexed_at: '2026-10-25T12:12:04.605171Z'

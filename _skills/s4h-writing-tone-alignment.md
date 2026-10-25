@@ -27,17 +27,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-writing-tone-alignment/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-writing-tone-alignment/SKILL.md
-fetched_at: '2026-08-02T05:28:34.602992+00:00'
+fetched_at: '2026-10-25T07:18:23.683660+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:45:24.431868Z'
+  evaluated_at: '2026-10-25T10:02:47.232334Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee360 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1cc50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee360 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1cc50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.390757Z'
-indexed_at: '2026-08-02T09:26:15.390763Z'
+  fetched_at: '2026-10-25T12:12:07.147823Z'
+indexed_at: '2026-10-25T12:12:07.147828Z'
 ---

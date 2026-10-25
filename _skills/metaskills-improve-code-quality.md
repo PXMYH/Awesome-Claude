@@ -1,0 +1,48 @@
+---
+id: metaskills-improve-code-quality
+slug: metaskills-improve-code-quality
+name: Improve Code Quality
+description: 'Close the tracker: every phase `done` or `skipped: reason`, with remaining
+  Next Actions carried into the TECH-DEBT.md Debt Ledger so nothing is lost. Then
+  route forward: when the codebase is old and l...'
+prompt_preview: '---
+
+  name: improve-code-quality
+
+  description: ''Guided journey from a working-but-untested vibe-coded prototype to
+  a production-ready product with tests, clean structure, a business-rules boundary,
+  and resilience at scale. Orchestrates nine skills phase by phase - working-with-legacy-code,
+  clean-code, refactoring-patterns, software-design-philosophy, clean-architecture,
+  pragmatic-programmer, release-it, system-design, ddia-systems - asking the user
+  questions at every decision point and recording re...'
+full_prompt_length: 24931
+tools_mentioned:
+- rest
+category: community
+category_display: Community
+source_repo: wondelai/skills
+source_path: plugins/metaskills/skills/improve-code-quality/SKILL.md
+source_url: https://github.com/wondelai/skills/blob/main/plugins/metaskills/skills/improve-code-quality/SKILL.md
+fetched_at: '2026-10-25T07:20:53.033588+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T11:54:29.397612Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e29a0f0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e29a0f0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:09.165874Z'
+indexed_at: '2026-10-25T12:12:09.165878Z'
+---

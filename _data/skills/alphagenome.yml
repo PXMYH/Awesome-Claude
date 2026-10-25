@@ -1,0 +1,47 @@
+id: alphagenome
+slug: alphagenome
+name: AlphaGenome and the AlphaGenome Atlas
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
+prompt_preview: '---
+
+  name: alphagenome
+
+  description: "Looks up precomputed AlphaGenome Atlas effects for any GRCh38 single-nucleotide
+  variant (AVI score with Phred and 18 SHAP feature attributions, plus raw and quantile
+  scores for RNA-seq, DNase, ATAC, ChIP-TF, ChIP-histone, CAGE, PRO-cap, splicing,
+  polyadenylation and contact-map tracks), scores variants or scans windows on demand
+  with the AlphaGenome model for human and mouse (variant scoring, in silico mutagenesis,
+  REF-versus-ALT track prediction), and builds...'
+full_prompt_length: 17428
+tools_mentioned:
+- Python
+- python
+- gRPC
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: skills/alphagenome/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/alphagenome/SKILL.md
+fetched_at: '2026-10-25T07:15:44.446938+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:37:49.605112Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee54f0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee54f0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.593350Z'
+indexed_at: '2026-10-25T12:12:04.593355Z'

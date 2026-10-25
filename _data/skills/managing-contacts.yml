@@ -1,0 +1,40 @@
+id: managing-contacts
+slug: managing-contacts
+name: Managing Mailtrap contacts
+description: '| Mistake                                             | Fix                                                                          |'
+prompt_preview: "---\nname: managing-contacts\ndescription: >-\n  Use when using Mailtrap\
+  \ Contacts API or UI to add, update, bulk\n  import, list, segment marketing contacts,\
+  \ custom fields, or custom\n  events. Use when syncing contacts from a CRM or warehouse,\
+  \ or building\n  audiences for campaigns.\n---\n\n# Managing Mailtrap contacts\n\
+  \n## Overview\n\n**Before generating API request bodies:** check the [Contacts OpenAPI\
+  \ spec](https://github.com/mailtrap/mailtrap-openapi/blob/main/specs/contacts.openapi.yml)\
+  \ for current fi..."
+full_prompt_length: 7414
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: mailtrap/mailtrap-skills
+source_path: skills/managing-contacts/SKILL.md
+source_url: https://github.com/mailtrap/mailtrap-skills/blob/main/skills/managing-contacts/SKILL.md
+fetched_at: '2026-10-25T07:18:50.896667+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T10:16:18.556044Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8a10 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8a10 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:07.394442Z'
+indexed_at: '2026-10-25T12:12:07.394447Z'

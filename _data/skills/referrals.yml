@@ -1,0 +1,43 @@
+id: referrals
+slug: referrals
+name: Referral & Affiliate Programs
+description: '- **launch**: For launching referral program effectively'
+prompt_preview: '---
+
+  name: referrals
+
+  description: "When the user wants to create, optimize, or analyze a referral program,
+  affiliate program, or word-of-mouth strategy. Also use when the user mentions ''referral,''
+  ''affiliate,'' ''ambassador,'' ''word of mouth,'' ''viral loop,'' ''refer a friend,''
+  ''partner program,'' ''referral incentive,'' ''how to get referrals,'' ''customers
+  referring customers,'' ''affiliate payout,'' ''get more reviews,'' ''G2 reviews,''
+  ''review campaign,'' or ''respond to a bad review.'' Use this whenever someone w...'
+full_prompt_length: 10376
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/referrals/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/referrals/SKILL.md
+fetched_at: '2026-10-25T07:17:25.957073+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:07:55.163789Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057e90 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057e90 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.173441Z'
+indexed_at: '2026-10-25T12:12:06.173445Z'

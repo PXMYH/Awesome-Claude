@@ -1,0 +1,48 @@
+---
+id: aso
+slug: aso
+name: ASO Audit
+description: '- **cro**: For optimizing the conversion of web-based landing pages
+  that drive app installs'
+prompt_preview: '---
+
+  name: aso
+
+  description: "When the user wants to audit or optimize an App Store or Google Play
+  listing. Also use when the user mentions ''ASO audit,'' ''app store optimization,''
+  ''optimize my app listing,'' ''improve app visibility,'' ''app store ranking,''
+  ''audit my listing,'' ''why aren''t people downloading my app,'' ''improve my app
+  conversion,'' ''keyword optimization for app,'' or ''compare my app to competitors.''
+  Use when the user shares an App Store or Google Play URL and wants to improve it."
+
+  metadata:...'
+full_prompt_length: 15873
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/aso/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/aso/SKILL.md
+fetched_at: '2026-10-25T07:17:22.090522+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:02:54.935309Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057bc0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057bc0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.097292Z'
+indexed_at: '2026-10-25T12:12:06.097297Z'
+---

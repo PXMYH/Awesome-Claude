@@ -23,17 +23,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/github-triage/skills/github-triage/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/github-triage/skills/github-triage/SKILL.md
-fetched_at: '2026-08-02T05:31:19.378642+00:00'
+fetched_at: '2026-10-25T07:20:35.547958+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:15:43.936751Z'
+  evaluated_at: '2026-10-25T11:41:51.839965Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef860 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1cce0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef860 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1cce0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:17.094103Z'
-indexed_at: '2026-08-02T09:26:17.094109Z'
+  fetched_at: '2026-10-25T12:12:08.945566Z'
+indexed_at: '2026-10-25T12:12:08.945571Z'
 ---

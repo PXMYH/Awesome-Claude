@@ -2,7 +2,8 @@
 id: pro
 slug: pro
 name: PUA Pro — 自进化 + Platform
-description: 线上排行榜页面：https://openpua.ai/leaderboard.html
+description: '**不要重新引入上报。** 不要为上述任何一项构造 HTTP 请求，不要重建接收端。`evals/test-no-telemetry.sh`
+  会对全仓做反向断言，任何回归都会被拦下。'
 prompt_preview: '---
 
   name: pro
@@ -36,24 +37,24 @@ prompt_preview: '---
   - 任务完成时比对：超越 → 刷新基线 / 达标 → 保持 / 低于 → 退化警告（不降基线）
 
   -...'
-full_prompt_length: 4051
+full_prompt_length: 2103
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: tanweai/pua
 source_path: skills/pro/SKILL.md
 source_url: https://github.com/tanweai/pua/blob/main/skills/pro/SKILL.md
-fetched_at: '2026-08-02T05:31:06.192324+00:00'
+fetched_at: '2026-10-25T07:20:27.474575+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:10:48.061777Z'
+  evaluated_at: '2026-10-25T11:37:00.255222Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4a210 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4320 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4a210 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4320 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -63,6 +64,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:17.000450Z'
-indexed_at: '2026-08-02T09:26:17.000456Z'
+  fetched_at: '2026-10-25T12:12:08.856360Z'
+indexed_at: '2026-10-25T12:12:08.856365Z'
 ---

@@ -2,22 +2,22 @@
 id: pufferlib
 slug: pufferlib
 name: PufferLib
-description: '- [PyPI pufferlib 3.0.0](https://pypi.org/project/pufferlib/3.0.0/)
-  —'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: pufferlib
 
   description: Version-aware guidance for PufferLib reinforcement-learning environments,
   vectorization, policies, PuffeRL training, evaluation, and safe checkpoint review.
-  Use when adapting Gymnasium/PettingZoo environments to published PufferLib 3.0.0
-  or working with the redesigned native 4.0 source line.
+  Covers the native 5.0 build and environment API, published 3.0.0 Gymnasium/PettingZoo
+  adaptation, and a pinned historical 4.0 profile.
 
   license: MIT
 
-  compatibility: Bundled CLIs require Python 3.10+ and use only the standard library.
-  Published pufferlib 3.0.0 supports Python >=3.9 but ships as a native-code so...'
-full_prompt_length: 11737
+  compatibility: Bundled CLIs require Python 3.10+ (standard library only). PufferLib
+  5.0 requires a native C/CUDA toolchain; CPU builds support evaluation, not tra...'
+full_prompt_length: 15598
 tools_mentioned:
 - Python
 - python
@@ -26,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pufferlib/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pufferlib/SKILL.md
-fetched_at: '2026-08-02T05:25:37.460031+00:00'
+fetched_at: '2026-10-25T07:15:58.323184+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:51:36.958294Z'
+  evaluated_at: '2026-10-25T07:53:08.665690Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6930 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6930 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.264667Z'
-indexed_at: '2026-08-02T09:26:13.264673Z'
+  fetched_at: '2026-10-25T12:12:04.860739Z'
+indexed_at: '2026-10-25T12:12:04.860743Z'
 ---

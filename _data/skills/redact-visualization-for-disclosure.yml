@@ -1,8 +1,9 @@
 id: redact-visualization-for-disclosure
 slug: redact-visualization-for-disclosure
 name: Redact Visualization for Disclosure
-description: '- `enforce-redaction-gate` — the verification step every redaction transform
-  ends on; also defines the shape deny-list the mapping table derives from'
+description: '- `enforce-redaction-gate` — how to build a redaction boundary for artifacts
+  you hold the deny-list for; defines the shape vocabulary the mapping table draws
+  on. Note it teaches building one rather th...'
 prompt_preview: "---\nname: redact-visualization-for-disclosure\ndescription: >\n\
   \  Redact rendered visual artifacts — Mermaid diagrams, SVGs, and HTML\n  dashboards\
   \ — before public disclosure, using an ordered longest-first\n  mapping table (specific\
@@ -10,25 +11,26 @@ prompt_preview: "---\nname: redact-visualization-for-disclosure\ndescription: >\
   \ identifiers for descriptive stand-ins while\n  preserving structure, node ids,\
   \ and teaching value. Covers whole-word\n  identifier replacement, node-label-vs-node-id\
   \ discrimination, re-renderin..."
-full_prompt_length: 9839
+full_prompt_length: 12121
 tools_mentioned:
 - python
+- go
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/redact-visualization-for-disclosure/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/redact-visualization-for-disclosure/SKILL.md
-fetched_at: '2026-08-02T05:30:09.220829+00:00'
+fetched_at: '2026-10-25T07:19:44.343490+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:38:09.066364Z'
+  evaluated_at: '2026-10-25T11:02:44.020742Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee9c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4500 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee9c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4500 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +40,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.388737Z'
-indexed_at: '2026-08-02T09:26:16.388742Z'
+  fetched_at: '2026-10-25T12:12:08.222106Z'
+indexed_at: '2026-10-25T12:12:08.222111Z'

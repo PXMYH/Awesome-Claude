@@ -8,26 +8,26 @@ prompt_preview: "---\nname: iterate-retrospective\ndescription: Facilitates and 
   \ Use at the end of a sprint, project, or milestone to reflect and improve team\
   \ practices. To bank individual learnings into organizational memory afterward,\
   \ use iterate-lessons-log.\nlicense: Apache-2.0\nmetadata:\n  phase: iterate\n \
-  \ version: \"2.1.0\"\n  updated: 2026-06-10\n  category: reflection\n  frameworks:\
+  \ version: \"2.2.0\"\n  updated: 2026-06-10\n  category: reflection\n  frameworks:\
   \ [triple-diamond, lean-startup, design-thi..."
-full_prompt_length: 3964
+full_prompt_length: 5194
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/iterate-retrospective/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/iterate-retrospective/SKILL.md
-fetched_at: '2026-08-02T05:30:37.140084+00:00'
+fetched_at: '2026-10-25T07:20:04.402968+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:57:22.362099Z'
+  evaluated_at: '2026-10-25T11:22:03.574329Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b860 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e7df560 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b860 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e7df560 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.747646Z'
-indexed_at: '2026-08-02T09:26:16.747652Z'
+  fetched_at: '2026-10-25T12:12:08.585211Z'
+indexed_at: '2026-10-25T12:12:08.585215Z'
 ---

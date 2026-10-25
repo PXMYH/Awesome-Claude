@@ -1,0 +1,48 @@
+---
+id: wondelai-skills-create-business
+slug: wondelai-skills-create-business
+name: Create a Business
+description: 'Close the tracker: every phase `done` or `skipped: reason`, and any
+  open Next Actions carried into the relevant artifacts. Forward routing: when the
+  beachhead is chosen and first customers are paying,...'
+prompt_preview: '---
+
+  name: create-business
+
+  description: ''Guided journey from raw idea to a validated, positioned, priced business
+  with a chosen beachhead. Orchestrates ten skills phase by phase - jobs-to-be-done,
+  mom-test, design-sprint, lean-startup, good-strategy-bad-strategy, blue-ocean-strategy,
+  obviously-awesome, hundred-million-offers, monetizing-innovation, crossing-the-chasm
+  - asking the user questions at every decision point and recording results in the
+  project docs/ folder (CUSTOMER.md, POSITIONING.md,...'
+full_prompt_length: 24456
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: wondelai/skills
+source_path: plugins/wondelai-skills/skills/create-business/SKILL.md
+source_url: https://github.com/wondelai/skills/blob/main/plugins/wondelai-skills/skills/create-business/SKILL.md
+fetched_at: '2026-10-25T07:21:00.911328+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T12:01:40.339556Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debb5f0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debb5f0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:09.281025Z'
+indexed_at: '2026-10-25T12:12:09.281029Z'
+---

@@ -1,0 +1,48 @@
+---
+id: systems-architecture-release-it
+slug: systems-architecture-release-it
+name: Release It! Framework
+description: '**Michael T. Nygard** is a software architect with 30+ years building
+  and operating large-scale production systems handling millions of transactions per
+  day. *Release It!* (2007; 2nd edition 2018) bec...'
+prompt_preview: '---
+
+  name: release-it
+
+  description: ''Build production-ready systems with stability patterns: circuit breakers,
+  bulkheads, timeouts, and retry logic. Use when the user mentions "production outage",
+  "circuit breaker", "deployment pipeline", "chaos engineering", "retry storm", "health
+  checks", "my service keeps crashing", "prevent cascading failures", or "make it
+  resilient". Also trigger when designing resilient microservices, planning zero-downtime
+  deployments, or capacity-planning for peak load. Co...'
+full_prompt_length: 16040
+tools_mentioned:
+- AWS
+category: community
+category_display: Community
+source_repo: wondelai/skills
+source_path: plugins/systems-architecture/skills/release-it/SKILL.md
+source_url: https://github.com/wondelai/skills/blob/main/plugins/systems-architecture/skills/release-it/SKILL.md
+fetched_at: '2026-10-25T07:20:57.294895+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T11:58:08.766238Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9f40 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9f40 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:09.224603Z'
+indexed_at: '2026-10-25T12:12:09.224607Z'
+---

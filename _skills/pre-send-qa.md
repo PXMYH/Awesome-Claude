@@ -2,33 +2,36 @@
 id: pre-send-qa
 slug: pre-send-qa
 name: Pre-Send QA
-description: '- ESP-specific merge tag syntax:'
+description: Use `create_ticket` when the workspace has it (Cloud) and `create_finding`
+  otherwise (Solo).
 prompt_preview: "---\nname: pre-send-qa\ndescription: Pre-flight QA for an email campaign\
   \ — merge tags, broken links, spam triggers, compliance, mobile rendering — before\
-  \ you hit send\nversion: \"1.0.0\"\nauthor: Cogny AI\nrequires: cogny-mcp\nplatforms:\
-  \ [klaviyo, mailchimp, rule, get-a-newsletter]\nuser-invocable: true\nargument-hint:\
-  \ \"[campaign ID | paste HTML]\"\nallowed-tools:\n  # Cogny Cloud (aggregated) namespace\n\
-  \  - mcp__cogny__klaviyo__*\n  - mcp__cogny__mailchimp__*\n  - mcp__cogny__rule__*\n\
-  \  - mcp__cogny__get_a_news..."
-full_prompt_length: 8828
+  \ you hit send\nversion: \"1.1.2\"\nauthor: Cogny AI\nrequires: cogny-mcp\nplatforms:\
+  \ [klaviyo, mailchimp, rule, get-a-newsletter, brevo, mailerlite, salesforce-marketing-cloud,\
+  \ braze]\nuser-invocable: true\nargument-hint: \"[campaign ID | paste HTML]\"\n\
+  allowed-tools:\n  # Cogny Cloud (aggregated) namespace\n  - mcp__cogny__refresh_mcp_discovery\n\
+  \  - mcp__cogny..."
+full_prompt_length: 20674
 tools_mentioned:
+- rest
 - JavaScript
+- go
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/pre-send-qa/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/pre-send-qa/SKILL.md
-fetched_at: '2026-08-02T05:27:16.571665+00:00'
+fetched_at: '2026-10-25T07:17:18.015867+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:52:45.239983Z'
+  evaluated_at: '2026-10-25T08:59:39.696952Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad38b200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056ea0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad38b200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056ea0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.414384Z'
-indexed_at: '2026-08-02T09:26:14.414390Z'
+  fetched_at: '2026-10-25T12:12:06.039764Z'
+indexed_at: '2026-10-25T12:12:06.039769Z'
 ---

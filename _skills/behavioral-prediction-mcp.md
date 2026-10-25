@@ -2,7 +2,8 @@
 id: behavioral-prediction-mcp
 slug: behavioral-prediction-mcp
 name: ChainAware Behavioral Prediction MCP
-description: 'API key required. Subscribe at: https://chainaware.ai/pricing'
+description: '- **API key** — subscribe at https://chainaware.ai/pricing and pass
+  the key via `CHAINAWARE_API_KEY` env var'
 prompt_preview: '---
 
   name: chainaware-behavioral-prediction
@@ -17,32 +18,32 @@ prompt_preview: '---
   risk, token launch auditing,  or AI agent trust scoring. Triggers on questions like:
   is this wallet safe?, will this pool rug pull?, what will this address do next?,  score
   th...'
-full_prompt_length: 38155
+full_prompt_length: 38977
 tools_mentioned:
-- Go
-- Python
 - go
 - AWS
 - aws
+- Python
+- python
 - javascript
 - Node.js
-- python
+- Go
 category: community
 category_display: Community
 source_repo: ChainAware/behavioral-prediction-mcp
 source_path: SKILL.md
 source_url: https://github.com/ChainAware/behavioral-prediction-mcp/blob/main/SKILL.md
-fetched_at: '2026-08-02T05:25:08.488822+00:00'
+fetched_at: '2026-10-25T07:15:24.748590+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:33:08.781679Z'
+  evaluated_at: '2026-10-25T07:23:52.720101Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf46f90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9d30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf46f90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9d30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -52,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:12.896814Z'
-indexed_at: '2026-08-02T09:26:12.896823Z'
+  fetched_at: '2026-10-25T12:12:04.360411Z'
+indexed_at: '2026-10-25T12:12:04.360415Z'
 ---

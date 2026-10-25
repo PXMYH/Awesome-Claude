@@ -11,26 +11,27 @@ prompt_preview: "---\nname: create-workflow\ndescription: >\n  Author a new agen
   \ building the body with the injected primitives,\n  the advisory/implementing capability\
   \ contract, the adversarial-verification\n  fail-safes, validation, and manual installation.\
   \ Use when y..."
-full_prompt_length: 14287
+full_prompt_length: 23963
 tools_mentioned:
 - TypeScript
 - JavaScript
+- go
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/create-workflow/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/create-workflow/SKILL.md
-fetched_at: '2026-08-02T05:29:37.272819+00:00'
+fetched_at: '2026-10-25T07:19:22.941635+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:14:52.756663Z'
+  evaluated_at: '2026-10-25T10:39:48.563649Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf093a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5580 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf093a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5580 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.952351Z'
-indexed_at: '2026-08-02T09:26:15.952357Z'
+  fetched_at: '2026-10-25T12:12:07.802297Z'
+indexed_at: '2026-10-25T12:12:07.802302Z'
 ---

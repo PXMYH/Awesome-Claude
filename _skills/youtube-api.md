@@ -2,7 +2,7 @@
 id: youtube-api
 slug: youtube-api
 name: YouTube API
-description: 'Free tier: 100 credits, 300 req/min. Starter ($5/mo): 1,000 credits.'
+description: 'Every request in this file as a ready-to-run one-liner: [references/curl-examples.md](references/curl-examples.md)'
 prompt_preview: '---
 
   name: youtube-api
@@ -14,12 +14,12 @@ prompt_preview: '---
   mentioned explicitly. Not for uploads, account management, or written-source-only
   research."
 
-  version: "1.5.0"
+  version: "1.6.2"
 
   user-invocable: true
 
   compatibility: Re...'
-full_prompt_length: 6036
+full_prompt_length: 9173
 tools_mentioned:
 - python
 category: community
@@ -27,17 +27,17 @@ category_display: Community
 source_repo: ZeroPointRepo/youtube-skills
 source_path: skills/youtube-api/SKILL.md
 source_url: https://github.com/ZeroPointRepo/youtube-skills/blob/main/skills/youtube-api/SKILL.md
-fetched_at: '2026-08-02T05:26:35.481003+00:00'
+fetched_at: '2026-10-25T07:16:45.782915+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:28:34.666863Z'
+  evaluated_at: '2026-10-25T08:34:02.912982Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18950 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057020 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18950 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057020 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.957467Z'
-indexed_at: '2026-08-02T09:26:13.957473Z'
+  fetched_at: '2026-10-25T12:12:05.580307Z'
+indexed_at: '2026-10-25T12:12:05.580316Z'
 ---

@@ -10,24 +10,24 @@ prompt_preview: "---\nname: problem-statement\nargument-hint: \"[user and their 
   \ perspective using an empathy-driven framework that captures who they are, what\
   \ they're trying to do, what's blocking them, why, and how it makes them feel. Use\
   \ this to align stakeholders on..."
-full_prompt_length: 10489
+full_prompt_length: 10925
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/problem-statement/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/problem-statement/SKILL.md
-fetched_at: '2026-08-02T05:27:37.579752+00:00'
+fetched_at: '2026-10-25T07:17:39.938660+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:07:22.354373Z'
+  evaluated_at: '2026-10-25T09:22:09.545501Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba7b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba7b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.682521Z'
-indexed_at: '2026-08-02T09:26:14.682527Z'
+  fetched_at: '2026-10-25T12:12:06.423825Z'
+indexed_at: '2026-10-25T12:12:06.423830Z'
 ---

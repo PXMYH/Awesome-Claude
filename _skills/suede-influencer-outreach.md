@@ -1,0 +1,47 @@
+---
+id: suede-influencer-outreach
+slug: suede-influencer-outreach
+name: Suede AI Influencer Outreach
+description: Adapted from the `influencer-outreach` skill in [mbfinotti/partnerships-skills](https://github.com/mbfinotti/partnerships-skills)
+  by Maya-Beth Finotti, MIT licensed. See `NOTICE.md` at the repo root.
+prompt_preview: '---
+
+  name: suede-influencer-outreach
+
+  description: "Suede AI influencer outreach discipline: a personalized first-touch
+  pitch to one vetted creator, newsletter writer, or podcaster, grounded in a named
+  post or audience fact, with the real compensation stated by model (flat fee, commission
+  mechanics, or gifted), one low-friction ask, a message fitted to the contact the
+  creator publishes (business email, DM, or manager), and a bounded two-follow-up
+  plan that stops at the first positive reply. Covers...'
+full_prompt_length: 11276
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-influencer-outreach/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-influencer-outreach/SKILL.md
+fetched_at: '2026-10-25T07:15:35.972879+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:31:28.461317Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056fc0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056fc0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.491268Z'
+indexed_at: '2026-10-25T12:12:04.491272Z'
+---

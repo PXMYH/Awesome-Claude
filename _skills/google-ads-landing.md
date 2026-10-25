@@ -1,0 +1,47 @@
+---
+id: google-ads-landing
+slug: google-ads-landing
+name: Canonical NotFair workflow
+description: 'Read [`../../google-ads/landing/WORKFLOW.md`](../../google-ads/landing/WORKFLOW.md)
+  completely, then follow it as the active workflow. Normalize that path from the
+  directory containing this wrapper: t...'
+prompt_preview: '---
+
+  name: google-ads-landing
+
+  description: Score and diagnose Google Ads landing pages. Use when asked to audit
+  a landing page, check landing page quality, diagnose high-CTR but low-conversion-rate
+  ad groups, improve Quality Score''s Landing Page Experience component, or compare
+  an ad group''s messaging against its landing page. Trigger on "landing page audit",
+  "landing page score", "landing page quality", "why is my conversion rate low", "LPX",
+  "landing page experience", "ad to page match", or whe...'
+full_prompt_length: 1222
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: nowork-studio/NotFair
+source_path: skills/google-ads-landing/SKILL.md
+source_url: https://github.com/nowork-studio/NotFair/blob/main/skills/google-ads-landing/SKILL.md
+fetched_at: '2026-10-25T07:18:54.448179+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T10:18:37.560129Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32ce30 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32ce30 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:07.431707Z'
+indexed_at: '2026-10-25T12:12:07.431711Z'
+---

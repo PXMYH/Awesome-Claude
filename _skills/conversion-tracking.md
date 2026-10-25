@@ -1,0 +1,50 @@
+---
+id: conversion-tracking
+slug: conversion-tracking
+name: Conversion Tracking
+description: '- **analytics** owns tracking plans, event naming, UTMs, GA4 property
+  setup, and general GTM craft. This skill owns getting a conversion to a destination
+  and proving it arrived.'
+prompt_preview: '---
+
+  name: conversion-tracking
+
+  description: Set up, audit, verify, or fix website conversion tracking. Use when
+  the conversion is a form submission, booked meeting, chat, phone call, signup, or
+  purchase; when conversions must reach Google Ads, Meta, GA4, LinkedIn, TikTok, or
+  Microsoft Ads; when the work involves GTM tags and dataLayer events, pixels, the
+  Conversions API (CAPI), Enhanced Conversions, server-side tagging, or gclid and
+  fbclid capture; or when the user reports conversion problems lik...'
+full_prompt_length: 30743
+tools_mentioned:
+- rest
+- Go
+- go
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/conversion-tracking/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/conversion-tracking/SKILL.md
+fetched_at: '2026-10-25T07:17:23.065945+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:04:07.771384Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7920 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7920 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.115752Z'
+indexed_at: '2026-10-25T12:12:06.115756Z'
+---

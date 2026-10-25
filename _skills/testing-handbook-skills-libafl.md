@@ -4,14 +4,26 @@ slug: testing-handbook-skills-libafl
 name: LibAFL
 description: '- [LibAFL Examples](https://github.com/AFLplusplus/LibAFL/tree/main/fuzzers)
   - Collection of example fuzzers'
-prompt_preview: "---\nname: libafl\ntype: fuzzer\ndescription: >\n  LibAFL is a modular\
-  \ fuzzing library for building custom fuzzers. Use for\n  advanced fuzzing needs,\
-  \ custom mutators, or non-standard fuzzing targets.\n---\n\n# LibAFL\n\nLibAFL is\
-  \ a modular fuzzing library that implements features from AFL-based fuzzers like\
-  \ AFL++. Unlike traditional fuzzers, LibAFL provides all functionality in a modular\
-  \ and customizable way as a Rust library. It can be used as a drop-in replacement\
-  \ for libFuzzer or as a library to build..."
-full_prompt_length: 16907
+prompt_preview: '---
+
+  name: libafl
+
+  type: fuzzer
+
+  description: "Builds custom fuzzers with LibAFL, the modular Rust fuzzing library.
+  Covers composing observers, feedbacks, mutators, schedulers, and executors into
+  a fuzzer for targets the standard tools do not fit. Use when writing a bespoke fuzzer
+  or mutator, fuzzing a non-standard target or architecture, implementing a fuzzing
+  research idea, or when libFuzzer and AFL++ lack the control you need."
+
+  ---
+
+
+  # LibAFL
+
+
+  LibAFL is a modular fuzzing library that implements f...'
+full_prompt_length: 17143
 tools_mentioned:
 - Rust
 - rust
@@ -20,17 +32,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/libafl/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/libafl/SKILL.md
-fetched_at: '2026-08-02T05:31:28.719908+00:00'
+fetched_at: '2026-10-25T07:20:42.837554+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:19:36.126859Z'
+  evaluated_at: '2026-10-25T11:47:25.252629Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaefef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba690 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaefef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba690 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +52,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:17.167707Z'
-indexed_at: '2026-08-02T09:26:17.167722Z'
+  fetched_at: '2026-10-25T12:12:09.043075Z'
+indexed_at: '2026-10-25T12:12:09.043080Z'
 ---

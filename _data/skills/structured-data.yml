@@ -4,32 +4,32 @@ name: Schema.org Structured Data Reference
 description: '- **Schema.org Full Vocabulary:** https://schema.org/docs/full.html'
 prompt_preview: "---\nname: structured-data\ndescription: Schema.org Structured Data\
   \ Reference — JSON-LD examples for every major schema type, rich results eligibility,\
-  \ testing tools, and implementation patterns\nversion: \"1.0.0\"\nauthor: Cogny\
+  \ testing tools, and implementation patterns\nversion: \"1.1.1\"\nauthor: Cogny\
   \ AI\nplatforms: []\nuser-invocable: true\nargument-hint: \"<schema type or topic>\"\
   \nallowed-tools:\n  - WebFetch\n  - WebSearch\n  - Bash\n  - Read\n  - Write\n \
-  \ # Search Console tools (when connected via Cogny MCP)\n  - mcp__cogny__search_console__tool_list_properties\n\
-  \  - mcp__cogny__sea..."
-full_prompt_length: 23708
+  \ # Search Console tools (when connected via Cogny MCP)\n  - mcp__cogny__refresh_mcp_discovery\n\
+  \  - mcp__cogny__mcp__Google_Search..."
+full_prompt_length: 30843
 tools_mentioned:
-- React
 - typescript
 - php
+- React
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/structured-data/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/structured-data/SKILL.md
-fetched_at: '2026-08-02T05:27:17.853398+00:00'
+fetched_at: '2026-10-25T07:17:19.208749+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:53:42.483107Z'
+  evaluated_at: '2026-10-25T09:00:52.699642Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad070c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9970 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad070c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9970 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.432379Z'
-indexed_at: '2026-08-02T09:26:14.432385Z'
+  fetched_at: '2026-10-25T12:12:06.061773Z'
+indexed_at: '2026-10-25T12:12:06.061777Z'

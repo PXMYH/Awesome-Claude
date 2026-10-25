@@ -12,7 +12,7 @@ prompt_preview: "---\nname: redact-for-public-disclosure\ndescription: >\n  Reda
   \ `git log` leaks, category-based redaction\n  calibration (methodology/pattern/version-finding/internal),\
   \ and the\n  `check-redaction.sh`-style CI gate that blocks merges when a deny-listed\n\
   \  p..."
-full_prompt_length: 19392
+full_prompt_length: 20750
 tools_mentioned:
 - rest
 category: community
@@ -20,17 +20,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/redact-for-public-disclosure/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/redact-for-public-disclosure/SKILL.md
-fetched_at: '2026-08-02T05:30:09.010954+00:00'
+fetched_at: '2026-10-25T07:19:44.204449+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:38:00.932907Z'
+  evaluated_at: '2026-10-25T11:02:35.883164Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee870 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee43e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee870 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee43e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.386051Z'
-indexed_at: '2026-08-02T09:26:16.386056Z'
+  fetched_at: '2026-10-25T12:12:08.219407Z'
+indexed_at: '2026-10-25T12:12:08.219412Z'
 ---

@@ -11,24 +11,24 @@ prompt_preview: "---\nname: generate-workflow-diagram\ndescription: >\n  Generat
   \ README, Quarto, and R Markdown.\n  Use after annotating source files and ready\
   \ to produce a visual diagram,\n  when regenerating a diagram after workflow changes,\
   \ or when switching\n  themes or o..."
-full_prompt_length: 10928
+full_prompt_length: 10924
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/generate-workflow-diagram/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/generate-workflow-diagram/SKILL.md
-fetched_at: '2026-08-02T05:29:50.013921+00:00'
+fetched_at: '2026-10-25T07:19:31.466680+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:24:09.615042Z'
+  evaluated_at: '2026-10-25T10:48:54.268356Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad1aee40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee58b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad1aee40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee58b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.124994Z'
-indexed_at: '2026-08-02T09:26:16.125000Z'
+  fetched_at: '2026-10-25T12:12:07.966175Z'
+indexed_at: '2026-10-25T12:12:07.966179Z'
 ---

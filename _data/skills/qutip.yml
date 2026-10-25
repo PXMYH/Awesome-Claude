@@ -1,7 +1,8 @@
 id: qutip
 slug: qutip
 name: QuTiP 5
-description: '- [QuTiP 5.3.0 PyPI metadata](https://pypi.org/project/qutip/)'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: qutip
@@ -13,30 +14,30 @@ prompt_preview: '---
 
   license: MIT
 
-  compatibility: Requires Python 3.11+, uv, and qutip==5.3.0 for executable simulations.
+  compatibility: Requires Python 3.11+, uv, and qutip==5.3.1 for executable simulations.
   Bundled planners and all script help run with the Python standard library; plotting
   requires...'
-full_prompt_length: 12836
+full_prompt_length: 14746
 tools_mentioned:
-- angular
 - Python
 - python
+- angular
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/qutip/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/qutip/SKILL.md
-fetched_at: '2026-08-02T05:25:40.016683+00:00'
+fetched_at: '2026-10-25T07:16:00.333794+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:53:31.634104Z'
+  evaluated_at: '2026-10-25T07:55:27.558993Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed550 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4440 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed550 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4440 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,5 +47,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.301246Z'
-indexed_at: '2026-08-02T09:26:13.301252Z'
+  fetched_at: '2026-10-25T12:12:04.900386Z'
+indexed_at: '2026-10-25T12:12:04.900390Z'

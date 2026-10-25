@@ -2,21 +2,22 @@
 id: pptx-posters
 slug: pptx-posters
 name: PPTX posters
-description: '- `references/manifest_spec.md`'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: pptx-posters
 
-  description: Create and audit editable scientific posters in macro-free PowerPoint
-  (.pptx) from author-approved local content and assets. Use when the requested deliverable
+  description: Creates and audits editable scientific posters in macro-free PowerPoint
+  (.pptx) from author-approved local content and assets. Used when the requested deliverable
   is a PowerPoint research/conference poster and exact physical, printer, accessibility,
   provenance, and package-security checks are required.
 
   license: MIT
 
   compatibility: Requires Python 3.10+, uv, and exact generation pins python-pptx
-  1.0.2, Pillow 12.3.0, and lxml 6.1.1. Validation and PPTX ZIP/XML insp...'
-full_prompt_length: 9913
+  1.0.2, Pillow 12.3.0, and lxml 6.1.3. Validation and PPTX ZIP/XML i...'
+full_prompt_length: 12437
 tools_mentioned:
 - Python
 - python
@@ -25,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pptx-posters/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pptx-posters/SKILL.md
-fetched_at: '2026-08-02T05:25:36.736598+00:00'
+fetched_at: '2026-10-25T07:15:57.850622+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:51:04.134009Z'
+  evaluated_at: '2026-10-25T07:52:35.870179Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaecf50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee43b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaecf50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee43b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.254133Z'
-indexed_at: '2026-08-02T09:26:13.254143Z'
+  fetched_at: '2026-10-25T12:12:04.851333Z'
+indexed_at: '2026-10-25T12:12:04.851337Z'
 ---

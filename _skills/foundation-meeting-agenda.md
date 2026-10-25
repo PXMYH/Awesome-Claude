@@ -16,7 +16,7 @@ prompt_preview: '---
   attendee prep, and logistics.
 
   license: Apache-2...'
-full_prompt_length: 9691
+full_prompt_length: 10509
 tools_mentioned:
 - go
 category: community
@@ -24,17 +24,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/foundation-meeting-agenda/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/foundation-meeting-agenda/SKILL.md
-fetched_at: '2026-08-02T05:30:35.009071+00:00'
+fetched_at: '2026-10-25T07:20:02.854233+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:55:43.398104Z'
+  evaluated_at: '2026-10-25T11:20:26.462237Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19be0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5070 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19be0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5070 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.717046Z'
-indexed_at: '2026-08-02T09:26:16.717052Z'
+  fetched_at: '2026-10-25T12:12:08.555565Z'
+indexed_at: '2026-10-25T12:12:08.555570Z'
 ---

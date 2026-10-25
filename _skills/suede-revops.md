@@ -1,0 +1,46 @@
+---
+id: suede-revops
+slug: suede-revops
+name: Suede Revenue Operations
+description: '- Use `suede-prospecting` to build and qualify the source list.'
+prompt_preview: '---
+
+  name: suede-revops
+
+  description: "Suede AI revenue operations: lifecycle stage definitions, fit and
+  engagement lead scoring, MQL and SQL criteria, routing rules and speed-to-lead SLAs,
+  pipeline stages and hygiene, CRM automation build lists for HubSpot, Salesforce,
+  and Zapier, deal-desk approval tiers, enrichment and dedup, and a metrics dashboard
+  spec, including where AI agents can safely run enrichment, routing, and follow-up
+  steps. Returns implementation-ready documents the user can build...'
+full_prompt_length: 16972
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-revops/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-revops/SKILL.md
+fetched_at: '2026-10-25T07:15:38.486733+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:34:18.229353Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4860 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4860 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.534982Z'
+indexed_at: '2026-10-25T12:12:04.534990Z'
+---

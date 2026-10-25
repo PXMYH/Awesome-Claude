@@ -27,24 +27,25 @@ prompt_preview: '---
 
 
   **URL of the pag...'
-full_prompt_length: 5676
-tools_mentioned: []
+full_prompt_length: 5980
+tools_mentioned:
+- go
 category: community
 category_display: Community
 source_repo: inhouseseo/superseo-skills
 source_path: skills/improve-content/SKILL.md
 source_url: https://github.com/inhouseseo/superseo-skills/blob/main/skills/improve-content/SKILL.md
-fetched_at: '2026-08-02T05:28:38.936178+00:00'
+fetched_at: '2026-10-25T07:18:27.383268+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:47:07.558462Z'
+  evaluated_at: '2026-10-25T10:04:24.790621Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed370 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1d3d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed370 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1d3d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -54,6 +55,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.421478Z'
-indexed_at: '2026-08-02T09:26:15.421487Z'
+  fetched_at: '2026-10-25T12:12:07.177014Z'
+indexed_at: '2026-10-25T12:12:07.177019Z'
 ---

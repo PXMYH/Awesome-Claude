@@ -12,26 +12,26 @@ prompt_preview: "---\nname: test-cli-application\ndescription: >\n  Write integr
   \ CI for a CLI tool.\nlicense: MIT\nallowed-t..."
 full_prompt_length: 11475
 tools_mentioned:
-- docker
-- Node.js
 - TypeScript
+- Node.js
+- docker
 - javascript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/test-cli-application/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/test-cli-application/SKILL.md
-fetched_at: '2026-08-02T05:30:23.290532+00:00'
+fetched_at: '2026-10-25T07:19:53.965697+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:48:20.983845Z'
+  evaluated_at: '2026-10-25T11:12:45.814960Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debbc50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debbc50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.579704Z'
-indexed_at: '2026-08-02T09:26:16.579709Z'
+  fetched_at: '2026-10-25T12:12:08.417056Z'
+indexed_at: '2026-10-25T12:12:08.417061Z'
 ---

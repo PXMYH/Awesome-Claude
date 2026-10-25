@@ -11,27 +11,27 @@ prompt_preview: "---\nname: mix-engineer\ndescription: Polishes raw Suno audio b
   \ Use after audio import and before mastering.\nargument-hint: <album-name or \"\
   polish for [genre]\">\nmodel: sonnet\neffort: low\nprerequisites:\n  - import-audio\n\
   allowed-tools:\n  - Read\n  - Edit\n  - Write..."
-full_prompt_length: 13359
+full_prompt_length: 17747
 tools_mentioned:
-- go
 - rest
 - python
+- go
 category: community
 category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/mix-engineer/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/mix-engineer/SKILL.md
-fetched_at: '2026-08-02T05:26:56.761147+00:00'
+fetched_at: '2026-10-25T07:17:02.415638+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:39:49.719893Z'
+  evaluated_at: '2026-10-25T08:45:49.931837Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acd64800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4710 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acd64800 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4710 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.165401Z'
-indexed_at: '2026-08-02T09:26:14.165407Z'
+  fetched_at: '2026-10-25T12:12:05.789747Z'
+indexed_at: '2026-10-25T12:12:05.789751Z'
 ---

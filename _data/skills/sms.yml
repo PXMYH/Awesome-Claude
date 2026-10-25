@@ -1,0 +1,44 @@
+id: sms
+slug: sms
+name: SMS Marketing
+description: '- **emails**: Sister channel — almost always run together. Email carries
+  the long-form content; SMS carries the urgent nudges.'
+prompt_preview: '---
+
+  name: sms
+
+  description: When the user wants to plan, build, or optimize SMS, MMS, or WhatsApp
+  marketing — including welcome flows, abandoned cart texts, post-purchase, win-back,
+  promotional sends, or transactional/auth SMS. Also use when the user mentions "SMS
+  marketing," "text message campaigns," "SMS sequence," "SMS automation," "abandoned
+  cart text," "post-purchase SMS," "Klaviyo SMS," "Postscript," "Attentive," "Twilio,"
+  "A2P 10DLC," "TCPA," "SMS compliance," "short code," "toll-free SMS,...'
+full_prompt_length: 18295
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/sms/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/sms/SKILL.md
+fetched_at: '2026-10-25T07:17:26.704814+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:08:44.411090Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5940 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5940 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.185575Z'
+indexed_at: '2026-10-25T12:12:06.185580Z'

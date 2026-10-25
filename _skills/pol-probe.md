@@ -10,24 +10,24 @@ prompt_preview: "---\nname: pol-probe\nargument-hint: \"[hypothesis to test]\"\n
   \ designed to surface harsh truths before expensive development. Use this when you\
   \ need to eliminate a specific risk or test a narrow hypothesis **without building\
   \ production-quality software**...."
-full_prompt_length: 10762
+full_prompt_length: 10820
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/pol-probe/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pol-probe/SKILL.md
-fetched_at: '2026-08-02T05:27:35.841123+00:00'
+fetched_at: '2026-10-25T07:17:39.016387+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:06:08.368292Z'
+  evaluated_at: '2026-10-25T09:20:56.738007Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8170 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8170 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.659880Z'
-indexed_at: '2026-08-02T09:26:14.659885Z'
+  fetched_at: '2026-10-25T12:12:06.402210Z'
+indexed_at: '2026-10-25T12:12:06.402215Z'
 ---

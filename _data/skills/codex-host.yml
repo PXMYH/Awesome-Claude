@@ -1,0 +1,57 @@
+id: codex-host
+slug: codex-host
+name: Controlled Codex host
+description: Detailed policy schemas and limitations are in `docs/HOST-CODEX.md`.
+prompt_preview: '---
+
+  name: codex-host
+
+  description: Run the great_cto controlled Codex lifecycle with controller-owned
+  writes, verifier evidence, human gates and optional artifact release.
+
+  when_to_use: Use when the user asks Codex to run or inspect a full great_cto pipeline
+  rather than only use an individual skill.
+
+  effort: high
+
+  allowed-tools: Read, Bash
+
+  ---
+
+
+  # Controlled Codex host
+
+
+  Use the version-pinned npm entrypoint below. A Codex plugin install loads skills
+
+  and MCP configuration, but it does not add the `gre...'
+full_prompt_length: 3156
+tools_mentioned:
+- Docker
+category: community
+category_display: Community
+source_repo: avelikiy/great_cto
+source_path: skills/codex-host/SKILL.md
+source_url: https://github.com/avelikiy/great_cto/blob/main/skills/codex-host/SKILL.md
+fetched_at: '2026-10-25T07:16:55.154330+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T08:39:11.756182Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5610 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5610 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:05.672182Z'
+indexed_at: '2026-10-25T12:12:05.672187Z'

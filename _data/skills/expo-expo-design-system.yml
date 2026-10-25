@@ -1,0 +1,44 @@
+id: expo-expo-design-system
+slug: expo-expo-design-system
+name: Expo Design Systems
+description: '## Submitting Feedback'
+prompt_preview: '---
+
+  name: expo-design-system
+
+  description: Build and maintain a design system inside an Expo app - a reusable
+  theme of design tokens (color, spacing, typography, radius, shadow, motion), reusable
+  component structure with variant/size/state prop conventions, and rules for when
+  to extract a repeated view into a shared component. Use when creating or organizing
+  theme files and design tokens (theme.ts / theme/), extending an existing theme or
+  styling library (NativeWind, Tamagui, Restyle, Unistyles)...'
+full_prompt_length: 19421
+tools_mentioned:
+- react
+category: community
+category_display: Community
+source_repo: expo/skills
+source_path: plugins/expo/skills/expo-design-system/SKILL.md
+source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-design-system/SKILL.md
+fetched_at: '2026-10-25T07:17:45.951777+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:27:10.942625Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057f20 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057f20 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.513115Z'
+indexed_at: '2026-10-25T12:12:06.513119Z'

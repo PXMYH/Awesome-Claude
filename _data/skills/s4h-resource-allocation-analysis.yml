@@ -26,17 +26,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-resource-allocation-analysis/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-resource-allocation-analysis/SKILL.md
-fetched_at: '2026-08-02T05:28:25.506645+00:00'
+fetched_at: '2026-10-25T07:18:17.049965+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:38:34.226339Z'
+  evaluated_at: '2026-10-25T09:56:01.391344Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeea80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056f90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeea80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056f90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.263227Z'
-indexed_at: '2026-08-02T09:26:15.263232Z'
+  fetched_at: '2026-10-25T12:12:07.027406Z'
+indexed_at: '2026-10-25T12:12:07.027411Z'

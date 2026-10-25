@@ -9,25 +9,25 @@ prompt_preview: "---\nname: atlassian-mcp\ndescription: Integrates with Atlassia
   \ fields, searching or editing Confluence pages with CQL, managing sprints and backlogs,\
   \ setting up MCP server authentication, syncing documentation, or debugging Atlassian\
   \ API integrations.\nlicense: MIT\nmetadata:\n  author: https://github.com/Jeffallan\n\
-  \  version: \"1.1.0\"\n  dom..."
-full_prompt_length: 5148
+  \  company: https://syner..."
+full_prompt_length: 5324
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/atlassian-mcp/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/atlassian-mcp/SKILL.md
-fetched_at: '2026-08-02T05:28:46.143808+00:00'
+fetched_at: '2026-10-25T07:18:33.035004+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:49:35.384307Z'
+  evaluated_at: '2026-10-25T10:06:51.015506Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48ef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee57c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48ef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee57c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.469089Z'
-indexed_at: '2026-08-02T09:26:15.469095Z'
+  fetched_at: '2026-10-25T12:12:07.221737Z'
+indexed_at: '2026-10-25T12:12:07.221741Z'
 ---

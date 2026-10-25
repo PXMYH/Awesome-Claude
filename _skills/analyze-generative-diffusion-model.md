@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/analyze-generative-diffusion-model/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/analyze-generative-diffusion-model/SKILL.md
-fetched_at: '2026-08-02T05:29:21.052665+00:00'
+fetched_at: '2026-10-25T07:19:11.849428+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:02:46.582167Z'
+  evaluated_at: '2026-10-25T10:27:34.067064Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4b140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7ef0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4b140 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7ef0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.722869Z'
-indexed_at: '2026-08-02T09:26:15.722875Z'
+  fetched_at: '2026-10-25T12:12:07.582858Z'
+indexed_at: '2026-10-25T12:12:07.582863Z'
 ---

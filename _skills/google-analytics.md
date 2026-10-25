@@ -1,0 +1,53 @@
+---
+id: google-analytics
+slug: google-analytics
+name: Canonical NotFair workflow
+description: Read [`../../analytics/google-analytics/WORKFLOW.md`](../../analytics/google-analytics/WORKFLOW.md)
+  completely, then follow it as the active workflow. Resolve every relative reference
+  from that file a...
+prompt_preview: '---
+
+  name: google-analytics
+
+  description: Analyze connected Google Analytics 4 traffic, acquisition, engagement,
+  landing pages, ecommerce, events, and conversions, and safely manage supported GA4
+  key events or custom dimensions through NotFair MCP. Use for GA4, Google Analytics,
+  traffic or conversion drops, channel attribution, realtime activity, report requests,
+  measurement configuration, or Analytics MCP setup.
+
+  argument-hint: "<property, date range, metric, or GA4 question>"
+
+  ---
+
+
+  # Canonical Not...'
+full_prompt_length: 759
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: nowork-studio/NotFair
+source_path: skills/google-analytics/SKILL.md
+source_url: https://github.com/nowork-studio/NotFair/blob/main/skills/google-analytics/SKILL.md
+fetched_at: '2026-10-25T07:18:54.670827+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T10:18:53.726673Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1fc50 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1fc50 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:07.436039Z'
+indexed_at: '2026-10-25T12:12:07.436043Z'
+---

@@ -10,7 +10,7 @@ prompt_preview: "---\nname: utility-pm-workflow-orchestrator\ndescription: Run a
   \ only; run --dry-run first while the native path is EXPERIMENTAL. To author a durable\
   \ workflow instead, use utility-pm-workflow-builder.\nlicense: Apache-2.0\nmetadata:\n\
   \  classification: utility..."
-full_prompt_length: 9660
+full_prompt_length: 9881
 tools_mentioned:
 - go
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/utility-pm-workflow-orchestrator/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/utility-pm-workflow-orchestrator/SKILL.md
-fetched_at: '2026-08-02T05:30:43.184301+00:00'
+fetched_at: '2026-10-25T07:20:08.519542+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:01:36.057431Z'
+  evaluated_at: '2026-10-25T11:26:15.014997Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef9b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32d070 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef9b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32d070 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.829442Z'
-indexed_at: '2026-08-02T09:26:16.829447Z'
+  fetched_at: '2026-10-25T12:12:08.663314Z'
+indexed_at: '2026-10-25T12:12:08.663324Z'
 ---

@@ -5,28 +5,28 @@ name: GA4 Monitor
 description: 1. **Trends over snapshots.** Every metric ships with a WoW delta.
 prompt_preview: "---\nname: ga4-monitor\ndescription: Weekly GA4 check — sessions,\
   \ users, key-event conversions, revenue, channel mix — with week-over-week deltas\
-  \ and tracking-break alerts\nversion: \"1.0.0\"\nauthor: Cogny AI\nrequires: cogny-mcp\n\
-  platforms: [google-analytics-4]\nuser-invocable: true\nargument-hint: \"\"\nallowed-tools:\n\
-  \  - mcp__cogny__google_analytics_4__tool_list_account_summaries\n  - mcp__cogny__google_analytics_4__tool_get_property\n\
-  \  - mcp__cogny__google_analytics_4__tool_list_conversion_events\n  - mcp_..."
-full_prompt_length: 5113
+  \ and tracking-break alerts\nversion: \"1.1.2\"\nauthor: Cogny AI\nrequires: cogny-mcp\n\
+  platforms: [google-analytics-4, plausible, fathom-analytics, simple-analytics, adobe-analytics]\n\
+  user-invocable: true\nargument-hint: \"\"\nallowed-tools:\n  - mcp__cogny__refresh_mcp_discovery\n\
+  \  - mcp__cogny__mcp__Google_Analytics_4__tool_list_account_summaries\n  - mcp__cogny__mcp..."
+full_prompt_length: 12904
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/ga4-monitor/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/ga4-monitor/SKILL.md
-fetched_at: '2026-08-02T05:27:13.273318+00:00'
+fetched_at: '2026-10-25T07:17:15.256353+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:50:17.379339Z'
+  evaluated_at: '2026-10-25T08:56:48.607248Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19f40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debad80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19f40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debad80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,6 +36,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.361004Z'
-indexed_at: '2026-08-02T09:26:14.361010Z'
+  fetched_at: '2026-10-25T12:12:05.988046Z'
+indexed_at: '2026-10-25T12:12:05.988051Z'
 ---

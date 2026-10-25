@@ -5,11 +5,12 @@ name: GA4 Event Implementation Reference
 description: '- **GA4 Event Reference:** https://developers.google.com/analytics/devguides/collection/ga4/reference/events'
 prompt_preview: "---\nname: ga4-events\ndescription: GA4 Event Implementation Reference\
   \ — complete event taxonomy, parameter lists, implementation patterns (gtag.js,\
-  \ GTM, Measurement Protocol), and validation techniques\nversion: \"1.0.0\"\nauthor:\
+  \ GTM, Measurement Protocol), and validation techniques\nversion: \"1.1.1\"\nauthor:\
   \ Cogny AI\nplatforms: []\nuser-invocable: true\nargument-hint: \"<event name, category,\
   \ or topic>\"\nallowed-tools:\n  - WebFetch\n  - WebSearch\n  - Bash\n  - Read\n\
-  \  - Write\n  # GA4 tools (when connected via Cogny MCP)\n  - mcp__cogny__google_analytics_4__tool_list_account_summaries..."
-full_prompt_length: 20798
+  \  - Write\n  # GA4 tools (when connected via Cogny MCP)\n  - mcp__cogny__list_integrations\n\
+  \  - mcp__cogny__refresh_mcp_dis..."
+full_prompt_length: 23998
 tools_mentioned:
 - python
 - javascript
@@ -18,17 +19,17 @@ category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/ga4-events/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/ga4-events/SKILL.md
-fetched_at: '2026-08-02T05:27:12.932066+00:00'
+fetched_at: '2026-10-25T07:17:15.002360+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:50:01.064820Z'
+  evaluated_at: '2026-10-25T08:56:32.043097Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad070c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8920 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad070c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8920 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.355735Z'
-indexed_at: '2026-08-02T09:26:14.355742Z'
+  fetched_at: '2026-10-25T12:12:05.982949Z'
+indexed_at: '2026-10-25T12:12:05.982954Z'
 ---

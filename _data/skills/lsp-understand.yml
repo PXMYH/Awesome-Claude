@@ -6,39 +6,39 @@ prompt_preview: '---
 
   name: lsp-understand
 
-  description: Deep-dive exploration of unfamiliar code — given a symbol or file,
+  description: "Deep-dive exploration of unfamiliar code — given a symbol or file,
   builds a complete Code Map showing type info, implementations, call hierarchy (2-level
   depth limit), all references, and source. Broader than lsp-explore: accepts files,
-  synthesizes multi-symbol relationships, and produces a navigable dependency map.
+  synthesizes multi-symbol relationships, and produces a navigable dependency map."
 
   argument-hint: "[symbol-name | file-path]"
 
   user-invocable: true
 
-  allowed-tools: mcp__lsp__inspect_symbol mcp__lsp__go_to_implementation mcp__lsp_...'
-full_prompt_length: 11370
+  allowed-tools: mcp__lsp__inspect_symbol mcp__lsp__go_to_implementation mcp__ls...'
+full_prompt_length: 11372
 tools_mentioned:
-- Go
-- go
 - TypeScript
-- Rust
+- go
 - JavaScript
+- Go
+- Rust
 category: community
 category_display: Community
 source_repo: blackwell-systems/agent-lsp
 source_path: skills/lsp-understand/SKILL.md
 source_url: https://github.com/blackwell-systems/agent-lsp/blob/main/skills/lsp-understand/SKILL.md
-fetched_at: '2026-08-02T05:27:07.402969+00:00'
+fetched_at: '2026-10-25T07:17:10.088535+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:47:24.395442Z'
+  evaluated_at: '2026-10-25T08:53:08.937947Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a8a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056f30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a8a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056f30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,5 +48,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.306985Z'
-indexed_at: '2026-08-02T09:26:14.306990Z'
+  fetched_at: '2026-10-25T12:12:05.923278Z'
+indexed_at: '2026-10-25T12:12:05.923283Z'

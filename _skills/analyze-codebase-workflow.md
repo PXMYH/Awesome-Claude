@@ -12,27 +12,27 @@ prompt_preview: "---\nname: analyze-codebase-workflow\ndescription: >\n  Analyze
   \ auditing a\n  project's d..."
 full_prompt_length: 8567
 tools_mentioned:
+- JavaScript
 - Python
 - python
 - javascript
 - rest
-- JavaScript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/analyze-codebase-workflow/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/analyze-codebase-workflow/SKILL.md
-fetched_at: '2026-08-02T05:29:20.656202+00:00'
+fetched_at: '2026-10-25T07:19:11.595153+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:02:30.069302Z'
+  evaluated_at: '2026-10-25T10:27:17.886086Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49ac0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057e60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49ac0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057e60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.717560Z'
-indexed_at: '2026-08-02T09:26:15.717566Z'
+  fetched_at: '2026-10-25T12:12:07.577928Z'
+indexed_at: '2026-10-25T12:12:07.577933Z'
 ---

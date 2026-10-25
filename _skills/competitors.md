@@ -1,0 +1,47 @@
+---
+id: competitors
+slug: competitors
+name: Competitor & Alternative Pages
+description: '- **programmatic-seo**: For building competitor pages at scale'
+prompt_preview: '---
+
+  name: competitors
+
+  description: "When the user wants to create competitor comparison or alternative
+  pages for SEO and buyer-facing use. Also use when the user mentions ''alternative
+  page,'' ''vs page,'' ''competitor comparison,'' ''comparison page,'' ''[Product]
+  vs [Product],'' ''[Product] alternative,'' ''competitive landing pages,'' ''how
+  do we compare to X,'' ''competitor teardown,'' ''audit our competitor pages,'' ''are
+  our comparison pages out of date,'' or ''competitive asset audit.'' Use this for
+  any content...'
+full_prompt_length: 12063
+tools_mentioned:
+- Go
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/competitors/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/competitors/SKILL.md
+fetched_at: '2026-10-25T07:17:22.846306+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:03:51.583017Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debb950 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debb950 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.111703Z'
+indexed_at: '2026-10-25T12:12:06.111711Z'
+---

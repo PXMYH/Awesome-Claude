@@ -1,15 +1,23 @@
 id: depmap
 slug: depmap
 name: DepMap — Cancer Dependency Map
-description: '- **DepMap Portal**: https://depmap.org/portal/'
-prompt_preview: "---\nname: depmap\ndescription: Query the Cancer Dependency Map (DepMap)\
-  \ for cancer cell line gene dependency scores (CRISPR Chronos), drug sensitivity\
-  \ data, and gene effect profiles. Use for identifying cancer-specific vulnerabilities,\
-  \ synthetic lethal interactions, and validating oncology drug targets.\nlicense:\
-  \ CC-BY-4.0\nmetadata:\n  version: \"1.0\"\n  skill-author: Kuan-lin Huang\n---\n\
-  \n# DepMap — Cancer Dependency Map\n\n## Overview\n\nThe Cancer Dependency Map (DepMap)\
-  \ project, run by the Broad Instit..."
-full_prompt_length: 11270
+description: The live no-captcha catalogue and original PRISM READMEs were fetched
+  successfully.
+prompt_preview: '---
+
+  name: depmap
+
+  description: Retrieves and analyzes Cancer Dependency Map (DepMap) release data,
+  including CRISPR Chronos gene effects, cancer model annotations, omics biomarkers,
+  and PRISM drug sensitivity. Supports cancer-selective dependency, co-essentiality,
+  and candidate synthetic-lethality analyses with release-aware identifiers and statistical
+  checks.
+
+  license: CC-BY-4.0
+
+  compatibility: Requires Python 3.10+ with numpy, pandas, and scipy>=1.11 for the
+  bundled helpers. Network access is nee...'
+full_prompt_length: 13875
 tools_mentioned:
 - Python
 - python
@@ -18,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/depmap/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/depmap/SKILL.md
-fetched_at: '2026-08-02T05:25:23.508855+00:00'
+fetched_at: '2026-10-25T07:15:48.111578+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:40:55.680410Z'
+  evaluated_at: '2026-10-25T07:41:45.139684Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19e50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4470 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19e50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4470 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.058225Z'
-indexed_at: '2026-08-02T09:26:13.058230Z'
+  fetched_at: '2026-10-25T12:12:04.661928Z'
+indexed_at: '2026-10-25T12:12:04.661932Z'

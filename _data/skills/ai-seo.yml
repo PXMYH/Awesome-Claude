@@ -1,0 +1,46 @@
+id: ai-seo
+slug: ai-seo
+name: AI SEO
+description: '- **seo-audit**: For traditional technical and on-page SEO audits; **link-building**
+  for earning links and mentions on the third-party pages AI engines cite'
+prompt_preview: '---
+
+  name: ai-seo
+
+  description: "When the user wants to optimize content for AI search engines, get
+  cited by LLMs, or appear in AI-generated answers. Also use when the user mentions
+  ''AI SEO,'' ''AEO,'' ''GEO,'' ''LLMO,'' ''answer engine optimization,'' ''generative
+  engine optimization,'' ''LLM optimization,'' ''AI Overviews,'' ''optimize for ChatGPT,''
+  ''optimize for Perplexity,'' ''AI citations,'' ''AI visibility,'' ''zero-click search,''
+  ''how do I show up in AI answers,'' ''LLM mentions,'' ''optimize for Claude/Gemini,''
+  ''ll...'
+full_prompt_length: 36296
+tools_mentioned:
+- JavaScript
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/ai-seo/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/ai-seo/SKILL.md
+fetched_at: '2026-10-25T07:17:21.867289+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:02:38.755088Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1c110 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1c110 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.093094Z'
+indexed_at: '2026-10-25T12:12:06.093099Z'

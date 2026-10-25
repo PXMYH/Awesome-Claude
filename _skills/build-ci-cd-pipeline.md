@@ -13,27 +13,27 @@ prompt_preview: "---\nname: build-ci-cd-pipeline\ndescription: >\n  Design and i
   \ matrix builds across platform..."
 full_prompt_length: 16207
 tools_mentioned:
-- Docker
-- Azure
-- AWS
 - aws
+- AWS
+- Docker
 - Node.js
+- Azure
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/build-ci-cd-pipeline/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/build-ci-cd-pipeline/SKILL.md
-fetched_at: '2026-08-02T05:29:26.195721+00:00'
+fetched_at: '2026-10-25T07:19:15.447488+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:06:47.331156Z'
+  evaluated_at: '2026-10-25T10:31:29.853978Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad38b200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee49e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad38b200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee49e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.799612Z'
-indexed_at: '2026-08-02T09:26:15.799618Z'
+  fetched_at: '2026-10-25T12:12:07.653758Z'
+indexed_at: '2026-10-25T12:12:07.653762Z'
 ---

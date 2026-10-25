@@ -2,32 +2,48 @@
 id: revenue-audit
 slug: revenue-audit
 name: Revenue Audit
-description: '- **Benchmarks are rough.** Real uplift depends on list quality, brand,
-  vertical, and offer. Always frame estimates as "reasonable industry range" not "guaranteed."'
-prompt_preview: "---\nname: revenue-audit\ndescription: Audit an email marketing program\
-  \ for revenue leaks — missing flows, dormant high-value subscribers, under-segmentation,\
-  \ promo gaps, stale automations — ranked by estimated $ impact\nversion: \"1.0.0\"\
-  \nauthor: Cogny AI\nrequires: cogny-mcp\nplatforms: [klaviyo, mailchimp, rule, get-a-newsletter]\n\
-  user-invocable: true\nargument-hint: \"\"\nallowed-tools:\n  # Cogny Cloud (aggregated)\
-  \ namespace\n  - mcp__cogny__klaviyo__*\n  - mcp__cogny__mailchimp__*\n  - mcp__cogny__rule__*..."
-full_prompt_length: 12231
-tools_mentioned: []
+description: Use `create_ticket` when the workspace has it (Cloud) and `create_finding`
+  otherwise (Solo).
+prompt_preview: '---
+
+  name: revenue-audit
+
+  description: Audit an email marketing program for revenue leaks — missing flows,
+  dormant high-value subscribers, under-segmentation, promo gaps, stale automations
+  — ranked by estimated $ impact
+
+  version: "1.1.2"
+
+  author: Cogny AI
+
+  requires: cogny-mcp
+
+  platforms: [klaviyo, mailchimp, rule, get-a-newsletter, brevo, mailerlite, drip,
+  salesforce-marketing-cloud, symplify, braze, shopify, woocommerce, abicart, litium,
+  stripe, google-analytics-4, plausible]
+
+  user-invocable: true
+
+  arg...'
+full_prompt_length: 27881
+tools_mentioned:
+- rest
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/revenue-audit/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/revenue-audit/SKILL.md
-fetched_at: '2026-08-02T05:27:16.927928+00:00'
+fetched_at: '2026-10-25T07:17:18.277783+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:53:01.560329Z'
+  evaluated_at: '2026-10-25T08:59:55.874859Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad073d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debbaa0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad073d10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debbaa0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.419491Z'
-indexed_at: '2026-08-02T09:26:14.419497Z'
+  fetched_at: '2026-10-25T12:12:06.045007Z'
+indexed_at: '2026-10-25T12:12:06.045012Z'
 ---

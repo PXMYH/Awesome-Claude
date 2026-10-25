@@ -10,24 +10,24 @@ prompt_preview: "---\nname: write-vignette\ndescription: >\n  Create R package v
   \ multiple\n  functions, creating domain-specific guides, or when CRAN submission\n\
   \  requires user-facing documentation beyond function help pages.\nlicense: MIT\n\
   allowed-tools: Read Write Edit Bash..."
-full_prompt_length: 7492
+full_prompt_length: 7871
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/write-vignette/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/write-vignette/SKILL.md
-fetched_at: '2026-08-02T05:30:28.623106+00:00'
+fetched_at: '2026-10-25T07:19:57.915048+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:52:18.897979Z'
+  evaluated_at: '2026-10-25T11:16:58.984253Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49ac0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6de120 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49ac0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6de120 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.654256Z'
-indexed_at: '2026-08-02T09:26:16.654262Z'
+  fetched_at: '2026-10-25T12:12:08.493854Z'
+indexed_at: '2026-10-25T12:12:08.493859Z'
 ---

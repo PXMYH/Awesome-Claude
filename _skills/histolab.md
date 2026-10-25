@@ -2,24 +2,22 @@
 id: histolab
 slug: histolab
 name: Histolab
-description: '**Usage pattern:** Reference files contain in-depth information to support
-  workflows described in this main skill document. Load specific reference files as
-  needed for detailed implementation guidance...'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: histolab
 
-  description: Lightweight WSI tile extraction and preprocessing. Use for basic slide
-  processing, tissue detection, tile extraction, and stain normalization for H&E images.
-  Best for simple pipelines, dataset preparation, and quick tile-based analysis. For
-  advanced spatial proteomics, multiplexed imaging, or deep learning pipelines use
-  pathml.
+  description: Extracts and preprocesses whole-slide histology image tiles with Histolab.
+  Use for WSI inspection, tissue masks, random/grid/score-based tile extraction, H&E
+  stain normalization, and tile dataset preparation. For multiplexed imaging or deep
+  learning inference pipelines, use pathml.
 
   license: Apache-2.0 license
 
-  compatibility: Requires Python 3.8–3.11 (histolab 0.7.0), OpenSlide system libraries,
-  and Linux or macOS. Samp...'
-full_prompt_length: 9216
+  compatibility: Requires Python 3.8–3.11 and histolab 0.7.0 on Linux or macOS, plus
+  native OpenSlide. Python 3.10 avoids scikit-image 0.19 source builds on ma...'
+full_prompt_length: 8786
 tools_mentioned:
 - Python
 - python
@@ -28,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/histolab/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/histolab/SKILL.md
-fetched_at: '2026-08-02T05:25:27.624687+00:00'
+fetched_at: '2026-10-25T07:15:51.209994+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:44:06.391114Z'
+  evaluated_at: '2026-10-25T07:45:08.401678Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeec30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8080 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeec30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8080 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.121322Z'
-indexed_at: '2026-08-02T09:26:13.121332Z'
+  fetched_at: '2026-10-25T12:12:04.720847Z'
+indexed_at: '2026-10-25T12:12:04.720856Z'
 ---

@@ -25,17 +25,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/tool-foundation-sprint-differentiation/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/tool-foundation-sprint-differentiation/SKILL.md
-fetched_at: '2026-08-02T05:30:40.346578+00:00'
+fetched_at: '2026-10-25T07:20:06.675571+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:59:41.529630Z'
+  evaluated_at: '2026-10-25T11:24:21.481342Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1e300 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1e300 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.792672Z'
-indexed_at: '2026-08-02T09:26:16.792678Z'
+  fetched_at: '2026-10-25T12:12:08.628214Z'
+indexed_at: '2026-10-25T12:12:08.628218Z'
 ---

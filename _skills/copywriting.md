@@ -1,0 +1,46 @@
+---
+id: copywriting
+slug: copywriting
+name: Copywriting
+description: '- **copy-editing**: For polishing existing copy (use after your draft)'
+prompt_preview: '---
+
+  name: copywriting
+
+  description: When the user wants to write, rewrite, or improve marketing copy for
+  any page, including homepage, landing pages, pricing pages, feature pages, about
+  pages, or product pages. Also use when the user says "write copy for," "improve
+  this copy," "rewrite this page," "marketing copy," "headline help," "CTA copy,"
+  "value proposition," "tagline," "hero section copy," "this copy is weak," "this
+  sounds like AI," "AI slop," "make it sound human," or "help me describe my...'
+full_prompt_length: 15500
+tools_mentioned:
+- rest
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/copywriting/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/copywriting/SKILL.md
+fetched_at: '2026-10-25T07:17:23.300489+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:04:23.957994Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e5b5b50 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e5b5b50 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.119880Z'
+indexed_at: '2026-10-25T12:12:06.119884Z'
+---

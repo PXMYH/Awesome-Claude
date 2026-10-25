@@ -7,28 +7,28 @@ description: '- **Generating a fake anecdote** because the user didn''t supply o
 prompt_preview: "---\nname: non-commodity-content\ndescription: Interview the user\
   \ for specific client stories, anecdotes, refusals, and real numbers — then turn\
   \ them into non-commodity SEO content Google actually wants to rank. Kills generic\
-  \ listicle output at the source.\nversion: \"1.0.0\"\nauthor: Cogny AI\nplatforms:\
+  \ listicle output at the source.\nversion: \"1.1.1\"\nauthor: Cogny AI\nplatforms:\
   \ []\nuser-invocable: true\nargument-hint: \"<topic, URL, or commodity headline>\"\
   \nallowed-tools:\n  - WebFetch\n  - WebSearch\n  - AskUserQuestion\n  - Bash\n \
-  \ - Read\n  - Write\n---\n\n# Non-Commodity Content\n\nGoo..."
-full_prompt_length: 9890
+  \ - Read\n  - Write\n  # Optional, when Cogny MCP is c..."
+full_prompt_length: 13290
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/non-commodity-content/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/non-commodity-content/SKILL.md
-fetched_at: '2026-08-02T05:27:16.032121+00:00'
+fetched_at: '2026-10-25T07:17:17.508193+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:52:20.531663Z'
+  evaluated_at: '2026-10-25T08:59:06.907277Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18860 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057e00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18860 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057e00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.406624Z'
-indexed_at: '2026-08-02T09:26:14.406629Z'
+  fetched_at: '2026-10-25T12:12:06.030255Z'
+indexed_at: '2026-10-25T12:12:06.030260Z'
 ---

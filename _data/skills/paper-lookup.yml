@@ -1,18 +1,19 @@
 id: paper-lookup
 slug: paper-lookup
 name: Paper Lookup
-description: '### Open Access & Full Text'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: paper-lookup
 
-  description: Search 11 academic literature APIs for papers, preprints, citations,
-  and open-access full text, and return results with reproducible provenance. Covers
-  PubMed, PMC (full text), Europe PMC (full-text and preprint search), bioRxiv, medRxiv,
-  arXiv, OpenAlex, Crossref, Semantic Scholar, CORE, Unpaywall. Use when searching
-  for papers, citations, DOI/PMID/arXiv lookups, abstracts, full text, open-access
-  PDFs, preprints, citation graphs, author publications, or any s...'
-full_prompt_length: 21205
+  description: Searches 18 scholarly APIs for papers, preprints, citations, open-access
+  full text, repository records, and journal OA status, and returns results with reproducible
+  provenance. Covers PubMed, PMC, Europe PMC, bioRxiv, medRxiv, arXiv, OpenAlex, Crossref,
+  Semantic Scholar, CORE, Unpaywall, OpenCitations, PubTator3, Zenodo, Figshare, ROR,
+  BioStudies, and DOAJ. Use when searching for papers, citations, DOI/PMID/arXiv lookups,
+  abstracts, full text, open-access PDFs...'
+full_prompt_length: 26048
 tools_mentioned:
 - rest
 - Python
@@ -21,17 +22,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/paper-lookup/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/paper-lookup/SKILL.md
-fetched_at: '2026-08-02T05:25:33.950315+00:00'
+fetched_at: '2026-10-25T07:15:56.177347+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:48:58.812602Z'
+  evaluated_at: '2026-10-25T07:50:40.865783Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed0d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4950 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed0d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4950 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +42,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.214411Z'
-indexed_at: '2026-08-02T09:26:13.214417Z'
+  fetched_at: '2026-10-25T12:12:04.817719Z'
+indexed_at: '2026-10-25T12:12:04.817724Z'

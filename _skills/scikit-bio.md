@@ -2,7 +2,8 @@
 id: scikit-bio
 slug: scikit-bio
 name: scikit-bio
-description: '- Official documentation: https://scikit.bio/docs/latest/'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: scikit-bio
@@ -15,10 +16,10 @@ prompt_preview: '---
 
   allowed-tools: Read Write Edit Bash
 
-  compatibility: Requires Python 3.10+ and scikit-bio 0.7+ (uv pip install scikit-bio).
+  compatibility: Requires Python 3.10+ and scikit-bio 0.7.4 (uv pip install scikit-bio==0.7.4).
   NumPy 2.0+ is required. Optional matplotlib/seaborn/plotly for plotting; biom-format
-  for BIOM tables; polars/anndata for tab...'
-full_prompt_length: 19468
+  for BIOM tables; polars/anndata...'
+full_prompt_length: 23865
 tools_mentioned:
 - Python
 - python
@@ -27,17 +28,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/scikit-bio/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/scikit-bio/SKILL.md
-fetched_at: '2026-08-02T05:25:42.481442+00:00'
+fetched_at: '2026-10-25T07:16:02.052018+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:55:21.901475Z'
+  evaluated_at: '2026-10-25T07:57:28.989808Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf45250 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4f50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf45250 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4f50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.335814Z'
-indexed_at: '2026-08-02T09:26:13.335820Z'
+  fetched_at: '2026-10-25T12:12:04.936011Z'
+indexed_at: '2026-10-25T12:12:04.936015Z'
 ---

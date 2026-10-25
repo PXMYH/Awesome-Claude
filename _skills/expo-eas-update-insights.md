@@ -7,11 +7,11 @@ prompt_preview: '---
 
   name: eas-update-insights
 
-  description: "EAS service (paid). Check the health of published EAS Update: crash
-  rates, install/launch counts, unique users, payload size, and the split between
-  embedded and OTA users per channel. Use when the user asks how an update is performing,
-  whether a rollout is healthy, how many users are on the embedded build vs OTA, or
-  wants to gate CI on update health."
+  description: "Check the health of published EAS Update: crash rates, install/launch
+  counts, unique users, payload size, and the split between embedded and OTA users
+  per channel. Use when the user asks how an update is performing, whether a rollout
+  is healthy, how many users are on the embedded build vs OTA, or wants to gate CI
+  on update health."
 
   version: 1.0.0
 
@@ -25,25 +25,25 @@ prompt_preview: '---
   # EAS Update Insights
 
 
-  > **EAS service -...'
-full_prompt_length: 12065
+  > **EAS service - costs apply.** Insi...'
+full_prompt_length: 12276
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/eas-update-insights/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/eas-update-insights/SKILL.md
-fetched_at: '2026-08-02T05:27:45.246936+00:00'
+fetched_at: '2026-10-25T07:17:45.150963+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:11:20.658123Z'
+  evaluated_at: '2026-10-25T09:26:13.907672Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acd9b8f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8d10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acd9b8f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8d10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -53,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.755949Z'
-indexed_at: '2026-08-02T09:26:14.755958Z'
+  fetched_at: '2026-10-25T12:12:06.496969Z'
+indexed_at: '2026-10-25T12:12:06.496974Z'
 ---

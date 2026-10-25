@@ -2,38 +2,37 @@
 id: pathogen-variant-surveillance
 slug: pathogen-variant-surveillance
 name: Pathogen Variant Surveillance
-description: '- `references/lapis-api.md` — endpoints, filter grammar, per-instance
-  schema differences, the'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: pathogen-variant-surveillance
 
-  description: Query live pathogen genomic surveillance data through the GenSpectrum
-  LAPIS API to find which viral lineages are circulating now, how fast they are growing,
-  and what mutations they carry. Use whenever a question depends on the current state
-  of a pathogen population rather than on remembered facts - which SARS-CoV-2 variant
-  is dominant, whether a Pango lineage is still designated or has been withdrawn,
-  what clade or genotype of H5N1 is in a hos...'
-full_prompt_length: 11336
+  description: Queries public GenSpectrum LAPIS data for pathogen genomic surveillance,
+  current lineage nomenclature, weekly sequence proportions, reporting delays, and
+  descriptive mutation frequencies. Use for variant surveillance, Pango lineage validation,
+  dominant submitted lineages, Nextclade assignment provenance, SARS-CoV-2, influenza/H5N1
+  clades, RSV, mpox, measles, dengue, or LAPIS queries. Distinguishes sequence prevalence
+  from infection prevalence,...'
+full_prompt_length: 10817
 tools_mentioned:
 - Python
-- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pathogen-variant-surveillance/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pathogen-variant-surveillance/SKILL.md
-fetched_at: '2026-08-02T05:25:34.811894+00:00'
+fetched_at: '2026-10-25T07:15:56.792833+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:49:40.016788Z'
+  evaluated_at: '2026-10-25T07:51:21.554752Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaecf80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6cc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaecf80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6cc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.227276Z'
-indexed_at: '2026-08-02T09:26:13.227285Z'
+  fetched_at: '2026-10-25T12:12:04.829594Z'
+indexed_at: '2026-10-25T12:12:04.829598Z'
 ---

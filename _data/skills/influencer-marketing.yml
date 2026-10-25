@@ -1,0 +1,45 @@
+id: influencer-marketing
+slug: influencer-marketing
+name: Influencer & Creator Marketing
+description: '- **referrals** — affiliate/commission tracking and payout rails (the
+  performance side of creator deals)'
+prompt_preview: '---
+
+  name: influencer-marketing
+
+  description: "When the user wants to run influencer, creator, or ambassador partnerships
+  to promote their product — finding and vetting partners, structuring deals, briefing
+  creators, disclosure compliance, and measuring ROI. Also use when the user mentions
+  ''influencer marketing,'' ''creator partnerships,'' ''sponsorships,'' ''YouTube
+  sponsorships,'' ''podcast sponsorships,'' ''newsletter sponsorship,'' ''newsletter
+  ad,'' ''sponsor a newsletter,'' ''brand ambassador,'' ''ambassador...'
+full_prompt_length: 20159
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/influencer-marketing/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/influencer-marketing/SKILL.md
+fetched_at: '2026-10-25T07:17:24.157415+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:05:28.651246Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee53a0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee53a0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.136588Z'
+indexed_at: '2026-10-25T12:12:06.136593Z'

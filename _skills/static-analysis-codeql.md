@@ -6,38 +6,39 @@ description: '- [ ] Output directory resolved (user-specified or auto-incremente
   default)'
 prompt_preview: "---\nname: codeql\ndescription: >-\n  Scans a codebase for security\
   \ vulnerabilities using CodeQL's interprocedural data flow and\n  taint tracking\
-  \ analysis. Triggers on \"run codeql\", \"codeql scan\", \"codeql analysis\", \"\
-  build\n  codeql database\", or \"find vulnerabilities with codeql\". Supports \"\
-  run all\" (security-and-quality\n  + security-experimental suites) and \"important\
-  \ only\" (high-precision security findings) scan\n  modes. Also handles creating\
-  \ data extension models and processing CodeQL SARIF outp..."
-full_prompt_length: 15475
+  \ analysis. Triggers on \"run codeql\", \"codeql scan\", \"build codeql database\"\
+  ,\n  \"SAST scan\", \"taint analysis\", \"dataflow analysis\", or \"find vulnerabilities\
+  \ in this repo\".\n  Covers Python, JavaScript/TypeScript, Go, Java/Kotlin, C/C++,\
+  \ C#, Ruby, and Swift. Supports\n  \"run all\" (security-and-quality + security-experimental)\
+  \ and \"important only\"\n  (high-preci..."
+full_prompt_length: 18470
 tools_mentioned:
-- JavaScript
-- Go
-- Django
-- Python
-- go
-- python
-- Java
 - TypeScript
 - Ruby
+- go
+- rest
+- Java
+- JavaScript
+- Python
+- python
+- Go
+- Django
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/static-analysis/skills/codeql/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/codeql/SKILL.md
-fetched_at: '2026-08-02T05:31:25.475397+00:00'
+fetched_at: '2026-10-25T07:20:41.151589+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:17:49.264867Z'
+  evaluated_at: '2026-10-25T11:45:38.819926Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1aed0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1d490 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1aed0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1d490 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:17.133103Z'
-indexed_at: '2026-08-02T09:26:17.133112Z'
+  fetched_at: '2026-10-25T12:12:09.010058Z'
+indexed_at: '2026-10-25T12:12:09.010062Z'
 ---

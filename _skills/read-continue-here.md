@@ -11,24 +11,25 @@ prompt_preview: "---\nname: read-continue-here\ndescription: >\n  Read a CONTINU
   \ consumption. Optionally configures a\n  SessionStart hook and CLAUDE.md instruction\
   \ for automatic pickup. Use at the\n  start of a session when a continuation file\
   \ exists, when bootstrapping af..."
-full_prompt_length: 9692
-tools_mentioned: []
+full_prompt_length: 19901
+tools_mentioned:
+- rest
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/read-continue-here/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/read-continue-here/SKILL.md
-fetched_at: '2026-08-02T05:30:08.463672+00:00'
+fetched_at: '2026-10-25T07:19:43.787698+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:37:36.504466Z'
+  evaluated_at: '2026-10-25T11:02:11.597520Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a6f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6e70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a6f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6e70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.378437Z'
-indexed_at: '2026-08-02T09:26:16.378442Z'
+  fetched_at: '2026-10-25T12:12:08.212110Z'
+indexed_at: '2026-10-25T12:12:08.212115Z'
 ---

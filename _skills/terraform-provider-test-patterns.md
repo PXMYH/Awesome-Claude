@@ -1,0 +1,43 @@
+---
+id: terraform-provider-test-patterns
+slug: terraform-provider-test-patterns
+name: Provider Acceptance Test Patterns
+description: '```go'
+prompt_preview: "---\nname: provider-test-patterns\ndescription: >-\n  Terraform provider\
+  \ acceptance test patterns using terraform-plugin-testing\n  with the Plugin Framework.\
+  \ Covers test structure, TestCase/TestStep fields,\n  ConfigStateChecks with custom\
+  \ statecheck.StateCheck implementations,\n  plan checks, CompareValue for cross-step\
+  \ assertions, config helpers,\n  import testing with ImportStateKind, sweepers,\
+  \ and scenario patterns\n  (basic, update, disappears, validation, regression),\
+  \ and ephemeral resource\n  tes..."
+full_prompt_length: 12945
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: hashicorp/agent-skills
+source_path: plugins/terraform/skills/provider-test-patterns/SKILL.md
+source_url: https://github.com/hashicorp/agent-skills/blob/main/plugins/terraform/skills/provider-test-patterns/SKILL.md
+fetched_at: '2026-10-25T07:17:50.770997+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:30:41.405784Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1e1e0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1e1e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.574084Z'
+indexed_at: '2026-10-25T12:12:06.574088Z'
+---

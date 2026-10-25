@@ -1,43 +1,37 @@
 id: dimensional-analysis-dimensional-analysis
 slug: dimensional-analysis-dimensional-analysis
 name: Dimensional Analysis Skill
-description: '**If `DIMENSIONAL_SCOPE.json` and the final report disagree, reconcile
-  the report or continue processing until they match.**'
+description: The summary must include the dimensional glossary, modified files, findings
+  and formula analysis results. Coverage counters must match `DIMENSIONAL_SCOPE.json`;
+  report any files blocked after retry wi...
 prompt_preview: '---
 
   name: dimensional-analysis
 
-  description: "Annotates codebases with dimensional analysis comments documenting
-  units, dimensions, and decimal scaling. Use when someone asks to annotate units
-  in a codebase, perform a dimensional analysis, or find vulnerabilities in a DeFi
-  protocol, offchain code, or other blockchain-related codebase with arithmetic. Prevents
-  dimensional mismatches and catches formula bugs early."
-
-  allowed-tools: Read Write Grep List Glob Task TodoRead TodoWrite
-
-  ---
-
-
-  # Dimensional...'
-full_prompt_length: 17857
-tools_mentioned:
-- rest
+  description: "Audits code for unit and decimal-scaling bugs and annotates it with
+  dimensional comments recording the units of each value. Use when someone asks to
+  audit or review code for unit confusion, decimals or scaling mismatches, WAD/RAY
+  scale errors, or the wrong token''s decimals; to annotate units in a codebase; or
+  to perform a dimensional analysis of a DeFi protocol, offchain code, or other arithmetic-heavy
+  codebase. Catches formulas that combine values ca...'
+full_prompt_length: 9881
+tools_mentioned: []
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/dimensional-analysis/skills/dimensional-analysis/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/dimensional-analysis/skills/dimensional-analysis/SKILL.md
-fetched_at: '2026-08-02T05:31:16.566005+00:00'
+fetched_at: '2026-10-25T07:20:33.895990+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:14:45.452472Z'
+  evaluated_at: '2026-10-25T11:41:03.290094Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1dd00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1dd00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:17.076392Z'
-indexed_at: '2026-08-02T09:26:17.076398Z'
+  fetched_at: '2026-10-25T12:12:08.930764Z'
+indexed_at: '2026-10-25T12:12:08.930770Z'

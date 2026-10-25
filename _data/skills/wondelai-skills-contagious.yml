@@ -1,0 +1,46 @@
+id: wondelai-skills-contagious
+slug: wondelai-skills-contagious
+name: Word-of-Mouth & Virality Framework
+description: '**Jonah Berger** is a marketing professor at the Wharton School whose
+  research focuses on social influence, word-of-mouth, and why things catch on. *Contagious*
+  distills that research into the STEPPS ...'
+prompt_preview: '---
+
+  name: contagious
+
+  description: ''Engineer word-of-mouth and virality using the STEPPS framework (Social
+  Currency, Triggers, Emotion, Public, Practical Value, Stories). Use when the user
+  mentions "go viral", "word of mouth", "shareable content", "social currency", "why
+  people share", "referral program", "nobody is sharing it", or "make this spread".
+  Also trigger when designing shareable features, crafting social campaigns, or building
+  products that spread through peer recommendation. Covers env...'
+full_prompt_length: 17626
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: wondelai/skills
+source_path: plugins/wondelai-skills/skills/contagious/SKILL.md
+source_url: https://github.com/wondelai/skills/blob/main/plugins/wondelai-skills/skills/contagious/SKILL.md
+fetched_at: '2026-10-25T07:21:00.391956+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T12:01:07.859749Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1ddc0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1ddc0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:09.272322Z'
+indexed_at: '2026-10-25T12:12:09.272326Z'

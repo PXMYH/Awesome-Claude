@@ -1,0 +1,76 @@
+id: new-project
+slug: new-project
+name: New Project Bootstrap
+description: Read, Write, Edit, Bash, Glob
+prompt_preview: '---
+
+  name: new-project
+
+  description: Full project bootstrap - interviews the developer (name, description,
+  stack, components), then scaffolds directory structure, CLAUDE.md, config files,
+  hooks, skills, and first commit.
+
+  user_invocable: true
+
+  allowed-tools:
+
+  - Read
+
+  - Write
+
+  - Edit
+
+  - Bash
+
+  - Glob
+
+  ---
+
+
+  # New Project Bootstrap
+
+
+  <!-- Mirrors AGENT.md in the agent-starter repo. If guides change, update this skill
+  to match. -->
+
+
+  Use when starting a new project from scratch. Scaffolds a complete AI-friendly...'
+full_prompt_length: 15891
+tools_mentioned:
+- TypeScript
+- typescript
+- go
+- rest
+- JavaScript
+- Python
+- python
+- Go
+- React
+- Rust
+category: community
+category_display: Community
+source_repo: sneg55/agent-starter
+source_path: skills/new-project/SKILL.md
+source_url: https://github.com/sneg55/agent-starter/blob/main/skills/new-project/SKILL.md
+fetched_at: '2026-10-25T07:20:19.291351+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T11:33:35.840757Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6ae0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6ae0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:08.795985Z'
+indexed_at: '2026-10-25T12:12:08.795989Z'

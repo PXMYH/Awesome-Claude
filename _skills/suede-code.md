@@ -1,0 +1,47 @@
+---
+id: suede-code
+slug: suede-code
+name: Suede Code
+description: '- Make CI enforce the verdict on every merge → **suede-ci-gate**'
+prompt_preview: '---
+
+  name: suede-code
+
+  description: "Suede AI code review and A-F ship grade for a diff, PR, branch, or
+  commit range: findings ranked P0-P3 with file:line evidence and a fix path, an A-F
+  grade across seven lanes with Instant-F security triggers and surface grade caps,
+  OWASP 2025 checks, a deploy-safety gate, a commit-dirt scan, and fix briefs. Three
+  modes: full review and grade in one pass (default), findings only with no grade,
+  and grade only with no findings list. Use when asked to review this,...'
+full_prompt_length: 21979
+tools_mentioned:
+- TypeScript
+- React
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-code/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-code/SKILL.md
+fetched_at: '2026-10-25T07:15:34.137431+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:29:26.730858Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e5b5b50 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e5b5b50 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.460187Z'
+indexed_at: '2026-10-25T12:12:04.460191Z'
+---

@@ -12,7 +12,7 @@ prompt_preview: "---\nname: lifecycle-progression-workflow\ndescription: \"Build
   \  author: tomgranot\n  version: \"1.1\"\n  category: automation-workflows\n---\n\
   \n# Lifecycle Stage Progression Workflow\n\nAutomate the contact journey through\
   \ the sales funnel with four progression w..."
-full_prompt_length: 8196
+full_prompt_length: 8684
 tools_mentioned:
 - Python
 category: community
@@ -20,17 +20,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/lifecycle-progression-workflow/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/lifecycle-progression-workflow/SKILL.md
-fetched_at: '2026-08-02T05:25:57.564377+00:00'
+fetched_at: '2026-10-25T07:16:16.546886+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:04:04.649630Z'
+  evaluated_at: '2026-10-25T08:08:32.654003Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acde5610 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6f9100 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acde5610 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6f9100 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.501039Z'
-indexed_at: '2026-08-02T09:26:13.501044Z'
+  fetched_at: '2026-10-25T12:12:05.127576Z'
+indexed_at: '2026-10-25T12:12:05.127580Z'
 ---

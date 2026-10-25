@@ -1,0 +1,46 @@
+id: marine-carbonate-chemistry
+slug: marine-carbonate-chemistry
+name: Marine Carbonate Chemistry
+description: Repository tests exercise the pinned solver, independent-pair round trips,
+  carbon balance,
+prompt_preview: '---
+
+  name: marine-carbonate-chemistry
+
+  description: Solves seawater carbonate chemistry with PyCO2SYS for chemical oceanography,
+  ocean acidification, and marine carbon-cycle research. Use for paired total alkalinity,
+  dissolved inorganic carbon, pH, or seawater pCO2/fCO2 measurements; carbonate speciation;
+  aragonite and calcite saturation; Revelle factors; lab-to-in-situ temperature and
+  pressure corrections; and measurement uncertainty propagation. Applies to carbonate-system
+  calculations, not gene...'
+full_prompt_length: 9548
+tools_mentioned:
+- Python
+- python
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: skills/marine-carbonate-chemistry/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/marine-carbonate-chemistry/SKILL.md
+fetched_at: '2026-10-25T07:15:53.009746+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:47:10.493894Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba270 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba270 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.756417Z'
+indexed_at: '2026-10-25T12:12:04.756421Z'

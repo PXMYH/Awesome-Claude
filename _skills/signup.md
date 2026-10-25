@@ -1,0 +1,45 @@
+---
+id: signup
+slug: signup
+name: Signup Flow CRO
+description: '- **onboarding**: For optimizing what happens after signup'
+prompt_preview: '---
+
+  name: signup
+
+  description: When the user wants to optimize signup, registration, account creation,
+  or trial activation flows. Also use when the user mentions "signup conversions,"
+  "registration friction," "signup form optimization," "free trial signup," "reduce
+  signup dropoff," "account creation flow," "people aren''t signing up," "signup abandonment,"
+  "trial conversion rate," "nobody completes registration," "too many steps to sign
+  up," or "simplify our signup." Use this whenever the user has...'
+full_prompt_length: 10770
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/signup/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/signup/SKILL.md
+fetched_at: '2026-10-25T07:17:26.497387+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:08:28.207903Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6de0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6de0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.181484Z'
+indexed_at: '2026-10-25T12:12:06.181487Z'
+---

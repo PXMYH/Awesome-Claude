@@ -1,0 +1,46 @@
+---
+id: suede-ops-architecture
+slug: suede-ops-architecture
+name: Suede Ops Architecture
+description: '- Need the current operation mapped and its friction costed before architecture'
+prompt_preview: '---
+
+  name: suede-ops-architecture
+
+  description: "Suede AI operations-architecture discipline that fixes the shape of
+  a system before anyone builds it: entity schema first, exactly one write path per
+  entity, every unit of work routed to a deterministic automation, an AI agent, or
+  a human decision, every existing tool marked absorb, keep, or kill, and the build
+  sequenced into phases whose completion is proved by a command. Use when scoping
+  an automation or agent build, deciding whether a workflow ne...'
+full_prompt_length: 12332
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-ops-architecture/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-ops-architecture/SKILL.md
+fetched_at: '2026-10-25T07:15:37.057588+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:32:41.217879Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e264140 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e264140 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.510191Z'
+indexed_at: '2026-10-25T12:12:04.510195Z'
+---

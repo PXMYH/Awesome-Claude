@@ -10,24 +10,24 @@ prompt_preview: "---\nname: pestel-analysis\nargument-hint: \"[product or market
   \ factors—Political, Economic, Social, Technological, Environmental, and Legal—that\
   \ could impact your product or project. Use this to identify external opportunities\
   \ and threats, inform..."
-full_prompt_length: 13977
+full_prompt_length: 14430
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/pestel-analysis/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pestel-analysis/SKILL.md
-fetched_at: '2026-08-02T05:27:35.205040+00:00'
+fetched_at: '2026-10-25T07:17:38.618251+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:05:32.197523Z'
+  evaluated_at: '2026-10-25T09:20:23.786214Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4b080 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1cef0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4b080 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1cef0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.649701Z'
-indexed_at: '2026-08-02T09:26:14.649707Z'
+  fetched_at: '2026-10-25T12:12:06.392590Z'
+indexed_at: '2026-10-25T12:12:06.392595Z'
 ---

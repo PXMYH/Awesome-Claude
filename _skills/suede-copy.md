@@ -1,0 +1,47 @@
+---
+id: suede-copy
+slug: suede-copy
+name: Suede Copy
+description: '- Clean up finished text without rewriting it, or a findings-only slop
+  audit →'
+prompt_preview: '---
+
+  name: suede-copy
+
+  description: "Suede AI writing skill for every copy surface: conversion copy for
+  landing sections, heroes, headlines, CTAs, and microcopy; email and social posts;
+  product listings, README and docs pages; public explainers; brand-voice retunes;
+  and agent-facing docs such as SKILL.md, CLAUDE.md, and AGENTS.md. Includes an answer-first
+  SEO and AEO pass (direct answer up top, question headings, quotable facts, FAQ,
+  metadata), persona and framework selection, labeled variants, ev...'
+full_prompt_length: 16807
+tools_mentioned:
+- rest
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-copy/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-copy/SKILL.md
+fetched_at: '2026-10-25T07:15:34.883397+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:30:15.246991Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057e00 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057e00 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.472589Z'
+indexed_at: '2026-10-25T12:12:04.472593Z'
+---

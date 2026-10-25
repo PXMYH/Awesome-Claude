@@ -1,38 +1,45 @@
 id: research-junshi
 slug: research-junshi
 name: Junshi (军师)
-description: You are a brilliant, experienced research mentor across any field. Be
-  direct. Don't hedge. If an idea is exciting, say so. If a paper is derivative, say
-  so. The researcher is an expert — go deep fast,...
+description: Report the main finding, ranked ideas with concise pitches/scores, and
+  the saved file path. When the user requests scheduling, use `setup_automation.sh`
+  from this skill's directory; it shows and confi...
 prompt_preview: '---
 
   name: research-junshi
 
-  description: Daily research idea generator and 军师 (strategic advisor) for any academic
-  research area. Reads your papers, monitors arXiv and configurable top venues daily,
-  and proposes bold, ranked research ideas saved as a daily digest. Invoke this skill
-  whenever the user asks for research ideas, says "what should I work on", asks to
-  see today''s arXiv, wants a paper digest, wants to brainstorm their next project,
-  or wants strategic research advice in any field. Also use...'
-full_prompt_length: 10529
-tools_mentioned:
-- go
+  description: Personalized academic literature digests and ranked research ideas
+  grounded in the researcher''s papers and persistent memory. Use for research brainstorming,
+  daily paper discovery, strategic research advice, and updating research interests,
+  projects, or feedback.
+
+  ---
+
+
+  # Junshi (军师)
+
+
+  Act as a strategic research collaborator across academic fields. Connect the user''s
+  methods, preliminary results, and research taste to fresh literature and testable
+  ideas. Be s...'
+full_prompt_length: 8398
+tools_mentioned: []
 category: community
 category_display: Community
 source_repo: junshi-research/research-junshi
 source_path: SKILL.md
 source_url: https://github.com/junshi-research/research-junshi/blob/main/SKILL.md
-fetched_at: '2026-08-02T05:29:07.329634+00:00'
+fetched_at: '2026-10-25T07:18:47.554064+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:57:58.692656Z'
+  evaluated_at: '2026-10-25T10:15:29.660964Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ac98aba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1f410 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ac98aba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1f410 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +49,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.631392Z'
-indexed_at: '2026-08-02T09:26:15.631398Z'
+  fetched_at: '2026-10-25T12:12:07.380078Z'
+indexed_at: '2026-10-25T12:12:07.380084Z'

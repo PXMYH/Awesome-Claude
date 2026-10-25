@@ -13,29 +13,29 @@ prompt_preview: '---
   deploys model registries, and automates retraining and validation workflows. Use
   when building ML pipelines, orchestrating training workflows, automating model lifecycle,
   implementing feature stores, managing experiment tracking s...'
-full_prompt_length: 7229
+full_prompt_length: 7405
 tools_mentioned:
-- Docker
-- Azure
 - Kubernetes
 - kubernetes
 - python
+- Docker
+- Azure
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/ml-pipeline/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/ml-pipeline/SKILL.md
-fetched_at: '2026-08-02T05:28:51.289014+00:00'
+fetched_at: '2026-10-25T07:18:36.469230+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:50:40.646937Z'
+  evaluated_at: '2026-10-25T10:08:03.832076Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acd64530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acd64530 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.490222Z'
-indexed_at: '2026-08-02T09:26:15.490228Z'
+  fetched_at: '2026-10-25T12:12:07.243518Z'
+indexed_at: '2026-10-25T12:12:07.243522Z'
 ---

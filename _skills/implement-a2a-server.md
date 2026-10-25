@@ -12,30 +12,30 @@ prompt_preview: "---\nname: implement-a2a-server\ndescription: >\n  Implement a 
   \ MIT..."
 full_prompt_length: 16094
 tools_mentioned:
+- TypeScript
+- PostgreSQL
+- typescript
 - Redis
 - fastapi
 - Python
-- TypeScript
-- PostgreSQL
-- Node.js
-- typescript
 - python
+- Node.js
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/implement-a2a-server/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/implement-a2a-server/SKILL.md
-fetched_at: '2026-08-02T05:29:52.196795+00:00'
+fetched_at: '2026-10-25T07:19:32.992083+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:25:48.611652Z'
+  evaluated_at: '2026-10-25T10:50:32.073150Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debbec0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee540 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debbec0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.156051Z'
-indexed_at: '2026-08-02T09:26:16.156057Z'
+  fetched_at: '2026-10-25T12:12:07.996368Z'
+indexed_at: '2026-10-25T12:12:07.996373Z'
 ---

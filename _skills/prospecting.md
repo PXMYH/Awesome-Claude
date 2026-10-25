@@ -1,0 +1,47 @@
+---
+id: prospecting
+slug: prospecting
+name: Prospecting
+description: '- **cold-email**: For writing outbound sequences against the qualified
+  list (the natural next step after prospecting)'
+prompt_preview: '---
+
+  name: prospecting
+
+  description: When the user wants to find, qualify, and build a list of prospects
+  to reach out to, across B2B SaaS, general B2B, or local small businesses. Also use
+  when the user mentions "prospecting," "build a prospect list," "find leads," "lead
+  list," "outbound list," "target account list," "ICP-fit accounts," "find local businesses,"
+  "find my first customers," "design partners," "signal-based outbound," "buying signals,"
+  "intent data," "job change alerts," "waterfall enr...'
+full_prompt_length: 20045
+tools_mentioned:
+- rest
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/prospecting/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/prospecting/SKILL.md
+fetched_at: '2026-10-25T07:17:25.755246+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:07:38.998103Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1c6b0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1c6b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.169364Z'
+indexed_at: '2026-10-25T12:12:06.169367Z'
+---

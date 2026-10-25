@@ -3,31 +3,31 @@ slug: search-campaign-audit
 name: Search Campaign Audit
 description: 1. **Read the QS components, don't just report the number.** The fix
   differs for ad
-prompt_preview: "---\nname: search-campaign-audit\ndescription: Google Ads Search\
-  \ campaign audit — match types, quality score, negative keyword gaps, search terms,\
-  \ ad strength, RSA asset coverage\nversion: \"1.0.0\"\nauthor: Cogny AI\nrequires:\
-  \ cogny-mcp\nplatforms: [google-ads]\nuser-invocable: true\nargument-hint: \"[campaign\
-  \ name or id]\"\nallowed-tools:\n  - mcp__cogny__google_ads__tool_list_accessible_accounts\n\
-  \  - mcp__cogny__google_ads__tool_execute_gaql\n  - mcp__cogny__google_ads__tool_get_gaql_doc\n\
-  \  - mcp__cogny__goog..."
-full_prompt_length: 6766
+prompt_preview: "---\nname: search-campaign-audit\ndescription: Search campaign audit\
+  \ for Google Ads (with Microsoft Ads parity) — match types, quality score, negative\
+  \ keyword gaps, search terms, ad strength, RSA asset coverage\nversion: \"1.1.2\"\
+  \nauthor: Cogny AI\nrequires: cogny-mcp\nplatforms: [google-ads, microsoft-ads]\n\
+  user-invocable: true\nargument-hint: \"[campaign name or id]\"\nallowed-tools:\n\
+  \  - mcp__cogny__refresh_mcp_discovery\n  - mcp__cogny__mcp__Google_Ads__tool_list_accessible_accounts\n\
+  \  - mcp__cogny__mcp__G..."
+full_prompt_length: 16046
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/search-campaign-audit/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/search-campaign-audit/SKILL.md
-fetched_at: '2026-08-02T05:27:17.113770+00:00'
+fetched_at: '2026-10-25T07:17:18.426024+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:53:09.707468Z'
+  evaluated_at: '2026-10-25T09:00:03.961644Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4b710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057d40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4b710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057d40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.422176Z'
-indexed_at: '2026-08-02T09:26:14.422182Z'
+  fetched_at: '2026-10-25T12:12:06.047445Z'
+indexed_at: '2026-10-25T12:12:06.047450Z'

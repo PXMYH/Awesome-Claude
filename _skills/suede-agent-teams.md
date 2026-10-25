@@ -1,0 +1,46 @@
+---
+id: suede-agent-teams
+slug: suede-agent-teams
+name: Agent Team Orchestrator
+description: '- The work is one repo''s change and a bundled DAG can run it end to
+  end →'
+prompt_preview: '---
+
+  name: suede-agent-teams
+
+  description: "Suede AI agent-team orchestrator, the method behind multi-agent automation:
+  split complex work into coordinated lanes with explicit file ownership, WIP collision
+  detection, quality gates, escalation thresholds, rollback plans, and handoffs that
+  prove what shipped. Use when one shared change needs safe parallel ownership across
+  builders and reviewers, when a lane map must be resolved before anyone opens a file,
+  or when running a repeatable public-reposito...'
+full_prompt_length: 23125
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-agent-teams/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-agent-teams/SKILL.md
+fetched_at: '2026-10-25T07:15:32.786428+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:27:57.743257Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6f8aa0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6f8aa0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.436868Z'
+indexed_at: '2026-10-25T12:12:04.436873Z'
+---

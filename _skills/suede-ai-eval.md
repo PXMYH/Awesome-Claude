@@ -1,0 +1,45 @@
+---
+id: suede-ai-eval
+slug: suede-ai-eval
+name: Suede AI Eval
+description: '- The AI surface''s implementation needs review or a ship grade → **suede-code**'
+prompt_preview: '---
+
+  name: suede-ai-eval
+
+  description: "Suede AI eval design and coverage audit: AI-SPEC, failure-mode rubric
+  with severity scoring, concrete pass/fail eval cases, coverage and infrastructure
+  scores, and mechanical acceptance gates. Use when a change ships LLM, RAG, agent,
+  classifier, prompt, or generated-media behavior, or when asked to write evals for
+  an AI feature, design test cases for a model surface, audit existing eval coverage,
+  or judge whether AI behavior is safe to ship. No AI-SPEC means...'
+full_prompt_length: 13078
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-ai-eval/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-ai-eval/SKILL.md
+fetched_at: '2026-10-25T07:15:32.908403+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:28:05.821996Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e8eb0b0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e8eb0b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.438990Z'
+indexed_at: '2026-10-25T12:12:04.438995Z'
+---

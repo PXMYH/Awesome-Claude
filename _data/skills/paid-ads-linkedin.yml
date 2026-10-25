@@ -1,0 +1,54 @@
+id: paid-ads-linkedin
+slug: paid-ads-linkedin
+name: Canonical NotFair workflow
+description: Read [`../../paid-ads/paid-ads-linkedin/WORKFLOW.md`](../../paid-ads/paid-ads-linkedin/WORKFLOW.md)
+  completely, then follow it as the active workflow. Normalize that path from the
+  directory containing...
+prompt_preview: '---
+
+  name: paid-ads-linkedin
+
+  description: Audit, diagnose, plan, and safely operate connected LinkedIn Ads accounts
+  through the NotFair MCP, with an export-based fallback. Use for LinkedIn advertising,
+  sponsored content, lead-generation forms, job-title or company targeting, campaign
+  groups, creatives, conversions, lead quality, budgets, bids, or approved LinkedIn
+  campaign changes.
+
+  argument-hint: "<B2B goal, audience, account, or date range>"
+
+  ---
+
+
+  # Canonical NotFair workflow
+
+
+  Read [`../../paid-a...'
+full_prompt_length: 1094
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: nowork-studio/NotFair
+source_path: skills/paid-ads-linkedin/SKILL.md
+source_url: https://github.com/nowork-studio/NotFair/blob/main/skills/paid-ads-linkedin/SKILL.md
+fetched_at: '2026-10-25T07:18:56.291507+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T10:20:55.334123Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6360 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6360 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:07.468686Z'
+indexed_at: '2026-10-25T12:12:07.468691Z'

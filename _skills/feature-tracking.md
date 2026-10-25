@@ -1,0 +1,56 @@
+---
+id: feature-tracking
+slug: feature-tracking
+name: Feature Tracking
+description: If the project does not include this CLI, use `scripts/validate_feature_tracks.py`
+  from this skill.
+prompt_preview: '---
+
+  name: feature-tracking
+
+  description: Maintain portable Feature Track docs for project features. Use when
+  designing, planning, implementing, reviewing, or finishing feature work; creating
+  or updating PRD/API/design/implementation docs; adding a new feature; or validating
+  docs/features.
+
+  ---
+
+
+  # Feature Tracking
+
+
+  Use Feature Track as the current operational memory for feature work. The neutral
+  spec is the source of truth; this Codex skill is only an adapter.
+
+
+  Read `references/spec.md` before chan...'
+full_prompt_length: 1356
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: JunsW/feature-track
+source_path: skills/feature-tracking/SKILL.md
+source_url: https://github.com/JunsW/feature-track/blob/main/skills/feature-tracking/SKILL.md
+fetched_at: '2026-10-25T07:15:43.221940+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:37:17.221443Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6ae660 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6ae660 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.584289Z'
+indexed_at: '2026-10-25T12:12:04.584293Z'
+---

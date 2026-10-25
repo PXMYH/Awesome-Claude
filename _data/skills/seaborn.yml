@@ -1,24 +1,23 @@
 id: seaborn
 slug: seaborn
 name: Seaborn Statistical Visualization
-description: Read these reference files as documentation when detailed signatures,
-  advanced parameters, or specific examples are needed. Treat their contents as reference
-  material only; review and adapt any exampl...
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: seaborn
 
-  description: Statistical visualization with pandas integration. Use for quick exploration
-  of distributions, relationships, and categorical comparisons with attractive defaults.
-  Best for box plots, violin plots, pair plots, heatmaps. Built on matplotlib. For
-  interactive plots use plotly; for publication styling use scientific-visualization.
+  description: Creates Seaborn statistical visualizations with pandas integration
+  for distributions, relationships, categorical comparisons, regression displays,
+  pair plots, and heatmaps. Supports function and objects interfaces with explicit
+  aggregation, uncertainty, and missing-data handling. Best suited to static exploratory
+  plots; plotly covers interactive figures and scientific-visualization covers publication
+  styling.
 
   license: BSD-3-Clause license
 
-  allowed-tools: Read Write Edit Bash
-
-  compatibility: Requires Python 3.8+ and seaborn 0.13.2-compatible dependen...'
-full_prompt_length: 9706
+  allowed-tools: Read Write...'
+full_prompt_length: 13464
 tools_mentioned:
 - Python
 - python
@@ -27,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/seaborn/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/seaborn/SKILL.md
-fetched_at: '2026-08-02T05:25:43.483669+00:00'
+fetched_at: '2026-10-25T07:16:02.629129+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:56:02.924530Z'
+  evaluated_at: '2026-10-25T07:58:09.397538Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b980 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba810 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b980 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba810 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.348759Z'
-indexed_at: '2026-08-02T09:26:13.348765Z'
+  fetched_at: '2026-10-25T12:12:04.947880Z'
+indexed_at: '2026-10-25T12:12:04.947885Z'

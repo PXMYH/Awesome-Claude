@@ -1,0 +1,48 @@
+---
+id: marketing-loops
+slug: marketing-loops
+name: Marketing Loops
+description: '- **marketing-ideas** — one-off tactics and inspiration (what to try).
+  Loops operationalize the ones worth repeating.'
+prompt_preview: '---
+
+  name: marketing-loops
+
+  description: "When the user wants to set up a recurring, self-running marketing
+  workflow — a repeatable loop an AI agent runs on a cadence (weekly, daily, on a
+  trigger) rather than a one-off task. Also use when the user mentions ''marketing
+  loop,'' ''recurring marketing workflow,'' ''automate my marketing,'' ''marketing
+  on autopilot,'' ''weekly marketing review,'' ''ad fatigue check,'' ''weekly ads
+  check,'' ''content refresh loop,'' ''churn watch,'' ''ranking drop alert,'' ''run
+  my SEO,'' ''S...'
+full_prompt_length: 9900
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/marketing-loops/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/marketing-loops/SKILL.md
+fetched_at: '2026-10-25T07:17:24.768907+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:06:17.566756Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5880 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5880 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.148982Z'
+indexed_at: '2026-10-25T12:12:06.148987Z'
+---

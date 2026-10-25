@@ -2,8 +2,7 @@
 id: transcriptapi
 slug: transcriptapi
 name: TranscriptAPI
-description: '- When user shares YouTube URL with no instruction, fetch transcript
-  and summarize key points.'
+description: 'Every request in this file as a ready-to-run one-liner: [references/curl-examples.md](references/curl-examples.md)'
 prompt_preview: '---
 
   name: transcriptapi
@@ -14,24 +13,24 @@ prompt_preview: '---
   discussions, product reviews, how-to guides, new product announcements, or anything
   where video content is fresher or richer than text search. Covers transcripts, video/channel
   search, channel browsing, playlists, and within-channe...'
-full_prompt_length: 10688
+full_prompt_length: 11895
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: ZeroPointRepo/youtube-skills
 source_path: skills/transcriptapi/SKILL.md
 source_url: https://github.com/ZeroPointRepo/youtube-skills/blob/main/skills/transcriptapi/SKILL.md
-fetched_at: '2026-08-02T05:26:35.113154+00:00'
+fetched_at: '2026-10-25T07:16:45.537091+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:28:18.302872Z'
+  evaluated_at: '2026-10-25T08:33:46.702226Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acdc8c20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debb200 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acdc8c20 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debb200 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.952240Z'
-indexed_at: '2026-08-02T09:26:13.952246Z'
+  fetched_at: '2026-10-25T12:12:05.575462Z'
+indexed_at: '2026-10-25T12:12:05.575466Z'
 ---

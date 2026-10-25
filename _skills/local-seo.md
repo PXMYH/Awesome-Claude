@@ -1,36 +1,35 @@
 ---
 id: local-seo
 slug: local-seo
-name: Local SEO — built to be found, not just reviewed
-description: '```'
-prompt_preview: '---
-
-  name: local-seo
-
-  description: Local-business SEO and structured-data framework for content-platform
-  Product-Builder products that need to be found (storefronts, restaurant online-ordering,
-  real-estate listings, service-business sites). Codifies schema.org structured data
-  (LocalBusiness/Product/Menu/RealEstateListing), Core Web Vitals as a ranking input,
-  local on-page signals (NAP consistency, Google Business Profile alignment), sitemap/robots/canonical
-  hygiene, and listing syndication. Applie...'
-full_prompt_length: 4569
+name: Canonical NotFair workflow
+description: Read [`../../seo/local-seo/WORKFLOW.md`](../../seo/local-seo/WORKFLOW.md)
+  completely, then follow it as the active workflow. Resolve every relative reference
+  from that file against `../../seo/local-se...
+prompt_preview: "---\nname: local-seo\nargument-hint: \"<business name or website\
+  \ URL, e.g. https://example.com or 'Dolly Solutions Bangkok'>\"\ndescription: >\n\
+  \  Local SEO and Google Business Profile audit: diagnose why a business isn't ranking\n\
+  \  in the local pack / map results and produce a fix plan. Covers GBP completeness,\n\
+  \  NAP (name/address/phone) consistency across the site and citations, local pack\
+  \ and\n  \"near me\" ranking factors, review velocity and responses, local landing\
+  \ pages,\n  service-area pages, and Lo..."
+full_prompt_length: 1336
 tools_mentioned: []
 category: community
 category_display: Community
-source_repo: avelikiy/great_cto
+source_repo: nowork-studio/NotFair
 source_path: skills/local-seo/SKILL.md
-source_url: https://github.com/avelikiy/great_cto/blob/main/skills/local-seo/SKILL.md
-fetched_at: '2026-08-02T05:26:45.985867+00:00'
+source_url: https://github.com/nowork-studio/NotFair/blob/main/skills/local-seo/SKILL.md
+fetched_at: '2026-10-25T07:18:55.112169+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:33:27.472789Z'
+  evaluated_at: '2026-10-25T10:19:26.260055Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b9b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1dca0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b9b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1dca0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.047952Z'
-indexed_at: '2026-08-02T09:26:14.047957Z'
+  fetched_at: '2026-10-25T12:12:07.444714Z'
+indexed_at: '2026-10-25T12:12:07.444719Z'
 ---

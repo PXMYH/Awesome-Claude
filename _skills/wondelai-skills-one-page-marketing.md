@@ -1,0 +1,49 @@
+---
+id: wondelai-skills-one-page-marketing
+slug: wondelai-skills-one-page-marketing
+name: The 1-Page Marketing Plan Framework
+description: Allan Dib is a serial entrepreneur, marketer, and founder of Successwise,
+  a coaching and consulting firm that helps businesses implement marketing systems
+  for rapid growth. His international bestselle...
+prompt_preview: '---
+
+  name: one-page-marketing
+
+  description: ''Build a complete marketing plan covering the full customer journey
+  from stranger to raving fan. Use when the user mentions "marketing plan", "marketing
+  strategy", "target market", "USP", "lead nurture", "customer lifetime value", "PVP
+  Index", or "I dont know where to start with marketing". Also trigger when building
+  a marketing plan from scratch, choosing acquisition channels, or designing end-to-end
+  customer-lifecycle campaigns. Covers the PVP Index, c...'
+full_prompt_length: 22222
+tools_mentioned:
+- Go
+- go
+category: community
+category_display: Community
+source_repo: wondelai/skills
+source_path: plugins/wondelai-skills/skills/one-page-marketing/SKILL.md
+source_url: https://github.com/wondelai/skills/blob/main/plugins/wondelai-skills/skills/one-page-marketing/SKILL.md
+fetched_at: '2026-10-25T07:21:05.312096+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T12:06:38.271706Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1ff20 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1ff20 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:09.358737Z'
+indexed_at: '2026-10-25T12:12:09.358741Z'
+---

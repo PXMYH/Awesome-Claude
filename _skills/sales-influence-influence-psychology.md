@@ -1,0 +1,47 @@
+---
+id: sales-influence-influence-psychology
+slug: sales-influence-influence-psychology
+name: Influence Psychology Framework
+description: '**Robert B. Cialdini, PhD** is Regents'' Professor Emeritus of Psychology
+  and Marketing at Arizona State University. *Influence*, the foundational text on
+  persuasion science, has sold over 5 million co...'
+prompt_preview: '---
+
+  name: influence-psychology
+
+  description: ''Apply the seven principles of ethical persuasion (reciprocity, commitment,
+  social proof, authority, liking, scarcity, unity) to product design, copy, and sales.
+  Use when the user mentions "social proof", "persuasive copy", "why users dont convert",
+  "ethical persuasion", "reciprocity", "scarcity tactics", "commitment and consistency",
+  "shared identity", "in-group", "make my copy more persuasive", "increase trust",
+  or "get more people to say yes". Also...'
+full_prompt_length: 17084
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: wondelai/skills
+source_path: plugins/sales-influence/skills/influence-psychology/SKILL.md
+source_url: https://github.com/wondelai/skills/blob/main/plugins/sales-influence/skills/influence-psychology/SKILL.md
+fetched_at: '2026-10-25T07:20:55.488704+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T11:56:31.222192Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6ae690 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6ae690 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:09.198409Z'
+indexed_at: '2026-10-25T12:12:09.198413Z'
+---

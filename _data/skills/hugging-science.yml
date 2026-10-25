@@ -1,40 +1,42 @@
 id: hugging-science
 slug: hugging-science
 name: Hugging Science
-description: '- `scripts/fetch_catalog.py` — fetch and filter catalog content. Run
-  with `--help` for full usage. Use this in preference to ad-hoc WebFetch calls when
-  you need structured access.'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: hugging-science
 
-  description: Use when the user is doing AI/ML work in a scientific domain such as
-  biology, chemistry, physics, astronomy, climate, genomics, materials, medicine,
-  ecology, energy, engineering, math, drug discovery, protein design, weather modeling,
-  theorem proving, single-cell, or PDE solving. Hugging Science is a curated catalog
-  of scientific datasets, models, blog posts, and interactive Spaces. This skill helps
-  discover and use resources via `datasets`, `transformers`,...'
-full_prompt_length: 10089
+  description: Discovers and evaluates scientific datasets, models, methodology posts,
+  and Spaces through the Hugging Science catalog. Used when selecting scientific ML
+  resources in biology, chemistry, genomics, materials, climate, physics, astronomy,
+  medicine, mathematics, protein design, single-cell analysis, or PDE modeling, and
+  when checking their actual datasets, Transformers, native-runtime, Inference Providers,
+  or Gradio interfaces.
+
+  compatibility: Requires Python 3...'
+full_prompt_length: 11740
 tools_mentioned:
-- go
 - Python
 - python
+- Docker
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/hugging-science/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/hugging-science/SKILL.md
-fetched_at: '2026-08-02T05:25:27.776973+00:00'
+fetched_at: '2026-10-25T07:15:51.334021+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:44:14.845199Z'
+  evaluated_at: '2026-10-25T07:45:16.500955Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a690 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba7b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a690 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba7b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.124012Z'
-indexed_at: '2026-08-02T09:26:13.124018Z'
+  fetched_at: '2026-10-25T12:12:04.723232Z'
+indexed_at: '2026-10-25T12:12:04.723236Z'

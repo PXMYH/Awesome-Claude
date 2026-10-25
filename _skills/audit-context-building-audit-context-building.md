@@ -1,51 +1,53 @@
 ---
 id: audit-context-building-audit-context-building
 slug: audit-context-building-audit-context-building
-name: Deep Context Builder Skill (Ultra-Granular Pure Context Mode)
-description: This is **pure context building** only.
+name: Audit Context Building
+description: '**The rule that matters most: follow the calls.** Whether a function
+  is correct usually depends on something'
 prompt_preview: '---
 
   name: audit-context-building
 
-  description: Enables ultra-granular, line-by-line code analysis to build deep architectural
-  context before vulnerability or bug finding.
+  description: Understand a codebase before looking for bugs in it - what each function
+  assumes, what it guarantees, and what it depends on elsewhere. Use when starting
+  an audit, threat model, or architecture review on unfamiliar code, and before any
+  vulnerability-hunting pass.
+
+  allowed-tools: Workflow Task Read Grep Glob
 
   ---
 
 
-  # Deep Context Builder Skill (Ultra-Granular Pure Context Mode)
+  # Audit Context Building
 
 
-  ## 1. Purpose
+  Build understanding, not verdicts. This runs before anyone hunts for bugs, and feeds
+  that work.
 
 
-  This skill governs **how Claude thinks** during the context-building phase of an
-  audit.
+  ## When to Use
 
 
-  When active, Claude will:
-
-  - Perform **line-by-line / block-by-block** code analysis by default.
-
-  - Apply **First Principles**, **5 Whys**, and **5 Hows** at...'
-full_prompt_length: 9774
-tools_mentioned: []
+  At...'
+full_prompt_length: 3983
+tools_mentioned:
+- rest
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/audit-context-building/skills/audit-context-building/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/audit-context-building/skills/audit-context-building/SKILL.md
-fetched_at: '2026-08-02T05:31:10.034439+00:00'
+fetched_at: '2026-10-25T07:20:30.078860+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:12:01.860965Z'
+  evaluated_at: '2026-10-25T11:38:04.974033Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49730 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee54f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49730 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee54f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -55,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:17.023826Z'
-indexed_at: '2026-08-02T09:26:17.023832Z'
+  fetched_at: '2026-10-25T12:12:08.876450Z'
+indexed_at: '2026-10-25T12:12:08.876455Z'
 ---

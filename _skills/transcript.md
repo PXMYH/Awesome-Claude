@@ -2,8 +2,7 @@
 id: transcript
 slug: transcript
 name: Transcript
-description: '- For long videos, summarize key points first, offer full transcript
-  on request.'
+description: 'Every request in this file as a ready-to-run one-liner: [references/curl-examples.md](references/curl-examples.md)'
 prompt_preview: '---
 
   name: transcript
@@ -13,30 +12,30 @@ prompt_preview: '---
   transcribe, translate, fact-check, or extract anything from a video. Also use for
   research or learning when a video is the source. Not for uploads or account management."
 
-  version: "1.5.0"
+  version: "1.5.1"
 
   user-invocable: true
 
   compatibility: Requires internet access to reach transcriptapi.com. No additional
   runtimes or dependencies...'
-full_prompt_length: 4432
+full_prompt_length: 4546
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: ZeroPointRepo/youtube-skills
 source_path: skills/transcript/SKILL.md
 source_url: https://github.com/ZeroPointRepo/youtube-skills/blob/main/skills/transcript/SKILL.md
-fetched_at: '2026-08-02T05:26:34.923309+00:00'
+fetched_at: '2026-10-25T07:16:45.416941+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:28:09.891443Z'
+  evaluated_at: '2026-10-25T08:33:38.612095Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad5e8a10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debac30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad5e8a10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debac30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.949661Z'
-indexed_at: '2026-08-02T09:26:13.949667Z'
+  fetched_at: '2026-10-25T12:12:05.573038Z'
+indexed_at: '2026-10-25T12:12:05.573043Z'
 ---

@@ -1,0 +1,54 @@
+---
+id: testing-with-sandbox
+slug: testing-with-sandbox
+name: Testing with Mailtrap Email Sandbox
+description: Each sandbox (test inbox) has an address like `alias@inbox.mailtrap.io`
+  for inbound tests; plus-addressing can help isolate scenarios. See [Email address
+  per sandbox](https://docs.mailtrap.io/email-sa...
+prompt_preview: "---\nname: testing-with-sandbox\ndescription: >-\n  Use when capturing\
+  \ outbound email in development or staging without\n  delivering to real recipients,\
+  \ inspecting HTML or headers, running spam or\n  structure checks, or automating\
+  \ tests against a fake inbox. Use when testing\n  outgoing mail from an app without\
+  \ committing to a production ESP yet. Use when\n  using Mailtrap Email Sandbox,\
+  \ Sandbox API, or sandbox-mode sending.\n---\n\n# Testing with Mailtrap Email Sandbox\n\
+  \n## Overview\n\n**Email Sandbox** c..."
+full_prompt_length: 7967
+tools_mentioned:
+- PHP
+- Ruby
+- Java
+- ruby
+- Python
+- php
+- python
+- Node.js
+- REST
+- java
+category: community
+category_display: Community
+source_repo: mailtrap/mailtrap-skills
+source_path: skills/testing-with-sandbox/SKILL.md
+source_url: https://github.com/mailtrap/mailtrap-skills/blob/main/skills/testing-with-sandbox/SKILL.md
+fetched_at: '2026-10-25T07:18:51.272171+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T10:16:42.854900Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1fdd0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1fdd0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:07.400983Z'
+indexed_at: '2026-10-25T12:12:07.400987Z'
+---

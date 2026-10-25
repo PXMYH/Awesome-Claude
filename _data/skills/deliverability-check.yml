@@ -4,29 +4,29 @@ name: Deliverability Check
 description: → https://cogny.com
 prompt_preview: "---\nname: deliverability-check\ndescription: Audit a sending domain's\
   \ deliverability — SPF, DKIM, DMARC, MX, BIMI, blocklists — with a prioritized fix\
-  \ order\nversion: \"1.0.0\"\nauthor: Cogny AI\nplatforms: []\nuser-invocable: true\n\
-  argument-hint: \"<domain>\"\nallowed-tools:\n  - Bash\n  - WebFetch\n  - WebSearch\n\
-  \  - Read\n  - Write\n---\n\n# Deliverability Check\n\nAudit a sending domain's\
-  \ email authentication and deliverability posture. Explains every finding in plain\
-  \ English and outputs a prioritized fix order..."
-full_prompt_length: 5740
+  \ order\nversion: \"1.1.1\"\nauthor: Cogny AI\nplatforms: []\nuser-invocable: true\n\
+  argument-hint: \"<domain>\"\nallowed-tools:\n  # Optional, enhanced when connected\
+  \ (read tools only)\n  - mcp__cogny__refresh_mcp_discovery\n  - mcp__cogny__list_integrations\n\
+  \  - mcp__cogny__mcp__Klaviyo__list_campaigns\n  - mcp__cogny__mcp__Klaviyo__get_campaign_values_report\n\
+  \  -..."
+full_prompt_length: 13144
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/deliverability-check/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/deliverability-check/SKILL.md
-fetched_at: '2026-08-02T05:27:11.596779+00:00'
+fetched_at: '2026-10-25T07:17:14.216877+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:49:12.050265Z'
+  evaluated_at: '2026-10-25T08:55:43.236985Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb195b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1cef0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb195b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1cef0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.340304Z'
-indexed_at: '2026-08-02T09:26:14.340309Z'
+  fetched_at: '2026-10-25T12:12:05.968294Z'
+indexed_at: '2026-10-25T12:12:05.968303Z'

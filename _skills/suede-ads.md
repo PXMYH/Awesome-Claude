@@ -1,0 +1,45 @@
+---
+id: suede-ads
+slug: suede-ads
+name: Suede AI Paid Ads
+description: '- Need ad copy or visual variants -> use `suede-ad-creative`.'
+prompt_preview: '---
+
+  name: suede-ads
+
+  description: "Suede AI paid-acquisition operating system for channel choice, campaign
+  structure, audiences, bidding, budget pacing, negative keywords, retargeting, B2B
+  and ABM playbooks, and kill-or-scale decisions, with platform facts checked in October
+  2026 (Meta Andromeda and attribution windows, Performance Max controls). Use when
+  planning, auditing, or optimizing paid campaigns on Google, Meta, LinkedIn, X, TikTok,
+  or comparable platforms. NOT FOR: producing ad copy or c...'
+full_prompt_length: 24265
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-ads/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-ads/SKILL.md
+fetched_at: '2026-10-25T07:15:32.659729+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:27:49.636599Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2d76b0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2d76b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.433604Z'
+indexed_at: '2026-10-25T12:12:04.433611Z'
+---

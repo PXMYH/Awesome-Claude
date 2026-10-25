@@ -2,32 +2,33 @@
 id: crm-sales-momentum
 slug: crm-sales-momentum
 name: CRM Sales Momentum Drivers
-description: 'Action types for sales momentum:'
-prompt_preview: "---\nname: crm-sales-momentum\ndescription: Analyze HubSpot pipeline\
-  \ momentum — deal velocity, stage conversions, win/loss patterns, and stall detection\n\
-  version: \"1.0.0\"\nauthor: Cogny AI\nplatforms: [hubspot]\nuser-invocable: true\n\
-  argument-hint: \"[full|velocity|stalls|segments]\"\nallowed-tools:\n  - mcp__cogny__hubspot__*\n\
-  \  - mcp__cogny__create_finding\n  - Bash\n  - Read\n  - Write\n---\n\n# CRM Sales\
-  \ Momentum Drivers\n\nAnalyze what is driving or stalling pipeline momentum in your\
-  \ HubSpot CRM. Measures deal..."
-full_prompt_length: 9922
+description: Use `create_ticket` first when the workspace has it (Cloud), and `create_finding`
+  only when it doesn't (Solo).
+prompt_preview: "---\nname: crm-sales-momentum\ndescription: Analyze CRM pipeline\
+  \ momentum (HubSpot, Pipedrive or Upsales) — deal velocity, stage conversions, win/loss\
+  \ patterns, and stall detection\nversion: \"1.1.2\"\nrequires: cogny-mcp\nauthor:\
+  \ Cogny AI\nplatforms: [hubspot, pipedrive, upsales]\nuser-invocable: true\nargument-hint:\
+  \ \"[full|velocity|stalls|segments]\"\nallowed-tools:\n  - mcp__cogny__refresh_mcp_discovery\n\
+  \  - mcp__cogny__mcp__HubSpot__get_user_details\n  - mcp__cogny__mcp__HubSpot__search_crm_objects\n\
+  \  - mcp..."
+full_prompt_length: 16245
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/crm-sales-momentum/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/crm-sales-momentum/SKILL.md
-fetched_at: '2026-08-02T05:27:11.122535+00:00'
+fetched_at: '2026-10-25T07:17:13.843918+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:48:55.758291Z'
+  evaluated_at: '2026-10-25T08:55:18.984066Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb193d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1ca40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb193d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1ca40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.335168Z'
-indexed_at: '2026-08-02T09:26:14.335173Z'
+  fetched_at: '2026-10-25T12:12:05.961056Z'
+indexed_at: '2026-10-25T12:12:05.961061Z'
 ---

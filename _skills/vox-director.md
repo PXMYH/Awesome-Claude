@@ -1,0 +1,43 @@
+---
+id: vox-director
+slug: vox-director
+name: Vox Director
+description: '- **Auto edition** (this skill): topic in, film out, all on Atlas.'
+prompt_preview: "---\nname: vox-director\ndescription: >\n  Turn ONE topic into a\
+  \ finished Vox-style paper-collage explainer / ad video, end to end\n  on the Atlas\
+  \ Cloud API + local ffmpeg — script, collage keyframes, motion, voice-over,\n  music,\
+  \ captions, all automated. Use this whenever the user wants a \"Vox style\" video,\n\
+  \  a paper/torn-paper collage animation, a \"motion collage\", a narrated explainer\
+  \ or short\n  ad built from AI-generated collage posters, a scrapbook-style tribute,\
+  \ or wants to turn\n  a topic / pro..."
+full_prompt_length: 22253
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: Alisa0808/vox-director
+source_path: SKILL.md
+source_url: https://github.com/Alisa0808/vox-director/blob/main/SKILL.md
+fetched_at: '2026-10-25T07:15:19.963140+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:22:07.460406Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057050 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057050 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.331380Z'
+indexed_at: '2026-10-25T12:12:04.331387Z'
+---

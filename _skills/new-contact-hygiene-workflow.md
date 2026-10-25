@@ -12,7 +12,7 @@ prompt_preview: "---\nname: new-contact-hygiene-workflow\ndescription: \"Build a
   \  author: tomgranot\n  version: \"1.1\"\n  category: automation-workflows\n---\n\
   \n# New Contact Hygiene Workflow\n\nBuild a workflow that automatically enriches\
   \ every new contact at creation time. Th..."
-full_prompt_length: 8042
+full_prompt_length: 8607
 tools_mentioned:
 - Python
 - go
@@ -21,17 +21,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/new-contact-hygiene-workflow/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/new-contact-hygiene-workflow/SKILL.md
-fetched_at: '2026-08-02T05:25:57.962591+00:00'
+fetched_at: '2026-10-25T07:16:16.794381+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:04:21.322397Z'
+  evaluated_at: '2026-10-25T08:08:48.860145Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4ab10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6960 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4ab10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6960 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.506297Z'
-indexed_at: '2026-08-02T09:26:13.506303Z'
+  fetched_at: '2026-10-25T12:12:05.132527Z'
+indexed_at: '2026-10-25T12:12:05.132531Z'
 ---

@@ -1,0 +1,45 @@
+---
+id: suede-sales-enablement
+slug: suede-sales-enablement
+name: Suede Sales Enablement
+description: '- Use `suede-product-marketing` for approved positioning and proof context.'
+prompt_preview: '---
+
+  name: suede-sales-enablement
+
+  description: "Suede AI sales enablement: builds rep-ready pitch decks (10-12 slide
+  narrative), one-pagers, objection libraries, demo scripts and talk tracks, competitive
+  battle cards kept consistent with public comparison pages, proposal structures,
+  buyer cards, and deal-level ROI calculators that separate sourced claims from modeled
+  value. Returns draft assets with a claim-source table, held for approval. Use when
+  creating or refreshing sales collateral, prepari...'
+full_prompt_length: 16543
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-sales-enablement/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-sales-enablement/SKILL.md
+fetched_at: '2026-10-25T07:15:38.732134+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:34:34.390318Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb93a0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb93a0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.539138Z'
+indexed_at: '2026-10-25T12:12:04.539142Z'
+---

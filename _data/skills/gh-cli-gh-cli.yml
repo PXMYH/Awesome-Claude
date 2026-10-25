@@ -6,8 +6,9 @@ prompt_preview: '---
 
   name: gh-cli
 
-  description: Enforces authenticated gh CLI workflows over unauthenticated curl/WebFetch
-  patterns. Use when working with GitHub URLs, API access, pull requests, or issues.
+  description: Enforces authenticated gh CLI workflows over unauthenticated curl,
+  WebFetch, and MCP fetch patterns. Use when working with GitHub URLs, API access,
+  pull requests, or issues.
 
   ---
 
@@ -23,31 +24,29 @@ prompt_preview: '---
 
   - You need authenticated access to private repositories or higher API rate limits.
 
-  - You are about to use `curl`, `wget`, or unauthenticated web fetches against GitHub.
+  - You are about to use `curl`, `wget`, `WebFetch`, or an MCP fetch tool against
+  GitHub.
 
 
-  ## When NOT to Use
-
-
-  - Th...'
-full_prompt_length: 1224
+  ## Whe...'
+full_prompt_length: 1242
 tools_mentioned: []
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/gh-cli/skills/gh-cli/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/gh-cli/skills/gh-cli/SKILL.md
-fetched_at: '2026-08-02T05:31:18.498591+00:00'
+fetched_at: '2026-10-25T07:20:35.197943+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:15:27.284746Z'
+  evaluated_at: '2026-10-25T11:41:43.760331Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeda90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1fe60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeda90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1fe60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -57,5 +56,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:17.089097Z'
-indexed_at: '2026-08-02T09:26:17.089103Z'
+  fetched_at: '2026-10-25T12:12:08.943198Z'
+indexed_at: '2026-10-25T12:12:08.943202Z'

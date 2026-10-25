@@ -1,0 +1,44 @@
+---
+id: terraform-provider-docs
+slug: terraform-provider-docs
+name: Terraform Provider Docs
+description: '- Read `references/hashicorp-provider-docs.md` for source-backed rules
+  and official links.'
+prompt_preview: "---\nname: provider-docs\ndescription: Create, update, and review\
+  \ Terraform provider documentation for Terraform Registry using HashiCorp-recommended\
+  \ patterns, tfplugindocs templates, and schema descriptions. Use when adding or\
+  \ changing provider configuration, resources, data sources, ephemeral resources,\
+  \ list resources, functions, actions, or guides; when validating generated docs;\
+  \ and when troubleshooting missing or incorrect Registry documentation.\nmetadata:\n\
+  \  lifecycle-status: active\n---\n\n# Te..."
+full_prompt_length: 4018
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: hashicorp/agent-skills
+source_path: plugins/terraform/skills/provider-docs/SKILL.md
+source_url: https://github.com/hashicorp/agent-skills/blob/main/plugins/terraform/skills/provider-docs/SKILL.md
+fetched_at: '2026-10-25T07:17:50.329212+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:30:09.047867Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057f20 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057f20 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.565545Z'
+indexed_at: '2026-10-25T12:12:06.565549Z'
+---

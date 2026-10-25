@@ -1,0 +1,49 @@
+---
+id: wondelai-skills-pragmatic-programmer
+slug: wondelai-skills-pragmatic-programmer
+name: The Pragmatic Programmer Framework
+description: '**Andrew Hunt** and **David Thomas** co-founded the Pragmatic Bookshelf
+  and were among the 17 original authors of the Agile Manifesto. Thomas coined "DRY"
+  and "Code Kata" and co-authored *Programming ...'
+prompt_preview: '---
+
+  name: pragmatic-programmer
+
+  description: ''Apply meta-principles of software craftsmanship: DRY, orthogonality,
+  tracer bullets, and design by contract. Use when the user mentions "best practices",
+  "pragmatic approach", "broken windows", "tracer bullet", "software craftsmanship",
+  "avoid technical debt", "code ownership", or "how do I become a better developer".
+  Also trigger when evaluating build-vs-buy decisions, designing estimation approaches,
+  or choosing between reversible and irreversible a...'
+full_prompt_length: 16557
+tools_mentioned:
+- WebSocket
+- Ruby
+category: community
+category_display: Community
+source_repo: wondelai/skills
+source_path: plugins/wondelai-skills/skills/pragmatic-programmer/SKILL.md
+source_url: https://github.com/wondelai/skills/blob/main/plugins/wondelai-skills/skills/pragmatic-programmer/SKILL.md
+fetched_at: '2026-10-25T07:21:05.452576+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T12:06:46.965583Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6e40 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6e40 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:09.360920Z'
+indexed_at: '2026-10-25T12:12:09.360924Z'
+---

@@ -1,0 +1,47 @@
+---
+id: watch
+slug: watch
+name: /watch
+description: Review scripts before first use to verify behavior.
+prompt_preview: '---
+
+  name: watch
+
+  description: Watch, analyze, summarize, or answer questions about a video — a pasted
+  link (YouTube, TikTok, Vimeo, Loom, X, Twitch, most sites) or a local video file
+  (.mp4, .mov, .mkv, .webm, .avi). Use this whenever the user shares a video link
+  or file and asks anything about its contents — what''s in it, what happens, what''s
+  said, what''s on screen, a summary, a transcript, or a specific moment — and whenever
+  they say "watch this", "watch the video", "what''s in this video", or si...'
+full_prompt_length: 19998
+tools_mentioned:
+- Python
+- python
+category: community
+category_display: Community
+source_repo: abe238/claude-video-plus
+source_path: skills/watch/SKILL.md
+source_url: https://github.com/abe238/claude-video-plus/blob/main/skills/watch/SKILL.md
+fetched_at: '2026-10-25T07:16:47.283752+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T08:34:59.809120Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057b30 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057b30 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:05.597343Z'
+indexed_at: '2026-10-25T12:12:05.597348Z'
+---

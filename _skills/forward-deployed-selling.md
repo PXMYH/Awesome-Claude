@@ -1,0 +1,58 @@
+---
+id: forward-deployed-selling
+slug: forward-deployed-selling
+name: 'Forward Deployed Selling: Operating Doctrine for AI Sales Agents'
+description: Generated artifacts adopt this register because it signals operational
+  discipline to the recipient. A value provocation written in the doctrine's voice
+  carries different weight than the same content r...
+prompt_preview: '---
+
+  name: forward-deployed-selling
+
+  description: Operating doctrine for AI-era enterprise sales. Use when an agent works
+  on accounts, deals, outreach, coaching, or pipeline — any revenue-affecting decision.
+
+  version: 0.5
+
+  allowed-tools: [web_search, web_fetch]
+
+  ---
+
+
+  # Forward Deployed Selling: Operating Doctrine for AI Sales Agents
+
+
+  This document is the operating system for AI agents that execute Forward Deployed
+  Selling. It encodes principles, decision logic, frameworks, and constraints derived
+  fro...'
+full_prompt_length: 32282
+tools_mentioned:
+- react
+category: community
+category_display: Community
+source_repo: vonarmen-wq/forward-deployed-selling
+source_path: SKILL.md
+source_url: https://github.com/vonarmen-wq/forward-deployed-selling/blob/main/SKILL.md
+fetched_at: '2026-10-25T07:20:48.409009+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T11:51:05.940297Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056f60 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056f60 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:09.111061Z'
+indexed_at: '2026-10-25T12:12:09.111065Z'
+---

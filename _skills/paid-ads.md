@@ -1,0 +1,55 @@
+---
+id: paid-ads
+slug: paid-ads
+name: Canonical NotFair workflow
+description: 'Read [`../../paid-ads/paid-ads/WORKFLOW.md`](../../paid-ads/paid-ads/WORKFLOW.md)
+  completely, then follow it as the active workflow. Normalize that path from the
+  directory containing this wrapper: the...'
+prompt_preview: '---
+
+  name: paid-ads
+
+  description: Coordinate safe, evidence-based paid-media work across Google Ads,
+  Meta Ads, X Ads, LinkedIn Ads, Reddit Ads, TikTok Ads, Amazon, and ChatGPT Ads.
+  Use for broad ads questions, multi-channel strategy, budgets, CPA or ROAS, campaign
+  requests, spend, ad performance, or when routing to the right NotFair paid-ads skill.
+
+  argument-hint: "<goal, platform, or ''review my ads''>"
+
+  ---
+
+
+  # Canonical NotFair workflow
+
+
+  Read [`../../paid-ads/paid-ads/WORKFLOW.md`](../../paid-ads/pa...'
+full_prompt_length: 1000
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: nowork-studio/NotFair
+source_path: skills/paid-ads/SKILL.md
+source_url: https://github.com/nowork-studio/NotFair/blob/main/skills/paid-ads/SKILL.md
+fetched_at: '2026-10-25T07:18:57.062060+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T10:21:52.053578Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32cef0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32cef0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:07.483646Z'
+indexed_at: '2026-10-25T12:12:07.483650Z'
+---

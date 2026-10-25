@@ -1,0 +1,67 @@
+---
+id: regression-hunt-reproduce-regression
+slug: regression-hunt-reproduce-regression
+name: Reproduce a candidate
+description: '- “The unit test proves it”: synthetic tests cannot establish a regression.'
+prompt_preview: '---
+
+  name: reproduce-regression
+
+  description: Use when deploying before/after systems and building a live-system
+  PoC for a regression candidate.
+
+  ---
+
+
+  # Reproduce a candidate
+
+
+  ## When to Use
+
+
+  Input: sealed preparation/discovery packages, candidate and registry assignment.
+
+  Follow [project guidance](../../references/evidence.md#project-guidance) before
+  target work.
+
+
+  ## When NOT to Use
+
+
+  Independent verification of an existing PoC; use replay.
+
+
+  ## Reproduce
+
+
+  1. Read the [standard](../../docs/regression...'
+full_prompt_length: 2121
+tools_mentioned: []
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/regression-hunt/skills/reproduce-regression/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/regression-hunt/skills/reproduce-regression/SKILL.md
+fetched_at: '2026-10-25T07:20:39.161531+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T11:44:33.674009Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057650 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057650 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:08.990497Z'
+indexed_at: '2026-10-25T12:12:08.990502Z'
+---

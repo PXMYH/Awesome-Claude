@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/configure-putior-mcp/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/configure-putior-mcp/SKILL.md
-fetched_at: '2026-08-02T05:29:32.618945+00:00'
+fetched_at: '2026-10-25T07:19:19.587846+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:11:27.302653Z'
+  evaluated_at: '2026-10-25T10:36:09.797094Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4ad50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1f8c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4ad50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1f8c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.887936Z'
-indexed_at: '2026-08-02T09:26:15.887942Z'
+  fetched_at: '2026-10-25T12:12:07.736715Z'
+indexed_at: '2026-10-25T12:12:07.736719Z'
 ---

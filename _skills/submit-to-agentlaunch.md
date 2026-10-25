@@ -6,12 +6,12 @@ description: '- Submit once. Use `409` as the dedup signal, don''t try to defeat
   with URL variants.'
 prompt_preview: "---\nname: submit-to-agentlaunch\ndescription: Submit an AI agent\
   \ to the agentlaunch directory and upvote agents via a public no-auth REST API\n\
-  version: \"1.0.0\"\nauthor: Cogny AI\nplatforms: []\nuser-invocable: true\nargument-hint:\
+  version: \"1.1.1\"\nauthor: Cogny AI\nplatforms: []\nuser-invocable: true\nargument-hint:\
   \ \"<agent name or website URL>\"\nallowed-tools:\n  - Bash\n  - WebFetch\n---\n\
   \n# Submit to agentlaunch\n\nagentlaunch is a Product Hunt-style directory for AI\
   \ agents that ship machine-readable instructions (API, SKILL.md, AUTH.md, llms.txt).\
   \ Submissions are agent-only — there is no w..."
-full_prompt_length: 4935
+full_prompt_length: 7491
 tools_mentioned:
 - REST
 category: community
@@ -19,17 +19,17 @@ category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/submit-to-agentlaunch/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/submit-to-agentlaunch/SKILL.md
-fetched_at: '2026-08-02T05:27:18.195577+00:00'
+fetched_at: '2026-10-25T07:17:19.450913+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:53:58.767621Z'
+  evaluated_at: '2026-10-25T09:01:08.892355Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4a810 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1e8d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4a810 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1e8d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.437575Z'
-indexed_at: '2026-08-02T09:26:14.437581Z'
+  fetched_at: '2026-10-25T12:12:06.066811Z'
+indexed_at: '2026-10-25T12:12:06.066821Z'
 ---

@@ -1,0 +1,44 @@
+id: suede-product-marketing
+slug: suede-product-marketing
+name: Suede Product Marketing Context
+description: '- Use `suede-customer-research` to gather new customer evidence.'
+prompt_preview: '---
+
+  name: suede-product-marketing
+
+  description: "Suede AI product-marketing context: drafts and versions the shared
+  .agents/product-marketing.md record of product, audience, ICP, personas, positioning
+  against real alternatives, objections, switching forces, verbatim customer language,
+  sourced proof, goals, and canonical entity facts (official names, one-line description,
+  sameAs profiles, the buyer questions search engines and AI assistants should answer).
+  Every other Suede marketing skill reads i...'
+full_prompt_length: 13306
+tools_mentioned:
+- rest
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-product-marketing/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-product-marketing/SKILL.md
+fetched_at: '2026-10-25T07:15:37.761049+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:33:29.718202Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9e20 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9e20 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.522590Z'
+indexed_at: '2026-10-25T12:12:04.522593Z'

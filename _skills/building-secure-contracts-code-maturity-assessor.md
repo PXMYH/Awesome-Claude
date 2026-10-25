@@ -9,37 +9,28 @@ prompt_preview: '---
 
   description: Systematic code maturity assessment using Trail of Bits'' 9-category
   framework. Analyzes codebase for arithmetic safety, auditing practices, access controls,
-  complexity, decentralization, documentation, MEV risks, low-level code, and testing.
-  Produces professional scorecard with evidence-based ratings and actionable recommendations.
-
-  ---
-
-
-  # Code Maturity Assessor
-
-
-  ## Purpose
-
-
-  Systematically assesses codebase maturity using Trail of Bits'' 9-category fra...'
-full_prompt_length: 7071
+  complexity, decentralization, documentation, MEV risks, low-level code, and testing,
+  then produces a scorecard with evidence-based ratings and a priority-ordered roadmap.
+  Use when assessing or scoring the maturity of a smart contract or blockchain codebase,
+  producing a maturity scorecard or evalu...'
+full_prompt_length: 7289
 tools_mentioned: []
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/building-secure-contracts/skills/code-maturity-assessor/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/building-secure-contracts/skills/code-maturity-assessor/SKILL.md
-fetched_at: '2026-08-02T05:31:11.100633+00:00'
+fetched_at: '2026-10-25T07:20:30.583591+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:12:34.804330Z'
+  evaluated_at: '2026-10-25T11:38:37.367131Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ace1d520 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1f4d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ace1d520 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1f4d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -49,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:17.034253Z'
-indexed_at: '2026-08-02T09:26:17.034259Z'
+  fetched_at: '2026-10-25T12:12:08.886614Z'
+indexed_at: '2026-10-25T12:12:08.886619Z'
 ---

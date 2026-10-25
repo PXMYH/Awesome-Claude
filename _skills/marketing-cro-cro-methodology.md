@@ -1,0 +1,48 @@
+---
+id: marketing-cro-cro-methodology
+slug: marketing-cro-cro-methodology
+name: CRO Methodology
+description: '**Dr. Karl Blanks and Ben Jesson** are cofounders of Conversion Rate
+  Experts, the agency whose CRE Methodology has doubled the sales of many leading
+  websites -- clients include Google, Apple, Amazon, ...'
+prompt_preview: '---
+
+  name: cro-methodology
+
+  description: ''Audit websites and landing pages for conversion issues and design
+  evidence-based A/B tests. Use when the user mentions "landing page isnt converting",
+  "conversion rate", "A/B test", "why visitors leave", "objection handling", "bounce
+  rate", "conversion funnel", "increase signups", or "people add to cart but dont
+  buy". Also trigger when diagnosing why signups are low, designing experiment hypotheses,
+  or auditing checkout flows for friction points. Covers fu...'
+full_prompt_length: 17070
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: wondelai/skills
+source_path: plugins/marketing-cro/skills/cro-methodology/SKILL.md
+source_url: https://github.com/wondelai/skills/blob/main/plugins/marketing-cro/skills/cro-methodology/SKILL.md
+fetched_at: '2026-10-25T07:20:50.947562+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T11:52:27.368715Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32cef0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32cef0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:09.133999Z'
+indexed_at: '2026-10-25T12:12:09.134004Z'
+---

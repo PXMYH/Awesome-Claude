@@ -30,24 +30,24 @@ full_prompt_length: 18982
 tools_mentioned:
 - Node.js
 - rest
-- rust
 - javascript
+- rust
 category: community
 category_display: Community
 source_repo: ryanbbrown/revealjs-skill
 source_path: skills/revealjs/SKILL.md
 source_url: https://github.com/ryanbbrown/revealjs-skill/blob/main/skills/revealjs/SKILL.md
-fetched_at: '2026-08-02T05:30:49.546354+00:00'
+fetched_at: '2026-10-25T07:20:13.735277+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:04:12.319759Z'
+  evaluated_at: '2026-10-25T11:29:21.573306Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed400 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056e70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed400 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056e70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -57,6 +57,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.878633Z'
-indexed_at: '2026-08-02T09:26:16.878638Z'
+  fetched_at: '2026-10-25T12:12:08.721405Z'
+indexed_at: '2026-10-25T12:12:08.721409Z'
 ---

@@ -1,0 +1,46 @@
+---
+id: code-improver-code-improver
+slug: code-improver-code-improver
+name: Code Improver
+description: '- **A Claude Code skill**: use the `skill-improver` entry — it wires
+  the right reviewer'
+prompt_preview: '---
+
+  name: code-improver
+
+  description: "Runs an autonomous review-and-fix improvement loop over any code target
+  — a skill, plugin, module, or directory — using a reviewer the user names: any installed
+  skill or agent. Keeps a cross-round findings ledger, escalates when fixes stop converging,
+  and guards scope mechanically. Use when asked to ''improve this code until review
+  passes'', ''run an improvement loop with <reviewer>'', or to iterate review-and-fix
+  with a specific reviewer. For skills prefer the...'
+full_prompt_length: 7308
+tools_mentioned: []
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/code-improver/skills/code-improver/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/code-improver/skills/code-improver/SKILL.md
+fetched_at: '2026-10-25T07:20:32.380987+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T11:40:06.665347Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1ee70 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1ee70 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:08.914212Z'
+indexed_at: '2026-10-25T12:12:08.914216Z'
+---

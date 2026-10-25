@@ -1,0 +1,45 @@
+id: suede-pricing
+slug: suede-pricing
+name: Suede Pricing & Packaging
+description: '- Use `suede-paywalls` for in-product upgrade and paywall experiences.'
+prompt_preview: '---
+
+  name: suede-pricing
+
+  description: "Suede AI pricing and packaging: chooses the value metric (seats, usage,
+  credits, outcomes), structures tiers, compares free trial, freemium, and reverse
+  trial, plans willingness to pay research and price increases with grandfathering,
+  and tears down a pricing page for buyer clarity and for search and AI-assistant
+  readability (text prices, matching schema, quotable FAQ). Returns a Pricing Decision
+  Brief or a scored teardown. Use when deciding what to charge,...'
+full_prompt_length: 12027
+tools_mentioned:
+- AWS
+- go
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-pricing/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-pricing/SKILL.md
+fetched_at: '2026-10-25T07:15:37.635869+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:33:21.632752Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8bc0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8bc0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.520521Z'
+indexed_at: '2026-10-25T12:12:04.520526Z'

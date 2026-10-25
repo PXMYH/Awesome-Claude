@@ -7,36 +7,36 @@ prompt_preview: '---
 
   name: eas-hosting
 
-  description: EAS service (paid). Deploy Expo websites and Expo Router API routes
-  to EAS Hosting - export the web bundle, run eas deploy for production and PR preview
-  URLs, manage environment secrets and custom domains, and work within the Cloudflare
-  Workers runtime. Also covers authoring API routes (+api.ts handlers, HTTP methods,
-  request handling, CORS). Use when deploying an Expo web app or API routes, setting
-  up EAS Hosting, or configuring hosting environments and domain...'
-full_prompt_length: 11277
+  description: Deploy Expo websites and Expo Router API routes to EAS Hosting - export
+  the web bundle, run eas deploy for production and PR preview URLs, manage environment
+  secrets and custom domains, and work within the Cloudflare Workers runtime. Also
+  covers authoring API routes (+api.ts handlers, HTTP methods, request handling, CORS).
+  Use when deploying an Expo web app or API routes, setting up EAS Hosting, or configuring
+  hosting environments and domains. Not for native bu...'
+full_prompt_length: 11488
 tools_mentioned:
-- React
-- SQLite
-- REST
-- Node.js
 - TypeScript
 - MySQL
+- Node.js
+- REST
+- React
+- SQLite
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/eas-hosting/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/eas-hosting/SKILL.md
-fetched_at: '2026-08-02T05:27:44.742468+00:00'
+fetched_at: '2026-10-25T07:17:44.765309+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:10:55.777785Z'
+  evaluated_at: '2026-10-25T09:25:49.650884Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee180 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb86b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee180 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb86b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.748453Z'
-indexed_at: '2026-08-02T09:26:14.748459Z'
+  fetched_at: '2026-10-25T12:12:06.489807Z'
+indexed_at: '2026-10-25T12:12:06.489812Z'
 ---

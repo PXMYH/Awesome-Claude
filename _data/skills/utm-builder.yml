@@ -4,29 +4,29 @@ name: UTM Parameter Strategy & Builder Reference
 description: '- **Google UTM Builder:** https://ga-dev-tools.google/ga4/campaign-url-builder/'
 prompt_preview: "---\nname: utm-builder\ndescription: UTM Parameter Strategy & Builder\
   \ — naming conventions, GA4 channel grouping rules, auto-tagging, common mistakes,\
-  \ and BigQuery validation queries\nversion: \"1.0.0\"\nauthor: Cogny AI\nplatforms:\
+  \ and BigQuery validation queries\nversion: \"1.1.3\"\nauthor: Cogny AI\nplatforms:\
   \ []\nuser-invocable: true\nargument-hint: \"<query or topic>\"\nallowed-tools:\n\
   \  - WebSearch\n  - Read\n  - Write\n  - Bash\n  # GA4 tools (when connected via\
-  \ Cogny MCP)\n  - mcp__cogny__google_analytics_4__tool_run_report\n  - mcp__cogny__google_analytics_4__tool_get_property\n\
-  \  - mcp_..."
-full_prompt_length: 17105
+  \ Cogny MCP)\n  - mcp__cogny__refresh_mcp_discovery\n  - mcp__cogny__mcp__Google_Analytics_4__tool_list_account_summaries\n\
+  \  - mcp..."
+full_prompt_length: 25960
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/utm-builder/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/utm-builder/SKILL.md
-fetched_at: '2026-08-02T05:27:18.527902+00:00'
+fetched_at: '2026-10-25T07:17:19.727633+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:54:15.065348Z'
+  evaluated_at: '2026-10-25T09:01:25.060750Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad1aeab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057c50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad1aeab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057c50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.442800Z'
-indexed_at: '2026-08-02T09:26:14.442806Z'
+  fetched_at: '2026-10-25T12:12:06.071876Z'
+indexed_at: '2026-10-25T12:12:06.071880Z'

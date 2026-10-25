@@ -1,0 +1,50 @@
+---
+id: deepspot-m
+slug: deepspot-m
+name: DeepSpot-M
+description: '- Paper: <https://doi.org/10.64898/2026.06.19.26356060> (medRxiv, 2026)'
+prompt_preview: '---
+
+  name: deepspot-m
+
+  description: Generates transcriptome-wide virtual spatial transcriptomics from H&E
+  histology with DeepSpot-M. Used for predicted log1p-CPM expression from 224x224
+  tiles at about 20x, querying the released protein-coding gene panel by symbol, and
+  whole-slide prediction after resolution-aware tiling with histolab.
+
+  license: PolyForm-Noncommercial-1.0.0
+
+  compatibility: Requires deepspotm 1.0.0, Python >=3.10 and PyTorch; network and
+  approved Hugging Face access for initial gated...'
+full_prompt_length: 9937
+tools_mentioned:
+- Python
+- python
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: skills/deepspot-m/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/deepspot-m/SKILL.md
+fetched_at: '2026-10-25T07:15:47.864400+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:41:28.859400Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7890 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7890 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.657395Z'
+indexed_at: '2026-10-25T12:12:04.657400Z'
+---

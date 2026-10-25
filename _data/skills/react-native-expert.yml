@@ -12,27 +12,27 @@ prompt_preview: '---
   and handles platform-specific code for iOS and Android. Use when building a React
   Native or Expo mobile app, setting up navigation, integrating native modules, improving
   scroll performance, handling SafeArea or keyboard in...'
-full_prompt_length: 6472
+full_prompt_length: 6648
 tools_mentioned:
+- TypeScript
 - React
 - react
-- TypeScript
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/react-native-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/react-native-expert/SKILL.md
-fetched_at: '2026-08-02T05:28:53.447152+00:00'
+fetched_at: '2026-10-25T07:18:37.884913+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:51:40.578031Z'
+  evaluated_at: '2026-10-25T10:09:00.489144Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19df0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e4796d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19df0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e4796d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +42,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.508509Z'
-indexed_at: '2026-08-02T09:26:15.508515Z'
+  fetched_at: '2026-10-25T12:12:07.260378Z'
+indexed_at: '2026-10-25T12:12:07.260383Z'

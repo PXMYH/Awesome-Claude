@@ -12,24 +12,24 @@ prompt_preview: "---\nname: mssql\ndescription: \"Execute read-only SQL queries 
   \  author: sanjay3290\n  ver..."
 full_prompt_length: 4273
 tools_mentioned:
-- Azure
 - Python
+- Azure
 category: community
 category_display: Community
 source_repo: sanjay3290/ai-skills
 source_path: skills/mssql/SKILL.md
 source_url: https://github.com/sanjay3290/ai-skills/blob/main/skills/mssql/SKILL.md
-fetched_at: '2026-08-02T05:30:54.256027+00:00'
+fetched_at: '2026-10-25T07:20:16.325329+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:06:49.291125Z'
+  evaluated_at: '2026-10-25T11:31:56.953070Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb497f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5130 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb497f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5130 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.926933Z'
-indexed_at: '2026-08-02T09:26:16.926947Z'
+  fetched_at: '2026-10-25T12:12:08.767962Z'
+indexed_at: '2026-10-25T12:12:08.767967Z'
 ---

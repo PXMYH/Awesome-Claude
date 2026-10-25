@@ -8,24 +8,24 @@ prompt_preview: "---\nname: feature-forge\ndescription: Conducts structured requ
   \ new features, gathering requirements, or writing specifications. Invoke for feature\
   \ definition, requirements gathering, user stories, EARS format specs, PRDs, acceptance\
   \ criteria, or requirement matrices.\nlicense: MIT\nmetadata:\n  author: https://github.com/Jeffall..."
-full_prompt_length: 4289
+full_prompt_length: 4465
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/feature-forge/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/feature-forge/SKILL.md
-fetched_at: '2026-08-02T05:28:48.704932+00:00'
+fetched_at: '2026-10-25T07:18:34.803993+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:50:16.180028Z'
+  evaluated_at: '2026-10-25T10:07:39.548347Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee1b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32cd40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee1b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32cd40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -35,5 +35,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.482412Z'
-indexed_at: '2026-08-02T09:26:15.482418Z'
+  fetched_at: '2026-10-25T12:12:07.236279Z'
+indexed_at: '2026-10-25T12:12:07.236283Z'

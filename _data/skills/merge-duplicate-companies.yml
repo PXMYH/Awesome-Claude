@@ -9,7 +9,7 @@ prompt_preview: "---\nname: merge-duplicate-companies\ndescription: \"Identify d
   1.1\"\n  category: database-hygiene\n---\n\n# Merge Duplicate Companies\n\n## Purpose\n\
   \nDuplicate company records fragment contacts, deals, and engagement history across\
   \ multiple records for the same rea..."
-full_prompt_length: 13382
+full_prompt_length: 13645
 tools_mentioned:
 - Python
 - python
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/merge-duplicate-companies/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/merge-duplicate-companies/SKILL.md
-fetched_at: '2026-08-02T05:25:57.794429+00:00'
+fetched_at: '2026-10-25T07:16:16.667226+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:04:12.854400Z'
+  evaluated_at: '2026-10-25T08:08:40.777197Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4a600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2f52b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4a600 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2f52b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.503749Z'
-indexed_at: '2026-08-02T09:26:13.503755Z'
+  fetched_at: '2026-10-25T12:12:05.130157Z'
+indexed_at: '2026-10-25T12:12:05.130162Z'

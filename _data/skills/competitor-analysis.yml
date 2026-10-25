@@ -3,30 +3,30 @@ slug: competitor-analysis
 name: Competitor Analysis
 description: 'Positioning Recommendation:'
 prompt_preview: "---\nname: competitor-analysis\ndescription: Research competitor\
-  \ positioning, ads, pricing, and market gaps\nversion: \"1.0.0\"\nauthor: Cogny\
+  \ positioning, ads, pricing, and market gaps\nversion: \"1.1.1\"\nauthor: Cogny\
   \ AI\nplatforms: []\nuser-invocable: true\nargument-hint: \"<company or URL>\"\n\
-  allowed-tools:\n  - WebFetch\n  - WebSearch\n  - Bash\n  - Read\n  - Write\n---\n\
-  \n# Competitor Analysis\n\nResearch a competitor or market to understand positioning,\
-  \ pricing, strengths, and gaps.\n\n## Usage\n\n`/competitor-analysis hubspot.com`\
-  \ — analyze a specific competitor\n`/competitor-analysis \"mar..."
-full_prompt_length: 2498
+  allowed-tools:\n  - WebFetch\n  - WebSearch\n  - Bash\n  - Read\n  - Write\n  #\
+  \ Optional, when Cogny MCP is connected (all read-only)\n  - mcp__cogny__refresh_mcp_discovery\n\
+  \  - mcp__cogny__list_integrations\n  - mcp__cogny__mcp__Semrush__domain_overview\n\
+  \  - mcp__cogny__mcp__Semrush__domain_organic_..."
+full_prompt_length: 7603
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/competitor-analysis/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/competitor-analysis/SKILL.md
-fetched_at: '2026-08-02T05:27:10.586254+00:00'
+fetched_at: '2026-10-25T07:17:13.263026+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:48:30.907910Z'
+  evaluated_at: '2026-10-25T08:54:46.339944Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18ad0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb97c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18ad0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb97c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.327509Z'
-indexed_at: '2026-08-02T09:26:14.327514Z'
+  fetched_at: '2026-10-25T12:12:05.951463Z'
+indexed_at: '2026-10-25T12:12:05.951467Z'

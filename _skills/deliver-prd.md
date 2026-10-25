@@ -7,27 +7,27 @@ prompt_preview: "---\nname: deliver-prd\ndescription: Creates a comprehensive Pr
   \ Requirements Document that aligns stakeholders on what to build, why, and how\
   \ success will be measured. Use when specifying features, epics, or product initiatives\
   \ for engineering handoff.\nlicense: Apache-2.0\nmetadata:\n  phase: deliver\n \
-  \ version: \"2.1.0\"\n  updated: 2026-06-10\n  category: specification\n  frameworks:\
+  \ version: \"3.1.0\"\n  updated: 2026-10-16\n  category: specification\n  frameworks:\
   \ [triple-diamond, lean-startup, design-thinking]\n  author: product-on-purpose\n\
   ---\n<!-- PM-Skills | https://github.com..."
-full_prompt_length: 4262
+full_prompt_length: 8975
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/deliver-prd/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/deliver-prd/SKILL.md
-fetched_at: '2026-08-02T05:30:32.534896+00:00'
+fetched_at: '2026-10-25T07:20:01.055963+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:53:49.199418Z'
+  evaluated_at: '2026-10-25T11:18:33.126704Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee390 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee63c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee390 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee63c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.681925Z'
-indexed_at: '2026-08-02T09:26:16.681930Z'
+  fetched_at: '2026-10-25T12:12:08.520726Z'
+indexed_at: '2026-10-25T12:12:08.520731Z'
 ---

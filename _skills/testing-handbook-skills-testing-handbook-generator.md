@@ -4,31 +4,41 @@ slug: testing-handbook-skills-testing-handbook-generator
 name: Testing Handbook Skill Generator
 description: '**For validation:** See [testing.md](testing.md) for quality assurance
   methodology.'
-prompt_preview: "---\nname: testing-handbook-generator\ndescription: >\n  Meta-skill\
-  \ that analyzes the Trail of Bits Testing Handbook (appsec.guide)\n  and generates\
-  \ Claude Code skills for security testing tools and techniques.\n  Use when creating\
-  \ new skills based on handbook content.\n---\n\n# Testing Handbook Skill Generator\n\
-  \nGenerate and maintain Claude Code skills from the Trail of Bits Testing Handbook.\n\
-  \n## When to Use\n\n**Invoke this skill when:**\n- Creating new security testing\
-  \ skills from handbook content\n- User..."
-full_prompt_length: 13722
+prompt_preview: '---
+
+  name: testing-handbook-generator
+
+  description: "Generates Claude Code skills from the Trail of Bits Testing Handbook
+  (appsec.guide), analyzing handbook pages and emitting SKILL.md files with the structure
+  each skill type requires. Use when creating or refreshing a skill from handbook
+  content, or when the user names the testing handbook or appsec.guide. Not for answering
+  security testing questions — the generated skills cover those."
+
+  ---
+
+
+  # Testing Handbook Skill Generator
+
+
+  Generate and mainta...'
+full_prompt_length: 13897
 tools_mentioned: []
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/testing-handbook-generator/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/testing-handbook-generator/SKILL.md
-fetched_at: '2026-08-02T05:31:29.671342+00:00'
+fetched_at: '2026-10-25T07:20:43.249291+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:20:09.031708Z'
+  evaluated_at: '2026-10-25T11:47:57.643592Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaefef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32d3d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaefef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32d3d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:17.178124Z'
-indexed_at: '2026-08-02T09:26:17.178129Z'
+  fetched_at: '2026-10-25T12:12:09.053148Z'
+indexed_at: '2026-10-25T12:12:09.053157Z'
 ---

@@ -1,0 +1,46 @@
+---
+id: narrate
+slug: narrate
+name: ax:narrate - write the session's story as a structured narration
+description: Then tell the user where the file landed and give a 2-line summary of
+prompt_preview: '---
+
+  name: ax-narrate
+
+  description: Write the agent-generated narration of the current session - the reviewable
+  story of what changed, including what never reaches a PR (user corrections, abandoned
+  attempts, tool failures). Triggers on "narrate this session", "summarize what changed",
+  "write the session story", "narrate what we did", "session narration". Output is
+  .ax/narrations/<session-id>.json for the ax studio narration view. Do NOT fire on
+  "summarize this file" or generic recap questions answ...'
+full_prompt_length: 6621
+tools_mentioned:
+- rest
+category: community
+category_display: Community
+source_repo: Necmttn/ax
+source_path: skills/narrate/SKILL.md
+source_url: https://github.com/Necmttn/ax/blob/main/skills/narrate/SKILL.md
+fetched_at: '2026-10-25T07:16:07.153757+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T08:02:07.823830Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8860 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8860 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:05.015782Z'
+indexed_at: '2026-10-25T12:12:05.015786Z'
+---

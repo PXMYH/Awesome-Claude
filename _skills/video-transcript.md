@@ -2,8 +2,7 @@
 id: video-transcript
 slug: video-transcript
 name: Video Transcript
-description: '1 credit per successful request. Errors don''t consume credits. Free
-  tier: 100 credits, 300 req/min.'
+description: 'Every request in this file as a ready-to-run one-liner: [references/curl-examples.md](references/curl-examples.md)'
 prompt_preview: '---
 
   name: video-transcript
@@ -14,30 +13,30 @@ prompt_preview: '---
   a video URL without explanation and wants to know what it says. Not for uploads
   or account management."
 
-  version: "1.5.0"
+  version: "1.5.1"
 
   user-invocable: true
 
   compatibility: Requires internet access to reach transcriptapi.com. No additional
   runti...'
-full_prompt_length: 4362
+full_prompt_length: 4476
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: ZeroPointRepo/youtube-skills
 source_path: skills/video-transcript/SKILL.md
 source_url: https://github.com/ZeroPointRepo/youtube-skills/blob/main/skills/video-transcript/SKILL.md
-fetched_at: '2026-08-02T05:26:35.293953+00:00'
+fetched_at: '2026-10-25T07:16:45.663113+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:28:26.492386Z'
+  evaluated_at: '2026-10-25T08:33:54.811396Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b6e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6ae6c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b6e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6ae6c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.954817Z'
-indexed_at: '2026-08-02T09:26:13.954828Z'
+  fetched_at: '2026-10-25T12:12:05.577902Z'
+indexed_at: '2026-10-25T12:12:05.577907Z'
 ---

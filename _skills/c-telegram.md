@@ -34,17 +34,17 @@ category_display: Community
 source_repo: daxaur/openpaw
 source_path: skills/c-telegram/SKILL.md
 source_url: https://github.com/daxaur/openpaw/blob/main/skills/c-telegram/SKILL.md
-fetched_at: '2026-08-02T05:27:27.163340+00:00'
+fetched_at: '2026-10-25T07:17:32.818534+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:59:51.511929Z'
+  evaluated_at: '2026-10-25T09:14:03.029725Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ace1d4c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056d80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ace1d4c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056d80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -54,6 +54,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.545359Z'
-indexed_at: '2026-08-02T09:26:14.545365Z'
+  fetched_at: '2026-10-25T12:12:06.277663Z'
+indexed_at: '2026-10-25T12:12:06.277668Z'
 ---

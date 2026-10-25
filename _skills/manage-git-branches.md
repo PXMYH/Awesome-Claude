@@ -10,24 +10,24 @@ prompt_preview: "---\nname: manage-git-branches\ndescription: >\n  Create, track
   \ on different\n  branches, keeping a feature branch up to date with main, or cleaning\n\
   \  up branches after merging pull requests.\nlicense: MIT\nallowed-tools: Read Write\
   \ Edit Bash Grep Glob\nmetadata:\n  a..."
-full_prompt_length: 7235
+full_prompt_length: 10578
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/manage-git-branches/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/manage-git-branches/SKILL.md
-fetched_at: '2026-08-02T05:29:57.854762+00:00'
+fetched_at: '2026-10-25T07:19:36.682066+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:29:54.274956Z'
+  evaluated_at: '2026-10-25T10:54:36.217887Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49a00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8aa0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49a00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8aa0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.233356Z'
-indexed_at: '2026-08-02T09:26:16.233362Z'
+  fetched_at: '2026-10-25T12:12:08.069854Z'
+indexed_at: '2026-10-25T12:12:08.069859Z'
 ---

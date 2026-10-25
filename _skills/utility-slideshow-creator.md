@@ -17,17 +17,17 @@ category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/utility-slideshow-creator/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/utility-slideshow-creator/SKILL.md
-fetched_at: '2026-08-02T05:30:43.342682+00:00'
+fetched_at: '2026-10-25T07:20:08.639295+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:01:44.184831Z'
+  evaluated_at: '2026-10-25T11:26:23.111272Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed010 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1e810 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed010 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1e810 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.832030Z'
-indexed_at: '2026-08-02T09:26:16.832035Z'
+  fetched_at: '2026-10-25T12:12:08.665870Z'
+indexed_at: '2026-10-25T12:12:08.665875Z'
 ---

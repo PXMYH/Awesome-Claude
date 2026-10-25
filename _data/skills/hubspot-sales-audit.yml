@@ -1,0 +1,42 @@
+id: hubspot-sales-audit
+slug: hubspot-sales-audit
+name: HubSpot Sales Audit
+description: 'Nothing to roll back: the audit only reads. To remove its output, delete
+  the files it wrote under `reports/`.'
+prompt_preview: "---\nname: hubspot-sales-audit\ndescription: \"Audit the sales side\
+  \ of a HubSpot portal: pipeline configuration, deal data quality, stale and past-due\
+  \ deals, ownership and handoff gaps, and overdue follow-up. Read-only. Use when\
+  \ the forecast is not trusted, before a pipeline redesign or a new sales leader's\
+  \ first review, or when reps and reports disagree about what is in the pipeline.\"\
+  \nlicense: MIT\nmetadata:\n  author: tomgranot\n  version: \"1.0\"\n  category:\
+  \ audit-planning\n---\n\n# HubSpot Sales Audit..."
+full_prompt_length: 7656
+tools_mentioned:
+- Python
+category: community
+category_display: Community
+source_repo: TomGranot/hubspot-admin-skills
+source_path: skills/hubspot-sales-audit/SKILL.md
+source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/hubspot-sales-audit/SKILL.md
+fetched_at: '2026-10-25T07:16:16.451397+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T08:08:24.565951Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7cb0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7cb0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:05.125438Z'
+indexed_at: '2026-10-25T12:12:05.125443Z'

@@ -1,0 +1,44 @@
+id: marketing-psychology
+slug: marketing-psychology
+name: Marketing Psychology & Mental Models
+description: '- **cro**: Apply psychology to page optimization'
+prompt_preview: '---
+
+  name: marketing-psychology
+
+  description: "When the user wants to apply psychological principles, mental models,
+  or behavioral science to marketing. Also use when the user mentions ''psychology,''
+  ''mental models,'' ''cognitive bias,'' ''persuasion,'' ''behavioral science,'' ''why
+  people buy,'' ''decision-making,'' ''consumer behavior,'' ''anchoring,'' ''social
+  proof,'' ''scarcity,'' ''loss aversion,'' ''framing,'' or ''nudge.'' Use this whenever
+  someone wants to understand or leverage how people think and make decisions...'
+full_prompt_length: 21836
+tools_mentioned:
+- rest
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/marketing-psychology/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/marketing-psychology/SKILL.md
+fetched_at: '2026-10-25T07:17:24.971493+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:06:34.187213Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6450 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6450 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.153100Z'
+indexed_at: '2026-10-25T12:12:06.153108Z'

@@ -2,19 +2,19 @@
 id: ontology-term-resolution
 slug: ontology-term-resolution
 name: Ontology Term Resolution
-description: '- `references/ols4-api.md` — endpoints, parameters, response fields,
-  and every verified trap.'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: ontology-term-resolution
 
-  description: Resolve free-text scientific labels to ontology term IDs and validate
-  existing CURIEs against the EBI Ontology Lookup Service (OLS4). Use whenever an
-  ontology identifier must be produced or checked - annotating tissue, cell type,
-  disease, phenotype, assay, chemical, organism, sex, or developmental stage fields;
-  preparing metadata for GEO, ENA, BioSamples, CELLxGENE, HCA, or ISA-Tab submission;
-  auditing a metadata table of term IDs; checking whether...'
-full_prompt_length: 7637
+  description: Resolves free-text scientific labels to ontology term IDs and validates
+  existing CURIEs against the EBI Ontology Lookup Service (OLS4). Also looks up prefixes
+  in Bioregistry, resolves compact identifiers via Identifiers.org, maps lab shorthand
+  with ZOOMA, and builds Ontobee term pages. Use whenever an ontology identifier must
+  be produced or checked - annotating tissue, cell type, disease, phenotype, assay,
+  chemical, organism, sex, or developmental...'
+full_prompt_length: 14565
 tools_mentioned:
 - Python
 - GO
@@ -23,17 +23,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/ontology-term-resolution/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/ontology-term-resolution/SKILL.md
-fetched_at: '2026-08-02T05:25:32.938635+00:00'
+fetched_at: '2026-10-25T07:15:55.444223+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:48:07.467671Z'
+  evaluated_at: '2026-10-25T07:49:52.339783Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acdcbec0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6ae690 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acdcbec0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6ae690 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.198861Z'
-indexed_at: '2026-08-02T09:26:13.198866Z'
+  fetched_at: '2026-10-25T12:12:04.803244Z'
+indexed_at: '2026-10-25T12:12:04.803249Z'
 ---

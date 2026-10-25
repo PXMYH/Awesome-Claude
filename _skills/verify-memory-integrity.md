@@ -1,0 +1,47 @@
+---
+id: verify-memory-integrity
+slug: verify-memory-integrity
+name: Verify Memory Integrity
+description: '- [manage-memory](../manage-memory/SKILL.md) — the repair side: relinks
+  orphans, extracts oversize sections, compacts the index this skill measures'
+prompt_preview: "---\nname: verify-memory-integrity\ndescription: >\n  Verify agent\
+  \ memory reachability and budget without modifying anything — orphan detection,\n\
+  \  broken links, dual-cap usage against the 200-line / 25KB truncation limits, and\
+  \ catalog\n  conformance. Use at the start of a session before trusting memory contents,\
+  \ before and after\n  any index compaction, after a rename or repository move, when\
+  \ a memory directory has grown\n  past a few dozen topic files, or as a periodic\
+  \ health check.\nlicense: MIT\nallo..."
+full_prompt_length: 27905
+tools_mentioned:
+- Python
+- python
+- JavaScript
+- go
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/verify-memory-integrity/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/verify-memory-integrity/SKILL.md
+fetched_at: '2026-10-25T07:19:56.411158+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T11:15:21.852846Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e7df560 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e7df560 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:08.464130Z'
+indexed_at: '2026-10-25T12:12:08.464138Z'
+---

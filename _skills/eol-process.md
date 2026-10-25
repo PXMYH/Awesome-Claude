@@ -1,0 +1,45 @@
+---
+id: eol-process
+slug: eol-process
+name: EOL Process
+description: '### Provenance'
+prompt_preview: "---\nname: eol-process\nargument-hint: \"[product being retired,\
+  \ and where you are in the process]\"\ndescription: \"Run a product sunset end to\
+  \ end — decide, align, plan, prepare, announce, close. Use when you need the whole\
+  \ EOL process, not just one artifact.\"\nintent: >-\n  Orchestrate a complete product\
+  \ end-of-life from the go/no-go decision through post-retirement\n  review, sequencing\
+  \ the decision, stakeholder alignment, operational plan, internal enablement,\n\
+  \  customer announcement, and closure. R..."
+full_prompt_length: 21241
+tools_mentioned:
+- rest
+- Go
+- go
+category: community
+category_display: Community
+source_repo: deanpeters/Product-Manager-Skills
+source_path: skills/eol-process/SKILL.md
+source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/eol-process/SKILL.md
+fetched_at: '2026-10-25T07:17:36.756622+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:18:06.037763Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1f0b0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1f0b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.352159Z'
+indexed_at: '2026-10-25T12:12:06.352164Z'
+---

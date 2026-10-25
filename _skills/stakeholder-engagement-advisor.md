@@ -11,7 +11,7 @@ prompt_preview: "---\nname: stakeholder-engagement-advisor\nargument-hint: \"[st
   \ through the Adaptive Decision Ladder:\n  three targeted questions diagnose the\
   \ stakeholder's profile, power/impact quadrant,\n  and your engagement context,\
   \ then deliver a tailored approach..."
-full_prompt_length: 17349
+full_prompt_length: 17402
 tools_mentioned:
 - go
 category: community
@@ -19,17 +19,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/stakeholder-engagement-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/stakeholder-engagement-advisor/SKILL.md
-fetched_at: '2026-08-02T05:27:39.304953+00:00'
+fetched_at: '2026-10-25T07:17:40.957167+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:08:36.348072Z'
+  evaluated_at: '2026-10-25T09:23:31.257941Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4ab40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9be0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4ab40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9be0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.705093Z'
-indexed_at: '2026-08-02T09:26:14.705103Z'
+  fetched_at: '2026-10-25T12:12:06.447618Z'
+indexed_at: '2026-10-25T12:12:06.447623Z'
 ---

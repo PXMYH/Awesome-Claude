@@ -10,7 +10,7 @@ prompt_preview: "---\nname: organic-growth-advisor\nargument-hint: \"[product an
   intent: >-\n  Guide product managers through a fast triage to identify which of\
   \ four organic growth paths fits their current constraint: new customer segments\
   \ (L2), new geographies (L3), new distribution channe..."
-full_prompt_length: 20899
+full_prompt_length: 20923
 tools_mentioned:
 - go
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/organic-growth-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/organic-growth-advisor/SKILL.md
-fetched_at: '2026-08-02T05:27:35.059140+00:00'
+fetched_at: '2026-10-25T07:17:38.518175+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:05:24.035283Z'
+  evaluated_at: '2026-10-25T09:20:15.711462Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19100 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6cc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19100 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6cc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.647171Z'
-indexed_at: '2026-08-02T09:26:14.647177Z'
+  fetched_at: '2026-10-25T12:12:06.390225Z'
+indexed_at: '2026-10-25T12:12:06.390229Z'
 ---

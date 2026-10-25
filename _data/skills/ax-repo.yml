@@ -1,0 +1,44 @@
+id: ax-repo
+slug: ax-repo
+name: ax:repo
+description: '- Show the exact `gh` command before running any mutating one; get a
+  yes.'
+prompt_preview: '---
+
+  name: ax-repo
+
+  description: Star the ax repo, file an issue / bug report, or fork-and-open-a-PR
+  against github.com/Necmttn/ax on the user''s behalf, by shelling out to the `gh`
+  CLI. Triggers when the user says "star ax", "star the repo", "I want to support
+  ax", "report this as an ax bug", "file an ax issue", "open an issue on ax", "this
+  looks like an ax bug", "I want to contribute to ax", "fix this in ax", "open a PR
+  against ax", or after an unhandled ax error when the user wants to report it....'
+full_prompt_length: 7046
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: Necmttn/ax
+source_path: skills/ax-repo/SKILL.md
+source_url: https://github.com/Necmttn/ax/blob/main/skills/ax-repo/SKILL.md
+fetched_at: '2026-10-25T07:16:06.793171+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T08:01:43.566912Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e29a720 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e29a720 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:05.009725Z'
+indexed_at: '2026-10-25T12:12:05.009729Z'

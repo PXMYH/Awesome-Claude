@@ -8,7 +8,7 @@ prompt_preview: '---
 
   description: "Use when user asks to ''lint agent configs'', ''validate skills'',
   ''check CLAUDE.md'', ''validate hooks'', ''lint MCP''. Validates agent configuration
-  files against 444 rules."
+  files against 702 rules."
 
   allowed-tools: Bash(agnix:*), Bash(cargo:*), Read, Glob, Grep
 
@@ -18,34 +18,33 @@ prompt_preview: '---
   # agnix
 
 
-  Lint agent configurations before they break your workflow. Validates Skills, Hooks,
-  MCP, Memory, Plugins across Claude Code, Cursor, GitHub Copilot, and Codex CLI.
+  Lint agent configurations (Skills, Hooks, MCP, Memory, Plugins) before they break
+  a workflow, across Claude Code, Codex CLI, OpenCode, Kiro, Cursor, GitHub Copilot
+  and other tools.
 
 
-  ## When to Use
+  ## Run
 
 
-  Invoke when user asks to:
-
-  - "Lint my agent co...'
-full_prompt_length: 2341
+  1. `agnix --version`. If it is missi...'
+full_prompt_length: 2252
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: avifenesh/agnix
 source_path: skills/agnix/SKILL.md
 source_url: https://github.com/avifenesh/agnix/blob/main/skills/agnix/SKILL.md
-fetched_at: '2026-08-02T05:26:52.042730+00:00'
+fetched_at: '2026-10-25T07:16:59.528671+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:36:45.498820Z'
+  evaluated_at: '2026-10-25T08:42:59.745357Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed040 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e0570e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed040 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e0570e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -55,5 +54,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.110257Z'
-indexed_at: '2026-08-02T09:26:14.110263Z'
+  fetched_at: '2026-10-25T12:12:05.737906Z'
+indexed_at: '2026-10-25T12:12:05.737911Z'

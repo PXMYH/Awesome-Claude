@@ -7,10 +7,10 @@ prompt_preview: '---
 
   name: expo-brownfield
 
-  description: Framework (OSS). Integrate Expo and React Native into an existing native
-  iOS or Android app. Use when the user mentions brownfield, embedding React Native
-  in a native app, AAR/XCFramework, or adding Expo to an existing Kotlin/Swift project.
-  Covers both the isolated approach and the integrated approach.
+  description: Integrate Expo and React Native into an existing native iOS or Android
+  app. Use for brownfield, embedding a React Native screen in SwiftUI/UIKit or Kotlin,
+  or AAR/XCFramework packaging. Covers isolated and integrated approaches. For building
+  or distributing a purely native app with EAS, use eas-app-stores.
 
   ---
 
@@ -19,10 +19,11 @@ prompt_preview: '---
 
 
   A **brownfield** app is an existing native iOS or Android app that adopts React
-  Native incrementally, as opposed to a **greenfield**...'
-full_prompt_length: 3983
+  Native incrementally, as opposed to a **greenfiel...'
+full_prompt_length: 5844
 tools_mentioned:
 - Node.js
+- Go
 - React
 - JavaScript
 category: community
@@ -30,17 +31,17 @@ category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-brownfield/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-brownfield/SKILL.md
-fetched_at: '2026-08-02T05:27:45.730519+00:00'
+fetched_at: '2026-10-25T07:17:45.711686+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:11:45.106141Z'
+  evaluated_at: '2026-10-25T09:26:54.690302Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba930 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba930 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -50,6 +51,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.763494Z'
-indexed_at: '2026-08-02T09:26:14.763499Z'
+  fetched_at: '2026-10-25T12:12:06.508239Z'
+indexed_at: '2026-10-25T12:12:06.508247Z'
 ---

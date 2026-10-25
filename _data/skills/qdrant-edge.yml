@@ -14,27 +14,27 @@ prompt_preview: '---
   ''why is my Edge search empty after inserts'', or is writing custom sync, BM25,
   or fusion code against qdrant-edge. Also use when deciding what Edge ships built-in
   vers...'
-full_prompt_length: 5363
+full_prompt_length: 5458
 tools_mentioned:
-- Rust
 - Python
+- Rust
 - go
 category: community
 category_display: Community
 source_repo: qdrant/skills
 source_path: skills/qdrant-edge/SKILL.md
 source_url: https://github.com/qdrant/skills/blob/main/skills/qdrant-edge/SKILL.md
-fetched_at: '2026-08-02T05:30:44.829176+00:00'
+fetched_at: '2026-10-25T07:20:09.763121+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:02:16.775070Z'
+  evaluated_at: '2026-10-25T11:26:55.830845Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48950 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32d010 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48950 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32d010 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,5 +44,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.842410Z'
-indexed_at: '2026-08-02T09:26:16.842416Z'
+  fetched_at: '2026-10-25T12:12:08.676987Z'
+indexed_at: '2026-10-25T12:12:08.676993Z'

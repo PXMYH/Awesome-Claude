@@ -12,26 +12,26 @@ prompt_preview: "---\nname: assess-holistic-health\ndescription: >\n  Conduct te
   \ fog) needing holistic guida..."
 full_prompt_length: 17704
 tools_mentioned:
-- Rest
 - rest
-- go
 - Go
+- Rest
+- go
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/assess-holistic-health/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/assess-holistic-health/SKILL.md
-fetched_at: '2026-08-02T05:29:23.500279+00:00'
+fetched_at: '2026-10-25T07:19:13.615600+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:04:44.206335Z'
+  evaluated_at: '2026-10-25T10:29:27.896506Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeeab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee74d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeeab0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee74d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.759866Z'
-indexed_at: '2026-08-02T09:26:15.759871Z'
+  fetched_at: '2026-10-25T12:12:07.616911Z'
+indexed_at: '2026-10-25T12:12:07.616916Z'

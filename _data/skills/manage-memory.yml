@@ -1,34 +1,38 @@
 id: manage-memory
 slug: manage-memory
 name: Manage Memory
-description: '- `write-claude-md` — CLAUDE.md captures project instructions; memory
-  captures cross-session learning'
+description: '- `verify-memory-integrity` — the non-mutating verification pass; Step
+  6 and Step 7 delegate their checks to it, so the caps, dangling links, orphans,
+  and the before/after link sets can all be confirm...'
 prompt_preview: "---\nname: manage-memory\ndescription: >\n  Organize, extract, prune,\
   \ and verify Claude Code persistent memory files.\n  Covers MEMORY.md as a concise\
   \ index, topic extraction to dedicated files,\n  staleness detection, accuracy verification\
-  \ against project state, and\n  the 200-line truncation constraint. Use when MEMORY.md\
-  \ is approaching the\n  200-line limit, after a session produces durable insights\
-  \ worth preserving,\n  when a topic section has grown beyond 10-15 lines and should\
-  \ be extracted,\n  or w..."
-full_prompt_length: 9628
+  \ against project state, the dual\n  200-line / 25KB load cap, and reachability\
+  \ of topic files from the index.\n  Use when MEMORY.md is approaching either load\
+  \ cap, after a session produces\n  durable insights worth preserving, when a topic\
+  \ section has grown beyond\n  1..."
+full_prompt_length: 22985
 tools_mentioned:
+- Python
+- python
+- JavaScript
 - go
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/manage-memory/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/manage-memory/SKILL.md
-fetched_at: '2026-08-02T05:29:58.305914+00:00'
+fetched_at: '2026-10-25T07:19:36.936010+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:30:11.086109Z'
+  evaluated_at: '2026-10-25T10:54:52.400951Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ace1d130 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1daf0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ace1d130 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1daf0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +42,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.238538Z'
-indexed_at: '2026-08-02T09:26:16.238543Z'
+  fetched_at: '2026-10-25T12:12:08.074781Z'
+indexed_at: '2026-10-25T12:12:08.074786Z'

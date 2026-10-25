@@ -6,10 +6,10 @@ prompt_preview: '---
 
   name: expo-router
 
-  description: Framework (OSS). Navigation and routing for Expo Router. Covers file-based
-  routes, groups and dynamic routes, folder organization, Link with previews and context
-  menus, native Stack, page titles, modals and form sheets, NativeTabs, headers and
-  toolbars, and header search bars.
+  description: Navigation and routing for Expo Router. Covers file-based routes, groups
+  and dynamic routes, folder organization, Link with previews and context menus, native
+  Stack, page titles, modals and form sheets, NativeTabs, headers and toolbars, and
+  header search bars.
 
   version: 1.0.1
 
@@ -22,8 +22,8 @@ prompt_preview: '---
 
 
   Navigation and routing for Expo Router apps. For screen styling, colors, controls,
-  animations, media, and visual effects, use th...'
-full_prompt_length: 6672
+  media, and visual effects, use the `expo-native-ui` skill; for...'
+full_prompt_length: 7055
 tools_mentioned:
 - react
 category: community
@@ -31,17 +31,17 @@ category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-router/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-router/SKILL.md
-fetched_at: '2026-08-02T05:27:46.976400+00:00'
+fetched_at: '2026-10-25T07:17:46.825674+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:12:50.452250Z'
+  evaluated_at: '2026-10-25T09:28:15.649166Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48dd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057860 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48dd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057860 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,5 +51,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.783573Z'
-indexed_at: '2026-08-02T09:26:14.783578Z'
+  fetched_at: '2026-10-25T12:12:06.532988Z'
+indexed_at: '2026-10-25T12:12:06.532999Z'

@@ -2,36 +2,36 @@
 id: labarchive-integration
 slug: labarchive-integration
 name: LabArchives Integration
-description: '- [`references/api_reference.md`](references/api_reference.md) — ELN
-  versus'
-prompt_preview: "---\nname: labarchive-integration\ndescription: Securely integrate\
-  \ with the official LabArchives ELN REST-like API and Inventory API v1. Use for\
-  \ regional endpoint selection, signed-request construction, user authorization and\
-  \ UID flows, local LA container validation, and verified LabArchives integration\
-  \ workflows.\nlicense: MIT\ncompatibility: >-\n  Requires Python 3.11+ and uv for\
-  \ bundled local tools, plus network access for\n  official documentation or remote\
-  \ API calls. LabArchives issues an Access..."
-full_prompt_length: 9732
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
+prompt_preview: "---\nname: labarchive-integration\ndescription: Integrates with the\
+  \ official LabArchives ELN REST-like API and Inventory API v1. Supports regional\
+  \ endpoint selection, signed-request construction, user authorization and UID flows,\
+  \ local LA container validation, and verified LabArchives integration workflows.\n\
+  license: MIT\ncompatibility: >-\n  Requires Python 3.11+ and uv for bundled local\
+  \ tools, plus network access for\n  official documentation or remote API calls.\
+  \ LabArchives issues an Access Key\n  I..."
+full_prompt_length: 11723
 tools_mentioned:
-- REST
 - rest
 - Python
+- REST
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/labarchive-integration/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/labarchive-integration/SKILL.md
-fetched_at: '2026-08-02T05:25:28.948841+00:00'
+fetched_at: '2026-10-25T07:15:52.206441+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:45:05.748710Z'
+  evaluated_at: '2026-10-25T07:46:13.148070Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a510 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056f60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a510 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056f60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.140894Z'
-indexed_at: '2026-08-02T09:26:13.140900Z'
+  fetched_at: '2026-10-25T12:12:04.739783Z'
+indexed_at: '2026-10-25T12:12:04.739787Z'
 ---

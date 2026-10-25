@@ -2,8 +2,8 @@
 id: rdkit
 slug: rdkit
 name: RDKit Cheminformatics Toolkit
-description: These scripts can be executed directly or used as templates for custom
-  workflows.
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: rdkit
@@ -18,8 +18,8 @@ prompt_preview: '---
 
   allowed-tools: Read Write Edit Bash
 
-  compatibility: Examples target RDKit 2026.03.x. Use conda-f...'
-full_prompt_length: 5757
+  compatibility: Tested with RDKit 2026.03.6 on Python 3.13;...'
+full_prompt_length: 8887
 tools_mentioned:
 - Python
 category: scientific
@@ -27,17 +27,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/rdkit/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/rdkit/SKILL.md
-fetched_at: '2026-08-02T05:25:40.195222+00:00'
+fetched_at: '2026-10-25T07:16:00.441178+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:53:39.793882Z'
+  evaluated_at: '2026-10-25T07:55:35.643654Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb184d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6ae9f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb184d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6ae9f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.303839Z'
-indexed_at: '2026-08-02T09:26:13.303845Z'
+  fetched_at: '2026-10-25T12:12:04.902809Z'
+indexed_at: '2026-10-25T12:12:04.902814Z'
 ---

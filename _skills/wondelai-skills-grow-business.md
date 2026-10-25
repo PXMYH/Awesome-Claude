@@ -1,0 +1,47 @@
+---
+id: wondelai-skills-grow-business
+slug: wondelai-skills-grow-business
+name: Grow a Business
+description: '- When growth stalls because the fundamentals underneath it are broken
+  — retention, churn, operational drag — continue with the `improve-business` skill.'
+prompt_preview: '---
+
+  name: grow-business
+
+  description: ''Guided journey from a business with lucky months to a repeatable
+  growth engine that produces a forecast. Orchestrates nine skills phase by phase
+  - one-page-marketing, hundred-million-offers, predictable-revenue, contagious, influence-psychology,
+  crossing-the-chasm, cold-start-problem, lean-analytics, negotiation - asking the
+  user questions at every decision point and recording results in the project docs/
+  folder (MARKETING.md, OFFER.md, METRICS.md, GROW-BUSI...'
+full_prompt_length: 25177
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: wondelai/skills
+source_path: plugins/wondelai-skills/skills/grow-business/SKILL.md
+source_url: https://github.com/wondelai/skills/blob/main/plugins/wondelai-skills/skills/grow-business/SKILL.md
+fetched_at: '2026-10-25T07:21:02.349230+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T12:03:20.498356Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8eab58b0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8eab58b0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:09.307168Z'
+indexed_at: '2026-10-25T12:12:09.307172Z'
+---

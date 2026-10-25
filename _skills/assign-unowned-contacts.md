@@ -12,7 +12,7 @@ prompt_preview: "---\nname: assign-unowned-contacts\ndescription: \"Assign an ow
   \ data-enrichment\n---\n\n# Assign Unowned Marketing Contacts\n\nAssign an owner\
   \ to all marketing contacts that currently have no owner. Unowned contacts create\
   \ gaps in reporting, prevent proper lead rout..."
-full_prompt_length: 8266
+full_prompt_length: 8486
 tools_mentioned:
 - Python
 - python
@@ -22,17 +22,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/assign-unowned-contacts/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/assign-unowned-contacts/SKILL.md
-fetched_at: '2026-08-02T05:25:53.249685+00:00'
+fetched_at: '2026-10-25T07:16:13.261368+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:00:54.446676Z'
+  evaluated_at: '2026-10-25T08:04:59.937583Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1aa50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debb470 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1aa50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debb470 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.440340Z'
-indexed_at: '2026-08-02T09:26:13.440346Z'
+  fetched_at: '2026-10-25T12:12:05.063097Z'
+indexed_at: '2026-10-25T12:12:05.063101Z'
 ---

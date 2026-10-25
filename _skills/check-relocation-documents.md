@@ -18,17 +18,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/check-relocation-documents/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/check-relocation-documents/SKILL.md
-fetched_at: '2026-08-02T05:29:28.932374+00:00'
+fetched_at: '2026-10-25T07:19:17.238583+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:08:51.123952Z'
+  evaluated_at: '2026-10-25T10:33:32.092402Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf45f70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e4d3fe0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf45f70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e4d3fe0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.838330Z'
-indexed_at: '2026-08-02T09:26:15.838336Z'
+  fetched_at: '2026-10-25T12:12:07.690361Z'
+indexed_at: '2026-10-25T12:12:07.690366Z'
 ---

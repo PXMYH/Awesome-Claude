@@ -1,0 +1,61 @@
+---
+id: patching-bugs-prove-patch
+slug: patching-bugs-prove-patch
+name: Prove Patch
+description: For a bounded class, include at least two distinct failing representatives
+  and a
+prompt_preview: '---
+
+  name: prove-patch
+
+  description: Use when a local security patch commit needs independent scoped and
+  three-arm proof.
+
+  ---
+
+
+  # Prove Patch
+
+
+  Use the original baseline, final patch commit, declared `repair_scope`, and unchanged
+
+  reproduction package. Read the [record contract](../../references/records.md). Do
+  not
+
+  edit the patch or validate an uncommitted tree. Return failures for a new attempt.
+
+  Before target commands, follow its [project guidance](../../references/records.md#project-guidance).
+
+
+  1....'
+full_prompt_length: 4476
+tools_mentioned:
+- python
+category: security
+category_display: Security
+source_repo: trailofbits/skills
+source_path: plugins/patching-bugs/skills/prove-patch/SKILL.md
+source_url: https://github.com/trailofbits/skills/blob/main/plugins/patching-bugs/skills/prove-patch/SKILL.md
+fetched_at: '2026-10-25T07:20:37.647001+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T11:43:04.631592Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1fe60 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1fe60 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:08.966675Z'
+indexed_at: '2026-10-25T12:12:08.966678Z'
+---

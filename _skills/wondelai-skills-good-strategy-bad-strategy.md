@@ -1,0 +1,48 @@
+---
+id: wondelai-skills-good-strategy-bad-strategy
+slug: wondelai-skills-good-strategy-bad-strategy
+name: Good Strategy Bad Strategy
+description: '**Richard Rumelt** is professor emeritus at UCLA Anderson School of
+  Management and one of the world''s most influential thinkers on strategy — McKinsey
+  Quarterly dubbed him "the strategist''s strategist...'
+prompt_preview: '---
+
+  name: good-strategy-bad-strategy
+
+  description: ''Formulate and audit real strategy using Richard Rumelt''''s "Good
+  Strategy Bad Strategy": an honest diagnosis, a guiding policy, and coherent action
+  instead of goals, vision, and wishful thinking. Use when the user mentions "good
+  strategy bad strategy", "strategy kernel", "diagnosis guiding policy coherent action",
+  "our strategy is just goals", "strategic planning", "mission vs strategy", "annual
+  plan", or "is this actually a strategy". Also trigg...'
+full_prompt_length: 19348
+tools_mentioned:
+- rest
+category: community
+category_display: Community
+source_repo: wondelai/skills
+source_path: plugins/wondelai-skills/skills/good-strategy-bad-strategy/SKILL.md
+source_url: https://github.com/wondelai/skills/blob/main/plugins/wondelai-skills/skills/good-strategy-bad-strategy/SKILL.md
+fetched_at: '2026-10-25T07:21:02.115939+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T12:03:03.945839Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6f30 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6f30 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:09.302893Z'
+indexed_at: '2026-10-25T12:12:09.302896Z'
+---

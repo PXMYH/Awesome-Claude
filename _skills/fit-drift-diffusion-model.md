@@ -11,7 +11,7 @@ prompt_preview: "---\nname: fit-drift-diffusion-model\ndescription: >\n  Fit cog
   \ decision-making with reaction time data, estimating\n  cognitive parameters from\
   \ experimental data, comparing sequential sampling\n  model variants, or decomposing\
   \ speed-accuracy tradeoff effects in..."
-full_prompt_length: 15733
+full_prompt_length: 15720
 tools_mentioned:
 - Python
 - python
@@ -20,17 +20,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/fit-drift-diffusion-model/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/fit-drift-diffusion-model/SKILL.md
-fetched_at: '2026-08-02T05:29:47.176480+00:00'
+fetched_at: '2026-10-25T07:19:29.409972+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:21:55.797390Z'
+  evaluated_at: '2026-10-25T10:46:42.901827Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee870 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee56a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee870 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee56a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,6 +40,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.083609Z'
-indexed_at: '2026-08-02T09:26:16.083615Z'
+  fetched_at: '2026-10-25T12:12:07.927369Z'
+indexed_at: '2026-10-25T12:12:07.927374Z'
 ---

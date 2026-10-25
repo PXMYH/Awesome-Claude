@@ -1,0 +1,54 @@
+---
+id: qdrant-sizing
+slug: qdrant-sizing
+name: Sizing a Qdrant Deployment
+description: '- Do not size from `points × dims × 4` alone; this omits HNSW, ID tracker,
+  payload, replication, and other resource requirements.'
+prompt_preview: '---
+
+  name: qdrant-sizing
+
+  description: "Sizes a Qdrant deployment before it is provisioned. Use when someone
+  asks ''how much RAM do I need'', ''how many nodes'', ''how big should my cluster
+  be'', ''sizing'', ''capacity planning'', ''will N vectors fit'', ''what instance
+  type should I pick'', or gives a vector count and dimensions and asks what to provision.
+  Also use when an existing estimate needs checking before hardware or a cluster tier
+  is bought."
+
+  ---
+
+
+  # Sizing a Qdrant Deployment
+
+
+  Sizing is not `points × d...'
+full_prompt_length: 8302
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: qdrant/skills
+source_path: skills/qdrant-sizing/SKILL.md
+source_url: https://github.com/qdrant/skills/blob/main/skills/qdrant-sizing/SKILL.md
+fetched_at: '2026-10-25T07:20:10.870506+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T11:28:16.672442Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1e390 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1e390 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:08.702492Z'
+indexed_at: '2026-10-25T12:12:08.702497Z'
+---

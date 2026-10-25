@@ -1,42 +1,48 @@
 id: dwarf-expert-dwarf-expert
 slug: dwarf-expert-dwarf-expert
-name: Overview
-description: '# Choosing Your Approach'
+name: DWARF Expert
+description: '- Attributes are optional: a DIE may omit `DW_AT_name`, `DW_AT_type`,
+  ranges, etc.'
 prompt_preview: '---
 
   name: dwarf-expert
 
-  description: Provides expertise for analyzing DWARF debug files and understanding
-  the DWARF debug format/standard (v3-v5). Triggers when understanding DWARF information,
-  interacting with DWARF files, answering DWARF-related questions, or working with
-  code that parses DWARF data.
+  description: Analyzes DWARF debug information in compiled binaries. Use when inspecting
+  .debug_* sections, DIE trees, or DW_TAG_/DW_AT_ entries with dwarfdump/llvm-dwarfdump
+  or readelf, verifying debug info with llvm-dwarfdump --verify, answering DWARF standard
+  questions, or writing code that parses DWARF (libdwarf, pyelftools, gimli).
 
-  allowed-tools: Read Bash Grep Glob WebSearch
+  effort: medium
+
+  allowed-tools: Read Write Edit Bash Grep Glob WebSearch WebFetch
 
   ---
 
-  # Overview
+  # DWARF Expert
 
-  This skill provides technical knowledge and expertise about the DWARF standard and
-  how to interact with DWARF files. Tasks include answer...'
-full_prompt_length: 4853
-tools_mentioned: []
+
+  Expertise for DWARF debug info: parsing...'
+full_prompt_length: 5988
+tools_mentioned:
+- Python
+- Rust
+- Go
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/dwarf-expert/skills/dwarf-expert/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/dwarf-expert/skills/dwarf-expert/SKILL.md
-fetched_at: '2026-08-02T05:31:16.892702+00:00'
+fetched_at: '2026-10-25T07:20:34.182430+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:14:53.585584Z'
+  evaluated_at: '2026-10-25T11:41:11.387713Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1ce30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18e30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1ce30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,5 +52,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:17.079008Z'
-indexed_at: '2026-08-02T09:26:17.079014Z'
+  fetched_at: '2026-10-25T12:12:08.933303Z'
+indexed_at: '2026-10-25T12:12:08.933313Z'

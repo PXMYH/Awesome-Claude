@@ -6,28 +6,28 @@ description: '- Print the file path of the saved plan'
 prompt_preview: "---\nname: hubspot-implementation-plan\ndescription: \"Generate a\
   \ phased implementation plan from a HubSpot audit report. Creates prioritized, sequenced\
   \ cleanup processes with effort estimates, dependencies, and automation feasibility.\
-  \ Use after running /hubspot-audit.\"\nlicense: MIT\nmetadata:\n  author: tomgranot\n\
-  \  version: \"1.1\"\n  category: audit-planning\n---\n\n# HubSpot Implementation\
-  \ Plan Generator\n\nGenerate a phased, prioritized cleanup and optimization plan\
-  \ from a HubSpot audit report. This skil..."
-full_prompt_length: 17749
+  \ Works from a full, marketing, or sales audit report. Use after running /hubspot-audit,\
+  \ /hubspot-marketing-audit, or /hubspot-sales-audit.\"\nlicense: MIT\nmetadata:\n\
+  \  author: tomgranot\n  version: \"2.0\"\n  category: audit-planning\n---\n\n# HubSpot\
+  \ Implementation Plan Genera..."
+full_prompt_length: 20986
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/hubspot-implementation-plan/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/hubspot-implementation-plan/SKILL.md
-fetched_at: '2026-08-02T05:25:57.394111+00:00'
+fetched_at: '2026-10-25T07:16:16.195996+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:03:56.498477Z'
+  evaluated_at: '2026-10-25T08:08:08.380320Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad5e8a10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6ae9c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad5e8a10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6ae9c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.498458Z'
-indexed_at: '2026-08-02T09:26:13.498464Z'
+  fetched_at: '2026-10-25T12:12:05.120831Z'
+indexed_at: '2026-10-25T12:12:05.120835Z'
 ---

@@ -1,0 +1,50 @@
+---
+id: strategy-growth-obviously-awesome
+slug: strategy-growth-obviously-awesome
+name: Product Positioning Framework
+description: April Dunford is a positioning consultant who has worked with over 200
+  companies, including Google, IBM, Postman, and Epic Games, after 25 years as a startup
+  VP of Marketing. Her book "Obviously Aweso...
+prompt_preview: '---
+
+  name: obviously-awesome
+
+  description: ''Define product positioning by mapping competitive alternatives, unique
+  attributes, and best-fit customers to the right market category. Use when the user
+  mentions "positioning", "competitive alternatives", "how to position", "market category",
+  "positioning canvas", "repositioning", "category creation", "what category are we
+  in", or "why prospects dont get what we do". Also trigger when launching a new product,
+  entering a crowded market, or diagnosing why...'
+full_prompt_length: 18594
+tools_mentioned:
+- rest
+- Go
+- go
+category: community
+category_display: Community
+source_repo: wondelai/skills
+source_path: plugins/strategy-growth/skills/obviously-awesome/SKILL.md
+source_url: https://github.com/wondelai/skills/blob/main/plugins/strategy-growth/skills/obviously-awesome/SKILL.md
+fetched_at: '2026-10-25T07:20:56.509860+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T11:57:28.299321Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9970 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9970 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:09.213610Z'
+indexed_at: '2026-10-25T12:12:09.213619Z'
+---

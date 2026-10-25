@@ -10,7 +10,7 @@ prompt_preview: "---\nname: lean-ux-canvas\nargument-hint: \"[business problem]\
   \ one-page facilitation tool that frames work around a **business problem to solve**,\
   \ not a **solution to implement**. Use this to align cross-functional teams around\
   \ core assumptions, craft testable hy..."
-full_prompt_length: 24705
+full_prompt_length: 24763
 tools_mentioned:
 - go
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/lean-ux-canvas/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/lean-ux-canvas/SKILL.md
-fetched_at: '2026-08-02T05:27:34.555901+00:00'
+fetched_at: '2026-10-25T07:17:38.099384+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:05:07.698551Z'
+  evaluated_at: '2026-10-25T09:19:51.438780Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf45f70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee46b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf45f70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee46b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.642070Z'
-indexed_at: '2026-08-02T09:26:14.642076Z'
+  fetched_at: '2026-10-25T12:12:06.383231Z'
+indexed_at: '2026-10-25T12:12:06.383235Z'
 ---

@@ -2,22 +2,22 @@
 id: torch-geometric
 slug: torch-geometric
 name: PyTorch Geometric (PyG)
-description: '1. **edge_index shape**: Must be `[2, num_edges]`, not `[num_edges,
-  2]`. Transpose if needed.'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: torch-geometric
 
-  description: PyTorch Geometric (PyG) for graph neural networks — node/link/graph
+  description: Supports PyTorch Geometric (PyG) graph neural networks — node/link/graph
   classification, message passing (GCN, GAT, GraphSAGE, GIN), heterogeneous graphs,
   neighbor sampling, and custom datasets. Use when working with torch_geometric, not
   for general NetworkX analytics or non-graph PyTorch models.
 
   license: MIT license
 
-  compatibility: Requires Python 3.10+, PyTorch 2.6+, and torch-geometric 2.7.x. Optional
-  extension wheels (pyg-lib, torch-scatter, torch-sparse, tor...'
-full_prompt_length: 18350
+  compatibility: Requires Python 3.10+, PyTorch 2.9+, and torch-geometric 2.8.0.post1.
+  Optional pyg-lib, torch-scatter and torch-sparse wheels m...'
+full_prompt_length: 22444
 tools_mentioned:
 - rest
 - Python
@@ -27,17 +27,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/torch-geometric/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/torch-geometric/SKILL.md
-fetched_at: '2026-08-02T05:25:45.508298+00:00'
+fetched_at: '2026-10-25T07:16:04.018420+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:57:37.132348Z'
+  evaluated_at: '2026-10-25T07:59:50.284780Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19b80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6ae9c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19b80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6ae9c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.377493Z'
-indexed_at: '2026-08-02T09:26:13.377498Z'
+  fetched_at: '2026-10-25T12:12:04.976214Z'
+indexed_at: '2026-10-25T12:12:04.976219Z'
 ---

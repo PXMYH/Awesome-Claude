@@ -2,7 +2,9 @@
 id: skill-check
 slug: skill-check
 name: SkillCheck (Free)
-description: '### 8.1 Has Example Section'
+description: '**Exemptions**: a U+FEFF as the very first character of the file is
+  a byte-order mark left by tooling — report nothing. Zero-width joiners and variation
+  selectors are deliberately absent from the patt...'
 prompt_preview: '---
 
   name: skill-check
@@ -17,7 +19,7 @@ prompt_preview: '---
   license: MIT
 
   allowed-tools: Rea...'
-full_prompt_length: 15096
+full_prompt_length: 21401
 tools_mentioned:
 - Python
 category: community
@@ -25,17 +27,17 @@ category_display: Community
 source_repo: olgasafonova/SkillCheck-Free
 source_path: skills/skill-check/SKILL.md
 source_url: https://github.com/olgasafonova/SkillCheck-Free/blob/main/skills/skill-check/SKILL.md
-fetched_at: '2026-08-02T05:29:17.793011+00:00'
+fetched_at: '2026-10-25T07:19:09.358917+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:01:16.459465Z'
+  evaluated_at: '2026-10-25T10:26:04.223243Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf46ff0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e43bc20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf46ff0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e43bc20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.693996Z'
-indexed_at: '2026-08-02T09:26:15.694002Z'
+  fetched_at: '2026-10-25T12:12:07.556045Z'
+indexed_at: '2026-10-25T12:12:07.556049Z'
 ---

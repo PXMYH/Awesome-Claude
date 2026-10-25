@@ -10,24 +10,24 @@ prompt_preview: "---\nname: feature-investment-advisor\nargument-hint: \"[featur
   \ build a feature based on financial impact analysis. Use this to make data-driven\
   \ prioritization decisions by assessing revenue connection (direct or indirect),\
   \ cost structure (dev + COGS + OpEx), ROI ca..."
-full_prompt_length: 22351
+full_prompt_length: 22402
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/feature-investment-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/feature-investment-advisor/SKILL.md
-fetched_at: '2026-08-02T05:27:33.333270+00:00'
+fetched_at: '2026-10-25T07:17:37.377269+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:04:07.654510Z'
+  evaluated_at: '2026-10-25T09:18:54.546580Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19880 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1c260 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19880 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1c260 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.624155Z'
-indexed_at: '2026-08-02T09:26:14.624161Z'
+  fetched_at: '2026-10-25T12:12:06.365879Z'
+indexed_at: '2026-10-25T12:12:06.365884Z'
 ---

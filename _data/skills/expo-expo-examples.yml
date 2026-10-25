@@ -6,15 +6,14 @@ prompt_preview: '---
 
   name: expo-examples
 
-  description: Framework (OSS). Expo''s official example projects - the expo/examples
-  repo of ~70 `with-*` integrations (Stripe, Clerk, Supabase, OpenAI, maps, Reanimated,
-  SQLite, Skia, NativeWind, and more). Use when integrating a third-party library
-  or service into an existing Expo app and you want the canonical, version-matched
-  pattern to adapt, or when scaffolding a new project from one with `npx create-expo
-  --example`.
+  description: Expo''s official example projects - the expo/examples repo of ~70 `with-*`
+  integrations (Stripe, Clerk, Supabase, OpenAI, maps, Reanimated, SQLite, Skia, NativeWind,
+  and more). Use when integrating a third-party library or service into an existing
+  Expo app and you want the canonical, version-matched pattern to adapt, or when scaffolding
+  a new project from one with `npx create-expo --example`.
 
-  allowed-tools: "Read,Bash(gh api:*),Bash(git clone:...'
-full_prompt_length: 6550
+  allowed-tools: "Read,Bash(gh api:*),Bash(git clone:*),Bash(npx creat...'
+full_prompt_length: 6708
 tools_mentioned:
 - SQLite
 category: community
@@ -22,17 +21,17 @@ category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-examples/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-examples/SKILL.md
-fetched_at: '2026-08-02T05:27:46.304782+00:00'
+fetched_at: '2026-10-25T07:17:46.298689+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:12:17.752237Z'
+  evaluated_at: '2026-10-25T09:27:35.218003Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba930 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48680 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba930 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.773546Z'
-indexed_at: '2026-08-02T09:26:14.773551Z'
+  fetched_at: '2026-10-25T12:12:06.520089Z'
+indexed_at: '2026-10-25T12:12:06.520094Z'

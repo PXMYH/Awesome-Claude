@@ -1,0 +1,44 @@
+id: popups
+slug: popups
+name: Popup CRO
+description: '- **lead-magnets**: For planning lead magnets to promote via popups'
+prompt_preview: '---
+
+  name: popups
+
+  description: When the user wants to create or optimize popups, modals, overlays,
+  slide-ins, or banners for conversion purposes. Also use when the user mentions "exit
+  intent," "popup conversions," "modal optimization," "lead capture popup," "email
+  popup," "announcement banner," "overlay," "collect emails with a popup," "exit popup,"
+  "scroll trigger," "sticky bar," or "notification bar." Use this for any overlay
+  or interrupt-style conversion element. For forms outside of popups, s...'
+full_prompt_length: 11795
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/popups/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/popups/SKILL.md
+fetched_at: '2026-10-25T07:17:25.383422+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:07:06.627138Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6570 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6570 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.161244Z'
+indexed_at: '2026-10-25T12:12:06.161248Z'

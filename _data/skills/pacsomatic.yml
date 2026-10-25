@@ -1,36 +1,42 @@
 id: pacsomatic
 slug: pacsomatic
 name: pacsomatic
-description: '- `references/agent-playbook.md`'
+description: '- [Operator playbook](references/agent-playbook.md)'
 prompt_preview: '---
 
   name: pacsomatic
 
-  description: Operator toolkit for nf-core/pacsomatic matched tumor-normal workflows
-  from BAM inputs. Use this skill when the user needs to validate run inputs, generate
-  pacsomatic-compliant samplesheets, prepare reproducible Nextflow launch artifacts,
-  run locally or submit to schedulers (LSF/Slurm/PBS/SGE), and triage execution failures.
-  Triggers on requests to run pacsomatic, prepare launch commands/scripts, perform
-  dry-run checks, or troubleshoot pipeline startup and sched...'
-full_prompt_length: 5056
+  description: Prepares and launches nf-core/pacsomatic matched tumor-normal PacBio
+  HiFi genomics workflows from unaligned BAM inputs. Supports samplesheet generation,
+  pinned Nextflow launch artifacts, local checks, LSF/Slurm/PBS Pro/SGE launcher submission,
+  and startup troubleshooting. Use for pacsomatic run preparation and execution, not
+  general short-read somatic analysis or medical imaging PACS.
+
+  license: MIT
+
+  compatibility: Requires Python 3.10+ for the standard-library hel...'
+full_prompt_length: 6477
 tools_mentioned:
+- Python
+- Java
 - python
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pacsomatic/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pacsomatic/SKILL.md
-fetched_at: '2026-08-02T05:25:33.768682+00:00'
+fetched_at: '2026-10-25T07:15:56.055727+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:48:50.354664Z'
+  evaluated_at: '2026-10-25T07:50:32.765705Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad02cef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6810 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad02cef0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6810 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -40,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.211896Z'
-indexed_at: '2026-08-02T09:26:13.211902Z'
+  fetched_at: '2026-10-25T12:12:04.815316Z'
+indexed_at: '2026-10-25T12:12:04.815326Z'

@@ -1,0 +1,46 @@
+---
+id: dojo
+slug: dojo
+name: ax:dojo - overnight training loop
+description: '- worktrees only; never write on main; never merge anything'
+prompt_preview: '---
+
+  name: dojo
+
+  description: "Surplus-quota training loop over the ax graph - the agent burns the
+  remaining 5h/7d plan-quota window on self-improvement: locking pending verdicts,
+  filling briefs, backtesting routing classes, minting proposals, running worktree
+  experiments, and drafting upstream issue reports. Triggers when the user says \"/dojo\",
+  \"enter the dojo\", \"dojo time\", \"train overnight\", \"burn my surplus quota\",
+  \"dream mode\" (legacy name), or invokes /loop /dojo. Requires ax (ax...'
+full_prompt_length: 6876
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: Necmttn/ax
+source_path: skills/dojo/SKILL.md
+source_url: https://github.com/Necmttn/ax/blob/main/skills/dojo/SKILL.md
+fetched_at: '2026-10-25T07:16:06.913526+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T08:01:51.658715Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056f00 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056f00 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:05.011728Z'
+indexed_at: '2026-10-25T12:12:05.011732Z'
+---

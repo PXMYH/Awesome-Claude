@@ -1,0 +1,47 @@
+---
+id: ads
+slug: ads
+name: Paid Ads
+description: '- **ad-creative**: For generating and iterating ad headlines, descriptions,
+  and creative at scale'
+prompt_preview: '---
+
+  name: ads
+
+  description: "When the user wants help with paid advertising campaigns on Google
+  Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also
+  use when the user mentions ''PPC,'' ''paid media,'' ''ROAS,'' ''CPA,'' ''ad campaign,''
+  ''retargeting,'' ''audience targeting,'' ''Google Ads,'' ''Facebook ads,'' ''LinkedIn
+  ads,'' ''ad budget,'' ''cost per click,'' ''ad spend,'' ''should I run ads,'' ''ABM,''
+  ''account-based marketing,'' ''B2B ads,'' ''lead quality,'' ''negative keywords,''
+  ''Performance Max,''...'
+full_prompt_length: 30456
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/ads/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/ads/SKILL.md
+fetched_at: '2026-10-25T07:17:21.763989+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:02:30.661713Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debb650 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debb650 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.091016Z'
+indexed_at: '2026-10-25T12:12:06.091020Z'
+---

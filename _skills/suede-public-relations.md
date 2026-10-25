@@ -1,0 +1,47 @@
+---
+id: suede-public-relations
+slug: suede-public-relations
+name: Suede Public Relations & Earned Media
+description: '- Use `suede-launch-packaging` to coordinate a broader product launch.'
+prompt_preview: '---
+
+  name: suede-public-relations
+
+  description: "Suede AI earned media, built for both journalists and AI search: validates
+  story angles, builds a sourced media list, drafts journalist and podcast pitches
+  under 200 words, answers source requests (HARO, Qwoted, Featured), scores newsjacking,
+  and sets up a press page with consistent entity facts and Organization schema so
+  coverage becomes citations in Google AI Overviews, ChatGPT, Claude, and Perplexity.
+  Returns pitch drafts, a scored media list, or...'
+full_prompt_length: 12143
+tools_mentioned:
+- Go
+- go
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-public-relations/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-public-relations/SKILL.md
+fetched_at: '2026-10-25T07:15:38.122545+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:33:53.976941Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2d4740 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2d4740 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.528699Z'
+indexed_at: '2026-10-25T12:12:04.528703Z'
+---

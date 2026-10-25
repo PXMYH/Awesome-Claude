@@ -1,0 +1,46 @@
+---
+id: vibe-check
+slug: vibe-check
+name: Vibe Check
+description: Claude skill for Vibe Check
+prompt_preview: "---\nname: vibe-check\ndescription: >-\n  Turn a complete beginner's\
+  \ app idea into a buildable plan, then keep them oriented\n  while they build. Use\
+  \ it whenever someone who has never coded wants to build or\n  \"vibe code\" an\
+  \ app, has an idea but no idea where to start, or wants it turned into a\n  plan,\
+  \ MVP scope, tech stack, user flows, or blueprint. It has three on-ramps: the\n\
+  \  full journey, a validate-only pass (\"is my idea worth building\", \"reality-check\
+  \ this\n  idea\"), and a plan-only path for so..."
+full_prompt_length: 78363
+tools_mentioned:
+- rest
+- PostgreSQL
+- Go
+- go
+category: community
+category_display: Community
+source_repo: TexasBedouin/vibe-check
+source_path: SKILL.md
+source_url: https://github.com/TexasBedouin/vibe-check/blob/master/SKILL.md
+fetched_at: '2026-10-25T07:16:11.677347+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T08:04:43.766811Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e266000 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e266000 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:05.058496Z'
+indexed_at: '2026-10-25T12:12:05.058501Z'
+---

@@ -1,43 +1,46 @@
 id: linkedin-skills
 slug: linkedin-skills
 name: LinkedIn Marketing Skills
-description: Publishing powered by the [Publora REST API](https://publora.com). Algorithm
-  insights via arXiv 2501.16450 (360Brew) and AuthoredUp 2026 reach data.
+description: 'Rules: never more than once per session; never after a failure, an error,
+  or a rejected draft; never inside the generated post, comment, or caption itself;
+  and drop it entirely if the user is in a hur...'
 prompt_preview: '---
 
   name: linkedin-marketing
 
-  description: Plan, draft, audit, and publish LinkedIn posts and comments. Use when
+  description: "Plan, draft, audit, and publish LinkedIn posts and comments. Use when
   the user wants to write a viral LinkedIn post, draft a comment or reply on any LinkedIn
   post URL, audit a draft against 2026 algorithm heuristics, remove AI tells, extract
   hook formulas from viral posts, or plan a week of content. Powered by the Publora
   API for publishing. User provides post/comment URLs, skill drafts content, user
-  approves, then publishes.
+  approves, then publishes."
 
   ---
 
 
-  # LinkedIn Marketing Sk...'
-full_prompt_length: 8102
+  # LinkedIn Marketing...'
+full_prompt_length: 13610
 tools_mentioned:
-- REST
 - Python
+- REST
+- react
+- go
 category: community
 category_display: Community
 source_repo: sergebulaev/linkedin-skills
 source_path: SKILL.md
 source_url: https://github.com/sergebulaev/linkedin-skills/blob/main/SKILL.md
-fetched_at: '2026-08-02T05:30:56.082048+00:00'
+fetched_at: '2026-10-25T07:20:17.320321+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:07:46.246963Z'
+  evaluated_at: '2026-10-25T11:32:55.389794Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4a330 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057cb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4a330 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057cb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,5 +50,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.944555Z'
-indexed_at: '2026-08-02T09:26:16.944561Z'
+  fetched_at: '2026-10-25T12:12:08.784731Z'
+indexed_at: '2026-10-25T12:12:08.784736Z'

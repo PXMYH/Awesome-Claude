@@ -1,0 +1,44 @@
+---
+id: sitemap-audit
+slug: sitemap-audit
+name: Canonical NotFair workflow
+description: Read [`../../seo/sitemap-audit/WORKFLOW.md`](../../seo/sitemap-audit/WORKFLOW.md)
+  completely, then follow it as the active workflow. Resolve every relative reference
+  from that file against `../../seo/...
+prompt_preview: "---\nname: sitemap-audit\nargument-hint: \"<website URL or sitemap\
+  \ URL, e.g. https://example.com or https://example.com/sitemap.xml>\"\ndescription:\
+  \ >\n  XML sitemap audit — find and fix the sitemap problems that quietly waste\
+  \ crawl\n  budget and slow indexing. Discovers the sitemap (robots.txt, /sitemap.xml,\n\
+  \  sitemap index), validates structure and size limits, and cross-checks the URLs\n\
+  \  it lists against reality: non-200 / redirected / noindex / canonicalized-away\n\
+  \  URLs that shouldn't be in a sitem..."
+full_prompt_length: 1439
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: nowork-studio/NotFair
+source_path: skills/sitemap-audit/SKILL.md
+source_url: https://github.com/nowork-studio/NotFair/blob/main/skills/sitemap-audit/SKILL.md
+fetched_at: '2026-10-25T07:18:57.925017+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T10:22:48.803370Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056f90 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056f90 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:07.498754Z'
+indexed_at: '2026-10-25T12:12:07.498758Z'
+---

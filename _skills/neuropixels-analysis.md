@@ -2,15 +2,22 @@
 id: neuropixels-analysis
 slug: neuropixels-analysis
 name: Neuropixels Data Analysis
-description: '- **SpikeInterface Docs**: https://spikeinterface.readthedocs.io/'
-prompt_preview: "---\nname: neuropixels-analysis\ndescription: Analyze Neuropixels\
-  \ extracellular recordings end-to-end with SpikeInterface. Covers loading SpikeGLX/Open\
-  \ Ephys/NWB data, preprocessing, drift/motion correction, Kilosort4 (and CPU) spike\
-  \ sorting, quality metrics, and unit curation (threshold-based, model-based UnitRefine,\
-  \ and AI-assisted visual review). Use when working with Neuropixels 1.0/2.0 recordings,\
-  \ spike sorting, or extracellular electrophysiology analysis.\nlicense: MIT license\n\
-  metadata:\n  ver..."
-full_prompt_length: 15901
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
+prompt_preview: '---
+
+  name: neuropixels-analysis
+
+  description: Analyzes Neuropixels extracellular recordings end-to-end with SpikeInterface.
+  Covers loading SpikeGLX/Open Ephys/NWB data, preprocessing, drift/motion correction,
+  Kilosort4 (and CPU) spike sorting, quality metrics, and unit curation (threshold-based,
+  model-based UnitRefine, and AI-assisted visual review). Use when working with Neuropixels
+  1.0/2.0 recordings, spike sorting, or extracellular electrophysiology analysis.
+
+  license: MIT license
+
+  compatibility:...'
+full_prompt_length: 20012
 tools_mentioned:
 - Python
 - python
@@ -19,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/neuropixels-analysis/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/neuropixels-analysis/SKILL.md
-fetched_at: '2026-08-02T05:25:32.266151+00:00'
+fetched_at: '2026-10-25T07:15:54.722857+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:47:34.778224Z'
+  evaluated_at: '2026-10-25T07:49:03.822813Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad122bd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9bb0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad122bd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9bb0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.188076Z'
-indexed_at: '2026-08-02T09:26:13.188082Z'
+  fetched_at: '2026-10-25T12:12:04.789278Z'
+indexed_at: '2026-10-25T12:12:04.789283Z'
 ---

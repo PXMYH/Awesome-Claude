@@ -1,0 +1,48 @@
+---
+id: relsa-severity-assessment
+slug: relsa-severity-assessment
+name: RELSA severity assessment and exploratory score forecasting
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
+prompt_preview: '---
+
+  name: relsa-severity-assessment
+
+  description: Supports multivariate severity assessment and exploratory endpoint-time
+  score forecasting for laboratory animal studies using the RELSA (RELative Severity
+  Assessment) score and ARIMA-based foRcast forecasting. Use when combining welfare
+  readouts — body weight or weight loss, body temperature, clinical or nesting scores,
+  biomarkers, activity, heart rate, burrowing, wheel running — into one severity score
+  per animal per day, when asking which animal...'
+full_prompt_length: 20903
+tools_mentioned:
+- Python
+- python
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: skills/relsa-severity-assessment/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/relsa-severity-assessment/SKILL.md
+fetched_at: '2026-10-25T07:16:00.663224+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:55:51.835522Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7650 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7650 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.907293Z'
+indexed_at: '2026-10-25T12:12:04.907298Z'
+---

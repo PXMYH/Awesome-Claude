@@ -19,17 +19,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/voice-of-customer-miner/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/voice-of-customer-miner/SKILL.md
-fetched_at: '2026-08-02T05:27:41.156041+00:00'
+fetched_at: '2026-10-25T07:17:41.938508+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:09:58.405285Z'
+  evaluated_at: '2026-10-25T09:24:53.025891Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad1de5a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8a10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad1de5a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8a10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.730511Z'
-indexed_at: '2026-08-02T09:26:14.730516Z'
+  fetched_at: '2026-10-25T12:12:06.472731Z'
+indexed_at: '2026-10-25T12:12:06.472736Z'
 ---

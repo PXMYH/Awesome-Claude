@@ -4,34 +4,34 @@ name: GTM Event Tracking & Setup Reference
 description: '- **GTM Developer Guide:** https://developers.google.com/tag-platform/tag-manager'
 prompt_preview: "---\nname: gtm-setup\ndescription: GTM Event Tracking & Setup Reference\
   \ — dataLayer fundamentals, trigger types, variable types, GA4 tag configuration,\
-  \ debug mode, and best practices\nversion: \"1.0.0\"\nauthor: Cogny AI\nplatforms:\
+  \ debug mode, and best practices\nversion: \"1.1.1\"\nauthor: Cogny AI\nplatforms:\
   \ []\nuser-invocable: true\nargument-hint: \"<topic or question>\"\nallowed-tools:\n\
   \  - WebFetch\n  - WebSearch\n  - Bash\n  - Read\n  - Write\n  # GTM tools (when\
-  \ connected via Cogny MCP)\n  - mcp__cogny__google_tag_manager__tool_list_accounts\n\
-  \  - mcp__cogny__google_tag_manager__tool_li..."
-full_prompt_length: 19381
+  \ connected via Cogny MCP)\n  - mcp__cogny__list_integrations\n  - mcp__cogny__refresh_mcp_discovery\n\
+  \  - mcp__cogny__mcp__Googl..."
+full_prompt_length: 23079
 tools_mentioned:
-- React
-- react
-- javascript
 - JavaScript
+- React
+- javascript
 - Vue
+- react
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/gtm-setup/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/gtm-setup/SKILL.md
-fetched_at: '2026-08-02T05:27:14.497159+00:00'
+fetched_at: '2026-10-25T07:17:16.208859+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:51:15.184452Z'
+  evaluated_at: '2026-10-25T08:57:45.468297Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48c50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e430ef0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48c50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e430ef0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.385942Z'
-indexed_at: '2026-08-02T09:26:14.385948Z'
+  fetched_at: '2026-10-25T12:12:06.006225Z'
+indexed_at: '2026-10-25T12:12:06.006230Z'

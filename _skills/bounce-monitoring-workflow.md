@@ -10,7 +10,7 @@ prompt_preview: "---\nname: bounce-monitoring-workflow\ndescription: \"Build a w
   \ tomgranot\n  version: \"1.1\"\n  category: automation-workflows\n---\n\n# Bounce\
   \ Monitoring Workflow\n\nProtect your email sender reputation with automated bounce\
   \ detection and suppression. This w..."
-full_prompt_length: 7400
+full_prompt_length: 7916
 tools_mentioned:
 - Python
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/bounce-monitoring-workflow/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/bounce-monitoring-workflow/SKILL.md
-fetched_at: '2026-08-02T05:25:53.803362+00:00'
+fetched_at: '2026-10-25T07:16:13.652596+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:01:19.116466Z'
+  evaluated_at: '2026-10-25T08:05:24.198817Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed700 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5b20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed700 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5b20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.448353Z'
-indexed_at: '2026-08-02T09:26:13.448359Z'
+  fetched_at: '2026-10-25T12:12:05.070696Z'
+indexed_at: '2026-10-25T12:12:05.070700Z'
 ---

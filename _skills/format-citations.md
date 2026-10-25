@@ -11,24 +11,24 @@ prompt_preview: "---\nname: format-citations\ndescription: >\n  Format citations
   \ knitcitations, and Quarto's built-in citation engine.\n  Use when rendering a\
   \ Quarto or R Markdown document with formatted citations,\n  converting a bibliography\
   \ between citation styles, generating a..."
-full_prompt_length: 10109
+full_prompt_length: 13283
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/format-citations/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/format-citations/SKILL.md
-fetched_at: '2026-08-02T05:29:48.441631+00:00'
+fetched_at: '2026-10-25T07:19:30.294340+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:22:54.563090Z'
+  evaluated_at: '2026-10-25T10:47:41.433648Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057020 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057020 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.101831Z'
-indexed_at: '2026-08-02T09:26:16.101841Z'
+  fetched_at: '2026-10-25T12:12:07.944456Z'
+indexed_at: '2026-10-25T12:12:07.944461Z'
 ---

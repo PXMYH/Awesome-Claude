@@ -1,0 +1,54 @@
+---
+id: ad-kill-rules
+slug: ad-kill-rules
+name: Ad Kill Rules
+description: 1. **The bar is decided before launch.** No rule means no kill. Report
+  "no evidence bar" and stop.
+prompt_preview: '---
+
+  name: ad-kill-rules
+
+  description: Enforce a pre-declared evidence bar on every ad — after it spends enough,
+  pause it if it misses (e.g. CTR < 1% or cost per lead over cap) across Meta, TikTok,
+  LinkedIn, Google and Bing — as a dry-run report, an approved pause, or a scheduled
+  pause-only Cogny script
+
+  version: "1.1.3"
+
+  author: Cogny AI
+
+  requires: cogny-mcp
+
+  platforms: [meta-ads, tiktok-ads, linkedin-ads, google-ads, bing-ads, x-ads, reddit-ads,
+  snapchat-ads, apple-search-ads, openai-ads, bidtheatre...'
+full_prompt_length: 14532
+tools_mentioned:
+- rest
+category: community
+category_display: Community
+source_repo: cognyai/claude-code-marketing-skills
+source_path: skills/ad-kill-rules/SKILL.md
+source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/ad-kill-rules/SKILL.md
+fetched_at: '2026-10-25T07:17:12.313980+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T08:53:49.397545Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba960 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deba960 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:05.935561Z'
+indexed_at: '2026-10-25T12:12:05.935566Z'
+---

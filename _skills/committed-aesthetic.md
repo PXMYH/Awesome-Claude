@@ -1,0 +1,43 @@
+---
+id: committed-aesthetic
+slug: committed-aesthetic
+name: A committed aesthetic beats a catalogue
+description: 'Related: [`skills/ui-ux-pro-max/SKILL.md`](../ui-ux-pro-max/SKILL.md)
+  is the'
+prompt_preview: "---\nname: committed-aesthetic\ndescription: \"How to write — and\
+  \ how to use — a skill that IS one aesthetic rather than a catalogue of them. A\
+  \ catalogue lets an agent pick, and it picks the modal option; a committed aesthetic\
+  \ makes it execute one thing precisely, against rules you can check. Use when a\
+  \ design keeps coming out competent and forgettable, when starting a new brand surface\
+  \ with no reference, or when authoring a house style you want executed the same\
+  \ way twice.\"\nwhen_to_use: |\n  Apply..."
+full_prompt_length: 6707
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: avelikiy/great_cto
+source_path: skills/committed-aesthetic/SKILL.md
+source_url: https://github.com/avelikiy/great_cto/blob/main/skills/committed-aesthetic/SKILL.md
+fetched_at: '2026-10-25T07:16:55.282536+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T08:39:20.285391Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8ea60830 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8ea60830 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:05.674301Z'
+indexed_at: '2026-10-25T12:12:05.674306Z'
+---

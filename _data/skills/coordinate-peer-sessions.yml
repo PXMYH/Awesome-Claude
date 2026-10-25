@@ -1,0 +1,42 @@
+id: coordinate-peer-sessions
+slug: coordinate-peer-sessions
+name: Coordinate Peer Sessions
+description: '- `commit-changes` -- explicit-path staging, which this skill depends
+  on'
+prompt_preview: "---\nname: coordinate-peer-sessions\ndescription: >\n  Coordinate\
+  \ safely with a peer interactive session sharing the same git\n  worktree — check\
+  \ first whether a separate worktree removes the problem, then\n  declare path and\
+  \ branch scope before the first edit, survive a contended\n  index lock, and review\
+  \ the whole branch before opening a PR. Activate when\n  starting work in a repository\
+  \ that may already be occupied, when a git\n  command fails with `index.lock: File\
+  \ exists`, when `guard:snapshot` ref..."
+full_prompt_length: 22854
+tools_mentioned:
+- rest
+category: community
+category_display: Community
+source_repo: pjt222/agent-almanac
+source_path: skills/coordinate-peer-sessions/SKILL.md
+source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/coordinate-peer-sessions/SKILL.md
+fetched_at: '2026-10-25T07:19:20.435604+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T10:37:06.447218Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1ebd0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1ebd0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:07.753671Z'
+indexed_at: '2026-10-25T12:12:07.753676Z'

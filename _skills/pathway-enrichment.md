@@ -2,39 +2,40 @@
 id: pathway-enrichment
 slug: pathway-enrichment
 name: Pathway Enrichment
-description: '- gseapy docs: https://gseapy.readthedocs.io/ · repo: https://github.com/zqfang/GSEApy'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: pathway-enrichment
 
-  description: Run pathway and gene-set enrichment analysis on gene lists or ranked
-  gene data, then interpret the results. Use whenever the user has a set of genes
+  description: Performs pathway and gene-set enrichment analysis on gene lists or
+  ranked gene data and interprets the results. Used when the user has a set of genes
   (differentially expressed genes from PyDESeq2/Scanpy, CRISPR-screen hits, cluster
   marker genes, proteomics hits) and wants to know which biological pathways, GO terms,
   or gene sets are over-represented or enriched. Covers over-representation analysis
-  (ORA / Enrichr / Fisher / hypergeometric), ranked Gene Set...'
-full_prompt_length: 12557
+  (ORA / Enrichr / Fisher / hypergeometric), ranked Gene Se...'
+full_prompt_length: 16651
 tools_mentioned:
-- go
 - Python
-- python
 - GO
+- python
+- go
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pathway-enrichment/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pathway-enrichment/SKILL.md
-fetched_at: '2026-08-02T05:25:35.003633+00:00'
+fetched_at: '2026-10-25T07:15:56.927801+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:49:49.356829Z'
+  evaluated_at: '2026-10-25T07:51:29.657389Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1ba40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e499700 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1ba40 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e499700 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.229950Z'
-indexed_at: '2026-08-02T09:26:13.229956Z'
+  fetched_at: '2026-10-25T12:12:04.832013Z'
+indexed_at: '2026-10-25T12:12:04.832017Z'
 ---

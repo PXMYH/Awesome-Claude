@@ -7,11 +7,11 @@ description: '- `/tiktok-launch-video`, `/reddit-launch-video`, `/linkedin-launc
 prompt_preview: "---\nname: video-to-gif\ndescription: Convert an MP4 (e.g. a HyperFrames\
   \ render or a screen recording) to a high-quality GIF using FFmpeg's two-pass palette\
   \ method. Picks the right preset for the target surface — Slack/DMs/Twitter/email/Reddit/GitHub\
-  \ — so you don't ship a 40MB GIF to a 5MB inbox.\nversion: \"1.0.0\"\nauthor: Cogny\
+  \ — so you don't ship a 40MB GIF to a 5MB inbox.\nversion: \"1.1.1\"\nauthor: Cogny\
   \ AI\nplatforms: [ffmpeg]\nuser-invocable: true\nargument-hint: \"<input.mp4> [target:\
   \ slack|twitter|reddit|email|github|web]\"\nallowed-tools:\n  - Bash\n  - Read\n\
   \  - Write\n---\n\n# Vi..."
-full_prompt_length: 7827
+full_prompt_length: 9332
 tools_mentioned:
 - go
 category: community
@@ -19,17 +19,17 @@ category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/video-to-gif/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/video-to-gif/SKILL.md
-fetched_at: '2026-08-02T05:27:18.725624+00:00'
+fetched_at: '2026-10-25T07:17:19.850728+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:54:23.210205Z'
+  evaluated_at: '2026-10-25T09:01:33.149005Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4b380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb99d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4b380 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb99d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.445365Z'
-indexed_at: '2026-08-02T09:26:14.445371Z'
+  fetched_at: '2026-10-25T12:12:06.074376Z'
+indexed_at: '2026-10-25T12:12:06.074382Z'
 ---

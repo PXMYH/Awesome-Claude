@@ -10,7 +10,7 @@ prompt_preview: "---\nname: intelligence-collection-disciplines\ndescription: \"
   \ community's collection playbook: eight independent disciplines,\n  each with free\
   \ and paid sources, signal-to-inference chains, and the PM artifact it feeds — then\
   \ fuse\n  them with confidence stacking so..."
-full_prompt_length: 26251
+full_prompt_length: 26249
 tools_mentioned:
 - React
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/intelligence-collection-disciplines/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/intelligence-collection-disciplines/SKILL.md
-fetched_at: '2026-08-02T05:27:34.201251+00:00'
+fetched_at: '2026-10-25T07:17:37.899305+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:04:51.113207Z'
+  evaluated_at: '2026-10-25T09:19:35.270788Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1ad80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056fc0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1ad80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056fc0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.636956Z'
-indexed_at: '2026-08-02T09:26:14.636963Z'
+  fetched_at: '2026-10-25T12:12:06.378300Z'
+indexed_at: '2026-10-25T12:12:06.378305Z'

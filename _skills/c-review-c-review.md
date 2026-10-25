@@ -2,7 +2,8 @@
 id: c-review-c-review
 slug: c-review-c-review
 name: C/C++ Security Review
-description: '- Every Phase-5 cluster task is `completed` (verify via `TaskList`).'
+description: Design rationale, the coverage gate's threat model and its known limitations
+  are in
 prompt_preview: '---
 
   name: c-review
@@ -12,8 +13,7 @@ prompt_preview: '---
   auditing native C/C++ applications, reviewing daemons or services for memory safety,
   or hunting integer overflow / use-after-free / race conditions in userspace code.
 
-  allowed-tools: Agent AskUserQuestion SendMessage TaskCreate TaskUpdate TaskList
-  Read Write Bash
+  allowed-tools: Workflow AskUserQuestion Bash Read
 
   ---
 
@@ -21,30 +21,29 @@ prompt_preview: '---
   # C/C++ Security Review
 
 
-  Runs in the main conver...'
-full_prompt_length: 39177
+  Resolve four parameters, make one `Workflow` call, return the report....'
+full_prompt_length: 13043
 tools_mentioned:
-- Go
 - Python
-- Rust
 - Java
-- rest
+- Rust
+- Go
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/c-review/skills/c-review/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/c-review/skills/c-review/SKILL.md
-fetched_at: '2026-08-02T05:31:13.509335+00:00'
+fetched_at: '2026-10-25T07:20:31.816926+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:13:48.295495Z'
+  evaluated_at: '2026-10-25T11:39:50.485540Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1e510 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b650 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1e510 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -54,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:17.057743Z'
-indexed_at: '2026-08-02T09:26:17.057749Z'
+  fetched_at: '2026-10-25T12:12:08.909405Z'
+indexed_at: '2026-10-25T12:12:08.909410Z'
 ---

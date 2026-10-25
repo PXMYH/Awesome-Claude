@@ -6,11 +6,11 @@ description: '- `manage-memory` — the complementary skill for organizing and g
 prompt_preview: "---\nname: prune-agent-memory\ndescription: >\n  Audit, classify,\
   \ and selectively forget stored memories. Covers memory\n  enumeration and classification\
   \ by type/age/access frequency, staleness\n  detection for outdated references,\
-  \ fidelity checks using external anchors,\n  a decision tree for selective deletion,\
-  \ counter-memory inoculation for\n  failed strategies that would otherwise be re-derived,\
-  \ preemptive filtering\n  rules for what should never become memories, and an audit\
-  \ trail so\n  forgetting i..."
-full_prompt_length: 25569
+  \ fidelity checks using external anchors,\n  a decision tree for selective withdrawal,\
+  \ tombstoned deaccession so removed\n  content stays recoverable, counter-memory\
+  \ inoculation for failed strategies\n  that would otherwise be re-derived, preemptive\
+  \ filtering rules for what\n  s..."
+full_prompt_length: 35851
 tools_mentioned:
 - rest
 - go
@@ -19,17 +19,17 @@ category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/prune-agent-memory/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/prune-agent-memory/SKILL.md
-fetched_at: '2026-08-02T05:30:07.895070+00:00'
+fetched_at: '2026-10-25T07:19:43.407343+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:37:11.638031Z'
+  evaluated_at: '2026-10-25T11:01:46.673857Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49520 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1c080 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49520 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1c080 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,5 +39,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.370800Z'
-indexed_at: '2026-08-02T09:26:16.370805Z'
+  fetched_at: '2026-10-25T12:12:08.204738Z'
+indexed_at: '2026-10-25T12:12:08.204743Z'

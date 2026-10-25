@@ -2,15 +2,26 @@
 id: pysam
 slug: pysam
 name: pysam
-description: '- Treating numeric `VariantFile.fetch()` coordinates as 1-based'
-prompt_preview: "---\nname: pysam\ndescription: Python/HTSlib workflows for genomic\
-  \ files. Use when reading, querying, filtering, or writing SAM/BAM/CRAM, VCF/BCF,\
-  \ FASTA/FASTQ, or tabix data with pysam, including pileup, coverage, indexing, and\
-  \ CRAM references.\nlicense: MIT\nallowed-tools: Read Write Edit Bash\ncompatibility:\
-  \ Requires Python 3.8–3.14 and pysam 0.24.0. Bundled scripts use local files. CRAM\
-  \ decoding may require the matching reference FASTA or an explicitly configured\
-  \ REF_PATH/REF_CACHE.\nmetadata:\n  ve..."
-full_prompt_length: 11585
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
+prompt_preview: '---
+
+  name: pysam
+
+  description: Provides Python/HTSlib workflows for genomic files. Used when reading,
+  querying, filtering, or writing SAM/BAM/CRAM, VCF/BCF, FASTA/FASTQ, or tabix data
+  with pysam, including pileup, coverage, indexing, and CRAM references.
+
+  license: MIT
+
+  allowed-tools: Read Write Edit Bash
+
+  compatibility: Requires Python 3.9+ and pysam 0.24.1. Bundled scripts use local
+  files. CRAM decoding may require the matching reference FASTA or an explicitly configured
+  REF_PATH/REF_CACHE.
+
+  metadata...'
+full_prompt_length: 13610
 tools_mentioned:
 - Python
 - python
@@ -19,17 +30,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pysam/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pysam/SKILL.md
-fetched_at: '2026-08-02T05:25:39.132833+00:00'
+fetched_at: '2026-10-25T07:15:59.615594+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:52:50.797880Z'
+  evaluated_at: '2026-10-25T07:54:39.018730Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acdcad50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee77d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acdcad50 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee77d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +50,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.288138Z'
-indexed_at: '2026-08-02T09:26:13.288144Z'
+  fetched_at: '2026-10-25T12:12:04.886312Z'
+indexed_at: '2026-10-25T12:12:04.886321Z'
 ---

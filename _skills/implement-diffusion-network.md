@@ -13,25 +13,25 @@ prompt_preview: "---\nname: implement-diffusion-network\ndescription: >\n  Imple
   \ or prototyping before..."
 full_prompt_length: 18315
 tools_mentioned:
+- python
 - Docker
 - go
-- python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/implement-diffusion-network/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/implement-diffusion-network/SKILL.md
-fetched_at: '2026-08-02T05:29:52.591454+00:00'
+fetched_at: '2026-10-25T07:19:33.227744+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:26:04.910171Z'
+  evaluated_at: '2026-10-25T10:50:48.257234Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee030 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debb3e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee030 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debb3e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.161234Z'
-indexed_at: '2026-08-02T09:26:16.161240Z'
+  fetched_at: '2026-10-25T12:12:08.001298Z'
+indexed_at: '2026-10-25T12:12:08.001303Z'
 ---

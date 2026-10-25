@@ -13,25 +13,25 @@ prompt_preview: "---\nname: practice-viriditas\ndescription: >\n  Guide viridita
   \ that integrates body and..."
 full_prompt_length: 14872
 tools_mentioned:
-- Rest
 - rest
+- Rest
 - go
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/practice-viriditas/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/practice-viriditas/SKILL.md
-fetched_at: '2026-08-02T05:30:06.440162+00:00'
+fetched_at: '2026-10-25T07:19:42.373775+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:36:06.443905Z'
+  evaluated_at: '2026-10-25T11:00:41.761314Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee6f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5880 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee6f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5880 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.350020Z'
-indexed_at: '2026-08-02T09:26:16.350025Z'
+  fetched_at: '2026-10-25T12:12:08.183950Z'
+indexed_at: '2026-10-25T12:12:08.183954Z'
 ---

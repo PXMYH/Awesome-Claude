@@ -23,17 +23,17 @@ category_display: Data Analytics
 source_repo: jacob-g-park/polaris-datainsight-doc-extract
 source_path: skills/polaris-datainsight-doc-extract/SKILL.md
 source_url: https://github.com/jacob-g-park/polaris-datainsight-doc-extract/blob/main/skills/polaris-datainsight-doc-extract/SKILL.md
-fetched_at: '2026-08-02T05:28:42.442769+00:00'
+fetched_at: '2026-10-25T07:18:30.119554+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:48:12.919926Z'
+  evaluated_at: '2026-10-25T10:05:30.037663Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4bd70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1f260 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4bd70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1f260 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.442764Z'
-indexed_at: '2026-08-02T09:26:15.442770Z'
+  fetched_at: '2026-10-25T12:12:07.196731Z'
+indexed_at: '2026-10-25T12:12:07.196735Z'
 ---

@@ -2,21 +2,22 @@
 id: statsmodels
 slug: statsmodels
 name: 'Statsmodels: Statistical Modeling and Econometrics'
-description: 'For detailed documentation and examples:'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: statsmodels
 
-  description: Statistical models library for Python. Use when you need specific model
-  classes (OLS, GLM, mixed models, ARIMA) with detailed diagnostics, residuals, and
-  inference. Best for econometrics, time series, rigorous inference with coefficient
-  tables. For guided statistical test selection with APA reporting use statistical-analysis.
+  description: Fits and diagnoses Python statistical models including OLS, GLM, discrete
+  and mixed models, ARIMA and SARIMAX. Supports coefficient inference, marginal effects,
+  model comparison and time series forecasting with explicit design and uncertainty
+  checks. Used for econometrics and statistical modeling; for guided test selection
+  with APA reporting, see statistical-analysis.
 
   allowed-tools: Read Write Edit Bash
 
-  compatibility: Requires Python 3.9+ and statsmodels 0.14.6-compatible dependencies.
-  Use `uv pip insta...'
-full_prompt_length: 9856
+  compatibility: Requires Python 3.10+ and statsmodels 0.15....'
+full_prompt_length: 12676
 tools_mentioned:
 - Python
 category: scientific
@@ -24,17 +25,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/statsmodels/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/statsmodels/SKILL.md
-fetched_at: '2026-08-02T05:25:44.581225+00:00'
+fetched_at: '2026-10-25T07:16:03.314395+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:56:52.099589Z'
+  evaluated_at: '2026-10-25T07:59:01.703398Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1aba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5610 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1aba0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5610 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.364377Z'
-indexed_at: '2026-08-02T09:26:13.364382Z'
+  fetched_at: '2026-10-25T12:12:04.962185Z'
+indexed_at: '2026-10-25T12:12:04.962190Z'
 ---

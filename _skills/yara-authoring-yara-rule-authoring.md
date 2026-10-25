@@ -2,9 +2,9 @@
 id: yara-authoring-yara-rule-authoring
 slug: yara-authoring-yara-rule-authoring
 name: YARA-X Rule Authoring
-description: '**Why this works:** Different indicator types have different confidence
-  levels. A single C2 domain might be definitive, while you need multiple library
-  imports to be confident. Grouping by `$a*`, `$b*...'
+description: '**macOS specifics:** Apple''s own production rules ship at `/System/Library/CoreServices/XProtect.bundle/`;
+  [objective-see](https://objective-see.org/) publishes macOS malware research and
+  samples.'
 prompt_preview: "---\nname: yara-rule-authoring\ndescription: >\n  Guides authoring\
   \ of high-quality YARA-X detection rules for malware identification.\n  Use when\
   \ writing, reviewing, or optimizing YARA rules. Covers naming conventions,\n  string\
@@ -12,26 +12,27 @@ prompt_preview: "---\nname: yara-rule-authoring\ndescription: >\n  Guides author
   \ positive reduction. Triggers on: YARA, YARA-X, malware detection, threat hunting,\n\
   \  IOC, signature, crx module, dex module.\n---\n\n# YARA-X Rule Authoring\n\nWrite\
   \ detection rules that catch malware with..."
-full_prompt_length: 26219
+full_prompt_length: 24678
 tools_mentioned:
-- Rust
+- rest
 - JavaScript
+- Rust
 category: security
 category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/yara-authoring/skills/yara-rule-authoring/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/yara-authoring/skills/yara-rule-authoring/SKILL.md
-fetched_at: '2026-08-02T05:31:34.157380+00:00'
+fetched_at: '2026-10-25T07:20:45.905695+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:22:39.832882Z'
+  evaluated_at: '2026-10-25T11:50:33.547850Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ac98b560 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056f60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ac98b560 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056f60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:17.224470Z'
-indexed_at: '2026-08-02T09:26:17.224476Z'
+  fetched_at: '2026-10-25T12:12:09.100801Z'
+indexed_at: '2026-10-25T12:12:09.100805Z'
 ---

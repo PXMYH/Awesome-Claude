@@ -1,0 +1,43 @@
+id: suede-social
+slug: suede-social
+name: Suede AI Organic Social
+description: '- Paid social campaigns, budgets, and targeting: `suede-ads`. Paid creative'
+prompt_preview: '---
+
+  name: suede-social
+
+  description: "Suede AI organic social system for founder and brand accounts: platform
+  mix, cross-platform calendars, 30-post account audits that separate views from follows,
+  leads, and sales, Instagram Reels, carousels, and Stories, LinkedIn and X posts
+  and threads, short-video scripts, social search optimization, listening, and a daily
+  approval-ready content loop. Use when planning, auditing, or producing organic social
+  on any platform, including Instagram-specific growth...'
+full_prompt_length: 14457
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-social/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-social/SKILL.md
+fetched_at: '2026-10-25T07:15:39.369531+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:35:15.802731Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e67c5c0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e67c5c0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.549730Z'
+indexed_at: '2026-10-25T12:12:04.549734Z'

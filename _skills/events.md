@@ -1,0 +1,48 @@
+---
+id: events
+slug: events
+name: Event Marketing
+description: '- **launch** — the event is a launch moment (announcement, Product Hunt,
+  go-live)'
+prompt_preview: '---
+
+  name: events
+
+  description: "When the user wants to plan, run, sponsor, speak at, or get pipeline
+  from events — webinars, conferences, trade shows, meetups, dinners, workshops, virtual
+  summits, or user conferences. Also use when the user mentions ''event marketing,''
+  ''field marketing,'' ''run a webinar,'' ''webinar funnel,'' ''show-up rate,'' ''should
+  we sponsor,'' ''sponsor a conference,'' ''trade show booth,'' ''booth strategy,''
+  ''event ROI,'' ''badge scans,'' ''event follow-up,'' ''speaking slot,'' ''CFP,''
+  ''confere...'
+full_prompt_length: 12021
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/events/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/events/SKILL.md
+fetched_at: '2026-10-25T07:17:23.825557+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:05:04.388391Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2d4740 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2d4740 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.130312Z'
+indexed_at: '2026-10-25T12:12:06.130316Z'
+---

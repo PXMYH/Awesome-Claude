@@ -1,0 +1,48 @@
+---
+id: metaskills-remove-technical-debt
+slug: metaskills-remove-technical-debt
+name: Remove Technical Debt
+description: 'Close the tracker: every phase `done` or `skipped: reason`, with remaining
+  Next Actions carried into the TECH-DEBT.md Debt Ledger so nothing is lost. Then
+  route forward: when the starting point was a ...'
+prompt_preview: '---
+
+  name: remove-technical-debt
+
+  description: ''Guided journey from a large aged codebase everyone fears to touch
+  to one that is safe to change, legible, bounded, and resilient - paid down in place
+  without a rewrite. Orchestrates eight skills phase by phase - working-with-legacy-code,
+  refactoring-patterns, clean-code, software-design-philosophy, clean-architecture,
+  pragmatic-programmer, release-it, domain-driven-design - asking the user questions
+  at every decision point and recording results in th...'
+full_prompt_length: 25072
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: wondelai/skills
+source_path: plugins/metaskills/skills/remove-technical-debt/SKILL.md
+source_url: https://github.com/wondelai/skills/blob/main/plugins/metaskills/skills/remove-technical-debt/SKILL.md
+fetched_at: '2026-10-25T07:20:53.271189+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T11:54:45.580257Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32d9a0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32d9a0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:09.170085Z'
+indexed_at: '2026-10-25T12:12:09.170093Z'
+---

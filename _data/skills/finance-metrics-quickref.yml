@@ -9,24 +9,24 @@ prompt_preview: "---\nname: finance-metrics-quickref\nargument-hint: \"[metric n
   \ Use this when you need a fast formula lookup, benchmark check, or decision framework\
   \ reminder. For detailed explanations, calculations, and examples, see the related\
   \ deep-dive skills.\ntype: compon..."
-full_prompt_length: 16288
+full_prompt_length: 16338
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/finance-metrics-quickref/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/finance-metrics-quickref/SKILL.md
-fetched_at: '2026-08-02T05:27:33.693319+00:00'
+fetched_at: '2026-10-25T07:17:37.588788+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:04:26.681527Z'
+  evaluated_at: '2026-10-25T09:19:10.736713Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee79b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee79b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.629249Z'
-indexed_at: '2026-08-02T09:26:14.629255Z'
+  fetched_at: '2026-10-25T12:12:06.370783Z'
+indexed_at: '2026-10-25T12:12:06.370788Z'

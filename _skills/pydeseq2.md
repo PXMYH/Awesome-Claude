@@ -2,15 +2,22 @@
 id: pydeseq2
 slug: pydeseq2
 name: PyDESeq2
-description: '- **Official Documentation:** https://pydeseq2.readthedocs.io'
-prompt_preview: "---\nname: pydeseq2\ndescription: Differential gene expression analysis\
-  \ for bulk RNA-seq with PyDESeq2, including formulaic designs, Wald tests, FDR correction,\
-  \ LFC shrinkage, and result visualization.\nallowed-tools: Read Write Edit Bash\n\
-  compatibility: Requires Python >=3.11 and PyDESeq2 0.5.4-compatible dependencies.\
-  \ Examples target PyDESeq2 0.5.x, formulaic design strings, explicit contrasts,\
-  \ and uv-based installs.\nlicense: MIT license\nmetadata:\n  version: \"1.3\"\n\
-  \  skill-author: K-Dense Inc.\n---..."
-full_prompt_length: 11800
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
+prompt_preview: '---
+
+  name: pydeseq2
+
+  description: Performs bulk RNA-seq differential expression analysis with PyDESeq2,
+  including count validation, formula designs, explicit contrasts, Wald tests, FDR
+  correction, coefficient-matched LFC shrinkage, and result visualization. Use for
+  PyDESeq2 or Python DESeq2 workflows with biological replicates.
+
+  allowed-tools: Read Write Edit Bash
+
+  compatibility: Requires Python >=3.11 and PyDESeq2 0.5.4. Tested current stack uses
+  Python 3.13 and AnnData 0.13.4 (which requires Pytho...'
+full_prompt_length: 10503
 tools_mentioned:
 - Python
 - python
@@ -19,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pydeseq2/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pydeseq2/SKILL.md
-fetched_at: '2026-08-02T05:25:37.660596+00:00'
+fetched_at: '2026-10-25T07:15:58.666145+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:51:45.139012Z'
+  evaluated_at: '2026-10-25T07:53:32.946853Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed0a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e430d40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed0a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e430d40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.267242Z'
-indexed_at: '2026-08-02T09:26:13.267248Z'
+  fetched_at: '2026-10-25T12:12:04.867298Z'
+indexed_at: '2026-10-25T12:12:04.867302Z'
 ---

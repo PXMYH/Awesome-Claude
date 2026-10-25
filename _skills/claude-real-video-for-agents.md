@@ -1,0 +1,59 @@
+---
+id: claude-real-video-for-agents
+slug: claude-real-video-for-agents
+name: claude-real-video for AI agents
+description: '- Video analysis and output generation run on your machine — the source
+  video never gets uploaded by the tool. If you then paste the extracted frames or
+  transcript into a cloud LLM, that data goes to ...'
+prompt_preview: '---
+
+  name: claude-real-video-for-agents
+
+  description: "Install and use crv (claude-real-video) — a tool that lets any AI
+  agent watch videos by extracting scene-aware keyframes, deduplicating them, and
+  transcribing audio. Use when the user shares a video URL or file and wants it analyzed,
+  summarized, or discussed."
+
+  ---
+
+
+  # claude-real-video for AI agents
+
+
+  ## What is crv?
+
+
+  `crv` (claude-real-video) is a CLI tool that extracts meaningful frames and transcripts
+  from videos so AI agents can "see" and "r...'
+full_prompt_length: 7977
+tools_mentioned:
+- Python
+- python
+category: community
+category_display: Community
+source_repo: HUANGCHIHHUNGLeo/claude-real-video
+source_path: skills/claude-real-video-for-agents/SKILL.md
+source_url: https://github.com/HUANGCHIHHUNGLeo/claude-real-video/blob/master/skills/claude-real-video-for-agents/SKILL.md
+fetched_at: '2026-10-25T07:15:28.384233+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:25:31.622007Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debb470 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debb470 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.389827Z'
+indexed_at: '2026-10-25T12:12:04.389832Z'
+---

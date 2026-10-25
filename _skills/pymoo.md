@@ -2,15 +2,23 @@
 id: pymoo
 slug: pymoo
 name: Pymoo - Multi-Objective Optimization in Python
-description: '**Common patterns:**'
-prompt_preview: "---\nname: pymoo\ndescription: Multi-objective optimization framework.\
-  \ NSGA-II, NSGA-III, MOEA/D, Pareto fronts, constraint handling, benchmarks (ZDT,\
-  \ DTLZ), for engineering design and optimization problems.\nlicense: Apache-2.0\
-  \ license\nallowed-tools: Read Write Edit Bash\ncompatibility: Requires Python 3.10+\
-  \ and pymoo (uv pip install). Optional matplotlib for visualization plots; optional\
-  \ autograd for gradient-based features; optional joblib for JoblibParallelization.\n\
-  metadata:\n  version: \"1.3\"\n  s..."
-full_prompt_length: 10508
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
+prompt_preview: '---
+
+  name: pymoo
+
+  description: Solves and validates single-, multi-, and many-objective optimization
+  with pymoo, including NSGA-II, NSGA-III, MOEA/D, constraints, Pareto approximations,
+  reference directions, and ZDT/DTLZ benchmarks for engineering and research problems.
+
+  license: Apache-2.0 license
+
+  allowed-tools: Read Write Edit Bash
+
+  compatibility: Requires Python 3.10+ and pymoo 0.6.2 with its NumPy, SciPy, matplotlib
+  and autograd dependencies. Optional joblib for parallel runners, optuna for its...'
+full_prompt_length: 14149
 tools_mentioned:
 - Python
 - python
@@ -19,17 +27,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pymoo/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pymoo/SKILL.md
-fetched_at: '2026-08-02T05:25:38.806218+00:00'
+fetched_at: '2026-10-25T07:15:59.372053+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:52:34.460587Z'
+  evaluated_at: '2026-10-25T07:54:22.833328Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b1a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056f60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b1a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056f60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.282975Z'
-indexed_at: '2026-08-02T09:26:13.282981Z'
+  fetched_at: '2026-10-25T12:12:04.881569Z'
+indexed_at: '2026-10-25T12:12:04.881574Z'
 ---

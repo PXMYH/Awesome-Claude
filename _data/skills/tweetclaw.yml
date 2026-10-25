@@ -1,23 +1,23 @@
 id: tweetclaw
 slug: tweetclaw
 name: TweetClaw
-description: 1. Confirm `SKILL.md` still has a narrow purpose, clear activation contexts,
-  declared capabilities, owner, license, output shape, risks, and mitigations.
+description: 1. Confirm its purpose, activation, capabilities, owner, license, output,
+  risks,
 prompt_preview: '---
 
   name: tweetclaw
 
-  description: "Safety-reviewed guide for the Xquik TweetClaw plugin. Not affiliated
-  with X Corp. Covers setup, approvals, credentials, private data, spending limits,
-  and monitors."
+  description: "Twitter bot guide for OpenClaw. Post, reply, search tweets, export
+  followers & monitor accounts through Xquik. Not affiliated with X Corp."
 
   homepage: https://xquik.com
 
-  read_when: ["Installing or configuring the TweetClaw OpenClaw plugin","Using Xquik
-  from OpenClaw with explicit user approval","Checking TweetClaw pricing, credentials,
-  permissions, or safety boundaries","Planning X/Twitter reads, writes, extractions,
-  draws, or monitors sa...'
-full_prompt_length: 29480
+  read_when: ["Installing or configuring TweetClaw","Using Xquik from OpenClaw with
+  explicit approval","Checking TweetClaw prices, credentials, permissions, or safety","Planning
+  X/Twitter reads, writes, exports, draws, or monitors"]
+
+  capabilities: {"tools":["explore","tweetclaw"],"network":["https://...'
+full_prompt_length: 12715
 tools_mentioned:
 - rest
 - go
@@ -26,17 +26,17 @@ category_display: Community
 source_repo: Xquik-dev/tweetclaw
 source_path: skills/tweetclaw/SKILL.md
 source_url: https://github.com/Xquik-dev/tweetclaw/blob/master/skills/tweetclaw/SKILL.md
-fetched_at: '2026-08-02T05:26:32.710413+00:00'
+fetched_at: '2026-10-25T07:16:43.383641+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:27:29.043642Z'
+  evaluated_at: '2026-10-25T08:32:50.047436Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48ce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6aeb40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48ce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6aeb40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.936804Z'
-indexed_at: '2026-08-02T09:26:13.936810Z'
+  fetched_at: '2026-10-25T12:12:05.558839Z'
+indexed_at: '2026-10-25T12:12:05.558845Z'

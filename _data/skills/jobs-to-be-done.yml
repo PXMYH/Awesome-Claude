@@ -9,24 +9,24 @@ prompt_preview: "---\nname: jobs-to-be-done\nargument-hint: \"[customer segment 
   \ are trying to accomplish (functional, social, emotional jobs), the pains they\
   \ experience, and the gains they seek. Use this framework to uncover unmet needs,\
   \ validate product ideas, and ensure your..."
-full_prompt_length: 13426
+full_prompt_length: 13907
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/jobs-to-be-done/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/jobs-to-be-done/SKILL.md
-fetched_at: '2026-08-02T05:27:34.389431+00:00'
+fetched_at: '2026-10-25T07:17:38.007036+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:04:59.515033Z'
+  evaluated_at: '2026-10-25T09:19:43.358308Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf45f70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9760 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf45f70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9760 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.639592Z'
-indexed_at: '2026-08-02T09:26:14.639598Z'
+  fetched_at: '2026-10-25T12:12:06.380862Z'
+indexed_at: '2026-10-25T12:12:06.380867Z'

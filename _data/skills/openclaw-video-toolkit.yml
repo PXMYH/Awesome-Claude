@@ -10,28 +10,29 @@ prompt_preview: "---\nname: video_toolkit\ndescription: Create professional vide
   ]\n    requires:\n      bins: [\"node\", \"python3\", \"ffmpeg\", \"npm\"]\n---\n\
   \n# Video Toolkit\n\nCreate professional explainer videos from a text brief. The\
   \ toolkit uses open-source AI models on cloud GPUs (Modal or RunPod) for..."
-full_prompt_length: 24107
+full_prompt_length: 24193
 tools_mentioned:
-- docker
-- React
 - typescript
+- docker
 - Python
+- python
+- React
 category: community
 category_display: Community
 source_repo: digitalsamba/claude-code-video-toolkit
 source_path: skills/openclaw-video-toolkit/SKILL.md
 source_url: https://github.com/digitalsamba/claude-code-video-toolkit/blob/main/skills/openclaw-video-toolkit/SKILL.md
-fetched_at: '2026-08-02T05:27:42.431795+00:00'
+fetched_at: '2026-10-25T07:17:42.922644+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:10:23.116147Z'
+  evaluated_at: '2026-10-25T09:25:17.301418Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee630 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8650 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee630 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8650 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,5 +42,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.738152Z'
-indexed_at: '2026-08-02T09:26:14.738159Z'
+  fetched_at: '2026-10-25T12:12:06.479955Z'
+indexed_at: '2026-10-25T12:12:06.479961Z'

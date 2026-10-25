@@ -11,20 +11,10 @@ prompt_preview: '---
   description: Smart contract development advisor based on Trail of Bits'' best practices.
   Analyzes codebase to generate documentation/specifications, review architecture,
   check upgradeability patterns, assess implementation quality, identify pitfalls,
-  review dependencies, and evaluate testing. Provides actionable recommendations.
-
-  ---
-
-
-  # Guidelines Advisor
-
-
-  ## Purpose
-
-
-  Systematically analyzes the codebase and provides guidance based on Trail of Bits''
-  development guideli...'
-full_prompt_length: 8484
+  review dependencies, and evaluate testing. Use when asking whether a smart contract
+  project follows development best practices, reviewing on-chain/off-chain split,
+  upgradeability, or delegatecall proxy patterns against gu...'
+full_prompt_length: 8750
 tools_mentioned:
 - Rust
 category: security
@@ -32,17 +22,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/building-secure-contracts/skills/guidelines-advisor/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/building-secure-contracts/skills/guidelines-advisor/SKILL.md
-fetched_at: '2026-08-02T05:31:11.582289+00:00'
+fetched_at: '2026-10-25T07:20:30.775952+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:12:51.059302Z'
+  evaluated_at: '2026-10-25T11:38:53.560417Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8ea48110 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18350 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8ea48110 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -52,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:17.039461Z'
-indexed_at: '2026-08-02T09:26:17.039466Z'
+  fetched_at: '2026-10-25T12:12:08.891654Z'
+indexed_at: '2026-10-25T12:12:08.891659Z'
 ---

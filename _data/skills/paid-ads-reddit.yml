@@ -1,0 +1,53 @@
+id: paid-ads-reddit
+slug: paid-ads-reddit
+name: Canonical NotFair workflow
+description: Read [`../../paid-ads/paid-ads-reddit/WORKFLOW.md`](../../paid-ads/paid-ads-reddit/WORKFLOW.md)
+  completely, then follow it as the active workflow. Normalize that path from the
+  directory containing thi...
+prompt_preview: '---
+
+  name: paid-ads-reddit
+
+  description: Audit, diagnose, and safely operate connected Reddit Ads accounts through
+  the NotFair MCP. Use for Reddit advertising, Reddit Ads performance, campaign or
+  ad-group analysis, spend, conversions, targeting, audiences, pixels, budgets, bids,
+  creative, campaign setup, or approved Reddit Ads changes.
+
+  argument-hint: "<account, campaign, date range, or Reddit Ads goal>"
+
+  ---
+
+
+  # Canonical NotFair workflow
+
+
+  Read [`../../paid-ads/paid-ads-reddit/WORKFLOW.md`](../../pa...'
+full_prompt_length: 1041
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: nowork-studio/NotFair
+source_path: skills/paid-ads-reddit/SKILL.md
+source_url: https://github.com/nowork-studio/NotFair/blob/main/skills/paid-ads-reddit/SKILL.md
+fetched_at: '2026-10-25T07:18:56.507071+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T10:21:11.598180Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32cf80 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32cf80 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:07.473106Z'
+indexed_at: '2026-10-25T12:12:07.473110Z'

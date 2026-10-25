@@ -6,10 +6,10 @@ prompt_preview: '---
 
   name: expo-native-ui
 
-  description: Framework (OSS). Build beautiful, native-feeling Expo screens. Covers
-  Apple HIG styling, semantic colors, native controls, SF Symbols, media, animations,
-  visual effects, gradients, storage, and responsive layout. For routing and navigation,
-  use the expo-router skill.
+  description: Build beautiful, native-feeling Expo screens. Covers Apple HIG styling,
+  semantic colors, native controls, SF Symbols, media, visual effects, gradients,
+  storage, and responsive layout. For routing and navigation, use the expo-router
+  skill; for motion and animation, use the expo-animation skill.
 
   version: 1.1.1
 
@@ -22,35 +22,30 @@ prompt_preview: '---
 
 
   For routes, links, stacks, tabs, modals, sheets, and headers, use the `expo-router`
-  skill.
-
-
-  ## References
-
-
-  Consult these resources a...'
-full_prompt_length: 8812
+  skill. For any motion...'
+full_prompt_length: 12580
 tools_mentioned:
-- react
-- SQLite
-- React
+- sqlite
 - Go
+- React
+- SQLite
+- react
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-native-ui/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-native-ui/SKILL.md
-fetched_at: '2026-08-02T05:27:46.644826+00:00'
+fetched_at: '2026-10-25T07:17:46.505961+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:12:34.111118Z'
+  evaluated_at: '2026-10-25T09:27:51.378615Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4a7e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1f2c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4a7e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1f2c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -60,5 +55,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.778533Z'
-indexed_at: '2026-08-02T09:26:14.778538Z'
+  fetched_at: '2026-10-25T12:12:06.525329Z'
+indexed_at: '2026-10-25T12:12:06.525335Z'

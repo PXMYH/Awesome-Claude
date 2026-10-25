@@ -1,0 +1,43 @@
+id: onboarding
+slug: onboarding
+name: Onboarding CRO
+description: '- **signup**: For optimizing the signup before onboarding'
+prompt_preview: '---
+
+  name: onboarding
+
+  description: When the user wants to optimize post-signup onboarding, user activation,
+  first-run experience, or time-to-value. Also use when the user mentions "onboarding
+  flow," "activation rate," "user activation," "first-run experience," "empty states,"
+  "onboarding checklist," "aha moment," "new user experience," "users aren''t activating,"
+  "nobody completes setup," "low activation rate," "users sign up but don''t use the
+  product," "time to value," or "first session experienc...'
+full_prompt_length: 11520
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/onboarding/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/onboarding/SKILL.md
+fetched_at: '2026-10-25T07:17:25.185904+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:06:50.365601Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5970 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5970 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.157238Z'
+indexed_at: '2026-10-25T12:12:06.157242Z'

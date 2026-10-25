@@ -6,38 +6,43 @@ prompt_preview: '---
 
   name: expo-web-to-native
 
-  description: Framework (OSS). Migrate an existing web React app to a native iOS/Android
-  app with Expo. Use when the user wants to turn a website into a mobile app, port
-  a Next.js/Vite/CRA React codebase to React Native, reuse web code on native incrementally,
-  or asks how web idioms (the DOM, CSS, React Router, localStorage, window) map to
-  native. This is the end-to-end migration guide; use the `expo-dom` skill for the
-  DOM-component mechanism itself.
+  description: Migrate an existing web React app to a native iOS/Android app with
+  Expo. Use when the user wants to turn a website into a mobile app, port a Next.js/Vite/CRA
+  React codebase to React Native, reuse web code on native incrementally, or asks
+  how web idioms (the DOM, CSS, React Router, localStorage, window) map to native.
+  This is the end-to-end migration guide; use the `expo-dom` skill for the DOM-component
+  mechanism itself.
 
   version: 1.0.0
 
-  li...'
-full_prompt_length: 10117
+  license: MIT
+
+  ---
+
+
+  #...'
+full_prompt_length: 10331
 tools_mentioned:
-- React
-- react
 - rest
 - Go
+- React
+- react
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-web-to-native/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-web-to-native/SKILL.md
-fetched_at: '2026-08-02T05:27:47.764479+00:00'
+fetched_at: '2026-10-25T07:17:47.143539+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:13:31.893183Z'
+  evaluated_at: '2026-10-25T09:28:39.929971Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49eb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1e1b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49eb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1e1b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,5 +52,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.796376Z'
-indexed_at: '2026-08-02T09:26:14.796382Z'
+  fetched_at: '2026-10-25T12:12:06.540952Z'
+indexed_at: '2026-10-25T12:12:06.540957Z'

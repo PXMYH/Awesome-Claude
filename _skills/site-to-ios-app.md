@@ -1,0 +1,45 @@
+---
+id: site-to-ios-app
+slug: site-to-ios-app
+name: Site to iOS App
+description: '- Android version of the same product → `android-app-factory`, then'
+prompt_preview: '---
+
+  name: site-to-ios-app
+
+  description: "Suede AI workflow for turning a live website, PWA, dashboard, or marketplace
+  into an iOS app. Use when the user has a site or web app and asks to put it on the
+  App Store, wrap it in an app, ship an iOS version, or convert a PWA to native. Produces
+  SITE_TO_IOS_AUDIT.md and SITE_TO_IOS_PLAN.md: URL audit, shell-vs-native strategy,
+  App Store Guideline 4.2 wrapper risk and the native value that mitigates it, current
+  SDK, privacy manifest, age rating, login and...'
+full_prompt_length: 7142
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/site-to-ios-app/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/site-to-ios-app/SKILL.md
+fetched_at: '2026-10-25T07:15:32.270144+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:27:25.382852Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e625160 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e625160 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.423793Z'
+indexed_at: '2026-10-25T12:12:04.423798Z'
+---

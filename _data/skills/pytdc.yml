@@ -1,24 +1,24 @@
 id: pytdc
 slug: pytdc
 name: PyTDC (Therapeutics Data Commons)
-description: '- [references/datasets.md](references/datasets.md) — task discovery,
-  data access,'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: pytdc
 
-  description: Use Therapeutics Data Commons through the PyTDC Python package for
-  registry discovery, approved dataset access, task-aware splits, evaluator metrics,
-  benchmark groups, and bounded molecular-oracle workflows.
+  description: Provides Therapeutics Data Commons workflows through PyTDC for registry
+  discovery, dataset access, task-aware splits, evaluator metrics, benchmark groups,
+  and bounded molecular-oracle scoring. Use when working with TDC therapeutic ML datasets
+  or benchmarks.
 
   license: MIT
 
   allowed-tools: Read Write Edit Bash
 
   compatibility: Requires uv, CPython 3.11, PyTDC 1.1.15, and setuptools 80.9.0 for
-  its legacy pkg_resources runtime import. Dataset, benchmark, checkpoint, and remote-oracle
-  operations require network/storage review...'
-full_prompt_length: 12362
+  its legacy pkg_resources runtime import. Network access and disk space are needed...'
+full_prompt_length: 14648
 tools_mentioned:
 - Python
 - python
@@ -27,17 +27,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/pytdc/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/pytdc/SKILL.md
-fetched_at: '2026-08-02T05:25:39.302673+00:00'
+fetched_at: '2026-10-25T07:15:59.735798+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:52:58.956633Z'
+  evaluated_at: '2026-10-25T07:54:47.126197Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed1f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee76b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed1f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee76b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,5 +47,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.290752Z'
-indexed_at: '2026-08-02T09:26:13.290757Z'
+  fetched_at: '2026-10-25T12:12:04.888711Z'
+indexed_at: '2026-10-25T12:12:04.888715Z'

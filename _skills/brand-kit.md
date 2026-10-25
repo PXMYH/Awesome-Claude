@@ -13,7 +13,7 @@ prompt_preview: '---
   discovery paths so it works whether the user has access to their site''s source
   code or only a public URL or just a logo image.
 
-  version: "1.0.0"
+  version: "1.1.1"
 
   author: Cogny AI
 
@@ -24,24 +24,26 @@ prompt_preview: '---
   argument-hint: "<site URL | repo path | logo path | nothing for interview>"
 
   allowed-tools:...'
-full_prompt_length: 13586
-tools_mentioned: []
+full_prompt_length: 18500
+tools_mentioned:
+- rest
+- go
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/brand-kit/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/brand-kit/SKILL.md
-fetched_at: '2026-08-02T05:27:10.030546+00:00'
+fetched_at: '2026-10-25T07:17:12.457652+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:48:06.224375Z'
+  evaluated_at: '2026-10-25T08:53:57.492965Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19d60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9b20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19d60 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9b20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,6 +53,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.319821Z'
-indexed_at: '2026-08-02T09:26:14.319826Z'
+  fetched_at: '2026-10-25T12:12:05.937764Z'
+indexed_at: '2026-10-25T12:12:05.937769Z'
 ---

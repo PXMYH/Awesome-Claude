@@ -1,0 +1,42 @@
+id: image-seo
+slug: image-seo
+name: Canonical NotFair workflow
+description: Read [`../../seo/image-seo/WORKFLOW.md`](../../seo/image-seo/WORKFLOW.md)
+  completely, then follow it as the active workflow. Resolve every relative reference
+  from that file against `../../seo/image-se...
+prompt_preview: "---\nname: image-seo\nargument-hint: \"<website URL or page URL,\
+  \ e.g. https://example.com/products>\"\ndescription: >\n  Image SEO audit — make\
+  \ a site's images discoverable in Google Images and stop\n  them from dragging down\
+  \ Core Web Vitals. Audits alt text quality and coverage,\n  descriptive file names,\
+  \ modern formats (WebP/AVIF), dimensions and compression,\n  responsive srcset,\
+  \ lazy-loading, explicit width/height (CLS), image sitemaps,\n  and ImageObject\
+  \ structured data. Use this skill whenever the u..."
+full_prompt_length: 1257
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: nowork-studio/NotFair
+source_path: skills/image-seo/SKILL.md
+source_url: https://github.com/nowork-studio/NotFair/blob/main/skills/image-seo/SKILL.md
+fetched_at: '2026-10-25T07:18:54.900769+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T10:19:10.031746Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32d0d0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32d0d0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:07.440330Z'
+indexed_at: '2026-10-25T12:12:07.440335Z'

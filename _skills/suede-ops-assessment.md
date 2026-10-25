@@ -1,0 +1,47 @@
+---
+id: suede-ops-assessment
+slug: suede-ops-assessment
+name: Suede Ops Assessment
+description: '- Need the schema, write paths, automation-versus-agent calls, and build
+  order'
+prompt_preview: '---
+
+  name: suede-ops-assessment
+
+  description: "Suede AI operations-assessment discipline that maps how work actually
+  happens before anyone designs a system: floor-level interviews with the people who
+  do the work, an inventory of every silo including spreadsheets and inboxes used
+  as databases, friction quantified in the requester''s own numbers, opportunities
+  ranked by annual value against build complexity, and adoption watched for the thirty
+  days after launch. Use when nobody can answer what to aut...'
+full_prompt_length: 12669
+tools_mentioned:
+- rest
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-ops-assessment/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-ops-assessment/SKILL.md
+fetched_at: '2026-10-25T07:15:37.168595+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:32:49.302193Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8bc0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8bc0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.512271Z'
+indexed_at: '2026-10-25T12:12:04.512275Z'
+---

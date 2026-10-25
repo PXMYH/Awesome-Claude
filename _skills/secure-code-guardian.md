@@ -13,7 +13,7 @@ prompt_preview: '---
   statements, configuring CORS/CSP headers, validating input with Zod, and setting
   up JWT tokens. Invoke for authentication, authorization, input validation, encryption,
   OWASP Top 10 prevention, secure session...'
-full_prompt_length: 7018
+full_prompt_length: 7194
 tools_mentioned:
 - Node.js
 - typescript
@@ -22,17 +22,17 @@ category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/secure-code-guardian/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/secure-code-guardian/SKILL.md
-fetched_at: '2026-08-02T05:28:53.967570+00:00'
+fetched_at: '2026-10-25T07:18:38.216391+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:51:57.358996Z'
+  evaluated_at: '2026-10-25T10:09:16.680632Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaec710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056f30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaec710 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056f30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.513792Z'
-indexed_at: '2026-08-02T09:26:15.513799Z'
+  fetched_at: '2026-10-25T12:12:07.265190Z'
+indexed_at: '2026-10-25T12:12:07.265195Z'
 ---

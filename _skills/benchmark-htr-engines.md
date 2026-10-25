@@ -13,26 +13,26 @@ prompt_preview: "---\nname: benchmark-htr-engines\ndescription: >\n  Select an O
   \ token diff. Use when\n  ch..."
 full_prompt_length: 19126
 tools_mentioned:
-- REST
 - rest
 - Python
+- REST
 - python
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/benchmark-htr-engines/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/benchmark-htr-engines/SKILL.md
-fetched_at: '2026-08-02T05:29:25.476382+00:00'
+fetched_at: '2026-10-25T07:19:14.950550+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:06:14.101074Z'
+  evaluated_at: '2026-10-25T10:30:57.233217Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49dc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1fc50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb49dc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1fc50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +42,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.789051Z'
-indexed_at: '2026-08-02T09:26:15.789056Z'
+  fetched_at: '2026-10-25T12:12:07.643935Z'
+indexed_at: '2026-10-25T12:12:07.643941Z'
 ---

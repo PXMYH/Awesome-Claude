@@ -1,0 +1,42 @@
+id: meta-ads
+slug: meta-ads
+name: Canonical NotFair workflow
+description: 'Read [`../../meta-ads/manage/WORKFLOW.md`](../../meta-ads/manage/WORKFLOW.md)
+  completely, then follow it as the active workflow. Normalize that path from the
+  directory containing this wrapper: the can...'
+prompt_preview: "---\nname: meta-ads\ndescription: Manage Meta Ads (Facebook + Instagram)\
+  \ — performance, ROAS, CPM, frequency, audience overlap, learning phase, creative\
+  \ fatigue, budgets, ad sets, campaigns, ads. Use for any mention of Meta Ads, Facebook\
+  \ Ads, Instagram Ads, ROAS, CPM, ad spend, or campaign settings on Meta.\nargument-hint:\
+  \ \"<campaign / ad set name, or 'show performance'>\"\ntriggers:\n  - meta ads\n\
+  \  - facebook ads\n  - instagram ads\n  - meta campaigns\n  - ad sets\n  - ROAS\n\
+  \  - CPM\n  - link CTR\n  - frequ..."
+full_prompt_length: 1315
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: nowork-studio/NotFair
+source_path: skills/meta-ads/SKILL.md
+source_url: https://github.com/nowork-studio/NotFair/blob/main/skills/meta-ads/SKILL.md
+fetched_at: '2026-10-25T07:18:55.427562+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T10:19:50.514367Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1d760 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1d760 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:07.451557Z'
+indexed_at: '2026-10-25T12:12:07.451561Z'

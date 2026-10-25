@@ -10,24 +10,24 @@ prompt_preview: "---\nname: outcome-roadmap\ndescription: \"Transform an output-
   \ what success looks like vs what will be built.\"\nwhen_to_use: |\n  Apply when:\n\
   \  - CTO provides a feature list and asks \"what should we do next quarter\"\n \
   \ - pm agent receives a roadmap ful..."
-full_prompt_length: 5170
+full_prompt_length: 5175
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: avelikiy/great_cto
 source_path: skills/outcome-roadmap/SKILL.md
 source_url: https://github.com/avelikiy/great_cto/blob/main/skills/outcome-roadmap/SKILL.md
-fetched_at: '2026-08-02T05:26:46.687216+00:00'
+fetched_at: '2026-10-25T07:16:56.831739+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:34:00.241872Z'
+  evaluated_at: '2026-10-25T08:40:57.718160Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6ae6c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b050 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e6ae6c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.058405Z'
-indexed_at: '2026-08-02T09:26:14.058414Z'
+  fetched_at: '2026-10-25T12:12:05.703319Z'
+indexed_at: '2026-10-25T12:12:05.703324Z'
 ---

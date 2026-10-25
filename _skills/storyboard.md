@@ -10,7 +10,7 @@ prompt_preview: "---\nname: storyboard\nargument-hint: \"[user and problem]\"\nd
   \ journey from problem to solution, using the classic storytelling arc to build\
   \ empathy, illustrate value, and make abstract product concepts concrete. Use this\
   \ to align stakeholders, pitch f..."
-full_prompt_length: 11742
+full_prompt_length: 12155
 tools_mentioned:
 - react
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/storyboard/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/storyboard/SKILL.md
-fetched_at: '2026-08-02T05:27:39.823429+00:00'
+fetched_at: '2026-10-25T07:17:41.248528+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:09:00.803769Z'
+  evaluated_at: '2026-10-25T09:23:55.531057Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6ea0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48590 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6ea0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.713004Z'
-indexed_at: '2026-08-02T09:26:14.713009Z'
+  fetched_at: '2026-10-25T12:12:06.455179Z'
+indexed_at: '2026-10-25T12:12:06.455184Z'
 ---

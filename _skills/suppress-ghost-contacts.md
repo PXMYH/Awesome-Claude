@@ -10,7 +10,7 @@ prompt_preview: "---\nname: suppress-ghost-contacts\ndescription: \"Identify and
   \ version: \"1.1\"\n  category: database-hygiene\n---\n\n# Suppress Ghost Contacts\
   \ (Delivered, Never Opened)\n\n## Purpose\n\nGhost contacts have received marketing\
   \ emails but have never opened a single on..."
-full_prompt_length: 18220
+full_prompt_length: 18454
 tools_mentioned:
 - Python
 - python
@@ -19,17 +19,17 @@ category_display: Community
 source_repo: TomGranot/hubspot-admin-skills
 source_path: skills/suppress-ghost-contacts/SKILL.md
 source_url: https://github.com/TomGranot/hubspot-admin-skills/blob/main/skills/suppress-ghost-contacts/SKILL.md
-fetched_at: '2026-08-02T05:25:59.031583+00:00'
+fetched_at: '2026-10-25T07:16:17.576766+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:05:10.572430Z'
+  evaluated_at: '2026-10-25T08:09:37.552113Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4b320 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056f30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4b320 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056f30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.522291Z'
-indexed_at: '2026-08-02T09:26:13.522296Z'
+  fetched_at: '2026-10-25T12:12:05.147503Z'
+indexed_at: '2026-10-25T12:12:05.147511Z'
 ---

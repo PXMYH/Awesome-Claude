@@ -13,32 +13,32 @@ prompt_preview: '---
   Shopify themes, creating Hydrogen or custom React storefronts, developing Shopify
   apps, implementing checkout UI extensions or Shopify Functions, optimizing performance,
   or integrating third-party services. Invoke for Liqu...'
-full_prompt_length: 7100
+full_prompt_length: 7276
 tools_mentioned:
-- React
+- TypeScript
+- typescript
 - GraphQL
 - graphql
-- REST
-- react
 - Node.js
-- typescript
-- TypeScript
+- REST
+- React
+- react
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/shopify-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/shopify-expert/SKILL.md
-fetched_at: '2026-08-02T05:28:54.263682+00:00'
+fetched_at: '2026-10-25T07:18:38.444139+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:52:14.981689Z'
+  evaluated_at: '2026-10-25T10:09:32.853881Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaefe30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee67e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaefe30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee67e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -48,6 +48,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.519019Z'
-indexed_at: '2026-08-02T09:26:15.519025Z'
+  fetched_at: '2026-10-25T12:12:07.270119Z'
+indexed_at: '2026-10-25T12:12:07.270124Z'
 ---

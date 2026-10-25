@@ -1,0 +1,48 @@
+---
+id: metaskills-design-code-architecture
+slug: metaskills-design-code-architecture
+name: Design Code Architecture
+description: 'Close the tracker: every phase `done` or `skipped: reason`, with remaining
+  Next Actions carried into the ARCHITECTURE.md Decision Log and TECH-DEBT.md so nothing
+  is lost. Then route forward: when the ...'
+prompt_preview: '---
+
+  name: design-code-architecture
+
+  description: ''Guided journey from an app idea to a deliberate architecture: boundaries,
+  domain model, data decisions, and resilience, making only the expensive-to-reverse
+  decisions and deferring the rest. Orchestrates eight skills phase by phase - clean-architecture,
+  domain-driven-design, system-design, ddia-systems, software-design-philosophy, release-it,
+  pragmatic-programmer, 37signals-way - asking the user questions at every decision
+  point and recording resu...'
+full_prompt_length: 26821
+tools_mentioned:
+- rest
+category: community
+category_display: Community
+source_repo: wondelai/skills
+source_path: plugins/metaskills/skills/design-code-architecture/SKILL.md
+source_url: https://github.com/wondelai/skills/blob/main/plugins/metaskills/skills/design-code-architecture/SKILL.md
+fetched_at: '2026-10-25T07:20:52.295501+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T11:53:40.815769Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32cf20 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32cf20 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:09.153314Z'
+indexed_at: '2026-10-25T12:12:09.153318Z'
+---

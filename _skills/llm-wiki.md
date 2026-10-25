@@ -2,37 +2,38 @@
 id: llm-wiki
 slug: llm-wiki
 name: LLM Wiki
-description: '- `assets/SCHEMA.md.template` — the canonical schema document for a
-  new wiki'
+description: The bundled `eval/evolution/pilot/suite.json` and corpus provide 20 query
+  tasks as a starting point. `scripts/wiki_evolve_claude.py` is an optional authenticated
+  Claude CLI adapter; other models use t...
 prompt_preview: "---\nname: llm-wiki\ndescription: |\n  Build and maintain an LLM-curated\
-  \ personal knowledge base — the \"LLM Wiki\" pattern from Andrej Karpathy's April\
-  \ 2026 gist. Use this skill whenever the user wants to ingest a source (paper, article,\
-  \ transcript, PDF, notes) into a persistent compounding knowledge base, ask a question\
-  \ against accumulated notes, lint or audit such a base, or initialize a new one.\
-  \ Trigger on phrases like \"add this to my wiki\", \"ingest this paper\", \"compile\
-  \ this into the knowledge b..."
-full_prompt_length: 20183
+  \ knowledge base from papers, articles, transcripts, notes and project findings.\
+  \ Ingest sources into linked Markdown, answer questions with citations, lint or\
+  \ upgrade a wiki, and preserve useful synthesis across sessions and agents. Also\
+  \ capture verified task experience, consolidate success/failure patterns, and propose,\
+  \ evaluate, apply or roll back evidence-linked skill improvements. Trigger on \"\
+  add this to my wiki\", \"what does..."
+full_prompt_length: 22691
 tools_mentioned:
-- SQLite
 - rest
-- sqlite
+- SQLite
 - python
+- sqlite
 category: community
 category_display: Community
 source_repo: praneybehl/llm-wiki-plugin
 source_path: skills/llm-wiki/SKILL.md
 source_url: https://github.com/praneybehl/llm-wiki-plugin/blob/main/skills/llm-wiki/SKILL.md
-fetched_at: '2026-08-02T05:30:30.223681+00:00'
+fetched_at: '2026-10-25T07:19:59.314791+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:52:35.377283Z'
+  evaluated_at: '2026-10-25T11:17:17.191168Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb485f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5ac0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb485f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5ac0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,6 +43,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.659213Z'
-indexed_at: '2026-08-02T09:26:16.659219Z'
+  fetched_at: '2026-10-25T12:12:08.498611Z'
+indexed_at: '2026-10-25T12:12:08.498616Z'
 ---

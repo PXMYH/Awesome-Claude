@@ -1,0 +1,47 @@
+---
+id: social
+slug: social
+name: Social Content
+description: '- **copywriting**: For longer-form content that feeds social'
+prompt_preview: '---
+
+  name: social
+
+  description: "When the user wants help creating, scheduling, or optimizing social
+  media content for LinkedIn, Twitter/X, Instagram, TikTok, or Facebook, or wants
+  to do social listening and engagement triage. Also use when the user mentions ''LinkedIn
+  post,'' ''Twitter thread,'' ''social media,'' ''content calendar,'' ''social scheduling,''
+  ''engagement,'' ''viral content,'' ''what should I post,'' ''repurpose this content,''
+  ''tweet ideas,'' ''LinkedIn carousel,'' ''social media strategy,'' ''grow my fo...'
+full_prompt_length: 18243
+tools_mentioned:
+- rest
+- go
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/social/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/social/SKILL.md
+fetched_at: '2026-10-25T07:17:26.805292+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:08:52.504469Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1cf80 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1cf80 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.187636Z'
+indexed_at: '2026-10-25T12:12:06.187640Z'
+---

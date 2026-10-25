@@ -10,24 +10,24 @@ prompt_preview: "---\nname: discover-interview-synthesis\ndescription: Synthesiz
   \ which summarizes one internal meeting for its attendees; this skill aggregates\
   \ research conversations into evidence-backed findings.\nlicense: Apache-2.0\nmetadata:\n\
   \  phase: discover..."
-full_prompt_length: 4182
+full_prompt_length: 5374
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/discover-interview-synthesis/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/discover-interview-synthesis/SKILL.md
-fetched_at: '2026-08-02T05:30:33.967867+00:00'
+fetched_at: '2026-10-25T07:20:02.056524+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:54:54.306948Z'
+  evaluated_at: '2026-10-25T11:19:37.880653Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaedfa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4140 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaedfa0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4140 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.701868Z'
-indexed_at: '2026-08-02T09:26:16.701873Z'
+  fetched_at: '2026-10-25T12:12:08.540698Z'
+indexed_at: '2026-10-25T12:12:08.540703Z'
 ---

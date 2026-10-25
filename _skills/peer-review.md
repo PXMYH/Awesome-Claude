@@ -2,15 +2,14 @@
 id: peer-review
 slug: peer-review
 name: Peer Review
-description: The source ledger is dated. Recheck live primary sources and the target
-  venue policy for a later review, without exposing confidential manuscript text in
-  search queries.
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: peer-review
 
-  description: Prepare evidence-bounded, constructive peer-review drafts and structured
-  manuscript assessments. Use for authorized review of scientific manuscripts, protocols,
+  description: Prepares evidence-bounded, constructive peer-review drafts and structured
+  manuscript assessments. Supports authorized review of scientific manuscripts, protocols,
   preprints, or research proposals; reporting-guideline selection; claim–evidence
   checks; methods, statistics, reproducibility, ethics, figure/table, and citation
   critique; or revision-response planning.
@@ -18,8 +17,8 @@ prompt_preview: '---
   license: MIT
 
   compatibility: Python 3.11+ standard library. Bundled CLIs are deterministic and
-  local-on...'
-full_prompt_length: 11593
+  local-...'
+full_prompt_length: 13807
 tools_mentioned:
 - Python
 category: scientific
@@ -27,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/peer-review/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/peer-review/SKILL.md
-fetched_at: '2026-08-02T05:25:35.332209+00:00'
+fetched_at: '2026-10-25T07:15:57.030535+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:50:05.790998Z'
+  evaluated_at: '2026-10-25T07:51:37.752010Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad0b22d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e4d2510 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad0b22d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e4d2510 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.235231Z'
-indexed_at: '2026-08-02T09:26:13.235236Z'
+  fetched_at: '2026-10-25T12:12:04.834435Z'
+indexed_at: '2026-10-25T12:12:04.834439Z'
 ---

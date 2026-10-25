@@ -1,0 +1,43 @@
+id: suede-sms
+slug: suede-sms
+name: Suede AI SMS Programs
+description: '- Use `suede-emails` for the email side of a coordinated lifecycle program.'
+prompt_preview: '---
+
+  name: suede-sms
+
+  description: "Suede AI SMS and MMS marketing discipline: whether SMS fits, consent-aware
+  flows (welcome, cart recovery, post-purchase, win-back), exact message copy with
+  segment counts, cadence and quiet hours, number types and platforms, and measurement,
+  checked against current TCPA opt-out rules and A2P 10DLC registration. Use when
+  evaluating SMS as a channel, designing or auditing a text message program, or drafting
+  texts. NOT FOR: email campaigns (use suede-emails), phone...'
+full_prompt_length: 18145
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-sms/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-sms/SKILL.md
+fetched_at: '2026-10-25T07:15:39.239004+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:35:07.688465Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6540 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6540 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.547644Z'
+indexed_at: '2026-10-25T12:12:04.547649Z'

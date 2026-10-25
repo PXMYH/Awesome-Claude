@@ -9,7 +9,7 @@ prompt_preview: "---\nname: saas-economics-efficiency-metrics\nargument-hint: \"
   \ and capital-efficient. Use this to calculate unit economics, assess profitability,\
   \ manage cash runway, and decide when to scale vs. optimize. Essential for fundraising,\
   \ board reporting, and..."
-full_prompt_length: 25675
+full_prompt_length: 25726
 tools_mentioned:
 - go
 category: community
@@ -17,17 +17,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/saas-economics-efficiency-metrics/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/saas-economics-efficiency-metrics/SKILL.md
-fetched_at: '2026-08-02T05:27:38.781940+00:00'
+fetched_at: '2026-10-25T07:17:40.648599+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:08:11.833164Z'
+  evaluated_at: '2026-10-25T09:23:06.948159Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18ad0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5220 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18ad0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5220 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.697523Z'
-indexed_at: '2026-08-02T09:26:14.697528Z'
+  fetched_at: '2026-10-25T12:12:06.440393Z'
+indexed_at: '2026-10-25T12:12:06.440398Z'

@@ -2,21 +2,22 @@
 id: exploratory-data-analysis
 slug: exploratory-data-analysis
 name: Exploratory Data Analysis
-description: '- Python [`csv`](https://docs.python.org/3/library/csv.html) and'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: exploratory-data-analysis
 
-  description: "Perform bounded, local exploratory analysis of explicitly supported
-  scientific files. Use for redacted CSV/TSV/JSON profiles; optional NumPy, HDF5,
+  description: "Performs bounded, local exploratory analysis of explicitly supported
+  scientific files. Supports redacted CSV/TSV/JSON profiles; optional NumPy, HDF5,
   FASTA/FASTQ, and basic image metadata inspection; missingness/leakage audits; outlier
   and transformation sensitivity; and rigorous EDA report scaffolds. Other domain
   formats are reference-only and unknown formats fail closed."
 
   license: MIT
 
-  compatibility: Bundled core CLIs require Python 3.11+ and are...'
-full_prompt_length: 12627
+  compatibility: Bundled core CLIs require Python 3.11+ and ar...'
+full_prompt_length: 14716
 tools_mentioned:
 - Python
 - python
@@ -25,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/exploratory-data-analysis/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/exploratory-data-analysis/SKILL.md
-fetched_at: '2026-08-02T05:25:25.141662+00:00'
+fetched_at: '2026-10-25T07:15:49.111029+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:42:10.386624Z'
+  evaluated_at: '2026-10-25T07:42:50.294814Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18b00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e264530 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18b00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e264530 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +46,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.084754Z'
-indexed_at: '2026-08-02T09:26:13.084760Z'
+  fetched_at: '2026-10-25T12:12:04.681216Z'
+indexed_at: '2026-10-25T12:12:04.681220Z'
 ---

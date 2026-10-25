@@ -1,0 +1,52 @@
+---
+id: customer-language
+slug: customer-language
+name: Customer Language
+description: 1. **Distinct companies (CRM) or distinct people (community), not mentions.**
+  Either can qualify a cluster.
+prompt_preview: '---
+
+  name: customer-language
+
+  description: Mine your CRM''s call notes, meeting notes, support tickets and lost-deal
+  reasons (HubSpot, Pipedrive or Upsales), support chats (Crisp), community threads
+  (Discord) and YouTube comments for the exact words customers use to describe their
+  problems — clustered, counted by distinct company (CRM) or distinct person (community),
+  with labelled quotes — and write a weekly customer-language report every other marketing
+  agent builds from
+
+  version: "1.2.3"
+
+  author: C...'
+full_prompt_length: 19158
+tools_mentioned:
+- rest
+- go
+category: community
+category_display: Community
+source_repo: cognyai/claude-code-marketing-skills
+source_path: skills/customer-language/SKILL.md
+source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/customer-language/SKILL.md
+fetched_at: '2026-10-25T07:17:13.974176+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T08:55:27.076171Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4620 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4620 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:05.963562Z'
+indexed_at: '2026-10-25T12:12:05.963567Z'
+---

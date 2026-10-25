@@ -1,42 +1,42 @@
 id: imaging-data-commons
 slug: imaging-data-commons
 name: Imaging Data Commons
-description: 'This skill version is available in skill metadata. To check for updates:'
+description: '- **IDC Portal**: https://portal.imaging.datacommons.cancer.gov/explore/'
 prompt_preview: '---
 
   name: imaging-data-commons
 
-  description: Query and download public cancer imaging data from NCI Imaging Data
-  Commons using idc-index. Use for accessing large-scale radiology (CT, MR, PET) and
-  pathology datasets for AI training or research. No authentication required. Query
-  by metadata, visualize in browser, check licenses.
+  description: Queries and downloads public cancer imaging data from NCI Imaging Data
+  Commons. Supports IDC collection discovery, DICOM access, radiology (CT, MR, PET)
+  and pathology AI datasets, metadata SQL, visualization, licensing, and citations.
+  Uses public metadata and download routes without authentication; optional BigQuery
+  and Google Healthcare routes require Google credentials.
 
-  license: This skill is provided under the MIT License. IDC data itself has individual
-  licensing (mostly CC-BY, some CC-NC) that must be respected when using the data.
-
-  metad...'
-full_prompt_length: 23131
+  compatibility: Requires network access for hosted APIs, index fetching, citations...'
+full_prompt_length: 31332
 tools_mentioned:
+- go
 - AWS
 - Python
 - python
 - GCP
+- REST
 category: scientific
 category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/imaging-data-commons/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/imaging-data-commons/SKILL.md
-fetched_at: '2026-08-02T05:25:28.381126+00:00'
+fetched_at: '2026-10-25T07:15:51.706125+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:44:40.418162Z'
+  evaluated_at: '2026-10-25T07:45:40.770119Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed640 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057b00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed640 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057b00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.132012Z'
-indexed_at: '2026-08-02T09:26:13.132018Z'
+  fetched_at: '2026-10-25T12:12:04.730432Z'
+indexed_at: '2026-10-25T12:12:04.730436Z'

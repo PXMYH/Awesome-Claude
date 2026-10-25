@@ -1,0 +1,53 @@
+id: google-ads-assets
+slug: google-ads-assets
+name: Canonical NotFair workflow
+description: 'Read [`../../google-ads/assets/WORKFLOW.md`](../../google-ads/assets/WORKFLOW.md)
+  completely, then follow it as the active workflow. Normalize that path from the
+  directory containing this wrapper: the...'
+prompt_preview: '---
+
+  name: google-ads-assets
+
+  description: Plan, validate, and safely publish Google Ads assets, including sitelinks,
+  callouts, structured snippets, image assets, and Performance Max asset briefs. Use
+  when asked for Google Ads assets, ad extensions, sitelinks, callouts, snippets,
+  image assets, Performance Max assets, PMax creative, or an asset audit.
+
+  argument-hint: "<campaign, asset group, or ''build an asset brief''>"
+
+  ---
+
+
+  # Canonical NotFair workflow
+
+
+  Read [`../../google-ads/assets/WORKFLOW.md`](....'
+full_prompt_length: 1020
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: nowork-studio/NotFair
+source_path: skills/google-ads-assets/SKILL.md
+source_url: https://github.com/nowork-studio/NotFair/blob/main/skills/google-ads-assets/SKILL.md
+fetched_at: '2026-10-25T07:18:54.128930+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T10:18:21.368567Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1de50 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1de50 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:07.427505Z'
+indexed_at: '2026-10-25T12:12:07.427509Z'

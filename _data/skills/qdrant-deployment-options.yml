@@ -21,27 +21,27 @@ prompt_preview: '---
 
   Start with what you need: managed ops or full control? Network latency acceptable
   or not? Production o...'
-full_prompt_length: 3200
+full_prompt_length: 4052
 tools_mentioned:
-- Docker
 - Python
 - Kubernetes
+- Docker
 category: community
 category_display: Community
 source_repo: qdrant/skills
 source_path: skills/qdrant-deployment-options/SKILL.md
 source_url: https://github.com/qdrant/skills/blob/main/skills/qdrant-deployment-options/SKILL.md
-fetched_at: '2026-08-02T05:30:44.617032+00:00'
+fetched_at: '2026-10-25T07:20:09.646151+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:02:08.618177Z'
+  evaluated_at: '2026-10-25T11:26:47.749292Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb188f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32cd10 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb188f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32cd10 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -51,5 +51,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.839780Z'
-indexed_at: '2026-08-02T09:26:16.839786Z'
+  fetched_at: '2026-10-25T12:12:08.673386Z'
+indexed_at: '2026-10-25T12:12:08.673391Z'

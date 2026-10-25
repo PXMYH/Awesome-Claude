@@ -3,14 +3,19 @@ slug: testing-handbook-skills-constant-time-testing
 name: Constant-Time Testing
 description: '- [Trail of Bits: Constant-Time Programming](https://www.youtube.com/watch?v=vW6wqTzfz5g)
   - Overview of constant-time programming principles and tools'
-prompt_preview: "---\nname: constant-time-testing\ntype: domain\ndescription: >\n\
-  \  Constant-time testing detects timing side channels in cryptographic code.\n \
-  \ Use when auditing crypto implementations for timing vulnerabilities.\n---\n\n\
-  # Constant-Time Testing\n\nTiming attacks exploit variations in execution time to\
-  \ extract secret information from cryptographic implementations. Unlike cryptanalysis\
-  \ that targets theoretical weaknesses, timing attacks leverage implementation flaws\
-  \ - and they can affect any cryptographic co..."
-full_prompt_length: 20621
+prompt_preview: '---
+
+  name: constant-time-testing
+
+  type: domain
+
+  description: "Measures timing side channels in cryptographic implementations by
+  running them, using dudect for statistical analysis and Timecop over Valgrind for
+  dynamic tracing. Covers the formal, symbolic, dynamic, and statistical tool categories
+  and how to read a result. Use when testing whether a running implementation is constant-time,
+  measuring timing variance on a compiled binary, or investigating a suspected timing
+  attack. Not for statically i...'
+full_prompt_length: 20990
 tools_mentioned:
 - aws
 category: security
@@ -18,17 +23,17 @@ category_display: Security
 source_repo: trailofbits/skills
 source_path: plugins/testing-handbook-skills/skills/constant-time-testing/SKILL.md
 source_url: https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/constant-time-testing/SKILL.md
-fetched_at: '2026-08-02T05:31:27.640302+00:00'
+fetched_at: '2026-10-25T07:20:42.338623+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:18:54.783822Z'
+  evaluated_at: '2026-10-25T11:46:44.805227Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1be90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9c40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1be90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9c40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +43,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:17.154450Z'
-indexed_at: '2026-08-02T09:26:17.154455Z'
+  fetched_at: '2026-10-25T12:12:09.030489Z'
+indexed_at: '2026-10-25T12:12:09.030494Z'

@@ -10,24 +10,24 @@ prompt_preview: "---\nname: proto-persona\nargument-hint: \"[target user or segm
   \ available user research, market data, and stakeholder knowledge into a working\
   \ hypothesis about your target user. Use this to align teams early in product development,\
   \ guide initial desi..."
-full_prompt_length: 12668
+full_prompt_length: 13113
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/proto-persona/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/proto-persona/SKILL.md
-fetched_at: '2026-08-02T05:27:38.249022+00:00'
+fetched_at: '2026-10-25T07:17:40.319176+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:07:47.082536Z'
+  evaluated_at: '2026-10-25T09:22:42.681951Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb193a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8140 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb193a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb8140 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +37,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.690043Z'
-indexed_at: '2026-08-02T09:26:14.690048Z'
+  fetched_at: '2026-10-25T12:12:06.433259Z'
+indexed_at: '2026-10-25T12:12:06.433264Z'
 ---

@@ -1,0 +1,48 @@
+---
+id: product-innovation-continuous-discovery
+slug: product-innovation-continuous-discovery
+name: Continuous Discovery Habits Framework
+description: '**Teresa Torres** is an author, speaker, and coach who has helped hundreds
+  of product teams — from startups to Capital One and Calendly — adopt continuous
+  discovery. She created the Opportunity Soluti...'
+prompt_preview: '---
+
+  name: continuous-discovery
+
+  description: ''Build a weekly cadence of customer touchpoints using Opportunity
+  Solution Trees, assumption mapping, and interview snapshots. Use when the user mentions
+  "continuous discovery", "opportunity solution tree", "weekly interviews", "assumption
+  testing", "discovery habits", "product trio", "outcome-based roadmap", "how do I
+  talk to customers regularly", "we keep building things nobody uses", or "connect
+  research to the roadmap". Also trigger when setting up...'
+full_prompt_length: 15184
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: wondelai/skills
+source_path: plugins/product-innovation/skills/continuous-discovery/SKILL.md
+source_url: https://github.com/wondelai/skills/blob/main/plugins/product-innovation/skills/continuous-discovery/SKILL.md
+fetched_at: '2026-10-25T07:20:53.697748+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T11:55:01.882355Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debbf20 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debbf20 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:09.174428Z'
+indexed_at: '2026-10-25T12:12:09.174432Z'
+---

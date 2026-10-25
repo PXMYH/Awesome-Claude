@@ -10,7 +10,7 @@ prompt_preview: "---\nname: session-start\ndescription: Runs the session startup
   \  - bitwize-music-mcp\n---\n\n## Your Task\n\nRun the full session start procedure\
   \ and report project status to the user.\n\n---\n\n# Session Start Skill\n\nYou\
   \ perform the 8-step session startup procedu..."
-full_prompt_length: 7311
+full_prompt_length: 7863
 tools_mentioned:
 - python
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: bitwize-music-studio/claude-ai-music-skills
 source_path: skills/session-start/SKILL.md
 source_url: https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/skills/session-start/SKILL.md
-fetched_at: '2026-08-02T05:27:01.173419+00:00'
+fetched_at: '2026-10-25T07:17:05.459725+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:43:06.521847Z'
+  evaluated_at: '2026-10-25T08:49:05.560343Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf44170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1d250 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acf44170 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1d250 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.228193Z'
-indexed_at: '2026-08-02T09:26:14.228198Z'
+  fetched_at: '2026-10-25T12:12:05.849611Z'
+indexed_at: '2026-10-25T12:12:05.849616Z'
 ---

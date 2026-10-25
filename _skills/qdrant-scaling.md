@@ -2,32 +2,36 @@
 id: qdrant-scaling
 slug: qdrant-scaling
 name: Qdrant Scaling
-description: Read more about scaling for query volume in [Scaling for Query Volume](scaling-query-volume/SKILL.md)
-prompt_preview: "---\nname: qdrant-scaling\ndescription: \"Guides Qdrant scaling decisions.\
-  \ Use when someone asks 'how many nodes do I need', 'data doesn't fit on one node',\
-  \ 'need more throughput', 'cluster is slow', 'too many tenants', 'vertical or horizontal',\
-  \ 'how to shard', or 'need to add capacity'.\"\nallowed-tools:\n  - Read\n  - Grep\n\
-  \  - Glob\n---\n\n# Qdrant Scaling\n\nFirst determine what you're scaling for:\n\
-  \n- data volume\n- query throughput (QPS)\n- query latency\n- query volume\n\nAfter\
-  \ determining the scaling goal,..."
-full_prompt_length: 1866
+description: Latency and throughput pull opposite ways on segment count.
+prompt_preview: '---
+
+  name: qdrant-scaling
+
+  description: "Guides Qdrant scaling decisions. Use when someone asks ''how many
+  nodes do I need'', ''data doesn''t fit on one node'', ''need more throughput or
+  QPS'', ''CPU is pegged / can''t keep up with the request rate'', ''one query is
+  slow / p99 or tail latency too high'', ''cluster is slow'', ''too many tenants'',
+  ''vertical or horizontal'', ''how to shard'', ''need to add capacity'', ''large
+  limit / pagination / scroll is slow'', or ''only recent data matters / expiring
+  old vectors / rete...'
+full_prompt_length: 2404
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: qdrant/skills
 source_path: skills/qdrant-scaling/SKILL.md
 source_url: https://github.com/qdrant/skills/blob/main/skills/qdrant-scaling/SKILL.md
-fetched_at: '2026-08-02T05:30:45.773538+00:00'
+fetched_at: '2026-10-25T07:20:10.647973+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:02:57.676339Z'
+  evaluated_at: '2026-10-25T11:28:00.482273Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef950 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6db0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef950 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6db0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -37,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.855338Z'
-indexed_at: '2026-08-02T09:26:16.855345Z'
+  fetched_at: '2026-10-25T12:12:08.697700Z'
+indexed_at: '2026-10-25T12:12:08.697704Z'
 ---

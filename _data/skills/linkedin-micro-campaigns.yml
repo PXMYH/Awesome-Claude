@@ -1,32 +1,33 @@
 id: linkedin-micro-campaigns
 slug: linkedin-micro-campaigns
 name: LinkedIn Micro Campaigns
-description: 'Action types for micro-campaigns:'
+description: Use `create_ticket` when the workspace has it (Cloud) and `create_finding`
+  otherwise (Solo).
 prompt_preview: "---\nname: linkedin-micro-campaigns\ndescription: Create precision-targeted\
   \ LinkedIn ad campaigns for specific ICP segments — translates CRM data to LinkedIn\
-  \ targeting\nversion: \"1.0.0\"\nauthor: Cogny AI\nplatforms: [hubspot, linkedin-ads]\n\
-  user-invocable: true\nargument-hint: \"<ICP description or segment>\"\nallowed-tools:\n\
-  \  # HubSpot CRM tools (for ICP data extraction)\n  - mcp__cogny__hubspot__*\n \
-  \ # LinkedIn Ads tools\n  - mcp__cogny__linkedin_ads__*\n  # Findings\n  - mcp__cogny__create_finding\n\
-  \  - Bash..."
-full_prompt_length: 12256
-tools_mentioned: []
+  \ targeting\nversion: \"1.1.1\"\nrequires: cogny-mcp\nauthor: Cogny AI\nplatforms:\
+  \ [hubspot, pipedrive, upsales, fibbler, linkedin-ads]\nuser-invocable: true\nargument-hint:\
+  \ \"<ICP description or segment>\"\nallowed-tools:\n  # CRM tools for ICP data extraction\
+  \ (all read-only)\n\n  - mcp__cogny__refresh_mcp_discovery\n  - mcp__cogny__mcp__HubSpot__get_user_de..."
+full_prompt_length: 19728
+tools_mentioned:
+- rest
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/linkedin-micro-campaigns/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/linkedin-micro-campaigns/SKILL.md
-fetched_at: '2026-08-02T05:27:15.638817+00:00'
+fetched_at: '2026-10-25T07:17:17.011994+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:52:04.182743Z'
+  evaluated_at: '2026-10-25T08:58:34.540951Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef7a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debae70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaef7a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debae70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +37,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.401362Z'
-indexed_at: '2026-08-02T09:26:14.401372Z'
+  fetched_at: '2026-10-25T12:12:06.020964Z'
+indexed_at: '2026-10-25T12:12:06.020969Z'

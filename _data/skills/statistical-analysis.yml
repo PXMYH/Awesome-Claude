@@ -1,8 +1,8 @@
 id: statistical-analysis
 slug: statistical-analysis
 name: Statistical Analysis
-description: 1. **Distinguish confirmatory from exploratory.** State the planned analysis
-  before running it; label anything discovered along the way as exploratory.
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: statistical-analysis
@@ -13,7 +13,7 @@ prompt_preview: '---
   experimental or survey data, check statistical assumptions, compute required sample
   sizes, or write up results - even if they never name a specific test. Covers t-tests,
   ANOVA, chi-square, correlation, regression, non...'
-full_prompt_length: 19884
+full_prompt_length: 23549
 tools_mentioned:
 - Python
 - python
@@ -22,17 +22,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/statistical-analysis/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/statistical-analysis/SKILL.md
-fetched_at: '2026-08-02T05:25:44.225071+00:00'
+fetched_at: '2026-10-25T07:16:03.091806+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:56:35.781999Z'
+  evaluated_at: '2026-10-25T07:58:44.209701Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad122bd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debade0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad122bd0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debade0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +42,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.359175Z'
-indexed_at: '2026-08-02T09:26:13.359184Z'
+  fetched_at: '2026-10-25T12:12:04.957321Z'
+indexed_at: '2026-10-25T12:12:04.957330Z'

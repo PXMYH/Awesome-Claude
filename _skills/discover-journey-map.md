@@ -17,24 +17,24 @@ prompt_preview: '---
   license: Apache-2.0
 
   m...'
-full_prompt_length: 11724
+full_prompt_length: 11980
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: product-on-purpose/pm-skills
 source_path: skills/discover-journey-map/SKILL.md
 source_url: https://github.com/product-on-purpose/pm-skills/blob/main/skills/discover-journey-map/SKILL.md
-fetched_at: '2026-08-02T05:30:34.167055+00:00'
+fetched_at: '2026-10-25T07:20:02.203673+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:55:02.452415Z'
+  evaluated_at: '2026-10-25T11:19:45.980144Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a120 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee68d0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a120 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee68d0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,6 +44,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.704374Z'
-indexed_at: '2026-08-02T09:26:16.704379Z'
+  fetched_at: '2026-10-25T12:12:08.543128Z'
+indexed_at: '2026-10-25T12:12:08.543133Z'
 ---

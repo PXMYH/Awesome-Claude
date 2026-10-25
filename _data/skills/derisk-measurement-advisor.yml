@@ -9,7 +9,7 @@ prompt_preview: "---\nname: derisk-measurement-advisor\nargument-hint: \"[produc
   \ structured risk scan across **10 dimensions** — 4 internal\n  (Desirability, Usability,\
   \ Feasibility, Viability) and 6 external (Political, Economic, Social,\n  Technological,\
   \ Environmental, Legal) — to ide..."
-full_prompt_length: 23471
+full_prompt_length: 23501
 tools_mentioned:
 - rest
 - go
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/derisk-measurement-advisor/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/derisk-measurement-advisor/SKILL.md
-fetched_at: '2026-08-02T05:27:31.862354+00:00'
+fetched_at: '2026-10-25T07:17:36.001563+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:03:00.371257Z'
+  evaluated_at: '2026-10-25T09:17:09.359257Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad1de5a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad1de5a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.603966Z'
-indexed_at: '2026-08-02T09:26:14.603974Z'
+  fetched_at: '2026-10-25T12:12:06.335424Z'
+indexed_at: '2026-10-25T12:12:06.335428Z'

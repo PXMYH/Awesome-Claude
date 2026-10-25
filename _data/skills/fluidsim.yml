@@ -1,22 +1,22 @@
 id: fluidsim
 slug: fluidsim
 name: FluidSim
-description: Verified 2026-07-23 against
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: fluidsim
 
-  description: Plan, configure, inspect, restart, and analyze bounded FluidSim computational-fluid-dynamics
-  simulations with explicit numerical-validity and HPC safety checks. Use for FluidSim
-  solver selection, parameter review, FFT/MPI setup, output diagnostics, or restart
-  compatibility.
+  description: Plans, configures, inspects, restarts, and analyzes bounded FluidSim
+  computational-fluid-dynamics simulations with explicit numerical-validity and HPC
+  safety checks. Use for FluidSim solver selection, parameter review, FFT/MPI setup,
+  output diagnostics, or restart compatibility.
 
   license: MIT
 
   compatibility: Bundled CLIs require Python 3.11+ and use the standard library; HDF5/netCDF4
-  metadata tools lazily use h5py when available. Simulation examples target fluidsim
-  0.9.0...'
-full_prompt_length: 11580
+  metadata tools lazily use h5py when available. Simulation examples target fluidsim...'
+full_prompt_length: 13983
 tools_mentioned:
 - Python
 - python
@@ -25,17 +25,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/fluidsim/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/fluidsim/SKILL.md
-fetched_at: '2026-08-02T05:25:25.482777+00:00'
+fetched_at: '2026-10-25T07:15:49.596159+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:42:26.729871Z'
+  evaluated_at: '2026-10-25T07:43:23.012016Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeeea0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e7df560 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaeeea0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e7df560 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,5 +45,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.089943Z'
-indexed_at: '2026-08-02T09:26:13.089949Z'
+  fetched_at: '2026-10-25T12:12:04.690096Z'
+indexed_at: '2026-10-25T12:12:04.690100Z'

@@ -1,0 +1,46 @@
+---
+id: ship-checklist
+slug: ship-checklist
+name: ship-checklist - every write needs a read path an agent can find
+description: Create a TodoWrite item per relevant row, or paste the A-F headers into
+  the PR
+prompt_preview: '---
+
+  name: ship-checklist
+
+  description: Definition-of-done checklist for shipping a new write, signal, table,
+  edge, or query to the ax graph. Use when adding a SurrealDB table/edge/field, an
+  ingest derive-stage, a new analytic query, or any new ax capability - before opening
+  the PR. Ensures every write gets an on-demand read AND a proactive (agent-facing)
+  read AND docs/distribution, not just the write. Triggers on "ship", "new signal",
+  "new table/edge", "new lens/query", "wire this up", "is this d...'
+full_prompt_length: 3489
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: Necmttn/ax
+source_path: skills/ship-checklist/SKILL.md
+source_url: https://github.com/Necmttn/ax/blob/main/skills/ship-checklist/SKILL.md
+fetched_at: '2026-10-25T07:16:07.761578+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T08:02:48.286213Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057c50 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057c50 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:05.026074Z'
+indexed_at: '2026-10-25T12:12:05.026079Z'
+---

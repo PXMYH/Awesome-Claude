@@ -9,24 +9,24 @@ prompt_preview: "---\nname: customer-journey-mapping-workshop\nargument-hint: \"
   \ managers through creating a customer journey map by asking adaptive questions\
   \ about the actor (persona), scenario/goal, journey phases, actions/emotions, and\
   \ opportunities for improvement. U..."
-full_prompt_length: 18568
+full_prompt_length: 18626
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/customer-journey-mapping-workshop/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/customer-journey-mapping-workshop/SKILL.md
-fetched_at: '2026-08-02T05:27:31.716259+00:00'
+fetched_at: '2026-10-25T07:17:35.885614+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:02:52.215901Z'
+  evaluated_at: '2026-10-25T09:17:01.281406Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19790 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee57c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb19790 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee57c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.601430Z'
-indexed_at: '2026-08-02T09:26:14.601436Z'
+  fetched_at: '2026-10-25T12:12:06.332745Z'
+indexed_at: '2026-10-25T12:12:06.332750Z'

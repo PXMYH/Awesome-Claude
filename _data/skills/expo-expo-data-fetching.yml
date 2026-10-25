@@ -6,9 +6,9 @@ prompt_preview: '---
 
   name: expo-data-fetching
 
-  description: Framework (OSS). Use when implementing or debugging ANY network request,
-  API call, or data fetching. Covers fetch API, React Query, SWR, error handling,
-  caching, offline support, and Expo Router data loaders (`useLoaderData`).
+  description: Use when implementing or debugging ANY network request, API call, or
+  data fetching. Covers fetch API, React Query, SWR, error handling, caching, offline
+  support, loading/empty/error screen states, and Expo Router data loaders (`useLoaderData`).
 
   version: 1.0.0
 
@@ -27,34 +27,29 @@ prompt_preview: '---
   ## References
 
 
-  Consult these resources as needed:
-
-
-  ```
-
-  r...'
-full_prompt_length: 11186
+  Consult these resources...'
+full_prompt_length: 13656
 tools_mentioned:
-- react
 - TypeScript
 - React
 - JavaScript
+- react
 category: community
 category_display: Community
 source_repo: expo/skills
 source_path: plugins/expo/skills/expo-data-fetching/SKILL.md
 source_url: https://github.com/expo/skills/blob/main/plugins/expo/skills/expo-data-fetching/SKILL.md
-fetched_at: '2026-08-02T05:27:45.869725+00:00'
+fetched_at: '2026-10-25T07:17:45.827096+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:11:53.264748Z'
+  evaluated_at: '2026-10-25T09:27:02.861097Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7800 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb48200 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7800 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -64,5 +59,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.766023Z'
-indexed_at: '2026-08-02T09:26:14.766029Z'
+  fetched_at: '2026-10-25T12:12:06.510698Z'
+indexed_at: '2026-10-25T12:12:06.510703Z'

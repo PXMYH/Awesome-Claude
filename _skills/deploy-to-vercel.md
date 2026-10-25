@@ -12,26 +12,26 @@ prompt_preview: "---\nname: deploy-to-vercel\ndescription: >\n  Deploy a Next.js
   metadata:\n  author: Ph..."
 full_prompt_length: 6431
 tools_mentioned:
-- Node.js
-- typescript
 - TypeScript
+- Node.js
 - Go
+- typescript
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/deploy-to-vercel/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/deploy-to-vercel/SKILL.md
-fetched_at: '2026-08-02T05:29:40.212729+00:00'
+fetched_at: '2026-10-25T07:19:24.819126+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:16:55.328735Z'
+  evaluated_at: '2026-10-25T10:41:49.969985Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad3eb2f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057e90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad3eb2f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057e90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -41,6 +41,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.991183Z'
-indexed_at: '2026-08-02T09:26:15.991188Z'
+  fetched_at: '2026-10-25T12:12:07.838895Z'
+indexed_at: '2026-10-25T12:12:07.838899Z'
 ---

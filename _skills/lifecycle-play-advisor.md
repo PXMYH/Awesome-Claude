@@ -1,0 +1,43 @@
+---
+id: lifecycle-play-advisor
+slug: lifecycle-play-advisor
+name: Lifecycle Play Advisor
+description: '### Provenance'
+prompt_preview: "---\nname: lifecycle-play-advisor\nargument-hint: \"[product that's\
+  \ fading, and what makes you think so]\"\ndescription: \"Diagnose where a product\
+  \ sits in its lifecycle and which play fits — extend, replace, or retire. Use when\
+  \ a product is fading and you need the call, not just the worry.\"\nintent: >-\n\
+  \  Guided triage for a product at the mature-to-decline inflection. Establishes\
+  \ the lifecycle stage\n  from the transition questions, identifies what is actually\
+  \ driving the pressure, tests the\n  extensio..."
+full_prompt_length: 17414
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: deanpeters/Product-Manager-Skills
+source_path: skills/lifecycle-play-advisor/SKILL.md
+source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/lifecycle-play-advisor/SKILL.md
+fetched_at: '2026-10-25T07:17:38.194574+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:19:59.527225Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056fc0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e056fc0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.385600Z'
+indexed_at: '2026-10-25T12:12:06.385605Z'
+---

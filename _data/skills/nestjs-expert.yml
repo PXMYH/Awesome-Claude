@@ -12,29 +12,29 @@ prompt_preview: '---
   scaffolding modular architecture, adding JWT/Passport authentication, integrating
   TypeORM or Prisma, or working with .module.ts, .controller.ts, and .service.ts files.
   Invoke for guards, interceptors, pipes, validation, Swagg...'
-full_prompt_length: 7662
+full_prompt_length: 7838
 tools_mentioned:
-- GraphQL
-- REST
-- Node.js
-- typescript
 - TypeScript
+- typescript
+- GraphQL
+- Node.js
+- REST
 category: community
 category_display: Community
 source_repo: jeffallan/claude-skills
 source_path: skills/nestjs-expert/SKILL.md
 source_url: https://github.com/jeffallan/claude-skills/blob/main/skills/nestjs-expert/SKILL.md
-fetched_at: '2026-08-02T05:28:51.625995+00:00'
+fetched_at: '2026-10-25T07:18:36.694722+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:50:56.929563Z'
+  evaluated_at: '2026-10-25T10:08:20.023200Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32cc20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e32cc20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -44,5 +44,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.495415Z'
-indexed_at: '2026-08-02T09:26:15.495420Z'
+  fetched_at: '2026-10-25T12:12:07.248260Z'
+indexed_at: '2026-10-25T12:12:07.248264Z'

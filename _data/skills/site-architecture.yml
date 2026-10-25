@@ -1,0 +1,46 @@
+id: site-architecture
+slug: site-architecture
+name: Site Architecture
+description: '- **content-strategy**: For planning what content to create and topic
+  clusters'
+prompt_preview: '---
+
+  name: site-architecture
+
+  description: When the user wants to plan, map, or restructure their website''s page
+  hierarchy, navigation, URL structure, or internal linking. Also use when the user
+  mentions "sitemap," "site map," "visual sitemap," "site structure," "page hierarchy,"
+  "information architecture," "IA," "navigation design," "URL structure," "breadcrumbs,"
+  "internal linking strategy," "website planning," "what pages do I need," "how should
+  I organize my site," "site navigation," "which we...'
+full_prompt_length: 13885
+tools_mentioned:
+- Go
+- go
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/site-architecture/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/site-architecture/SKILL.md
+fetched_at: '2026-10-25T07:17:26.603482+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:08:36.306404Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6fc0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6fc0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.183462Z'
+indexed_at: '2026-10-25T12:12:06.183466Z'

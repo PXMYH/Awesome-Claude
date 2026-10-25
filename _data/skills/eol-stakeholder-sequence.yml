@@ -1,0 +1,40 @@
+id: eol-stakeholder-sequence
+slug: eol-stakeholder-sequence
+name: EOL Stakeholder Sequence
+description: '### Provenance'
+prompt_preview: "---\nname: eol-stakeholder-sequence\nargument-hint: \"[product being\
+  \ sunset, and who already knows]\"\ndescription: \"Plan who to talk to about a sunset,\
+  \ in what order, and what each conversation must cover. Use when an EOL decision\
+  \ is made and you want the landmines found before the announcement.\"\nintent: >-\n\
+  \  Plan the order and content of stakeholder conversations for an EOL decision.\
+  \ Encodes the\n  hard-won lesson that EOL engagement has a specific sequence — legal\
+  \ exposure first, financial\n  impact..."
+full_prompt_length: 12287
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: deanpeters/Product-Manager-Skills
+source_path: skills/eol-stakeholder-sequence/SKILL.md
+source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/eol-stakeholder-sequence/SKILL.md
+fetched_at: '2026-10-25T07:17:36.970882+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:18:22.208264Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5e50 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5e50 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.356451Z'
+indexed_at: '2026-10-25T12:12:06.356455Z'

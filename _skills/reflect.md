@@ -1,0 +1,43 @@
+---
+id: reflect
+slug: reflect
+name: 'Reflect: Per-Project Self-Improvement'
+description: The headline metric is `recurring_events` from the stats output. Compare
+  it to the value
+prompt_preview: "---\nname: reflect\ndescription: Per-project self-improvement - reads\
+  \ the .harness ledger and feedback memories, then proposes gated rule/threshold/ADR\
+  \ changes so the project stops repeating mistakes. Run periodically.\nuser_invocable:\
+  \ true\nallowed-tools:\n  - Read\n  - Write\n  - Edit\n  - Bash\n  - Glob\n  - Grep\n\
+  ---\n\n# Reflect: Per-Project Self-Improvement\n\nYou are performing a reflection\
+  \ - turning the signal this project has captured\ninto durable improvements. Nothing\
+  \ is applied without the developer..."
+full_prompt_length: 3385
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: sneg55/agent-starter
+source_path: skills/reflect/SKILL.md
+source_url: https://github.com/sneg55/agent-starter/blob/main/skills/reflect/SKILL.md
+fetched_at: '2026-10-25T07:20:19.406217+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T11:33:44.017325Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee78c0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee78c0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:08.798093Z'
+indexed_at: '2026-10-25T12:12:08.798097Z'
+---

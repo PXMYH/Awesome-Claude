@@ -1,0 +1,49 @@
+id: nmrglue
+slug: nmrglue
+name: 'nmrglue: calibrated 1D FID processing'
+description: The hosted `latest` documentation identified itself as 0.9-dev when checked;
+  the actual
+prompt_preview: '---
+
+  name: nmrglue
+
+  description: Processes calibrated one-dimensional complex NMR free-induction decays
+  with nmrglue into phased spectra, peak candidates, and signed integration regions.
+  Use for raw 1D NMR processing, ppm-axis verification, apodization, Fourier transformation,
+  manual phasing, baseline correction, or reproducible spectral integration.
+
+  license: MIT
+
+  compatibility: Requires Python 3.12+, nmrglue, NumPy 2+, and SciPy. Installation
+  needs network access; processing is local and needs no...'
+full_prompt_length: 8448
+tools_mentioned:
+- Python
+- python
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: skills/nmrglue/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/nmrglue/SKILL.md
+fetched_at: '2026-10-25T07:15:54.967478+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:49:19.982323Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debae10 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debae10 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.794105Z'
+indexed_at: '2026-10-25T12:12:04.794109Z'

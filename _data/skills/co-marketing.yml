@@ -1,0 +1,40 @@
+id: co-marketing
+slug: co-marketing
+name: Co Marketing
+description: Claude skill for Co Marketing
+prompt_preview: "---\nname: co-marketing\ndescription: \"When the user wants to find\
+  \ co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities.\
+  \ Use when the user says 'co-marketing,' 'partner marketing,' 'joint campaign,'\
+  \ 'who should we partner with,' 'integration marketing,' 'cross-promotion,' 'collaborate\
+  \ with another company,' 'partnership ideas,' or 'co-brand.' For customer referral\
+  \ programs, see referrals. For launch-specific partnerships, see launch.\"\nmetadata:\n\
+  \  version: 2.0.3\n---..."
+full_prompt_length: 12010
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/co-marketing/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/co-marketing/SKILL.md
+fetched_at: '2026-10-25T07:17:22.419453+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:03:19.225750Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1cf80 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1cf80 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.103484Z'
+indexed_at: '2026-10-25T12:12:06.103489Z'

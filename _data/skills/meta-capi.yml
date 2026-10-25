@@ -4,35 +4,34 @@ name: Meta Conversions API (CAPI) Setup Reference
 description: '- **Meta CAPI Docs:** https://developers.facebook.com/docs/marketing-api/conversions-api'
 prompt_preview: "---\nname: meta-capi\ndescription: Meta Conversions API (CAPI) Setup\
   \ Reference — architecture, event types, customer information hashing, deduplication,\
-  \ implementation examples, AEM, and testing\nversion: \"1.0.0\"\nauthor: Cogny AI\n\
+  \ implementation examples, AEM, and testing\nversion: \"1.1.1\"\nauthor: Cogny AI\n\
   platforms: []\nuser-invocable: true\nargument-hint: \"<query or topic>\"\nallowed-tools:\n\
   \  - WebFetch\n  - WebSearch\n  - Bash\n  - Read\n  - Write\n  # Meta Ads tools\
-  \ (when connected via Cogny MCP)\n  - mcp__cogny__meta_ads__tool_get_pixels\n  -\
-  \ mcp__cogny__meta_ads__tool_get_insight..."
-full_prompt_length: 24922
+  \ (when connected via Cogny MCP)\n  - mcp__cogny__refresh_mcp_discovery\n  - mcp__cogny__mcp__Meta_Ads__tool_get_pixels..."
+full_prompt_length: 29851
 tools_mentioned:
 - AWS
 - Python
+- python
 - javascript
 - node.js
 - Node.js
-- python
 category: community
 category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/meta-capi/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/meta-capi/SKILL.md
-fetched_at: '2026-08-02T05:27:15.837782+00:00'
+fetched_at: '2026-10-25T07:17:17.401288+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:52:12.352937Z'
+  evaluated_at: '2026-10-25T08:58:58.825004Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057b90 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b830 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057b90 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -42,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.403909Z'
-indexed_at: '2026-08-02T09:26:14.403915Z'
+  fetched_at: '2026-10-25T12:12:06.027701Z'
+indexed_at: '2026-10-25T12:12:06.027705Z'

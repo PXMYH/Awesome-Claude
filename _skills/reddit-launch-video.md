@@ -6,11 +6,11 @@ description: '- `/tiktok-launch-video` — same pattern for TikTok'
 prompt_preview: "---\nname: reddit-launch-video\ndescription: Produce a Reddit-native\
   \ 1:1 or 4:5 launch video using HyperFrames. Idiomatic Reddit feel — text-first,\
   \ low-polish, sound-off, subreddit-aware. Optionally hand off to Reddit Ads to launch\
-  \ as a promoted post targeted to specific subreddits.\nversion: \"1.0.0\"\nauthor:\
-  \ Cogny AI\nplatforms: [reddit-ads, hyperframes]\nuser-invocable: true\nargument-hint:\
-  \ \"<product URL or short brief>\"\nallowed-tools:\n  - WebFetch\n  - WebSearch\n\
-  \  - Bash\n  - Read\n  - Write\n  - Edit..."
-full_prompt_length: 9998
+  \ as a promoted post targeted to specific subreddits.\nversion: \"1.1.1\"\nauthor:\
+  \ Cogny AI\nplatforms: [reddit-ads, x-organic, hyperframes]\nuser-invocable: true\n\
+  argument-hint: \"<product URL or short brief>\"\nallowed-tools:\n  - WebFetch\n\
+  \  - WebSearch\n  - Bash\n  - Read\n  - Write..."
+full_prompt_length: 12337
 tools_mentioned:
 - rest
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/reddit-launch-video/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/reddit-launch-video/SKILL.md
-fetched_at: '2026-08-02T05:27:16.737416+00:00'
+fetched_at: '2026-10-25T07:17:18.142300+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:52:53.408710Z'
+  evaluated_at: '2026-10-25T08:59:47.784306Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad5e8a10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9880 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad5e8a10 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9880 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.416931Z'
-indexed_at: '2026-08-02T09:26:14.416937Z'
+  fetched_at: '2026-10-25T12:12:06.042225Z'
+indexed_at: '2026-10-25T12:12:06.042233Z'
 ---

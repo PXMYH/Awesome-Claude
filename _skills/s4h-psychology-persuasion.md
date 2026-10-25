@@ -27,17 +27,17 @@ category_display: Community
 source_repo: human-avatar/skills-for-humanity
 source_path: skills/s4h-psychology-persuasion/SKILL.md
 source_url: https://github.com/human-avatar/skills-for-humanity/blob/main/skills/s4h-psychology-persuasion/SKILL.md
-fetched_at: '2026-08-02T05:28:25.154832+00:00'
+fetched_at: '2026-10-25T07:18:16.814695+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:38:17.638984Z'
+  evaluated_at: '2026-10-25T09:55:45.223808Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b0e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7410 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1b0e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7410 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -47,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:15.258218Z'
-indexed_at: '2026-08-02T09:26:15.258223Z'
+  fetched_at: '2026-10-25T12:12:07.022677Z'
+indexed_at: '2026-10-25T12:12:07.022682Z'
 ---

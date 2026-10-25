@@ -1,0 +1,45 @@
+---
+id: suede-cold-email
+slug: suede-cold-email
+name: Suede AI Cold Email Writing
+description: '- Need a qualified prospect list -> use `suede-prospecting`.'
+prompt_preview: '---
+
+  name: suede-cold-email
+
+  description: "Suede AI B2B cold-email discipline: evidence-based personalization
+  with a named source for every opening line, 2-to-4-word subject lines, bodies under
+  75 words, one low-friction ask, bounded 3-to-5-touch follow-up sequences, and a
+  deliverability gate built on current Gmail, Yahoo, Microsoft, and CAN-SPAM rules.
+  Use when writing or repairing outbound email to qualified prospects. NOT FOR: building
+  or qualifying the prospect list (use suede-prospecting), li...'
+full_prompt_length: 9915
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-cold-email/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-cold-email/SKILL.md
+fetched_at: '2026-10-25T07:15:34.266765+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:29:34.810172Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2d79e0 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2d79e0 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.462275Z'
+indexed_at: '2026-10-25T12:12:04.462279Z'
+---

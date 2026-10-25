@@ -1,0 +1,49 @@
+---
+id: 13c-metabolic-flux
+slug: 13c-metabolic-flux
+name: Carbon-13 metabolic flux inference
+description: '- [mfapy source at the tested revision](https://github.com/fumiomatsuda/mfapy/tree/a10433af16682386548b360297e2476152d46ede),
+  version 0.6.3; [API documentation](https://fumiomatsuda.github.io/mfapy-do...'
+prompt_preview: '---
+
+  name: 13c-metabolic-flux
+
+  description: Estimates intracellular metabolic fluxes from steady-state carbon-13
+  isotope-tracing measurements using validated atom maps, mfapy isotope simulation,
+  constrained multistart fitting, and flux-profile diagnostics. Use for 13C-MFA, carbon
+  tracing, mass isotopomer distributions (MDVs/MIDs), positional isotopomers, parallel
+  tracer experiments, and determining whether labeling data constrain a pathway flux.
+  Distinguishes measured-label inference from COBRA fl...'
+full_prompt_length: 12709
+tools_mentioned:
+- Python
+- python
+- go
+category: scientific
+category_display: Scientific
+source_repo: K-Dense-AI/claude-scientific-skills
+source_path: skills/13c-metabolic-flux/SKILL.md
+source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/13c-metabolic-flux/SKILL.md
+fetched_at: '2026-10-25T07:15:44.064516+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:37:25.324275Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e577980 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e577980 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.586403Z'
+indexed_at: '2026-10-25T12:12:04.586408Z'
+---

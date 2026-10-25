@@ -2,7 +2,7 @@
 id: subtitles
 slug: subtitles
 name: Subtitles
-description: '1 credit per request. Free tier: 100 credits, 300 req/min.'
+description: 'Every request in this file as a ready-to-run one-liner: [references/curl-examples.md](references/curl-examples.md)'
 prompt_preview: '---
 
   name: subtitles
@@ -13,29 +13,29 @@ prompt_preview: '---
   Fetches timestamped subtitles from any YouTube video. Not for uploading subtitles
   or account management."
 
-  version: "1.5.0"
+  version: "1.5.1"
 
   user-invocable: true
 
   compatibility: Requires internet access to reach transcriptapi.com. No addit...'
-full_prompt_length: 4411
+full_prompt_length: 4473
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: ZeroPointRepo/youtube-skills
 source_path: skills/subtitles/SKILL.md
 source_url: https://github.com/ZeroPointRepo/youtube-skills/blob/main/skills/subtitles/SKILL.md
-fetched_at: '2026-08-02T05:26:34.763472+00:00'
+fetched_at: '2026-10-25T07:16:45.283238+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:28:01.660480Z'
+  evaluated_at: '2026-10-25T08:33:30.520262Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a840 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057980 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a840 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057980 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.947156Z'
-indexed_at: '2026-08-02T09:26:13.947162Z'
+  fetched_at: '2026-10-25T12:12:05.570616Z'
+indexed_at: '2026-10-25T12:12:05.570621Z'
 ---

@@ -1,0 +1,43 @@
+---
+id: product-economics
+slug: product-economics
+name: Product economics
+description: '- **Not a forecast.** No three-year revenue curve. A curve built on
+  `assumed`'
+prompt_preview: "---\nname: product-economics\ndescription: \"Does this product make\
+  \ money at a price someone will pay? Forces contribution margin, a price with a\
+  \ stated basis, and a bottom-up market size — each number labelled measured / assumed\
+  \ / unknown, so a guess can never be read as a calculation.\"\nwhen_to_use: |\n\
+  \  Apply BEFORE gate:product, while the brief is being written:\n  - product-owner,\
+  \ in Step 4 — the Economics section of BRIEF-*.md\n  - architect, when a design\
+  \ choice moves variable cost per user (mod..."
+full_prompt_length: 6390
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: avelikiy/great_cto
+source_path: skills/product-economics/SKILL.md
+source_url: https://github.com/avelikiy/great_cto/blob/main/skills/product-economics/SKILL.md
+fetched_at: '2026-10-25T07:16:57.214594+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T08:41:21.997119Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e5b5b50 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e5b5b50 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:05.710676Z'
+indexed_at: '2026-10-25T12:12:05.710680Z'
+---

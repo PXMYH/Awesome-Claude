@@ -1,12 +1,13 @@
 id: scholar-evaluation
 slug: scholar-evaluation
 name: Scholar Evaluation
-description: '- `references/responsible_assessment.md` — safety, metrics, governance,'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: scholar-evaluation
 
-  description: Provide qualitative-first, evidence-traceable developmental review
+  description: Provides qualitative-first, evidence-traceable developmental review
   of scholarly works and audit low-stakes research-assessment rubrics with optional
   local quality controls. Never use for ranking people or consequential decisions.
 
@@ -16,8 +17,8 @@ prompt_preview: '---
   All tooling is local JSON/CSV processing with no network, credentials, external
   models, or subprocesses.
 
-  allowed-tools: Read Write Bas...'
-full_prompt_length: 10598
+  allowed-tools: Read Write Ba...'
+full_prompt_length: 12394
 tools_mentioned:
 - Python
 category: scientific
@@ -25,17 +26,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/scholar-evaluation/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/scholar-evaluation/SKILL.md
-fetched_at: '2026-08-02T05:25:41.057543+00:00'
+fetched_at: '2026-10-25T07:16:01.258496+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:54:23.690302Z'
+  evaluated_at: '2026-10-25T07:56:32.322213Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18950 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4410 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb18950 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4410 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -45,5 +46,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.317254Z'
-indexed_at: '2026-08-02T09:26:13.317260Z'
+  fetched_at: '2026-10-25T12:12:04.919168Z'
+indexed_at: '2026-10-25T12:12:04.919172Z'

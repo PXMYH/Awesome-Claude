@@ -1,0 +1,47 @@
+---
+id: marketing-council
+slug: marketing-council
+name: Marketing Council
+description: '- **positioning** / **product-marketing**: When Dunford''s take wins
+  — execute the positioning work'
+prompt_preview: '---
+
+  name: marketing-council
+
+  description: "When the user wants multiple expert perspectives on a marketing question
+  — a simulated board of advisors staffed by legendary marketers (Seth Godin, David
+  Ogilvy, Eugene Schwartz, April Dunford, Rory Sutherland, Alex Hormozi, Byron Sharp,
+  and more). Also use when the user mentions ''marketing council,'' ''board of advisors,''
+  ''advisory board,'' ''what would Seth Godin say,'' ''what would Ogilvy think,''
+  ''channel Hormozi,'' ''get multiple perspectives,'' ''debate this...'
+full_prompt_length: 12382
+tools_mentioned:
+- go
+category: community
+category_display: Community
+source_repo: coreyhaines31/marketingskills
+source_path: skills/marketing-council/SKILL.md
+source_url: https://github.com/coreyhaines31/marketingskills/blob/main/skills/marketing-council/SKILL.md
+fetched_at: '2026-10-25T07:17:24.575690+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T09:06:01.389908Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5b20 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee5b20 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:06.144783Z'
+indexed_at: '2026-10-25T12:12:06.144787Z'
+---

@@ -11,7 +11,7 @@ prompt_preview: "---\nname: competitive-analysis-process\nargument-hint: \"[comp
   intent: >-\n  The umbrella workflow for competitive analysis: six analytical steps\
   \ — landscape overview, product\n  comparison, customer-need fulfillment, business\
   \ baseline, perception and positionin..."
-full_prompt_length: 13385
+full_prompt_length: 13392
 tools_mentioned:
 - react
 category: community
@@ -19,17 +19,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/competitive-analysis-process/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/competitive-analysis-process/SKILL.md
-fetched_at: '2026-08-02T05:27:30.810682+00:00'
+fetched_at: '2026-10-25T07:17:35.362288+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:02:11.028950Z'
+  evaluated_at: '2026-10-25T09:16:20.835291Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1bfb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1ff20 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1bfb0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1ff20 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -39,6 +39,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.588525Z'
-indexed_at: '2026-08-02T09:26:14.588531Z'
+  fetched_at: '2026-10-25T12:12:06.320185Z'
+indexed_at: '2026-10-25T12:12:06.320189Z'
 ---

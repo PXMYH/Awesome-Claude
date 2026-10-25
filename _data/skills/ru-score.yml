@@ -9,24 +9,24 @@ prompt_preview: "---\nname: ru-score\ndescription: >\n  Score Russian text 0.0â€
   \ list of findings. Never edits a file.\nallowed-tools: Read, Grep, Glob\ndisallowed-tools:\
   \ Write, Edit, NotebookEdit, Bash, PowerShell, Monitor\ncontext: fork\nuser-invocable:\
   \ true\n---\n\n# Russian..."
-full_prompt_length: 4886
+full_prompt_length: 5564
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: talkstream/ru-text
 source_path: skills/ru-score/SKILL.md
 source_url: https://github.com/talkstream/ru-text/blob/main/skills/ru-score/SKILL.md
-fetched_at: '2026-08-02T05:31:04.130115+00:00'
+fetched_at: '2026-10-25T07:20:25.955866+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:09:50.427607Z'
+  evaluated_at: '2026-10-25T11:36:03.483268Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed550 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7ce0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed550 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee7ce0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -36,5 +36,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.982750Z'
-indexed_at: '2026-08-02T09:26:16.982755Z'
+  fetched_at: '2026-10-25T12:12:08.838568Z'
+indexed_at: '2026-10-25T12:12:08.838572Z'

@@ -2,20 +2,22 @@
 id: paperclip
 slug: paperclip
 name: Paperclip CLI
-description: '| File | Contents |'
+description: Always cite the current version. The DOI and https://arxiv.org/abs/2609.00065
+  resolve to the
 prompt_preview: '---
 
   name: paperclip
 
-  description: Search and read full-text biomedical papers, FDA/PMDA/EMA regulatory
-  documents, clinical trial registries, and UniProt/PDB/ChEMBL entries with the Paperclip
-  CLI from GXL. Covers installing and authenticating the `paperclip` binary with a
-  PAPERCLIP_API_KEY, the read-only virtual filesystem under /papers, /fda, /trials,
-  /proteins and /clipboard, source-scoped semantic search, corpus-wide grep, metadata
-  lookup and SQL, map/reduce reading across many papers, figure v...'
-full_prompt_length: 21559
+  description: Searches and reads biomedical papers, FDA/PMDA/EMA documents, clinical
+  trials, and protein records with the GXL Paperclip CLI and Python SDK. Supports
+  source-scoped search, full-text grep, metadata SQL, map/reduce extraction, figure
+  analysis, optional repositories and claim verification, and line-pinned citations.
+  Use when a task names GXL paperclip, asks to install or authenticate it, or requests
+  literature retrieval and evidence extraction through Paperclip.
+
+  al...'
+full_prompt_length: 12962
 tools_mentioned:
-- rest
 - Python
 - python
 category: scientific
@@ -23,17 +25,17 @@ category_display: Scientific
 source_repo: K-Dense-AI/claude-scientific-skills
 source_path: skills/paperclip/SKILL.md
 source_url: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/skills/paperclip/SKILL.md
-fetched_at: '2026-08-02T05:25:34.115008+00:00'
+fetched_at: '2026-10-25T07:15:56.294022+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T05:49:06.995433Z'
+  evaluated_at: '2026-10-25T07:50:48.950525Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee1b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e574920 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaee1b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e574920 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -43,6 +45,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.216945Z'
-indexed_at: '2026-08-02T09:26:13.216951Z'
+  fetched_at: '2026-10-25T12:12:04.820085Z'
+indexed_at: '2026-10-25T12:12:04.820090Z'
 ---

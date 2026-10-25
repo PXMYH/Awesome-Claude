@@ -10,7 +10,7 @@ prompt_preview: "---\nname: ru-check\ndescription: >\n  Full Russian text qualit
   \ findings\n  with the rule behind each and a proposed replacement; never edits\
   \ a file. Self-initiated\n  runs start with a fast triage and escalate on evidence;\
   \ an explicit request always runs the..."
-full_prompt_length: 8599
+full_prompt_length: 10774
 tools_mentioned:
 - rest
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: talkstream/ru-text
 source_path: skills/ru-check/SKILL.md
 source_url: https://github.com/talkstream/ru-text/blob/main/skills/ru-check/SKILL.md
-fetched_at: '2026-08-02T05:31:03.970180+00:00'
+fetched_at: '2026-10-25T07:20:25.809787+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T09:09:42.060626Z'
+  evaluated_at: '2026-10-25T11:35:55.387035Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed7c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4980 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed7c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee4980 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.980256Z'
-indexed_at: '2026-08-02T09:26:16.980262Z'
+  fetched_at: '2026-10-25T12:12:08.836141Z'
+indexed_at: '2026-10-25T12:12:08.836146Z'
 ---

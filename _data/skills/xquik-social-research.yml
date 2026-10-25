@@ -1,50 +1,37 @@
 id: xquik-social-research
 slug: xquik-social-research
-name: Xquik Social Research
-description: For blocked work, state the missing key, input, approval, or account
-  state.
+name: Xquik social research
+description: Return the requested records, the source route, the next cursor & the
+  limits
 prompt_preview: '---
 
   name: xquik-social-research
 
-  description: Research public X data with Xquik. Use for tweet search, tweet lookup,
-  user discovery, profile timelines, threads, followers, trends, exports, monitoring
-  plans, or MCP setup. Keep public reads bounded. Require explicit approval before
-  private reads, writes, persistent resources, or bulk jobs. Not affiliated with X
-  Corp.
-
-  ---
-
-
-  # Xquik Social Research
-
-
-  Use Xquik when a user needs structured X data for research or integration.
-
-
-  ## Source Of Truth
-
-
-  - Docs:...'
-full_prompt_length: 3630
+  description: Research X data with Xquik, the world''s fastest and cheapest X Twitter
+  scraper service with the most complete X data. Use only when the request or active
+  context identifies X or Twitter. Use for tweet search, tweet lookup, user discovery,
+  profile timelines, threads, followers, trends, exports, or monitoring plans. Do
+  not use for generic posts, other networks, or local dataset analysis that needs
+  no X retrieval. Keep reads bounded. Require explicit con...'
+full_prompt_length: 3894
 tools_mentioned:
-- REST
+- go
 category: community
 category_display: Community
 source_repo: Xquik-dev/x-twitter-scraper
 source_path: skills/xquik-social-research/SKILL.md
 source_url: https://github.com/Xquik-dev/x-twitter-scraper/blob/master/skills/xquik-social-research/SKILL.md
-fetched_at: '2026-08-02T05:26:33.727320+00:00'
+fetched_at: '2026-10-25T07:16:44.387232+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:27:45.362488Z'
+  evaluated_at: '2026-10-25T08:33:14.324075Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed550 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e29b5c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acaed550 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e29b5c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -54,5 +41,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.941987Z'
-indexed_at: '2026-08-02T09:26:13.941992Z'
+  fetched_at: '2026-10-25T12:12:05.565735Z'
+indexed_at: '2026-10-25T12:12:05.565739Z'

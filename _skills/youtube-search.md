@@ -2,7 +2,7 @@
 id: youtube-search
 slug: youtube-search
 name: YouTube Search
-description: 'Free tier: 100 credits, 300 req/min.'
+description: 'Every request in this file as a ready-to-run one-liner: [references/curl-examples.md](references/curl-examples.md)'
 prompt_preview: '---
 
   name: youtube-search
@@ -13,30 +13,31 @@ prompt_preview: '---
   proactively when the user wants to research a topic and YouTube is a good source.
   Not for account management or written-source-only research."
 
-  version: "1.5.0"
+  version: "1.6.0"
 
   user-invocable: true
 
   compatibility: Requires internet access t...'
-full_prompt_length: 5792
+full_prompt_length: 7324
 tools_mentioned:
 - python
+- react
 category: community
 category_display: Community
 source_repo: ZeroPointRepo/youtube-skills
 source_path: skills/youtube-search/SKILL.md
 source_url: https://github.com/ZeroPointRepo/youtube-skills/blob/main/skills/youtube-search/SKILL.md
-fetched_at: '2026-08-02T05:26:36.365135+00:00'
+fetched_at: '2026-10-25T07:16:46.413299+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:29:17.925395Z'
+  evaluated_at: '2026-10-25T08:34:43.632331Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad31fe30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057e00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0ad31fe30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e057e00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -46,6 +47,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:13.970240Z'
-indexed_at: '2026-08-02T09:26:13.970246Z'
+  fetched_at: '2026-10-25T12:12:05.592500Z'
+indexed_at: '2026-10-25T12:12:05.592506Z'
 ---

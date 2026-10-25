@@ -1,0 +1,43 @@
+id: suede-aso
+slug: suede-aso
+name: Suede ASO Audit
+description: '- Need paid app-install creative -> use `suede-ad-creative`.'
+prompt_preview: '---
+
+  name: suede-aso
+
+  description: "Suede AI app-store optimization for keyword fields, titles, subtitles,
+  descriptions, screenshots, ratings context, and competitor listing audits. Use when
+  improving App Store or Google Play visibility or listing conversion from a live
+  app URL and current console evidence, or when authoring keyword, name, subtitle,
+  and promo fields for an app that has not shipped yet. NOT FOR: building or releasing
+  the app (use android-app-factory or site-to-ios-app; native iOS b...'
+full_prompt_length: 17827
+tools_mentioned: []
+category: community
+category_display: Community
+source_repo: JasonColapietro/suede-creator-skills
+source_path: skills/suede-aso/SKILL.md
+source_url: https://github.com/JasonColapietro/suede-creator-skills/blob/main/skills/suede-aso/SKILL.md
+fetched_at: '2026-10-25T07:15:33.283365+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T07:28:30.117183Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9220 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8deb9220 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:04.445274Z'
+indexed_at: '2026-10-25T12:12:04.445279Z'

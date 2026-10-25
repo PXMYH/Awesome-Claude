@@ -1,16 +1,16 @@
 id: community-pulse
 slug: community-pulse
-name: Community Pulse — Discord weekly digest
+name: Community Pulse — weekly community digest
 description: 1. **One guild per run.** If the bot is in multiple, pick one and analyse
   it
-prompt_preview: "---\nname: community-pulse\ndescription: Weekly read on Discord community\
-  \ health — joins, active channels, top contributors, themes, and unanswered questions\n\
-  version: \"1.0.0\"\nauthor: Cogny AI\nplatforms: [discord]\nuser-invocable: true\n\
-  argument-hint: \"\"\nallowed-tools:\n  # Discord MCP read tools (via Cogny MCP Proxy)\n\
-  \  - mcp__cogny__discord__get_current_user\n  - mcp__cogny__discord__list_guilds\n\
-  \  - mcp__cogny__discord__get_guild\n  - mcp__cogny__discord__list_guild_channels\n\
-  \  - mcp__cogny__discord__ge..."
-full_prompt_length: 9734
+prompt_preview: "---\nname: community-pulse\ndescription: Weekly read on community\
+  \ health — Discord joins, active channels, top contributors, themes and unanswered\
+  \ questions, plus Crisp support conversations and YouTube comments when connected\n\
+  version: \"1.1.2\"\nrequires: cogny-mcp\nauthor: Cogny AI\nplatforms: [discord,\
+  \ crisp, youtube]\nuser-invocable: true\nargument-hint: \"\"\nallowed-tools:\n \
+  \ # Discord MCP read tools (via Cogny MCP Proxy)\n  - mcp__cogny__refresh_mcp_discovery\n\
+  \  - mcp__cogny__mcp__Discord__get_current_u..."
+full_prompt_length: 16634
 tools_mentioned:
 - rest
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: cognyai/claude-code-marketing-skills
 source_path: skills/community-pulse/SKILL.md
 source_url: https://github.com/cognyai/claude-code-marketing-skills/blob/main/skills/community-pulse/SKILL.md
-fetched_at: '2026-08-02T05:27:10.413712+00:00'
+fetched_at: '2026-10-25T07:17:13.139704+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T06:48:22.550014Z'
+  evaluated_at: '2026-10-25T08:54:37.934108Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a090 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1ffe0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1a090 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1ffe0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,5 +38,5 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.324935Z'
-indexed_at: '2026-08-02T09:26:14.324941Z'
+  fetched_at: '2026-10-25T12:12:05.948938Z'
+indexed_at: '2026-10-25T12:12:05.948943Z'

@@ -1,0 +1,51 @@
+---
+id: using-email-templates
+slug: using-email-templates
+name: Using Mailtrap email templates
+description: '| Mistake                                   | Fix                                                                                                                                                       ...'
+prompt_preview: "---\nname: using-email-templates\ndescription: >-\n  Use when creating\
+  \ or sending Mailtrap-hosted email templates, Handlebars\n  personalization, template\
+  \ UUID in API payloads, or debugging variables and\n  preview. Use when separating\
+  \ email design from application code for\n  transactional or bulk sends.\n---\n\n\
+  # Using Mailtrap email templates\n\n## Overview\n\nTemplates are edited in the Mailtrap\
+  \ **UI**, referenced by **UUID** from your app, and filled with **Handlebars** data\
+  \ at send time. The same templ..."
+full_prompt_length: 5548
+tools_mentioned:
+- PHP
+- Ruby
+- Java
+- ruby
+- Python
+- php
+- python
+- Node.js
+- java
+category: community
+category_display: Community
+source_repo: mailtrap/mailtrap-skills
+source_path: skills/using-email-templates/SKILL.md
+source_url: https://github.com/mailtrap/mailtrap-skills/blob/main/skills/using-email-templates/SKILL.md
+fetched_at: '2026-10-25T07:18:51.409122+00:00'
+evaluation:
+  model: xiaomi/mimo-v2-flash:free
+  evaluated_at: '2026-10-25T10:16:50.978262Z'
+  prompt_quality:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debbe60 state=finished
+      raised HTTPError>]'
+  usefulness:
+    score: 3.0
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8debbe60 state=finished
+      raised HTTPError>]'
+  overall_rating: 3.0
+  summary: Evaluation failed
+  tags_suggested: []
+github_metrics:
+  stars: 0
+  forks: 0
+  open_issues: 0
+  last_commit: null
+  fetched_at: '2026-10-25T12:12:07.403303Z'
+indexed_at: '2026-10-25T12:12:07.403307Z'
+---

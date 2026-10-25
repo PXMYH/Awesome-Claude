@@ -11,24 +11,24 @@ prompt_preview: "---\nname: evolve-agent\ndescription: >\n  Evolve an existing a
   \ skills, tools, capabilities,\n  and limitations, updating version metadata, and\
   \ synchronizing the registry\n  and cross-references. Use when an agent's skills\
   \ list is outdated, user\n  feedback reveals..."
-full_prompt_length: 16484
+full_prompt_length: 19674
 tools_mentioned: []
 category: community
 category_display: Community
 source_repo: pjt222/agent-almanac
 source_path: skills/evolve-agent/SKILL.md
 source_url: https://github.com/pjt222/agent-almanac/blob/main/skills/evolve-agent/SKILL.md
-fetched_at: '2026-08-02T05:29:45.493214+00:00'
+fetched_at: '2026-10-25T07:19:28.275381+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T08:20:37.050230Z'
+  evaluated_at: '2026-10-25T10:45:30.071781Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4b110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6990 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb4b110 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8dee6990 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:16.060527Z'
-indexed_at: '2026-08-02T09:26:16.060533Z'
+  fetched_at: '2026-10-25T12:12:07.905378Z'
+indexed_at: '2026-10-25T12:12:07.905382Z'
 ---

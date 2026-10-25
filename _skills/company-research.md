@@ -10,7 +10,7 @@ prompt_preview: "---\nname: company-research\nargument-hint: \"[company name] [p
   \ extracts executive insights, product strategy, transformation initiatives, and\
   \ organizational dynamics from publicly available sources. Use this to understand\
   \ competitive landsca..."
-full_prompt_length: 14671
+full_prompt_length: 15122
 tools_mentioned:
 - Go
 category: community
@@ -18,17 +18,17 @@ category_display: Community
 source_repo: deanpeters/Product-Manager-Skills
 source_path: skills/company-research/SKILL.md
 source_url: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/company-research/SKILL.md
-fetched_at: '2026-08-02T05:27:30.658479+00:00'
+fetched_at: '2026-10-25T07:17:35.251919+00:00'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-08-02T07:02:02.857936Z'
+  evaluated_at: '2026-10-25T09:16:12.756204Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1ad80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1fb60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7fd0acb1ad80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8df1fb60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
@@ -38,6 +38,6 @@ github_metrics:
   forks: 0
   open_issues: 0
   last_commit: null
-  fetched_at: '2026-08-02T09:26:14.586011Z'
-indexed_at: '2026-08-02T09:26:14.586017Z'
+  fetched_at: '2026-10-25T12:12:06.317149Z'
+indexed_at: '2026-10-25T12:12:06.317153Z'
 ---
