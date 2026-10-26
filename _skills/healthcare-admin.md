@@ -23,31 +23,31 @@ prompt_preview: '---
   coveri...'
 full_prompt_length: 7896
 tools_mentioned: []
-category: specialized-domains
-category_display: Specialized Domains
+category: 07-specialized-domains
+category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/healthcare-admin.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/healthcare-admin.md
-fetched_at: '2026-10-25T07:16:35.845980+00:00'
+fetched_at: '2026-10-26T07:24:24.075389Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-25T08:25:53.762343Z'
+  evaluated_at: '2026-10-26T07:40:03.385434Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2f4f80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7eb4f7a82540 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7c3b8e2f4f80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7eb4f7a82540 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26006
-  forks: 2992
+  stars: 26063
+  forks: 2995
   open_issues: 4
   last_commit: '2026-10-11'
-  fetched_at: '2026-10-25T07:21:17.773344Z'
-indexed_at: '2026-10-25T12:12:05.436217Z'
+  fetched_at: '2026-10-26T07:24:43.972570Z'
+indexed_at: '2026-10-26T07:51:25.437105Z'
 ---
