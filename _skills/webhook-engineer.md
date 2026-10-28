@@ -28,26 +28,26 @@ category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/webhook-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/webhook-engineer.md
-fetched_at: '2026-10-27T07:17:22.139391Z'
+fetched_at: '2026-10-28T07:54:33.276403Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-27T07:20:10.002190Z'
+  evaluated_at: '2026-10-28T07:57:12.160901Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7733e75c26f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x77d9da85e360 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7733e75c26f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x77d9da85e360 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26098
-  forks: 3001
+  stars: 26128
+  forks: 3004
   open_issues: 7
   last_commit: '2026-10-11'
-  fetched_at: '2026-10-27T07:18:29.256108Z'
-indexed_at: '2026-10-27T07:45:28.412382Z'
+  fetched_at: '2026-10-28T07:55:31.185140Z'
+indexed_at: '2026-10-28T08:22:33.785440Z'
 ---

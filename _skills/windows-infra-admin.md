@@ -34,26 +34,26 @@ category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/windows-infra-admin.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/windows-infra-admin.md
-fetched_at: '2026-10-27T07:17:36.980753Z'
+fetched_at: '2026-10-28T07:54:45.235594Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-27T07:26:35.483221Z'
+  evaluated_at: '2026-10-28T08:03:38.318064Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7733e778d940 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x77d9dac8d4c0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7733e778d940 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x77d9dac8d4c0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26098
-  forks: 3001
+  stars: 26128
+  forks: 3004
   open_issues: 7
   last_commit: '2026-10-11'
-  fetched_at: '2026-10-27T07:18:29.256108Z'
-indexed_at: '2026-10-27T07:45:28.542779Z'
+  fetched_at: '2026-10-28T07:55:31.185140Z'
+indexed_at: '2026-10-28T08:22:33.871369Z'
 ---
