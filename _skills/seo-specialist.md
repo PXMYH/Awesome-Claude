@@ -27,26 +27,26 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/seo-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/seo-specialist.md
-fetched_at: '2026-10-28T07:55:01.560991Z'
+fetched_at: '2026-10-29T08:01:06.109795Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-28T08:12:09.587409Z'
+  evaluated_at: '2026-10-29T08:18:16.432327Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x77d9da56cf80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x73e77f9bc200 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x77d9da56cf80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x73e77f9bc200 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26128
-  forks: 3004
-  open_issues: 7
+  stars: 26161
+  forks: 3008
+  open_issues: 9
   last_commit: '2026-10-11'
-  fetched_at: '2026-10-28T07:55:31.185140Z'
-indexed_at: '2026-10-28T08:22:33.985503Z'
+  fetched_at: '2026-10-29T08:01:34.837581Z'
+indexed_at: '2026-10-29T08:28:39.826614Z'
 ---

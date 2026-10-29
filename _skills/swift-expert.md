@@ -23,35 +23,35 @@ prompt_preview: '---
   ecosyste...'
 full_prompt_length: 7451
 tools_mentioned:
-- Rust
-- WebSocket
 - react
 - rust
+- Rust
+- WebSocket
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/swift-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/swift-expert.md
-fetched_at: '2026-10-28T07:54:40.409251Z'
+fetched_at: '2026-10-29T08:00:44.323824Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-28T08:01:01.804192Z'
+  evaluated_at: '2026-10-29T08:07:04.592888Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x77d9da56f230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x73e77f9b4980 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x77d9da56f230 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x73e77f9b4980 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26128
-  forks: 3004
-  open_issues: 7
+  stars: 26161
+  forks: 3008
+  open_issues: 9
   last_commit: '2026-10-11'
-  fetched_at: '2026-10-28T07:55:31.185140Z'
-indexed_at: '2026-10-28T08:22:33.835476Z'
+  fetched_at: '2026-10-29T08:01:34.837581Z'
+indexed_at: '2026-10-29T08:28:39.670873Z'
 ---
