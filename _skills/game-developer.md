@@ -28,26 +28,26 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/game-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/game-developer.md
-fetched_at: '2026-10-29T08:01:03.887500Z'
+fetched_at: '2026-10-30T08:02:54.773445Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-29T08:17:02.526983Z'
+  evaluated_at: '2026-10-30T08:18:30.473084Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x73e77f9b27e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x796c656cb170 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x73e77f9b27e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x796c656cb170 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26161
-  forks: 3008
+  stars: 26195
+  forks: 3007
   open_issues: 9
   last_commit: '2026-10-11'
-  fetched_at: '2026-10-29T08:01:34.837581Z'
-indexed_at: '2026-10-29T08:28:39.811184Z'
+  fetched_at: '2026-10-30T08:03:15.333269Z'
+indexed_at: '2026-10-30T08:30:03.921340Z'
 ---
