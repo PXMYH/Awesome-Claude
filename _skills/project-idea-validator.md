@@ -29,26 +29,26 @@ category_display: 10 Research Analysis
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/10-research-analysis/project-idea-validator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/10-research-analysis/project-idea-validator.md
-fetched_at: '2026-10-30T08:03:03.918940Z'
+fetched_at: '2026-10-31T07:59:39.849731Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-30T08:24:53.486564Z'
+  evaluated_at: '2026-10-31T08:21:59.247691Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x796c663fcb30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff02b1c4950 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x796c663fcb30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff02b1c4950 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26195
-  forks: 3007
-  open_issues: 9
-  last_commit: '2026-10-11'
-  fetched_at: '2026-10-30T08:03:15.333269Z'
-indexed_at: '2026-10-30T08:30:04.147948Z'
+  stars: 26221
+  forks: 3008
+  open_issues: 1
+  last_commit: '2026-10-30'
+  fetched_at: '2026-10-31T08:00:01.098638Z'
+indexed_at: '2026-10-31T08:27:14.138418Z'
 ---

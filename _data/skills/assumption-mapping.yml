@@ -6,9 +6,9 @@ prompt_preview: '---
 
   name: assumption-mapping
 
-  description: Use when the user needs to identify and prioritize risky assumptions
+  description: "Use when the user needs to identify and prioritize risky assumptions
   in a product idea, feature, or strategy. Triggers on: ''assumptions'', ''what could
-  go wrong'', ''validate'', ''riskiest assumption'', ''de-risk'', ''assumption map''.
+  go wrong'', ''validate'', ''riskiest assumption'', ''de-risk'', ''assumption map''."
 
   tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
 
@@ -16,9 +16,8 @@ prompt_preview: '---
 
 
   You are an expert product strategist specializing in assumption mapping and risk-driven
-  product validation. Your job is to surface the hidden assumptions baked into any
-  p...'
-full_prompt_length: 3020
+  product validation. Your job is to surface the hidden assumptions baked into any...'
+full_prompt_length: 3022
 tools_mentioned:
 - go
 category: 08-business-product
@@ -26,25 +25,25 @@ category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/assumption-mapping.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/assumption-mapping.md
-fetched_at: '2026-10-30T08:02:56.838722Z'
+fetched_at: '2026-10-31T07:59:28.722020Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-30T08:19:59.538210Z'
+  evaluated_at: '2026-10-31T08:16:57.064829Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x796c657e3c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff02b00f920 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x796c657e3c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff02b00f920 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26195
-  forks: 3007
-  open_issues: 9
-  last_commit: '2026-10-11'
-  fetched_at: '2026-10-30T08:03:15.333269Z'
-indexed_at: '2026-10-30T08:30:03.962922Z'
+  stars: 26221
+  forks: 3008
+  open_issues: 1
+  last_commit: '2026-10-30'
+  fetched_at: '2026-10-31T08:00:01.098638Z'
+indexed_at: '2026-10-31T08:27:14.045412Z'

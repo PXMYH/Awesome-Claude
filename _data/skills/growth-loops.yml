@@ -6,10 +6,10 @@ prompt_preview: '---
 
   name: growth-loops
 
-  description: Use when the user wants to design a growth loop, understand PLG mechanics,
+  description: "Use when the user wants to design a growth loop, understand PLG mechanics,
   or build sustainable acquisition. Triggers on: ''growth loop'', ''flywheel'', ''viral
   loop'', ''PLG growth'', ''product-led growth'', ''growth mechanics'', ''how do we
-  grow'', ''word of mouth''.
+  grow'', ''word of mouth''."
 
   tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
 
@@ -17,33 +17,33 @@ prompt_preview: '---
 
 
   You are an expert product growth strategist specializing in designing self-reinforcing
-  growth loops. Your job is to help teams move beyond linear a...'
-full_prompt_length: 3815
+  growth loops. Your job is to help teams move beyond linear...'
+full_prompt_length: 3817
 tools_mentioned: []
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/growth-loops.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/growth-loops.md
-fetched_at: '2026-10-30T08:02:57.943977Z'
+fetched_at: '2026-10-31T07:59:30.409035Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-30T08:20:48.141753Z'
+  evaluated_at: '2026-10-31T08:17:46.116301Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x796c656cae70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff02b0aba40 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x796c656cae70 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff02b0aba40 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26195
-  forks: 3007
-  open_issues: 9
-  last_commit: '2026-10-11'
-  fetched_at: '2026-10-30T08:03:15.333269Z'
-indexed_at: '2026-10-30T08:30:03.991512Z'
+  stars: 26221
+  forks: 3008
+  open_issues: 1
+  last_commit: '2026-10-30'
+  fetched_at: '2026-10-31T08:00:01.098638Z'
+indexed_at: '2026-10-31T08:27:14.060390Z'

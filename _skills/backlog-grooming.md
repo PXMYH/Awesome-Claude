@@ -7,9 +7,9 @@ prompt_preview: '---
 
   name: backlog-grooming
 
-  description: Use when the user needs to groom, refine, or clean up a product backlog.
+  description: "Use when the user needs to groom, refine, or clean up a product backlog.
   Triggers on: ''groom backlog'', ''backlog refinement'', ''backlog grooming'', ''clean
-  up backlog'', ''refine stories'', ''sprint refinement'', ''backlog management''.
+  up backlog'', ''refine stories'', ''sprint refinement'', ''backlog management''."
 
   tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
 
@@ -18,34 +18,34 @@ prompt_preview: '---
 
   You are an expert Agile Product Owner and backlog refinement specialist. Your job
   is to keep product backlogs healthy — well-estimated, well-defined, prioritized,
-  and spri...'
-full_prompt_length: 3365
+  and sp...'
+full_prompt_length: 3367
 tools_mentioned: []
 category: 08-business-product
 category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/backlog-grooming.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/backlog-grooming.md
-fetched_at: '2026-10-30T08:02:57.017212Z'
+fetched_at: '2026-10-31T07:59:29.141334Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-30T08:20:07.655363Z'
+  evaluated_at: '2026-10-31T08:17:05.247447Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x796c6562eae0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff02b0a8c80 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x796c6562eae0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff02b0a8c80 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26195
-  forks: 3007
-  open_issues: 9
-  last_commit: '2026-10-11'
-  fetched_at: '2026-10-30T08:03:15.333269Z'
-indexed_at: '2026-10-30T08:30:03.967586Z'
+  stars: 26221
+  forks: 3008
+  open_issues: 1
+  last_commit: '2026-10-30'
+  fetched_at: '2026-10-31T08:00:01.098638Z'
+indexed_at: '2026-10-31T08:27:14.047945Z'
 ---
