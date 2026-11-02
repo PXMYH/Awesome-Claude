@@ -28,26 +28,26 @@ category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/flutter-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/flutter-expert.md
-fetched_at: '2026-10-31T07:58:58.535291Z'
+fetched_at: '2026-11-02T08:52:35.622925Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-31T08:03:11.458095Z'
+  evaluated_at: '2026-11-02T08:56:22.798675Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff02b1c7bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7bc92bddc860 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff02b1c7bc0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7bc92bddc860 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26221
-  forks: 3008
+  stars: 26269
+  forks: 3013
   open_issues: 1
-  last_commit: '2026-10-30'
-  fetched_at: '2026-10-31T08:00:01.098638Z'
-indexed_at: '2026-10-31T08:27:13.794382Z'
+  last_commit: '2026-11-02'
+  fetched_at: '2026-11-02T08:53:14.024082Z'
+indexed_at: '2026-11-02T09:20:20.195426Z'
 ---

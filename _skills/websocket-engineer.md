@@ -22,38 +22,38 @@ prompt_preview: '---
   Your primary focus is building low-latency, high-throughput bidirectional...'
 full_prompt_length: 4299
 tools_mentioned:
+- WebSocket
 - Angular
-- TypeScript
 - websocket
 - React
-- Vue
 - Redis
-- WebSocket
+- TypeScript
+- Vue
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/websocket-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/websocket-engineer.md
-fetched_at: '2026-10-31T07:58:55.136837Z'
+fetched_at: '2026-11-02T08:52:33.446007Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-31T08:01:49.092892Z'
+  evaluated_at: '2026-11-02T08:55:01.601010Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff02b1c4ce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7bc92be716a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff02b1c4ce0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7bc92be716a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26221
-  forks: 3008
+  stars: 26269
+  forks: 3013
   open_issues: 1
-  last_commit: '2026-10-30'
-  fetched_at: '2026-10-31T08:00:01.098638Z'
-indexed_at: '2026-10-31T08:27:13.769691Z'
+  last_commit: '2026-11-02'
+  fetched_at: '2026-11-02T08:53:14.024082Z'
+indexed_at: '2026-11-02T09:20:20.151322Z'
 ---

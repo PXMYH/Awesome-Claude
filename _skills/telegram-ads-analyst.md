@@ -26,26 +26,26 @@ category_display: 08 Business Product
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/08-business-product/telegram-ads-analyst.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/08-business-product/telegram-ads-analyst.md
-fetched_at: '2026-10-31T07:59:32.653919Z'
+fetched_at: '2026-11-02T08:52:58.589619Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-10-31T08:18:59.605137Z'
+  evaluated_at: '2026-11-02T09:12:12.820840Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff02b0aa240 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7bc92bd5ba70 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7ff02b0aa240 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7bc92bd5ba70 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26221
-  forks: 3008
+  stars: 26269
+  forks: 3013
   open_issues: 1
-  last_commit: '2026-10-30'
-  fetched_at: '2026-10-31T08:00:01.098638Z'
-indexed_at: '2026-10-31T08:27:14.082537Z'
+  last_commit: '2026-11-02'
+  fetched_at: '2026-11-02T08:53:14.024082Z'
+indexed_at: '2026-11-02T09:20:20.596091Z'
 ---
