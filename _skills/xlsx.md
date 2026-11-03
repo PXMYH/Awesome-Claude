@@ -17,33 +17,33 @@ prompt_preview: '---
   especially when the user references a spreadsheet file by name or path —...'
 full_prompt_length: 8542
 tools_mentioned:
-- Python
 - python
+- Python
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/xlsx/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/xlsx/SKILL.md
-fetched_at: '2026-11-02T08:53:08.881416Z'
+fetched_at: '2026-11-03T09:00:10.016162Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-02T09:18:18.071061Z'
+  evaluated_at: '2026-11-03T09:25:20.579302Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7bc92be73b90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c237f85d250 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7bc92be73b90 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c237f85d250 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 186517
-  forks: 22032
-  open_issues: 1461
+  stars: 186915
+  forks: 22072
+  open_issues: 1466
   last_commit: '2026-10-28'
-  fetched_at: '2026-11-02T08:53:14.534972Z'
-indexed_at: '2026-11-02T09:20:20.743494Z'
+  fetched_at: '2026-11-03T09:00:16.311168Z'
+indexed_at: '2026-11-03T09:27:22.883579Z'
 ---
