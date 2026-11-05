@@ -23,35 +23,35 @@ prompt_preview: '---
   scalable APIs, microservices, CLI tools, a...'
 full_prompt_length: 3753
 tools_mentioned:
-- GraphQL
 - Redis
-- JavaScript
 - Node.js
+- GraphQL
+- JavaScript
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/node-specialist.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/node-specialist.md
-fetched_at: '2026-11-04T08:35:59.569775Z'
+fetched_at: '2026-11-05T08:57:04.452438Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-04T08:40:44.193581Z'
+  evaluated_at: '2026-11-05T09:01:58.871817Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x722b3c9e8fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x725b6abc78f0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x722b3c9e8fe0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x725b6abc78f0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26322
-  forks: 3013
+  stars: 26343
+  forks: 3016
   open_issues: 1
   last_commit: '2026-11-02'
-  fetched_at: '2026-11-04T08:36:37.693271Z'
-indexed_at: '2026-11-04T09:03:47.405344Z'
+  fetched_at: '2026-11-05T08:57:53.969122Z'
+indexed_at: '2026-11-05T09:24:57.964253Z'
 ---
