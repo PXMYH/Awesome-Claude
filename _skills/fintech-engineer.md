@@ -29,26 +29,26 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/fintech-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/fintech-engineer.md
-fetched_at: '2026-11-05T08:57:26.482047Z'
+fetched_at: '2026-11-06T08:55:59.255912Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-05T09:13:03.974639Z'
+  evaluated_at: '2026-11-06T09:12:01.468955Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x725b6abc2690 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7add373bb740 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x725b6abc2690 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7add373bb740 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26343
-  forks: 3016
+  stars: 26365
+  forks: 3019
   open_issues: 1
   last_commit: '2026-11-02'
-  fetched_at: '2026-11-05T08:57:53.969122Z'
-indexed_at: '2026-11-05T09:24:58.248274Z'
+  fetched_at: '2026-11-06T08:56:38.517463Z'
+indexed_at: '2026-11-06T09:24:08.204242Z'
 ---
