@@ -29,26 +29,26 @@ category_display: 09 Meta Orchestration
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/09-meta-orchestration/performance-monitor.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/09-meta-orchestration/performance-monitor.md
-fetched_at: '2026-11-06T08:56:12.837036Z'
+fetched_at: '2026-11-07T08:18:34.347722Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-06T09:17:39.385349Z'
+  evaluated_at: '2026-11-07T08:39:39.280472Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7add3756dee0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f101c9d4680 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7add3756dee0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7f101c9d4680 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26365
-  forks: 3019
-  open_issues: 1
+  stars: 26388
+  forks: 3021
+  open_issues: 2
   last_commit: '2026-11-02'
-  fetched_at: '2026-11-06T08:56:38.517463Z'
-indexed_at: '2026-11-06T09:24:08.314869Z'
+  fetched_at: '2026-11-07T08:18:49.726840Z'
+indexed_at: '2026-11-07T08:46:02.709723Z'
 ---
