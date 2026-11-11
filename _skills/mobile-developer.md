@@ -23,38 +23,38 @@ prompt_preview: '---
   deep expertise i...'
 full_prompt_length: 11067
 tools_mentioned:
-- Jest
 - REST
+- TypeScript
+- Jest
 - rest
 - React
 - GraphQL
 - SQLite
-- TypeScript
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/mobile-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/mobile-developer.md
-fetched_at: '2026-11-10T09:15:16.543434Z'
+fetched_at: '2026-11-11T08:50:16.182257Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-10T09:17:47.332253Z'
+  evaluated_at: '2026-11-11T08:52:19.460691Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x78cedc3b5340 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x726b01db5340 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x78cedc3b5340 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x726b01db5340 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26458
-  forks: 3028
+  stars: 26480
+  forks: 3032
   open_issues: 2
   last_commit: '2026-11-02'
-  fetched_at: '2026-11-10T09:16:23.527872Z'
-indexed_at: '2026-11-10T09:43:46.267035Z'
+  fetched_at: '2026-11-11T08:50:56.984785Z'
+indexed_at: '2026-11-11T09:18:10.017076Z'
 ---

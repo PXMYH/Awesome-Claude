@@ -27,35 +27,35 @@ prompt_preview: '---
   services th...'
 full_prompt_length: 11092
 tools_mentioned:
-- Python
 - python
-- typescript
+- Python
 - TypeScript
+- typescript
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/mcp-builder/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/mcp-builder/SKILL.md
-fetched_at: '2026-11-10T09:16:08.234064Z'
+fetched_at: '2026-11-11T08:50:48.222333Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-10T09:40:37.866533Z'
+  evaluated_at: '2026-11-11T09:15:03.157064Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x78cedba5a990 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x726b01458110 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x78cedba5a990 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x726b01458110 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 191572
-  forks: 22494
-  open_issues: 1511
+  stars: 192702
+  forks: 22678
+  open_issues: 1516
   last_commit: '2026-11-06'
-  fetched_at: '2026-11-10T09:16:24.460630Z'
-indexed_at: '2026-11-10T09:43:46.686262Z'
+  fetched_at: '2026-11-11T08:50:57.626449Z'
+indexed_at: '2026-11-11T09:18:10.582453Z'
 ---

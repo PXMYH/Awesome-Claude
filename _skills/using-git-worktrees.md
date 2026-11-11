@@ -27,37 +27,37 @@ prompt_preview: '---
   **Core principle:** Detect existing isolation first....'
 full_prompt_length: 6803
 tools_mentioned:
-- Go
-- Node.js
 - go
 - pytest
 - Rust
 - Python
+- Go
+- Node.js
 category: community
 category_display: Community Skills
 source_repo: obra/superpowers
 source_path: skills/using-git-worktrees/SKILL.md
 source_url: https://github.com/obra/superpowers/blob/main/skills/using-git-worktrees/SKILL.md
-fetched_at: '2026-11-10T09:16:20.189310Z'
+fetched_at: '2026-11-11T08:50:54.825563Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-10T09:43:13.454964Z'
+  evaluated_at: '2026-11-11T09:17:37.408295Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x78cedbaf78c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x726b0145bb60 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x78cedbaf78c0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x726b0145bb60 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 315350
-  forks: 28049
-  open_issues: 335
+  stars: 315929
+  forks: 28101
+  open_issues: 338
   last_commit: '2026-11-03'
-  fetched_at: '2026-11-10T09:16:25.413685Z'
-indexed_at: '2026-11-10T09:43:46.732248Z'
+  fetched_at: '2026-11-11T08:50:58.211516Z'
+indexed_at: '2026-11-11T09:18:10.643734Z'
 ---
