@@ -27,26 +27,26 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/visual-asset-generator.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/visual-asset-generator.md
-fetched_at: '2026-11-11T08:50:34.008915Z'
+fetched_at: '2026-11-12T09:18:00.428401Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-11T09:05:33.159175Z'
+  evaluated_at: '2026-11-12T09:33:21.714809Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x726b021fcb30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x717ec866bf50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x726b021fcb30 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x717ec866bf50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26480
-  forks: 3032
-  open_issues: 2
+  stars: 26498
+  forks: 3033
+  open_issues: 3
   last_commit: '2026-11-02'
-  fetched_at: '2026-11-11T08:50:56.984785Z'
-indexed_at: '2026-11-11T09:18:10.348611Z'
+  fetched_at: '2026-11-12T09:18:35.602538Z'
+indexed_at: '2026-11-12T09:46:10.062102Z'
 ---
