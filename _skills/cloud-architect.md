@@ -23,34 +23,34 @@ prompt_preview: '---
   secure, and cost-...'
 full_prompt_length: 7092
 tools_mentioned:
-- kubernetes
-- AWS
 - Azure
+- AWS
+- kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/cloud-architect.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/cloud-architect.md
-fetched_at: '2026-11-12T09:17:42.126708Z'
+fetched_at: '2026-11-13T09:03:46.042971Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-12T09:24:49.620180Z'
+  evaluated_at: '2026-11-13T09:10:30.235698Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x717ec8b1e4e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x772e19a8dbe0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x717ec8b1e4e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x772e19a8dbe0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26498
-  forks: 3033
-  open_issues: 3
+  stars: 26521
+  forks: 3036
+  open_issues: 5
   last_commit: '2026-11-02'
-  fetched_at: '2026-11-12T09:18:35.602538Z'
-indexed_at: '2026-11-12T09:46:09.861131Z'
+  fetched_at: '2026-11-13T09:04:21.615362Z'
+indexed_at: '2026-11-13T09:31:27.710060Z'
 ---

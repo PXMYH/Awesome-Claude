@@ -22,33 +22,33 @@ prompt_preview: '---
 full_prompt_length: 4975
 tools_mentioned:
 - GCP
-- AWS
 - Azure
+- AWS
 category: 07-specialized-domains
 category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/hipaa-compliance.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/hipaa-compliance.md
-fetched_at: '2026-11-12T09:18:03.106974Z'
+fetched_at: '2026-11-13T09:03:57.049720Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-12T09:34:27.778276Z'
+  evaluated_at: '2026-11-13T09:19:59.025339Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x717ec854ac00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x772e196f8620 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x717ec854ac00 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x772e196f8620 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26498
-  forks: 3033
-  open_issues: 3
+  stars: 26521
+  forks: 3036
+  open_issues: 5
   last_commit: '2026-11-02'
-  fetched_at: '2026-11-12T09:18:35.602538Z'
-indexed_at: '2026-11-12T09:46:10.089769Z'
+  fetched_at: '2026-11-13T09:04:21.615362Z'
+indexed_at: '2026-11-13T09:31:27.881208Z'
 ---
