@@ -33,26 +33,26 @@ category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/sql-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/sql-pro.md
-fetched_at: '2026-11-13T09:03:44.976424Z'
+fetched_at: '2026-11-14T08:35:46.514942Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-13T09:09:41.450151Z'
+  evaluated_at: '2026-11-14T08:41:41.514203Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x772e19af9010 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x75c193164620 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x772e19af9010 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x75c193164620 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26521
-  forks: 3036
+  stars: 26540
+  forks: 3035
   open_issues: 5
   last_commit: '2026-11-02'
-  fetched_at: '2026-11-13T09:04:21.615362Z'
-indexed_at: '2026-11-13T09:31:27.695091Z'
+  fetched_at: '2026-11-14T08:36:22.705225Z'
+indexed_at: '2026-11-14T09:03:32.690024Z'
 ---

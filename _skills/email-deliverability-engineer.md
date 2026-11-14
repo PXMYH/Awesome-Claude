@@ -28,26 +28,26 @@ category_display: 07 Specialized Domains
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/07-specialized-domains/email-deliverability-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/07-specialized-domains/email-deliverability-engineer.md
-fetched_at: '2026-11-13T09:03:56.470571Z'
+fetched_at: '2026-11-14T08:36:00.349242Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-13T09:19:18.534080Z'
+  evaluated_at: '2026-11-14T08:51:19.050526Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x772e196fb260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x75c1927109b0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x772e196fb260 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x75c1927109b0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26521
-  forks: 3036
+  stars: 26540
+  forks: 3035
   open_issues: 5
   last_commit: '2026-11-02'
-  fetched_at: '2026-11-13T09:04:21.615362Z'
-indexed_at: '2026-11-13T09:31:27.868901Z'
+  fetched_at: '2026-11-14T08:36:22.705225Z'
+indexed_at: '2026-11-14T09:03:32.865979Z'
 ---
