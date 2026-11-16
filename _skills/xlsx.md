@@ -15,35 +15,36 @@ prompt_preview: '---
   formulas, formatting, charting, cleaning messy data); create a new spreadsheet from
   scratch or from other data sources; or convert between tabular file formats. Trigger
   especially when the user references a spreadsheet file by name or path —...'
-full_prompt_length: 8528
+full_prompt_length: 9718
 tools_mentioned:
 - python
 - Python
+- go
 category: official
 category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/xlsx/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/xlsx/SKILL.md
-fetched_at: '2026-11-14T08:36:17.206597Z'
+fetched_at: '2026-11-16T09:00:08.193978Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-14T09:01:29.861780Z'
+  evaluated_at: '2026-11-16T09:25:23.453321Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x75c19255c1a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7a6e9000f830 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x75c19255c1a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7a6e9000f830 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 194284
-  forks: 22861
-  open_issues: 1540
-  last_commit: '2026-11-06'
-  fetched_at: '2026-11-14T08:36:23.289397Z'
-indexed_at: '2026-11-14T09:03:33.054653Z'
+  stars: 195574
+  forks: 22984
+  open_issues: 1548
+  last_commit: '2026-11-14'
+  fetched_at: '2026-11-16T09:00:17.232489Z'
+indexed_at: '2026-11-16T09:27:25.884710Z'
 ---
