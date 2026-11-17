@@ -22,32 +22,32 @@ prompt_preview: '---
   infrastructure at s...'
 full_prompt_length: 8226
 tools_mentioned:
-- kubernetes
 - Azure
+- kubernetes
 category: infrastructure
 category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/terragrunt-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/terragrunt-expert.md
-fetched_at: '2026-11-16T08:59:33.134768Z'
+fetched_at: '2026-11-17T10:11:20.103592Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-16T09:08:10.274702Z'
+  evaluated_at: '2026-11-17T10:19:50.167508Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7a6e8fd6e270 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c5b0362cb30 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7a6e8fd6e270 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c5b0362cb30 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26592
-  forks: 3035
+  stars: 26613
+  forks: 3034
   open_issues: 6
   last_commit: '2026-11-02'
-  fetched_at: '2026-11-16T09:00:16.513567Z'
-indexed_at: '2026-11-16T09:27:25.456870Z'
+  fetched_at: '2026-11-17T10:11:55.732984Z'
+indexed_at: '2026-11-17T10:39:12.744964Z'

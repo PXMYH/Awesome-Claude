@@ -14,7 +14,7 @@ prompt_preview: '---
   to produce professional documents with formatting like tables of contents, headings,
   page numbers, or letterheads. Also use when extracting or reorganizing content from
   .docx or .dotx files, inserting or replacing images in documents, perfor...'
-full_prompt_length: 7397
+full_prompt_length: 7443
 tools_mentioned:
 - python
 category: official
@@ -22,26 +22,26 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/docx/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/docx/SKILL.md
-fetched_at: '2026-11-16T09:00:04.242428Z'
+fetched_at: '2026-11-17T10:11:45.957749Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-16T09:23:54.330637Z'
+  evaluated_at: '2026-11-17T10:35:39.774000Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7a6e8fdc6de0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c5b0362bc50 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7a6e8fdc6de0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c5b0362bc50 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 195574
-  forks: 22984
-  open_issues: 1548
-  last_commit: '2026-11-14'
-  fetched_at: '2026-11-16T09:00:17.232489Z'
-indexed_at: '2026-11-16T09:27:25.843187Z'
+  stars: 196349
+  forks: 23042
+  open_issues: 1549
+  last_commit: '2026-11-16'
+  fetched_at: '2026-11-17T10:11:56.355229Z'
+indexed_at: '2026-11-17T10:39:13.125219Z'
 ---

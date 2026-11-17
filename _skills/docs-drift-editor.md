@@ -28,26 +28,26 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/docs-drift-editor.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/docs-drift-editor.md
-fetched_at: '2026-11-16T08:59:42.470767Z'
+fetched_at: '2026-11-17T10:11:27.904454Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-16T09:13:10.346517Z'
+  evaluated_at: '2026-11-17T10:24:51.838526Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7a6e8fc0f0e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c5b035d70e0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7a6e8fc0f0e0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7c5b035d70e0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26592
-  forks: 3035
+  stars: 26613
+  forks: 3034
   open_issues: 6
   last_commit: '2026-11-02'
-  fetched_at: '2026-11-16T09:00:16.513567Z'
-indexed_at: '2026-11-16T09:27:25.576501Z'
+  fetched_at: '2026-11-17T10:11:55.732984Z'
+indexed_at: '2026-11-17T10:39:12.865289Z'
 ---
