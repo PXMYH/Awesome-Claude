@@ -19,26 +19,26 @@ category_display: Official Anthropic Skills
 source_repo: anthropics/skills
 source_path: skills/discernment-nudge/SKILL.md
 source_url: https://github.com/anthropics/skills/blob/main/skills/discernment-nudge/SKILL.md
-fetched_at: '2026-11-17T10:11:45.271535Z'
+fetched_at: '2026-11-18T09:44:21.339586Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-17T10:35:23.500025Z'
+  evaluated_at: '2026-11-18T10:07:55.025807Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7c5b0362d6a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7b03580768a0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7c5b0362d6a0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7b03580768a0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 196349
-  forks: 23042
-  open_issues: 1549
+  stars: 196952
+  forks: 23076
+  open_issues: 1553
   last_commit: '2026-11-16'
-  fetched_at: '2026-11-17T10:11:56.355229Z'
-indexed_at: '2026-11-17T10:39:13.118643Z'
+  fetched_at: '2026-11-18T09:44:32.552560Z'
+indexed_at: '2026-11-18T10:11:44.403031Z'
 ---
