@@ -28,26 +28,26 @@ category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/electron-pro.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/electron-pro.md
-fetched_at: '2026-11-18T09:43:40.019807Z'
+fetched_at: '2026-11-19T09:52:51.408369Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-18T09:45:13.982700Z'
+  evaluated_at: '2026-11-19T09:54:26.106017Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7b0358309220 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x79a5e3256f00 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7b0358309220 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x79a5e3256f00 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26643
+  stars: 26659
   forks: 3035
   open_issues: 6
   last_commit: '2026-11-02'
-  fetched_at: '2026-11-18T09:44:32.030257Z'
-indexed_at: '2026-11-18T10:11:43.968910Z'
+  fetched_at: '2026-11-19T09:53:43.895075Z'
+indexed_at: '2026-11-19T10:20:59.935354Z'
 ---

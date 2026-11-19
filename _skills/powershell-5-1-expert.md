@@ -30,26 +30,26 @@ category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/powershell-5.1-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/powershell-5.1-expert.md
-fetched_at: '2026-11-18T09:43:46.468161Z'
+fetched_at: '2026-11-19T09:52:57.967750Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-18T09:48:55.492377Z'
+  evaluated_at: '2026-11-19T09:58:05.667695Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7b035822f3b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x79a5e2cd4800 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7b035822f3b0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x79a5e2cd4800 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26643
+  stars: 26659
   forks: 3035
   open_issues: 6
   last_commit: '2026-11-02'
-  fetched_at: '2026-11-18T09:44:32.030257Z'
-indexed_at: '2026-11-18T10:11:44.039052Z'
+  fetched_at: '2026-11-19T09:53:43.895075Z'
+indexed_at: '2026-11-19T10:20:59.987970Z'
 ---
