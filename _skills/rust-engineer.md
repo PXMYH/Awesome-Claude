@@ -22,35 +22,35 @@ prompt_preview: '---
   ecosystem, specializing in systems programming, embedded development, and high-perfo...'
 full_prompt_length: 7626
 tools_mentioned:
-- python
-- java
-- Rust
 - rust
+- Rust
+- java
+- python
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/rust-engineer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/rust-engineer.md
-fetched_at: '2026-11-19T09:52:59.078807Z'
+fetched_at: '2026-11-20T09:40:00.984710Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-19T09:58:46.469571Z'
+  evaluated_at: '2026-11-20T09:46:06.038318Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x79a5e2cd4c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x75435720eba0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x79a5e2cd4c80 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x75435720eba0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26659
-  forks: 3035
+  stars: 26683
+  forks: 3036
   open_issues: 6
   last_commit: '2026-11-02'
-  fetched_at: '2026-11-19T09:53:43.895075Z'
-indexed_at: '2026-11-19T10:20:59.998091Z'
+  fetched_at: '2026-11-20T09:40:57.556315Z'
+indexed_at: '2026-11-20T10:08:31.943453Z'
 ---
