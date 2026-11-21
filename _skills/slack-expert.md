@@ -28,26 +28,26 @@ category_display: 06 Developer Experience
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/06-developer-experience/slack-expert.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/06-developer-experience/slack-expert.md
-fetched_at: '2026-11-20T09:40:20.684611Z'
+fetched_at: '2026-11-21T09:11:43.546502Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-20T09:55:27.366357Z'
+  evaluated_at: '2026-11-21T09:26:18.340057Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7543570f2150 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x79b492552120 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x7543570f2150 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x79b492552120 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26683
-  forks: 3036
-  open_issues: 6
+  stars: 26710
+  forks: 3039
+  open_issues: 8
   last_commit: '2026-11-02'
-  fetched_at: '2026-11-20T09:40:57.556315Z'
-indexed_at: '2026-11-20T10:08:32.176339Z'
+  fetched_at: '2026-11-21T09:12:05.129441Z'
+indexed_at: '2026-11-21T09:39:11.706913Z'
 ---
