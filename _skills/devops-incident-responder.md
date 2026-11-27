@@ -28,26 +28,26 @@ category_display: Infrastructure
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/03-infrastructure/devops-incident-responder.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/03-infrastructure/devops-incident-responder.md
-fetched_at: '2026-11-26T10:27:33.974387Z'
+fetched_at: '2026-11-27T10:30:53.070349Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-26T10:35:01.872453Z'
+  evaluated_at: '2026-11-27T10:38:06.500832Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x72af115e25d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7b77a86d7aa0 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x72af115e25d0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7b77a86d7aa0 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26785
-  forks: 3049
+  stars: 26801
+  forks: 3050
   open_issues: 10
   last_commit: '2026-11-02'
-  fetched_at: '2026-11-26T10:28:20.204945Z'
-indexed_at: '2026-11-26T10:55:31.916281Z'
+  fetched_at: '2026-11-27T10:31:27.657946Z'
+indexed_at: '2026-11-27T10:58:35.189029Z'
 ---

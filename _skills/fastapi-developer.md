@@ -23,40 +23,40 @@ prompt_preview: '---
   v2 data validation, dependency injection patterns,...'
 full_prompt_length: 6886
 tools_mentioned:
+- docker
+- WebSocket
+- pytest
+- Python
+- python
+- fastapi
 - FastAPI
 - gRPC
-- WebSocket
-- docker
-- python
 - GraphQL
-- Python
-- fastapi
-- pytest
 category: language-specialists
 category_display: Language Specialists
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/02-language-specialists/fastapi-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/02-language-specialists/fastapi-developer.md
-fetched_at: '2026-11-26T10:27:27.265075Z'
+fetched_at: '2026-11-27T10:30:47.798211Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-26T10:31:20.865905Z'
+  evaluated_at: '2026-11-27T10:34:27.693991Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x72af112d63f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7b77a872d940 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x72af112d63f0 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7b77a872d940 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26785
-  forks: 3049
+  stars: 26801
+  forks: 3050
   open_issues: 10
   last_commit: '2026-11-02'
-  fetched_at: '2026-11-26T10:28:20.204945Z'
-indexed_at: '2026-11-26T10:55:31.871860Z'
+  fetched_at: '2026-11-27T10:31:27.657946Z'
+indexed_at: '2026-11-27T10:58:35.099957Z'
 ---

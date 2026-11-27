@@ -23,37 +23,37 @@ prompt_preview: '---
   building scalable, secure, and performant backend systems....'
 full_prompt_length: 6682
 tools_mentioned:
-- Go
-- Redis
-- Node.js
 - Docker
+- Redis
+- Go
 - PostgreSQL
 - Python
+- Node.js
 category: core-development
 category_display: Core Development
 source_repo: VoltAgent/awesome-claude-code-subagents
 source_path: categories/01-core-development/backend-developer.md
 source_url: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/01-core-development/backend-developer.md
-fetched_at: '2026-11-26T10:27:22.210713Z'
+fetched_at: '2026-11-27T10:30:43.945239Z'
 evaluation:
   model: xiaomi/mimo-v2-flash:free
-  evaluated_at: '2026-11-26T10:28:46.429834Z'
+  evaluated_at: '2026-11-27T10:31:53.529577Z'
   prompt_quality:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x72af113d6570 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7b77a8ffe570 state=finished
       raised HTTPError>]'
   usefulness:
     score: 3.0
-    reasoning: 'Evaluation error: RetryError[<Future at 0x72af113d6570 state=finished
+    reasoning: 'Evaluation error: RetryError[<Future at 0x7b77a8ffe570 state=finished
       raised HTTPError>]'
   overall_rating: 3.0
   summary: Evaluation failed
   tags_suggested: []
 github_metrics:
-  stars: 26785
-  forks: 3049
+  stars: 26801
+  forks: 3050
   open_issues: 10
   last_commit: '2026-11-02'
-  fetched_at: '2026-11-26T10:28:20.204945Z'
-indexed_at: '2026-11-26T10:55:31.838208Z'
+  fetched_at: '2026-11-27T10:31:27.657946Z'
+indexed_at: '2026-11-27T10:58:35.037017Z'
 ---
